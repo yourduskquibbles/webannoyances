@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist
-! Last modified: 17 Sep 2016 15:43 UTC
+! Last modified: 12:17 PM 2016-09-17
 ! Expires: 4 days (update frequency)
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs
@@ -12,6 +12,7 @@
 ###slideOutBoxContainer
 ###slidebox
 ###social-media-box
+##.Post-social--fixed.Post-social
 ##.annotateButton.js_text-annotate.text-annotation-button.icon.icon-plus-circle.text-annotation-button-shown
 ##.connect_blue
 ##.fb-like
@@ -21,12 +22,14 @@
 ##.is-maximized.metabar--affixed.metabar--postArticle.js-metabar.u-clearfix.metabar
 ##.is-maximized.metabar--affixed.u-tintSpectrum.u-tintBgColor.metabar--hiddenWhenMinimized.metabar--tall.metabar--light.js-metabar.u-clearfix.metabar
 ##.is-maximized.metabar--affixed.u-tintSpectrum.u-tintBgColor.metabar--light.js-metabar.u-clearfix.metabar
+##.is-visible.js-postActionsBar.postActionsBar
 ##.js-postActionsBarContent.row.postActionsBar-content
 ##.notesMarkers
 ##.promoCard
 ##.share-toolbar.proxima.hide-for-small
 ##.twitter-follow-button
 ##.twitter-share-button
+##.u-marginAuto.metabar-inner.js-metabarTop
 8newsnow.com###klasSocial
 9gag.com###jsid-featured-sidebar-tail
 9gag.com##.badge-toolbar-pre.fixed-wrap-post-bar
@@ -67,7 +70,9 @@ aeon.co##.twelve.columns.social
 aftenposten.no##.widget.relatedContents.flyout.noPrint.active.instantiated
 allrecipes.com###pageFooter > .ng-scope > div:nth-of-type(2) > .loading-indicator--position
 allrecipes.com##.loading-indicator--position
+amazon.com###nav-mobile-airstream-stripe
 amazon.com###share_bar-sdl_9d17c040
+amazon.com###smart-app-banner
 amazon.com###tellAFriendBox_feature_div
 amazon.com##.show.xrayQuickView
 amazon.com.show.xrayQuickView
@@ -99,6 +104,7 @@ atr.org##.fancybox-wrap.fancybox-desktop.fancybox-type-iframe.fancybox-opened
 atr.rollcall.com###share-top
 avclub.com###h
 avproductreviews.com###dcssb-slick
+avsforum.com###tt_mobile_banner
 avsforum.com###yui_3_10_0_1_1391042800777_2420
 avsforum.com##.fb-inner
 avsforum.com##.icon-of-facebook.dispatcher-fbconnect-login.ilink
@@ -263,6 +269,7 @@ cnn.com###message
 cnn.com###mm-like-facebook
 cnn.com###mm-share-twitter
 cnn.com###nav-header
+cnn.com###nav-header > .js-skinny.js-navigation.nav
 cnn.com###nav__plain-header
 cnn.com###shareBar
 cnn.com###siBar-social-facebook
@@ -333,6 +340,7 @@ dailymail.co.uk##.share-gplus
 dailymail.co.uk##.share-twitter
 dailymail.co.uk##.shareArticles
 dailymail.co.uk##.twitter-follow-button
+dailymail.co.uk##body > div:nth-of-type(5)
 dailysignal.com##.facebook
 dailysignal.com##HEADER
 deadline.com##.fb-share-button.fb_iframe_widget
@@ -382,13 +390,6 @@ ebay.com##.sbanner
 economist.com###ec-message-3
 elitedaily.com##.stickyHeader.headerInView
 elitedaily.com##.stickyNavWrapper
-encrypted.google.com###gbw > div > .gb_T.gb_5e.gb_R.gb_6e.gb_bb > .gb_R.gb_6e.gb_cc > .gb_g.gb_vc.gb_Od.gb_4c > .gb_g.gb_ga
-encrypted.google.com###gbw > div > .gb_T.gb_8e.gb_R.gb_9e.gb_bb > .gb_R.gb_9e.gb_cc > .gb_g.gb_vc.gb_Rd.gb_7c > .gb_g.gb_ga
-encrypted.google.com###gbw > div > .gb_T.gb_8e.gb_R.gb_9e.gb_bb > .gb_R.gb_9e.gb_cc > .gb_g.gb_vc.gb_xc.gb_wc > .gb_g.gb_ga
-encrypted.google.com###gbw > div > .gb_T.gb_Le.gb_R.gb_Me.gb_9a > .gb_R.gb_Me.gb_7b > .gb_g.gb_qc.gb_zd.gb_Vc > .gb_g.gb_ga
-encrypted.google.com###gbw > div > .gb_T.gb_Xe.gb_R.gb_Ze.gb_ab > .gb_R.gb_Ze.gb_bc > .gb_g.gb_uc.gb_Md.gb_2c > .gb_g.gb_ga
-encrypted.google.com###gbw > div > .gb_T.gb_ke.gb_R.gb_le.gb_La > .gb_R.gb_le.gb_Pb > .gb_g.gb_ac.gb_2c.gb_Rb > .gb_g.gb_ga
-encrypted.google.com###gbw > div > .gb_T.gb_ne.gb_R.gb_oe.gb_La > .gb_R.gb_oe.gb_Ob > .gb_g.gb_gc.gb_8c.gb_Qb > .gb_g.gb_ga
 engadget.com###header-post-nav
 engadget.com###nav-flow
 eonline.com###HHeader
@@ -505,6 +506,7 @@ freebeacon.com##.fb-like
 freedominthe50states.org###share_widget
 freep.com##.fb_recommend
 freep.com##.toolsShare
+ft.com###barrier-dialogue
 ft.com##.WSODHoverPopupContainer
 ft.com##.insideArticleShare
 ft.com##.n-welcome-message--fixed.n-welcome-message
@@ -640,6 +642,7 @@ ibtimes.com###colorbox
 ibtimes.com##.art-social-toolbar.clearfix
 ibtimes.com##.language-block.span4
 ibtimes.com##.sticky-bar.visible-desktop.show
+ifixit.com##.smartbanner
 ign.com###header-nav
 ijr.com###masthead
 imgur.com###post-jump > .go-to-comments.box
@@ -706,9 +709,21 @@ lifehacker.com##.annotateButton.js_text-annotate.text-annotation-button.icon.ico
 lifehacker.com##.share-toolbar.proxima.hide-for-small
 limpingchicken.com###at4-share
 linkedin.com###stream-app > .stuck.stream-header
+livestrong.com###section-scroller > .step--last.step > .article_module_section.article__section__step.article-section > .js-mobile_adsense2.article_module_section
+livestrong.com###section-scroller > .step--last.step > .js-mobile_adsense.adsense_atf.article_module_section.article__section__step
+livestrong.com###smartbanner
+livestrong.com##.js-top_header.top_header > .top_header__row1
 livestrong.com##.social-tools
 lowes.com###social-share-bar
+m.ebay.com###mw-app-bnr
+m.imgur.com###header
+m.imgur.com##.buttonOIA.viewInAppLink.margin-top.center-text
+m.imgur.com##.headerContainer
+m.imgur.com##.right.viewInAppLink
+m.imgur.com##.transition.icon-arrow-right.nextItem.contextOverlay
 m.yelp.com###fullscreen-pitch
+m.yelp.com###wrap > .has-primary-contribution.biz-details.flex-box.page-content > .biz-content.biz-country-us > .biz-details-photos--above-map.biz-details-photos.section-full > .island-light.island > .photo-carousel.slider-outer > .slider > .slider-frame:nth-of-type(2) > .photo-grid > .photo-box.photo-grid-unit:nth-of-type(3) > .js-open-in-app.photo-box_overlay
+m.yelp.com###wrap > .has-primary-contribution.biz-details.flex-box.page-content > .biz-content.biz-country-us > div > .prominent-review-pitch
 m.yelp.com###wrap.js-open-in-app.photo-box_overlay
 m.yelp.com###wrap.prominent-review-pitch
 mail.google.com##.Zs
@@ -768,6 +783,7 @@ mint.com###module-offers
 mint.com###overview-right-column > .AdviceView > .advice.module.o2card
 mint.com###ozen
 mint.com##.advice.module.o2card
+mobile.nytimes.com###main-header
 mobile.nytimes.com##.growl-v2
 mobile.nytimes.com##.growl-v2-gradient
 modernfarmer.com###om-r67mpzig62-lightbox
@@ -818,6 +834,7 @@ nationaljournal.com###articlePromo
 nationaljournal.com###electionFloorPromo
 nationaljournal.com###top_header
 nationaljournal.com###walkingHeader
+nationalpost.com##header
 nationalreview.com###block-nro-block-social-links
 nationalreview.com###block-nro-block-subscribe
 nationalreview.com###cboxWrapper
@@ -1006,6 +1023,7 @@ pbs.org##.social
 pcmag.com###share-buttons
 pcmag.com###subscribe-pcmag
 phoenixnewtimes.com##.sde-shadow
+pinterest.com##.Module.AppBase.App > .appContent > .mainContainer > .Module.InterestFeedReactPage > .Module.InterestFeedReactWrapper > .Module.DenzelReactBridge > div > div:nth-of-type(1) > .AppInterstitial
 pinterest.com##.Module.AppBase.App > .appContent > .mainContainer > .Module.InterestFeedReactPage > .Module.InterestFeedReactWrapper > .Module.DenzelReactBridge > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3)
 pjmedia.com###social
 pjmedia.com##.share
@@ -1027,6 +1045,7 @@ politico.com###widgetPoliticoInPrint
 politico.com###widgetPromoCarousel
 politico.com##.content-group.story-tools
 politico.com##.follow-items.is-revealed
+politico.com##.is-stuck.sticky-content.orient-vertical.user-tools
 politico.com##.nav-politico-pro.active
 politico.com##.social-media-items
 politico.com##.social-nav
@@ -1035,6 +1054,7 @@ politico.com##.twitter-follow-button
 politico.com##.user-tools.alt-layout-vertical.sticky-content
 politico.com##.user-tools.alt-layout-vertical.sticky-content.is-active
 polygon.com###body-wrapper > .pinned.m-site-nav
+polygon.com###chorus-social-fixed
 polygon.com##.pinned.m-site-nav
 popsci.com##.panel-pane.pane-block.pane-post-social-post-social-block
 popsci.com##.panel-pane.pane-block.pane-post-social-post-social-block.bottom
@@ -1059,6 +1079,8 @@ prospect.org###header
 psmag.com###image-3
 psmag.com##.span1.psmag-sharing-column
 psmag.com##.widget_psmag_mailsocial
+quora.com###__w2_Dm98LHe_view_in_app
+quora.com###header > .fixed_header
 quora.com##.inner
 quora.com##.section.share_question
 qz.com###nav
@@ -1150,7 +1172,10 @@ seekingalpha.com###nav_container
 seekingalpha.com###nav_container_wrap
 seekingalpha.com###news_headlines
 seekingalpha.com##.fb-like
+seekingalpha.com##.in.fade.modal-backdrop
+seekingalpha.com##.in.sa-app-banner-splash-screen.ng-isolate-scope.fade.modal
 seekingalpha.com##.rta_nav.ver_e
+seekingalpha.com##.sa-app-banner-directive
 sfgate.com##.hst-articletools
 sfgate.com##.hst-articletools2
 sftimes.co##.kfm_dialog
@@ -1294,6 +1319,7 @@ theguardian.com##.share-links.page-bottom-share-links.col-8.b3.trackable-compone
 thehill.com###article-recommendation
 thehill.com###dfp-ad-mosad_1
 thehill.com###header
+thehill.com##.container-emphasised.container.header.main
 theinquirer.net###large_share_wrapper
 theinquirer.net##.below_top_search
 theinquirer.net##.contentNavi_onemore
@@ -1355,6 +1381,7 @@ thestreet.com###hoverfoot
 thestylecon.com###upprev_box
 thetimes.co.uk###tto-cookieMessage
 thetimes.co.uk###tto-cookieMessageInner
+thetimes.co.uk##.ArticlePager
 theverge.com###sticky-menu
 theverge.com##.follow-the-verge.instapaper_ignore.entry-unrelated
 theverge.com##.m-header__social
@@ -1426,6 +1453,8 @@ uploaded.net##.pico-overlay
 ups.com##.social.outdent.clearfix
 usatoday.com##.close.close-overlay
 usatoday.com##.fancybox-overlay
+usatoday.com##.fixed.header
+usatoday.com##.fixed.header > .android-smart-banner.smart-banner
 usatoday.com##.inline-share-btn.inline-share-btn-facebook
 usatoday.com##.inline-share-btn.inline-share-btn-twitter
 usatoday.com##.inline-share-tools-label
@@ -1478,6 +1507,9 @@ vocativ.com##.primary-header
 vocativ.com##.rcol
 vocativ.com##.voc-feed-thumbroll
 vocativ.com##.voc-header
+vocativ.com##.voc-main > .container > .voc-news-view > .motif-strip
+vocativ.com##.voc-main > .container > .voc-news-view > div:nth-of-type(4) > .voc-content > .voc-sticky-social-strip
+vocativ.com##header > .voc-header
 vogue.com##.text-tweet.text-tweet__template
 vox.com###chorus-social-fixed
 vox.com##.m-explainer__top-nav
@@ -1637,7 +1669,9 @@ wtop.com###voteTools
 wtop.com##.facebook
 wtop.com##.retweet
 wtop.com##.socialmedia
+wusa9.com###alert-0
 wusa9.com##.close.close-overlay
+wusa9.com##.fixed.header > .header-main
 xojane.com###follow_us_twitter-0
 xojane.com###read_janes_diary-0
 xojane.com###sharing-0
