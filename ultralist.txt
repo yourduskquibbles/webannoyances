@@ -1,11 +1,11 @@
 ! Title: Web Annoyances Ultralist
-! Last modified: 3:20 PM 2016-09-19
+! Last modified: 3:34 PM 2016-09-19
 ! Expires: 4 days (update frequency)
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs
 # and generally annoying website behavior. 
 
-! These filters  may no longer be needed
+
 ! google.com###plusone-box
 ! google.com###pmocntr2
 ! google.com###widget_bounds
@@ -14,10 +14,6 @@
 ! google.com##:xpath(/html/body/*//div[@class="gb_ga"])
 ! google.com##DIV[jstcache="105"]
 ! google.com##DIV[jstcache="106"]
-
-
-! Start Web Annoyances Filter List
-
 ###dream-box
 ###dsq-indicator-north
 ###dsq-indicator-south
@@ -1484,6 +1480,8 @@ userscripts.org##A[onclick="window.open('http://delicious.com/save?v=5&noui&jump
 userscripts.org##G:PLUSONE[href="http://userscripts.org/scripts/show/181142"]
 usnews.com##.box.bar-toolbar5
 usnews.com##.fixed.hero-sticky-bar-container
+usnews.com##.rail-sticky
+usnews.com##.right.header-banner-section-social.header-banner-section
 usnews.com##.show-for-large-up.block-loose.pad-loose.border-bottom:nth-of-type(2)
 valuewalk.com###\5f _yavli107
 valuewalk.com###desktop_text-26
