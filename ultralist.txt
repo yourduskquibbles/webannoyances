@@ -1,10 +1,22 @@
 ! Title: Web Annoyances Ultralist
-! Last modified: 12:17 PM 2016-09-17
+! Last modified: 3:20 PM 2016-09-19
 ! Expires: 4 days (update frequency)
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs
 # and generally annoying website behavior. 
 
+! These filters  may no longer be needed
+! google.com###plusone-box
+! google.com###pmocntr2
+! google.com###widget_bounds
+! google.com##.out-of-box-container
+! google.com##:xpath(.//*[@id='gbw']/div/div/div[2]/div[3]//div[@class="gb_ga"])
+! google.com##:xpath(/html/body/*//div[@class="gb_ga"])
+! google.com##DIV[jstcache="105"]
+! google.com##DIV[jstcache="106"]
+
+
+! Start Web Annoyances Filter List
 
 ###dream-box
 ###dsq-indicator-north
@@ -557,15 +569,7 @@ google.com###gbw > div > .gb_T.gb_qf.gb_R.gb_rf.gb_db > .gb_R.gb_rf.gb_ec > .gb_
 google.com###gbw > div > .gb_T.gb_rf.gb_R.gb_sf.gb_db > .gb_R.gb_sf.gb_ec > .gb_g.gb_xc.gb_Fc.gb_Ec > .gb_g.gb_ga
 google.com###gbw > div > .gb_T.gb_sf.gb_R.gb_tf.gb_db > .gb_R.gb_tf.gb_ec > .gb_g.gb_xc.gb_Fc.gb_Ec > .gb_g.gb_ga
 google.com###gbw > div > .gb_T.gb_uf.gb_R.gb_vf.gb_db > .gb_R.gb_vf.gb_ec > .gb_g.gb_xc.gb_Fc.gb_Ec > .gb_g.gb_ga
-! google.com###plusone-box
-! google.com###pmocntr2
-! google.com###widget_bounds
-! google.com##.out-of-box-container
 google.com##:xpath(.//*[@id='gbw']/div/div/div[2]//div[3][@aria-label="promo"])
-! google.com##:xpath(.//*[@id='gbw']/div/div/div[2]/div[3]//div[@class="gb_ga"])
-! google.com##:xpath(/html/body/*//div[@class="gb_ga"])
-! google.com##DIV[jstcache="105"]
-! google.com##DIV[jstcache="106"]
 googleblog.blogspot.com###sidebar-top
 googleblog.blogspot.com##.share
 govtech.com##.bk-darkgradient.hidden-phone.desktop-header
