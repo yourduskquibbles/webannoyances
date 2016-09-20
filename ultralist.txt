@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist
-! Last modified: 9:54 AM 2016-09-20
+! Last modified: 10:13 AM 2016-09-20
 ! Expires: 4 days (update frequency)
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs
@@ -302,6 +302,9 @@ cooksillustrated.com##.active.header-wrapper__sticky
 courierpress.com##.story_tools_right
 crateandbarrel.com##.ui-draggable.ui-front.ui-corner-all.ui-widget-content.ui-widget.ui-dialog
 crateandbarrel.com##.ui-front.ui-widget-overlay
+crooksandliars.com###topnav
+crooksandliars.com##.clearfix.clab-inline
+crooksandliars.com##.pn-item-prev.prev-next-item
 crutchfield.com###emailSignupOverlay
 csmonitor.com###mNav-right
 csmonitor.com###sNav
@@ -926,6 +929,7 @@ nymag.com##.subscribe
 nymag.com##.subscription
 nypost.com###highlight-share
 nypost.com###nav-wrapper
+nypost.com##.modal-trigger
 nypost.com##.sharebar.detached
 nytimes.com###HPBottom2
 nytimes.com###HPHalf
@@ -972,6 +976,7 @@ online.wsj.com##.toggleBtn
 openculture.com##.clearfix
 openculture.com##.closing-social
 outsideonline.com##.block.block-subscribe.block--with-border.shifter
+outsideonline.com##.nudger__inner
 outsideonline.com##.social.icons-custom.social--count.article-social.article-social--side
 outsports.com##.m-entry__social
 overstock.com###fb-container
@@ -1463,6 +1468,7 @@ variety.com##.module-share-tools
 vice.com###social-sidebar
 vice.com###yw0
 vice.com###yw3
+vice.com##.article-right-rail.right-rail
 vice.com##.main-nav-header
 vice.com##.post_footer_social
 vice.com##.site-header-inner
@@ -1679,7 +1685,6 @@ zerohedge.com##.js-links
 ||stream.nbcsports.com/static/img/frame/nbcsports-bg.jpg$image
 ||stream.nbcsports.com/static/img/nhl/css_images/hls/1500_stats_bg.jpg$image
 ||stream.nbcsports.com/static/img/nhl/css_images/hls/high_level_stats_bg_1500.png$image
-
 ! The following filters may no longer be needed and are temporarily disabled to determine if there is broken functionality by disabling
 ! google.com###gbw > div > .gb_T.gb_5e.gb_R.gb_6e.gb_bb > .gb_R.gb_6e.gb_cc > .gb_g.gb_vc.gb_Od.gb_4c > .gb_g.gb_ga
 ! google.com###gbw > div > .gb_T.gb_8e.gb_R.gb_9e.gb_bb > .gb_R.gb_9e.gb_cc > .gb_g.gb_vc.gb_Rd.gb_7c > .gb_g.gb_ga
