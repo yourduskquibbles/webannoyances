@@ -1,23 +1,9 @@
 ! Title: Web Annoyances Ultralist
-! Last modified: 8:51 AM 2016-09-20
+! Last modified: 9:27 AM 2016-09-20
 ! Expires: 4 days (update frequency)
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs
 # and generally annoying website behavior. 
-
-
-! These filters  may no longer be needed
-! google.com###plusone-box
-! google.com###pmocntr2
-! google.com###widget_bounds
-! google.com##.Zs
-! google.com##.out-of-box-container
-! google.com##:xpath(.//*[@id='gbw']/div/div/div[2]/div[3]//div[@class="gb_ga"])
-! google.com##:xpath(/html/body/*//div[@class="gb_ga"])
-! google.com##DIV[jstcache="105"]
-! google.com##DIV[jstcache="106"]
-! google.com##body > div:nth-of-type(7) > .nH > .nH > .aiw.w-asV.nH > .nH:nth-of-type(3) > .nH > .w-MH
-
 
 ! Start Web Annoyances Filter List
 ###dream-box
@@ -527,6 +513,7 @@ ft.com###barrier-dialogue
 ft.com##.WSODHoverPopupContainer
 ft.com##.insideArticleShare
 ft.com##.n-welcome-message--fixed.n-welcome-message
+ft.com##.o-header__top.o-header__row
 ftalphaville.ft.com###assanka_mockingbird_overlay
 ftw.usatoday.com###header
 ftw.usatoday.com###story-share-buttons
@@ -556,19 +543,6 @@ gofobo.com##.share-links-discussion
 goodsearch.com##.has-code.deal-button > .label
 google.com###ad
 google.com###ad-label
-google.com###gbw > div > .gb_T.gb_5e.gb_R.gb_6e.gb_bb > .gb_R.gb_6e.gb_cc > .gb_g.gb_vc.gb_Od.gb_4c > .gb_g.gb_ga
-google.com###gbw > div > .gb_T.gb_8e.gb_R.gb_9e.gb_bb > .gb_R.gb_9e.gb_cc > .gb_g.gb_vc.gb_Rd.gb_7c > .gb_g.gb_ga
-google.com###gbw > div > .gb_T.gb_8e.gb_R.gb_9e.gb_bb > .gb_R.gb_9e.gb_cc > .gb_g.gb_vc.gb_xc.gb_wc > .gb_g.gb_ga
-google.com###gbw > div > .gb_T.gb_Le.gb_R.gb_Me.gb_9a > .gb_R.gb_Me.gb_7b > .gb_g.gb_qc.gb_zd.gb_Vc > .gb_g.gb_ga
-google.com###gbw > div > .gb_T.gb_Xe.gb_R.gb_Ze.gb_ab > .gb_R.gb_Ze.gb_bc > .gb_g.gb_uc.gb_Md.gb_2c > .gb_g.gb_ga
-google.com###gbw > div > .gb_T.gb_je.gb_R.gb_ke.gb_Ta > .gb_R.gb_ke.gb_Qb > .gb_g.gb_ac.gb_7c.gb_wc > .gb_g.gb_ea
-google.com###gbw > div > .gb_T.gb_ke.gb_R.gb_le.gb_La > .gb_R.gb_le.gb_Pb > .gb_g.gb_ac.gb_2c.gb_Rb > .gb_g.gb_ga
-google.com###gbw > div > .gb_T.gb_ne.gb_R.gb_oe.gb_La > .gb_R.gb_oe.gb_Ob > .gb_g.gb_gc.gb_8c.gb_Qb > .gb_g.gb_ga
-google.com###gbw > div > .gb_T.gb_of.gb_R.gb_pf.gb_cb > .gb_R.gb_pf.gb_dc > .gb_g.gb_wc.gb_Ec.gb_Dc > .gb_g.gb_ga
-google.com###gbw > div > .gb_T.gb_qf.gb_R.gb_rf.gb_db > .gb_R.gb_rf.gb_ec > .gb_g.gb_xc.gb_Fc.gb_Ec > .gb_g.gb_ga
-google.com###gbw > div > .gb_T.gb_rf.gb_R.gb_sf.gb_db > .gb_R.gb_sf.gb_ec > .gb_g.gb_xc.gb_Fc.gb_Ec > .gb_g.gb_ga
-google.com###gbw > div > .gb_T.gb_sf.gb_R.gb_tf.gb_db > .gb_R.gb_tf.gb_ec > .gb_g.gb_xc.gb_Fc.gb_Ec > .gb_g.gb_ga
-google.com###gbw > div > .gb_T.gb_uf.gb_R.gb_vf.gb_db > .gb_R.gb_vf.gb_ec > .gb_g.gb_xc.gb_Fc.gb_Ec > .gb_g.gb_ga
 google.com##:xpath(.//*[@id='gbw']/div/div/div[2]//div[3][@aria-label="promo"])
 googleblog.blogspot.com###sidebar-top
 googleblog.blogspot.com##.share
@@ -1697,3 +1671,27 @@ zerohedge.com##.js-links
 ||stream.nbcsports.com/static/img/frame/nbcsports-bg.jpg$image
 ||stream.nbcsports.com/static/img/nhl/css_images/hls/1500_stats_bg.jpg$image
 ||stream.nbcsports.com/static/img/nhl/css_images/hls/high_level_stats_bg_1500.png$image
+! The following filters may no longer be needed and are temporarily disabled to determine if there is broken functionality by disabling
+! google.com###gbw > div > .gb_T.gb_5e.gb_R.gb_6e.gb_bb > .gb_R.gb_6e.gb_cc > .gb_g.gb_vc.gb_Od.gb_4c > .gb_g.gb_ga
+! google.com###gbw > div > .gb_T.gb_8e.gb_R.gb_9e.gb_bb > .gb_R.gb_9e.gb_cc > .gb_g.gb_vc.gb_Rd.gb_7c > .gb_g.gb_ga
+! google.com###gbw > div > .gb_T.gb_8e.gb_R.gb_9e.gb_bb > .gb_R.gb_9e.gb_cc > .gb_g.gb_vc.gb_xc.gb_wc > .gb_g.gb_ga
+! google.com###gbw > div > .gb_T.gb_Le.gb_R.gb_Me.gb_9a > .gb_R.gb_Me.gb_7b > .gb_g.gb_qc.gb_zd.gb_Vc > .gb_g.gb_ga
+! google.com###gbw > div > .gb_T.gb_Xe.gb_R.gb_Ze.gb_ab > .gb_R.gb_Ze.gb_bc > .gb_g.gb_uc.gb_Md.gb_2c > .gb_g.gb_ga
+! google.com###gbw > div > .gb_T.gb_je.gb_R.gb_ke.gb_Ta > .gb_R.gb_ke.gb_Qb > .gb_g.gb_ac.gb_7c.gb_wc > .gb_g.gb_ea
+! google.com###gbw > div > .gb_T.gb_ke.gb_R.gb_le.gb_La > .gb_R.gb_le.gb_Pb > .gb_g.gb_ac.gb_2c.gb_Rb > .gb_g.gb_ga
+! google.com###gbw > div > .gb_T.gb_ne.gb_R.gb_oe.gb_La > .gb_R.gb_oe.gb_Ob > .gb_g.gb_gc.gb_8c.gb_Qb > .gb_g.gb_ga
+! google.com###gbw > div > .gb_T.gb_of.gb_R.gb_pf.gb_cb > .gb_R.gb_pf.gb_dc > .gb_g.gb_wc.gb_Ec.gb_Dc > .gb_g.gb_ga
+! google.com###gbw > div > .gb_T.gb_qf.gb_R.gb_rf.gb_db > .gb_R.gb_rf.gb_ec > .gb_g.gb_xc.gb_Fc.gb_Ec > .gb_g.gb_ga
+! google.com###gbw > div > .gb_T.gb_rf.gb_R.gb_sf.gb_db > .gb_R.gb_sf.gb_ec > .gb_g.gb_xc.gb_Fc.gb_Ec > .gb_g.gb_ga
+! google.com###gbw > div > .gb_T.gb_sf.gb_R.gb_tf.gb_db > .gb_R.gb_tf.gb_ec > .gb_g.gb_xc.gb_Fc.gb_Ec > .gb_g.gb_ga
+! google.com###gbw > div > .gb_T.gb_uf.gb_R.gb_vf.gb_db > .gb_R.gb_vf.gb_ec > .gb_g.gb_xc.gb_Fc.gb_Ec > .gb_g.gb_ga
+! google.com###plusone-box
+! google.com###pmocntr2
+! google.com###widget_bounds
+! google.com##.Zs
+! google.com##.out-of-box-container
+! google.com##:xpath(.//*[@id='gbw']/div/div/div[2]/div[3]//div[@class="gb_ga"])
+! google.com##:xpath(/html/body/*//div[@class="gb_ga"])
+! google.com##DIV[jstcache="105"]
+! google.com##DIV[jstcache="106"]
+! google.com##body > div:nth-of-type(7) > .nH > .nH > .aiw.w-asV.nH > .nH:nth-of-type(3) > .nH > .w-MH
