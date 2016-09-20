@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist
-! Last modified: 9:27 AM 2016-09-20
+! Last modified: 9:54 AM 2016-09-20
 ! Expires: 4 days (update frequency)
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs
@@ -183,6 +183,8 @@ bonappetit.com##.main-site-header
 bonappetit.com##.social-toolbar
 bonappetit.com##.subscribe-box
 boston.com##.masthead__content
+bostonglobe.com###subscribe-btn
+bostonglobe.com##.bg-header__smartbar--message
 bostonglobe.com##.meter-modal-block
 bostonglobe.com##.signup-growler.growler-closed
 bostonherald.com###article-share-links
@@ -812,8 +814,10 @@ nationalreview.com###cboxWrapper
 nationalreview.com###colorbox
 nationalreview.com###newsmax-signup-block
 nationalreview.com##.block-nro-block-social-wrap
+nationalreview.com##.fixed.scrolling.fs-p9.cf.nav-fixed-top
 nationalreview.com##.nav-social-links
 nationalreview.com##.nav_wrapper_right
+nationalreview.com##.scrolling.off-phones.cf.nft-auth
 nationalreview.com##A[href="https://plus.google.com/+nationalreview"]
 nautil.us###dsq-indicator-north
 nautil.us###dsq-indicator-south
@@ -876,6 +880,7 @@ newyorker.com###rolloverAd
 newyorker.com##.author-media
 newyorker.com##.content-well-newsletter
 newyorker.com##.hamburger-dropdowns-navigation__top-level
+newyorker.com##.js-sticky-element
 newyorker.com##.utilities
 newyorker.com##.yrcomponent
 newyorker.com##UL
@@ -1069,7 +1074,9 @@ realclearpolitics.com###masthead-wrapper
 realclearpolitics.com##.addthis_toolbox.addthis_default_style
 realclearpolitics.com##.alpha-wrapper
 realclearpolitics.com##.beta_module
+realclearpolitics.com##.ndn_article_body_title
 realclearpolitics.com##.progress-bar
+realclearpolitics.com##.upNext-container
 reason.com###social1
 reason.com###social2
 reason.com##.social
@@ -1417,6 +1424,7 @@ usatoday.com##.inline-share-btn.inline-share-btn-facebook
 usatoday.com##.inline-share-btn.inline-share-btn-twitter
 usatoday.com##.inline-share-tools-label
 usatoday.com##.logoDiv.link-disclosure.attribution-disclosure-link-hybrid
+usatoday.com##.longform-flyouts.icon-shadow.icon-box
 usatoday.com##.overlay-content-arrows.overlay-content-arrows-next-wrap
 usatoday.com##.recommended-flyout-wrap
 usatoday.com##.site-header-inner-wrap.site-header-inner-wrap-fixed
@@ -1671,6 +1679,7 @@ zerohedge.com##.js-links
 ||stream.nbcsports.com/static/img/frame/nbcsports-bg.jpg$image
 ||stream.nbcsports.com/static/img/nhl/css_images/hls/1500_stats_bg.jpg$image
 ||stream.nbcsports.com/static/img/nhl/css_images/hls/high_level_stats_bg_1500.png$image
+
 ! The following filters may no longer be needed and are temporarily disabled to determine if there is broken functionality by disabling
 ! google.com###gbw > div > .gb_T.gb_5e.gb_R.gb_6e.gb_bb > .gb_R.gb_6e.gb_cc > .gb_g.gb_vc.gb_Od.gb_4c > .gb_g.gb_ga
 ! google.com###gbw > div > .gb_T.gb_8e.gb_R.gb_9e.gb_bb > .gb_R.gb_9e.gb_cc > .gb_g.gb_vc.gb_Rd.gb_7c > .gb_g.gb_ga
