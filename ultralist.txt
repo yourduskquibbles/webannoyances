@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist
-! Last modified: 8:04 AM 2016-09-21
+! Last modified: 9:28 AM 2016-09-21
 ! Expires: 4 days (update frequency)
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs
@@ -41,6 +41,8 @@
 ##.promoCard
 ##.share-toolbar.proxima.hide-for-small
 ##.site-nav-logo.distraction-free-component
+##.social-buttons
+##.social-links
 ##.social-sidebar
 ##.twitter-follow-button
 ##.twitter-share-button
@@ -70,16 +72,13 @@ abcnews.go.com##.short_bg.short_stuck
 accenture.com###WebPartWPQ8
 accenture.com###fbLike
 accenture.com##.stay-connected-master
-account.washingtonpost.com##.overlay-template
 accuweather.com###addthis_widget
 accuweather.com##.addthis_toolbox.addthis_default_style
-addons.mozilla.org###site-welcome
 aeon.co###back-top
 aeon.co###shareIconsLeftWrapper
 aeon.co##.fancybox-wrap.fancybox-desktop.fancybox-type-inline.newsletter-skin.fancybox-opened
 aeon.co##.lower-share
 aeon.co##.site-menu
-aeon.co##.social-links
 aeon.co##.sticky-wrapper.hide-for-small
 aeon.co##.twelve.columns.social
 aftenposten.no##.widget.relatedContents.flyout.noPrint.active.instantiated
@@ -100,12 +99,8 @@ anncoulter.com##.addthis_toolbox.addthis_default_style
 answers.yahoo.com###UH
 aol.com##.mpid-7
 ap.org###block-ap-misc-ap-social-media
+ap.org##.ap-mediabox-td
 ap.org##.clearfix.share-block
-apps.facebook.com##._2pi9
-apps.facebook.com##._3tf
-apps.facebook.com##.clearfix._3mqg
-apps.facebook.com##.ego_unit_container
-apps.facebook.com##.uiSideHeader.mbs.uiHeaderTopBorder.uiHeader
 arlnow.com###search-navigation
 arlnow.com###top-bar
 arlnow.com##.widget.social-media-widget
@@ -138,7 +133,6 @@ bbc.co.uk###page-bookmark-links-head
 bbc.co.uk##.section-navigation.stick
 bedbathandbeyond.com###box
 beltmag.com###popup
-beta.slashdot.org###tour-popover
 betabeat.com##.entry-bottom-share
 betabeat.com##.entry-top-share
 bgr.com###topnav
@@ -158,6 +152,12 @@ bleacherreport.com##.share-button.button.button--google-plus.button--medium
 bleacherreport.com##.share-button.button.button--reddit.button--medium
 bleacherreport.com##.share-button.button.button--twitter.button--medium
 bleacherreport.com##.share-buttons.cf.share-buttons--top
+blogspot.ca###sidebar-top
+blogspot.ca##.followgooglewrapper
+blogspot.ca##.share
+blogspot.com###HTML5
+blogspot.com###sidebar-top
+blogspot.com##.share
 bloomberg.com###adBlockerContainer
 bloomberg.com###bb-nav
 bloomberg.com###bb-nav-container
@@ -201,7 +201,6 @@ bridebox.com###widget_sp_image-15
 businessinsider.com###tray
 businessinsider.com##.contact
 businessinsider.com##.facebook.ks-byline-fb
-businessinsider.com##.fb-like
 businessinsider.com##.float-right.share-button
 businessinsider.com##.gplusone.ks-bottom-gplusone
 businessinsider.com##.gplusone.ks-byline-gplusone
@@ -229,7 +228,6 @@ buzzfeed.com###share_control
 buzzfeed.com##.c.bottom_shares
 buzzfeed.com##.pullquote_shares_wrapper
 buzzfeed.com##.share-box
-buzzfeed.com##.social-links
 buzzfeed.com##.vertical-sidebar-info.bf_dom.diy-connect
 capitolcityproject.com##.pagenav.fixedmenu
 cardpool.com##.feedback_link
@@ -237,7 +235,9 @@ cartelblog.com##.sfsi_FrntInner_chg
 cbslocal.com###cbs-site-ribbon
 cbslocal.com###cbs_social_media_promotion_widget-10
 cbslocal.com###cbs_social_media_promotion_widget-2
+cbslocal.com###facebook-likebox-5
 cbslocal.com###facebook-likebox-6
+cbslocal.com###text-36
 cbslocal.com###text-48
 cbslocal.com##.addthis_toolbox.addthis_default_style
 cbslocal.com##.follow-us
@@ -255,9 +255,6 @@ chowhound.com##.freyja_desknav_back
 chowhound.com##.freyja_notmobile.freya_beta_menu
 chowhound.com##.freyja_notmobile.infini_totop.fr_totop
 chowhound.com##.show.keep_scrolling_787799.grey.keep_scrolling
-chrome.blogspot.ca###sidebar-top
-chrome.blogspot.ca##.followgooglewrapper
-chrome.blogspot.ca##.share
 citylab.com###social-sticky
 citymetric.com###footer
 citymetric.com##.site-header.clearfix
@@ -265,9 +262,9 @@ cnbc.com###optIn-right-rail
 cnbc.com###social-tools-panel
 cnbc.com##.persistentHeader.main-header-nav
 cnet.com###connectCNET
+cnet.com###globalSocialPromoWrap
 cnet.com##.fyre-notifier-container
 cnet.com##.shareBar.inline-view
-cnet.com##.twitter-follow-button
 cnn.com###cnn_hdr-prompt
 cnn.com###message
 cnn.com###mm-like-facebook
@@ -292,7 +289,7 @@ coindesk.com##.article-share
 coindesk.com##.popup
 coindesk.com##.social
 coindesk.com##.wpsr-floatbar-float_left.wpsr-floatbar-white.wpsr-floatbar-movable.clearfix
-com##.twitter-follow-button
+com.au##.story-footer-tools.js-loaded.sticky
 commentarymagazine.com###js-sticky-contents-resize-tool
 commentarymagazine.com##.vw-post-share-box
 computerandvideogames.com##.future-cookie-bar
@@ -332,14 +329,11 @@ dailydot.com##.media
 dailydot.com##.media.sharing
 dailydot.com##.navbar-inner.hidden-phone
 dailydot.com##.navbar.navbar-inverse.navbar-fixed-top
-dailykos.com##.fb-like
-dailykos.com##.twitter-share-button
 dailymail.co.uk###content > .articleWide.cleared > .beta
 dailymail.co.uk###share-overlay
 dailymail.co.uk###share-overlay-arrow
 dailymail.co.uk###shareLinkTop
 dailymail.co.uk###textShare
-dailymail.co.uk##.fb-like
 dailymail.co.uk##.home.item.html_snippet_module
 dailymail.co.uk##.mol-previous-next-navigation_next-button
 dailymail.co.uk##.mol-previous-next-navigation_previous-button
@@ -348,7 +342,6 @@ dailymail.co.uk##.share-facebook
 dailymail.co.uk##.share-gplus
 dailymail.co.uk##.share-twitter
 dailymail.co.uk##.shareArticles
-dailymail.co.uk##.twitter-follow-button
 dailysignal.com##.facebook
 dailysignal.com##HEADER
 dailysnark.com###td-outer-wrap > .td-header-style-9.td-header-wrap
@@ -380,8 +373,6 @@ digitaljournal.com###header
 digitaljournal.com##.flleft.article-top-social
 discover.com##.global-social-footer
 discovermagazine.com##.basement
-discussion.theguardian.com##.d2-action.d2-action--facebook.d2-action--share
-discussion.theguardian.com##.d2-action.d2-action--twitter.d2-action--share
 disqus.com##.alert.realtime
 disqus.com##.realtime
 distractify.com###header
@@ -425,14 +416,18 @@ facebook.com###stream_pagelet div[id^="feed_stream_"] div[id^="substream_"] div[
 facebook.com###u_0_47
 facebook.com###u_0_h
 facebook.com###u_ps_0_0_5
+facebook.com##._2pi9
+facebook.com##._3tf
+facebook.com##.clearfix._3mqg
+facebook.com##.ego_unit_container
 facebook.com##.uiGrid._51mz.pluginConnectButtonLayoutRoot
+facebook.com##.uiSideHeader.mbs.uiHeaderTopBorder.uiHeader
 facebook.com##:xpath(//*/a[@class='uiStreamSponsoredLink']/ancestor::div[contains(concat(' ',normalize-space(@id),' '),'hyperfeed_story_id_')])
 facebook.com##:xpath(//div[@id="stream_pagelet"]//div[starts-with(@id,"hyperfeed_story_id_")][.//h6//span/text()="Sponsored"])
 facebook.com##:xpath(//div[@id="stream_pagelet"]//div[starts-with(@id,"hyperfeed_story_id_")][.//text()="Suggested Post"])
 facebook.com##div[id^="hyperfeed_story_id_"]:has(a.uiStreamSponsoredLink)
 fansided.com###FsTopNav
 fansided.com###breaking
-fantasy.nfl.com###yui_3_10_3_2_1409750259763_638
 fastcocreate.com##.people-tab.ready
 fastcodesign.com##.fadeIn.animated.navbar-brands-container
 fastcodesign.com##.nav-bar
@@ -445,10 +440,10 @@ fastcompany.com##.share-box.hide-on-print
 fatwallet.com##.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-draggable
 fatwallet.com##.ui-widget-overlay
 fatwallet.com##TD[align="right"]
+fb.com##.fb-like.wsh_pb10
 fhm.com###FHMIssueCover
 fhm.com###ctl00_Body_slideboxDiv
 fhm.com###socialButton
-filehippo.com##.social-buttons
 finance.yahoo.com###yog-hd
 firstlook.org###menu-primary
 firstlook.org##.social
@@ -488,16 +483,11 @@ foreignpolicy.com##.pull-quote-share
 foreignpolicy.com##.scrolled
 foreignpolicy.com##.side_panel
 foreignpolicy.com##.simplemodal-wrap
+foreignpolicy.com##.site_header
 foreignpolicy.com##A[href="https://www.cambeywest.com/subscribe2/?p=frp&f=paid"]
 foreignpolicy.com##DIV[style="width: 100%; margin: 0 auto; height: 890px; background: #FFF url(http://www.foreignpolicy.com/files/fp_uploaded_images/130918_takeover-bg1.png) repeat-x left top; margin-top: 0; padding-top: 0;"]
+fortune.cnn.com###smt_main
 fortune.com##.main-header
-forum.thewindowsclub.com##CENTER
-forum.xda-developers.com###footer_social
-forum.xda-developers.com###google_login
-forum.xda-developers.com###xda_header_google_login
-forum.xda-developers.com###xda_header_social
-forum.xda-developers.com##.fb-like
-forum.xda-developers.com##.share
 fox5dc.com###story-sticky-content
 fox5dc.com##.header-main
 fox5dc.com##.header-secondary
@@ -515,19 +505,15 @@ foxnews.com##.sharing
 foxnews.com##.social-count
 freebeacon.com##.columns.large-6
 freebeacon.com##.contact
-freebeacon.com##.fb-like
 freedominthe50states.org###share_widget
 freep.com##.fb_recommend
 freep.com##.toolsShare
+ft.com###assanka_mockingbird_overlay
 ft.com###barrier-dialogue
 ft.com##.WSODHoverPopupContainer
 ft.com##.insideArticleShare
 ft.com##.n-welcome-message--fixed.n-welcome-message
 ft.com##.o-header__top.o-header__row
-ftalphaville.ft.com###assanka_mockingbird_overlay
-ftw.usatoday.com###header
-ftw.usatoday.com###story-share-buttons
-ftw.usatoday.com##.fancybox-skin
 funnyordie.com###page-header
 furiousandbrave.com##.header-drawer
 fusion.net###site-header
@@ -543,11 +529,7 @@ geek.com##.socialmediabottom.fixedfooter
 getconnected.southwestwifi.com###cepgad
 gizmodo.com##.share-toolbar.proxima.hide-for-small
 globalnews.ca##.socialShare.collapsed
-gmailblog.blogspot.com###HTML5
-gmailblog.blogspot.com###sidebar-top
-gmailblog.blogspot.com##.share
 go.com##.share_like
-go.com##.twitter-share-button
 gofobo.com###feedback-tab
 gofobo.com##.node-tools-top
 gofobo.com##.share-links-discussion
@@ -567,8 +549,6 @@ gq.com##.desktop-header-search-wrapper
 gq.com##.mm-nav
 gq.com##.show.component-sub-header
 gq.com##.yrcomponent
-gq.com##A[href="https://w1.buysub.com/loc/GQM/ATGFailsafe"]
-gq.com##UL
 grandst.com###logged_out_wall
 grandst.com###share_holder
 grandst.com###site_overlay
@@ -579,10 +559,8 @@ guns.wikia.com###WikiaBarWrapper
 gunsamerica.com###enterZip2
 haaretz.com###mobiles-buttons-wrapper
 haaretz.com##.fblike
-haaretz.com##.social-links
 haaretz.com##.subscrOptWide
 haaretz.com##.verticleTabsFacebook
-harrypotter.wikia.com###WikiaBarWrapper
 harvarddesignmagazine.org###navigation-wrapper
 heatst.com###.navbar-fixed-top.fit.col-xs-12.header-top-wrapper
 hollywoodreporter.com###block-block-55
@@ -597,9 +575,6 @@ honesttea.com###NEWFooter_new
 hoover.org##.region-inner.clearfix
 hoover.org##.region.region-header-top
 hopesandfears.com##.adblock-message
-hosted.ap.org##.ap-mediabox-td
-houston.cbslocal.com###facebook-likebox-5
-houston.cbslocal.com###text-36
 huffingtonpost.com###.recirc--page.recirc--vertical.recirc--more-on.recirc--trending.recirc.loaded.js-scroll.component
 huffingtonpost.com###badges_v2_1
 huffingtonpost.com###chicklets
@@ -656,6 +631,8 @@ independent.co.uk###side
 independent.co.uk##.adblock.adblock-modal
 independent.co.uk##.column-2
 independent.co.uk##IMG[src="http://www.independent.co.uk/independent.co.uk/assets/images/Independent_apps_puff600x220.gif?v4"]
+india.com###navigation-bar
+india.com##.headersection
 indiatimes.com###TPMainDiv
 indiatimes.com##.badge_new
 infowars.com###masthead-navigation
@@ -665,7 +642,6 @@ infowars.com##.shareinpost
 infowars.com##.textsize
 interpretermag.com##.clearfix.container
 investigations.nbcnews.com##.left_ear_wrap
-investor.fb.com##.fb-like.wsh_pb10
 irishtimes.com###cookies-policy-wrapper
 irishtimes.com###newsdigest-widget
 irishtimes.com###primary-navigation
@@ -673,7 +649,6 @@ irishtimes.com##.g-plusone
 irishtimes.com##.social_article_share
 jalopnik.com##.share-toolbar.proxima.hide-for-small
 jalopnik.com##.text-annotation-footnote-wrapper
-javascript:"<html><body style='background:transparent'></body></html>"$domain=stream.nbcsports.com,subdocument
 jerusalemonline.com##.topbarstatic
 jezebel.com##.share-toolbar.proxima.hide-for-small
 joystiq.com###GH_strip
@@ -734,7 +709,6 @@ mediatrackers.org##.toolbar-social
 mensjournal.com###magazine
 mensjournal.com###stay-connected
 mensjournal.com##.social-bar.clearfix
-mensjournal.com##.social-links
 mensjournal.com##.subscribe
 mensjournal.com##.subscription-tout
 mentalfloss.com##.boxes-box-content
@@ -773,6 +747,7 @@ motherjones.com##.article-tools
 motherjones.com##.hdr-tools
 movieflix.to##.in.fade.modal-backdrop
 movieflix.to##.in.ng-scope.typo-light.mf-modal.fade.modal
+mozilla.org###site-welcome
 msn.com###subfoot
 msn.com##.Modelinfo
 msn.com##.head
@@ -830,6 +805,23 @@ nbcnews.com##.button-toggle-share
 nbcnews.com##.container-gutter
 nbcnews.com##.sitewide-header-social
 nbcnews.com##.stack-list-share
+nbcsports.com###lower-panel
+nbcsports.com###major-events
+nbcsports.com###major-events-container
+nbcsports.com###match-summary
+nbcsports.com###nbc-footer
+nbcsports.com###scoreboard
+nbcsports.com##.acc-high-lvl-stats.accordion__tab-content.summary-tab
+nbcsports.com##.blackout-target.match-scoreboard
+nbcsports.com##.clearfix.banner728-wrap
+nbcsports.com##.go-to-live-container
+nbcsports.com##.main-scoreboard
+nbcsports.com##.match-score-area
+nbcsports.com##.row.clearfix.banner-300-250
+nbcsports.com##.upper-ad-module
+nbcsports.com##.vod-tray.two-column.row:nth-of-type(5)
+nbcsports.com##.with-scoreboard-ad.scoreboard-container
+nbcsports.com##clearfix.slider-border
 nbcwashington.com##.stickyNav.nav-landing.navbar
 nbcwashington.com##.stickyNav.navbar
 newrepublic.com###fixed-header-container
@@ -846,26 +838,13 @@ newrepublic.com##.margin-paywall-count-bottom
 newrepublic.com##.modalCloseImg.simplemodal-close
 newrepublic.com##.ui.active.flipping.loader
 newrepublic.com##.ui.sticky
-news.cnet.com###globalSocialPromoWrap
-news.com.au##.story-footer-tools.js-loaded.sticky
-news.softpedia.com###ktucmdgtfwguhqgomzvhmjagotgmjpuxl
-news.trust.org###global-ticker
-news.yahoo.com###mediacontentsharebuttons
-news.yahoo.com###yog-hd
-news.yahoo.com###yui_3_9_1_1_1392664787339_1272
-news.yahoo.com##.action-bar
 newscientist.com###artTools
 newscientist.com###sharebtns
-newsfeed.time.com###social-apps
-newsfeed.time.com###time_paid_content-3
-newsfeed.time.com##.footer-header
-newsfeed.time.com##.google-ad-iframe.module
 newsmax.com###nmSocial
 newsmax.com###nmSpecialLinksWrapper
 newsmax.com###sharebar
 newsnet5.com##.navbar.navbar--tv.navbar--bg
 newsweek.com###header_subscribe
-newsweek.com###node-414939 > .article-content > .article-body > .trial-link
 newsweek.com##.affix.stickyhead
 newsweek.com##.col-md-4.page-sidebar
 newsweek.com##.hs-menu.clearfix
@@ -893,8 +872,6 @@ nfl.com###yui_3_10_3_2_1410962038385_640
 nfl.com##.yui3-nfl-rewards-drivebar-top-bar-wrapper
 nfl.com##:xpath(/html/body/*//div[@class="yui3-ff-feedback-content yui3-widget-content-expanded"])
 nflshop.com###NFLFooterContentBottomMiddleSocial
-notch.tumblr.com##.flattr
-notch.tumblr.com##.twitter-share-button
 npr.org###contentfooter
 npr.org##.facebook
 npr.org##.is-active.story-sticky-header
@@ -964,13 +941,6 @@ nytimes.com##.opinion-c-col-bottom-region.region
 nytimes.com##.sharetools
 nytimes.com##.subColumn-2.noBackground.mobilePromo.nocontent
 okcupid.com##DIV[style=" background: #142d69; padding: 14px 12px 20px; border-radius: 0 5px 5px 0;\a \9 -moz-border-radius: 0 5px 5px 0;\a \9 -webkit-border-radius: 0 5px 5px 0;\a \9  "]
-onkyousa.com##.fb-like
-online.wsj.com###subscribeNowMediumBar
-online.wsj.com##.blurred
-online.wsj.com##.c-aggregate
-online.wsj.com##.footer_bar
-online.wsj.com##.module.shareTree
-online.wsj.com##.toggleBtn
 openculture.com##.clearfix
 openculture.com##.closing-social
 outsideonline.com##.block.block-subscribe.block--with-border.shifter
@@ -1013,7 +983,6 @@ policymic.com###social-prompt-circle-slider
 policymic.com##.fb-like-container
 policymic.com##.share-facebook-twitter
 policymic.com##.share-media.share-media-side-fold.show
-policymic.com##.twitter-follow-button
 politicker.com##.entry-bottom-share
 politicker.com##.entry-top-share
 politico.com###message
@@ -1031,7 +1000,6 @@ politico.com##.nav-politico-pro.active
 politico.com##.social-media-items
 politico.com##.social-nav
 politico.com##.toolbar-main
-politico.com##.twitter-follow-button
 politico.com##.user-tools.alt-layout-vertical.sticky-content
 politico.com##.user-tools.alt-layout-vertical.sticky-content.is-active
 polygon.com###chorus-social-fixed
@@ -1039,7 +1007,7 @@ polygon.com##.pinned.m-site-nav
 popsci.com##.panel-pane.pane-block.pane-post-social-post-social-block
 popsci.com##.panel-pane.pane-block.pane-post-social-post-social-block.bottom
 popularmechanics.com###rr_soc_mid
-popularmechanics.com###sticky-wrap > .sticky.nav
+popularmechanics.com##.sticky.nav
 popularmechanics.com##.viral_tools
 postandcourier.com##.menu.main.inverted.borderless.fixed.top.ui
 pressherald.com##.mtm-utility-launch
@@ -1051,7 +1019,6 @@ priceonomics.com###sidebar-scrollfix
 priceonomics.com###social-share
 priceonomics.com##.clearfix.social-share-top
 primaryarms.com##.popup-content
-profootballtalk.nbcsports.com##.twitter-share-button
 projectcensored.org###lpl
 projectcensored.org###lpl-overlay
 prospect.org###buttons
@@ -1059,6 +1026,7 @@ prospect.org###header
 psmag.com###image-3
 psmag.com##.span1.psmag-sharing-column
 psmag.com##.widget_psmag_mailsocial
+psychologytoday.com##.flag-actions
 quora.com###__w2_Dm98LHe_view_in_app
 quora.com###header > .fixed_header
 quora.com##.inner
@@ -1108,8 +1076,6 @@ rferl.org##.boxwidget.fb-like-buttons
 rferl.org##.fb-like-buttons
 richardbrenneman.wordpress.com###bit
 roadsandkingdoms.com###titlebar
-rollcall.com###nav > div
-rollcall.com##.twitter-share-button
 rollingstone.com##.facebook.win
 rollingstone.com##.facebookLink
 rollingstone.com##.google-plus1
@@ -1152,7 +1118,6 @@ securityweek.com##DIV[style="margin-top:2px;"]
 seekingalpha.com###nav_container
 seekingalpha.com###nav_container_wrap
 seekingalpha.com###news_headlines
-seekingalpha.com##.fb-like
 seekingalpha.com##.in.fade.modal-backdrop
 seekingalpha.com##.in.sa-app-banner-splash-screen.ng-isolate-scope.fade.modal
 seekingalpha.com##.rta_nav.ver_e
@@ -1169,6 +1134,7 @@ si.com##.post-share-twitter.footer
 si.com##.social
 si.com##.ui-button.ui-button-close.small.is-fixed
 sky.com###breaking_news_ticker
+slashdot.org###tour-popover
 slate.com###article_rollup
 slate.com###header_social
 slate.com###sidebar_toggle
@@ -1183,6 +1149,7 @@ smithsonianmag.com##.header-wrapper.wrapper
 snapzu.com##.welcome
 sochi2014.com##.b-sociality-menu
 softpedia.com###cookienotif
+softpedia.com###ktucmdgtfwguhqgomzvhmjagotgmjpuxl
 softpedia.com##DIV[style="float:left; margin-left: 30px; width: 200px;"]
 southpark.wikia.com###globalNavigation
 spacenews.com###navs
@@ -1193,35 +1160,15 @@ sportsonearth.com##.share.lower-social.fixed-social
 sputniknews.com###share
 stackfield.com###DivTopBar
 staples.com###popupwin
-stream.nbcsports.com###lower-panel
-stream.nbcsports.com###major-events
-stream.nbcsports.com###major-events-container
-stream.nbcsports.com###match-summary
-stream.nbcsports.com###nbc-footer
-stream.nbcsports.com###scoreboard
-stream.nbcsports.com##.acc-high-lvl-stats.accordion__tab-content.summary-tab
-stream.nbcsports.com##.blackout-target.match-scoreboard
-stream.nbcsports.com##.clearfix.banner728-wrap
-stream.nbcsports.com##.go-to-live-container
-stream.nbcsports.com##.main-scoreboard
-stream.nbcsports.com##.match-score-area
-stream.nbcsports.com##.row.clearfix.banner-300-250
-stream.nbcsports.com##.upper-ad-module
-stream.nbcsports.com##.vod-tray.two-column.row:nth-of-type(5)
-stream.nbcsports.com##.with-scoreboard-ad.scoreboard-container
-stream.nbcsports.com##clearfix.slider-border
 streetwise.co###center-flyin
 superpages.com###box
 survey.confirmit.com##A[href="http://www.confirmit.com"]
 talater.com##.post_share.animatePadding.x
 talkingpointsmemo.com##.article-share-buttons.well.well-small
 talkingpointsmemo.com##.hits
-talkingpointsmemo.com##.twitter-follow-button
 talkradionews.com##.addthis_toolbox.addthis_default_style.addthis_
 tanga.com###social-media
-tanga.com##.social-links
 tbo.com##.tbo-connect-container
-tech.fortune.cnn.com###smt_main
 techcrunch.com##.header-fixed.header-dir-down.header-context-news.cf.header-fixed-mobile.header
 techcrunch.com##.header-social
 techcrunch.com##.social-cluster
@@ -1236,7 +1183,6 @@ techradar.com##.sharing_furniture.clearfix
 ted.com###vmrejilvmobczcqrldhzqrjekdkhdpwuywasck
 telegraph.co.uk###message
 telegraph.co.uk###shareSideContainer
-telegraph.co.uk##.twitter-follow-button
 tesla.com###sticky-footer
 the-american-interest.com###article-counter
 theappendix.net##.communicate
@@ -1249,7 +1195,6 @@ theatlantic.com##.button.contracted-visible-button[href="/subscribe/toolbargift/
 theatlantic.com##.injector-promo
 theatlantic.com##.site-header
 theatlantic.com##.social-btns
-theatlantic.com##.social-buttons
 theatlanticcities.com###message
 theaustralian.com.au##.mm-reveal.account-lightbox
 theaustralian.com.au##.share-icons-lhs.has-signin
@@ -1257,14 +1202,6 @@ thebiglead.com###header-sticky-wrapper
 thebiglead.com###story-share-buttons-old
 thebiglead.com##.img-share-overlay
 thebolditalic.com###nav-wrapper
-thecable.foreignpolicy.com###fp_nav
-thecable.foreignpolicy.com###globalPaywallWrap
-thecable.foreignpolicy.com###simplemodal-container
-thecable.foreignpolicy.com###simplemodal-overlay
-thecable.foreignpolicy.com##.side_panel
-thecable.foreignpolicy.com##.simplemodal-wrap
-thecable.foreignpolicy.com##.site_header
-thecable.foreignpolicy.com##DIV[style="width: 100%; margin: 0 auto; height: 890px; background: #FFF url(http://www.foreignpolicy.com/files/fp_uploaded_images/130918_takeover-bg1.png) repeat-x left top; margin-top: 0; padding-top: 0;"]
 thecolbertreport.cc.com###tcr-header
 theconnectivist.com##.header
 theconnectivist.com##IMG[src="http://www.theconnectivist.com/wp-content/themes/connectivist2/library/images/headers/the_connectivist-x2.png"]
@@ -1285,6 +1222,8 @@ thefederalist.com##.aside-left-social-standard
 thefiscaltimes.com###message
 theguardian.com###content-actions
 theguardian.com##.component.trackable-component.undocked-share.share-links
+theguardian.com##.d2-action.d2-action--facebook.d2-action--share
+theguardian.com##.d2-action.d2-action--twitter.d2-action--share
 theguardian.com##.email-subscription-promo.js-email-upsell.b4
 theguardian.com##.identity-noticebar.col-12.edge
 theguardian.com##.js-save-for-later.meta__save-for-later
@@ -1319,13 +1258,11 @@ thenation.com##.meerkat__content
 thenation.com##.modal.two.step
 thenextweb.com##.article-meta-wrapper
 thenextweb.com##.content-head
-thenextweb.com##.fb-like
 theonion.com##.share-tools.vertical-large
 theonion.com##.social
 thepoliticalinsider.com###imk300a
 thepoliticalinsider.com##.top-line
 thepoliticalinsider.com##.white-box
-therapists.psychologytoday.com##.flag-actions
 theregister.co.uk###top_nav
 theregister.co.uk##.article_social_btns
 thescore.com##.context-menu-row
@@ -1347,9 +1284,7 @@ thesmokinggun.com##.toolkit
 thestar.com.my###pd-embed-slider
 thestrad.com###promo-banner
 thestranger.com##.IconsAfterSearch
-thestranger.com##.fb-like
 thestranger.com##.share-tools
-thestranger.com##.twitter-share-button
 thestreet.com###hoverfoot
 thestylecon.com###upprev_box
 thetimes.co.uk###tto-cookieMessage
@@ -1372,6 +1307,7 @@ theweek.com##.black_background
 theweek.com##.col300_4free
 theweek.com##.col300_signup
 theweek.com##.nfSocial
+thewindowsclub.com##CENTER
 thewindowsclub.com##FB:LIKE[href="http://forum.thewindowsclub.com/showthread.php?t=35495"]
 thewire.com##.article-social.regular-social-buttons
 thewire.com##.follow-us.small
@@ -1379,7 +1315,6 @@ thewire.com##.header
 thewire.com##.shares
 thewire.com##.shares.bottom-only
 thewire.com##.shares.loaded
-thewire.com##.twitter-follow-button
 thinkprogress.org###slidedown
 thinkprogress.org##.facebook-like-bottom
 thinkprogress.org##.post-tools.addthis_32x32_style
@@ -1396,8 +1331,10 @@ time.com###social-apps
 time.com###time_connect-2
 time.com###time_content_partners-3
 time.com###time_paid_content-2
+time.com###time_paid_content-3
 time.com##.entry-sharing.group
 time.com##.footer-header
+time.com##.google-ad-iframe.module
 time.com##.main-header
 time.com##.top-banner
 timesofisrael.com###nl-modal
@@ -1407,17 +1344,18 @@ tmz.com###masthead-wrap
 tmz.com##.sharing-widget
 torontosun.com###popupBox
 torrentfreak.com###share
-torrentfreak.com##.twitter-follow-button
 torrentfreak.com##A[href="http://twitter.com/torrentfreak"]
 torrentfreak.com##A[href="http://www.facebook.com/torrentfreak"]
 townhall.com##.comment-alert
 travelzoo.com###signupOverlay
 travelzoo.com##.ui-widget-overlay.ui-front
 troyhunt.com##.container.header_block
+trust.org###global-ticker
 truthrevolt.org##.fancybox-overlay.fancybox-overlay-fixed
 truthrevolt.org##.field-addthis-counter-style
 truthrevolt.org##.field-addthis-default-style
 tuaw.com##.aol-share
+tumblr.com##.flattr
 tumblr.com##.is-visible.navbar
 tumblr.com##.navbar-inner
 tunein.com###premiumConversion
@@ -1425,8 +1363,11 @@ twentytwowords.com###social-bar-wide
 uploaded.net##.hg_container-area
 uploaded.net##.pico-overlay
 ups.com##.social.outdent.clearfix
+usatoday.com###header
+usatoday.com###story-share-buttons
 usatoday.com##.close.close-overlay
 usatoday.com##.fancybox-overlay
+usatoday.com##.fancybox-skin
 usatoday.com##.fixed.header
 usatoday.com##.fixed.header > .android-smart-banner.smart-banner
 usatoday.com##.inline-share-btn.inline-share-btn-facebook
@@ -1551,6 +1492,7 @@ washingtonpost.com##.module.image-promotion.component.curved
 washingtonpost.com##.nav-closed.jqmOverlay
 washingtonpost.com##.nav-open.jqmOverlay
 washingtonpost.com##.nav.nav-tabs.echo-apps-conversations-tabs.echo-apps-conversations-streamHeader.lockfixed
+washingtonpost.com##.overlay-template
 washingtonpost.com##.ripple-wrapper
 washingtonpost.com##.row.signup-module
 washingtonpost.com##.social-tools.inline
@@ -1621,8 +1563,13 @@ woot.com##.social
 wordpress.com###bit
 wsj.com###article_tools
 wsj.com###hat_tab_wsj
+wsj.com###subscribeNowMediumBar
+wsj.com##.blurred
+wsj.com##.c-aggregate
 wsj.com##.first.twitter
+wsj.com##.footer_bar
 wsj.com##.headlineSummary.about
+wsj.com##.module.shareTree
 wsj.com##.nc-exp-ad
 wsj.com##.ob_strip_container.SB_2
 wsj.com##.popC.connect.popClosed.popClose
@@ -1633,6 +1580,7 @@ wsj.com##.sliderBox > .new-hat.articlePage.mega-nav > .sector.header-wrap > .mod
 wsj.com##.sliderBox > .scrolled.stick-uNav.new-hat.articlePage.mega-nav
 wsj.com##.space-bottom.mktg-tile
 wsj.com##.temp-subscribe[href="https://subscribe.wsj.com/hpheaderlink"]
+wsj.com##.toggleBtn
 wsj.com##.topLinks.clearFix
 wsj.com##.vltSocialLinks
 wsj.com##.wsj-responsive-nav-circ-wrap
@@ -1645,6 +1593,11 @@ wtop.com##.socialmedia
 wusa9.com###alert-0
 wusa9.com##.close.close-overlay
 wusa9.com##.header-main
+xda-developers.com###footer_social
+xda-developers.com###google_login
+xda-developers.com###xda_header_google_login
+xda-developers.com###xda_header_social
+xda-developers.com##.share
 xojane.com###follow_us_twitter-0
 xojane.com###read_janes_diary-0
 xojane.com###sharing-0
@@ -1653,10 +1606,14 @@ yahoo.com###default-p_30345810-bd
 yahoo.com###get-the-app
 yahoo.com###lb-share-btns
 yahoo.com###mediacontentfollowproperty_wrapper
+yahoo.com###mediacontentsharebuttons
 yahoo.com###mediasocialbuttonseasy
 yahoo.com###so-share
+yahoo.com###yog-hd
 yahoo.com###yucs-top-bar
 yahoo.com###yui_3_9_1_1_1391032577129_1397
+yahoo.com###yui_3_9_1_1_1392664787339_1272
+yahoo.com##.action-bar
 yahoo.com##.cta-overlay
 yahoo.com##.side-buttons
 yelp.com###fullscreen-pitch
@@ -1668,8 +1625,6 @@ youtube.com##.share-panel-services
 zdnet.com###offerContainer-e651d1b3
 zdnet.com##.catfishBar
 zdnet.com##.siu-vertical-cont.focus-highlight
-zeenews.india.com###navigation-bar
-zeenews.india.com##.headersection
 zerohedge.com###site-header
 zerohedge.com##.js-l1
 zerohedge.com##.js-links
@@ -1689,7 +1644,8 @@ zerohedge.com##.js-links
 ||stream.nbcsports.com/static/img/featuredproviders/Comcast_SSO.png$image
 ||stream.nbcsports.com/static/img/frame/nbcsports-bg.jpg$image
 ||stream.nbcsports.com/static/img/nhl/css_images/hls/1500_stats_bg.jpg$image
-||stream.nbcsports.com/static/img/nhl/css_images/hls/high_level_stats_bg_1500.png$image
+||stream.nbcsports.com/static/img/nhl/css_images/hls/high_level_stats_bg_1500.png$image 
+ 
 ! The following filters may no longer be needed and are temporarily disabled to determine if there is broken functionality by disabling
 ! google.com###gbw > div > .gb_T.gb_5e.gb_R.gb_6e.gb_bb > .gb_R.gb_6e.gb_cc > .gb_g.gb_vc.gb_Od.gb_4c > .gb_g.gb_ga
 ! google.com###gbw > div > .gb_T.gb_8e.gb_R.gb_9e.gb_bb > .gb_R.gb_9e.gb_cc > .gb_g.gb_vc.gb_Rd.gb_7c > .gb_g.gb_ga
