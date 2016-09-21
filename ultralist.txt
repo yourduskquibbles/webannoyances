@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist
-! Last modified: 4:27 PM 2016-09-20
+! Last modified: 8:04 AM 2016-09-21
 ! Expires: 4 days (update frequency)
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs
@@ -14,19 +14,34 @@
 ###social-media-box
 ##.Post-social--fixed.Post-social
 ##.annotateButton.js_text-annotate.text-annotation-button.icon.icon-plus-circle.text-annotation-button-shown
+##.buttonSet--highlightMenu.buttonSet
 ##.connect_blue
 ##.fb-like
 ##.g-plusone
+##.highlight-menu.highlight-menu-active
 ##.highlightMenu--active.highlightMenu
+##.highlightMenu-arrow
+##.highlightMenu.highlightMenu--active
+##.icons.icons-read-next.post-to-post-icon
+##.is-maximized.is-transitioning.metabar--affixed.u-tintSpectrum.u-tintBgColor.metabar--tall.metabar--dark.js-metabar.u-clearfix.metabar
 ##.is-maximized.metabar--affixed.js-metabar.u-clearfix.metabar
+##.is-maximized.metabar--affixed.metabar--centered.metabar--top.js-metabar.u-clearfix.metabar
 ##.is-maximized.metabar--affixed.metabar--postArticle.js-metabar.u-clearfix.metabar
 ##.is-maximized.metabar--affixed.u-tintSpectrum.u-tintBgColor.metabar--hiddenWhenMinimized.metabar--tall.metabar--light.js-metabar.u-clearfix.metabar
 ##.is-maximized.metabar--affixed.u-tintSpectrum.u-tintBgColor.metabar--light.js-metabar.u-clearfix.metabar
+##.is-minimized.metabar--affixed.u-tintSpectrum.u-tintBgColor.metabar--tall.metabar--dark.js-metabar.u-clearfix.metabar
 ##.is-visible.js-postActionsBar.postActionsBar
 ##.js-postActionsBarContent.row.postActionsBar-content
+##.metabar.u-clearfix.metabar--bottom.metabar--bordered.metabar--social.metabar--postSecondaryBar.js-postSecondaryBar
+##.metabar.u-clearfix.metabar--bottom.metabar--opaque.metabar--bordered.metabar--social.metabar--postSecondaryBar.js-postSecondaryBar
+##.metabar.u-clearfix.metabar--top.is-onImagelessCoverPost.metabar--postArticle.metabar--affixed
+##.notes-markers
 ##.notesMarkers
+##.popover.popover--bottom.is-withTransition
 ##.promoCard
 ##.share-toolbar.proxima.hide-for-small
+##.site-nav-logo.distraction-free-component
+##.social-sidebar
 ##.twitter-follow-button
 ##.twitter-share-button
 ##.u-marginAuto.metabar-inner.js-metabarTop
@@ -112,9 +127,7 @@ avsforum.com##.ilink.icon-facebook-sharing.facebook
 avsforum.com##.ilink.icon-twitter-sharing.twitter
 backchannel.com##.buttonSet--highlightMenu.buttonSet
 backchannel.com##.highlightMenu-arrowClip
-backchannel.com##.is-maximized.metabar--affixed.u-tintSpectrum.u-tintBgColor.metabar--hiddenWhenMinimized.metabar--tall.metabar--light.js-metabar.u-clearfix.metabar
 backchannel.com##.js-postActionsBarContent.row.postActionsBar-content
-backchannel.com##.promoCard
 backstageol.com###social-box
 backstageol.com##.aligncenter.size-full.wp-image-3161
 backstageol.com##IFRAME[src="//www.facebook.com/plugins/likebox.php?href=http://www.facebook.com/backstageol&width=300&height=258&show_faces=true&colorscheme=light&stream=false&show_border=false&header=false"]
@@ -145,17 +158,6 @@ bleacherreport.com##.share-button.button.button--google-plus.button--medium
 bleacherreport.com##.share-button.button.button--reddit.button--medium
 bleacherreport.com##.share-button.button.button--twitter.button--medium
 bleacherreport.com##.share-buttons.cf.share-buttons--top
-blog.foreignpolicy.com###fp_nav
-blog.foreignpolicy.com###globalPaywallWrap
-blog.foreignpolicy.com##DIV[style="width: 100%; margin: 0 auto; height: 890px; background: #FFF url(http://www.foreignpolicy.com/files/fp_uploaded_images/130918_takeover-bg1.png) repeat-x left top; margin-top: 0; padding-top: 0;"]
-blog.guideline.com##.buttonSet--highlightMenu.buttonSet
-blog.guideline.com##.highlightMenu-arrow
-blog.guideline.com##.is-maximized.metabar--affixed.metabar--centered.metabar--top.js-metabar.u-clearfix.metabar
-blog.guideline.com##.is-visible.js-postActionsBar.postActionsBar
-blog.guideline.com##.promoCard
-blogs.indiewire.com##.social-sidebar
-blogs.wsj.com##.topLinks.clearFix
-blogs.wsj.com##DIV[style="width: 100%; text-align: center; margin-left: 100px;"]
 bloomberg.com###adBlockerContainer
 bloomberg.com###bb-nav
 bloomberg.com###bb-nav-container
@@ -432,6 +434,8 @@ fansided.com###FsTopNav
 fansided.com###breaking
 fantasy.nfl.com###yui_3_10_3_2_1409750259763_638
 fastcocreate.com##.people-tab.ready
+fastcodesign.com##.fadeIn.animated.navbar-brands-container
+fastcodesign.com##.nav-bar
 fastcompany.com###share-modal
 fastcompany.com##.ellie-awards
 fastcompany.com##.hide-on-print.share-box-wrapper
@@ -441,10 +445,6 @@ fastcompany.com##.share-box.hide-on-print
 fatwallet.com##.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-draggable
 fatwallet.com##.ui-widget-overlay
 fatwallet.com##TD[align="right"]
-features.wearemel.com##.is-maximized.is-transitioning.metabar--affixed.u-tintSpectrum.u-tintBgColor.metabar--tall.metabar--dark.js-metabar.u-clearfix.metabar
-features.wearemel.com##.is-minimized.metabar--affixed.u-tintSpectrum.u-tintBgColor.metabar--tall.metabar--dark.js-metabar.u-clearfix.metabar
-features.wearemel.com##.js-postActionsBarContent.row.postActionsBar-content
-features.wearemel.com##.promoCard
 fhm.com###FHMIssueCover
 fhm.com###ctl00_Body_slideboxDiv
 fhm.com###socialButton
@@ -470,6 +470,8 @@ foreignaffairs.com###kicker-2
 foreignpolicy.com###TB_overlay
 foreignpolicy.com###TB_window
 foreignpolicy.com###discount_promo_overlay
+foreignpolicy.com###fp_nav
+foreignpolicy.com###globalPaywallWrap
 foreignpolicy.com###logo
 foreignpolicy.com###menu
 foreignpolicy.com###nyt_popup_overlay
@@ -487,6 +489,7 @@ foreignpolicy.com##.scrolled
 foreignpolicy.com##.side_panel
 foreignpolicy.com##.simplemodal-wrap
 foreignpolicy.com##A[href="https://www.cambeywest.com/subscribe2/?p=frp&f=paid"]
+foreignpolicy.com##DIV[style="width: 100%; margin: 0 auto; height: 890px; background: #FFF url(http://www.foreignpolicy.com/files/fp_uploaded_images/130918_takeover-bg1.png) repeat-x left top; margin-top: 0; padding-top: 0;"]
 fortune.com##.main-header
 forum.thewindowsclub.com##CENTER
 forum.xda-developers.com###footer_social
@@ -498,6 +501,8 @@ forum.xda-developers.com##.share
 fox5dc.com###story-sticky-content
 fox5dc.com##.header-main
 fox5dc.com##.header-secondary
+fox5ny.com###header
+fox5ny.com##.show-for-large-up.mod-story-progress.mod-accordion.mod-wrapper
 foxnews.com###navbar-share
 foxnews.com###network
 foxnews.com###top
@@ -726,18 +731,6 @@ mcclatchydc.com###previous_wrapper
 mediatrackers.org##.social
 mediatrackers.org##.state-navigation.sticky
 mediatrackers.org##.toolbar-social
-medium.com##.highlight-menu.highlight-menu-active
-medium.com##.highlightMenu.highlightMenu--active
-medium.com##.icons.icons-read-next.post-to-post-icon
-medium.com##.is-maximized.metabar--affixed.metabar--postArticle.js-metabar.u-clearfix.metabar
-medium.com##.is-visible.js-postActionsBar.postActionsBar
-medium.com##.js-postActionsBarContent.row.postActionsBar-content
-medium.com##.metabar.u-clearfix.metabar--bottom.metabar--bordered.metabar--social.metabar--postSecondaryBar.js-postSecondaryBar
-medium.com##.metabar.u-clearfix.metabar--bottom.metabar--opaque.metabar--bordered.metabar--social.metabar--postSecondaryBar.js-postSecondaryBar
-medium.com##.metabar.u-clearfix.metabar--top.is-onImagelessCoverPost.metabar--postArticle.metabar--affixed
-medium.com##.notes-markers
-medium.com##.popover.popover--bottom.is-withTransition
-medium.com##.site-nav-logo.distraction-free-component
 mensjournal.com###magazine
 mensjournal.com###stay-connected
 mensjournal.com##.social-bar.clearfix
@@ -999,6 +992,7 @@ pando.com###social_links
 pando.com##.fyre-notifier-container
 pando.com##.share
 pando.com##.share_widgets
+pastebin.com##.cd-fade-out.cd-is-visible.cd-top
 pasted.co###captcha_box
 pasted.co###captcha_overlay
 pbs.org###frontline_newsletter_over
@@ -1113,6 +1107,7 @@ reviews.cnet.com###globalSocialPromoWrap
 rferl.org##.boxwidget.fb-like-buttons
 rferl.org##.fb-like-buttons
 richardbrenneman.wordpress.com###bit
+roadsandkingdoms.com###titlebar
 rollcall.com###nav > div
 rollcall.com##.twitter-share-button
 rollingstone.com##.facebook.win
@@ -1327,11 +1322,12 @@ thenextweb.com##.content-head
 thenextweb.com##.fb-like
 theonion.com##.share-tools.vertical-large
 theonion.com##.social
+thepoliticalinsider.com###imk300a
+thepoliticalinsider.com##.top-line
+thepoliticalinsider.com##.white-box
 therapists.psychologytoday.com##.flag-actions
 theregister.co.uk###top_nav
 theregister.co.uk##.article_social_btns
-theringer.com##.js-postActionsBarContent.row.postActionsBar-content
-theringer.com##.promoCard
 thescore.com##.context-menu-row
 thescore.com##.context-menu-wrapper
 thescore.com##.fb-messenger--collapse.fb-messenger
@@ -1501,8 +1497,6 @@ wallstreet.org##.fancybox-overlay.snp-pop-4404-overlay
 wallstreet.org##.fancybox-wrap.fancybox-desktop.fancybox-type-inline.snp-wrap.snp-pop-4404-wrap.snp-pop-theme8-wrap.fancybox-opened
 walmart.com###stickyAddtoCart
 walmart.com##.ShareWidget
-warisboring.com##.highlightMenu--active.highlightMenu
-warisboring.com##.js-postActionsBarContent.row.postActionsBar-content
 washington.cbslocal.com###cbs-site-ribbon
 washingtoncitypaper.com###at4-share
 washingtonexaminer.com###newsletter-signup-policy
@@ -1612,6 +1606,7 @@ wired.com##.slider-thumbs-wrapper.custom_y_scrollbar_thumbs
 wired.com##.social-top
 wired.com##.social_bookmarking_module
 wired.com##.subscribe.secondary
+wired.com##:xpath(.//*[@class="box-shadow-3 flex-box align-m fixed right left render-layer color-scheme-black builder-section-first builder-section-navigation builder-section-next-titleimage"])
 wisconsinrapidstribune.com###tnutybcwirgmqnxqlwewtipoaqmhwgpzhmi
 wisconsinrapidstribune.com##.toolsShare
 wjla.com###facebookShare
@@ -1638,9 +1633,11 @@ wsj.com##.sliderBox > .new-hat.articlePage.mega-nav > .sector.header-wrap > .mod
 wsj.com##.sliderBox > .scrolled.stick-uNav.new-hat.articlePage.mega-nav
 wsj.com##.space-bottom.mktg-tile
 wsj.com##.temp-subscribe[href="https://subscribe.wsj.com/hpheaderlink"]
+wsj.com##.topLinks.clearFix
 wsj.com##.vltSocialLinks
 wsj.com##.wsj-responsive-nav-circ-wrap
 wsj.com##DIV[style="background: #cc5302; margin: 0px; padding: 4px;clear:both;"]
+wsj.com##DIV[style="width: 100%; text-align: center; margin-left: 100px;"]
 wtop.com###voteTools
 wtop.com##.facebook
 wtop.com##.retweet
@@ -1692,7 +1689,8 @@ zerohedge.com##.js-links
 ||stream.nbcsports.com/static/img/featuredproviders/Comcast_SSO.png$image
 ||stream.nbcsports.com/static/img/frame/nbcsports-bg.jpg$image
 ||stream.nbcsports.com/static/img/nhl/css_images/hls/1500_stats_bg.jpg$image
-||stream.nbcsports.com/static/img/nhl/css_images/hls/high_level_stats_bg_1500.png$image! The following filters may no longer be needed and are temporarily disabled to determine if there is broken functionality by disabling
+||stream.nbcsports.com/static/img/nhl/css_images/hls/high_level_stats_bg_1500.png$image
+! The following filters may no longer be needed and are temporarily disabled to determine if there is broken functionality by disabling
 ! google.com###gbw > div > .gb_T.gb_5e.gb_R.gb_6e.gb_bb > .gb_R.gb_6e.gb_cc > .gb_g.gb_vc.gb_Od.gb_4c > .gb_g.gb_ga
 ! google.com###gbw > div > .gb_T.gb_8e.gb_R.gb_9e.gb_bb > .gb_R.gb_9e.gb_cc > .gb_g.gb_vc.gb_Rd.gb_7c > .gb_g.gb_ga
 ! google.com###gbw > div > .gb_T.gb_8e.gb_R.gb_9e.gb_bb > .gb_R.gb_9e.gb_cc > .gb_g.gb_vc.gb_xc.gb_wc > .gb_g.gb_ga
