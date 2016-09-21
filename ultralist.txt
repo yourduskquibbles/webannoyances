@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist
-! Last modified: 10:51 AM 2016-09-21
+! Last modified: 3:11 PM 2016-09-21
 ! Expires: 4 days (update frequency)
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs
@@ -543,6 +543,8 @@ govtech.com##.bk-darkgradient.hidden-phone.desktop-header
 gq.com###follow-us
 gq.com###nav-holder
 gq.com###social-hub
+gq.com##.best-reads-list-inline.best-reads-list
+gq.com##.cm-footer-component
 gq.com##.desktop-header
 gq.com##.desktop-header-container
 gq.com##.desktop-header-search-wrapper
@@ -641,6 +643,7 @@ infowars.com##.shareinpost
 infowars.com##.textsize
 interpretermag.com##.clearfix.container
 intuit.com##.WelcomeMatView
+investopedia.com##.meganav.header
 irishtimes.com###cookies-policy-wrapper
 irishtimes.com###newsdigest-widget
 irishtimes.com###primary-navigation
@@ -723,6 +726,7 @@ mint.com###module-advice
 mint.com###module-offers
 mint.com###ozen
 mint.com##.advice.module.o2card
+modernfarmer.com###fixed_nav
 modernfarmer.com###om-r67mpzig62-lightbox
 modernfarmer.com##.mf-fixednav-hidden.fix
 modernfarmer.com##.mf-postlayout-sb
@@ -1269,6 +1273,8 @@ thestrad.com###promo-banner
 thestranger.com##.IconsAfterSearch
 thestranger.com##.share-tools
 thestreet.com###hoverfoot
+thestreet.com###lower-ad-banner
+thestreet.com##.main-nav--desktop.main-nav.navbar-fixed-top.navbar
 thestylecon.com###upprev_box
 thetimes.co.uk###tto-cookieMessage
 thetimes.co.uk###tto-cookieMessageInner
@@ -1280,6 +1286,7 @@ theverge.com##.m-nav
 theverge.com##.m-nav__tabs
 theverge.com##.social-media-column.clearfix.instapaper_ignore.entry-unrelated
 theverge.com##.tab-bar-fixed.c-tab-bar
+thewalrus.ca##.do_fade_in_2.navHeader.container
 theweek.com###HPPromoBox
 theweek.com###HPSocialBox
 theweek.com###mclicksscrollouter
@@ -1425,8 +1432,11 @@ walmart.com###stickyAddtoCart
 walmart.com##.ShareWidget
 washington.cbslocal.com###cbs-site-ribbon
 washingtoncitypaper.com###at4-share
+washingtonexaminer.com###body > .col1.panel > .column
 washingtonexaminer.com###newsletter-signup-policy
 washingtonexaminer.com###newsletter_sign_up_form
+washingtonexaminer.com###region_3 > .legacy-sidebar-promo
+washingtonexaminer.com###region_3 > .subscribe-promo
 washingtonexaminer.com###sharebar
 washingtonexaminer.com##.social-bar
 washingtonexaminer.com##.social-button
@@ -1628,7 +1638,9 @@ zerohedge.com##.js-links
 ||stream.nbcsports.com/static/img/featuredproviders/Comcast_SSO.png$image
 ||stream.nbcsports.com/static/img/frame/nbcsports-bg.jpg$image
 ||stream.nbcsports.com/static/img/nhl/css_images/hls/1500_stats_bg.jpg$image
-||stream.nbcsports.com/static/img/nhl/css_images/hls/high_level_stats_bg_1500.png$image 
+||stream.nbcsports.com/static/img/nhl/css_images/hls/high_level_stats_bg_1500.png$image
+
+
 
 ! The following filters may no longer be needed and are temporarily disabled to determine if there is broken functionality by disabling
 ! google.com###gbw > div > .gb_T.gb_5e.gb_R.gb_6e.gb_bb > .gb_R.gb_6e.gb_cc > .gb_g.gb_vc.gb_Od.gb_4c > .gb_g.gb_ga
