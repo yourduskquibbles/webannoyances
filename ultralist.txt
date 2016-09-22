@@ -1,11 +1,12 @@
 ! Title: Web Annoyances Ultralist
-! Last modified: 9:23 AM 2016-09-22
+! Last modified: 12:49 PM 2016-09-22
 ! Expires: 4 days (update frequency)
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs
 # and generally annoying website behavior. 
 
 ! Start Web Annoyances Filter List
+
 ###dream-box
 ###dsq-indicator-north
 ###dsq-indicator-south
@@ -415,6 +416,8 @@ esquire.com##.social.mail
 esquire.com##.social.pin
 esquire.com##.social.tw
 esquire.com##.sticky.nav
+ethereum.org##.icon
+ethereum.org##.index
 ew.com###close-btn-wrapper
 ew.com###main-nav
 facebook.com###stream_pagelet div[id^="feed_stream_"] div[id^="substream_"] div[id^="hyperfeed_story_id_"]:has(a.uiStreamSponsoredLink)
@@ -1098,6 +1101,7 @@ sbnation.com##.m-share_selection_contextual
 sbsun.com###jBar
 schaeffersresearch.com###signupSlider
 sciencebulletin.org###header-inner
+sciencedaily.com##.navbar-custom.navbar-static.navbar-default.yamm.navbar
 scientificamerican.com###site-header
 scientificamerican.com##.is-visible.mobile-context-nav
 scientificamerican.com##.nextStoryFly
@@ -1641,7 +1645,6 @@ zerohedge.com##.js-links
 ||stream.nbcsports.com/static/img/frame/nbcsports-bg.jpg$image
 ||stream.nbcsports.com/static/img/nhl/css_images/hls/1500_stats_bg.jpg$image
 ||stream.nbcsports.com/static/img/nhl/css_images/hls/high_level_stats_bg_1500.png$image
-
 
 ! The following filters may no longer be needed and are temporarily disabled to determine if there is broken functionality by disabling
 ! google.com###gbw > div > .gb_T.gb_5e.gb_R.gb_6e.gb_bb > .gb_R.gb_6e.gb_cc > .gb_g.gb_vc.gb_Od.gb_4c > .gb_g.gb_ga
