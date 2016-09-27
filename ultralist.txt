@@ -1,5 +1,5 @@
 ! Expires: 4 days (update frequency)
-! Last modified: 12:37 PM 2016-09-27
+! Last modified: 12:50 PM 2016-09-27
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs
@@ -838,6 +838,10 @@ nbcsports.com##.with-scoreboard-ad.scoreboard-container
 nbcsports.com##clearfix.slider-border
 nbcwashington.com##.stickyNav.nav-landing.navbar
 nbcwashington.com##.stickyNav.navbar
+ndtv.com###__cricketsubscribe > .noti_bgstyle
+ndtv.com###__cricketsubscribe > .noti_wrap
+ndtv.com###showhide
+ndtv.com###sticky_navigation_wrapper
 newrepublic.com###fixed-header-container
 newrepublic.com###header-tout-become-a-member
 newrepublic.com###highlight-overlay
@@ -1661,7 +1665,7 @@ zerohedge.com###site-header
 zerohedge.com##.js-l1
 zerohedge.com##.js-links
 ||arlnow.com/wp-content/uploads/2016/05/arlington-bg-3e.jpg$image
-||cdn.defenseone.com/js/adframe.js$script,domain=www.defenseone.com
+||defenseone.com/js/adframe.js$script,domain=defenseone.com
 ||disqus.com/count.js$script
 ||disqus.com/embed.js$script,redirect=disqus.com/embed.js
 ||disqus.com/forums/*/embed.js$script,redirect=disqus.com/forums/*/embed.js
@@ -1672,6 +1676,7 @@ zerohedge.com##.js-links
 ||mint.com/sites/default/files/may-futureadvisor-welcome-mat2.html$subdocument
 ||nbc-sports.massrel.io/microsoft-live-extra-social$subdocument
 ||nbc-sports.massrel.io/nhl-live-extra-waterfall/$subdocument
+||ndtv.com/*$inline-script,domain=ndtv.com
 ||scontent-lga3-1.xx.fbcdn.net/t39.2081-0/13176377_837427143029968_1076728173_n.jpg$image
 ||stream.nbcsports.com/static/img/featuredproviders/Comcast_SSO.png$image
 ||stream.nbcsports.com/static/img/frame/nbcsports-bg.jpg$image
