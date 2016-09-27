@@ -1,9 +1,14 @@
 ! Expires: 4 days (update frequency)
-! Last modified: 12:50 PM 2016-09-27
+! Last modified: 1:00 PM 2016-09-27
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs
 # and generally annoying website behavior. 
+
+! List to Remove
+! nfl.com###yui_3_10_3_1_1389730125370_1827
+! nfl.com###yui_3_10_3_2_1410799164114_654
+! nfl.com###yui_3_10_3_2_1410962038385_640
 
 ! Start Web Annoyances Filter List
 ###dream-box
@@ -62,8 +67,8 @@
 @@||arlnow.disqus.com/count.js
 @@||arlnow.disqus.com/embed.js
 @@||disqus.com/embed.js?_=1457540*$script
-@@||loxodo-analytics.ext.nile.works/api/save$xmlhttprequest,domain=www.washingtonpost.com
-@@||staticxx.facebook.com/common/referer_frame.php$subdocument,domain=www.facebook.com
+@@||facebook.com/common/referer_frame.php$subdocument,domain=facebook.com
+@@||loxodo-analytics.ext.nile.works/api/save$xmlhttprequest,domain=washingtonpost.com
 abclocal.go.com##.fbShare
 abclocal.go.com##.links
 abclocal.go.com##.shareThis
@@ -255,6 +260,7 @@ cbsnews.com##.social.sharebar_expanded.inline-sharebar.theme-light
 cbssports.com##.siteTools.buttonBar
 cc.com###header_content
 cc.com###oo_tab_1
+cc.com###tcr-header
 chicagomag.com###reveal-bar
 chicagotribune.com##.nextgen-share-tools
 chicagotribune.com##.trb_nh
@@ -710,8 +716,8 @@ linkedin.com##.stuck.stream-header
 livestrong.com###smartbanner
 livestrong.com##.js-mobile_adsense.adsense_atf.article_module_section.article__section__step
 livestrong.com##.js-mobile_adsense2.article_module_section
-livestrong.com##.js-top_header.top_header > .top_header__row1
 livestrong.com##.social-tools
+livestrong.com##.top_header__row1
 lowes.com###social-share-bar
 luckypeach.com###masthead
 luckypeach.com##.now-reading
@@ -882,9 +888,6 @@ newyorker.com##.utilities
 newyorker.com##.yrcomponent
 newyorker.com##UL
 nfl.com###experienceUpgradePromo
-nfl.com###yui_3_10_3_1_1389730125370_1827
-nfl.com###yui_3_10_3_2_1410799164114_654
-nfl.com###yui_3_10_3_2_1410962038385_640
 nfl.com##.yui3-nfl-rewards-drivebar-top-bar-wrapper
 nfl.com##:xpath(/html/body/*//div[@class="yui3-ff-feedback-content yui3-widget-content-expanded"])
 nflshop.com###NFLFooterContentBottomMiddleSocial
@@ -992,7 +995,7 @@ pbs.org##.side_twitterfollow
 pbs.org##.social
 pcmag.com###share-buttons
 pcmag.com###subscribe-pcmag
-peta.org##.header > .row.wrapper > .js-smaller.logo > a[href="http://www.peta.org"] > img[src="http://www.peta.org/wp-content/themes/peta/images/circular-logo.svg"]
+peta.org##.js-smaller.logo
 peta.org##.sticky-banner
 peta.org##.top-bar
 phoenixnewtimes.com##.sde-shadow
@@ -1094,7 +1097,6 @@ reuters.com##.last.new-social
 reuters.com##.linkedIn
 reuters.com##.navbar-fixed-top.navbar-default.navbar.special-report-nav
 reuters.com##.twitter
-reviews.cnet.com###globalSocialPromoWrap
 rferl.org##.boxwidget.fb-like-buttons
 rferl.org##.fb-like-buttons
 roadandtrack.com##.sticky.nav
@@ -1227,7 +1229,6 @@ thebiglead.com###header-sticky-wrapper
 thebiglead.com###story-share-buttons-old
 thebiglead.com##.img-share-overlay
 thebolditalic.com###nav-wrapper
-thecolbertreport.cc.com###tcr-header
 theconnectivist.com##.header
 theconnectivist.com##IMG[src="http://www.theconnectivist.com/wp-content/themes/connectivist2/library/images/headers/the_connectivist-x2.png"]
 thedailybeast.com##.InlineNewsletter_standard.InlineNewsletter
@@ -1470,7 +1471,6 @@ wallstreet.org##.fancybox-overlay.snp-pop-4404-overlay
 wallstreet.org##.fancybox-wrap.fancybox-desktop.fancybox-type-inline.snp-wrap.snp-pop-4404-wrap.snp-pop-theme8-wrap.fancybox-opened
 walmart.com###stickyAddtoCart
 walmart.com##.ShareWidget
-washington.cbslocal.com###cbs-site-ribbon
 washingtoncitypaper.com###at4-share
 washingtonexaminer.com###body > .col1.panel > .column
 washingtonexaminer.com###header
@@ -1610,9 +1610,6 @@ wsj.com##.nc-exp-ad
 wsj.com##.ob_strip_container.SB_2
 wsj.com##.popC.connect.popClosed.popClose
 wsj.com##.scrolled.stick-uNav.new-hat.articlePage.mega-nav
-wsj.com##.sliderBox > .new-hat.articlePage.mega-nav > .sector.header-wrap > .module.masthead > .hide8.hide4.customerNav > .ready.unsubNav.signin-container.module-navigation > .temp-subscribe[href="https://subscribe.wsj.com/hpheaderlink"]
-wsj.com##.sliderBox > .new-hat.articlePage.mega-nav > .sector.header-wrap > .module.masthead > .hide8.hide4.customerNav > .ready.unsubNav.signin-container.module-navigation > .wsj-responsive-nav-circ-wrap
-wsj.com##.sliderBox > .new-hat.articlePage.mega-nav > .sector.header-wrap > .module.masthead > .hide8.hide4.customerNav > .unsubNav.signin-container.module-navigation > .wsj-responsive-nav-circ-wrap
 wsj.com##.sliderBox > .scrolled.stick-uNav.new-hat.articlePage.mega-nav
 wsj.com##.space-bottom.mktg-tile
 wsj.com##.temp-subscribe[href="https://subscribe.wsj.com/hpheaderlink"]
