@@ -1,5 +1,5 @@
 ! Expires: 4 days (update frequency)
-! Last modified: 1:38 PM 2016-09-28
+! Last modified: 2:31 PM 2016-09-28
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs
@@ -26,14 +26,14 @@
 ##.highlightMenu-arrowClip
 ##.highlightMenu.highlightMenu--active
 ##.icons.icons-read-next.post-to-post-icon
-##.is-maximized.is-transitioning.metabar--affixed.u-tintSpectrum.u-tintBgColor.metabar--tall.metabar--dark.js-metabar.u-clearfix.metabar
+##.is-maximized.is-transitioning.metabar--affixed.u-tintSpectrum.u-tintBgColor.metabar--tall.metabar--dark.js-metabar.u-clearfix.metabar:style(visibility: collapse)
 ##.is-maximized.metabar--affixed.js-metabar.u-clearfix.metabar
-##.is-maximized.metabar--affixed.metabar--centered.metabar--top.js-metabar.u-clearfix.metabar
-##.is-maximized.metabar--affixed.metabar--postArticle.js-metabar.u-clearfix.metabar
-##.is-maximized.metabar--affixed.u-tintSpectrum.u-tintBgColor.metabar--hiddenWhenMinimized.metabar--tall.metabar--dark.js-metabar.u-clearfix.metabar
-##.is-maximized.metabar--affixed.u-tintSpectrum.u-tintBgColor.metabar--hiddenWhenMinimized.metabar--tall.metabar--light.js-metabar.u-clearfix.metabar
-##.is-maximized.metabar--affixed.u-tintSpectrum.u-tintBgColor.metabar--light.js-metabar.u-clearfix.metabar
-##.is-minimized.metabar--affixed.u-tintSpectrum.u-tintBgColor.metabar--tall.metabar--dark.js-metabar.u-clearfix.metabar
+##.is-maximized.metabar--affixed.metabar--centered.metabar--top.js-metabar.u-clearfix.metabar:style(visibility: collapse)
+##.is-maximized.metabar--affixed.metabar--postArticle.js-metabar.u-clearfix.metabar:style(visibility: collapse)
+##.is-maximized.metabar--affixed.u-tintSpectrum.u-tintBgColor.metabar--hiddenWhenMinimized.metabar--tall.metabar--dark.js-metabar.u-clearfix.metabar:style(visibility: collapse)
+##.is-maximized.metabar--affixed.u-tintSpectrum.u-tintBgColor.metabar--hiddenWhenMinimized.metabar--tall.metabar--light.js-metabar.u-clearfix.metabar:style(visibility: collapse)
+##.is-maximized.metabar--affixed.u-tintSpectrum.u-tintBgColor.metabar--light.js-metabar.u-clearfix.metabar:style(visibility: collapse)
+##.is-minimized.metabar--affixed.u-tintSpectrum.u-tintBgColor.metabar--tall.metabar--dark.js-metabar.u-clearfix.metabar:style(visibility: collapse)
 ##.is-visible.js-postActionsBar.postActionsBar
 ##.js-postActionsBarContent.row.postActionsBar-content
 ##.js_top-nav-wrap.top-nav.fixed.shadow-bottom
@@ -207,7 +207,7 @@ breitbart.com###content_0_fixedshare_0_divSocialMedia
 breitbart.com###content_0_rightrail_0_ctl12_sectionSubscribe
 breitbart.com##.connect
 bridebox.com###widget_sp_image-15
-bucksfreepress.co.uk###__nq__hh
+bucksfreepress.co.uk###__nq__hh:style(visibility: collapse)
 businessinsider.com###tray
 businessinsider.com##.contact
 businessinsider.com##.facebook.ks-byline-fb
@@ -860,7 +860,9 @@ newrepublic.com##.modalCloseImg.simplemodal-close
 newrepublic.com##.ui.active.flipping.loader
 newrepublic.com##.ui.sticky
 newscientist.com###artTools
+newscientist.com###main-nav
 newscientist.com###sharebtns
+newscientist.com###tertiary-sidebar-banner
 newsmax.com###nmSocial
 newsmax.com###nmSpecialLinksWrapper
 newsmax.com###sharebar
