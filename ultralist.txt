@@ -1,11 +1,12 @@
 ! Expires: 4 days (update frequency)
-! Last modified: 10:52 AM 2016-09-29
+! Last modified: 11:29 AM 2016-09-29
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs
 # and generally annoying website behavior. 
 
 ! Start Web Annoyances Filter List
+###appIntercept
 ###dream-box
 ###dsq-indicator-north
 ###dsq-indicator-south
@@ -439,6 +440,8 @@ esquire.com##.social.tw
 esquire.com##.sticky.nav
 ethereum.org##.icon
 ethereum.org##.index
+etsy.com##.on.banner_page_type_search.tall.grey-banner.smart-banner
+etsy.com##.on.banner_page_type_view_listing.tall.grey-banner.smart-banner
 ew.com###close-btn-wrapper
 ew.com###main-nav
 facebook.com###stream_pagelet div[id^="feed_stream_"] div[id^="substream_"] div[id^="hyperfeed_story_id_"]:has(a.uiStreamSponsoredLink)
@@ -835,6 +838,9 @@ nbcnews.com##.container-gutter
 nbcnews.com##.left_ear_wrap
 nbcnews.com##.sitewide-header-social
 nbcnews.com##.stack-list-share
+nbcnewyork.com###pageContainerScroll > .body-container > .header
+nbcnewyork.com##.nav-carousel
+nbcnewyork.com##.swiper-container-android.swiper-container-horizontal.quick-nav
 nbcsports.com###lower-panel
 nbcsports.com###major-events
 nbcsports.com###major-events-container
@@ -1408,6 +1414,7 @@ tumblr.com##.is-visible.navbar
 tumblr.com##.navbar-inner
 tunein.com###premiumConversion
 twentytwowords.com###social-bar-wide
+twitter.com##.u-cf.OpenInAppBar
 unpatent.co##.is-maximized.metabar--affixed.js-metabar.u-clearfix.metabar
 uploaded.net##.hg_container-area
 uploaded.net##.pico-overlay
