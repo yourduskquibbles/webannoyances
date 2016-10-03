@@ -1,5 +1,5 @@
 ! Expires: 4 days (update frequency)
-! Last modified: 11:21 AM 2016-10-03
+! Last modified: 2:27 PM 2016-10-03
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs
@@ -378,6 +378,7 @@ dailymail.co.uk##.share-facebook
 dailymail.co.uk##.share-gplus
 dailymail.co.uk##.share-twitter
 dailymail.co.uk##.shareArticles
+dailymail.co.uk##:xpath(.//*[@id="stickyBanner"])
 dailysignal.com##.facebook
 dailysignal.com##HEADER
 dailysnark.com###td-outer-wrap > .td-header-style-9.td-header-wrap
@@ -492,6 +493,7 @@ fatwallet.com##.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-draggable
 fatwallet.com##.ui-widget-overlay
 fatwallet.com##TD[align="right"]
 fb.com##.fb-like.wsh_pb10
+features.wearemel.com##.js-promo.promo--postFooter.promo
 fhm.com###FHMIssueCover
 fhm.com###ctl00_Body_slideboxDiv
 fhm.com###socialButton
@@ -761,6 +763,8 @@ lowes.com###social-share-bar
 luckypeach.com###masthead
 luckypeach.com##.now-reading
 luckypeach.com##.sidebar-wrapper
+m.huffpost.com##.header-container
+m.reddit.com##.TopNav
 mailtribune.com###loginBarBtm
 marketwatch.com###sitenav
 marketwatch.com###storytoolsplaceholder
@@ -1212,8 +1216,10 @@ sfglobe##.kfm_dialog_overlay
 si.com###siBar-social-facebook
 si.com###siBar-social-twitter
 si.com##.article-utilities-body
+si.com##.desktop-only.secondary.container
 si.com##.post-share-facebook.footer
 si.com##.post-share-twitter.footer
+si.com##.primary.container
 si.com##.social
 si.com##.ui-button.ui-button-close.small.is-fixed
 sky.com###breaking_news_ticker
