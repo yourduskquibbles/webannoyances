@@ -1,5 +1,5 @@
 ! Expires: 4 days (update frequency)
-! Last modified: 2:27 PM 2016-10-03
+! Last modified: 8:54 AM 2016-10-04
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs
@@ -101,6 +101,7 @@ aeon.co##.site-menu
 aeon.co##.sticky-wrapper.hide-for-small
 aeon.co##.twelve.columns.social
 aftenposten.no##.widget.relatedContents.flyout.noPrint.active.instantiated
+aljazeera.com##.m-showgrid.ta-showgrid.t-showgrid.d-showgrid.da-showgrid
 allrecipes.com##.loading-indicator--position
 amazon.com###nav-mobile-airstream-stripe
 amazon.com###share_bar-sdl_9d17c040
@@ -123,6 +124,7 @@ ap.org##.clearfix.share-block
 arlnow.com###search-navigation
 arlnow.com###top-bar
 arlnow.com##.widget.social-media-widget
+arstechnica.com###mobile-masthead
 arstechnica.com##.site-wrapper > .scrolled-up.is_stuck.site-header
 arstechnica.com##UL
 articles.chicagotribune.com###row-socials-list
@@ -379,6 +381,7 @@ dailymail.co.uk##.share-gplus
 dailymail.co.uk##.share-twitter
 dailymail.co.uk##.shareArticles
 dailymail.co.uk##:xpath(.//*[@id="stickyBanner"])
+dailymail.co.uk##body > div:nth-of-type(8)
 dailysignal.com##.facebook
 dailysignal.com##HEADER
 dailysnark.com###td-outer-wrap > .td-header-style-9.td-header-wrap
@@ -463,6 +466,7 @@ evonomics.com##.optshorts
 evonomics.com##.us_skin_default.us_tac.us_share_buttons.us_wrapper
 ew.com###close-btn-wrapper
 ew.com###main-nav
+expatsoftware.com##.subscribe-footer
 facebook.com###stream_pagelet div[id^="feed_stream_"] div[id^="substream_"] div[id^="hyperfeed_story_id_"]:has(a.uiStreamSponsoredLink)
 facebook.com###u_0_47
 facebook.com###u_0_h
@@ -582,6 +586,8 @@ geek.com###menu
 geek.com##.socialmediabottom.fixedfooter
 geekdad.com##:xpath(.//*[@data-alias="Navigation"])
 getconnected.southwestwifi.com###cepgad
+glamour.com###react-app > .default.page-container > .g-mobile.component-newsletters
+glamour.com##.site-header
 globalnews.ca##.socialShare.collapsed
 go.com##.share_like
 gofobo.com###feedback-tab
@@ -787,6 +793,8 @@ mensjournal.com##.social-bar.clearfix
 mensjournal.com##.subscribe
 mensjournal.com##.subscription-tout
 mentalfloss.com##.boxes-box-content
+metro.co.uk###masthead
+metro.co.uk###we-need-monies
 metro.co.uk##.fixed-element-widget-top.is-visible
 metro.co.uk##.share-btn.facebook
 metro.co.uk##.share-btn.google
@@ -805,6 +813,7 @@ modernfarmer.com##.mf-fixednav-hidden.fix
 modernfarmer.com##.mf-postlayout-sb
 modernfarmer.com##.unstyled.mf-footer-social.fix
 modernfarmer.com##.unstyled.mf-single-article-share.fix
+moralmachine.mit.edu##.navbar-fixed-top.navbar-inverse.navbar
 motherjones.com###block-block-222
 motherjones.com###block-block-506
 motherjones.com###bottom-donate
@@ -1635,6 +1644,7 @@ wikia.com###WikiaBarWrapper
 wikia.com###globalNavigation
 wikihow.com###follow_table
 wikihow.com###sliderbox
+wired.co.uk##.is-stuck.n-main__sticker-child
 wired.com###.marg-b-med.sidebar-rad.box.rad
 wired.com###blog-follow-wrapper
 wired.com###global-header
