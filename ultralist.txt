@@ -1,11 +1,31 @@
 ! Expires: 4 days (update frequency)
-! Last modified: 2:50 PM 2016-10-24
+! Last modified: 12:50 PM 2016-10-26
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs
 # and generally annoying website behavior. 
 
+
+! 2016-10-26 check this on mobile browser
+! http://www.thedailybeast.com/articles/2016/10/25/at-t-is-spying-on-americans-for-profit.html?via=desktop&source=Reddit
+! thedailybeast.com###aibh69e
+
 ! Start Web Annoyances Filter List
+nationalenquirer.com###main-header
+snmidatlantic.com###nbcsports-primary-nav
+cbs46.com###WNNavSearchSwitch
+m.csmonitor.com###csm_header_container
+post-gazette.com###toolbar
+montereyherald.com###story_window > .article.toolbar
+forbes.com##.show.slash-background.article-sidebar
+forbes.com##.beta-bar-gallery.beta-bar
+fox6now.com###actionbar
+m.independent.ie##.root-a > header
+m.independent.ie##.root-a > section > .sharesnap.story-a > .p402_hide:nth-of-type(1) > .share-b > ul:nth-of-type(2)
+theconversation.com###page-wrapper > div:nth-of-type(1) > .topbar-mobile-newsletter-signup
+totalfratmove.com###nav-bar
+totalfratmove.com###mobile-bottom-ad
+thedailybeast.com###react-mount-point > .ArticlePage > .PageHeader.head > .MobileNav
 ###appIntercept
 ###dream-box
 ###dsq-indicator-north
