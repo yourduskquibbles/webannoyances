@@ -1,35 +1,12 @@
 ! Expires: 4 days (update frequency)
-! Last modified: 3:23 PM 2016-10-26
+! Last modified: 9:32 AM 2016-10-27
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs
 # and generally annoying website behavior. 
 
 
-! 2016-10-26 check this on mobile browser
-! http://www.thedailybeast.com/articles/2016/10/25/at-t-is-spying-on-americans-for-profit.html?via=desktop&source=Reddit
-! thedailybeast.com###aibh69e
-
 ! Start Web Annoyances Filter List
-ua-magazine.com##.move.sticky.menu_container
-wsj.com###wsj_header
-theonion.com###h
-glassdoor.com###EmpSolutionsTab
-nationalenquirer.com###main-header
-snmidatlantic.com###nbcsports-primary-nav
-cbs46.com###WNNavSearchSwitch
-m.csmonitor.com###csm_header_container
-post-gazette.com###toolbar
-montereyherald.com###story_window > .article.toolbar
-forbes.com##.show.slash-background.article-sidebar
-forbes.com##.beta-bar-gallery.beta-bar
-fox6now.com###actionbar
-m.independent.ie##.root-a > header
-m.independent.ie##.root-a > section > .sharesnap.story-a > .p402_hide:nth-of-type(1) > .share-b > ul:nth-of-type(2)
-theconversation.com###page-wrapper > div:nth-of-type(1) > .topbar-mobile-newsletter-signup
-totalfratmove.com###nav-bar
-totalfratmove.com###mobile-bottom-ad
-thedailybeast.com###react-mount-point > .ArticlePage > .PageHeader.head > .MobileNav
 ###appIntercept
 ###dream-box
 ###dsq-indicator-north
@@ -296,6 +273,7 @@ c4isrnet.com###page-content > .js-pubsub-module.has-secondary-nav.layout-module.
 capitolcityproject.com##.pagenav.fixedmenu
 cardpool.com##.feedback_link
 cartelblog.com##.sfsi_FrntInner_chg
+cbs46.com###WNNavSearchSwitch
 cbslocal.com###cbs-site-ribbon
 cbslocal.com###cbs_social_media_promotion_widget-10
 cbslocal.com###cbs_social_media_promotion_widget-2
@@ -570,8 +548,10 @@ food.com##.navbar-header
 food.com##.top-offset.stick.fd-next-recipe
 foodbeast.com##HEADER
 fool.com###horizontal_bottom_toolbox
+forbes.com##.beta-bar-gallery.beta-bar
 forbes.com##.flyer_ui
 forbes.com##.mini_header
+forbes.com##.show.slash-background.article-sidebar
 forbes.com##NAV
 foreignaffairs.com###kicker-2
 foreignpolicy.com###main-nav-target
@@ -588,6 +568,7 @@ fox5dc.com##.header-main
 fox5dc.com##.header-secondary
 fox5ny.com###header
 fox5ny.com##.show-for-large-up.mod-story-progress.mod-accordion.mod-wrapper
+fox6now.com###actionbar
 foxnews.com###navbar-share
 foxnews.com###network
 foxnews.com###top
@@ -630,6 +611,7 @@ geekdad.com##:xpath(.//*[@data-alias="Navigation"])
 getconnected.southwestwifi.com###cepgad
 glamour.com###react-app > .default.page-container > .g-mobile.component-newsletters
 glamour.com##.site-header
+glassdoor.com###EmpSolutionsTab
 globalnews.ca##.socialShare.collapsed
 go.com##.share_like
 gofobo.com###feedback-tab
@@ -828,7 +810,10 @@ lowes.com###social-share-bar
 luckypeach.com###masthead
 luckypeach.com##.now-reading
 luckypeach.com##.sidebar-wrapper
+m.csmonitor.com###csm_header_container
 m.huffpost.com##.header-container
+m.independent.ie##.root-a > header
+m.independent.ie##.root-a > section > .sharesnap.story-a > .p402_hide:nth-of-type(1) > .share-b > ul:nth-of-type(2)
 m.reddit.com##.TopNav
 mailtribune.com###loginBarBtm
 marketwatch.com###sitenav
@@ -878,6 +863,7 @@ modernfarmer.com##.unstyled.mf-footer-social.fix
 modernfarmer.com##.unstyled.mf-single-article-share.fix
 money.cnn.com###notice_banner
 money.cnn.com##.ng-scope.clear
+montereyherald.com###story_window > .article.toolbar
 moralmachine.mit.edu##.navbar-fixed-top.navbar-inverse.navbar
 motherjones.com###block-block-222
 motherjones.com###block-block-506
@@ -1172,6 +1158,7 @@ popsci.com##.panel-pane.pane-block.pane-post-social-post-social-block.bottom
 popularmechanics.com###rr_soc_mid
 popularmechanics.com##.sticky.nav
 popularmechanics.com##.viral_tools
+post-gazette.com###toolbar
 postandcourier.com##.menu.main.inverted.borderless.fixed.top.ui
 pressherald.com##.mtm-utility-launch
 pressherald.com##.paywall-callout
@@ -1340,6 +1327,7 @@ slickdeals.net##.social_dd
 smithsonianmag.com##.circulation-subscribe.right-sidebar-article.module.plugin-wrapper
 smithsonianmag.com##.header-wrapper.wrapper
 snapzu.com##.welcome
+snmidatlantic.com###nbcsports-primary-nav
 snopes.com##.sticky-header-offset.gpu-acceleration.main-container > .sticky-active.sticky.compact.clearfix.header
 sochi2014.com##.b-sociality-menu
 sociable.co###nav-wrap
@@ -1406,7 +1394,9 @@ thebolditalic.com###nav-wrapper
 thecipherbrief.com###header
 theconnectivist.com##.header
 theconnectivist.com##IMG[src="http://www.theconnectivist.com/wp-content/themes/connectivist2/library/images/headers/the_connectivist-x2.png"]
+theconversation.com###page-wrapper > div:nth-of-type(1) > .topbar-mobile-newsletter-signup
 thecooperreview.com###sticky_header
+thedailybeast.com###react-mount-point > .ArticlePage > .PageHeader.head > .MobileNav
 thedailybeast.com##.InlineNewsletter_standard.InlineNewsletter
 thedailybeast.com##.header.header-2.clearfix
 thedailybeast.com##.sidebar
@@ -1462,6 +1452,7 @@ thenation.com##.modal.two.step
 thenewinquiry.com###sideline
 thenextweb.com##.article-meta-wrapper
 thenextweb.com##.content-head
+theonion.com###h
 theonion.com##.share-tools.vertical-large
 theonion.com##.social
 thepoliticalinsider.com###imk300a
@@ -1563,6 +1554,8 @@ torrentfreak.com###logo
 torrentfreak.com###share
 torrentfreak.com##A[href="http://twitter.com/torrentfreak"]
 torrentfreak.com##A[href="http://www.facebook.com/torrentfreak"]
+totalfratmove.com###mobile-bottom-ad
+totalfratmove.com###nav-bar
 townandcountrymag.com##.content-nav-active.sticky.nav
 townhall.com###container > nav
 townhall.com###thm-nav-sm
@@ -1585,6 +1578,7 @@ tunein.com###premiumConversion
 twentytwowords.com###social-bar-wide
 twitlonger.com##.navbar-fixed-top.navbar
 twitter.com##.u-cf.OpenInAppBar
+ua-magazine.com##.move.sticky.menu_container
 unpatent.co##.is-maximized.metabar--affixed.js-metabar.u-clearfix.metabar
 upi.com###p_header
 uploaded.net##.hg_container-area
@@ -1815,6 +1809,7 @@ wsj.com###article_tools
 wsj.com###hat_tab_wsj
 wsj.com###ncExpTools
 wsj.com###subscribeNowMediumBar
+wsj.com###wsj_header
 wsj.com##.blurred
 wsj.com##.c-aggregate
 wsj.com##.first.twitter
