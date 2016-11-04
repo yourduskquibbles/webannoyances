@@ -1,5 +1,5 @@
 ! Expires: 4 days (update frequency)
-! Last modified: 10:08 AM 2016-11-04
+! Last modified: 11:18 AM 2016-11-04
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs
@@ -44,6 +44,14 @@
 ##.twitter-follow-button
 ##.twitter-share-button
 ##.u-marginAuto.metabar-inner.js-metabarTop
+/arscode-ninja-popups/*
+/chimpmatepro/*$script
+/chimpy/*
+/facebook-page-promoter-lightbox/
+/layered-popups/$script
+/mailmunch/static/popover.js
+/optin-monster/*$script
+/optinmonster/*$script
 8newsnow.com###klasSocial
 9gag.com###jsid-featured-sidebar-tail
 9gag.com##.badge-toolbar-pre.fixed-wrap-post-bar
@@ -784,6 +792,7 @@ latimes.com##.trb_nh_uw
 laughingsquid.com###dd_ajax_float
 laughingsquid.com##.shareaholic-canvas
 lauradhamilton.com###connect
+leadpages.net$script
 lifebuzz.co##.footer-popup.footer-popup-active
 lifebuzz.co##.social-box-big
 lifehacker.com###eyubptfbcvwbxrrlnfngrubtvjrqfcaavknr
@@ -1086,6 +1095,7 @@ observer.com##.banner-and-nav-wrapper
 okcupid.com##DIV[style=" background: #142d69; padding: 14px 12px 20px; border-radius: 0 5px 5px 0;\a \9 -moz-border-radius: 0 5px 5px 0;\a \9 -webkit-border-radius: 0 5px 5px 0;\a \9  "]
 openculture.com##.clearfix
 openculture.com##.closing-social
+ouibounce*$script
 outsideonline.com##.block.block-subscribe.block--with-border.shifter
 outsideonline.com##.nudger__inner
 outsideonline.com##.social.icons-custom.social--count.article-social.article-social--side
@@ -1337,6 +1347,7 @@ snmidatlantic.com###nbcsports-primary-nav
 snopes.com##.sticky-header-offset.gpu-acceleration.main-container > .sticky-active.sticky.compact.clearfix.header
 sochi2014.com##.b-sociality-menu
 sociable.co###nav-wrap
+social-popup/spu.js$script
 softpedia.com###cookienotif
 softpedia.com###ktucmdgtfwguhqgomzvhmjagotgmjpuxl
 softpedia.com##DIV[style="float:left; margin-left: 30px; width: 200px;"]
@@ -1887,12 +1898,18 @@ zdnet.com##.siu-vertical-cont.focus-highlight
 zerohedge.com###site-header
 zerohedge.com##.js-l1
 zerohedge.com##.js-links
+||api.optnmnstr.com
+||computerworld.com/www/js/insider/insider_reg_api.js$script,domain=computerworld.com
 ||defenseone.com/js/adframe.js$script,domain=defenseone.com
 ||disqus.com/count.js$script
 ||disqus.com/embed.js$script,redirect=disqus.com/embed.js
 ||disqus.com/forums/*/embed.js$script,redirect=disqus.com/forums/*/embed.js
 ||edit.mint.com/sites/default/files/schwab-welcome-mat-feb.html
+||hellobar.com^$third-party,script,important
 ||images.mint.com/web-client/images/promo/Logout_Loan_Center.png$image
+||leadpages.co*$third-party
+||load.sumome.com
+||maxtraffic.com$script
 ||mint.com/sites/default/files/citi-welcome-mat-jan.html
 ||mint.com/sites/default/files/fidelity-welcome-mat-march.html
 ||mint.com/sites/default/files/fidelity-welcome-mat-march3.html
@@ -1900,30 +1917,11 @@ zerohedge.com##.js-links
 ||nbc-sports.massrel.io/microsoft-live-extra-social$subdocument
 ||nbc-sports.massrel.io/nhl-live-extra-waterfall/$subdocument
 ||ndtv.com/*$inline-script,domain=ndtv.com
+||optinmonster.com*$script
 ||scontent-lga3-1.xx.fbcdn.net/t39.2081-0/13176377_837427143029968_1076728173_n.jpg$image
+||stacklist.com/ajax/subscribe-modal
 ||stream.nbcsports.com/static/img/featuredproviders/Comcast_SSO.png$image
 ||stream.nbcsports.com/static/img/frame/nbcsports-bg.jpg$image
 ||stream.nbcsports.com/static/img/nhl/css_images/hls/1500_stats_bg.jpg$image
 ||stream.nbcsports.com/static/img/nhl/css_images/hls/high_level_stats_bg_1500.png$image
-! Start Popover Blocklist Filterset
-! Can be found at https://github.com/mistalaba/popover-blocklist
-/arscode-ninja-popups/*
-/chimpmatepro/*$script
-/chimpy/*
-/facebook-page-promoter-lightbox/
-/layered-popups/$script
-/mailmunch/static/popover.js
-/optin-monster/*$script
-/optinmonster/*$script
-leadpages.net$script
-ouibounce*$script
-social-popup/spu.js$script
-||api.optnmnstr.com
-||hellobar.com^$third-party,script,important
-||leadpages.co*$third-party
-||load.sumome.com
-||maxtraffic.com$script
-||optinmonster.com*$script
-||stacklist.com/ajax/subscribe-modal
 ||webdesignerdepot.com/widget/*wdn-popup*
-||computerworld.com/www/js/insider/insider_reg_api.js$script,domain=computerworld.com
