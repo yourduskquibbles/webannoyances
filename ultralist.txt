@@ -1,5 +1,5 @@
 ! Expires: 4 days (update frequency)
-! Last modified: 4:48 PM 2016-11-03
+! Last modified: 10:08 AM 2016-11-04
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs
@@ -751,6 +751,7 @@ intuit.com###ozen
 intuit.com##.WelcomeMatView
 intuit.com##.advice.module.o2card
 inverse.com##.app-header.flex
+inverse.com##.sticky.header-container
 investopedia.com##.meganav.header
 irishtimes.com###cookies-policy-wrapper
 irishtimes.com###newsdigest-widget
@@ -1528,6 +1529,7 @@ thewire.com##.header
 thewire.com##.shares
 thewire.com##.shares.bottom-only
 thewire.com##.shares.loaded
+thewrap.com###js-mobile-bar
 thinkprogress.org###slidedown
 thinkprogress.org##.facebook-like-bottom
 thinkprogress.org##.post-tools.addthis_32x32_style
@@ -1903,3 +1905,25 @@ zerohedge.com##.js-links
 ||stream.nbcsports.com/static/img/frame/nbcsports-bg.jpg$image
 ||stream.nbcsports.com/static/img/nhl/css_images/hls/1500_stats_bg.jpg$image
 ||stream.nbcsports.com/static/img/nhl/css_images/hls/high_level_stats_bg_1500.png$image
+! Start Popover Blocklist Filterset
+! Can be found at https://github.com/mistalaba/popover-blocklist
+/arscode-ninja-popups/*
+/chimpmatepro/*$script
+/chimpy/*
+/facebook-page-promoter-lightbox/
+/layered-popups/$script
+/mailmunch/static/popover.js
+/optin-monster/*$script
+/optinmonster/*$script
+leadpages.net$script
+ouibounce*$script
+social-popup/spu.js$script
+||api.optnmnstr.com
+||hellobar.com^$third-party,script,important
+||leadpages.co*$third-party
+||load.sumome.com
+||maxtraffic.com$script
+||optinmonster.com*$script
+||stacklist.com/ajax/subscribe-modal
+||webdesignerdepot.com/widget/*wdn-popup*
+||computerworld.com/www/js/insider/insider_reg_api.js$script,domain=computerworld.com
