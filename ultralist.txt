@@ -1,9 +1,10 @@
 ! Expires: 4 days (update frequency)
-! Last modified: 5:03 PM 2016-11-07
+! Last modified: 9:50 AM 2016-11-08
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs
 # and generally annoying website behavior. 
+# Works best with uBlock Origin
 
 
 ! Start Web Annoyances Filter List
@@ -416,6 +417,9 @@ defenseone.com###featured-navigation-section.featured-element > .featured-contai
 defenseone.com##.d1-sticky-nav-stick.d1-sticky-nav
 defenseone.com##.logo.large-logo > .featured-home-page[href="http://defenseone.com"]
 defenseone.com##.social
+designboom.com###NewsletterBox_dynamic
+designboom.com###NewsletterBox_dynamic_0
+designboom.com###icon_wrapper
 designtaxi.com###follow
 designtaxi.com###masthead-wrapper-sticky-wrapper
 designtaxi.com##.addthis_toolbox.addthis_default_style.addthis_32x32_style
