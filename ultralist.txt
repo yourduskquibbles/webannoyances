@@ -1,9 +1,8 @@
 ! Expires: 4 days (update frequency)
-! Last modified: 6:03 PM 2016-11-08
+! Last modified: 2:08 PM 2016-11-09
 ! Title: Web Annoyances Ultralist
 
-# Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs
-# and generally annoying website behavior. 
+# Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
 # Works best with uBlock Origin
 
 
@@ -371,6 +370,7 @@ csmonitor.com###sticky-nav-sticky-wrapper
 csmonitor.com##.ui-ezflow-block.ui-ezxml-block
 csmonitor.com##.vertical-nav-icons.nav-icons
 csmonitor.com##:xpath(.//*[@block_type="atavist-mailchimp"])
+cyberscoop.com##.header
 dailycaller.com###access-float
 dailycaller.com###dc-quiz-wrapper
 dailycaller.com###dc_morning_email-53
@@ -1953,5 +1953,4 @@ zerohedge.com##.js-links
 ||stream.nbcsports.com/static/img/featuredproviders/Comcast_SSO.png$image
 ||stream.nbcsports.com/static/img/frame/nbcsports-bg.jpg$image
 ||stream.nbcsports.com/static/img/nhl/css_images/hls/1500_stats_bg.jpg$image
-||stream.nbcsports.com/static/img/nhl/css_images/hls/high_level_stats_bg_1500.png$image
-||webdesignerdepot.com/widget/*wdn-popup*
+||stream.nbcsports.com/static/img/nhl/css_images/hls/high_level_stats_bg_1500.png$image||webdesignerdepot.com/widget/*wdn-popup*
