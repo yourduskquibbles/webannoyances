@@ -1,5 +1,5 @@
 ! Expires: 4 days (update frequency)
-! Last modified: 2:29 PM 2016-11-09
+! Last modified: 9:31 AM 2016-11-10
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
@@ -220,6 +220,8 @@ breitbart.com###bb-store-ldr
 breitbart.com###bbsp_site_overlay
 breitbart.com###content_0_fixedshare_0_divSocialMedia
 breitbart.com###content_0_rightrail_0_ctl12_sectionSubscribe
+breitbart.com###isc_trump_takeover_div
+breitbart.com###isc_trump_takeover_overlay
 breitbart.com##.connect
 bridebox.com###widget_sp_image-15
 brit.co##.collapsed.ng-isolate-scope
@@ -502,6 +504,7 @@ evonomics.com##.us_skin_default.us_tac.us_share_buttons.us_wrapper
 ew.com###close-btn-wrapper
 ew.com###main-nav
 expatsoftware.com##.subscribe-footer
+express.co.uk###main_menu_bar
 facebook.com###stream_pagelet div[id^="feed_stream_"] div[id^="substream_"] div[id^="hyperfeed_story_id_"]:has(a.uiStreamSponsoredLink)
 facebook.com###u_0_47
 facebook.com###u_0_h
@@ -565,6 +568,7 @@ foreignpolicy.com###main-nav-target
 foreignpolicy.com###site-wrapper > .scrolled
 foreignpolicy.com##.default.js-takeover
 fortune.cnn.com###smt_main
+fortune.com##.icon-down-arrow.icon.left-nav-toggle
 fortune.com##.main-header
 forums.androidcentral.com###header
 fox11online.com##.sd-news-social-container
@@ -621,6 +625,8 @@ getconnected.southwestwifi.com###cepgad
 glamour.com###react-app > .default.page-container > .g-mobile.component-newsletters
 glamour.com##.site-header
 glassdoor.com###EmpSolutionsTab
+glassdoor.com##.sticky.empLinksWrapper
+glassdoor.com##.stuck.sticky.exploreCareers.bucket
 globalnews.ca##.socialShare.collapsed
 go.com##.share_like
 gofobo.com###feedback-tab
@@ -799,6 +805,8 @@ latimes.com##.module.blurb
 latimes.com##.nextgen-right
 latimes.com##.trb_ar_shpq
 latimes.com##.trb_article_relatedTopics
+latimes.com##.trb_bnn
+latimes.com##.trb_nh
 latimes.com##.trb_nh_lw
 latimes.com##.trb_nh_uw
 laughingsquid.com###dd_ajax_float
@@ -876,6 +884,7 @@ michaels.com##.modal-backdrop.fade.in
 michaels.com##.modal-body
 midwayusa.com###rvWrapper
 minds.com##.topbar
+mobile.nytimes.com##.max300.min300.iframe-holder
 mobile.reuters.com##.header-main.group.header
 mobile.reuters.com##.header-mini.header-main.group.header > .active.container.header-pane-main
 modernfarmer.com###fixed_nav
@@ -1263,6 +1272,7 @@ reuters.com###headerNav
 reuters.com###social-links
 reuters.com###trackTabs
 reuters.com###twitter-share-link
+reuters.com##.container.next-article-info
 reuters.com##.facebook
 reuters.com##.fixed.nav-white-space
 reuters.com##.google
@@ -1319,6 +1329,7 @@ screenrant.com##.site-header
 searchengineland.com###bylineShare
 searchengineland.com###socialBlock
 searchengineland.com##.stickyheader.navbar-header
+seattletimes.com##.main-nav > .main-nav-header
 securityweek.com###block-block-3
 securityweek.com##.sharethis
 securityweek.com##DIV[style="margin-top:2px;"]
@@ -1458,6 +1469,7 @@ thefader.com##.locked_nav.main_nav
 thefederalist.com###scrollable_box_asd
 thefederalist.com##.aside-left-social-standard
 thefiscaltimes.com###message
+thegatewaypundit.com###responsive-menu-button
 theguardian.com###content-actions
 theguardian.com##.component.trackable-component.undocked-share.share-links
 theguardian.com##.d2-action.d2-action--facebook.d2-action--share
@@ -1824,6 +1836,7 @@ wikia.com###WikiaBarWrapper
 wikia.com###globalNavigation
 wikihow.com###follow_table
 wikihow.com###sliderbox
+wionews.com##.navbar-fixed-top.navbar-default.navbar
 wired.co.uk##.is-stuck.n-main__sticker-child
 wired.com###.marg-b-med.sidebar-rad.box.rad
 wired.com###blog-follow-wrapper
@@ -1926,6 +1939,7 @@ youtube.com##.share-panel-services
 zdnet.com###offerContainer-e651d1b3
 zdnet.com##.catfishBar
 zdnet.com##.siu-vertical-cont.focus-highlight
+zerohedge.com###sidebar-right
 zerohedge.com###site-header
 zerohedge.com##.js-l1
 zerohedge.com##.js-links
