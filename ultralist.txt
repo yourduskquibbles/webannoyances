@@ -1,5 +1,5 @@
 ! Expires: 4 days (update frequency)
-! Last modified: 10:02 AM 2016-11-11
+! Last modified: 10:53 AM 2016-11-11
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
@@ -767,6 +767,7 @@ infowars.com###message
 infowars.com##.container.optinsiege
 infowars.com##.shareinpost
 infowars.com##.textsize
+inquisitr.com##.block.header--inner
 insightdata.ai##.logo_nav
 instagram.com##:xpath(.//*[@href="/accounts/emailsignup/"])
 instagram.com##:xpath(.//*[@role="alert"])
@@ -1049,6 +1050,8 @@ nfl.com###experienceUpgradePromo
 nfl.com##.yui3-nfl-rewards-drivebar-top-bar-wrapper
 nfl.com##:xpath(/html/body/*//div[@class="yui3-ff-feedback-content yui3-widget-content-expanded"])
 nflshop.com###NFLFooterContentBottomMiddleSocial
+nootrobox.com##.article__sidebar__container
+nootrobox.com##.navbar-fixed-top.navbar
 npr.org###contentfooter
 npr.org##.facebook
 npr.org##.is-active.story-sticky-header
@@ -1242,6 +1245,7 @@ ramw.org###top_section
 rasmussenreports.com###cboxOverlay
 rasmussenreports.com###colorbox
 rasmussenreports.com##.narrow-cta.button-sprite
+ratemyprofessors.com##.promotionDesktop.promotion
 rawstory.com###kodda_container
 rawstory.com###kodda_inner_container
 rd.com##.adhesive-site-header--top-bar
@@ -1414,6 +1418,7 @@ talater.com##.post_share.animatePadding.x
 talkingpointsmemo.com##.article-share-buttons.well.well-small
 talkingpointsmemo.com##.hits
 talkradionews.com##.addthis_toolbox.addthis_default_style.addthis_
+tandfonline.com##.fixed-tabs
 tanga.com###social-media
 tastingtable.com###sideReel
 tastingtable.com##.global-header
@@ -1534,6 +1539,7 @@ theregister.co.uk##.article_social_btns
 theringer.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBottomSection.u-tintSpectrum.u-tintBgColor.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar
 theringer.com##.is-maximized.metabar--affixed.u-tintSpectrum.u-tintBgColor.metabar--hiddenWhenMinimized.metabar--tall.metabar--light.js-metabar.u-clearfix.metabar
 theringer.com##.u-xs-paddingRight10.u-xs-paddingLeft10.u-zIndexMetabar.u-paddingBottom10.u-paddingTop10.u-borderBox.u-boxShadowTop.u-backgroundWhite.u-sizeFullWidth.u-bottom0.u-fixed
+theroot.com###js-article-slider
 thescore.com##.context-menu-row
 thescore.com##.context-menu-wrapper
 thescore.com##.fb-messenger--collapse.fb-messenger
