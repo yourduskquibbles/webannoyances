@@ -1,5 +1,5 @@
 ! Expires: 4 days (update frequency)
-! Last modified: 3:12 PM 2016-11-10
+! Last modified: 9:49 AM 2016-11-11
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
@@ -768,6 +768,8 @@ infowars.com##.container.optinsiege
 infowars.com##.shareinpost
 infowars.com##.textsize
 insightdata.ai##.logo_nav
+instagram.com##:xpath(.//*[@href="/accounts/emailsignup/"])
+instagram.com##:xpath(.//*[@role="alert"])
 interpretermag.com##.clearfix.container
 intuit.com###.advice.module.o2card
 intuit.com###hypothesis-testing-frame
@@ -794,6 +796,7 @@ justsecurity.org##.contrib-nav-wrap
 kernelmag.com###login-box
 kernelmag.com##.kernel-social.clearfix
 kgw.com##.header-main
+klfy.com###masthead
 kotaku.com##.twelve.mobile-four.columns.user-bar-inside
 labradortraininghq.com###navigation
 laphamsquarterly.org##.small-header
@@ -1112,6 +1115,7 @@ nytimes.com###welcome-back-modal
 nytimes.com##.footer-nav-primary-list
 nytimes.com##.growl-v2
 nytimes.com##.growl-v2-gradient
+nytimes.com##.max300.min300.iframe-holder
 nytimes.com##.miniNavContainer
 nytimes.com##.modal.step-one-modal.first-tool-tips-modal
 nytimes.com##.nytc---sitenav---siteNav
@@ -1273,10 +1277,12 @@ reuters.com###headerNav
 reuters.com###social-links
 reuters.com###trackTabs
 reuters.com###twitter-share-link
+reuters.com##.active.container.header-pane-main
 reuters.com##.container.next-article-info
 reuters.com##.facebook
 reuters.com##.fixed.nav-white-space
 reuters.com##.google
+reuters.com##.header-main.group.header
 reuters.com##.last.new-social
 reuters.com##.linkedIn
 reuters.com##.navbar-fixed-top.navbar-default.navbar.special-report-nav
@@ -1429,6 +1435,7 @@ telegraph.co.uk###message
 telegraph.co.uk###shareSideContainer
 tesla.com###sticky-footer
 the-american-interest.com###article-counter
+theadvocate.com###site-navbar-container
 theappendix.net##.communicate
 theappendix.net##.container.social
 theatlantic.com###article-promo-magazine
