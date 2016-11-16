@@ -1,5 +1,5 @@
 ! Expires: 4 days (update frequency)
-! Last modified: 9:41 AM 2016-11-16
+! Last modified: 10:43 AM 2016-11-16
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
@@ -1067,6 +1067,7 @@ newyorker.com##.yrcomponent
 newyorker.com##UL
 nfl.com###experienceUpgradePromo
 nfl.com##.yui3-nfl-rewards-drivebar-top-bar-wrapper
+nfl.com##:xpath(.//*[@class="yui3-overlay-content yui3-widget-stdmod"])
 nfl.com##:xpath(/html/body/*//div[@class="yui3-ff-feedback-content yui3-widget-content-expanded"])
 nflshop.com###NFLFooterContentBottomMiddleSocial
 nootrobox.com##.article__sidebar__container
