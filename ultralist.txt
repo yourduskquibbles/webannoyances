@@ -1,5 +1,5 @@
 ! Expires: 4 days (update frequency)
-! Last modified: 1:46 PM 2016-11-22
+! Last modified: 10:45 AM 2016-11-23
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
@@ -163,7 +163,9 @@ bikeradar.com##.feedback
 billboard.com###block-billboard-blocks-article-artist
 billboard.com###block-fblikebutton-fblikebutton-static-block
 billboard.com##.breaking_news_bar
+billboard.com##.search-toggle.open-search
 billboard.com##.social.social_vert
+billboard.com##.top-content.container
 bizjournals.com###tour-prompt.prompt.prompt--full-width
 bleacherreport.com###facebook-like-site-module
 bleacherreport.com##.article_nav-bar.br-texture--sudo.br-texture--sudo-fade-to-white
@@ -272,6 +274,8 @@ buzzfeed.com##.pullquote_shares_wrapper
 buzzfeed.com##.share-box
 buzzfeed.com##.vertical-sidebar-info.bf_dom.diy-connect
 c4isrnet.com###page-content > .js-pubsub-module.has-secondary-nav.layout-module.no-subscribe-now.generic-module
+calgaryherald.com##.mobile-header.header-nav
+calgaryherald.com##.top-bar
 callername.com###modal
 callername.com##.in.fade.modal-backdrop
 capitolcityproject.com##.pagenav.fixedmenu
@@ -491,6 +495,7 @@ engadget.com###nav-flow
 eonline.com###HHeader
 eonline.com###article-next
 eonline.com###article-prev
+eonline.com###smartbanner
 eonline.com##.social-links.horizontal
 epi.org###epi-email-signup-backdrop
 epicurious.com##.site-header
@@ -740,6 +745,7 @@ huffingtonpost.com##.rail.fix
 huffingtonpost.com##.right-rail
 huffingtonpost.com##.sbm-main-new.clearfix
 huffingtonpost.com##.share-options.cf
+huffingtonpost.com##.treated.advertisement.above_follow_us_300x250
 huffingtonpost.com##A[data-beacon="\7b \"p\":\7b \"cv_event\":\"load-new\"\7d \7d "]
 huffingtonpost.com##IFRAME[src="http://www.huffingtonpost.com/widgets/orbots/580-190-article.html"]
 ibtimes.co.in##.fixed-social.sticky
@@ -817,6 +823,7 @@ kernelmag.com###login-box
 kernelmag.com##.kernel-social.clearfix
 kgw.com##.header-main
 kgw.com##.is_stuck.site-nav
+king5.com##.header-main
 klfy.com###masthead
 kotaku.com##.twelve.mobile-four.columns.user-bar-inside
 labradortraininghq.com###navigation
@@ -1368,6 +1375,9 @@ scientificamerican.com###site-header
 scientificamerican.com##.is-visible.mobile-context-nav
 scientificamerican.com##.nextStoryFly
 screenrant.com##.site-header
+scribd.com###global_header
+scribd.com##.main_header
+scribd.com##:xpath(.//*[@class="seo_banner_drop"])
 searchengineland.com###bylineShare
 searchengineland.com###socialBlock
 searchengineland.com##.stickyheader.navbar-header
