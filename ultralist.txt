@@ -1,5 +1,5 @@
 ! Expires: 4 days (update frequency)
-! Last modified: 11:17 AM 2016-11-25
+! Last modified: 2:25 PM 2016-11-26
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
@@ -314,6 +314,7 @@ chowhound.com##.show.keep_scrolling_297038.grey.keep_scrolling
 chowhound.com##.show.keep_scrolling_787799.grey.keep_scrolling
 chowhound.com##.side.to_topmobile.freyja_bigbt
 chronicle.com###nav-persistent__container
+cigarmonster.com###emailsignupmodalblackglass
 citizenslant.com###navigation
 citylab.com###blocker-msg-start
 citylab.com###social-sticky
@@ -353,6 +354,8 @@ cnsnews.com###cns-social-links
 cnsnews.com##.hidden-xs.smallnav.navbar-fixed-top.navbar-inverse.navbar
 cnsnews.com##.kimbiaDiv.cns.cns1.two_col.columnsPerPage1
 cnsnews.com##.mini > .header
+cntraveler.com##.container-header
+cntraveler.com##.navIsFixed.site-header
 coindesk.com##.article-share
 coindesk.com##.popup
 coindesk.com##.social
@@ -392,6 +395,7 @@ csmonitor.com###sticky-nav-sticky-wrapper
 csmonitor.com##.ui-ezflow-block.ui-ezxml-block
 csmonitor.com##.vertical-nav-icons.nav-icons
 csmonitor.com##:xpath(.//*[@block_type="atavist-mailchimp"])
+curbed.com##.tab-bar-fixed.c-tab-bar
 cyberscoop.com##.header
 dailycaller.com###access-float
 dailycaller.com###dc-quiz-wrapper
@@ -546,6 +550,7 @@ facebook.com##:xpath(//*/a[@class='uiStreamSponsoredLink']/ancestor::div[contain
 facebook.com##:xpath(//div[@id="stream_pagelet"]//div[starts-with(@id,"hyperfeed_story_id_")][.//h6//span/text()="Sponsored"])
 facebook.com##:xpath(//div[@id="stream_pagelet"]//div[starts-with(@id,"hyperfeed_story_id_")][.//text()="Suggested Post"])
 facebook.com##div[id^="hyperfeed_story_id_"]:has(a.uiStreamSponsoredLink)
+famous-smoke.com##.emailmodal.blackglassgradient.emailmodalblocker
 fansided.com###FsTopNav
 fansided.com###breaking
 fastcocreate.com##.people-tab.ready
@@ -610,6 +615,8 @@ fox5dc.com##.header-secondary
 fox5ny.com###header
 fox5ny.com##.show-for-large-up.mod-story-progress.mod-accordion.mod-wrapper
 fox6now.com###actionbar
+foxbusiness.com##.no-flash.no-flash
+foxbusiness.com##.radar-bar
 foxnews.com###navbar-share
 foxnews.com###network
 foxnews.com###rail
@@ -884,6 +891,7 @@ mailtribune.com###loginBarBtm
 marketwatch.com###sitenav
 marketwatch.com###storytoolsplaceholder
 marketwatch.com##.fyre-notifier-container
+marthastewart.com##.footer-sticky-social-container
 mashable.com###share-nav
 mashable.com##.follow-channel
 mashable.com##.microcontent-shares
@@ -1215,6 +1223,7 @@ philly.com###header
 phoenixnewtimes.com##.sde-shadow
 pinterest.com##.Module.AppBase.App > .appContent > .mainContainer > .Module.InterestFeedReactPage > .Module.InterestFeedReactWrapper > .Module.DenzelReactBridge > div > div:nth-of-type(1) > .AppInterstitial
 pinterest.com##.Module.AppBase.App > .appContent > .mainContainer > .Module.InterestFeedReactPage > .Module.InterestFeedReactWrapper > .Module.DenzelReactBridge > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3)
+pix11.com###actionbar
 pjmedia.com###social
 pjmedia.com##.share
 pokemongodb.net###rev-toaster
@@ -1653,6 +1662,7 @@ thewire.com##.shares.loaded
 thewrap.com###js-mobile-bar
 thinkprogress.org###slidedown
 thinkprogress.org##.facebook-like-bottom
+thinkprogress.org##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBottomSection.u-tintSpectrum.u-tintBgColor.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar
 thinkprogress.org##.post-tools.addthis_32x32_style
 thrillist.com###popoutContainer
 thrillist.com###section-subnav
@@ -1700,6 +1710,8 @@ townhall.com##.thm-carousel
 townhall.com##header > .fadeInDown.animated.navbar-article.navbar-fixed-top.navbar-default.navbar
 travelzoo.com###signupOverlay
 travelzoo.com##.ui-widget-overlay.ui-front
+tripadvisor.com###dsh_sticky_header
+tripadvisor.com###smartbanner
 troyhunt.com##.container.header_block
 trust.org###global-ticker
 truthrevolt.org##.fancybox-overlay.fancybox-overlay-fixed
