@@ -1,5 +1,5 @@
 ! Expires: 4 days (update frequency)
-! Last modified: 11:30 AM 2016-12-02
+! Last modified: 4:04 PM 2016-12-02
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
@@ -207,6 +207,10 @@ bonappetit.com###masthead-banner-ad
 bonappetit.com###menu
 bonappetit.com###supernav
 bonappetit.com##.col2.y-rail
+bonappetit.com##.desktop-header-container > .site-header
+bonappetit.com##.header-ad-area
+bonappetit.com##.header-container--fixed.header-container
+bonappetit.com##.inner
 bonappetit.com##.main-site-header
 bonappetit.com##.social-toolbar
 bonappetit.com##.subscribe-box
@@ -596,6 +600,7 @@ food.com##.navbar-header
 food.com##.top-offset.stick.fd-next-recipe
 food52.com###desktop-email-modal-wrapper
 food52.com###global-header-block
+foodandwine.com##.is_stuck.site-header
 foodbeast.com##HEADER
 foodrepublic.com###masthead
 foodrepublic.com##.sticky-newsletter > .newsletter-toggle
@@ -1279,6 +1284,7 @@ postandcourier.com##.menu.main.inverted.borderless.fixed.top.ui
 pressherald.com##.mtm-utility-launch
 pressherald.com##.paywall-callout
 pressherald.com##.social-follower
+pri.org##.dark.donate.always-under
 pri.org##.navbar__wrapper.is-fixed
 priceonomics.com###lfs-wrapper
 priceonomics.com###sidebar-scrollfix
