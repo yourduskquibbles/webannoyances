@@ -1,5 +1,5 @@
 ! Expires: 4 days (update frequency)
-! Last modified: 4:04 PM 2016-12-02
+! Last modified: 10:11 AM 2016-12-05
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
@@ -95,7 +95,9 @@ aeon.co##.twelve.columns.social
 aftenposten.no##.widget.relatedContents.flyout.noPrint.active.instantiated
 aljazeera.com##.m-showgrid.ta-showgrid.t-showgrid.d-showgrid.da-showgrid
 allrecipes.com###footer_top_button
+allrecipes.com##.dropdown-heart > .save-on-click
 allrecipes.com##.loading-indicator--position
+allrecipes.com##.reserve-ad-space.ad-mobile-only.ad-recipe-page-middle-container
 allrecipes.com##.slidein.ng-scope.slideout
 allrecipes.com##.unauthenticated
 amazon.com###nav-mobile-airstream-stripe
@@ -391,6 +393,8 @@ coupons.com##.fixed.floating-header
 coupons.com##.show_on_right.deals_promo_container
 coupons.com##.siso-links.mod-signinsignuplinks
 courierpress.com##.story_tools_right
+cracked.com###header
+cracked.com##.navbar-header
 crateandbarrel.com##.ui-draggable.ui-front.ui-corner-all.ui-widget-content.ui-widget.ui-dialog
 crateandbarrel.com##.ui-front.ui-widget-overlay
 crooksandliars.com###topnav
@@ -404,6 +408,7 @@ csmonitor.com###sticky-nav-sticky-wrapper
 csmonitor.com##.ui-ezflow-block.ui-ezxml-block
 csmonitor.com##.vertical-nav-icons.nav-icons
 csmonitor.com##:xpath(.//*[@block_type="atavist-mailchimp"])
+csnbayarea.com###nbcsports-primary-nav
 curbed.com##.tab-bar-fixed.c-tab-bar
 cyberscoop.com##.header
 dailycaller.com###access-float
@@ -432,6 +437,7 @@ dailymail.co.uk###swipeIndicator
 dailymail.co.uk###textShare
 dailymail.co.uk##.home.item.html_snippet_module
 dailymail.co.uk##.mobile-sharing.cc.news
+dailymail.co.uk##.mobile-sharing.tvshowbiz.cc
 dailymail.co.uk##.mol-previous-next-navigation_next-button
 dailymail.co.uk##.mol-previous-next-navigation_previous-button
 dailymail.co.uk##.share-count
@@ -444,6 +450,7 @@ dailymail.co.uk##body > div:nth-of-type(8)
 dailysignal.com##.facebook
 dailysignal.com##HEADER
 dailysnark.com###td-outer-wrap > .td-header-style-9.td-header-wrap
+dailystar.co.uk###topSocialPanel
 dailywire.com##.remodal-is-opened.remodal-is-initialized.remodal
 dailywire.com##.remodal-is-opened.remodal-overlay
 davidtan.org##.site-header
@@ -602,6 +609,7 @@ food52.com###desktop-email-modal-wrapper
 food52.com###global-header-block
 foodandwine.com##.is_stuck.site-header
 foodbeast.com##HEADER
+foodnetwork.com##.prev-next-wrapper
 foodrepublic.com###masthead
 foodrepublic.com##.sticky-newsletter > .newsletter-toggle
 fool.com###horizontal_bottom_toolbox
@@ -611,7 +619,10 @@ forbes.com##.mini_header
 forbes.com##.show.slash-background.article-sidebar
 forbes.com##NAV
 foreignaffairs.com###kicker-2
+foreignpolicy.com###logo
 foreignpolicy.com###main-nav-target
+foreignpolicy.com###menu
+foreignpolicy.com###mobile-nav-trigger
 foreignpolicy.com###site-wrapper > .scrolled
 foreignpolicy.com##.default.js-takeover
 fortune.cnn.com###smt_main
@@ -809,6 +820,8 @@ independent.co.uk###side
 independent.co.uk##.adblock.adblock-modal
 independent.co.uk##.column-2
 independent.co.uk##IMG[src="http://www.independent.co.uk/independent.co.uk/assets/images/Independent_apps_puff600x220.gif?v4"]
+independent.ie##.on.persistent.slim.w103
+independent.ie##.snap.w115.w
 india.com###navigation-bar
 india.com##.headersection
 indiatimes.com###TPMainDiv
@@ -1336,6 +1349,7 @@ realclearpolitics.com##.upNext-container
 reallifemag.com##.courier-standard.nav-wrap
 reason.com###donationdrive_popup
 reason.com###donationdrive_popup_overlay
+reason.com###nav1
 reason.com###social1
 reason.com###social2
 reason.com##.social
@@ -1519,6 +1533,7 @@ technologyreview.com###tr-global-header-sticky
 technologyreview.com##.sidebar.right
 techradar.com###fp_cookieMessageContainer
 techradar.com##.sharing_furniture.clearfix
+techspot.com###header-ts
 ted.com###vmrejilvmobczcqrldhzqrjekdkhdpwuywasck
 telegraph.co.uk###message
 telegraph.co.uk###shareSideContainer
@@ -1653,6 +1668,8 @@ thestreet.com###hoverfoot
 thestreet.com###lower-ad-banner
 thestreet.com##.main-nav--desktop.main-nav.navbar-fixed-top.navbar
 thestylecon.com###upprev_box
+thesun.co.uk###sun-menu
+thesun.co.uk##.billboard
 thetimes.co.uk###tto-cookieMessage
 thetimes.co.uk###tto-cookieMessageInner
 thetimes.co.uk##.ArticlePager
@@ -1833,6 +1850,7 @@ viralnova.com###article-finished
 visual.ly###back-to-top
 visual.ly###eyebrow
 visual.ly##.section
+voat.co###header
 voat.co##.alert-dismissible.eppnotice.alert
 vocativ.com##.global-header
 vocativ.com##.motif-strip
