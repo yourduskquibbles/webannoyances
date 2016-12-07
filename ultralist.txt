@@ -1,5 +1,5 @@
 ! Expires: 4 days (update frequency)
-! Last modified: 10:48 AM 2016-12-07
+! Last modified: 1:27 PM 2016-12-07
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
@@ -120,6 +120,8 @@ aol.com##.mpid-7
 ap.org###block-ap-misc-ap-social-media
 ap.org##.ap-mediabox-td
 ap.org##.clearfix.share-block
+apps.facebook.com/poker_wsop##:xpath(.//*[@class="genericPopup gpGold ifi_popup"])
+apps.facebook.com/poker_wsop##:xpath(.//*[@id="likeUsPopup"])
 arlnow.com###search-navigation
 arlnow.com###top-bar
 arlnow.com##.widget.social-media-widget
@@ -743,6 +745,7 @@ heatst.com##.fit.col-xs-12.header-top-wrapper
 heatst.com##.in.fade.modal-backdrop
 heatst.com##.modal-dialog
 heatst.com##.navbar-fixed-top.fit.col-xs-12.header-top-wrapper
+heatst.com##.sp_right.sp_ticker
 highbeam.com##.header-outer
 history.com##.clearfix.visible-phone.share-tools
 history.com##.sticky-signup.newsletter-signup
