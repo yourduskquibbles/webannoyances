@@ -1,5 +1,5 @@
 ! Expires: 4 days (update frequency)
-! Last modified: 9:38 AM 2016-12-08
+! Last modified: 2:13 PM 2016-12-08
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
@@ -29,7 +29,6 @@
 ##.is-visible.js-postActionsBar.postActionsBar
 ##.js-postActionsBarContent.row.postActionsBar-content
 ##.js_top-nav-wrap.top-nav.fixed.shadow-bottom
-##.l-reskin.l-root > .tab-bar-fixed.c-tab-bar
 ##.mobile-floating-footer-show.mobile-floating-footer
 ##.notes-markers
 ##.notesMarkers
@@ -120,8 +119,8 @@ aol.com##.mpid-7
 ap.org###block-ap-misc-ap-social-media
 ap.org##.ap-mediabox-td
 ap.org##.clearfix.share-block
-apps.facebook.com/poker_wsop##:xpath(.//*[@class="genericPopup gpGold ifi_popup"])
-apps.facebook.com/poker_wsop##:xpath(.//*[@id="likeUsPopup"])
+apps.facebook.com##:xpath(.//*[@class="genericPopup gpGold ifi_popup"])
+apps.facebook.com##:xpath(.//*[@id="likeUsPopup"])
 arlnow.com###search-navigation
 arlnow.com###top-bar
 arlnow.com##.widget.social-media-widget
@@ -581,6 +580,7 @@ fansided.com###breaking
 fastcocreate.com##.people-tab.ready
 fastcodesign.com##.fadeIn.animated.navbar-brands-container
 fastcodesign.com##.nav-bar
+fastcodesign.com##.navbar-brands-container
 fastcoexist.com##.nav-bar
 fastcompany.com###share-modal
 fastcompany.com##.ellie-awards
@@ -1335,6 +1335,7 @@ priceonomics.com##.clearfix.social-share-top
 primaryarms.com##.popup-content
 projectcensored.org###lpl
 projectcensored.org###lpl-overlay
+projects.propublica.org##header
 propublica.org###page-body > pp-special > header
 prospect.org###buttons
 prospect.org###header
@@ -1357,6 +1358,7 @@ qz.com##.anno-right
 qz.com##.header-container
 racked.com###chorus-social-fixed
 racked.com##.m-pinterest-button.m-social-buttons__popup
+racked.com##.tab-bar-fixed.c-tab-bar
 radaronline.com###main-header
 ramw.org###fixed_section
 ramw.org###top_section
@@ -1370,6 +1372,7 @@ rd.com##.adhesive-site-header--top-bar
 rd.com##.fwf__drop-for-mobile.fwf--fixed__right
 rd.com##.js--sticky.rd-article--sharing
 rd.com##.stationary-site-header--promo
+readonlymemory.vg##.hidden-small.notification-bar
 realclearpolitics.com###masthead-wrapper
 realclearpolitics.com##.addthis_toolbox.addthis_default_style
 realclearpolitics.com##.alpha-wrapper
