@@ -1,5 +1,5 @@
 ! Expires: 4 days (update frequency)
-! Last modified: 3:22 PM 2016-12-09
+! Last modified: 3:54 PM 2016-12-10
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
@@ -58,6 +58,8 @@
 9gag.com##.badge-toolbar-pre.fixed-wrap-post-bar
 9gag.com##.post-afterbar-a.in-post-bot.full-width
 9news.com.au##.site-header.module
+9to5google.com##.scroll-to-fixed-fixed.header-wrap
+9to5google.com##.scroll-to-fixed-fixed.news-feed-header
 @@||arlnow.disqus.com/count.js
 @@||arlnow.disqus.com/embed.js
 @@||disqus.com/embed.js?_=1457540*$script
@@ -180,6 +182,7 @@ bleacherreport.com##.share-button.button.button--reddit.button--medium
 bleacherreport.com##.share-button.button.button--twitter.button--medium
 bleacherreport.com##.share-buttons.cf.share-buttons--top
 bleedcubbieblue.com##.tab-bar-fixed.c-tab-bar
+bleepingcomputer.com##header
 blog.bugreplay.com###bloc-nav
 blogspot.ca###sidebar-top
 blogspot.ca##.followgooglewrapper
@@ -363,6 +366,7 @@ cnn.com###smt_secondary
 cnn.com##.c_sharelftcol
 cnn.com##.cnn-politics-app-promo-card
 cnn.com##.cnn_sectbin4.cnn_bin_full_width4
+cnn.com##.floating_share_button
 cnn.com##.js-banner.main-banner
 cnn.com##.js-skinny.js-navigation.nav
 cnn.com##.large-buttons
@@ -515,8 +519,12 @@ dnainfo.com##.main-nav.navbar-wrapper
 dnainfo.com##HEADER
 docs.microsoft.com#.lf-selection-popover
 drinkspirits.com##DIV[style="border-radius: 10px; border: 1px solid rgb(153, 153, 153); position: fixed; z-index: 99999; width: 70px; background-color: rgb(255, 255, 255); display: block; margin: 160px 50% 50%; right: 575px;"]
+drweil.com###js-header-inner
+drweil.com###js-newsletter-modal
+drweil.com###leaderboard_sticky
 duffelblog.com###nav-wrapper
 dxomark.com###dxo-bottom-banner
+eater.com##.tab-bar-fixed.c-tab-bar
 ebay.com###mw-app-bnr
 ebay.com##.nojs-msg.shdw
 ebay.com##.nojs-msk
@@ -646,6 +654,7 @@ fortune.cnn.com###smt_main
 fortune.com##.icon-down-arrow.icon.left-nav-toggle
 fortune.com##.main-header
 forums.androidcentral.com###header
+foursquare.com###header
 fox11online.com##.sd-news-social-container
 fox11online.com##.v2.sd-header-wrapper.sd-news-header
 fox25boston.com##.off-canvas-menu
@@ -708,6 +717,15 @@ getconnected.southwestwifi.com###cepgad
 glamour.com###react-app > .default.page-container > .g-mobile.component-newsletters
 glamour.com##.site-header
 glassdoor.com###EmpSolutionsTab
+glassdoor.com###UserAlertBar
+glassdoor.com###smartbanner
+glassdoor.com##.center.pad.borderTop.borderBot.seoBox.docLoadPromo.appPromoBanner
+glassdoor.com##.mfp-content
+glassdoor.com##.mfp-ready.mfp-bg
+glassdoor.com##.nav-container
+glassdoor.com##.notranslate.giveToGetAppDownloadModule.giveToGetLoginModule
+glassdoor.com##.sneakPeekPromoItemXS.sm.lockedOverlayAppDownload.sneakPeekItemPromoBox
+glassdoor.com##.sneakPeekPromoItemXS.sm.lockedOverlayAppDownload.sneakPeekItemPromoBox > .promoBox.gdAlertBox
 glassdoor.com##.sticky.empLinksWrapper
 glassdoor.com##.stuck.sticky.exploreCareers.bucket
 globalnews.ca##.socialShare.collapsed
@@ -747,6 +765,7 @@ haaretz.com##.fblike
 haaretz.com##.subscrOptWide
 haaretz.com##.verticleTabsFacebook
 hackerone.com##.js-topbar
+halfwheel.com##.mean-bar
 harpers.org###issuem-leaky-paywall-articles-remaining-nag
 harpers.org##.subscribe
 harvarddesignmagazine.org###navigation-wrapper
@@ -1457,6 +1476,7 @@ rt.com###header-nav
 rt.com##.b-header_top-band_on-sidebar.i-r
 rt.com##.b-main_extension.firefox.visible
 rt.com##.columns__separator
+rt.com##.sp_right.sp_mobile.sp_ticker
 rt.com##.spot-im-registration-module
 rt.com##.static-33_high-100.columns__column
 sadanduseless.com###conversions-box
@@ -1986,6 +2006,7 @@ washingtonpost.com##.inline-list.share-block-grid
 washingtonpost.com##.lockfixed.nav-open.echo-apps-conversations-streamHeader
 washingtonpost.com##.lockfixed.nav-open.echo-apps-conversations-streamHeader.echo-apps-conversations-tabs.nav-tabs.nav
 washingtonpost.com##.lockfixed.nav-open.test.echo-apps-conversations-streamHeader
+washingtonpost.com##.masthead
 washingtonpost.com##.module.component.connect.curved.apple-simulator
 washingtonpost.com##.module.image-promotion.component.curved
 washingtonpost.com##.nav-closed.jqmOverlay
