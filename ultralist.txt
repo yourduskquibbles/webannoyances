@@ -1,5 +1,5 @@
-! Expires: 4 days (update frequency)
-! Last modified: 3:54 PM 2016-12-10
+! Expires: 4 Days (Update Frequency)
+! Last Modified: 4:20 PM 2016-12-11
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
@@ -121,8 +121,6 @@ aol.com##.mpid-7
 ap.org###block-ap-misc-ap-social-media
 ap.org##.ap-mediabox-td
 ap.org##.clearfix.share-block
-apps.facebook.com##:xpath(.//*[@class="genericPopup gpGold ifi_popup"])
-apps.facebook.com##:xpath(.//*[@id="likeUsPopup"])
 arlnow.com###search-navigation
 arlnow.com###top-bar
 arlnow.com##.widget.social-media-widget
@@ -410,6 +408,8 @@ coupons.com##.siso-links.mod-signinsignuplinks
 courierpress.com##.story_tools_right
 cracked.com###header
 cracked.com##.navbar-header
+crateandbarrel.com##.js-email-signup-modal-overlay.email-signup-modal-overlay
+crateandbarrel.com##.js-email-signup-modal.email-signup-promotion.email-signup-modal.email-signup
 crateandbarrel.com##.ui-draggable.ui-front.ui-corner-all.ui-widget-content.ui-widget.ui-dialog
 crateandbarrel.com##.ui-front.ui-widget-overlay
 crooksandliars.com###topnav
@@ -1639,6 +1639,7 @@ theaustralian.com.au##.share-icons-lhs.has-signin
 theawl.com##.highlightMenu-inner
 theawl.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBottomSection.u-tintSpectrum.u-tintBgColor.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar
 theawl.com##.u-xs-paddingRight10.u-xs-paddingLeft10.u-zIndexMetabar.u-paddingBottom10.u-paddingTop10.u-borderBox.u-boxShadowTop.u-backgroundWhite.u-sizeFullWidth.u-bottom0.u-fixed
+thebaffler.com##.smaller.header
 thebiglead.com###header-sticky-wrapper
 thebiglead.com###story-share-buttons-old
 thebiglead.com##.img-share-overlay
