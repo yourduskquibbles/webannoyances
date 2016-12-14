@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 2:42 PM 2016-12-13
+! Last Modified: 9:56 AM 2016-12-14
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
@@ -121,6 +121,7 @@ aol.com##.mpid-7
 ap.org###block-ap-misc-ap-social-media
 ap.org##.ap-mediabox-td
 ap.org##.clearfix.share-block
+apple.com##.ac-ln-wrapper
 arlnow.com###search-navigation
 arlnow.com###top-bar
 arlnow.com##.widget.social-media-widget
@@ -183,6 +184,8 @@ bleacherreport.com##.share-buttons.cf.share-buttons--top
 bleedcubbieblue.com##.tab-bar-fixed.c-tab-bar
 bleepingcomputer.com##header
 blog.bugreplay.com###bloc-nav
+blog.google##.uni-fab-toggle
+blog.google##.uni-selection-sharer-active.uni-selection-sharer
 blogspot.ca###sidebar-top
 blogspot.ca##.followgooglewrapper
 blogspot.ca##.share
@@ -456,6 +459,7 @@ dailymail.co.uk###swipeIndicator
 dailymail.co.uk###textShare
 dailymail.co.uk##.home.item.html_snippet_module
 dailymail.co.uk##.mobile-sharing.cc.news
+dailymail.co.uk##.mobile-sharing.home.cc
 dailymail.co.uk##.mobile-sharing.tvshowbiz.cc
 dailymail.co.uk##.mol-previous-next-navigation_next-button
 dailymail.co.uk##.mol-previous-next-navigation_previous-button
@@ -808,6 +812,8 @@ honesttea.com###NEWFooter_new
 hoover.org##.region-inner.clearfix
 hoover.org##.region.region-header-top
 hopesandfears.com##.adblock-message
+houstonchronicle.com##.container-fluid
+houstonchronicle.com##.navbar-fixed-top.navbar-default.navbar
 howstuffworks.com###hsw-header
 howstuffworks.com###pagination-upper
 howstuffworks.com##.fb-hsw-like-wrapper.row
@@ -902,6 +908,7 @@ intuit.com###ozen
 intuit.com##.WelcomeMatView
 intuit.com##.advice.module.o2card
 inverse.com##.app-header.flex
+inverse.com##.flex-centered.flex.app-fullpage.promos-newsletter-slidein.promos-newsletter-page
 inverse.com##.locked.flatiron-app.consumer.article-route.article-channel.app
 inverse.com##.sticky.header-container
 investopedia.com##.meganav.header
@@ -1941,6 +1948,9 @@ vice.com##.nsfw-wrapper
 vice.com##.post_footer_social
 vice.com##.shown.sharing-header.site-header
 vice.com##.site-header-inner
+viewfind.com###fixed_social
+viewfind.com###vf_nav
+viewfind.com##.main-header.container-fluid
 villagevoice.com##.city-color-border.next.sideSlide > .city-color-border.city-color-back.tab
 villagevoice.com##.city-color-border.prev.sideSlide > .city-color-border.city-color-back.tab
 villagevoice.com##.sde-shadow
@@ -2084,6 +2094,8 @@ wikia.com###WikiaBarWrapper
 wikia.com###globalNavigation
 wikihow.com###follow_table
 wikihow.com###sliderbox
+wilx.com###nav
+wilx.com###navbar
 wionews.com##.navbar-fixed-top.navbar-default.navbar
 wired.co.uk##.is-stuck.n-main__sticker-child
 wired.com###.marg-b-med.sidebar-rad.box.rad
@@ -2203,6 +2215,7 @@ zerohedge.com##.js-links
 ||edit.mint.com/sites/default/files/schwab-welcome-mat-feb.html
 ||hellobar.com^$third-party,script,important
 ||hosts-file.net/ad_servers.txt$xmlhttprequest,domain=behind-the-scene
+||i.mol.im/i/mobileimages/b-play.png$image
 ||images.mint.com/web-client/images/promo/Logout_Loan_Center.png$image
 ||leadpages.co*$third-party
 ||load.sumome.com
