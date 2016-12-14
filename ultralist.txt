@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 9:56 AM 2016-12-14
+! Last Modified: 10:12 AM 2016-12-14
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
@@ -1130,6 +1130,7 @@ nautil.us###main-header
 nautil.us##.fb-share
 nautil.us##.tw-share
 navytimes.com##.js-pubsub-module.has-secondary-nav.layout-module.generic-module
+nbclosangeles.com##.stickyNav.nav-landing.navbar
 nbcnews.com###ember983
 nbcnews.com##.button-toggle-share
 nbcnews.com##.left_ear_wrap
@@ -1706,7 +1707,9 @@ thehill.com###bottom-story-socials
 thehill.com###dfp-ad-mosad_1
 thehill.com###header
 thehill.com##.container-emphasised.container.header.main
+thehill.com##.item-shares
 thehill.com##.scroll-down-to-next
+thehill.com##:xpath(.//*[@class="rollover-people-block"])
 theinformation.com##.sticky-header
 theinquirer.net###large_share_wrapper
 theinquirer.net##.below_top_search
