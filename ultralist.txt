@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 11:24 AM 2016-12-16
+! Last Modified: 11:47 AM 2016-12-16
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
@@ -161,6 +161,7 @@ backstageol.com##.aligncenter.size-full.wp-image-3161
 backstageol.com##IFRAME[src="//www.facebook.com/plugins/likebox.php?href=http://www.facebook.com/backstageol&width=300&height=258&show_faces=true&colorscheme=light&stream=false&show_border=false&header=false"]
 baltimoresun.com##.nextgen-right
 baltimoresun.com##.trb_nh_lw
+baltimoresun.com##.trb_nh_uw
 baltimoresun.com##IMG[src="http://data.baltimoresun.com/images/spacer.gif"]
 bbc.co.uk###page-bookmark-links-head
 bbc.co.uk##.section-navigation.stick
@@ -251,6 +252,8 @@ breitbart.com###bb-store-ldr
 breitbart.com###bbsp_site_overlay
 breitbart.com###content_0_fixedshare_0_divSocialMedia
 breitbart.com###content_0_rightrail_0_ctl12_sectionSubscribe
+breitbart.com###isc_front_takeover_div
+breitbart.com###isc_front_takeover_overlay
 breitbart.com###isc_trump_takeover_div
 breitbart.com###isc_trump_takeover_overlay
 breitbart.com##.connect
@@ -301,6 +304,7 @@ buzzfeed.com##.pullquote_shares_wrapper
 buzzfeed.com##.share-box
 buzzfeed.com##.vertical-sidebar-info.bf_dom.diy-connect
 buzzfeed.com##.xs-l0.xs-z4.sm-fixed.xs-relative.xs-col-12.js-header-section-content
+bythewavs.com##.nav-primary
 c4isrnet.com###page-content > .js-pubsub-module.has-secondary-nav.layout-module.no-subscribe-now.generic-module
 calgaryherald.com##.mobile-header.header-nav
 calgaryherald.com##.top-bar
@@ -530,7 +534,9 @@ disqus.com##.realtime
 distractify.com###header
 distractify.com###pc-fix-header
 dividend.com###newsletter-modal
+dividend.com###popup-modal
 dividend.com##.affix.mm-header
+dividend.com##.in.modal-backdrop
 dnainfo.com###social-buttons
 dnainfo.com##.main-nav.navbar-wrapper
 dnainfo.com##HEADER
@@ -922,6 +928,7 @@ inverse.com##.app-header.flex
 inverse.com##.flex-centered.flex.app-fullpage.promos-newsletter-slidein.promos-newsletter-page
 inverse.com##.locked.flatiron-app.consumer.article-route.article-channel.app
 inverse.com##.sticky.header-container
+investopedia.com###infinite-scroll-container
 investopedia.com##.meganav.header
 irishtimes.com###cookies-policy-wrapper
 irishtimes.com###newsdigest-widget
@@ -1629,6 +1636,7 @@ stocknews.com##.navbar-fixed-top.navbar-inverse.navbar-default.navbar
 stream.org##.show.sticky_share
 stream.org##header
 streetwise.co###center-flyin
+stripes.com##.fadeIn1.animate.hide-for-large-up.tab-bar
 superpages.com###box
 talater.com##.post_share.animatePadding.x
 talkingpointsmemo.com##.article-share-buttons.well.well-small
@@ -1921,16 +1929,10 @@ usatoday.com##.longform-flyouts.icon-shadow.icon-box
 usatoday.com##.overlay-content-arrows.overlay-content-arrows-next-wrap
 usatoday.com##.recommended-flyout-wrap
 usatoday.com##.site-header-inner-wrap.site-header-inner-wrap-fixed
+usatoday.com##.site-masthead-subscribe-wrap-visible.site-masthead-subscribe-wrap
 usatoday.com##.sponsor
 usatoday.com##.story-tools
 usatoday.com##.utility-bar-wrap
-userscripts.org###jxjhaigvsvrbtgkdysdhxtklmshdinklchibppze
-userscripts.org###ntzzbhrdnfcddhpybdpymyskxxlvmocf
-userscripts.org##A[href="http://twitter.com/?status=Instasynch+Addons+-+http://userscripts.org/181142"]
-userscripts.org##A[href="http://www.facebook.com/share.php?u=http://userscripts.org/scripts/show/181142"]
-userscripts.org##A[onclick="window.location = 'http://www.reddit.com/submit?url=http://userscripts.org/scripts/show/181142'; return false"]
-userscripts.org##A[onclick="window.open('http://delicious.com/save?v=5&noui&jump=close&url=http://userscripts.org/scripts/show/181142&title='+encodeURIComponent(document.title), 'delicious','toolbar=no,width=550,height=550'); return false;"]
-userscripts.org##G:PLUSONE[href="http://userscripts.org/scripts/show/181142"]
 usnews.com##.box.bar-toolbar5
 usnews.com##.fixed.hero-sticky-bar-container
 usnews.com##.rail-sticky
