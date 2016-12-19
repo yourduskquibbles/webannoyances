@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 2:23 PM 2016-12-16
+! Last Modified: 9:10 AM 2016-12-19
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
@@ -168,6 +168,9 @@ bbc.co.uk##.section-navigation.stick
 bbcgoodfood.com##.search-form-processed.page-header-touch
 bedbathandbeyond.com###box
 beltmag.com###popup
+bet.com##.header__nav__bar
+bet.com##.header__nav_fixed.header__nav_scroll_down.header__nav
+bet.com##.smartbanner
 betabeat.com##.entry-bottom-share
 betabeat.com##.entry-top-share
 bgr.com###topnav
@@ -324,6 +327,7 @@ cbslocal.com###text-36
 cbslocal.com###text-48
 cbslocal.com##.addthis_toolbox.addthis_default_style
 cbslocal.com##.follow-us
+cbsnews.com###pip__headline
 cbsnews.com##.social.sharebar_expanded.inline-sharebar.theme-light
 cbssports.com###cbs-site-nav
 cbssports.com##.site-nav-top
@@ -417,6 +421,8 @@ conservativeintel.com##.popupbox_mid
 cooksillustrated.com##.active.header-wrapper__sticky
 cosmopolitan.com##.nav-bar
 cosmosmagazine.com###daily-newsletter-signup
+counterpunch.org###wprmenu_bar
+counterpunch.org##.print-link-top
 couponchief.com###link2hiw
 couponchief.com##.coupon-code-cover
 couponchief.com##.navbar-fixed-top.navbar
@@ -1002,6 +1008,8 @@ m.independent.ie##.root-a > header
 m.independent.ie##.root-a > section > .sharesnap.story-a > .p402_hide:nth-of-type(1) > .share-b > ul:nth-of-type(2)
 m.reddit.com##.TopNav
 m.wikihow.com##.header
+m.yelp.com###photos-app-pitch
+m.yelp.com##.photos-grid-shim.photos-app-pitch-shim
 mademan.com##.ajax-end.persistent-tray
 mademan.com##.topbar
 mailtribune.com###loginBarBtm
@@ -1529,6 +1537,8 @@ rt.com##.sp_right.sp_mobile.sp_ticker
 rt.com##.spot-im-registration-module
 rt.com##.static-33_high-100.columns__column
 sadanduseless.com###conversions-box
+sagepub.com##.mobileHeader
+sagepub.com##.stick-it-wrapper
 saintlad.com##.visible.mini-disabled.menu-wrap
 salon.com##.dark
 salon.com##.followSalon.widget
