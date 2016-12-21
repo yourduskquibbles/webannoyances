@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 6:39 PM 2016-12-20
+! Last Modified: 9:58 AM 2016-12-21
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
@@ -109,14 +109,18 @@ amazingribs.com###curtain-container
 amazingribs.com###top-nav
 amazingribs.com##.main
 amazingribs.com##.shadow
+amazon.co.uk##.actor.xrayQuickViewListItem
+amazon.co.uk##.show.xrayQuickView
+amazon.co.uk##.xrayHeaderLink
+amazon.co.uk##.xrayQuickViewList.collectionView
 amazon.com###nav-mobile-airstream-stripe
 amazon.com###share_bar-sdl_9d17c040
 amazon.com###smart-app-banner
 amazon.com###tellAFriendBox_feature_div
+amazon.com##.actor.xrayQuickViewListItem
 amazon.com##.show.xrayQuickView
 amazon.com##.xrayHeaderLink
 amazon.com##.xrayQuickViewList.collectionView
-amazon.com.show.xrayQuickView
 americasmarkets.usatoday.com###header
 amzreviewtrader.com###floating-button
 amzreviewtrader.com##.nav-main.nav
@@ -613,6 +617,7 @@ ew.com###main-nav
 ew.com##.ad-section-container.snap.hide-med.ad-small
 expatsoftware.com##.subscribe-footer
 express.co.uk###main_menu_bar
+extremetech.com##.hybrid-bar
 facebook.com###stream_pagelet div[id^="feed_stream_"] div[id^="substream_"] div[id^="hyperfeed_story_id_"]:has(a.uiStreamSponsoredLink)
 facebook.com###u_0_47
 facebook.com###u_0_h
@@ -978,9 +983,11 @@ latimes.com###content-bottom
 latimes.com###pmad-in2
 latimes.com###pmad-rail
 latimes.com###questions_list
+latimes.com###reg-overlay
 latimes.com###zenbox_tab
 latimes.com##.module.blurb
 latimes.com##.nextgen-right
+latimes.com##.reg-content
 latimes.com##.trb_ar_shpq
 latimes.com##.trb_article_relatedTopics
 latimes.com##.trb_bnn
@@ -1699,6 +1706,7 @@ techspot.com###header-ts
 ted.com###vmrejilvmobczcqrldhzqrjekdkhdpwuywasck
 telegraph.co.uk###message
 telegraph.co.uk###shareSideContainer
+telegraph.co.uk##.message-active.component.adblocker-message
 tesla.com###sticky-footer
 the-american-interest.com###article-counter
 theadvocate.com###site-navbar-container
@@ -1842,6 +1850,8 @@ thestreet.com##.main-nav--desktop.main-nav.navbar-fixed-top.navbar
 thestylecon.com###upprev_box
 thesun.co.uk###sun-menu
 thesun.co.uk##.billboard
+thesun.co.uk##.scrolling.sun-header-bg
+thesun.co.uk##.sun-header-bg-color
 thetimes.co.uk###tto-cookieMessage
 thetimes.co.uk###tto-cookieMessageInner
 thetimes.co.uk##.ArticlePager
