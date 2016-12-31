@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 9:34 AM 2016-12-22
+! Last Modified: 2:46 AM 2016-12-31
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
@@ -77,6 +77,10 @@ abcnews.go.com###sharetools
 abcnews.go.com###widget-subscribe-3
 abcnews.go.com##.addthis_dynamic_wrapper
 abcnews.go.com##.short_bg.short_stuck
+abcnews4.com##.col-md-12.col-xxs-24 > .sd-news-social-container
+abcnews4.com##.sd-header-brand
+abcnews4.com##.sd-nav-only
+abcnews4.com##.visible.sd-news-main-footer.component-story-footer-v1
 accenture.com###WebPartWPQ8
 accenture.com###fbLike
 accenture.com##.stay-connected-master
@@ -383,6 +387,7 @@ cnbc.com##.pico-content
 cnbc.com##.pico-overlay
 cnet.com###connectCNET
 cnet.com###globalSocialPromoWrap
+cnet.com###rbHeader
 cnet.com##.fyre-notifier-container
 cnet.com##.shareBar.inline-view
 cnn.com###cnn_hdr-prompt
@@ -465,6 +470,7 @@ csmonitor.com##:xpath(.//*[@block_type="atavist-mailchimp"])
 csnbayarea.com###nbcsports-primary-nav
 curbed.com##.tab-bar-fixed.c-tab-bar
 cyberscoop.com##.header
+dagbladet.no##.fixed.index-header
 dailycaller.com###access-float
 dailycaller.com###dc-quiz-wrapper
 dailycaller.com###dc_morning_email-53
@@ -679,6 +685,7 @@ food.com##.navbar-header
 food.com##.top-offset.stick.fd-next-recipe
 food52.com###desktop-email-modal-wrapper
 food52.com###global-header-block
+food52.com###mobile-email-modal-wrapper
 foodandwine.com##.is_stuck.site-header
 foodbeast.com##HEADER
 foodnetwork.com##.prev-next-wrapper
@@ -785,6 +792,7 @@ gofobo.com###feedback-tab
 gofobo.com##.node-tools-top
 gofobo.com##.share-links-discussion
 golfweek.com##.sign-up-module.module
+goodhousekeeping.com##.sticky.nav
 goodsearch.com##.has-code.deal-button > .label
 google.com###ad
 google.com###ad-label
@@ -977,6 +985,7 @@ justsecurity.org##.contrib-nav-wrap
 kadavy.net##nav
 kernelmag.com###login-box
 kernelmag.com##.kernel-social.clearfix
+kfor.com##.navbar-fixed-top.navbar-inverse.navbar
 kgw.com##.header-main
 kgw.com##.is_stuck.site-nav
 king5.com##.header-main
@@ -992,6 +1001,7 @@ latimes.com###pmad-rail
 latimes.com###questions_list
 latimes.com###reg-overlay
 latimes.com###zenbox_tab
+latimes.com##.adblock_panel.reg-dialog
 latimes.com##.module.blurb
 latimes.com##.nextgen-right
 latimes.com##.reg-content
@@ -1032,7 +1042,10 @@ m.csmonitor.com###csm_header_container
 m.huffpost.com##.header-container
 m.independent.ie##.root-a > header
 m.independent.ie##.root-a > section > .sharesnap.story-a > .p402_hide:nth-of-type(1) > .share-b > ul:nth-of-type(2)
+m.medicalxpress.com##.slideup.ui-footer-fixed.ui-bar-c.ui-footer
+m.phys.org##.slideup.ui-footer-fixed.ui-bar-c.ui-footer.visibilityNone
 m.reddit.com##.TopNav
+m.tmz.com##.ui-bar-inherit.ui-header.header-mini
 m.wikihow.com##.header
 m.yelp.com###photos-app-pitch
 m.yelp.com##.photos-grid-shim.photos-app-pitch-shim
@@ -1187,6 +1200,8 @@ nautil.us##.fb-share
 nautil.us##.tw-share
 navytimes.com##.js-pubsub-module.has-secondary-nav.layout-module.generic-module
 nbclosangeles.com##.stickyNav.nav-landing.navbar
+nbcmiami.com##.header
+nbcmiami.com##.swiper-container-android.swiper-container-horizontal.quick-nav
 nbcnews.com###ember983
 nbcnews.com##.button-toggle-share
 nbcnews.com##.left_ear_wrap
@@ -1259,6 +1274,7 @@ newyorker.com###rolloverAd
 newyorker.com##.author-media
 newyorker.com##.content-well-newsletter
 newyorker.com##.hamburger-dropdowns-navigation__top-level
+newyorker.com##.header-fail
 newyorker.com##.js-sticky-element
 newyorker.com##.utilities
 newyorker.com##.yrcomponent
@@ -1354,6 +1370,7 @@ nytimes.com#@#.flag-moreFollowSuggestions-on
 observer.com##.banner-and-nav-wrapper
 offers.com###header
 okcupid.com##DIV[style=" background: #142d69; padding: 14px 12px 20px; border-radius: 0 5px 5px 0;\a \9 -moz-border-radius: 0 5px 5px 0;\a \9 -webkit-border-radius: 0 5px 5px 0;\a \9  "]
+onceuponachef.com##.jw-header.fixedready.topbar
 openculture.com##.clearfix
 openculture.com##.closing-social
 ouibounce*$script
@@ -1484,6 +1501,7 @@ racked.com##.tab-bar-fixed.c-tab-bar
 radaronline.com###main-header
 ramw.org###fixed_section
 ramw.org###top_section
+rare.us##.header
 rasmussenreports.com###cboxOverlay
 rasmussenreports.com###colorbox
 rasmussenreports.com##.narrow-cta.button-sprite
@@ -1767,6 +1785,7 @@ thefader.com##.locked_nav.main_nav
 thefederalist.com###scrollable_box_asd
 thefederalist.com##.aside-left-social-standard
 thefiscaltimes.com###message
+thefoodallergyhub.com###cookieswrapper
 thegatewaypundit.com###responsive-menu-button
 theguardian.com###content-actions
 theguardian.com##.component.trackable-component.undocked-share.share-links
