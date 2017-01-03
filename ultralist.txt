@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 3:26 PM 2017-01-02
+! Last Modified: 12:25 PM 2017-01-03
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
@@ -65,6 +65,8 @@
 @@||disqus.com/embed.js?_=1457540*$script
 @@||facebook.com/common/referer_frame.php$subdocument,domain=facebook.com
 @@||loxodo-analytics.ext.nile.works/api/save$xmlhttprequest,domain=washingtonpost.com
+abc7.com##.nav-background
+abc7.com##.sticky.wrapper.nav-container-sticky
 abclocal.go.com##.fbShare
 abclocal.go.com##.links
 abclocal.go.com##.shareThis
@@ -237,6 +239,8 @@ bloomberg.com##.stuck.bb-nav-root
 bloomberg.com##.top_social.no_small
 bloomberg.com##.tweet_count
 bloombergview.com###header
+boardingarea.com###ba-flybox
+boardingarea.com##.navbar-inverse.navbar
 bonappetit.com###masthead-banner-ad
 bonappetit.com###menu
 bonappetit.com###supernav
@@ -281,6 +285,7 @@ brit.co##.modal-backdrop
 brit.co##.modal-dialog
 brit.co##.sticky.top.ng-scope.modal
 brobible.com###header
+browardpalmbeach.com##.sde-shadow
 bucksfreepress.co.uk###__nq__hh:style(visibility: collapse)
 businessinsider.com###tray
 businessinsider.com##.contact
@@ -840,6 +845,7 @@ harpers.org###issuem-leaky-paywall-articles-remaining-nag
 harpers.org##.subscribe
 harvarddesignmagazine.org###navigation-wrapper
 headmelted.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.js-metabar.u-clearfix.metabar
+healthline.com##.top-menu-sticky
 heatst.com###.navbar-fixed-top.fit.col-xs-12.header-top-wrapper
 heatst.com###fbOverlay
 heatst.com###mc_embed_signup
@@ -1046,6 +1052,7 @@ luckypeach.com###masthead
 luckypeach.com##.now-reading
 luckypeach.com##.sidebar-wrapper
 m.csmonitor.com###csm_header_container
+m.gulfnews.com##.sticky.not-sticky.tab-bar
 m.huffpost.com##.header-container
 m.independent.ie##.root-a > header
 m.independent.ie##.root-a > section > .sharesnap.story-a > .p402_hide:nth-of-type(1) > .share-b > ul:nth-of-type(2)
@@ -1395,6 +1402,7 @@ pagesix.com###nav-wrapper
 pagesix.com###outbrain_widget_0
 pagesix.com###sharebar-social
 pagesix.com##.sharebar
+palmbeachpost.com##.header-wrapper > header
 pando.com###header
 pando.com###social_links
 pando.com##.fyre-notifier-container
@@ -1690,6 +1698,7 @@ social-popup/spu.js$script
 softpedia.com###cookienotif
 softpedia.com###ktucmdgtfwguhqgomzvhmjagotgmjpuxl
 softpedia.com##DIV[style="float:left; margin-left: 30px; width: 200px;"]
+sousvideguy.com###site-navigation-sticky-wrapper
 space.com###sticky-header > .center-content
 space.com###stickyShare
 spacenews.com###navs
@@ -1994,6 +2003,8 @@ twentytwowords.com###social-bar-wide
 twitlonger.com##.navbar-fixed-top.navbar
 twitter.com##.u-cf.OpenInAppBar
 ua-magazine.com##.move.sticky.menu_container
+undark.org##.clearfix.top-bar-section
+undark.org##.header-scrolled.top-bar
 unpatent.co##.is-maximized.metabar--affixed.js-metabar.u-clearfix.metabar
 upi.com###p_header
 uploaded.net##.hg_container-area
