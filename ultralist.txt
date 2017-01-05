@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 11:16 AM 2017-01-04
+! Last Modified: 11:05 AM 2017-01-05
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
@@ -53,6 +53,9 @@
 /mailmunch/static/popover.js
 /optin-monster/*$script
 /optinmonster/*$script
+2paragraphs.com##.nav-primary
+2paragraphs.com##.nav-primary > .wrap
+2paragraphs.com##.site-header
 8newsnow.com###klasSocial
 9gag.com###jsid-featured-sidebar-tail
 9gag.com##.badge-toolbar-pre.fixed-wrap-post-bar
@@ -137,6 +140,8 @@ androidauthority.com###sticky-bar
 androidauthority.com##.sw_overlay_href.overlay-link
 androidforums.com###social-icons
 androidforums.com###yvjotilvhppccccahqxngddtnoesfgzrm
+androidheadlines.com###masthead
+androidmag.de###header
 anncoulter.com##.addthis_toolbox.addthis_default_style
 answers.yahoo.com###UH
 aol.com##.mpid-7
@@ -200,7 +205,9 @@ billboard.com##.breaking_news_bar
 billboard.com##.search-toggle.open-search
 billboard.com##.social.social_vert
 billboard.com##.top-content.container
+bizjournals.com###boundary-2__sticker-0 > .sm-only__expander.xs-only__expander
 bizjournals.com###tour-prompt.prompt.prompt--full-width
+bizjournals.com##.prompt__content
 bleacherreport.com###facebook-like-site-module
 bleacherreport.com##.article_nav-bar.br-texture--sudo.br-texture--sudo-fade-to-white
 bleacherreport.com##.component-small-nav
@@ -445,6 +452,8 @@ consequenceofsound.net##.site-header
 conservativeintel.com###splashmodal
 conservativeintel.com##.popupbox_mid
 cooksillustrated.com##.active.header-wrapper__sticky
+copadivino.com###mainNav
+copadivino.com##.navbar-header
 cosmopolitan.com##.nav-bar
 cosmosmagazine.com###daily-newsletter-signup
 counterpunch.org###wprmenu_bar
@@ -581,6 +590,7 @@ dnainfo.com##HEADER
 docs.microsoft.com#.lf-selection-popover
 drinkspirits.com##.td-header-menu-wrap-full
 drinkspirits.com##DIV[style="border-radius: 10px; border: 1px solid rgb(153, 153, 153); position: fixed; z-index: 99999; width: 70px; background-color: rgb(255, 255, 255); display: block; margin: 160px 50% 50%; right: 575px;"]
+droidguiding.com###nav-topbar
 drweil.com###js-header-inner
 drweil.com###js-newsletter-modal
 drweil.com###leaderboard_sticky
@@ -754,6 +764,7 @@ freebeacon.com##.columns.large-6
 freebeacon.com##.contact
 freedominthe50states.org###share_widget
 freep.com##.fb_recommend
+freep.com##.site-header-inner-wrap-fixed.site-header-inner-wrap
 freep.com##.toolsShare
 ft.com###assanka_mockingbird_overlay
 ft.com###barrier-dialogue
@@ -1162,6 +1173,7 @@ msnbc.com##.pane-msnbc-homepage2-latest-topics.panel-pane > .pane-content
 msnbc.com##.social-icons-a
 msnbc.com##.teaser__social.teaser__social--standard.j_social_set
 msnbc.com##.teaser__social__link.teaser__social__link--facebook.addthis_button_facebook.popover-button
+muckrock.com###nav
 muckrock.com##.website-header
 mydomaine.com##.nav-wrapper.navbar-fixed-top.navbar-default.navbar
 myfoxdc.com###WNStoryUtils
@@ -1425,6 +1437,7 @@ pastebin.com##.cd-fade-out.cd-is-visible.cd-top
 pasted.co###captcha_box
 pasted.co###captcha_overlay
 patch.com##.header-container
+patents.justia.com###sticky-nav
 pbs.org###frontline_newsletter_over
 pbs.org###frontline_newsletter_please
 pbs.org##.geeplus
@@ -1447,6 +1460,9 @@ pix11.com###actionbar
 pjmedia.com###social
 pjmedia.com##.navbar-scroll.main-nav-wrapper.navbar-wrapper
 pjmedia.com##.share
+playboard.me###\34 2mattersAnnounce
+playboard.me###uvTabLabel
+playboard.me##.navbar-fixed-top.navbar-inverse.navbar
 pogo.org###sticky
 pokemongodb.net###rev-toaster
 policymic.com###share
@@ -1495,6 +1511,9 @@ priceonomics.com###sidebar-scrollfix
 priceonomics.com###social-share
 priceonomics.com##.clearfix.social-share-top
 primaryarms.com##.popup-content
+privacytools.io##.navbar-fixed-top.navbar-inverse.navbar
+prnewswire.com##.visible-xs-block.mm-slideout.navbar-fixed-top.navbar-default.navbar.header-mobile
+prnewswire.com##.visible-xs-block.mm-slideout.navbar-fixed-top.navbar-default.navbar.header-mobile > .container
 projectcensored.org###lpl
 projectcensored.org###lpl-overlay
 projects.propublica.org##header
@@ -1506,6 +1525,9 @@ psmag.com##.span1.psmag-sharing-column
 psmag.com##.widget_psmag_mailsocial
 psychologytoday.com##.flag-actions
 pvplive.net##.nav-stuck
+qualityassurancemag.com###slide-nav
+qualityassurancemag.com##.navbar-header
+qualityassurancemag.com##.supersocialshare-container
 quora.com###__w2_Dm98LHe_view_in_app
 quora.com###header > .fixed_header
 quora.com##.inner
@@ -1667,6 +1689,7 @@ sfgate.com##.hst-articletools
 sfgate.com##.hst-articletools2
 sfglobe##.kfm_dialog
 sfglobe##.kfm_dialog_overlay
+sharktankblog.com###ezmob_footer
 showbiz411.com###toTop
 showbiz411.com##.affix.td-menu-wrap.container
 si.com###siBar-social-facebook
@@ -1717,6 +1740,7 @@ spiegel.de###js-sticky-header
 spiegel.de##.clearfix.sticky-overlay
 spin.com###banner
 spin.com##.show.sticky-header.social-holder
+splcenter.org###header
 sportsonearth.com##.next-prev-superbar.bam-superbar
 sportsonearth.com##.share.lower-social.fixed-social
 sputniknews.com###share
