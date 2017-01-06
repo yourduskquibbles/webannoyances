@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 11:05 AM 2017-01-05
+! Last Modified: 10:44 AM 2017-01-06
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
@@ -619,10 +619,12 @@ eonline.com###smartbanner
 eonline.com##.social-links.horizontal
 epi.org###epi-email-signup-backdrop
 epicurious.com##.site-header
+espn.com###header-wrapper:style(position: relative !important; top: 0 !important;)
 espn.com###toolbar
 espn.com##.active.js-feed-item-mask
 espn.com##.js-bloomed.favorites-mgmt.lightbox
 espn.com##.lightbox-container
+espn.com##.newItemAlert.sm.button:style(position: relative !important; top: 0 !important;)
 espn.go.com###mod_ad-box
 espn.go.com##.bg-opaque.mod-outbrain.mod-no-border
 espn.go.com##.mod-page-actions
@@ -1887,6 +1889,7 @@ thenextweb.com##.article-meta-wrapper
 thenextweb.com##.content-head
 thenextweb.com##.nav
 theonion.com###h
+theonion.com##.responsive-nav-active:style(position: relative !important; top: 0 !important;)
 theonion.com##.share-tools.vertical-large
 theonion.com##.social
 theoutline.com##.icon-logo.navigation__logo
@@ -2363,6 +2366,7 @@ yelp.com###wrap.js-open-in-app.photo-box_overlay
 yelp.com###wrap.prominent-review-pitch
 yelp.com##.js-open-in-app.photo-box_overlay
 yelp.com##.prominent-review-pitch
+yourdictionary.com##.wordFinderFloating.floating-header.header-container.row:style(position: relative !important; top: 0 !important;)
 yourmechanic.com##.nav-bar__body
 youtube.com##.share-panel-services
 yummly.co##.header-iab
