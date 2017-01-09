@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 11:55 AM 2017-01-09
+! Last Modified: 4:02 PM 2017-01-09
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
@@ -1423,6 +1423,12 @@ nytimes.com##.sharetools
 nytimes.com##.subColumn-2.noBackground.mobilePromo.nocontent
 nytimes.com#@#.flag-moreFollowSuggestions-on
 observer.com##.banner-and-nav-wrapper
+ocweekly.com##.city-color-border.city-color-back.tab
+ocweekly.com##.city-color-border.next.sideSlide
+ocweekly.com##.city-color-border.prev.sideSlide
+ocweekly.com##.leaderboard
+ocweekly.com##.sde-shadow
+ocweekly.com##.sticky-bar.masthead
 offers.com###header
 okcupid.com##DIV[style=" background: #142d69; padding: 14px 12px 20px; border-radius: 0 5px 5px 0;\a \9 -moz-border-radius: 0 5px 5px 0;\a \9 -webkit-border-radius: 0 5px 5px 0;\a \9  "]
 onceuponachef.com##.jw-header.fixedready.topbar
@@ -1923,10 +1929,9 @@ theringer.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBott
 theringer.com##.is-maximized.metabar--affixed.u-tintSpectrum.u-tintBgColor.metabar--hiddenWhenMinimized.metabar--tall.metabar--light.js-metabar.u-clearfix.metabar
 theringer.com##.u-xs-paddingRight10.u-xs-paddingLeft10.u-zIndexMetabar.u-paddingBottom10.u-paddingTop10.u-borderBox.u-boxShadowTop.u-backgroundWhite.u-sizeFullWidth.u-bottom0.u-fixed
 theroot.com###js-article-slider
-thescore.com##.context-menu-row
-thescore.com##.context-menu-wrapper
+thescore.com##.app-header:style(position: relative !important; top: 0 !important;)
 thescore.com##.fb-messenger--collapse.fb-messenger
-thescore.com##.main-menu-row
+thescore.com##.main-menu-row:style(position: relative !important; top: 0 !important;)
 thescore.com##.slide-in--closed.slide-in--twitter.slide-in
 thescore.com##.slide-in--open.slide-in--article.slide-in
 thescore.com##.slide-in--open.slide-in--facebook.slide-in
