@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 10:44 AM 2017-01-06
+! Last Modified: 11:55 AM 2017-01-09
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
@@ -68,6 +68,8 @@
 @@||disqus.com/embed.js?_=1457540*$script
 @@||facebook.com/common/referer_frame.php$subdocument,domain=facebook.com
 @@||loxodo-analytics.ext.nile.works/api/save$xmlhttprequest,domain=washingtonpost.com
+abc11.com##.nav-background
+abc11.com##.sticky.wrapper.nav-container-sticky
 abc7.com##.nav-background
 abc7.com##.sticky.wrapper.nav-container-sticky
 abclocal.go.com##.fbShare
@@ -249,6 +251,7 @@ bloomberg.com##.tweet_count
 bloombergview.com###header
 boardingarea.com###ba-flybox
 boardingarea.com##.navbar-inverse.navbar
+bodum.com###launcher
 bonappetit.com###masthead-banner-ad
 bonappetit.com###menu
 bonappetit.com###supernav
@@ -367,6 +370,7 @@ cc.com###oo_tab_1
 cc.com###tcr-header
 channelnewsasia.com##.header-area-scrolled.nav-area
 channelnewsasia.com##.wrapper-nav
+chefsteps.com##.cs-nav
 cheftalk.com###site-header
 chicago.suntimes.com###primary-navigation
 chicagocubsonline.com##.nav-primary
@@ -547,6 +551,9 @@ defenseone.com###featured-navigation-section.featured-element > .featured-contai
 defenseone.com##.d1-sticky-nav-stick.d1-sticky-nav
 defenseone.com##.logo.large-logo > .featured-home-page[href="http://defenseone.com"]
 defenseone.com##.social
+denverpost.com##.headroom--pinned.headroom--not-top.headroom.default.site-header
+denverpost.com##.headroom--unpinned.headroom--not-top.headroom.default.site-header
+denverpost.com##.nav-wrapper
 designboom.com###NewsletterBox_dynamic
 designboom.com###NewsletterBox_dynamic_0
 designboom.com###icon_wrapper
@@ -625,6 +632,7 @@ espn.com##.active.js-feed-item-mask
 espn.com##.js-bloomed.favorites-mgmt.lightbox
 espn.com##.lightbox-container
 espn.com##.newItemAlert.sm.button:style(position: relative !important; top: 0 !important;)
+espn.com##.vertical.article-social
 espn.go.com###mod_ad-box
 espn.go.com##.bg-opaque.mod-outbrain.mod-no-border
 espn.go.com##.mod-page-actions
@@ -860,6 +868,8 @@ harpers.org##.subscribe
 harvarddesignmagazine.org###navigation-wrapper
 headmelted.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.js-metabar.u-clearfix.metabar
 healthline.com##.top-menu-sticky
+hearthpwn.com###site-main > .main
+hearthpwn.com##h1
 heatst.com###.navbar-fixed-top.fit.col-xs-12.header-top-wrapper
 heatst.com###fbOverlay
 heatst.com###mc_embed_signup
@@ -868,6 +878,8 @@ heatst.com##.in.fade.modal-backdrop
 heatst.com##.modal-dialog
 heatst.com##.navbar-fixed-top.fit.col-xs-12.header-top-wrapper
 heatst.com##.sp_right.sp_ticker
+heddels.com##.mobile_open.mobile_mailing_list
+heddels.com##header
 highbeam.com##.header-outer
 history.com###backtotop
 history.com##.clearfix.visible-phone.share-tools
@@ -1078,6 +1090,8 @@ m.shop.nordstrom.com##.android-app-banner
 m.tmz.com##.ui-bar-inherit.ui-header.header-mini
 m.wikihow.com##.header
 m.yelp.com###photos-app-pitch
+m.yelp.com##.cta-menubar-pitch-icons
+m.yelp.com##.js-fast.menu-bar-pitch_container.cta-menubar-pitch_container
 m.yelp.com##.photos-grid-shim.photos-app-pitch-shim
 m.zappos.com###downloadAppPop
 mademan.com##.ajax-end.persistent-tray
@@ -1121,8 +1135,11 @@ mensjournal.com##.main-bg.header
 mensjournal.com##.social-bar.clearfix
 mensjournal.com##.subscribe
 mensjournal.com##.subscription-tout
+mentalfloss.com###MenuBar
+mentalfloss.com###subMenuBar
 mentalfloss.com##.boxes-box-content
 mentalfloss.com##.header-wrapper
+mentalfloss.com##.left
 mercurynews.com##.headroom--unpinned.headroom--not-top.headroom.default.site-header
 mercurynews.com##.nav-wrapper
 metro.co.uk###masthead
@@ -1149,6 +1166,7 @@ modernfarmer.com##.mf-fixednav-hidden.fix
 modernfarmer.com##.mf-postlayout-sb
 modernfarmer.com##.unstyled.mf-footer-social.fix
 modernfarmer.com##.unstyled.mf-single-article-share.fix
+modernistcuisine.com##header:style(position: relative !important; top: 0 !important;)
 mondaynote.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBottomSection.js-metabar.u-clearfix.metabar
 money.cnn.com###notice_banner
 money.cnn.com##.ng-scope.clear
@@ -1240,6 +1258,7 @@ nbcnews.com##.left_ear_wrap
 nbcnews.com##.sitewide-header-social
 nbcnews.com##.stack-list-share
 nbcnewyork.com###pageContainerScroll > .body-container > .header
+nbcnewyork.com##.header
 nbcnewyork.com##.nav-carousel
 nbcnewyork.com##.stickyNav.nav-landing.navbar
 nbcnewyork.com##.swiper-container-android.swiper-container-horizontal.quick-nav
@@ -1320,6 +1339,7 @@ nfl.com##.yui3-nfl-rewards-drivebar-top-bar-wrapper
 nfl.com##:xpath(.//*[@class="yui3-overlay-content yui3-widget-stdmod"])
 nfl.com##:xpath(/html/body/*//div[@class="yui3-ff-feedback-content yui3-widget-content-expanded"])
 nflshop.com###NFLFooterContentBottomMiddleSocial
+nme.com###navigation
 nootrobox.com##.article__sidebar__container
 nootrobox.com##.navbar-fixed-top.navbar
 npr.org###contentfooter
@@ -1453,6 +1473,7 @@ peta.org##.js-smaller.logo
 peta.org##.sticky-banner
 peta.org##.top-bar
 petapixel.com##.fixed.header-main
+pethelpful.com###header_wrap
 petmd.com###nlSliderSignup
 philly.com###header
 phoenixnewtimes.com##.sde-shadow
@@ -2076,6 +2097,7 @@ usnews.com##.right.header-banner-section-social.header-banner-section
 usnews.com##.show-for-large-up.block-loose.pad-loose.border-bottom:nth-of-type(2)
 utilitydive.com##.site-menu-wrapper
 utilitydive.com##.wf-active.wf-abriltitling-n4-active.wf-proximanova-n4-active.wf-proximanova-n3-active.wf-proximanova-n9-active.wf-abriltitling-n8-active.wf-abriltitling-n7-active.wf-proximanova-n5-active.wf-proximanova-n7-active.wf-proximanova-n8-active.no-js
+utsports.com##.tab-bar-fixed.c-tab-bar
 valuewalk.com###\5f _yavli107
 valuewalk.com###desktop_text-26
 valuewalk.com###om-k4aqrfjozo-lightbox
@@ -2344,6 +2366,7 @@ xda-developers.com##.share
 xojane.com###follow_us_twitter-0
 xojane.com###read_janes_diary-0
 xojane.com###sharing-0
+yahoo.com###Hero-0-FeatureBar-smartphone-Proxy
 yahoo.com###YDC-UH-Stack
 yahoo.com###danafarberpromo
 yahoo.com###default-p_30345810-bd
