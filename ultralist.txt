@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 4:10 PM 2017-01-09
+! Last Modified: 10:14 AM 2017-01-10
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
@@ -1392,7 +1392,7 @@ nytimes.com###g-graphic > .g-ad-wrapper:nth-of-type(9)
 nytimes.com###gatewayUnit
 nytimes.com###living-newsletter-promo
 nytimes.com###main-header
-nytimes.com###masthead
+nytimes.com###masthead:style(position: relative !important; top: 0 !important;)
 nytimes.com###masthead-placeholder
 nytimes.com###navigation
 nytimes.com###navigation-edge
@@ -1935,7 +1935,7 @@ theroot.com###js-article-slider
 thescore.com##.app-header:style(position: relative !important; top: 0 !important;)
 thescore.com##.fb-messenger--collapse.fb-messenger
 thescore.com##.hidden-xs.fb-messenger
-thescore.com##.main-menu-row:style(position: relative !important; top: 0 !important;)
+thescore.com##.main-menu-row
 thescore.com##.slide-in--closed.slide-in--twitter.slide-in
 thescore.com##.slide-in--open.slide-in--article.slide-in
 thescore.com##.slide-in--open.slide-in--facebook.slide-in
