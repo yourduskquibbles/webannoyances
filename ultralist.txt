@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 10:53 AM 2017-01-10
+! Last Modified: 11:16 AM 2017-01-10
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
@@ -1939,7 +1939,7 @@ theroot.com###js-article-slider
 thescore.com##.app-header:style(position: relative !important; top: 0 !important;)
 thescore.com##.fb-messenger--collapse.fb-messenger
 thescore.com##.hidden-xs.fb-messenger
-thescore.com##.main-menu-row
+thescore.com##.main-menu-row:style(position: relative !important; top: 0 !important;)
 thescore.com##.slide-in--closed.slide-in--twitter.slide-in
 thescore.com##.slide-in--open.slide-in--article.slide-in
 thescore.com##.slide-in--open.slide-in--facebook.slide-in
