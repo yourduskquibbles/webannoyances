@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 11:16 AM 2017-01-10
+! Last Modified: 4:35 PM 2017-01-10
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
@@ -925,6 +925,7 @@ huffingtonpost.com###orbot580x190-article
 huffingtonpost.com###social-subscribe-search
 huffingtonpost.com##.bnpage_vertical_fb_like.social_list.float_right
 huffingtonpost.com##.bounceInDown.js-nav-sticky.nav-sticky--a-page.nav-sticky
+huffingtonpost.com##.bounceInDown.nav-sticky--front-page.nav-sticky--a-page.nav-sticky.js-nav-sticky
 huffingtonpost.com##.dndi__background
 huffingtonpost.com##.float_right
 huffingtonpost.com##.float_right.social_list
@@ -1405,7 +1406,7 @@ nytimes.com###newsletter-promo
 nytimes.com###nytmm_fixie
 nytimes.com###opinion-newsletter-promo
 nytimes.com###overlay
-nytimes.com###ribbon
+nytimes.com###ribbon:style(position: relative !important; top: 0 !important;)
 nytimes.com###signup-favor
 nytimes.com###sports-email-promo
 nytimes.com###step-two-modal
