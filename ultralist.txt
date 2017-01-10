@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 10:37 AM 2017-01-10
+! Last Modified: 10:53 AM 2017-01-10
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
@@ -573,7 +573,7 @@ digg.com###site-promo-banner > .content
 digg.com##.col-1.col-1--deeper
 digg.com##.is--visible.js--promo-bottom.promo-bottom--editions
 digg.com##.site-navigation-bottom
-digg.com##.site-navigation__nav-list
+digg.com##.site-navigation__nav-list:style(position: relative !important; top: 0 !important;)
 digg.com##.story-action.story-action-share
 digg.com##.story-actions__container
 digitaljournal.com###header
