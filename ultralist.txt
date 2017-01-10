@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 10:14 AM 2017-01-10
+! Last Modified: 10:37 AM 2017-01-10
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
@@ -223,6 +223,7 @@ bleepingcomputer.com##header
 blog.bugreplay.com###bloc-nav
 blog.google##.uni-fab-toggle
 blog.google##.uni-selection-sharer-active.uni-selection-sharer
+blog.nomiku.com##.tmblr-iframe--below-header.iframe-controls--phone-mobile.tmblr-iframe--loaded.tmblr-iframe--unified-controls.tmblr-iframe
 blogspot.ca###sidebar-top
 blogspot.ca##.followgooglewrapper
 blogspot.ca##.share
@@ -398,6 +399,7 @@ citylab.com###social-sticky
 citymetric.com###footer
 citymetric.com##.site-header.clearfix
 clickondetroit.com###ksat-fixed
+cltampa.com##header > .container
 cnbc.com###cnbc-new-header > .main-header-nav
 cnbc.com###optIn-right-rail
 cnbc.com###social-tools-panel
@@ -1279,8 +1281,10 @@ nbcsports.com##.upper-ad-module
 nbcsports.com##.vod-tray.two-column.row:nth-of-type(5)
 nbcsports.com##.with-scoreboard-ad.scoreboard-container
 nbcsports.com##clearfix.slider-border
+nbcwashington.com##.header
 nbcwashington.com##.stickyNav.nav-landing.navbar
 nbcwashington.com##.stickyNav.navbar
+nbcwashington.com##.swiper-container-android.swiper-container-horizontal.quick-nav
 ndtv.com###__cricketsubscribe > .noti_bgstyle
 ndtv.com###__cricketsubscribe > .noti_wrap
 ndtv.com###showhide
@@ -1392,8 +1396,8 @@ nytimes.com###g-graphic > .g-ad-wrapper:nth-of-type(9)
 nytimes.com###gatewayUnit
 nytimes.com###living-newsletter-promo
 nytimes.com###main-header
-nytimes.com###masthead:style(position: relative !important; top: 0 !important;)
 nytimes.com###masthead-placeholder
+nytimes.com###masthead:style(position: relative !important; top: 0 !important;)
 nytimes.com###navigation
 nytimes.com###navigation-edge
 nytimes.com###new-york-today-email-promo
@@ -2200,28 +2204,13 @@ washingtonpost.com###chain-button
 washingtonpost.com###drawbridge-signup-overlay
 washingtonpost.com###et-nav
 washingtonpost.com###exposeMask
-washingtonpost.com###fUMMJM1TTw4CHp
-washingtonpost.com###floatMenu
-washingtonpost.com###inline-newsletter
-washingtonpost.com###menu-share-float
-washingtonpost.com###mod-connect-d146dfb4-e01b-46bd-833d-e6beff00cbd3
-washingtonpost.com###mod-newsletter-signup-8d2cc686-e505-46c1-8f00-8bb6d94e1734
-washingtonpost.com###nav-bar
-washingtonpost.com###newsharebarMasthead
 washingtonpost.com###privacy
-washingtonpost.com###r5kf0td4qs6q8cibrxlj7_a_1425455533430_904.moat-trackable.pb-layout-item.pb-feature.pb-three.pb-f-page-subscription.pb-f-theme-normal.fixed-overlay-subscription
 washingtonpost.com###recommended-toast
-washingtonpost.com###rvjeqxwzwrmqdsab0ak0dgg_1421868777625_284
-washingtonpost.com###rzchwozzutoatieqlcqmuow_1425455292781_802.moat-trackable.pb-layout-item.pb-feature.pb-three.pb-f-page-subscription.pb-f-theme-normal.fixed-overlay-subscription
 washingtonpost.com###signup-banner
-washingtonpost.com###signup-box-instream > div:nth-of-type(2)
+washingtonpost.com###signup-box-instream
 washingtonpost.com###single-next-article
 washingtonpost.com###social-tools
-washingtonpost.com###top-sharebar_1124
-washingtonpost.com###top-sharebar_6999
-washingtonpost.com###top-sharebar_8227
-washingtonpost.com###top-sharebar_8227 > .social-notification-bar
-washingtonpost.com###top-sharebar_8227 > .social-tools-wrapper
+washingtonpost.com###wp-header:style(position: relative !important; top: 0 !important;)
 washingtonpost.com###wp_Alert
 washingtonpost.com###wp_Signin
 washingtonpost.com##.daily202-newsletter.container
@@ -2230,7 +2219,6 @@ washingtonpost.com##.inline-list.share-block-grid
 washingtonpost.com##.lockfixed.nav-open.echo-apps-conversations-streamHeader
 washingtonpost.com##.lockfixed.nav-open.echo-apps-conversations-streamHeader.echo-apps-conversations-tabs.nav-tabs.nav
 washingtonpost.com##.lockfixed.nav-open.test.echo-apps-conversations-streamHeader
-washingtonpost.com##.masthead
 washingtonpost.com##.module.component.connect.curved.apple-simulator
 washingtonpost.com##.module.image-promotion.component.curved
 washingtonpost.com##.nav-closed.jqmOverlay
@@ -2242,15 +2230,10 @@ washingtonpost.com##.row.signup-module
 washingtonpost.com##.social-tools.inline
 washingtonpost.com##.subscribe
 washingtonpost.com##.subscribe-links.left
+washingtonpost.com##.top-furniture:style(position: relative !important; top: 0 !important;)
 washingtonpost.com##.video-tweet
 washingtonpost.com##.wp-column.first-column
 washingtonpost.com##.wp-column.partners-holder
-washingtonpost.com##A[href="http://www.facebook.com/washingtonpostworld?fref=ts"]
-washingtonpost.com##A[href="https://account.washingtonpost.com/acquisition/?promo=dgpostmost_default&tid=pm_signup"]
-washingtonpost.com##A[href="https://account.washingtonpost.com/acquisition/?promo=dgpostmost_default&tid=pm_signup_national"]
-washingtonpost.com##A[href="https://twitter.com/Max_Fisher"]
-washingtonpost.com##IFRAME[src="https://account.washingtonpost.com/acquisition/overlay/counter-warning/5/10?page=world:article%20-%206a2a3141e3a9%20-%2020140123%20-%20independent-review-board-says-nsa-phone-data-program-is-illegal-and-should-end§ion=wp%20-%20world&prev=&geo=&ctype=article&signedin=logged%20out&mcount=5&sub=0&ismetered=1&action=1&count=5&maxcount=10&url=https://account.washingtonpost.com/acquisition/overlay/counter-warning/5/10&sub=0&mtr=1&mtrct=5&mtfn=1&t=2&st=200&loc=1&mvw=10&fr=0&dt=0&mx=0"]
-washingtonpost.com##IMG[src="http://img.washingtonpost.com/rw/sites/twpweb/img/buttons/btn-subscribe-340x70.png"]
 washingtontimes.com###info-bar
 washingtontimes.com###message
 washingtontimes.com##.full.mb.min.left
