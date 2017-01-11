@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 10:34 AM 2017-01-11
+! Last Modified: 2:18 PM 2017-01-11
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
@@ -861,6 +861,8 @@ gsa.gov##.addthis_toolbox.addthis_default_style
 gunsamerica.com###enterZip2
 haaretz.com###mobiles-buttons-wrapper
 haaretz.com##.fblike
+haaretz.com##.footer-ruler
+haaretz.com##.pn-wrapper
 haaretz.com##.subscrOptWide
 haaretz.com##.verticleTabsFacebook
 hackerone.com##.js-topbar
@@ -985,6 +987,7 @@ india.com##.headersection
 indiatimes.com###TPMainDiv
 indiatimes.com###navigation
 indiatimes.com##.badge_new
+indy100.com###top-nav
 indystar.com##.tp-active.tp-backdrop
 indystar.com##.tp-modal
 indystar.com##.tp-modal > .tp-active.tp-iframe-wrapper
@@ -1117,6 +1120,8 @@ mashable.com##.share-container
 mcall.com##.trb_bnn
 mcclatchydc.com###next_wrapper
 mcclatchydc.com###previous_wrapper
+mediaite.com###header-content
+mediaite.com##.compact.teads-helper:style(position: relative !important; top: 0 !important;)
 mediaite.com##.teads-helper.full
 mediatrackers.org##.social
 mediatrackers.org##.state-navigation.sticky
@@ -1292,6 +1297,8 @@ ndtv.com###showhide
 ndtv.com###sticky_navigation_wrapper
 nerdist.com##.condensed.main_header
 nerdist.com##.container.header-inner-wrapper
+nerdydata.com##.mdl-color-text--white.mdl-color--blue-900.mdl-layout__header--scroll.mdl-layout__header:style(position: relative !important; top: 0 !important;)
+networkworld.com###banner
 newrepublic.com###fixed-header-container
 newrepublic.com###header-tout-become-a-member
 newrepublic.com###highlight-overlay
@@ -2317,6 +2324,8 @@ wsj.com###hat_tab_wsj
 wsj.com###ncExpTools
 wsj.com###subscribeNowMediumBar
 wsj.com###wsj_header:style(position: relative !important; top: 0 !important;)
+wsj.com##.--no-filters.LiveCoverageHeader
+wsj.com##.LiveCoverageHeader-bar
 wsj.com##.blurred
 wsj.com##.c-aggregate
 wsj.com##.first.twitter
