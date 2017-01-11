@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 3:01 PM 2017-01-11
+! Last Modified: 4:21 PM 2017-01-11
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
@@ -761,9 +761,9 @@ foxbusiness.com##.inner > .social
 foxbusiness.com##.no-flash.no-flash
 foxbusiness.com##.radar-bar
 foxnews.com###navbar-share
-foxnews.com###network
+foxnews.com###network:style(position: relative !important; top: 0 !important;)
 foxnews.com###rail
-foxnews.com###top
+foxnews.com###top:style(position: relative !important; top: 0 !important;)
 foxnews.com##.c-item.c-item-first.c-item-last
 foxnews.com##.g-41.section-featured
 foxnews.com##.ob_dual_left
@@ -1825,6 +1825,8 @@ technologyreview.com##.sidebar.right
 techradar.com###fp_cookieMessageContainer
 techradar.com##.sharing_furniture.clearfix
 techspot.com###header-ts
+techtimes.com##.bts_social
+techtimes.com##.hd-fixed.bk-header
 ted.com###vmrejilvmobczcqrldhzqrjekdkhdpwuywasck
 telegraph.co.uk###message
 telegraph.co.uk###shareSideContainer
