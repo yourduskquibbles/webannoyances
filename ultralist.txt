@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 10:40 AM 2017-01-17
+! Last Modified: 2:16 PM 2017-01-17
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
@@ -135,6 +135,8 @@ amazon.com##.actor.xrayQuickViewListItem
 amazon.com##.show.xrayQuickView
 amazon.com##.xrayHeaderLink
 amazon.com##.xrayQuickViewList.collectionView
+americanow.com###header-container-inner:style(position: relative !important; top: 0 !important;
+americanow.com##.is-at-top.is-stuck.sticky.top-stories
 americasmarkets.usatoday.com###header
 ampproject.org##.masthead
 amzreviewtrader.com###floating-button
@@ -2093,6 +2095,8 @@ upi.com###p_header
 uploaded.net##.hg_container-area
 uploaded.net##.pico-overlay
 uploadit.us###top-bar
+uponit.com###header:style(position: relative !important; top: 0 !important;)
+uponit.com###header_main:style(position: relative !important; top: 0 !important;)
 ups.com##.social.outdent.clearfix
 usatoday.com###etoikt
 usatoday.com###header
