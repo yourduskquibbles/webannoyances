@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 5:10 PM 2017-01-17
+! Last Modified: 5:11 PM 2017-01-17
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
@@ -1592,7 +1592,7 @@ racked.com##.tab-bar-fixed.c-tab-bar
 radaronline.com###main-header
 ramw.org###fixed_section
 ramw.org###top_section
-rare.us##.header
+rare.us##.header:style(position: relative !important; top: 0 !important;)
 rasmussenreports.com###cboxOverlay
 rasmussenreports.com###colorbox
 rasmussenreports.com##.narrow-cta.button-sprite
