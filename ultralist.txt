@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 11:36 AM 2017-01-18
+! Last Modified: 1:54 PM 2017-01-18
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
@@ -142,7 +142,7 @@ amazon.com##.actor.xrayQuickViewListItem
 amazon.com##.show.xrayQuickView
 amazon.com##.xrayHeaderLink
 amazon.com##.xrayQuickViewList.collectionView
-americanow.com###header-container-inner:style(position: relative !important; top: 0 !important;
+americanow.com###header-container-inner:style(position: relative !important; top: 0 !important;)
 americanow.com##.is-at-top.is-stuck.sticky.top-stories
 americasmarkets.usatoday.com###header
 ampproject.org##.masthead
@@ -1295,6 +1295,7 @@ nbcsports.com##.row.clearfix.banner-300-250
 nbcsports.com##.upper-ad-module
 nbcsports.com##.vod-tray.two-column.row:nth-of-type(5)
 nbcsports.com##.with-scoreboard-ad.scoreboard-container
+nbcsports.com##:xpath(.//*[@id='sherlock'])
 nbcsports.com##clearfix.slider-border
 nbcwashington.com##.header
 nbcwashington.com##.stickyNav.nav-landing.navbar
@@ -1719,6 +1720,7 @@ scribd.com###lightboxes
 scribd.com###seo_roadblock_lb_new_basic
 scribd.com##.main_header
 scribd.com##:xpath(.//*[@class="seo_banner_drop"])
+scubaboard.com##.fixed.navFloatwrapper:style(position: relative !important; top: 0 !important;)
 searchengineland.com###bylineShare
 searchengineland.com###socialBlock
 searchengineland.com##.stickyheader.navbar-header
