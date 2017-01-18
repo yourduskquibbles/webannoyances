@@ -1,9 +1,15 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 9:11 AM 2017-01-18
+! Last Modified: 10:40 AM 2017-01-18
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
 # Works best with uBlock Origin
+
+# Static filter syntax and help
+# https://adblockplus.org/en/filter-cheatsheet
+# https://github.com/gorhill/uBlock/wiki/Static-filter-syntax
+# https://github.com/gorhill/uBlock/wiki/Procedural-cosmetic-filters
+# https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax
 
 
 ! Start Web Annoyances Filter List
@@ -108,6 +114,7 @@ aeon.co##.twelve.columns.social
 aftenposten.no##.widget.relatedContents.flyout.noPrint.active.instantiated
 aim.org##.container.header-navbar-inner
 aim.org##.navbar-nav.nav
+airbnb.com##:xpath(.//*[@data-hypernova-key="p3sticky_navigationbundlejs"])
 ajc.com##.header-wrapper
 ajc.com##.hidden-md-down.footer-wrapper
 ajc.com##.hidden-md-down.sub-header-nav
@@ -452,6 +459,8 @@ consequenceofsound.net##.site-header
 conservativeintel.com###splashmodal
 conservativeintel.com##.popupbox_mid
 cooksillustrated.com##.active.header-wrapper__sticky
+cooksscience.com##.headroom--unpinned.headroom--not-top.headroom--not-bottom.scrolling-down.pinned-bar-top.pinned-bar
+cooksscience.com##.headroom--unpinned.headroom--not-top.headroom--not-bottom.scrolling-up.pinned-bar-top.pinned-bar
 copadivino.com###mainNav
 copadivino.com##.navbar-header
 cosmopolitan.com##.nav-bar
