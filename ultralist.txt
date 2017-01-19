@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 2:36 PM 2017-01-18
+! Last Modified: 10:43 AM 2017-01-19
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
@@ -346,6 +346,7 @@ callername.com###modal
 callername.com##.in.fade.modal-backdrop
 capitolcityproject.com##.pagenav.fixedmenu
 cardpool.com##.feedback_link
+cars.com##.sticky-header:style(position: relative !important; top: 0 !important;)
 cartelblog.com##.sfsi_FrntInner_chg
 casinotop10.net###navigation
 casinotop10.net###totop
@@ -1323,6 +1324,7 @@ newrepublic.com##.margin-paywall-count-bottom
 newrepublic.com##.modalCloseImg.simplemodal-close
 newrepublic.com##.ui.active.flipping.loader
 newrepublic.com##.ui.sticky
+news.com.au###header-fixed:style(position: relative !important; top: 0 !important;)
 newscientist.com###artTools
 newscientist.com###main-nav
 newscientist.com###sharebtns
@@ -1748,6 +1750,7 @@ sfgate.com##.hst-articletools
 sfgate.com##.hst-articletools2
 sfglobe##.kfm_dialog
 sfglobe##.kfm_dialog_overlay
+shareblue.com##.header_style_wrapper
 sharktankblog.com###ezmob_footer
 showbiz411.com###toTop
 showbiz411.com##.affix.td-menu-wrap.container
@@ -2427,6 +2430,7 @@ yelp.com##.js-open-in-app.photo-box_overlay
 yelp.com##.prominent-review-pitch
 yourdictionary.com##.wordFinderFloating.floating-header.header-container.row:style(position: relative !important; top: 0 !important;)
 yourmechanic.com##.nav-bar__body
+youtube.com###yt-masthead-container:style(position: relative !important; top: 0 !important;)
 youtube.com##.share-panel-services
 yummly.co##.header-iab
 zdnet.com###offerContainer-e651d1b3
