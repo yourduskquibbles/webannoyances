@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 1:24 PM 2017-01-19
+! Last Modified: 12:17 PM 2017-01-20
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
@@ -309,6 +309,7 @@ businessinsider.com##.linkedin.ks-byline-linkedin
 businessinsider.com##.masthead:style(position: relative !important; top: 0 !important;)
 businessinsider.com##.share
 businessinsider.com##.subnav-container
+businessinsider.com##.toolbar.masthead:style(position: relative !important; top: 0 !important;)
 businessinsider.com##DIV[style="border-top: 1px solid #ddd; margin-top: 20px; margin-left: -20px; width: 340px;"]
 businessinsider.com##G:PLUSONE[style="display: block;"]
 businessinsider.in###TopNavs
@@ -754,10 +755,11 @@ fox11online.com##.v2.sd-header-wrapper.sd-news-header:style(position: relative !
 fox25boston.com##.off-canvas-menu
 fox32chicago.com###header:style(position: relative !important; top: 0 !important;)
 fox59.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
+fox5dc.com###header:style(position: relative !important; top: 0 !important;)
 fox5dc.com###story-sticky-content
 fox5dc.com##.header-main:style(position: relative !important; top: 0 !important;)
 fox5dc.com##.header-secondary:style(position: relative !important; top: 0 !important;)
-fox5ny.com###header
+fox5ny.com###header:style(position: relative !important; top: 0 !important;)
 fox5ny.com##.show-for-large-up.mod-story-progress.mod-accordion.mod-wrapper
 fox6now.com###actionbar
 fox6now.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
@@ -1321,6 +1323,7 @@ newrepublic.com###simplemodal-overlay
 newrepublic.com###sticky-nav
 newrepublic.com##.margin-paywall-count-bottom
 newrepublic.com##.modalCloseImg.simplemodal-close
+newrepublic.com##.old-nav-container.pinned:style(position: relative !important; top: 0 !important;)
 newrepublic.com##.ui.active.flipping.loader
 newrepublic.com##.ui.sticky
 news.com.au###header-fixed:style(position: relative !important; top: 0 !important;)
@@ -2154,6 +2157,8 @@ usnews.com##.fixed.hero-sticky-bar-container
 usnews.com##.rail-sticky
 usnews.com##.right.header-banner-section-social.header-banner-section
 usnews.com##.show-for-large-up.block-loose.pad-loose.border-bottom:nth-of-type(2)
+usuncut.com###main-nav-wrap:style(position: relative !important; top: 0 !important;)
+usuncut.com##.fly-but-wrap:style(position: relative !important; top: 0 !important;)
 utilitydive.com##.site-menu-wrapper
 utilitydive.com##.wf-active.wf-abriltitling-n4-active.wf-proximanova-n4-active.wf-proximanova-n3-active.wf-proximanova-n9-active.wf-abriltitling-n8-active.wf-abriltitling-n7-active.wf-proximanova-n5-active.wf-proximanova-n7-active.wf-proximanova-n8-active.no-js
 utsports.com##.tab-bar-fixed.c-tab-bar
@@ -2183,13 +2188,13 @@ vice.com###yw3
 vice.com##.article-right-rail.right-rail
 vice.com##.fixed-header.site-wrapper > .site-header:style(position: relative !important; top: 0 !important;)
 vice.com##.inline-social
-vice.com##.main-nav-header
+vice.com##.main-nav-header:style(position: relative !important; top: 0 !important;)
 vice.com##.nsfw-wrapper
 vice.com##.post_footer_social
 vice.com##.shown.sharing-header.site-header
-vice.com##.site-header--engage.site-header--article.site-header
+vice.com##.site-header--engage.site-header--article.site-header:style(position: relative !important; top: 0 !important;)
 vice.com##.site-header-inner
-vice.com##.site-header__container
+vice.com##.site-header__container:style(position: relative !important; top: 0 !important;)
 viewfind.com###fixed_social
 viewfind.com###vf_nav
 viewfind.com##.main-header.container-fluid
