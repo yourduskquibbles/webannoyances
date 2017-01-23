@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 2:30 PM 2017-01-20
+! Last Modified: 10:49 AM 2017-01-23
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
@@ -13,6 +13,7 @@
 
 
 ! Start Web Annoyances Filter List
+! Keep at top 
 ###appIntercept
 ###dream-box
 ###dsq-indicator-north
@@ -266,6 +267,7 @@ bonappetit.com##.subscribe-box
 bordercantos.com##.stickydiv:style(position: relative !important; top: 0 !important;)
 borderstan.com###search-navigation:style(position: relative !important; top: 0 !important;)
 borderstan.com###top-bar:style(position: relative !important; top: 0 !important;)
+boston.com##.content-toaster:style(position: relative !important; top: 0 !important;)
 boston.com##.masthead__content
 bostonglobe.com###subscribe-btn
 bostonglobe.com##.bg-header__smartbar--message:style(position: relative !important; top: 0 !important;)
@@ -766,6 +768,7 @@ fox6now.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !i
 foxbusiness.com##.inner > .social
 foxbusiness.com##.no-flash.no-flash
 foxbusiness.com##.radar-bar
+foxeslovelemons.com##.slicknav_menu:style(position: relative !important; top: 0 !important;)
 foxnews.com###navbar-share
 foxnews.com###network:style(position: relative !important; top: 0 !important;)
 foxnews.com###rail
@@ -1010,6 +1013,7 @@ inquisitr.com##.block.header--inner
 insightdata.ai##.logo_nav
 instagram.com##:xpath(.//*[@href="/accounts/emailsignup/"])
 instagram.com##:xpath(.//*[@role="alert"])
+instyle.com###header:style(position: relative !important; top: 0 !important;)
 interpretermag.com##.clearfix.container
 intuit.com###.advice.module.o2card
 intuit.com###hypothesis-testing-frame
@@ -1093,6 +1097,7 @@ lowes.com###social-share-bar
 luckypeach.com###masthead:style(position: relative !important; top: 0 !important;)
 luckypeach.com##.now-reading
 luckypeach.com##.sidebar-wrapper
+m.bedbathandbeyond.com###navigation:style(position: relative !important; top: 0 !important;)
 m.csmonitor.com###csm_header_container
 m.destinationxl.com###mntt_alt_02
 m.gulfnews.com##.sticky.not-sticky.tab-bar
@@ -1106,6 +1111,7 @@ m.shop.nordstrom.com##.android-app-banner
 m.tmz.com##.ui-bar-inherit.ui-header.header-mini
 m.wikihow.com##.header
 m.yelp.com###photos-app-pitch
+m.yelp.com###search-bar:style(position: relative !important; top: 0 !important;)
 m.yelp.com##.cta-menubar-pitch-icons
 m.yelp.com##.js-fast.menu-bar-pitch_container.cta-menubar-pitch_container
 m.yelp.com##.photos-grid-shim.photos-app-pitch-shim
@@ -1178,6 +1184,7 @@ mirror.co.uk##.mod-header
 mobile.nytimes.com##.max300.min300.iframe-holder
 mobile.reuters.com##.header-main.group.header
 mobile.reuters.com##.header-mini.header-main.group.header > .active.container.header-pane-main
+mobile.twitter.com##.AppHeader:style(position: relative !important; top: 0 !important;)
 modernfarmer.com###fixed_nav
 modernfarmer.com###om-r67mpzig62-lightbox
 modernfarmer.com##.mf-fixednav-hidden.fix
@@ -1188,6 +1195,7 @@ modernistcuisine.com##header:style(position: relative !important; top: 0 !import
 mondaynote.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBottomSection.js-metabar.u-clearfix.metabar
 money.cnn.com###notice_banner
 money.cnn.com##.ng-scope.clear
+money.cnn.com##.ng-scope.mediaHeader
 montereyherald.com###story_window > .article.toolbar
 moralmachine.mit.edu##.navbar-fixed-top.navbar-inverse.navbar
 morningconsult.com###header-main
@@ -1731,6 +1739,8 @@ scribd.com###seo_roadblock_lb_new_basic
 scribd.com##.main_header:style(position: relative !important; top: 0 !important;)
 scribd.com##:xpath(.//*[@class="seo_banner_drop"])
 scubaboard.com##.fixed.navFloatwrapper:style(position: relative !important; top: 0 !important;)
+searchenginejournal.com###masthead-wrapper:style(position: relative !important; top: 0 !important;)
+searchenginejournal.com##.fixed-bottom-share-buttons
 searchengineland.com###bylineShare
 searchengineland.com###socialBlock
 searchengineland.com##.stickyheader.navbar-header
@@ -2046,6 +2056,7 @@ thinkprogress.org###slidedown
 thinkprogress.org##.facebook-like-bottom
 thinkprogress.org##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBottomSection.u-tintSpectrum.u-tintBgColor.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar
 thinkprogress.org##.post-tools.addthis_32x32_style
+thrillist.com###mobile-header:style(position: relative !important; top: 0 !important;)
 thrillist.com###popoutContainer
 thrillist.com###section-subnav
 thrillist.com###section-subnav > h3
