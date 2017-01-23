@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 10:49 AM 2017-01-23
+! Last Modified: 12:11 PM 2017-01-23
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
@@ -11,9 +11,10 @@
 # https://github.com/gorhill/uBlock/wiki/Procedural-cosmetic-filters
 # https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax
 
+! Keep at top syntax
+! :style(position: relative !important; top: 0 !important;)
 
 ! Start Web Annoyances Filter List
-! Keep at top 
 ###appIntercept
 ###dream-box
 ###dsq-indicator-north
