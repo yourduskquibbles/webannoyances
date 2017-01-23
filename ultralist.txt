@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 12:40 PM 2017-01-23
+! Last Modified: 2:28 PM 2017-01-23
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
@@ -237,6 +237,7 @@ bleedcubbieblue.com##.tab-bar-fixed.c-tab-bar:style(position: relative !importan
 bleepingcomputer.com##header:style(position: relative !important; top: 0 !important;)
 blog.bugreplay.com###bloc-nav
 blog.google##.uni-fab-toggle
+blog.google##.uni-initialized.uni-header-content:style(position: relative !important; top: 0 !important;)
 blog.google##.uni-selection-sharer-active.uni-selection-sharer
 blog.nomiku.com##.tmblr-iframe--below-header.iframe-controls--phone-mobile.tmblr-iframe--loaded.tmblr-iframe--unified-controls.tmblr-iframe
 blogspot.ca###sidebar-top
