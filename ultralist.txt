@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 12:26 PM 2017-01-23
+! Last Modified: 12:30 PM 2017-01-23
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
@@ -268,6 +268,7 @@ bonappetit.com##.subscribe-box
 bordercantos.com##.stickydiv:style(position: relative !important; top: 0 !important;)
 borderstan.com###search-navigation:style(position: relative !important; top: 0 !important;)
 borderstan.com###top-bar:style(position: relative !important; top: 0 !important;)
+boston.com##.content-social
 boston.com##.content-social--active.content-social
 boston.com##.content-toaster:style(position: relative !important; top: 0 !important;)
 boston.com##.masthead:style(position: relative !important; top: 0 !important;)
@@ -1017,6 +1018,7 @@ insightdata.ai##.logo_nav
 instagram.com##:xpath(.//*[@href="/accounts/emailsignup/"])
 instagram.com##:xpath(.//*[@role="alert"])
 instyle.com###header:style(position: relative !important; top: 0 !important;)
+instyle.com##.instyle_menu:style(position: relative !important; top: 0 !important;)
 interpretermag.com##.clearfix.container
 intuit.com###.advice.module.o2card
 intuit.com###hypothesis-testing-frame
