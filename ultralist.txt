@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 2:28 PM 2017-01-23
+! Last Modified: 9:44 AM 2017-01-24
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
@@ -120,6 +120,7 @@ airbnb.com##:xpath(.//*[@data-hypernova-key="p3sticky_navigationbundlejs"])
 ajc.com##.header-wrapper
 ajc.com##.hidden-md-down.footer-wrapper
 ajc.com##.hidden-md-down.sub-header-nav:style(position: relative !important; top: 0 !important;)
+albawaba.com##.top-menu
 aljazeera.com##.m-showgrid.ta-showgrid.t-showgrid.d-showgrid.da-showgrid
 allrecipes.com###footer_top_button
 allrecipes.com##.dropdown-heart > .save-on-click
@@ -159,6 +160,8 @@ androidforums.com###yvjotilvhppccccahqxngddtnoesfgzrm
 androidheadlines.com###masthead:style(position: relative !important; top: 0 !important;)
 androidmag.de###header:style(position: relative !important; top: 0 !important;)
 anncoulter.com##.addthis_toolbox.addthis_default_style
+anovaculinary.com###topic-progress-wrapper
+anovaculinary.com##.clearfix.d-header:style(position: relative !important; top: 0 !important;)
 answers.yahoo.com###UH
 aol.com##.mpid-7
 ap.org###block-ap-misc-ap-social-media
@@ -177,12 +180,12 @@ assets.tumblr.com###iframe_controls
 atavist.com##.navigation-bar:style(position: relative !important; top: 0 !important;)
 atlasobscura.com###email-roadblock-topographic-modal
 atlasobscura.com##.in.modal-backdrop
-atomicdelights.com###header
+atomicdelights.com###header:style(position: relative !important; top: 0 !important;)
 atr.org###closeFlyOut
 atr.org###fancybox-overlay
 atr.org##.fancybox-wrap.fancybox-desktop.fancybox-type-iframe.fancybox-opened
 atr.rollcall.com###share-top
-avclub.com###h
+avclub.com###h:style(position: relative !important; top: 0 !important;)
 avproductreviews.com###dcssb-slick
 avsforum.com###tt_mobile_banner:style(position: relative !important; top: 0 !important;)
 avsforum.com###yui_3_10_0_1_1391042800777_2420
@@ -425,6 +428,7 @@ cnn.com###message
 cnn.com###mm-like-facebook
 cnn.com###mm-share-twitter
 cnn.com###nav-header:style(position: relative !important; top: 0 !important;)
+cnn.com###nav:style(position: relative !important; top: 0 !important;)
 cnn.com###nav__plain-header:style(position: relative !important; top: 0 !important;)
 cnn.com###notice_banner
 cnn.com###shareBar
@@ -438,7 +442,7 @@ cnn.com##.cnn-politics-app-promo-card
 cnn.com##.cnn_sectbin4.cnn_bin_full_width4
 cnn.com##.floating_share_button
 cnn.com##.js-banner.main-banner
-cnn.com##.js-skinny.js-navigation.nav
+cnn.com##.js-skinny.js-navigation.nav:style(position: relative !important; top: 0 !important;)
 cnn.com##.large-buttons
 cnn.com##.ng-scope.clear
 cnn.com##.ng-scope.smallHeader.clear
@@ -625,6 +629,9 @@ economist.com###navbar
 electionado.com###kanvz-app-header
 electionado.com##.gt-detailcanvas-pos.k-takemeback-bx
 electionado.com##.header-container
+electrek.co###content > .scroll-to-fixed-fixed.news-feed-header > .elastic-container:style(position: relative !important; top: 0 !important;)
+electrek.co##.scroll-to-fixed-fixed.news-feed-header:style(position: relative !important; top: 0 !important;)
+electrek.co##header:style(position: relative !important; top: 0 !important;)
 elitedaily.com##.stickyHeader.headerInView
 elitedaily.com##.stickyNavWrapper
 elle.com##.content-nav-active.sticky.nav:style(position: relative !important; top: 0 !important;)
@@ -822,6 +829,7 @@ geek.com##.socialmediabottom.fixedfooter
 geekdad.com##:xpath(.//*[@data-alias="Navigation"])
 getconnected.southwestwifi.com###cepgad
 giphy.com##:xpath(.//*[@class="header-wrapper"])
+giphy.com##:xpath(.//*[@style="top: 0px;"])
 glamour.com###react-app > .default.page-container > .g-mobile.component-newsletters
 glamour.com##.site-header
 glassdoor.com###EmpSolutionsTab
@@ -1020,6 +1028,7 @@ instagram.com##:xpath(.//*[@href="/accounts/emailsignup/"])
 instagram.com##:xpath(.//*[@role="alert"])
 instle.com###logo:style(position: relative !important; top: 0 !important;)
 instyle.com###header:style(position: relative !important; top: 0 !important;)
+instyle.com###logo:style(position: relative !important; top: 0 !important;)
 instyle.com##.instyle_menu:style(position: relative !important; top: 0 !important;)
 interpretermag.com##.clearfix.container
 intuit.com###.advice.module.o2card
@@ -1469,7 +1478,7 @@ nytimes.com##.series-nav-button
 nytimes.com##.sharetools
 nytimes.com##.subColumn-2.noBackground.mobilePromo.nocontent
 nytimes.com#@#.flag-moreFollowSuggestions-on
-observer.com##.banner-and-nav-wrapper
+observer.com##.banner-and-nav-wrapper:style(position: relative !important; top: 0 !important;)
 ocweekly.com##.city-color-border.city-color-back.tab
 ocweekly.com##.city-color-border.next.sideSlide
 ocweekly.com##.city-color-border.prev.sideSlide
@@ -1974,6 +1983,7 @@ themarshallproject.org##.header-v2
 themoscowtimes.com###TMTtoolbarAd
 themoscowtimes.com###likes
 themoscowtimes.com##.addthis_toolbox.addthis_default_style
+thenation.com###\'navbar\':style(position: relative !important; top: 0 !important;)
 thenation.com##.meerkat__content
 thenation.com##.modal.two.step
 thenewinquiry.com###sideline
