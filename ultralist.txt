@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 1:08 PM 2017-01-24
+! Last Modified: 1:29 PM 2017-01-24
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
@@ -584,6 +584,7 @@ designtaxi.com##.addthis_toolbox.addthis_default_style.addthis_32x32_style
 designtaxi.com##.button.addthis_button_expanded
 desmoinesregister.com##.util-bar-flyout.util-bar-flyout-firefly.open
 deviantart.com##div.mc-ad-chrome
+di.fm###main-header:style(position: relative !important; top: 0 !important;)
 dietdoctor.com###post_header_wrapper
 digg.com###content-main.content-main > .grid-3col:nth-of-type(1) > .col-1.col-1--deeper
 digg.com###js--digg-header:style(position: relative !important; top: 0 !important;)
@@ -2497,7 +2498,7 @@ zdnet.com###offerContainer-e651d1b3
 zdnet.com##.catfishBar
 zdnet.com##.siu-vertical-cont.focus-highlight
 zerohedge.com###sidebar-right
-zerohedge.com###site-header
+zerohedge.com###site-header:style(position: relative !important; top: 0 !important;)
 zerohedge.com##.injected-ad-wrapper
 zerohedge.com##.js-l1
 zerohedge.com##.js-links
