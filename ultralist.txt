@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 10:43 AM 2017-01-24
+! Last Modified: 12:00 PM 2017-01-24
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
@@ -935,6 +935,8 @@ hoover.org##.region.region-header-top
 hopesandfears.com##.adblock-message
 houstonchronicle.com##.container-fluid
 houstonchronicle.com##.navbar-fixed-top.navbar-default.navbar
+howshost.com###header:style(position: relative !important; top: 0 !important;)
+howshost.com###toTop
 howstuffworks.com###hsw-header
 howstuffworks.com###pagination-upper
 howstuffworks.com##.fb-hsw-like-wrapper.row
@@ -1101,6 +1103,9 @@ lifehacker.com###eyubptfbcvwbxrrlnfngrubtvjrqfcaavknr
 lifezette.com##.desktop.menu-bar-trigger
 lifezette.com##.mobile.menu-bar-trigger
 limpingchicken.com###at4-share
+linkedin.com###header-anchor:style(position: relative !important; top: 0 !important;)
+linkedin.com###header:style(position: relative !important; top: 0 !important;)
+linkedin.com###responsive-nav-scrollable:style(position: relative !important; top: 0 !important;)
 linkedin.com###siteflow-widget-next
 linkedin.com##.stuck.stream-header:style(position: relative !important; top: 0 !important;)
 livescience.com###sticky-header:style(position: relative !important; top: 0 !important;)
@@ -1996,7 +2001,7 @@ theonion.com###h
 theonion.com##.responsive-nav-active:style(position: relative !important; top: 0 !important;)
 theonion.com##.share-tools.vertical-large
 theonion.com##.social
-theoutline.com##.icon-logo.navigation__logo
+theoutline.com##.icon-logo.navigation__logo:style(position: relative !important; top: 0 !important;)
 thepoliticalinsider.com###imk300a
 thepoliticalinsider.com##.top-line
 thepoliticalinsider.com##.white-box
