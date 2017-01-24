@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 3:13 PM 2017-01-24
+! Last Modified: 3:26 PM 2017-01-24
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
@@ -1092,9 +1092,10 @@ latimes.com##.reg-content
 latimes.com##.trb_ar_shpq
 latimes.com##.trb_article_relatedTopics
 latimes.com##.trb_bnn
+latimes.com##.trb_masthead.trb_mh
 latimes.com##.trb_nh:style(position: relative !important; top: 0 !important;)
-latimes.com##.trb_nh_lw
-latimes.com##.trb_nh_uw
+latimes.com##.trb_nh_lw:style(position: relative !important; top: 0 !important;)
+latimes.com##.trb_nh_uw:style(position: relative !important; top: 0 !important;)
 laughingsquid.com###dd_ajax_float
 laughingsquid.com##.shareaholic-canvas
 lauradhamilton.com###connect
