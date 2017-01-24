@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 9:44 AM 2017-01-24
+! Last Modified: 10:43 AM 2017-01-24
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
@@ -1038,6 +1038,8 @@ intuit.com###module-offers
 intuit.com###ozen
 intuit.com##.WelcomeMatView
 intuit.com##.advice.module.o2card
+intuit.com##.minttotax.WelcomeMatView
+intuit.com##.slide_from_right.sideSLider
 inverse.com##.app-header.flex
 inverse.com##.flex-centered.flex.app-fullpage.promos-newsletter-slidein.promos-newsletter-page
 inverse.com##.locked.flatiron-app.consumer.article-route.article-channel.app
@@ -2238,7 +2240,7 @@ villagevoice.com##.sde-shadow
 vimeo.com##.js-app_banner.app_banner
 vimeo.com##.nav_bar.bar:style(position: relative !important; top: 0 !important;)
 vimeo.com##.sidedock
-vinepair.com###header-container
+vinepair.com###header-container:style(position: relative !important; top: 0 !important;)
 vinepair.com##.icon.nav-toggle
 viralnova.com###article-finished
 visual.ly###back-to-top
