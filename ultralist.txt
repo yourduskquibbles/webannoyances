@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 3:51 PM 2017-01-24
+! Last Modified: 10:35 AM 2017-01-26
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
@@ -137,6 +137,8 @@ amazon.co.uk##.actor.xrayQuickViewListItem
 amazon.co.uk##.show.xrayQuickView
 amazon.co.uk##.xrayHeaderLink
 amazon.co.uk##.xrayQuickViewList.collectionView
+amazon.com###miniATFUDP:style(position: relative !important; top: 0 !important;)
+amazon.com###miniATF_feature_div:style(position: relative !important; top: 0 !important;)
 amazon.com###nav-mobile-airstream-stripe
 amazon.com###share_bar-sdl_9d17c040
 amazon.com###smart-app-banner
@@ -768,6 +770,8 @@ fortune.cnn.com###smt_main
 fortune.com##.icon-down-arrow.icon.left-nav-toggle
 fortune.com##.main-header:style(position: relative !important; top: 0 !important;)
 forums.androidcentral.com###header:style(position: relative !important; top: 0 !important;)
+forums.xfinity.com##.lia-in.lia-dialog-titleless.lia-panel-dialog-modal-valuesurvey.lia-panel-dialog-modal-simple.lia-panel-dialog.lia-content.ui-corner-all.ui-widget-content.ui-widget.ui-dialog
+forums.xfinity.com##.ui-widget-overlay
 foursquare.com###header:style(position: relative !important; top: 0 !important;)
 fox11online.com##.sd-news-social-container
 fox11online.com##.v2.sd-header-wrapper.sd-news-header:style(position: relative !important; top: 0 !important;)
@@ -898,6 +902,7 @@ halfwheel.com##.mean-bar
 harpers.org###issuem-leaky-paywall-articles-remaining-nag
 harpers.org##.subscribe
 harvarddesignmagazine.org###navigation-wrapper
+hbr.org##.hide-for-print.clearfix.persistent-banner
 headmelted.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.js-metabar.u-clearfix.metabar
 healthline.com##.top-menu-sticky
 hearthpwn.com###site-main > .main
@@ -1030,6 +1035,7 @@ infowars.com##.container.optinsiege
 infowars.com##.shareinpost
 infowars.com##.textsize
 inquisitr.com##.block.header--inner
+insidenova.com##.hidden-print.asset-paging-container
 insightdata.ai##.logo_nav
 instagram.com##:xpath(.//*[@href="/accounts/emailsignup/"])
 instagram.com##:xpath(.//*[@role="alert"])
@@ -1222,8 +1228,8 @@ modernfarmer.com##.unstyled.mf-single-article-share.fix
 modernistcuisine.com##header:style(position: relative !important; top: 0 !important;)
 mondaynote.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBottomSection.js-metabar.u-clearfix.metabar
 money.cnn.com###notice_banner
-money.cnn.com##.ng-scope.clear
-money.cnn.com##.ng-scope.mediaHeader
+money.cnn.com##.ng-scope.clear:style(position: relative !important; top: 0 !important;)
+money.cnn.com##.ng-scope.mediaHeader:style(position: relative !important; top: 0 !important;)
 montereyherald.com###story_window > .article.toolbar
 moralmachine.mit.edu##.navbar-fixed-top.navbar-inverse.navbar
 morningconsult.com###header-main
@@ -1235,6 +1241,7 @@ motherjones.com##.article-tools
 motherjones.com##.hdr-tools
 movieflix.to##.in.fade.modal-backdrop
 movieflix.to##.in.ng-scope.typo-light.mf-modal.fade.modal
+mozilla.org###nav:style(position: relative !important; top: 0 !important;)
 mozilla.org###site-welcome
 mrctv.org###top-nav
 msn.com###subfoot
@@ -1623,6 +1630,7 @@ prospect.org###header
 psmag.com###image-3
 psmag.com##.span1.psmag-sharing-column
 psmag.com##.widget_psmag_mailsocial
+psychologytoday.com##.blue-outer:style(position: relative !important; top: 0 !important;)
 psychologytoday.com##.flag-actions
 pvplive.net##.nav-stuck
 qualityassurancemag.com###slide-nav
@@ -1676,7 +1684,12 @@ reason.com###social2
 reason.com##.social
 recode.net###social-header
 recode.net##.sharedaddy.sd-sharing-enabled
+reddit.com##.DualPartInterstitialFooter
+reddit.com##.DualPartInterstitial__common
+reddit.com##.DualPartInterstitial__content
 reddit.com##.SmartBanner
+reddit.com##.TransparentOverlay
+reddit.com##.TransparentOverlay__overlay
 reddit.com##.fixed.active.read-next
 reddit.com##.newsletter-container.newsletterbar.infobar
 reddit.com##.seo-comments
@@ -1779,7 +1792,7 @@ securityweek.com##.sharethis
 securityweek.com##DIV[style="margin-top:2px;"]
 seekingalpha.com###main-nav-wrapper-row:style(position: relative !important; top: 0 !important;)
 seekingalpha.com###nav_container:style(position: relative !important; top: 0 !important;)
-seekingalpha.com###nav_container_wrap
+seekingalpha.com###nav_container_wrap:style(position: relative !important; top: 0 !important;)
 seekingalpha.com###news_headlines
 seekingalpha.com##.in.fade.modal-backdrop
 seekingalpha.com##.in.sa-app-banner-splash-screen.ng-isolate-scope.fade.modal
@@ -1895,11 +1908,13 @@ techspot.com###header-ts
 techtimes.com##.bts_social
 techtimes.com##.hd-fixed.bk-header
 ted.com###vmrejilvmobczcqrldhzqrjekdkhdpwuywasck
+teenvogue.com##.sticky-header
 telegraph.co.uk###message
 telegraph.co.uk###shareSideContainer
 telegraph.co.uk##.message-active.component.adblocker-message
 tesla.com###sticky-footer
 the-american-interest.com###article-counter
+the-daily.buzz##.header-primary
 theadvocate.com###site-navbar-container:style(position: relative !important; top: 0 !important;)
 theadvocate.com##.animate.text-center.arrow
 theadvocate.com##.arrow
@@ -1907,6 +1922,7 @@ theadvocate.com##.card-container
 theadvocate.com##.popover-content
 theappendix.net##.communicate
 theappendix.net##.container.social
+theatlantic.com###action-bar
 theatlantic.com###article-promo-magazine
 theatlantic.com###site-header-container:style(position: relative !important; top: 0 !important;)
 theatlantic.com###site-header:style(position: relative !important; top: 0 !important;)
@@ -2110,6 +2126,7 @@ time.com##.google-ad-iframe.module
 time.com##.main-header:style(position: relative !important; top: 0 !important;)
 time.com##.rail-tabs
 time.com##.top-banner
+time.com##:xpath(.//*[@data-reactid="15"])
 timeanddate.com###nav
 timeline.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.u-tintSpectrum.u-tintBgColor.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar
 timeline.com##.is-maximized.metabar--affixed.u-tintSpectrum.u-tintBgColor.metabar--light.js-metabar.u-clearfix.metabar
