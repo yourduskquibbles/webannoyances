@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 11:07 AM 2017-01-26
+! Last Modified: 12:18 PM 2017-01-26
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
@@ -1171,9 +1171,9 @@ mashable.com##.share-container
 mcall.com##.trb_bnn
 mcclatchydc.com###next_wrapper
 mcclatchydc.com###previous_wrapper
-mediaite.com###header-content
+mediaite.com###header-content:style(position: relative !important; top: 0 !important;)
 mediaite.com##.compact.teads-helper:style(position: relative !important; top: 0 !important;)
-mediaite.com##.teads-helper.full
+mediaite.com##.teads-helper.full:style(position: relative !important; top: 0 !important;)
 mediatrackers.org##.social
 mediatrackers.org##.state-navigation.sticky
 mediatrackers.org##.toolbar-social
@@ -1772,6 +1772,7 @@ sbsun.com###jBar
 schaeffersresearch.com###signupSlider
 sciencebulletin.org###header-inner
 sciencedaily.com##.navbar-custom.navbar-static.navbar-default.yamm.navbar
+sciencemag.org##.sticky-header:style(position: relative !important; top: 0 !important;)
 scientificamerican.com###site-header:style(position: relative !important; top: 0 !important;)
 scientificamerican.com##.is-visible.mobile-context-nav
 scientificamerican.com##.nextStoryFly
@@ -1986,7 +1987,7 @@ theguardian.com##.share-links.page-bottom-share-links.col-8.b3.trackable-compone
 thehill.com###article-recommendation
 thehill.com###bottom-story-socials
 thehill.com###dfp-ad-mosad_1
-thehill.com###header
+thehill.com###header:style(position: relative !important; top: 0 !important;)
 thehill.com##.container-emphasised.container.header.main
 thehill.com##.item-shares
 thehill.com##.scroll-down-to-next
@@ -2019,9 +2020,9 @@ thenation.com##.meerkat__content
 thenation.com##.modal.two.step
 thenewinquiry.com###sideline
 thenextweb.com##.article-meta-wrapper
-thenextweb.com##.content-head
-thenextweb.com##.nav
-theonion.com###h
+thenextweb.com##.content-head:style(position: relative !important; top: 0 !important;)
+thenextweb.com##.nav:style(position: relative !important; top: 0 !important;)
+theonion.com###h:style(position: relative !important; top: 0 !important;)
 theonion.com##.responsive-nav-active:style(position: relative !important; top: 0 !important;)
 theonion.com##.share-tools.vertical-large
 theonion.com##.social
@@ -2052,21 +2053,21 @@ thesmokinggun.com###quyovarmzixnmfvgbdxjrncwggyqbmmbjnpd
 thesmokinggun.com###tjhrvbkwtquxeiwhzpskozlclzjfeffddzfkhxr
 thesmokinggun.com##.toolkit
 thestar.com##.breadcrumb-header__nav
-thestar.com##.primary-header
+thestar.com##.primary-header:style(position: relative !important; top: 0 !important;)
 thestar.com##.sticky-replace-fixed.sticky-replace--narrow.sticky-replace
 thestar.com.my###pd-embed-slider
 thestrad.com###promo-banner
-thestranger.com###top-nav
+thestranger.com###top-nav:style(position: relative !important; top: 0 !important;)
 thestranger.com##.IconsAfterSearch
 thestranger.com##.share-tools
 thestreet.com###hoverfoot
 thestreet.com###lower-ad-banner
-thestreet.com##.main-nav--desktop.main-nav.navbar-fixed-top.navbar
+thestreet.com##.main-nav--desktop.main-nav.navbar-fixed-top.navbar:style(position: relative !important; top: 0 !important;)
 thestylecon.com###upprev_box
-thesun.co.uk###sun-menu
+thesun.co.uk###sun-menu:style(position: relative !important; top: 0 !important;)
 thesun.co.uk##.billboard
-thesun.co.uk##.scrolling.sun-header-bg
-thesun.co.uk##.sun-header-bg-color
+thesun.co.uk##.scrolling.sun-header-bg:style(position: relative !important; top: 0 !important;)
+thesun.co.uk##.sun-header-bg-color:style(position: relative !important; top: 0 !important;)
 thetimes.co.uk###tto-cookieMessage
 thetimes.co.uk###tto-cookieMessageInner
 thetimes.co.uk##.ArticlePager
@@ -2074,7 +2075,7 @@ theverge.com###sticky-menu:style(position: relative !important; top: 0 !importan
 theverge.com###subForm
 theverge.com##.follow-the-verge.instapaper_ignore.entry-unrelated
 theverge.com##.m-header__social
-theverge.com##.m-nav
+theverge.com##.m-nav:style(position: relative !important; top: 0 !important;)
 theverge.com##.m-nav__tabs
 theverge.com##.social-media-column.clearfix.instapaper_ignore.entry-unrelated
 theverge.com##.tab-bar-fixed.c-tab-bar
@@ -2094,11 +2095,11 @@ thewindowsclub.com##CENTER
 thewindowsclub.com##FB:LIKE[href="http://forum.thewindowsclub.com/showthread.php?t=35495"]
 thewire.com##.article-social.regular-social-buttons
 thewire.com##.follow-us.small
-thewire.com##.header
+thewire.com##.header:style(position: relative !important; top: 0 !important;)
 thewire.com##.shares
 thewire.com##.shares.bottom-only
 thewire.com##.shares.loaded
-thewrap.com###js-mobile-bar
+thewrap.com###js-mobile-bar:style(position: relative !important; top: 0 !important;)
 thinkprogress.org###slidedown
 thinkprogress.org##.facebook-like-bottom
 thinkprogress.org##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBottomSection.u-tintSpectrum.u-tintBgColor.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar
