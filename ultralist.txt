@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 10:35 AM 2017-01-26
+! Last Modified: 11:07 AM 2017-01-26
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
@@ -875,9 +875,9 @@ gq.com###nav-holder:style(position: relative !important; top: 0 !important;)
 gq.com###social-hub
 gq.com##.best-reads-list-inline.best-reads-list
 gq.com##.cm-footer-component
-gq.com##.desktop-header
-gq.com##.desktop-header-container
-gq.com##.desktop-header-search-wrapper
+gq.com##.desktop-header-container:style(position: relative !important; top: 0 !important;)
+gq.com##.desktop-header-search-wrapper:style(position: relative !important; top: 0 !important;)
+gq.com##.desktop-header:style(position: relative !important; top: 0 !important;)
 gq.com##.mm-nav:style(position: relative !important; top: 0 !important;)
 gq.com##.show.component-sub-header
 gq.com##.yrcomponent
@@ -1383,13 +1383,15 @@ newsmax.com###nmSpecialLinksWrapper
 newsmax.com###sharebar
 newsnet5.com##.navbar.navbar--tv.navbar--bg
 newson6.com##.navbar-fixed-top.navbar-inverse.navbar
+newsweek.com###block-nw-nw-header:style(position: relative !important; top: 0 !important;)
 newsweek.com###header_subscribe
-newsweek.com##.affix.stickyhead
+newsweek.com##.affix.stickyhead:style(position: relative !important; top: 0 !important;)
 newsweek.com##.article--newsletter--wrapper.col-md-12
 newsweek.com##.col-md-4.page-sidebar
+newsweek.com##.fixed.stickyhead:style(position: relative !important; top: 0 !important;)
 newsweek.com##.header--nav:style(position: relative !important; top: 0 !important;)
 newsweek.com##.hs-menu.clearfix
-newsweek.com##.page-header
+newsweek.com##.page-header:style(position: relative !important; top: 0 !important;)
 newsweek.com##.trial-link
 newyorker.com###AMS_NYR_CONTENTPAGE_TEXTOFFER
 newyorker.com###digital-editions
