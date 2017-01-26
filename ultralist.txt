@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 12:18 PM 2017-01-26
+! Last Modified: 12:24 PM 2017-01-26
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
@@ -2354,10 +2354,11 @@ washingtonpost.com##.video-tweet
 washingtonpost.com##.wp-column.first-column
 washingtonpost.com##.wp-column.partners-holder
 washingtontimes.com###info-bar
+washingtontimes.com###masthead:style(position: relative !important; top: 0 !important;)
 washingtontimes.com###message
 washingtontimes.com##.full.mb.min.left
-washingtontimes.com##.globalheader_container
-washingtontimes.com##.main-nav-scrolled.globalheader_container
+washingtontimes.com##.globalheader_container:style(position: relative !important; top: 0 !important;)
+washingtontimes.com##.main-nav-scrolled.globalheader_container:style(position: relative !important; top: 0 !important;)
 washingtontimes.com##.pg-widget-container
 washingtontimes.com##.right
 washingtontimes.com##P[style="padding: 7px 0 4px 0;margin-bottom: 0;"]
