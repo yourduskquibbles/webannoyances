@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 1:56 PM 2017-01-27
+! Last Modified: 3:31 PM 2017-01-27
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -109,6 +109,8 @@ aeon.co###shareIconsLeftWrapper
 aeon.co##.fancybox-wrap.fancybox-desktop.fancybox-type-inline.newsletter-skin.fancybox-opened
 aeon.co##.header--fixed--visible.header--fixed.header > .header__container.container
 aeon.co##.header--fixed--visible.header--fixed.header:style(position: relative !important; top: 0 !important;)
+aeon.co##.header--fixed.header
+aeon.co##.header--top.header:style(position: relative !important; top: 0 !important;)
 aeon.co##.lower-share
 aeon.co##.site-menu:style(position: relative !important; top: 0 !important;)
 aeon.co##.sticky-wrapper.hide-for-small:style(position: relative !important; top: 0 !important;)
@@ -1127,6 +1129,7 @@ linkedin.com###responsive-nav-scrollable:style(position: relative !important; to
 linkedin.com###siteflow-widget-next
 linkedin.com##.stuck.stream-header:style(position: relative !important; top: 0 !important;)
 liquor.com##.navigation-slug:style(position: relative !important; top: 0 !important;)
+liquor.com##.on-right.sans.collection-tip
 livescience.com###sticky-header:style(position: relative !important; top: 0 !important;)
 livescience.com###stickyShare
 livestrong.com###smartbanner:style(position: relative !important; top: 0 !important;)
@@ -1777,7 +1780,8 @@ sbnation.com###to-the-top
 sbnation.com##.m-share_selection_contextual
 sbsun.com###jBar
 schaeffersresearch.com###signupSlider
-sciencebulletin.org###header-inner
+sciencebulletin.org###header:style(position: relative !important; top: 0 !important;)
+sciencebulletin.org###responsive-menu-button:style(position: relative !important; top: 0 !important;)
 sciencedaily.com##.navbar-custom.navbar-static.navbar-default.yamm.navbar
 sciencemag.org##.sticky-header:style(position: relative !important; top: 0 !important;)
 scientificamerican.com###site-header:style(position: relative !important; top: 0 !important;)
@@ -2477,6 +2481,7 @@ wsj.com##.vltSocialLinks
 wsj.com##.wsj-responsive-nav-circ-wrap
 wsj.com##DIV[style="background: #cc5302; margin: 0px; padding: 4px;clear:both;"]
 wsj.com##DIV[style="width: 100%; text-align: center; margin-left: 100px;"]
+wtkr.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
 wtop.com###voteTools
 wtop.com##.facebook
 wtop.com##.retweet
