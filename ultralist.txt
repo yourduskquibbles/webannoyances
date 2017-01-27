@@ -1,8 +1,8 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 12:35 PM 2017-01-27
+! Last Modified: 12:39 PM 2017-01-27
 ! Title: Web Annoyances Ultralist
 
-# Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
+# Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
 # Works best with uBlock Origin
 
 # Static filter syntax and help
@@ -157,6 +157,7 @@ android.gs##.google-plus
 androidauthority.com###scrolled_view_bar
 androidauthority.com###sticky-bar:style(position: relative !important; top: 0 !important;)
 androidauthority.com##.sw_overlay_href.overlay-link
+androidcentral.com###header:style(position: relative !important; top: 0 !important;)
 androidforums.com###social-icons
 androidforums.com###yvjotilvhppccccahqxngddtnoesfgzrm
 androidheadlines.com###masthead:style(position: relative !important; top: 0 !important;)
