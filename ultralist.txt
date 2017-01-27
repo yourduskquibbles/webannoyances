@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 12:58 PM 2017-01-26
+! Last Modified: 12:35 PM 2017-01-27
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs and generally annoying website behavior. 
@@ -1080,6 +1080,8 @@ kgw.com##.header-main
 kgw.com##.is_stuck.site-nav
 king5.com##.header-main
 klfy.com###masthead
+knowyourmeme.com###media-controls
+knowyourmeme.com###mobile-sticky-ad
 konbini.com##.fixed-nav
 kotaku.com##.twelve.mobile-four.columns.user-bar-inside
 ktla.com##.navbar-fixed-top.navbar-inverse.navbar
@@ -1907,7 +1909,7 @@ technologyreview.com###tr-global-header-sticky
 technologyreview.com##.sidebar.right
 techradar.com###fp_cookieMessageContainer
 techradar.com##.sharing_furniture.clearfix
-techspot.com###header-ts
+techspot.com###header-ts:style(position: relative !important; top: 0 !important;)
 techtimes.com##.bts_social
 techtimes.com##.hd-fixed.bk-header
 ted.com###vmrejilvmobczcqrldhzqrjekdkhdpwuywasck
@@ -2071,6 +2073,7 @@ thesun.co.uk##.sun-header-bg-color:style(position: relative !important; top: 0 !
 thetimes.co.uk###tto-cookieMessage
 thetimes.co.uk###tto-cookieMessageInner
 thetimes.co.uk##.ArticlePager
+thetimes.co.uk##.ConversionPopup
 theverge.com###sticky-menu:style(position: relative !important; top: 0 !important;)
 theverge.com###subForm
 theverge.com##.follow-the-verge.instapaper_ignore.entry-unrelated
