@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 10:48 AM 2017-01-29
+! Last Modified: 11:59 AM 2017-01-29
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -173,6 +173,8 @@ aol.com##.mpid-7
 ap.org###block-ap-misc-ap-social-media
 ap.org##.ap-mediabox-td
 ap.org##.clearfix.share-block
+apnews.com###header:style(position: relative !important; top: 0 !important;)
+apnews.com##.ng-isolate-scope.header:style(position: relative !important; top: 0 !important;)
 apple.com##.ac-ln-wrapper
 arlnow.com###search-navigation
 arlnow.com###top-bar:style(position: relative !important; top: 0 !important;)
@@ -263,6 +265,11 @@ bloomberg.com###bb-nav:style(position: relative !important; top: 0 !important;)
 bloomberg.com##.article_interaction
 bloomberg.com##.persist-nav.bb-nav-root:style(position: relative !important; top: 0 !important;)
 bloomberg.com##.tweet_count
+bloomberg.com##:xpath(.//*[data-tracker-action="share"])
+bloomberg.com##:xpath(.//*[data-tracker-category="social"])
+bloomberg.com##a[href="#"]
+bloomberg.com##a[href="javascript:window.print();"]
+bloomberg.com##a[href^="mailto:"]
 bloombergview.com###header
 boardingarea.com###ba-flybox
 boardingarea.com##.navbar-inverse.navbar
@@ -425,6 +432,8 @@ cltampa.com##header > .container
 cnbc.com###cnbc-new-header:style(position: relative !important; top: 0 !important;)
 cnbc.com###optIn-right-rail
 cnbc.com###social-tools-panel
+cnbc.com##.cnbc-menu:style(position: relative !important; top: 0 !important;)
+cnbc.com##.main-header-nav:style(position: relative !important; top: 0 !important;)
 cnbc.com##.persistentHeader.main-header-nav:style(position: relative !important; top: 0 !important;)
 cnbc.com##.pico-content
 cnbc.com##.pico-overlay
@@ -1003,6 +1012,9 @@ idigitaltimes.com##.page-header
 ifixit.com##.smartbanner
 ign.com###header-nav:style(position: relative !important; top: 0 !important;)
 ijr.com###masthead:style(position: relative !important; top: 0 !important;)
+ijr.com###progress-bar
+ijr.com##.opt360-header.py1.z10000.right-0.left-0.top-0.fixed.border-box.header-height:style(position: relative !important; top: 0 !important;)
+ijr.com##.z1.relative > .header-height:style(position: relative !important; top: 0 !important;)
 imbibemagazine.com##.sticky.main-menu-fixed:style(position: relative !important; top: 0 !important;)
 imgur.com###header:style(position: relative !important; top: 0 !important;)
 imgur.com##.buttonOIA.viewInAppLink.margin-top.center-text
@@ -1174,6 +1186,7 @@ marketwatch.com###storytoolsplaceholder
 marketwatch.com##.fyre-notifier-container
 marthastewart.com##.footer-sticky-social-container
 mashable.com###share-nav
+mashable.com###site-header:style(position: relative !important; top: 0 !important;)
 mashable.com##.follow-channel
 mashable.com##.microcontent-shares
 mashable.com##.navbar:style(position: relative !important; top: 0 !important;)
@@ -1311,9 +1324,11 @@ nationalreview.com###cboxWrapper
 nationalreview.com###colorbox
 nationalreview.com###newsmax-signup-block
 nationalreview.com##.block-nro-block-social-wrap
+nationalreview.com##.cf.tac.container.nav-fixed-top-main:style(position: relative !important; top: 0 !important;)
 nationalreview.com##.fixed.scrolling.fs-p9.cf.nav-fixed-top
 nationalreview.com##.nav-social-links
 nationalreview.com##.nav_wrapper_right
+nationalreview.com##.scrolling.fs-p9.cf.nav-fixed-top:style(position: relative !important; top: 0 !important;)
 nationalreview.com##.scrolling.off-phones.cf.nft-auth
 nationalreview.com##A[href="https://plus.google.com/+nationalreview"]
 nautil.us###issue-map
@@ -1938,7 +1953,7 @@ theadvocate.com##.card-container
 theadvocate.com##.popover-content
 theappendix.net##.communicate
 theappendix.net##.container.social
-theatlantic.com###action-bar
+theatlantic.com###action-bar:style(position: relative !important; top: 0 !important;)
 theatlantic.com###article-promo-magazine
 theatlantic.com###site-header-container:style(position: relative !important; top: 0 !important;)
 theatlantic.com###site-header:style(position: relative !important; top: 0 !important;)
@@ -2081,6 +2096,7 @@ thesun.co.uk###sun-menu:style(position: relative !important; top: 0 !important;)
 thesun.co.uk##.billboard
 thesun.co.uk##.scrolling.sun-header-bg:style(position: relative !important; top: 0 !important;)
 thesun.co.uk##.sun-header-bg-color:style(position: relative !important; top: 0 !important;)
+thesun.co.uk##.swiper-container-android.swiper-container-free-mode.swiper-container-horizontal.sun-header--nav-wrap.swiper-container.no-gutters.sun-col-6.col:style(position: relative !important; top: 0 !important;)
 thetimes.co.uk###tto-cookieMessage
 thetimes.co.uk###tto-cookieMessageInner
 thetimes.co.uk##.ArticlePager
