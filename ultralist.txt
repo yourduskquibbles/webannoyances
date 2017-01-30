@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 3:02 PM 2017-01-29
+! Last Modified: 10:42 AM 2017-01-30
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -916,6 +916,7 @@ hackerone.com##.js-topbar
 halfwheel.com##.mean-bar
 harpers.org###issuem-leaky-paywall-articles-remaining-nag
 harpers.org##.subscribe
+harpersbazaar.com###share-sticky-bar
 harvarddesignmagazine.org###navigation-wrapper
 hbr.org##.hide-for-print.clearfix.persistent-banner
 headmelted.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.js-metabar.u-clearfix.metabar
@@ -1019,6 +1020,7 @@ ijr.com##.z1.relative > .header-height:style(position: relative !important; top:
 ijr.com##:xpath(.//*[@data-reactid="62"])
 imbibemagazine.com##.sticky.main-menu-fixed:style(position: relative !important; top: 0 !important;)
 imgur.com###header:style(position: relative !important; top: 0 !important;)
+imgur.com##.Navbar:style(position: relative !important; top: 0 !important;)
 imgur.com##.buttonOIA.viewInAppLink.margin-top.center-text
 imgur.com##.go-to-comments.box
 imgur.com##.headerContainer:style(position: relative !important; top: 0 !important;)
@@ -1108,6 +1110,7 @@ ktla.com##.navbar-fixed-top.navbar-inverse.navbar
 labradortraininghq.com###navigation
 laphamsquarterly.org##.small-header
 latimes.com###content-bottom
+latimes.com###lb-card-20468
 latimes.com###pmad-in2
 latimes.com###pmad-rail
 latimes.com###questions_list
@@ -1161,6 +1164,8 @@ m.csmonitor.com###csm_header_container
 m.destinationxl.com###mntt_alt_02
 m.gulfnews.com##.sticky.not-sticky.tab-bar
 m.huffpost.com##.header-container
+m.imgur.com##.FloatingOIA
+m.imgur.com##.Navbar:style(position: relative !important; top: 0 !important;)
 m.independent.ie##.root-a > header
 m.independent.ie##.root-a > section > .sharesnap.story-a > .p402_hide:nth-of-type(1) > .share-b > ul:nth-of-type(2)
 m.medicalxpress.com##.slideup.ui-footer-fixed.ui-bar-c.ui-footer
@@ -1538,6 +1543,7 @@ ocweekly.com##.city-color-border.prev.sideSlide
 ocweekly.com##.leaderboard
 ocweekly.com##.sde-shadow
 ocweekly.com##.sticky-bar.masthead
+oddshot.tv##.Notification
 offers.com###header
 okcupid.com##DIV[style=" background: #142d69; padding: 14px 12px 20px; border-radius: 0 5px 5px 0;\a \9 -moz-border-radius: 0 5px 5px 0;\a \9 -webkit-border-radius: 0 5px 5px 0;\a \9  "]
 onceuponachef.com##.jw-header.fixedready.topbar
@@ -1669,9 +1675,8 @@ pvplive.net##.nav-stuck
 qualityassurancemag.com###slide-nav
 qualityassurancemag.com##.navbar-header
 qualityassurancemag.com##.supersocialshare-container
-quora.com###__w2_Dm98LHe_view_in_app
-quora.com###header > .fixed_header
-quora.com##.inner
+quora.com###header > .fixed_header:style(position: relative !important; top: 0 !important;)
+quora.com##.inner:style(position: relative !important; top: 0 !important;)
 quora.com##.section.share_question
 quora.com##:xpath(.//*[@class="NonAccessSiteHeader SiteHeader LoggedOutSiteHeader"])
 quora.com##:xpath(.//*[@class="NonMemberSiteHeader SiteHeader LoggedOutSiteHeader"])
@@ -2309,6 +2314,7 @@ vimeo.com##.sidedock
 vinepair.com###header-container:style(position: relative !important; top: 0 !important;)
 vinepair.com##.icon.nav-toggle
 viralnova.com###article-finished
+viralthread.com##.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 visual.ly###back-to-top
 visual.ly###eyebrow
 visual.ly##.section
