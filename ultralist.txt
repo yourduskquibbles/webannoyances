@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 10:46 AM 2017-01-30
+! Last Modified: 11:32 AM 2017-01-30
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -760,7 +760,7 @@ food.com###fdc-navbar
 food.com##.navbar-header:style(position: relative !important; top: 0 !important;)
 food.com##.top-offset.stick.fd-next-recipe
 food52.com###desktop-email-modal-wrapper
-food52.com###global-header-block
+food52.com###global-header-block:style(position: relative !important; top: 0 !important;)
 food52.com###mobile-email-modal-wrapper
 foodandwine.com##.is_stuck.site-header:style(position: relative !important; top: 0 !important;)
 foodbeast.com###goodbye-form
@@ -1028,11 +1028,14 @@ imgur.com##.right.viewInAppLink
 imgur.com##.social
 imgur.com##.take-me-up.box
 imgur.com##.transition.icon-arrow-right.nextItem.contextOverlay
+inc.com###TopNav:style(position: relative !important; top: 0 !important;)
 inc.com###article-share
 inc.com###article-share-footer
 inc.com###backtotopinnercontainer
-inc.com###top-black-bar
-independent.co.uk###masthead
+inc.com###leaderboard-container:style(position: relative !important; top: 0 !important;)
+inc.com###top-black-bar:style(position: relative !important; top: 0 !important;)
+inc.com##.MainNavBarContainer:style(position: relative !important; top: 0 !important;)
+independent.co.uk###masthead:style(position: relative !important; top: 0 !important;)
 independent.co.uk###side
 independent.co.uk##.adblock.adblock-modal
 independent.co.uk##.column-2
@@ -1040,11 +1043,11 @@ independent.co.uk##IMG[src="http://www.independent.co.uk/independent.co.uk/asset
 independent.ie##.on.persistent.slim.w103
 independent.ie##.snap.w115.w
 india.com###navigation-bar:style(position: relative !important; top: 0 !important;)
-india.com##.headersection
+india.com##.headersection:style(position: relative !important; top: 0 !important;)
 indiatimes.com###TPMainDiv
 indiatimes.com###navigation:style(position: relative !important; top: 0 !important;)
 indiatimes.com##.badge_new
-indy100.com###top-nav
+indy100.com###top-nav:style(position: relative !important; top: 0 !important;)
 indystar.com##.tp-active.tp-backdrop
 indystar.com##.tp-modal
 indystar.com##.tp-modal > .tp-active.tp-iframe-wrapper
@@ -1056,9 +1059,9 @@ infowars.com###message
 infowars.com##.container.optinsiege
 infowars.com##.shareinpost
 infowars.com##.textsize
-inquisitr.com##.block.header--inner
+inquisitr.com##.block.header--inner:style(position: relative !important; top: 0 !important;)
 insidenova.com##.hidden-print.asset-paging-container
-insightdata.ai##.logo_nav
+insightdata.ai##.logo_nav:style(position: relative !important; top: 0 !important;)
 instagram.com##:xpath(.//*[@href="/accounts/emailsignup/"])
 instagram.com##:xpath(.//*[@role="alert"])
 instle.com###logo:style(position: relative !important; top: 0 !important;)
@@ -1075,17 +1078,17 @@ intuit.com##.WelcomeMatView
 intuit.com##.advice.module.o2card
 intuit.com##.minttotax.WelcomeMatView
 intuit.com##.slide_from_right.sideSLider
-inverse.com##.app-header.flex
+inverse.com##.app-header.flex:style(position: relative !important; top: 0 !important;)
 inverse.com##.flex-centered.flex.app-fullpage.promos-newsletter-slidein.promos-newsletter-page
 inverse.com##.locked.flatiron-app.consumer.article-route.article-channel.app
-inverse.com##.sticky.header-container
+inverse.com##.sticky.header-container:style(position: relative !important; top: 0 !important;)
 investopedia.com###infinite-scroll-container
 investopedia.com##.meganav.header
 irishtimes.com###cookies-policy-wrapper
 irishtimes.com###newsdigest-widget
 irishtimes.com###primary-navigation:style(position: relative !important; top: 0 !important;)
 irishtimes.com##.social_article_share
-jerusalemonline.com##.topbarstatic
+jerusalemonline.com##.topbarstatic:style(position: relative !important; top: 0 !important;)
 joystiq.com###GH_strip
 joystiq.com##.social-tools.group
 jpost.com##.header-menu-site-scrollingLogo.header-menu-site
@@ -1097,16 +1100,16 @@ justsecurity.org##.contrib-nav-wrap
 kadavy.net##nav
 kernelmag.com###login-box
 kernelmag.com##.kernel-social.clearfix
-kfor.com##.navbar-fixed-top.navbar-inverse.navbar
-kgw.com##.header-main
-kgw.com##.is_stuck.site-nav
-king5.com##.header-main
-klfy.com###masthead
+kfor.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
+kgw.com##.header-main:style(position: relative !important; top: 0 !important;)
+kgw.com##.is_stuck.site-nav:style(position: relative !important; top: 0 !important;)
+king5.com##.header-main:style(position: relative !important; top: 0 !important;)
+klfy.com###masthead:style(position: relative !important; top: 0 !important;)
 knowyourmeme.com###media-controls
 knowyourmeme.com###mobile-sticky-ad
 konbini.com##.fixed-nav
 kotaku.com##.twelve.mobile-four.columns.user-bar-inside
-ktla.com##.navbar-fixed-top.navbar-inverse.navbar
+ktla.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
 labradortraininghq.com###navigation
 laphamsquarterly.org##.small-header
 latimes.com###content-bottom
@@ -1160,20 +1163,20 @@ luckypeach.com###masthead:style(position: relative !important; top: 0 !important
 luckypeach.com##.now-reading
 luckypeach.com##.sidebar-wrapper
 m.bedbathandbeyond.com###navigation:style(position: relative !important; top: 0 !important;)
-m.csmonitor.com###csm_header_container
+m.csmonitor.com###csm_header_container:style(position: relative !important; top: 0 !important;)
 m.destinationxl.com###mntt_alt_02
 m.gulfnews.com##.sticky.not-sticky.tab-bar
-m.huffpost.com##.header-container
+m.huffpost.com##.header-container:style(position: relative !important; top: 0 !important;)
 m.imgur.com##.FloatingOIA
 m.imgur.com##.Navbar:style(position: relative !important; top: 0 !important;)
-m.independent.ie##.root-a > header
+m.independent.ie##.root-a > header:style(position: relative !important; top: 0 !important;)
 m.independent.ie##.root-a > section > .sharesnap.story-a > .p402_hide:nth-of-type(1) > .share-b > ul:nth-of-type(2)
 m.medicalxpress.com##.slideup.ui-footer-fixed.ui-bar-c.ui-footer
 m.phys.org##.slideup.ui-footer-fixed.ui-bar-c.ui-footer.visibilityNone
 m.reddit.com##.TopNav
 m.shop.nordstrom.com##.android-app-banner
 m.tmz.com##.ui-bar-inherit.ui-header.header-mini
-m.wikihow.com##.header
+m.wikihow.com##.header:style(position: relative !important; top: 0 !important;)
 m.yelp.com###photos-app-pitch
 m.yelp.com###search-bar:style(position: relative !important; top: 0 !important;)
 m.yelp.com##.cta-menubar-pitch-icons
@@ -1701,7 +1704,7 @@ rasmussenreports.com##.narrow-cta.button-sprite
 ratemyprofessors.com##.promotionDesktop.promotion
 rawstory.com###kodda_container
 rawstory.com###kodda_inner_container
-rd.com##.adhesive-site-header--top-bar
+rd.com##.adhesive-site-header--top-bar:style(position: relative !important; top: 0 !important;)
 rd.com##.fwf__drop-for-mobile.fwf--fixed__right
 rd.com##.js--sticky.rd-article--sharing
 rd.com##.stationary-site-header--promo:style(position: relative !important; top: 0 !important;)
@@ -1995,6 +1998,7 @@ theconversation.com##.topbar-mobile-newsletter-signup
 thecooperreview.com###sticky_header
 thedailybeast.com###react-mount-point > .ArticlePage > .PageHeader.head > .MobileNav
 thedailybeast.com##.InlineNewsletter_standard.InlineNewsletter
+thedailybeast.com##.clearfix.homenav.header:style(position: relative !important; top: 0 !important;)
 thedailybeast.com##.header.header-2.clearfix
 thedailybeast.com##.sidebar
 thedailybeast.com##.social.css-debug
@@ -2026,7 +2030,9 @@ thehill.com###article-recommendation
 thehill.com###bottom-story-socials
 thehill.com###dfp-ad-mosad_1
 thehill.com###header:style(position: relative !important; top: 0 !important;)
+thehill.com###navigation:style(position: relative !important; top: 0 !important;)
 thehill.com##.container-emphasised.container.header.main
+thehill.com##.floating-block-active:style(position: relative !important; top: 0 !important;)
 thehill.com##.item-shares
 thehill.com##.scroll-down-to-next
 thehill.com##:xpath(.//*[@class="rollover-people-block"])
@@ -2188,9 +2194,9 @@ torrentfreak.com###share
 torrentfreak.com##A[href="http://twitter.com/torrentfreak"]
 torrentfreak.com##A[href="http://www.facebook.com/torrentfreak"]
 totalfratmove.com###mobile-bottom-ad
-totalfratmove.com###nav-bar
-townandcountrymag.com##.content-nav-active.sticky.nav
-townandcountrymag.com##.sticky.nav
+totalfratmove.com###nav-bar:style(position: relative !important; top: 0 !important;)
+townandcountrymag.com##.content-nav-active.sticky.nav:style(position: relative !important; top: 0 !important;)
+townandcountrymag.com##.sticky.nav:style(position: relative !important; top: 0 !important;)
 townhall.com###container > nav
 townhall.com###thm-nav-sm
 townhall.com##.comment-alert
@@ -2235,7 +2241,7 @@ uponit.com###header:style(position: relative !important; top: 0 !important;)
 uponit.com###header_main:style(position: relative !important; top: 0 !important;)
 ups.com##.social.outdent.clearfix
 usatoday.com###etoikt
-usatoday.com###header
+usatoday.com###header:style(position: relative !important; top: 0 !important;)
 usatoday.com###read-this-next
 usatoday.com###story-share-buttons
 usatoday.com##.close.close-overlay
@@ -2259,8 +2265,8 @@ usatoday.com##.utility-bar-wrap
 usmagazine.com###module-reading-list
 usmagazine.com##.color-theme-hed.row.header-nav
 usmagazine.com##.module-reading-list-mobile-cta
-usnews.com##.box.bar-toolbar5
-usnews.com##.fixed.hero-sticky-bar-container
+usnews.com##.box.bar-toolbar5:style(position: relative !important; top: 0 !important;)
+usnews.com##.fixed.hero-sticky-bar-container:style(position: relative !important; top: 0 !important;)
 usnews.com##.rail-sticky
 usnews.com##.right.header-banner-section-social.header-banner-section
 usnews.com##.show-for-large-up.block-loose.pad-loose.border-bottom:nth-of-type(2)
@@ -2293,16 +2299,19 @@ vice.com###yw0
 vice.com###yw1
 vice.com###yw3
 vice.com##.article-right-rail.right-rail
-vice.com##.fixed-header.site-wrapper > .site-header:style(position: relative !important; top: 0 !important;)
+vice.com##.fixed-header.site-wrapper > .site-header
 vice.com##.inline-social
-vice.com##.main-nav-header:style(position: relative !important; top: 0 !important;)
+vice.com##.main-nav-header
+vice.com##.nav-toggle.icon-menu.icon
 vice.com##.nsfw-wrapper
 vice.com##.post_footer_social
 vice.com##.shown.sharing-header.site-header
 vice.com##.site-header--article.site-header
-vice.com##.site-header--engage.site-header--article.site-header:style(position: relative !important; top: 0 !important;)
+vice.com##.site-header--engage.site-header--article.site-header
+vice.com##.site-header--home.site-header
+vice.com##.site-header--transparent.site-header--article.site-header
 vice.com##.site-header-inner
-vice.com##.site-header__container:style(position: relative !important; top: 0 !important;)
+vice.com##.site-header__container
 viewfind.com###fixed_social
 viewfind.com###vf_nav
 viewfind.com##.main-header.container-fluid
@@ -2322,17 +2331,17 @@ visual.ly##.section
 voat.co##.alert-dismissible.eppnotice.alert
 vocativ.com##.global-header:style(position: relative !important; top: 0 !important;)
 vocativ.com##.motif-strip
-vocativ.com##.primary-header
+vocativ.com##.primary-header:style(position: relative !important; top: 0 !important;)
 vocativ.com##.rcol
 vocativ.com##.voc-feed-thumbroll
-vocativ.com##.voc-header
+vocativ.com##.voc-header:style(position: relative !important; top: 0 !important;)
 vocativ.com##.voc-sticky-social-strip
-vocativ.com##header > .voc-header
+vocativ.com##header > .voc-header:style(position: relative !important; top: 0 !important;)
 vogue.com##.text-tweet.text-tweet__template
 vox.com###chorus-social-fixed
 vox.com##.m-explainer__top-nav
 vox.com##.m-share_selection_contextual
-vox.com##.m-sticky-nav
+vox.com##.m-sticky-nav:style(position: relative !important; top: 0 !important;)
 vox.com##.tab-bar-fixed.c-tab-bar
 wallstreet.org##.fancybox-overlay.snp-pop-4404-overlay
 wallstreet.org##.fancybox-wrap.fancybox-desktop.fancybox-type-inline.snp-wrap.snp-pop-4404-wrap.snp-pop-theme8-wrap.fancybox-opened
