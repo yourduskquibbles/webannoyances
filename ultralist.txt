@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 1:59 PM 2017-01-30
+! Last Modified: 9:20 AM 2017-01-31
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -175,6 +175,8 @@ ap.org##.ap-mediabox-td
 ap.org##.clearfix.share-block
 apnews.com###header:style(position: relative !important; top: 0 !important;)
 apnews.com##.ng-isolate-scope.header:style(position: relative !important; top: 0 !important;)
+appalachianmagazine.com###td-header-menu:style(position: relative !important; top: 0 !important;)
+appalachianmagazine.com##.td-header-wrap:style(position: relative !important; top: 0 !important;)
 apple.com##.ac-ln-wrapper
 arlnow.com###search-navigation
 arlnow.com###top-bar:style(position: relative !important; top: 0 !important;)
@@ -226,6 +228,7 @@ bet.com##.smartbanner
 betabeat.com##.entry-bottom-share
 betabeat.com##.entry-top-share
 bgr.com###topnav
+bgr.com##.site-header-sticky:style(position: relative !important; top: 0 !important;)
 bgr.com##.social
 bigstory.ap.org###message
 bigthink.com##.fixed.header.contain-to-grid
@@ -407,6 +410,7 @@ chicagomag.com###reveal-bar:style(position: relative !important; top: 0 !importa
 chicagotribune.com###row-socials-list
 chicagotribune.com##.met-promo
 chicagotribune.com##.nextgen-share-tools
+chicagotribune.com##.trb_bnn:style(position: relative !important; top: 0 !important;)
 chicagotribune.com##.trb_nh
 chowhound.com###freyja_desknav:style(position: relative !important; top: 0 !important;)
 chowhound.com###freyja_mobile-sticky-wrapper:style(position: relative !important; top: 0 !important;)
@@ -423,6 +427,7 @@ chowhound.com##.side.to_topmobile.freyja_bigbt
 chron.com###siteNav:style(position: relative !important; top: 0 !important;)
 chronicle.com###nav-persistent__container:style(position: relative !important; top: 0 !important;)
 cigarmonster.com###emailsignupmodalblackglass
+cincinnati.com##.fixed.header:style(position: relative !important; top: 0 !important;)
 citizenslant.com###navigation:style(position: relative !important; top: 0 !important;)
 citylab.com###blocker-msg-start
 citylab.com###social-sticky
@@ -740,6 +745,9 @@ fatwallet.com##.ui-widget-overlay
 fatwallet.com##TD[align="right"]
 fb.com##.fb-like.wsh_pb10
 features.wearemel.com##.js-promo.promo--postFooter.promo
+fee.org###chatra__iframe
+fee.org###email-capture-modal
+fee.org##.in.fade.modal-backdrop
 fhm.com###FHMIssueCover
 fhm.com###ctl00_Body_slideboxDiv
 fhm.com###socialButton
@@ -1047,6 +1055,8 @@ india.com##.headersection:style(position: relative !important; top: 0 !important
 indiatimes.com###TPMainDiv
 indiatimes.com###navigation:style(position: relative !important; top: 0 !important;)
 indiatimes.com##.badge_new
+indiatimes.com##.ntfc_overlay
+indiatimes.com##.ntfc_popup
 indy100.com###top-nav:style(position: relative !important; top: 0 !important;)
 indystar.com##.tp-active.tp-backdrop
 indystar.com##.tp-modal
@@ -1267,6 +1277,7 @@ money.cnn.com###notice_banner
 money.cnn.com##.ng-scope.clear:style(position: relative !important; top: 0 !important;)
 money.cnn.com##.ng-scope.mediaHeader:style(position: relative !important; top: 0 !important;)
 montereyherald.com###story_window > .article.toolbar
+montrealgazette.com##.l-header:style(position: relative !important; top: 0 !important;)
 moralmachine.mit.edu##.navbar-fixed-top.navbar-inverse.navbar
 morningconsult.com###header-main
 motherjones.com###block-block-222
@@ -1681,6 +1692,7 @@ qualityassurancemag.com###slide-nav
 qualityassurancemag.com##.navbar-header
 qualityassurancemag.com##.supersocialshare-container
 quora.com###__w2_Dm98LHe_view_in_app
+quora.com###__w2_fAo1ptH_banner
 quora.com###header > .fixed_header:style(position: relative !important; top: 0 !important;)
 quora.com##.inner:style(position: relative !important; top: 0 !important;)
 quora.com##.section.share_question
@@ -1917,6 +1929,7 @@ staples.com###popupwin
 startribune.com##.l-navigation-shortnav-container
 startribune.com##.sb-slide.navbar-fixed-top.navbar-default.navbar.site-header
 statnews.com##.header-collapsed.header-shown.main-header
+stltoday.com###site-navbar-container:style(position: relative !important; top: 0 !important;)
 stocknews.com##.navbar-fixed-top.navbar-inverse.navbar-default.navbar
 storymaps.esri.com##.story-header
 stream.org##.show.sticky_share
@@ -2213,6 +2226,9 @@ tripadvisor.com###dsh_sticky_header
 tripadvisor.com###smartbanner
 tripadvisor.com###taplc_pcb_branding_interstitial_rollout_p1_0
 tripadvisor.com##.dark.ui_backdrop
+tristatehomepage.com###header:style(position: relative !important; top: 0 !important;)
+tristatehomepage.com##.nav-bar:style(position: relative !important; top: 0 !important;)
+tristatehomepage.com##.upnext-bg.mod-upnext-popup.mod-media-list.mod-wrapper
 troyhunt.com##.container.header_block
 trust.org###global-ticker
 truthrevolt.org##.fancybox-overlay.fancybox-overlay-fixed
@@ -2337,6 +2353,7 @@ vocativ.com##.global-header:style(position: relative !important; top: 0 !importa
 vocativ.com##.motif-strip
 vocativ.com##.primary-header:style(position: relative !important; top: 0 !important;)
 vocativ.com##.rcol
+vocativ.com##.voc-feed
 vocativ.com##.voc-feed-thumbroll
 vocativ.com##.voc-header:style(position: relative !important; top: 0 !important;)
 vocativ.com##.voc-sticky-social-strip
@@ -2518,6 +2535,7 @@ wsj.com##.popC.connect.popClosed.popClose
 wsj.com##.scrolled.stick-uNav.new-hat.articlePage.mega-nav
 wsj.com##.sliderBox > .scrolled.stick-uNav.new-hat.articlePage.mega-nav
 wsj.com##.space-bottom.mktg-tile
+wsj.com##.stick-mobile-nav.new-hat.articlePage.mega-nav.mobile:style(position: relative !important; top: 0 !important;)
 wsj.com##.temp-subscribe[href="https://subscribe.wsj.com/hpheaderlink"]
 wsj.com##.toggleBtn
 wsj.com##.topLinks.clearFix
