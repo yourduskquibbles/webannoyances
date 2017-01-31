@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 9:20 AM 2017-01-31
+! Last Modified: 9:54 AM 2017-01-31
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -954,14 +954,16 @@ historyextra.com##.top-link
 holidappy.com###header_wrap
 holidappy.com###rate_hub
 hollywoodreporter.com###block-block-55
-hollywoodreporter.com###sticky-nav
+hollywoodreporter.com###sticky-nav:style(position: relative !important; top: 0 !important;)
 hollywoodreporter.com##.sharetools.sharetools-horizontal
-hollywoodreporter.com##.site-header__bar
-hollywoodreporter.com##.sticky-wrapper
+hollywoodreporter.com##.site-header__bar:style(position: relative !important; top: 0 !important;)
+hollywoodreporter.com##.sticky-wrapper:style(position: relative !important; top: 0 !important;)
 hollywoodreporter.com##.toolMenu.toolMenuLeft
+hollywoodreporter.com###site-header:style(position: relative !important; top: 0 !important;)
+hollywoodreporter.com##.stuck.js-leftRail-container.left-rail
 homedepot.com###fancybox-loading
-homedepot.com###menuScroll
-homedepot.com###menuScrollInnerWrapper
+homedepot.com###menuScroll:style(position: relative !important; top: 0 !important;)
+homedepot.com###menuScrollInnerWrapper:style(position: relative !important; top: 0 !important;)
 homedepot.com##.widgetEmailPrintTable
 honesttea.com###NEWFooter_new
 hoover.org##.region-inner.clearfix
@@ -971,9 +973,9 @@ houstonchronicle.com##.container-fluid
 houstonchronicle.com##.navbar-fixed-top.navbar-default.navbar
 howshost.com###header:style(position: relative !important; top: 0 !important;)
 howshost.com###toTop
-howstuffworks.com###hsw-header
+howstuffworks.com###hsw-header:style(position: relative !important; top: 0 !important;)
 howstuffworks.com###pagination-upper
-howstuffworks.com##.fb-hsw-like-wrapper.row
+howstuffworks.com##.fb-hsw-like-wrapper.row:style(position: relative !important; top: 0 !important;)
 howwegettonext.com##.is-maximized.is-transitioning.u-tintSpectrum.u-tintBgColor.metabar--hiddenWhenMinimized.metabar--tall.metabar--dark.js-metabar.u-clearfix.metabar
 huckmagazine.com##.first.twelvecol.header
 huffingtonpost.com###.recirc--page.recirc--vertical.recirc--more-on.recirc--trending.recirc.loaded.js-scroll.component
