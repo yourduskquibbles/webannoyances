@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 12:26 PM 2017-01-31
+! Last Modified: 3:03 PM 2017-02-01
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -2294,9 +2294,10 @@ usatoday.com##.site-masthead-subscribe-wrap-visible.site-masthead-subscribe-wrap
 usatoday.com##.sponsor
 usatoday.com##.story-tools
 usatoday.com##.utility-bar-wrap
-usmagazine.com###module-reading-list
-usmagazine.com##.color-theme-hed.row.header-nav
-usmagazine.com##.module-reading-list-mobile-cta
+usmagazine.com###module-reading-list:style(position: relative !important; top: 0 !important;)
+usmagazine.com##.color-theme-hed.row.header-nav:style(position: relative !important; top: 0 !important;)
+usmagazine.com##.main-bg.header:style(position: relative !important; top: 0 !important;)
+usmagazine.com##.module-reading-list-mobile-cta:style(position: relative !important; top: 0 !important;)
 usnews.com##.box.bar-toolbar5:style(position: relative !important; top: 0 !important;)
 usnews.com##.fixed.hero-sticky-bar-container:style(position: relative !important; top: 0 !important;)
 usnews.com##.rail-sticky
