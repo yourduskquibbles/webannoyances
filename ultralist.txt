@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 3:03 PM 2017-02-01
+! Last Modified: 10:53 AM 2017-02-02
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -15,6 +15,7 @@
 ! :style(position: relative !important; top: 0 !important;)
 
 ! Start Web Annoyances Filter List
+! Tue Jan 31 20:01:33 2017 http://www.onlyinyourstate.com/virginia/tobacco-history-photos-va/
 ###appIntercept
 ###dream-box
 ###dsq-indicator-north
@@ -809,6 +810,7 @@ foursquare.com###header:style(position: relative !important; top: 0 !important;)
 fox11online.com##.sd-news-social-container
 fox11online.com##.v2.sd-header-wrapper.sd-news-header:style(position: relative !important; top: 0 !important;)
 fox25boston.com##.off-canvas-menu
+fox2detroit.com###header:style(position: relative !important; top: 0 !important;)
 fox32chicago.com###header:style(position: relative !important; top: 0 !important;)
 fox59.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
 fox5dc.com###header:style(position: relative !important; top: 0 !important;)
@@ -1089,6 +1091,7 @@ instagram.com##:xpath(.//*[@role="alert"])
 instle.com###logo:style(position: relative !important; top: 0 !important;)
 instyle.com###header:style(position: relative !important; top: 0 !important;)
 instyle.com###logo:style(position: relative !important; top: 0 !important;)
+instyle.com##.header__logo-image:style(position: relative !important; top: 0 !important;)
 instyle.com##.instyle_menu:style(position: relative !important; top: 0 !important;)
 interpretermag.com##.clearfix.container
 intuit.com###.advice.module.o2card
@@ -1367,11 +1370,15 @@ nationalreview.com##.nav_wrapper_right
 nationalreview.com##.scrolling.fs-p9.cf.nav-fixed-top:style(position: relative !important; top: 0 !important;)
 nationalreview.com##.scrolling.off-phones.cf.nft-auth
 nationalreview.com##A[href="https://plus.google.com/+nationalreview"]
+nature.com##.sticky-header.tighten-line-height.composite-layer.z-index-100.article-header.js-header.background-gradient-brand-primary.position-relative.hide-print.clear.cleared:style(position: relative !important; top: 0 !important;)
 nautil.us###issue-map
 nautil.us###main-header:style(position: relative !important; top: 0 !important;)
 nautil.us##.fb-share
 nautil.us##.tw-share
 navytimes.com##.js-pubsub-module.has-secondary-nav.layout-module.generic-module
+nbc12.com###header:style(position: relative !important; top: 0 !important;)
+nbc12.com###smartbanner
+nbc12.com###toolbar
 nbclosangeles.com##.stickyNav.nav-landing.navbar:style(position: relative !important; top: 0 !important;)
 nbcmiami.com##.header:style(position: relative !important; top: 0 !important;)
 nbcmiami.com##.swiper-container-android.swiper-container-horizontal.quick-nav
@@ -1575,6 +1582,7 @@ oddshot.tv##.Notification
 offers.com###header
 okcupid.com##DIV[style=" background: #142d69; padding: 14px 12px 20px; border-radius: 0 5px 5px 0;\a \9 -moz-border-radius: 0 5px 5px 0;\a \9 -webkit-border-radius: 0 5px 5px 0;\a \9  "]
 onceuponachef.com##.jw-header.fixedready.topbar
+onlyinyourstate.com##.mobile-share-bar-on.mobile-share-bar
 openculture.com##.clearfix
 openculture.com##.closing-social
 oppidanspirits.com##.navbar-fixed-top.navbar-inverse.navbar
@@ -2140,6 +2148,7 @@ thestylecon.com###upprev_box
 thesun.co.uk###sun-menu:style(position: relative !important; top: 0 !important;)
 thesun.co.uk##.billboard
 thesun.co.uk##.scrolling.sun-header-bg:style(position: relative !important; top: 0 !important;)
+thesun.co.uk##.show.fixed.sun-header--nav.sun-row:style(position: relative !important; top: 0 !important;)
 thesun.co.uk##.sun-header-bg-color:style(position: relative !important; top: 0 !important;)
 thesun.co.uk##.swiper-container-android.swiper-container-free-mode.swiper-container-horizontal.sun-header--nav-wrap.swiper-container.no-gutters.sun-col-6.col:style(position: relative !important; top: 0 !important;)
 thetimes.co.uk###tto-cookieMessage
@@ -2434,6 +2443,7 @@ washingtonpost.com##.row.signup-module
 washingtonpost.com##.social-tools.inline
 washingtonpost.com##.subscribe
 washingtonpost.com##.subscribe-links.left
+washingtonpost.com##.toggle-container:style(position: relative !important; top: 0 !important;)
 washingtonpost.com##.top-furniture:style(position: relative !important; top: 0 !important;)
 washingtonpost.com##.video-tweet
 washingtonpost.com##.wp-column.first-column
@@ -2570,6 +2580,7 @@ wvgazettemail.com###bodyArticleControlContainer
 wvgazettemail.com###nightReadingMode
 wvgazettemail.com###scrollCont
 wvgazettemail.com###viewCounter
+wxii12.com##.header-inner:style(position: relative !important; top: 0 !important;)
 xda-developers.com###footer_social
 xda-developers.com###google_login
 xda-developers.com###xda_header_google_login
