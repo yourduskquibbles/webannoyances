@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 4:24 PM 2017-02-03
+! Last Modified: 4:45 PM 2017-02-03
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -1747,8 +1747,8 @@ rasmussenreports.com###cboxOverlay
 rasmussenreports.com###colorbox
 rasmussenreports.com##.narrow-cta.button-sprite
 ratemyprofessors.com##.promotionDesktop.promotion
-rawstory.com###kodda_container
-rawstory.com###kodda_inner_container
+rawstory.com###kodda_container:style(position: relative !important; top: 0 !important;)
+rawstory.com###kodda_inner_container:style(position: relative !important; top: 0 !important;)
 rd.com##.adhesive-site-header--top-bar:style(position: relative !important; top: 0 !important;)
 rd.com##.fwf__drop-for-mobile.fwf--fixed__right
 rd.com##.js--sticky.rd-article--sharing
