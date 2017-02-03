@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 3:42 PM 2017-02-02
+! Last Modified: 12:09 PM 2017-02-03
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -1721,6 +1721,7 @@ quora.com##.inner:style(position: relative !important; top: 0 !important;)
 quora.com##.section.share_question
 quora.com##:xpath(.//*[@class="NonAccessSiteHeader SiteHeader LoggedOutSiteHeader"])
 quora.com##:xpath(.//*[@class="NonMemberSiteHeader SiteHeader LoggedOutSiteHeader"])
+quora.com##:xpath(.//*[@class="open_in_app_link"])
 qupre.com###__w2_EwI0w0F_header:style(position: relative !important; top: 0 !important;)
 qz.com###header
 qz.com###nav
