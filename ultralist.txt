@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 12:27 PM 2017-02-03
+! Last Modified: 4:19 PM 2017-02-03
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -307,6 +307,7 @@ bourbonblog.com##.modal-backdrop.fade.in
 bradsdeals.com###scrolling-sticky-nav
 bradsdeals.com##.code-instructions
 bradsdeals.com##.coupon-code-link.golink-split-wrapper
+brave.com##.top-nav-collapse.navbar-fixed-top.navbar-default.navbar.one-page-header:style(position: relative !important; top: 0 !important;)
 bravocompanyusa.com##.sb-toggle.sb-tab
 breitbart.com###BBStoreLead
 breitbart.com###EmailOptinM
@@ -580,6 +581,7 @@ dailymail.co.uk##.share-twitter
 dailymail.co.uk##.shareArticles
 dailymail.co.uk##:xpath(.//*[@id="stickyBanner"])
 dailymail.co.uk##body > div:nth-of-type(8)
+dailypress.com##.trb_nh:style(position: relative !important; top: 0 !important;)
 dailysignal.com##.facebook
 dailysignal.com##HEADER
 dailysnark.com###td-outer-wrap > .td-header-style-9.td-header-wrap
@@ -654,6 +656,7 @@ droidguiding.com###nav-topbar
 drweil.com###js-header-inner
 drweil.com###js-newsletter-modal
 drweil.com###leaderboard_sticky
+dudasite.com###dmBackToTop
 duffelblog.com###nav-wrapper
 dxomark.com###dxo-bottom-banner
 eater.com##.tab-bar-fixed.c-tab-bar
@@ -870,6 +873,7 @@ gazettenet.com##.navbar-fixed-top.navbar-default.navbar
 geek.com###menu
 geek.com##.socialmediabottom.fixedfooter
 geekdad.com##:xpath(.//*[@data-alias="Navigation"])
+geekwire.com##.navbar-fixed-top.navbar-inverse.navbar.banner:style(position: relative !important; top: 0 !important;)
 getconnected.southwestwifi.com###cepgad
 giphy.com##:xpath(.//*[@class="header-wrapper"])
 giphy.com##:xpath(.//*[@style="top: 0px;"])
