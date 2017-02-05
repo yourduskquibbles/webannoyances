@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 4:50 PM 2017-02-03
+! Last Modified: 1:24 PM 2017-02-05
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -96,6 +96,8 @@ abcnews4.com##.col-md-12.col-xxs-24 > .sd-news-social-container
 abcnews4.com##.sd-header-brand:style(position: relative !important; top: 0 !important;)
 abcnews4.com##.sd-nav-only
 abcnews4.com##.visible.sd-news-main-footer.component-story-footer-v1
+about.com###article-legend
+about.com###mast-fixed:style(position: relative !important; top: 0 !important;)
 accenture.com###WebPartWPQ8
 accenture.com###fbLike
 accenture.com##.stay-connected-master
@@ -196,6 +198,7 @@ atr.org###closeFlyOut
 atr.org###fancybox-overlay
 atr.org##.fancybox-wrap.fancybox-desktop.fancybox-type-iframe.fancybox-opened
 atr.rollcall.com###share-top
+auburntigers.com###header:style(position: relative !important; top: 0 !important;)
 avclub.com###h:style(position: relative !important; top: 0 !important;)
 avproductreviews.com###dcssb-slick
 avsforum.com###tt_mobile_banner:style(position: relative !important; top: 0 !important;)
@@ -297,10 +300,12 @@ boston.com##.content-social--active.content-social
 boston.com##.content-toaster:style(position: relative !important; top: 0 !important;)
 boston.com##.masthead:style(position: relative !important; top: 0 !important;)
 boston.com##.masthead__content:style(position: relative !important; top: 0 !important;)
+bostonglobe.com###email-login
 bostonglobe.com###subscribe-btn
 bostonglobe.com##.bg-header__smartbar--message:style(position: relative !important; top: 0 !important;)
 bostonglobe.com##.meter-modal-block
 bostonglobe.com##.signup-growler.growler-closed
+bostonglobe.com##.sticky-tools--active.sticky-tools:style(position: relative !important; top: 0 !important;)
 bostonherald.com###article-share-links
 bourbonblog.com###signupModal
 bourbonblog.com##.modal-backdrop.fade.in
@@ -441,6 +446,7 @@ citylab.com###social-sticky
 citymetric.com###footer
 citymetric.com##.site-header.clearfix:style(position: relative !important; top: 0 !important;)
 clickondetroit.com###ksat-fixed
+clickorlando.com###header:style(position: relative !important; top: 0 !important;)
 cltampa.com##header > .container
 cnbc.com###cnbc-new-header:style(position: relative !important; top: 0 !important;)
 cnbc.com###optIn-right-rail
@@ -777,7 +783,7 @@ fitbit.com###smartbanner
 fivethirtyeight.com###fivethirtyeight-mobile-embed-14
 fivethirtyeight.com###header-global
 fivethirtyeight.com##.lp-share
-food.com###fdc-navbar
+food.com###fdc-navbar:style(position: relative !important; top: 0 !important;)
 food.com##.navbar-header:style(position: relative !important; top: 0 !important;)
 food.com##.top-offset.stick.fd-next-recipe
 food52.com###desktop-email-modal-wrapper
@@ -1264,6 +1270,7 @@ mensjournal.com##.social-bar.clearfix
 mensjournal.com##.subscribe
 mensjournal.com##.subscription-tout
 mentalfloss.com###MenuBar
+mentalfloss.com###header:style(position: relative !important; top: 0 !important;)
 mentalfloss.com###subMenuBar
 mentalfloss.com##.boxes-box-content
 mentalfloss.com##.header-wrapper:style(position: relative !important; top: 0 !important;)
@@ -1422,6 +1429,8 @@ nbcwashington.com##.header:style(position: relative !important; top: 0 !importan
 nbcwashington.com##.stickyNav.nav-landing.navbar:style(position: relative !important; top: 0 !important;)
 nbcwashington.com##.stickyNav.navbar:style(position: relative !important; top: 0 !important;)
 nbcwashington.com##.swiper-container-android.swiper-container-horizontal.quick-nav
+ncaa.com###smartbanner
+ncaa.com##.mobile-header:style(position: relative !important; top: 0 !important;)
 ndtv.com###__cricketsubscribe > .noti_bgstyle
 ndtv.com###__cricketsubscribe > .noti_wrap
 ndtv.com###showhide
@@ -1740,6 +1749,7 @@ racked.com###chorus-social-fixed
 racked.com##.m-pinterest-button.m-social-buttons__popup
 racked.com##.tab-bar-fixed.c-tab-bar
 radaronline.com###main-header
+ramblinwreck.com###header:style(position: relative !important; top: 0 !important;)
 ramw.org###fixed_section
 ramw.org###top_section
 rare.us##.header:style(position: relative !important; top: 0 !important;)
@@ -1786,6 +1796,7 @@ redfin.com###RegistrationLightbox_underlay
 redfin.com###sideBarContent
 redskins.com###TNFLSubNavigation_main
 redskins.com###nflMenuHeader
+relevantmagazine.com###masthead:style(position: relative !important; top: 0 !important;)
 researchgate.net##.sticky-placeholder
 restonnow.com###search-navigation
 restonnow.com###top-bar:style(position: relative !important; top: 0 !important;)
@@ -2075,6 +2086,7 @@ theguardian.com##.js-save-for-later.meta__save-for-later
 theguardian.com##.navigation-container--collapsed.navigation-container.js-navigation-header:style(position: relative !important; top: 0 !important;)
 theguardian.com##.save-for-later__button--save.js-save-for-later__button.save-for-later__button.button--tertiary.button--medium.button[href^="https://profile.theguardian.com/save-content"]
 theguardian.com##.share-links.page-bottom-share-links.col-8.b3.trackable-component
+thehealthyfoodie.com##.shrink.site-header:style(position: relative !important; top: 0 !important;)
 thehill.com###article-recommendation
 thehill.com###bottom-story-socials
 thehill.com###dfp-ad-mosad_1
@@ -2283,6 +2295,7 @@ twitter.com##.js-topbar.topbar:style(position: relative !important; top: 0 !impo
 twitter.com##.js-variableHeightTopBar.StreamsTopBar--fixed.StreamsTopBar:style(position: relative !important; top: 0 !important;)
 twitter.com##.u-cf.OpenInAppBar
 ua-magazine.com##.move.sticky.menu_container:style(position: relative !important; top: 0 !important;)
+und.com###header:style(position: relative !important; top: 0 !important;)
 undark.org##.clearfix.top-bar-section
 undark.org##.header-scrolled.top-bar
 unpatent.co##.is-maximized.metabar--affixed.js-metabar.u-clearfix.metabar
@@ -2493,6 +2506,9 @@ weeklystandard.com##.featured-teasers
 weeklystandard.com##.social
 welivesecurity.com##.wlistingsinglesocialmedia
 wfaa.com##.is_stuck.site-nav
+wftv.com###header:style(position: relative !important; top: 0 !important;)
+wftv.com###tabcontent-news
+wftv.com##.toggle-slide
 whatahowler.com##.highlightMenu-inner
 whatahowler.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBottomSection.u-tintSpectrum.u-tintBgColor.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar
 whatahowler.com##.is-other.markup--p-quote.markup--quote
