@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 1:24 PM 2017-02-05
+! Last Modified: 1:27 PM 2017-02-05
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -447,6 +447,8 @@ citymetric.com###footer
 citymetric.com##.site-header.clearfix:style(position: relative !important; top: 0 !important;)
 clickondetroit.com###ksat-fixed
 clickorlando.com###header:style(position: relative !important; top: 0 !important;)
+clickorlando.com###ksat-fixed:style(position: relative !important; top: 0 !important;)
+clickorlando.com##.navbar-header:style(position: relative !important; top: 0 !important;)
 cltampa.com##header > .container
 cnbc.com###cnbc-new-header:style(position: relative !important; top: 0 !important;)
 cnbc.com###optIn-right-rail
