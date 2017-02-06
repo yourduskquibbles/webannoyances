@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 1:35 PM 2017-02-05
+! Last Modified: 9:35 AM 2017-02-06
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -380,6 +380,7 @@ calgaryherald.com##.mobile-header.header-nav:style(position: relative !important
 calgaryherald.com##.top-bar:style(position: relative !important; top: 0 !important;)
 callername.com###modal
 callername.com##.in.fade.modal-backdrop
+canadianbusiness.com###sticky_multiad_mob
 capitolcityproject.com##.pagenav.fixedmenu
 cardpool.com##.feedback_link
 cars.com##.sticky-header:style(position: relative !important; top: 0 !important;)
@@ -1151,6 +1152,8 @@ king5.com##.header-main:style(position: relative !important; top: 0 !important;)
 klfy.com###masthead:style(position: relative !important; top: 0 !important;)
 knowyourmeme.com###media-controls
 knowyourmeme.com###mobile-sticky-ad
+koat.com##.alerts-block:style(position: relative !important; top: 0 !important;)
+koat.com##.header-inner:style(position: relative !important; top: 0 !important;)
 konbini.com##.fixed-nav
 kotaku.com##.twelve.mobile-four.columns.user-bar-inside
 ktla.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
@@ -2244,6 +2247,7 @@ time.com##.main-header:style(position: relative !important; top: 0 !important;)
 time.com##.rail-tabs
 time.com##.top-banner
 time.com##:xpath(.//*[@data-reactid="15"])
+time.com##:xpath(.//*[@data-reactid="9"])
 timeanddate.com###nav
 timeline.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.u-tintSpectrum.u-tintBgColor.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar
 timeline.com##.is-maximized.metabar--affixed.u-tintSpectrum.u-tintBgColor.metabar--light.js-metabar.u-clearfix.metabar
