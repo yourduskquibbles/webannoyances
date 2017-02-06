@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 9:38 AM 2017-02-06
+! Last Modified: 9:47 AM 2017-02-06
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -823,7 +823,8 @@ forums.xfinity.com##.ui-widget-overlay
 foursquare.com###header:style(position: relative !important; top: 0 !important;)
 fox11online.com##.sd-news-social-container
 fox11online.com##.v2.sd-header-wrapper.sd-news-header:style(position: relative !important; top: 0 !important;)
-fox25boston.com##.off-canvas-menu
+fox25boston.com###header:style(position: relative !important; top: 0 !important;)
+fox25boston.com##.off-canvas-menu:style(position: relative !important; top: 0 !important;)
 fox2detroit.com###header:style(position: relative !important; top: 0 !important;)
 fox32chicago.com###header:style(position: relative !important; top: 0 !important;)
 fox59.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
@@ -2324,8 +2325,8 @@ usatoday.com###story-share-buttons
 usatoday.com##.close.close-overlay
 usatoday.com##.fancybox-overlay
 usatoday.com##.fancybox-skin
-usatoday.com##.fixed.header
 usatoday.com##.fixed.header > .android-smart-banner.smart-banner
+usatoday.com##.fixed.header:style(position: relative !important; top: 0 !important;)
 usatoday.com##.inline-share-btn.inline-share-btn-facebook
 usatoday.com##.inline-share-btn.inline-share-btn-twitter
 usatoday.com##.inline-share-tools-label
@@ -2334,7 +2335,7 @@ usatoday.com##.longform-flyouts.icon-shadow.icon-box
 usatoday.com##.newsletter-embed
 usatoday.com##.overlay-content-arrows.overlay-content-arrows-next-wrap
 usatoday.com##.recommended-flyout-wrap
-usatoday.com##.site-header-inner-wrap.site-header-inner-wrap-fixed
+usatoday.com##.site-header-inner-wrap.site-header-inner-wrap-fixed:style(position: relative !important; top: 0 !important;)
 usatoday.com##.site-masthead-subscribe-wrap-visible.site-masthead-subscribe-wrap
 usatoday.com##.sponsor
 usatoday.com##.story-tools
