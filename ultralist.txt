@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 4:24 PM 2017-02-06
+! Last Modified: 5:19 PM 2017-02-06
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -240,10 +240,10 @@ bigthink.com##.fixed.header.contain-to-grid
 bikeradar.com##.feedback
 billboard.com###block-billboard-blocks-article-artist
 billboard.com###block-fblikebutton-fblikebutton-static-block
-billboard.com##.breaking_news_bar
+billboard.com##.breaking_news_bar:style(position: relative !important; top: 0 !important;)
 billboard.com##.search-toggle.open-search
 billboard.com##.social.social_vert
-billboard.com##.top-content.container
+billboard.com##.top-content.container:style(position: relative !important; top: 0 !important;)
 bizjournals.com###boundary-2__sticker-0 > .sm-only__expander.xs-only__expander
 bizjournals.com###tour-prompt.prompt.prompt--full-width
 bizjournals.com##.prompt__content
@@ -904,6 +904,7 @@ glassdoor.com##.sneakPeekPromoItemXS.sm.lockedOverlayAppDownload.sneakPeekItemPr
 glassdoor.com##.sneakPeekPromoItemXS.sm.lockedOverlayAppDownload.sneakPeekItemPromoBox > .promoBox.gdAlertBox
 glassdoor.com##.sticky.empLinksWrapper
 glassdoor.com##.stuck.sticky.exploreCareers.bucket
+glew.io###header:style(position: relative !important; top: 0 !important;)
 globalnation.inquirer.net##.header
 globalnews.ca##.socialShare.collapsed
 go.com##.share_like
@@ -1370,6 +1371,7 @@ narrative.ly##.modal-content
 narrative.ly##.modal-overlay
 narrative.ly##.social
 narrative.ly##.story-navigator
+narvar.com##header-menu-directive:style(position: relative !important; top: 0 !important;)
 nasdaq.com###addthisSticky
 nasdaq.com###global_header
 nasdaq.com###global_nav
@@ -1614,6 +1616,14 @@ ocweekly.com##.sde-shadow
 ocweekly.com##.sticky-bar.masthead
 oddshot.tv##.Notification
 offers.com###header
+ohow.co###masthead:style(position: relative !important; top: 0 !important;)
+ohow.co###progress-bar-bck:style(position: relative !important; top: 0 !important;)
+ohow.co###progress-bar:style(position: relative !important; top: 0 !important;)
+ohow.co###trigger
+ohow.co###ubermenu-main-366-primary:style(position: relative !important; top: 0 !important;)
+ohow.co##.back-top
+ohow.co##.entry-header:style(position: relative !important; top: 0 !important;)
+ohow.co##.header-menu:style(position: relative !important; top: 0 !important;)
 okcupid.com##DIV[style=" background: #142d69; padding: 14px 12px 20px; border-radius: 0 5px 5px 0;\a \9 -moz-border-radius: 0 5px 5px 0;\a \9 -webkit-border-radius: 0 5px 5px 0;\a \9  "]
 onceuponachef.com##.jw-header.fixedready.topbar
 onlyinyourstate.com##.mobile-share-bar-on.mobile-share-bar
