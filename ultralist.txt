@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 5:19 PM 2017-02-06
+! Last Modified: 5:22 PM 2017-02-06
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -1371,7 +1371,9 @@ narrative.ly##.modal-content
 narrative.ly##.modal-overlay
 narrative.ly##.social
 narrative.ly##.story-navigator
-narvar.com##header-menu-directive:style(position: relative !important; top: 0 !important;)
+narvar.com##.header-menu-directive:style(position: relative !important; top: 0 !important;)
+narvar.com##.header-widget:style(position: relative !important; top: 0 !important;)
+narvar.com##.navbar:style(position: relative !important; top: 0 !important;)
 nasdaq.com###addthisSticky
 nasdaq.com###global_header
 nasdaq.com###global_nav
