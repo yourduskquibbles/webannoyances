@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 12:12 PM 2017-02-07
+! Last Modified: 12:27 PM 2017-02-07
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -424,11 +424,14 @@ cheftalk.com###site-header:style(position: relative !important; top: 0 !importan
 chicago.suntimes.com###primary-navigation:style(position: relative !important; top: 0 !important;)
 chicagocubsonline.com##.nav-primary:style(position: relative !important; top: 0 !important;)
 chicagomag.com###reveal-bar:style(position: relative !important; top: 0 !important;)
+chicagotribune.com###reg-overlay
 chicagotribune.com###row-socials-list
 chicagotribune.com##.met-promo
 chicagotribune.com##.nextgen-share-tools
-chicagotribune.com##.trb_bnn:style(position: relative !important; top: 0 !important;)
-chicagotribune.com##.trb_nh
+chicagotribune.com##.trb_bnn
+chicagotribune.com##.trb_nh:style(position: relative !important; top: 0 !important;)
+chicagotribune.com##.trb_nh_lw:style(position: relative !important; top: 0 !important;)
+chicagotribune.com##.trb_nh_uw:style(position: relative !important; top: 0 !important;)
 chowhound.com###freyja_desknav:style(position: relative !important; top: 0 !important;)
 chowhound.com###freyja_mobile-sticky-wrapper:style(position: relative !important; top: 0 !important;)
 chowhound.com###freyja_mobile:style(position: relative !important; top: 0 !important;)
