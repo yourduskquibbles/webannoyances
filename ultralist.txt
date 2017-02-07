@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 12:27 PM 2017-02-07
+! Last Modified: 3:04 PM 2017-02-07
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -1207,6 +1207,8 @@ leaf.tv##.header-top
 lifebuzz.co##.footer-popup.footer-popup-active
 lifebuzz.co##.social-box-big
 lifehacker.com###eyubptfbcvwbxrrlnfngrubtvjrqfcaavknr
+lifesitenews.com###header:style(position: relative !important; top: 0 !important;)
+lifesitenews.com##.fixed.article-sharing-nav
 lifezette.com##.desktop.menu-bar-trigger
 lifezette.com##.mobile.menu-bar-trigger
 limpingchicken.com###at4-share
@@ -1542,6 +1544,7 @@ nflshop.com###NFLFooterContentBottomMiddleSocial
 nme.com###navigation
 nootrobox.com##.article__sidebar__container
 nootrobox.com##.navbar-fixed-top.navbar
+notepad-plus-plus.org###header-menu:style(position: relative !important; top: 0 !important;)
 npr.org###contentfooter
 npr.org##.facebook
 npr.org##.is-active.story-sticky-header:style(position: relative !important; top: 0 !important;)
