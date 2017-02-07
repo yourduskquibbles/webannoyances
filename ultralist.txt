@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 3:04 PM 2017-02-07
+! Last Modified: 3:53 PM 2017-02-07
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -412,6 +412,7 @@ cbssports.com##.siteTools.buttonBar
 cc.com###header_content
 cc.com###oo_tab_1
 cc.com###tcr-header:style(position: relative !important; top: 0 !important;)
+cdapress.com##.fixed.sticky.contain-to-grid:style(position: relative !important; top: 0 !important;)
 channelnewsasia.com##.header-area-scrolled.nav-area:style(position: relative !important; top: 0 !important;)
 channelnewsasia.com##.wrapper-nav:style(position: relative !important; top: 0 !important;)
 chase.com###dashboard-header:style(position: relative !important; top: 0 !important;)
@@ -871,12 +872,15 @@ freep.com##.toolsShare
 ft.com###assanka_mockingbird_overlay
 ft.com###barrier-dialogue
 ft.com##.WSODHoverPopupContainer
+ft.com##.barrier__container
 ft.com##.insideArticleShare
 ft.com##.n-welcome--fixed-visible.n-welcome--fixed.n-welcome--bar.n-welcome
 ft.com##.n-welcome-message--fixed.n-welcome-banner.o-expander
 ft.com##.n-welcome-message--fixed.n-welcome-message
 ft.com##.o-cookie-message--active.o-cookie-message--banner-centric.o-cookie-message
-ft.com##.o-header__top.o-header__row
+ft.com##.o-header--sticky-active.o--if-js.o-header--sticky.o-header--simple.o-header
+ft.com##.o-header--sticky-scroll-down.o-header--sticky-active.o--if-js.o-header--sticky.o-header--simple.o-header
+ft.com##.o-header--sticky-scroll-up.o-header--sticky-active.o--if-js.o-header--sticky.o-header--simple.o-header
 funnyordie.com###page-header:style(position: relative !important; top: 0 !important;)
 furiousandbrave.com##.header-drawer
 fusion.net###site-header:style(position: relative !important; top: 0 !important;)
@@ -1213,6 +1217,7 @@ lifezette.com##.desktop.menu-bar-trigger
 lifezette.com##.mobile.menu-bar-trigger
 limpingchicken.com###at4-share
 linkedin.com###header-anchor:style(position: relative !important; top: 0 !important;)
+linkedin.com###header-banner:style(position: relative !important; top: 0 !important;)
 linkedin.com###header:style(position: relative !important; top: 0 !important;)
 linkedin.com###responsive-nav-scrollable:style(position: relative !important; top: 0 !important;)
 linkedin.com###siteflow-widget-next
