@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 9:51 AM 2017-02-07
+! Last Modified: 9:57 AM 2017-02-07
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -1357,8 +1357,8 @@ msnbc.com##.pane-msnbc-homepage2-latest-topics.panel-pane > .pane-content
 msnbc.com##.social-icons-a
 msnbc.com##.teaser__social.teaser__social--standard.j_social_set
 msnbc.com##.teaser__social__link.teaser__social__link--facebook.addthis_button_facebook.popover-button
-muckrock.com###nav
-muckrock.com##.website-header
+muckrock.com###nav:style(position: relative !important; top: 0 !important;)
+muckrock.com##.website-header:style(position: relative !important; top: 0 !important;)
 mydomaine.com##.nav-wrapper.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 myfoxdc.com###WNStoryUtils
 myfoxdc.com###csBrandAdPromo
@@ -1366,12 +1366,12 @@ myfoxdc.com###csFollowUs
 myfoxdc.com##.yui-img
 myfoxny.com###WNStoryUtils
 myfoxny.com###csFollowUs
-mynbc5.com##.slim.header
+mynbc5.com##.slim.header:style(position: relative !important; top: 0 !important;)
 mysanantonio.com##.topnav
 mystatesman.com###cm-access-meter-welcome
 mystatesman.com##.cm-768-hide.cm-320-hide.cm-sticky-scroll
 mystatesman.com##.cm-center.cm-newsletter-tease.cm-referral-box
-mystatesman.com##.main-nav-container
+mystatesman.com##.main-nav-container:style(position: relative !important; top: 0 !important;)
 narrative.ly###narratively-story-header:style(position: relative !important; top: 0 !important;)
 narrative.ly###share-bar
 narrative.ly##.facebook-wrapper.site-nav
@@ -1379,6 +1379,8 @@ narrative.ly##.modal-content
 narrative.ly##.modal-overlay
 narrative.ly##.social
 narrative.ly##.story-navigator
+narvar.com###josbank-nav:style(position: relative !important; top: 0 !important;)
+narvar.com##.container:style(position: relative !important; top: 0 !important;)
 narvar.com##.header-widget:style(position: relative !important; top: 0 !important;)
 narvar.com##.navbar-header:style(position: relative !important; top: 0 !important;)
 narvar.com##.navbar:style(position: relative !important; top: 0 !important;)
@@ -1464,9 +1466,9 @@ ncaa.com##.mobile-header:style(position: relative !important; top: 0 !important;
 ndtv.com###__cricketsubscribe > .noti_bgstyle
 ndtv.com###__cricketsubscribe > .noti_wrap
 ndtv.com###showhide
-ndtv.com###sticky_navigation_wrapper
-nerdist.com##.condensed.main_header
-nerdist.com##.container.header-inner-wrapper
+ndtv.com###sticky_navigation_wrapper:style(position: relative !important; top: 0 !important;)
+nerdist.com##.condensed.main_header:style(position: relative !important; top: 0 !important;)
+nerdist.com##.container.header-inner-wrapper:style(position: relative !important; top: 0 !important;)
 nerdydata.com##.mdl-color-text--white.mdl-color--blue-900.mdl-layout__header--scroll.mdl-layout__header:style(position: relative !important; top: 0 !important;)
 networkworld.com###banner
 newco.co##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBottomSection.u-tintSpectrum.u-tintBgColor.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
@@ -1490,14 +1492,14 @@ newscientist.com###main-nav:style(position: relative !important; top: 0 !importa
 newscientist.com###sharebtns
 newscientist.com###tertiary-sidebar-banner
 newser.com###divEntireNav
-newslogue.com##.navbar-custom.navbar-default.navbar
-newslogue.com##.navbar-header
+newslogue.com##.navbar-custom.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
+newslogue.com##.navbar-header:style(position: relative !important; top: 0 !important;)
 newsmax.com###adblockermessage
 newsmax.com###nmSocial
 newsmax.com###nmSpecialLinksWrapper
-newsmax.com###sharebar
-newsnet5.com##.navbar.navbar--tv.navbar--bg
-newson6.com##.navbar-fixed-top.navbar-inverse.navbar
+newsmax.com###sharebar:style(position: relative !important; top: 0 !important;)
+newsnet5.com##.navbar.navbar--tv.navbar--bg:style(position: relative !important; top: 0 !important;)
+newson6.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
 newsweek.com###block-nw-nw-header:style(position: relative !important; top: 0 !important;)
 newsweek.com###header_subscribe
 newsweek.com##.affix.stickyhead:style(position: relative !important; top: 0 !important;)
@@ -1637,7 +1639,7 @@ ohow.co##.back-top
 ohow.co##.entry-header:style(position: relative !important; top: 0 !important;)
 ohow.co##.header-menu:style(position: relative !important; top: 0 !important;)
 okcupid.com##DIV[style=" background: #142d69; padding: 14px 12px 20px; border-radius: 0 5px 5px 0;\a \9 -moz-border-radius: 0 5px 5px 0;\a \9 -webkit-border-radius: 0 5px 5px 0;\a \9  "]
-onceuponachef.com##.jw-header.fixedready.topbar
+onceuponachef.com##.jw-header.fixedready.topbar:style(position: relative !important; top: 0 !important;)
 onlyinyourstate.com##.mobile-share-bar-on.mobile-share-bar
 openculture.com##.clearfix
 openculture.com##.closing-social
@@ -1657,7 +1659,7 @@ pagesix.com###outbrain_widget_0
 pagesix.com###sharebar-social
 pagesix.com##.sharebar
 palmbeachpost.com##.header-wrapper > header
-pando.com###header
+pando.com###header:style(position: relative !important; top: 0 !important;)
 pando.com###social_links
 pando.com##.fyre-notifier-container
 pando.com##.share
@@ -1673,7 +1675,7 @@ papersource.com###signup-mobile
 pastebin.com##.cd-fade-out.cd-is-visible.cd-top
 pasted.co###captcha_box
 pasted.co###captcha_overlay
-patch.com##.header-container
+patch.com##.header-container:style(position: relative !important; top: 0 !important;)
 patents.justia.com###sticky-nav
 pbs.org###frontline_newsletter_over
 pbs.org###frontline_newsletter_please
@@ -1900,7 +1902,7 @@ salon.com##.row.menu-wrap
 salon.com##.shareContainer
 salon.com##.slide-out.mainMenu
 sammobile.com##.cd-is-visible.cd-top
-sammobile.com##.navbar-fixed-top.navbar-default.navbar
+sammobile.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 samsung.com##.subnav-actions
 sbnation.com###to-the-top
 sbnation.com##.m-share_selection_contextual
@@ -1977,9 +1979,9 @@ slate.com##.notification
 slate.com##.social.social-with-popup
 slickdeals.net###tutorial_list
 slickdeals.net##.social_dd
-smartertravel.com##.headernav
+smartertravel.com##.headernav:style(position: relative !important; top: 0 !important;)
 smithsonianmag.com##.circulation-subscribe.right-sidebar-article.module.plugin-wrapper
-smithsonianmag.com##.header-wrapper.wrapper
+smithsonianmag.com##.header-wrapper.wrapper:style(position: relative !important; top: 0 !important;)
 smobserved.com##.widen_vertical_padding.menu
 snapzu.com##.welcome
 snmidatlantic.com###nbcsports-primary-nav
@@ -1992,12 +1994,12 @@ softpedia.com###ktucmdgtfwguhqgomzvhmjagotgmjpuxl
 softpedia.com##DIV[style="float:left; margin-left: 30px; width: 200px;"]
 someecards.com###sec-header-container
 sousvideguy.com###site-navigation-sticky-wrapper
-space.com###sticky-header > .center-content
-space.com###stickyShare
-spacenews.com###navs
+space.com###sticky-header > .center-content:style(position: relative !important; top: 0 !important;)
+space.com###stickyShare:style(position: relative !important; top: 0 !important;)
+spacenews.com###navs:style(position: relative !important; top: 0 !important;)
 spectator.co.uk##.floatyFloaty.float-container
-spectrum.ieee.org###mainNav
-spectrumnews.org##.main-bar
+spectrum.ieee.org###mainNav:style(position: relative !important; top: 0 !important;)
+spectrumnews.org##.main-bar:style(position: relative !important; top: 0 !important;)
 spiegel.de###js-sticky-header:style(position: relative !important; top: 0 !important;)
 spiegel.de##.clearfix.sticky-overlay
 spin.com###banner
