@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 5:28 PM 2017-02-06
+! Last Modified: 9:51 AM 2017-02-07
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -64,6 +64,8 @@
 2paragraphs.com##.nav-primary
 2paragraphs.com##.nav-primary > .wrap
 2paragraphs.com##.site-header
+49ers.com###TNFLSubNavigation_main:style(position: relative !important; top: 0 !important;)
+49ers.com###nflMenuHeader:style(position: relative !important; top: 0 !important;)
 8newsnow.com###klasSocial
 9gag.com###jsid-featured-sidebar-tail
 9gag.com##.badge-toolbar-pre.fixed-wrap-post-bar
@@ -335,6 +337,7 @@ brit.co##.sticky.top.ng-scope.modal
 brobible.com###header
 browardpalmbeach.com##.sde-shadow
 bucksfreepress.co.uk###__nq__hh:style(visibility: collapse)
+businessinsider.com###mobile-intercept:
 businessinsider.com###tray
 businessinsider.com##.contact
 businessinsider.com##.facebook.ks-byline-fb
@@ -732,6 +735,7 @@ evonomics.com##.optshorts
 evonomics.com##.us_skin_default.us_tac.us_share_buttons.us_wrapper
 ew.com###close-btn-wrapper
 ew.com###main-nav:style(position: relative !important; top: 0 !important;)
+ew.com###site-header:style(position: relative !important; top: 0 !important;)
 ew.com##.ad-section-container.snap.hide-med.ad-small
 expatsoftware.com##.subscribe-footer
 express.co.uk###main_menu_bar:style(position: relative !important; top: 0 !important;)
@@ -821,6 +825,8 @@ forums.androidcentral.com###header:style(position: relative !important; top: 0 !
 forums.xfinity.com##.lia-in.lia-dialog-titleless.lia-panel-dialog-modal-valuesurvey.lia-panel-dialog-modal-simple.lia-panel-dialog.lia-content.ui-corner-all.ui-widget-content.ui-widget.ui-dialog
 forums.xfinity.com##.ui-widget-overlay
 foursquare.com###header:style(position: relative !important; top: 0 !important;)
+fox10phoenix.com###header:style(position: relative !important; top: 0 !important;)
+fox10phoenix.com###smartbanner
 fox11online.com##.sd-news-social-container
 fox11online.com##.v2.sd-header-wrapper.sd-news-header:style(position: relative !important; top: 0 !important;)
 fox25boston.com###header:style(position: relative !important; top: 0 !important;)
@@ -1065,6 +1071,7 @@ imgur.com##.Navbar:style(position: relative !important; top: 0 !important;)
 imgur.com##.buttonOIA.viewInAppLink.margin-top.center-text
 imgur.com##.go-to-comments.box
 imgur.com##.headerContainer:style(position: relative !important; top: 0 !important;)
+imgur.com##.headroom--scrolled.headroom--pinned.headroom:style(position: relative !important; top: 0 !important;)
 imgur.com##.right.viewInAppLink
 imgur.com##.social
 imgur.com##.take-me-up.box
@@ -1225,6 +1232,7 @@ m.gulfnews.com##.sticky.not-sticky.tab-bar
 m.huffpost.com##.header-container:style(position: relative !important; top: 0 !important;)
 m.imgur.com##.FloatingOIA
 m.imgur.com##.Navbar:style(position: relative !important; top: 0 !important;)
+m.imgur.com##.headroom--scrolled.headroom--pinned.headroom:style(position: relative !important; top: 0 !important;)
 m.independent.ie##.root-a > header:style(position: relative !important; top: 0 !important;)
 m.independent.ie##.root-a > section > .sharesnap.story-a > .p402_hide:nth-of-type(1) > .share-b > ul:nth-of-type(2)
 m.medicalxpress.com##.slideup.ui-footer-fixed.ui-bar-c.ui-footer
@@ -1375,6 +1383,7 @@ narvar.com##.header-widget:style(position: relative !important; top: 0 !importan
 narvar.com##.navbar-header:style(position: relative !important; top: 0 !important;)
 narvar.com##.navbar:style(position: relative !important; top: 0 !important;)
 narvar.com##header-menu-directive:style(position: relative !important; top: 0 !important;)
+narvar.com##marketinglayout > div > div:nth-of-type(1):style(position: relative !important; top: 0 !important;)
 nasdaq.com###addthisSticky
 nasdaq.com###global_header
 nasdaq.com###global_nav
@@ -1895,6 +1904,7 @@ sammobile.com##.navbar-fixed-top.navbar-default.navbar
 samsung.com##.subnav-actions
 sbnation.com###to-the-top
 sbnation.com##.m-share_selection_contextual
+sbnation.com##.tab-bar-fixed.c-tab-bar
 sbsun.com###jBar
 schaeffersresearch.com###signupSlider
 sciencebulletin.org###header:style(position: relative !important; top: 0 !important;)
