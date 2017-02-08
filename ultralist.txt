@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 4:07 PM 2017-02-07
+! Last Modified: 10:07 AM 2017-02-08
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -186,6 +186,8 @@ apple.com##.ac-ln-wrapper
 arlnow.com###search-navigation
 arlnow.com###top-bar:style(position: relative !important; top: 0 !important;)
 arlnow.com##.widget.social-media-widget
+armytimes.com###top-header:style(position: relative !important; top: 0 !important;)
+armytimes.com##.site-color.secondary-navigation:style(position: relative !important; top: 0 !important;)
 arstechnica.com###mobile-masthead:style(position: relative !important; top: 0 !important;)
 arstechnica.com##.site-wrapper > .scrolled-up.is_stuck.site-header:style(position: relative !important; top: 0 !important;)
 arstechnica.com##UL
@@ -384,6 +386,7 @@ calgaryherald.com##.mobile-header.header-nav:style(position: relative !important
 calgaryherald.com##.top-bar:style(position: relative !important; top: 0 !important;)
 callername.com###modal
 callername.com##.in.fade.modal-backdrop
+campusreform.org##.navbar.main_header:style(position: relative !important; top: 0 !important;)
 canadianbusiness.com###sticky_multiad_mob
 capitolcityproject.com##.pagenav.fixedmenu
 cardpool.com##.feedback_link
@@ -534,6 +537,10 @@ cosmopolitan.com##.nav-bar:style(position: relative !important; top: 0 !importan
 cosmosmagazine.com###daily-newsletter-signup
 counterpunch.org###wprmenu_bar
 counterpunch.org##.print-link-top
+couponcabin.com###store-bar:style(position: relative !important; top: 0 !important;)
+couponcabin.com##.fa-arrow-circle-up.fa
+couponcabin.com##.fancybox-overlay-fixed.fancybox-overlay
+couponcabin.com##body > .fancybox-margin:nth-of-type(1):style(position: relative !important; top: 0 !important;)
 couponchief.com###link2hiw
 couponchief.com##.coupon-code-cover
 couponchief.com##.navbar-fixed-top.navbar:style(position: relative !important; top: 0 !important;)
@@ -1169,6 +1176,7 @@ kdvr.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !impo
 kernelmag.com###login-box
 kernelmag.com##.kernel-social.clearfix
 kfor.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
+kfyrtv.com###nav:style(position: relative !important; top: 0 !important;)
 kgw.com##.header-main:style(position: relative !important; top: 0 !important;)
 kgw.com##.is_stuck.site-nav:style(position: relative !important; top: 0 !important;)
 khou.com##.is_stuck.site-nav:style(position: relative !important; top: 0 !important;)
@@ -1322,6 +1330,8 @@ metro.co.uk##.share-btn.google
 metro.co.uk##.share-btn.reddit
 metro.co.uk##.share-btn.twitter
 miami.cbslocal.com###cbs-site-ribbon:style(position: relative !important; top: 0 !important;)
+miaminewtimes.com##.sde-shadow
+miaminewtimes.com##.sticky-bar.masthead:style(position: relative !important; top: 0 !important;)
 mic.com##.modal-overlay
 mic.com##.modal-prompt-half-page
 michaels.com##.modal-backdrop.fade.in
@@ -1332,6 +1342,7 @@ mirror.co.uk##.mod-header
 mobile.nytimes.com##.max300.min300.iframe-holder
 mobile.reuters.com##.header-main.group.header
 mobile.reuters.com##.header-mini.header-main.group.header > .active.container.header-pane-main
+mobile.twitter.com##:xpath(.//*[@role="banner"])
 modernfarmer.com###fixed_nav
 modernfarmer.com###om-r67mpzig62-lightbox
 modernfarmer.com##.mf-fixednav-hidden.fix
@@ -1393,6 +1404,7 @@ narrative.ly##.modal-overlay
 narrative.ly##.social
 narrative.ly##.story-navigator
 narvar.com###josbank-nav:style(position: relative !important; top: 0 !important;)
+narvar.com##.contact-us
 narvar.com##.container:style(position: relative !important; top: 0 !important;)
 narvar.com##.header-widget:style(position: relative !important; top: 0 !important;)
 narvar.com##.navbar-header:style(position: relative !important; top: 0 !important;)
@@ -1414,6 +1426,8 @@ nationalinterest.org##.social
 nationaljournal.com###articleFollowBrand
 nationaljournal.com###articlePromo
 nationaljournal.com###electionFloorPromo
+nationaljournal.com###menu:style(position: relative !important; top: 0 !important;)
+nationaljournal.com###promo_wrapper:style(position: relative !important; top: 0 !important;)
 nationaljournal.com###top_header:style(position: relative !important; top: 0 !important;)
 nationaljournal.com###walkingHeader
 nationalpost.com##header
@@ -2266,6 +2280,7 @@ thewire.com##.shares
 thewire.com##.shares.bottom-only
 thewire.com##.shares.loaded
 thewrap.com###js-mobile-bar:style(position: relative !important; top: 0 !important;)
+thewrap.com###mobile-sticky-bottom
 thinkprogress.org###slidedown
 thinkprogress.org##.facebook-like-bottom
 thinkprogress.org##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBottomSection.u-tintSpectrum.u-tintBgColor.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar
@@ -2662,6 +2677,7 @@ wtop.com###voteTools
 wtop.com##.facebook
 wtop.com##.retweet
 wtop.com##.socialmedia
+wtvr.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
 wusa9.com###alert-0
 wusa9.com##.close.close-overlay
 wusa9.com##.header-main
