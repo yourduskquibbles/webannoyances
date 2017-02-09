@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 4:56 PM 2017-02-09
+! Last Modified: 5:00 PM 2017-02-09
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -212,10 +212,10 @@ avsforum.com##.fb-inner
 avsforum.com##.icon-of-facebook.dispatcher-fbconnect-login.ilink
 avsforum.com##.ilink.icon-facebook-sharing.facebook
 avsforum.com##.ilink.icon-twitter-sharing.twitter
-azcentral.com##.site-header:style(position: relative !important; top: 0 !important;)
-azcentral.com##.site-nav:style(position: relative !important; top: 0 !important;)
 azcentral.com##.site-header-inner-wrap-fixed.site-header-inner-wrap:style(position: relative !important; top: 0 !important;)
+azcentral.com##.site-header:style(position: relative !important; top: 0 !important;)
 azcentral.com##.site-masthead-subscribe-link.userAuth-redirect
+azcentral.com##.site-nav:style(position: relative !important; top: 0 !important;)
 babble.com##.js-show.js-transition.js-sb-4634921.tm-sb-fixed.js-sb-wrap.tm-social-bar-wrap
 babble.com##.tm-header
 backchannel.com##.is-active.popover--top.popover--quoteAttributions.popover--dark.js-popover.popover
@@ -1176,6 +1176,7 @@ justsecurity.org###banner:style(position: relative !important; top: 0 !important
 justsecurity.org###logo
 justsecurity.org##.contrib-nav-wrap
 kadavy.net##nav
+kcrg.com###nav:style(position: relative !important; top: 0 !important;)
 kdvr.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
 kernelmag.com###login-box
 kernelmag.com##.kernel-social.clearfix
@@ -2731,10 +2732,10 @@ yahoo.com###so-share
 yahoo.com###uh-scroll-promo
 yahoo.com###yog-hd
 yahoo.com###yucs-top-bar
+yahoo.com##.YDC-Overlay
 yahoo.com##.action-bar:style(position: relative !important; top: 0 !important;)
 yahoo.com##.cta-overlay
 yahoo.com##.side-buttons
-yahoo.com##.YDC-Overlay
 yelp.com###fullscreen-pitch
 yelp.com###wrap.js-open-in-app.photo-box_overlay
 yelp.com###wrap.prominent-review-pitch
