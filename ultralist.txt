@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 1:01 PM 2017-02-10
+! Last Modified: 3:00 PM 2017-02-10
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -814,7 +814,7 @@ firstwefeast.com##.navbar-fixed-top.navbar-default.navbar:style(position: relati
 firstwefeast.com##.rail
 fitbit.com###smartbanner
 fivethirtyeight.com###fivethirtyeight-mobile-embed-14
-fivethirtyeight.com###header-global
+fivethirtyeight.com###header-global:style(position: relative !important; top: 0 !important;)
 fivethirtyeight.com##.lp-share
 food.com###fdc-navbar:style(position: relative !important; top: 0 !important;)
 food.com##.navbar-header:style(position: relative !important; top: 0 !important;)
