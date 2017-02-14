@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 12:03 PM 2017-02-13
+! Last Modified: 9:35 AM 2017-02-14
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -294,6 +294,7 @@ bloomberg.com##a[href="#"]
 bloomberg.com##a[href="javascript:window.print();"]
 bloomberg.com##a[href^="mailto:"]
 bloombergview.com###header
+bnn.ca##.main-header:style(position: relative !important; top: 0 !important;)
 boardingarea.com###ba-flybox
 boardingarea.com##.navbar-inverse.navbar
 bodum.com###launcher
@@ -926,8 +927,15 @@ geekwire.com##.navbar-fixed-top.navbar-inverse.navbar.banner:style(position: rel
 getconnected.southwestwifi.com###cepgad
 giphy.com##:xpath(.//*[@class="header-wrapper"])
 giphy.com##:xpath(.//*[@style="top: 0px;"])
-glamour.com###react-app > .default.page-container > .g-mobile.component-newsletters
+glamour.com##.collapsed-header
+glamour.com##.component-header:style(position: relative !important; top: 0 !important;)
+glamour.com##.expanded.riser
+glamour.com##.g-mobile.component-newsletters
+glamour.com##.header.component-sticky:style(position: relative !important; top: 0 !important;)
+glamour.com##.header.content-container:style(position: relative !important; top: 0 !important;)
+glamour.com##.main-nav.component-navigation
 glamour.com##.site-header
+glamour.com##.sticky-header.component-header:style(position: relative !important; top: 0 !important;)
 glassdoor.com###EmpSolutionsTab
 glassdoor.com###UserAlertBar
 glassdoor.com###smartbanner
@@ -1137,6 +1145,7 @@ inews.co.uk##.slab-navigation.slab
 infowars.com###masthead-navigation:style(position: relative !important; top: 0 !important;)
 infowars.com###message
 infowars.com##.container.optinsiege
+infowars.com##.inline-social
 infowars.com##.shareinpost
 infowars.com##.textsize
 inquisitr.com##.block.header--inner:style(position: relative !important; top: 0 !important;)
@@ -1470,6 +1479,7 @@ navytimes.com##.js-pubsub-module.has-secondary-nav.layout-module.generic-module
 nbc12.com###header:style(position: relative !important; top: 0 !important;)
 nbc12.com###smartbanner
 nbc12.com###toolbar
+nbc4i.com###masthead:style(position: relative !important; top: 0 !important;)
 nbclosangeles.com##.stickyNav.nav-landing.navbar:style(position: relative !important; top: 0 !important;)
 nbcmiami.com##.header:style(position: relative !important; top: 0 !important;)
 nbcmiami.com##.swiper-container-android.swiper-container-horizontal.quick-nav
@@ -1691,6 +1701,7 @@ onlyinyourstate.com##.mobile-share-bar-on.mobile-share-bar
 openculture.com##.clearfix
 openculture.com##.closing-social
 oppidanspirits.com##.navbar-fixed-top.navbar-inverse.navbar
+ottawacitizen.com##.header-is-sticky.l-header:style(position: relative !important; top: 0 !important;)
 ouibounce*$script
 outsideonline.com##.block.block-subscribe.block--with-border.shifter
 outsideonline.com##.nudger__inner
