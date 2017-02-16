@@ -1,5 +1,5 @@
 ! Expires: 4 Days (Update Frequency)
-! Last Modified: 3:50 PM 2017-02-15
+! Last Modified: 7:41 PM 2017-02-15
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -785,6 +785,7 @@ facebook.com##div[id^="hyperfeed_story_id_"]:has(a.uiStreamSponsoredLink)
 famous-smoke.com##.emailmodal.blackglassgradient.emailmodalblocker
 fansided.com###FsTopNav
 fansided.com###breaking
+fashionista.com##.is-visible.l-sticky-navbar
 fastcocreate.com##.people-tab.ready
 fastcodesign.com##.fadeIn.animated.navbar-brands-container
 fastcodesign.com##.nav-bar:style(position: relative !important; top: 0 !important;)
@@ -1153,6 +1154,7 @@ insidenova.com##.hidden-print.asset-paging-container
 insightdata.ai##.logo_nav:style(position: relative !important; top: 0 !important;)
 instagram.com##:xpath(.//*[@href="/accounts/emailsignup/"])
 instagram.com##:xpath(.//*[@role="alert"])
+institutionalinvestor.com###compressed-navbar:style(position: relative !important; top: 0 !important;)
 instle.com###logo:style(position: relative !important; top: 0 !important;)
 instyle.com###header:style(position: relative !important; top: 0 !important;)
 instyle.com###logo:style(position: relative !important; top: 0 !important;)
@@ -2036,12 +2038,14 @@ showbiz411.com##.affix.td-menu-wrap.container
 si.com###siBar-social-facebook
 si.com###siBar-social-twitter
 si.com##.article-utilities-body
+si.com##.contextual-social-enabled.with-scoreboard.no-utility-ribbon.main:style(position: relative !important; top: 0 !important;)
 si.com##.desktop-only.secondary.container:style(position: relative !important; top: 0 !important;)
 si.com##.post-share-facebook.footer
 si.com##.post-share-twitter.footer
 si.com##.primary.container:style(position: relative !important; top: 0 !important;)
 si.com##.social
 si.com##.ui-button.ui-button-close.small.is-fixed
+si.com##header:style(position: relative !important; top: 0 !important;)
 skinnytaste.com##.slicknav_menu
 sky.com###breaking_news_ticker
 slashdot.org###tour-popover
