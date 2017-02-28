@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 2:53 PM 2017-02-28
+! Last Modified: 3:30 PM 2017-02-28
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -389,6 +389,7 @@ businesswire.com###bw-controls
 businesswire.com###bw-nav
 businesswire.com###bw-search-js
 businesswire.com##header
+bustle.com###ember389:style(position: relative !important; top: 0 !important;)
 bustle.com###ember412
 bustle.com##.nav-container:style(position: relative !important; top: 0 !important;)
 buzzfeed.com###back_to_top
@@ -728,6 +729,7 @@ ebay.com##.nojs-msk
 ebay.com##.sbanner
 economist.com###ec-message-3
 economist.com###navbar
+economist.com##.fe-blogs__desktop-beta-bar.beta-bar.bar-wrapper
 economist.com##.navigation.navigation-sticky-scroller.sticky-scroller:style(position: relative !important; top: 0 !important;)
 electionado.com###kanvz-app-header
 electionado.com##.gt-detailcanvas-pos.k-takemeback-bx
@@ -1343,6 +1345,7 @@ mashable.com##.microcontent-shares
 mashable.com##.navbar:style(position: relative !important; top: 0 !important;)
 mashable.com##.share-container
 matadornetwork.com##.stuck-mid.page-header-wrapper:style(position: relative !important; top: 0 !important;
+matadornetwork.com##.stuck-mid.page-header-wrapper:style(position: relative !important; top: 0 !important;)
 mcall.com##.trb_bnn
 mcclatchydc.com###next_wrapper
 mcclatchydc.com###previous_wrapper
@@ -2122,6 +2125,7 @@ spectrumnews.org##.main-bar:style(position: relative !important; top: 0 !importa
 spiegel.de###js-sticky-header:style(position: relative !important; top: 0 !important;)
 spiegel.de###smartbanner
 spiegel.de###spHeader:style(position: relative !important; top: 0 !important;)
+spiegel.de###spHeaderWrapper:style(position: relative !important; top: 0 !important;)
 spiegel.de##.clearfix.sticky-overlay
 spin.com###banner
 spin.com##.show.sticky-header.social-holder
@@ -2129,6 +2133,7 @@ splcenter.org###header
 splendidtable.org###cboxContent
 splendidtable.org###cboxOverlay
 sportdiver.com##.main-header > .inner-wrapper:style(position: relative !important; top: 0 !important;
+sportdiver.com##.main-header:style(position: relative !important; top: 0 !important;)
 sportsnet.ca##.lf-social-media-header:style(position: relative !important; top: 0 !important;)
 sportsonearth.com##.next-prev-superbar.bam-superbar
 sportsonearth.com##.share.lower-social.fixed-social
@@ -2312,6 +2317,7 @@ theringer.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBott
 theringer.com##.is-maximized.metabar--affixed.u-tintSpectrum.u-tintBgColor.metabar--hiddenWhenMinimized.metabar--tall.metabar--light.js-metabar.u-clearfix.metabar
 theringer.com##.u-xs-paddingRight10.u-xs-paddingLeft10.u-zIndexMetabar.u-paddingBottom10.u-paddingTop10.u-borderBox.u-boxShadowTop.u-backgroundWhite.u-sizeFullWidth.u-bottom0.u-fixed
 theringfinders.com###menu-main:style(position: relative !important; top: 0 !important;
+theringfinders.com###menu-main:style(position: relative !important; top: 0 !important;)
 theroot.com###js-article-slider
 thescore.com##.app-header:style(position: relative !important; top: 0 !important;)
 thescore.com##.fb-messenger--collapse.fb-messenger
@@ -2401,7 +2407,9 @@ thrillist.com###vortex-overlay
 thrillist.com##.header-inner:style(position: relative !important; top: 0 !important;)
 thrillist.com##.main-header:style(position: relative !important; top: 0 !important;)
 thrillist.com##.share-email-mobile
+thundersplace.org###mainmenu.default.navlarge.text.fixed.right.navbar:style(position: relative !important; top: 0 !important;)
 thundersplace.org###mainmenu:style(position: relative !important; top: 0 !important;
+thundersplace.org###mainmenu:style(position: relative !important; top: 0 !important;)
 time.com###first-visit
 time.com###social-apps
 time.com###time_connect-2
@@ -2436,6 +2444,7 @@ torrentfreak.com##A[href="http://www.facebook.com/torrentfreak"]
 totalfratmove.com###mobile-bottom-ad
 totalfratmove.com###nav-bar:style(position: relative !important; top: 0 !important;)
 totallandscapecare.com##.header.navbar-fixed-top.navbar:style(position: relative !important; top: 0 !important;
+totallandscapecare.com##.header.navbar-fixed-top.navbar:style(position: relative !important; top: 0 !important;)
 townandcountrymag.com##.content-nav-active.sticky.nav:style(position: relative !important; top: 0 !important;)
 townandcountrymag.com##.sticky.nav:style(position: relative !important; top: 0 !important;)
 townhall.com###container > nav:style(position: relative !important; top: 0 !important;)
@@ -2467,6 +2476,7 @@ turbotax.intuit.com###article-ads
 turbotax.intuit.com###socialize-container
 twentytwowords.com###social-bar-wide
 twitch.tv##.js-nav-header.nav-header > nav:style(position: relative !important; top: 0 !important;)
+twitch.tv##.js-navigation.nav:style(position: relative !important; top: 0 !important;)
 twitlonger.com##.navbar-fixed-top.navbar
 twitter.com##.AppBar--overSignup.u-cf.AppBar--inverted.AppBar:style(position: relative !important; top: 0 !important;)
 twitter.com##.CoreLayout-header:style(position: relative !important; top: 0 !important;)
@@ -2673,6 +2683,7 @@ wbtv.com###header
 wbtv.com###smartbanner
 wbtv.com###toolbar
 wcpo.com###header
+wdrb.com###WNNavSearchSwitch.headerAbove:style(position: relative !important; top: 0 !important;)
 wdrb.com###WNNavSearchSwitch:style(position: relative !important; top: 0 !important;
 wearemel.com##.is-maximized.metabar--affixed.u-tintSpectrum.u-tintBgColor.metabar--hiddenWhenMinimized.metabar--tall.metabar--dark.js-metabar.u-clearfix.metabar
 weather.com###fby-tab-3758
@@ -2837,7 +2848,9 @@ yelp.com###fullscreen-pitch
 yelp.com###search-form:style(position: relative !important; top: 0 !important;)
 yelp.com###wrap.js-open-in-app.photo-box_overlay
 yelp.com###wrap.prominent-review-pitch
+yelp.com##.cta-modal-partly-compressed.cta-search-modal.cta-menubar-pitch-modal.minimal-header.js-searchbar-modal.searchbar-modal.flex-container:style(position: relative !important; top: 0 !important;)
 yelp.com##.js-open-in-app.photo-box_overlay
+yelp.com##.js-overlay-app-link.js-open-in-app
 yelp.com##.prominent-review-pitch
 yesimright.com##.td-affix.td-header-menu-wrap:style(position: relative !important; top: 0 !important;)
 yotatech.com###magicbar:style(position: relative !important; top: 0 !important;)
