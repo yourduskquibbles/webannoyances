@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 3:50 PM 2017-03-01
+! Last Modified: 5:10 PM 2017-03-01
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -1820,6 +1820,11 @@ policymic.com##.fb-like-container
 policymic.com##.share-facebook-twitter
 policymic.com##.share-media.share-media-side-fold.show
 political-revolution.com###header:style(position: relative !important; top: 0 !important;)
+politicalstorm.com###quickiebar
+politicalstorm.com###wpadminbar
+politicalstorm.com##.asmh-header:style(position: relative !important; top: 0 !important;)
+politicalstorm.com##.link-overlay
+politicalstorm.com##.stick:style(position: relative !important; top: 0 !important;)
 politicker.com##.entry-bottom-share
 politicker.com##.entry-top-share
 politico.com###message
@@ -2118,6 +2123,8 @@ someecards.com###sec-header-container
 sometimes-interesting.com##.td-header-menu-wrap:style(position: relative !important; top: 0 !important;
 sousvideguy.com###site-navigation-sticky-wrapper
 space.com###sticky-header > .center-content:style(position: relative !important; top: 0 !important;)
+space.com###sticky-header.fixed.content-wrapper.sticky-header:style(position: relative !important; top: 0 !important;)
+space.com###sticky-header:style(position: relative !important; top: 0 !important;)
 space.com###stickyShare:style(position: relative !important; top: 0 !important;)
 spaceflightnow.com##.mh-back-to-top
 spacenews.com###navs:style(position: relative !important; top: 0 !important;)
