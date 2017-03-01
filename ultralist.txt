@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 3:30 PM 2017-02-28
+! Last Modified: 2:22 PM 2017-03-01
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -21,6 +21,7 @@
 ###dsq-indicator-south
 ###slideOutBoxContainer
 ###slidebox
+###smartbanner
 ###social-media-box
 ##.Post-social--fixed.Post-social
 ##.annotateButton.js_text-annotate.text-annotation-button.icon.icon-plus-circle.text-annotation-button-shown
@@ -104,6 +105,7 @@ accenture.com###WebPartWPQ8
 accenture.com###fbLike
 accenture.com##.stay-connected-master
 accuweather.com###addthis_widget
+accuweather.com##.Header:style(position: relative !important; top: 0 !important;)
 accuweather.com##.addthis_toolbox.addthis_default_style
 acs.org##.sticky.menu.menu_header:style(position: relative !important; top: 0 !important;)
 adobe.com###j-compact-header:style(position: relative !important; top: 0 !important;)
@@ -161,6 +163,7 @@ amazon.com##.xrayQuickViewList.collectionView
 americanow.com###header-container-inner:style(position: relative !important; top: 0 !important;)
 americanow.com##.is-at-top.is-stuck.sticky.top-stories:style(position: relative !important; top: 0 !important;)
 americasmarkets.usatoday.com###header
+amnesty.org##.header--fixed.header--subnav.header:style(position: relative !important; top: 0 !important;)
 ampproject.org##.masthead:style(position: relative !important; top: 0 !important;)
 amzreviewtrader.com###floating-button
 amzreviewtrader.com##.nav-main.nav:style(position: relative !important; top: 0 !important;)
@@ -2475,6 +2478,7 @@ tunein.com###premiumConversion
 turbotax.intuit.com###article-ads
 turbotax.intuit.com###socialize-container
 twentytwowords.com###social-bar-wide
+twincities.com##.headroom--pinned.headroom--not-top.headroom.default.site-header:style(position: relative !important; top: 0 !important;)
 twitch.tv##.js-nav-header.nav-header > nav:style(position: relative !important; top: 0 !important;)
 twitch.tv##.js-navigation.nav:style(position: relative !important; top: 0 !important;)
 twitlonger.com##.navbar-fixed-top.navbar
@@ -2591,6 +2595,7 @@ visual.ly###back-to-top
 visual.ly###eyebrow
 visual.ly##.section
 voat.co##.alert-dismissible.eppnotice.alert
+vocativ.com##.ecap:style(position: relative !important; top: 0 !important;)
 vocativ.com##.global-header:style(position: relative !important; top: 0 !important;)
 vocativ.com##.motif-strip
 vocativ.com##.primary-header:style(position: relative !important; top: 0 !important;)
