@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 3:33 PM 2017-03-01
+! Last Modified: 3:50 PM 2017-03-01
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -2479,6 +2479,7 @@ turbotax.intuit.com###article-ads
 turbotax.intuit.com###socialize-container
 twentytwowords.com###social-bar-wide
 twincities.com##.headroom--pinned.headroom--not-top.headroom.default.site-header:style(position: relative !important; top: 0 !important;)
+twincities.com##.headroom--unpinned.headroom--not-top.headroom.default.site-header:style(position: relative !important; top: 0 !important;)
 twitch.tv##.js-nav-header.nav-header > nav:style(position: relative !important; top: 0 !important;)
 twitch.tv##.js-navigation.nav:style(position: relative !important; top: 0 !important;)
 twitlonger.com##.navbar-fixed-top.navbar
