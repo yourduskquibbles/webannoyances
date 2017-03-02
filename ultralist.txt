@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 5:17 PM 2017-03-01
+! Last Modified: 9:42 PM 2017-03-01
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -490,6 +490,8 @@ citylab.com###blocker-msg-start
 citylab.com###social-sticky
 citymetric.com###footer
 citymetric.com##.site-header.clearfix:style(position: relative !important; top: 0 !important;)
+clarionledger.com##.android-smart-banner.smart-banner
+clarionledger.com##.fixed.header:style(position: relative !important; top: 0 !important;)
 clickondetroit.com###ksat-fixed
 clickorlando.com###header:style(position: relative !important; top: 0 !important;)
 clickorlando.com###ksat-fixed:style(position: relative !important; top: 0 !important;)
@@ -1360,6 +1362,8 @@ mediaite.com##.teads-helper.full:style(position: relative !important; top: 0 !im
 mediatrackers.org##.social
 mediatrackers.org##.state-navigation.sticky
 mediatrackers.org##.toolbar-social
+medicaldaily.com###close_fusion_jwplayer
+medicaldaily.com##.stickyhead:style(position: relative !important; top: 0 !important;)
 medium.com##.buttonSet--highlightMenu.buttonSet
 medium.com##.is-active.popover--top.popover--quoteAttributions.popover--dark.js-popover.popover
 medium.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBottomSection.u-tintSpectrum.u-tintBgColor.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar
@@ -1873,6 +1877,7 @@ primaryarms.com##.popup-content
 privacytools.io##.navbar-fixed-top.navbar-inverse.navbar
 prnewswire.com##.visible-xs-block.mm-slideout.navbar-fixed-top.navbar-default.navbar.header-mobile
 prnewswire.com##.visible-xs-block.mm-slideout.navbar-fixed-top.navbar-default.navbar.header-mobile > .container
+progressivearmy.com##.g1-back-to-top-on.g1-back-to-top
 projectcensored.org###lpl
 projectcensored.org###lpl-overlay
 projects.propublica.org##header
@@ -2677,6 +2682,7 @@ washingtonpost.com##.module.image-promotion.component.curved
 washingtonpost.com##.nav-closed.jqmOverlay
 washingtonpost.com##.nav-open.jqmOverlay
 washingtonpost.com##.nav.nav-tabs.echo-apps-conversations-tabs.echo-apps-conversations-streamHeader.lockfixed
+washingtonpost.com##.newsletter-solo.echo-feature-notification
 washingtonpost.com##.overlay-template
 washingtonpost.com##.ripple-wrapper
 washingtonpost.com##.row.signup-module
