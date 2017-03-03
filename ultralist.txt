@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 8:07 AM 2017-03-03
+! Last Modified: 8:20 AM 2017-03-03
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -2316,9 +2316,14 @@ theinquirer.net###large_share_wrapper
 theinquirer.net##.below_top_search
 theinquirer.net##.contentNavi_onemore
 theinquirer.net##.right_common_block_content.iefix
-theintercept.com##.Header-hamburger-link
-theintercept.com##.Post-logo-sticky-container
+theintercept.com##.Logo--fixed.Logo:style(position: relative !important; top: 0 !important;)
+theintercept.com##.Logo-bg-block:style(position: relative !important; top: 0 !important;)
+theintercept.com##.Logo-svg:style(position: relative !important; top: 0 !important;)
+theintercept.com##.Post-header:style(position: relative !important; top: 0 !important;)
+theintercept.com##.Post-logo-sticky-container:style(position: relative !important; top: 0 !important;)
+theintercept.com##.Post-logo-sticky:style(position: relative !important; top: 0 !important;)
 theintercept.com##.Post-social-container
+theintercept.com##.PostLogo:style(position: relative !important; top: 0 !important;)
 thekitchn.com##.StickNSlideContainer.js-stick-n-slide-container.hide-for-medium-only
 thekitchn.com##.StickyHeadline--visible.show-for-medium.StickyHeadline
 thekitchn.com##.post__toast.js-post-toast
