@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 10:47 AM 2017-03-03
+! Last Modified: 2:34 PM 2017-03-03
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -2430,6 +2430,7 @@ theweek.com##.nfSocial
 thewhiskeywash.com##.sticky-wrapper:style(position: relative !important; top: 0 !important;)
 thewindowsclub.com##CENTER
 thewindowsclub.com##FB:LIKE[href="http://forum.thewindowsclub.com/showthread.php?t=35495"]
+thewindowsclub.com##script:inject(setTimeout-defuser)
 thewire.com##.article-social.regular-social-buttons
 thewire.com##.follow-us.small
 thewire.com##.header:style(position: relative !important; top: 0 !important;)
