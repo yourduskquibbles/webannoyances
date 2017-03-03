@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 5:53 PM 2017-03-03
+! Last Modified: 6:04 PM 2017-03-03
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -488,6 +488,10 @@ chron.com###siteNav:style(position: relative !important; top: 0 !important;)
 chronicle.com###nav-persistent__container:style(position: relative !important; top: 0 !important;)
 cigarmonster.com###emailsignupmodalblackglass
 cincinnati.com##.fixed.header:style(position: relative !important; top: 0 !important;)
+circa.com###circa-atom-share
+circa.com##.locked.circa-Header:style(position: relative !important; top: 0 !important;)
+circa.com##footer
+circa.com##header:style(position: relative !important; top: 0 !important;)
 citizenslant.com###navigation:style(position: relative !important; top: 0 !important;)
 citylab.com###blocker-msg-start
 citylab.com###social-sticky
@@ -1677,6 +1681,8 @@ npr.org##.nav.nav-primary:style(position: relative !important; top: 0 !important
 npr.org##.share
 npr.org##.social.clearfix
 npr.org##.twitter
+ntknetwork.com###mc_embed_signup
+ntknetwork.com###popUpBlack
 ntknetwork.com##.social-floating
 nvcc.edu###head-social
 nybooks.com##.newsletter_signup.well
