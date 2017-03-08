@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 2:07 PM 2017-03-08
+! Last Modified: 3:48 PM 2017-03-08
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -137,6 +137,7 @@ airbnb.com##:xpath(.//*[@data-hypernova-key="p3sticky_navigationbundlejs"])
 ajc.com##.header-wrapper
 ajc.com##.hidden-md-down.footer-wrapper
 ajc.com##.hidden-md-down.sub-header-nav:style(position: relative !important; top: 0 !important;)
+al.com###adv_header:style(position: relative !important; top: 0 !important;)
 albawaba.com##.top-menu
 aljazeera.com##.m-showgrid.ta-showgrid.t-showgrid.d-showgrid.da-showgrid
 allaboutbirds.org###header-wrapper:style(position: relative !important; top: 0 !important;)
@@ -2228,6 +2229,7 @@ sportsonearth.com##.share.lower-social.fixed-social
 sputniknews.com###share
 ssusa.org##.device-fixed-height.hidden-print.explore.HeaderPartial:style(position: relative !important; top: 0 !important;)
 stackfield.com###DivTopBar:style(position: relative !important; top: 0 !important;)
+stackoverflow.com##._scrolling._fixed.js-so-header.so-header:style(position: relative !important; top: 0 !important;)
 staples.com###popupwin
 startribune.com##.l-navigation-shortnav-container
 startribune.com##.sb-slide.navbar-fixed-top.navbar-default.navbar.site-header
@@ -2408,6 +2410,7 @@ theonion.com##.responsive-nav-active:style(position: relative !important; top: 0
 theonion.com##.share-tools.vertical-large
 theonion.com##.social
 theoutline.com##.icon-logo.navigation__logo:style(position: relative !important; top: 0 !important;)
+theparisreview.org##.sticky.header-nav:style(position: relative !important; top: 0 !important;)
 thepeninsulaqatar.com##.navbar-fixed-top.menu-block:style(position: relative !important; top: 0 !important;)
 thepoliticalinsider.com###imk300a
 thepoliticalinsider.com##.top-line
@@ -2868,6 +2871,8 @@ wired.com##.subscribe.secondary
 wired.com##:xpath(.//*[@class="box-shadow-3 flex-box align-m fixed right left render-layer color-scheme-black builder-section-first builder-section-navigation builder-section-next-titleimage"])
 wirelessweek.com###footer-expand
 wirelessweek.com###header:style(position: relative !important; top: 0 !important;)
+wireshark.org###masthead:style(position: relative !important; top: 0 !important;)
+wireshark.org##.notify
 wisconsinrapidstribune.com###tnutybcwirgmqnxqlwewtipoaqmhwgpzhmi
 wisconsinrapidstribune.com##.toolsShare
 wjla.com###facebookShare
