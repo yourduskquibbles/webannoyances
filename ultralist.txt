@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 5:13 PM 2017-03-08
+! Last Modified: 6:13 PM 2017-03-08
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -822,6 +822,7 @@ ew.com###site-header:style(position: relative !important; top: 0 !important;)
 ew.com###site-header__wrap:style(position: relative !important; top: 0 !important;)
 ew.com##.ad-section-container.snap.hide-med.ad-small
 expatsoftware.com##.subscribe-footer
+exploit-db.com##.sticky.shadow_thin.bg_solid.pos_fixed.l-header:style(position: relative !important; top: 0 !important;)
 express.co.uk###main_menu_bar:style(position: relative !important; top: 0 !important;)
 extremetech.com##.hybrid-bar
 facebook.com###stream_pagelet div[id^="feed_stream_"] div[id^="substream_"] div[id^="hyperfeed_story_id_"]:has(a.uiStreamSponsoredLink)
@@ -2611,6 +2612,8 @@ undark.org##.header-scrolled.top-bar:style(position: relative !important; top: 0
 uniquemachine.org##.navbar-fixed-top.main-nav:style(position: relative !important; top: 0 !important;)
 unpatent.co##.is-maximized.metabar--affixed.js-metabar.u-clearfix.metabar
 upi.com###p_header:style(position: relative !important; top: 0 !important;)
+upi.com###tc_nav:style(position: relative !important; top: 0 !important;)
+upi.com##header:style(position: relative !important; top: 0 !important;)
 uploaded.net##.hg_container-area
 uploaded.net##.pico-overlay
 uploadit.us###top-bar:style(position: relative !important; top: 0 !important;)
