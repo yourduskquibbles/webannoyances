@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 2:38 PM 2017-03-07
+! Last Modified: 10:09 AM 2017-03-08
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -382,6 +382,7 @@ businessinsider.com##.gplusone.ks-bottom-gplusone
 businessinsider.com##.gplusone.ks-byline-gplusone
 businessinsider.com##.linkedin.ks-bottom-linkedin
 businessinsider.com##.linkedin.ks-byline-linkedin
+businessinsider.com##.main-header:style(position: relative !important; top: 0 !important;)
 businessinsider.com##.masthead:style(position: relative !important; top: 0 !important;)
 businessinsider.com##.share
 businessinsider.com##.subnav-container
@@ -888,6 +889,7 @@ foodbeast.com###goodbye-form
 foodbeast.com##HEADER:style(position: relative !important; top: 0 !important;)
 foodnetwork.com##.prev-next-wrapper
 foodrepublic.com###masthead:style(position: relative !important; top: 0 !important;)
+foodrepublic.com##.newsletter-toggle
 foodrepublic.com##.sticky-newsletter > .newsletter-toggle
 fool.com###horizontal_bottom_toolbox
 forbes.com##.beta-bar-gallery.beta-bar
@@ -1165,6 +1167,7 @@ ibtimes.com##.fixed.page-header:style(position: relative !important; top: 0 !imp
 ibtimes.com##.language-block.span4
 ibtimes.com##.sticky-bar.visible-desktop.show
 ibtimes.com##.stickyhead:style(position: relative !important; top: 0 !important;)
+idahostatejournal.com###site-navbar-container:style(position: relative !important; top: 0 !important;)
 idigitaltimes.com##.page-header
 ifixit.com##.smartbanner
 ign.com###header-nav:style(position: relative !important; top: 0 !important;)
@@ -1571,6 +1574,8 @@ nationalreview.com##.scrolling.off-phones.cf.nft-auth
 nationalreview.com##A[href="https://plus.google.com/+nationalreview"]
 nationmaster.com##.header:style(position: relative !important; top: 0 !important;)
 nationmaster.com##.transition.navbar-fixed-top.nav-shadow.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
+nationwide.com###pinnedMenu:style(position: relative !important; top: 0 !important;)
+nationwide.com##.icon
 nature.com##.sticky-header.tighten-line-height.composite-layer.z-index-100.article-header.js-header.background-gradient-brand-primary.position-relative.hide-print.clear.cleared:style(position: relative !important; top: 0 !important;)
 nautil.us###issue-map
 nautil.us###main-header:style(position: relative !important; top: 0 !important;)
@@ -1765,6 +1770,7 @@ nytimes.com###step-two-modal
 nytimes.com###subscriptionCTA
 nytimes.com###upNext
 nytimes.com###welcome-back-modal
+nytimes.com##.bundle-payflow
 nytimes.com##.bundle-payflow-module.module
 nytimes.com##.footer-nav-primary-list
 nytimes.com##.growl-v2
@@ -2045,6 +2051,7 @@ revealnews.org##.desktop-newsletter.shortcode-newsletter.newsletter.reveal-widge
 revealnews.org##.newsletter
 rferl.org##.boxwidget.fb-like-buttons
 rferl.org##.fb-like-buttons
+rferl.org##.header:style(position: relative !important; top: 0 !important;)
 roadandtrack.com##.sticky.nav:style(position: relative !important; top: 0 !important;)
 roadsandkingdoms.com###titlebar:style(position: relative !important; top: 0 !important;)
 rollcall.com###nav:style(position: relative !important; top: 0 !important;)
@@ -2331,6 +2338,7 @@ thefederalist.com##.aside-left-social-standard
 thefiscaltimes.com###message
 thefoodallergyhub.com###cookieswrapper
 thefreethoughtproject.com###topcontrol
+thefuntimesguide.com##.nav-primary:style(position: relative !important; top: 0 !important;)
 thegatewaypundit.com###responsive-menu-button
 theguardian.com###content-actions
 theguardian.com##.component.trackable-component.undocked-share.share-links
@@ -2870,6 +2878,9 @@ wnd.com##.window-body
 wnyc.org##DIV[style="background-color: black; opacity: 0.5; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; z-index: 9998;"]
 wnyc.org##DIV[style="width: 100%; height: 100%; padding-top: 250px; z-index: 9999; position: absolute; top: 0px; left: 0px; text-align: center;"]
 wnyc.org##DIV[style="width: 375px; position: relative; margin: 0px auto;"]
+wolframalpha.com###codezone-footer
+wolframalpha.com###headerad-pro
+wolframalpha.com##.pro-popup-zoom.pro-popup
 woostercollective.com##.social
 woot.com##.social
 wordpress.com###bit
