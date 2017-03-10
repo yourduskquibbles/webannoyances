@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 6:13 PM 2017-03-08
+! Last Modified: 10:07 AM 2017-03-10
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -392,6 +392,8 @@ businessinsider.com##.subnav-container
 businessinsider.com##.toolbar.masthead:style(position: relative !important; top: 0 !important;)
 businessinsider.com##DIV[style="border-top: 1px solid #ddd; margin-top: 20px; margin-left: -20px; width: 340px;"]
 businessinsider.com##G:PLUSONE[style="display: block;"]
+businessinsider.com##a.slide-share-button.slide-share-button--facebook
+businessinsider.com##a.slide-share-button.slide-share-button--pinterest
 businessinsider.in###TopNavs
 businessinsider.in###nlFormSlide
 businessweek.com###global_nav
@@ -757,6 +759,9 @@ ebay.com###mw-app-bnr
 ebay.com##.nojs-msg.shdw
 ebay.com##.nojs-msk
 ebay.com##.sbanner
+economictimes.com###header:style(position: relative !important; top: 0 !important;)
+economictimes.com###notificationWidget
+economictimes.com##.menuBar:style(position: relative !important; top: 0 !important;)
 economist.com###ec-message-3
 economist.com###navbar
 economist.com##.fe-blogs__desktop-beta-bar.beta-bar.bar-wrapper
@@ -880,6 +885,11 @@ fitbit.com###smartbanner
 fivethirtyeight.com###fivethirtyeight-mobile-embed-14
 fivethirtyeight.com###header-global:style(position: relative !important; top: 0 !important;)
 fivethirtyeight.com##.lp-share
+flashbak.com###mc_embed_signup
+flashbak.com##.shrink.header-main-container.row:style(position: relative !important; top: 0 !important;)
+flashbak.com##headerv:style(position: relative !important; top: 0 !important;)
+flickr.com##.requiredToShowOnServer.mobile-app-upsell-view.view:style(position: relative !important; top: 0 !important;)
+flickr.com##.sohp-mobile-navable.fluid.styleguide-global-nav.global-nav-content:style(position: relative !important; top: 0 !important;)
 floridatoday.com##.site-header-inner-wrap-fixed.site-header-inner-wrap:style(position: relative !important; top: 0 !important;)
 floridatoday.com##.site-header:style(position: relative !important; top: 0 !important;)
 food.com###fdc-navbar:style(position: relative !important; top: 0 !important;)
@@ -888,7 +898,10 @@ food.com##.top-offset.stick.fd-next-recipe
 food52.com###desktop-email-modal-wrapper
 food52.com###global-header-block:style(position: relative !important; top: 0 !important;)
 food52.com###mobile-email-modal-wrapper
+foodandwine.com##.content-pager__link--next.content-pager__link
+foodandwine.com##.content-pager__link--prev.content-pager__link
 foodandwine.com##.is_stuck.site-header:style(position: relative !important; top: 0 !important;)
+foodandwine.com##.main-menu__social.main-menu__item
 foodbeast.com###goodbye-form
 foodbeast.com##HEADER:style(position: relative !important; top: 0 !important;)
 foodnetwork.com##.prev-next-wrapper
@@ -997,6 +1010,7 @@ giftcardgranny.com###nav-main:style(position: relative !important; top: 0 !impor
 giftcardzen.com##.header-v6.header-sticky.header-classic-white:style(position: relative !important; top: 0 !important;)
 giphy.com##:xpath(.//*[@class="header-wrapper"])
 giphy.com##:xpath(.//*[@style="top: 0px;"])
+github.io##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 glamour.com##.collapsed-header
 glamour.com##.component-header:style(position: relative !important; top: 0 !important;)
 glamour.com##.expanded.riser
@@ -1030,6 +1044,8 @@ goodhousekeeping.com##.sticky.nav
 goodsearch.com##.has-code.deal-button > .label
 google.com###ad
 google.com###ad-label
+google.com###maia-header:style(position: relative !important; top: 0 !important;)
+google.com###maia-nav-x:style(position: relative !important; top: 0 !important;)
 google.com##.a-ee-zh-k > .a-ee-zh-k-x
 google.com##:xpath(.//*[@id='gbw']/div/div/div[2]//div[3][@aria-label="promo"])
 googleblog.blogspot.com###sidebar-top
@@ -1074,6 +1090,8 @@ harvarddesignmagazine.org###navigation-wrapper
 hawaiinewsnow.com###header:style(position: relative !important; top: 0 !important;)
 hawaiinewsnow.com###smartbanner
 hawaiinewsnow.com###toolbar
+hazlitt.net###region-navigation:style(position: relative !important; top: 0 !important;)
+hazlitt.net###zone-masthead:style(position: relative !important; top: 0 !important;)
 hbr.org##.hide-for-print.clearfix.persistent-banner
 headmelted.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.js-metabar.u-clearfix.metabar
 healthline.com##.top-menu-sticky
@@ -1747,6 +1765,7 @@ nytimes.com###THEurope-newsletter-module
 nytimes.com###THasia-newsletter-module
 nytimes.com###Top
 nytimes.com###\31 click-FD
+nytimes.com###australia-today-email-signup
 nytimes.com###breaking-news-email-promo
 nytimes.com###critical-alerts
 nytimes.com###dfp-ad-mid1
@@ -2250,6 +2269,7 @@ sun-sentinel.com##.trb_nh_uw
 superpages.com###box
 surrestaurant.com###header:style(position: relative !important; top: 0 !important;)
 talater.com##.post_share.animatePadding.x
+talkingpointsmemo.com##.FeatureMobileSocial
 talkingpointsmemo.com##.article-share-buttons.well.well-small
 talkingpointsmemo.com##.hits
 talkradionews.com##.addthis_toolbox.addthis_default_style.addthis_
@@ -2394,6 +2414,7 @@ thelocal.de##IMG[style="border: 0; height: 20px; width: 60px; padding: 0; margin
 thelocal.de##IMG[style="border: 0; height: 20px; width: 60px; padding: 0; margin: 0 0 0 8px;"]
 thelocal.de##IMG[style="border: 0; height: 20px; width: 60px; padding: 0; margin: 0 8px 0 0;"]
 themarshallproject.org##.header-v2:style(position: relative !important; top: 0 !important;)
+thememo.com##.nav-fixed.clearfix.main-menu:style(position: relative !important; top: 0 !important;)
 themorningnews.org##.Footer-sticky
 themorningnews.org##.is-scrolled.is-scrolled-down.Header--legacy.Header--main.Header:style(position: relative !important; top: 0 !important;)
 themoscowtimes.com###TMTtoolbarAd
@@ -2458,6 +2479,7 @@ thesun.co.uk##.billboard
 thesun.co.uk##.scrolling.sun-header-bg:style(position: relative !important; top: 0 !important;)
 thesun.co.uk##.show.fixed.sun-header--nav.sun-row:style(position: relative !important; top: 0 !important;)
 thesun.co.uk##.sun-header-bg-color:style(position: relative !important; top: 0 !important;)
+thesun.co.uk##.sun-header__mini.sun-header--nav.sun-row:style(position: relative !important; top: 0 !important;)
 thesun.co.uk##.swiper-container-android.swiper-container-free-mode.swiper-container-horizontal.sun-header--nav-wrap.swiper-container.no-gutters.sun-col-6.col:style(position: relative !important; top: 0 !important;)
 thetimes.co.uk###tto-cookieMessage
 thetimes.co.uk###tto-cookieMessageInner
@@ -2522,6 +2544,7 @@ thrillist.com##.share-email-mobile
 thundersplace.org###mainmenu.default.navlarge.text.fixed.right.navbar:style(position: relative !important; top: 0 !important;)
 thundersplace.org###mainmenu:style(position: relative !important; top: 0 !important;
 thundersplace.org###mainmenu:style(position: relative !important; top: 0 !important;)
+tigerfitness.com###olark-wrapper
 time.com###first-visit
 time.com###social-apps
 time.com###time_connect-2
@@ -2561,12 +2584,17 @@ totallandscapecare.com##.header.navbar-fixed-top.navbar:style(position: relative
 totallandscapecare.com##.header.navbar-fixed-top.navbar:style(position: relative !important; top: 0 !important;)
 townandcountrymag.com##.content-nav-active.sticky.nav:style(position: relative !important; top: 0 !important;)
 townandcountrymag.com##.sticky.nav:style(position: relative !important; top: 0 !important;)
-townhall.com###container > nav:style(position: relative !important; top: 0 !important;)
+townhall.com###closemenu
 townhall.com###thm-nav-sm:style(position: relative !important; top: 0 !important;)
+townhall.com##.ad
 townhall.com##.comment-alert
+townhall.com##.fa-bars.fa:style(position: relative !important; top: 0 !important;)
 townhall.com##.fadeInDown.animated.navbar-article.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 townhall.com##.thm-carousel
+townhall.com##.toggle:style(position: relative !important; top: 0 !important;)
 townhall.com##header > .fadeInDown.animated.navbar-article.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
+townhall.com##li
+townhall.com##ul
 travelzoo.com###signupOverlay
 travelzoo.com##.ui-widget-overlay.ui-front
 tribtoday.com###top_header:style(position: relative !important; top: 0 !important;)
@@ -2709,6 +2737,8 @@ vimeo.com##.nav_bar.bar:style(position: relative !important; top: 0 !important;)
 vimeo.com##.sidedock
 vinepair.com###header-container:style(position: relative !important; top: 0 !important;)
 vinepair.com##.icon.nav-toggle
+vinepair.com##.pin-me-button
+vinepair.com##.pin-me-hover
 viralnova.com###article-finished
 viralthread.com##.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 visual.ly###back-to-top
@@ -2814,6 +2844,8 @@ wdrb.com###WNNavSearchSwitch.headerAbove:style(position: relative !important; to
 wdrb.com###WNNavSearchSwitch:style(position: relative !important; top: 0 !important;
 wearemel.com##.is-maximized.metabar--affixed.u-tintSpectrum.u-tintBgColor.metabar--hiddenWhenMinimized.metabar--tall.metabar--dark.js-metabar.u-clearfix.metabar
 weather.com###fby-tab-3758
+wect.com###header:style(position: relative !important; top: 0 !important;)
+wect.com###toolbar
 weddingbee.com###header:style(position: relative !important; top: 0 !important;)
 weddingbee.com##.anim.isFixed.js-wrapper:style(position: relative !important; top: 0 !important;)
 weddingbee.com##.frame-top-nav.frame:style(position: relative !important; top: 0 !important;)
@@ -2918,6 +2950,7 @@ wsj.com##.headlineSummary.about
 wsj.com##.inno-adhesive-container
 wsj.com##.innovation-mojo-ad-wrapper
 wsj.com##.logged-out.at16units.hat-closed.cnav-closed.edition-picker-footer-unexpanded.edition-picker-unexpanded.hamburger-sections-active.hamburger-closed.search-closed.unstuck.stuck-usernav.scrolled.mega-nav:style(position: relative !important; top: 0 !important;)
+wsj.com##.logged-out.at8units.hat-closed.cnav-closed.edition-picker-footer-unexpanded.edition-picker-unexpanded.hamburger-sections-active.hamburger-closed.search-closed.stuck.unstuck-usernav.unscrolled.mobile-nav:style(position: relative !important; top: 0 !important;)
 wsj.com##.module.shareTree
 wsj.com##.nc-exp-ad
 wsj.com##.ob_strip_container.SB_2
