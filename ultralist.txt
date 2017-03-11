@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:04 PM 2017-03-11
+! Last Modified: 12:07 PM 2017-03-11
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -2127,6 +2127,8 @@ salon.com##.slide-out.mainMenu
 sammobile.com##.cd-is-visible.cd-top
 sammobile.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 samsung.com##.subnav-actions
+saveur.com##.main-header:style(position: relative !important; top: 0 !important;)
+saveur.com##.scrollToTop
 sbnation.com###to-the-top
 sbnation.com##.m-share_selection_contextual
 sbnation.com##.tab-bar-fixed.c-tab-bar:style(position: relative !important; top: 0 !important;)
