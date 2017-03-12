@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:52 PM 2017-03-11
+! Last Modified: 11:58 AM 2017-03-12
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -110,6 +110,7 @@ accuweather.com###addthis_widget
 accuweather.com##.Header:style(position: relative !important; top: 0 !important;)
 accuweather.com##.addthis_toolbox.addthis_default_style
 acs.org##.sticky.menu.menu_header:style(position: relative !important; top: 0 !important;)
+actionnetwork.org###pre_header:style(position: relative !important; top: 0 !important;)
 adobe.com###j-compact-header:style(position: relative !important; top: 0 !important;)
 adriannapapell.com##.popup-content
 adventuresofanurse.com##.nav-primary:style(position: relative !important; top: 0 !important;)
@@ -1656,6 +1657,8 @@ nbcwashington.com##.stickyNav.navbar:style(position: relative !important; top: 0
 nbcwashington.com##.swiper-container-android.swiper-container-horizontal.quick-nav
 ncaa.com###smartbanner
 ncaa.com##.mobile-header:style(position: relative !important; top: 0 !important;)
+ncregister.com##.fancybox-opened.fancybox-type-iframe.fancybox-desktop.fancybox-wrap
+ncregister.com##.fancybox-overlay
 ndtv.com###__cricketsubscribe > .noti_bgstyle
 ndtv.com###__cricketsubscribe > .noti_wrap
 ndtv.com###showhide
