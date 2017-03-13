@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 5:10 PM 2017-03-13
+! Last Modified: 5:15 PM 2017-03-13
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -2341,6 +2341,10 @@ teenvogue.com##.sticky.site-header
 telegraph.co.uk###message
 telegraph.co.uk###shareSideContainer
 telegraph.co.uk##.message-active.component.adblocker-message
+tennessean.com##.site-header-inner-wrap-fixed.site-header-inner-wrap:style(position: relative !important; top: 0 !important;)
+tennessean.com##.site-header:style(position: relative !important; top: 0 !important;)
+tennessean.com##.site-nav:style(position: relative !important; top: 0 !important;)
+tennessean.com##.utility-bar-wrap
 tesla.com###sticky-footer
 the-american-interest.com###article-counter
 the-daily.buzz##.header-primary:style(position: relative !important; top: 0 !important;)
