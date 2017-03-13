@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 3:41 PM 2017-03-13
+! Last Modified: 5:10 PM 2017-03-13
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -2811,18 +2811,17 @@ walmart.com##.ShareWidget
 warisboring.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBottomSection.u-tintSpectrum.u-tintBgColor.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar
 washingtoncitypaper.com###at4-share
 washingtoncitypaper.com##.variable-ad.super-leaderboard.advertisement
-washingtoncitypaper.com##header
 washingtonexaminer.com###body > .col1.panel > .column
-washingtonexaminer.com###header
+washingtonexaminer.com###header:style(position: relative !important; top: 0 !important;)
 washingtonexaminer.com###newsletter-signup-policy
 washingtonexaminer.com###newsletter_sign_up_form
-washingtonexaminer.com###region_3 > .legacy-sidebar-promo
-washingtonexaminer.com###region_3 > .subscribe-promo
 washingtonexaminer.com###sharebar
+washingtonexaminer.com##.legacy-sidebar-promo
 washingtonexaminer.com##.social-bar
 washingtonexaminer.com##.social-button
 washingtonexaminer.com##.social-icon.facebook
 washingtonexaminer.com##.social-icon.twitter
+washingtonexaminer.com##.subscribe-promo
 washingtonexaminer.com##.upnext
 washingtonian.com###social-media-page
 washingtonian.com###top
