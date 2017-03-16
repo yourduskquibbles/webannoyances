@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 9:12 AM 2017-03-16
+! Last Modified: 9:50 AM 2017-03-16
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -581,6 +581,7 @@ coindesk.com##.article-share
 coindesk.com##.popup
 coindesk.com##.social
 coindesk.com##.wpsr-floatbar-float_left.wpsr-floatbar-white.wpsr-floatbar-movable.clearfix
+collinsdictionary.com##.sticky:style(position: relative !important; top: 0 !important;)
 com-unik.info###optinform-container
 com-unik.info##.mobile-hide
 com.au##.story-footer-tools.js-loaded.sticky
