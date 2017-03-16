@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 10:54 PM 2017-03-15
+! Last Modified: 11:49 PM 2017-03-15
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -1736,7 +1736,7 @@ newscientist.com###main-nav:style(position: relative !important; top: 0 !importa
 newscientist.com###marketingtertiary
 newscientist.com###sharebtns
 newscientist.com###tertiary-sidebar-banner
-newser.com###divEntireNav
+newser.com###divEntireNav:style(position: relative !important; top: 0 !important;)
 newslogue.com##.navbar-custom.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 newslogue.com##.navbar-header:style(position: relative !important; top: 0 !important;)
 newsmax.com###adblockermessage
@@ -1998,7 +1998,7 @@ politico.com###widgetPoliticoInPrint
 politico.com###widgetPromoCarousel
 politico.com##.content-group.story-tools
 politico.com##.follow-items.is-revealed
-politico.com##.is-stuck.sticky-content.orient-vertical.user-tools
+politico.com##.is-stuck.sticky-content.orient-vertical.user-tools:style(position: relative !important; top: 0 !important;)
 politico.com##.nav-politico-pro.active
 politico.com##.social-media-items
 politico.com##.social-nav
@@ -2007,8 +2007,8 @@ politico.com##.toolbar-main
 politico.com##.user-tools.alt-layout-vertical.sticky-content
 politico.com##.user-tools.alt-layout-vertical.sticky-content.is-active
 polygon.com###chorus-social-fixed
-polygon.com##.pinned.m-site-nav
-popsci.com##.main-header
+polygon.com##.pinned.m-site-nav:style(position: relative !important; top: 0 !important;)
+popsci.com##.main-header:style(position: relative !important; top: 0 !important;)
 popsci.com##.panel-pane.pane-block.pane-post-social-post-social-block
 popsci.com##.panel-pane.pane-block.pane-post-social-post-social-block.bottom
 popsugar.com###fixednav:style(position: relative !important; top: 0 !important;)
