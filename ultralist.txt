@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 9:10 AM 2017-03-16
+! Last Modified: 9:12 AM 2017-03-16
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -1973,6 +1973,7 @@ plays.tv##.feed-foot
 plays.tv##.fixed.stickied.tabs
 plays.tv##.mod-page-support
 plays.tv##:xpath(.//*[@data-module-id="VOPFeedCTAMod"])
+plos.org###floatTitleTop:style(position: relative !important; top: 0 !important;)
 pogo.org###sticky
 pokemongodb.net###rev-toaster
 policymic.com###share
