@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:10 AM 2017-03-16
+! Last Modified: 10:27 AM 2017-03-20
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -1336,6 +1336,7 @@ jpost.com##.header-menu-site-scrollingLogo.header-menu-site
 jsonline.com##.blockUI.blockMsg.blockPage
 jsonline.com##.blockUI.blockOverlay
 judicialwatch.org###newsletter_signup_fullwidth
+justia.com###sticky-nav:style(position: relative !important; top: 0 !important;)
 justsecurity.org###banner:style(position: relative !important; top: 0 !important;)
 justsecurity.org###logo
 justsecurity.org##.contrib-nav-wrap
@@ -1401,14 +1402,27 @@ lifezette.com##.desktop.menu-bar-trigger
 lifezette.com##.mobile.menu-bar-trigger
 lighthousehockey.com##.tab-bar-fixed.c-tab-bar
 limpingchicken.com###at4-share
+linkedin.com###core-nav:style(position: relative !important; top: 0 !important;)
 linkedin.com###extended-nav:style(position: relative !important; top: 0 !important;)
 linkedin.com###header-anchor:style(position: relative !important; top: 0 !important;)
 linkedin.com###header-banner:style(position: relative !important; top: 0 !important;)
 linkedin.com###header:style(position: relative !important; top: 0 !important;)
 linkedin.com###responsive-nav-scrollable:style(position: relative !important; top: 0 !important;)
+linkedin.com###shared-modal-dialog-wrapper:style(position: relative !important; top: 0 !important;)
 linkedin.com###siteflow-widget-next
+linkedin.com###unified-cta-container
+linkedin.com##.Sans-15px-black-55\%.feed-share-nav-bar:style(position: relative !important; top: 0 !important;)
+linkedin.com##.display-flex.nav-main__content:style(position: relative !important; top: 0 !important;)
 linkedin.com##.ember-view.msg-overlay-onboarding-hovercard--minimized-list.msg-overlay-onboarding-hovercard--top.Elevation-2dp.active.msg-overlay-onboarding-hovercard.hovercard-top.msg-overlay-onboarding-hovercard--general
+linkedin.com##.ember-view.shared-modal-container.splash-modal
+linkedin.com##.ember-view.stuck.sticky.scrollable.sub-nav
+linkedin.com##.global-alert-offset-top.nav-main-container.core-nav:style(position: relative !important; top: 0 !important;)
+linkedin.com##.header-container:style(position: relative !important; top: 0 !important;)
+linkedin.com##.nav-container.nav-main:style(position: relative !important; top: 0 !important;)
+linkedin.com##.search-form:style(position: relative !important; top: 0 !important;)
+linkedin.com##.shared-modal-dialog
 linkedin.com##.stuck.stream-header:style(position: relative !important; top: 0 !important;)
+linkedin.com##.toast-container
 liquor.com##.navigation-slug:style(position: relative !important; top: 0 !important;)
 liquor.com##.on-right.sans.collection-tip
 literaryreview.co.uk##.popup-placer
@@ -1428,6 +1442,7 @@ luckypeach.com##.sidebar-wrapper
 lyrica.com##.isi-section-wrapper
 m.bedbathandbeyond.com###navigation:style(position: relative !important; top: 0 !important;)
 m.csmonitor.com###csm_header_container:style(position: relative !important; top: 0 !important;)
+m.dailykos.com##.footer
 m.destinationxl.com###mntt_alt_02
 m.gulfnews.com##.sticky.not-sticky.tab-bar
 m.huffpost.com##.header-container:style(position: relative !important; top: 0 !important;)
@@ -1938,7 +1953,6 @@ pastebin.com##.cd-fade-out.cd-is-visible.cd-top
 pasted.co###captcha_box
 pasted.co###captcha_overlay
 patch.com##.header-container:style(position: relative !important; top: 0 !important;)
-patents.justia.com###sticky-nav
 paypal.com###header:style(position: relative !important; top: 0 !important;)
 pbs.org###frontline_newsletter_over
 pbs.org###frontline_newsletter_please
@@ -2088,6 +2102,12 @@ rare.us##.header:style(position: relative !important; top: 0 !important;)
 rasmussenreports.com###cboxOverlay
 rasmussenreports.com###colorbox
 rasmussenreports.com##.narrow-cta.button-sprite
+ratemyprofessors.com###cookie_notice
+ratemyprofessors.com###mobileHeader:style(position: relative !important; top: 0 !important;)
+ratemyprofessors.com###mobileLeaderboardAd:style(position: relative !important; top: 0 !important;)
+ratemyprofessors.com###rateReminderModal
+ratemyprofessors.com##.mobileAppPromo
+ratemyprofessors.com##.mobileSearch:style(position: relative !important; top: 0 !important;)
 ratemyprofessors.com##.promotionDesktop.promotion
 rawstory.com###kodda_container:style(position: relative !important; top: 0 !important;)
 rawstory.com###kodda_inner_container:style(position: relative !important; top: 0 !important;)
@@ -2283,6 +2303,8 @@ similarweb.com###js-stickyElement
 skinnytaste.com##.slicknav_menu
 sky.com###breaking_news_ticker
 slashdot.org###tour-popover
+slashleaks.com###top:style(position: relative !important; top: 0 !important;)
+slashleaks.com##.navbar-header:style(position: relative !important; top: 0 !important;)
 slate.com###article_rollup
 slate.com###header_social
 slate.com###plus-upsell-adblock
@@ -3136,6 +3158,7 @@ yahoo.com##.YDC-Overlay
 yahoo.com##.action-bar:style(position: relative !important; top: 0 !important;)
 yahoo.com##.cta-overlay
 yahoo.com##.side-buttons
+yahoo.com##.yui-sv-hd.ct-box-hd
 ydr.com##.android-smart-banner.smart-banner
 ydr.com##.fixed.header:style(position: relative !important; top: 0 !important;)
 ydr.com##.header-main:style(position: relative !important; top: 0 !important;)
