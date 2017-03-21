@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:43 PM 2017-03-21
+! Last Modified: 1:20 PM 2017-03-21
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -693,6 +693,8 @@ dailymail.co.uk##.share-facebook
 dailymail.co.uk##.share-gplus
 dailymail.co.uk##.share-twitter
 dailymail.co.uk##.shareArticles
+dailymail.co.uk##.vjs-control-bar
+dailymail.co.uk##.vjs-hidden.vjs-modal-overlay.vjs-caption-settings
 dailymail.co.uk##:xpath(.//*[@id="stickyBanner"])
 dailymail.co.uk##body > div:nth-of-type(8)
 dailypress.com##.trb_nh:style(position: relative !important; top: 0 !important;)
