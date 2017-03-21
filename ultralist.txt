@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 2:05 PM 2017-03-20
+! Last Modified: 1:59 AM 2017-03-21
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -1150,6 +1150,7 @@ heatst.com##.in.fade.modal-backdrop
 heatst.com##.modal-dialog
 heatst.com##.navbar-fixed-top.fit.col-xs-12.header-top-wrapper:style(position: relative !important; top: 0 !important;)
 heatst.com##.sp_right.sp_ticker
+heavy.com##.fixedheader.main-navigation.header:style(position: relative !important; top: 0 !important;)
 heddels.com##.mobile_open.mobile_mailing_list
 heddels.com##header
 highbeam.com##.header-outer
@@ -1567,7 +1568,7 @@ modernistcuisine.com##header:style(position: relative !important; top: 0 !import
 modernliberals.com##.mh-back-to-top
 mom.me###site-header:style(position: relative !important; top: 0 !important;
 mondaynote.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBottomSection.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
-money.cnn.com###notice_banner
+money.cnn.com###notice_banner:style(position: relative !important; top: 0 !important;)
 money.cnn.com##.ng-scope.clear:style(position: relative !important; top: 0 !important;)
 money.cnn.com##.ng-scope.mediaHeader:style(position: relative !important; top: 0 !important;)
 montereyherald.com###story_window > .article.toolbar
@@ -2087,7 +2088,7 @@ quora.com##.section.share_question
 quora.com##:xpath(.//*[@class="NonAccessSiteHeader SiteHeader LoggedOutSiteHeader"])
 quora.com##:xpath(.//*[@class="NonMemberSiteHeader SiteHeader LoggedOutSiteHeader"])
 quora.com##:xpath(.//*[@class="open_in_app_link"])
-qz.com###header:style(position: relative !important; top: 0 !important;)
+qz.com###header
 qz.com###nav-main:style(position: relative !important; top: 0 !important;)
 qz.com###nav:style(position: relative !important; top: 0 !important;)
 qz.com###queue-toggle
@@ -3227,5 +3228,4 @@ zillow.com##.mobile-upsell-container
 ||stream.nbcsports.com/static/img/featuredproviders/Comcast_SSO.png$image
 ||stream.nbcsports.com/static/img/frame/nbcsports-bg.jpg$image
 ||stream.nbcsports.com/static/img/nhl/css_images/hls/1500_stats_bg.jpg$image
-||stream.nbcsports.com/static/img/nhl/css_images/hls/high_level_stats_bg_1500.png$image||webdesignerdepot.com/widget/*wdn-popup*
-||validate.onecount.net,$script,domain=foreignpolicy.com
+||stream.nbcsports.com/static/img/nhl/css_images/hls/high_level_stats_bg_1500.png$image||webdesignerdepot.com/widget/*wdn-popup*||validate.onecount.net,$script,domain=foreignpolicy.com
