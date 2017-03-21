@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 10:31 AM 2017-03-21
+! Last Modified: 12:43 PM 2017-03-21
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -3206,6 +3206,7 @@ zerohedge.com##.injected-ad-wrapper
 zerohedge.com##.js-l1
 zerohedge.com##.js-links
 zillow.com##.mobile-upsell-container
+zillow.com##.sticky-bar.zsg-nav-sub-wrapper:style(position: relative !important; top: 0 !important;)
 ||admin.brightcove.com/viewer/upgrade_flash_player2.gif$image
 ||api.optnmnstr.com
 ||computerworld.com/www/js/insider/insider_reg_api.js$script,domain=computerworld.com
@@ -3235,4 +3236,5 @@ zillow.com##.mobile-upsell-container
 ||stream.nbcsports.com/static/img/featuredproviders/Comcast_SSO.png$image
 ||stream.nbcsports.com/static/img/frame/nbcsports-bg.jpg$image
 ||stream.nbcsports.com/static/img/nhl/css_images/hls/1500_stats_bg.jpg$image
-||stream.nbcsports.com/static/img/nhl/css_images/hls/high_level_stats_bg_1500.png$image||webdesignerdepot.com/widget/*wdn-popup*
+||stream.nbcsports.com/static/img/nhl/css_images/hls/high_level_stats_bg_1500.png$image
+||webdesignerdepot.com/widget/*wdn-popup*
