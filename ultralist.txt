@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 2:05 AM 2017-03-21
+! Last Modified: 10:31 AM 2017-03-21
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -482,6 +482,11 @@ chase.com###header:style(position: relative !important; top: 0 !important;)
 chase.com###pnt-tabs:style(position: relative !important; top: 0 !important;)
 chefsteps.com##.cs-nav:style(position: relative !important; top: 0 !important;)
 cheftalk.com###site-header:style(position: relative !important; top: 0 !important;)
+chewy.com###header-main:style(position: relative !important; top: 0 !important;)
+chewy.com##.cw-fixed-nav:style(position: relative !important; top: 0 !important;)
+chewy.com##.header-bottom:style(position: relative !important; top: 0 !important;)
+chewy.com##.header-top:style(position: relative !important; top: 1 !important;)
+chewy.com##.header-wrapper:style(position: relative !important; top: 0 !important;)
 chicago.suntimes.com###primary-navigation:style(position: relative !important; top: 0 !important;)
 chicagocubsonline.com##.nav-primary:style(position: relative !important; top: 0 !important;)
 chicagomag.com###reveal-bar:style(position: relative !important; top: 0 !important;)
@@ -1799,6 +1804,7 @@ nfl.com##.yui3-nfl-rewards-drivebar-top-bar-wrapper
 nfl.com##:xpath(.//*[@class="yui3-overlay-content yui3-widget-stdmod"])
 nfl.com##:xpath(/html/body/*//div[@class="yui3-ff-feedback-content yui3-widget-content-expanded"])
 nflshop.com###NFLFooterContentBottomMiddleSocial
+nknews.org##.scroll-fix.header.header-main:style(position: relative !important; top: 0 !important;)
 nme.com###navigation
 nootrobox.com##.article__sidebar__container
 nootrobox.com##.navbar-fixed-top.navbar
@@ -3222,6 +3228,7 @@ zillow.com##.mobile-upsell-container
 ||nbc-sports.massrel.io/microsoft-live-extra-social$subdocument
 ||nbc-sports.massrel.io/nhl-live-extra-waterfall/$subdocument
 ||ndtv.com/*$inline-script,domain=ndtv.com
+||onecount.net$script,domain=foreignpolicy.com
 ||optinmonster.com*$script
 ||scontent-lga3-1.xx.fbcdn.net/t39.2081-0/13176377_837427143029968_1076728173_n.jpg$image
 ||stacklist.com/ajax/subscribe-modal
@@ -3229,4 +3236,3 @@ zillow.com##.mobile-upsell-container
 ||stream.nbcsports.com/static/img/frame/nbcsports-bg.jpg$image
 ||stream.nbcsports.com/static/img/nhl/css_images/hls/1500_stats_bg.jpg$image
 ||stream.nbcsports.com/static/img/nhl/css_images/hls/high_level_stats_bg_1500.png$image||webdesignerdepot.com/widget/*wdn-popup*
-||validate.onecount.net$script,domain=foreignpolicy.com
