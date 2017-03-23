@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 6:09 PM 2017-03-21
+! Last Modified: 8:19 AM 2017-03-23
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -276,6 +276,7 @@ bedbathandbeyond.com###topNavHeader:style(position: relative !important; top: 0 
 bedbathandbeyond.com##.ad-block-msg-wrapper
 bedbathandbeyond.com##.overlay
 beltmag.com###popup
+bestbuy.com###pdp-sticky-header:style(position: relative !important; top: 0 !important;)
 bet.com##.header__nav__bar:style(position: relative !important; top: 0 !important;)
 bet.com##.header__nav_fixed.header__nav_scroll_down.header__nav
 bet.com##.smartbanner
@@ -1012,7 +1013,10 @@ foxnews.com##.related-media.related-block.social-media-block
 foxnews.com##.sharing
 foxnews.com##.social-count
 foxsports.com###LayoutNavHeader:style(position: relative !important; top: 0 !important;)
-foxsports.com###section-scorestrip
+foxsports.com###body-header-wrapper:style(position: relative !important; top: 0 !important;)
+foxsports.com###js-body-header:style(position: relative !important; top: 0 !important;)
+foxsports.com###section-scorestrip:style(position: relative !important; top: 0 !important;)
+foxsports.com##.section-nav:style(position: relative !important; top: 0 !important;)
 freebeacon.com##.columns.large-6
 freebeacon.com##.contact
 freedominthe50states.org###share_widget
@@ -1088,6 +1092,11 @@ go.com##.share_like
 gofobo.com###feedback-tab
 gofobo.com##.node-tools-top
 gofobo.com##.share-links-discussion
+gofundme.com###exit-modal-mobile
+gofundme.com###nav-menu:style(position: relative !important; top: 0 !important;)
+gofundme.com##.fixed-container:style(position: relative !important; top: 0 !important;)
+gofundme.com##.reveal-overlay
+gofundme.com##.top-bar:style(position: relative !important; top: 0 !important;)
 golfweek.com##.sign-up-module.module
 goodhousekeeping.com##.sticky.nav
 goodsearch.com##.has-code.deal-button > .label
@@ -1275,6 +1284,8 @@ independent.co.uk##.column-2
 independent.co.uk##IMG[src="http://www.independent.co.uk/independent.co.uk/assets/images/Independent_apps_puff600x220.gif?v4"]
 independent.ie##.on.persistent.slim.w103
 independent.ie##.snap.w115.w
+index.hu##.lapozo
+index.hu##.m-cf-fejlec:style(position: relative !important; top: 0 !important;)
 india.com###navigation-bar:style(position: relative !important; top: 0 !important;)
 india.com##.headersection:style(position: relative !important; top: 0 !important;)
 indiatimes.com###TPMainDiv
@@ -1560,8 +1571,10 @@ michaels.com##.modal-backdrop.fade.in
 michaels.com##.modal-body
 midwayusa.com###rvWrapper
 minds.com##.topbar
+mirror.co.uk###bottom-article-message
 mirror.co.uk##.mod-header:style(position: relative !important; top: 0 !important;)
 mirror.co.uk##.publication-theme-highlight.primary:style(position: relative !important; top: 0 !important;)
+mirror.co.uk##.secondary:style(position: relative !important; top: 0 !important;)
 mobile.nytimes.com##.max300.min300.iframe-holder
 mobile.reuters.com##.header-main.group.header
 mobile.reuters.com##.header-mini.header-main.group.header > .active.container.header-pane-main
@@ -1618,6 +1631,8 @@ msnbc.com##.teaser__social__link.teaser__social__link--facebook.addthis_button_f
 muckrock.com###nav:style(position: relative !important; top: 0 !important;)
 muckrock.com##.global-header:style(position: relative !important; top: 0 !important;)
 muckrock.com##.website-header:style(position: relative !important; top: 0 !important;)
+multivu.com###hero-photo-icons
+multivu.com###topbar:style(position: relative !important; top: 0 !important;)
 mydomaine.com##.nav-wrapper.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 myfoxdc.com###WNStoryUtils
 myfoxdc.com###csBrandAdPromo
@@ -1647,6 +1662,9 @@ narvar.com##.navbar-header:style(position: relative !important; top: 0 !importan
 narvar.com##.navbar:style(position: relative !important; top: 0 !important;)
 narvar.com##header-menu-directive:style(position: relative !important; top: 0 !important;)
 narvar.com##marketinglayout > div > div:nth-of-type(1):style(position: relative !important; top: 0 !important;)
+nasa.gov##.fixed_show.fixed.site_header_area:style(position: relative !important; top: 0 !important;)
+nasa.gov##.next.article_nav_block
+nasa.gov##.prev.article_nav_block
 nasdaq.com###addthisSticky
 nasdaq.com###global_header:style(position: relative !important; top: 0 !important;)
 nasdaq.com###global_nav:style(position: relative !important; top: 0 !important;)
@@ -1743,6 +1761,7 @@ nerdist.com##.container.header-inner-wrapper:style(position: relative !important
 nerdydata.com##.mdl-color-text--white.mdl-color--blue-900.mdl-layout__header--scroll.mdl-layout__header:style(position: relative !important; top: 0 !important;)
 networkworld.com###banner
 neurosciencenews.com##.cb-menu-fw.cb-font-header.clearfix.cb-site-padding.cb-nav-bar-wrap:style(position: relative !important; top: 0 !important;)
+newatlas.com##.PlusSubscribeAd
 newco.co##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBottomSection.u-tintSpectrum.u-tintBgColor.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
 newrepublic.com###fixed-header-container:style(position: relative !important; top: 0 !important;)
 newrepublic.com###header-tout-become-a-member
@@ -1756,6 +1775,8 @@ newrepublic.com###sticky-nav
 newrepublic.com##.margin-paywall-count-bottom
 newrepublic.com##.modalCloseImg.simplemodal-close
 newrepublic.com##.old-nav-container.pinned:style(position: relative !important; top: 0 !important;)
+newrepublic.com##.page-header:style(position: relative !important; top: 0 !important;)
+newrepublic.com##.sticky-nav-container:style(position: relative !important; top: 0 !important;)
 newrepublic.com##.ui.active.flipping.loader
 newrepublic.com##.ui.sticky
 news.com.au###header-fixed:style(position: relative !important; top: 0 !important;)
@@ -2786,6 +2807,7 @@ twitter.com##.js-topbar.topbar:style(position: relative !important; top: 0 !impo
 twitter.com##.js-variableHeightTopBar.StreamsTopBar--fixed.StreamsTopBar:style(position: relative !important; top: 0 !important;)
 twitter.com##.u-cf.OpenInAppBar
 ua-magazine.com##.move.sticky.menu_container:style(position: relative !important; top: 0 !important;)
+ul.com##.header-toolbar:style(position: relative !important; top: 0 !important;)
 und.com###header:style(position: relative !important; top: 0 !important;)
 undark.org##.clearfix.top-bar-section:style(position: relative !important; top: 0 !important;)
 undark.org##.header-scrolled.top-bar:style(position: relative !important; top: 0 !important;)
