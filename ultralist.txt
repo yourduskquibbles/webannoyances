@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 5:02 PM 2017-03-23
+! Last Modified: 5:10 PM 2017-03-24
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -1255,7 +1255,10 @@ ibtimes.com##.stickyhead:style(position: relative !important; top: 0 !important;
 idahostatejournal.com###site-navbar-container:style(position: relative !important; top: 0 !important;)
 idigitaltimes.com##.page-header
 ifixit.com##.smartbanner
-ign.com###header-nav:style(position: relative !important; top: 0 !important;)
+ign.com###header-container:style(position: relative !important; top: 0 !important;)
+ign.com###header-nav
+ign.com###ign-header:style(position: relative !important; top: 0 !important;)
+ign.com##.theme-light.section.fixed.spine:style(position: relative !important; top: 0 !important;)
 ijr.com###masthead:style(position: relative !important; top: 0 !important;)
 ijr.com###progress-bar
 ijr.com##.opt360-header.py1.z10000.right-0.left-0.top-0.fixed.border-box.header-height:style(position: relative !important; top: 0 !important;)
