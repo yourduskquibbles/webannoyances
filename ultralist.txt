@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 5:10 PM 2017-03-24
+! Last Modified: 1:15 PM 2017-03-28
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -220,6 +220,10 @@ armytimes.com##.site-color.secondary-navigation:style(position: relative !import
 arstechnica.com###mobile-masthead:style(position: relative !important; top: 0 !important;)
 arstechnica.com##.site-wrapper > .scrolled-up.is_stuck.site-header:style(position: relative !important; top: 0 !important;)
 arstechnica.com##UL
+artsy.net###main-layout-header:style(position: relative !important; top: 0 !important;)
+artsy.net##.from-bottom.icon-chevron-up.jump-to-top
+artsy.net##.modal.articles-es-cta--banner
+artsy.net##.share-by-email
 asiaone.com###block-tb-megamenu-menu-a1-revamp-main-menu
 askandyaboutclothes.com###tt_mobile_banner
 assets.tumblr.com###iframe_controls
@@ -282,6 +286,8 @@ bet.com##.header__nav_fixed.header__nav_scroll_down.header__nav
 bet.com##.smartbanner
 betabeat.com##.entry-bottom-share
 betabeat.com##.entry-top-share
+bethesdamagazine.com##.shadowbox-image
+bethesdamagazine.com##.shadowbox-image-scrim
 bgr.com###topnav
 bgr.com##.site-header-sticky:style(position: relative !important; top: 0 !important;)
 bgr.com##.social
@@ -367,6 +373,8 @@ bourbonblog.com##.modal-backdrop.fade.in
 bradsdeals.com###scrolling-sticky-nav
 bradsdeals.com##.code-instructions
 bradsdeals.com##.coupon-code-link.golink-split-wrapper
+brainyquote.com###bq-tn-id:style(position: relative !important; top: 0 !important;)
+brainyquote.com##.is-sticky.sticky-wrapper:style(position: relative !important; top: 0 !important;)
 brave.com##.top-nav-collapse.navbar-fixed-top.navbar-default.navbar.one-page-header:style(position: relative !important; top: 0 !important;)
 bravocompanyusa.com##.sb-toggle.sb-tab
 breitbart.com###BBStoreLead
@@ -822,6 +830,8 @@ elle.com##.content-nav-active.sticky.nav:style(position: relative !important; to
 elle.com##.sticky.nav:style(position: relative !important; top: 0 !important;)
 engadget.com###header-post-nav:style(position: relative !important; top: 0 !important;)
 engadget.com###nav-flow:style(position: relative !important; top: 0 !important;)
+engadget.com##.h-40.r-0.l-0.b-0.fixed.flex.c-white.hide\@tl\+.o-mobile-share-footer
+engadget.com##.h-80\@m\+.h-60\@s.o-h.pl-25\@tp-.container\@tl\+
 engadget.com##.is-visible.z-10.hide\@tp-.o-context_nav.full-width.t-0.c-gray-5.border-bottom.bc-white-10.i-context_nav
 eonline.com###HHeader:style(position: relative !important; top: 0 !important;)
 eonline.com###article-next
@@ -904,7 +914,9 @@ fastcoexist.com##.nav-bar:style(position: relative !important; top: 0 !important
 fastcompany.com###share-modal
 fastcompany.com##.ellie-awards
 fastcompany.com##.hide-on-print.share-box-wrapper
+fastcompany.com##.page-header--fastcompany.page-header:style(position: relative !important; top: 0 !important;)
 fastcompany.com##.people-tab.ready.active
+fastcompany.com##.post__social
 fastcompany.com##.reveal-modal-bg
 fastcompany.com##.share-box.hide-on-print
 fastpokemap.se##.slicknav_menu
@@ -998,10 +1010,8 @@ fox5ny.com##.show-for-large-up.mod-story-progress.mod-accordion.mod-wrapper
 fox6now.com###actionbar
 fox6now.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
 foxbusiness.com##.inner > .social
-foxbusiness.com##.no-flash.no-flash
 foxbusiness.com##.radar-bar
-foxbusiness.com##.sidebars
-foxbusiness.com##.sticky.sidebar
+foxbusiness.com##.video.modal-close
 foxeslovelemons.com##.slicknav_menu:style(position: relative !important; top: 0 !important;)
 foxnews.com###navbar-share
 foxnews.com###network:style(position: relative !important; top: 0 !important;)
@@ -1678,6 +1688,7 @@ nasdaq.com###pfooter
 nasdaq.com###stock-search
 nasdaq.com##.oo_feedback_float
 nationalenquirer.com###main-header:style(position: relative !important; top: 0 !important;)
+nationalgeographic.com##.hidden-pt.hidden-md.social-mobile
 nationalinterest.org###block-block-11
 nationalinterest.org###block-block-3
 nationalinterest.org###block-block-5
@@ -1717,6 +1728,8 @@ nbc12.com###header:style(position: relative !important; top: 0 !important;)
 nbc12.com###smartbanner
 nbc12.com###toolbar
 nbc4i.com###masthead:style(position: relative !important; top: 0 !important;)
+nbcchicago.com##.site-header:style(position: relative !important; top: 0 !important;)
+nbcchicago.com##.stickyNav.nav-landing.navbar:style(position: relative !important; top: 0 !important;)
 nbclosangeles.com##.stickyNav.nav-landing.navbar:style(position: relative !important; top: 0 !important;)
 nbcmiami.com##.header:style(position: relative !important; top: 0 !important;)
 nbcmiami.com##.swiper-container-android.swiper-container-horizontal.quick-nav
@@ -1991,6 +2004,9 @@ pastebin.com###header:style(position: relative !important; top: 0 !important;)
 pastebin.com##.cd-fade-out.cd-is-visible.cd-top
 pasted.co###captcha_box
 pasted.co###captcha_overlay
+pastemagazine.com###newsletter-signup-overlay
+pastemagazine.com##.detail.master-header.center:style(position: relative !important; top: 0 !important;)
+pastemagazine.com##.ui-front.ui-widget-overlay
 patch.com##.header-container:style(position: relative !important; top: 0 !important;)
 paypal.com###header:style(position: relative !important; top: 0 !important;)
 pbs.org###frontline_newsletter_over
@@ -2119,6 +2135,7 @@ quora.com##.core_promo
 quora.com##.fixed_header:style(position: relative !important; top: 0 !important;)
 quora.com##.inner:style(position: relative !important; top: 0 !important;)
 quora.com##.modal_promoted_content
+quora.com##.new_signup_dialog.modal_bg
 quora.com##.section.share_question
 quora.com##:xpath(.//*[@class="NonAccessSiteHeader SiteHeader LoggedOutSiteHeader"])
 quora.com##:xpath(.//*[@class="NonMemberSiteHeader SiteHeader LoggedOutSiteHeader"])
@@ -2343,6 +2360,7 @@ si.com##.primary.container:style(position: relative !important; top: 0 !importan
 si.com##.social
 si.com##.ui-button.ui-button-close.small.is-fixed
 si.com##header:style(position: relative !important; top: 0 !important;)
+sierraclub.org##.greenlife-overlay.pcm-overlay
 similarweb.com###js-stickyElement
 skinnytaste.com##.slicknav_menu
 sky.com###breaking_news_ticker
@@ -2418,6 +2436,7 @@ sputniknews.com###share
 ssusa.org##.device-fixed-height.hidden-print.explore.HeaderPartial:style(position: relative !important; top: 0 !important;)
 stackfield.com###DivTopBar:style(position: relative !important; top: 0 !important;)
 stackoverflow.com##._scrolling._fixed.js-so-header.so-header:style(position: relative !important; top: 0 !important;)
+standard.co.uk###masthead:style(position: relative !important; top: 0 !important;)
 stanleycupofchowder.com##.tab-bar-fixed.c-tab-bar
 staples.com###popupwin
 startribune.com##.l-navigation-shortnav-container
@@ -2507,6 +2526,7 @@ theaustralian.com.au##.share-icons-lhs.has-signin
 theawl.com##.highlightMenu-inner
 theawl.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBottomSection.u-tintSpectrum.u-tintBgColor.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar
 theawl.com##.u-xs-paddingRight10.u-xs-paddingLeft10.u-zIndexMetabar.u-paddingBottom10.u-paddingTop10.u-borderBox.u-boxShadowTop.u-backgroundWhite.u-sizeFullWidth.u-bottom0.u-fixed
+thebaffler.com##.header:style(position: relative !important; top: 0 !important;)
 thebaffler.com##.scroll-to-fixed-fixed.gap.donate.fixed-widget
 thebaffler.com##.smaller.header
 thebiglead.com###header-sticky-wrapper:style(position: relative !important; top: 0 !important;)
@@ -2930,6 +2950,7 @@ viralthread.com##.navbar-default.navbar:style(position: relative !important; top
 visual.ly###back-to-top
 visual.ly###eyebrow
 visual.ly##.section
+voanews.com##.header:style(position: relative !important; top: 0 !important;)
 voat.co##.alert-dismissible.eppnotice.alert
 vocativ.com##.ecap:style(position: relative !important; top: 0 !important;)
 vocativ.com##.global-header:style(position: relative !important; top: 0 !important;)
@@ -2941,6 +2962,9 @@ vocativ.com##.voc-feed-thumbroll
 vocativ.com##.voc-header:style(position: relative !important; top: 0 !important;)
 vocativ.com##.voc-sticky-social-strip
 vocativ.com##header:style(position: relative !important; top: 0 !important;)
+vogue.com##.__closed.modal
+vogue.com##.component-cnid-modal-backdrop
+vogue.com##.icon-menu.site-header-links--hamburger
 vogue.com##.most-shared
 vogue.com##.site-header:style(position: relative !important; top: 0 !important;)
 vogue.com##.text-tweet.text-tweet__template
@@ -2969,6 +2993,7 @@ washingtonexaminer.com##.social-icon.facebook
 washingtonexaminer.com##.social-icon.twitter
 washingtonexaminer.com##.subscribe-promo
 washingtonexaminer.com##.upnext
+washingtonian.com###ad_pos_targeted_in_article
 washingtonian.com###social-media-page
 washingtonian.com###top
 washingtonian.com###twitter-widget-wash
@@ -3071,6 +3096,9 @@ wideopeneats.com##.stickySocial
 wideopenspaces.com##.stickySocial
 wikia.com###WikiaBarWrapper
 wikia.com###globalNavigation:style(position: relative !important; top: 0 !important;)
+wikia.com##.site-head-fandom-bar:style(position: relative !important; top: 0 !important;)
+wikia.com##.site-head-wrapper:style(position: relative !important; top: 0 !important;)
+wikia.com##.site-head:style(position: relative !important; top: 0 !important;)
 wikihow.com###follow_table
 wikihow.com###header_outer:style(position: relative !important; top: 0 !important;)
 wikihow.com###sliderbox
