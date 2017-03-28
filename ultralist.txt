@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 1:15 PM 2017-03-28
+! Last Modified: 3:09 PM 2017-03-28
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -1100,6 +1100,8 @@ glassdoor.com##.stuck.sticky.exploreCareers.bucket
 glew.io###header:style(position: relative !important; top: 0 !important;)
 globalnation.inquirer.net##.header
 globalnews.ca##.socialShare.collapsed
+gm.com##.q-header:style(position: relative !important; top: 0 !important;)
+gm.com##header:style(position: relative !important; top: 0 !important;)
 go.com##.share_like
 gofobo.com###feedback-tab
 gofobo.com##.node-tools-top
@@ -2377,6 +2379,7 @@ slate.com##.fullwidth-wrapper
 slate.com##.highlighter-container
 slate.com##.notification
 slate.com##.social.social-with-popup
+slickdeals.net###globalBar:style(position: relative !important; top: 0 !important;)
 slickdeals.net###tutorial_list
 slickdeals.net##.social_dd
 smartertravel.com##.headernav:style(position: relative !important; top: 0 !important;)
