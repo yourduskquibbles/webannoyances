@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 10:24 AM 2017-03-30
+! Last Modified: 4:40 PM 2017-03-30
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -168,6 +168,7 @@ amazon.com##.actor.xrayQuickViewListItem
 amazon.com##.show.xrayQuickView
 amazon.com##.xrayHeaderLink
 amazon.com##.xrayQuickViewList.collectionView
+amctheatres.com##.is-opaque.Header-wrap:style(position: relative !important; top: 0 !important;)
 americanow.com###header-container-inner:style(position: relative !important; top: 0 !important;)
 americanow.com##.is-at-top.is-stuck.sticky.top-stories:style(position: relative !important; top: 0 !important;)
 americasmarkets.usatoday.com###header
@@ -457,6 +458,7 @@ capitolcityproject.com##.pagenav.fixedmenu
 cardpool.com##.feedback_link
 cars.com##.sticky-header:style(position: relative !important; top: 0 !important;)
 cartelblog.com##.sfsi_FrntInner_chg
+casepreparation.com###SITE_HEADER:style(position: relative !important; top: 0 !important;)
 casinotop10.net###navigation:style(position: relative !important; top: 0 !important;)
 casinotop10.net###totop
 cbc.ca###sticky-nav-sticky-wrapper:style(position: relative !important; top: 0 !important;)
@@ -1604,6 +1606,7 @@ mobile.nytimes.com##.max300.min300.iframe-holder
 mobile.reuters.com##.header-main.group.header
 mobile.reuters.com##.header-mini.header-main.group.header > .active.container.header-pane-main
 mobile.twitter.com##:xpath(.//*[@role="banner"])
+mobilityware.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 modernfarmer.com###fixed_nav
 modernfarmer.com###om-r67mpzig62-lightbox
 modernfarmer.com##.mf-fixednav-hidden.fix
