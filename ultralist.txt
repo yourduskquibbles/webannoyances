@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 9:03 AM 2017-04-04
+! Last Modified: 11:29 AM 2017-04-04
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -531,6 +531,8 @@ chicagotribune.com##.trb_bnn
 chicagotribune.com##.trb_nh:style(position: relative !important; top: 0 !important;)
 chicagotribune.com##.trb_nh_lw:style(position: relative !important; top: 0 !important;)
 chicagotribune.com##.trb_nh_uw:style(position: relative !important; top: 0 !important;)
+chipotle.com##.header:style(position: relative !important; top: 0 !important;)
+chipotle.com##.section--header.section:style(position: relative !important; top: 0 !important;)
 chowhound.com###freyja_desknav:style(position: relative !important; top: 0 !important;)
 chowhound.com###freyja_mobile-sticky-wrapper:style(position: relative !important; top: 0 !important;)
 chowhound.com###freyja_mobile:style(position: relative !important; top: 0 !important;)
@@ -3240,23 +3242,28 @@ wsj.com##.blurred
 wsj.com##.c-aggregate
 wsj.com##.first.twitter
 wsj.com##.footer_bar
+wsj.com##.header:style(position: relative !important; top: 0 !important;)
 wsj.com##.headlineSummary.about
+wsj.com##.hide8.hide4.DJHat:style(position: relative !important; top: 0 !important;)
 wsj.com##.inno-adhesive-container
 wsj.com##.innovation-mojo-ad-wrapper
+wsj.com##.logged-out.at12units.hat-closed.cnav-closed.edition-picker-footer-unexpanded.edition-picker-unexpanded.hamburger-sections-active.hamburger-closed.search-closed.unstuck.stuck-usernav.scrolled.mega-nav:style(position: relative !important; top: 0 !important;)
 wsj.com##.logged-out.at16units.hat-closed.cnav-closed.edition-picker-footer-unexpanded.edition-picker-unexpanded.hamburger-sections-active.hamburger-closed.search-closed.unstuck.stuck-usernav.scrolled.mega-nav:style(position: relative !important; top: 0 !important;)
 wsj.com##.logged-out.at8units.hat-closed.cnav-closed.edition-picker-footer-unexpanded.edition-picker-unexpanded.hamburger-sections-active.hamburger-closed.search-closed.stuck.unstuck-usernav.unscrolled.mobile-nav:style(position: relative !important; top: 0 !important;)
+wsj.com##.marketDataHeader:style(position: relative !important; top: 0 !important;)
 wsj.com##.module.shareTree
 wsj.com##.nc-exp-ad
+wsj.com##.new-hat.articlePage.mega-nav:style(position: relative !important; top: 0 !important;)
 wsj.com##.ob_strip_container.SB_2
 wsj.com##.popC.connect.popClosed.popClose
-wsj.com##.scrolled.stick-uNav.new-hat.articlePage.mega-nav
-wsj.com##.sliderBox > .scrolled.stick-uNav.new-hat.articlePage.mega-nav
-wsj.com##.sliderBox > .zonedModule:nth-of-type(2)
+wsj.com##.scrolled.stick-uNav.nav-up.new-hat.articlePage.mega-nav:style(position: relative !important; top: 1 !important;)
+wsj.com##.scrolled.stick-uNav.new-hat.articlePage.mega-nav:style(position: relative !important; top: 1 !important;)
 wsj.com##.space-bottom.mktg-tile
 wsj.com##.stick-mobile-nav.new-hat.articlePage.mega-nav.mobile:style(position: relative !important; top: 0 !important;)
 wsj.com##.temp-subscribe[href="https://subscribe.wsj.com/hpheaderlink"]
 wsj.com##.toggleBtn
 wsj.com##.topLinks.clearFix
+wsj.com##.unsubNav.signin-container.module-navigation:style(position: relative !important; top: 0 !important;)
 wsj.com##.vltSocialLinks
 wsj.com##.wsj-responsive-nav-circ-wrap
 wsj.com##DIV[style="background: #cc5302; margin: 0px; padding: 4px;clear:both;"]
