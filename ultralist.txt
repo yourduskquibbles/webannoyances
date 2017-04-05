@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 1:22 PM 2017-04-05
+! Last Modified: 1:44 PM 2017-04-05
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -1627,6 +1627,9 @@ mentalfloss.com##.left
 mercurynews.com##.headroom--not-top.headroom.default.site-header:style(position: relative !important; top: 0 !important;)
 mercurynews.com##.headroom--unpinned.headroom--not-top.headroom.default.site-header
 mercurynews.com##.nav-wrapper:style(position: relative !important; top: 0 !important;)
+merriam-webster.com###recirc-bar-footer
+merriam-webster.com###social-sidebar-container
+merriam-webster.com##.default.shrinkheader:style(position: relative !important; top: 0 !important;)
 metro.co.uk###masthead:style(position: relative !important; top: 0 !important;)
 metro.co.uk###we-need-monies
 metro.co.uk##.fixed-element-widget-top.is-visible:style(position: relative !important; top: 0 !important;)
@@ -3009,6 +3012,7 @@ vice.com##.article-right-rail.right-rail
 vice.com##.fixed-header.site-wrapper > .site-header:style(position: relative !important; top: 0 !important;)
 vice.com##.inline-social
 vice.com##.main-nav-header:style(position: relative !important; top: 0 !important;)
+vice.com##.mini-header.site-header:style(position: relative !important; top: 0 !important;)
 vice.com##.nav-toggle.icon-menu.icon
 vice.com##.nsfw-wrapper
 vice.com##.post_footer_social
