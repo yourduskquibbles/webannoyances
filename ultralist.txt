@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 1:44 PM 2017-04-05
+! Last Modified: 5:04 PM 2017-04-05
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -2524,6 +2524,8 @@ staples.com###popupwin
 startribune.com##.l-navigation-shortnav-container
 startribune.com##.sb-slide.navbar-fixed-top.navbar-default.navbar.site-header
 statepress.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
+statesman.com##.hidden-md-down.footer-wrapper
+statesman.com##.hidden-md-down.sub-header-nav:style(position: relative !important; top: 0 !important;)
 statnews.com##.header-collapsed.header-shown.main-header:style(position: relative !important; top: 0 !important;)
 stltoday.com###site-navbar-container:style(position: relative !important; top: 0 !important;)
 stocknews.com##.navbar-fixed-top.navbar-inverse.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
@@ -2670,12 +2672,13 @@ theheartysoul.com##.text-center.dfp_stucky_footer
 thehill.com###article-recommendation
 thehill.com###bottom-story-socials
 thehill.com###dfp-ad-mosad_1
-thehill.com###header:style(position: relative !important; top: 0 !important;)
-thehill.com###navigation:style(position: relative !important; top: 0 !important;)
 thehill.com##.container-emphasised.container.header.main:style(position: relative !important; top: 0 !important;)
 thehill.com##.floating-block-active:style(position: relative !important; top: 0 !important;)
 thehill.com##.item-shares
+thehill.com##.left-sidebar
+thehill.com##.region-highlighted.region:style(position: relative !important; top: 0 !important;)
 thehill.com##.scroll-down-to-next
+thehill.com##.scrolling-content:style(position: relative !important; top: 0 !important;)
 thehill.com##:xpath(.//*[@class="rollover-people-block"])
 thehockeywriters.com###page-header-mobile:style(position: relative !important; top: 0 !important;)
 theinformation.com##.sticky-header:style(position: relative !important; top: 0 !important;)
