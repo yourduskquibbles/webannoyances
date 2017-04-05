@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:29 PM 2017-04-05
+! Last Modified: 1:22 PM 2017-04-05
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -880,6 +880,7 @@ espn.com###bracketcast:style(position: relative !important; bottom: 0 !important
 espn.com###header-wrapper:style(position: relative !important; top: 0 !important;)
 espn.com###toolbar
 espn.com##.active.js-feed-item-mask
+espn.com##.espnDaily.sub-module
 espn.com##.js-bloomed.favorites-mgmt.lightbox
 espn.com##.lightbox-container
 espn.com##.newItemAlert.sm.button:style(position: relative !important; top: 0 !important;)
@@ -1195,6 +1196,8 @@ grasscity.com##.sticky_wrapper:style(position: relative !important; top: 0 !impo
 groupon.com###spotlight
 gsa.gov###gsaFeedback
 gsa.gov##.addthis_toolbox.addthis_default_style
+gsa.gov##.hidden-xs.navbar-fixed-top:style(position: relative !important; top: 0 !important;)
+gsa.gov##.hidden-xs:style(position: relative !important; top: 0 !important;)
 gunsamerica.com###enterZip2
 gust.com##nav:style(position: relative !important; top: 0 !important;)
 haaretz.com###mobiles-buttons-wrapper
@@ -1477,10 +1480,10 @@ latimes.com##.trb_sntAd.trb_ar_rail_ad.trb_gptAd
 laughingsquid.com###dd_ajax_float
 laughingsquid.com##.shareaholic-canvas
 lauradhamilton.com###connect
-lawnewz.com##.teads-helper.full
+lawnewz.com##.teads-helper.full:style(position: relative !important; top: 0 !important;)
 leadpages.net$script
-leaf.tv##.fixed-header
-leaf.tv##.header-top
+leaf.tv##.fixed-header:style(position: relative !important; top: 0 !important;)
+leaf.tv##.header-top:style(position: relative !important; top: 0 !important;)
 lecreuset.com###header:style(position: relative !important; top: 0 !important;)
 lecreuset.com##.fixed-shop:style(position: relative !important; top: 0 !important;)
 lecreuset.com##.site-wide-mobile:style(position: relative !important; top: 0 !important;)
@@ -3392,4 +3395,5 @@ zillow.com##.sticky-bar.zsg-nav-sub-wrapper:style(position: relative !important;
 ||stream.nbcsports.com/static/img/featuredproviders/Comcast_SSO.png$image
 ||stream.nbcsports.com/static/img/frame/nbcsports-bg.jpg$image
 ||stream.nbcsports.com/static/img/nhl/css_images/hls/1500_stats_bg.jpg$image
-||stream.nbcsports.com/static/img/nhl/css_images/hls/high_level_stats_bg_1500.png$image||webdesignerdepot.com/widget/*wdn-popup*
+||stream.nbcsports.com/static/img/nhl/css_images/hls/high_level_stats_bg_1500.png$image
+||webdesignerdepot.com/widget/*wdn-popup*
