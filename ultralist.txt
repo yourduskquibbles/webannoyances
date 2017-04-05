@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:29 AM 2017-04-04
+! Last Modified: 12:29 PM 2017-04-05
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -252,6 +252,8 @@ atr.org##.fancybox-wrap.fancybox-desktop.fancybox-type-iframe.fancybox-opened
 atr.rollcall.com###share-top
 auburntigers.com###header:style(position: relative !important; top: 0 !important;)
 auburntigers.com###sport-nav:style(position: relative !important; top: 0 !important;)
+augusta.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
+augusta.com##.navbar-header:style(position: relative !important; top: 0 !important;)
 avclub.com###h:style(position: relative !important; top: 0 !important;)
 avclub.com##.responsive-nav-active > .header-compact:style(position: relative !important; top: 0 !important;)
 avclub.com##.responsive-nav-active:style(position: relative !important; top: 0 !important;)
@@ -355,6 +357,7 @@ bloombergview.com###header
 bnn.ca##.main-header:style(position: relative !important; top: 0 !important;)
 boardingarea.com###ba-flybox
 boardingarea.com##.navbar-inverse.navbar
+boards.ie###p2h-header:style(position: relative !important; top: 0 !important;)
 bodum.com###launcher
 bonappetit.com###masthead-banner-ad:style(position: relative !important; top: 0 !important;)
 bonappetit.com###menu:style(position: relative !important; top: 0 !important;)
@@ -553,9 +556,9 @@ chron.com###siteNav:style(position: relative !important; top: 0 !important;)
 chronicle.com###nav-persistent__container:style(position: relative !important; top: 0 !important;)
 cigarmonster.com###emailsignupmodalblackglass
 cincinnati.com##.fixed.header:style(position: relative !important; top: 0 !important;)
+circa.com###advertisement-10
 circa.com###advertisement-4
 circa.com###advertisement-7
-circa.com###advertisement-10
 circa.com###circa-atom-share
 circa.com##.circa-shadow.Atom-outbrain
 circa.com##.locked.circa-Header:style(position: relative !important; top: 0 !important;)
@@ -1019,6 +1022,7 @@ foreignpolicy.com###logo
 foreignpolicy.com###main-nav-target:style(position: relative !important; top: 0 !important;)
 foreignpolicy.com###menu
 foreignpolicy.com###mobile-nav-trigger
+foreignpolicy.com###paywall_bg
 foreignpolicy.com###site-wrapper > .scrolled
 foreignpolicy.com##.FP-mobile-ad_enabled.FP-mobile-ad_fixedbottom.FP-mobile-ad
 foreignpolicy.com##.default.js-takeover
@@ -1913,6 +1917,7 @@ npr.org##.nav.nav-primary:style(position: relative !important; top: 0 !important
 npr.org##.share
 npr.org##.social.clearfix
 npr.org##.twitter
+nrn.com##.js-header.header:style(position: relative !important; top: 0 !important;)
 nti.org###header:style(position: relative !important; top: 0 !important;)
 ntknetwork.com###mc_embed_signup
 ntknetwork.com###popUpBlack
@@ -2094,6 +2099,7 @@ pix11.com###actionbar:style(position: relative !important; top: 0 !important;)
 pjmedia.com###social
 pjmedia.com##.navbar-scroll.main-nav-wrapper.navbar-wrapper:style(position: relative !important; top: 0 !important;)
 pjmedia.com##.share
+planeplottermobile.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 playboard.me###\34 2mattersAnnounce
 playboard.me###uvTabLabel
 playboard.me##.navbar-fixed-top.navbar-inverse.navbar
@@ -2515,6 +2521,9 @@ statepress.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative
 statnews.com##.header-collapsed.header-shown.main-header:style(position: relative !important; top: 0 !important;)
 stltoday.com###site-navbar-container:style(position: relative !important; top: 0 !important;)
 stocknews.com##.navbar-fixed-top.navbar-inverse.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
+stonebrewing.com##.breadcrumb-wrapper:style(position: relative !important; top: 0 !important;)
+stonebrewing.com##.navbar-header:style(position: relative !important; top: 0 !important;)
+stonebrewing.com##.navbar:style(position: relative !important; top: 0 !important;)
 stream.org##.show.sticky_share
 stream.org##header:style(position: relative !important; top: 0 !important;)
 streetwise.co###center-flyin
@@ -2632,6 +2641,9 @@ thefader.com##.locked_nav.main_nav:style(position: relative !important; top: 0 !
 thefederalist.com###scrollable_box_asd
 thefederalist.com##.aside-left-social-standard
 thefiscaltimes.com###message
+thefly.com###fixed_footer
+thefly.com###site_header:style(position: relative !important; top: 0 !important;)
+thefly.com###site_header_nav:style(position: relative !important; top: 0 !important;)
 thefoodallergyhub.com###cookieswrapper
 thefreethoughtproject.com###topcontrol
 thefuntimesguide.com##.nav-primary:style(position: relative !important; top: 0 !important;)
@@ -3184,6 +3196,7 @@ wired.co.uk##.is-stuck.n-main__sticker-child
 wired.com###.marg-b-med.sidebar-rad.box.rad
 wired.com###blog-follow-wrapper
 wired.com###global-header:style(position: relative !important; top: 0 !important;)
+wired.com###mobile-share
 wired.com###related
 wired.com###section-1468359105910
 wired.com###sharing
@@ -3313,6 +3326,7 @@ yahoo.com##.action-bar:style(position: relative !important; top: 0 !important;)
 yahoo.com##.cta-overlay
 yahoo.com##.side-buttons
 yahoo.com##.yui-sv-hd.ct-box-hd
+yahoo.com##:xpath(.//*[@class="canvas-community-bar Mih(46px) B(0) Trsdu(0.3s) Trsp(a) Trstf(e) Pos(f) W(100%) Bgc(#fff) Bdtw(1px) Bdts(s) Bdtc(#e2e2e6) Z(3)"])
 ydr.com##.android-smart-banner.smart-banner
 ydr.com##.fixed.header:style(position: relative !important; top: 0 !important;)
 ydr.com##.header-main:style(position: relative !important; top: 0 !important;)
@@ -3378,5 +3392,4 @@ zillow.com##.sticky-bar.zsg-nav-sub-wrapper:style(position: relative !important;
 ||stream.nbcsports.com/static/img/featuredproviders/Comcast_SSO.png$image
 ||stream.nbcsports.com/static/img/frame/nbcsports-bg.jpg$image
 ||stream.nbcsports.com/static/img/nhl/css_images/hls/1500_stats_bg.jpg$image
-||stream.nbcsports.com/static/img/nhl/css_images/hls/high_level_stats_bg_1500.png$image
-||webdesignerdepot.com/widget/*wdn-popup*
+||stream.nbcsports.com/static/img/nhl/css_images/hls/high_level_stats_bg_1500.png$image||webdesignerdepot.com/widget/*wdn-popup*
