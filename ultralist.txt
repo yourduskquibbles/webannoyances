@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 3:00 PM 2017-04-08
+! Last Modified: 4:02 PM 2017-04-08
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -937,16 +937,7 @@ express.co.uk###main_menu_bar:style(position: relative !important; top: 0 !impor
 extracrispy.com###js-site-header:style(position: relative !important; top: 0 !important;)
 extremetech.com##.hybrid-bar
 facebook.com###stream_pagelet div[id^="feed_stream_"] div[id^="substream_"] div[id^="hyperfeed_story_id_"]:has(a.uiStreamSponsoredLink)
-facebook.com###u_0_47
-facebook.com###u_0_h
-facebook.com###u_ps_0_0_5
-facebook.com##._2pi9
-facebook.com##._3tf
-facebook.com##._s15
-facebook.com##.clearfix._3mqg
-facebook.com##.ego_unit_container
-facebook.com##.uiGrid._51mz.pluginConnectButtonLayoutRoot
-facebook.com##.uiSideHeader.mbs.uiHeaderTopBorder.uiHeader
+facebook.com##:xpath(.//*[@data-games-xout-query-type="gyml-recommended"])
 facebook.com##:xpath(//*/a[@class='uiStreamSponsoredLink']/ancestor::div[contains(concat(' ',normalize-space(@id),' '),'hyperfeed_story_id_')])
 facebook.com##:xpath(//div[@id="stream_pagelet"]//div[starts-with(@id,"hyperfeed_story_id_")][.//h6//span/text()="Sponsored"])
 facebook.com##:xpath(//div[@id="stream_pagelet"]//div[starts-with(@id,"hyperfeed_story_id_")][.//text()="Suggested Post"])
