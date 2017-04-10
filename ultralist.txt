@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 10:38 AM 2017-04-10
+! Last Modified: 11:29 AM 2017-04-10
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -467,8 +467,11 @@ bythewavs.com##.nav-primary:style(position: relative !important; top: 0 !importa
 c4isrnet.com###page-content > .js-pubsub-module.has-secondary-nav.layout-module.no-subscribe-now.generic-module
 calgaryherald.com##.mobile-header.header-nav:style(position: relative !important; top: 0 !important;)
 calgaryherald.com##.top-bar:style(position: relative !important; top: 0 !important;)
-californiasunday.com##.site-nav:style(position: relative !important; top: 0 !important;)
+californiasunday.com##.banner.site-header
+californiasunday.com##.site-nav:style(position: absolute top: 0 !important;)
 californiasunday.com##.story-endcap
+californiasunday.com##.toc-follow-promo
+californiasunday.com##.trampoline.flushcontainer
 callername.com###modal
 callername.com##.in.fade.modal-backdrop
 campusreform.org##.navbar.main_header:style(position: relative !important; top: 0 !important;)
@@ -3091,6 +3094,7 @@ vox.com##.m-explainer__top-nav
 vox.com##.m-share_selection_contextual
 vox.com##.m-sticky-nav:style(position: relative !important; top: 0 !important;)
 vox.com##.tab-bar-fixed.c-tab-bar
+w3schools.com##.topnav.w3-slim.w3-card-2:style(position: relative !important; top: 0 !important;)
 wallstreet.org##.fancybox-overlay.snp-pop-4404-overlay
 wallstreet.org##.fancybox-wrap.fancybox-desktop.fancybox-type-inline.snp-wrap.snp-pop-4404-wrap.snp-pop-theme8-wrap.fancybox-opened
 walmart.com###stickyAddtoCart
