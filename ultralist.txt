@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:29 AM 2017-04-10
+! Last Modified: 11:40 AM 2017-04-10
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -222,7 +222,7 @@ apple.com##.ac-ln-wrapper
 ar15.com##.show-for-large.user-bar:style(position: relative !important; top: 0 !important;)
 arlnow.com###container-nav:style(position: relative !important; top: 0 !important;)
 arlnow.com###menu-main:style(position: relative !important; top: 0 !important;)
-arlnow.com###search-navigation
+arlnow.com###search-navigation:style(position: relative !important; top: 0 !important;)
 arlnow.com###top-bar:style(position: relative !important; top: 0 !important;)
 arlnow.com##.secondary-menu:style(position: relative !important; top: 0 !important;)
 arlnow.com##.widget.social-media-widget
@@ -519,6 +519,7 @@ cepro.com##.cd-main-header:style(position: relative !important; top: 0 !importan
 cepro.com##.sticky:style(position: relative !important; top: 0 !important;)
 channelnewsasia.com##.header-area-scrolled.nav-area:style(position: relative !important; top: 0 !important;)
 channelnewsasia.com##.wrapper-nav:style(position: relative !important; top: 0 !important;)
+chargeprotect.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
 chase.com###dashboard-header:style(position: relative !important; top: 0 !important;)
 chase.com###header-container:style(position: relative !important; top: 0 !important;)
 chase.com###header-inner-fixed-container:style(position: relative !important; top: 0 !important;)
@@ -1408,6 +1409,8 @@ intuit.com###module-offers
 intuit.com###ozen
 intuit.com##.WelcomeMatView
 intuit.com##.advice.module.o2card
+intuit.com##.animprep
+intuit.com##.inline-advice
 intuit.com##.mcmupsell-footer
 intuit.com##.minttotax.WelcomeMatView
 intuit.com##.slide_from_right.sideSLider
