@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 5:40 PM 2017-04-08
+! Last Modified: 10:38 AM 2017-04-10
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -356,6 +356,7 @@ bloomberg.com##a[href="#"]
 bloomberg.com##a[href="javascript:window.print();"]
 bloomberg.com##a[href^="mailto:"]
 bloombergview.com###header
+bluedotdaily.com###main-nav-wrap:style(position: relative !important; top: 0 !important;)
 bnn.ca##.main-header:style(position: relative !important; top: 0 !important;)
 boardingarea.com###ba-flybox
 boardingarea.com##.navbar-inverse.navbar
@@ -939,6 +940,7 @@ extracrispy.com###js-site-header:style(position: relative !important; top: 0 !im
 extremetech.com##.hybrid-bar
 facebook.com###stream_pagelet div[id^="feed_stream_"] div[id^="substream_"] div[id^="hyperfeed_story_id_"]:has(a.uiStreamSponsoredLink)
 facebook.com##:xpath(.//*[@data-games-xout-query-type="gyml-recommended"])
+facebook.com##:xpath(.//*[@id="u_0_p"])
 facebook.com##:xpath(//*/a[@class='uiStreamSponsoredLink']/ancestor::div[contains(concat(' ',normalize-space(@id),' '),'hyperfeed_story_id_')])
 facebook.com##:xpath(//div[@id="stream_pagelet"]//div[starts-with(@id,"hyperfeed_story_id_")][.//h6//span/text()="Sponsored"])
 facebook.com##:xpath(//div[@id="stream_pagelet"]//div[starts-with(@id,"hyperfeed_story_id_")][.//text()="Suggested Post"])
@@ -1364,6 +1366,8 @@ indiatimes.com###navigation:style(position: relative !important; top: 0 !importa
 indiatimes.com##.badge_new
 indiatimes.com##.ntfc_overlay
 indiatimes.com##.ntfc_popup
+indy100.com###drawer
+indy100.com###top-nav
 indy100.com###top-nav:style(position: relative !important; top: 0 !important;)
 indystar.com##.fixed.header:style(position: relative !important; top: 0 !important;)
 indystar.com##.header-main:style(position: relative !important; top: 0 !important;)
@@ -1633,6 +1637,7 @@ mercurynews.com##.nav-wrapper:style(position: relative !important; top: 0 !impor
 merriam-webster.com###recirc-bar-footer
 merriam-webster.com###social-sidebar-container
 merriam-webster.com##.default.shrinkheader:style(position: relative !important; top: 0 !important;)
+metafilter.com##.headroom--pinned.headroom--not-top.headroom.logo-and-primary-nav:style(position: relative !important; top: 0 !important;)
 metro.co.uk###masthead:style(position: relative !important; top: 0 !important;)
 metro.co.uk###we-need-monies
 metro.co.uk##.fixed-element-widget-top.is-visible:style(position: relative !important; top: 0 !important;)
@@ -2015,6 +2020,7 @@ nytimes.com##.sfgAsset-span-embed.sfgAsset-span
 nytimes.com##.sharetools
 nytimes.com##.subColumn-2.noBackground.mobilePromo.nocontent
 nytimes.com#@#.flag-moreFollowSuggestions-on
+nzherald.co.nz##.floatingNav:style(position: relative !important; top: 0 !important;)
 observer.com##.banner-and-nav-wrapper:style(position: relative !important; top: 0 !important;)
 observer.com##.fw-site-header:style(position: relative !important; top: 0 !important;)
 observer.com##.jetpack-is-mobile.fw-site-header:style(position: relative !important; top: 0 !important;)
@@ -2111,6 +2117,7 @@ pjmedia.com###social
 pjmedia.com##.navbar-scroll.main-nav-wrapper.navbar-wrapper:style(position: relative !important; top: 0 !important;)
 pjmedia.com##.share
 planeplottermobile.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
+planetary.org##.topheader:style(position: relative !important; top: 0 !important;)
 playboard.me###\34 2mattersAnnounce
 playboard.me###uvTabLabel
 playboard.me##.navbar-fixed-top.navbar-inverse.navbar
@@ -2554,6 +2561,7 @@ sun-sentinel.com##.trb_nh_uw
 superpages.com###box
 supplyhouse.com###section-header-container:style(position: relative !important; top: 0 !important;)
 surrestaurant.com###header:style(position: relative !important; top: 0 !important;)
+t-nation.com##.header.navbar-fixed-top.navbar:style(position: relative !important; top: 0 !important;)
 talater.com##.post_share.animatePadding.x
 talkingpointsmemo.com##.FeatureMobileSocial
 talkingpointsmemo.com##.article-share-buttons.well.well-small
@@ -2575,6 +2583,8 @@ techcrunch.com##.social-cluster
 techcrunch.com##.social-share
 techinsider.io##.condensed.masthead:style(position: relative !important; top: 0 !important;)
 technobuffalo.com###top-primary-nav:style(position: relative !important; top: 0 !important;)
+technologynewsextra.com##.nav-wrap.wrap:style(position: relative !important; top: 0 !important;)
+technologynewsextra.com##.sticky.cf.navigation:style(position: relative !important; top: 0 !important;)
 technologyreview.com###sharing-bar-sticky-wrapper
 technologyreview.com###tr-global-header-sticky:style(position: relative !important; top: 0 !important;)
 technologyreview.com##.sidebar.right
@@ -2732,7 +2742,9 @@ theonion.com###h:style(position: relative !important; top: 0 !important;)
 theonion.com##.responsive-nav-active:style(position: relative !important; top: 0 !important;)
 theonion.com##.share-tools.vertical-large
 theonion.com##.social
+theoutline.com##.card.claudia--method-turbine.claudia
 theoutline.com##.icon-logo.navigation__logo:style(position: relative !important; top: 0 !important;)
+theoutline.com##.ui-in-view.ui-scroll-start.ui-scroll-end.ui-fan-stack.card-stack--fan.card-stack
 theparisreview.org##.sticky.header-nav:style(position: relative !important; top: 0 !important;)
 thepeninsulaqatar.com##.navbar-fixed-top.menu-block:style(position: relative !important; top: 0 !important;)
 thepoliticalinsider.com###imk300a
@@ -2831,6 +2843,7 @@ thinkprogress.org##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-with
 thinkprogress.org##.post-tools.addthis_32x32_style
 thisisinsider.com##.condensed.masthead:style(position: relative !important; top: 0 !important;)
 thisisinsider.com##.main-header:style(position: relative !important; top: 0 !important;)
+thomsonreuters.com##.navbar-toggleable.navbar-inverse.bg-inverse.fixed-top.navbar-full.navbar.header:style(position: relative !important; top: 0 !important;)
 thrillist.com###mobile-elements:style(position: relative !important; top: 0 !important;)
 thrillist.com###mobile-header-inner:style(position: relative !important; top: 0 !important;)
 thrillist.com###mobile-header-utility:style(position: relative !important; top: 0 !important;)
