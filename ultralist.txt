@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:40 AM 2017-04-10
+! Last Modified: 2:05 PM 2017-04-11
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -944,7 +944,6 @@ extracrispy.com###js-site-header:style(position: relative !important; top: 0 !im
 extremetech.com##.hybrid-bar
 facebook.com###stream_pagelet div[id^="feed_stream_"] div[id^="substream_"] div[id^="hyperfeed_story_id_"]:has(a.uiStreamSponsoredLink)
 facebook.com##:xpath(.//*[@data-games-xout-query-type="gyml-recommended"])
-facebook.com##:xpath(.//*[@id="u_0_p"])
 facebook.com##:xpath(//*/a[@class='uiStreamSponsoredLink']/ancestor::div[contains(concat(' ',normalize-space(@id),' '),'hyperfeed_story_id_')])
 facebook.com##:xpath(//div[@id="stream_pagelet"]//div[starts-with(@id,"hyperfeed_story_id_")][.//h6//span/text()="Sponsored"])
 facebook.com##:xpath(//div[@id="stream_pagelet"]//div[starts-with(@id,"hyperfeed_story_id_")][.//text()="Suggested Post"])
@@ -1247,6 +1246,7 @@ heddels.com##header
 highbeam.com##.header-outer
 history.com###backtotop
 history.com##.clearfix.visible-phone.share-tools
+history.com##.inline-signup.newsletter-signup
 history.com##.social-float
 history.com##.sticky-signup.newsletter-signup
 historyextra.com###om-menu-history-topics-ul-wrapper
@@ -1666,8 +1666,10 @@ minds.com##.topbar
 mirror.co.uk###bottom-article-message
 mirror.co.uk##.active.publication-theme-border.mod-cookiepolicy
 mirror.co.uk##.mod-header:style(position: relative !important; top: 0 !important;)
+mirror.co.uk##.publication-theme-border.skinny-signup-top.skinny-signup
 mirror.co.uk##.publication-theme-highlight.primary:style(position: relative !important; top: 0 !important;)
 mirror.co.uk##.secondary:style(position: relative !important; top: 0 !important;)
+mirror.co.uk##.sharebar
 mobile.nytimes.com##.max300.min300.iframe-holder
 mobile.reuters.com##.header-main.group.header
 mobile.reuters.com##.header-mini.header-main.group.header > .active.container.header-pane-main
@@ -1854,6 +1856,7 @@ ndtv.com###__cricketsubscribe > .noti_bgstyle
 ndtv.com###__cricketsubscribe > .noti_wrap
 ndtv.com###showhide
 ndtv.com###sticky_navigation_wrapper:style(position: relative !important; top: 0 !important;)
+ndtv.com##.sticky_navbar:style(position: relative !important; top: 0 !important;)
 nerdist.com##.condensed.main_header:style(position: relative !important; top: 0 !important;)
 nerdist.com##.container.header-inner-wrapper:style(position: relative !important; top: 0 !important;)
 nerdydata.com##.mdl-color-text--white.mdl-color--blue-900.mdl-layout__header--scroll.mdl-layout__header:style(position: relative !important; top: 0 !important;)
