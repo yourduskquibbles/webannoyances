@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 2:05 PM 2017-04-11
+! Last Modified: 5:59 PM 2017-04-11
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -356,6 +356,8 @@ bloomberg.com##a[href="#"]
 bloomberg.com##a[href="javascript:window.print();"]
 bloomberg.com##a[href^="mailto:"]
 bloombergview.com###header
+blueapron.com###header-main:style(position: relative !important; top: 0 !important;)
+blueapron.com##.fancybox-overlay-fixed.fancybox-overlay
 bluedotdaily.com###main-nav-wrap:style(position: relative !important; top: 0 !important;)
 bnn.ca##.main-header:style(position: relative !important; top: 0 !important;)
 boardingarea.com###ba-flybox
@@ -1692,6 +1694,8 @@ montereyherald.com###story_window > .article.toolbar
 montrealgazette.com##.l-header:style(position: relative !important; top: 0 !important;)
 moralmachine.mit.edu##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
 morningconsult.com###header-main:style(position: relative !important; top: 0 !important;)
+morningconsult.com###once-subscribe-modal
+morningconsult.com##.once-subscribe-modal__body.modal-body
 morningjournal.com##.article.toolbar:style(position: relative !important; top: 0 !important;)
 morningsave.com##.members-only
 motherjones.com###block-block-222
