@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:26 AM 2017-04-13
+! Last Modified: 12:00 PM 2017-04-13
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -282,6 +282,9 @@ backchannel.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBo
 backstageol.com###social-box
 backstageol.com##.aligncenter.size-full.wp-image-3161
 backstageol.com##IFRAME[src="//www.facebook.com/plugins/likebox.php?href=http://www.facebook.com/backstageol&width=300&height=258&show_faces=true&colorscheme=light&stream=false&show_border=false&header=false"]
+baidu.com###head:style(position: relative !important; top: 0 !important;)
+baidu.com##.s_down:style(position: relative !important; top: 0 !important;)
+baidu.com##.s_form:style(position: relative !important; top: 0 !important;)
 bakingsteel.com###hbl_operator_state_div
 bakingsteel.com###mainNavigation:style(position: relative !important; top: 0 !important;)
 bakingsteel.com###showOnScrollWrapper:style(position: relative !important; top: 0 !important;)
