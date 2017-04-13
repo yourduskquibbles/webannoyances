@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:58 PM 2017-04-12
+! Last Modified: 10:38 AM 2017-04-13
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -520,6 +520,7 @@ centurylink.net##.in.bottom.popover
 cepro.com##.cd-main-header:style(position: relative !important; top: 0 !important;)
 cepro.com##.sticky:style(position: relative !important; top: 0 !important;)
 channelnewsasia.com##.header-area-scrolled.nav-area:style(position: relative !important; top: 0 !important;)
+channelnewsasia.com##.title-bar:style(position: relative !important; top: 0 !important;)
 channelnewsasia.com##.wrapper-nav:style(position: relative !important; top: 0 !important;)
 chargeprotect.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
 chase.com###dashboard-header:style(position: relative !important; top: 0 !important;)
@@ -1939,6 +1940,7 @@ nfl.com##:xpath(.//*[@class="yui3-overlay-content yui3-widget-stdmod"])
 nfl.com##:xpath(/html/body/*//div[@class="yui3-ff-feedback-content yui3-widget-content-expanded"])
 nflshop.com###NFLFooterContentBottomMiddleSocial
 nknews.org##.scroll-fix.header.header-main:style(position: relative !important; top: 0 !important;)
+nltimes.nl###header:style(position: relative !important; top: 0 !important;)
 nme.com###navigation
 nootrobox.com##.article__sidebar__container
 nootrobox.com##.navbar-fixed-top.navbar
@@ -2243,6 +2245,8 @@ quora.com##.new_signup_dialog.modal_bg
 quora.com##.section.share_question
 quora.com##:xpath(.//*[@class="NonAccessSiteHeader SiteHeader LoggedOutSiteHeader"])
 quora.com##:xpath(.//*[@class="NonMemberSiteHeader SiteHeader LoggedOutSiteHeader"])
+quora.com##:xpath(.//*[@class="SignupFooter"])
+quora.com##:xpath(.//*[@class="fixed_footer_gradient"])
 quora.com##:xpath(.//*[@class="open_in_app_link"])
 qz.com###header
 qz.com###nav-main:style(position: relative !important; top: 0 !important;)
@@ -2862,6 +2866,7 @@ thinkprogress.org##.post-tools.addthis_32x32_style
 thisisinsider.com##.condensed.masthead:style(position: relative !important; top: 0 !important;)
 thisisinsider.com##.main-header:style(position: relative !important; top: 0 !important;)
 thomsonreuters.com##.navbar-toggleable.navbar-inverse.bg-inverse.fixed-top.navbar-full.navbar.header:style(position: relative !important; top: 0 !important;)
+thoughtcrimemedia.net##.Mobile-bar--top.Mobile-bar:style(position: relative !important; top: 0 !important;)
 thrillist.com###mobile-elements:style(position: relative !important; top: 0 !important;)
 thrillist.com###mobile-header-inner:style(position: relative !important; top: 0 !important;)
 thrillist.com###mobile-header-utility:style(position: relative !important; top: 0 !important;)
@@ -3011,6 +3016,7 @@ usatoday.com##.site-masthead-subscribe-wrap-visible.site-masthead-subscribe-wrap
 usatoday.com##.sponsor
 usatoday.com##.story-tools
 usatoday.com##.utility-bar-wrap
+useragents.com##.navbar-header:style(position: relative !important; top: 0 !important;)
 usmagazine.com###module-reading-list:style(position: relative !important; top: 0 !important;)
 usmagazine.com##.color-theme-hed.row.header-nav:style(position: relative !important; top: 0 !important;)
 usmagazine.com##.main-bg.header:style(position: relative !important; top: 0 !important;)
