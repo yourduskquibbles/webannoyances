@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 3:39 PM 2017-04-14
+! Last Modified: 9:42 PM 2017-04-14
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -894,6 +894,7 @@ elitedaily.com##.stickyHeader.headerInView
 elitedaily.com##.stickyNavWrapper
 elle.com##.content-nav-active.sticky.nav:style(position: relative !important; top: 0 !important;)
 elle.com##.sticky.nav:style(position: relative !important; top: 0 !important;)
+emptywheel.net###header:style(position: relative !important; top: 0 !important;)
 engadget.com###header-post-nav:style(position: relative !important; top: 0 !important;)
 engadget.com###nav-flow:style(position: relative !important; top: 0 !important;)
 engadget.com##.h-40.r-0.l-0.b-0.fixed.flex.c-white.hide\@tl\+.o-mobile-share-footer
@@ -2744,6 +2745,9 @@ thehill.com##.region-highlighted.region:style(position: relative !important; top
 thehill.com##.scroll-down-to-next
 thehill.com##.scrolling-content:style(position: relative !important; top: 0 !important;)
 thehill.com##:xpath(.//*[@class="rollover-people-block"])
+thehindu.com###storyNextPopUp
+thehindu.com##.back-top
+thehindu.com##.clear.main-menu.navbar:style(position: relative !important; top: 0 !important;)
 thehockeywriters.com###page-header-mobile:style(position: relative !important; top: 0 !important;)
 theinformation.com##.sticky-header:style(position: relative !important; top: 0 !important;)
 theinquirer.net###large_share_wrapper
