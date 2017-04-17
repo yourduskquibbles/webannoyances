@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 9:42 PM 2017-04-14
+! Last Modified: 11:08 AM 2017-04-17
 ! Title: Web Annoyances Ultralist
 
 # Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
@@ -63,6 +63,10 @@
 /mailmunch/static/popover.js
 /optin-monster/*$script
 /optinmonster/*$script
+100percentfedup.com##.spu-bg
+100percentfedup.com##.spu-total-.spu-centered.spu-box
+100percentfedup.com##.td-affix.td-header-main-menu.td-header-border.td-header-row:style(position: relative !important; top: 0 !important;)
+100percentfedup.com##.td-header-style-8.td-header-wrap:style(position: relative !important; top: 0 !important;)
 12thman.com##.navigation:style(position: relative !important; top: 0 !important;)
 2paragraphs.com##.nav-primary
 2paragraphs.com##.nav-primary > .wrap
@@ -250,7 +254,9 @@ atlasobscura.com##.m-social-adhesive-wrap.hidden-lg.hidden-md:style(position: re
 atomicdelights.com###header:style(position: relative !important; top: 0 !important;)
 atr.org###closeFlyOut
 atr.org###fancybox-overlay
+atr.org###pop_up
 atr.org##.fancybox-wrap.fancybox-desktop.fancybox-type-iframe.fancybox-opened
+atr.org##.navbar:style(position: relative !important; top: 0 !important;)
 atr.rollcall.com###share-top
 auburntigers.com###header:style(position: relative !important; top: 0 !important;)
 auburntigers.com###sport-nav:style(position: relative !important; top: 0 !important;)
@@ -300,6 +306,7 @@ bedbathandbeyond.com###box
 bedbathandbeyond.com###topNavHeader:style(position: relative !important; top: 0 !important;)
 bedbathandbeyond.com##.ad-block-msg-wrapper
 bedbathandbeyond.com##.overlay
+bellingcat.com##.navigation-main:style(position: relative !important; top: 0 !important;)
 beltmag.com###popup
 bestbuy.com###pdp-sticky-header:style(position: relative !important; top: 0 !important;)
 bet.com##.header__nav__bar:style(position: relative !important; top: 0 !important;)
@@ -403,6 +410,7 @@ brainyquote.com##.is-sticky.sticky-wrapper:style(position: relative !important; 
 brave.com##.top-nav-collapse.navbar-fixed-top.navbar-default.navbar.one-page-header:style(position: relative !important; top: 0 !important;)
 bravocompanyusa.com##.sb-toggle.sb-tab
 breitbart.com###BBStoreLead
+breitbart.com###BBStoreW
 breitbart.com###EmailOptinM
 breitbart.com###HWIC:style(position: relative !important; top: 0 !important;)
 breitbart.com###bb-store-ldr
@@ -1932,23 +1940,25 @@ newsweek.com##.page-header:style(position: relative !important; top: 0 !importan
 newsweek.com##.trial-link
 newyorker.com###AMS_NYR_CONTENTPAGE_TEXTOFFER
 newyorker.com###digital-editions
-newyorker.com###header-subs
-newyorker.com###header-subs-a
+newyorker.com###header-subs-a:style(position: relative !important; top: 0 !important;)
+newyorker.com###header-subs:style(position: relative !important; top: 0 !important;)
 newyorker.com###position2_yrail
 newyorker.com###rolloverAd
 newyorker.com##.author-media
 newyorker.com##.content-well-newsletter
+newyorker.com##.fixed-topnav.jsready.hamburger-dropdowns-navigation__header-overrides.viewed-topbanner:style(position: relative !important; top: 0 !important;)
 newyorker.com##.hamburger-dropdowns-navigation__top-level:style(position: relative !important; top: 0 !important;)
-newyorker.com##.header-fail
+newyorker.com##.header-fail:style(position: relative !important; top: 0 !important;)
 newyorker.com##.header-wrapper:style(position: relative !important; top: 0 !important;)
 newyorker.com##.js-main-nav-outer.hamburger-dropdowns-navigation__header-overrides:style(position: relative !important; top: 0 !important;)
 newyorker.com##.js-nav-bar.hamburger-dropdowns-navigation__horizontal-bar:style(position: relative !important; top: 0 !important;)
-newyorker.com##.js-sticky-element
-newyorker.com##.primary-nav:style(position: relative !important; top: 0 !important;)
+newyorker.com##.js-sticky-element:style(position: relative !important; top: 0 !important;)
+newyorker.com##.mobile-nav:style(position: relative !important; top: 0 !important;)
+newyorker.com##.primary-nav:style(position: relative !important; top: 1 !important;)
 newyorker.com##.utilities
 newyorker.com##.yrcomponent
-newyorker.com##UL
-nextcity.org##.wrapper.header
+newyorker.com##UL:style(position: relative !important; top: 0 !important;)
+nextcity.org##.wrapper.header:style(position: relative !important; top: 0 !important;)
 nfl.com###experienceUpgradePromo
 nfl.com##.yui3-nfl-rewards-drivebar-top-bar-wrapper
 nfl.com##:xpath(.//*[@class="yui3-overlay-content yui3-widget-stdmod"])
@@ -2056,6 +2066,7 @@ nytimes.com##.sharetools
 nytimes.com##.subColumn-2.noBackground.mobilePromo.nocontent
 nytimes.com#@#.flag-moreFollowSuggestions-on
 nzherald.co.nz##.floatingNav:style(position: relative !important; top: 0 !important;)
+oakpark.com##.ui-panel-content-fixed-toolbar-closed.ui-panel-animate.ui-panel-content-fixed-toolbar.slidedown.ui-header-fixed.ui-bar-c.ui-header.np:style(position: relative !important; top: 0 !important;)
 observer.com##.banner-and-nav-wrapper:style(position: relative !important; top: 0 !important;)
 observer.com##.fw-site-header:style(position: relative !important; top: 0 !important;)
 observer.com##.jetpack-is-mobile.fw-site-header:style(position: relative !important; top: 0 !important;)
@@ -2163,6 +2174,7 @@ plays.tv##.mod-page-support
 plays.tv##:xpath(.//*[@data-module-id="VOPFeedCTAMod"])
 plos.org###floatTitleTop:style(position: relative !important; top: 0 !important;)
 pogo.org###sticky
+pokeassistant.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 pokemongodb.net###rev-toaster
 policymic.com###share
 policymic.com###social-prompt-circle-slider
@@ -2331,6 +2343,8 @@ redfin.com###RegistrationLightbox_underlay
 redfin.com###sideBarContent
 redskins.com###TNFLSubNavigation_main:style(position: relative !important; top: 0 !important;)
 redskins.com###nflMenuHeader:style(position: relative !important; top: 0 !important;)
+rei.com###header:style(position: relative !important; top: 0 !important;)
+rei.com###mainNav:style(position: relative !important; top: 0 !important;)
 relevantmagazine.com###masthead:style(position: relative !important; top: 0 !important;)
 renttherunway.com##.light-background:style(position: relative !important; top: 0 !important;)
 renttherunway.com##.mfp-ready.auth-form.mfp-auto-cursor.mfp-wrap
@@ -2532,6 +2546,7 @@ snapguide.com##.print-btn-wrapper.cover-nav
 snapguide.com##.sg-card
 snapzu.com##.welcome
 snmidatlantic.com###nbcsports-primary-nav
+snopes.com###left-floating-shares
 snopes.com##.sticky-header-offset.gpu-acceleration.main-container > .sticky-active.sticky.compact.clearfix.header:style(position: relative !important; top: 0 !important;)
 sochi2014.com##.b-sociality-menu
 sociable.co###nav-wrap
@@ -2748,6 +2763,7 @@ thehill.com##:xpath(.//*[@class="rollover-people-block"])
 thehindu.com###storyNextPopUp
 thehindu.com##.back-top
 thehindu.com##.clear.main-menu.navbar:style(position: relative !important; top: 0 !important;)
+thehippyseedcompany.com##.is_stuck.is_stuck_show.header-left.header-overlay.header-sticky.header-site:style(position: relative !important; top: 0 !important;)
 thehockeywriters.com###page-header-mobile:style(position: relative !important; top: 0 !important;)
 theinformation.com##.sticky-header:style(position: relative !important; top: 0 !important;)
 theinquirer.net###large_share_wrapper
@@ -3312,6 +3328,7 @@ wisconsinrapidstribune.com###tnutybcwirgmqnxqlwewtipoaqmhwgpzhmi
 wisconsinrapidstribune.com##.toolsShare
 wjla.com###facebookShare
 wjla.com##.v2.sd-header-wrapper:style(position: relative !important; top: 0 !important;)
+wkyc.com##.fixed.header:style(position: relative !important; top: 0 !important;)
 wmagazine.com##.expanded.riser
 wmagazine.com##.sub-header-sticky:style(position: relative !important; top: 0 !important;)
 wmagazine.com##.sub-header:style(position: relative !important; top: 0 !important;)
@@ -3438,6 +3455,7 @@ yesimright.com##.td-affix.td-header-menu-wrap:style(position: relative !importan
 yotatech.com###magicbar:style(position: relative !important; top: 0 !important;)
 yotatech.com###nav1:style(position: relative !important; top: 0 !important;)
 yotatech.com##.ib-header-top:style(position: relative !important; top: 0 !important;)
+youngcons.com##.js-header.c-header:style(position: relative !important; top: 0 !important;)
 yourdictionary.com##.wordFinderFloating.floating-header.header-container.row:style(position: relative !important; top: 0 !important;)
 yourmechanic.com##.nav-bar__body
 youtube.com###masthead-positioner:style(position: relative !important; top: 0 !important;)
