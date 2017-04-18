@@ -1,4 +1,4 @@
-# webannoyances
+# Web Annoyances
 Block annoying web elements such as floating headers, scrolling headers,
 stickynavs, sticky headers, social share bars, smartphone app banners, app download nag screens,
 floating navigation boxes, jump to top, site overlays, subscription nags, and distracting elements
