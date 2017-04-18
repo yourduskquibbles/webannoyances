@@ -2,19 +2,22 @@
 ! Last Modified: 10:06 AM 2017-04-18
 ! Title: Web Annoyances Ultralist
 
-# Purpose is to block annoying web elements such as floating boxes, stuck headers, stickynavs, sticky headers and generally annoying website behavior. 
-# Works best with uBlock Origin
+! Purpose is to block annoying web elements and make the web usable again!
+! Cosmetically remove scrolling headers, stickynavs, sticky headers, floating headers, social share bars, smartphone app banners,
+! app download nag screens, floating navigation boxes, jump to top, site overlays, subscription nags and generally annoying website behavior. 
+! When possible, sticky headers, stickynavs, and stuck headers will be pinned to the top of the site to prevent site breakage.
+! Works best with uBlock Origin
 
-# Static filter syntax and help
-# https://adblockplus.org/en/filter-cheatsheet
-# https://github.com/gorhill/uBlock/wiki/Static-filter-syntax
-# https://github.com/gorhill/uBlock/wiki/Procedural-cosmetic-filters
-# https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax
+! Static filter syntax and help
+! https://adblockplus.org/en/filter-cheatsheet
+! https://github.com/gorhill/uBlock/wiki/Static-filter-syntax
+! https://github.com/gorhill/uBlock/wiki/Procedural-cosmetic-filters
+! https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax
 
 ! Keep at top syntax
 ! :style(position: relative !important; top: 0 !important;)
 
-! Start Web Annoyances Filter List
+! Start Web Annoyances Ultralist
 ###appIntercept
 ###dream-box
 ###dsq-indicator-north
