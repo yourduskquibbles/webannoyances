@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:32 PM 2017-04-18
+! Last Modified: 12:55 PM 2017-04-18
 ! Title: Web Annoyances Ultralist
 
 ! Purpose is to block annoying web elements and make the web usable again!
@@ -977,6 +977,8 @@ express.co.uk###main_menu_bar:style(position: relative !important; top: 0 !impor
 extracrispy.com###js-site-header:style(position: relative !important; top: 0 !important;)
 extremetech.com##.hybrid-bar
 facebook.com###stream_pagelet div[id^="feed_stream_"] div[id^="substream_"] div[id^="hyperfeed_story_id_"]:has(a.uiStreamSponsoredLink)
+facebook.com##._11gk
+facebook.com##._2avl
 facebook.com##.canvas_rating_popout
 facebook.com##:xpath(.//*[@data-games-xout-query-type="gyml-recommended"])
 facebook.com##:xpath(//*/a[@class='uiStreamSponsoredLink']/ancestor::div[contains(concat(' ',normalize-space(@id),' '),'hyperfeed_story_id_')])
