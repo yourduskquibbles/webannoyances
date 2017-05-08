@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:38 PM 2017-05-05
+! Last Modified: 8:21 AM 2017-05-08
 ! Title: Web Annoyances Ultralist
 
 ! Purpose is to block annoying web elements and make the web usable again!
@@ -935,6 +935,8 @@ districtondeck.com##.prev.fixed-article-nav
 dividend.com###newsletter-modal
 dividend.com###popup-modal
 dividend.com##.affix.mm-header
+dividend.com##.affix.stock-data:style(position: relative !important; top: 0 !important;)
+dividend.com##.affix.stock-nav:style(position: relative !important; top: 0 !important;)
 dividend.com##.in.modal-backdrop
 dnainfo.com###social-buttons
 dnainfo.com##.main-nav.navbar-wrapper:style(position: relative !important; top: 0 !important;)
@@ -1922,11 +1924,14 @@ nasa.gov##.fixed_show.fixed.site_header_area:style(position: relative !important
 nasa.gov##.next.article_nav_block
 nasa.gov##.prev.article_nav_block
 nasdaq.com###addthisSticky
+nasdaq.com###back-to-top
 nasdaq.com###global_header:style(position: relative !important; top: 0 !important;)
 nasdaq.com###global_nav:style(position: relative !important; top: 0 !important;)
 nasdaq.com###global_search
 nasdaq.com###pfooter
 nasdaq.com###stock-search
+nasdaq.com##.global-fixed-nav:style(position: relative !important; top: 0 !important;)
+nasdaq.com##.header_wrap:style(position: relative !important; top: 0 !important;)
 nasdaq.com##.oo_feedback_float
 nationalenquirer.com###main-header:style(position: relative !important; top: 0 !important;)
 nationalgeographic.com##.hidden-pt.hidden-md.social-mobile
@@ -2777,6 +2782,9 @@ straitstimes.com##.navbar-fixed-top.navbar-default.container.navbar:style(positi
 stream.org##.show.sticky_share
 stream.org##header:style(position: relative !important; top: 0 !important;)
 streetwise.co###center-flyin
+stripes.com###APIpopup_shadowoverlay
+stripes.com###ppUI
+stripes.com###pressplusOverlay
 stripes.com##.fadeIn1.animate.hide-for-large-up.tab-bar
 studybreaks.com###cb-nav-bar:style(position: relative !important; top: 0 !important;)
 studybreaks.com##.cb-menu-fw.cb-font-header.clearfix.cb-site-padding.cb-nav-bar-wrap:style(position: relative !important; top: 0 !important;)
