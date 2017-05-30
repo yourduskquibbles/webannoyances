@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 7:19 AM 2017-05-30
+! Last Modified: 1:25 PM 2017-05-30
 ! Title: Web Annoyances Ultralist
 
 ! Purpose is to block annoying web elements and make the web usable again!
@@ -18,6 +18,7 @@
 ! :style(position: relative !important; top: 0 !important;)
 
 ! Start Web Annoyances Ultralist
+chase.com##.header:style(position: relative !important; top: 0 !important;)
 ###appIntercept
 ###dream-box
 ###dsq-indicator-north
@@ -133,6 +134,7 @@ actionnetwork.org###pre_header:style(position: relative !important; top: 0 !impo
 adage.com##.skrollable-after.skrollable.shortcut-bar:style(position: relative !important; top: 0 !important;)
 adage.com##.sp_right.sp_ticker
 adobe.com###j-compact-header:style(position: relative !important; top: 0 !important;)
+adobe.com###j-header-wrap:style(position: relative !important; top: 0 !important;)
 adp.com##.clearfix.top-nav.adp-nav-background:style(position: relative !important; top: 0 !important;)
 adriannapapell.com##.popup-content
 adventuresofanurse.com##.nav-primary:style(position: relative !important; top: 0 !important;)
@@ -530,11 +532,12 @@ buzzfeed.com###nav-shares
 buzzfeed.com###share_control
 buzzfeed.com##.c.bottom_shares
 buzzfeed.com##.fill-white.clearfix.xs-border-bottom-lighter.xs-py2.sm-block.xs-hide
+buzzfeed.com##.js-header-section-content.xs-l0.xs-z4.sm-fixed.xs-relative.xs-col-12:style(position: relative !important; top: 0 !important;)
 buzzfeed.com##.nav--news.fill-white.xs-border-bottom-lighter.xs-col-12.xs-z4.xs-l0.nav--desktop.nav:style(position: relative !important; top: 0 !important;)
 buzzfeed.com##.pullquote_shares_wrapper
 buzzfeed.com##.share-box
 buzzfeed.com##.vertical-sidebar-info.bf_dom.diy-connect
-buzzfeed.com##.xs-l0.xs-z4.sm-fixed.xs-relative.xs-col-12.js-header-section-content
+buzzfeed.com##.xs-l0.xs-z4.sm-fixed.xs-relative.xs-col-12.js-header-section-content:style(position: relative !important; top: 0 !important;)
 bythewavs.com##.nav-primary:style(position: relative !important; top: 0 !important;)
 c4isrnet.com###page-content > .js-pubsub-module.has-secondary-nav.layout-module.no-subscribe-now.generic-module
 calgaryherald.com##.mobile-header.header-nav:style(position: relative !important; top: 0 !important;)
@@ -968,6 +971,8 @@ dnainfo.com##.main-nav.navbar-wrapper:style(position: relative !important; top: 
 dnainfo.com##HEADER:style(position: relative !important; top: 0 !important;)
 docs.microsoft.com#.lf-selection-popover
 dom.com###topMainNav:style(position: relative !important; top: 0 !important;)
+dominionenergy.com##.makeSticky:style(position: relative !important; top: 0 !important;)
+dominionenergy.com##.navbar-fixed-top.navbar-default:style(position: relative !important; top: 0 !important;)
 donnyferguson.com##.back-top
 drafthouse.com##.fixed.contain-to-grid:style(position: relative !important; top: 0 !important;)
 drafthouse.com##.top-bar:style(position: relative !important; top: 0 !important;)
@@ -1691,6 +1696,8 @@ latimes.com##.trb_sntAd.trb_ar_rail_ad.trb_gptAd
 laughingsquid.com###dd_ajax_float
 laughingsquid.com##.shareaholic-canvas
 lauradhamilton.com###connect
+law.cornell.edu###cu-identity:style(position: relative !important; top: 0 !important;)
+law.cornell.edu###liiheader:style(position: relative !important; top: 0 !important;)
 lawnewz.com##.compact.teads-helper:style(position: relative !important; top: 0 !important;)
 lawnewz.com##.teads-helper.full:style(position: relative !important; top: 0 !important;)
 leadpages.net$script
@@ -1870,11 +1877,12 @@ mic.com##.modal-prompt-half-page
 mic.com##.newsletter-signup-mobile--mic.newsletter-signup-mobile
 michaels.com##.modal-backdrop.fade.in
 michaels.com##.modal-body
-midwayusa.com###rvWrapper
+midwayusa.com###rvWrapper:style(position: relative !important; top: 0 !important;)
+military.com###mastHead:style(position: relative !important; top: 0 !important;)
 militarytimes.com###top-header:style(position: relative !important; top: 0 !important;)
 militarytimes.com##.js-pubsub-module.has-secondary-nav.layout-module.generic-module:style(position: relative !important; top: 0 !important;)
 militarytimes.com##.site-color.secondary-navigation:style(position: relative !important; top: 0 !important;)
-minds.com##.topbar
+minds.com##.topbar:style(position: relative !important; top: 0 !important;)
 mirror.co.uk###bottom-article-message
 mirror.co.uk##.active.publication-theme-border.mod-cookiepolicy
 mirror.co.uk##.mod-header:style(position: relative !important; top: 0 !important;)
@@ -1894,7 +1902,7 @@ mobile.twitter.com##:xpath(.//*[@role="banner"])
 mobile.wnd.com###header:style(position: relative !important; top: 0 !important;)
 mobilityware.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 modernfarmer.com###_mmtoggle
-modernfarmer.com###fixed_nav
+modernfarmer.com###fixed_nav:style(position: relative !important; top: 0 !important;)
 modernfarmer.com###om-r67mpzig62-lightbox
 modernfarmer.com##.mf-fixednav-hidden.fix
 modernfarmer.com##.mf-postlayout-sb
@@ -1935,6 +1943,7 @@ mozilla-community.org###topic-progress-wrapper
 mozilla-community.org##.clearfix.d-header:style(position: relative !important; top: 0 !important;)
 mozilla.org###nav:style(position: relative !important; top: 0 !important;)
 mozilla.org###site-welcome
+mozilla.org##.stuck.firefox.moz-sub-nav:style(position: relative !important; top: 0 !important;)
 mrctv.org###top-nav:style(position: relative !important; top: 0 !important;)
 msn.com###subfoot
 msn.com##.Modelinfo
