@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 1:25 PM 2017-05-30
+! Last Modified: 6:28 PM 2017-05-30
 ! Title: Web Annoyances Ultralist
 
 ! Purpose is to block annoying web elements and make the web usable again!
@@ -18,7 +18,6 @@
 ! :style(position: relative !important; top: 0 !important;)
 
 ! Start Web Annoyances Ultralist
-chase.com##.header:style(position: relative !important; top: 0 !important;)
 ###appIntercept
 ###dream-box
 ###dsq-indicator-north
@@ -77,6 +76,7 @@ chase.com##.header:style(position: relative !important; top: 0 !important;)
 1843magazine.com##.masthead:style(position: relative !important; top: 0 !important;)
 20minutes.fr##.navbar:style(position: relative !important; top: 0 !important;)
 20minutes.fr##.pinned.headroom--not-top.headroom--not-bottom.animated.navbar:style(position: relative !important; top: 0 !important;)
+2bigfeet.com##.nav-overflow:style(position: relative !important; top: 0 !important;)
 2paragraphs.com##.nav-primary
 2paragraphs.com##.nav-primary > .wrap
 2paragraphs.com##.site-header
@@ -617,6 +617,7 @@ chase.com###header-inner-fixed-container:style(position: relative !important; to
 chase.com###header:style(position: relative !important; top: 0 !important;)
 chase.com###headerclassic:style(position: relative !important; top: 0 !important;)
 chase.com###pnt-tabs:style(position: relative !important; top: 0 !important;)
+chase.com##.header:style(position: relative !important; top: 0 !important;)
 chefsfeed.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 chefsteps.com##.cs-nav:style(position: relative !important; top: 0 !important;)
 cheftalk.com###site-header:style(position: relative !important; top: 0 !important;)
@@ -1329,6 +1330,8 @@ gofundme.com##.fixed-container:style(position: relative !important; top: 0 !impo
 gofundme.com##.reveal-overlay
 gofundme.com##.top-bar:style(position: relative !important; top: 0 !important;)
 golfdigest.com##.site-header.component-sticky:style(position: relative !important; top: 0 !important;)
+golfetail.com###___ratingbadge_0
+golflink.com###NotAMember_pnlNotAMember
 golfnow.com##.fixed.sticky.contain-to-grid:style(position: relative !important; top: 0 !important;)
 golfweek.com##.sign-up-module.module
 good.is##.state-fixed.js-fixie-header.fixie-header:style(position: relative !important; top: 0 !important;)
@@ -2548,9 +2551,11 @@ qz.com###tab-bar
 qz.com##.anno-right
 qz.com##.header-container:style(position: relative !important; top: 0 !important;)
 racked.com###chorus-social-fixed
+racked.com##.c-action-box
 racked.com##.c-newsletter-promo
 racked.com##.m-pinterest-button.m-social-buttons__popup
 racked.com##.tab-bar-fixed.c-tab-bar:style(position: relative !important; top: 0 !important;)
+racked.com##:xpath(.//*[@class="p-entry-hr"])
 radaronline.com###main-header
 ramblinwreck.com###header:style(position: relative !important; top: 0 !important;)
 ramw.org###fixed_section
