@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 8:57 AM 2017-05-31
+! Last Modified: 9:51 AM 2017-05-31
 ! Title: Web Annoyances Ultralist
 
 ! Purpose is to block annoying web elements and make the web more user friendly!
@@ -687,6 +687,8 @@ circa.com##footer
 circa.com##header:style(position: relative !important; top: 0 !important;)
 citizenslant.com###navigation:style(position: relative !important; top: 0 !important;)
 city-data.com###top_menu:style(position: relative !important; top: 0 !important;)
+city-journal.org##.isShown.m_article-title-bar:style(position: relative !important; top: 0 !important;)
+city-journal.org##.l_shifter > .isScrolled.isLight.l_main-header
 citylab.com###blocker-msg-start
 citylab.com###social-sticky
 citymetric.com###footer
@@ -1134,9 +1136,11 @@ fatwallet.com##TD[align="right"]
 fb.com##.fb-like.wsh_pb10
 features.wearemel.com##.js-promo.promo--postFooter.promo
 federalbaseball.com##.tab-bar-fixed.c-tab-bar:style(position: relative !important; top: 0 !important;)
+fee.org###articleRibbonRoot:style(position: relative !important; top: 0 !important;)
 fee.org###chatra__iframe
 fee.org###email-capture-modal
 fee.org##.in.fade.modal-backdrop
+fee.org##.scroll-to-bottom
 fhm.com###FHMIssueCover
 fhm.com###ctl00_Body_slideboxDiv
 fhm.com###socialButton
@@ -1300,6 +1304,7 @@ geek.com###menu
 geek.com##.socialmediabottom.fixedfooter
 geekdad.com##:xpath(.//*[@data-alias="Navigation"])
 geekwire.com##.navbar-fixed-top.navbar-inverse.navbar.banner:style(position: relative !important; top: 0 !important;)
+geopoliticalfutures.com##.modal-container--visible.modal-container
 getconnected.southwestwifi.com###cepgad
 getyounity.com##.nav-container.full-width-container:style(position: relative !important; top: 0 !important;)
 giftcardgranny.com###nav-main:style(position: relative !important; top: 0 !important;)
@@ -1347,6 +1352,7 @@ gofundme.com###nav-menu:style(position: relative !important; top: 0 !important;)
 gofundme.com##.fixed-container:style(position: relative !important; top: 0 !important;)
 gofundme.com##.reveal-overlay
 gofundme.com##.top-bar:style(position: relative !important; top: 0 !important;)
+golf.com##.hide-nav-elements.contextual-social-enabled.no-utility-ribbon.main:style(position: relative !important; top: 0 !important;)
 golfdigest.com##.site-header.component-sticky:style(position: relative !important; top: 0 !important;)
 golfetail.com###___ratingbadge_0
 golflink.com###NotAMember_pnlNotAMember
@@ -1391,6 +1397,7 @@ grandst.com###share_holder
 grandst.com###site_overlay
 granta.com##.small-nav
 grasscity.com##.sticky_wrapper:style(position: relative !important; top: 0 !important;)
+greentechmedia.com###header:style(position: relative !important; top: 0 !important;)
 groundup.org.za##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 groupon.com###spotlight
 gsa.gov###gsaFeedback
@@ -1539,6 +1546,8 @@ ijr.com##.fa-stack-2x.fa-circle.fa
 ijr.com##.opt360-header.py1.z10000.right-0.left-0.top-0.fixed.border-box.header-height:style(position: relative !important; top: 0 !important;)
 ijr.com##.z1.relative > .header-height:style(position: relative !important; top: 0 !important;)
 ijr.com##:xpath(.//*[@data-reactid="62"])
+imausa.com###snppopup-exit
+imausa.com##.scrolled.scroll_header_top_area.fixed.page_header:style(position: relative !important; top: 0 !important;)
 imbibemagazine.com##.sticky.main-menu-fixed:style(position: relative !important; top: 0 !important;)
 imgur.com###header:style(position: relative !important; top: 0 !important;)
 imgur.com##.AppBanner-long.AppBanner-secondLvl.AppBanner
@@ -1611,6 +1620,7 @@ instyle.com##.instyle_menu:style(position: relative !important; top: 0 !importan
 intel.com##.navbar-fixed-top.global-menu-simplify:style(position: relative !important; top: 0 !important;)
 intel.com##.no-print.breadcrumb.blade-support:style(position: relative !important; top: 0 !important;)
 interpretermag.com##.clearfix.container
+intersectionproject.eu###subscription-form
 intuit.com###hypothesis-testing-frame
 intuit.com###module-advice
 intuit.com###module-offers
@@ -2162,6 +2172,7 @@ newsmax.com###nmSpecialLinksWrapper
 newsmax.com###sharebar:style(position: relative !important; top: 0 !important;)
 newsnet5.com##.navbar.navbar--tv.navbar--bg:style(position: relative !important; top: 0 !important;)
 newson6.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
+newstatesman.com##.clearfix.site-header:style(position: relative !important; top: 0 !important;)
 newsweek.com###block-nw-nw-header:style(position: relative !important; top: 0 !important;)
 newsweek.com###header_subscribe
 newsweek.com##.affix.stickyhead:style(position: relative !important; top: 0 !important;)
@@ -2529,6 +2540,9 @@ privateinternetaccess.com##.navbar-pia-wrapper:style(position: relative !importa
 prnewswire.com##.visible-xs-block.mm-slideout.navbar-fixed-top.navbar-default.navbar.header-mobile
 prnewswire.com##.visible-xs-block.mm-slideout.navbar-fixed-top.navbar-default.navbar.header-mobile > .container
 progressivearmy.com##.g1-back-to-top-on.g1-back-to-top
+project-syndicate.org##.commented.inline-comment
+project-syndicate.org##.header-component.small-mt-0:style(position: relative !important; top: 0 !important;)
+project-syndicate.org##.sticky--is-stuck.support-ps.sticky__footer
 projectcensored.org###lpl
 projectcensored.org###lpl-overlay
 proofpoint.com##.scroll-header.js-header.header:style(position: relative !important; top: 0 !important;)
@@ -2605,6 +2619,21 @@ rd.com##.fwf__drop-for-mobile.fwf--fixed__right
 rd.com##.js--sticky.rd-article--sharing
 rd.com##.stationary-site-header--promo:style(position: relative !important; top: 0 !important;)
 readonlymemory.vg##.hidden-small.notification-bar
+realclearbooks.com:style(position: relative !important; top: 0 !important;)
+realcleardefense.com###facebox
+realcleardefense.com###facebox_overlay
+realcleardefense.com##.nav-down:style(position: relative !important; top: 0 !important;)
+realcleardefense.com##.overlay
+realcleardefense.com##.progress-bar:style(position: relative !important; top: 0 !important;)
+realcleareducation.com##.nav-down:style(position: relative !important; top: 0 !important;)
+realclearenergy.org##.nav-down:style(position: relative !important; top: 0 !important;)
+realclearfuture.com##.nav-down:style(position: relative !important; top: 0 !important;)
+realclearhealth.com##.nav-down:style(position: relative !important; top: 0 !important;)
+realclearhistory.com##.nav-down:style(position: relative !important; top: 0 !important;)
+realclearinvestigations.com##.nav-down:style(position: relative !important; top: 0 !important;)
+realclearinvestigations.com:style(position: relative !important; top: 0 !important;)
+realclearlife.com:style(position: relative !important; top: 0 !important;)
+realclearmarkets.com##.nav-down:style(position: relative !important; top: 0 !important;)
 realclearpolitics.com###large_notif_wrapper
 realclearpolitics.com###large_notif_wrapper:style(position: relative !important; top: 0 !important;)
 realclearpolitics.com###masthead-container:style(position: relative !important; top: 0 !important;)
@@ -2615,9 +2644,14 @@ realclearpolitics.com##.alpha-wrapper:style(position: relative !important; top: 
 realclearpolitics.com##.beta_module
 realclearpolitics.com##.nav-down:style(position: relative !important; top: 0 !important;)
 realclearpolitics.com##.ndn_article_body_title
-realclearpolitics.com##.progress-bar
+realclearpolitics.com##.progress-bar:style(position: relative !important; top: 0 !important;)
 realclearpolitics.com##.upNext-container
 realclearpolitics.com##.video_float.rc_video_player_container
+realclearreligion.org##.nav-down:style(position: relative !important; top: 0 !important;)
+realclearscience.com##.nav-down:style(position: relative !important; top: 0 !important;)
+realclearsports.com##.nav-down:style(position: relative !important; top: 0 !important;)
+realclearworld.com##.nav-down:style(position: relative !important; top: 0 !important;)
+realclearworld.com:style(position: relative !important; top: 0 !important;)
 realitysteve.com###main-nav-wrap:style(position: relative !important; top: 0 !important;)
 reallifemag.com##.courier-standard.nav-wrap
 reason.com###donationdrive_popup
@@ -2786,6 +2820,7 @@ securityweek.com###block-block-3
 securityweek.com##.sharethis
 securityweek.com##DIV[style="margin-top:2px;"]
 seedlipdrinks.com###header:style(position: relative !important; top: 0 !important;)
+seeker.com##.u-color--black-background.header__inner--large.header__inner:style(position: relative !important; top: 0 !important;)
 seekingalpha.com###main-nav-wrapper-row:style(position: relative !important; top: 0 !important;)
 seekingalpha.com###nav_container:style(position: relative !important; top: 0 !important;)
 seekingalpha.com###nav_container_wrap:style(position: relative !important; top: 0 !important;)
@@ -3073,6 +3108,7 @@ thefader.com##.locked_nav.main_nav:style(position: relative !important; top: 0 !
 thefederalist.com###scrollable_box_asd
 thefederalist.com##.aside-left-social-standard
 thefiscaltimes.com###message
+thefiscaltimes.com##.sub-header:style(position: relative !important; top: 0 !important;)
 thefly.com###fixed_footer
 thefly.com###site_header:style(position: relative !important; top: 0 !important;)
 thefly.com###site_header_nav:style(position: relative !important; top: 0 !important;)
