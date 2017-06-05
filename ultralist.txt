@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 9:18 AM 2017-06-05
+! Last Modified: 12:23 PM 2017-06-05
 ! Title: Web Annoyances Ultralist
 
 ! Purpose is to block annoying web elements and make the web more user friendly!
@@ -585,6 +585,7 @@ cbslocal.com###text-48
 cbslocal.com##.addthis_toolbox.addthis_default_style
 cbslocal.com##.follow-us
 cbsnews.com###pip__headline:style(position: relative !important; top: 0 !important;)
+cbsnews.com##.site-header--is-sticky.nocontent.site-header:style(position: relative !important; top: 0 !important;)
 cbsnews.com##.smart-banner-cbsn
 cbsnews.com##.social.sharebar_expanded.inline-sharebar.theme-light
 cbssports.com###cbs-site-header:style(position: relative !important; top: 0 !important;)
@@ -872,6 +873,7 @@ dailymail.co.uk##.home.item.html_snippet_module
 dailymail.co.uk##.linksHolder-2WTnM
 dailymail.co.uk##.mobile-sharing.cc.news
 dailymail.co.uk##.mobile-sharing.home.cc
+dailymail.co.uk##.mobile-sharing.sciencetech.cc
 dailymail.co.uk##.mobile-sharing.tvshowbiz.cc
 dailymail.co.uk##.mol-previous-next-navigation_next-button
 dailymail.co.uk##.mol-previous-next-navigation_previous-button
@@ -882,6 +884,7 @@ dailymail.co.uk##.share-facebook
 dailymail.co.uk##.share-gplus
 dailymail.co.uk##.share-twitter
 dailymail.co.uk##.shareArticles
+dailymail.co.uk##.vjs-black-poster
 dailymail.co.uk##.vjs-control-bar
 dailymail.co.uk##.vjs-hidden.vjs-modal-overlay.vjs-caption-settings
 dailymail.co.uk##:xpath(.//*[@id="stickyBanner"])
@@ -1039,6 +1042,7 @@ elitedaily.com##.stickyHeader.headerInView
 elitedaily.com##.stickyNavWrapper
 elle.com##.content-nav-active.sticky.nav:style(position: relative !important; top: 0 !important;)
 elle.com##.sticky.nav:style(position: relative !important; top: 0 !important;)
+emilydamstra.com###scrollUp
 emptywheel.net###header:style(position: relative !important; top: 0 !important;)
 engadget.com###header-post-nav:style(position: relative !important; top: 0 !important;)
 engadget.com###nav-flow:style(position: relative !important; top: 0 !important;)
@@ -1834,6 +1838,7 @@ mackeeper.com##.header:style(position: relative !important; top: 0 !important;)
 mackeeper.com##.js-nav-mobile.nav-mobile:style(position: relative !important; top: 0 !important;)
 macworld.co.uk###idgBrands
 macworld.co.uk###topNav:style(position: relative !important; top: 0 !important;)
+madcoversite.com##.menubar:style(position: relative !important; top: 0 !important;)
 mademan.com##.ajax-end.persistent-tray
 mademan.com##.topbar
 mailtribune.com###loginBarBtm
@@ -2054,6 +2059,8 @@ nasdaq.com##.global-fixed-nav:style(position: relative !important; top: 0 !impor
 nasdaq.com##.header_wrap:style(position: relative !important; top: 0 !important;)
 nasdaq.com##.oo_feedback_float
 nationalenquirer.com###main-header:style(position: relative !important; top: 0 !important;)
+nationalgeographic.com###header-ad
+nationalgeographic.com##.add-this__init
 nationalgeographic.com##.hidden-pt.hidden-md.social-mobile
 nationalinterest.org###block-block-11
 nationalinterest.org###block-block-3
@@ -2098,7 +2105,9 @@ nbc12.com###toolbar
 nbc4i.com###masthead:style(position: relative !important; top: 0 !important;)
 nbcchicago.com##.site-header:style(position: relative !important; top: 0 !important;)
 nbcchicago.com##.stickyNav.nav-landing.navbar:style(position: relative !important; top: 0 !important;)
+nbclosangeles.com##.header:style(position: relative !important; top: 0 !important;)
 nbclosangeles.com##.stickyNav.nav-landing.navbar:style(position: relative !important; top: 0 !important;)
+nbclosangeles.com##.swiper-container-android.swiper-container-horizontal.quick-nav:style(position: relative !important; top: 0 !important;)
 nbcmiami.com##.header:style(position: relative !important; top: 0 !important;)
 nbcmiami.com##.swiper-container-android.swiper-container-horizontal.quick-nav
 nbcnews.com###ember983
@@ -2416,7 +2425,9 @@ pasted.co###captcha_box
 pasted.co###captcha_overlay
 pastemagazine.com###newsletter-signup-overlay
 pastemagazine.com##.detail.master-header.center:style(position: relative !important; top: 0 !important;)
+pastemagazine.com##.landing.master-header.center:style(position: relative !important; top: 0 !important;)
 pastemagazine.com##.ui-front.ui-widget-overlay
+pastemagazine.com##.ui-helper-clearfix.ui-corner-all.ui-widget-header.ui-dialog-titlebar:style(position: relative !important; top: 0 !important;)
 patch.com###slide-nav:style(position: relative !important; top: 0 !important;)
 patch.com##.header-container:style(position: relative !important; top: 0 !important;)
 patreon.com##._2JO-modules-Navigation-components-MobileNavbar--navbar:style(position: relative !important; top: 0 !important;)
