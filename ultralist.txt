@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 9:56 AM 2017-06-06
+! Last Modified: 10:38 AM 2017-06-06
 ! Title: Web Annoyances Ultralist
 
 ! Purpose is to block annoying web elements and make the web more user friendly!
@@ -2599,10 +2599,7 @@ qualityassurancemag.com###slide-nav
 qualityassurancemag.com##.navbar-header:style(position: relative !important; top: 0 !important;)
 qualityassurancemag.com##.supersocialshare-container
 queenbeetickets.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
-quora.com###__w2_Dm98LHe_view_in_app
-quora.com###__w2_EwI0w0F_header:style(position: relative !important; top: 0 !important;)
-quora.com###__w2_fAo1ptH_banner
-quora.com###header:style(position: relative !important; top: 0 !important;)
+quora.com##.LoggedOutSiteHeader.SiteHeader.NonMemberSiteHeader:style(position: relative !important; top: 0 !important;)
 quora.com##.PromptsList
 quora.com##.SiteHeader.LoggedInSiteHeader:style(position: relative !important; top: 0 !important;)
 quora.com##.content_marker
@@ -2611,11 +2608,8 @@ quora.com##.core_promo
 quora.com##.fixed_header:style(position: relative !important; top: 0 !important;)
 quora.com##.inner:style(position: relative !important; top: 0 !important;)
 quora.com##.modal_promoted_content
-quora.com##.new_signup_dialog.modal_bg
 quora.com##.section.share_question
 quora.com##.text_links
-quora.com##:xpath(.//*[@class="NonAccessSiteHeader SiteHeader LoggedOutSiteHeader"])
-quora.com##:xpath(.//*[@class="NonMemberSiteHeader SiteHeader LoggedOutSiteHeader"])
 quora.com##:xpath(.//*[@class="SignupFooter"])
 quora.com##:xpath(.//*[@class="fixed_footer_gradient"])
 quora.com##:xpath(.//*[@class="open_in_app_link"])
@@ -3093,6 +3087,7 @@ texastribune.org##.nav_menu--container:style(position: relative !important; top:
 the-american-interest.com###article-counter
 the-daily.buzz##.header-primary:style(position: relative !important; top: 0 !important;)
 theadvocate.com###site-navbar-container:style(position: relative !important; top: 0 !important;)
+theadvocate.com##.animate.item
 theadvocate.com##.animate.text-center.arrow
 theadvocate.com##.arrow
 theadvocate.com##.card-container
