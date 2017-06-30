@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 1:18 AM 2017-06-30
+! Last Modified: 9:38 AM 2017-06-30
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 
@@ -537,6 +537,10 @@ brookings.edu##.unpinned.not-top.site-header:style(position: relative !important
 browardpalmbeach.com##.sde-shadow
 bucksfreepress.co.uk###__nq__hh:style(visibility: collapse)
 builtwith.com##.bws.navbar-fixed-top:style(position: relative !important; top: 0 !important;)
+burlingtonfreepress.com##.front-overlay-arrows
+burlingtonfreepress.com##.overlay-arrows.arrows
+burlingtonfreepress.com##.site-header-inner-wrap-fixed.site-header-inner-wrap:style(position: relative !important; top: 0 !important;)
+burlingtonfreepress.com##.utility-bar-wrap
 business-standard.com###newMenuNavigationSecond:style(position: relative !important; top: 0 !important;)
 business-standard.com##.sticky:style(position: relative !important; top: 0 !important;)
 businessinsider.com###header-bar:style(position: relative !important; top: 0 !important;)
@@ -943,6 +947,7 @@ dailymail.co.uk##.home.item.html_snippet_module
 dailymail.co.uk##.linksHolder-2WTnM
 dailymail.co.uk##.mobile-sharing.cc.news
 dailymail.co.uk##.mobile-sharing.home.cc
+dailymail.co.uk##.mobile-sharing.news.cc:style(position: relative !important; top: 0 !important;)
 dailymail.co.uk##.mobile-sharing.sciencetech.cc
 dailymail.co.uk##.mobile-sharing.tvshowbiz.cc
 dailymail.co.uk##.mol-previous-next-navigation_next-button
@@ -957,7 +962,6 @@ dailymail.co.uk##.shareArticles
 dailymail.co.uk##.vjs-black-poster
 dailymail.co.uk##.vjs-control-bar
 dailymail.co.uk##.vjs-hidden.vjs-modal-overlay.vjs-caption-settings
-dailymail.co.uk##:xpath(.//*[@id="stickyBanner"])
 dailymail.co.uk##body > div:nth-of-type(8)
 dailymail.co.uk##iframe
 dailypress.com##.trb_nh:style(position: relative !important; top: 0 !important;)
@@ -4264,7 +4268,9 @@ zillow.com##.sticky-bar.zsg-nav-sub-wrapper:style(position: relative !important;
 ||adage.com/article$inline-script,first-party
 ||admin.brightcove.com/viewer/upgrade_flash_player2.gif$image
 ||api.optnmnstr.com
+||asset.wsj.net/public/*/article.js$script,domain=wsj.com
 ||computerworld.com/www/js/insider/insider_reg_api.js$script,domain=computerworld.com
+||dailymail.co.uk$inline-script,domain=dailymail.co.uk
 ||defenseone.com/js/adframe.js$script,domain=defenseone.com
 ||disqus.com/count.js$script
 ||disqus.com/embed.js$script,redirect=disqus.com/embed.js
