@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 5:09 PM 2017-07-05
+! Last Modified: 8:56 AM 2017-07-06
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 
@@ -1592,6 +1592,7 @@ harvarddesignmagazine.org###navigation-wrapper
 hawaiinewsnow.com###header:style(position: relative !important; top: 0 !important;)
 hawaiinewsnow.com###smartbanner
 hawaiinewsnow.com###toolbar
+hawaiinewsnow.com##.sticky.cdev-menu-nav:style(position: relative !important; top: 0 !important;)
 hazlitt.net###region-navigation:style(position: relative !important; top: 0 !important;)
 hazlitt.net###zone-masthead:style(position: relative !important; top: 0 !important;)
 hbr.org##.hide-for-print.clearfix.persistent-banner
@@ -2318,6 +2319,7 @@ nautil.us###issue-map
 nautil.us###main-header:style(position: relative !important; top: 0 !important;)
 nautil.us##.fb-share
 nautil.us##.tw-share
+nautilus.org###header-2:style(position: relative !important; top: 0 !important;)
 navytimes.com##.js-pubsub-module.has-secondary-nav.layout-module.generic-module
 nbc12.com###header:style(position: relative !important; top: 0 !important;)
 nbc12.com###smartbanner
@@ -4052,6 +4054,7 @@ washingtonpost.com##.newsletter-solo.echo-feature-notification
 washingtonpost.com##.nl-top-hairline.border-bottom-
 washingtonpost.com##.overlay-template
 washingtonpost.com##.pb-font-smoothing.pb-mostread-subscribe.pb-subscribe
+washingtonpost.com##.pb-navheader-hidden.ad-hideable.leaderboard
 washingtonpost.com##.ripple-wrapper
 washingtonpost.com##.row.signup-module
 washingtonpost.com##.social-tools.inline
@@ -4363,8 +4366,10 @@ zerohedge.com##.js-links
 zerolives.com##.is_stuck.sticky.naf-header-default-menu:style(position: relative !important; top: 0 !important;)
 zillow.com##.mobile-upsell-container
 zillow.com##.sticky-bar.zsg-nav-sub-wrapper:style(position: relative !important; top: 0 !important;)
+||4dsply.com$script,domain=realclearpolitics.com
 ||adage.com/article$inline-script,first-party
 ||admin.brightcove.com/viewer/upgrade_flash_player2.gif$image
+||amazonaws.com/*/264.js$script,domain=realclearpolitics.com
 ||api.optnmnstr.com
 ||computerworld.com/www/js/insider/insider_reg_api.js$script,domain=computerworld.com
 ||dailymail.co.uk$inline-script,domain=dailymail.co.uk
@@ -4393,6 +4398,8 @@ zillow.com##.sticky-bar.zsg-nav-sub-wrapper:style(position: relative !important;
 ||ndtv.com/*$inline-script,domain=ndtv.com
 ||onecount.net$script,domain=foreignpolicy.com
 ||optinmonster.com*$script
+||realclearpolitics.com/*/ad_slots.jsonp$script,first-party
+||realclearpolitics.com/*/instart.js$script,first-party
 ||scontent-lga3-1.xx.fbcdn.net/t39.2081-0/13176377_837427143029968_1076728173_n.jpg$image
 ||stacklist.com/ajax/subscribe-modal
 ||static.dontpayfull.com/static/images/banner_stores.png$image
