@@ -1,15 +1,10 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 3:05 PM 2017-07-08
+! Last Modified: 3:12 PM 2017-07-08
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 
-! Purpose is to block annoying web elements and make the web more user friendly!
-! Reclaim lost screen real estate by blocking sticky web elements.
-! Cosmetically removes, blocks or keeps elements locked to a fixed location.
-! Kill and block sticky headers, stickynavs, and stuck headers.
-! When possible, objects will be pinned in place to prevent site breakage.
-! Intended to work against scrolling headers, stickynavs, sticky headers, floating headers, social share bars, smartphone app banners, app download nag screens, floating navigation boxes, jump to top, site overlays, subscription nags and generally annoying website behavior. 
-! Works best with uBlock Origin.
+! Purpose is to block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
+
 
 ! Start Web Annoyances Ultralist
 ###appIntercept
@@ -1891,6 +1886,7 @@ keepassxc.org##.navbar-top.navbar-default.navbar:style(position: relative !impor
 kerbalspaceprogram.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 kernelmag.com###login-box
 kernelmag.com##.kernel-social.clearfix
+keyxl.com##.hidden-printz.pull-center.navbar-fixed-top.navbar:style(position: relative !important; top: 0 !important;)
 kfor.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
 kfyrtv.com###nav:style(position: relative !important; top: 0 !important;)
 kgw.com##.header-main:style(position: relative !important; top: 0 !important;)
@@ -2043,6 +2039,7 @@ m.yelp.com##.photos-grid-shim.photos-app-pitch-shim
 m.zappos.com###downloadAppPop
 mackeeper.com##.header:style(position: relative !important; top: 0 !important;)
 mackeeper.com##.js-nav-mobile.nav-mobile:style(position: relative !important; top: 0 !important;)
+macsuperstore.com###main-header:style(position: relative !important; top: 0 !important;)
 macworld.co.uk###idgBrands
 macworld.co.uk###topNav:style(position: relative !important; top: 0 !important;)
 madcoversite.com##.menubar:style(position: relative !important; top: 0 !important;)
