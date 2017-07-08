@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 1:32 PM 2017-07-08
+! Last Modified: 3:05 PM 2017-07-08
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 
@@ -10,15 +10,6 @@
 ! When possible, objects will be pinned in place to prevent site breakage.
 ! Intended to work against scrolling headers, stickynavs, sticky headers, floating headers, social share bars, smartphone app banners, app download nag screens, floating navigation boxes, jump to top, site overlays, subscription nags and generally annoying website behavior. 
 ! Works best with uBlock Origin.
-
-! Static filter syntax and help
-! https://adblockplus.org/en/filter-cheatsheet
-! https://github.com/gorhill/uBlock/wiki/Static-filter-syntax
-! https://github.com/gorhill/uBlock/wiki/Procedural-cosmetic-filters
-! https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax
-
-! Keep at top syntax
-! :style(position: relative !important; top: 0 !important;)
 
 ! Start Web Annoyances Ultralist
 ###appIntercept
@@ -2717,6 +2708,7 @@ pastemagazine.com##.ui-front.ui-widget-overlay
 pastemagazine.com##.ui-helper-clearfix.ui-corner-all.ui-widget-header.ui-dialog-titlebar:style(position: relative !important; top: 0 !important;)
 patch.com###slide-nav:style(position: relative !important; top: 0 !important;)
 patch.com##.header-container:style(position: relative !important; top: 0 !important;)
+patch.com##.social-email-modal-inner-wrapper
 patreon.com##._2JO-modules-Navigation-components-MobileNavbar--navbar:style(position: relative !important; top: 0 !important;)
 patreon.com##._3fN-modules-Navigation--navigationContainer:style(position: relative !important; top: 0 !important;)
 patreon.com##.sticky:style(position: relative !important; top: 0 !important;)
