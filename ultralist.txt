@@ -1,9 +1,8 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 1:08 PM 2017-07-10
+! Last Modified: 1:55 PM 2017-07-10
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
-
 
 ! Start Web Annoyances Ultralist
 ###appIntercept
@@ -2675,8 +2674,11 @@ outsideonline.com##.block.block-subscribe.block--with-border.shifter
 outsideonline.com##.nudger__inner
 outsideonline.com##.social.icons-custom.social--count.article-social.article-social--side
 outsports.com##.m-entry__social
+overstock.com###cboxOverlay
+overstock.com###colorbox
 overstock.com###fb-container
 overstock.com###mainCenter_socialIcons
+overstock.com##.sticky-header-visible.sticky-header:style(position: relative !important; top: 0 !important;)
 owler.com###header:style(position: relative !important; top: 0 !important;)
 pagesix.com###featured-image-wrapper > .modal-trigger
 pagesix.com###footer-promo
@@ -2687,7 +2689,8 @@ pagesix.com###page-header:style(position: relative !important; top: 0 !important
 pagesix.com###sharebar-social
 pagesix.com##.sharebar
 pahomepage.com###mod-up-next
-palmbeachpost.com##.header-wrapper > header
+palmbeachpost.com##.header-wrapper:style(position: relative !important; top: 0 !important;)
+palmbeachpost.com##.hidden-md-down.sub-header-nav:style(position: relative !important; top: 0 !important;)
 palmerreport.com##.fl-page-nav-right.fl-page-header-fixed.fl-page-header:style(position: relative !important; top: 0 !important;)
 pando.com###header:style(position: relative !important; top: 0 !important;)
 pando.com###social_links
