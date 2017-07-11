@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 1:31 PM 2017-07-11
+! Last Modified: 4:10 PM 2017-07-11
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -1424,6 +1424,7 @@ foxnews.com##.related-media
 foxnews.com##.related-media.related-block.social-media-block
 foxnews.com##.sharing
 foxnews.com##.social-count
+foxnews.com##.video-container:style(position: relative !important; top: 0 !important;)
 foxsports.com###LayoutNavHeader:style(position: relative !important; top: 0 !important;)
 foxsports.com###body-header-wrapper:style(position: relative !important; top: 0 !important;)
 foxsports.com###js-body-header:style(position: relative !important; top: 0 !important;)
