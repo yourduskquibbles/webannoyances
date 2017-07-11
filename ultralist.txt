@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 9:23 AM 2017-07-11
+! Last Modified: 10:45 AM 2017-07-11
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -780,6 +780,7 @@ citylab.com###blocker-msg-start
 citylab.com###social-sticky
 citymetric.com###footer
 citymetric.com##.site-header.clearfix:style(position: relative !important; top: 0 !important;)
+citynews.ca##.rdm-daac-notice-template
 citypaper.com##.trb_nh:style(position: relative !important; top: 0 !important;)
 civileats.com###header-wrap:style(position: relative !important; top: 0 !important;)
 cjr.org###bottom-sharing
@@ -867,6 +868,7 @@ commentarymagazine.com##.advads-close-button
 commentarymagazine.com##.alert-block.alert.intense
 commentarymagazine.com##.vw-post-share-box
 commentarymagazine.com##.vw-sticky.vw-menu-main-wrapper:style(position: relative !important; top: 0 !important;)
+commondreams.org###block-block-47
 complex.com###cmplx-navigation:style(position: relative !important; top: 0 !important;)
 complex.com###elContainer:style(position: relative !important; top: 0 !important;)
 complex.com##.background-image:style(position: relative !important; top: 0 !important;)
@@ -1006,6 +1008,7 @@ dailysnark.com##.td-scroll-up-visible.td-scroll-up
 dailystar.co.uk###topSocialPanel
 dailywesterner.com##.scrollup:style(position: relative !important; top: 0 !important;)
 dailywire.com###header:style(position: relative !important; top: 0 !important;)
+dailywire.com##.article-actions
 dailywire.com##.field-addthis-compact
 dailywire.com##.header-container:style(position: relative !important; top: 0 !important;)
 dailywire.com##.remodal-is-opened.remodal-is-initialized.remodal
@@ -1032,7 +1035,9 @@ deadstate.org###head-main-wrap
 dealcatcher.com###main-menu
 dealnews.com##.slide-container-image.slide-container-middle.slide-container-left.slide-container
 dealnews.com##.visible.back-to-top-outer
+deathandtaxesmag.com##.top-ad-holder.ad-holder
 deathandtaxesmag.com##HEADER:style(position: relative !important; top: 0 !important;)
+deathandtaxesmag.com##header > .ad-holder
 decider.com###header-theme:style(position: relative !important; top: 0 !important;)
 decider.com###recirc:style(position: relative !important; top: 0 !important;)
 decider.com##.header__content:style(position: relative !important; top: 0 !important;)
@@ -1264,6 +1269,7 @@ facebook.com##:xpath(//div[@id="stream_pagelet"]//div[starts-with(@id,"hyperfeed
 facebook.com##:xpath(//div[@id="stream_pagelet"]//div[starts-with(@id,"hyperfeed_story_id_")][.//text()="Suggested Post"])
 facebook.com##div[id^="hyperfeed_story_id_"]:has(a.uiStreamSponsoredLink)
 famous-smoke.com##.emailmodal.blackglassgradient.emailmodalblocker
+fangraphs.com##.fg-ads-mobile
 fansided.com###FsTopNav
 fansided.com###breaking
 fantaziesuite.com##.navbar-left.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
@@ -1316,6 +1322,7 @@ firstwefeast.com##.navbar-fixed-top.navbar-default.navbar:style(position: relati
 firstwefeast.com##.rail
 fitbit.com###smartbanner
 fitbit.com##.fixed.header-main:style(position: relative !important; top: 0 !important;)
+fiverr.com##.android.cf.js-app-smart-banner.smart-banner
 fivethirtyeight.com###fivethirtyeight-mobile-embed-14
 fivethirtyeight.com###header-global:style(position: relative !important; top: 0 !important;)
 fivethirtyeight.com##.lp-share
@@ -1359,6 +1366,7 @@ forbes.com##.ng-scope.header-nav-collapse.initial.csr-header:style(position: rel
 forbes.com##.ng-scope.sticky-fbs-ad-container
 forbes.com##.show.slash-background.article-sidebar
 forbes.com##NAV:style(position: relative !important; top: 0 !important;)
+forbes.com##header:style(position: relative !important; top: 0 !important;)
 foreignaffairs.com###kicker-2
 foreignaffairs.com##.site-header--sticky:style(position: relative !important; top: 0 !important;)
 foreignpolicy.com###logo
@@ -1815,6 +1823,7 @@ indystar.com##.tp-modal > .tp-active.tp-iframe-wrapper
 inews.co.uk##.header:style(position: relative !important; top: 0 !important;)
 inews.co.uk##.matrix-button
 inews.co.uk##.slab-navigation.slab
+informnapalm.org###sttotop
 infowars.com###masthead-navigation:style(position: relative !important; top: 0 !important;)
 infowars.com###message
 infowars.com###newsletter-side-widget
@@ -2470,6 +2479,7 @@ newrepublic.com##.ui.sticky
 news.com.au###header-fixed:style(position: relative !important; top: 0 !important;)
 news.com.au###nav:style(position: relative !important; top: 0 !important;)
 news.vice.com##nav:style(position: relative !important; top: 0 !important;)
+newschannel9.com##.component-header-default-v3:style(position: relative !important; top: 0 !important;)
 newscientist.com###artTools
 newscientist.com###main-nav:style(position: relative !important; top: 0 !important;)
 newscientist.com###marketingtertiary
@@ -2558,6 +2568,7 @@ nvcc.edu###head-social
 nybooks.com##.newsletter_signup.well
 nybooks.com##.social
 nybooks.com##.span3
+nydailynews.com##.rh-ad
 nylon.com##.nav-stuck.nav:style(position: relative !important; top: 0 !important;)
 nymag.com###ck_digg
 nymag.com###ck_facebook
@@ -2792,6 +2803,8 @@ pitchfork.com##.share-module
 pix11.com###actionbar:style(position: relative !important; top: 0 !important;)
 pixieset.com###nav:style(position: relative !important; top: 0 !important;)
 pjmedia.com###social
+pjmedia.com##.marketing-popup-display.marketing-popup-overlay
+pjmedia.com##.marketing-popup-display.marketing-popup-wrapper
 pjmedia.com##.navbar-scroll.main-nav-wrapper.navbar-wrapper:style(position: relative !important; top: 0 !important;)
 pjmedia.com##.share
 planeplottermobile.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
@@ -2923,6 +2936,7 @@ qualityassurancemag.com##.supersocialshare-container
 quantamagazine.org##.z10.fit-r.fit-l.fit-t.fixed
 quantamagazine.org##.z9.fit-r.fit-l.fit-t.fixed.nav:style(position: relative !important; top: 0 !important;)
 queenbeetickets.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
+quora.com###__w2_tj37wQd_banner
 quora.com##.LoggedOutSiteHeader.SiteHeader.NonMemberSiteHeader:style(position: relative !important; top: 0 !important;)
 quora.com##.SiteHeader.LoggedInSiteHeader:style(position: relative !important; top: 0 !important;)
 quora.com##.better_sticky_action_bar
@@ -3222,6 +3236,7 @@ sethvargo.com##.title
 sfchronicle.com###fixedCarousel
 sfgate.com###header-top:style(position: relative !important; top: 0 !important;)
 sfgate.com###siteNav:style(position: relative !important; top: 0 !important;)
+sfgate.com##.ad-point
 sfgate.com##.hst-articletools
 sfgate.com##.hst-articletools2
 sfglobe##.kfm_dialog
@@ -3894,6 +3909,7 @@ turkeypurge.com###main-header:style(position: relative !important; top: 0 !impor
 turkeypurge.com###top-header:style(position: relative !important; top: 0 !important;)
 tutanota.com##.navbar-fixed-top.navbar-bottom.navbar:style(position: relative !important; top: 0 !important;)
 tvguide.com###header:style(position: relative !important; top: 0 !important;)
+tweeterino.com##.fixed-top.bg-faded.navbar-light.navbar-toggleable-sm.navbar:style(position: relative !important; top: 0 !important;)
 twentytwowords.com###social-bar-wide
 twincities.com##.headroom--pinned.headroom--not-top.headroom.default.site-header:style(position: relative !important; top: 0 !important;)
 twincities.com##.headroom--unpinned.headroom--not-top.headroom.default.site-header:style(position: relative !important; top: 0 !important;)
@@ -3933,6 +3949,7 @@ uponit.com###header:style(position: relative !important; top: 0 !important;)
 uponit.com###header_main:style(position: relative !important; top: 0 !important;)
 uproxx.com##.navbar-fixed-top.navbar:style(position: relative !important; top: 0 !important;)
 uproxx.com##.uproxx_iframe_ads_wrapper_top.uproxx_iframe_ads_wrapper
+uproxx.com##.visible.post-top-share-widget.top_share_widget
 ups.com###ups-headerWrap:style(position: relative !important; top: 0 !important;)
 ups.com##.social.outdent.clearfix
 urbanstems.com##.sticky.row.product-address-bar:style(position: relative !important; top: 0 !important;)
@@ -4175,6 +4192,7 @@ washingtontimes.com##.pg-widget-container
 washingtontimes.com##.right
 washingtontimes.com##P[style="padding: 7px 0 4px 0;margin-bottom: 0;"]
 waterfordwhispersnews.com##.cookie-mobile-wrapper
+wayfair.com###wf_smart_app_banner
 wbtv.com###header:style(position: relative !important; top: 0 !important;)
 wbtv.com###smartbanner
 wbtv.com###toolbar
@@ -4306,6 +4324,7 @@ wolframalpha.com###codezone-footer
 wolframalpha.com###headerad-pro
 wolframalpha.com##.pro-popup-zoom.pro-popup
 wonderhowto.com###top-nav:style(position: relative !important; top: 0 !important;)
+wonkette.com##.td-affix.td-header-main-menu.td-header-border.td-header-row:style(position: relative !important; top: 0 !important;)
 woostercollective.com##.social
 woot.com##.social
 wordpress.com###bit
@@ -4483,6 +4502,7 @@ zillow.com##.sticky-bar.zsg-nav-sub-wrapper:style(position: relative !important;
 ||amazonaws.com/*/264.js$script,domain=realclearpolitics.com
 ||brightcove.com/*/upgrade_flash_player2.gif$image
 ||cnbc.com/*/TN-CS-Tile-03a.png$image
+||cnn.com/*/js/cnn-analytics.min.js$script,domain=cnn.com
 ||computerworld.com/*/insider_reg_api.js$script,domain=computerworld.com
 ||dailymail.co.uk$inline-script,domain=dailymail.co.uk
 ||defenseone.com/*/adframe.js$script,domain=defenseone.com
@@ -4499,6 +4519,7 @@ zillow.com##.sticky-bar.zsg-nav-sub-wrapper:style(position: relative !important;
 ||mol.im/*/160108_skin_coffee-left.png$image
 ||mol.im/*/160108_skin_coffee-right.png$image
 ||mol.im/*/b-play.png$image
+||myfinance.com/*/myFinance.js$script,domain=cnn.com
 ||nbc-sports.massrel.io/microsoft-live-extra-social$subdocument
 ||nbc-sports.massrel.io/nhl-live-extra-waterfall/$subdocument
 ||nbcsports.com/*/1500_stats_bg.jpg$image
@@ -4513,4 +4534,8 @@ zillow.com##.sticky-bar.zsg-nav-sub-wrapper:style(position: relative !important;
 ||realclearpolitics.com/*/instart.js$script,first-party
 ||stacklist.com/*/subscribe-modal
 ||sumome.com
+||turner.com/*/AdManager.js$script,domain=cnn.com
+||turner.com/*/adfuel-1.1.0.js$script,domain=cnn.com
+||turner.com/*/cnn_money-ais.js$script,domain=cnn.com
+||turner.com/*/cnnmoney_tech.js$script,domain=cnn.com
 ||webdesignerdepot.com/widget/*wdn-popup*
