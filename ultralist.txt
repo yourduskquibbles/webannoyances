@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 5:27 PM 2017-07-10
+! Last Modified: 9:05 AM 2017-07-11
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -929,11 +929,11 @@ crooksandliars.com##.pn-item-prev.prev-next-item
 crunchbase.com###main-header:style(position: relative !important; top: 0 !important;)
 crutchfield.com###emailSignupOverlay
 csmonitor.com###csm-header-content:style(position: relative !important; top: 0 !important;)
-csmonitor.com###csm-page-bound > .layer-fixed:nth-of-type(1)
 csmonitor.com###mNav-right
 csmonitor.com###sNav
 csmonitor.com###social-media_ad-container
 csmonitor.com###sticky-nav-sticky-wrapper:style(position: relative !important; top: 0 !important;)
+csmonitor.com##.layer-fixed:style(position: relative !important; top: 0 !important;)
 csmonitor.com##.ui-ezflow-block.ui-ezxml-block
 csmonitor.com##.vertical-nav-icons.nav-icons
 csmonitor.com##:xpath(.//*[@block_type="atavist-mailchimp"])
@@ -1162,6 +1162,7 @@ economist.com##.subscription-ribbon
 eff.org##.sticky-header:style(position: relative !important; top: 0 !important;)
 ehang.com##.hidden-xs.subMenu:style(position: relative !important; top: 0 !important;)
 ehang.com##.isStuck.stuckMenu.visible-xs.static-div:style(position: relative !important; top: 0 !important;)
+elaineou.com###masthead:style(position: relative !important; top: 0 !important;)
 electionado.com###kanvz-app-header
 electionado.com##.gt-detailcanvas-pos.k-takemeback-bx
 electionado.com##.header-container
@@ -1583,6 +1584,7 @@ grandst.com###share_holder
 grandst.com###site_overlay
 granta.com##.small-nav
 grasscity.com##.sticky_wrapper:style(position: relative !important; top: 0 !important;)
+grasswire.com###sticky_header:style(position: relative !important; top: 0 !important;)
 greentechmedia.com###header:style(position: relative !important; top: 0 !important;)
 grepular.com###hire-me-banner:style(position: relative !important; top: 0 !important;)
 groovypost.com##.sw-pinit-right.sw-pinit-top.sw-pinit-button
@@ -1940,6 +1942,7 @@ kvoa.com###WNNavSearchSwitch:style(position: relative !important; top: 0 !import
 kvue.com##.is_stuck.site-nav:style(position: relative !important; top: 0 !important;)
 kwqc.com###nav:style(position: relative !important; top: 0 !important;)
 kwqc.com###navbar:style(position: relative !important; top: 0 !important;)
+kxan.com###masthead:style(position: relative !important; top: 0 !important;)
 labradortraininghq.com###navigation
 laphamsquarterly.org##.small-header
 laptopmag.com##.sticky.mqMedOff.subNavWrap:style(position: relative !important; top: 0 !important;)
@@ -2145,6 +2148,7 @@ mercurynews.com##.nav-wrapper:style(position: relative !important; top: 0 !impor
 merriam-webster.com###recirc-bar-footer
 merriam-webster.com###social-sidebar-container
 merriam-webster.com##.default.shrinkheader:style(position: relative !important; top: 0 !important;)
+merryjane.com###view-port:style(position: relative !important; top: 0 !important;)
 metafilter.com##.headroom--pinned.headroom--not-top.headroom.logo-and-primary-nav:style(position: relative !important; top: 0 !important;)
 metafilter.com##.visible.fixed.site-header:style(position: relative !important; top: 0 !important;)
 metro.co.uk###masthead:style(position: relative !important; top: 0 !important;)
@@ -2878,6 +2882,7 @@ predictiveops.com###sticky-nav:style(position: relative !important; top: 0 !impo
 pressherald.com##.mtm-utility-launch
 pressherald.com##.paywall-callout
 pressherald.com##.social-follower
+presstv.com##.item-sharings
 prettydamnedfast.com###headerAnnouncementWrapper:style(position: relative !important; top: 0 !important;)
 prettydamnedfast.com##.blog-item-pagination-link--next.blog-item-pagination-link
 pri.org##.dark.donate.always-under
@@ -3349,8 +3354,10 @@ standard.co.uk###masthead:style(position: relative !important; top: 0 !important
 standardnotes.org##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.u-tintSpectrum.u-tintBgColor.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
 stanleycupofchowder.com##.tab-bar-fixed.c-tab-bar
 staples.com###popupwin
-startribune.com##.l-navigation-shortnav-container
-startribune.com##.sb-slide.navbar-fixed-top.navbar-default.navbar.site-header
+startribune.com##.is-fixed.js-nav-shortcuts-inner.nav-shortcuts-inner:style(position: relative !important; top: 0 !important;)
+startribune.com##.l-navigation-shortnav-container:style(position: relative !important; top: 0 !important;)
+startribune.com##.recirc:style(position: relative !important; top: 0 !important;)
+startribune.com##.sb-slide.navbar-fixed-top.navbar-default.navbar.site-header:style(position: relative !important; top: 0 !important;)
 startupsventurecapital.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBottomSection.u-tintSpectrum.u-tintBgColor.u-textColorDarker.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
 statepress.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 statesman.com##.hidden-md-down.footer-wrapper
@@ -3439,7 +3446,6 @@ techwalla.com###header-dinosaur:style(position: relative !important; top: 0 !imp
 techwalla.com##.in.fade.modal-backdrop
 ted.com###header:style(position: relative !important; top: 0 !important;)
 teenvogue.com##.site-header.component-sticky
-teenvogue.com##.sticky-header
 teenvogue.com##.sticky-header:style(position: relative !important; top: 0 !important;)
 teenvogue.com##.sticky.site-header
 telegraph.co.uk###message
