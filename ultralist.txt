@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 9:14 AM 2017-07-11
+! Last Modified: 9:23 AM 2017-07-11
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -839,7 +839,8 @@ cnn.com##.js-banner.main-banner
 cnn.com##.js-skinny.js-navigation.nav:style(position: relative !important; top: 0 !important;)
 cnn.com##.large-buttons
 cnn.com##.main-banner:style(position: relative !important; top: 0 !important;)
-cnn.com##.ng-scope.clear
+cnn.com##.ng-scope.clear:style(position: relative !important; top: 0 !important;)
+cnn.com##.ng-scope.mediaHeader:style(position: relative !important; top: 0 !important;)
 cnn.com##.ng-scope.smallHeader.clear:style(position: relative !important; top: 0 !important;)
 cnn.com##.user-msg-flexbox.headerless.user-msg
 cnsnews.com###cns-social-links
@@ -2236,9 +2237,6 @@ modernliberals.com##.mh-back-to-top
 mom.me###site-header:style(position: relative !important; top: 0 !important;)
 mommyish.com###footer-mobile-ad
 mondaynote.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBottomSection.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
-money.cnn.com###notice_banner:style(position: relative !important; top: 0 !important;)
-money.cnn.com##.ng-scope.clear:style(position: relative !important; top: 0 !important;)
-money.cnn.com##.ng-scope.mediaHeader:style(position: relative !important; top: 0 !important;)
 moneyish.com##.masthead:style(position: relative !important; top: 0 !important;)
 montereyherald.com###story_window > .article.toolbar
 montrealgazette.com##.l-header:style(position: relative !important; top: 0 !important;)
