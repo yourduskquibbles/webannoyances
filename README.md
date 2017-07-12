@@ -3,11 +3,11 @@ Are you tired of not being able to use all of your screen real estate for the te
 because floating headers and footers are blocking your view?
 Reclaim your screen real estate with Web Annoyances Ultralist! 
 
-Block annoying web elements such as floating headers, scrolling headers,
+Block annoying web elements such as floating headers, scrolling headers, scrolling videos
 stickynavs, sticky headers, social share bars, smartphone app banners, app download nag screens,
 floating navigation boxes, jump to top, site overlays, subscription nags, and distracting elements.
 
-When possible, sticky headers, stickynavs, and stuck headers will be pinned to the top of the site to prevent site breakage.
+When possible, sticky headers, stickynavs, floating elements, scrolling videos and more will be pinned in place to prevent site breakage.
 
 This filter list aims to remove annoying web elements that block your view of the screen.
 
