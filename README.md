@@ -5,7 +5,7 @@ Reclaim your screen real estate with Web Annoyances Ultralist!
 
 Block annoying web elements such as floating headers, scrolling headers, scrolling videos
 stickynavs, sticky headers, social share bars, smartphone app banners, app download nag screens,
-floating navigation boxes, jump to top, site overlays, subscription nags, and distracting elements.
+floating navigation boxes, jump to top, interstitial site overlays, subscription nags, and distracting elements.
 
 When possible, sticky headers, stickynavs, floating elements, scrolling videos and more will be pinned in place to prevent site breakage.
 
