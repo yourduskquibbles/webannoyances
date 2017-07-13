@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 5:12 PM 2017-07-13
+! Last Modified: 5:49 PM 2017-07-13
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -2996,13 +2996,14 @@ quora.com##.text_links
 quora.com##:xpath(.//*[@class="SignupFooter"])
 quora.com##:xpath(.//*[@class="fixed_footer_gradient"])
 quora.com##:xpath(.//*[@class="open_in_app_link"])
-qz.com###header
+qz.com###header:style(position: relative !important; top: 0 !important;)
 qz.com###nav-main:style(position: relative !important; top: 0 !important;)
 qz.com###nav:style(position: relative !important; top: 0 !important;)
 qz.com###queue-toggle
 qz.com###tab-bar
 qz.com##.anno-right
 qz.com##.header-container:style(position: relative !important; top: 0 !important;)
+qz.com##.logo:style(position: relative !important; top: 0 !important;)
 racked.com###chorus-social-fixed
 racked.com##.c-action-box
 racked.com##.c-newsletter-promo
