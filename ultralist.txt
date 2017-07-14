@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 5:49 PM 2017-07-13
+! Last Modified: 9:35 AM 2017-07-14
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -721,6 +721,13 @@ chewy.com##.header-bottom:style(position: relative !important; top: 0 !important
 chewy.com##.header-top:style(position: relative !important; top: 1 !important;)
 chewy.com##.header-wrapper:style(position: relative !important; top: 0 !important;)
 chicago.suntimes.com###primary-navigation:style(position: relative !important; top: 0 !important;)
+chicagobusiness.com###clear-nav-account:style(position: relative !important; top: 0 !important;)
+chicagobusiness.com###clear-nav-date:style(position: relative !important; top: 0 !important;)
+chicagobusiness.com###live:style(position: relative !important; top: 0 !important;)
+chicagobusiness.com###main-header:style(position: relative !important; top: 0 !important;)
+chicagobusiness.com###main-nav:style(position: relative !important; top: 0 !important;)
+chicagobusiness.com##.dialog-wrapper
+chicagobusiness.com##.reading-meter-attached.reading-meter:style(position: relative !important; top: 0 !important;)
 chicagocubsonline.com##.nav-primary:style(position: relative !important; top: 0 !important;)
 chicagomag.com###reveal-bar:style(position: relative !important; top: 0 !important;)
 chicagotribune.com###reg-overlay
@@ -805,6 +812,8 @@ climateactionprogramme.com##.icon-text.phone-icon
 climateactionprogramme.org##.floatingmainmenu.thisisfixed.header-menu:style(position: relative !important; top: 0 !important;)
 climateactionprogramme.org##.floatingmainmenu_b.header-undermenu:style(position: relative !important; top: 0 !important;)
 cltampa.com##header > .container
+cmlviz.com##.floating_footer_height.close_news_floating_footer
+cmlviz.com##.floating_footer_height.news_floating_footer
 cnbc.com###cnbc-new-header:style(position: relative !important; top: 0 !important;)
 cnbc.com###optIn-right-rail
 cnbc.com###social-tools-panel
@@ -1357,6 +1366,7 @@ food52.com###global-header-block:style(position: relative !important; top: 0 !im
 food52.com###mobile-email-modal-wrapper
 foodandwine.com##.content-pager__link--next.content-pager__link
 foodandwine.com##.content-pager__link--prev.content-pager__link
+foodandwine.com##.headroom--not-bottom.headroom--not-top.headroom.is-fixed.site-header__menu-bar.site-header__bar
 foodandwine.com##.is_stuck.site-header:style(position: relative !important; top: 0 !important;)
 foodandwine.com##.main-menu__social.main-menu__item
 foodbeast.com###goodbye-form
@@ -1485,6 +1495,7 @@ gamespot.com###masthead:style(position: relative !important; top: 0 !important;)
 gamespot.com##.share
 gardeningknowhow.com###askq
 gardeningknowhow.com###featured
+gardenweb.com###navHeader:style(position: relative !important; top: 0 !important;)
 gardenweb.com##.in.fade.modal-backdrop
 gardenweb.com##.modal-padding
 gardenweb.com##.signupCtaNew.dialogFrame
@@ -1757,6 +1768,7 @@ huffingtonpost.com##.valencia-footer
 huffingtonpost.com##A[data-beacon="\7b \"p\":\7b \"cv_event\":\"load-new\"\7d \7d "]
 huffingtonpost.com##IFRAME[src="http://www.huffingtonpost.com/widgets/orbots/580-190-article.html"]
 hulu.com###banner:style(position: relative !important; top: 0 !important;)
+huronconsultinggroup.com##header:style(position: relative !important; top: 0 !important;)
 ibtimes.co.in##.fixed-social.sticky
 ibtimes.co.uk###article-left-side-share-panel
 ibtimes.co.uk###navi-wrap:style(position: relative !important; top: 0 !important;)
@@ -2996,6 +3008,7 @@ quora.com##.text_links
 quora.com##:xpath(.//*[@class="SignupFooter"])
 quora.com##:xpath(.//*[@class="fixed_footer_gradient"])
 quora.com##:xpath(.//*[@class="open_in_app_link"])
+qz.com###header#header:style(position: relative !important; top: 0 !important;)
 qz.com###header:style(position: relative !important; top: 0 !important;)
 qz.com###nav-main:style(position: relative !important; top: 0 !important;)
 qz.com###nav:style(position: relative !important; top: 0 !important;)
@@ -3003,6 +3016,7 @@ qz.com###queue-toggle
 qz.com###tab-bar
 qz.com##.anno-right
 qz.com##.header-container:style(position: relative !important; top: 0 !important;)
+qz.com##.header-hidden.dark-theme:style(position: relative !important; top: 0 !important;)
 qz.com##.logo:style(position: relative !important; top: 0 !important;)
 racked.com###chorus-social-fixed
 racked.com##.c-action-box
@@ -4573,6 +4587,7 @@ zillow.com##.sticky-bar.zsg-nav-sub-wrapper:style(position: relative !important;
 ||adage.com/article$inline-script,first-party
 ||amazonaws.com/*/264.js$script,domain=realclearpolitics.com
 ||brightcove.com/*/upgrade_flash_player2.gif$image
+||chicagobusiness.com/*/interstitial.css$stylesheet,domain=chicagobusiness.com
 ||clikueo.com
 ||cnbc.com/*/TN-CS-Tile-03a.png$image
 ||cnn.com/*/js/cnn-analytics.min.js$script,domain=cnn.com
