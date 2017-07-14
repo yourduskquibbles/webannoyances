@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 10:53 AM 2017-07-14
+! Last Modified: 3:26 PM 2017-07-14
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -763,6 +763,7 @@ chowhound.com##.side.to_topmobile.freyja_bigbt
 christianitytoday.com###fix-header:style(position: relative !important; top: 0 !important;)
 chromestatus.com##.main-toolbar:style(position: relative !important; top: 0 !important;)
 chromestatus.com##app-header:style(position: relative !important; top: 0 !important;)
+chromestatus.com##footer
 chromium.org##.__crdxFeedbackButton
 chron.com###siteNav:style(position: relative !important; top: 0 !important;)
 chronicle.com###nav-persistent__container:style(position: relative !important; top: 0 !important;)
@@ -1600,6 +1601,7 @@ google.com###ad-label
 google.com###maia-header:style(position: relative !important; top: 0 !important;)
 google.com###maia-nav-x:style(position: relative !important; top: 0 !important;)
 google.com##.a-ee-zh-k > .a-ee-zh-k-x
+google.com##.devsite-top-section-pinned.nocontent.devsite-top-section:style(position: relative !important; top: 0 !important;)
 google.com##.header__sections:style(position: relative !important; top: 0 !important;)
 google.com##.header__top:style(position: relative !important; top: 0 !important;)
 google.com##.ng-scope:style(position: relative !important; top: 0 !important;)
@@ -2402,14 +2404,12 @@ nasa.gov##.fixed_show.fixed.site_header_area:style(position: relative !important
 nasa.gov##.next.article_nav_block
 nasa.gov##.prev.article_nav_block
 nasdaq.com###addthisSticky
-nasdaq.com###back-to-top
-nasdaq.com###global_header:style(position: relative !important; top: 0 !important;)
-nasdaq.com###global_nav:style(position: relative !important; top: 0 !important;)
-nasdaq.com###global_search:style(position: relative !important; top: 0 !important;)
+nasdaq.com###back-to-top:style(position: relative !important; animation duration: 0s !important; z-index: -1 !important;)
+nasdaq.com###global_header.global-fixed-nav:style(position: relative !important; top: 0 !important; animation duration: 0s !important; z-index: -1 !important;)
+nasdaq.com###global_nav:style(position: relative !important; top: 0 !important; animation duration: 0s !important; z-index: -1 !important;)
+nasdaq.com###global_search.global_search:style(position: relative !important; top: 0 !important; animation duration: 0s !important; z-index: -1 !important;)
 nasdaq.com###indexToggle
 nasdaq.com###pfooter
-nasdaq.com###stock-search:style(position: relative !important; top: 0 !important;)
-nasdaq.com##.global-fixed-nav:style(position: relative !important; top: 0 !important;)
 nasdaq.com##.oo_feedback_float
 nathancunn.com##.navbar-custom.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 nathancunn.com##.top-nav-short.navbar-custom.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
@@ -4609,6 +4609,7 @@ zerohedge.com##.js-links
 zerolives.com##.is_stuck.sticky.naf-header-default-menu:style(position: relative !important; top: 0 !important;)
 zillow.com##.mobile-upsell-container
 zillow.com##.sticky-bar.zsg-nav-sub-wrapper:style(position: relative !important; top: 0 !important;)
+||$subdocument,domain=nasdaq.com,important
 ||4dsply.com$script,domain=realclearpolitics.com
 ||adage.com/article$inline-script,first-party
 ||amazonaws.com/*/264.js$script,domain=realclearpolitics.com
@@ -4624,6 +4625,8 @@ zillow.com##.sticky-bar.zsg-nav-sub-wrapper:style(position: relative !important;
 ||disqus.com/embed.js$script,redirect=disqus.com/embed.js
 ||disqus.com/forums/*/embed.js$script,redirect=disqus.com/forums/*/embed.js
 ||dontpayfull.com/*/banner_stores.png$image
+||dynamicyield.com$script,domain=nasdaq.com
+||fastly.net$script,domain=nasdaq.com
 ||hellobar.com^$third-party,script,important
 ||leadpages.co*$third-party
 ||maxtraffic.com$script
@@ -4633,6 +4636,11 @@ zillow.com##.sticky-bar.zsg-nav-sub-wrapper:style(position: relative !important;
 ||mol.im/*/160108_skin_coffee-right.png$image
 ||mol.im/*/b-play.png$image
 ||myfinance.com/*/myFinance.js$script,domain=cnn.com
+||nasdaq.com$generichide,domain=nasdaq.com,important
+||nasdaq.com$websocket,domain=nasdaq.com,important
+||nasdaq.com/*/carousel-script.js$script,domain=nasdaq.com
+||nasdaq.com/*/global.min-07072017v1.js$script,domain=nasdaq.com
+||nasdaq.com/*/oo_engine.js$script,domain=nasdaq.com
 ||nbc-sports.massrel.io/microsoft-live-extra-social$subdocument
 ||nbc-sports.massrel.io/nhl-live-extra-waterfall/$subdocument
 ||nbcsports.com/*/1500_stats_bg.jpg$image
@@ -4645,6 +4653,7 @@ zillow.com##.sticky-bar.zsg-nav-sub-wrapper:style(position: relative !important;
 ||optnmnstr.com
 ||realclearpolitics.com/*/ad_slots.jsonp$script,first-party
 ||realclearpolitics.com/*/instart.js$script,first-party
+||sitelabweb.com$domain=nasdaq.com,important
 ||stacklist.com/*/subscribe-modal
 ||sumome.com
 ||trellian.com
