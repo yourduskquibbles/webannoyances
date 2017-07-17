@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 5:27 PM 2017-07-17
+! Last Modified: 5:48 PM 2017-07-17
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -481,6 +481,7 @@ bloomberg.com###adBlockerContainer
 bloomberg.com###bb-nav:style(position: relative !important; top: 0 !important;)
 bloomberg.com##.article_interaction
 bloomberg.com##.dvz-v0-stuck.bb-nav-root:style(position: relative !important; top: 0 !important;)
+bloomberg.com##.inline-newsletter
 bloomberg.com##.persist-nav.bb-nav-root:style(position: relative !important; top: 0 !important;)
 bloomberg.com##.right-rail
 bloomberg.com##.tweet_count
@@ -3597,10 +3598,12 @@ tdameritrade.com##.stock-footer-open.stock-footer:style(position: relative !impo
 tdbank.com##.td-cs-primary.td-callout-secondary.td-callout
 tdhopper.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 techbargains.com###tb-slide-nav:style(position: relative !important; top: 0 !important;)
+techcrunch.com##.block.collapse-adjacent.collapse.newsletters-signup.aside.section
 techcrunch.com##.header-context-news.cf.header-fixed-mobile.header:style(position: relative !important; top: 0 !important;)
 techcrunch.com##.header-fixed.header-dir-down.header-context-news.cf.header-fixed-mobile.header:style(position: relative !important; top: 0 !important;)
 techcrunch.com##.header-social:style(position: relative !important; top: 0 !important;)
 techcrunch.com##.next-story-link
+techcrunch.com##.popped.section.toaster
 techcrunch.com##.social-cluster
 techcrunch.com##.social-share
 techinsider.io##.condensed.masthead:style(position: relative !important; top: 0 !important;)
