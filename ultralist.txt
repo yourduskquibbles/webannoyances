@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 5:48 PM 2017-07-17
+! Last Modified: 5:52 PM 2017-07-17
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -856,6 +856,7 @@ cnet.com##.fyre-notifier-container
 cnet.com##.shareBar.inline-view
 cnn.com###cnn_hdr-prompt
 cnn.com###gigyaShareBar_4_gig_containerParent
+cnn.com###js-TosPrivacy
 cnn.com###message
 cnn.com###mm-like-facebook
 cnn.com###mm-share-twitter
@@ -877,7 +878,7 @@ cnn.com##.cnn_sectbin4.cnn_bin_full_width4
 cnn.com##.el__leafmedia--standard.el__leafmedia--factbox.el__leafmedia
 cnn.com##.el__leafmedia--standard.el__leafmedia--factbox.el__leafmedia > .el__storyelement--standard
 cnn.com##.floating_share_button
-cnn.com##.js-banner.main-banner
+cnn.com##.js-banner.main-banner:style(position: relative !important; top: 0 !important;)
 cnn.com##.js-skinny.js-navigation.nav:style(position: relative !important; top: 0 !important;)
 cnn.com##.large-buttons
 cnn.com##.main-banner:style(position: relative !important; top: 0 !important;)
