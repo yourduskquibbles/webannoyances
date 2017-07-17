@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 8:36 AM 2017-07-17
+! Last Modified: 10:00 AM 2017-07-17
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -69,6 +69,9 @@
 2paragraphs.com##.nav-primary > .wrap
 2paragraphs.com##.site-header
 360.cn##.leftside
+3dprint.com##.et-fixed-header:style(position: relative !important; top: 0 !important;)
+3dprint.com##.et-visible.et-pb-icon.et_pb_scroll_top
+3dprint.com##.notepadding.su-note
 49ers.com###TNFLSubNavigation_main:style(position: relative !important; top: 0 !important;)
 49ers.com###nflMenuHeader:style(position: relative !important; top: 0 !important;)
 6abc.com##.sticky.wrapper.nav-container-sticky:style(position: relative !important; top: 0 !important;)
@@ -251,8 +254,10 @@ amzreviewtrader.com##.nav-main.nav:style(position: relative !important; top: 0 !
 android.com###header:style(position: relative !important; top: 0 !important;)
 android.com##.nocontent.devsite-top-section:style(position: relative !important; top: 0 !important;)
 android.gs##.google-plus
+androidauthority.com###back-to-top
 androidauthority.com###scrolled_view_bar
 androidauthority.com###sticky-bar:style(position: relative !important; top: 0 !important;)
+androidauthority.com###tt_hot_products_menu
 androidauthority.com##.sw_overlay_href.overlay-link
 androidcentral.com###header:style(position: relative !important; top: 0 !important;)
 androidforums.com###social-icons
@@ -268,14 +273,17 @@ answers.yahoo.com###UH:style(position: relative !important; top: 0 !important;)
 answers.yahoo.com###yset-search-upsell-container
 aol.com##.aol-app-deeplink
 aol.com##.has-banner-ad.does-stick.l-rightrail
-aol.com##.l-header-container--hasSubnav.l-header-container:style(position: relative !important; top: 0 !important;)
-aol.com##.l-navbar__wrap:style(position: relative !important; top: 0 !important;)
+aol.com##.inline-newsletter-module.inline-breaking-news-newsletter
 aol.com##.m-navbar--hasSubnav.m-navbar--hasLogo.m-navbar.l-navbar--fixed.l-navbar:style(position: relative !important; top: 0 !important;)
-aol.com##.m-navbar__nav-right.m-navbar__services.m-navbar__nav
 aol.com##.megaphone__icon--chat.megaphone__icon.megaphone__show.js-megaphone-show
 aol.com##.mpid-7
+aol.com##.navigation-menu-footer
+aol.com##.navigation:style(position: relative !important; top: 0 !important; z-index: -1 !important;)
+aol.com##.newsletter-modal-background
+aol.com##.newsletter-popup
+aol.com##.o2-in-side-view:style(position: relative !important; top: 0 !important;)
 aol.com##.show-ymal.you-might-like
-aol.com##.zip-not-set.bon-article.light-weather-form.m-side-nav.l-side-nav
+aol.com##.vdb_player:style(position: relative !important; top: 0 !important;)
 ap.org###block-ap-misc-ap-social-media
 ap.org##.ap-mediabox-td
 ap.org##.clearfix.share-block
@@ -1051,6 +1059,9 @@ davidtan.org##.site-header
 dawn.com##.navstory__arrow--next.navstory__arrow
 dawn.com##.navstory__arrow--prev.navstory__arrow
 dawn.com##.pinned.headroom--not-top.headroom.container-fluid:style(position: relative !important; top: 0 !important;)
+daytondailynews.com##.cmgo_app_download_box
+daytondailynews.com##.hidden-md-down.footer-wrapper
+daytondailynews.com##.hidden-md-down.sub-header-nav:style(position: relative !important; top: 0 !important;)
 deadline.com###masthead-sticky-wrapper:style(position: relative !important; top: 0 !important;)
 deadline.com###masthead:style(position: relative !important; top: 0 !important;)
 deadline.com##.blogheader:style(position: relative !important; top: 0 !important;)
@@ -1275,6 +1286,7 @@ examiner-enterprise.com###header-main:style(position: relative !important; top: 
 examiner-enterprise.com###toprail:style(position: relative !important; top: 0 !important;)
 examiner-enterprise.com##.article-meta > .inner:style(position: relative !important; top: 2 !important;)
 examiner-enterprise.com##.gh-slider-wrapper:style(position: relative !important; top: 0 !important;)
+exede.com##.visible-lg.visible-md.hidden-sm.hidden-xs.navbar-fixed-top.navbar-default.navbar.desktop-navbar:style(position: relative !important; top: 0 !important;)
 expatsoftware.com##.subscribe-footer
 exploit-db.com##.sticky.shadow_thin.bg_solid.pos_fixed.l-header:style(position: relative !important; top: 0 !important;)
 express-scripts.com##.docked.mainMenuBlock._mainMenuBlock:style(position: relative !important; top: 0 !important;)
@@ -1359,6 +1371,9 @@ fivethirtyeight.com###header-global:style(position: relative !important; top: 0 
 fivethirtyeight.com##.lp-share
 fixya.com###header:style(position: relative !important; top: 0 !important;)
 fixya.com###locked-footer-ad-wrapper
+fixya.com##.next-arrow
+fixya.com##.prev-arrow
+fixya.com##.show.askbar
 flashbak.com###mc_embed_signup
 flashbak.com##.shrink.header-main-container.row:style(position: relative !important; top: 0 !important;)
 flashbak.com##headerv:style(position: relative !important; top: 0 !important;)
@@ -1475,6 +1490,9 @@ freep.com##.fb_recommend
 freep.com##.fixed.header:style(position: relative !important; top: 0 !important;)
 freep.com##.site-header-inner-wrap-fixed.site-header-inner-wrap
 freep.com##.toolsShare
+freshideen.com###cookie_alert
+freshideen.com###embed_popup_cont
+freshideen.com##.sticky_box:style(position: relative !important; top: 0 !important;)
 fstoppers.com###navigation:style(position: relative !important; top: 0 !important;)
 fstoppers.com##.stuck.liking
 ft.com###assanka_mockingbird_overlay
@@ -1770,6 +1788,7 @@ huffingtonpost.com##.js-nav-sticky.nav-sticky--b-page.nav-sticky
 huffingtonpost.com##.margin_10_0.center
 huffingtonpost.com##.mod.mod-follow.tabs
 huffingtonpost.com##.module-header.module
+huffingtonpost.com##.o2-in-side-view:style(position: relative !important; top: 0 !important;)
 huffingtonpost.com##.popup-window__modal-body-container
 huffingtonpost.com##.rail.fix
 huffingtonpost.com##.recirc--page.recirc--vertical.recirc--more-on.recirc--trending.recirc.loaded.js-scroll.component
@@ -1932,6 +1951,8 @@ irishtimes.com###cookies-policy-wrapper
 irishtimes.com###newsdigest-widget
 irishtimes.com###primary-navigation:style(position: relative !important; top: 0 !important;)
 irishtimes.com##.social_article_share
+itsfoss.com##.cookie-notice-container
+itsfoss.com##.scroll-up
 itsnicethat.com##.site-header-slice__fixer:style(position: relative !important; top: 0 !important;)
 itsyourturnblog.com##.u-tintSpectrum.u-tintBgColor.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorDarker.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
 jacobinmag.com###site-header:style(position: relative !important; top: 0 !important;)
@@ -1957,6 +1978,12 @@ jsonline.com##.blockUI.blockOverlay
 jsonline.com##.fixed.header:style(position: relative !important; top: 0 !important;)
 judicialwatch.org###newsletter_signup_fullwidth
 juicero.com##.nav-full-width.pinned:style(position: relative !important; top: 0 !important;)
+justanswer.co.uk##.background
+justanswer.co.uk##.right.bottom.modal
+justanswer.co.uk##.th-va-mobile-teaser
+justanswer.com##.background
+justanswer.com##.right.bottom.modal
+justanswer.com##.th-va-mobile-teaser
 justgetflux.com###header-menu:style(position: relative !important; top: 0 !important;)
 justgetflux.com##body > div > div:nth-of-type(1):style(position: relative !important; top: 0 !important;)
 justia.com###sticky-nav:style(position: relative !important; top: 0 !important;)
@@ -2150,6 +2177,8 @@ makeuseof.com##.header-wrap:style(position: relative !important; top: 0 !importa
 malwarebytes.com###bottom-subnav
 malwarebytes.com###newnav:style(position: relative !important; top: 0 !important;)
 malwaretech.com###responsive-menu-button
+manualslib.com###caffix:style(position: relative !important; top: 0 !important;)
+manualslib.com##.policy
 marinecorpstimes.com###top-header:style(position: relative !important; top: 0 !important;)
 marinecorpstimes.com##.js-pubsub-module.has-secondary-nav.layout-module.generic-module:style(position: relative !important; top: 0 !important;)
 marinij.com##.article.toolbar
@@ -2525,6 +2554,10 @@ ndtv.com##.header:style(position: relative !important; top: 0 !important;)
 ndtv.com##.social-share
 ndtv.com##.sticky_navbar:style(position: relative !important; top: 0 !important;)
 neimanmarcus.com##.tooltipArrowDownLeft.tooltipHolder
+neo-magazin-royale.de##.gradient:style(position: relative !important; top: 0 !important;)
+neo-magazin-royale.de##.push.header:style(position: relative !important; top: 0 !important;)
+neo-magazin-royale.de##.shy.push.header:style(position: relative !important; top: 0 !important;)
+neo-magazin-royale.de##.take-me-to-the-top
 nerdist.com##.condensed.main_header:style(position: relative !important; top: 0 !important;)
 nerdist.com##.container.header-inner-wrapper:style(position: relative !important; top: 0 !important;)
 nerdwallet.com##.sticky.bank-profile-sub-nav-sticky:style(position: relative !important; top: 0 !important;)
@@ -3230,6 +3263,9 @@ rt.com##.sp_right.sp_ticker
 rt.com##.spot-im-registration-module
 rt.com##.static-33_high-100.columns__column
 rticcoolers.com##.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
+rtl.de###rtli-master-related-column
+rtl.de##.rtli-master-octopus
+rtl.de##.scrollmagic-pin-spacer
 runnymede.com##.custom-menu-bg.widget-type-cell.widget-span.span12:style(position: relative !important; top: 0 !important;)
 rushlimbaugh.com##.et_social_heading
 russia-insider.com###header:style(position: relative !important; top: 0 !important;)
@@ -3462,6 +3498,8 @@ standard.co.uk###masthead:style(position: relative !important; top: 0 !important
 standardnotes.org##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.u-tintSpectrum.u-tintBgColor.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
 stanleycupofchowder.com##.tab-bar-fixed.c-tab-bar
 staples.com###popupwin
+stardsl.net##.fusion-sticky-header-wrapper:style(position: relative !important; top: 0 !important;)
+stardsl.net##.to-top-container
 startribune.com##.is-fixed.js-nav-shortcuts-inner.nav-shortcuts-inner:style(position: relative !important; top: 0 !important;)
 startribune.com##.l-navigation-shortnav-container:style(position: relative !important; top: 0 !important;)
 startribune.com##.recirc:style(position: relative !important; top: 0 !important;)
@@ -3502,6 +3540,8 @@ studybreaks.com##.cb-menu-fw.cb-font-header.clearfix.cb-site-padding.cb-nav-bar-
 stuff.co.nz###js-story__ad-storyrec
 stuff.co.nz##.menu--down.menu--top.menu:style(position: relative !important; top: 0 !important;)
 stuffyoushouldknow.com###hsw-header:style(position: relative !important; top: 0 !important;)
+sueddeutsche.de###header-navigation:style(position: relative !important; top: 0 !important;)
+sueddeutsche.de##.article-sidebar-actions
 sun-sentinel.com##.trb_bnn
 sun-sentinel.com##.trb_nh_lw
 sun-sentinel.com##.trb_nh_uw
@@ -4047,6 +4087,8 @@ undark.org##.boxzilla-center-container.boxzilla-container
 undark.org##.clearfix.top-bar-section:style(position: relative !important; top: 0 !important;)
 undark.org##.header-scrolled.top-bar:style(position: relative !important; top: 0 !important;)
 uniquemachine.org##.navbar-fixed-top.main-nav:style(position: relative !important; top: 0 !important;)
+universetoday.com###patreon-section
+universetoday.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
 univision.com##.uvn-s-header-sticky:style(position: relative !important; top: 0 !important;)
 unpatent.co##.is-maximized.metabar--affixed.js-metabar.u-clearfix.metabar
 upguard.com##.nav-bg-black.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
@@ -4343,6 +4385,8 @@ weeklystandard.com##.fixed-bottom-ad
 weeklystandard.com##.social
 welivesecurity.com##.wlistingsinglesocialmedia
 welt.de##.c-page-header--is-sticky.c-page-header:style(position: relative !important; top: 0 !important;)
+welt.de##.c-page-header__fixed--is-sticky.c-page-header__fixed:style(position: relative !important; top: 0 !important;)
+welt.de##.jw-reset.jw-media:style(position: relative !important; top: 0 !important;)
 wereblog.com##.td-affix.td-header-gradient.td-header-menu-wrap:style(position: relative !important; top: 0 !important;)
 wetpaint.com###mc_embed_signup
 wetpaint.com##.content-column-left.content-column
@@ -4607,6 +4651,8 @@ youtube.com##.yt-dialog-show-content.yt-dialog-fg-content
 yummly.co##.header-iab
 zacks.com###main-nav:style(position: relative !important; top: 0 !important;)
 zagat.com##.zgt-sticky-float.layout-row.layout-align-start-center.zgt-sticky.layout-wrap.zgt-header:style(position: relative !important; top: 0 !important;)
+zdf.de##.js-rb-attached.m-open.x-cookies.b-system-dialog
+zdf.de##.m-slim.js-rb-attached.b-header:style(position: relative !important; top: 0 !important;)
 zdnet.com###offerContainer-e651d1b3
 zdnet.com##.catfishBar
 zdnet.com##.fixed.fixation:style(position: relative !important; top: 0 !important;)
