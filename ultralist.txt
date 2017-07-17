@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:22 PM 2017-07-17
+! Last Modified: 1:10 PM 2017-07-17
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -641,6 +641,7 @@ buzzfeed.com##.pullquote_shares_wrapper
 buzzfeed.com##.share-box
 buzzfeed.com##.vertical-sidebar-info.bf_dom.diy-connect
 buzzfeed.com##.xs-l0.xs-z4.sm-fixed.xs-relative.xs-col-12.js-header-section-content:style(position: relative !important; top: 0 !important;)
+buzzfeed.com##:xpath(.//*[@data-module="action-bar-subbuzz"])
 bythewavs.com##.nav-primary:style(position: relative !important; top: 0 !important;)
 c4isrnet.com###page-content > .js-pubsub-module.has-secondary-nav.layout-module.no-subscribe-now.generic-module
 calgaryherald.com##.mobile-header.header-nav:style(position: relative !important; top: 0 !important;)
@@ -1573,6 +1574,7 @@ glamour.com##.header.content-container:style(position: relative !important; top:
 glamour.com##.main-nav.component-navigation
 glamour.com##.site-header
 glamour.com##.sticky-header.component-header:style(position: relative !important; top: 0 !important;)
+glamour.com##.sticky.secondary:style(position: relative !important; top: 0 !important;)
 glasgowlive.co.uk##.mod-header > .secondary:style(position: relative !important; top: 0 !important;)
 glasgowlive.co.uk##.publication-theme-highlight.primary:style(position: relative !important; top: 0 !important;)
 glassdoor.com###EmpSolutionsTab
