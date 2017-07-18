@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 3:07 PM 2017-07-18
+! Last Modified: 4:00 PM 2017-07-18
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -1655,6 +1655,8 @@ google.com##.nocontent.devsite-top-section:style(position: relative !important; 
 google.com##:xpath(.//*[@id='gbw']/div/div/div[2]//div[3][@aria-label="promo"])
 googleblog.blogspot.com###sidebar-top
 googleblog.blogspot.com##.share
+gop.com###hd:style(position: relative !important; top: 0 !important;)
+gop.com###social-hd:style(position: relative !important; height: 0px !important; top: 20px !important; z-index: -1 !important;)
 governing.com##.in.visible-phone.mobile-share
 governing.com##.mobile-header:style(position: relative !important; top: 0 !important;)
 governing.com##.static-header.row-fluid:style(position: relative !important; top: 0 !important;)
