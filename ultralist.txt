@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 9:56 AM 2017-07-20
+! Last Modified: 10:52 AM 2017-07-21
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -2272,6 +2272,8 @@ mashable.com##.follow-channel
 mashable.com##.microcontent-shares
 mashable.com##.navbar:style(position: relative !important; top: 0 !important;)
 mashable.com##.share-container
+masslive.com##.sticky-nav-hide:style(transition: none !important;)
+masslive.com##.sticky-nav-show.sticky-nav:style(position: relative !important; top: 0 !important;)
 matadornetwork.com##.stuck-mid.page-header-wrapper:style(position: relative !important; top: 0 !important;)
 mathworks.com###go-top
 mathworks.com##.affix.includes_subnav.sticky_header_container:style(position: relative !important; top: 0 !important;)
