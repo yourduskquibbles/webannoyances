@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 1:26 PM 2017-07-22
+! Last Modified: 1:48 PM 2017-07-22
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -1162,6 +1162,7 @@ digg.com##.col-1.col-1--deeper
 digg.com##.in.fade.modal-backdrop
 digg.com##.in.hide.fade.modal.email-subscribe-modal
 digg.com##.is--visible.js--promo-bottom.promo-bottom--editions
+digg.com##.item-actions__share-actions
 digg.com##.js--facebook-share-btn.item-actions__action
 digg.com##.js--save-btn.item-actions__action.digg-story__action--save
 digg.com##.js--tweet-btn.item-actions__action
@@ -1284,6 +1285,7 @@ espn.com###bracketcast:style(position: relative !important; bottom: 0 !important
 espn.com###header-wrapper:style(position: relative !important; top: 0 !important;)
 espn.com###toolbar
 espn.com##.active.js-feed-item-mask
+espn.com##.ad-center
 espn.com##.contentItem__footer--shareMenuVideo.contentItem__footer
 espn.com##.espnDaily.sub-module
 espn.com##.horizontal.article-social
@@ -1909,6 +1911,10 @@ idgod.ph##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !impo
 idigitaltimes.com##.page-header
 idropnews.com###main-nav-cont:style(position: relative !important; top: 0 !important;)
 ieee.org###header:style(position: relative !important; top: 0 !important;)
+ieee.org###social-space
+ieee.org##.ad-space
+ieee.org##.backtotop
+ieee.org##.medium-top-ad
 ifixit.com##.smartbanner
 iflscience.com##.smaller.header:style(position: relative !important; top: 0 !important;)
 ign.com###header-container:style(position: relative !important; top: 0 !important;)
@@ -2459,9 +2465,12 @@ morningsave.com##.members-only
 motherjones.com###block-block-222
 motherjones.com###block-block-506
 motherjones.com###bottom-donate
+motherjones.com###footer-social
 motherjones.com###navbar:style(position: relative !important; top: 0 !important;)
 motherjones.com##.article-tools
+motherjones.com##.bottom.group.social-container
 motherjones.com##.hdr-tools
+motherjones.com##.hidden-xxs.hidden-xs.top.group.social-container
 motoring.com.au###social-sharing-widget-mobi-sticky
 motoring.com.au##.csn-motoring-search-panel:style(position: relative !important; top: 0 !important;)
 motoring.com.au##.csn-motoring-sticky-search:style(position: relative !important; top: 0 !important;)
@@ -3177,6 +3186,8 @@ qdrinks.com##.collapsed.inverted.font-smooth.header:style(position: relative !im
 qualityassurancemag.com###slide-nav
 qualityassurancemag.com##.navbar-header:style(position: relative !important; top: 0 !important;)
 qualityassurancemag.com##.supersocialshare-container
+quantamagazine.org##.scale0.flex-justify-center.flex.footer__social
+quantamagazine.org##.theme__anchors--solid.flex-justify-center.flex.hide.post__sidebar
 quantamagazine.org##.z10.fit-r.fit-l.fit-t.fixed
 quantamagazine.org##.z9.fit-r.fit-l.fit-t.fixed.nav:style(position: relative !important; top: 0 !important;)
 queenbeetickets.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
@@ -3416,6 +3427,7 @@ samsung.com##.section.compare-tray
 samsung.com##.subnav-actions
 sangaline.com###navbar-main:style(position: relative !important; top: 0 !important;)
 saveur.com##.main-header:style(position: relative !important; top: 0 !important;)
+saveur.com##.pane-social-buttons.pane-social-plugins-social-plugins-footer-icons.pane-block.panel-pane
 saveur.com##.scrollToTop
 sbnation.com###to-the-top
 sbnation.com##.m-share_selection_contextual
@@ -3951,6 +3963,8 @@ theregister.co.uk###top_nav:style(position: relative !important; top: 0 !importa
 theregister.co.uk##.article_social_btns
 theringer.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBottomSection.u-tintSpectrum.u-tintBgColor.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar
 theringer.com##.is-maximized.metabar--affixed.u-tintSpectrum.u-tintBgColor.metabar--hiddenWhenMinimized.metabar--tall.metabar--light.js-metabar.u-clearfix.metabar
+theringer.com##.u-tintSpectrum.u-tintBgColor.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorTransparentWhiteDarker.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
+theringer.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
 theringer.com##.u-xs-paddingRight10.u-xs-paddingLeft10.u-zIndexMetabar.u-paddingBottom10.u-paddingTop10.u-borderBox.u-boxShadowTop.u-backgroundWhite.u-sizeFullWidth.u-bottom0.u-fixed
 theringfinders.com###menu-main:style(position: relative !important; top: 0 !important;)
 theroot.com###js-article-slider
@@ -4014,10 +4028,12 @@ thetimes.co.uk##.ItemGrouped
 thetimes.co.uk##.js-tracking.ArticlePager-link
 theverge.com###sticky-menu:style(position: relative !important; top: 0 !important;)
 theverge.com###subForm
+theverge.com##.c-social-buttons
 theverge.com##.follow-the-verge.instapaper_ignore.entry-unrelated
 theverge.com##.m-header__social
 theverge.com##.m-nav:style(position: relative !important; top: 0 !important;)
 theverge.com##.m-nav__tabs
+theverge.com##.main-social.c-social-buttons
 theverge.com##.social-media-column.clearfix.instapaper_ignore.entry-unrelated
 theverge.com##.tab-bar-fixed.c-tab-bar
 thewalrus.ca##.do_fade_in_2.navHeader.container
@@ -4333,6 +4349,8 @@ valuewalk.com###ssba
 vancouversun.com##.l-header:style(position: relative !important; top: 0 !important;)
 vanityfair.com###AMS_VYF_GLOBAL_HEADER
 vanityfair.com###AMS_VYF_HOLLYWOOD_FOOTER
+vanityfair.com##.closed.casper.component-social-share
+vanityfair.com##.handle.component-social-share.component-social-follow
 vanityfair.com##.lower-nav-scrolled.hive-lower-nav
 vanityfair.com##.lower-nav-scrolled.lower-nav
 vanityfair.com##.modal-content
@@ -4376,9 +4394,11 @@ videolan.org##.navbar-fixed-top.navbar-default.navbar:style(position: relative !
 viewfind.com###fixed_social
 viewfind.com###vf_nav:style(position: relative !important; top: 0 !important;)
 viewfind.com##.main-header.container-fluid:style(position: relative !important; top: 0 !important;)
+villagevoice.com##.c-fpHeader:style(position: relative !important; top: 0 !important;)
 villagevoice.com##.city-color-border.next.sideSlide > .city-color-border.city-color-back.tab
 villagevoice.com##.city-color-border.prev.sideSlide > .city-color-border.city-color-back.tab
 villagevoice.com##.sde-shadow
+villagevoice.com##.u-socialWrapper
 vimeo.com###topnav_outer_wrap:style(position: relative !important; top: 0 !important;)
 vimeo.com##.is_mini.js-player-fullscreen.player_area:style(position: relative !important; top: 0 !important;)
 vimeo.com##.js-app_banner.app_banner
@@ -4420,9 +4440,12 @@ vogue.com##.most-shared
 vogue.com##.site-header:style(position: relative !important; top: 0 !important;)
 vogue.com##.text-tweet.text-tweet__template
 vox.com###chorus-social-fixed
+vox.com##.c-global-header__social
+vox.com##.dfp_ad--held-area.dynamic-js-slot
 vox.com##.m-explainer__top-nav
 vox.com##.m-share_selection_contextual
 vox.com##.m-sticky-nav:style(position: relative !important; top: 0 !important;)
+vox.com##.main-social.c-social-buttons
 vox.com##.tab-bar-fixed.c-tab-bar
 vvvv.org##.clearfix.d-header:style(position: relative !important; top: 0 !important;)
 w3schools.com###topnav:style(position: relative !important; top: 0 !important;)
