@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 1:17 PM 2017-07-22
+! Last Modified: 1:26 PM 2017-07-22
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -1162,6 +1162,9 @@ digg.com##.col-1.col-1--deeper
 digg.com##.in.fade.modal-backdrop
 digg.com##.in.hide.fade.modal.email-subscribe-modal
 digg.com##.is--visible.js--promo-bottom.promo-bottom--editions
+digg.com##.js--facebook-share-btn.item-actions__action
+digg.com##.js--save-btn.item-actions__action.digg-story__action--save
+digg.com##.js--tweet-btn.item-actions__action
 digg.com##.site-navigation-bottom
 digg.com##.site-navigation__nav-list:style(position: relative !important; top: 0 !important;)
 digg.com##.story-action.story-action-share
@@ -1238,6 +1241,8 @@ economictimes.com###notificationWidget
 economictimes.com##.menuBar:style(position: relative !important; top: 0 !important;)
 economist.com###ec-message-3
 economist.com###navbar
+economist.com##.blog-post__sharebar
+economist.com##.cookie-message
 economist.com##.fe-blogs__desktop-beta-bar.beta-bar.bar-wrapper
 economist.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBottomSection.u-tintSpectrum.u-tintBgColor.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
 economist.com##.navigation.navigation-sticky-scroller.sticky-scroller:style(position: relative !important; top: 0 !important;)
@@ -1556,6 +1561,8 @@ ft.com###barrier-dialogue
 ft.com##.WSODHoverPopupContainer
 ft.com##.barrier__container
 ft.com##.insideArticleShare
+ft.com##.n-util-clearfix.article__share--bottom.article__share
+ft.com##.n-util-clearfix.article__share--top.article__share
 ft.com##.n-welcome--fixed-visible.n-welcome--fixed.n-welcome--bar.n-welcome
 ft.com##.n-welcome-message--fixed.n-welcome-banner.o-expander
 ft.com##.n-welcome-message--fixed.n-welcome-message
