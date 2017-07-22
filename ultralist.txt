@@ -1,10 +1,11 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 5:47 PM 2017-07-21
+! Last Modified: 1:06 PM 2017-07-22
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
 
 ! Start Web Annoyances Ultralist
+! Fri Jul 21 22:38:44 2017 http://m.huffpost.com/us/entry/8940460
 ###appIntercept
 ###dream-box
 ###dsq-indicator-north
@@ -179,6 +180,8 @@ afp.com###nav_mobile_btn:style(position: relative !important; top: 0 !important;
 africam.com###pushengage_confirm
 aftenposten.no##.widget.relatedContents.flyout.noPrint.active.instantiated
 aftonbladet.se##.abThemeBorder.abThemeBgLight:style(position: relative !important; top: 0 !important;)
+ahtribune.com##.header-search.col-sm-2.col-xs-12
+ahtribune.com##.uppercase.font-family-oswald.article-share-box
 aim.org##.container.header-navbar-inner
 aim.org##.navbar-nav.nav:style(position: relative !important; top: 0 !important;)
 airbnb.com##.navigationTop_120drhm:style(position: relative !important; top: 0 !important;)
@@ -500,6 +503,9 @@ blueapron.com##.fancybox-overlay-fixed.fancybox-overlay
 bluedotdaily.com###main-nav-wrap:style(position: relative !important; top: 0 !important;)
 bmj.com###main-nav:style(position: relative !important; top: 0 !important;)
 bnn.ca##.main-header:style(position: relative !important; top: 0 !important;)
+bnonews.com##.adsbygoogle
+bnonews.com##.back-to-top
+bnonews.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 boardingarea.com###ba-flybox
 boardingarea.com##.navbar-inverse.navbar
 boards.ie###p2h-header:style(position: relative !important; top: 0 !important;)
@@ -1274,6 +1280,7 @@ espn.com###toolbar
 espn.com##.active.js-feed-item-mask
 espn.com##.contentItem__footer--shareMenuVideo.contentItem__footer
 espn.com##.espnDaily.sub-module
+espn.com##.horizontal.article-social
 espn.com##.js-bloomed.favorites-mgmt.lightbox
 espn.com##.lightbox-container
 espn.com##.newItemAlert.sm.button:style(position: relative !important; top: 0 !important;)
@@ -1811,6 +1818,7 @@ hollywoodreporter.com###site-header:style(position: relative !important; top: 0 
 hollywoodreporter.com###sticky-nav:style(position: relative !important; top: 0 !important;)
 hollywoodreporter.com##.sharetools.sharetools-horizontal
 hollywoodreporter.com##.site-header__bar:style(position: relative !important; top: 0 !important;)
+hollywoodreporter.com##.social-share
 hollywoodreporter.com##.sticky-wrapper:style(position: relative !important; top: 0 !important;)
 hollywoodreporter.com##.stuck.js-leftRail-container.left-rail
 hollywoodreporter.com##.toolMenu.toolMenuLeft
@@ -1868,8 +1876,10 @@ huffingtonpost.com##.treated.advertisement.above_follow_us_300x250
 huffingtonpost.com##.valencia-footer
 huffingtonpost.com##A[data-beacon="\7b \"p\":\7b \"cv_event\":\"load-new\"\7d \7d "]
 huffingtonpost.com##IFRAME[src="http://www.huffingtonpost.com/widgets/orbots/580-190-article.html"]
+huffpost.com##.bn-share-bottom.share-bar--bottom.share-bar
 hulu.com###banner:style(position: relative !important; top: 0 !important;)
 huronconsultinggroup.com##header:style(position: relative !important; top: 0 !important;)
+hybriders.com##.dark.top-bar
 ibtimes.co.in##.fixed-social.sticky
 ibtimes.co.uk###article-left-side-share-panel
 ibtimes.co.uk###navi-wrap:style(position: relative !important; top: 0 !important;)
@@ -2546,6 +2556,7 @@ nationaljournal.com###menu:style(position: relative !important; top: 0 !importan
 nationaljournal.com###promo_wrapper:style(position: relative !important; top: 0 !important;)
 nationaljournal.com###top_header:style(position: relative !important; top: 0 !important;)
 nationaljournal.com###walkingHeader
+nationalpost.com##.full-width.l-header:style(position: relative !important; top: 0 !important;)
 nationalpost.com##header:style(position: relative !important; top: 0 !important;)
 nationalreview.com###block-nro-block-social-links
 nationalreview.com###block-nro-block-subscribe
@@ -3820,6 +3831,8 @@ theglobeandmail.com###GU_Pencil
 theglobeandmail.com###GU_leftcontent
 theglobeandmail.com###GU_rightbtn
 theguardian.com###content-actions
+theguardian.com###dfp-ad--inline1
+theguardian.com###dfp-ad--inline2
 theguardian.com##.component.trackable-component.undocked-share.share-links
 theguardian.com##.contributions__epic
 theguardian.com##.d2-action.d2-action--facebook.d2-action--share
@@ -3827,9 +3840,11 @@ theguardian.com##.d2-action.d2-action--twitter.d2-action--share
 theguardian.com##.email-subscription-promo.js-email-upsell.b4
 theguardian.com##.identity-noticebar.col-12.edge
 theguardian.com##.js-save-for-later.meta__save-for-later
+theguardian.com##.meta__extras
 theguardian.com##.navigation-container--collapsed.navigation-container.js-navigation-header:style(position: relative !important; top: 0 !important;)
 theguardian.com##.save-for-later__button--save.js-save-for-later__button.save-for-later__button.button--tertiary.button--medium.button[href^="https://profile.theguardian.com/save-content"]
 theguardian.com##.share-links.page-bottom-share-links.col-8.b3.trackable-component
+theguardian.com##.submeta__share
 thehackerblog.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 thehealthyfoodie.com##.shrink.site-header:style(position: relative !important; top: 0 !important;)
 theheartysoul.com##.text-center.dfp_stucky_footer
@@ -3982,6 +3997,7 @@ thetimes.co.uk##.ArticlePagerItem--winged.ArticlePagerItem--next.ArticlePagerIte
 thetimes.co.uk##.ArticlePagerItem--winged.ArticlePagerItem--previous.ArticlePagerItem.Item
 thetimes.co.uk##.ConversionPopup
 thetimes.co.uk##.ConversionTopBar:style(position: relative !important; top: 0 !important;)
+thetimes.co.uk##.CookieMessage
 thetimes.co.uk##.ItemGrouped
 thetimes.co.uk##.js-tracking.ArticlePager-link
 theverge.com###sticky-menu:style(position: relative !important; top: 0 !important;)
@@ -4171,6 +4187,7 @@ trumphotels.com##.header-property.row:style(position: relative !important; top: 
 trust.org###global-ticker
 trust.org##.fixed.genx2header.page.wrapper:style(position: relative !important; top: 0 !important;)
 trust.org##.subscribe
+truthandaction.org###move-to-top
 truthrevolt.org##.fancybox-overlay.fancybox-overlay-fixed
 truthrevolt.org##.field-addthis-counter-style
 truthrevolt.org##.field-addthis-default-style
@@ -4288,6 +4305,7 @@ usnews.com##.scroll-to-fixed-fixed.show-for-large-up.main.header:style(position:
 usnews.com##.show-for-large-up.block-loose.pad-loose.border-bottom:nth-of-type(2)
 usuncut.com###main-nav-wrap:style(position: relative !important; top: 0 !important;)
 usuncut.com##.fly-but-wrap:style(position: relative !important; top: 0 !important;)
+utexas.edu##.fix-header.container-logo.container:style(position: relative !important; top: 0 !important;)
 utilitydive.com##.site-menu-wrapper
 utilitydive.com##.wf-active.wf-abriltitling-n4-active.wf-proximanova-n4-active.wf-proximanova-n3-active.wf-proximanova-n9-active.wf-abriltitling-n8-active.wf-abriltitling-n7-active.wf-proximanova-n5-active.wf-proximanova-n7-active.wf-proximanova-n8-active.no-js
 utsports.com##.tab-bar-fixed.c-tab-bar
@@ -4464,6 +4482,7 @@ washingtonpost.com##.pb-3:style(max-width: 3000px !important; transition: none !
 washingtonpost.com##.pb-f-page-magnet:style(padding: 0 0 0 0 !important;)
 washingtonpost.com##.pb-font-smoothing.pb-mostread-subscribe.pb-subscribe
 washingtonpost.com##.pb-navheader-hidden.ad-hideable.leaderboard
+washingtonpost.com##.pb-subscribe-promo.border-bottom-hairline
 washingtonpost.com##.ripple-wrapper
 washingtonpost.com##.row.signup-module
 washingtonpost.com##.social-tools-wrapper
@@ -4641,6 +4660,7 @@ wsbtv.com###header:style(position: relative !important; top: 0 !important;)
 wsbtv.com###nav-main:style(position: relative !important; top: 0 !important;)
 wsbtv.com###tabcontent-news
 wsbtv.com##.bg-dark-blue.row
+wsbtv.com##.ui-social
 wsj.com###article_tools
 wsj.com###deloitte_column
 wsj.com###full-header:style(position: relative !important; top: 0 !important;)
@@ -4706,6 +4726,7 @@ wsj.com##DIV[style="width: 100%; text-align: center; margin-left: 100px;"]
 wtkr.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
 wtop.com###h_new:style(position: relative !important; top: 0 !important;)
 wtop.com###voteTools
+wtop.com##.Entry-infoSocial
 wtop.com##.facebook
 wtop.com##.retweet
 wtop.com##.socialmedia
