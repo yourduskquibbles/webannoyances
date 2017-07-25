@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:40 AM 2017-07-25
+! Last Modified: 12:07 PM 2017-07-25
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -4343,7 +4343,8 @@ twitch.tv##.js-navigation.nav:style(position: relative !important; top: 0 !impor
 twitlonger.com##.navbar-fixed-top.navbar:style(position: relative !important; top: 0 !important;)
 twitter.com##.AppBar--overSignup.u-cf.AppBar--inverted.AppBar:style(position: relative !important; top: 0 !important;)
 twitter.com##.CoreLayout-header:style(position: relative !important; top: 0 !important;)
-twitter.com##.ProfileCanopy-header:style(transition: none !important;)
+twitter.com##.ProfileCanopy-header.u-bgUserColor:style(margin-top: 0 !important;)
+twitter.com##.ProfileCanopy-header:style(margin-top: 0 !important; transition: none !important;)
 twitter.com##.ProfileCanopy-inner:style(position: relative !important; top: 0 !important;)
 twitter.com##.ProfileCanopy:style(transition: none !important;)
 twitter.com##.SearchNavigation:style(position: relative !important; top: 0 !important;)
