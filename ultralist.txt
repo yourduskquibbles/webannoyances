@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 1:19 PM 2017-07-25
+! Last Modified: 2:08 PM 2017-07-25
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -89,8 +89,8 @@
 9news.com.au##.site-header.module
 9to5google.com##.scroll-to-fixed-fixed.header-wrap:style(position: relative !important; top: 0 !important;)
 9to5google.com##.scroll-to-fixed-fixed.news-feed-header:style(position: relative !important; top: 0 !important;)
-@@||arlnow.disqus.com/count.js
-@@||arlnow.disqus.com/embed.js
+@@||disqus.com/count.js
+@@||disqus.com/embed.js
 @@||disqus.com/embed.js?_=1457540*$script
 @@||facebook.com/common/referer_frame.php$subdocument,domain=facebook.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=cbssports.com
@@ -145,6 +145,8 @@ adguard.com##.static.staticPageWidth.withSearch:style(position: relative !import
 adl.org###header-wrapper:style(position: relative !important; top: 0 !important;)
 adobe.com###j-compact-header:style(position: relative !important; top: 0 !important;)
 adobe.com###j-header-wrap:style(position: relative !important; top: 0 !important;)
+adobe.com##.footer-icons
+adobe.com##.nav-single
 adp.com##.clearfix.top-nav.adp-nav-background:style(position: relative !important; top: 0 !important;)
 adriannapapell.com##.popup-content
 adventuresofanurse.com##.nav-primary:style(position: relative !important; top: 0 !important;)
