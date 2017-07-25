@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:24 PM 2017-07-25
+! Last Modified: 1:19 PM 2017-07-25
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -864,6 +864,7 @@ cnbc.com##.main-header-nav:style(position: relative !important; top: 0 !importan
 cnbc.com##.persistentHeader.main-header-nav:style(position: relative !important; top: 0 !important;)
 cnbc.com##.pico-content
 cnbc.com##.pico-overlay
+cnbc.com##.social-container
 cnbc.com##.story-header-right
 cnbc.com##.theplatform-video__docked.dockable.player-lazy-loaded-mobile:style(position: relative !important; top: 0 !important;)
 cnet.com###connectCNET
@@ -1494,13 +1495,17 @@ fool.com##.navigation:style(position: relative !important; top: 0 !important;)
 fool.com##.usmf-article-nav:style(position: relative !important; top: 0 !important;)
 foolishit.com##.stuck.clearfix.dark-menu-dropdown.third-skin.main-navigation:style(position: relative !important; top: 0 !important;)
 forbes.com##.beta-bar-gallery.beta-bar
+forbes.com##.clearfix.csf-sharing.csr-following
 forbes.com##.flyer_ui
 forbes.com##.mini_header:style(position: relative !important; top: 0 !important;)
 forbes.com##.ng-scope.header-nav-collapse.initial.csr-header:style(position: relative !important; top: 0 !important;)
 forbes.com##.ng-scope.sticky-fbs-ad-container
 forbes.com##.show.slash-background.article-sidebar
+forbes.com##.top-ad-container
 forbes.com##NAV:style(position: relative !important; top: 0 !important;)
+forbes.com##fbs-ad
 forbes.com##header:style(position: relative !important; top: 0 !important;)
+forbes.com##sharing
 foreignaffairs.com###kicker-2
 foreignaffairs.com##.site-header--sticky:style(position: relative !important; top: 0 !important;)
 foreignpolicy.com###logo
@@ -2542,6 +2547,8 @@ moviepilot.com###header-normal:style(position: relative !important; top: 0 !impo
 moviepilot.com##.supplication.for-small-devices
 mozilla-community.org###topic-progress-wrapper
 mozilla-community.org##.clearfix.d-header:style(position: relative !important; top: 0 !important;)
+mozilla.com###nav-global:style(position: relative !important; top: 0 !important;)
+mozilla.com###nav-util:style(position: relative !important; top: 0 !important;)
 mozilla.org###nav:style(position: relative !important; top: 0 !important;)
 mozilla.org###site-welcome
 mozilla.org##.stuck.firefox.moz-sub-nav:style(position: relative !important; top: 0 !important;)
@@ -3385,6 +3392,15 @@ rebrn.com##.navbar-header:style(position: relative !important; top: 0 !important
 rebrn.com##.navbar-scroll-custom.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 rebrn.com##.share
 recode.net###social-header
+recode.net##.c-global-header__social
+recode.net##.c-newsletter-promo
+recode.net##.c-social-buttons
+recode.net##.m-ad__athena.m-ad__dynamic_ad_unit.m-ad
+recode.net##.m-ad__btf_leaderboard_variable.m-ad__dynamic_ad_unit.m-ad
+recode.net##.m-ad__btf_medium_rectangle_variable.m-ad__dynamic_ad_unit.m-ad
+recode.net##.m-ad__desktop_leaderboard_variable.m-ad__dynamic_ad_unit.m-ad
+recode.net##.m-ad__medium_rectangle_variable.m-ad__dynamic_ad_unit.m-ad
+recode.net##.main-social.c-social-buttons
 recode.net##.sharedaddy.sd-sharing-enabled
 recode.net##.tab-bar-fixed.c-tab-bar:style(position: relative !important; top: 0 !important;)
 recordedfuture.com###text-4
