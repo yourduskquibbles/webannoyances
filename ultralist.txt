@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 5:08 PM 2017-07-24
+! Last Modified: 10:03 AM 2017-07-25
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -904,6 +904,7 @@ cnsnews.com###cns-social-links
 cnsnews.com##.hidden-xs.smallnav.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
 cnsnews.com##.kimbiaDiv.cns.cns1.two_col.columnsPerPage1
 cnsnews.com##.mini > .header:style(position: relative !important; top: 0 !important;)
+cnsnews.com##.mini-social-icons
 cntraveler.com##.container-header:style(position: relative !important; top: 0 !important;)
 cntraveler.com##.navIsFixed.site-header
 coindesk.com##.article-share
@@ -1037,6 +1038,8 @@ dailycaller.com###share_bar
 dailycaller.com###sharebar
 dailycaller.com###text-264
 dailycaller.com##.contain-to-grid.sticky.fixed
+dailycaller.com##.hide-for-small.hide-for-medium.on.dc-go-top
+dailycaller.com##.social-icons.columns.large-2.medium-2.small-5
 dailydot.com###dailydot-socialbar
 dailydot.com###dd-nav-global-downward
 dailydot.com###lf_notifier_below
@@ -1536,6 +1539,7 @@ fox5ny.com##.show-for-large-up.mod-story-progress.mod-accordion.mod-wrapper
 fox6now.com###actionbar
 fox6now.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
 foxbusiness.com##.radar-bar
+foxbusiness.com##.sticky.social
 foxeslovelemons.com##.slicknav_menu:style(position: relative !important; top: 0 !important;)
 foxnews.com###janrainModalOverlay
 foxnews.com###navbar-main:style(position: relative !important; top: 0 !important;)
@@ -1559,6 +1563,8 @@ foxsports.com###body-header-wrapper:style(position: relative !important; top: 0 
 foxsports.com###js-body-header:style(position: relative !important; top: 0 !important;)
 foxsports.com###section-scorestrip:style(position: relative !important; top: 0 !important;)
 foxsports.com##.section-nav:style(position: relative !important; top: 0 !important;)
+france24.com##.article-action
+france24.com##.cookies_bar
 france24.com##.header:style(position: relative !important; top: 0 !important;)
 france24.com##.next
 france24.com##.on-air-board-outer:style(position: relative !important; top: 0 !important;)
@@ -1786,6 +1792,8 @@ hannity.com##.affix.full.navTopadContainer:style(position: relative !important; 
 harpers.org###issuem-leaky-paywall-articles-remaining-nag
 harpers.org##.subscribe
 harpersbazaar.com###share-sticky-bar
+harpersferryadventurecenter.com###main-header:style(position: relative !important; top: 0 !important;)
+harpersferryadventurecenter.com###top-header:style(position: relative !important; top: 0 !important;)
 harvarddesignmagazine.org###navigation-wrapper
 hawaiinewsnow.com###header:style(position: relative !important; top: 0 !important;)
 hawaiinewsnow.com###smartbanner
@@ -2341,8 +2349,11 @@ matadornetwork.com##.stuck-mid.page-header-wrapper:style(position: relative !imp
 mathworks.com###go-top
 mathworks.com##.affix.includes_subnav.sticky_header_container:style(position: relative !important; top: 0 !important;)
 mcall.com##.trb_bnn
+mcclatchydc.com###newsletter-signUpWidget
 mcclatchydc.com###next_wrapper
 mcclatchydc.com###previous_wrapper
+mcclatchydc.com##.share-icons
+mcclatchydc.com##.share-tools-wrapper
 mcdiarmid.org##.pad-h.header:style(position: relative !important; top: 0 !important;)
 mediaequalizer.com###header:style(position: relative !important; top: 0 !important;)
 mediaite.com###header-content:style(position: relative !important; top: 0 !important;)
@@ -2440,6 +2451,7 @@ mirror.co.uk##.publication-theme-border.skinny-signup-top.skinny-signup
 mirror.co.uk##.publication-theme-highlight.primary:style(position: relative !important; top: 0 !important;)
 mirror.co.uk##.secondary:style(position: relative !important; top: 0 !important;)
 mirror.co.uk##.sharebar
+mirror.co.uk##.social-sites
 missilethreat.csis.org##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 missilethreat.csis.org##.topbutton
 mlb.com###header-responsive:style(position: relative !important; top: 0 !important;)
@@ -2877,6 +2889,7 @@ nytimes.com###gatewayUnit
 nytimes.com###living-newsletter-promo
 nytimes.com###main-header:style(position: relative !important; top: 0 !important;)
 nytimes.com###masthead-placeholder
+nytimes.com###masthead-social
 nytimes.com###masthead:style(position: relative !important; top: 0 !important;)
 nytimes.com###navigation
 nytimes.com###navigation-edge
@@ -3180,6 +3193,7 @@ potbelly.com##.global-modal-background
 potbelly.com##.global-modal-true.global-modal
 predictiveops.com###sticky-nav:style(position: relative !important; top: 0 !important;)
 preferredhotels.com###search-widget:style(position: relative !important; top: 0 !important;)
+premier.org.uk##.floating.addthis_toolbox_wrapper
 pressherald.com##.mtm-utility-launch
 pressherald.com##.paywall-callout
 pressherald.com##.social-follower
@@ -3772,6 +3786,7 @@ techcrunch.com##.next-story-link
 techcrunch.com##.popped.section.toaster
 techcrunch.com##.social-cluster
 techcrunch.com##.social-share
+techdirt.com##.sharetools
 techinsider.io##.condensed.masthead:style(position: relative !important; top: 0 !important;)
 technobuffalo.com###top-primary-nav:style(position: relative !important; top: 0 !important;)
 technochops.com###nav:style(position: relative !important; top: 0 !important;)
@@ -3896,6 +3911,7 @@ thefoodallergyhub.com###cookieswrapper
 thefreethoughtproject.com###topcontrol
 thefuntimesguide.com##.nav-primary:style(position: relative !important; top: 0 !important;)
 thegatewaypundit.com###responsive-menu-button
+thegatewaypundit.com##.essb_links_list
 thegatewaypundit.com##.thega-widget
 theglobeandmail.com###GU_Pencil
 theglobeandmail.com###GU_leftcontent
@@ -4554,6 +4570,7 @@ washingtonpost.com###wp-header:style(position: relative !important; top: 0 !impo
 washingtonpost.com###wp_Alert
 washingtonpost.com###wp_Signin
 washingtonpost.com##.breaking-news-bar:style(position: relative !important; top: 0 !important;)
+washingtonpost.com##.color-icons.align-right.social-tools-wrapper-bottom
 washingtonpost.com##.daily202-newsletter.container
 washingtonpost.com##.force-visibility.unprocessed.color-top.vertical-top-sharebar.top-sharebar-wrapper
 washingtonpost.com##.head-wrap.row:style(position: relative !important; top: 0 !important;)
@@ -4641,6 +4658,10 @@ welivesecurity.com##.wlistingsinglesocialmedia
 welt.de##.c-page-header--is-sticky.c-page-header:style(position: relative !important; top: 0 !important;)
 welt.de##.c-page-header__fixed--is-sticky.c-page-header__fixed:style(position: relative !important; top: 0 !important;)
 welt.de##.jw-reset.jw-media:style(position: relative !important; top: 0 !important;)
+weny.com###WNAd1
+weny.com###WNAd41
+weny.com###WNAd43
+weny.com###WNAd52
 wereblog.com##.td-affix.td-header-gradient.td-header-menu-wrap:style(position: relative !important; top: 0 !important;)
 wetpaint.com###mc_embed_signup
 wetpaint.com##.content-column-left.content-column
@@ -4689,6 +4710,7 @@ wimbledon.com###mobileMenuContainer:style(position: relative !important; top: 0 
 wimbledon.com##.fixed.newsBgText:style(position: relative !important; top: 0 !important;)
 wimbledon.com##.headerPos:style(position: relative !important; top: 0 !important;)
 wimbledon.com##.newsBgImage:style(position: relative !important; top: 0 !important;)
+windows.com##.expanded.addthis_default_style.addthis_toolbox
 windows.com##.sticky.main-nav:style(position: relative !important; top: 0 !important;)
 windowsreport.com##.fixed.sticky.contain-to-grid:style(position: relative !important; top: 0 !important;)
 wionews.com##.navbar-fixed-top.navbar-default.navbar
