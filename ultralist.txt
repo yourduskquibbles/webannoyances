@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 4:55 PM 2017-07-26
+! Last Modified: 5:24 PM 2017-07-26
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -1197,12 +1197,14 @@ digg.com###content-main.content-main > .grid-3col:nth-of-type(1) > .col-1.col-1-
 digg.com###js--digg-header:style(position: relative !important; top: 0 !important;)
 digg.com###js--editions-promo
 digg.com###site-promo-banner > .content
+digg.com##.ad-container--originals-top
 digg.com##.col-1.col-1--deeper
 digg.com##.in.fade.modal-backdrop
 digg.com##.in.hide.fade.modal.email-subscribe-modal
 digg.com##.is--visible.js--promo-bottom.promo-bottom--editions
 digg.com##.item-actions__share-actions
 digg.com##.js--facebook-share-btn.item-actions__action
+digg.com##.js--infinite-break.originals--infinite-break
 digg.com##.js--save-btn.item-actions__action.digg-story__action--save
 digg.com##.js--tweet-btn.item-actions__action
 digg.com##.site-navigation-bottom
@@ -1776,13 +1778,23 @@ gq.com###follow-us
 gq.com###nav-holder:style(position: relative !important; top: 0 !important;)
 gq.com###social-hub
 gq.com##.best-reads-list-inline.best-reads-list
+gq.com##.closed.social-share-article-heading.component-social-share
+gq.com##.closed.sub-header-social-share.component-social-share
 gq.com##.cm-footer-component
-gq.com##.desktop-header-container:style(position: relative !important; top: 0 !important;)
-gq.com##.desktop-header-search-wrapper:style(position: relative !important; top: 0 !important;)
-gq.com##.desktop-header:style(position: relative !important; top: 0 !important;)
+gq.com##.container.desktop-header:style(position: relative !important; top: 0 !important;)
+gq.com##.desktop-header-utils
+gq.com##.dropdown-container
+gq.com##.instream-1.article-inline-ad
+gq.com##.instream-2.article-inline-ad
+gq.com##.instream-3.article-inline-ad
+gq.com##.instream-4.article-inline-ad
+gq.com##.instream-5.article-inline-ad
 gq.com##.mm-nav:style(position: relative !important; top: 0 !important;)
 gq.com##.mobile-header:style(position: relative !important; top: 0 !important;)
 gq.com##.show.component-sub-header
+gq.com##.show.container.component-sub-header
+gq.com##.social-follow-items
+gq.com##.subscribe-button
 gq.com##.yrcomponent
 grabien.com##.storyshare
 grabien.com##.subblock
@@ -2715,9 +2727,14 @@ nationmaster.com##.transition.navbar-fixed-top.nav-shadow.navbar-default.navbar:
 nationwide.com###pinnedMenu:style(position: relative !important; top: 0 !important;)
 nationwide.com##.icon
 nature.com##.sticky-header.tighten-line-height.composite-layer.z-index-100.article-header.js-header.background-gradient-brand-primary.position-relative.hide-print.clear.cleared:style(position: relative !important; top: 0 !important;)
+nautil.us###adpayload
 nautil.us###issue-map
 nautil.us###main-header:style(position: relative !important; top: 0 !important;)
+nautil.us##.auto_add
 nautil.us##.fb-share
+nautil.us##.icon-facebook
+nautil.us##.icon-twitter
+nautil.us##.leaderboard-ad-belt
 nautil.us##.tw-share
 nautilus.org###header-2:style(position: relative !important; top: 0 !important;)
 navytimes.com##.js-pubsub-module.has-secondary-nav.layout-module.generic-module
@@ -3262,8 +3279,12 @@ polygon.com##.pinned.m-site-nav:style(position: relative !important; top: 0 !imp
 polygon.com##.tab-bar-fixed.c-tab-bar
 polygraph.info##.hdr:style(position: relative !important; top: 0 !important;)
 popsci.com##.main-header:style(position: relative !important; top: 0 !important;)
+popsci.com##.pane-post-social-post-social-block.pane-block.panel-pane
+popsci.com##.pane-social-buttons.pane-social-plugins-social-plugins-footer-icons.pane-block.panel-pane
+popsci.com##.pane-social-header.pane-panels-mini.panel-pane
 popsci.com##.panel-pane.pane-block.pane-post-social-post-social-block
 popsci.com##.panel-pane.pane-block.pane-post-social-post-social-block.bottom
+popsci.com##.scrollToTop
 popsugar.com###fixednav:style(position: relative !important; top: 0 !important;)
 popsugar.com###js-primary-navigation:style(position: relative !important; top: 0 !important;)
 popsugar.com###mobilenav
@@ -3990,6 +4011,7 @@ theatlantic.com###action-bar:style(position: relative !important; top: 0 !import
 theatlantic.com###article-promo-magazine
 theatlantic.com###site-header-container:style(position: relative !important; top: 0 !important;)
 theatlantic.com###site-header:style(position: relative !important; top: 0 !important;)
+theatlantic.com##.article-embed-share
 theatlantic.com##.article-tools.vertical
 theatlantic.com##.blocker-message
 theatlantic.com##.btn--facebook.btn--social.btn
