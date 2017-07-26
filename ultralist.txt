@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 2:43 PM 2017-07-25
+! Last Modified: 8:19 AM 2017-07-26
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -1544,6 +1544,7 @@ fox25boston.com###header:style(position: relative !important; top: 0 !important;
 fox25boston.com##.off-canvas-menu:style(position: relative !important; top: 0 !important;)
 fox2detroit.com###header:style(position: relative !important; top: 0 !important;)
 fox32chicago.com###header:style(position: relative !important; top: 0 !important;)
+fox59.com##.entry-share
 fox59.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
 fox5dc.com###header:style(position: relative !important; top: 0 !important;)
 fox5dc.com###story-sticky-content
@@ -3707,7 +3708,22 @@ snmidatlantic.com###nbcsports-primary-nav
 snopes.com###header-mobile-socialShares
 snopes.com###header-mobile:style(position: relative !important; top: 0 !important;)
 snopes.com###left-floating-shares
+snopes.com##.ad-unit-header.proper-ad-unit.snope-header
+snopes.com##.ad-unit-list.proper-ad-unit
+snopes.com##.ad-unit-sidebar.proper-ad-unit.snope-side-1
+snopes.com##.ad-unit-sidebar.proper-ad-unit.snope-side-2
+snopes.com##.email-signup-box
+snopes.com##.footer-social-buttons
+snopes.com##.image-frame-socialShares
+snopes.com##.nav-primary-bottom-socialLinks
+snopes.com##.social-links
+snopes.com##.special-msg
 snopes.com##.sticky-header-offset.gpu-acceleration.main-container > .sticky-active.sticky.compact.clearfix.header:style(position: relative !important; top: 0 !important;)
+snopes.com##.widget_boomtrain.boomtrain-3.widget
+snopes.com##.widget_social.social-2.widget
+snopes.com##.widget_social.social-5.widget
+snopes.com##.widget_social.social-6.widget
+snopes.com##.widget_social.social-7.widget
 sochi2014.com##.b-sociality-menu
 sociable.co###nav-wrap
 social-popup/spu.js$script
@@ -4113,6 +4129,8 @@ theringer.com##.u-tintSpectrum.u-tintBgColor.u-backgroundTransparentWhiteDarkest
 theringer.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
 theringer.com##.u-xs-paddingRight10.u-xs-paddingLeft10.u-zIndexMetabar.u-paddingBottom10.u-paddingTop10.u-borderBox.u-boxShadowTop.u-backgroundWhite.u-sizeFullWidth.u-bottom0.u-fixed
 theringfinders.com###menu-main:style(position: relative !important; top: 0 !important;)
+theroamingmind.com###actionbar
+theroamingmind.com###jp-post-flair > .sd-sharing-enabled.sharedaddy
 theroot.com###js-article-slider
 thesandtrap.com###elGuestTerms
 thescene.com##.js-nav-header.nav-header.ember-view:style(position: relative !important; top: 0 !important;)
@@ -5076,6 +5094,7 @@ zillow.com##.sticky-bar.zsg-nav-sub-wrapper:style(position: relative !important;
 ||dontpayfull.com/*/banner_stores.png$image
 ||drudgereport.com$inline-script,first-party,important
 ||dynamicyield.com$script,domain=nasdaq.com
+||facebook.com/v2.4/plugins/page.php$subdocument,domain=snopes.com
 ||fastly.net$script,domain=nasdaq.com
 ||hellobar.com^$third-party,script,important
 ||leadpages.co*$third-party
