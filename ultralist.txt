@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 8:19 AM 2017-07-26
+! Last Modified: 10:09 AM 2017-07-26
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -905,10 +905,15 @@ cnn.com##.floating_share_button
 cnn.com##.js-banner.main-banner:style(position: relative !important; top: 0 !important;)
 cnn.com##.js-skinny.js-navigation.nav:style(position: relative !important; top: 0 !important;)
 cnn.com##.large-buttons
+cnn.com##.m-share__floating.js-share-rail-top.m-share__rail-top.m-share
+cnn.com##.main-banner-wrapper:style(position: relative !important; top: 0 !important;)
 cnn.com##.main-banner:style(position: relative !important; top: 0 !important;)
+cnn.com##.media-social--ul
 cnn.com##.ng-scope.clear:style(position: relative !important; top: 0 !important;)
 cnn.com##.ng-scope.mediaHeader:style(position: relative !important; top: 0 !important;)
 cnn.com##.ng-scope.smallHeader.clear:style(position: relative !important; top: 0 !important;)
+cnn.com##.sibling--next.sibling
+cnn.com##.social
 cnn.com##.user-msg-flexbox.headerless.user-msg
 cnsnews.com###cns-social-links
 cnsnews.com##.hidden-xs.smallnav.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
@@ -942,8 +947,13 @@ commentarymagazine.com##.vw-post-share-box
 commentarymagazine.com##.vw-sticky.vw-menu-main-wrapper:style(position: relative !important; top: 0 !important;)
 commondreams.org###block-block-47
 complex.com###cmplx-navigation:style(position: relative !important; top: 0 !important;)
+complex.com###ctoolbar
 complex.com###elContainer:style(position: relative !important; top: 0 !important;)
 complex.com##.background-image:style(position: relative !important; top: 0 !important;)
+complex.com##.header-bar__social
+complex.com##.social-bar
+complex.com##.social-follow-buttons
+complex.com##.suitcase-ad
 computerandvideogames.com##.future-cookie-bar
 computerworld.com###sticky-head:style(position: relative !important; top: 0 !important;)
 confirmit.com##A[href="http://www.confirmit.com"]
@@ -2367,10 +2377,13 @@ marinij.com##.article.toolbar
 marketingland.com##.stickyheader.navbar-header:style(position: relative !important; top: 0 !important;)
 marketwatch.com###content-cutout > .lame-content-wrapper
 marketwatch.com###right-rail-cutout
+marketwatch.com###share-tools-fixed
 marketwatch.com###site-nav:style(position: relative !important; top: 0 !important;)
 marketwatch.com###sitenav:style(position: relative !important; top: 0 !important;)
 marketwatch.com###storytoolsplaceholder
+marketwatch.com##.fa-twitter.fa.twitter.social-link
 marketwatch.com##.fyre-notifier-container
+marketwatch.com##.share-icons
 marronebioinnovations.com##.fusion-sticky-shadow.fusion-header:style(position: relative !important; top: 0 !important;)
 marthastewart.com##.footer-sticky-social-container
 mashable.com###share-nav
@@ -2529,6 +2542,7 @@ modernliberals.com##.mh-back-to-top
 mom.me###site-header:style(position: relative !important; top: 0 !important;)
 mommyish.com###footer-mobile-ad
 mondaynote.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBottomSection.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
+money.cnn.com###js-sharebar-floater
 moneyish.com##.masthead:style(position: relative !important; top: 0 !important;)
 monmouth.edu###mainHeader:style(position: relative !important; top: 0 !important;)
 monster.com###popup-mailbox
@@ -3485,6 +3499,7 @@ reuters.com##.last.new-social
 reuters.com##.linkedIn
 reuters.com##.navbar-toggleable-sm.navbar-inverse.bg-inverse.fixed-top.navbar-full.navbar.header.special-report-nav:style(position: relative !important; top: 0 !important;)
 reuters.com##.twitter
+reuters.com##.util-social
 revealnews.org##.desktop-newsletter.shortcode-newsletter.newsletter.reveal-widget
 revealnews.org##.newsletter
 reviewjournal.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
@@ -3689,9 +3704,22 @@ sltrib.com##.hidden-xs.hidden-sm.side-panel
 slu.edu##.header:style(position: relative !important; top: 0 !important;)
 smartertravel.com##.headernav:style(position: relative !important; top: 0 !important;)
 smh.com.au##.is_fm-sticky-navigation.adops-gutter-after.header-wrap:style(position: relative !important; top: 0 !important;)
-smithsonianmag.com###Scroll-Nav:style(position: relative !important; top: 0 !important;)
+smithsonianmag.com###ATF_300x250_300x600_300x1050
+smithsonianmag.com###InArticle_300x50_320x50_300x250
+smithsonianmag.com###Scroll-Nav
+smithsonianmag.com###onesignal-bell-container
+smithsonianmag.com##.__pw-counter-horizontal.__pw-label-false.__pw-view-auto.__pw-padding-true.__pw-layout-horizontal.__pw-hover-false.__pw-size-32.pw-widget-0efb6.__pw-theme-default.pw-widget
+smithsonianmag.com##.__pw-counter-horizontal.__pw-label-false.__pw-view-auto.__pw-padding-true.__pw-layout-horizontal.__pw-hover-false.__pw-size-32.pw-widget-30182.__pw-theme-default.pw-widget
+smithsonianmag.com##.__pw-counter-horizontal.__pw-label-false.__pw-view-auto.__pw-padding-true.__pw-layout-horizontal.__pw-hover-false.__pw-size-32.pw-widget-afde1.__pw-theme-default.pw-widget
+smithsonianmag.com##.__pw-counter-horizontal.__pw-label-false.__pw-view-auto.__pw-padding-true.__pw-layout-horizontal.__pw-hover-false.__pw-size-32.pw-widget-dad34.__pw-theme-default.pw-widget
+smithsonianmag.com##.aux-nav
 smithsonianmag.com##.circulation-subscribe.right-sidebar-article.module.plugin-wrapper
 smithsonianmag.com##.header-wrapper.wrapper:style(position: relative !important; top: 0 !important;)
+smithsonianmag.com##.is-sticky.sticky-block
+smithsonianmag.com##.newsletter-signup-article-wrapper
+smithsonianmag.com##.no-cover.nav-subscribe-box
+smithsonianmag.com##.signup-wrapper
+smithsonianmag.com##.smithsonian-journeys-travel.sidebar-bottom-article.module.plugin-wrapper
 smittenkitchen.com###masthead:style(position: relative !important; top: 0 !important;)
 smittenkitchen.com###mobile-adhesive
 smobserved.com##.widen_vertical_padding.menu
@@ -4109,6 +4137,8 @@ theoutline.com##.navigation
 theoutline.com##.post__card:has(.claudia__boilerplate)
 theoutline.com##.post__card:has(.claudia__disclaimer)
 theoutline.com##.post__share
+theoutline.com##.pullquote.pullquote--inline::after:style(background-image: none !important;)
+theoutline.com##.pullquote.pullquote--inline::before:style(background-image: none !important;)
 theoutline.com##.stack-embed--display.stack-embed:has(.general-disclaimer)
 theoutline.com##.ui-in-view.ui-scroll-start.ui-scroll-end.ui-fan-stack.card-stack--fan.card-stack
 theparisreview.org##.sticky.header-nav:style(position: relative !important; top: 0 !important;)
@@ -4438,11 +4468,13 @@ ul.com##.header-toolbar:style(position: relative !important; top: 0 !important;)
 und.com###header:style(position: relative !important; top: 0 !important;)
 undark.org###back-to-top
 undark.org###boxzilla-overlay
+undark.org###gform_wrapper_4
 undark.org###main-menu:style(position: relative !important; top: 0 !important;)
 undark.org###wtr-progress
 undark.org##.boxzilla-center-container.boxzilla-container
 undark.org##.clearfix.top-bar-section:style(position: relative !important; top: 0 !important;)
 undark.org##.header-scrolled.top-bar:style(position: relative !important; top: 0 !important;)
+undark.org##.jetpack
 uniquemachine.org##.navbar-fixed-top.main-nav:style(position: relative !important; top: 0 !important;)
 universetoday.com###patreon-section
 universetoday.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
@@ -4527,10 +4559,13 @@ vancouversun.com##.l-header:style(position: relative !important; top: 0 !importa
 vanityfair.com###AMS_VYF_GLOBAL_HEADER
 vanityfair.com###AMS_VYF_HOLLYWOOD_FOOTER
 vanityfair.com##.closed.casper.component-social-share
+vanityfair.com##.closed.colored.component-social-share
 vanityfair.com##.handle.component-social-share.component-social-follow
+vanityfair.com##.hive-riser.expanded.component-riser
 vanityfair.com##.lower-nav-scrolled.hive-lower-nav
 vanityfair.com##.lower-nav-scrolled.lower-nav
 vanityfair.com##.modal-content
+vanityfair.com##.mono-native.component-social-share.component-social-follow
 vanityfair.com##.parbase.cn_share_facebook_like.web
 vanityfair.com##.parbase.cn_share_facebook_share
 vanityfair.com##.parbase.cn_share_tweet
