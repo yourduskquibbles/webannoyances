@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:27 PM 2017-07-26
+! Last Modified: 4:55 PM 2017-07-26
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -362,6 +362,8 @@ autoblog.com##.affix-top.flex-banner.flex-module.navbar:style(position: relative
 autoblog.com##.guttered.top-nav-wrap:style(position: relative !important; top: 0 !important;)
 autoblog.com##.tooltipster-content
 autoblog.com##.tooltipster-fade-show.tooltipster-fade.ab_product_promo.tooltipster-default.tooltipster-base
+automattic.com###actionbar
+automattic.com##.sd-sharing.sd-social-icon.sd-social.sd-block.robots-nocontent
 autonews.com###clear-nav-account:style(position: relative !important; top: 0 !important;)
 autonews.com###live:style(position: relative !important; top: 0 !important;)
 autonews.com###main-header:style(position: relative !important; top: 0 !important;)
@@ -957,6 +959,7 @@ complex.com##.social-bar
 complex.com##.social-follow-buttons
 complex.com##.suitcase-ad
 computerandvideogames.com##.future-cookie-bar
+computerworld.com###share-tool
 computerworld.com###sticky-head:style(position: relative !important; top: 0 !important;)
 confirmit.com##A[href="http://www.confirmit.com"]
 confluent.io###site-header:style(position: relative !important; top: 0 !important;)
@@ -1866,6 +1869,8 @@ highbeam.com##.header-outer
 highstakesdb.com##.fixedMenu.navigation-bar:style(position: relative !important; top: 0 !important;)
 hindustantimes.com##.header-menu:style(position: relative !important; top: 0 !important;)
 hindustantimes.com##.social-fixed.social-fix-none.no-print.social-icons-ar
+hireright.com##.backtotop.fa-angle-up.fa
+hireright.com##.fhmm.navbar-static-top.navbar-white.navbar:style(position: relative !important; top: 0 !important;)
 history.com###backtotop
 history.com##.clearfix.visible-phone.share-tools
 history.com##.hidden-phone.clearfix.article-tools-section
@@ -2280,8 +2285,13 @@ lifesitenews.com###header:style(position: relative !important; top: 0 !important
 lifesitenews.com##.fixed.article-sharing-nav
 lifewire.com###header_1-0:style(position: relative !important; top: 0 !important;)
 lifewire.com###leaderboard_2-0
+lifezette.com##.adblock_01.visible-xs.visible-sm.visible-md.visible-lg.ad-widget.widget
+lifezette.com##.adblock_02.visible-xs.visible-sm.visible-md.visible-lg.ad-widget.widget
 lifezette.com##.desktop.menu-bar-trigger
+lifezette.com##.even.bottom-out.social-icons.col-xs-12.col-sm-12.col-md-5.col-lg-5
 lifezette.com##.mobile.menu-bar-trigger
+lifezette.com##.pull-right.social
+lifezette.com##.social-share-article-small.social-share
 lighthousehockey.com##.tab-bar-fixed.c-tab-bar
 limpingchicken.com###at4-share
 lineageos.org##.navbar-shadow.navbar-fixed-top.navbar-transparent.navbar:style(position: relative !important; top: 0 !important;)
@@ -2494,6 +2504,7 @@ michaels.com##.modal-backdrop.fade.in
 michaels.com##.modal-body
 microsoft.com##.skylight-entry
 microsoft.com##.social-follow-icons
+microsoft.com##.social-icons
 middleeastmonitor.com###navigation:style(position: relative !important; top: 0 !important;)
 midwayusa.com###rvWrapper:style(position: relative !important; top: 0 !important;)
 military.com###mastHead:style(position: relative !important; top: 0 !important;)
@@ -3231,15 +3242,18 @@ politico.com###widgetFacebookRecommended
 politico.com###widgetNewsletter
 politico.com###widgetPoliticoInPrint
 politico.com###widgetPromoCarousel
+politico.com##.announce-social
 politico.com##.article-nav-show.article-nav:style(position: relative !important; top: 0 !important;)
 politico.com##.content-group.story-tools
 politico.com##.contrast-low.super
+politico.com##.db.cl-l.story-related
 politico.com##.follow-items.is-revealed
 politico.com##.is-stuck.sticky-content.orient-vertical.user-tools:style(position: relative !important; top: 0 !important;)
 politico.com##.nav-politico-pro.active
 politico.com##.social-media-items
 politico.com##.social-nav
 politico.com##.story-continued
+politico.com##.story-share
 politico.com##.toolbar-main
 politico.com##.user-tools.alt-layout-vertical.sticky-content
 politico.com##.user-tools.alt-layout-vertical.sticky-content.is-active
@@ -3530,6 +3544,8 @@ rollingstone.com##.google-plus1
 rollingstone.com##.googlePlusLink
 rollingstone.com##.header-bottom.header-top-border.stuck
 rollingstone.com##.header:style(position: relative !important; top: 0 !important;)
+rollingstone.com##.module-newsletter
+rollingstone.com##.module-social-sharing
 rollingstone.com##.pinterest
 rollingstone.com##.pinterestLink
 rollingstone.com##.social-box
@@ -4711,6 +4727,12 @@ washingtonexaminer.com###newsletter_sign_up_form
 washingtonexaminer.com###sharebar
 washingtonexaminer.com##.hidden-print.justify-content-between.mb-1.bg-inverse.navbar-dark.fixed-top.nav.navbar.flex-row.topbar:style(position: relative !important; top: 0 !important;)
 washingtonexaminer.com##.legacy-sidebar-promo
+washingtonexaminer.com##.mb-2.mt-2.social-footer
+washingtonexaminer.com##.mb-half.mt-xs-5.mx-sm-1.mt-quarter.mx-0.article-social
+washingtonexaminer.com##.mx-quarter.fa-lg.text-muted.fa-facebook.fa
+washingtonexaminer.com##.mx-quarter.fa-lg.text-muted.fa-linkedin.fa
+washingtonexaminer.com##.mx-quarter.fa-lg.text-muted.fa-twitter.fa
+washingtonexaminer.com##.ndn_floatContainer_enabled.ndn_floatContainer:style(position: relative !important; top: 0 !important;)
 washingtonexaminer.com##.social-bar
 washingtonexaminer.com##.social-button
 washingtonexaminer.com##.social-icon.facebook
@@ -4721,8 +4743,10 @@ washingtonian.com###ad_pos_targeted_in_article
 washingtonian.com###social-media-page
 washingtonian.com###top
 washingtonian.com###twitter-widget-wash
+washingtonian.com##.bounce.animated.log-event
 washingtonian.com##.footer
 washingtonian.com##.right-sidebar-item.with-border
+washingtonian.com##.social-group
 washingtonpost.com###chain-button
 washingtonpost.com###drawbridge-signup-overlay
 washingtonpost.com###et-nav
@@ -4798,6 +4822,9 @@ wbtv.com###header:style(position: relative !important; top: 0 !important;)
 wbtv.com###smartbanner
 wbtv.com###toolbar
 wcpo.com###header:style(position: relative !important; top: 0 !important;)
+wcsh6.com##.asset-inline-share-tools-bottom.asset-inline-share-tools.inline-share-tools
+wcsh6.com##.is_stuck.site-nav:style(position: relative !important; top: 0 !important;)
+wcsh6.com##.utility-bar
 wcvb.com##.slim.header:style(position: relative !important; top: 0 !important;)
 wcyb.com###header:style(position: relative !important; top: 0 !important;)
 wd.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
