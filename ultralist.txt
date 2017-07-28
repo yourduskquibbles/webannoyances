@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:32 AM 2017-07-28
+! Last Modified: 11:38 AM 2017-07-28
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -5233,6 +5233,8 @@ wsj.com##.login:style(position: relative !important; top: 0 !important;)
 wsj.com##.marketDataHeader:style(position: relative !important; top: 0 !important;)
 wsj.com##.mega-nav.scrolled+*:style(margin-top: 0px !important;)
 wsj.com##.mega-nav.scrolled:style(margin-top: 0px !important;)
+wsj.com##.mega-nav:style(position: relative !important; top: 0 !important;)
+wsj.com##.mobile-nav.stuck
 wsj.com##.module.shareTree
 wsj.com##.nc-exp-ad
 wsj.com##.new-hat.articlePage.mega-nav:style(position: relative !important; top: 0 !important;)
@@ -5265,6 +5267,7 @@ wsj.com##.wsj-immersive-ad-placement
 wsj.com##.wsj-responsive-nav-circ-wrap
 wsj.com##DIV[style="background: #cc5302; margin: 0px; padding: 4px;clear:both;"]
 wsj.com##DIV[style="width: 100%; text-align: center; margin-left: 100px;"]
+wsj.com.mega-nav.scrolled
 wtkr.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
 wtop.com###h_new:style(position: relative !important; top: 0 !important;)
 wtop.com###voteTools
