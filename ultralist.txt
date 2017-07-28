@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:58 PM 2017-07-28
+! Last Modified: 2:47 PM 2017-07-28
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -810,6 +810,7 @@ chicagotribune.com##.trb_bnn
 chicagotribune.com##.trb_nh:style(position: relative !important; top: 0 !important;)
 chicagotribune.com##.trb_nh_lw:style(position: relative !important; top: 0 !important;)
 chicagotribune.com##.trb_nh_uw:style(position: relative !important; top: 0 !important;)
+chicagotribune.com##.trb_sc_item_svg
 chimicles.com###header:style(position: relative !important; top: 0 !important;)
 chipotle.com##.header:style(position: relative !important; top: 0 !important;)
 chipotle.com##.section--header.section:style(position: relative !important; top: 0 !important;)
@@ -2218,6 +2219,7 @@ iwaspoisoned.com##.btn-backtop
 jacobinmag.com###site-header:style(position: relative !important; top: 0 !important;)
 jacobinmag.com##.sr-md-po.sr-md.sr-sb-po.sr-sb
 jalopnik.com###sharingfooter
+japantimes.co.jp##.social_header
 jerusalemonline.com##.topbarstatic:style(position: relative !important; top: 0 !important;)
 jet.com###nav:style(position: relative !important; top: 0 !important;)
 joinhoney.com###content > div > div > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1):style(position: relative !important; top: 0 !important;)
@@ -3616,6 +3618,7 @@ rebrn.com###the-navbar:style(position: relative !important; top: 0 !important;)
 rebrn.com##.navbar-header:style(position: relative !important; top: 0 !important;)
 rebrn.com##.navbar-scroll-custom.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 rebrn.com##.share
+recipetineats.com##.icon-set-lsi_widget-2.lsi-social-icons
 recipetineats.com##.swp_one.scale-left.scale-70.swp_o_fullColor.swp_i_fullColor.swp_d_fullColor.swp_leaf.nc_socialPanel
 recode.net###social-header
 recode.net##.c-global-header__social
@@ -4937,7 +4940,9 @@ vpdaily.com##.td-pb-padding-side.td-post-sharing-bottom.td-post-sharing
 vpdaily.com##.td-pb-padding-side.td-post-sharing-top.td-post-sharing
 vpdaily.com##.td-social-style2.footer-social-wrap
 vvvv.org##.clearfix.d-header:style(position: relative !important; top: 0 !important;)
+w3schools.com###skyscraper
 w3schools.com###topnav:style(position: relative !important; top: 0 !important;)
+w3schools.com##.sidesection:nth-of-type(4)
 wallstreet.org##.fancybox-overlay.snp-pop-4404-overlay
 wallstreet.org##.fancybox-wrap.fancybox-desktop.fancybox-type-inline.snp-wrap.snp-pop-4404-wrap.snp-pop-theme8-wrap.fancybox-opened
 wallstreetsurvivor.com##.td-affix.td-header-menu-wrap:style(position: relative !important; top: 0 !important;)
@@ -5238,6 +5243,9 @@ wsj.com##.hide8.hide4.DJHat:style(position: relative !important; top: 0 !importa
 wsj.com##.hide8.hide4.customerNav:style(position: relative !important; top: 0 !important;)
 wsj.com##.inno-adhesive-container
 wsj.com##.innovation-mojo-ad-wrapper
+wsj.com##.logged-out.at12units.hat-closed.cnav-closed.edition-picker-footer-unexpanded.edition-picker-unexpanded.hamburger-sections-active.hamburger-closed.search-closed.unstuck.stuck-usernav.scrolled.mega-nav:style(position: relative !important; top: 0 !important;)
+wsj.com##.logged-out.at16units.hat-closed.cnav-closed.edition-picker-footer-unexpanded.edition-picker-unexpanded.hamburger-sections-active.hamburger-closed.search-closed.unstuck.stuck-usernav.scrolled.mega-nav:style(position: relative !important; top: 0 !important;)
+wsj.com##.logged-out.at8units.hat-closed.cnav-closed.edition-picker-footer-unexpanded.edition-picker-unexpanded.hamburger-sections-active.hamburger-closed.search-closed.stuck.unstuck-usernav.unscrolled.mobile-nav:style(position: relative !important; top: 0 !important;)
 wsj.com##.logged-out.customer-nav:style(position: relative !important; top: 0 !important; float: right !important;)
 wsj.com##.marketDataHeader:style(position: relative !important; top: 0 !important;)
 wsj.com##.mega-nav.scrolled+*:style(margin-top: 0px !important;)
@@ -5248,8 +5256,8 @@ wsj.com##.nc-exp-ad
 wsj.com##.ob_strip_container.SB_2
 wsj.com##.popC.connect.popClosed.popClose
 wsj.com##.scope-web\|mobileapps.wrap.media-object
-wsj.com##.scrolled.stick-uNav.nav-up.new-hat.articlePage.mega-nav:style(position: relative !important; top: 1 !important;)
-wsj.com##.scrolled.stick-uNav.new-hat.articlePage.mega-nav:style(position: relative !important; top: 1 !important;)
+wsj.com##.scrolled.stick-uNav.nav-up.new-hat.articlePage.mega-nav:style(position: relative !important; top: 0 !important;)
+wsj.com##.scrolled.stick-uNav.new-hat.articlePage.mega-nav:style(position: relative !important; top: 0 !important;)
 wsj.com##.shareMenu
 wsj.com##.shareMenu--horizontal.shareMenu
 wsj.com##.shareMenuInlineWrap
@@ -5259,9 +5267,16 @@ wsj.com##.space-bottom.mktg-tile
 wsj.com##.stick-mobile-nav.new-hat.articlePage.mega-nav.mobile:style(position: relative !important; top: 0 !important;)
 wsj.com##.style__at12units_2zBLFHSA9E0ELomjd0hIGJ.style__stick-cust-nav_1Sgmsy032Q5y4S_8j9Q_nh.style__scrolled_2R_Vmp-c-MDN-CKbTiTOya.style__wsj-header_34lQSbG_0ms4yUg0JKTlQ0:style(position: relative !important; top: 0 !important;)
 wsj.com##.style__at16units_1OtkLFintMX3neDqoUy6L2.style__stick-cust-nav_1Sgmsy032Q5y4S_8j9Q_nh.style__scrolled_2R_Vmp-c-MDN-CKbTiTOya.style__wsj-header_34lQSbG_0ms4yUg0JKTlQ0:style(position: relative !important; top: 0 !important;)
-wsj.com##.style__customer-nav_gYUvXMxi-BCVRsVs8PzQe:style(position: relative !important; top: 0 !important;)
+wsj.com##.style__brand-link_2m9Qekt7oy6AxoEZOYmvKr:style(margin: 0 auto 0px !important;)
+wsj.com##.style__customer-nav_gYUvXMxi-BCVRsVs8PzQe:style(position: relative !important; top: 0 !important; float: right !important;)
+wsj.com##.style__masthead_1pXevH3d78skc-4dpfbSMM:style(padding botom: 0px !important;)
 wsj.com##.style__mdstrip_1BZBmHB38biUmVPCpPp0Ty.style__mast-head-container_3ZRcPdcChZfT1ThM3v3LLV:style(position: relative !important; top: 0 !important;)
+wsj.com##.style__scrolled_2R_Vmp-c-MDN-CKbTiTOya(margin-top: 0px !important;)
 wsj.com##.style__scrolled_2uYEURYgK-YL-DNhPsSxyl.style__mast-head-container_3ZRcPdcChZfT1ThM3v3LLV
+wsj.com##.style__slim_298oVne3gOHGgVBfH7dngU.style__brand-link_2m9Qekt7oy6AxoEZOYmvKr:style(margin-top: 0px !important;)
+wsj.com##.style__stick-cust-nav_1Sgmsy032Q5y4S_8j9Q_nh:style(position: relative !important; top: 0 !important; float: right !important;)
+wsj.com##.style__wsj-header_341QSbG_0ms4yUg0JKT1Q0.style__scrolled_2R_Vmp-c-MDN-CKbTiTOya:style(margin-top: 0px !important;)
+wsj.com##.style__wsj-header_34lQSbG_0ms4yUg0JKTlQ0.style__scrolled_2R_Vmp-c-MDN-CKbTiTOya:not(.style__section_3ZmUrl-hyMhpr-JVMlDypN):style(padding botom: 0px !important;)
 wsj.com##.style__wsj-nav-promobottom_-mEoh4QQ2g3skvQHTAjNu
 wsj.com##.styles__sector-unit-4_2Br0pVgHL_9uiZ7SjfkdPu.styles__md-sector_25BZ8ocm0Q-M_AHiAOsaor:style(position: relative !important; top: 0 !important;)
 wsj.com##.styles__sector-unit-8_3phLezaz5L2o8aja481Bjm.styles__md-sector_25BZ8ocm0Q-M_AHiAOsaor:style(position: relative !important; top: 0 !important;)
@@ -5275,7 +5290,6 @@ wsj.com##.wsj-immersive-ad-placement
 wsj.com##.wsj-responsive-nav-circ-wrap
 wsj.com##DIV[style="background: #cc5302; margin: 0px; padding: 4px;clear:both;"]
 wsj.com##DIV[style="width: 100%; text-align: center; margin-left: 100px;"]
-wsj.com.mega-nav.scrolled+*:style(margin-top: 0px !important;)
 wtkr.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
 wtop.com###h_new:style(position: relative !important; top: 0 !important;)
 wtop.com###voteTools
