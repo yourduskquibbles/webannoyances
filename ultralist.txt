@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:57 AM 2017-07-28
+! Last Modified: 12:45 PM 2017-07-28
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -5222,7 +5222,6 @@ wsj.com###full-header:style(position: relative !important; top: 0 !important;)
 wsj.com###hat_tab_wsj
 wsj.com###ncExpTools
 wsj.com###subscribeNowMediumBar
-wsj.com###wsj_header:style(position: relative !important; top: 0 !important;)
 wsj.com##.--no-filters.LiveCoverageHeader
 wsj.com##.LiveCoverageHeader-bar
 wsj.com##.WSJTheme__sector-unit-4_17ImS_zUt3L4vph6TcKkBK.WSJTheme__md-sector_1pJP-9Tul8uo9UZHx-ARin:style(position: relative !important; top: 0 !important;)
@@ -5233,25 +5232,18 @@ wsj.com##.c-aggregate
 wsj.com##.first.twitter
 wsj.com##.footer_bar
 wsj.com##.fyre-flag-link
-wsj.com##.header:style(position: relative !important; top: 0 !important;)
 wsj.com##.headlineSummary.about
 wsj.com##.hide8.hide4.DJHat:style(position: relative !important; top: 0 !important;)
 wsj.com##.hide8.hide4.customerNav:style(position: relative !important; top: 0 !important;)
 wsj.com##.inno-adhesive-container
 wsj.com##.innovation-mojo-ad-wrapper
-wsj.com##.logged-out.at12units.hat-closed.cnav-closed.edition-picker-footer-unexpanded.edition-picker-unexpanded.hamburger-sections-active.hamburger-closed.search-closed.unstuck.stuck-usernav.scrolled.mega-nav:style(position: relative !important; top: 0 !important;)
-wsj.com##.logged-out.at16units.hat-closed.cnav-closed.edition-picker-footer-unexpanded.edition-picker-unexpanded.hamburger-sections-active.hamburger-closed.search-closed.unstuck.stuck-usernav.scrolled.mega-nav:style(position: relative !important; top: 0 !important;)
-wsj.com##.logged-out.at8units.hat-closed.cnav-closed.edition-picker-footer-unexpanded.edition-picker-unexpanded.hamburger-sections-active.hamburger-closed.search-closed.stuck.unstuck-usernav.unscrolled.mobile-nav:style(position: relative !important; top: 0 !important;)
-wsj.com##.logged-out.customer-nav:style(position: relative !important; top: 0 !important;)
-wsj.com##.login:style(position: relative !important; top: 0 !important;)
+wsj.com##.logged-out.customer-nav:style(position: relative !important; top: 0 !important; float: right !important;)
 wsj.com##.marketDataHeader:style(position: relative !important; top: 0 !important;)
 wsj.com##.mega-nav.scrolled+*:style(margin-top: 0px !important;)
-wsj.com##.mega-nav.scrolled:style(margin-top: 0px !important;)
-wsj.com##.mega-nav:style(position: relative !important; top: 0 !important;)
+wsj.com##.mega-nav.scrolled:style(position: relative !important; top: 0 !important; margin-top: 0px !important;)
 wsj.com##.mobile-nav.stuck
 wsj.com##.module.shareTree
 wsj.com##.nc-exp-ad
-wsj.com##.new-hat.articlePage.mega-nav:style(position: relative !important; top: 0 !important;)
 wsj.com##.ob_strip_container.SB_2
 wsj.com##.popC.connect.popClosed.popClose
 wsj.com##.scope-web\|mobileapps.wrap.media-object
@@ -5260,6 +5252,7 @@ wsj.com##.scrolled.stick-uNav.new-hat.articlePage.mega-nav:style(position: relat
 wsj.com##.shareMenu
 wsj.com##.shareMenu--horizontal.shareMenu
 wsj.com##.shareMenuInlineWrap
+wsj.com##.slim.main-logo
 wsj.com##.social-links
 wsj.com##.space-bottom.mktg-tile
 wsj.com##.stick-mobile-nav.new-hat.articlePage.mega-nav.mobile:style(position: relative !important; top: 0 !important;)
@@ -5267,7 +5260,7 @@ wsj.com##.style__at12units_2zBLFHSA9E0ELomjd0hIGJ.style__stick-cust-nav_1Sgmsy03
 wsj.com##.style__at16units_1OtkLFintMX3neDqoUy6L2.style__stick-cust-nav_1Sgmsy032Q5y4S_8j9Q_nh.style__scrolled_2R_Vmp-c-MDN-CKbTiTOya.style__wsj-header_34lQSbG_0ms4yUg0JKTlQ0:style(position: relative !important; top: 0 !important;)
 wsj.com##.style__customer-nav_gYUvXMxi-BCVRsVs8PzQe:style(position: relative !important; top: 0 !important;)
 wsj.com##.style__mdstrip_1BZBmHB38biUmVPCpPp0Ty.style__mast-head-container_3ZRcPdcChZfT1ThM3v3LLV:style(position: relative !important; top: 0 !important;)
-wsj.com##.style__scrolled_2uYEURYgK-YL-DNhPsSxyl.style__mast-head-container_3ZRcPdcChZfT1ThM3v3LLV:style(position: relative !important; top: 0 !important;)
+wsj.com##.style__scrolled_2uYEURYgK-YL-DNhPsSxyl.style__mast-head-container_3ZRcPdcChZfT1ThM3v3LLV
 wsj.com##.style__wsj-nav-promobottom_-mEoh4QQ2g3skvQHTAjNu
 wsj.com##.styles__sector-unit-4_2Br0pVgHL_9uiZ7SjfkdPu.styles__md-sector_25BZ8ocm0Q-M_AHiAOsaor:style(position: relative !important; top: 0 !important;)
 wsj.com##.styles__sector-unit-8_3phLezaz5L2o8aja481Bjm.styles__md-sector_25BZ8ocm0Q-M_AHiAOsaor:style(position: relative !important; top: 0 !important;)
@@ -5281,7 +5274,7 @@ wsj.com##.wsj-immersive-ad-placement
 wsj.com##.wsj-responsive-nav-circ-wrap
 wsj.com##DIV[style="background: #cc5302; margin: 0px; padding: 4px;clear:both;"]
 wsj.com##DIV[style="width: 100%; text-align: center; margin-left: 100px;"]
-wsj.com.mega-nav.scrolled
+wsj.com.mega-nav.scrolled+*:style(margin-top: 0px !important;)
 wtkr.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
 wtop.com###h_new:style(position: relative !important; top: 0 !important;)
 wtop.com###voteTools
