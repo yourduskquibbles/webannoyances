@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 9:57 AM 2017-07-27
+! Last Modified: 9:42 AM 2017-07-28
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -89,6 +89,9 @@
 9news.com.au##.site-header.module
 9to5google.com##.scroll-to-fixed-fixed.header-wrap:style(position: relative !important; top: 0 !important;)
 9to5google.com##.scroll-to-fixed-fixed.news-feed-header:style(position: relative !important; top: 0 !important;)
+9to5mac.com###js-site-header:style(position: relative !important; top: 0 !important;)
+9to5mac.com##.scroll-to-fixed-fixed.news-feed-header:style(position: relative !important; top: 0 !important;)
+9to5mac.com##.sd-sharing-enabled.sharedaddy
 @@||disqus.com/count.js
 @@||disqus.com/embed.js
 @@||disqus.com/embed.js?_=1457540*$script
@@ -473,6 +476,7 @@ biologos.org##.shrink:style(position: relative !important; top: 0 !important;)
 bizjournals.com###boundary-2__sticker-0 > .sm-only__expander.xs-only__expander
 bizjournals.com###tour-prompt.prompt.prompt--full-width
 bizjournals.com##.prompt__content
+blackhat.com###social-wrapper
 blacklistednews.com##.navbar-fixed-top.no-border-radius.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
 bldgblog.com###masthead:style(position: relative !important; top: 0 !important;)
 bleacherreport.com###facebook-like-site-module
@@ -674,6 +678,7 @@ buzzfeed.com##.vertical-sidebar-info.bf_dom.diy-connect
 buzzfeed.com##.xs-l0.xs-z4.sm-fixed.xs-relative.xs-col-12.js-header-section-content:style(position: relative !important; top: 0 !important;)
 buzzfeed.com##:xpath(.//*[@data-module="action-bar-subbuzz"])
 bythewavs.com##.nav-primary:style(position: relative !important; top: 0 !important;)
+c0reteam.org##.topbar:style(position: relative !important; top: 0 !important;)
 c4isrnet.com###page-content > .js-pubsub-module.has-secondary-nav.layout-module.no-subscribe-now.generic-module
 calgaryherald.com##.mobile-header.header-nav:style(position: relative !important; top: 0 !important;)
 calgaryherald.com##.top-bar:style(position: relative !important; top: 0 !important;)
@@ -1800,6 +1805,7 @@ google.com##.nocontent.devsite-top-section:style(position: relative !important; 
 google.com##:xpath(.//*[@id='gbw']/div/div/div[2]//div[3][@aria-label="promo"])
 googleblog.blogspot.com###sidebar-top
 googleblog.blogspot.com##.share
+googleblog.com##.adb-header:style(position: relative !important; top: 0 !important;)
 gop.com###hd:style(position: relative !important; top: 0 !important;)
 gop.com###social-hd:style(position: relative !important; height: 0px !important; top: 20px !important; z-index: -1 !important;)
 governing.com##.in.visible-phone.mobile-share
@@ -3419,6 +3425,15 @@ psmag.com##.span1.psmag-sharing-column
 psmag.com##.widget_psmag_mailsocial
 psychologytoday.com##.blue-outer:style(position: relative !important; top: 0 !important;)
 psychologytoday.com##.flag-actions
+publicintegrity.org##.donate.item
+publicintegrity.org##.donation_mini.scroll_box
+publicintegrity.org##.email.item
+publicintegrity.org##.facebook.item
+publicintegrity.org##.linkedin.item
+publicintegrity.org##.ng-scope.email-signup-form-wrapper
+publicintegrity.org##.reddit.item
+publicintegrity.org##.twitter.item
+publicintegrity.org##.velocity-animating.donation_box.scroll_box
 pvplive.net##.nav-stuck:style(position: relative !important; top: 0 !important;)
 qdrinks.com##.collapsed.inverted.font-smooth.header:style(position: relative !important; top: 0 !important;)
 qualityassurancemag.com###slide-nav
@@ -4033,6 +4048,7 @@ technologynewsextra.com##.sticky.cf.navigation:style(position: relative !importa
 technologyreview.com###sharing-bar-sticky-wrapper
 technologyreview.com###tr-global-header-sticky:style(position: relative !important; top: 0 !important;)
 technologyreview.com##.sidebar.right
+technologyreview.com##.social-list
 techradar.com###fp_cookieMessageContainer
 techradar.com##.less-space.box.socialite-widget
 techradar.com##.masthead-item.buttons-social
