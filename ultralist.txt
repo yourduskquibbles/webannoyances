@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:32 AM 2017-07-30
+! Last Modified: 9:48 AM 2017-07-31
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -307,6 +307,7 @@ apartments.com###mainHeader:style(position: relative !important; top: 0 !importa
 apartments.com###rentRollups:style(position: relative !important; top: 0 !important;)
 apnews.com###header:style(position: relative !important; top: 0 !important;)
 apnews.com##.ng-isolate-scope.header:style(position: relative !important; top: 0 !important;)
+apnews.com##.shareIcon
 appalachianmagazine.com###td-header-menu:style(position: relative !important; top: 0 !important;)
 appalachianmagazine.com##.td-header-wrap:style(position: relative !important; top: 0 !important;)
 appendto.com##.fusion-sticky-shadow.fusion-header:style(position: relative !important; top: 0 !important;)
@@ -392,6 +393,7 @@ avsforum.com##.ilink.icon-facebook-sharing.facebook
 avsforum.com##.ilink.icon-twitter-sharing.twitter
 awfulannouncing.com###mobile-menu:style(position: relative !important; top: 0 !important;)
 awfulannouncing.com##.site-header:style(position: relative !important; top: 0 !important;)
+aws.amazon.com###aws-page-header:style(position: relative !important; top: 0 !important;)
 axios.com##.active.pinned-up.clone.rebelbar__inner:style(position: relative !important; top: 0 !important;)
 axios.com##.rebelbar--fixed.rebelbar:style(position: relative !important; top: 0 !important;)
 axios.com##.widget__sharebar
@@ -1596,6 +1598,7 @@ forbes.com##fbs-ad
 forbes.com##header:style(position: relative !important; top: 0 !important;)
 forbes.com##sharing
 foreignaffairs.com###kicker-2
+foreignaffairs.com##.article-tools
 foreignaffairs.com##.site-header--sticky:style(position: relative !important; top: 0 !important;)
 foreignpolicy.com###logo
 foreignpolicy.com###main-nav-target:style(position: relative !important; top: 0 !important;)
@@ -3325,6 +3328,11 @@ pbs.org##.sharecategory
 pbs.org##.side_twitterfollow
 pbs.org##.social
 pbs.org##.sticky.js-header.header:style(position: relative !important; top: 0 !important;)
+pcgamer.com##.masthead-item.buttons-social
+pcgamer.com##.socialite.email
+pcgamer.com##.socialite.facebook
+pcgamer.com##.socialite.reddit
+pcgamer.com##.socialite.twitter
 pcmag.com###cookie-policy
 pcmag.com###main-top-nav:style(position: relative !important; top: 0 !important;)
 pcmag.com###pcmlogo_mobile:style(position: relative !important; top: 0 !important;)
@@ -4026,6 +4034,9 @@ splcenter.org###header
 splendidtable.org###cboxContent
 splendidtable.org###cboxOverlay
 splinternews.com###sharingfooter
+sporkful.com###hero-mail
+sporkful.com##.fixed_section.sticky-nav.group.section:style(position: relative !important; top: 0 !important;)
+sporkful.com##.social
 sportdiver.com##.main-header > .inner-wrapper:style(position: relative !important; top: 0 !important;)
 sportdiver.com##.main-header:style(position: relative !important; top: 0 !important;)
 sportfacts.org##.cd-fade-out.cd-is-visible.cd-top
@@ -5225,6 +5236,8 @@ wjla.com###facebookShare
 wjla.com##.v2.sd-header-wrapper:style(position: relative !important; top: 0 !important;)
 wkrn.com###masthead:style(position: relative !important; top: 0 !important;)
 wkyc.com##.fixed.header:style(position: relative !important; top: 0 !important;)
+wlos.com##.sd-news-social-placeholder
+wlos.com##.v2.sd-header-wrapper.sd-news-header:style(position: relative !important; top: 0 !important;)
 wmagazine.com##.expanded.riser
 wmagazine.com##.sub-header-sticky:style(position: relative !important; top: 0 !important;)
 wmagazine.com##.sub-header:style(position: relative !important; top: 0 !important;)
@@ -5300,7 +5313,6 @@ wsj.com##.scrolled.stick-uNav.new-hat.articlePage.mega-nav:style(position: relat
 wsj.com##.shareMenu
 wsj.com##.shareMenu--horizontal.shareMenu
 wsj.com##.shareMenuInlineWrap
-wsj.com##.slim.main-logo
 wsj.com##.social-links
 wsj.com##.space-bottom.mktg-tile
 wsj.com##.stick-mobile-nav.new-hat.articlePage.mega-nav.mobile:style(position: relative !important; top: 0 !important;)
