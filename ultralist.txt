@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 10:47 AM 2017-08-01
+! Last Modified: 12:58 PM 2017-08-01
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -529,6 +529,7 @@ bloomberg.com##.inline-newsletter
 bloomberg.com##.mobile-box-ad-dummy
 bloomberg.com##.persist-nav.bb-nav-root:style(position: relative !important; top: 0 !important;)
 bloomberg.com##.right-rail
+bloomberg.com##.sticky-container
 bloomberg.com##.tweet_count
 bloomberg.com##:xpath(.//*[data-tracker-action="share"])
 bloomberg.com##:xpath(.//*[data-tracker-category="social"])
@@ -2156,11 +2157,13 @@ india.com###navigation-bar:style(position: relative !important; top: 0 !importan
 india.com##.headersection:style(position: relative !important; top: 0 !important;)
 india.com##.navbar-fixed-top.iwplheader-wrap:style(position: relative !important; top: 0 !important;)
 indiatimes.com###TPMainDiv
+indiatimes.com###articlelist
 indiatimes.com###navigation:style(position: relative !important; top: 0 !important;)
 indiatimes.com###topNavFixed:style(position: relative !important; top: 0 !important;)
 indiatimes.com##.badge_new
 indiatimes.com##.ntfc_overlay
 indiatimes.com##.ntfc_popup
+indiatimes.com##.sticky.leftsocial
 indiewire.com###masthead-section:style(position: relative !important; top: 0 !important;)
 indy100.com###drawer
 indy100.com###top-nav
