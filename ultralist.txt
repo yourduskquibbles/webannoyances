@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 1:44 PM 2017-08-02
+! Last Modified: 8:17 AM 2017-08-03
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -332,6 +332,7 @@ arlnow.com###search-navigation:style(position: relative !important; top: 0 !impo
 arlnow.com###top-bar:style(position: relative !important; top: 0 !important;)
 arlnow.com##.dfp-ad
 arlnow.com##.river-600x300-ads
+arlnow.com##.sd-sharing-enabled.sharedaddy
 arlnow.com##.secondary-menu:style(position: relative !important; top: 0 !important;)
 arlnow.com##.widget.social-media-widget
 armytimes.com###top-header:style(position: relative !important; top: 0 !important;)
@@ -948,6 +949,7 @@ cnet.com##.shareBar.inline-view
 cnn.com###cnn_hdr-prompt
 cnn.com###gigyaShareBar_4_gig_containerParent
 cnn.com###js-TosPrivacy
+cnn.com###js-sharebar-main
 cnn.com###message
 cnn.com###mm-like-facebook
 cnn.com###mm-share-twitter
@@ -1118,6 +1120,7 @@ csoonline.com###banner:style(position: relative !important; top: 0 !important;)
 curbed.com##.tab-bar-fixed.c-tab-bar:style(position: relative !important; top: 0 !important;)
 cyberscoop.com###welcomeadMask
 cyberscoop.com##.header:style(position: relative !important; top: 0 !important;)
+cyberscoop.com##.side-block:nth-of-type(1)
 cyberscoop.com##.subscribe--news.subscribe
 cyberscoop.com##nav
 dagbladet.no##.fixed.index-header:style(position: relative !important; top: 0 !important;)
@@ -1470,8 +1473,13 @@ ew.com###main-nav:style(position: relative !important; top: 0 !important;)
 ew.com###site-header:style(position: relative !important; top: 0 !important;)
 ew.com###site-header__wrap:style(position: relative !important; top: 0 !important;)
 ew.com##.ad-section-container.snap.hide-med.ad-small
+ew.com##.article-figure__share
 ew.com##.bx-impress.bx-fx-slide-from-top.bx-has-close-inside.bx-has-close-x-1.bx-type-overlay.bx-width-default.bx-campaign-519750.bx-active-step-1.bx-custom.bx-base.bxc
 ew.com##.bx-slab
+ew.com##.channel__color--border-color.articles-recirculation--see-also.articles-recirculation
+ew.com##.newsletter-signup
+ew.com##.sd-sharing-enabled.sharedaddy
+ew.com##.site-header__social-links
 ew.com##.styles__stickyHeader__3Nu1Q:after:style(position: relative !important; top: 0 !important;)
 examiner-enterprise.com###header-main:style(position: relative !important; top: 0 !important;)
 examiner-enterprise.com###toprail:style(position: relative !important; top: 0 !important;)
@@ -1691,6 +1699,7 @@ fox6now.com###actionbar
 fox6now.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
 fox6now.com##.stuck.sd-sharing-enabled.sharedaddy
 foxbusiness.com##.radar-bar
+foxbusiness.com##.social
 foxbusiness.com##.sticky.social
 foxeslovelemons.com##.slicknav_menu:style(position: relative !important; top: 0 !important;)
 foxnews.com###janrainModalOverlay
@@ -1727,6 +1736,8 @@ freebeacon.com###social-header
 freebeacon.com##.columns.large-6
 freebeacon.com##.contact
 freebeacon.com##.large-collapse.row
+freebeacon.com##.social-buttons
+freebeacon.com##.social-icons.row
 freebeacon.com##.social.row
 freedominthe50states.org###share_widget
 freep.com##.android-smart-banner.smart-banner
@@ -3851,6 +3862,7 @@ rollingstone.com##.module-newsletter
 rollingstone.com##.module-social-sharing
 rollingstone.com##.pinterest
 rollingstone.com##.pinterestLink
+rollingstone.com##.right-rail
 rollingstone.com##.social-box
 rollingstone.com##.stumbleupon
 rollingstone.com##.twitter
@@ -4767,7 +4779,10 @@ tmall.com##.sn-nav-wrapper
 tmj4.com##.header > .layout--share__second > .is-active.share__social-items
 tmj4.com##.sticky-article-foot > .layout--share__second
 tmz.com###masthead-wrap:style(position: relative !important; top: 0 !important;)
+tmz.com##.inpost-social
 tmz.com##.sharing-widget
+tmz.com##.sharrre.facebook-sharrre
+tmz.com##.sharrre.twitter-sharrre
 today.com###header:style(position: relative !important; top: 0 !important;)
 today.com###marquee:style(position: relative !important; top: 0 !important;)
 today.com##.entry-in-view.j-share-bar-left.left.entry-social
