@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 5:36 PM 2017-08-10
+! Last Modified: 6:07 PM 2017-08-10
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -5858,6 +5858,7 @@ zillow.com##.sticky-bar.zsg-nav-sub-wrapper:style(position: relative !important;
 ||dynamicyield.com$script,domain=nasdaq.com
 ||facebook.com/v2.4/plugins/page.php$subdocument,domain=snopes.com
 ||fastly.net$script,domain=nasdaq.com
+||functionalclam.com^$third-party
 ||hellobar.com^$third-party,script,important
 ||leadpages.co*$third-party
 ||maxtraffic.com$script
