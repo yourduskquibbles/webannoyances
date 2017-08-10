@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 3:07 PM 2017-08-10
+! Last Modified: 4:22 PM 2017-08-10
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -414,6 +414,8 @@ aws.amazon.com###aws-page-header:style(position: relative !important; top: 0 !im
 axios.com##.active.pinned-up.clone.rebelbar__inner:style(position: relative !important; top: 0 !important;)
 axios.com##.is-active.stream-social-cta
 axios.com##.rebelbar--fixed.rebelbar:style(position: relative !important; top: 0 !important;)
+axios.com##.sidebar__follow
+axios.com##.subscribe-flow-initial.sidebar__newsletter
 axios.com##.widget__sharebar
 axlegeeks.com##.active.adr-app-banner
 axlegeeks.com##.active.adr-pink-test.adr-app-banner
@@ -962,6 +964,7 @@ cnet.com###page-header:style(position: relative !important; top: 0 !important;)
 cnet.com###rbHeader
 cnet.com##.fyre-notifier-container
 cnet.com##.shareBar.inline-view
+cnet.com##.sharebarWrapper
 cnn.com###cnn_hdr-prompt
 cnn.com###gigyaShareBar_4_gig_containerParent
 cnn.com###js-TosPrivacy
@@ -1107,6 +1110,7 @@ creativecommons.org###masthead:style(position: relative !important; top: 0 !impo
 creativecommons.org##.menu-social-links-container
 creativecommons.org##.slide-trigger
 crimeandinvestigationnetwork.com###PopNotice
+crn.com##tr
 crocros.com##.adsbygoogle
 crocros.com##.td-affix.td-header-gradient.td-header-menu-wrap:style(position: relative !important; top: 0 !important;)
 crocros.com##.td-post-sharing-top.td-post-sharing
@@ -2383,8 +2387,13 @@ journal-news.com##.hidden-md-down.footer-wrapper
 journal-news.com##.hidden-md-down.sub-header-nav:style(position: relative !important; top: 0 !important;)
 joystiq.com###GH_strip
 joystiq.com##.social-tools.group
+jpost.com##.ClickFacebookLike
 jpost.com##.article-side-share-vertical
+jpost.com##.banner2016.position-control-3-in-div-2
 jpost.com##.header-menu-site-scrollingLogo.header-menu-site
+jpost.com##.header-social-wrap
+jpost.com##.newsletter-signup-wrap.position-control-1-in-div-2
+jpost.com##.social-share-buttons
 jsonline.com##.asset-inline-share-tools-bottom.asset-inline-share-tools.inline-share-tools
 jsonline.com##.blockUI.blockMsg.blockPage
 jsonline.com##.blockUI.blockOverlay
@@ -2482,6 +2491,8 @@ labradortraininghq.com###navigation
 lancasteronline.com###site-navbar-container:style(position: relative !important; top: 0 !important;)
 lancasteronline.com##.hidden-print.asset-paging-container
 laphamsquarterly.org##.small-header
+laptopmag.com###sticky-header:style(position: relative !important; top: 0 !important;)
+laptopmag.com###stickyShare
 laptopmag.com##.sticky.mqMedOff.subNavWrap:style(position: relative !important; top: 0 !important;)
 laptopmag.com##.tocside-in.tocside
 latimes.com###content-bottom
@@ -2669,9 +2680,11 @@ markedbyteachers.com###float-left-tab
 markedbyteachers.com###main-search
 marketingland.com##.stickyheader.navbar-header:style(position: relative !important; top: 0 !important;)
 marketwatch.com###content-cutout > .lame-content-wrapper
+marketwatch.com###footer-app-store
 marketwatch.com###right-rail-cutout
 marketwatch.com###share-tools-fixed
 marketwatch.com###site-nav:style(position: relative !important; top: 0 !important;)
+marketwatch.com###site-share
 marketwatch.com###sitenav:style(position: relative !important; top: 0 !important;)
 marketwatch.com###storytoolsplaceholder
 marketwatch.com##.fa-twitter.fa.twitter.social-link
@@ -3024,6 +3037,7 @@ nationwide.com###pinnedMenu:style(position: relative !important; top: 0 !importa
 nationwide.com##.icon
 nature.com##.container-type-cookies-usage.cleared.container
 nature.com##.sticky-header.tighten-line-height.composite-layer.z-index-100.article-header.js-header.background-gradient-brand-primary.position-relative.hide-print.clear.cleared:style(position: relative !important; top: 0 !important;)
+nature.com##.sticky-header.tighten-line-height.composite-layer.z-index-100.default-header.js-header.background-gradient-brand-primary.position-relative.hide-print.clear.cleared:style(position: relative !important; top: 0 !important;)
 nautil.us###adpayload
 nautil.us###issue-map
 nautil.us###main-header:style(position: relative !important; top: 0 !important;)
@@ -3353,6 +3367,7 @@ nytimes.com##.ResponsiveAd-topAd--3WpE4
 nytimes.com##.bundle-payflow
 nytimes.com##.bundle-payflow-module.module
 nytimes.com##.d-fixed.d-fow-nav:style(position: relative !important; top: 0 !important;)
+nytimes.com##.facebook-share
 nytimes.com##.fixed-share-nav-outer
 nytimes.com##.footer-nav-primary-list
 nytimes.com##.growl-v2
@@ -3378,6 +3393,7 @@ nytimes.com##.sharetools
 nytimes.com##.sharetools-video-container
 nytimes.com##.show.lie-continue
 nytimes.com##.subColumn-2.noBackground.mobilePromo.nocontent
+nytimes.com##.twitter-share
 nytimes.com##.vhs-tools
 nytimes.com#@#.flag-moreFollowSuggestions-on
 nzherald.co.nz##.floatingNav:style(position: relative !important; top: 0 !important;)
@@ -4413,9 +4429,11 @@ technologyreview.com###tr-global-header-sticky:style(position: relative !importa
 technologyreview.com##.sidebar.right
 technologyreview.com##.social-list
 techradar.com###fp_cookieMessageContainer
+techradar.com###sidebar
 techradar.com##.less-space.box.socialite-widget
 techradar.com##.masthead-item.buttons-social
 techradar.com##.sharing_furniture.clearfix
+techradar.com##.stoaqxzukstbmlzt
 techspot.com###header-ts:style(position: relative !important; top: 0 !important;)
 techtarget.com###page-header:style(position: relative !important; top: 0 !important;)
 techtimes.com##.bts_social
