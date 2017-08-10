@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:29 PM 2017-08-10
+! Last Modified: 12:35 PM 2017-08-10
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -2002,6 +2002,10 @@ gsa.gov##.hidden-xs:style(position: relative !important; top: 0 !important;)
 gsuitetips.com###od-header:style(position: relative !important; top: 0 !important;)
 gsuitetips.com###od-navbar:style(position: relative !important; top: 0 !important;)
 guidepatterns.com###itfbppl_overlay
+guns.com##.ad-wrap
+guns.com##.pum-active.click_open.auto_open.popmake-overlay.pum-theme-3064594.pum-overlay.pum
+guns.com##.twitter-tweet-button.twitter-share-button-rendered.twitter-share-button
+guns.com##.widget_guns_social_links_widget.widget
 gunsamerica.com###enterZip2
 gust.com##nav:style(position: relative !important; top: 0 !important;)
 haaretz.com###footer-toolbar
@@ -5822,6 +5826,7 @@ zillow.com##.sticky-bar.zsg-nav-sub-wrapper:style(position: relative !important;
 ||onecount.net$script,domain=foreignpolicy.com
 ||optinmonster.com*$script
 ||optnmnstr.com
+||pagely.netdna-cdn.com^$script,domain=guns.com
 ||realclearpolitics.com/*/ad_slots.jsonp$script,first-party
 ||realclearpolitics.com/*/instart.js$script,first-party
 ||sitelabweb.com$domain=nasdaq.com,important
