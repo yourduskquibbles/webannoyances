@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:45 PM 2017-08-15
+! Last Modified: 1:51 PM 2017-08-15
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -151,6 +151,7 @@ accmag.com###head-main-wrap:style(position: relative !important; top: 0 !importa
 accmag.com##.adsbygoogle
 accmag.com##.soc-style-three.soc-media-sharing
 accuweather.com###addthis_widget
+accuweather.com###social-connect
 accuweather.com##.Header:style(position: relative !important; top: 0 !important;)
 accuweather.com##.addthis_toolbox.addthis_default_style
 acorns.com##.bg-helper:style(position: relative !important; top: 0 !important;)
@@ -1612,6 +1613,7 @@ f-secure.com##header:style(position: relative !important; top: 0 !important;)
 facebook.com###stream_pagelet div[id^="feed_stream_"] div[id^="substream_"] div[id^="hyperfeed_story_id_"]:has(a.uiStreamSponsoredLink)
 facebook.com##._11gk
 facebook.com##._2avl
+facebook.com##._5zrt._2x4w:style(position: relative !important; top: 0 !important;)
 facebook.com##.canvas_rating_popout
 facebook.com##:xpath(.//*[@data-games-xout-query-type="gyml-recommended"])
 facebook.com##:xpath(//*/a[@class='uiStreamSponsoredLink']/ancestor::div[contains(concat(' ',normalize-space(@id),' '),'hyperfeed_story_id_')])
@@ -1797,8 +1799,12 @@ fox59.com##.entry-share
 fox59.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
 fox5dc.com###header:style(position: relative !important; top: 0 !important;)
 fox5dc.com###story-sticky-content
+fox5dc.com##.bg-light-gray.row-wrapper
 fox5dc.com##.header-main:style(position: relative !important; top: 0 !important;)
 fox5dc.com##.header-secondary:style(position: relative !important; top: 0 !important;)
+fox5dc.com##.placeholder-container.header-more
+fox5dc.com##.social-dropdown
+fox5dc.com##.social-share
 fox5ny.com###header:style(position: relative !important; top: 0 !important;)
 fox5ny.com##.author-share
 fox5ny.com##.show-for-large-up.mod-story-progress.mod-accordion.mod-wrapper
