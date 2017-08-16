@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 4:27 PM 2017-08-16
+! Last Modified: 4:33 PM 2017-08-16
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -66,9 +66,8 @@
 20minutes.fr##.navbar:style(position: relative !important; top: 0 !important;)
 20minutes.fr##.pinned.headroom--not-top.headroom--not-bottom.animated.navbar:style(position: relative !important; top: 0 !important;)
 2bigfeet.com##.nav-overflow:style(position: relative !important; top: 0 !important;)
-2paragraphs.com##.nav-primary
-2paragraphs.com##.nav-primary > .wrap
-2paragraphs.com##.site-header
+2paragraphs.com##.site-header:style(position: relative !important; top: 0 !important;)
+2paragraphs.com##.ssbp-container
 360.cn##.leftside
 3dprint.com##.et-fixed-header:style(position: relative !important; top: 0 !important;)
 3dprint.com##.et-visible.et-pb-icon.et_pb_scroll_top
@@ -2739,6 +2738,10 @@ longreads.com##.sd-sharing.sd-social-icon.sd-social.sd-block.robots-nocontent
 longreads.com##.support-footer
 lookupbook.net###banner:style(position: relative !important; top: 0 !important;)
 lowes.com###social-share-bar
+lrb.co.uk###wrapper > div:nth-of-type(1)
+lrb.co.uk##.facebook.icon
+lrb.co.uk##.share.icon
+lrb.co.uk##.twitter.icon
 luckypeach.com###masthead:style(position: relative !important; top: 0 !important;)
 luckypeach.com##.now-reading
 luckypeach.com##.sidebar-wrapper
@@ -3888,7 +3891,10 @@ propublica.org##header:style(position: relative !important; top: 0 !important;)
 propublica.org##nav:style(position: relative !important; top: 0 !important;)
 prospect.org###buttons
 prospect.org###header:style(position: relative !important; top: 0 !important;)
+protonmail.com###header-spacer
 protonmail.com###header:style(position: relative !important; top: 0 !important;)
+protonmail.com##.csbtns
+protonmail.com##.text-right.col-sm-4
 psmag.com###image-3
 psmag.com##.is-visible.l-sticky-navbar:style(position: relative !important; top: 0 !important;)
 psmag.com##.span1.psmag-sharing-column
@@ -5131,6 +5137,8 @@ thinkprogress.org##.is-visible.js-postActionsBar.postActionsBar
 thinkprogress.org##.post-tools.addthis_32x32_style
 thinkprogress.org##.share__wrapper
 thinkprogress.org##.u-tintSpectrum.u-tintBgColor.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorTransparentWhiteDarker.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
+thirtybees.com##.fusion-sticky-shadow.fusion-header:style(position: relative !important; top: 0 !important;)
+thirtybees.com##.to-top-container
 thisisinsider.com##.condensed.masthead:style(position: relative !important; top: 0 !important;)
 thisisinsider.com##.is-scrolled.is-masthead-condensed.l-masthead:style(position: relative !important; top: 0 !important;)
 thisisinsider.com##.is-scrolled.l-masthead:style(position: relative !important; top: 0 !important;)
