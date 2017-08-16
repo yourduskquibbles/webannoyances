@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 4:51 PM 2017-08-16
+! Last Modified: 5:12 PM 2017-08-16
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -250,10 +250,16 @@ aljazeera.com###site-header:style(position: relative !important; top: 0 !importa
 all-that-is-interesting.com##.hidden-md-up.mobile-header:style(position: relative !important; top: 0 !important;)
 allaboutbirds.org###header-wrapper:style(position: relative !important; top: 0 !important;)
 allrecipes.com###footer_top_button
+allrecipes.com###shareRecipe
+allrecipes.com##.ad-recipe-page-footer-container
 allrecipes.com##.dropdown-heart > .save-on-click
 allrecipes.com##.loading-indicator--position
+allrecipes.com##.magazine-bar
 allrecipes.com##.reserve-ad-space.ad-mobile-only.ad-recipe-page-middle-container
+allrecipes.com##.reserve-ad-space.ad-search-grid
+allrecipes.com##.review-ad-space.review-container.review-divider
 allrecipes.com##.slidein.ng-scope.slideout
+allrecipes.com##.social-sharing__icons
 allrecipes.com##.unauthenticated
 alltrails.com###fullscreen-search-filters:style(position: relative !important; top: 0 !important;)
 alltrails.com###mobile-header:style(position: relative !important; top: 0 !important;)
@@ -1529,7 +1535,13 @@ eonline.com##.rail__mps-ad
 eonline.com##.social
 eonline.com##.social-links.horizontal
 epi.org###epi-email-signup-backdrop
-epicurious.com##.site-header
+epicurious.com##.expanded.riser
+epicurious.com##.links-list
+epicurious.com##.no-border.fullwidth.newsletter
+epicurious.com##.recipe-top.sharing-actions
+epicurious.com##.site-header:style(position: relative !important; top: 0 !important;)
+epicurious.com##.social-buttons
+epicurious.com##.social-channel-links
 ervse.com##.td-affix.td-header-menu-wrap:style(position: relative !important; top: 0 !important;)
 espn.com###bracketcast:style(position: relative !important; bottom: 0 !important;)
 espn.com###header-wrapper:style(position: relative !important; top: 0 !important;)
@@ -5046,10 +5058,11 @@ thesmokinggun.com###tjhrvbkwtquxeiwhzpskozlclzjfeffddzfkhxr
 thesmokinggun.com##.toolkit
 thesoldiersfamily.com###header:style(position: relative !important; top: 0 !important;)
 thesoundofmusicontour.com###topnav:style(position: relative !important; top: 0 !important;)
-thespruce.com###header_1-0:style(position: relative !important; top: 0 !important;)
 thespruce.com###leaderboard--header_1-0
-thespruce.com##.header--condensed.js-search-target.js-menu-target.header.comp:style(position: relative !important; top: 0 !important;)
-thespruce.com##.share.mntl-social-share.social-share.comp
+thespruce.com##.header:style(position: relative !important; top: 0 !important;)
+thespruce.com##.is-collapsed.leaderboard.gpt.js-leaderboard-header.mntl-gpt-adunit.leaderboard1.leaderboard--header.comp
+thespruce.com##.pinit-btn
+thespruce.com##.share-item
 thestar.com##.full-bleed.breadcrumb-header:style(position: relative !important; top: 0 !important;)
 thestar.com##.position-sticky:nth-of-type(4):style(position: relative !important; top: 0 !important;)
 thestar.com##.sticky-replace-fixed.sticky-replace--narrow.sticky-replace
