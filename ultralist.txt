@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 4:06 PM 2017-08-16
+! Last Modified: 4:24 PM 2017-08-16
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -123,6 +123,7 @@ abcnews.go.com###nav_short_flex:style(position: relative !important; top: 0 !imp
 abcnews.go.com###share-bar
 abcnews.go.com###sharetools
 abcnews.go.com###widget-subscribe-3
+abcnews.go.com##.ad-300
 abcnews.go.com##.addthis_dynamic_wrapper
 abcnews.go.com##.horizontal.article-social
 abcnews.go.com##.short_bg.short_stuck
@@ -258,7 +259,12 @@ allrecipes.com##.unauthenticated
 alltrails.com###fullscreen-search-filters:style(position: relative !important; top: 0 !important;)
 alltrails.com###mobile-header:style(position: relative !important; top: 0 !important;)
 alltrails.com##.result-info:style(position: relative !important; top: 0 !important;)
+allure.com##.container.subscription-unit
+allure.com##.expanded.riser
+allure.com##.footer-social
 allure.com##.inner:style(position: relative !important; top: 0 !important;)
+allure.com##.sticky-wrapper
+allure.com##.utility-nav
 ally.com##.active.a11y.section-nav.sticky-nav:style(position: relative !important; top: 0 !important;)
 ally.com##.active.info-bar:style(position: relative !important; top: 0 !important;)
 ally.com##.active.sticky-nav.info-bar:style(position: relative !important; top: 0 !important;)
@@ -1053,8 +1059,13 @@ cnsnews.com##.kimbiaDiv.cns.cns1.two_col.columnsPerPage1
 cnsnews.com##.mini > .header:style(position: relative !important; top: 0 !important;)
 cnsnews.com##.mini-social-icons
 cntraveler.com##.container-header:style(position: relative !important; top: 0 !important;)
+cntraveler.com##.desktop.cm-placement
 cntraveler.com##.eat.scroll-to:style(position: relative !important; top: 0 !important;)
-cntraveler.com##.navIsFixed.site-header
+cntraveler.com##.isStartOfPage.transparent.site-header:style(position: relative !important; top: 0 !important;)
+cntraveler.com##.navIsFixed.site-header:style(position: relative !important; top: 0 !important;)
+cntraveler.com##.play.scroll-to:style(position: relative !important; top: 0 !important;)
+cntraveler.com##.share-tools.section
+cntraveler.com##.shop.scroll-to:style(position: relative !important; top: 0 !important;)
 cntraveler.com##.stay.scroll-to:style(position: relative !important; top: 0 !important;)
 coindesk.com##.article-share
 coindesk.com##.popup
@@ -1950,6 +1961,9 @@ gizmodo.com###sharingfooter
 gizmodo.com##.js_ad-top-banner.ad-top-banner.js_ad-unit.ad-unit
 gizmodo.com##.js_subscribe-region-sidebar.js_dismissable.js_newsletter-btn--subscribe
 gizmodo.com##.newsletter-btn--subscribe__nodismiss.newsletter-btn--subscribe.js_subscribe-region-footer.js_newsletter-btn--subscribe
+glamour.com##.closed.sticky.component-social-share
+glamour.com##.cns-ads-slot-type-ams-glm-desktop-article-pre-river-0.cns-ads-slot-type-ams-glm-desktop-article-pre-river.cns-ads-stage
+glamour.com##.cns-ads-slot-type-post-nav-0.cns-ads-slot-type-post-nav.cns-ads-stage
 glamour.com##.collapsed-header
 glamour.com##.component-header:style(position: relative !important; top: 0 !important;)
 glamour.com##.expanded.riser
@@ -4647,9 +4661,14 @@ techwalla.com###email-capture
 techwalla.com###header-dinosaur:style(position: relative !important; top: 0 !important;)
 techwalla.com##.in.fade.modal-backdrop
 ted.com###header:style(position: relative !important; top: 0 !important;)
+teenvogue.com##.closed.image.component-social-share
+teenvogue.com##.component-two-state-social-share
+teenvogue.com##.expanded.riser
+teenvogue.com##.footer-cm-wrapper.ad-failsafe-wrapper
 teenvogue.com##.site-header.component-sticky > div:nth-of-type(1):style(position: relative !important; top: 0 !important;)
 teenvogue.com##.sticky
 teenvogue.com##.sticky-header
+teenvogue.com##.top.social-share-top.component-observable-social-share
 telegraph.co.uk###message
 telegraph.co.uk###shareSideContainer
 telegraph.co.uk##.article__socials
@@ -5454,6 +5473,7 @@ vanityfair.com##.mono-native.component-social-share.component-social-follow
 vanityfair.com##.parbase.cn_share_facebook_like.web
 vanityfair.com##.parbase.cn_share_facebook_share
 vanityfair.com##.parbase.cn_share_tweet
+vanityfair.com##.pinterest-link
 vanityfair.com##.players-interstitial.component-modal
 vanityfair.com##.share.vertical.web
 vanityfair.com##.site-social.web
@@ -5562,6 +5582,10 @@ vogue.com##.icon-menu.site-header-links--hamburger
 vogue.com##.most-shared
 vogue.com##.site-header:style(position: relative !important; top: 0 !important;)
 vogue.com##.text-tweet.text-tweet__template
+vogue.fr###header:style(position: relative !important; top: 0 !important;)
+vogue.fr##.r1f-widget--large.r1f-labels-true.r1f-header-true.r1f-layout-horizontal.social_header.r1f-widget
+vogue.fr##.social_links.pw-layout-horizontal.ra1-pw_size_small.ra1-pw-classicWidget.pw-widget.pw
+vogue.fr##.social_newsletter
 vox.com###chorus-social-fixed
 vox.com##.c-global-header__social
 vox.com##.dfp_ad--held-area.dynamic-js-slot
@@ -5820,6 +5844,9 @@ wired.com###social
 wired.com###wiredwidgetsecommerce-2.widget.WiredWidgetsEcommerce
 wired.com###wiredwidgetsecommerce-3
 wired.com###wiredwidgetsmarketing-3.widget.WiredWidgetsMarketing
+wired.com##.advertisement__leaderboard
+wired.com##.cm-subscribe-link-wrapper
+wired.com##.footer__list--social
 wired.com##.header--collapsed.header--default.header:style(position: relative !important; top: 0 !important;)
 wired.com##.insider.secondary
 wired.com##.justify-c.align-m.flex-box.bg-gray-1.brad-top.rad
@@ -5832,6 +5859,7 @@ wired.com##.slider-thumbs-wrapper.custom_y_scrollbar_thumbs
 wired.com##.social-share-sidebar-component__content
 wired.com##.social-top
 wired.com##.social_bookmarking_module
+wired.com##.subscribe-panel-component--footer.subscribe-panel-component
 wired.com##.subscribe.secondary
 wired.com##nav:style(position: relative !important; top: 0 !important;)
 wireguard.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
@@ -5857,7 +5885,12 @@ wkrn.com###masthead:style(position: relative !important; top: 0 !important;)
 wkyc.com##.fixed.header:style(position: relative !important; top: 0 !important;)
 wlos.com##.sd-news-social-placeholder
 wlos.com##.v2.sd-header-wrapper.sd-news-header:style(position: relative !important; top: 0 !important;)
+wmagazine.com##.closed.squared.component-social-share
+wmagazine.com##.component-cm-footer
+wmagazine.com##.component-newsletter-subscribe-wrapper
+wmagazine.com##.component-social-follow
 wmagazine.com##.expanded.riser
+wmagazine.com##.leaderboard
 wmagazine.com##.sub-header-sticky:style(position: relative !important; top: 0 !important;)
 wmagazine.com##.sub-header:style(position: relative !important; top: 0 !important;)
 wmur.com##.article-sidelist--header
