@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:13 AM 2017-08-16
+! Last Modified: 12:07 PM 2017-08-16
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -1606,7 +1606,9 @@ express.co.uk###main_menu_bar:style(position: relative !important; top: 0 !impor
 extendoffice.com###js-mainnav
 extendoffice.com###js-mainnav:style(position: relative !important; top: 0 !important;)
 extracrispy.com###js-site-header:style(position: relative !important; top: 0 !important;)
-extremetech.com##.hybrid-bar
+extremetech.com###bannerad
+extremetech.com##.hybrid-bar:style(position: relative !important; top: 0 !important;)
+extremetech.com##.vertical.left.share_menu
 f-secure.com##.fixed:style(position: relative !important; top: 0 !important;)
 f-secure.com##.teaser-top:style(position: relative !important; top: 0 !important;)
 f-secure.com##header:style(position: relative !important; top: 0 !important;)
@@ -3911,6 +3913,10 @@ radaronline.com###main-header
 ramblinwreck.com###header:style(position: relative !important; top: 0 !important;)
 ramw.org###fixed_section
 ramw.org###top_section:style(position: relative !important; top: 0 !important;)
+raptorcs.com###header-background:style(position: relative !important; top: 0 !important;)
+raptorcs.com###header:style(position: relative !important; top: 0 !important;)
+raptorcs.com###headerlinkbox:style(position: relative !important; top: 0 !important;)
+raptorcs.com###sidebar-show-menu:style(position: relative !important; top: 0 !important;)
 rare.us###MP01-container
 rare.us##.header:style(position: relative !important; top: 0 !important;)
 rasmussenreports.com###cboxOverlay
@@ -4089,6 +4095,10 @@ richmond.com##.pull-right.follow-links-521977
 richmond.com##.social-share-link
 roadandtrack.com##.sticky.nav:style(position: relative !important; top: 0 !important;)
 roadsandkingdoms.com###titlebar:style(position: relative !important; top: 0 !important;)
+roanoke.com###site-top-nav
+roanoke.com###topbar-col-one
+roanoke.com##.dfp-ad.tnt-ads
+roanoke.com##.icon.list-inline.hidden-print.social-share-links
 robinhood.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 rollcall.com###nav:style(position: relative !important; top: 0 !important;)
 rollcall.com##.mainbody-subscribe
@@ -6071,9 +6081,11 @@ zillow.com##.sticky-bar.zsg-nav-sub-wrapper:style(position: relative !important;
 ||dontpayfull.com/*/banner_stores.png$image
 ||drudgereport.com$inline-script,first-party,important
 ||dynamicyield.com$script,domain=nasdaq.com
+||extremetech.com/g00/$script,first-party,important
 ||facebook.com/v2.4/plugins/page.php$subdocument,domain=snopes.com
 ||fastly.net$script,domain=nasdaq.com
 ||functionalclam.com^$third-party
+||g00.extremetech.com^$script,first-party,important
 ||hellobar.com^$third-party,script,important
 ||leadpages.co*$third-party
 ||maxtraffic.com$script
