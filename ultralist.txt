@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 1:29 PM 2017-08-16
+! Last Modified: 2:24 PM 2017-08-16
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -1600,9 +1600,9 @@ experts-exchange.com##.fvbRegWrap
 experts-exchange.com##.liveViewportFooterInner
 experts-exchange.com##.socialMediaLinks
 exploit-db.com##.sticky.shadow_thin.bg_solid.pos_fixed.l-header:style(position: relative !important; top: 0 !important;)
-express-scripts.com##.docked.mainMenuBlock._mainMenuBlock:style(position: relative !important; top: 0 !important;)
-express-scripts.com##.docked.mainMenuBlock.siteHeader:style(position: relative !important; top: 0 !important;)
-express-scripts.com##.logoBlock.siteHeader:style(position: relative !important; top: 0 !important;)
+express-scripts.com##._navContent:style(position: relative !important; top: 0 !important;)
+express-scripts.com##.docked._shoppingCartBlock.shoppingCartBlock._cart.module:style(position: relative !important; top: 0 !important; z-index: 1000 !important;)
+express-scripts.com##.docked.mainMenuBlock._mainMenuBlock:style(position: relative !important; top: 0 !important; z-index: 1000 !important;)
 express.co.uk###main_menu_bar:style(position: relative !important; top: 0 !important;)
 extendoffice.com###js-mainnav
 extendoffice.com###js-mainnav:style(position: relative !important; top: 0 !important;)
@@ -2208,6 +2208,9 @@ howstuffworks.com###hsw-header:style(position: relative !important; top: 0 !impo
 howstuffworks.com###pagination-upper
 howstuffworks.com##.fb-hsw-like-wrapper.row:style(position: relative !important; top: 0 !important;)
 howstuffworks.com##header:style(position: relative !important; top: 0 !important;)
+howtogeek.com##.email-overlay
+howtogeek.com##.how-to-geek-follow
+howtogeek.com##.overlay-wrapper
 howwegettonext.com##.is-maximized.is-transitioning.u-tintSpectrum.u-tintBgColor.metabar--hiddenWhenMinimized.metabar--tall.metabar--dark.js-metabar.u-clearfix.metabar
 huckmagazine.com##.first.twelvecol.header:style(position: relative !important; top: 0 !important;)
 huckmagazine.com##.social-share
@@ -3341,6 +3344,8 @@ newyorker.com##.utilities
 newyorker.com##.yrcomponent
 newyorker.com##UL:style(position: relative !important; top: 0 !important;)
 nextcity.org##.wrapper.header:style(position: relative !important; top: 0 !important;)
+nextofwindows.com##.td-affix.td-header-menu-wrap:style(position: relative !important; top: 0 !important;)
+nextofwindows.com##.td-scroll-up-visible.td-scroll-up
 nfl.com###experienceUpgradePromo
 nfl.com##.yui3-nfl-rewards-drivebar-top-bar-wrapper
 nfl.com##:xpath(.//*[@class="yui3-overlay-content yui3-widget-stdmod"])
@@ -3686,6 +3691,7 @@ pi-hole.net##.demo_store:style(position: relative !important; top: 0 !important;
 pi-hole.net##.site-navigation-fixed.navigation-top:style(position: relative !important; top: 0 !important;)
 pinterest.com##.Module.AppBase.App > .appContent > .mainContainer > .Module.InterestFeedReactPage > .Module.InterestFeedReactWrapper > .Module.DenzelReactBridge > div > div:nth-of-type(1) > .AppInterstitial
 pinterest.com##.Module.AppBase.App > .appContent > .mainContainer > .Module.InterestFeedReactPage > .Module.InterestFeedReactWrapper > .Module.DenzelReactBridge > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3)
+piriform.com##.page-foot__social
 pitchfork.com###page-header:style(position: relative !important; top: 0 !important;)
 pitchfork.com##.fixed.standard.nav-container:style(position: relative !important; top: 0 !important;)
 pitchfork.com##.share-module
