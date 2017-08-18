@@ -18,3 +18,9 @@ Browser Specific [uBlock Origin](https://github.com/gorhill/uBlock) Download Loc
   - [uBlock Origin for Mozilla FireFox](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
   - [uBlock Origin for Microsoft Edge](https://www.microsoft.com/en-US/store/p/app/9nblggh444l4?rtc=1)
   - [uBlock Origin for Apple Safari](https://github.com/el1t/uBlock-Safari#installation)
+
+  ## Installation instructions
+  From uBlock Origin settings panel, navigate to the '3rd-party filters' tab and scroll to the bottom under the 'Custom' section.
+  
+  Subscribe by pasting the following URL into the 'Custom' section on the '3rd-party filters' tab: 
+  https://raw.githubusercontent.com/yourduskquibbles/webannoyances/master/ultralist.txt
