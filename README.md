@@ -24,7 +24,7 @@ Browser Specific [uBlock Origin](https://github.com/gorhill/uBlock) Download Loc
 ## Installation Instructions
 From uBlock Origin settings panel, navigate to the '3rd-party filters' tab and scroll to the bottom under the 'Custom' section.
  
-Subscribe by pasting the following URL into the 'Custom' section on the '3rd-party filters' tab: 
+Subscribe by pasting the following URL into the 'Custom' section at the bottom of the '3rd-party filters' tab: 
 https://raw.githubusercontent.com/yourduskquibbles/webannoyances/master/ultralist.txt
 
 ### Installation Demonstration 
