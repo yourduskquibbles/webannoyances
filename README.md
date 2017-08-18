@@ -16,7 +16,7 @@ This filter list aims to remove annoying web elements that block your view of th
 For the best user experience, please use this filter list with [uBlock Origin](https://github.com/gorhill/uBlock).
 
 Browser specific download locations are located below:
-### PC
+### Desktop
 - [uBlock Origin for Google Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
 - [uBlock Origin for Mozilla FireFox](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
 - [uBlock Origin for Microsoft Edge](https://www.microsoft.com/en-US/store/p/app/9nblggh444l4?rtc=1)
