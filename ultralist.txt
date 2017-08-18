@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 1:41 PM 2017-08-18
+! Last Modified: 2:16 PM 2017-08-18
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -5193,7 +5193,7 @@ thehill.com###bottom-story-socials
 thehill.com###dfp-ad-mos_1-wrapper
 thehill.com###dfp-ad-mos_2-wrapper
 thehill.com###dfp-ad-mosad_1
-thehill.com###navigation:style(position: relative !important; top: 0 !important;)
+thehill.com###navigation:style(position: relative !important; top: 0 !important; overflow-x: hidden !important; overflow-y: hidden !important;)
 thehill.com##.float-icon:style(position: relative !important; top: 0 !important; transition: none !important;)
 thehill.com##.floating-block-active:style(position: relative !important; top: 0 !important; text-align: center !important;)
 thehill.com##.header:style(position: relative !important; top: 0 !important; transition: none !important;)
@@ -5396,7 +5396,12 @@ thestranger.com##.IconsAfterSearch
 thestranger.com##.share-tools
 thestreet.com###hoverfoot
 thestreet.com###lower-ad-banner
+thestreet.com###video-inner-wrap:style(position: relative !important; top: 0 !important;)
+thestreet.com##.col-lg-1.col-md-12
 thestreet.com##.main-nav--desktop.main-nav.navbar-fixed-top.navbar:style(position: relative !important; top: 0 !important;)
+thestreet.com##.main-nav__header-ad.row
+thestreet.com##.start-as-sticky.sticky-top-ad-wrap
+thestreet.com##.sticky-block
 thestylecon.com###upprev_box
 thesun.co.uk###cookie-bar
 thesun.co.uk###sun-menu:style(position: relative !important; top: 0 !important;)
