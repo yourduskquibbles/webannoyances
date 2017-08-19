@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:19 PM 2017-08-19
+! Last Modified: 12:56 PM 2017-08-19
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -367,6 +367,7 @@ ap.org##.clearfix.share-block
 apartments.com###mainHeader:style(position: relative !important; top: 0 !important;)
 apartments.com###rentRollups:style(position: relative !important; top: 0 !important;)
 apnews.com###header:style(position: relative !important; top: 0 !important;)
+apnews.com##.footerColumn.followFooter
 apnews.com##.ng-isolate-scope.header:style(position: relative !important; top: 0 !important;)
 apnews.com##.shareIcon
 appalachianmagazine.com###td-header-menu:style(position: relative !important; top: 0 !important;)
@@ -506,7 +507,10 @@ baltimoresun.com##.trb_nh_lw
 baltimoresun.com##.trb_nh_uw
 baltimoresun.com##IMG[src="http://data.baltimoresun.com/images/spacer.gif"]
 bangordailynews.com###bdn-tophat:style(position: relative !important; top: 0 !important;)
+bangordailynews.com###sharebar
 bangordailynews.com##.content-padding.social
+bangordailynews.com##.contentBanner.adSpot
+bangordailynews.com##.leaderboard.adSpot
 bankrate.com##.glyphicon-arrow-up.glyphicon
 barneys.com##.fixed.header:style(position: relative !important; top: 0 !important;)
 barstoolsports.com###header:style(position: relative !important; top: 0 !important;)
@@ -1045,9 +1049,11 @@ clarionledger.com##.fixed.header:style(position: relative !important; top: 0 !im
 clarionledger.com##.site-header-inner-wrap-fixed.site-header-inner-wrap:style(position: relative !important; top: 0 !important;)
 clickhole.com##.responsive-nav-active:style(position: relative !important; top: 0 !important;)
 clickondetroit.com###ksat-fixed
-clickorlando.com###header:style(position: relative !important; top: 0 !important;)
-clickorlando.com###ksat-fixed:style(position: relative !important; top: 0 !important;)
+clickorlando.com###header:style(position: relative !important; top: 0 !important; width: 100% !important;)
+clickorlando.com##.mod-top-local.ui-small-carousel.mod-wrapper:style(top: 15px !important;)
+clickorlando.com##.navbar-fixed-top.navbar-inverse.navbar-default.navbar.main-navigation-wrapper:style(position: relative !important; top: 0 !important; width: 100% !important;)
 clickorlando.com##.navbar-header:style(position: relative !important; top: 0 !important;)
+clickorlando.com##.vf-share-bar-square.vf-widget
 climateactionprogramme.com##.icon-text.phone-icon
 climateactionprogramme.org##.floatingmainmenu.thisisfixed.header-menu:style(position: relative !important; top: 0 !important;)
 climateactionprogramme.org##.floatingmainmenu_b.header-undermenu:style(position: relative !important; top: 0 !important;)
@@ -4041,6 +4047,7 @@ pjmedia.com##.header-social-media
 pjmedia.com##.marketing-popup-display.marketing-popup-overlay
 pjmedia.com##.marketing-popup-display.marketing-popup-wrapper
 pjmedia.com##.navbar-scroll.main-nav-wrapper.navbar-wrapper:style(position: relative !important; top: 0 !important;)
+pjmedia.com##.pinterest-share-button
 pjmedia.com##.share
 pjmedia.com##.social-buttons-bottom
 pjmedia.com##.social-buttons-top
