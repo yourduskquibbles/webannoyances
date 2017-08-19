@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:56 PM 2017-08-19
+! Last Modified: 1:13 PM 2017-08-19
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -6530,6 +6530,7 @@ wsj.com##.shareMenu
 wsj.com##.shareMenu--horizontal.shareMenu
 wsj.com##.shareMenuInlineWrap
 wsj.com##.sharebuttons-bottom
+wsj.com##.sliderBox:style(overflow-x: hidden !important; overflow-y: hidden !important;)
 wsj.com##.social-links
 wsj.com##.space-bottom.mktg-tile
 wsj.com##.stick-mobile-nav.new-hat.articlePage.mega-nav.mobile:style(position: relative !important; top: 0 !important;)
