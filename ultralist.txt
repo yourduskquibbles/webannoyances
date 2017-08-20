@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 5:40 PM 2017-08-19
+! Last Modified: 8:54 AM 2017-08-20
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -403,6 +403,7 @@ artsy.net###main-layout-header:style(position: relative !important; top: 0 !impo
 artsy.net##.from-bottom.icon-chevron-up.jump-to-top
 artsy.net##.modal.articles-es-cta--banner
 artsy.net##.share-by-email
+asc-csa.gc.ca###page-share
 asiaone.com###block-tb-megamenu-menu-a1-revamp-main-menu
 asiaone.com##.sticky:style(position: relative !important; top: 0 !important;)
 askandyaboutclothes.com###tt_mobile_banner
@@ -761,8 +762,10 @@ business-standard.com##.sticky:style(position: relative !important; top: 0 !impo
 businessinsider.com###header-bar:style(position: relative !important; top: 0 !important;)
 businessinsider.com###mobile-intercept
 businessinsider.com###newsSearchForm
+businessinsider.com###share
 businessinsider.com###tray
 businessinsider.com##.contact
+businessinsider.com##.cookie-notice.clearfix.alert-info.alert-block.alert
 businessinsider.com##.facebook.ks-byline-fb
 businessinsider.com##.float-right.share-button
 businessinsider.com##.gplusone.ks-bottom-gplusone
@@ -778,6 +781,7 @@ businessinsider.com##.share-post-box.no-padding-right.no-padding-left.col-xs-12
 businessinsider.com##.stick.leaderboard.subnav-content
 businessinsider.com##.subnav-container
 businessinsider.com##.toolbar.masthead:style(position: relative !important; top: 0 !important;)
+businessinsider.com##.vertical-social-buttons
 businessinsider.com##DIV[style="border-top: 1px solid #ddd; margin-top: 20px; margin-left: -20px; width: 340px;"]
 businessinsider.com##a.slide-share-button.slide-share-button--facebook
 businessinsider.com##a.slide-share-button.slide-share-button--pinterest
@@ -1189,10 +1193,23 @@ conservativereview.com###header:style(position: relative !important; top: 0 !imp
 conservativereview.com##.header-main:style(position: relative !important; top: 0 !important;)
 conservativereview.com##.share--sticky
 conservativereview.com##.stuck.header__single.header__main:style(position: relative !important; top: 0 !important;)
+conservativetribune.com##.ad-notice-small
+conservativetribune.com##.before-article-ad
+conservativetribune.com##.bottom.article-sharing
+conservativetribune.com##.persistent-footer.sponsor
+conservativetribune.com##.persistent-header
+conservativetribune.com##.related.article-extras
+conservativetribune.com##.top.article-sharing
+conservativetribune.com##.trending.article-extras
 consortiumnews.com###s-share-buttons
 consumeraffairs.com##.disclosure-block-responsive.disclosure-block
 consumeraffairs.com##.site-header:style(position: relative !important; top: 0 !important;)
 consumerist.com###header:style(position: relative !important; top: 0 !important;)
+consumerist.com##.clearfix.lf-header:style(position: relative !important; top: 0 !important;)
+consumerist.com##.lf-section-facebook
+consumerist.com##.lf-section-twitter
+consumerist.com##.lf-share-scroll
+consumerist.com##.sd-sharing-enabled.sharedaddy
 consumerreports.org##.parbase.social.mvisitor.new-social
 cookinglight.com###ad-300x250_LL_m_1
 cookinglight.com##.can-animate.has-headline.contextual-social-enabled.no-utility-ribbon.no-secondary-ribbon.main:style(position: relative !important; top: 0 !important;)
@@ -1473,6 +1490,15 @@ designtaxi.com###follow
 designtaxi.com###masthead-wrapper-sticky-wrapper
 designtaxi.com##.addthis_toolbox.addthis_default_style.addthis_32x32_style
 designtaxi.com##.button.addthis_button_expanded
+desmoinesregister.com###mobileweb-banner_bottommoneyfeatures_agricultureParagraph12
+desmoinesregister.com###mobileweb-banner_bottommoneyfeatures_agricultureParagraph16
+desmoinesregister.com###mobileweb-banner_bottommoneyfeatures_agricultureParagraph4
+desmoinesregister.com###mobileweb-banner_bottommoneyfeatures_agricultureParagraph8
+desmoinesregister.com###mobileweb-banner_topmoneyfeatures_agriculture
+desmoinesregister.com##.android-smart-banner.smart-banner
+desmoinesregister.com##.fixed.header:style(position: relative !important; top: 0 !important;)
+desmoinesregister.com##.footer-container
+desmoinesregister.com##.story-tools
 desmoinesregister.com##.util-bar-flyout.util-bar-flyout-firefly.open
 destinationxl.com##.sticky-wrap:style(position: relative !important; top: 0 !important;)
 deviantart.com##div.mc-ad-chrome
@@ -1721,6 +1747,7 @@ ew.com##.newsletter-signup
 ew.com##.sd-sharing-enabled.sharedaddy
 ew.com##.site-header__social-links
 ew.com##.styles__stickyHeader__3Nu1Q:after:style(position: relative !important; top: 0 !important;)
+ewstimes.com##.article-share
 examiner-enterprise.com###header-main:style(position: relative !important; top: 0 !important;)
 examiner-enterprise.com###toprail:style(position: relative !important; top: 0 !important;)
 examiner-enterprise.com##.article-meta > .inner:style(position: relative !important; top: 2 !important;)
@@ -2349,8 +2376,16 @@ heatst.com##.in.fade.modal-backdrop
 heatst.com##.modal-dialog
 heatst.com##.navbar-fixed-top.fit.col-xs-12.header-top-wrapper:style(position: relative !important; top: 0 !important;)
 heatst.com##.sp_right.sp_ticker
+heavy.com###Mobile_InArticle_300x250_Bottom_2
+heavy.com###Mobile_InArticle_300x250_Bottom_3
+heavy.com###after-post
+heavy.com###in-article-1
+heavy.com###in-article-2
+heavy.com###in-article-3
 heavy.com##.fixedheader.main-navigation.header:style(position: relative !important; top: 0 !important;)
 heavy.com##.header-text-title.inner-center:style(position: relative !important; top: 0 !important;)
+heavy.com##.heavy-mailing-list
+heavy.com##.socialicons
 heavy.com##.top.header:style(position: relative !important; top: 0 !important;)
 heb.com###greeter
 heddels.com##.mobile_open.mobile_mailing_list
@@ -2581,6 +2616,7 @@ indiatimes.com##.ntfc_overlay
 indiatimes.com##.ntfc_popup
 indiatimes.com##.sticky.leftsocial
 indiatimes.com##.widget.ad
+indiegogo.com##.i-top-lined-mobile-only.col-sm-4
 indiewire.com###masthead-section:style(position: relative !important; top: 0 !important;)
 indy100.com###drawer
 indy100.com###top-nav
@@ -2628,7 +2664,11 @@ inquisitr.com##.block.header--inner:style(position: relative !important; top: 0 
 insertcoinclothing.com###header:style(position: relative !important; top: 0 !important;)
 insideedition.com###nav:style(position: relative !important; top: 0 !important;)
 insideedition.com##.navbar-header:style(position: relative !important; top: 0 !important;)
+insidenova.com##.content-above.share-container
+insidenova.com##.content-below.share-container
 insidenova.com##.hidden-print.asset-paging-container
+insidenova.com##.text-center.tnt-ads-container
+insidenova.com##.tout-mid-article.tout-sdk
 insightdata.ai##.logo_nav:style(position: relative !important; top: 0 !important;)
 instagram.com##._3v251._br9is
 instagram.com##:xpath(.//*[@href="/accounts/emailsignup/"])
@@ -2816,6 +2856,8 @@ krcgtv.com##.sd-news-sidebar-social
 krcgtv.com##.sd-news-social-placeholder
 krcgtv.com##.v2.sd-header-wrapper.sd-news-header:style(position: relative !important; top: 0 !important;)
 krebsonsecurity.com###social-networks
+ksat.com###gmg-vf
+ksat.com###ksat-fixed:style(position: relative !important; top: 0 !important;)
 ksl.com###kslHeader:style(position: relative !important; top: 0 !important;)
 ksl.com##.ksl-header__outer:style(position: relative !important; top: 0 !important;)
 ktla.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
@@ -2847,6 +2889,7 @@ latimes.com##.adblock_panel.reg-dialog
 latimes.com##.module.blurb
 latimes.com##.nextgen-right
 latimes.com##.reg-content
+latimes.com##.trb_ar_cont
 latimes.com##.trb_ar_h > .trb_sc
 latimes.com##.trb_ar_shpq
 latimes.com##.trb_article_relatedTopics
@@ -3247,6 +3290,8 @@ mlb.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !impor
 mlbtraderumors.com##.headlines-bar:style(position: relative !important; top: 0 !important;)
 mlbtraderumors.com##.nav-arrow_left.nav-arrow
 mlbtraderumors.com##.nav-arrow_right.nav-arrow
+mlive.com###adv_header:style(position: relative !important; top: 0 !important;)
+mlive.com###social_21165693
 mmajunkie.com###nav-branding-sticky-wrapper:style(position: relative !important; top: 0 !important;)
 mobile.twitter.com##.GgYynIub._3rF86cXC:style(position: relative !important; top: 0 !important;)
 mobile.twitter.com##.LqlkGmch:style(position: relative !important; top: 0 !important;)
@@ -4173,6 +4218,8 @@ potbelly.com##.active-false:style(position: relative !important; top: 0 !importa
 potbelly.com##.general-alert-modal
 potbelly.com##.global-modal-background
 potbelly.com##.global-modal-true.global-modal
+pparx.org###block-block-41
+pparx.org##.sidebar
 predictiveops.com###sticky-nav:style(position: relative !important; top: 0 !important;)
 preferredhotels.com###search-widget:style(position: relative !important; top: 0 !important;)
 premier.org.uk##.floating.addthis_toolbox_wrapper
@@ -4596,6 +4643,8 @@ sbsun.com###jBar
 schaeffersresearch.com###signupSlider
 schneier.com##.line.social_share_privacy_area
 schooldigger.com###navbar:style(position: relative !important; top: 0 !important;)
+sciencealert.com##.fbbutton
+sciencealert.com##.instabutton
 sciencebulletin.org###header:style(position: relative !important; top: 0 !important;)
 sciencebulletin.org###responsive-menu-button:style(position: relative !important; top: 0 !important;)
 sciencedaily.com##.navbar-custom.navbar-static.navbar-default.yamm.navbar
@@ -5256,6 +5305,7 @@ thefederalistpapers.org##.social-icons
 thefirearmblog.com###social_links
 thefiscaltimes.com###message
 thefiscaltimes.com##.sub-header:style(position: relative !important; top: 0 !important;)
+thefix.com###header-subscribe
 theflavorbender.com##.entry-content > .swp_one.scale-left.scale-100.swp_o_darkGray.swp_i_dgOutlines.swp_d_fullColor.swp_flatFresh.nc_socialPanel
 theflavorbender.com##.menu-toggle:style(position: relative !important; top: 0 !important;)
 theflavorbender.com##.swp_three.scale-left.scale-100.swp_o_darkGray.swp_i_dgOutlines.swp_d_fullColor.swp_flatFresh.nc_socialPanel
@@ -6748,6 +6798,7 @@ zillow.com##.sticky-bar.zsg-nav-sub-wrapper:style(position: relative !important;
 ||adage.com/article$inline-script,first-party
 ||amazonaws.com/*/264.js$script,domain=realclearpolitics.com
 ||brightcove.com/*/upgrade_flash_player2.gif$image
+||cdn.theatlantic.com/assets/static/a/theatlantic/js/*$script,first-party
 ||chicagobusiness.com/*/interstitial.css$stylesheet,domain=chicagobusiness.com
 ||clikueo.com
 ||cnbc.com/*/TN-CS-Tile-03a.png$image
