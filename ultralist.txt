@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 2:33 PM 2017-08-22
+! Last Modified: 3:58 PM 2017-08-22
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -792,6 +792,15 @@ businessinsider.com##a.slide-share-button.slide-share-button--facebook
 businessinsider.com##a.slide-share-button.slide-share-button--pinterest
 businessinsider.in###TopNavs
 businessinsider.in###nlFormSlide
+businessoffashion.com##.big-font.offset-bottom-small.social-share-block
+businessoffashion.com##.color-brand-white.background-gray-darkest.small-font.text-center.navbar-notification.navbar.navbar-default
+businessoffashion.com##.hidden-print.offset-bottom.offset-top.sans-serif.article-body-bottom.row
+businessoffashion.com##.in.fade.modal
+businessoffashion.com##.in.fade.modal-backdrop--dark.modal-backdrop
+businessoffashion.com##.in.s_modal-fixed-desktop.modal-fixed-bottom.fade.modal
+businessoffashion.com##.sticky-fixed.sticky:style(position: relative !important; top: 0 !important;)
+businessoffashion.com##.sticky-social-bar
+businessoffashion.com##bof-professional-banner
 businessweek.com###global_nav
 businessweek.com###header
 businessweek.com###oo_tab
@@ -4108,6 +4117,9 @@ pbs.org###newsletter-modal
 pbs.org###pbs-confirm-modal-overlay
 pbs.org###pbs-confirm-station
 pbs.org###wnetpopupajax
+pbs.org##.fea__alt.fea__narrower--ad.fl-ad
+pbs.org##.fl-nav-secondary__follow-icons.submenu-btn.js-has-submenu.fl-nav__item--secondary
+pbs.org##.follow
 pbs.org##.geeplus
 pbs.org##.in.fade.modal-backdrop
 pbs.org##.remodal-is-opened.remodal-overlay
@@ -4334,7 +4346,9 @@ project-syndicate.org##.sticky--is-stuck.support-ps.sticky__footer
 projectcensored.org###lpl
 projectcensored.org###lpl-overlay
 proofpoint.com##.scroll-header.js-header.header:style(position: relative !important; top: 0 !important;)
+propublica.org##.fb
 propublica.org##.series-promotion.promotion
+propublica.org##.tw
 propublica.org##header:style(position: relative !important; top: 0 !important;)
 propublica.org##nav:style(position: relative !important; top: 0 !important;)
 prospect.org###ad-top
@@ -4658,6 +4672,7 @@ rollingstone.com##.header-bottom.header-top-border.stuck
 rollingstone.com##.header:style(position: relative !important; top: 0 !important;)
 rollingstone.com##.module-newsletter
 rollingstone.com##.module-social-sharing
+rollingstone.com##.nav.header-social
 rollingstone.com##.pinterest
 rollingstone.com##.pinterestLink
 rollingstone.com##.right-rail
@@ -5356,6 +5371,11 @@ theconnectivist.com##IMG[src="http://www.theconnectivist.com/wp-content/themes/c
 theconservativetreehouse.com###actionbar:style(position: relative !important; top: 0 !important;)
 theconversation.com##.topbar-mobile-newsletter-signup
 thecooperreview.com###sticky_header
+thecut.com##.ad-splash
+thecut.com##.bottom-share
+thecut.com##.social
+thecut.com##.vertical.clay-share
+thecut.com##.vp-1024-plus.ad
 thecut.com##.vp-600-1024.ad
 thedailybeast.com###react-mount-point > .ArticlePage > .PageHeader.head > .MobileNav
 thedailybeast.com##.InlineNewsletter
@@ -6901,6 +6921,7 @@ zyngaplayerforums.com##.Reactions
 ||adage.com/article$inline-script,first-party
 ||amazonaws.com/*/264.js$script,domain=realclearpolitics.com
 ||brightcove.com/*/upgrade_flash_player2.gif$image
+||businessoffashion.com/assets-access-layer/js/site-app*$script,domain=businessoffashion.com
 ||chicagobusiness.com/*/interstitial.css$stylesheet,domain=chicagobusiness.com
 ||clikueo.com
 ||cnbc.com/*/TN-CS-Tile-03a.png$image
