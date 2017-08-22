@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 4:22 PM 2017-08-22
+! Last Modified: 5:56 PM 2017-08-22
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -93,8 +93,12 @@
 9news.com.au##.feedback
 9news.com.au##.header-module__inner:style(position: relative !important; top: 0 !important;)
 9news.com.au##.site-header.module
+9to5google.com###js-site-header:style(position: relative !important; top: 0 !important;)
+9to5google.com##.header-social
+9to5google.com##.post-social-mobile
 9to5google.com##.scroll-to-fixed-fixed.header-wrap:style(position: relative !important; top: 0 !important;)
 9to5google.com##.scroll-to-fixed-fixed.news-feed-header:style(position: relative !important; top: 0 !important;)
+9to5google.com##.site-header-placeholder
 9to5mac.com###js-site-header:style(position: relative !important; top: 0 !important;)
 9to5mac.com##.scroll-to-fixed-fixed.news-feed-header:style(position: relative !important; top: 0 !important;)
 9to5mac.com##.sd-sharing-enabled.sharedaddy
@@ -331,10 +335,13 @@ android.com###anchor-nav:style(position: relative !important; top: 0 !important;
 android.com###header:style(position: relative !important; top: 0 !important;)
 android.com##.nocontent.devsite-top-section:style(position: relative !important; top: 0 !important;)
 android.gs##.google-plus
+androidauthority.com###aa-subscribe-widget-wrap
 androidauthority.com###back-to-top
 androidauthority.com###scrolled_view_bar
 androidauthority.com###sticky-bar:style(position: relative !important; top: 0 !important;)
 androidauthority.com###tt_hot_products_menu
+androidauthority.com##.aa_soc_sidebar
+androidauthority.com##.short.single_post_additional_block.single_share_block
 androidauthority.com##.sw_overlay_href.overlay-link
 androidcentral.com###header:style(position: relative !important; top: 0 !important;)
 androidforums.com###social-icons
@@ -559,6 +566,9 @@ bethesdamagazine.com##.shadowbox-image
 bethesdamagazine.com##.shadowbox-image-scrim
 betterads.org##.show-mobile-logo.dt-parent-menu-clickable.shadow-decoration.full-height.widgets.justify.inline-header.masthead:style(position: relative !important; top: 0 !important;)
 bgr.com###topnav
+bgr.com##.button-facebook
+bgr.com##.button-twitter
+bgr.com##.share-buttons
 bgr.com##.site-header-sticky:style(position: relative !important; top: 0 !important;)
 bgr.com##.social
 bigballerbrand.com###dl-menu:style(position: relative !important; top: 0 !important;)
@@ -1931,6 +1941,10 @@ flungmagazine.com###scrollUp
 flungmagazine.com##.canon_stuck.canon_sticky.header-style-4.header-area.outter-wrapper:style(position: relative !important; top: 0 !important;)
 flutter.io##.site-header:style(position: relative !important; top: 0 !important;)
 flydulles.com###whole_header_top:style(position: relative !important; top: 0 !important;)
+fn.com###js-TosPrivacy
+fn.com##.js-banner.main-banner:style(position: relative !important; top: 0 !important;)
+fn.com##.mortage-and-savings.module
+fn.com##.sharebar-tout.share-tools
 fnatic.com##.header:style(position: relative !important; top: 0 !important;)
 food.com###fdc-navbar:style(position: relative !important; top: 0 !important;)
 food.com##.navbar-header:style(position: relative !important; top: 0 !important;)
@@ -2489,6 +2503,9 @@ hoaxorfact.com##.sticky-wrapper
 hoaxorfact.com##.stuck.fixed-next-page:style(position: relative !important; top: 0 !important;)
 holidappy.com###header_wrap
 holidappy.com###rate_hub
+hollywoodlife.com##.share-container
+hollywoodlife.com##.site-header--unpinned.site-header--sticky.headroom--not-bottom.headroom.site-header:style(position: relative !important; top: 0 !important;)
+hollywoodlife.com##.social-profiles__link
 hollywoodreporter.com###block-block-55
 hollywoodreporter.com###site-header:style(position: relative !important; top: 0 !important;)
 hollywoodreporter.com###sticky-nav:style(position: relative !important; top: 0 !important;)
@@ -6008,6 +6025,8 @@ turkeypurge.com###main-header:style(position: relative !important; top: 0 !impor
 turkeypurge.com###top-header:style(position: relative !important; top: 0 !important;)
 tutanota.com##.navbar-fixed-top.navbar-bottom.navbar:style(position: relative !important; top: 0 !important;)
 tvguide.com###header:style(position: relative !important; top: 0 !important;)
+tvline.com##.home-left-col.share-comment
+tvline.com##.pmc-adm-goog-pub-div
 tweeterino.com##.fixed-top.bg-faded.navbar-light.navbar-toggleable-sm.navbar:style(position: relative !important; top: 0 !important;)
 twentytwowords.com###social-bar-wide
 twincities.com##.headroom--pinned.headroom--not-top.headroom.default.site-header:style(position: relative !important; top: 0 !important;)
@@ -6181,12 +6200,15 @@ vanityfair.com##.social-container
 vanityfair.com##.sub-brand-nav__lower--scrolled.sub-brand-nav__lower
 vanityfair.com##.utilities.utilities-top.border-both
 variety.com###header:style(position: relative !important; top: 0 !important;)
+variety.com###subscribe-link-section
 variety.com##.ad-below-tags
 variety.com##.fa-facebook-square.fa
 variety.com##.fa-instagram.fa
 variety.com##.fa-twitter-square.fa
 variety.com##.fa-youtube.fa
+variety.com##.google-publisher.adma
 variety.com##.header-inner:style(position: relative !important; top: 0 !important;)
+variety.com##.hp-panel__newsletter-signup
 variety.com##.module-share-tools:style(position: relative !important; top: 0 !important;)
 variety.com##.share-container
 vectrus.com###header-wrapper:style(position: relative !important; top: 0 !important;)
@@ -6810,6 +6832,7 @@ wvtm13.com##.js-sidelist-sticky-menu.article-sidelist
 wvtm13.com##.js-slim-share.horizontal.article-social.js-share-container.share-content
 wvtm13.com##.slim-headline:style(position: relative !important; top: 0 !important;)
 wvtm13.com##.slim.header:style(position: relative !important; top: 0 !important;)
+wwd.com###site-header:style(position: relative !important; top: 0 !important;)
 wweek.com###siteheader:style(position: relative !important; top: 0 !important;)
 wweek.com##.slimline.fixed.border-top-desktop.border-top-mobile.line-up.sharebar-top-mobile.sharebar-wrapper.sharebar-top-desktop:style(position: relative !important; top: 0 !important;)
 wxii12.com##.header-inner:style(position: relative !important; top: 0 !important;)
