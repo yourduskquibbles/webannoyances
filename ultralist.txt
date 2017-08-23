@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 1:59 PM 2017-08-23
+! Last Modified: 2:21 PM 2017-08-23
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -1735,9 +1735,14 @@ epicurious.com##.social-channel-links
 ervse.com##.td-affix.td-header-menu-wrap:style(position: relative !important; top: 0 !important;)
 espn.com###bracketcast:style(position: relative !important; bottom: 0 !important;)
 espn.com###header-wrapper:style(position: relative !important; top: 0 !important;)
+espn.com###mod_ad-box
+espn.com###pane-main:style(padding-top: 10px !important;)
 espn.com###toolbar:style(position: relative !important; top: 0 !important;)
 espn.com##.active.js-feed-item-mask
 espn.com##.ad-center
+espn.com##.ad-wrapper.ad-slot-banner.ad-slot
+espn.com##.ad-wrapper.ad-slot-incontent.ad-slot
+espn.com##.bg-opaque.mod-outbrain.mod-no-border
 espn.com##.contentItem__footer--shareMenuVideo.contentItem__footer
 espn.com##.espnDaily.sub-module
 espn.com##.horizontal.article-social
@@ -1745,12 +1750,9 @@ espn.com##.js-bloomed.favorites-mgmt.lightbox
 espn.com##.lightbox-container
 espn.com##.mod-page-actions
 espn.com##.newItemAlert.sm.button:style(position: relative !important; top: 0 !important;)
+espn.com##.signin-social
 espn.com##.sponsored-links
 espn.com##.vertical.article-social
-espn.go.com###mod_ad-box
-espn.go.com##.bg-opaque.mod-outbrain.mod-no-border
-espn.go.com##.mod-page-actions
-espn.go.com##.signin-social
 espnfc.com###desktop-nav:style(position: relative !important; top: 0 !important;)
 espnfc.com##.fb-button
 espnfc.com##.twttr-button
