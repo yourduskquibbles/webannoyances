@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 5:12 PM 2017-08-23
+! Last Modified: 5:22 PM 2017-08-23
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -965,6 +965,7 @@ chargeprotect.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relat
 charlestoncitypaper.com##.FooterboardMobileParent
 charlotteobserver.com###newsletter-signUpWidget
 charlotteobserver.com##.cta-fullwidth.subscription-cta-widget
+charlotteobserver.com##.share-tools-wrapper
 charlotteobserver.com##.sticky-tools.share-tools-wrapper
 chase.com###dashboard-header:style(position: relative !important; top: 0 !important;)
 chase.com###header-container:style(position: relative !important; top: 0 !important;)
@@ -1829,7 +1830,10 @@ exploit-db.com##.sticky.shadow_thin.bg_solid.pos_fixed.l-header:style(position: 
 express-scripts.com##._navContent:style(position: relative !important; top: 0 !important;)
 express-scripts.com##.docked._shoppingCartBlock.shoppingCartBlock._cart.module:style(position: relative !important; top: 0 !important; z-index: 1000 !important;)
 express-scripts.com##.docked.mainMenuBlock._mainMenuBlock:style(position: relative !important; top: 0 !important; z-index: 1000 !important;)
+express.co.uk###cookielaw
 express.co.uk###main_menu_bar:style(position: relative !important; top: 0 !important;)
+express.co.uk##.social-buttons-and-comments
+express.co.uk##.social-media-buttons
 exstreamist.com##.adsbygoogle
 exstreamist.com##.sf-widget-holder
 exstreamist.com##.sidebar_list
@@ -3393,13 +3397,18 @@ metafilter.com##.headroom--pinned.headroom--not-top.headroom.logo-and-primary-na
 metafilter.com##.visible.fixed.site-header:style(position: relative !important; top: 0 !important;)
 methodsman.com###sqs-social
 methodsman.com##.social-icons-style-regular.social-icons-size-extra-large.social-icons-color-standard.social-icon-alignment-center.sqs-svg-icon--outer
+metro.co.uk###masthead-follow
 metro.co.uk###masthead:style(position: relative !important; top: 0 !important;)
 metro.co.uk###we-need-monies
 metro.co.uk##.fixed-element-widget-top.is-visible:style(position: relative !important; top: 0 !important;)
+metro.co.uk##.has-share-count.share-buttons-top.share-buttons
+metro.co.uk##.nav-share-count
 metro.co.uk##.share-btn.facebook
 metro.co.uk##.share-btn.google
 metro.co.uk##.share-btn.reddit
 metro.co.uk##.share-btn.twitter
+metro.co.uk##.share-buttons-bottom.share-buttons
+metro.co.uk##.shareable-item.vjs-control.vjs-social-controls
 metro.us###pageHeader:style(position: relative !important; top: 0 !important;)
 metro.us##.clearfix.header:style(position: relative !important; top: 0 !important;)
 miami.cbslocal.com###cbs-site-ribbon:style(position: relative !important; top: 0 !important;)
@@ -6647,16 +6656,21 @@ washingtonpost.com##.wp-column.partners-holder
 washingtonpost.com##.wpvlb-wrap:style(position: relative !important; top: 0 !important;)
 washingtonpost.com##:xpath(.//*[@class="moat-trackable pb-f-theme-normal full pb-feature pb-layout-item pb-f-page-recommended-strip"])
 washingtonpost.com##html:style(height: initial !important; overflow: auto !important;)
+washingtontimes.com###feedbackify
 washingtontimes.com###info-bar
 washingtontimes.com###masthead:style(position: relative !important; top: 0 !important;)
 washingtontimes.com###message
+washingtontimes.com###newsletter-modal
 washingtontimes.com###social-media-preferences
 washingtontimes.com##.contributionbox
 washingtontimes.com##.full.mb.min.left
 washingtontimes.com##.globalheader_container:style(position: relative !important; top: 0 !important;)
+washingtontimes.com##.in.fade.modal-backdrop
 washingtontimes.com##.main-nav-scrolled.globalheader_container:style(position: relative !important; top: 0 !important;)
+washingtontimes.com##.onesignal-bell-container-bottom-right.onesignal-reset.onesignal-bell-container
 washingtontimes.com##.pg-widget-container
 washingtontimes.com##.right
+washingtontimes.com##.share-and-comments
 washingtontimes.com##P[style="padding: 7px 0 4px 0;margin-bottom: 0;"]
 waterfordwhispersnews.com##.cookie-mobile-wrapper
 wayfair.com###wf_smart_app_banner
@@ -7219,5 +7233,6 @@ zyngaplayerforums.com##.Reactions
 ||turner.com/*/adfuel-1.1.0.js$script,domain=cnn.com
 ||turner.com/*/cnn_money-ais.js$script,domain=cnn.com
 ||turner.com/*/cnnmoney_tech.js$script,domain=cnn.com
+||washtimes.com/js/base_global*$script,domain=washingtontimes.com
 ||webdesignerdepot.com/widget/*wdn-popup*
 ||wsjstream.wsj.net^$xmlhttprequest,domain=wsj.com
