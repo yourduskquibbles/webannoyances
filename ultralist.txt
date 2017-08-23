@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 5:56 PM 2017-08-22
+! Last Modified: 9:47 AM 2017-08-23
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -1171,6 +1171,7 @@ cntraveler.com##.play.scroll-to:style(position: relative !important; top: 0 !imp
 cntraveler.com##.share-tools.section
 cntraveler.com##.shop.scroll-to:style(position: relative !important; top: 0 !important;)
 cntraveler.com##.stay.scroll-to:style(position: relative !important; top: 0 !important;)
+code42.com###header:style(position: relative !important; top: 0 !important;)
 coindesk.com##.article-share
 coindesk.com##.popup
 coindesk.com##.social
@@ -3229,9 +3230,15 @@ mediaequalizer.com###header:style(position: relative !important; top: 0 !importa
 mediaite.com###featured-posts-wrap:style(position: relative !important; top: 0 !important;)
 mediaite.com###featured-posts:style(position: relative !important; top: 0 !important;)
 mediaite.com###header-content:style(position: relative !important; top: 0 !important;)
+mediaite.com###header-tools > .social
+mediaite.com###leaderboard
+mediaite.com###mc-embedded-subscribe-form
+mediaite.com###newsletter > .heading
 mediaite.com###post-nav
 mediaite.com###share-cont
 mediaite.com###social-foot
+mediaite.com###unit-sidebar
+mediaite.com###zergnet-widget-45040
 mediaite.com##.compact.teads-helper:style(position: relative !important; top: 0 !important;)
 mediaite.com##.teads-helper.full:style(position: relative !important; top: 0 !important;)
 mediatrackers.org##.social
@@ -4533,6 +4540,7 @@ realclearpolitics.com###large_notif_wrapper:style(position: relative !important;
 realclearpolitics.com###masthead-container:style(position: relative !important; top: 0 !important;)
 realclearpolitics.com###masthead-wrapper:style(position: relative !important; top: 0 !important;)
 realclearpolitics.com###masthead:style(position: relative !important; top: 0 !important;)
+realclearpolitics.com###notifications_hover
 realclearpolitics.com###warning_empty_div
 realclearpolitics.com##.addthis_toolbox.addthis_default_style
 realclearpolitics.com##.alpha-wrapper:style(position: relative !important; top: 0 !important;)
@@ -4540,7 +4548,9 @@ realclearpolitics.com##.beta_module
 realclearpolitics.com##.nav-down:style(position: relative !important; top: 0 !important;)
 realclearpolitics.com##.ndn_article_body_title
 realclearpolitics.com##.notif-wrapper.warning-wrapper
+realclearpolitics.com##.overlay
 realclearpolitics.com##.progress-bar:style(position: relative !important; top: 0 !important;)
+realclearpolitics.com##.socialBar
 realclearpolitics.com##.upNext-container
 realclearpolitics.com##.video_float.rc_video_player_container
 realclearreligion.org###warning_empty_div
@@ -6182,6 +6192,7 @@ vanityfair.com##.closed.casper.component-social-share
 vanityfair.com##.closed.colored.component-social-share
 vanityfair.com##.closed.mono-native.component-social-share
 vanityfair.com##.component-sponsored-links.component
+vanityfair.com##.connect-container
 vanityfair.com##.expanded.component-riser
 vanityfair.com##.handle.component-social-share.component-social-follow
 vanityfair.com##.hive-riser.expanded.component-riser
