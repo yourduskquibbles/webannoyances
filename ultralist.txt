@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 10:07 AM 2017-08-23
+! Last Modified: 10:17 AM 2017-08-23
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -61,6 +61,9 @@
 101livesportsvideos.com###to_top_scrollup
 11alive.com##.fixed.header:style(position: relative !important; top: 0 !important;)
 11alive.com##.is_stuck.chapter-nav
+12news.com##.article__sharing
+12news.com##.page__dock
+12news.com##.page__header:style(position: relative !important; top: 0 !important;)
 12thman.com##.navigation:style(position: relative !important; top: 0 !important;)
 1843magazine.com##.masthead:style(position: relative !important; top: 0 !important;)
 20minutes.fr##.navbar:style(position: relative !important; top: 0 !important;)
@@ -1405,6 +1408,7 @@ dailymail.co.uk##.fb
 dailymail.co.uk##.home.item.html_snippet_module
 dailymail.co.uk##.linksHolder-2WTnM
 dailymail.co.uk##.mailto
+dailymail.co.uk##.mobile-sharing-button
 dailymail.co.uk##.mobile-sharing.cc.news:style(position: relative !important; top: 0 !important;)
 dailymail.co.uk##.mobile-sharing.home.cc:style(position: relative !important; top: 0 !important;)
 dailymail.co.uk##.mobile-sharing.news.cc:style(position: relative !important; top: 0 !important;)
@@ -2314,6 +2318,7 @@ gq.com##.closed.social-share-embedded-image.component-social-share
 gq.com##.closed.social-share-photo-essay-heading.component-social-share
 gq.com##.closed.sub-header-social-share.component-social-share
 gq.com##.cm-footer-component
+gq.com##.cm-mobile-header-text-container
 gq.com##.container.desktop-header:style(position: relative !important; top: 0 !important;)
 gq.com##.desktop-header-utils
 gq.com##.dropdown-container
@@ -2325,7 +2330,9 @@ gq.com##.instream-4.article-inline-ad
 gq.com##.instream-5.article-inline-ad
 gq.com##.instream-6.article-inline-ad
 gq.com##.mm-nav:style(position: relative !important; top: 0 !important;)
+gq.com##.mobile-header-logo.component-logo > .component-logo__link > .component-logo__display-name
 gq.com##.mobile-header:style(position: relative !important; top: 0 !important;)
+gq.com##.nav-item-subscribe.nav-item
 gq.com##.show.component-sub-header
 gq.com##.show.container.component-sub-header
 gq.com##.social-follow-items
@@ -3391,6 +3398,10 @@ mlbtraderumors.com##.nav-arrow_left.nav-arrow
 mlbtraderumors.com##.nav-arrow_right.nav-arrow
 mlive.com###adv_header:style(position: relative !important; top: 0 !important;)
 mlive.com###social_21165693
+mmafighting.com##.m-ad__mobile_footer.m-ad__dynamic_ad_unit.m-ad
+mmafighting.com##.m-ad__mobile_leaderboard.m-ad__dynamic_ad_unit.m-ad
+mmafighting.com##.main-social.c-social-buttons
+mmafighting.com##.tab-bar-fixed.c-tab-bar
 mmajunkie.com###nav-branding-sticky-wrapper:style(position: relative !important; top: 0 !important;)
 mnn.com##.site-header--eclipse.site-header:style(position: relative !important; top: 0 !important;)
 mobile.twitter.com##.GgYynIub._3rF86cXC:style(position: relative !important; top: 0 !important;)
@@ -4725,6 +4736,7 @@ rt.com###header:style(position: relative !important; top: 0 !important;)
 rt.com##.b-header_top-band_on-sidebar.i-r
 rt.com##.b-main_extension.firefox.visible
 rt.com##.columns__separator
+rt.com##.footer__social
 rt.com##.sp_right.sp_mobile.sp_ticker
 rt.com##.sp_right.sp_ticker
 rt.com##.spot-im-registration-module
@@ -5477,6 +5489,7 @@ theguardian.com###dfp-ad--inline2
 theguardian.com###dfp-ad--inline3
 theguardian.com###dfp-ad--inline4
 theguardian.com###dfp-ad--top-above-nav
+theguardian.com##.amp-ad-container
 theguardian.com##.component.trackable-component.undocked-share.share-links
 theguardian.com##.contributions__epic
 theguardian.com##.d2-action.d2-action--facebook.d2-action--share
@@ -5503,6 +5516,9 @@ thehill.com###dfp-ad-mos_1-wrapper
 thehill.com###dfp-ad-mos_2-wrapper
 thehill.com###dfp-ad-mosad_1
 thehill.com###navigation:style(position: relative !important; top: 0 !important; overflow-x: hidden !important; overflow-y: hidden !important;)
+thehill.com##.akamai-button.akamai-facebook
+thehill.com##.akamai-button.akamai-share
+thehill.com##.akamai-button.akamai-twitter
 thehill.com##.float-icon:style(position: relative !important; top: 0 !important; transition: none !important;)
 thehill.com##.floating-block-active:style(position: relative !important; top: 0 !important; text-align: center !important;)
 thehill.com##.header:style(position: relative !important; top: 0 !important; transition: none !important;)
@@ -5644,6 +5660,11 @@ thepeninsulaqatar.com##.navbar-fixed-top.menu-block:style(position: relative !im
 theplayerstribune.com###global-header:style(position: relative !important; top: 0 !important;)
 theplayerstribune.com##.mobile-persistent-share
 theplayerstribune.com##.tpt-header-wrapper:style(position: relative !important; top: 0 !important;)
+theplaylist.net###cb-main-menu:style(position: relative !important; top: 0 !important;)
+theplaylist.net###social-media-icons-4
+theplaylist.net##.clearfix.cb-top-menu-wrap.wrap:style(position: relative !important; top: 0 !important;)
+theplaylist.net##.fa-long-arrow-up.fa
+theplaylist.net##.mashsb-main.mashsb-container:style(position: relative !important; top: 0 !important;)
 thepoliticalinsider.com###imk300a
 thepoliticalinsider.com##.top-line
 thepoliticalinsider.com##.white-box
@@ -5730,6 +5751,7 @@ thestreet.com##.main-nav__header-ad.row
 thestreet.com##.start-as-sticky.sticky-top-ad-wrap
 thestreet.com##.sticky-block
 thestylecon.com###upprev_box
+thesun.co.uk###articlempu
 thesun.co.uk###cookie-bar
 thesun.co.uk###sun-menu:style(position: relative !important; top: 0 !important;)
 thesun.co.uk##.back-to-top
@@ -5792,12 +5814,17 @@ theweek.com###mclicksscrollouter
 theweek.com###message
 theweek.com###nfBioTwitter
 theweek.com###promofooter
+theweek.com###sticky-social_718996
+theweek.com##.ad_wrap
+theweek.com##.article-risk-free-offer
 theweek.com##.black_background
 theweek.com##.col300_4free
 theweek.com##.col300_signup
 theweek.com##.header-wrapper:style(position: relative !important; top: 0 !important;)
+theweek.com##.hideoop.promo_subs_unit.oop-ad
 theweek.com##.mobile-extension-header:style(position: relative !important; top: 0 !important;)
 theweek.com##.nfSocial
+theweek.com##.sticky-social-inside
 theweek.com##.subscribe-module
 theweek.com##.top-section.fb-content
 thewhiskeywash.com##.sticky-wrapper:style(position: relative !important; top: 0 !important;)
@@ -5821,6 +5848,7 @@ thinkprogress.org##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-with
 thinkprogress.org##.is-visible.js-postActionsBar.postActionsBar
 thinkprogress.org##.post-tools.addthis_32x32_style
 thinkprogress.org##.share__wrapper
+thinkprogress.org##.social-nav--context-footer.social-nav
 thinkprogress.org##.u-tintSpectrum.u-tintBgColor.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorTransparentWhiteDarker.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
 thirtybees.com##.fusion-social-networks
 thirtybees.com##.fusion-sticky-shadow.fusion-header:style(position: relative !important; top: 0 !important;)
@@ -5945,6 +5973,7 @@ torrentfreak.com##A[href="http://www.facebook.com/torrentfreak"]
 totalfratmove.com###mobile-bottom-ad
 totalfratmove.com###nav-bar:style(position: relative !important; top: 0 !important;)
 totallandscapecare.com##.header.navbar-fixed-top.navbar:style(position: relative !important; top: 0 !important;)
+toutkickthecoverage.com##.mashsb-stretched.mashsb-main.mashsb-container:style(position: relative !important; top: 0 !important;)
 townandcountrymag.com##.active.social-menu
 townandcountrymag.com##.content-nav-active.sticky.nav:style(position: relative !important; top: 0 !important;)
 townandcountrymag.com##.embed-related-content
@@ -6027,6 +6056,8 @@ truththeory.com###t1
 truththeory.com##.fixed.group:style(position: relative !important; top: 0 !important;)
 truththeory.com##.group.content:style(position: relative !important; top: 0 !important;)
 trxtraining.com###main-menu-wrapper:style(position: relative !important; top: 0 !important;)
+ttheplaylist.net###social-media-icons-3
+ttheplaylist.net###text-9
 tuaw.com##.aol-share
 tumblr.com##.flattr
 tumblr.com##.is-visible.navbar:style(position: relative !important; top: 0 !important;)
