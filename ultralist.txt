@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 1:40 PM 2017-08-24
+! Last Modified: 2:33 PM 2017-08-24
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -432,6 +432,8 @@ arstechnica.com##.share-links
 arstechnica.com##.xrail
 artlawjournal.com###herald-responsive-header:style(position: relative !important; top: 0 !important;)
 artlawjournal.com###sticky-header
+artstation.com###main-nav:style(position: relative !important; top: 0 !important;)
+artstation.com##.sharing-buttons
 artsy.net###main-layout-header:style(position: relative !important; top: 0 !important;)
 artsy.net##.from-bottom.icon-chevron-up.jump-to-top
 artsy.net##.modal.articles-es-cta--banner
@@ -519,6 +521,7 @@ axlegeeks.com##.active.adr-app-banner
 axlegeeks.com##.active.adr-pink-test.adr-app-banner
 axlegeeks.com##.clearfix.mph-wrap:style(position: relative !important; top: 0 !important;)
 azcentral.com##.android-smart-banner.smart-banner
+azcentral.com##.asset-inline-share-tools-top.asset-inline-share-tools.inline-share-tools
 azcentral.com##.footer-container
 azcentral.com##.header-main:style(position: relative !important; top: 0 !important;)
 azcentral.com##.site-header-inner-wrap-fixed.site-header-inner-wrap:style(position: relative !important; top: 0 !important;)
@@ -526,6 +529,7 @@ azcentral.com##.site-header:style(position: relative !important; top: 0 !importa
 azcentral.com##.site-masthead-subscribe-link.userAuth-redirect
 azcentral.com##.site-nav:style(position: relative !important; top: 0 !important;)
 azcentral.com##.story-tools
+azcentral.com##.utility-bar
 babble.com##.js-show.js-transition.js-sb-4634921.tm-sb-fixed.js-sb-wrap.tm-social-bar-wrap
 babble.com##.tm-header
 babe.net##.flex-l.dn.top-0.right-0.absolute.share
@@ -1290,6 +1294,11 @@ consumerist.com##.lf-section-twitter
 consumerist.com##.lf-share-scroll
 consumerist.com##.sd-sharing-enabled.sharedaddy
 consumerreports.org##.parbase.social.mvisitor.new-social
+contactmusic.com##.adLabel
+contactmusic.com##.clearfix.socialShare
+contactmusic.com##.headerSecondary.hide-md.hide-sm.shadow.headerL.header:style(position: relative !important; top: 0 !important;)
+contactmusic.com##.hide-sm.subHeaderSocial
+contactmusic.com##.show-xl.show-lg.nextArticle
 cookinglight.com###ad-300x250_LL_m_1
 cookinglight.com##.can-animate.has-headline.contextual-social-enabled.no-utility-ribbon.no-secondary-ribbon.main:style(position: relative !important; top: 0 !important;)
 cookinglight.com##.center-pseudo.share
@@ -1519,6 +1528,13 @@ dawn.com##.pinned.headroom--not-top.headroom.container-fluid:style(position: rel
 daytondailynews.com##.cmgo_app_download_box
 daytondailynews.com##.hidden-md-down.footer-wrapper
 daytondailynews.com##.hidden-md-down.sub-header-nav:style(position: relative !important; top: 0 !important;)
+dcist.com###entry-social-float
+dcist.com##.adv_box
+dcist.com##.facebook.social
+dcist.com##.instagram.social
+dcist.com##.main-item-footer
+dcist.com##.twitter.social
+dcist.com##.youtube.social
 deadline.com###masthead-sticky-wrapper:style(position: relative !important; top: 0 !important;)
 deadline.com###masthead:style(position: relative !important; top: 0 !important;)
 deadline.com##.blogheader:style(position: relative !important; top: 0 !important;)
@@ -3306,6 +3322,10 @@ mansionglobal.com##.js-main-header.mg__main-header:style(position: relative !imp
 mansionglobal.com##.newsletter-signup-container
 manualslib.com###caffix:style(position: relative !important; top: 0 !important;)
 manualslib.com##.policy
+manutd.com###bottompager
+manutd.com###toolbar:style(position: relative !important; top: 0 !important;)
+manutd.com##.banner-ad.desktop
+manutd.com##.cookie-policy-message
 mapzen.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 marginalrevolution.com##.meta_print
 marieclaire.com###share-sticky-bar
@@ -3885,8 +3905,13 @@ ndtv.com###header_ap_id
 ndtv.com###showhide
 ndtv.com###sliderpanel:style(position: relative !important; top: 0 !important;)
 ndtv.com###sticky_navigation_wrapper:style(position: relative !important; top: 0 !important;)
+ndtv.com##.gsocialbar
 ndtv.com##.header:style(position: relative !important; top: 0 !important;)
+ndtv.com##.iconli
+ndtv.com##.lvblog_share
 ndtv.com##.social-share
+ndtv.com##.st_sharebar_new1
+ndtv.com##.st_story_topshare
 ndtv.com##.sticky_navbar:style(position: relative !important; top: 0 !important;)
 neimanmarcus.com##.tooltipArrowDownLeft.tooltipHolder
 neo-magazin-royale.de##.gradient:style(position: relative !important; top: 0 !important;)
@@ -3985,8 +4010,11 @@ newsweek.com###dfp-ad-right4-wrapper
 newsweek.com###dfp-ad-top-wrapper
 newsweek.com###header_subscribe
 newsweek.com##.affix.stickyhead:style(position: relative !important; top: 0 !important;)
+newsweek.com##.ai-c.flex-wrap.flex-xs.social-share
+newsweek.com##.ai-fe.flex-xs.social
 newsweek.com##.article--newsletter--wrapper.col-md-12
 newsweek.com##.article-social
+newsweek.com##.block-fusion-ads.block
 newsweek.com##.col-md-4.page-sidebar
 newsweek.com##.container.subscription
 newsweek.com##.fixed.page-header:style(position: relative !important; top: 0 !important;)
@@ -5363,6 +5391,7 @@ sportdiver.com##.main-header > .inner-wrapper:style(position: relative !importan
 sportdiver.com##.main-header:style(position: relative !important; top: 0 !important;)
 sportfacts.org##.cd-fade-out.cd-is-visible.cd-top
 sportingcharts.com###site-container > header:style(position: relative !important; top: 0 !important;)
+sportingnews.com##.ad-wrapper
 sportingnews.com##.navbar-fixed-top.site-header:style(position: relative !important; top: 0 !important;)
 sportingnews.com##.share
 sportsnet.ca###nav-sticky:style(position: relative !important; top: 0 !important;)
@@ -5382,9 +5411,13 @@ stackoverflow.com###herobox
 stackoverflow.com##._fixed.js-so-header.so-header:style(position: relative !important; top: 0 !important;)
 stackoverflow.com##._scrolling._fixed.js-so-header.so-header:style(position: relative !important; top: 0 !important;)
 stackoverflow.com##.hero-container.s-hero
+standard.co.uk###body:style(padding-top: 0px !important;)
 standard.co.uk###cookie-message
+standard.co.uk###footer > .social
+standard.co.uk###leaderboard
 standard.co.uk###masthead:style(position: relative !important; top: 0 !important;)
 standard.co.uk##.follow-bar
+standard.co.uk##.share-bar
 standardnotes.org##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.u-tintSpectrum.u-tintBgColor.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
 stanleycupofchowder.com##.tab-bar-fixed.c-tab-bar
 staples.com###popupwin
@@ -7188,8 +7221,10 @@ x.company##.u-backgroundTransparentWhiteDarkest.u-fixed.u-boxShadowBottomThinLig
 xda-developers.com###footer_social
 xda-developers.com###google_login
 xda-developers.com###header:style(position: relative !important; top: 0 !important;)
+xda-developers.com###header_social_wrapper
 xda-developers.com###xda_header_google_login
 xda-developers.com###xda_header_social
+xda-developers.com##.et_social_icons_container
 xda-developers.com##.share
 xfinity.com##.sticky.search-container:style(position: relative !important; top: 0 !important;)
 xinhuanet.com##.domPC.nav:style(position: relative !important; top: 0 !important;)
