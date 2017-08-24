@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:50 PM 2017-08-24
+! Last Modified: 1:12 PM 2017-08-24
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -1632,6 +1632,8 @@ digitaltrends.com##.is-fixed.m-pint-wrap
 discourse.pi-hole.net##.clearfix.d-header:style(position: relative !important; top: 0 !important;)
 discover.com##.animation.header-wrapper:style(position: relative !important; top: 0 !important;)
 discover.com##.global-social-footer
+discover.com##.mobile-responsive.main-container:style(padding-top: 0px !important;)
+discover.com##.no-accordian.social-icons.link-container
 discover.com##header:style(position: relative !important; top: 0 !important;)
 discovermagazine.com##.basement
 discovery.com##.shared__scrolled.headerMain__main:style(position: relative !important; top: 0 !important;)
