@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:20 PM 2017-08-24
+! Last Modified: 12:50 PM 2017-08-24
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -77,6 +77,8 @@
 3dprint.com##.notepadding.su-note
 49ers.com###TNFLSubNavigation_main:style(position: relative !important; top: 0 !important;)
 49ers.com###nflMenuHeader:style(position: relative !important; top: 0 !important;)
+6abc.com##.frame-social
+6abc.com##.social-icons.share
 6abc.com##.sticky.wrapper.nav-container-sticky:style(position: relative !important; top: 0 !important;)
 800notes.com###skin_main_header:style(position: relative !important; top: 0 !important;)
 8bitdo.com###head > .container:style(position: relative !important; top: 0 !important;)
@@ -93,6 +95,14 @@
 9gag.com###jsid-featured-sidebar-tail
 9gag.com##.badge-toolbar-pre.fixed-wrap-post-bar
 9gag.com##.post-afterbar-a.in-post-bot.full-width
+9news.com###column-1
+9news.com##.asset-inline-share-tools-bottom.asset-inline-share-tools.inline-share-tools
+9news.com##.is_stuck.site-nav:style(position: absolute !important; top: 0 !important;)
+9news.com##.jw-sharing-dock-btn.jw-reset.jw-background-color.jw-dock-button
+9news.com##.p402_premium.double-wide.asset-double-wide > .mod-wrapper.inline-share-tools-asset.story-asset
+9news.com##.site-footer-social-icon-list-var-width.site-footer-social-icon-list
+9news.com##.site-header:style(position: relative !important; top: 0 !important;)
+9news.com##.utility-bar
 9news.com.au##.feedback
 9news.com.au##.header-module__inner:style(position: relative !important; top: 0 !important;)
 9news.com.au##.site-header.module
@@ -926,6 +936,7 @@ cbslocal.com##.follow-us
 cbslocal.com##.size-24x24.type-blue.social-follow-items.footer-component
 cbsnews.com###pip__headline:style(position: relative !important; top: 0 !important;)
 cbsnews.com###social-sharebar
+cbsnews.com##.floating.media-block:style(position: relative !important; top: 0 !important;)
 cbsnews.com##.module-follow-us.module
 cbsnews.com##.site-header--is-sticky.nocontent.site-header:style(position: relative !important; top: 0 !important;)
 cbsnews.com##.smart-banner-cbsn
@@ -1504,10 +1515,12 @@ daytondailynews.com##.hidden-md-down.sub-header-nav:style(position: relative !im
 deadline.com###masthead-sticky-wrapper:style(position: relative !important; top: 0 !important;)
 deadline.com###masthead:style(position: relative !important; top: 0 !important;)
 deadline.com##.blogheader:style(position: relative !important; top: 0 !important;)
+deadline.com##.counters
 deadline.com##.fb-share-button.fb_iframe_widget
 deadline.com##.site-header:style(position: relative !important; top: 0 !important;)
 deadline.com##.social-google
 deadline.com##.social-linkedin
+deadline.com##.social-strip
 deadline.com##.social-twshare
 deadspin.com###sharingfooter
 deadspin.com##.js_ad-top-banner.ad-top-banner.js_ad-unit.ad-unit
