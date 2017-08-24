@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 1:12 PM 2017-08-24
+! Last Modified: 1:40 PM 2017-08-24
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate to make the web more user friendly!
@@ -489,6 +489,11 @@ autonews.com###main-header:style(position: relative !important; top: 0 !importan
 autonews.com###main-nav:style(position: relative !important; top: 0 !important;)
 avclub.com###h:style(position: relative !important; top: 0 !important;)
 avclub.com###scroll-top
+avclub.com###sharingfooter
+avclub.com##.footer-social
+avclub.com##.footer-subscribe
+avclub.com##.js_ad-top-banner.ad-top-banner.js_ad-unit.ad-unit
+avclub.com##.js_subscribe-region-sidebar.js_dismissable.js_newsletter-btn--subscribe
 avclub.com##.responsive-nav-active > .header-compact:style(position: relative !important; top: 0 !important;)
 avclub.com##.responsive-nav-active:style(position: relative !important; top: 0 !important;)
 avclub.com##share-via-facebook
@@ -523,6 +528,8 @@ azcentral.com##.site-nav:style(position: relative !important; top: 0 !important;
 azcentral.com##.story-tools
 babble.com##.js-show.js-transition.js-sb-4634921.tm-sb-fixed.js-sb-wrap.tm-social-bar-wrap
 babble.com##.tm-header
+babe.net##.flex-l.dn.top-0.right-0.absolute.share
+babe.net##.z-5.pa0.ma0.w-100.fixed.header-wrapper:style(position: relative !important; top: 0 !important;)
 backchannel.com##.is-active.popover--top.popover--quoteAttributions.popover--dark.js-popover.popover
 backchannel.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBottomSection.u-tintSpectrum.u-tintBgColor.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar
 backstageol.com###social-box
@@ -1523,6 +1530,7 @@ deadline.com##.social-linkedin
 deadline.com##.social-strip
 deadline.com##.social-twshare
 deadspin.com###sharingfooter
+deadspin.com##.footer-social
 deadspin.com##.js_ad-top-banner.ad-top-banner.js_ad-unit.ad-unit
 deadspin.com##.js_subscribe-region-sidebar.js_dismissable.js_newsletter-btn--subscribe
 deadspin.com##.newsletter-btn--subscribe__nodismiss.newsletter-btn--subscribe.js_subscribe-region-footer.js_newsletter-btn--subscribe > .open.newsletter-btn.newsletter-subscribe-wrapper > .newsletter-subscribe--email.newsletter-subscribe
@@ -1906,12 +1914,19 @@ fastcodesign.com##.ad-wrapper--mobileparallax_2.ad-wrapper
 fastcodesign.com##.ad-wrapper--mobilerectangle_1.ad-wrapper
 fastcodesign.com##.ad-wrapper--mobilerectangle_2.ad-wrapper
 fastcodesign.com##.fadeIn.animated.navbar-brands-container:style(position: relative !important; top: 0 !important;)
+fastcodesign.com##.layout--post:style(padding-top: 0px !important;)
 fastcodesign.com##.nav-bar-wrapper:style(position: relative !important; top: 0 !important;)
 fastcodesign.com##.nav-bar:style(position: relative !important; top: 0 !important;)
+fastcodesign.com##.nav__social-button--facebook.nav__social-button
+fastcodesign.com##.nav__social-button--instagram.nav__social-button
+fastcodesign.com##.nav__social-button--linkedin.nav__social-button
+fastcodesign.com##.nav__social-button--pocket.nav__social-button
+fastcodesign.com##.nav__social-button--twitter.nav__social-button
 fastcodesign.com##.navbar-brands-container:style(position: relative !important; top: 0 !important;)
 fastcodesign.com##.newsletter-signup__container
 fastcodesign.com##.page-header--fastcodesign.page-header:style(position: relative !important; top: 0 !important;)
 fastcodesign.com##.post__article-top-ad-wrapper
+fastcodesign.com##.post__promotion
 fastcodesign.com##.sticky-inner-wrapper
 fastcoexist.com##.nav-bar:style(position: relative !important; top: 0 !important;)
 fastcompany.com###share-modal
@@ -1990,7 +2005,9 @@ fixya.com##.next-arrow
 fixya.com##.prev-arrow
 fixya.com##.show.askbar
 flashbak.com###mc_embed_signup
+flashbak.com##.shareaholic-ui.shareaholic-share-buttons-wrapper
 flashbak.com##.shrink.header-main-container.row:style(position: relative !important; top: 0 !important;)
+flashbak.com##.social.desktop
 flashbak.com##headerv:style(position: relative !important; top: 0 !important;)
 flickr.com##.requiredToShowOnServer.mobile-app-upsell-view.view:style(position: relative !important; top: 0 !important;)
 flickr.com##.sohp-mobile-navable.fluid.styleguide-global-nav.global-nav-content:style(position: relative !important; top: 0 !important;)
@@ -2265,6 +2282,7 @@ github.com##.user-profile-sticky-bar.js-user-profile-sticky-bar.is-stuck
 github.io##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 gitlab.com##.with-horizontal-nav.navbar-gitlab.navbar:style(position: relative !important; top: 0 !important;)
 gizmodo.com###sharingfooter
+gizmodo.com##.footer-social
 gizmodo.com##.js_ad-top-banner.ad-top-banner.js_ad-unit.ad-unit
 gizmodo.com##.js_subscribe-region-sidebar.js_dismissable.js_newsletter-btn--subscribe
 gizmodo.com##.newsletter-btn--subscribe__nodismiss.newsletter-btn--subscribe.js_subscribe-region-footer.js_newsletter-btn--subscribe
@@ -2652,6 +2670,7 @@ huckberry.com##.in.fade.modal-backdrop
 huckberry.com##.modal.in.fade
 huckberry.com##.top-nav:style(position: relative !important; top: 0 !important;)
 huckmagazine.com##.first.twelvecol.header:style(position: relative !important; top: 0 !important;)
+huckmagazine.com##.social-footer.footer
 huckmagazine.com##.social-share
 huffingtonpost.ca##.desktop-only.author-card__social-container
 huffingtonpost.ca##.mod-follow.follow-us.desktop-only
@@ -2918,11 +2937,17 @@ iwaspoisoned.com##.btn-backtop
 jacobinmag.com###site-header:style(position: relative !important; top: 0 !important;)
 jacobinmag.com##.sr-md-po.sr-md.sr-sb-po.sr-sb
 jalopnik.com###sharingfooter
+jalopnik.com##.footer-social
+jalopnik.com##.footer-subscribe
+jalopnik.com##.js_ad-top-banner.ad-top-banner.js_ad-unit.ad-unit
 jalopnik.com##.js_subscribe-region-sidebar.js_dismissable.js_newsletter-btn--subscribe
 japantimes.co.jp##.social_header
 jerusalemonline.com##.topbarstatic:style(position: relative !important; top: 0 !important;)
 jet.com###nav:style(position: relative !important; top: 0 !important;)
 jezebel.com###sharingfooter
+jezebel.com##.footer-social
+jezebel.com##.footer-subscribe
+jezebel.com##.js_ad-top-banner.ad-top-banner.js_ad-unit.ad-unit
 jezebel.com##.js_subscribe-region-sidebar.js_dismissable.js_newsletter-btn--subscribe > .open.newsletter-btn.newsletter-subscribe-wrapper
 jihadwatch.org##.a2a_vertical_style.a2a_floating_style.a2a_kit_size_32.a2a_kit
 jihadwatch.org##.aksh_mailchimp_widget.widget
@@ -3010,7 +3035,11 @@ kidrock.com##.top-bar:style(position: relative !important; top: 0 !important;)
 king5.com##.fixed.header:style(position: relative !important; top: 0 !important;)
 king5.com##.header-main:style(position: relative !important; top: 0 !important;)
 king5.com##.is_stuck.site-nav:style(position: relative !important; top: 0 !important;)
+kinja.com###sharingfooter
 kinja.com##.global-nav--scrollback.fixed.shown.animated.hide-for-large-up.mobile-nav.global-nav.js_top-nav.js_global-nav-wrap:style(position: relative !important; top: 0 !important;)
+kinja.com##.js_ad-top-banner.ad-top-banner.js_ad-unit.ad-unit
+kinja.com##.js_subscribe-region-sidebar.js_dismissable.js_newsletter-btn--subscribe
+kinja.com##.newsletter-btn--subscribe__nodismiss.newsletter-btn--subscribe.js_subscribe-region-footer.js_newsletter-btn--subscribe
 kiplinger.com###smallHead:style(position: relative !important; top: 0 !important;)
 kktv.com###nav:style(position: relative !important; top: 0 !important;)
 klaw.ie##.headroom--pinned.headroom--not-top.headroom.js-header.header--inversed.site-header:style(position: relative !important; top: 0 !important;)
@@ -3026,6 +3055,7 @@ kommersant.ru##.fixed_panel--is_shown.fixed_panel
 konbini.com##.fixed-nav
 koreatimes.co.kr##.view_sns_div
 kotaku.com###sharingfooter
+kotaku.com##.footer-social
 kotaku.com##.js_ad-top-banner.ad-top-banner.js_ad-unit.ad-unit
 kotaku.com##.newsletter-subscribe--email.newsletter-subscribe
 kotaku.com##.twelve.mobile-four.columns.user-bar-inside
@@ -3145,6 +3175,7 @@ lifebuzz.co##.footer-popup.footer-popup-active
 lifebuzz.co##.social-box-big
 lifehacker.com###eyubptfbcvwbxrrlnfngrubtvjrqfcaavknr
 lifehacker.com###sharingfooter
+lifehacker.com##.footer-social
 lifehacker.com##.js_ad-top-banner.ad-top-banner.js_ad-unit.ad-unit
 lifehacker.com##.js_subscribe-region-sidebar.js_dismissable.js_newsletter-btn--subscribe
 lifehacker.com##.newsletter-btn--subscribe__nodismiss.newsletter-btn--subscribe.js_subscribe-region-footer.js_newsletter-btn--subscribe
@@ -3896,11 +3927,15 @@ newrepublic.com###read-next-flyout
 newrepublic.com###simplemodal-container
 newrepublic.com###simplemodal-overlay
 newrepublic.com###sticky-nav
+newrepublic.com##.article-social-bottom.article-social
+newrepublic.com##.email-container
+newrepublic.com##.footer-social
 newrepublic.com##.margin-paywall-count-bottom
 newrepublic.com##.modalCloseImg.simplemodal-close
 newrepublic.com##.old-nav-container.pinned:style(position: relative !important; top: 0 !important;)
 newrepublic.com##.page-header:style(position: relative !important; top: 0 !important;)
 newrepublic.com##.sticky-nav-container:style(position: relative !important; top: 0 !important;)
+newrepublic.com##.subscribe
 newrepublic.com##.ui.active.flipping.loader
 newrepublic.com##.ui.sticky
 news-gazette.com###adLib:style(position: relative !important; top: 0 !important;)
@@ -3975,6 +4010,7 @@ newyorker.com###header-subs:style(position: relative !important; top: 0 !importa
 newyorker.com###position2_yrail
 newyorker.com###rolloverAd
 newyorker.com##.Ad__contentriver___2icJ0
+newyorker.com##.ArticleFooter__adEndArticle___2_iy_.Ad__end-of-article___35N1C
 newyorker.com##.ArticleSocial__header___1huCC.ArticleSocial__socialShare___2Skji
 newyorker.com##.CartoonEmbed__socialWrapper___3-ICo
 newyorker.com##.FooterSocialLinks__socialLinks___30_Va
@@ -3986,6 +4022,7 @@ newyorker.com##.author-media
 newyorker.com##.bx-has-close-inside.bx-impress-in.bx-impress.bx-fx-fade.bx-has-close-x-1.bx-type-overlay.bx-width-default.bx-campaign-547919.bx-active-step-1.bx-custom.bx-base.bxc
 newyorker.com##.bx-has-close-inside.bx-impress.bx-fx-fade.bx-has-close-x-1.bx-type-overlay.bx-width-default.bx-campaign-501645.bx-active-step-1.bx-custom.bx-base.bxc
 newyorker.com##.bx-slab
+newyorker.com##.cns-ads-container
 newyorker.com##.content-well-newsletter
 newyorker.com##.fixed-topnav.jsready.hamburger-dropdowns-navigation__header-overrides.viewed-topbanner:style(position: relative !important; top: 0 !important;)
 newyorker.com##.hamburger-dropdowns-navigation__article-list
@@ -4081,6 +4118,7 @@ nymag.com##.ad-splash
 nymag.com##.bottom-share
 nymag.com##.column-subscribe
 nymag.com##.connect
+nymag.com##.connect-list
 nymag.com##.follow-list
 nymag.com##.parbase.marketingPromo.section
 nymag.com##.recommend
@@ -4847,6 +4885,8 @@ redskins.com###nflMenuHeader:style(position: relative !important; top: 0 !import
 redstate.com##.newsletter-sign-up
 redstate.com##.social-page-btns.btn-group-justified.btn-group
 refinery29.com##.condensed-header:style(position: relative !important; top: 0 !important;)
+reformjudaism.org##.addthis_default_style.addthis_toolbox
+reformjudaism.org##.sml-links.top-menu-social-media-links
 registryabstracts.com###banner:style(position: relative !important; top: 0 !important;)
 rei.com###header:style(position: relative !important; top: 0 !important;)
 rei.com###mainNav:style(position: relative !important; top: 0 !important;)
@@ -5312,6 +5352,8 @@ splcenter.org###header
 splendidtable.org###cboxContent
 splendidtable.org###cboxOverlay
 splinternews.com###sharingfooter
+splinternews.com##.footer-social
+splinternews.com##.footer-subscribe
 splinternews.com##.js_ad-top-banner.ad-top-banner.js_ad-unit.ad-unit
 splinternews.com##.js_subscribe-region-sidebar.js_dismissable.js_newsletter-btn--subscribe
 sporkful.com###hero-mail
@@ -5918,6 +5960,8 @@ theroamingmind.com###actionbar
 theroamingmind.com###jp-post-flair > .sd-sharing-enabled.sharedaddy
 theroot.com###js-article-slider
 theroot.com###sharingfooter
+theroot.com##.footer-social
+theroot.com##.footer-subscribe
 theroot.com##.js_ad-top-banner.ad-top-banner.js_ad-unit.ad-unit
 theroot.com##.js_subscribe-region-sidebar.js_dismissable.js_newsletter-btn--subscribe
 thesandtrap.com###elGuestTerms
