@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 1:17 PM 2017-08-25
+! Last Modified: 1:23 PM 2017-08-25
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - unsuck the web and make it more user friendly!
@@ -6922,6 +6922,7 @@ washingtonpost.com##.wp-column.first-column
 washingtonpost.com##.wp-column.partners-holder
 washingtonpost.com##.wpvlb-wrap:style(position: relative !important; top: 0 !important;)
 washingtonpost.com##:xpath(.//*[@class="moat-trackable pb-f-theme-normal full pb-feature pb-layout-item pb-f-page-recommended-strip"])
+washingtonpost.com##body:style(margin-top: 0px !important; padding-top: 0px !important;)
 washingtonpost.com##html:style(height: initial !important; overflow: auto !important;)
 washingtontimes.com###feedbackify
 washingtontimes.com###info-bar
