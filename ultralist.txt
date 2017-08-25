@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 1:23 PM 2017-08-25
+! Last Modified: 2:12 PM 2017-08-25
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - unsuck the web and make it more user friendly!
@@ -517,6 +517,7 @@ awfulannouncing.com##.site-header:style(position: relative !important; top: 0 !i
 aws.amazon.com###aws-page-header:style(position: relative !important; top: 0 !important;)
 axios.com##.active.pinned-up.clone.rebelbar__inner:style(position: relative !important; top: 0 !important;)
 axios.com##.is-active.stream-social-cta
+axios.com##.rebelbar--fake.rebelbar
 axios.com##.rebelbar--fixed.rebelbar:style(position: relative !important; top: 0 !important;)
 axios.com##.sidebar__follow
 axios.com##.subscribe-flow-initial.sidebar__newsletter
@@ -752,6 +753,19 @@ bostonglobe.com##.social-tools
 bostonglobe.com##.sticky-tools--active.sticky-tools:style(position: relative !important; top: 0 !important;)
 bostonglobe.com##.subscription-banner__link
 bostonherald.com###article-share-links
+bostonreview.net###PopupSignupForm_0
+bostonreview.net###block-br-hhog-module-br-hhog-ad-rectangle
+bostonreview.net###block-br-hhog-module-br-hhog-newsletter-general
+bostonreview.net###innercols-secondary-inner:style(position: relative !important; top: 0 !important;)
+bostonreview.net###popup
+bostonreview.net###shareiconsbar
+bostonreview.net##.featurednewsletter
+bostonreview.net##.footer-secondary-social
+bostonreview.net##.header-social
+bostonreview.net##.header-support
+bostonreview.net##.promobottom-support
+bostonreview.net##.promotilestandalone
+bostonreview.net##.rectanglead
 bottlebreacher.com###topcontrol
 bottomlineinc.com##.is_stuck.sticky-sidebar
 bottomlineinc.com##.sticky-nav.cf.navigation-wrap:style(position: relative !important; top: 0 !important;)
@@ -1770,6 +1784,7 @@ economist.com##.blog-post__sharebar
 economist.com##.cookie-message
 economist.com##.ec-footer__list--social.ec-footer__list
 economist.com##.fe-blogs__desktop-beta-bar.beta-bar.bar-wrapper
+economist.com##.fe-blogs__sidebar-ad-wrapper.stickyfill
 economist.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBottomSection.u-tintSpectrum.u-tintBgColor.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
 economist.com##.navigation.navigation-sticky-scroller.sticky-scroller:style(position: relative !important; top: 0 !important;)
 economist.com##.subscription-ribbon
@@ -2329,6 +2344,7 @@ ghacks.net###cookie-notice
 ghostinfluence.com##.site-header:style(position: relative !important; top: 0 !important;)
 giftcardgranny.com###nav-main:style(position: relative !important; top: 0 !important;)
 giftcardzen.com##.header-v6.header-sticky.header-classic-white:style(position: relative !important; top: 0 !important;)
+gimp.org##.headerlink
 giphy.com##:xpath(.//*[@class="header-wrapper"])
 giphy.com##:xpath(.//*[@style="top: 0px;"])
 github.com##.is-stuck.js-toggler-target.js-user-profile-follow-button.js-sticky.top-0.btn-block.btn:style(position: relative !important; top: 0 !important;)
@@ -2339,6 +2355,7 @@ gitlab.com##.with-horizontal-nav.navbar-gitlab.navbar:style(position: relative !
 gizmodo.com###sharingfooter
 gizmodo.com##.footer-social
 gizmodo.com##.js_ad-top-banner.ad-top-banner.js_ad-unit.ad-unit
+gizmodo.com##.js_post-dropdown-ct.post-dropdown-ct.js_meta-tools.meta__tools
 gizmodo.com##.js_subscribe-region-sidebar.js_dismissable.js_newsletter-btn--subscribe
 gizmodo.com##.newsletter-btn--subscribe__nodismiss.newsletter-btn--subscribe.js_subscribe-region-footer.js_newsletter-btn--subscribe
 glamour.com##.closed.sticky.component-social-share
@@ -3997,7 +4014,12 @@ networklessons.com###sdrn_bar:style(position: relative !important; top: 0 !impor
 networklessons.com###wpfront-notification-bar:style(position: relative !important; top: 0 !important;)
 networklessons.com##.show.scroll-back-to-top-wrapper
 networkworld.com###banner
+neurosciencenews.com###optinforms-form5-container
 neurosciencenews.com##.cb-menu-fw.cb-font-header.clearfix.cb-site-padding.cb-nav-bar-wrap:style(position: relative !important; top: 0 !important;)
+neurosciencenews.com##.cb-social-icons-extra.cb-menu-icons-extra
+neurosciencenews.com##.et_social_animated.et_social_visible.et_social_scroll.et_social_mobile_on.et_social_slideright.et_social_flyin_bottom_right.et_social_resize.et_social_flyin
+neurosciencenews.com##.et_social_icons_container
+neurosciencenews.com##.tipper-attached.cb-tip-bot.cb-contact-icon
 newatlas.com##.PlusSubscribeAd
 newatlas.com##.ad--grey-bg-wide.ad--article.ad
 newatlas.com##.social-bar
@@ -4333,7 +4355,12 @@ observer.com##.share-buttons.large.social-icons
 ocala.com###toprail:style(position: relative !important; top: 0 !important;)
 occupydemocrats.com###scroll_totop
 occupydemocrats.com##.header--slide.fixed.header:style(position: relative !important; top: 0 !important;)
+ocregister.com##.article-share
 ocregister.com##.headroom--pinned.headroom--not-top.headroom.default.site-header:style(position: relative !important; top: 0 !important;)
+ocregister.com##.headroom--unpinned.headroom--not-top.headroom.default.site-header:style(position: relative !important; top: 0 !important;)
+ocregister.com##.sd-sharing-enabled.sharedaddy
+ocregister.com##.sharing
+ocregister.com##.sign-up-follow
 ocweekly.com##.city-color-border.city-color-back.tab
 ocweekly.com##.city-color-border.next.sideSlide
 ocweekly.com##.city-color-border.prev.sideSlide
@@ -5089,6 +5116,7 @@ rollingstone.com##.pinterestLink
 rollingstone.com##.right-rail
 rollingstone.com##.social-box
 rollingstone.com##.stumbleupon
+rollingstone.com##.theme-glixel-1-bar
 rollingstone.com##.twitter
 rollingstone.com##.twitterLink
 romania-insider.com###cooltextwidget-6
@@ -5156,12 +5184,14 @@ sciencealert.com##.fbbutton
 sciencealert.com##.instabutton
 sciencebulletin.org###header:style(position: relative !important; top: 0 !important;)
 sciencebulletin.org###responsive-menu-button:style(position: relative !important; top: 0 !important;)
+sciencedaily.com###controls
+sciencedaily.com###share_top
 sciencedaily.com##.navbar-custom.navbar-static.navbar-default.yamm.navbar
 sciencedirect.com###articleToolbar
 sciencemag.org##.fixedsticky.article__social
 sciencemag.org##.header--leaderboard
 sciencemag.org##.social
-sciencemag.org##.sticky-header:style(position: relative !important; top: 0 !important;)
+sciencemag.org##.sticky-header
 scientificamerican.com###cookie-policy
 scientificamerican.com###site-header:style(position: relative !important; top: 0 !important;)
 scientificamerican.com##.is-visible.mobile-context-nav
@@ -6625,6 +6655,9 @@ usatodayhss.com###nav-branding:style(position: relative !important; top: 0 !impo
 usda.gov###scopedByScopedPolyfill_1
 usda.gov##.columns.small-4
 usda.gov##body > div:nth-of-type(5)
+usenix.org###site-header:style(position: relative !important; top: 0 !important;)
+usenix.org##.field-label-hidden.field-type-link-field.field-name-field-links-social-media.field
+usenix.org##body:style(padding-top: 0px !important;)
 useragents.com##.navbar-header:style(position: relative !important; top: 0 !important;)
 usmagazine.com###module-reading-list:style(position: relative !important; top: 0 !important;)
 usmagazine.com##.color-theme-hed.row.header-nav:style(position: relative !important; top: 0 !important;)
