@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 10:22 AM 2017-08-28
+! Last Modified: 12:11 PM 2017-08-28
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - unsuck the web and make it more user friendly!
@@ -127,9 +127,11 @@ abc.net.au##.mobile-sticky
 abc11.com##.nav-background
 abc11.com##.sticky.wrapper.nav-container-sticky:style(position: relative !important; top: 0 !important;)
 abc13.com###feature-container:style(position: relative !important; top: 0 !important;)
+abc13.com##.frame-social
 abc13.com##.shortcode-container
 abc13.com##.social-icons.share
 abc13.com##.sticky.wrapper.nav-container-sticky:style(position: relative !important; top: 0 !important;)
+abc13.com##body:style(padding-top: 0px !important;)
 abc15.com##.module--multi-top__container.container--ad.container
 abc15.com##.share-header
 abc15.com##.share__social-items
@@ -145,6 +147,7 @@ abcnews.go.com###global-header:style(position: relative !important; top: 0 !impo
 abcnews.go.com###header-wrapper:style(position: relative !important; top: 0 !important;)
 abcnews.go.com###header-wrapper:style(width: 100% !important;)
 abcnews.go.com###nav_short_flex:style(position: relative !important; top: 0 !important;)
+abcnews.go.com###pane-main:style(padding-top: 0px !important;)
 abcnews.go.com###share-bar
 abcnews.go.com###sharetools
 abcnews.go.com###widget-subscribe-3
@@ -155,6 +158,7 @@ abcnews.go.com##.horizontal.article-social
 abcnews.go.com##.short_bg.short_stuck
 abcnews.go.com##.social-footer-wrapper
 abcnews.go.com##.vertical.article-social
+abcnews.go.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 abcnews4.com##.col-md-12.col-xxs-24 > .sd-news-social-container
 abcnews4.com##.sd-header-brand:style(position: relative !important; top: 0 !important;)
 abcnews4.com##.sd-nav-only
@@ -1219,6 +1223,7 @@ cnbc.com##.bx-align
 cnbc.com##.cnbc-card.cnbc-end:style(position: relative !important; top: 0 !important;)
 cnbc.com##.cnbc-menu:style(position: relative !important; top: 0 !important;)
 cnbc.com##.main-header-nav:style(position: relative !important; top: 0 !important;)
+cnbc.com##.news-widget
 cnbc.com##.persistentHeader.main-header-nav:style(position: relative !important; top: 0 !important;)
 cnbc.com##.pico-content
 cnbc.com##.pico-overlay
@@ -2716,6 +2721,10 @@ heavy.com###icons
 heavy.com###in-article-1
 heavy.com###in-article-2
 heavy.com###in-article-3
+heavy.com###in-article-4
+heavy.com###in-article-5
+heavy.com###in-article-6
+heavy.com###in-article-7
 heavy.com##.cf.d-all.t-hidden.m-hidden.sidebar
 heavy.com##.fixedheader.main-navigation.header:style(position: relative !important; top: 0 !important;)
 heavy.com##.header-text-title.inner-center:style(position: relative !important; top: 0 !important;)
@@ -7258,12 +7267,14 @@ wdsu.com##.slim-headline:style(position: relative !important; top: 0 !important;
 wdsu.com##.slim.header:style(position: relative !important; top: 0 !important;)
 wearemel.com##.is-maximized.metabar--affixed.u-tintSpectrum.u-tintBgColor.metabar--hiddenWhenMinimized.metabar--tall.metabar--dark.js-metabar.u-clearfix.metabar
 weather.com###fby-tab-3758
+weather.com###navigation
 weather.com###smartbanner
 weather.com###wx-top-wrap
 weather.com##.data-eq-pane-sm.module-padding.column.content.panel-pane.float-left.width-100.glomo_social_sharing
 weather.com##.js-onboarding__navigation.navigation:style(position: relative !important; top: 0 !important;)
 weather.com##.page_top.region
 weather.com##.region-top.region
+weather.com##.visible.flag.sb
 weather.com##.wx-social-share-ls-wrapper
 webmd.com##.is-fixed.ad-101.ad.module
 websitesuccesstools.com###scroll
