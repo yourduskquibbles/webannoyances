@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 6:08 PM 2017-08-27
+! Last Modified: 8:40 AM 2017-08-28
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - unsuck the web and make it more user friendly!
@@ -925,6 +925,8 @@ buzzfeed.com##.pullquote_shares_wrapper
 buzzfeed.com##.share-box
 buzzfeed.com##.vertical-sidebar-info.bf_dom.diy-connect
 buzzfeed.com##.xs-l0.xs-z4.sm-fixed.xs-relative.xs-col-12.js-header-section-content:style(position: relative !important; top: 0 !important;)
+buzzfeed.com##.xs-mb1.xs-text-left.xs-col-12.button--icon.button--facebook.button
+buzzfeed.com##.xs-mb1.xs-text-left.xs-col-12.button--icon.button--twitter.button
 buzzfeed.com##.xs-mb4.action-bar--bottom.action-bar--pagelevel.action-bar
 buzzfeed.com##.xs-mb4.action-bar--top.action-bar--pagelevel.action-bar
 buzzfeed.com##.xs-text-5.clearfix.card-share.wire-frame__shares
@@ -1113,7 +1115,14 @@ chromestatus.com##app-header:style(position: relative !important; top: 0 !import
 chromestatus.com##footer
 chromium.org##.__crdxFeedbackButton
 chron.com###siteNav:style(position: relative !important; top: 0 !important;)
+chron.com###sub_nonmember
+chron.com##.facebook.socialIcon
+chron.com##.hdnce-item-12450.hdnce-e.hst-freeform
+chron.com##.instagram.socialIcon
+chron.com##.pinterest.socialIcon
+chron.com##.rss.socialIcon
 chron.com##.social-links > .left
+chron.com##.twitter.socialIcon
 chronicle.com###nav-persistent__container:style(position: relative !important; top: 0 !important;)
 ciencedirect.com##.tocbutton
 cigar.com###static-footer-sprintsale
@@ -2636,6 +2645,7 @@ hawaiinewsnow.com###smartbanner
 hawaiinewsnow.com###toolbar
 hawaiinewsnow.com##.sticky.cdev-menu-nav:style(position: relative !important; top: 0 !important;)
 hawaiinewsnow.com##.story-feed
+hazlitt.net###block-dfp-global-leaderboard
 hazlitt.net###region-navigation:style(position: relative !important; top: 0 !important;)
 hazlitt.net###zone-masthead:style(position: relative !important; top: 0 !important;)
 hazlitt.net##.social-links
@@ -2678,6 +2688,7 @@ heavy.com###after-post
 heavy.com###in-article-1
 heavy.com###in-article-2
 heavy.com###in-article-3
+heavy.com##.cf.d-all.t-hidden.m-hidden.sidebar
 heavy.com##.fixedheader.main-navigation.header:style(position: relative !important; top: 0 !important;)
 heavy.com##.header-text-title.inner-center:style(position: relative !important; top: 0 !important;)
 heavy.com##.heavy-mailing-list
@@ -3982,6 +3993,9 @@ nbcchicago.com##.site-header:style(position: relative !important; top: 0 !import
 nbcchicago.com##.socialNetworks-top
 nbcchicago.com##.stickyNav.nav-landing.navbar:style(position: relative !important; top: 0 !important;)
 nbcchicago.com##.stickyNav.navbar:style(position: relative !important; top: 0 !important;)
+nbcdfw.com##.active
+nbcdfw.com##.socialNetworks-top
+nbcdfw.com##.stickyNav.navbar:style(position: relative !important; top: 0 !important;)
 nbclosangeles.com###appIntercept
 nbclosangeles.com###article_0_ad_square
 nbclosangeles.com##.header:style(position: relative !important; top: 0 !important;)
@@ -5836,6 +5850,7 @@ texasmonthly.com##.close-mab
 texasmonthly.com##.share-bar
 texasmonthly.com##.share-bar-wrapper
 texasmonthly.com##.tm-social-share-bar
+texasmonthly.com##body:style(padding-top: 0px !important;)
 texasobserver.org##.cd-fade-out.cd-is-visible.cd-top
 texasobserver.org##.header-none-show.header:style(position: relative !important; top: 0 !important;)
 texastribune.org##.nav_menu--container:style(position: relative !important; top: 0 !important;)
@@ -6343,6 +6358,7 @@ thewalrus.ca###button-share
 thewalrus.ca###newsletter
 thewalrus.ca##.do_fade_in_2.navHeader.container
 thewalrus.ca##.masthead:style(position: relative !important; top: 0 !important;)
+thewalrus.ca##.social-truncated
 thewanderlustkitchen.com##.site-header:style(position: relative !important; top: 0 !important;)
 thewarhorse.org##.visible.sp-back-to-top
 theweek.com###HPPromoBox
@@ -6435,8 +6451,10 @@ thv11.com##.fixed.header:style(position: relative !important; top: 0 !important;
 thv11.com##.is_stuck.site-nav:style(position: relative !important; top: 0 !important;)
 ticketfly.com###eyebrow:style(position: relative !important; top: 0 !important;)
 tigerfitness.com###olark-wrapper
+time.com###ad-homepage-content-well
 time.com###first-visit
 time.com###header:style(position: relative !important; top: 0 !important;)
+time.com###pushdown-ad
 time.com###social-apps
 time.com###time_connect-2
 time.com###time_content_partners-3
@@ -6445,10 +6463,14 @@ time.com###time_paid_content-3
 time.com##.entry-sharing.group
 time.com##.footer-header
 time.com##.google-ad-iframe.module
+time.com##.left-rail-ad__wrapper
+time.com##.left-rail-topper:style(position: relative !important; top: 0 !important;)
 time.com##.main-header:style(position: relative !important; top: 0 !important;)
 time.com##.rail-tabs
+time.com##.show.ssv3__nav:style(position: relative !important; top: 0 !important;)
 time.com##.small-5.column
-time.com##.top-banner
+time.com##.ssv3-social.ssv3-nav__social
+time.com##.top-banner:style(position: relative !important; top: 0 !important;)
 timeanddate.com###nav:style(position: relative !important; top: 0 !important;)
 timeline.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.u-tintSpectrum.u-tintBgColor.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
 timeline.com##.is-maximized.metabar--affixed.u-tintSpectrum.u-tintBgColor.metabar--light.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
@@ -6958,6 +6980,9 @@ w3.org##nav
 w3schools.com###skyscraper
 w3schools.com###topnav:style(position: relative !important; top: 0 !important;)
 w3schools.com##.sidesection:nth-of-type(4)
+wafb.com##.sticky.cdev-menu-nav:style(position: relative !important; top: 0 !important;)
+wafb.com##.story-feed
+wafb.com##.wnad52.wnad
 wallstreet.org##.fancybox-overlay.snp-pop-4404-overlay
 wallstreet.org##.fancybox-wrap.fancybox-desktop.fancybox-type-inline.snp-wrap.snp-pop-4404-wrap.snp-pop-theme8-wrap.fancybox-opened
 wallstreetsurvivor.com##.td-affix.td-header-menu-wrap:style(position: relative !important; top: 0 !important;)
@@ -7126,7 +7151,9 @@ weather.com###fby-tab-3758
 weather.com###smartbanner
 weather.com##.data-eq-pane-sm.module-padding.column.content.panel-pane.float-left.width-100.glomo_social_sharing
 weather.com##.js-onboarding__navigation.navigation:style(position: relative !important; top: 0 !important;)
+weather.com##.page_top.region
 weather.com##.region-top.region
+weather.com##.wx-social-share-ls-wrapper
 webmd.com##.is-fixed.ad-101.ad.module
 websitesuccesstools.com###scroll
 websitesuccesstools.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
