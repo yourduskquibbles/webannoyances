@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:11 PM 2017-08-28
+! Last Modified: 12:42 PM 2017-08-28
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - unsuck the web and make it more user friendly!
@@ -1175,6 +1175,8 @@ city-journal.org##.l_shifter > .isScrolled.isLight.l_main-header
 city-journal.org##.normal-sidebar-container
 citylab.com###blocker-msg-start
 citylab.com###social-sticky
+citylab.com##.c-newsletter--footer.c-newsletter
+citylab.com##.c-social--footer.c-social
 citylab.com##.is-active.js-action-bar.c-action-bar
 citylab.com##.js-action-bar-active.o-small-container.c-tmp-share-sponsored-container
 citylab.com##.l-sponsored
@@ -3639,6 +3641,7 @@ megynkelly.org###openModal
 megynkelly.org##.td-scroll-up-visible.td-scroll-up
 meh.com###advertisement
 meh.com###advertisements
+melmagazine.com##.graf-after--p.graf--figure.graf
 melmagazine.com##.highlightMenu-inner
 melmagazine.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBottomSection.u-tintSpectrum.u-tintBgColor.u-textColorDarker.js-metabar.u-clearfix.metabar
 melmagazine.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBottomSection.u-tintSpectrum.u-tintBgColor.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar
@@ -3648,6 +3651,7 @@ melmagazine.com##.u-marginLeft0.u-lineHeightInherit.buttonSet
 melmagazine.com##.u-maxWidth740.container:nth-of-type(1) > .u-marginTop10.u-borderTopLightest.u-paddingTop20
 melmagazine.com##.u-tintSpectrum.u-tintBgColor.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorTransparentWhiteDarker.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
 melmagazine.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
+melmagazine.com##.u-xs-height95.u-height105.u-tintBgColor.js-metabarSpacer.metabar--spacer.metabar
 melmagazine.com##.u-xs-paddingRight10.u-xs-paddingLeft10.u-zIndexMetabar.u-paddingBottom10.u-paddingTop10.u-borderBox.u-boxShadowTop.u-backgroundWhite.u-sizeFullWidth.u-bottom0.u-fixed
 menshealth.com###header:style(position: relative !important; top: 0 !important;)
 menshealth.com###sharebar-195281
@@ -4991,6 +4995,7 @@ qz.com##.anno-right
 qz.com##.colored.share-buttons
 qz.com##.header-container:style(position: relative !important; top: 0 !important;)
 qz.com##.header-hidden.dark-theme:style(position: relative !important; top: 0 !important;)
+qz.com##.inline-ad
 qz.com##.item-meta-row.colored.share-buttons
 qz.com##.logo:style(position: relative !important; top: 0 !important;)
 racked.com###chorus-social-fixed
@@ -5210,6 +5215,7 @@ retailmenot.com###quick-feedback
 retailmenot.com##.code-cover
 retailmenot.com##.csat-survey-content
 reuters.com###breakingNewsContainer:style(position: relative !important; top: 0 !important;)
+reuters.com###section-follow-buttons
 reuters.com###sidebar
 reuters.com###social-links
 reuters.com###trackTabs
@@ -5224,6 +5230,7 @@ reuters.com##.amp-social-container
 reuters.com##.container > div > div > div > div:style(position: relative !important; top: 0 !important;)
 reuters.com##.container.next-article-info
 reuters.com##.facebook
+reuters.com##.fixed.nav-white-space
 reuters.com##.fixed:style(position: relative !important; top: 0 !important;)
 reuters.com##.google
 reuters.com##.header-main.group.header:style(position: relative !important; top: 0 !important;)
@@ -5231,6 +5238,8 @@ reuters.com##.header-mini.header-main.group.header > .active.container.header-pa
 reuters.com##.last.new-social
 reuters.com##.linkedIn
 reuters.com##.navbar-toggleable-sm.navbar-inverse.bg-inverse.fixed-top.navbar-full.navbar.header.special-report-nav:style(position: relative !important; top: 0 !important;)
+reuters.com##.reuters-share
+reuters.com##.slide-desc-share
 reuters.com##.twitter
 reuters.com##.util-social
 revealnews.org##.desktop-newsletter.shortcode-newsletter.newsletter.reveal-widget
@@ -5881,6 +5890,7 @@ techcrunch.com##.g-3up.g.footer-follow
 techcrunch.com##.header-context-news.cf.header-fixed-mobile.header:style(position: relative !important; top: 0 !important;)
 techcrunch.com##.header-fixed.header-dir-down.header-context-news.cf.header-fixed-mobile.header:style(position: relative !important; top: 0 !important;)
 techcrunch.com##.header-social:style(position: relative !important; top: 0 !important;)
+techcrunch.com##.nav-fb-messenger
 techcrunch.com##.next-story-link
 techcrunch.com##.popped.section.toaster
 techcrunch.com##.social-cluster
@@ -6052,6 +6062,7 @@ thecooperreview.com###sticky_header
 thecut.com##.ad-splash
 thecut.com##.bottom-share
 thecut.com##.social
+thecut.com##.social-section
 thecut.com##.vertical.clay-share
 thecut.com##.vp-1024-plus.ad
 thecut.com##.vp-600-1024.ad
@@ -6319,6 +6330,8 @@ theregister.co.uk##.article_social_btns
 theresurgent.com##.social
 theresurgent.com##.socnet
 therightscoop.com###trs_connect-2
+theringer.com##.c-pinterest-button
+theringer.com##.c-social-buttons
 theringer.com##.dfp_ad--held-area.dynamic-js-slot
 theringer.com##.facebook
 theringer.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBottomSection.u-tintSpectrum.u-tintBgColor.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar
@@ -6440,9 +6453,11 @@ theundefeated.com##.sd-sharing-enabled.sharedaddy
 theverge.com###sticky-menu:style(position: relative !important; top: 0 !important;)
 theverge.com###subForm
 theverge.com##.c-global-header__social
+theverge.com##.c-rock-newsletter
 theverge.com##.c-social-buttons
 theverge.com##.follow-the-verge.instapaper_ignore.entry-unrelated
 theverge.com##.m-ad__athena.m-ad__dynamic_ad_unit.m-ad
+theverge.com##.m-ad__btf_leaderboard_variable.m-ad__dynamic_ad_unit.m-ad
 theverge.com##.m-ad__btf_medium_rectangle_variable.m-ad__dynamic_ad_unit.m-ad
 theverge.com##.m-ad__desktop_leaderboard_variable.m-ad__dynamic_ad_unit.m-ad
 theverge.com##.m-ad__medium_rectangle_variable.m-ad__dynamic_ad_unit.m-ad
