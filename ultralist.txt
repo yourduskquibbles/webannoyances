@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 5:16 PM 2017-08-29
+! Last Modified: 5:31 PM 2017-08-29
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - unsuck the web and make it more user friendly!
@@ -421,8 +421,10 @@ aol.com##.vdb_player:style(position: relative !important; top: 0 !important;)
 aol.com##.zip-not-set.bon.light-weather-form.m-side-nav.l-side-nav:style(position: absolute !important; top: 0 !important;)
 aol.com##body:style(padding-top: 0px !important;)
 ap.org###block-ap-misc-ap-social-media
+ap.org##.ad-block
 ap.org##.ap-mediabox-td
 ap.org##.clearfix.share-block
+ap.org##.ndn_floatContainer_enabled
 apartments.com###mainHeader:style(position: relative !important; top: 0 !important;)
 apartments.com###rentRollups:style(position: relative !important; top: 0 !important;)
 apnews.com###header:style(position: relative !important; top: 0 !important;)
@@ -1300,7 +1302,7 @@ cnbc.com##.theplatform-video__docked.dockable.player-lazy-loaded-mobile:style(po
 cnet.com###connectCNET
 cnet.com###globalSocialPromoWrap
 cnet.com###page-header:style(position: relative !important; top: 0 !important;)
-cnet.com###rbHeader
+cnet.com###rbHeader:style(position: relative !important; top: 0 !important;)
 cnet.com##.fyre-notifier-container
 cnet.com##.shareBar.inline-view
 cnet.com##.sharebarWrapper
@@ -5459,6 +5461,7 @@ reddit.com##.DualPartInterstitialFooter
 reddit.com##.DualPartInterstitial__common
 reddit.com##.DualPartInterstitial__content
 reddit.com##.NavFrame__below-op-nav > .PostsFromSubredditPage > .XPromoListingClickModal
+reddit.com##.NavFrame__below-top-nav:style(padding-top: 0px !important;)
 reddit.com##.SmartBanner
 reddit.com##.TopNav:style(position: relative !important; top: 0 !important;)
 reddit.com##.TransparentOverlay
