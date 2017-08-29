@@ -1,10 +1,36 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 10:41 AM 2017-08-29
+! Last Modified: 11:35 AM 2017-08-29
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - unsuck the web and make it more user friendly!
 
 ! Start Web Annoyances Ultralist
+espn.com##.header-ad
+espn.com##.ad-wrapper.ad-slot-incontent-strip.ad-slot
+pagesix.com##.widget_nypost_social_widget.module.show-mobile.box
+pagesix.com##body:style(margin-top: 0px !important;))
+pagesix.com###background-wrapper:style(overflow-x: hidden !important; overflow-y: hidden !important;)
+storyful.com##.header:style(position: relative !important; top: 0 !important; padding-top: 0px !important;)
+checkout51.com##header:style(position: relative !important; top: 0 !important;)
+news.com.au##.nav-social-twitter.nav-social
+news.com.au##.nav-social-facebook.nav-social
+news.com.au##.nav-social-instagram.nav-social
+news.com.au##.nav-social-googleplus.nav-social
+news.com.au##.widget_newscorpau_ads.sidebar-right-hand-column.widget
+harpercollins.com##.hc-main-header__nav-bar__navigation--fixed.hc-main-header__nav-bar__navigation:style(position: relative !important; top: 0 !important;)
+dowjones.com##.dropdown-submenu-opened.page-header:style(position: relative !important; top: 0 !important;)
+theaustralian.com.au##.popover-on.subscribe-popover
+theaustralian.com.au##.fixed.clearfix.fixed-navigation:style(position: relative !important; top: 0 !important;)
+theaustralian.com.au###header-ads
+theaustralian.com.au##.network-bar-social-media-links
+mansionglobal.com##.global-search-bar--active.js-global-search-bar.global-search-bar:style(position: relative !important; top: 0 !important;)
+dailytelegraph.com.au##.widget_newscorpau_ads.widget
+dailytelegraph.com.au##.tgc-headerv2-blackbar:style(position: relative !important; top: 0 !important;)
+dailytelegraph.com.au##.tgc-headerv2_header_nav-wrapper:style(position: relative !important; top: 0 !important;)
+dailytelegraph.com.au##.tgc-headerv2_header:style(position: relative !important; top: 0 !important;)
+dailytelegraph.com.au##.tgc-footer_social
+dailytelegraph.com.au##.tgc-footer_apps
+dailytelegraph.com.au##.tgc-footer_disclaimer
 ###appIntercept
 ###dream-box
 ###dsq-indicator-north
