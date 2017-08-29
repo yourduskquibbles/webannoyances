@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:47 PM 2017-08-28
+! Last Modified: 11:54 PM 2017-08-28
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - unsuck the web and make it more user friendly!
@@ -1340,7 +1340,12 @@ computerworld.com###sticky-head:style(position: relative !important; top: 0 !imp
 confirmit.com##A[href="http://www.confirmit.com"]
 confluent.io###site-header:style(position: relative !important; top: 0 !important;)
 congoo.com##IMG[src="http://s9.addthis.com/button1-share.gif"]
-consequenceofsound.net##.site-header
+consequenceofsound.net###menu-social-media
+consequenceofsound.net###viewport-wrapper:style(margin-top: 0px !important;)
+consequenceofsound.net##.follow-us
+consequenceofsound.net##.leaderboard-wrapper
+consequenceofsound.net##.sd-sharing-enabled.sharedaddy
+consequenceofsound.net##.site-header:style(position: relative !important; top: 0 !important; margin-top: 0px !important;)
 conservativefiringline.com##.print-no.essb_2101280952.essb_template_metro-retina.essb_share.essb_displayed_shortcode.essb_counters.essb_links
 conservativefiringline.com##.td-scroll-up-visible.td-scroll-up
 conservativeintel.com###splashmodal
@@ -2939,7 +2944,13 @@ ieee.org##.ad-space
 ieee.org##.backtotop
 ieee.org##.medium-top-ad
 ifixit.com##.smartbanner
+iflscience.com##.newsletter-widget.widget
+iflscience.com##.page:style(padding-top: 0px !important;)
+iflscience.com##.share
 iflscience.com##.smaller.header:style(position: relative !important; top: 0 !important;)
+iflscience.com##.social
+iflscience.com##.social-shares
+iflscience.com##.totop
 ign.com###header-container:style(position: relative !important; top: 0 !important;)
 ign.com###header-nav
 ign.com###ign-header:style(position: relative !important; top: 0 !important;)
@@ -5789,7 +5800,13 @@ steepandcheap.com##.qa-header-wrap.main-header-wrap.js-header-wrap:style(positio
 steepandcheap.com##.qa-ui-dialog-title-1.ui-closuremodal.ui-front.ui-corner-all.ui-widget-content.ui-widget.ui-dialog
 steepandcheap.com##.ui-front.ui-widget-overlay
 stereogum.com##.ad_desktop_placeholder
+stereogum.com##.footer-ad-holder.container
+stereogum.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
+stereogum.com##.show.sticky-header.social-holder
+stereogum.com##.social-container
+stereogum.com##.social-links
 stereogum.com##.top-ad-holder.ad-holder
+stereogum.com##body:style(padding-top: 0px !important;)
 stereogum.com##header > .ad-holder
 steuern.de###header:style(position: relative !important; top: 0 !important;)
 stgeorgeutah.com###email_popup
