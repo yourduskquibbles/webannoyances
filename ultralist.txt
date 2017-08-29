@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 2:02 PM 2017-08-29
+! Last Modified: 2:45 PM 2017-08-29
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - unsuck the web and make it more user friendly!
@@ -1792,6 +1792,8 @@ digg.com###site-promo-banner > .content
 digg.com##.ad-container--featured_videos
 digg.com##.ad-container--originals-top
 digg.com##.col-1.col-1--deeper
+digg.com##.content-main:style(padding-top: 0px !important;)
+digg.com##.content-primary:style(margin-top: 10px !important;)
 digg.com##.in.fade.modal-backdrop
 digg.com##.in.hide.fade.modal.email-subscribe-modal
 digg.com##.is--visible.js--promo-bottom.promo-bottom--editions
@@ -1890,9 +1892,12 @@ dummies.com##.navbar-fixed-top.main-nav.navbar:style(position: relative !importa
 dxc.technology##.cscMainHeader:style(position: relative !important; top: 0 !important;)
 dxomark.com###dxo-bottom-banner
 eater.com###chorus-social-fixed
+eater.com##.c-global-header__social
 eater.com##.c-newsletter-promo
 eater.com##.c-pinterest-button
+eater.com##.c-rock-newsletter
 eater.com##.c-social-buttons
+eater.com##.dfp_ad--held-area.dynamic-js-slot
 eater.com##.tab-bar-fixed.c-tab-bar
 eatthis.com##.topic-health.top:style(position: relative !important; top: 0 !important;)
 eatthis.com##.topic-home.top:style(position: relative !important; top: 0 !important;)
@@ -1931,6 +1936,7 @@ electrek.co##.scroll-to-fixed-fixed.news-feed-header:style(position: relative !i
 electrek.co##.sd-sharing-enabled.sharedaddy
 electrek.co##.site-header-placeholder:style(position: relative !important; top: 0 !important;)
 electrek.co##header:style(position: relative !important; top: 0 !important;)
+electricliterature.com##.m.l.k.j.i.h.g.f:style(position: absolute !important; top: 0 !important;)
 electronicsweekly.com###main-nav:style(position: relative !important; top: 0 !important;)
 elitedaily.com##.stickyHeader.headerInView
 elitedaily.com##.stickyNavWrapper
@@ -4304,6 +4310,13 @@ newatlas.com##.PlusSubscribeAd
 newatlas.com##.ad--grey-bg-wide.ad--article.ad
 newatlas.com##.social-bar
 newco.co##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBottomSection.u-tintSpectrum.u-tintBgColor.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
+newfoodeconomy.com###content:style(padding-top: 0px !important;)
+newfoodeconomy.com##.addtoany_content_bottom.addtoany_share_save_container
+newfoodeconomy.com##.header:style(position: relative !important; top: 0 !important;)
+newfoodeconomy.com##.social-desktop
+newfoodeconomy.com##.social-horizontal
+newfoodeconomy.com##.spu-bg
+newfoodeconomy.com##.spu-total-.spu-centered.spu-box
 newrepublic.com###fixed-header-container:style(position: relative !important; top: 0 !important;)
 newrepublic.com###header-tout-become-a-member
 newrepublic.com###highlight-overlay
@@ -4487,6 +4500,7 @@ nowthisnews.com##.snapchat-list
 nowthisnews.com##.social-links
 nowthisnews.com##.twitter-list
 nowthisnews.com##.youtube-list
+nplusonemag.com##.post-meta-social
 npr.org###callout-end-of-story-mount
 npr.org###contentfooter
 npr.org###globalheader:style(position: relative !important; top: 0 !important;)
@@ -4812,6 +4826,7 @@ pbs.org##.side_twitterfollow
 pbs.org##.social
 pbs.org##.sticky.js-header.header:style(position: relative !important; top: 0 !important;)
 pcgamer.com##.masthead-item.buttons-social
+pcgamer.com##.newsletter-signup.box
 pcgamer.com##.socialite.email
 pcgamer.com##.socialite.facebook
 pcgamer.com##.socialite.reddit
@@ -4992,6 +5007,7 @@ popularmechanics.com###rr_soc_mid
 popularmechanics.com###share-sticky-bar
 popularmechanics.com##.ad-gpt-breaker-container
 popularmechanics.com##.ad-gpt-main
+popularmechanics.com##.embed--loaded.embed-newsletter.embed.newsletter--container
 popularmechanics.com##.footer--social
 popularmechanics.com##.image-share
 popularmechanics.com##.share-button--pinterest.share-button
@@ -5827,6 +5843,14 @@ southlive.in##.show-in-desktop.side-bar-ad
 southlive.in##.social-share
 southlive.in##.sticky-icon
 southpark.cc.com###geoblockmsg
+southwestthemagazine.com###nav
+southwestthemagazine.com##.atavist-block:style(margin-top: 0px !important; margin-bottom: 0px !important;)
+southwestthemagazine.com##.chapter:style(padding-top: 0px !important; padding-bottom: 0px !important;)
+southwestthemagazine.com##.facebook-share-link.template-icon
+southwestthemagazine.com##.header:style(position: relative !important; top: 0 !important; padding-bottom: 0px !important;)
+southwestthemagazine.com##.template-icon.nav-menu-button:style(position: relative !important; top: 0 !important;)
+southwestthemagazine.com##.twitter-share-link.template-icon
+southwestthemagazine.com##article:style(padding-bottom: 0px !important;)
 space.com###sticky-header > .center-content:style(position: relative !important; top: 0 !important;)
 space.com###sticky-header.fixed.content-wrapper.sticky-header:style(position: relative !important; top: 0 !important;)
 space.com###sticky-header:style(position: relative !important; top: 0 !important;)
@@ -5900,6 +5924,11 @@ splinternews.com##.js_ad-top-banner.ad-top-banner.js_ad-unit.ad-unit
 splinternews.com##.js_post-dropdown-ct-sticky.js_post-dropdown-ct.post-dropdown-ct
 splinternews.com##.js_post-dropdown-ct.post-dropdown-ct.js_meta-tools.meta__tools
 splinternews.com##.js_subscribe-region-sidebar.js_dismissable.js_newsletter-btn--subscribe
+splitsider.com##.leaderboard__wrapper
+splitsider.com##.menu-item-75804.menu-item-object-custom.menu-item-type-custom.menu-item.divider.icon-facebook-official.icon
+splitsider.com##.menu-item-75805.menu-item-object-custom.menu-item-type-custom.menu-item.divider.icon-twitter.icon
+splitsider.com##.menu-item-96024.menu-item-object-custom.menu-item-type-custom.menu-item.divider.nav-instagram.fa-instagram.fa
+splitsider.com##.newsletter__wrapper
 sporkful.com###hero-mail
 sporkful.com##.fixed_section.sticky-nav.group.section:style(position: relative !important; top: 0 !important;)
 sporkful.com##.social
@@ -6232,6 +6261,9 @@ theaustralian.com.au##.mm-reveal.account-lightbox
 theaustralian.com.au##.network-bar-social-media-links
 theaustralian.com.au##.popover-on.subscribe-popover
 theaustralian.com.au##.share-icons-lhs.has-signin
+theawl.com###ad-top
+theawl.com##.footer-newsletter
+theawl.com##.footer-social__components
 theawl.com##.highlightMenu-inner
 theawl.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBottomSection.u-tintSpectrum.u-tintBgColor.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar
 theawl.com##.u-tintSpectrum.u-tintBgColor.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorTransparentWhiteDarker.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
@@ -6255,6 +6287,7 @@ thebigroundtable.com##.u-xs-height56.u-height65.u-floatLeft.metabar-block--left.
 thebillfold.com##.divider.icon-facebook-official.icon
 thebillfold.com##.divider.icon-twitter.icon
 thebillfold.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBottomSection.u-tintSpectrum.u-tintBgColor.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar
+thebillfold.com##.leaderboard__wrapper
 thebillfold.com##.sharebutts__primary
 thebitcoinnews.com###upprev_box
 thebitcoinnews.com###wpfront-notification-bar
@@ -6385,6 +6418,9 @@ theguardian.com##.submeta__share
 thehackerblog.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 thehackernews.com###firebox
 thehackernews.com##.responsive-header-google-inside.adsbygoogle
+thehairpin.com##.leaderboard__wrapper
+thehairpin.com##.menu-item-75804.menu-item-object-custom.menu-item-type-custom.menu-item.divider.icon-facebook-official.icon
+thehairpin.com##.menu-item-75805.menu-item-object-custom.menu-item-type-custom.menu-item.divider.icon-twitter.icon
 thehealthyfoodie.com##.shrink.site-header:style(position: relative !important; top: 0 !important;)
 theheartysoul.com##.text-center.dfp_stucky_footer
 thehill.com###article-recommendation
@@ -7053,6 +7089,9 @@ undark.org##.boxzilla-center-container.boxzilla-container
 undark.org##.clearfix.top-bar-section:style(position: relative !important; top: 0 !important;)
 undark.org##.header-scrolled.top-bar:style(position: relative !important; top: 0 !important;)
 undark.org##.jetpack
+underdogdynasty.com##.c-pinterest-button
+underdogdynasty.com##.c-social-buttons
+underdogdynasty.com##.tab-bar-fixed.c-tab-bar:style(position: relative !important; top: 0 !important;)
 uniquemachine.org##.navbar-fixed-top.main-nav:style(position: relative !important; top: 0 !important;)
 universetoday.com###patreon-section
 universetoday.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
