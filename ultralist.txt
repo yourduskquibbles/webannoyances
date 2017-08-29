@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 3:42 PM 2017-08-29
+! Last Modified: 4:23 PM 2017-08-29
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - unsuck the web and make it more user friendly!
@@ -189,9 +189,11 @@ accmag.com##.adsbygoogle
 accmag.com##.soc-media
 accmag.com##.soc-style-three.soc-media-sharing
 accuweather.com###addthis_widget
+accuweather.com###offers
 accuweather.com###social-connect
 accuweather.com##.Header:style(position: relative !important; top: 0 !important;)
 accuweather.com##.addthis_toolbox.addthis_default_style
+accuweather.com##.panel-ad-mr.panel
 aclu.org##.share-icons.pane-aclu-components-share-icons.panel-pane
 aclu.org##.sticky-minimized.header:style(position: relative !important; top: 0 !important;)
 acorns.com##.bg-helper:style(position: relative !important; top: 0 !important;)
@@ -1619,8 +1621,10 @@ dailymail.co.uk###textShare
 dailymail.co.uk##.facebook
 dailymail.co.uk##.facebook-like-static
 dailymail.co.uk##.fb
+dailymail.co.uk##.floating-no-ads.has-button-share-facebook.floating-buttons
 dailymail.co.uk##.home.item.html_snippet_module
 dailymail.co.uk##.linksHolder-2WTnM
+dailymail.co.uk##.linksHolder-3KBa2
 dailymail.co.uk##.mailto
 dailymail.co.uk##.mobile-sharing-button
 dailymail.co.uk##.mobile-sharing.cc.news:style(position: relative !important; top: 0 !important;)
@@ -1640,9 +1644,8 @@ dailymail.co.uk##.share-pinterest
 dailymail.co.uk##.share-twitter
 dailymail.co.uk##.shareArticles
 dailymail.co.uk##.twitter
-dailymail.co.uk##.vjs-black-poster
-dailymail.co.uk##.vjs-control-bar
-dailymail.co.uk##.vjs-hidden.vjs-modal-overlay.vjs-caption-settings
+dailymail.co.uk##.vjs-control.vjs-social-controls
+dailymail.co.uk##.vjs-user-inactive.vjs-visually-ready.mol-fe-animated-preview.mol-empty-playlist.vjs-controls-enabled.vjs-paused.vjs-default-skin.video-js:style(position: absolute !important;)
 dailymail.co.uk##.whatsapp
 dailymail.co.uk##body > div:nth-of-type(8)
 dailymail.co.uk##iframe
@@ -3443,6 +3446,7 @@ latimes.com##.lb-card-share-menu
 latimes.com##.module.blurb
 latimes.com##.nextgen-right
 latimes.com##.reg-content
+latimes.com##.rendered.lb-advert-container
 latimes.com##.trb_ar_cont
 latimes.com##.trb_ar_h > .trb_sc
 latimes.com##.trb_ar_shpq
@@ -3453,6 +3457,7 @@ latimes.com##.trb_em_pq_sh
 latimes.com##.trb_gptAd
 latimes.com##.trb_masthead_adBanner.trb_mh_adB
 latimes.com##.trb_nh:style(position: absolute !important;)
+latimes.com##.trb_sc_item
 latimes.com##.trb_sntAd.trb_ar_rail_ad.trb_gptAd
 laughingsquid.com###dd_ajax_float
 laughingsquid.com##.shareaholic-canvas
@@ -3561,6 +3566,13 @@ liquor.com##.on-right.sans.collection-tip
 literaryreview.co.uk##.popup-placer
 lithub.com##.fixed:style(position: relative !important; top: 0 !important;)
 littlethings.com##.collapsed.site-header:style(position: relative !important; top: 0 !important;)
+liverpoolecho.co.uk##.active.publication-theme-border.mod-cookiepolicy > .inner
+liverpoolecho.co.uk##.float-and-park.mod-video:style(position: absolute !important; top: 0 !important;)
+liverpoolecho.co.uk##.publication-theme-highlight.primary:style(position: absolute !important; top: 0 !important;)
+liverpoolecho.co.uk##.sharebar
+liverpoolecho.co.uk##.social-sites
+liverpoolecho.co.uk##.top.sticky.side-sharebar.byline
+liverpoolecho.co.uk##.up-next--share
 liverpoolfc.com##.i-amphtml-unresolved.amp-unresolved.i-amphtml-layout-size-defined.i-amphtml-layout-fixed.amp-notbuilt.i-amphtml-notbuilt.i-amphtml-element
 livescience.com###sticky-header:style(position: relative !important; top: 0 !important;)
 livescience.com###stickyShare
@@ -6150,6 +6162,9 @@ suntimes.com###header:style(position: relative !important; top: 0 !important;)
 suntimes.com##.newsletter-box.columns.small-12.medium-8.large-7
 suntimes.com##.show-for-small-only.post-meta-social.post-meta
 suntimes.com##.spacer
+suntrust.com###container-header:style(position: absolute !important; top: 0 !important; transition: none !important;)
+suntrust.com##.scroll-indicator.ng-widget
+suntrust.com##.suntrust-header-alt.invis:style(visibility: visible !important;)
 superpages.com###box
 superyachtworld.com###embed_code-3
 superyachtworld.com###keystone-newsletter-2
@@ -7657,9 +7672,12 @@ weather.com###navigation
 weather.com###smartbanner
 weather.com###wx-top-wrap
 weather.com##.data-eq-pane-sm.module-padding.column.content.panel-pane.float-left.width-100.glomo_social_sharing
+weather.com##.footer-social-icons
 weather.com##.js-onboarding__navigation.navigation:style(position: relative !important; top: 0 !important;)
 weather.com##.page_top.region
 weather.com##.region-top.region
+weather.com##.styles-MgjbRUHi__ModalLayout__24Ncp.theme__active__3ea_1.theme__normal__1K3iz.styles-MgjbRUHi__dialog__1mP12.theme__dialog__3lw90
+weather.com##.taboola-module
 weather.com##.visible.flag.sb
 weather.com##.wx-social-share-ls-wrapper
 webmd.com##.is-fixed.ad-101.ad.module
