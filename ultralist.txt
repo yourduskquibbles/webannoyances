@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:15 PM 2017-08-29
+! Last Modified: 1:01 PM 2017-08-29
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - unsuck the web and make it more user friendly!
@@ -139,6 +139,9 @@ abc7.com##.nav-background
 abc7.com##.sticky.wrapper.nav-container-sticky:style(position: relative !important; top: 0 !important;)
 abc7chicago.com##.sticky.wrapper.nav-container-sticky:style(position: relative !important; top: 0 !important;)
 abc7chicago.com##.top-share.share-panel-legacy.share-panel
+abc7ny.com##.footer-searchsocial
+abc7ny.com##.responsive-ad.ad-banner.ad
+abc7ny.com##.social-icons.share
 abc7ny.com##.sticky.wrapper.nav-container-sticky:style(position: relative !important; top: 0 !important;)
 abclocal.go.com##.fbShare
 abclocal.go.com##.links
@@ -394,11 +397,18 @@ anovaculinary.com##.clearfix.d-header:style(position: relative !important; top: 
 answers.com##.dom_ready.js-header_searchinline.jsparams.header_searchinline.module:style(position: relative !important; top: 0 !important;)
 answers.com##.sticky_banner.ads_dfpslot.module
 aol.com##.aol-app-deeplink
+aol.com##.gmod.m-footer__follow-aol
 aol.com##.has-banner-ad.does-stick.l-rightrail
 aol.com##.inline-newsletter-module.inline-breaking-news-newsletter
+aol.com##.is-ready.m-ad__banner.m-ad
+aol.com##.is-ready.m-ad__cw--full.m-ad
 aol.com##.m-navbar--hasSubnav.m-navbar--hasLogo.m-navbar.l-navbar--fixed.l-navbar:style(position: relative !important; top: 0 !important;)
+aol.com##.m-navbar.l-navbar--fixed.l-navbar:style(position: relative !important; top: 0 !important;)
+aol.com##.m-navbar__nav-right.m-navbar__services.m-navbar__nav
 aol.com##.megaphone__icon--chat.megaphone__icon.megaphone__show.js-megaphone-show
 aol.com##.mpid-7
+aol.com##.navicon-email.share-email.video-share-btn
+aol.com##.navicon-facebook.share-fb.social-button.video-share-btn
 aol.com##.navigation-menu-footer
 aol.com##.navigation:style(position: relative !important; top: 0 !important; z-index: -1 !important;)
 aol.com##.newsletter-modal-background
@@ -406,6 +416,8 @@ aol.com##.newsletter-popup
 aol.com##.o2-in-side-view:style(position: relative !important; top: 0 !important;)
 aol.com##.show-ymal.you-might-like
 aol.com##.vdb_player:style(position: relative !important; top: 0 !important;)
+aol.com##.zip-not-set.bon.light-weather-form.m-side-nav.l-side-nav:style(position: absolute !important; top: 0 !important;)
+aol.com##body:style(padding-top: 0px !important;)
 ap.org###block-ap-misc-ap-social-media
 ap.org##.ap-mediabox-td
 ap.org##.clearfix.share-block
@@ -746,6 +758,14 @@ boomsupersonic.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-wit
 bordercantos.com##.stickydiv:style(position: relative !important; top: 0 !important;)
 borderstan.com###search-navigation:style(position: relative !important; top: 0 !important;)
 borderstan.com###top-bar:style(position: relative !important; top: 0 !important;)
+boredomtherapy.com###ad_top_nomobile
+boredomtherapy.com###fbicon
+boredomtherapy.com###gpicon
+boredomtherapy.com##.dif_nomobile.social-widget
+boredomtherapy.com##.fa-twitter.fa
+boredomtherapy.com##.first.infinitesquareadcont
+boredomtherapy.com##.topmenu:style(position: relative !important; top: 0 !important;)
+boredomtherapy.com##body:style(margin-top: 0px !important;)
 boredpanda.com###sharebar
 boredpanda.com##.fixed.sticky-bottom.sticky
 boredpanda.com##.image-shares-share-button
@@ -1012,6 +1032,7 @@ cbsnews.com###pip__headline:style(position: relative !important; top: 0 !importa
 cbsnews.com###social-sharebar
 cbsnews.com##.floating.media-block:style(position: relative !important; top: 0 !important;)
 cbsnews.com##.module-follow-us.module
+cbsnews.com##.no-mantle-skin.ad-leader-plus-top
 cbsnews.com##.site-header--is-sticky.nocontent.site-header:style(position: relative !important; top: 0 !important;)
 cbsnews.com##.smart-banner-cbsn
 cbsnews.com##.social.sharebar_expanded.inline-sharebar.theme-light
@@ -1071,6 +1092,10 @@ chase.com###pnt-tabs:style(position: relative !important; top: 0 !important;)
 chase.com##.header:style(position: relative !important; top: 0 !important;)
 chase.com##.introjs-overlay
 chase.com##.introjs-tooltip-left-middle.introjs-tooltip
+cheatsheet.com###inner-wrapper:style(padding-top: 0px !important;)
+cheatsheet.com###navigation:style(position: relative !important; top: 0 !important;)
+cheatsheet.com##.ad-300-250
+cheatsheet.com##.hm-show.sh.icon-social
 checkio.org##.is-visible.js-postActionsBar.postActionsBar
 checkio.org##.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
 checkout51.com##header:style(position: relative !important; top: 0 !important;)
@@ -2309,13 +2334,13 @@ fox59.com##.entry-share
 fox59.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
 fox5dc.com###header:style(position: relative !important; top: 0 !important;)
 fox5dc.com###story-sticky-content
+fox5dc.com###wrapper:style(padding-top: 0px !important;)
 fox5dc.com##.addthis_button_compact.share-this
 fox5dc.com##.bg-light-gray.row-wrapper
 fox5dc.com##.follow.right
 fox5dc.com##.header-main:style(position: relative !important; top: 0 !important;)
 fox5dc.com##.header-secondary:style(position: relative !important; top: 0 !important;)
 fox5dc.com##.mod-infinite-grid.mod-wrapper
-fox5dc.com##.placeholder-container.header-more
 fox5dc.com##.social-dropdown
 fox5dc.com##.social-share
 fox5ny.com###header:style(position: relative !important; top: 0 !important;)
@@ -2407,6 +2432,9 @@ ft.com##.o-cookie-message--active.o-cookie-message--banner-centric.o-cookie-mess
 ft.com##.o-header--sticky-active.o--if-js.o-header--sticky.o-header--simple.o-header
 ft.com##.o-header--sticky-scroll-down.o-header--sticky-active.o--if-js.o-header--sticky.o-header--simple.o-header
 ft.com##.o-header--sticky-scroll-up.o-header--sticky-active.o--if-js.o-header--sticky.o-header--simple.o-header
+ft.com##.o-share__action--facebook.o-share__action
+ft.com##.o-share__action--linkedin.o-share__action
+ft.com##.o-share__action--twitter.o-share__action
 ft.com##.visible.n-header__marketing-promo
 fubiz.net##.share-block
 fubiz.net##.share-single
@@ -2880,6 +2908,9 @@ homedepot.com###menuScroll:style(position: relative !important; top: 0 !importan
 homedepot.com###menuScrollInnerWrapper:style(position: relative !important; top: 0 !important;)
 homedepot.com##.widgetEmailPrintTable
 honesttea.com###NEWFooter_new
+honesttopaws.com##.header-float:style(position: relative !important; top: 0 !important;)
+honesttopaws.com##.social
+honesttopaws.com##body:style(margin-top: 0px !important;)
 hoover.org##.region-header-bottom.region
 hoover.org##.region-inner.clearfix
 hoover.org##.region.region-header-top
@@ -3963,12 +3994,16 @@ mozilla.org##header:style(position: relative !important; top: 0 !important;)
 mpix.com###cart-head:style(position: relative !important; top: 0 !important;)
 mrctv.org###top-nav:style(position: relative !important; top: 0 !important;)
 msn.com###header-common.stick-enabled::before:style(height: 0 !important;)
+msn.com###precontent:style(margin-top: 0px !important;)
+msn.com###social-plugins
 msn.com###subfoot
 msn.com##.Modelinfo
 msn.com##.head:style(position: relative !important; top: 0 !important;)
 msn.com##.light.filmstrip:style(position: relative !important; top: 0 !important;)
 msn.com##.loaded.next.paddle
 msn.com##.loaded.previous.paddle
+msn.com##.show.floatingfeedback
+msn.com##.size234column.todayshowcasead
 msn.com.##.light.filmstrip
 msnbc.com###channel-tabs
 msnbc.com###mobile-controls
@@ -6795,14 +6830,20 @@ tmall.com##.show.as-shelter:style(position: relative !important; top: 0 !importa
 tmall.com##.sn-nav-wrapper
 tmj4.com##.header > .layout--share__second > .is-active.share__social-items
 tmj4.com##.sticky-article-foot > .layout--share__second
+tmz.com###ad2
 tmz.com###legalbar
 tmz.com###masthead-wrap:style(position: relative !important; top: 0 !important;)
+tmz.com##.app-links
+tmz.com##.clearfix.partner-headlines-row
 tmz.com##.inpost-social
 tmz.com##.masthead-ad
+tmz.com##.quick-subscribe-form
 tmz.com##.sharing-widget
 tmz.com##.sharrre.facebook-sharrre
 tmz.com##.sharrre.twitter-sharrre
+tmz.com##.social
 tmz.com##.social-icons
+tmz.com##.when-its-on-widget
 today.com###header:style(position: relative !important; top: 0 !important;)
 today.com###marquee:style(position: relative !important; top: 0 !important;)
 today.com###scroll-to-top
