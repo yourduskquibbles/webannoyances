@@ -1,36 +1,10 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:35 AM 2017-08-29
+! Last Modified: 11:36 AM 2017-08-29
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - unsuck the web and make it more user friendly!
 
 ! Start Web Annoyances Ultralist
-espn.com##.header-ad
-espn.com##.ad-wrapper.ad-slot-incontent-strip.ad-slot
-pagesix.com##.widget_nypost_social_widget.module.show-mobile.box
-pagesix.com##body:style(margin-top: 0px !important;))
-pagesix.com###background-wrapper:style(overflow-x: hidden !important; overflow-y: hidden !important;)
-storyful.com##.header:style(position: relative !important; top: 0 !important; padding-top: 0px !important;)
-checkout51.com##header:style(position: relative !important; top: 0 !important;)
-news.com.au##.nav-social-twitter.nav-social
-news.com.au##.nav-social-facebook.nav-social
-news.com.au##.nav-social-instagram.nav-social
-news.com.au##.nav-social-googleplus.nav-social
-news.com.au##.widget_newscorpau_ads.sidebar-right-hand-column.widget
-harpercollins.com##.hc-main-header__nav-bar__navigation--fixed.hc-main-header__nav-bar__navigation:style(position: relative !important; top: 0 !important;)
-dowjones.com##.dropdown-submenu-opened.page-header:style(position: relative !important; top: 0 !important;)
-theaustralian.com.au##.popover-on.subscribe-popover
-theaustralian.com.au##.fixed.clearfix.fixed-navigation:style(position: relative !important; top: 0 !important;)
-theaustralian.com.au###header-ads
-theaustralian.com.au##.network-bar-social-media-links
-mansionglobal.com##.global-search-bar--active.js-global-search-bar.global-search-bar:style(position: relative !important; top: 0 !important;)
-dailytelegraph.com.au##.widget_newscorpau_ads.widget
-dailytelegraph.com.au##.tgc-headerv2-blackbar:style(position: relative !important; top: 0 !important;)
-dailytelegraph.com.au##.tgc-headerv2_header_nav-wrapper:style(position: relative !important; top: 0 !important;)
-dailytelegraph.com.au##.tgc-headerv2_header:style(position: relative !important; top: 0 !important;)
-dailytelegraph.com.au##.tgc-footer_social
-dailytelegraph.com.au##.tgc-footer_apps
-dailytelegraph.com.au##.tgc-footer_disclaimer
 ###appIntercept
 ###dream-box
 ###dsq-indicator-north
@@ -1098,6 +1072,7 @@ chase.com##.introjs-overlay
 chase.com##.introjs-tooltip-left-middle.introjs-tooltip
 checkio.org##.is-visible.js-postActionsBar.postActionsBar
 checkio.org##.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
+checkout51.com##header:style(position: relative !important; top: 0 !important;)
 chefsfeed.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 chefsfeed.com##.rrssb-1.rrssb-buttons.social-cont
 chefsfeed.com##.social
@@ -1641,6 +1616,13 @@ dailysnark.com##.td-scroll-up-visible.td-scroll-up
 dailystar.co.uk###cookielaw
 dailystar.co.uk###topSocialPanel
 dailystar.co.uk###vjs_video_3:style(position: relative !important; top: 0 !important;)
+dailytelegraph.com.au##.tgc-footer_apps
+dailytelegraph.com.au##.tgc-footer_disclaimer
+dailytelegraph.com.au##.tgc-footer_social
+dailytelegraph.com.au##.tgc-headerv2-blackbar:style(position: relative !important; top: 0 !important;)
+dailytelegraph.com.au##.tgc-headerv2_header:style(position: relative !important; top: 0 !important;)
+dailytelegraph.com.au##.tgc-headerv2_header_nav-wrapper:style(position: relative !important; top: 0 !important;)
+dailytelegraph.com.au##.widget_newscorpau_ads.widget
 dailywesterner.com##.scrollup:style(position: relative !important; top: 0 !important;)
 dailywire.com###header:style(position: relative !important; top: 0 !important;)
 dailywire.com##.article-actions
@@ -1837,6 +1819,7 @@ donnyferguson.com##.back-top
 doodle.com###d-participationBetaWelcomeView
 doodle.com##.d-shown.d-dialog
 doodle.com##.fixed.fixed-header:style(position: relative !important; top: 0 !important;)
+dowjones.com##.dropdown-submenu-opened.page-header:style(position: relative !important; top: 0 !important;)
 drafthouse.com##.fixed.contain-to-grid:style(position: relative !important; top: 0 !important;)
 drafthouse.com##.top-bar:style(position: relative !important; top: 0 !important;)
 dribbble.com###header:style(position: relative !important; top: 0 !important;)
@@ -1954,10 +1937,12 @@ espn.com###toolbar:style(position: relative !important; top: 0 !important;)
 espn.com##.active.js-feed-item-mask
 espn.com##.ad-center
 espn.com##.ad-wrapper.ad-slot-banner.ad-slot
+espn.com##.ad-wrapper.ad-slot-incontent-strip.ad-slot
 espn.com##.ad-wrapper.ad-slot-incontent.ad-slot
 espn.com##.bg-opaque.mod-outbrain.mod-no-border
 espn.com##.contentItem__footer--shareMenuVideo.contentItem__footer
 espn.com##.espnDaily.sub-module
+espn.com##.header-ad
 espn.com##.horizontal.article-social
 espn.com##.js-bloomed.favorites-mgmt.lightbox
 espn.com##.lightbox-container
@@ -2722,6 +2707,7 @@ hammocktown.com##.us_buttons_5.us_mobile_bar
 hammocktown.com##.us_skin_default.us_tac.us_share_buttons.us_wrapper
 hammocktown.com##iframe
 hannity.com##.affix.full.navTopadContainer:style(position: relative !important; top: 0 !important;)
+harpercollins.com##.hc-main-header__nav-bar__navigation--fixed.hc-main-header__nav-bar__navigation:style(position: relative !important; top: 0 !important;)
 harpers.org###OFIE
 harpers.org###issuem-leaky-paywall-articles-remaining-nag
 harpers.org##.rightDivPad.fRight
@@ -3581,6 +3567,7 @@ malwarebytes.com###bottom-subnav
 malwarebytes.com###newnav:style(position: relative !important; top: 0 !important;)
 malwaretech.com###responsive-menu-button
 mansionglobal.com##.article-subscribe-container.container
+mansionglobal.com##.global-search-bar--active.js-global-search-bar.global-search-bar:style(position: relative !important; top: 0 !important;)
 mansionglobal.com##.js-main-header.mg__main-header:style(position: relative !important; top: 0 !important;)
 mansionglobal.com##.newsletter-signup-container
 manualslib.com###caffix:style(position: relative !important; top: 0 !important;)
@@ -4283,7 +4270,12 @@ news.com.au###header-fixed:style(position: relative !important; top: 0 !importan
 news.com.au###middleAd
 news.com.au###nav:style(position: relative !important; top: 0 !important;)
 news.com.au###sticky-ad
+news.com.au##.nav-social-facebook.nav-social
+news.com.au##.nav-social-googleplus.nav-social
+news.com.au##.nav-social-instagram.nav-social
+news.com.au##.nav-social-twitter.nav-social
 news.com.au##.share-tools-story.share-tools
+news.com.au##.widget_newscorpau_ads.sidebar-right-hand-column.widget
 news.vice.com##.ae.ad.bk.bj.bi.bh.bg.t.s.j.be.a:style(position: relative !important; top: 0 !important;)
 news.vice.com##.ak.jd.jc.undefined.newsletter-promo
 news.vice.com##.j.i.h.g.f
@@ -4673,6 +4665,7 @@ ozy.com##.share-block
 ozy.com##.show.share-block-bottom
 ozy.com##.sign-up.ozy-animated-icon
 ozy.com##.social-links
+pagesix.com###background-wrapper:style(overflow-x: hidden !important; overflow-y: hidden !important;)
 pagesix.com###featured-image-wrapper > .modal-trigger
 pagesix.com###footer-promo
 pagesix.com###footer-social
@@ -4685,6 +4678,8 @@ pagesix.com###sharebar-social
 pagesix.com##.flag-region
 pagesix.com##.opaque.detached.floating-share
 pagesix.com##.sharebar
+pagesix.com##.widget_nypost_social_widget.module.show-mobile.box
+pagesix.com##body:style(margin-top: 0px !important;))
 pahomepage.com###mod-up-next
 palmbeachpost.com##.header-wrapper:style(position: relative !important; top: 0 !important;)
 palmbeachpost.com##.hidden-md-down.sub-header-nav:style(position: relative !important; top: 0 !important;)
@@ -5928,6 +5923,7 @@ stonebrewing.com##.navbar-header:style(position: relative !important; top: 0 !im
 stonebrewing.com##.navbar:style(position: relative !important; top: 0 !important;)
 store.google.com##.bar
 store.google.com##.sticky-stacky:style(position: relative !important; top: 0 !important;)
+storyful.com##.header:style(position: relative !important; top: 0 !important; padding-top: 0px !important;)
 straitstimes.com##.field-label-hidden.field-type-ds.field-name-social-media-buttons-bottom.field
 straitstimes.com##.field-label-hidden.field-type-ds.field-name-social-media-buttons.field > .field-items > .even.field-item > .a2a_default_style.a2a_kit_size_32.a2a_kit.a2a-buttons
 straitstimes.com##.hidden-print.back-to-top
@@ -6154,7 +6150,11 @@ theatlantic.com##.toggleable.follow
 theatlantic.com##.toggleable.newsletters
 theatlantic.com##aside
 theatlanticcities.com###message
+theaustralian.com.au###header-ads
+theaustralian.com.au##.fixed.clearfix.fixed-navigation:style(position: relative !important; top: 0 !important;)
 theaustralian.com.au##.mm-reveal.account-lightbox
+theaustralian.com.au##.network-bar-social-media-links
+theaustralian.com.au##.popover-on.subscribe-popover
 theaustralian.com.au##.share-icons-lhs.has-signin
 theawl.com##.highlightMenu-inner
 theawl.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBottomSection.u-tintSpectrum.u-tintBgColor.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar
