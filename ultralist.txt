@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:06 PM 2017-08-29
+! Last Modified: 12:15 PM 2017-08-29
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - unsuck the web and make it more user friendly!
@@ -139,6 +139,7 @@ abc7.com##.nav-background
 abc7.com##.sticky.wrapper.nav-container-sticky:style(position: relative !important; top: 0 !important;)
 abc7chicago.com##.sticky.wrapper.nav-container-sticky:style(position: relative !important; top: 0 !important;)
 abc7chicago.com##.top-share.share-panel-legacy.share-panel
+abc7ny.com##.sticky.wrapper.nav-container-sticky:style(position: relative !important; top: 0 !important;)
 abclocal.go.com##.fbShare
 abclocal.go.com##.links
 abclocal.go.com##.shareThis
@@ -2297,6 +2298,13 @@ fox25boston.com###header:style(position: relative !important; top: 0 !important;
 fox25boston.com##.off-canvas-menu:style(position: relative !important; top: 0 !important;)
 fox2detroit.com###header:style(position: relative !important; top: 0 !important;)
 fox32chicago.com###header:style(position: relative !important; top: 0 !important;)
+fox46charlotte.com###header:style(position: relative !important; top: 0 !important;)
+fox46charlotte.com###wrapper:style(padding-top: 0px !important;)
+fox46charlotte.com##.pad.bg-gray.row-wrapper
+fox46charlotte.com##.show-for-large-up.mod-story-progress.mod-accordion.mod-wrapper
+fox46charlotte.com##.small-12.column.portlet-column
+fox46charlotte.com##.social-dropdown
+fox46charlotte.com##.social-share
 fox59.com##.entry-share
 fox59.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
 fox5dc.com###header:style(position: relative !important; top: 0 !important;)
@@ -2394,6 +2402,7 @@ ft.com##.n-util-clearfix.article__share--top.article__share
 ft.com##.n-welcome--fixed-visible.n-welcome--fixed.n-welcome--bar.n-welcome
 ft.com##.n-welcome-message--fixed.n-welcome-banner.o-expander
 ft.com##.n-welcome-message--fixed.n-welcome-message
+ft.com##.o-ads--center.o-ads--transition.o-ads--reserve-90.o-ads--background.above-header-advert.o-ads
 ft.com##.o-cookie-message--active.o-cookie-message--banner-centric.o-cookie-message
 ft.com##.o-header--sticky-active.o--if-js.o-header--sticky.o-header--simple.o-header
 ft.com##.o-header--sticky-scroll-down.o-header--sticky-active.o--if-js.o-header--sticky.o-header--simple.o-header
@@ -4292,6 +4301,9 @@ news.vice.com##.j.i.h.g.f
 news.vice.com##.j.i.h.g.f:style(position: relative !important; top: 0 !important;)
 news.vice.com##.vmp-ad
 news.vice.com##nav:style(position: relative !important; top: 0 !important;)
+news12.com##.payment-msg.paywall-widget
+news12.com##.wn-sticky:style(position: relative !important; top: 0 !important;)
+news12.com##.wnad43.wnad
 news5cleveland.com##.header > .layout--share__second
 news5cleveland.com##.module--email-widget
 news5cleveland.com##.sticky-article-foot
@@ -5619,7 +5631,6 @@ shareblue.com##.social_mobile
 shareblue.com##.stb-bottom-right.stb-261.stb.scroll-triggered-box
 sharktankblog.com###ezmob_footer
 showbiz411.com###toTop
-showbiz411.com##.affix.td-menu-wrap.container
 showbiz411.com##.affix.td-menu-wrap.container:style(position: relative !important; top: 0 !important;)
 showbiz411.com##.sd-sharing-enabled.sharedaddy
 showbiz411.com##.textwidget
