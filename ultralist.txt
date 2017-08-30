@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:12 PM 2017-08-29
+! Last Modified: 11:29 PM 2017-08-29
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - unsuck the web and make it more user friendly!
@@ -295,8 +295,11 @@ alexandriava.gov##.stuck.sticky
 algolia.com###header:style(position: relative !important; top: 0 !important;)
 algolia.com##.closed
 aliexpress.com###auto-search:style(position: relative !important; top: 0 !important;)
+aliexpress.com###header:style(position: absolute !important;)
 aliexpress.com##.float-button-wrapper
 aliexpress.com##.ms-downloadbar
+aliexpress.com##.ui-mask
+aliexpress.com##.ui-newuser-layer-dialog.ui-window-transition.ui-window-normal.ui-window
 aljazeera.com###Article-Top-Toolbar
 aljazeera.com###site-header:style(position: relative !important; top: 0 !important;)
 aljazeera.com##.ad1.adArea
@@ -2784,11 +2787,20 @@ guns.com##.widget_guns_social_links_widget.widget
 gunsamerica.com###enterZip2
 gust.com##nav:style(position: relative !important; top: 0 !important;)
 haaretz.com###footer-toolbar
-haaretz.com###masthead:style(position: relative !important; top: 0 !important;)
-haaretz.com###mobiles-buttons-wrapper
+haaretz.com###masthead:style(position: absolute !important; top: 0 !important;)
+haaretz.com###osaka-wrapper
+haaretz.com###social-bar
+haaretz.com##.as.l-fluid:style(padding-top: 5px !important;)
+haaretz.com##.emb-wrapper
 haaretz.com##.fblike
 haaretz.com##.footer-ruler
-haaretz.com##.pn-wrapper
+haaretz.com##.h-mb--flush--l.h-mb.as--four-up--xxtight--l.footer__tools.nav
+haaretz.com##.h-mb.h-hidden--to-l.islet.has-modal.newsletterBox.newsletterInarticle.newsletter
+haaretz.com##.mh__social
+haaretz.com##.modal-wrapper--dark.modal-wrapper--fixed.modal-wrapper
+haaretz.com##.pn__share
+haaretz.com##.ribbon-stick-wrapper.js-stick-wrapper
+haaretz.com##.special-news--blue.special-news
 haaretz.com##.subscrOptWide
 haaretz.com##.verticleTabsFacebook
 hackaday.com###hackadayfollowus-2
@@ -4580,6 +4592,7 @@ nhl.com##.ad--top-empty.ad-responsive-slot.ad--top.ad
 nhl.com##.follow
 nikkei.com###header:style(position: relative !important; top: 0 !important;)
 nikkei.com##.GCCMD_removeall.mail-magazine-article:style(position: relative !important; top: 0 !important;)
+nikkei.com##.follow-nar
 nintendoeverything.com##.sd-sharing-enabled.sharedaddy
 nj.com##.sticky-nav-hide:style(transition: none !important;)
 nj.com##.sticky-nav-show.sticky-nav:style(position: relative !important; top: 0 !important;)
