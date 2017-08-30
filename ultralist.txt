@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 2:48 PM 2017-08-30
+! Last Modified: 3:49 PM 2017-08-30
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - unsuck the web and make it more user friendly!
@@ -840,6 +840,7 @@ bostonreview.net###block-br-hhog-module-br-hhog-newsletter-general
 bostonreview.net###innercols-secondary-inner:style(position: relative !important; top: 0 !important;)
 bostonreview.net###popup
 bostonreview.net###shareiconsbar
+bostonreview.net###topbuffer
 bostonreview.net##.featurednewsletter
 bostonreview.net##.footer-secondary-social
 bostonreview.net##.header-social
@@ -2208,10 +2209,17 @@ fastcodesign.com##.post__promotion
 fastcodesign.com##.sticky-inner-wrapper
 fastcoexist.com##.nav-bar:style(position: relative !important; top: 0 !important;)
 fastcompany.com###share-modal
+fastcompany.com##.ad-wrapper--flexiblehalfpage_1.ad-wrapper
 fastcompany.com##.ad-wrapper--flexibleportrait.ad-wrapper
 fastcompany.com##.ad-wrapper--mobileparallax_1.ad-wrapper
 fastcompany.com##.ellie-awards
 fastcompany.com##.hide-on-print.share-box-wrapper
+fastcompany.com##.icon-twitter.nav__icon--twitter.nav__icon
+fastcompany.com##.nav__social-button--facebook.nav__social-button
+fastcompany.com##.nav__social-button--instagram.nav__social-button
+fastcompany.com##.nav__social-button--linkedin.nav__social-button
+fastcompany.com##.nav__social-button--pocket.nav__social-button
+fastcompany.com##.nav__social-button--twitter.nav__social-button
 fastcompany.com##.newsletter-box
 fastcompany.com##.newsletter-signup--post.newsletter-signup
 fastcompany.com##.page-header--fastcompany.page-header:style(position: relative !important; top: 0 !important;)
@@ -2221,6 +2229,8 @@ fastcompany.com##.post__social
 fastcompany.com##.reveal-modal-bg
 fastcompany.com##.share-box.hide-on-print
 fastcompany.com##.social__list
+fastcompany.com##.sticky-inner-wrapper:style(position: relative !important; top: 0 !important;)
+fastcompany.com##body:style(padding-top: 0px !important;)
 fastpokemap.se##.slicknav_menu
 fatherly.com##.article__leaderboard--desktop.article__leaderboard
 fatherly.com##.clearfix.inline-newsletter--general.inline-newsletter
@@ -5322,6 +5332,8 @@ protonmail.com##.csbtns
 protonmail.com##.text-right.col-sm-4
 prri.org##.animated.slideInDown.isSticky.stickyControl.researchArticleNav
 prri.org##.noShadow.header--collapsed.header--dark.header:style(position: relative !important; top: 0 !important;)
+prwatch.org##.sharethis-buttons
+prwatch.org##.social
 psmag.com###image-3
 psmag.com##.is-visible.l-sticky-navbar:style(position: relative !important; top: 0 !important;)
 psmag.com##.m-header--coverlines-container
@@ -8404,6 +8416,7 @@ zyngaplayerforums.com##.Reactions
 ||4dsply.com$script,domain=realclearpolitics.com
 ||adage.com/article$inline-script,first-party
 ||amazonaws.com/*/264.js$script,domain=realclearpolitics.com
+||bostonreview.net/sites/default/files/js/$script,first-party
 ||brightcove.com/*/upgrade_flash_player2.gif$image
 ||businessoffashion.com/assets-access-layer/js/site-app*$script,domain=businessoffashion.com
 ||chicagobusiness.com/*/interstitial.css$stylesheet,domain=chicagobusiness.com
