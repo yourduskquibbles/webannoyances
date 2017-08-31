@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:29 PM 2017-08-30
+! Last Modified: 11:49 PM 2017-08-30
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - unsuck the web and make it more user friendly!
@@ -3178,11 +3178,14 @@ imbibemagazine.com##.sticky.main-menu-fixed:style(position: relative !important;
 imgur.com###header:style(position: relative !important; top: 0 !important;)
 imgur.com##.AppBanner-long.AppBanner-secondLvl.AppBanner
 imgur.com##.Button-rounded.Button-primary.Button.getTheApp
+imgur.com##.FloatingOIA-container
 imgur.com##.Navbar:style(position: relative !important; top: 0 !important;)
 imgur.com##.buttonOIA.viewInAppLink.margin-top.center-text
 imgur.com##.go-to-comments.box
 imgur.com##.headerContainer:style(position: relative !important; top: 0 !important;)
 imgur.com##.headroom--scrolled.headroom--pinned.headroom:style(position: relative !important; top: 0 !important;)
+imgur.com##.post-container:style(padding-top: 0px !important;)
+imgur.com##.post-header:style(position: relative !important; top: 0 !important;)
 imgur.com##.right.viewInAppLink
 imgur.com##.social
 imgur.com##.take-me-up.box
@@ -4071,6 +4074,7 @@ mirror.co.uk##.social-sites
 missilethreat.csis.org##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 missilethreat.csis.org##.topbutton
 mlb.com###back-to-top-button
+mlb.com###footer-social
 mlb.com###header-responsive:style(position: relative !important; top: 0 !important;)
 mlb.com###header:style(position: relative !important; top: 0 !important;)
 mlb.com##.minimode.game-playing.primary-content:style(position: relative !important; top: 0 !important;)
@@ -4103,8 +4107,8 @@ mmajunkie.com##.nav__social
 mmajunkie.com##.sms.story-share-buttons
 mmajunkie.com##.spnf_right.spnf_ticker
 mnn.com##.site-header--eclipse.site-header:style(position: relative !important; top: 0 !important;)
-mobile.twitter.com##.GgYynIub._3rF86cXC:style(position: relative !important; top: 0 !important;)
-mobile.twitter.com##.LqlkGmch:style(position: relative !important; top: 0 !important;)
+mobile.twitter.com##.GgYynIub._3rF86cXC:style(position: absolute !important;)
+mobile.twitter.com##.LqlkGmch:style(position: absolute !important;)
 mobile.twitter.com##._3f2NsD-H.W1P7mM7E
 mobile.twitter.com##._3f2NsD-H._1363jyKz
 mobile.twitter.com##._3f2NsD-H._22omdtNH._8qpj9SE2._3xujJ3kq
