@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:41 PM 2017-08-31
+! Last Modified: 1:06 PM 2017-08-31
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - unsuck the web and make it more user friendly!
@@ -2222,6 +2222,14 @@ fantaziesuite.com##.navbar-left.navbar-fixed-top.navbar-default.navbar:style(pos
 fantrax.com###main-nav-wrap:style(position: relative !important; top: 0 !important;)
 fantrax.com##.nav-soc-but
 fantrax.com##.to-top-trans.back-to-top.fly-to-top
+fark.com###facebook
+fark.com###twitter
+fark.com##.new_to_fark_p
+fark.com##.right.ad_container
+fark.com##.rightTop.ad_container
+fark.com##.top.ad_container
+fark.com##.top_right_container
+fark.com##.tryBareFark
 fashionista.com##.is-visible.l-sticky-navbar
 fastcocreate.com##.people-tab.ready
 fastcodesign.com##.ad-wrapper--articletop.ad-wrapper--mobileleaderboard.ad-wrapper
@@ -4833,7 +4841,11 @@ nydailynews.com###ra-share-top
 nydailynews.com###rf-follow
 nydailynews.com###rh-left
 nydailynews.com###rh-right
-nydailynews.com###rh-subnav:style(position: relative !important; top: 0 !important;)
+nydailynews.com###rh-subnav:style(position: relative !important; top: 0 !important; transition: none !important;)
+nydailynews.com##.ra-share
+nydailynews.com##.ra-share-e
+nydailynews.com##.ra-share-f
+nydailynews.com##.ra-share-t
 nydailynews.com##.rh-ad
 nylon.com##.nav-stuck.nav:style(position: relative !important; top: 0 !important;)
 nymag.com###ck_digg
@@ -7247,11 +7259,13 @@ thrillist.com###vortex-overlay
 thrillist.com##.ad-container
 thrillist.com##.display-share.hide-share.sticky-share-tools.share-legend
 thrillist.com##.header-inner:style(position: relative !important; top: 0 !important;)
+thrillist.com##.hide.stack-ad.hp-stack-item--medium.hp-stack-item.stack-ad-container
 thrillist.com##.is-standard.clearfix.inline-signup
 thrillist.com##.main-header:style(position: relative !important; top: 0 !important;)
 thrillist.com##.nation.has-avatar.meta-info__share-bar.sticky.share-legend
 thrillist.com##.nation.meta-info__share-bar.sticky.share-legend
 thrillist.com##.share-email-mobile
+thrillist.com##.stack-ad-placeholder.hp-stack-item--medium.hp-stack-item
 thterrortime.com##.sd-sharing-enabled.sharedaddy
 thterrortime.com##.social-nav
 thundersplace.org###mainmenu.default.navlarge.text.fixed.right.navbar:style(position: relative !important; top: 0 !important;)
