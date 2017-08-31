@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:31 AM 2017-08-31
+! Last Modified: 9:27 AM 2017-08-31
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - unsuck the web and make it more user friendly!
@@ -1997,6 +1997,8 @@ economist.com##.fe-blogs__sidebar-ad-wrapper.stickyfill
 economist.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBottomSection.u-tintSpectrum.u-tintBgColor.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
 economist.com##.navigation.navigation-sticky-scroller.sticky-scroller:style(position: relative !important; top: 0 !important;)
 economist.com##.subscription-ribbon
+ecotonemagazine.org##.newsletter.columns.medium-6.small-12
+ecotonemagazine.org##.social
 eff.org###masthead-mobile-wrapper:style(position: relative !important; top: 0 !important;)
 eff.org##.share-links
 eff.org##.sticky-header:style(position: relative !important; top: 0 !important;)
@@ -2773,6 +2775,7 @@ govtribe.com##.banner.ad
 gq.com###cne-main-content:style(padding-top: 0px !important;)
 gq.com###follow-us
 gq.com###nav-holder:style(position: relative !important; top: 0 !important;)
+gq.com###react-app:style(overflow-x: hidden !important; overflow-y: auto !important;)
 gq.com###social-hub
 gq.com##.best-reads-list-inline.best-reads-list
 gq.com##.closed.social-share-article-heading.component-social-share
@@ -2796,6 +2799,7 @@ gq.com##.mm-nav:style(position: relative !important; top: 0 !important;)
 gq.com##.mobile-header-logo.component-logo > .component-logo__link > .component-logo__display-name
 gq.com##.mobile-header:style(position: relative !important; top: 0 !important;)
 gq.com##.nav-item-subscribe.nav-item
+gq.com##.page-container:style(padding-top: 0px !important;)
 gq.com##.show.component-sub-header
 gq.com##.show.container.component-sub-header
 gq.com##.social-follow-items
@@ -4966,6 +4970,7 @@ outkickthecoverage.com###LayoutHeader:style(position: relative !important; top: 
 outline.com##outline-toolbar
 outsideonline.com##.block.block-subscribe.block--with-border.shifter
 outsideonline.com##.nudger__inner
+outsideonline.com##.share-toolbox--vert.share-toolbox.article-share
 outsideonline.com##.social.icons-custom.social--count.article-social.article-social--side
 outsports.com##.m-entry__social
 overstock.com###cboxOverlay
@@ -5717,7 +5722,15 @@ rightwingnews.com##.ot-jumplist
 rightwingnews.com##.subset:style(position: relative !important; top: 0 !important;)
 rightwingnews.com##.widget.widget-2
 rightwingnews.com##.widget.widget-3
+roadandtrack.com##.active.social-menu
+roadandtrack.com##.leaderboard-ad
+roadandtrack.com##.nav-placeholder
+roadandtrack.com##.social-share-button.content-lede-image-social-button.social-button-pinterest.social-button
+roadandtrack.com##.social-share-button.embed-image-social-button.social-button-pinterest.social-button
+roadandtrack.com##.standard-article-breaker-ad.article-breaker-ad.breaker-ad
+roadandtrack.com##.standard-social-buttons.primary-social-buttons.content-info-social-buttons
 roadandtrack.com##.sticky.nav:style(position: relative !important; top: 0 !important;)
+roadandtrack.com##.transporter-breaker-ad.list-breaker-ad.breaker-ad
 roadsandkingdoms.com###titlebar:style(position: relative !important; top: 0 !important;)
 roanoke.com###site-top-nav
 roanoke.com###topbar-col-one
@@ -5820,8 +5833,10 @@ sbsun.com###jBar
 schaeffersresearch.com###signupSlider
 schneier.com##.line.social_share_privacy_area
 schooldigger.com###navbar:style(position: relative !important; top: 0 !important;)
+sciencealert.com##.button
 sciencealert.com##.fbbutton
 sciencealert.com##.instabutton
+sciencealert.com##.twbutton
 sciencebulletin.org###header:style(position: relative !important; top: 0 !important;)
 sciencebulletin.org###responsive-menu-button:style(position: relative !important; top: 0 !important;)
 sciencedaily.com###controls
