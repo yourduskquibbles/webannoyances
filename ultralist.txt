@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 3:49 PM 2017-08-30
+! Last Modified: 11:29 PM 2017-08-30
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - unsuck the web and make it more user friendly!
@@ -1584,6 +1584,9 @@ csoonline.com###banner:style(position: relative !important; top: 0 !important;)
 csra.com##.region-sticky-header.region:style(position: relative !important; top: 0 !important;)
 ctvnews.ca##.gig-share-bar-container.gig-bar-container
 ctvnews.ca##.mobileBoxAd
+cubbiescrib.com###Adfactory_mobile_inline_300x250__mobile
+cubbiescrib.com###pinned-ad
+cubbiescrib.com##.article-share
 curbed.com##.c-global-header__social
 curbed.com##.c-newsletter-signup-form__1.c-newsletter-signup-form
 curbed.com##.dfp_ad--held-area.dynamic-js-slot
@@ -1813,6 +1816,7 @@ denuvo.com##header:style(position: relative !important; top: 0 !important;)
 denverpost.com##.headroom--pinned.headroom--not-top.headroom.default.site-header
 denverpost.com##.headroom--unpinned.headroom--not-top.headroom.default.site-header
 denverpost.com##.nav-wrapper:style(position: relative !important; top: 0 !important;)
+denverpost.com##.sd-sharing-enabled.sharedaddy
 denverpost.com##.top-bar:style(position: relative !important; top: 0 !important;)
 deseretnews.com###header-wrapper:style(position: relative !important; top: 0 !important;)
 designboom.com###NewsletterBox_dynamic
@@ -2523,6 +2527,7 @@ ft.com###barrier-dialogue
 ft.com##.WSODHoverPopupContainer
 ft.com##.barrier__container
 ft.com##.insideArticleShare
+ft.com##.n-sliding-popup--active.subscription-prompt.n-sliding-popup
 ft.com##.n-util-clearfix.article__share--bottom.article__share
 ft.com##.n-util-clearfix.article__share--top.article__share
 ft.com##.n-welcome--fixed-visible.n-welcome--fixed.n-welcome--bar.n-welcome
@@ -3459,10 +3464,12 @@ kgw.com##.clearfix.lf-social-bookmarks
 kgw.com##.header-main:style(position: relative !important; top: 0 !important;)
 kgw.com##.is_stuck.site-nav:style(position: relative !important; top: 0 !important;)
 kgw.com##.longform-button-wrapper.longform-share
+khou.com##.ad
 khou.com##.header:style(position: relative !important; top: 0 !important;)
 khou.com##.is_stuck.site-nav:style(position: relative !important; top: 0 !important;)
 khou.com##.mod-wrapper.inline-share-tools-asset.story-asset
 khou.com##.page__dock
+khou.com##.page__header:style(position: absolute !important;)
 khou.com##.sharing
 khou.com##.site-header:style(position: relative !important; top: 0 !important;)
 khou.com##.utility-bar
@@ -4855,7 +4862,11 @@ nytimes.com##.subColumn-2.noBackground.mobilePromo.nocontent
 nytimes.com##.twitter-share
 nytimes.com##.vhs-tools
 nytimes.com#@#.flag-moreFollowSuggestions-on
+nzherald.co.nz##.byline-shares
 nzherald.co.nz##.floatingNav:style(position: relative !important; top: 0 !important;)
+nzherald.co.nz##.mobile-only.pb-ad-curated.min-height-405.max-width-1130
+nzherald.co.nz##.nz-herald.onscreen.site-logo-wrapper:style(position: relative !important; top: 0 !important;)
+nzherald.co.nz##.social-tools
 oakpark.com##.ui-panel-content-fixed-toolbar-closed.ui-panel-animate.ui-panel-content-fixed-toolbar.slidedown.ui-header-fixed.ui-bar-c.ui-header.np:style(position: relative !important; top: 0 !important;)
 oakparkalliance.com##.topbar-sticky.topbar-expand-sm.topbar-inverse.topbar:style(position: relative !important; top: 0 !important;)
 obi.de##.nav-meta:style(position: relative !important; top: 0 !important;)
@@ -5112,6 +5123,13 @@ pitchfork.com##.platforms-module
 pitchfork.com##.share-module
 pix11.com###actionbar:style(position: relative !important; top: 0 !important;)
 pixieset.com###nav:style(position: relative !important; top: 0 !important;)
+pizzabottle.com###bimber_widget_facebook_page-4
+pizzabottle.com##.entry-shares
+pizzabottle.com##.g1-back-to-top-on.g1-back-to-top
+pizzabottle.com##.g1-loaded.g1-sticky-top-wrapper:style(position: relative !important; top: 0 !important;)
+pizzabottle.com##.mashsb-micro
+pizzabottle.com##.mashsb-micro-toggle
+pizzabottle.com##.mashsb-stretched.mashsb-side.mashsb-container
 pjmedia.com###social
 pjmedia.com##.header-ad-container
 pjmedia.com##.header-nav-top
@@ -6439,9 +6457,21 @@ telemundo.com##.banner-sticky-bg
 telemundo.com##.footer--social-list
 telemundo.com##.nav--social
 telemundo.com##.social--breakpoint-1.social--MAIN
+tennessean.com###mobileweb-banner_bottomlifestyleParagraph12
+tennessean.com###mobileweb-banner_bottomlifestyleParagraph16
+tennessean.com###mobileweb-banner_bottomlifestyleParagraph20
+tennessean.com###mobileweb-banner_bottomlifestyleParagraph24
+tennessean.com###mobileweb-banner_bottomlifestyleParagraph4
+tennessean.com###mobileweb-banner_bottomlifestyleParagraph8
+tennessean.com###mobileweb-banner_toplifestyle
+tennessean.com##.android-smart-banner.smart-banner
+tennessean.com##.fixed.header:style(position: relative !important; top: 0 !important;)
+tennessean.com##.footer-container
 tennessean.com##.site-header-inner-wrap-fixed.site-header-inner-wrap:style(position: relative !important; top: 0 !important;)
 tennessean.com##.site-header:style(position: relative !important; top: 0 !important;)
 tennessean.com##.site-nav:style(position: relative !important; top: 0 !important;)
+tennessean.com##.story-tools
+tennessean.com##.story:style(margin-top: 0px !important;)
 tennessean.com##.utility-bar-wrap
 tennis-warehouse.com###tt_mobile_banner
 tensorflow.org##.devsite-top-section-pinned.nocontent.devsite-top-section:style(position: relative !important; top: 0 !important;)
@@ -6717,6 +6747,10 @@ theintercept.com##.Post-logo-sticky-container:style(position: relative !importan
 theintercept.com##.Post-logo-sticky:style(position: relative !important; top: 0 !important;)
 theintercept.com##.Post-social-container
 theintercept.com##.PostLogo:style(position: relative !important; top: 0 !important;)
+thejacknews.com###eltd-back-to-top
+thejacknews.com##.eltd-blog-single-share
+thejacknews.com##.mobile-header-appear.eltd-animate-mobile-header.eltd-mobile-header
+thejacknews.com##.sd-sharing-enabled.sharedaddy
 thekitchn.com##.PostPicture__pinterest-button
 thekitchn.com##.SiteHeader__social-links.large-order-1.show-for-large.large-6.column
 thekitchn.com##.StickNSlideContainer.js-stick-n-slide-container.hide-for-medium-only
@@ -7458,6 +7492,7 @@ usatoday.com###mobileweb-banner_topsportsfootballnfl
 usatoday.com###mobileweb-banner_toptechnews
 usatoday.com###nav-branding:style(position: relative !important; top: 0 !important;)
 usatoday.com###nav-global:style(position: relative !important; top: 0 !important;)
+usatoday.com###navContainer:style(position: relative !important; top: 0 !important;)
 usatoday.com###read-this-next
 usatoday.com###story-share-buttons
 usatoday.com##.android-smart-banner.smart-banner
