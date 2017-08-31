@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 1:06 PM 2017-08-31
+! Last Modified: 1:52 PM 2017-08-31
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - unsuck the web and make it more user friendly!
@@ -1311,9 +1311,13 @@ clarionledger.com##.android-smart-banner.smart-banner
 clarionledger.com##.fixed.header:style(position: relative !important; top: 0 !important;)
 clarionledger.com##.site-header-inner-wrap-fixed.site-header-inner-wrap:style(position: relative !important; top: 0 !important;)
 cleveland.com###adv_header:style(position: relative !important; top: 0 !important;)
+cleveland.com##.adAdhesionSidebar
 cleveland.com##.adTower
 cleveland.com##.adi-share-flyout.horizontal.adi-share.adi-share-auto
-cleveland.com##.sticky-nav-show.sticky-nav:style(position: relative !important; top: 0 !important;)
+cleveland.com##.sticky-nav-hide:style(margin-top: 0px !important; transition: none !important;)
+cleveland.com##.sticky-nav-show.sticky-nav:style(position: relative !important; top: 0 !important; transition: none !important;)
+cleveland.com##.sticky-nav:style(position: relative !important; top: 0 !important;)
+cleveland.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 click2houston.com###gmg-vf
 click2houston.com###header:style(position: relative !important; top: 0 !important; width: 100% !important; margin-bottom: 20px !important;)
 click2houston.com###ksat-fixed:style(position: relative !important; top: 0 !important; width: 100% !important; margin-bottom: 20px !important;)
