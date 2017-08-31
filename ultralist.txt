@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:03 AM 2017-08-31
+! Last Modified: 12:31 AM 2017-08-31
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - unsuck the web and make it more user friendly!
@@ -728,10 +728,14 @@ bleedcubbieblue.com##.tab-bar-fixed.c-tab-bar:style(position: relative !importan
 bleepingcomputer.com##header:style(position: relative !important; top: 0 !important;)
 blog.bugreplay.com###bloc-nav
 blog.google##.uni-fab-toggle
+blog.google##.uni-google-g-logo:style(transition: none !important; width: 0 !important;)
+blog.google##.uni-google-logo.uni-header-row:style(margin-top: 0px !important; transition: none !important;)
+blog.google##.uni-google-logo:style(opacity: 1 !important; visibility: visible !important;)
 blog.google##.uni-header-content:style(position: relative !important; top: 0 !important;)
 blog.google##.uni-initialized.uni-footer-social-networks
 blog.google##.uni-initialized.uni-header-content:style(position: relative !important; top: 0 !important;)
 blog.google##.uni-selection-sharer-active.uni-selection-sharer
+blog.google##body > main:style(margin-top: 0px !important; transition: none !important;)
 blog.nomiku.com##.tmblr-iframe--below-header.iframe-controls--phone-mobile.tmblr-iframe--loaded.tmblr-iframe--unified-controls.tmblr-iframe
 blogs.office.com##.f-wrap-items.c-group
 blogspot.ca###sidebar-top
@@ -2743,7 +2747,11 @@ google.com##.nocontent.devsite-top-section:style(position: relative !important; 
 google.com##:xpath(.//*[@id='gbw']/div/div/div[2]//div[3][@aria-label="promo"])
 googleblog.blogspot.com###sidebar-top
 googleblog.blogspot.com##.share
+googleblog.com##.adb-footer-social
 googleblog.com##.adb-header:style(position: relative !important; top: 0 !important;)
+googleblog.com##.adb-hero:style(margin-top: 0px !important;)
+googleblog.com##.col-right:style(position: relative !important;)
+googleblog.com##.share
 gop.com###hd:style(position: relative !important; top: 0 !important;)
 gop.com###social-hd:style(position: relative !important; height: 0px !important; top: 20px !important; z-index: -1 !important;)
 gopusa.com###ts-back-to-top
