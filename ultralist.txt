@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:05 PM 2017-08-31
+! Last Modified: 12:41 PM 2017-08-31
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - unsuck the web and make it more user friendly!
@@ -58,6 +58,9 @@
 100percentfedup.com##.td-affix.td-header-main-menu.td-header-border.td-header-row:style(position: relative !important; top: 0 !important;)
 100percentfedup.com##.td-header-style-8.td-header-wrap:style(position: relative !important; top: 0 !important;)
 101livesportsvideos.com###to_top_scrollup
+10news.com###header:style(position: relative !important; top: 0 !important;)
+10news.com##.layout--share__second
+10news.com##.module--multi-top__container.container--ad.container
 11alive.com##.fixed.header:style(position: relative !important; top: 0 !important;)
 11alive.com##.is_stuck.chapter-nav
 12news.com##.article__sharing
@@ -207,7 +210,12 @@ acs.org##.smaller.bottomMargin.ad_main
 acs.org##.sticky.menu.menu_header:style(position: relative !important; top: 0 !important;)
 acsh.org###block-rrssb-rrssb
 actionnetwork.org###pre_header:style(position: relative !important; top: 0 !important;)
+actionnewsjax.com###column-1
+actionnewsjax.com###header-social
 actionnewsjax.com###header:style(position: relative !important; top: 0 !important;)
+actionnewsjax.com###main:style(padding-top: 0px !important; margin-top: 0px !important;)
+actionnewsjax.com##.mod-style-02.mod-newsletter-widget.mod-wrapper
+actionnewsjax.com##.ui-social
 adage.com##.insert-left
 adage.com##.insert-right
 adage.com##.login.pull-right
@@ -829,6 +837,7 @@ boston.com##.content-toaster--mobile-app.content-toaster
 boston.com##.content-toaster:style(position: relative !important; top: 0 !important;)
 boston.com##.masthead:style(position: relative !important; top: 0 !important;)
 boston.com##.masthead__content:style(position: relative !important; top: 0 !important;)
+boston.com##body:style(padding-top: 0px !important;)
 bostonglobe.com###email-login
 bostonglobe.com###subscribe-btn
 bostonglobe.com##.bg-header__smartbar--message:style(position: relative !important; top: 0 !important;)
@@ -846,6 +855,7 @@ bostonglobe.com##.social-tools
 bostonglobe.com##.sticky-tools--active.sticky-tools:style(position: relative !important; top: 0 !important;)
 bostonglobe.com##.subscription-banner__link
 bostonherald.com###article-share-links
+bostonherald.com##.menu-social-links.menu
 bostonreview.net###PopupSignupForm_0
 bostonreview.net###block-br-hhog-module-br-hhog-ad-rectangle
 bostonreview.net###block-br-hhog-module-br-hhog-newsletter-general
@@ -2446,6 +2456,9 @@ fox13memphis.com###tabcontent-news
 fox13memphis.com##.fixed-desktop.wrap-portlets.pull-8.col-4
 fox13memphis.com##.toggle-slide
 fox13now.com###actionbar
+fox13now.com##.border-bottom
+fox13now.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute !important; top: 0 !important;)
+fox13now.com##.sd-sharing-enabled.sharedaddy
 fox13now.com##.stuck.sd-sharing-enabled.sharedaddy
 fox25boston.com###header:style(position: relative !important; top: 0 !important;)
 fox25boston.com##.off-canvas-menu:style(position: relative !important; top: 0 !important;)
@@ -3286,6 +3299,7 @@ indystar.com##.bx-impress.bx-fx-zoom-in.bx-has-close-inside.bx-has-close-x-1.bx-
 indystar.com##.bx-impress.bx-has-close-x-1.bx-type-nanobar.bx-width-full.bx-campaign-574178.bx-active-step-1.bx-custom.bx-base.bxc
 indystar.com##.fixed.header:style(position: relative !important; top: 0 !important;)
 indystar.com##.footer-container
+indystar.com##.front-overlay-arrows
 indystar.com##.header-main:style(position: relative !important; top: 0 !important;)
 indystar.com##.overlay-arrows.arrows
 indystar.com##.site-header-inner-wrap-fixed.site-header-inner-wrap:style(position: relative !important; top: 0 !important;)
@@ -3479,6 +3493,7 @@ justsecurity.org##.contrib-nav-wrap
 kadavy.net##nav
 kansascity.com###newsletter-signUpWidget
 kansascity.com###story-cta-widget
+kansascity.com##.share-tools-wrapper
 kansascity.com##.sticky-tools.share-tools-wrapper
 kare11.com##.fixed.header:style(position: relative !important; top: 0 !important;)
 kaspersky.com###site-header
@@ -4594,6 +4609,16 @@ newrepublic.com##.ui.sticky
 news-gazette.com###adLib:style(position: relative !important; top: 0 !important;)
 news-gazette.com###addRelated:style(position: relative !important; top: 0 !important;)
 news-gazette.com##progress:style(position: relative !important; top: 0 !important;)
+news-leader.com##.asset-inline-share-tools-top.asset-inline-share-tools.inline-share-tools
+news-leader.com##.bx-impress.bx-fx-zoom-in.bx-has-close-inside.bx-has-close-x-1.bx-type-overlay.bx-width-default.bx-campaign-572958.bx-active-step-1.bx-custom.bx-base.bxc
+news-leader.com##.bx-impress.bx-has-close-x-1.bx-type-nanobar.bx-width-full.bx-campaign-574242.bx-active-step-1.bx-custom.bx-base.bxc
+news-leader.com##.cards-nav-icon
+news-leader.com##.overlay-arrows.arrows
+news-leader.com##.site-header-inner-wrap-fixed.site-header-inner-wrap:style(position: relative !important; top: 0 !important;)
+news-leader.com##.site-masthead-subscribe-link.userAuth-redirect
+news-leader.com##.site-masthead-subscribe-secondary-text
+news-leader.com##.site-nav-social-link.site-nav-icon-link.site-nav-first-secondary-link.site-nav-end-link.site-nav-link-theme-dark-blue.site-nav-link
+news-leader.com##.utility-bar-wrap
 news.com.au###header-fixed:style(position: relative !important; top: 0 !important;)
 news.com.au###middleAd
 news.com.au###nav:style(position: relative !important; top: 0 !important;)
@@ -4743,9 +4768,12 @@ nikkei.com###header:style(position: relative !important; top: 0 !important;)
 nikkei.com##.GCCMD_removeall.mail-magazine-article:style(position: relative !important; top: 0 !important;)
 nikkei.com##.follow-nar
 nintendoeverything.com##.sd-sharing-enabled.sharedaddy
+nj.com##.adAdhesionSidebar
+nj.com##.adi-share-flyout.horizontal.adi-share.adi-share-auto
 nj.com##.sticky-nav-hide:style(transition: none !important;)
 nj.com##.sticky-nav-show.sticky-nav:style(position: relative !important; top: 0 !important;)
 nj.com##.sticky-nav-show:style(transition: none !important;)
+nj.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 nknews.org##.scroll-fix.header.header-main:style(position: relative !important; top: 0 !important;)
 nltimes.nl###header:style(position: relative !important; top: 0 !important;)
 nme.com###navigation
@@ -4805,6 +4833,7 @@ nydailynews.com###ra-share-top
 nydailynews.com###rf-follow
 nydailynews.com###rh-left
 nydailynews.com###rh-right
+nydailynews.com###rh-subnav:style(position: relative !important; top: 0 !important;)
 nydailynews.com##.rh-ad
 nylon.com##.nav-stuck.nav:style(position: relative !important; top: 0 !important;)
 nymag.com###ck_digg
@@ -6683,6 +6712,11 @@ thechive.com###header:style(position: relative !important; top: 0 !important;)
 thechive.com###secondary-container
 thechive.com##.context-desktop.ad
 thechive.com##.header-wrap:style(position: absolute !important;)
+thechronicleherald.ca###shopSlider
+thechronicleherald.ca###slidebox
+thechronicleherald.ca###top-menu-social-icons
+thechronicleherald.ca##.article-links-wrapper
+thechronicleherald.ca##.block-adtech.block.clearfix
 thecipherbrief.com###header:style(position: relative !important; top: 0 !important;)
 thecollegefix.com##.social-bar
 thecollegefix.com##.social-buttons
@@ -7444,6 +7478,16 @@ turbotax.intuit.com###socialize-container
 turkeyblocks.org###masthead:style(position: relative !important; top: 0 !important;)
 turkeypurge.com###main-header:style(position: relative !important; top: 0 !important;)
 turkeypurge.com###top-header:style(position: relative !important; top: 0 !important;)
+turnto10.com##.position-1.ddb-align-center.component-ddb-300x250-v2
+turnto10.com##.position-1.story-ddb-align-center.component-ddb-728x90-v2
+turnto10.com##.position-2.ddb-align-center.component-ddb-300x250-v2
+turnto10.com##.position-2.story-ddb-align-center.component-ddb-728x90-v2
+turnto10.com##.sd-facebook.clearfix.sd-news-social-btn.btn-default.btn
+turnto10.com##.sd-mail.clearfix.sd-news-social-btn.btn-default.btn
+turnto10.com##.sd-news-social-placeholder
+turnto10.com##.sd-twitter.clearfix.sd-news-social-btn.btn-default.btn
+turnto10.com##.v2.sd-header-wrapper.sd-news-header:style(position: absolute !important;)
+turnto10.com##.visible.sd-news-main-footer.component-story-footer-v1
 tutanota.com##.navbar-fixed-top.navbar-bottom.navbar:style(position: relative !important; top: 0 !important;)
 tvguide.com###header:style(position: relative !important; top: 0 !important;)
 tvguide.com##.ad-dfp
@@ -8100,6 +8144,8 @@ wfaa.com##.is_stuck.site-nav:style(position: relative !important; top: 0 !import
 wftv.com###header:style(position: relative !important; top: 0 !important;)
 wftv.com###tabcontent-news
 wftv.com##.toggle-slide
+wgno.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute !important;)
+wgno.com##.sd-sharing-enabled.sharedaddy
 wgntv.com##.stuck.sd-sharing-enabled.sharedaddy
 whatahowler.com##.highlightMenu-inner
 whatahowler.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBottomSection.u-tintSpectrum.u-tintBgColor.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar
@@ -8288,6 +8334,8 @@ worldstarhiphop.com##.social-networks
 wowair.us##.affix.navbar-header:style(position: relative !important; top: 0 !important;)
 wowair.us##.logo:style(position: relative !important; top: 0 !important;)
 wowair.us##.stickyCookie
+wowt.com###nav:style(position: relative !important; top: 0 !important;)
+wowt.com###socialIcons
 wpbf.com##.ad-leaderboard
 wpbf.com##.ad-rectangle
 wpbf.com##.article-social.js-share-container.share-content
