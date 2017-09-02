@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 1:01 PM 2017-09-02
+! Last Modified: 2:00 PM 2017-09-02
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - unsuck the web and make it more user friendly!
@@ -1342,6 +1342,12 @@ city-data.com###top_menu:style(position: relative !important; top: 0 !important;
 city-journal.org##.isShown.m_article-title-bar:style(position: relative !important; top: 0 !important;)
 city-journal.org##.l_shifter > .isScrolled.isLight.l_main-header
 city-journal.org##.normal-sidebar-container
+cityam.com###footer-newsletter
+cityam.com###footer-newsletter-mobile
+cityam.com###footer-social
+cityam.com##.clearfix.social
+cityam.com##.hidden-sm.hidden-xs.social-links.navigation-spacer.nav
+cityam.com##.js-navigation-affix:style(position: absolute !important; top: 0 !important;)
 citylab.com###blocker-msg-start
 citylab.com###social-sticky
 citylab.com##.c-newsletter--footer.c-newsletter
@@ -1800,8 +1806,13 @@ dailysnark.com##.td-affix.td-header-gradient.td-header-menu-wrap:style(position:
 dailysnark.com##.td-header-style-9.td-header-wrap:style(position: relative !important; top: 0 !important;)
 dailysnark.com##.td-scroll-up-visible.td-scroll-up
 dailystar.co.uk###cookielaw
+dailystar.co.uk###smartbanner
 dailystar.co.uk###topSocialPanel
 dailystar.co.uk###vjs_video_3:style(position: relative !important; top: 0 !important;)
+dailystar.co.uk##.facebook.link-button
+dailystar.co.uk##.gig-share-bar-container.gig-bar-container
+dailystar.co.uk##.google.link-button
+dailystar.co.uk##.twitter.link-button
 dailytelegraph.com.au##.tgc-footer_apps
 dailytelegraph.com.au##.tgc-footer_disclaimer
 dailytelegraph.com.au##.tgc-footer_social
@@ -2615,6 +2626,7 @@ fox5ny.com##.social-dropdown
 fox6now.com###actionbar
 fox6now.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
 fox6now.com##.stuck.sd-sharing-enabled.sharedaddy
+fox8.com##.stuck.sd-sharing-enabled.sharedaddy
 foxbusiness.com##.radar-bar
 foxbusiness.com##.sidebars
 foxbusiness.com##.social
@@ -2844,6 +2856,9 @@ gm.com##.q-header:style(position: relative !important; top: 0 !important;)
 gm.com##header:style(position: relative !important; top: 0 !important;)
 gmanetwork.com##.navbar-fixed-top:style(position: relative !important; top: 0 !important;)
 go.com##.share_like
+godfatherweb.com###topcontrol
+godfatherweb.com##.adsbygoogle
+godfatherweb.com##.share-post
 godotengine.org##nav:style(position: absolute !important; top: 0 !important;)
 goerie.com###article-storyStrip:style(position: relative !important; top: 0 !important;)
 goerie.com###syncronexOverlayContent
@@ -6786,6 +6801,18 @@ tapatalk.com###appuser_navigation:style(position: relative !important; top: 0 !i
 tapatalk.com##.navbar-inner.inner.appuser_navigation:style(position: relative !important; top: 0 !important;)
 taskandpurpose.com###tpHeader:style(position: relative !important; top: 0 !important;)
 taskandpurpose.com##.tpAffixed.tpAffix.tp-shares
+tastecooking.com##.bottom-border
+tastecooking.com##.footer-social-links
+tastecooking.com##.ga-topnav-subscribe
+tastecooking.com##.left-border
+tastecooking.com##.mobile-menu--small.mobile-menu:style(position: relative !important; top: 0 !important;)
+tastecooking.com##.nav-bar--small.nav-bar--default.nav-bar:style(position: absolute !important; top: 0 !important;)
+tastecooking.com##.nav-search-button--small.nav-search-button:style(position: relative !important; top: 0 !important;)
+tastecooking.com##.newsletter-signup
+tastecooking.com##.right-border
+tastecooking.com##.search-pulldown
+tastecooking.com##.share-button
+tastecooking.com##.top-border
 tasteofhome.com###navbar-top:style(position: relative !important; top: 0 !important;)
 tastingtable.com###sideReel
 tastingtable.com##.global-header:style(position: relative !important; top: 0 !important;)
@@ -7141,6 +7168,7 @@ thehill.com###dfp-ad-mos_1-wrapper
 thehill.com###dfp-ad-mos_2-wrapper
 thehill.com###dfp-ad-mosad_1
 thehill.com###navigation:style(position: relative !important; top: 0 !important; overflow-x: hidden !important; overflow-y: hidden !important;)
+thehill.com###social-share-count
 thehill.com##.akamai-button.akamai-facebook
 thehill.com##.akamai-button.akamai-share
 thehill.com##.akamai-button.akamai-twitter
@@ -7156,6 +7184,7 @@ thehill.com##.scrolling-content:style(position: relative !important; top: 0 !imp
 thehill.com##.share-additional
 thehill.com##.share-box
 thehill.com##.share-list
+thehill.com##.social-list
 thehill.com##.social-share-count
 thehill.com##:xpath(.//*[@class="rollover-people-block"])
 thehindu.com###storyNextPopUp
