@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 4:47 PM 2017-09-03
+! Last Modified: 5:01 PM 2017-09-03
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - unsuck the web and make it more user friendly!
@@ -4705,6 +4705,11 @@ nationalgeographic.com##.mt3_row.gf2_newsletter-form
 nationalgeographic.com##.ng-top-nav__anchor
 nationalgeographic.com##.section.textOnly
 nationalgeographic.com##.social-button
+nationalgeographic.org###stickynav
+nationalgeographic.org##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
+nationalgeographic.org##.fk-sticky--active > .sticky-inner-wrapper
+nationalgeographic.org##.fk-social__follow
+nationalgeographic.org##.fk-newsletter
 nationalgeographicexpeditions.com##.clearfix.social.body-interior-row
 nationalgeographiclodges.com###nav:style(position: relative !important; top: 0 !important;)
 nationalgeographiclodges.com##.section.SignUpNewsletter
