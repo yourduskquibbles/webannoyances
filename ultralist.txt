@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 5:01 PM 2017-09-03
+! Last Modified: 5:03 PM 2017-09-03
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - unsuck the web and make it more user friendly!
@@ -4706,10 +4706,10 @@ nationalgeographic.com##.ng-top-nav__anchor
 nationalgeographic.com##.section.textOnly
 nationalgeographic.com##.social-button
 nationalgeographic.org###stickynav
-nationalgeographic.org##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
-nationalgeographic.org##.fk-sticky--active > .sticky-inner-wrapper
-nationalgeographic.org##.fk-social__follow
 nationalgeographic.org##.fk-newsletter
+nationalgeographic.org##.fk-social__follow
+nationalgeographic.org##.fk-sticky--active > .sticky-inner-wrapper
+nationalgeographic.org##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 nationalgeographicexpeditions.com##.clearfix.social.body-interior-row
 nationalgeographiclodges.com###nav:style(position: relative !important; top: 0 !important;)
 nationalgeographiclodges.com##.section.SignUpNewsletter
@@ -5602,6 +5602,7 @@ pi-hole.net##.site-navigation-fixed.navigation-top:style(position: relative !imp
 picclick.com###backtotop
 picclick.com##.hidden-xs.text-right.col-sm-2.col-md-3.facebook
 picclick.com##.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important; top: 0 !important;)
+pinterest.com##.AppUpsellHeader__background
 pinterest.com##.Module.AppBase.App > .appContent > .mainContainer > .Module.InterestFeedReactPage > .Module.InterestFeedReactWrapper > .Module.DenzelReactBridge > div > div:nth-of-type(1) > .AppInterstitial
 pinterest.com##.Module.AppBase.App > .appContent > .mainContainer > .Module.InterestFeedReactPage > .Module.InterestFeedReactWrapper > .Module.DenzelReactBridge > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3)
 pinterest.com##.ReactModalPortal
