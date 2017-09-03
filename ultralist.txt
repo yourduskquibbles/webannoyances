@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 5:03 PM 2017-09-03
+! Last Modified: 5:08 PM 2017-09-03
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - unsuck the web and make it more user friendly!
@@ -714,6 +714,7 @@ bbc.com###sticky-player-1:style(position: relative !important; top: 0 !important
 bbc.com##.ghost-column.show.share--lightweight.share
 bbc.com##.share--article.headed-section-small.headed-section > .headed-section-lining > header > .section-header > .section-title-wrapper > .section-title
 bbc.com##.share--article.small.share--desktop.share
+bbc.com##.share--article.small.share--mobile.share
 bbc.com##.sharetools
 bbcgoodfood.com##.search-form-processed.page-header-touch
 bedbathandbeyond.com###box
@@ -773,6 +774,7 @@ bleacherreport.com##.ad
 bleacherreport.com##.article_nav-bar.br-texture--sudo.br-texture--sudo-fade-to-white
 bleacherreport.com##.component-small-nav:style(position: relative !important; top: 0 !important;)
 bleacherreport.com##.flyin.relatedContent.atom
+bleacherreport.com##.mobile_interstitial.show.molecule.notification
 bleacherreport.com##.privacy_notice.show.molecule.notification
 bleacherreport.com##.share-button.button.button--facebook.button--medium
 bleacherreport.com##.share-button.button.button--google-plus.button--medium
@@ -2501,6 +2503,7 @@ fivethirtyeight.com###header-global:style(position: relative !important; top: 0 
 fivethirtyeight.com###masterad
 fivethirtyeight.com##.lp-share
 fivethirtyeight.com##.newsletter.flexible.widget
+fivethirtyeight.com##.sd-sharing-enabled.sharedaddy
 fivethirtyeight.com##.social-links
 fivethirtyeight.com##.social-share-item.footer-menu-item
 fivethirtyeight.com##.vertical-politics.page-header:style(position: relative !important; top: 0 !important;)
@@ -3576,6 +3579,7 @@ inquisitr.com##.block.header--inner:style(position: relative !important; top: 0 
 insertcoinclothing.com###header:style(position: relative !important; top: 0 !important;)
 insideedition.com###nav:style(position: relative !important; top: 0 !important;)
 insideedition.com##.navbar-header:style(position: relative !important; top: 0 !important;)
+insidenova.com###outbrain_widget_2
 insidenova.com##.content-above.share-container
 insidenova.com##.content-below.share-container
 insidenova.com##.hidden-print.asset-paging-container
@@ -5866,6 +5870,7 @@ psmag.com##.m-social
 psmag.com##.mm-component-stack--has-background.mm-component-stack--has-header.mm-component-stack--is-stacked.m-component-stack.m-brand-engagement
 psmag.com##.not-size-B.not-size-A.m-in-content-ad
 psmag.com##.not-size-B.not-size-A.m-sidebar-ad
+psmag.com##.not-size-D.not-size-C.not-size-B.is-placeholder.m-in-content-ad--slot
 psmag.com##.span1.psmag-sharing-column
 psmag.com##.widget_psmag_mailsocial
 psychologytoday.com###pt-social-media
