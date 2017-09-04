@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 5:08 PM 2017-09-03
+! Last Modified: 8:36 AM 2017-09-04
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - unsuck the web and make it more user friendly!
@@ -1050,6 +1050,13 @@ businessinsider.com##.vertical-social-buttons
 businessinsider.com##DIV[style="border-top: 1px solid #ddd; margin-top: 20px; margin-left: -20px; width: 340px;"]
 businessinsider.com##a.slide-share-button.slide-share-button--facebook
 businessinsider.com##a.slide-share-button.slide-share-button--pinterest
+businessinsider.com.au###masthead:style(position: relative !important; top: 0 !important;)
+businessinsider.com.au###mc-signup-in-post
+businessinsider.com.au###mc_signup
+businessinsider.com.au##.adspot-300x250-pos1-container
+businessinsider.com.au##.share-buttons
+businessinsider.com.au##.social
+businessinsider.com.au##.sticky-unit.adspot-300x600-pos2-container
 businessinsider.de###mc_embed_signup
 businessinsider.de##.clearfix.ks-share-top.share-container.rrssb-baseline
 businessinsider.de##.clearfix.rrssb-bottom.rrssb-buttons
@@ -1516,6 +1523,7 @@ cntraveler.com##.share-tools.section
 cntraveler.com##.shop.scroll-to:style(position: relative !important; top: 0 !important;)
 cntraveler.com##.stay.scroll-to:style(position: relative !important; top: 0 !important;)
 code42.com###header:style(position: relative !important; top: 0 !important;)
+codisec.com##.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important; top: 0 !important;)
 coindesk.com##.article-share
 coindesk.com##.popup
 coindesk.com##.social
@@ -3096,6 +3104,7 @@ guns.com##.widget_guns_social_links_widget.widget
 gunsamerica.com###enterZip2
 gust.com##nav:style(position: relative !important; top: 0 !important;)
 haaretz.com###footer-toolbar
+haaretz.com###masthead--b:style(position: relative !important; top: 0 !important;)
 haaretz.com###masthead:style(position: absolute !important; top: 0 !important;)
 haaretz.com###osaka-wrapper
 haaretz.com###social-bar
@@ -3105,6 +3114,7 @@ haaretz.com##.fblike
 haaretz.com##.footer-ruler
 haaretz.com##.h-mb--flush--l.h-mb.as--four-up--xxtight--l.footer__tools.nav
 haaretz.com##.h-mb.h-hidden--to-l.islet.has-modal.newsletterBox.newsletterInarticle.newsletter
+haaretz.com##.has-modal.h-mt--loose.islet.newsletter
 haaretz.com##.mh__social
 haaretz.com##.modal-wrapper--dark.modal-wrapper--fixed.modal-wrapper
 haaretz.com##.pn__share
@@ -3112,6 +3122,7 @@ haaretz.com##.ribbon-stick-wrapper.js-stick-wrapper
 haaretz.com##.special-news--blue.special-news
 haaretz.com##.subscrOptWide
 haaretz.com##.verticleTabsFacebook
+haaretz.com##center
 hackaday.com###hackadayfollowus-2
 hackaday.io##.fixed.project-menu:style(position: relative !important; top: 0 !important;)
 hackaday.io##.guest-message-signup-static.guest-message-signup.page-basic-info-static-dark.page-basic-info-static
@@ -3313,6 +3324,8 @@ hoover.org##.region-header-bottom.region
 hoover.org##.region-inner.clearfix
 hoover.org##.region.region-header-top
 hopesandfears.com##.adblock-message
+hopesandfears.com##.share-buttons-bar
+hopesandfears.com##.social-block.row
 hotair.com###sticky-share
 hotair.com##.btn-group-lg.btn-group
 hotair.com##.clearfix.button-span.row
@@ -3438,11 +3451,11 @@ iflscience.com##.smaller.header:style(position: relative !important; top: 0 !imp
 iflscience.com##.social
 iflscience.com##.social-shares
 iflscience.com##.totop
+ign.com###header-container .fixed:style(position: relative !important; top: 0 !important;)
 ign.com###header-container:style(position: relative !important; top: 0 !important;)
-ign.com###header-nav
-ign.com###ign-header:style(position: relative !important; top: 0 !important;)
+ign.com###header-nav.fixed::after:style(position: relative !important; top: 0 !important;)
+ign.com###header-nav.fixed:style(position: relative !important; top: 0 !important;)
 ign.com##.app-link-banner
-ign.com##.theme-light.section.fixed.spine:style(position: relative !important; top: 0 !important;)
 iheart.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
 ijr.com###masthead:style(position: relative !important; top: 0 !important;)
 ijr.com###progress-bar
@@ -3589,6 +3602,8 @@ insidenova.com##.tout-mid-article.tout-sdk
 insightdata.ai##.logo_nav:style(position: relative !important; top: 0 !important;)
 instagram.com##._3v251._br9is
 instagram.com##._6in6f._j8mem
+instagram.com##._axuw9
+instagram.com##._tpnch:style(position: relative !important; top: 0 !important;)
 instagram.com##:xpath(.//*[@href="/accounts/emailsignup/"])
 instagram.com##:xpath(.//*[@role="alert"])
 institutionalinvestor.com###compressed-navbar:style(position: relative !important; top: 0 !important;)
@@ -4340,6 +4355,7 @@ menswearhouse.com###main-header:style(position: relative !important; top: 0 !imp
 mentalfloss.com###MenuBar
 mentalfloss.com###article-top-ad
 mentalfloss.com###header:style(position: relative !important; top: 0 !important;)
+mentalfloss.com###myPlayerID:style(position: static !important;)
 mentalfloss.com###navbar-bottom
 mentalfloss.com###navbar-section:style(position: relative !important; top: 0 !important;)
 mentalfloss.com###navbar-slim-fb
@@ -4353,6 +4369,8 @@ mentalfloss.com##.boxes-box-content
 mentalfloss.com##.footer-right-column
 mentalfloss.com##.header-wrapper:style(position: relative !important; top: 0 !important;)
 mentalfloss.com##.left
+mentalfloss.com##.smallWidth.makeVideoticky.videoElement.close_btn:style(position: static !important;)
+mentalfloss.com##.smallWidth.makeVideoticky.videoElement.overlay:style(position: static !important;)
 mentalfloss.com##.social-button-section
 mercola.com##.mm-slideout.header:style(position: relative !important; top: 0 !important;)
 mercola.com##.mm-slideout.social-icons-mobile
@@ -4370,6 +4388,11 @@ merriam-webster.com###social-sidebar-container
 merriam-webster.com##.default.menu-filler
 merriam-webster.com##.default.shrinkheader:style(position: relative !important; top: 0 !important;)
 merryjane.com###view-port:style(position: relative !important; top: 0 !important;)
+metacritic.com###popup_newslettter
+metacritic.com###primary_baby_menu_movies
+metacritic.com###video_holder_wrapper:style(position: static !important;)
+metacritic.com##.sharing
+metacritic.com##.social_round
 metafilter.com##.headroom--pinned.headroom--not-top.headroom.logo-and-primary-nav:style(position: relative !important; top: 0 !important;)
 metafilter.com##.visible.fixed.site-header:style(position: relative !important; top: 0 !important;)
 methodsman.com###sqs-social
@@ -7728,7 +7751,9 @@ theweek.com##.mobile-extension-header:style(position: relative !important; top: 
 theweek.com##.nfSocial
 theweek.com##.sticky-social-inside
 theweek.com##.subscribe-module
+theweek.com##.subscribe-unit-header
 theweek.com##.top-section.fb-content
+theweek.com##.zerg-colm
 thewhiskeywash.com##.sticky-wrapper:style(position: relative !important; top: 0 !important;)
 thewindowsclub.com##CENTER
 thewindowsclub.com##script:inject(setTimeout-defuser)
@@ -8244,10 +8269,15 @@ usjournal.net##.header-appear.mkdf-sticky-header
 usjournal.net##.mkdf-blog-share
 usjournal.net##.mkdf-icon-has-hover.mkdf-social-icon-widget-holder
 usjournal.net##.mkdf-social-share-widget.widget
+usmagazine.com###header:style(position: relative !important; top: 0 !important;)
 usmagazine.com###module-reading-list:style(position: relative !important; top: 0 !important;)
+usmagazine.com###top-ad-slot-0
 usmagazine.com##.color-theme-hed.row.header-nav:style(position: relative !important; top: 0 !important;)
+usmagazine.com##.header-subscribe
 usmagazine.com##.main-bg.header:style(position: relative !important; top: 0 !important;)
 usmagazine.com##.module-reading-list-mobile-cta:style(position: relative !important; top: 0 !important;)
+usmagazine.com##.module-social-sharing
+usmagazine.com##body:style(padding-top: 0px !important;)
 usnews.com##.block-loosest-for-medium-up
 usnews.com##.border.flex-ungrid.flex-row
 usnews.com##.box.bar-toolbar5:style(position: relative !important; top: 0 !important;)
@@ -8589,6 +8619,7 @@ washingtontimes.com##.right
 washingtontimes.com##.share-and-comments
 washingtontimes.com##P[style="padding: 7px 0 4px 0;margin-bottom: 0;"]
 waterfordwhispersnews.com##.cookie-mobile-wrapper
+watsi.org##.marginLeft-32-m.flexJustify-end-m.flex
 wave3.com##.banner.dom.wnad243.wnad
 wave3.com##.sticky.cdev-menu-nav:style(position: relative !important; top: 0 !important;)
 wave3.com##.wnad41.wnad
