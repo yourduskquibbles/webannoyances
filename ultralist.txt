@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:25 AM 2017-09-04
+! Last Modified: 11:43 AM 2017-09-04
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - unsuck the web and make it more user friendly!
@@ -313,6 +313,9 @@ alaskaair.com##.sd-sharing-enabled.sharedaddy
 albawaba.com##.top-menu
 alexandriava.gov##.cd-is-visible.to-top
 alexandriava.gov##.stuck.sticky
+alexkras.com##.a2a_vertical_style.a2a_floating_style.a2a_kit_size_32.a2a_kit
+alexkras.com##.addtoany_content_bottom.addtoany_share_save_container
+alexkras.com##.addtoany_content_top.addtoany_share_save_container
 algolia.com###header:style(position: relative !important; top: 0 !important;)
 algolia.com##.closed
 aliexpress.com###auto-search:style(position: relative !important; top: 0 !important;)
@@ -569,6 +572,7 @@ atr.org###pop_up
 atr.org##.fancybox-wrap.fancybox-desktop.fancybox-type-iframe.fancybox-opened
 atr.org##.navbar:style(position: relative !important; top: 0 !important;)
 atr.rollcall.com###share-top
+att.com##.ftr-social-links
 auburntigers.com###header:style(position: relative !important; top: 0 !important;)
 auburntigers.com###sport-nav:style(position: relative !important; top: 0 !important;)
 auctiva.com##.adsbygoogle
@@ -2692,8 +2696,10 @@ fox5dc.com##.mod-infinite-grid.mod-wrapper
 fox5dc.com##.social-dropdown
 fox5dc.com##.social-share
 fox5ny.com###header:style(position: relative !important; top: 0 !important;)
+fox5ny.com###wrapper:style(padding-top: 0px !important;)
 fox5ny.com##.author-share
 fox5ny.com##.show-for-large-up.mod-story-progress.mod-accordion.mod-wrapper
+fox5ny.com##.small-12.column.portlet-column
 fox5ny.com##.social-dropdown
 fox6now.com###actionbar
 fox6now.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
@@ -3506,9 +3512,18 @@ inc.com###TopNav:style(position: relative !important; top: 0 !important;)
 inc.com###article-share
 inc.com###article-share-footer
 inc.com###backtotopinnercontainer
+inc.com###leaderboard-container-placeholder
 inc.com###leaderboard-container:style(position: relative !important; top: 0 !important;)
+inc.com###sitecontainer:style(overflow-x: hidden !important; overflow-y: auto !important;)
 inc.com###top-black-bar:style(position: relative !important; top: 0 !important;)
+inc.com###topnav-placeholder
 inc.com##.MainNavBarContainer:style(position: relative !important; top: 0 !important;)
+inc.com##.SectionUpDown
+inc.com##.ShareBoxButtons
+inc.com##.clicklessNavButton
+inc.com##.leaderboard-container
+inc.com##.share-entry
+inc.com##.sidebar_middle:style(position: absolute !important; top: 0 !important;)
 indeed.com###cmp-header-menu:style(position: relative !important; top: 0 !important;)
 independent.co.uk###cookie-warning
 independent.co.uk###masthead:style(position: relative !important; top: 0 !important;)
@@ -7193,6 +7208,9 @@ theadvocate.com##.card-container
 theadvocate.com##.popover-content
 theamericanconservative.com##.clearfix.article-tools
 theamericanconservative.com##.widget_sign-up-form-widget.widget-container
+theamericanmirror.com##.fa-facebook.fa
+theamericanmirror.com##.fa-twitter.fa
+theamericanmirror.com##.swp_one.scale-fullWidth.scale-100.swp_o_fullColor.swp_i_fullColor.swp_d_fullColor.swp_flatFresh.nc_socialPanel
 theamericanmirror.com##.swp_one.scale-left.scale-100.swp_o_fullColor.swp_i_fullColor.swp_d_fullColor.swp_flatFresh.nc_socialPanel
 theamericanmirror.com##.visible-lg.facebook
 theappendix.net##.communicate
@@ -8514,6 +8532,7 @@ vvvv.org##.clearfix.d-header:style(position: relative !important; top: 0 !import
 w3.org##nav
 w3schools.com###skyscraper
 w3schools.com###topnav:style(position: relative !important; top: 0 !important;)
+w3schools.com##.sharethis.w3-text-grey
 w3schools.com##.sidesection:nth-of-type(4)
 wafb.com###header:style(position: relative !important; top: 0 !important;)
 wafb.com###smartbanner
@@ -8737,14 +8756,18 @@ weddingbee.com##.topNav-wrapper:style(position: relative !important; top: 0 !imp
 weddingwire.com###ww-header-container
 weeklystandard.com###article-share
 weeklystandard.com###dy_Home_Page_Sub_Promo
+weeklystandard.com###header:style(margin-top: 0px !important;)
 weeklystandard.com###header:style(position: relative !important; top: 0 !important;)
 weeklystandard.com###newsletter_sign_up_form
 weeklystandard.com###social-share
 weeklystandard.com###supernav
+weeklystandard.com##.ad.billboard
 weeklystandard.com##.advertisement
+weeklystandard.com##.article-share
 weeklystandard.com##.block.form.widget
 weeklystandard.com##.cc_container--open.cc_container.cc_banner
 weeklystandard.com##.cover
+weeklystandard.com##.dy-act-overlay.dy-modal-container
 weeklystandard.com##.featured-cover
 weeklystandard.com##.featured-teasers
 weeklystandard.com##.fixed-bottom-ad
@@ -8752,6 +8775,7 @@ weeklystandard.com##.ng-binding.cc_message
 weeklystandard.com##.social
 weeklystandard.com##.social-links
 weeklystandard.com##.subscription-promo
+weeklystandard.com##.text-tools
 weeklystandard.com##.upnext
 welivesecurity.com##.wlistingsinglesocialmedia
 welt.de##.c-page-header--is-sticky.c-page-header:style(position: relative !important; top: 0 !important;)
