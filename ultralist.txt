@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:50 PM 2017-09-04
+! Last Modified: 11:02 PM 2017-09-04
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - unsuck the web and make it more user friendly!
@@ -359,6 +359,10 @@ ally.com##.site-header:style(position: relative !important; top: 0 !important;)
 alphr.com###header-group-inner:style(position: relative !important; top: 0 !important;)
 alphr.com###header-group:style(position: relative !important; top: 0 !important;)
 alphr.com##.page-header:style(position: relative !important; top: 0 !important;)
+altarandthrone.com###main-nav:style(position: relative !important; top: 0 !important;)
+altarandthrone.com##.fb_iframe_widget.fb-like.fb-social-plugin
+altarandthrone.com##.post-share
+altarandthrone.com##.sd-sharing-enabled.sharedaddy
 alternet.org###bpcontainer
 alternet.org###like_alternet_on_fb
 alternet.org###sidebar_subscription_widget_container
@@ -2128,6 +2132,7 @@ drafthousefilms.com##.backToTop
 drafthousefilms.com##.entry-footer-share
 drafthousefilms.com##.social
 dribbble.com###header:style(position: relative !important; top: 0 !important;)
+dribbble.com##body:style(padding-top: 0px !important;)
 drinkspirits.com##.td-header-menu-wrap-full
 drivetribe.com###header:style(position: relative !important; top: 0 !important;)
 drivetribe.com##.CDTi0._1-sfe
@@ -3730,6 +3735,9 @@ irishtimes.com##.amp-sticky-btm_wrapper
 irishtimes.com##.social_article_share
 itsfoss.com##.cookie-notice-container
 itsfoss.com##.scroll-up
+itsgoingdown.org##.td-header-sp-top-widget
+itsgoingdown.org##.td-scroll-up-visible.td-scroll-up
+itsgoingdown.org##.td-with-like.td-post-sharing-bottom.td-post-sharing
 itsnicethat.com##.site-header-slice__fixer:style(position: relative !important; top: 0 !important;)
 itstillworks.com##.header:style(position: relative !important; top: 0 !important;)
 itsyourturnblog.com##.u-tintSpectrum.u-tintBgColor.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorDarker.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
@@ -3795,6 +3803,10 @@ jsonline.com##.story-tools
 jsonline.com##.utility-bar
 judicialwatch.org###newsletter_signup_fullwidth
 judicialwatch.org###twfbwindows
+juggle.org##.collapsed.x-btn-widgetbar:style(position: absolute !important; top: 0 !important;)
+juggle.org##.slidein-center-left.cp-slidein
+juggle.org##.width.max.x-container.x-topbar-inner > .x-social-global
+juggle.org##.x-navbar-fixed-top.x-navbar:style(position: relative !important; top: 0 !important;)
 juicero.com##.nav-full-width.pinned:style(position: relative !important; top: 0 !important;)
 justanswer.co.uk##.background
 justanswer.co.uk##.right.bottom.modal
@@ -4323,6 +4335,7 @@ mdjonline.com##.next.paging-link
 mdjonline.com##.prev.paging-link
 mdjonline.com##.social-share-link
 mdjonline.com##.tw.btn-link.btn-xs.btn
+mdpi.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 meaww.com##.meaww-header__main:style(positiom: relative !important; top: 0 !important;)
 mediaequalizer.com###header:style(position: relative !important; top: 0 !important;)
 mediaite.com###featured-posts-wrap:style(position: relative !important; top: 0 !important;)
@@ -4705,6 +4718,11 @@ muckrock.com##.global-header:style(position: relative !important; top: 0 !import
 muckrock.com##.website-header:style(position: relative !important; top: 0 !important;)
 multivu.com###hero-photo-icons
 multivu.com###topbar:style(position: relative !important; top: 0 !important;)
+muricatoday.com##.fb_iframe_widget.fb-page
+muricatoday.com##.td-affix.td-header-menu-wrap:style(position: relative !important; top: 0 !important;)
+muricatoday.com##.td-scroll-up-visible.td-scroll-up
+muricatoday.com##.td-with-like.td-post-sharing-bottom.td-post-sharing
+muricatoday.com##.td-with-like.td-post-sharing-top.td-post-sharing
 muslimpress.com###base-header:style(position: relative !important; top: 0 !important;)
 muslimpress.com###share-icons
 muslimpress.com##.social-icon
@@ -7165,14 +7183,19 @@ tedium.co##.at_icon_menu_item
 tedium.co##.at_post_share
 tedium.co##.md-adbox
 tedium.co##.md-redbox.at_subscribe
+teenvogue.com##.bottom.component-observable-social-share
 teenvogue.com##.closed.image.component-social-share
 teenvogue.com##.component-two-state-social-share
 teenvogue.com##.expanded.riser
+teenvogue.com##.fb_iframe_widget.fb-like
+teenvogue.com##.follow.component-facebook-like
 teenvogue.com##.footer-cm-wrapper.ad-failsafe-wrapper
-teenvogue.com##.site-header.component-sticky > div:nth-of-type(1):style(position: relative !important; top: 0 !important;)
-teenvogue.com##.sticky
-teenvogue.com##.sticky-header
+teenvogue.com##.internal-recirculation.component-outbrain
+teenvogue.com##.left.component-two-state-social-share
+teenvogue.com##.site-header.component-sticky > div:nth-of-type(1):style(position: absolute !important; top: 0 !important;)
+teenvogue.com##.top.component-observable-social-share
 teenvogue.com##.top.social-share-top.component-observable-social-share
+teenvogue.com##.zergnet-container.component-zergnet
 telegraph.co.uk###message
 telegraph.co.uk###shareSideContainer
 telegraph.co.uk##.article__socials
@@ -7579,6 +7602,9 @@ themarysue.com##.unit-sidebar-bottom.gpt-unit
 themattwalshblog.com###main-nav-wrap:style(position: relative !important; top: 0 !important;)
 themattwalshblog.com##.scrolltop
 thememo.com##.nav-fixed.clearfix.main-menu:style(position: relative !important; top: 0 !important;)
+themonthly.com.au###floating-bar:style(position: relative !important; top: 0 !important;)
+themonthly.com.au##.mean-bar:style(position: relative !important; top: 0 !important;)
+themonthly.com.au##.share-wrapper
 themorningnews.org##.Footer-sticky
 themorningnews.org##.is-scrolled.is-scrolled-down.Header--legacy.Header--main.Header:style(position: relative !important; top: 0 !important;)
 themoscowtimes.com###TMTtoolbarAd
@@ -8520,6 +8546,7 @@ visual.ly###back-to-top
 visual.ly###eyebrow
 visual.ly##.section
 vivaldi.com###site-header:style(position: absolute !important;)
+vivaldi.com##.post-sharer
 vivaldi.net###header-menu:style(position: absolute !important;)
 vivaldi.net###header:style(position: absolute !important;)
 voanews.com##.article-share.pull-left.col-md-2.col-xs-12
@@ -9258,6 +9285,7 @@ yahoo.com###unblock-intstructions
 yahoo.com###yog-hd
 yahoo.com###yset-search-upsell-container
 yahoo.com###yucs-top-bar
+yahoo.com##.Mtop-sm.Share-buttons
 yahoo.com##.T\(-20px\).End\(20px\).Pos\(a\)
 yahoo.com##.action-bar:style(position: relative !important; top: 0 !important;)
 yahoo.com##.canvas-community-bar
@@ -9270,6 +9298,7 @@ yahoo.com##.share-button-group
 yahoo.com##.side-buttons
 yahoo.com##.tdv2-applet-navrail
 yahoo.com##.y-header:style(position: relative !important; top: 0 !important;)
+yahoo.com##.yui-sv-hd.ct-box-hd:style(position: absolute !important;)
 yammer.com###O365_NavHeader:style(position: relative !important; top: 0 !important;)
 yammer.com##.topnav-fixed.zindex-t3:style(position: relative !important; top: 0 !important;)
 yammer.com##.yj-group-header-patterned-scrolling:style(position: relative !important; top: 0 !important;)
