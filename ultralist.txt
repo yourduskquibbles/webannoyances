@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 5:11 PM 2017-09-06
+! Last Modified: 6:12 PM 2017-09-06
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - unsuck the web and make it more user friendly!
@@ -89,6 +89,8 @@
 2paragraphs.com##.site-header:style(position: relative !important; top: 0 !important;)
 2paragraphs.com##.ssbp-container
 360.cn##.leftside
+38north.org##.affix.social-share
+38north.org##.no-print.social-share-container
 3dprint.com##.et-fixed-header:style(position: relative !important; top: 0 !important;)
 3dprint.com##.et-visible.et-pb-icon.et_pb_scroll_top
 3dprint.com##.notepadding.su-note
@@ -469,6 +471,7 @@ androidforums.com###social-icons
 androidforums.com###yvjotilvhppccccahqxngddtnoesfgzrm
 androidheadlines.com###masthead:style(position: relative !important; top: 0 !important;)
 androidmag.de###header:style(position: relative !important; top: 0 !important;)
+androidpolice.com###apfollowwidget-2
 androidpolice.com##.ap-follow-widget.widget.red.widget-2.widget-even
 androidpolice.com##.share-box
 angular.io##.mat-primary.mat-toolbar.app-toolbar:style(position: relative !important; top: 0 !important;)
@@ -3922,6 +3925,7 @@ josbank.com###header:style(position: relative !important; top: 0 !important;)
 josbank.com##.active.sticky-header:style(position: relative !important; top: 0 !important;)
 josbank.com##.d-sticky-header-container:style(position: relative !important; top: 0 !important;)
 josbank.com##.sticky-header:style(position: relative !important; top: 0 !important;)
+journal-leader.com###gkTopBar:style(position: absolute !important; top: 0 !important;)
 journal-news.com###top-nav:style(position: relative !important; top: 0 !important;)
 journal-news.com##.header-wrapper:style(position: relative !important; top: 0 !important;)
 journal-news.com##.hidden-md-down.footer-wrapper
@@ -6032,6 +6036,7 @@ placesjournal.org##.nav-down.fixed.body__header:style(position: relative !import
 placesjournal.org##.share-widget--wrapper
 planeplottermobile.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 planetary.org##.topheader:style(position: relative !important; top: 0 !important;)
+play.google.com##.action-bar-inner.id-action-bar-inner:style(position: absolute !important; top: 0 !important;)
 playboard.me###\34 2mattersAnnounce
 playboard.me###uvTabLabel
 playboard.me##.navbar-fixed-top.navbar-inverse.navbar
@@ -8299,6 +8304,7 @@ time.com##.small-5.column
 time.com##.ssv3-social.ssv3-nav__social
 time.com##.top-banner:style(position: relative !important; top: 0 !important;)
 timeanddate.com###nav:style(position: relative !important; top: 0 !important;)
+timeanddate.com###socialButton
 timeline.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.u-tintSpectrum.u-tintBgColor.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
 timeline.com##.is-maximized.metabar--affixed.u-tintSpectrum.u-tintBgColor.metabar--light.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
 timeline.com##.is-visible.js-postActionsBar.postActionsBar
@@ -9587,11 +9593,11 @@ wzzm13.com##.is_stuck.site-nav:style(position: relative !important; top: 0 !impo
 x.company##.u-backgroundTransparentWhiteDarkest.u-fixed.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
 xda-developers.com###footer_social
 xda-developers.com###google_login
-xda-developers.com###header:style(position: relative !important; top: 0 !important;)
+xda-developers.com###header:style(position: absolute !important; top: 0 !important;)
 xda-developers.com###header_social_wrapper
 xda-developers.com###xda_header_google_login
 xda-developers.com###xda_header_social
-xda-developers.com##.breadcrumbs.navbits:style(position: relative !important; top: 0 !important;)
+xda-developers.com##.breadcrumbs.navbits:style(position: absolute !important; top: 0 !important;)
 xda-developers.com##.et_social_icons_container
 xda-developers.com##.share
 xda-developers.com##.socialcount
