@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 9:38 AM 2017-09-06
+! Last Modified: 10:08 AM 2017-09-06
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - unsuck the web and make it more user friendly!
@@ -865,6 +865,7 @@ bloomberg.com##.nav__social
 bloomberg.com##.persist-nav.bb-nav-root:style(position: relative !important; top: 0 !important;)
 bloomberg.com##.right-rail
 bloomberg.com##.sticky-container
+bloomberg.com##.terminal-tout-container
 bloomberg.com##.tweet_count
 bloomberg.com##:xpath(.//*[data-tracker-action="share"])
 bloomberg.com##:xpath(.//*[data-tracker-category="social"])
@@ -4008,7 +4009,10 @@ krebsonsecurity.com###social-networks
 ksat.com###gmg-vf
 ksat.com###ksat-fixed:style(position: relative !important; top: 0 !important;)
 ksl.com###kslHeader:style(position: relative !important; top: 0 !important;)
+ksl.com###smartbanner
+ksl.com##.ksl-header-reserved--small.ksl-header-reserved
 ksl.com##.ksl-header__outer:style(position: relative !important; top: 0 !important;)
+ksl.com##.social
 ktgl.com##.main-header:style(position: relative !important; top: 0 !important;)
 ktla.com##.entry-share
 ktla.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
@@ -5350,6 +5354,7 @@ northjersey.com###bx-campaign-573746
 northjersey.com##.asset-inline-share-tools-bottom.asset-inline-share-tools.inline-share-tools
 northjersey.com##.asset-inline-share-tools-top.asset-inline-share-tools.inline-share-tools
 northjersey.com##.bx-align
+northjersey.com##.bx-impress-in.bx-impress
 northjersey.com##.bx-impress.bx-fx-zoom-in.bx-has-close-inside.bx-has-close-x-1.bx-type-overlay.bx-width-default.bx-campaign-573104.bx-active-step-1.bx-custom.bx-base.bxc
 northjersey.com##.bx-impress.bx-has-close-x-1.bx-type-nanobar.bx-width-full.bx-campaign-574388.bx-active-step-1.bx-custom.bx-base.bxc
 northjersey.com##.bx-slab
@@ -6262,6 +6267,11 @@ rd.com##.stationary-site-header--promo:style(position: relative !important; top:
 reactos.com###header:style(position: relative !important; top: 0 !important;)
 reactos.com###scrollToTop
 reactos.com##.social-icons.top-social
+readfrontier.org##.addtoany_content_bottom.addtoany_share_save_container
+readfrontier.org##.pum-active.click_open.auto_open.popmake-overlay
+readfrontier.org##.social-links
+readfrontier.org##.utility
+readfrontier.org##html:style(overflow-x: hidden !important; overflow-y: auto !important;)
 readonlymemory.vg##.hidden-small.notification-bar
 realclearbooks.com###warning_empty_div
 realclearbooks.com##.social
@@ -7592,6 +7602,8 @@ thefreethoughtproject.com##.td-with-like.td-post-sharing-top.td-post-sharing
 thefuntimesguide.com##.nav-primary:style(position: relative !important; top: 0 !important;)
 thegatewaypundit.com###responsive-menu-button
 thegatewaypundit.com##.essb_links_list
+thegatewaypundit.com##.thega-above-comments
+thegatewaypundit.com##.thega-content
 thegatewaypundit.com##.thega-widget
 theglobeandmail.com###GU_Pencil
 theglobeandmail.com###GU_leftcontent
@@ -9240,6 +9252,8 @@ woostercollective.com##.social
 woot.com##.social
 wordpress.com###bit
 worldmarket.com###topmostHeader:style(position: relative !important; top: 0 !important;)
+worldofwarcraft.com##.Sticky-content:style(position: relative !important; top: 0 !important;)
+worldofwarcraft.com##.font-none.SocialButtons
 worldstarhiphop.com##.social-networks
 wowair.us##.affix.navbar-header:style(position: relative !important; top: 0 !important;)
 wowair.us##.logo:style(position: relative !important; top: 0 !important;)
@@ -9253,6 +9267,9 @@ wpbf.com##.js-sidelist-sticky-menu.article-sidelist
 wpbf.com##.js-slim-share.horizontal.article-social.js-share-container.share-content
 wpbf.com##.slim-headline:style(position: relative !important; top: 0 !important;)
 wpbf.com##.slim.header:style(position: relative !important; top: 0 !important;)
+wptv.com##.layout--share__second
+wptv.com##.module--email-widget
+wptv.com##.nav--stay-connected.nav
 wpxi.com###header:style(position: relative !important; top: 0 !important;)
 wpxi.com##.mod-body
 wreg.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
