@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 8:41 AM 2017-09-06
+! Last Modified: 9:38 AM 2017-09-06
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - unsuck the web and make it more user friendly!
@@ -1261,6 +1261,8 @@ centurylink.net##.in.bottom.popover
 cepro.com##.cd-main-header:style(position: relative !important; top: 0 !important;)
 cepro.com##.sticky:style(position: relative !important; top: 0 !important;)
 certsimple.com##.article-nav:style(position: relative !important; top: 0 !important;)
+cevolt.com###totop
+cevolt.com##.el-social-icons
 change.org###main-header-responsive:style(position: relative !important; top: 0 !important;)
 change.org##.in.modal
 change.org##.js-mobile-action-button-container.visible-xs.position-fixed-bottom:style(position: relative !important;)
@@ -1355,6 +1357,7 @@ chowhound.com##.freyja_desknav_back
 chowhound.com##.freyja_notmobile.freya_beta_menu
 chowhound.com##.freyja_notmobile.infini_totop.fr_totop
 chowhound.com##.freyja_wrap:style(position: relative !important; top: 0 !important;)
+chowhound.com##.nf_ttip
 chowhound.com##.show.keep_scrolling_297038.grey.keep_scrolling
 chowhound.com##.show.keep_scrolling_787799.grey.keep_scrolling
 chowhound.com##.side.to_topmobile.freyja_bigbt
@@ -2356,7 +2359,20 @@ essential.com###MainMenu:style(position: relative !important; top: 0 !important;
 essential.com###supportLayer
 ethereum.org##.icon
 ethereum.org##.index
+etonline.com###footer-ad
+etonline.com###header-ad
+etonline.com###header:style(position: relative !important; top: 0 !important;)
 etonline.com###nav:style(position: relative !important; top: 0 !important;)
+etonline.com##.block-et-newsletter.block
+etonline.com##.block-system.block.menu--footer-social.navigation
+etonline.com##.header-primary > .block-system.block.menu--secondary-navigation.navigation > .menu > .menu-item:nth-of-type(4) > a[href="https://twitter.com/etnow"] > .icon-twitter.icon
+etonline.com##.icon-facebook.icon
+etonline.com##.icon-instagram.icon
+etonline.com##.icon-tumblr.icon
+etonline.com##.sidebar.story__sidebar > .block-et-newsletter.block
+etonline.com##.sidebar.story__sidebar:style(position: relative !important; top: 0 !important;)
+etonline.com##.story__links--bottom.story__links
+etonline.com##.story__links--vertical.story__links
 etsy.com##.fixed:style(position: relative !important; top: 0 !important;)
 etsy.com##.on.banner_page_type_search.tall.grey-banner.smart-banner
 etsy.com##.on.banner_page_type_view_listing.tall.grey-banner.smart-banner
@@ -3692,7 +3708,12 @@ inquisitr.com##.i-amphtml-layout.i-amphtml-layout-size-defined.i-amphtml-layout-
 inquisitr.com##.i-amphtml-unresolved.amp-unresolved.i-amphtml-layout-size-defined.i-amphtml-layout-responsive.amp-notbuilt.i-amphtml-notbuilt.i-amphtml-element
 insertcoinclothing.com###header:style(position: relative !important; top: 0 !important;)
 insideedition.com###nav:style(position: relative !important; top: 0 !important;)
+insideedition.com##.darkGreyBg.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important; top: 0 !important;)
+insideedition.com##.main_background:style(background-position: 0 !important;)
+insideedition.com##.navSocial
 insideedition.com##.navbar-header:style(position: relative !important; top: 0 !important;)
+insideedition.com##.redBg.sidebar-module-inset.sidebar-module
+insideedition.com##.stButton
 insidenova.com###outbrain_widget_2
 insidenova.com##.content-above.share-container
 insidenova.com##.content-below.share-container
@@ -4009,6 +4030,8 @@ laptopmag.com###sticky-header:style(position: relative !important; top: 0 !impor
 laptopmag.com###stickyShare
 laptopmag.com##.sticky.mqMedOff.subNavWrap:style(position: relative !important; top: 0 !important;)
 laptopmag.com##.tocside-in.tocside
+last.fm##.masthead:style(position: absolute !important; top: 10 !important;)
+last.fm##.top-bar:style(position: absolute !important; top: 0 !important;)
 latimes.com###content-bottom
 latimes.com###pmad-in2
 latimes.com###pmad-rail
@@ -5190,6 +5213,12 @@ newscientist.com###tertiary-sidebar-banner
 newscientist.com##.leaderboard-container
 newscientist.com##.register-signup-promo
 newser.com###divEntireNav:style(position: relative !important; top: 0 !important;)
+newser.com###divGetNewserApps
+newser.com###divNewserInYourInbox
+newser.com###divSocialAndCommentsButtonsBottom
+newser.com###divSocialAndCommentsButtonsTop
+newser.com###liFacebookTwitter
+newser.com###navSpacer
 newseum.org##.custom-position.active.size-medium.responsive.pum-responsive-medium.pum-responsive.theme-11569.popmake.pum-container
 newseum.org##.html.pum-open.pum-open-overlay.pum-open-scrollable .pum-overlay.pum-active:style(overflow: none !important;)
 newseum.org##.pum-active.\31 .popmake-overlay.pum-theme-11569.pum-overlay.pum
@@ -5956,6 +5985,9 @@ popsugar.com###js-primary-navigation:style(position: relative !important; top: 0
 popsugar.com###mobilenav
 popsugar.com##.email-signup-active.blue-blue.email-widget.slideout.js-modal-fixed-mg.modal-email-widget
 popsugar.com##.omniture-track.nav-cta-button
+popsugar.com##.social-cta-like
+popsugar.com##.social-header.-noIncrement.-default.social-share-buttons-consolidated
+popsugar.com##.social-share-buttons.clearfix
 popularmechanics.com###rr_soc_mid
 popularmechanics.com###share-sticky-bar
 popularmechanics.com##.ad-gpt-breaker-container
@@ -6155,6 +6187,10 @@ qz.com##.header-hidden.dark-theme:style(position: relative !important; top: 0 !i
 qz.com##.inline-ad
 qz.com##.item-meta-row.colored.share-buttons
 qz.com##.logo:style(position: relative !important; top: 0 !important;)
+rachaelrayshow.com##.icon-googleplus.social-footer-link
+rachaelrayshow.com##.navbar-stick.navbar:style(position: absolute !important; top: 0 !important;)
+rachaelrayshow.com##.social-icon
+rachaelrayshow.com##.social-icons
 racked.com###chorus-social-fixed
 racked.com##.c-action-box
 racked.com##.c-global-header__social
@@ -6178,6 +6214,7 @@ ramblinwreck.com###header:style(position: relative !important; top: 0 !important
 ramw.org###fixed_section
 ramw.org###top_section:style(position: relative !important; top: 0 !important;)
 ranker.com###commonHead:style(position: relative !important; top: 0 !important;)
+ranker.com##.footNav__group--social.footNav__group.lowercase
 raptorcs.com###header-background:style(position: relative !important; top: 0 !important;)
 raptorcs.com###header:style(position: relative !important; top: 0 !important;)
 raptorcs.com###headerlinkbox:style(position: relative !important; top: 0 !important;)
@@ -7039,6 +7076,9 @@ startribune.com##.is-fixed.js-nav-shortcuts-inner.nav-shortcuts-inner:style(posi
 startribune.com##.l-navigation-shortnav-container:style(position: relative !important; top: 0 !important;)
 startribune.com##.recirc:style(position: relative !important; top: 0 !important;)
 startribune.com##.sb-slide.navbar-fixed-top.navbar-default.navbar.site-header:style(position: relative !important; top: 0 !important;)
+startswithyou.com##.leaderboard
+startswithyou.com##.mostshared.ui_module
+startswithyou.com##.social.ui_module
 startupsventurecapital.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBottomSection.u-tintSpectrum.u-tintBgColor.u-textColorDarker.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
 starwars.com###body-wrapper:style(margin-top: 0px !important;)
 starwars.com###nav-inner-container:style(position: relative !important; top: 0 !important;)
@@ -8026,10 +8066,8 @@ thrashermagazine.com##.above-most.sticky-header-outer-container
 thrillist.com###header-ad
 thrillist.com###header-ads
 thrillist.com###legal-notice
-thrillist.com###mobile-elements:style(position: relative !important; top: 0 !important;)
-thrillist.com###mobile-header-inner:style(position: relative !important; top: 0 !important;)
-thrillist.com###mobile-header-utility:style(position: relative !important; top: 0 !important;)
-thrillist.com###mobile-header:style(position: relative !important; top: 0 !important;)
+thrillist.com###mobile-header-utility:style(position: absolute !important; top: 0 !important;)
+thrillist.com###mobile-header:style(position: absolute !important; top: 0 !important;)
 thrillist.com###popoutContainer
 thrillist.com###section-subnav > h3:style(position: relative !important; top: 0 !important;)
 thrillist.com###section-subnav:style(position: relative !important; top: 0 !important;)
@@ -8042,6 +8080,7 @@ thrillist.com##.header-inner:style(position: relative !important; top: 0 !import
 thrillist.com##.hide.stack-ad.hp-stack-item--medium.hp-stack-item.stack-ad-container
 thrillist.com##.is-standard.clearfix.inline-signup
 thrillist.com##.main-header:style(position: relative !important; top: 0 !important;)
+thrillist.com##.mobile-header-inner.sticky:style(position: relative !important; top: 0 !important; transition: none !important;)
 thrillist.com##.nation.has-avatar.meta-info__share-bar.sticky.share-legend
 thrillist.com##.nation.meta-info__share-bar.sticky.share-legend
 thrillist.com##.share-email-mobile
@@ -8306,6 +8345,8 @@ turnto10.com##.sd-twitter.clearfix.sd-news-social-btn.btn-default.btn
 turnto10.com##.v2.sd-header-wrapper.sd-news-header:style(position: absolute !important;)
 turnto10.com##.visible.sd-news-main-footer.component-story-footer-v1
 tutanota.com##.navbar-fixed-top.navbar-bottom.navbar:style(position: relative !important; top: 0 !important;)
+tv.com##.header_bar.m:style(position: absolute !important; top: 0 !important;)
+tvguide.com###content-wrap:style(margin-top: 0px !important;)
 tvguide.com###header:style(position: relative !important; top: 0 !important;)
 tvguide.com##.ad-dfp
 tvguide.com##.header-social
