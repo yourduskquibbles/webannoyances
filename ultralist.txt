@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:29 AM 2017-09-06
+! Last Modified: 8:41 AM 2017-09-06
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - unsuck the web and make it more user friendly!
@@ -554,6 +554,10 @@ assh.org###neko-to-top
 assh.org##.navbar-fixed-top.menu-header:style(position: relative !important; top: 0 !important;)
 assisianimalhealth.com##.blog-loop-btn-abs
 astrobio.net##.sharethis_container
+astronomynow.com##.mh-back-to-top
+astronomynow.com##.mh-social-bottom
+astronomynow.com##.mh-social-top
+astronomynow.com##.widget_text.mh-widget
 asus.com###cookie-policy-info
 asus.com###overview-top-nav.fixed:style(position: relative !important; top: 0 !important;)
 asus.com##body:style(top: 0px !important;)
@@ -3589,8 +3593,10 @@ independent.co.uk###side
 independent.co.uk##.adblock-confirm.adblock-modal
 independent.co.uk##.adblock.adblock-modal
 independent.co.uk##.column-2
+independent.co.uk##.email-signpost
 independent.co.uk##.fb-like
 independent.co.uk##.follow
+independent.co.uk##.sticky.video-popout-wrap:style(position: static !important;)
 independent.co.uk##IMG[src="http://www.independent.co.uk/independent.co.uk/assets/images/Independent_apps_puff600x220.gif?v4"]
 independent.co.uk##body:style(padding-top: 0px !important;)
 independent.ie##.on.persistent.slim.w103
@@ -4443,6 +4449,7 @@ megynkelly.org###openModal
 megynkelly.org##.td-scroll-up-visible.td-scroll-up
 meh.com###advertisement
 meh.com###advertisements
+meh.com##.adsbygoogle
 melmagazine.com##.graf-after--p.graf--figure.graf
 melmagazine.com##.highlightMenu-inner
 melmagazine.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBottomSection.u-tintSpectrum.u-tintBgColor.u-textColorDarker.js-metabar.u-clearfix.metabar
