@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:05 AM 2017-09-06
+! Last Modified: 12:29 AM 2017-09-06
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - unsuck the web and make it more user friendly!
@@ -258,17 +258,25 @@ adweek.com##.subscribewidget
 adweek.com##.x-navbar-fixed-top.x-navbar:style(position: relative !important; top: 0 !important;)
 adweek.com##body:style(padding-top: 0px !important;)
 aeon.co###back-top
+aeon.co###save-card
 aeon.co###shareIconsLeftWrapper
+aeon.co##.article__actions.stuck:style(position: absolute !important;)
 aeon.co##.article__actions__buttons__social.inline-component
 aeon.co##.article__shares
+aeon.co##.donate__card__actions.donate__card--technology.donate__card
 aeon.co##.fancybox-wrap.fancybox-desktop.fancybox-type-inline.newsletter-skin.fancybox-opened
+aeon.co##.footer__social.column
 aeon.co##.header--fixed--visible.header--fixed.header > .header__container.container
-aeon.co##.header--fixed--visible.header--fixed.header:style(position: relative !important; top: 0 !important;)
+aeon.co##.header--fixed--visible.header--fixed.header:style(position: absolute !important; top: 0 !important;)
 aeon.co##.header--fixed.header
-aeon.co##.header--top.header:style(position: relative !important; top: 0 !important;)
+aeon.co##.header--top.header:style(position: absolute !important; top: 0 !important;)
 aeon.co##.lower-share
-aeon.co##.site-menu:style(position: relative !important; top: 0 !important;)
-aeon.co##.sticky-wrapper.hide-for-small:style(position: relative !important; top: 0 !important;)
+aeon.co##.shortcode-inline-newsletter
+aeon.co##.site-menu:style(position: absolute !important; top: 0 !important;)
+aeon.co##.social-hovers.header__social-icons
+aeon.co##.social-sharing
+aeon.co##.sticky-wrapper.hide-for-small:style(position: absolute !important; top: 0 !important;)
+aeon.co##.support-bar
 aeon.co##.twelve.columns.social
 aforkstale.com###om-xwiwbkcchsjqe343x6nt
 aforkstale.com###omaha-optin
@@ -6097,6 +6105,7 @@ qdrinks.com##.collapsed.inverted.font-smooth.header:style(position: relative !im
 qualityassurancemag.com###slide-nav
 qualityassurancemag.com##.navbar-header:style(position: relative !important; top: 0 !important;)
 qualityassurancemag.com##.supersocialshare-container
+quantamagazine.org###newsletter
 quantamagazine.org##.scale0.flex-justify-center.flex.footer__social
 quantamagazine.org##.theme__anchors--solid.flex-justify-center.flex.hide.post__sidebar
 quantamagazine.org##.z10.fit-r.fit-l.fit-t.fixed
@@ -7968,6 +7977,8 @@ thewire.com##.header:style(position: relative !important; top: 0 !important;)
 thewire.com##.shares
 thewire.com##.shares.bottom-only
 thewire.com##.shares.loaded
+thewirecutter.com##.ad-728x90
+thewirecutter.com##.clearfix.social
 thewolfhall.com##.adsbygoogle
 thewolfhall.com##.onesignal-bell-container-bottom-left.onesignal-reset.onesignal-bell-container
 thewolfhall.com##.td-post-sharing-top.td-post-sharing
@@ -8130,7 +8141,10 @@ toptere.com##.et_social_mobile_on.et_social_sidebar_grow.et_social_rectangle.et_
 toptere.com##.fusion-sticky-shadow.fusion-header:style(position: relative !important; top: 0 !important;)
 toptere.com##.to-top-container
 toptere.com##.widget_monarchwidget.widget
+torontolife.com##.header-fix-top:style(position: absolute !important; top: 0 !important;)
+torontolife.com##.leaderboard.ad-frame--leaderboard
 torontolife.com##.primary-navigation:style(position: relative !important; top: 0 !important;)
+torontolife.com##.social-media-buttons
 torontosun.com###popupBox
 torrentfreak.com###logo
 torrentfreak.com###share
