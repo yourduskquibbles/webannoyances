@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:17 PM 2017-09-06
+! Last Modified: 12:58 PM 2017-09-06
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - unsuck the web and make it more user friendly!
@@ -20,6 +20,10 @@
 ##.buttonSet--highlightMenu.buttonSet
 ##.columns.twelve.mobile-four.post-bottom
 ##.connect_blue
+##.fa-facebook.fa
+##.fa-instagram.fa
+##.fa-twitter.fa
+##.fa-youtube.fa
 ##.fb-like
 ##.g-plusone
 ##.g-plusone.social
@@ -2645,10 +2649,14 @@ flashbak.com##headerv:style(position: relative !important; top: 0 !important;)
 flickr.com##.requiredToShowOnServer.mobile-app-upsell-view.view:style(position: relative !important; top: 0 !important;)
 flickr.com##.sohp-mobile-navable.fluid.styleguide-global-nav.global-nav-content:style(position: relative !important; top: 0 !important;)
 flocombat.com###current-item-marker
-flocombat.com##.all-nav-bars.mobile-nav-bar:style(position: relative !important; top: 0 !important;)
+flocombat.com##.all-nav-bars.mobile-nav-bar:style(position: absolute !important; top: 0 !important;)
+flocombat.com##.fa-facebook.fa
+flocombat.com##.fa-instagram.fa
+flocombat.com##.fa-twitter.fa
+flocombat.com##.fa-youtube.fa
 flocombat.com##.social
 flocombat.com##.social-container
-flocombat.com##header:style(position: relative !important; top: 0 !important;)
+flocombat.com##header:style(position: absolute !important; top: 0 !important;)
 floridatoday.com##.android-smart-banner.smart-banner
 floridatoday.com##.header-main:style(position: relative !important; top: 0 !important;)
 floridatoday.com##.site-header-inner-wrap-fixed.site-header-inner-wrap:style(position: relative !important; top: 0 !important;)
@@ -5392,6 +5400,10 @@ nhl.com##.follow
 nikkei.com###header:style(position: relative !important; top: 0 !important;)
 nikkei.com##.GCCMD_removeall.mail-magazine-article:style(position: relative !important; top: 0 !important;)
 nikkei.com##.follow-nar
+nine.com.au###sticky
+nine.com.au##.header-module__inner:style(position: relative !important; top: 0 !important;)
+nine.com.au##.module.share
+nine.com.au##.social
 nintendoeverything.com##.sd-sharing-enabled.sharedaddy
 nj.com##.adAdhesionSidebar
 nj.com##.adi-share-flyout.horizontal.adi-share.adi-share-auto
@@ -7440,6 +7452,15 @@ teenvogue.com##.site-header.component-sticky > div:nth-of-type(1):style(position
 teenvogue.com##.top.component-observable-social-share
 teenvogue.com##.top.social-share-top.component-observable-social-share
 teenvogue.com##.zergnet-container.component-zergnet
+telegraf.rs###wBall_1
+telegraf.rs###wBall_5
+telegraf.rs##.fb-icon-wrap
+telegraf.rs##.linkedin-icon-wrap
+telegraf.rs##.ng-scope.telegraf-header-icons
+telegraf.rs##.ng-scope.telegraf-now
+telegraf.rs##.share-counter-wrap
+telegraf.rs##.telegraf-header:style(position: absolute !important; top: 0 !important;)
+telegraf.rs##.twitter-icon-wrap
 telegraph.co.uk###message
 telegraph.co.uk###shareSideContainer
 telegraph.co.uk##.article__socials
@@ -7702,7 +7723,10 @@ theglobeandmail.com###GU_leftcontent
 theglobeandmail.com###GU_rightbtn
 theglobeandmail.com###c-ad--flex-gpt-2
 theglobeandmail.com###fixedpencil
+theglobeandmail.com###subscription-pencil-area
 theglobeandmail.com###top-furniture-area:style(position: relative !important; top: 0 !important;)
+theglobeandmail.com##.c-ad--ldbd.c-ad
+theglobeandmail.com##.c-header-title--article.c-header-title:style(position: absolute !important;)
 theglobeandmail.com##.c-header-title--scrolling-up.c-header-title--show.c-header-title--article.c-header-title:style(position: relative !important; top: 0 !important;)
 theglobeandmail.com##.pb-f-article-social-share-tools.pb-layout-item.pb-feature.feature-wrapper
 thegrio.com###headerbar:style(position: relative !important; top: 0 !important;)
