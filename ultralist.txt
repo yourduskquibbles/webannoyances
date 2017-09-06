@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 10:08 AM 2017-09-06
+! Last Modified: 11:06 AM 2017-09-06
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - unsuck the web and make it more user friendly!
@@ -33,6 +33,7 @@
 ##.mobile-floating-footer-show.mobile-floating-footer
 ##.notes-markers
 ##.notesMarkers
+##.onesignal-bell-container-bottom-right.onesignal-reset.onesignal-bell-container
 ##.popover.popover--bottom.is-withTransition
 ##.promoCard
 ##.share-toolbar.proxima.hide-for-small
@@ -304,6 +305,17 @@ airbnb.com##:xpath(.//*[@data-hypernova-key="p3sticky_navigationbundlejs"])
 airforcetimes.com##.js-pubsub-module.has-secondary-nav.layout-module.generic-module:style(position: relative !important; top: 0 !important;)
 airforcetimes.com##.sticky-chain-nav.attach:style(position: relative !important; top: 0 !important; width: 100% !important;)
 airliners.net##.stuck.stickyItem.clearfix.navbar-dark.utility-bar:style(position: relative !important; top: 0 !important;)
+airspacemag.com###InArticle_300x50_320x50_300x250
+airspacemag.com###Scroll-Nav
+airspacemag.com##.__pw-counter-horizontal.__pw-label-false.__pw-view-auto.__pw-padding-true.__pw-layout-horizontal.__pw-hover-false.__pw-size-32.pw-widget-269a7.__pw-theme-default.pw-widget
+airspacemag.com##.__pw-counter-horizontal.__pw-label-false.__pw-view-auto.__pw-padding-true.__pw-layout-horizontal.__pw-hover-false.__pw-size-32.pw-widget-aa1a9.__pw-theme-default.pw-widget
+airspacemag.com##.external-associated-products
+airspacemag.com##.is-sticky.sticky-block
+airspacemag.com##.newsletter-signup-article-wrapper
+airspacemag.com##.no-cover.nav-subscribe-box
+airspacemag.com##.scroll-nav-social
+airspacemag.com##.signup-wrapper
+airspacemag.com##.social-nav
 ajc.com##.header-wrapper:style(position: relative !important; top: 0 !important;)
 ajc.com##.hidden-md-down.footer-wrapper
 ajc.com##.hidden-md-down.sub-header-nav:style(position: relative !important; top: 0 !important;)
@@ -3014,6 +3026,7 @@ go.com##.share_like
 goal.com##.actions-bar-share
 goal.com##.clearfix.widget-header__wrapper:style(position: absolute !important; top: 0 !important;)
 goal.com##.social
+gocardless.com##.is-sticky.text-no-smoothing.text-heading.sticky-nav__inner:style(position: relative !important; top: 0 !important;)
 godfatherweb.com###topcontrol
 godfatherweb.com##.adsbygoogle
 godfatherweb.com##.share-post
@@ -3541,9 +3554,14 @@ idigitaltimes.com##.page-header
 idropnews.com###main-nav-cont:style(position: relative !important; top: 0 !important;)
 ieee.org###header:style(position: relative !important; top: 0 !important;)
 ieee.org###social-space
+ieee.org##.ad-module
 ieee.org##.ad-space
 ieee.org##.backtotop
+ieee.org##.isotope-item.recent-item.corner-item.ad-item-related.sml_article.item
+ieee.org##.isotope-item.recent-item.corner-item.ad-item.sml_article.item
 ieee.org##.medium-top-ad
+ieee.org##.social-links
+ieee.org##body.pinned #main:style(padding-top: 0px !important;)
 ifixit.com##.smartbanner
 iflscience.com##.newsletter-widget.widget
 iflscience.com##.page:style(padding-top: 0px !important;)
@@ -5705,6 +5723,12 @@ pando.com###social_links
 pando.com##.fyre-notifier-container
 pando.com##.share
 pando.com##.share_widgets
+pandora.com##.AuthHeader__authButtons--sticky.AuthHeader__authButtons:style(position: absolute !important; top: 0 !important;)
+pandora.com##.Container:style(overflow-x: hidden !important; overflow-y: auto !important;)
+pandora.com##.SearchModal--navStyle.SearchModal.region-searchModal:style(position: absolute !important; top: 0 !important;)
+pandora.com##.SearchSticky:style(position: absolute !important; top: 0 !important;)
+pandora.com##.region-topBar:style(position: absolute !important; top: 0 !important;)
+pandora.com##.sticky.AuthHeader--sticky.AuthHeader:style(position: absolute !important; top: 0 !important;)
 papermag.com###search-trigger
 papermag.com##.fb-like-popup
 papersource.com###cboxContent
@@ -6523,6 +6547,8 @@ rootupdate.com###back-top
 rootupdate.com###mks_social_widget-2
 rootupdate.com###sticky_header
 rotoworld.com##.RW_ad300
+rpiai.com##.floating-active.floating-header
+rpiai.com##.social-links
 rsf.org###overlays
 rstreet.org###floatingbuttons
 rt.com###header-nav:style(position: relative !important; top: 0 !important;)
@@ -6631,9 +6657,12 @@ scientificamerican.com##.nextStoryFly
 scientificamerican.com##.small-hide.footer-banner
 scientificamerican.com##.toaster-risen.global__toaster-ad
 scientificamerican.com##.tooltip-outer.share-box
+scitation.org##.fixed-header
+scitation.org##.share-section
+scitation.org##.sign-up-for-alerts
 scitation.org##.sticky-content.related-articles
 scitation.org##.sticky-content.slider-featured.related-articles
-scitation.org##.sticky-content.sticky-header:style(position: relative !important; top: 0 !important;)
+scitation.org##.submit-article
 scmp.com###scmp-newsletter-subscribe-form
 scmp.com##.affix.affix-processed.navbar-default.navbar.masthead-main-sticky-nav:style(position: relative !important; top: 0 !important;)
 scmp.com##.header--fixed.header:style(position: relative !important; top: 0 !important;)
@@ -6844,6 +6873,12 @@ sltrib.com##.social-tools
 slu.edu##.header:style(position: relative !important; top: 0 !important;)
 smartertravel.com##.headernav:style(position: relative !important; top: 0 !important;)
 smh.com.au##.is_fm-sticky-navigation.adops-gutter-after.header-wrap:style(position: relative !important; top: 0 !important;)
+smithsonianbooks.com##.books-social-media-icons
+smithsonianchannel.com###sticky-header:style(position: relative !important; top: 0 !important;)
+smithsonianjourneys.org##.onesignal-bell-container-bottom-right.onesignal-reset.onesignal-bell-container
+smithsonianjourneys.org##.social-icon
+smithsonianjourneys.org##.socialConnect
+smithsonianjourneys.org##header:style(position: absolute !important; top: 0 !important;)
 smithsonianmag.com###ATF_300x250_300x600_300x1050
 smithsonianmag.com###InArticle_300x50_320x50_300x250
 smithsonianmag.com###Scroll-Nav
@@ -6851,6 +6886,8 @@ smithsonianmag.com###onesignal-bell-container
 smithsonianmag.com##.__pw-counter-horizontal.__pw-label-false.__pw-view-auto.__pw-padding-true.__pw-layout-horizontal.__pw-hover-false.__pw-size-32.pw-widget-0efb6.__pw-theme-default.pw-widget
 smithsonianmag.com##.__pw-counter-horizontal.__pw-label-false.__pw-view-auto.__pw-padding-true.__pw-layout-horizontal.__pw-hover-false.__pw-size-32.pw-widget-30182.__pw-theme-default.pw-widget
 smithsonianmag.com##.__pw-counter-horizontal.__pw-label-false.__pw-view-auto.__pw-padding-true.__pw-layout-horizontal.__pw-hover-false.__pw-size-32.pw-widget-5c876.__pw-theme-default.pw-widget
+smithsonianmag.com##.__pw-counter-horizontal.__pw-label-false.__pw-view-auto.__pw-padding-true.__pw-layout-horizontal.__pw-hover-false.__pw-size-32.pw-widget-9f0a7.__pw-theme-default.pw-widget
+smithsonianmag.com##.__pw-counter-horizontal.__pw-label-false.__pw-view-auto.__pw-padding-true.__pw-layout-horizontal.__pw-hover-false.__pw-size-32.pw-widget-a542b.__pw-theme-default.pw-widget
 smithsonianmag.com##.__pw-counter-horizontal.__pw-label-false.__pw-view-auto.__pw-padding-true.__pw-layout-horizontal.__pw-hover-false.__pw-size-32.pw-widget-afde1.__pw-theme-default.pw-widget
 smithsonianmag.com##.__pw-counter-horizontal.__pw-label-false.__pw-view-auto.__pw-padding-true.__pw-layout-horizontal.__pw-hover-false.__pw-size-32.pw-widget-dad34.__pw-theme-default.pw-widget
 smithsonianmag.com##.__pw-counter-horizontal.__pw-label-false.__pw-view-auto.__pw-padding-true.__pw-layout-horizontal.__pw-hover-false.__pw-size-32.pw-widget-f9daa.__pw-theme-default.pw-widget
@@ -6863,6 +6900,10 @@ smithsonianmag.com##.newsletter-signup-article-wrapper
 smithsonianmag.com##.no-cover.nav-subscribe-box
 smithsonianmag.com##.signup-wrapper
 smithsonianmag.com##.smithsonian-journeys-travel.sidebar-bottom-article.module.plugin-wrapper
+smithsonianstore.com###_GUARANTEE_SealSpan
+smithsonianstore.com###___ratingbadge_0
+smithsonianstore.com###fancybox-overlay
+smithsonianstore.com###fancybox-wrap
 smittenkitchen.com###masthead:style(position: relative !important; top: 0 !important;)
 smittenkitchen.com###mobile-adhesive
 smobserved.com##.widen_vertical_padding.menu
@@ -7046,6 +7087,12 @@ spreadsheeto.com##.fusion-sticky-shadow.fusion-header:style(position: relative !
 spreadsheeto.com##.to-top-container
 sprigandsproutdc.com##.chch_shown.gold-1
 sprigandsproutdc.com##.synved-social-container-follow.synved-social-container
+springboard.com##.button--withSvgIcon.button--withIcon.u-baseColor--buttonLight.is-touchIconBlackPulse.button--chromeless.button--light.button
+springboard.com##.js-postActionsFooter.u-flexCenter.postActions
+springboard.com##.js-stickyFooter.u-xs-paddingRight10.u-xs-paddingLeft10.u-zIndexMetabar.u-paddingBottom10.u-paddingTop10.u-borderBox.u-boxShadowTop.u-backgroundWhite.u-sizeFullWidth.u-bottom0.u-fixed
+springboard.com##.u-tintSpectrum.u-tintBgColor.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorTransparentWhiteDarker.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
+springboard.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
+springboard.com##.u-xs-height95.u-height105.u-tintBgColor.js-metabarSpacer.metabar--spacer.metabar
 sputniknews.com###share
 sputniknews.com##.arrowup
 sputniknews.com##.b-header__nav-social
@@ -7111,6 +7158,7 @@ statnews.com##.nav-item-content-facebook.nav-item-content
 statnews.com##.nav-item-content-twitter.nav-item-content
 statnews.com##.share-bar.share
 statnews.com##.share-sticky.share
+statnews.com##.stat-form-inline
 statnews.com##.statplus.read-more
 statoil.com###navigation-fixed_language
 statoil.com###navigation-fixed_search
@@ -9070,8 +9118,10 @@ whatculture.com###app-nav-end
 whatculture.com##.app-nav__inner
 whatsapp.com##._2c2-:style(padding-top: 0px !important;)
 whatsapp.com##._bl7:style(position: relative !important; top: 0 !important;)
+whatsapp.com##.fixed.header:style(position: absolute !important; top: 0 !important;)
 whatsapp.com##.page-header--index.header:style(position: relative !important; top: 0 !important;)
 whatsapp.com##.page-header--index.page-header:style(position: relative !important; top: 0 !important;)
+whatsapp.com##.two--social.two.post-share
 whatsapp.com##body:style(padding-top: 0px !important;)
 whatsmyua.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 whatsmyua.com##.navbar-header:style(position: relative !important; top: 0 !important;)
