@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:58 PM 2017-09-06
+! Last Modified: 3:23 PM 2017-09-06
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - unsuck the web and make it more user friendly!
@@ -448,7 +448,9 @@ amzreviewtrader.com##.nav-main.nav:style(position: relative !important; top: 0 !
 anbox.io##.affix.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 android.com###anchor-nav:style(position: relative !important; top: 0 !important;)
 android.com###header:style(position: relative !important; top: 0 !important;)
+android.com##.l-header:style(position: relative !important; top: 0 !important; transform: none !important;))
 android.com##.nocontent.devsite-top-section:style(position: relative !important; top: 0 !important;)
+android.com##body:style(padding-top: 0px !important;)
 android.gs##.google-plus
 androidauthority.com###aa-subscribe-widget-wrap
 androidauthority.com###back-to-top
@@ -2122,6 +2124,9 @@ digitaljournal.com##.social-bar
 digitaljournal.com##body > div:nth-of-type(5) > div > div:style(position: relative !important; top: 0 !important;)
 digitaltrends.com##.h-register-newsletter.m-newsletter-minimal
 digitaltrends.com##.is-fixed.m-pint-wrap
+digitaltrends.com##.key-items
+digitaltrends.com##.m-pint-pos:style(position: relative !important; top: 0 !important;)
+digitaltrends.com##.m-share-list
 discourse.pi-hole.net##.clearfix.d-header:style(position: relative !important; top: 0 !important;)
 discover.com##.animation.header-wrapper:style(position: relative !important; top: 0 !important;)
 discover.com##.global-social-footer
@@ -2971,12 +2976,24 @@ geek.com###gksticky:style(position: relative !important; top: 0 !important;)
 geek.com###menu
 geek.com##.fixed.main-header:style(position: relative !important; top: 0 !important;)
 geek.com##.socialmediabottom.fixedfooter
-geekdad.com##:xpath(.//*[@data-alias="Navigation"])
+geekdad.com##.is_stuck.responsive-grid.grid-fluid-12-80-30.wrapper-fixed-grid.wrapper-fluid.wrapper:style(position: relative !important; top: 0 !important;)
+geekdad.com##.mega-stuck.mega-sticky.mega-menu-wrap
+geekwire.com###ad-300x600_top
+geekwire.com###ad-leaderboard
 geekwire.com###mobile-share-bar
-geekwire.com##.navbar-fixed-top.navbar-inverse.navbar.banner:style(position: relative !important; top: 0 !important;)
-geico.com###primary-header:style(position: relative !important; top: 0 !important;)
-geico.com##.main-header:style(position: relative !important; top: 0 !important;)
-geico.com##.print-hide.main-header:style(position: relative !important; top: 0 !important;)
+geekwire.com###newsletter-subscribe-sidebar
+geekwire.com##.col-md-8 > .hidden-xs.share
+geekwire.com##.hidden-xs.share
+geekwire.com##.nav-social.navbar-nav.nav
+geekwire.com##.navbar-fixed-top.navbar-inverse.navbar.banner:style(position: absolute !important; top: 0 !important;)
+geekwire.com##.newsfeed_adunit
+geekwire.com##.post-sidebar.col-md-4:style(position: relative !important; top: 0 !important;)
+geico.com###cat-banner ~ #wrapper:style(margin-top: 0px !important;)
+geico.com###cat-banner:style(position: absolute !important; top: 0 !important; margin-top: 0px !important;)
+geico.com###primary-header:style(position: absolute !important; top: 0 !important;)
+geico.com###sidebar:style(position: absolute !important; padding-top: 100px !important;)
+geico.com##.main-header:style(position: absolute !important; top: 0 !important;)
+geico.com##.print-hide.main-header:style(position: absolute !important; top: 0 !important;)
 genius.com##.article_header-inner > content-actions
 genius.com##.u-width_100 > .u-vertical_margins.u-text_center
 geniuspack.com##.fancybox-overlay-fixed.fancybox-overlay
@@ -4027,6 +4044,11 @@ klfy.com###masthead:style(position: relative !important; top: 0 !important;)
 knowyourmeme.com###media-controls
 knowyourmeme.com###mobile-sticky-ad
 knowyourmeme.com##.floating-fixed.floating-bar:style(position: relative !important; top: 0 !important;)
+knowyourmobile.com###__ic-notice
+knowyourmobile.com###page-bottom
+knowyourmobile.com###sticky-meta:style(position: relative !important; top: 0 !important;)
+knowyourmobile.com###title-group:style(position: relative !important; top: 0 !important;)
+knowyourmobile.com##.sharerich-1.sharerich-article-default-wrapper.sharerich-wrapper
 koaa.com###WNHeader:style(position: relative !important; top: 0 !important;)
 koaa.com###WNNavSearchSwitch:style(position: relative !important; top: 0 !important;)
 koat.com##.alerts-block:style(position: relative !important; top: 0 !important;)
