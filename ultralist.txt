@@ -1,15 +1,18 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 3:01 PM 2017-09-07
+! Last Modified: 12:04 AM 2017-09-08
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
-! Purpose: Block annoying web elements and reclaim lost screen real estate - unsuck the web and make it more user friendly!
+! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
 
 ! Start Web Annoyances Ultralist
 ###appIntercept
+###back-to-top
 ###cookie-policy
 ###dream-box
 ###dsq-indicator-north
 ###dsq-indicator-south
+###goTop
+###outbrain_widget_2
 ###slideOutBoxContainer
 ###slidebox
 ###smartbanner
@@ -23,6 +26,7 @@
 ##.columns.twelve.mobile-four.post-bottom
 ##.connect_blue
 ##.fa-facebook.fa
+##.fa-google-plus.fa
 ##.fa-instagram.fa
 ##.fa-twitter.fa
 ##.fa-youtube.fa
@@ -40,21 +44,25 @@
 ##.notes-markers
 ##.notesMarkers
 ##.onesignal-bell-container-bottom-right.onesignal-reset.onesignal-bell-container
+##.outbrain.recommend
 ##.popover.popover--bottom.is-withTransition
 ##.promoCard
 ##.share-toolbar.proxima.hide-for-small
+##.sharer
 ##.site-nav-logo.distraction-free-component
 ##.social
 ##.social-buttons
 ##.social-links
 ##.social-networks
 ##.social-sidebar
+##.socials
 ##.tab-bar-fixed.c-tab-bar
 ##.text-annotation-footnote-wrapper
 ##.twitter-follow-button
 ##.twitter-share-button
 ##.u-marginAuto.metabar-inner.js-metabarTop
 ##.u-xs-paddingRight10.u-xs-paddingLeft10.u-zIndexMetabar.u-paddingBottom10.u-paddingTop10.u-borderBox.u-boxShadowTop.u-backgroundWhite.u-sizeFullWidth.u-bottom0.u-fixed
+##.up_button
 /arscode-ninja-popups/*
 /chimpmatepro/*$script
 /chimpy/*
@@ -159,6 +167,8 @@ abc15.com##.share-header
 abc15.com##.share__social-items
 abc7.com##.nav-background
 abc7.com##.sticky.wrapper.nav-container-sticky:style(position: relative !important; top: 0 !important;)
+abc7chicago.com###feature-container:style(position: absolute !important; top: 0 !important;)
+abc7chicago.com##.social-icons.share
 abc7chicago.com##.sticky.wrapper.nav-container-sticky:style(position: relative !important; top: 0 !important;)
 abc7chicago.com##.top-share.share-panel-legacy.share-panel
 abc7ny.com##.footer-searchsocial
@@ -904,6 +914,11 @@ bloody-disgusting.com###mvp-top-head-wrap:style(position: relative !important; t
 bloomberg.com###adBlockerContainer
 bloomberg.com###bb-nav:style(position: relative !important; top: 0 !important; animation: none !important;)
 bloomberg.com##.article_interaction
+bloomberg.com##.bb-nav-social__link--facebook.bb-nav-social__link
+bloomberg.com##.bb-nav-social__link--linkedin.bb-nav-social__link
+bloomberg.com##.bb-nav-social__link--reddit.bb-nav-social__link
+bloomberg.com##.bb-nav-social__link--twitter.bb-nav-social__link
+bloomberg.com##.bb-nav-social__more-icon
 bloomberg.com##.dvz-v0-stuck.bb-nav-root:style(position: relative !important; top: 0 !important;)
 bloomberg.com##.in-article-ad-dummy
 bloomberg.com##.inline-newsletter
@@ -2479,6 +2494,10 @@ examiner-enterprise.com##.article-meta > .inner:style(position: relative !import
 examiner-enterprise.com##.gh-slider-wrapper:style(position: relative !important; top: 0 !important;)
 exede.com##.visible-lg.visible-md.hidden-sm.hidden-xs.navbar-fixed-top.navbar-default.navbar.desktop-navbar:style(position: relative !important; top: 0 !important;)
 expatsoftware.com##.subscribe-footer
+experian.com###back-to-top
+experian.com##.flx-yc.flx.main-nav-container:style(position: absolute !important; top: 0 !important;)
+experian.com##.main-nav-container-fixed-mobile.header-mobile:style(position: absolute !important; top: 0 !important;)
+experian.com##.main-nav-container-fixed.flx-yc.flx.main-nav-container:style(position: relative !important; top: 0 !important;)
 experts-exchange.com###col2Wrap
 experts-exchange.com###header:style(position: relative !important; top: 0 !important;)
 experts-exchange.com###topHeader:style(position: relative !important; top: 0 !important;)
@@ -2612,6 +2631,16 @@ fatwallet.com###password-less-signup-dialog
 fatwallet.com##.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-draggable
 fatwallet.com##.ui-widget-overlay
 fatwallet.com##TD[align="right"]
+fauquier.com###outbrain_widget_2
+fauquier.com##.content-above.share-container
+fauquier.com##.content-below.share-container
+fauquier.com##.fa-google-plus.fa
+fauquier.com##.fb.btn-link.btn-md.btn
+fauquier.com##.gp.btn-link.btn-md.btn
+fauquier.com##.hidden-print.asset-paging-container
+fauquier.com##.mailinglist-container
+fauquier.com##.outbrain.recommend
+fauquier.com##.tw.btn-link.btn-md.btn
 fb.com##.fb-like.wsh_pb10
 fcw.com##.socialLinks
 fcw.com##.social_share
@@ -2681,6 +2710,8 @@ flashbak.com##.social.desktop
 flashbak.com##headerv:style(position: relative !important; top: 0 !important;)
 flickr.com##.requiredToShowOnServer.mobile-app-upsell-view.view:style(position: relative !important; top: 0 !important;)
 flickr.com##.sohp-mobile-navable.fluid.styleguide-global-nav.global-nav-content:style(position: relative !important; top: 0 !important;)
+flightradar24.com###back-to-top
+flightradar24.com##.socials
 flocombat.com###current-item-marker
 flocombat.com##.all-nav-bars.mobile-nav-bar:style(position: absolute !important; top: 0 !important;)
 flocombat.com##.fa-facebook.fa
@@ -2860,6 +2891,14 @@ foxbusiness.com##.sidebars
 foxbusiness.com##.social
 foxbusiness.com##.sticky.social
 foxeslovelemons.com##.slicknav_menu:style(position: relative !important; top: 0 !important;)
+foxla.com###header:style(position: absolute !important; top: 0 !important;)
+foxla.com##.anv-splash-share
+foxla.com##.facebook
+foxla.com##.more
+foxla.com##.pad.bg-gray.row-wrapper
+foxla.com##.show-for-large-up.mod-story-progress.mod-accordion.mod-wrapper
+foxla.com##.social-share
+foxla.com##.twitter
 foxnews.com###janrainModalOverlay
 foxnews.com###navbar-main:style(position: relative !important; top: 0 !important;)
 foxnews.com###navbar-share
@@ -4140,6 +4179,8 @@ kraftrecipes.com##.floater-active-lg.floater-active-md.floater-active-sm.floater
 kraftrecipes.com##.in.fade.modal-backdrop
 kraftrecipes.com##.in.generic.acquisition-container.fade.modal.kraft-modal
 kraftrecipes.com##.modal-lg.modal-dialog
+krazywolf.com###move-to-top
+krazywolf.com##.top.shareit
 krcgtv.com##.position-1.ddb-align-center.component-ddb-300x250-v2
 krcgtv.com##.position-1.story-ddb-align-center.component-ddb-728x90-v2
 krcgtv.com##.position-2.story-ddb-align-center.component-ddb-728x90-v2
@@ -4745,6 +4786,8 @@ miami.cbslocal.com###cbs-site-ribbon:style(position: relative !important; top: 0
 miamiherald.com###newsletter-signUpWidget
 miamiherald.com###story-cta-widget
 miamiherald.com##.element_spacing_large.signup-widget
+miamiherald.com##.glyphicon-share.glyphicon
+miamiherald.com##.share-icons.mi-video-utility-bar
 miamiherald.com##.share-icons.mi-video-utilty-bar
 miamiherald.com##.share-tools-wrapper
 miaminewtimes.com##.sde-shadow
@@ -5159,6 +5202,7 @@ nautil.us##.leaderboard-ad-belt
 nautil.us##.main-content:style(padding-top: 0px !important;)
 nautil.us##.tw-share
 nautilus.org###header-2:style(position: relative !important; top: 0 !important;)
+naver.com###goTop
 navytimes.com##.ad-300X250.pb-ad-prod.pb-ad.pb-ad-container
 navytimes.com##.js-pubsub-module.has-secondary-nav.layout-module.generic-module
 navytimes.com##.newsletter.signup
@@ -6438,6 +6482,7 @@ rasmussenreports.com###cboxOverlay
 rasmussenreports.com###colorbox
 rasmussenreports.com##.join-us.module-c
 rasmussenreports.com##.narrow-cta.button-sprite
+rasmussenreports.com##.ndn_floatContainer.ndn_floatContainer_enabled:style(position: relative !important;)
 rasmussenreports.com##.newsletter-form
 rasmussenreports.com##.share-wrapper
 raspberrypi.org###header:style(position: relative !important; top: 0 !important;)
@@ -7246,6 +7291,9 @@ splitsider.com##.newsletter__wrapper
 sporkful.com###hero-mail
 sporkful.com##.fixed_section.sticky-nav.group.section:style(position: relative !important; top: 0 !important;)
 sporkful.com##.social
+sport.es###msg-cookie
+sport.es##.es.header-section.header:style(position: relative !important; top: 0 !important;)
+sport.es##.install-banner
 sportdiver.com##.main-header > .inner-wrapper:style(position: relative !important; top: 0 !important;)
 sportdiver.com##.main-header:style(position: relative !important; top: 0 !important;)
 sportfacts.org##.cd-fade-out.cd-is-visible.cd-top
@@ -7411,6 +7459,7 @@ stripes.com###pressplusOverlay
 stripes.com###social-bar-bottom
 stripes.com###social-bar-top
 stripes.com##.ad-notice.text-center.label
+stripes.com##.even-4.button-group
 stripes.com##.fadeIn1.animate.hide-for-large-up.tab-bar
 studybreaks.com###cb-nav-bar:style(position: relative !important; top: 0 !important;)
 studybreaks.com##.cb-menu-fw.cb-font-header.clearfix.cb-site-padding.cb-nav-bar-wrap:style(position: relative !important; top: 0 !important;)
@@ -7464,6 +7513,12 @@ syfy.com##.header:style(position: relative !important; top: 0 !important;)
 syfy.com##.layout__top-ad
 syfy.com##.share-widget-box__share.share-widget-box
 syfy.com##.syfywire-tracking-processed.zergnet-widget
+syracuse.com###adhesionUnit
+syracuse.com##.adi-share-flyout.horizontal.adi-share.adi-share-auto
+syracuse.com##.gig-button-sms.gig-button-container-sms
+syracuse.com##.gig-share-bar-container.gig-bar-container
+syracuse.com##.sharer
+syracuse.com##.sticky-nav-show.sticky-nav:style(position: relative !important; top: 0 !important; transition: none !important;)
 syriahr.com##.main-menu:style(position: relative !important; top: 0 !important;)
 t-nation.com##.header.navbar-fixed-top.navbar:style(position: relative !important; top: 0 !important;)
 tabletmag.com##.logo:style(position: relative !important; top: 0 !important;)
@@ -8530,6 +8585,9 @@ tractorsupply.com###dijit_Dialog_1_underlay
 tractorsupply.com###globalHeaderBannerMobile
 tractorsupply.com###header_mainContainer_outer:style(position: relative !important; top: 0 !important;)
 tractorsupply.com##.dijitBackgroundIframe
+transunion.com###headerMain:style(position: relative !important; top: 0 !important;)
+transunion.com###headerSection:style(position: relative !important; top: 0 !important;)
+transunion.com##.up_button
 travelandleisure.com##.content-pager__link--next.content-pager__link
 travelandleisure.com##.content-pager__link--prev.content-pager__link
 travelandleisure.com##.is-stuck.article-header:style(position: relative !important; top: 0 !important;)
@@ -9324,9 +9382,14 @@ wetpaint.com##.main-header.header:style(position: relative !important; top: 0 !i
 wetpaint.com##.nav-container:style(position: relative !important; top: 0 !important;)
 wetpaint.com##.text-centered.share-below-wrap
 wfaa.com##.is_stuck.site-nav:style(position: relative !important; top: 0 !important;)
+wftv.com###header-social
 wftv.com###header:style(position: relative !important; top: 0 !important;)
+wftv.com###main:style(padding-top: 0px !important; margin-top: 0px !important;)
 wftv.com###tabcontent-news
+wftv.com###wrapper:style(padding-top: 0px !important;)
+wftv.com##.fixed-desktop.wrap-portlets.pull-8.col-4
 wftv.com##.toggle-slide
+wftv.com##.ui-social
 wgno.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute !important;)
 wgno.com##.sd-sharing-enabled.sharedaddy
 wgntv.com##.stuck.sd-sharing-enabled.sharedaddy
@@ -9793,6 +9856,10 @@ yorkdispatch.com##.fixed.header:style(position: relative !important; top: 0 !imp
 yotatech.com###magicbar:style(position: relative !important; top: 0 !important;)
 yotatech.com###nav1:style(position: relative !important; top: 0 !important;)
 yotatech.com##.ib-header-top:style(position: relative !important; top: 0 !important;)
+youcaring.com##.footer-social-media
+youcaring.com##.formWrapper.footer-connect-signup
+youcaring.com##.header-bar:style(position: relative !important; top: 0 !important;)
+youcaring.com##.hidden-print.header:style(position: absolute !important; top: 0 !important;)
 youngcons.com##.js-header.c-header:style(position: relative !important; top: 0 !important;)
 youngcons.com##.o-responsive-text--desktop.o-responsive-text--tablet.o-responsive-text--mobile.o-responsive-text
 yourdictionary.com##.header-container.columns.large-12.twelve.floating-header:style(position: relative !important; top: 0 !important;)
