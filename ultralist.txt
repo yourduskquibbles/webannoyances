@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:40 AM 2017-09-08
+! Last Modified: 11:50 AM 2017-09-08
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -25,9 +25,12 @@
 ##.bx-impress.bx-fx-zoom-in
 ##.columns.twelve.mobile-four.post-bottom
 ##.connect_blue
+##.fa-envelope.fa
 ##.fa-facebook.fa
 ##.fa-google-plus.fa
 ##.fa-instagram.fa
+##.fa-linkedin.fa
+##.fa-reddit.fa
 ##.fa-twitter.fa
 ##.fa-youtube.fa
 ##.fb-like
@@ -47,6 +50,7 @@
 ##.outbrain.recommend
 ##.popover.popover--bottom.is-withTransition
 ##.promoCard
+##.share-bar
 ##.share-toolbar.proxima.hide-for-small
 ##.sharer
 ##.site-nav-logo.distraction-free-component
@@ -227,6 +231,7 @@ accuweather.com###offers
 accuweather.com###social-connect
 accuweather.com##.Header:style(position: relative !important; top: 0 !important;)
 accuweather.com##.addthis_toolbox.addthis_default_style
+accuweather.com##.footer-social
 accuweather.com##.panel-ad-mr.panel
 aclu.org##.share-icons.pane-aclu-components-share-icons.panel-pane
 aclu.org##.sticky-minimized.header:style(position: relative !important; top: 0 !important;)
@@ -1646,9 +1651,16 @@ cntraveler.com##.shop.scroll-to:style(position: relative !important; top: 0 !imp
 cntraveler.com##.stay.scroll-to:style(position: relative !important; top: 0 !important;)
 code42.com###header:style(position: relative !important; top: 0 !important;)
 codisec.com##.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important; top: 0 !important;)
+coindesk.com###coindesk_follow_us_widget-2
 coindesk.com##.article-share
+coindesk.com##.fa-envelope.fa
+coindesk.com##.fa-linkedin.fa
+coindesk.com##.fa-reddit.fa
 coindesk.com##.popup
+coindesk.com##.share-bar
 coindesk.com##.social
+coindesk.com##.widget_coindesk_freestar_atf_ad_unit_widget.widget
+coindesk.com##.widget_coindesk_freestar_btf_ad_unit_widget.widget
 coindesk.com##.wpsr-floatbar-float_left.wpsr-floatbar-white.wpsr-floatbar-movable.clearfix
 collinsdictionary.com##.navigation:nth-of-type(7):style(position: relative !important; top: 0 !important;)
 collinsdictionary.com##.sticky:style(position: relative !important; top: 0 !important;)
@@ -2279,6 +2291,12 @@ eastidahonews.com##.fa-google-plus.fa
 eastidahonews.com##.fa-twitter.fa
 eastidahonews.com##.fa-youtube.fa
 eastidahonews.com##.jDialog.fa-stack
+easydns.com###gotoTop
+easydns.com###header.sticky-header #header-wrap:style(position: absolute !important; top: 0 !important;)
+easydns.com###swifttagcontainerg0rad4vb8r
+easydns.com##.addtoany_content_bottom.addtoany_share_save_container
+easydns.com##.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important; top: 0 !important;)
+easydns.com##.navbar-fixed-top:style(position: absolute !important; top: 0 !important;)
 eater.com###chorus-social-fixed
 eater.com##.c-global-header__social
 eater.com##.c-newsletter-promo
@@ -2712,6 +2730,7 @@ flashbak.com##.shareaholic-ui.shareaholic-share-buttons-wrapper
 flashbak.com##.shrink.header-main-container.row:style(position: relative !important; top: 0 !important;)
 flashbak.com##.social.desktop
 flashbak.com##headerv:style(position: relative !important; top: 0 !important;)
+flexport.com##.zIndex10.sticky:style(position: relative !important; top: 0 !important;)
 flickr.com##.requiredToShowOnServer.mobile-app-upsell-view.view:style(position: relative !important; top: 0 !important;)
 flickr.com##.sohp-mobile-navable.fluid.styleguide-global-nav.global-nav-content:style(position: relative !important; top: 0 !important;)
 flightradar24.com###back-to-top
@@ -4160,6 +4179,15 @@ koat.com##.header-inner:style(position: relative !important; top: 0 !important;)
 kommersant.ru##.fixed_panel--is_shown.fixed_panel
 konbini.com##.fixed-nav
 koreatimes.co.kr##.view_sns_div
+korg.com###btn_pagetop
+korg.com###contents_info
+korg.com###contents_nav:style(position: relative !important; top: 0 !important;)
+korg.com###info_container
+korg.com###sns_sharethis
+korg.com###social_media
+korg.com##.st_facebook_hcount
+korg.com##.st_pinterest_hcount
+korg.com##.st_sharethis_hcount
 kotaku.com###sharingfooter
 kotaku.com##.footer-social
 kotaku.com##.js_ad-top-banner.ad-top-banner.js_ad-unit.ad-unit
@@ -4675,6 +4703,7 @@ medium.com##.is-active.popover--top.popover--quoteAttributions.popover--dark.js-
 medium.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBottomSection.u-tintSpectrum.u-tintBgColor.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar
 medium.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.js-metabar.u-clearfix.metabar
 medium.com##.is-maximized.metabar--affixed.metabar--postArticle.js-metabar.u-clearfix.metabar
+medium.com##.is-minimized.metabar--affixed.is-withBottomSection.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
 medium.com##.js-postActionsFooter.u-flexCenter.postActions
 medium.com##.u-absolute.u-transition--fadeIn300.u-sm-hide.u-foreground.js-postShareWidget
 medium.com##.u-backgroundTransparentWhiteDarkest.u-fixed.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
@@ -5558,7 +5587,8 @@ nfl.com##.yui3-nfl-rewards-drivebar-top-bar-wrapper
 nfl.com##:xpath(.//*[@class="yui3-overlay-content yui3-widget-stdmod"])
 nfl.com##:xpath(/html/body/*//div[@class="yui3-ff-feedback-content yui3-widget-content-expanded"])
 nflshop.com###NFLFooterContentBottomMiddleSocial
-nginx.com###masthead:style(position: relative !important; top: 0 !important;)
+nginx.com###masthead:style(position: absolute !important; top: 0 !important;)
+nginx.com##.single-product-17-navbar:style(position: relative !important; top: 0 !important;)
 nhl.com##.ad--250-empty.ad-responsive-slot
 nhl.com##.ad--250-empty.ad-right-rail.ad-centered
 nhl.com##.ad--top-empty.ad-responsive-slot.ad--top.ad
@@ -5774,6 +5804,7 @@ nytimes.com##.growl-v2-gradient
 nytimes.com##.inline-share-wrapper
 nytimes.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
 nytimes.com##.lazyloaded.embeddedContent
+nytimes.com##.marginalia-item.related-combined-coverage-marginalia.marginalia:style(margin-top: 0px !important;)
 nytimes.com##.masthead.in-content.masthead-theme-transparent-ffffff:style(background-color: transparent !important; position: relative !important; top: 0 !important;)
 nytimes.com##.masthead.in-content:style(background-color: transparent !important; position: relative !important; top: 0 !important;)
 nytimes.com##.masthead:style(background-color: transparent !important; position: relative !important; top: 0 !important;)
@@ -7135,6 +7166,7 @@ smithsonianmag.com###ATF_300x250_300x600_300x1050
 smithsonianmag.com###InArticle_300x50_320x50_300x250
 smithsonianmag.com###Scroll-Nav
 smithsonianmag.com###onesignal-bell-container
+smithsonianmag.com##.__pw-counter-horizontal.__pw-label-false.__pw-view-auto.__pw-padding-true.__pw-layout-horizontal.__pw-hover-false.__pw-size-32
 smithsonianmag.com##.__pw-counter-horizontal.__pw-label-false.__pw-view-auto.__pw-padding-true.__pw-layout-horizontal.__pw-hover-false.__pw-size-32.pw-widget-0efb6.__pw-theme-default.pw-widget
 smithsonianmag.com##.__pw-counter-horizontal.__pw-label-false.__pw-view-auto.__pw-padding-true.__pw-layout-horizontal.__pw-hover-false.__pw-size-32.pw-widget-30182.__pw-theme-default.pw-widget
 smithsonianmag.com##.__pw-counter-horizontal.__pw-label-false.__pw-view-auto.__pw-padding-true.__pw-layout-horizontal.__pw-hover-false.__pw-size-32.pw-widget-5c876.__pw-theme-default.pw-widget
@@ -7320,7 +7352,8 @@ sportdiver.com##.main-header:style(position: relative !important; top: 0 !import
 sportfacts.org##.cd-fade-out.cd-is-visible.cd-top
 sportingcharts.com###site-container > header:style(position: relative !important; top: 0 !important;)
 sportingnews.com##.ad-wrapper
-sportingnews.com##.navbar-fixed-top.site-header:style(position: relative !important; top: 0 !important;)
+sportingnews.com##.is_stuck.sidebar-stick:style(position: relative !important; top: 0 !important;)
+sportingnews.com##.navbar-fixed-top.site-header:style(position: absolute !important; top: 0 !important;)
 sportingnews.com##.share
 sportlerfrage.net##.Masthead.is-affixed:style(animation: none !important; position: absolute !important; top: 0 !important;)
 sportlerfrage.net##.Masthead.is-slidingUp:style(animation: none !important; position: absolute !important; top: 0 !important;)
@@ -9590,8 +9623,10 @@ wncn.com##.row-leaderboard.row
 wncn.com##.sd-sharing-enabled.sharedaddy
 wncn.com##.size-medium.wp-image-352109.alignleft
 wncn.com##.size-medium.wp-image-352110.alignleft
+wnd.com###additional-options
 wnd.com###l-social-float > .pw-counter-show.pw-size-medium.pw-widget
 wnd.com###site-header:style(position: relative !important; top: 0 !important;)
+wnd.com##.specific-social
 wnd.com##.window-body
 wnyc.org###ember976
 wnyc.org##.scrollable-body:style(position: relative !important; top: 0 !important;)
