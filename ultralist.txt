@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:04 AM 2017-09-08
+! Last Modified: 12:40 AM 2017-09-08
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -965,15 +965,19 @@ bolt.io##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBottomSect
 bonappetit.com###masthead-banner-ad:style(position: relative !important; top: 0 !important;)
 bonappetit.com###menu:style(position: relative !important; top: 0 !important;)
 bonappetit.com###supernav:style(position: relative !important; top: 0 !important;)
+bonappetit.com##.bar-style-copy
 bonappetit.com##.col2.y-rail
 bonappetit.com##.desktop-header-container > .site-header:style(position: relative !important; top: 0 !important;)
 bonappetit.com##.header-ad-area
 bonappetit.com##.header-container--fixed.header-container:style(position: relative !important; top: 0 !important;)
 bonappetit.com##.inner
 bonappetit.com##.main-site-header:style(position: relative !important; top: 0 !important;)
+bonappetit.com##.secondary-content
 bonappetit.com##.site-header:style(position: relative !important; top: 0 !important;)
 bonappetit.com##.social-toolbar
 bonappetit.com##.subscribe-box
+bonappetit.com##.vertical-center.content-widget.clearfix > .ba-social-share
+bonappetit.com##.vertical.ba-social-share
 booking.wowair.com##._2yafig57rg:style(position: relative !important; top: 0 !important;)
 bookscanner.de##.cc-FloatingButtonBarContainer-right.cc-FloatingButtonBarContainer
 bookscanner.de##.cc-sharebuttons-align-left.cc-sharebuttons-design-square.cc-sharebuttons-style-colored.cc-sharebuttons-size-32.cc-sharebuttons-element
@@ -4600,6 +4604,8 @@ matadornetwork.com##.stuck-mid.sticky.post-share-wrapper
 matadornetwork.com##.stuck-mid.sticky.sticky-social-wrapper
 mathworks.com###go-top
 mathworks.com##.affix.includes_subnav.sticky_header_container:style(position: relative !important; top: 0 !important;)
+maxim.com##.m-header--social-nav
+maxim.com##.m-social
 mayoclinic.org##.social
 mby.com###embed_code-29
 mby.com###navigation:style(position: relative !important; top: 0 !important;)
@@ -4696,7 +4702,10 @@ melmagazine.com##.u-xs-height95.u-height105.u-tintBgColor.js-metabarSpacer.metab
 melmagazine.com##.u-xs-paddingRight10.u-xs-paddingLeft10.u-zIndexMetabar.u-paddingBottom10.u-paddingTop10.u-borderBox.u-boxShadowTop.u-backgroundWhite.u-sizeFullWidth.u-bottom0.u-fixed
 menshealth.com###header:style(position: relative !important; top: 0 !important;)
 menshealth.com###sharebar-195281
+menshealth.com###tablet-mobile-menu
+menshealth.com##.pinit-btn-container
 menshealth.com##.prev-item
+menshealth.com##.right_rail
 menshealth.com##.share-buttons
 menshealth.com##.sticky.inner
 menshealth.com##.vertical.sharebar
@@ -5570,7 +5579,11 @@ nj.com##.sticky-nav-show:style(transition: none !important;)
 nj.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 nknews.org##.scroll-fix.header.header-main:style(position: relative !important; top: 0 !important;)
 nltimes.nl###header:style(position: relative !important; top: 0 !important;)
-nme.com###navigation
+nme.com###header:style(position: absolute !important; top: 0 !important;)
+nme.com###wrapper:style(padding-top: 0px !important;)
+nme.com##.menu-social-container
+nme.com##.post-byline-inner:style(position: relative !important; top: 0 !important;)
+nme.com##.social-share
 nola.com###adhesionUnit
 nola.com###social_21176281
 nola.com##.sticky-nav-show.sticky-nav:style(position: relative !important; top: 0 !important;)
@@ -5883,6 +5896,7 @@ outerbanks.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative
 outkickthecoverage.com###LayoutHeader:style(position: relative !important; top: 0 !important;)
 outline.com##outline-toolbar
 outsideonline.com##.block.block-subscribe.block--with-border.shifter
+outsideonline.com##.footer__social
 outsideonline.com##.nudger__inner
 outsideonline.com##.share-toolbox--vert.share-toolbox.article-share
 outsideonline.com##.social.icons-custom.social--count.article-social.article-social--side
@@ -5973,9 +5987,12 @@ patheos.com##.pw-size-large.button-type-square.pw-button-twitter.pw-button
 patheos.com##.ra1-pw-icon-email.ra1-pw-icon.pw-icon
 patheos.com##.simple-signup
 patheos.com##.socialmedia-buttons
+patreon.com##.TBrbB.u1gaxw-0
 patreon.com##._2JO-modules-Navigation-components-MobileNavbar--navbar:style(position: relative !important; top: 0 !important;)
 patreon.com##._3fN-modules-Navigation--navigationContainer:style(position: relative !important; top: 0 !important;)
 patreon.com##.ebITgp:style(position: absolute !important; top: 0 !important;)
+patreon.com##.iXIfQn.d9l0cn-1:style(position: absolute !important; top: 0 !important;)
+patreon.com##.jdmagM.u1gaxw-0 > div:nth-of-type(2):style(position: relative !important;)
 patreon.com##.sticky:style(position: relative !important; top: 0 !important;)
 patreon.com##.w14-modules-Navigation-components-Navbar--navbarContainer:style(position: relative !important; top: 0 !important;)
 paypal.com###header:style(position: relative !important; top: 0 !important;)
@@ -6144,6 +6161,7 @@ playboard.me###\34 2mattersAnnounce
 playboard.me###uvTabLabel
 playboard.me##.navbar-fixed-top.navbar-inverse.navbar
 playboy.com##.box-1.bg-bunny.main:style(position: relative !important; top: 0 !important;)
+playerwives.com###main-header:style(position: absolute !important; top: 0 !important;)
 plays.tv###page-header:style(position: relative !important; top: 0 !important;)
 plays.tv##.feed-foot
 plays.tv##.fixed.stickied.tabs
@@ -6334,6 +6352,9 @@ projectcensored.org###lpl
 projectcensored.org###lpl-overlay
 proofpoint.com##.scroll-header.js-header.header:style(position: relative !important; top: 0 !important;)
 propublica.org##.fb
+propublica.org##.is-fixed.semi-fixed.story-tools
+propublica.org##.module-follow.pp-module
+propublica.org##.newsletter
 propublica.org##.series-promotion.promotion
 propublica.org##.tw
 propublica.org##header:style(position: relative !important; top: 0 !important;)
@@ -9020,7 +9041,7 @@ vimeo.com##.js-app_banner.app_banner
 vimeo.com##.nav_bar.bar:style(position: relative !important; top: 0 !important;)
 vimeo.com##.sidedock
 vimeo.com##.wrap_content:style(padding-top: 0px !important;)
-vinepair.com###header-container:style(position: relative !important; top: 0 !important;)
+vinepair.com###header-container:style(position: absolute !important;)
 vinepair.com##.facebook
 vinepair.com##.first-social-block
 vinepair.com##.icon.nav-toggle
@@ -9031,6 +9052,8 @@ vinepair.com##.pin-me-hover
 vinepair.com##.pinterest
 vinepair.com##.second-social-block
 vinepair.com##.twitter
+vinepair.com##body.page:style(padding-top: 0px !important;)
+vinepair.com##body.single:style(padding-top: 0px !important;)
 viralinam.com###BackToTop
 viralinam.com###social_networks
 viralinam.com##.sharepost
@@ -9937,6 +9960,7 @@ zyngaplayerforums.com##.Reactions
 ||hellobar.com^$third-party,script,important
 ||leadpages.co*$third-party
 ||maxtraffic.com$script
+||menshealth.com/*/advagg_js/*$script,domain=menshealth.com
 ||mint.com/*Logout_Loan_Center.png$image
 ||mol.im/*/160108_skin_beach-*.png$image
 ||mol.im/*/160108_skin_coffee-left.png$image
