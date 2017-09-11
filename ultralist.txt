@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:41 PM 2017-09-08
+! Last Modified: 11:07 AM 2017-09-11
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -50,6 +50,7 @@
 ##.outbrain.recommend
 ##.popover.popover--bottom.is-withTransition
 ##.promoCard
+##.sd-sharing-enabled.sharedaddy
 ##.share-bar
 ##.share-toolbar.proxima.hide-for-small
 ##.sharer
@@ -822,6 +823,7 @@ belitsoft.com##header:style(position: relative !important; top: 0 !important;)
 bellingcat.com##.navigation-main:style(position: relative !important; top: 0 !important;)
 beltmag.com###popup
 bensbargains.com###main-nav:style(position: relative !important; top: 0 !important;)
+berkeley.edu##.sd-sharing-enabled.sharedaddy
 bestbuy.com###pdp-sticky-header:style(position: relative !important; top: 0 !important;)
 bestride.com##.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important;)
 bet.com##.header__nav__bar:style(position: relative !important; top: 0 !important;)
@@ -1341,6 +1343,9 @@ cepro.com##.sticky:style(position: relative !important; top: 0 !important;)
 certsimple.com##.article-nav:style(position: relative !important; top: 0 !important;)
 cevolt.com###totop
 cevolt.com##.el-social-icons
+cgtn.com##.g-header:style(position: absolute !important; top: 0 !important;)
+cgtn.com##.header-follow-us
+cgtn.com##.share-banner
 change.org###main-header-responsive:style(position: relative !important; top: 0 !important;)
 change.org##.in.modal
 change.org##.js-mobile-action-button-container.visible-xs.position-fixed-bottom:style(position: relative !important;)
@@ -3715,9 +3720,12 @@ ibtimes.com###dfp-ad-right2-wrapper
 ibtimes.com###dfp-ad-right3-wrapper
 ibtimes.com##.art-social-toolbar.clearfix
 ibtimes.com##.fixed.page-header:style(position: relative !important; top: 0 !important;)
+ibtimes.com##.fixed.videocontent:style(position: static !important;)
 ibtimes.com##.language-block.span4
 ibtimes.com##.sticky-bar.visible-desktop.show
+ibtimes.com##.sticky_social
 ibtimes.com##.stickyhead:style(position: relative !important; top: 0 !important;)
+ibtimes.com##body:style(padding-top: 0px !important;)
 idahostatejournal.com###site-navbar-container:style(position: relative !important; top: 0 !important;)
 idahostatesman.com###newsletter-signUpWidget
 idahostatesman.com##.cta-fullwidth.subscription-cta-widget
@@ -3762,6 +3770,7 @@ ijr.com##:xpath(.//*[@data-reactid="62"])
 imausa.com###snppopup-exit
 imausa.com##.scrolled.scroll_header_top_area.fixed.page_header:style(position: relative !important; top: 0 !important;)
 imbibemagazine.com##.sticky.main-menu-fixed:style(position: relative !important; top: 0 !important;)
+imdb.com##.icon-link-bar.link-bar
 imgur.com###header:style(position: relative !important; top: 0 !important;)
 imgur.com##.AppBanner-long.AppBanner-secondLvl.AppBanner
 imgur.com##.Button-rounded.Button-primary.Button.getTheApp
@@ -3988,6 +3997,11 @@ investopedia.com##.meganav.header:style(position: relative !important; top: 0 !i
 investorjunkie.com##.nav-down.site-header:style(position: relative !important; top: 0 !important;)
 investors.com##.text-center.leaderboard-ad.pushdown-ad.site-header-ad.ads
 ipaddress.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
+iphonehacks.com##.floatBottom.nc_wrapper
+iphonehacks.com##.social-last.social-wid
+iphonehacks.com##.sw-pinit-center.sw-pinit-top.sw-pinit-button
+iphonehacks.com##.swp_one.scale-fullWidth.scale-100.swp_o_fullColor.swp_i_fullColor.swp_d_fullColor.swp_flatFresh.nc_socialPanel
+iphonehacks.com##.swp_three.scale-fullWidth.scale-100.swp_o_fullColor.swp_i_fullColor.swp_d_fullColor.swp_flatFresh.nc_socialPanel
 ipolitics.ca##.fb_iframe_widget.fb-like
 ipolitics.ca##.header-sticky.desktop.header:style(position: relative !important; top: 0 !important;)
 ipolitics.ca##.nav-share.nav
@@ -5465,12 +5479,14 @@ news-leader.com##.site-nav-social-link.site-nav-icon-link.site-nav-first-seconda
 news-leader.com##.utility-bar-wrap
 news.com.au###header-fixed:style(position: relative !important; top: 0 !important;)
 news.com.au###middleAd
+news.com.au###module-more-in
 news.com.au###nav:style(position: relative !important; top: 0 !important;)
 news.com.au###sticky-ad
 news.com.au##.nav-social-facebook.nav-social
 news.com.au##.nav-social-googleplus.nav-social
 news.com.au##.nav-social-instagram.nav-social
 news.com.au##.nav-social-twitter.nav-social
+news.com.au##.share-tools
 news.com.au##.share-tools-story.share-tools
 news.com.au##.widget_newscorpau_ads.sidebar-right-hand-column.widget
 news.harvard.edu###inner-wrap:style(margin-top: 0px !important;)
@@ -6228,6 +6244,7 @@ plays.tv##.fixed.stickied.tabs
 plays.tv##.mod-page-support
 plays.tv##:xpath(.//*[@data-module-id="VOPFeedCTAMod"])
 plos.org###floatTitleTop:style(position: relative !important; top: 0 !important;)
+plus.google.com##.Wxeofe.bhUHJf:style(position: absolute !important; top: 0 !important;)
 plus.google.com##.Wxeofe.bhUHJf:style(position: absolute !important;)
 pnc.com##.smaller.collapsible-header:style(position: relative !important; top: 0 !important;)
 pnc.com##.visible.back-top
@@ -6717,6 +6734,7 @@ reddit.com##.SmartBanner
 reddit.com##.TopNav:style(position: relative !important; top: 0 !important;)
 reddit.com##.TransparentOverlay
 reddit.com##.TransparentOverlay__overlay
+reddit.com##.XPromoListingClickModal
 reddit.com##.dfp-ad-container
 reddit.com##.fixed.active.read-next
 reddit.com##.newsletter-container.newsletterbar.infobar
