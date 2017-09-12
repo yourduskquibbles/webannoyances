@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 10:53 AM 2017-09-12
+! Last Modified: 12:21 PM 2017-09-12
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -262,9 +262,12 @@ about.com##.post-lock.leaderboard.gpt:style(position: relative !important; top: 
 accenture.com###WebPartWPQ8
 accenture.com###block-jumplink:style(position: relative !important; top: 0 !important;)
 accenture.com###fbLike
-accenture.com###header-topnav:style(position: relative !important; top: 0 !important;)
+accenture.com###header-topnav:style(position: absolute !important; top: 0 !important;)
+accenture.com##.hidden-tooltip.cardShare
 accenture.com##.hidden-xs.cookie-nav
+accenture.com##.share-container
 accenture.com##.stay-connected-master
+accenture.com##body:style(padding-top: 0px !important;)
 accmag.com###head-main-wrap:style(position: relative !important; top: 0 !important;)
 accmag.com###sticky-header:style(position: relative !important; top: 0 !important;)
 accmag.com##.adsbygoogle
@@ -698,6 +701,7 @@ arlnow.com##.river-600x300-ads
 arlnow.com##.sd-sharing-enabled.sharedaddy
 arlnow.com##.secondary-menu:style(position: relative !important; top: 0 !important;)
 arlnow.com##.widget.social-media-widget
+armis.com##.headhesive--stick.headhesive--clone.navbar-static-top.navbar-default.navbar.banner:style(position: relative !important; top: 0 !important;)
 armytimes.com###top-header:style(position: relative !important; top: 0 !important;)
 armytimes.com##.site-color.secondary-navigation:style(position: relative !important; top: 0 !important;)
 armytimes.com##.sticky-chain-nav.attach:style(position: relative !important; top: 0 !important; width: 100% !important;)
@@ -904,6 +908,8 @@ bagleywatchco.com##.site-header--fixed.site-header--homepage.site-header--transp
 baidu.com###head:style(position: relative !important; top: 0 !important;)
 baidu.com##.s_down:style(position: relative !important; top: 0 !important;)
 baidu.com##.s_form:style(position: relative !important; top: 0 !important;)
+baincapital.com###__header:style(position: relative !important; top: 0 !important;)
+baincapital.com###topcontrol
 bakingsteel.com###hbl_operator_state_div
 bakingsteel.com###mainNavigation:style(position: relative !important; top: 0 !important;)
 bakingsteel.com###showOnScrollWrapper:style(position: relative !important; top: 0 !important;)
@@ -1282,6 +1288,7 @@ brainyquote.com###bq-tn-id:style(position: relative !important; top: 0 !importan
 brainyquote.com##.is-sticky.sticky-wrapper:style(position: relative !important; top: 0 !important;)
 brave.com##.top-nav-collapse.navbar-fixed-top.navbar-default.navbar.one-page-header:style(position: relative !important; top: 0 !important;)
 bravocompanyusa.com##.sb-toggle.sb-tab
+breakingmalware.com##.et_social_mobile_on.et_social_sidebar_grow.et_social_rectangle.et_social_animated.et_social_slideright.et_social_visible_sidebar.et_social_sidebar_networks
 breitbart.com###BBStoreLead
 breitbart.com###BBStoreW
 breitbart.com###EmailOptinM
@@ -1613,6 +1620,12 @@ cc.com###oo_tab_1
 cc.com###tcr-header:style(position: relative !important; top: 0 !important;)
 cc.com##.primary_background.top_outer:style(position: relative !important; top: 0 !important;)
 cdapress.com##.fixed.sticky.contain-to-grid:style(position: relative !important; top: 0 !important;)
+ceb.com##.stick.header-menu:style(position: relative !important; top: 0 !important;)
+cebglobal.com##.global-nav:style(position: relative !important; top: 0 !important;)
+cebglobal.com##.onscroll.navbar-fixed-top.navbar
+cebglobal.com##.onscroll.secondary-nav:style(position: relative !important; top: 0 !important;)
+cebglobal.com##.qp-engage
+cebglobal.com##body:style(padding-top: 0px !important;)
 celebritynetworth.com###cnwAndroidBanner:style(position: relative !important; top: 0 !important;)
 celebritynetworth.com###cnw_scroller:style(position: relative !important; top: 0 !important;)
 celebritynetworth.com###content_tab_switcher:style(position: relative !important; top: 0 !important;)
@@ -2135,6 +2148,8 @@ complex.com##.header-bar__social
 complex.com##.social-bar
 complex.com##.social-follow-buttons
 complex.com##.suitcase-ad
+computer.org##.cb-menu-fw.cb-font-header.clearfix.cb-site-padding.cb-nav-bar-wrap:style(position: relative !important; top: 0 !important;)
+computer.org##.synved-social-container-share.synved-social-container
 computerandvideogames.com##.future-cookie-bar
 computerworld.com###share-tool
 computerworld.com###sticky-head:style(position: relative !important; top: 0 !important;)
@@ -2813,6 +2828,8 @@ delmarvanow.com##.site-nav-social-link.site-nav-icon-link.site-nav-first-seconda
 delmarvanow.com##.site-nav-social-link.site-nav-icon-link.site-nav-first-secondary-link.site-nav-end-link.site-nav-link-theme-dark-green.site-nav-link
 delmarvanow.com##.story-tools
 delmarvanow.com##.utility-bar-wrap
+deloitte.com###header:style(position: absolute !important; top: 0 !important;)
+deloitte.com##.cookie-container
 demingheadlight.com##.android-smart-banner.smart-banner
 demingheadlight.com##.bx-creative
 demingheadlight.com##.bx-impress-in
@@ -3109,6 +3126,7 @@ duke.edu###header:style(position: relative !important; top: 0 !important;)
 dummies.com##.navbar-fixed-top.main-nav.navbar:style(position: relative !important; top: 0 !important;)
 dxc.technology##.cscMainHeader:style(position: relative !important; top: 0 !important;)
 dxomark.com###dxo-bottom-banner
+earthnetworks.com##.header-inner:style(position: absolute !important; top: 0 !important;)
 eastidahonews.com##.fa-facebook.fa
 eastidahonews.com##.fa-google-plus.fa
 eastidahonews.com##.fa-twitter.fa
@@ -4312,6 +4330,8 @@ grandst.com###logged_out_wall
 grandst.com###share_holder
 grandst.com###site_overlay
 granta.com##.small-nav
+grantthornton.com##.global-header__main:style(position: absolute !important; top: 0 !important;)
+grantthornton.com##.global-header__sticky-nav:style(position: absolute !important; top: 0 !important;)
 grasscity.com##.sticky_wrapper:style(position: relative !important; top: 0 !important;)
 grasswire.com###sticky_header:style(position: relative !important; top: 0 !important;)
 greatfallstribune.com##.android-smart-banner.smart-banner
@@ -4844,6 +4864,8 @@ huronconsultinggroup.com##header:style(position: relative !important; top: 0 !im
 hyatt.com##.header:style(position: absolute !important; top: 0 !important;)
 hybriders.com##.dark.top-bar
 i-e-e.info###main-header:style(position: absolute !important; top: 0 !important;)
+ibm.com###ibm-masthead:style(position: absolute !important; top: 0 !important;)
+ibm.com##.ibm-chevron-up-link.ibm-nospacing
 ibtimes.co.in##.fixed-social.sticky
 ibtimes.co.uk###article-left-side-share-panel
 ibtimes.co.uk###navi-wrap:style(position: relative !important; top: 0 !important;)
@@ -5049,6 +5071,7 @@ inews.co.uk##.matrix-button
 inews.co.uk##.slab-navigation.slab
 informer.com##.notify
 informnapalm.org###sttotop
+infosys.com###header-2
 infowars.com###masthead-navigation:style(position: relative !important; top: 0 !important;)
 infowars.com###message
 infowars.com###newsletter-side-widget
@@ -5536,6 +5559,8 @@ kotaku.com##.newsletter-subscribe--email.newsletter-subscribe
 kotaku.com##.twelve.mobile-four.columns.user-bar-inside
 kottke.org###follow
 kottke.org##.post-sidebar
+kpmg.com###btnShare
+kpmg.com##.global-navigation:style(position: absolute !important; top: 0 !important;)
 kpopstarz.com##.at_tools
 kpopstarz.com##.follow
 kpopstarz.com##.nwletter
@@ -8443,6 +8468,8 @@ pud.com###header:style(position: absolute !important; top: 0 !important;)
 pud.com##.iframe-controls--desktop.tmblr-iframe--loaded.tmblr-iframe--unified-controls.tmblr-iframe:style(position: absolute !important; top: 0 !important;)
 putlocker.rs###header:style(position: absolute !important; top: 0 !important;)
 pvplive.net##.nav-stuck:style(position: relative !important; top: 0 !important;)
+pwc.com###menuBarWrapper:style(position: absolute !important; top: 0 !important;)
+pwc.com###shareBtn
 q13fox.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
 q13fox.com##.sd-sharing-enabled.sharedaddy
 q13fox.com##body:style(padding-top: 0px !important;)
@@ -8731,6 +8758,9 @@ redfin.com###RegistrationLightbox_underlay
 redfin.com###sideBarContent
 redflagnews.com###headerAnnouncementWrapper:style(position: relative !important; top: 0 !important;)
 redflagnews.com##.visible.sqs-popup-overlay.sqs-widget.yui3-widget
+redhat.com###main-nav-wrap:style(position: relative !important; top: 0 !important;)
+redhat.com###to-top
+redhat.com##.scroll-to-fixed-fixed.mini-bar-inner
 redskins.com###TNFLSubNavigation_main:style(position: relative !important; top: 0 !important;)
 redskins.com###nflMenuHeader:style(position: relative !important; top: 0 !important;)
 redstate.com##.newsletter-sign-up
@@ -10002,7 +10032,9 @@ techrepublic.com###share-bar
 techrepublic.com##.fixed.fixation:style(position: relative !important; top: 0 !important;)
 techrepublic.com##.nav-social-links
 techspot.com###header-ts:style(position: relative !important; top: 0 !important;)
-techtarget.com###page-header:style(position: relative !important; top: 0 !important;)
+techtarget.com###social-icons-desktop
+techtarget.com##.en.header_v2.header:style(position: relative !important; top: 0 !important;)
+techtarget.com##.nav-social
 techtimes.com##.bts_social
 techtimes.com##.hd-fixed.bk-header:style(position: relative !important; top: 0 !important;)
 techwalla.com###email-capture
@@ -10795,9 +10827,12 @@ therecord.com##.fa-angle-up.fa
 therecord.com##.main-header:style(position: absolute !important;)
 therecord.com##ads
 therecord.com##body > span
+theregister.co.uk###article_newsletter_signup
+theregister.co.uk###follow_btns_top
 theregister.co.uk###site_nav:style(position: relative !important; top: 0 !important;)
 theregister.co.uk###top_nav:style(position: relative !important; top: 0 !important;)
 theregister.co.uk##.article_social_btns
+theregister.co.uk##.dcl.alt_colour.bot_article.social_btns
 theresurgent.com##.social
 theresurgent.com##.socnet
 therightscoop.com###trs_connect-2
@@ -11363,6 +11398,7 @@ trekmovie.com##.adsbygoogle
 trekmovie.com##.mh-group.mh-share-buttons
 trellian.com###sidenavigation
 trellian.com##.smaller:style(position: relative !important; top: 0 !important;)
+trendmicro.com##.navbar-main-fixed.mainNavMenu:style(position: relative !important; top: 0 !important;)
 tribtoday.com###top_header:style(position: relative !important; top: 0 !important;)
 tribtoday.com###wprmenu_bar:style(position: relative !important; top: 0 !important;)
 tribunemedia.com##.scrolled.page_header.with_hover_bg_color.scrolled_not_transparent.fixed.dark.scroll_header_top_area:style(position: relative !important; top: 0 !important;)
