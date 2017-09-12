@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 10:19 AM 2017-09-12
+! Last Modified: 10:34 AM 2017-09-12
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -61,6 +61,7 @@
 ##.social-networks
 ##.social-sidebar
 ##.socials
+##.ssbp--theme-2.ssbp--fixed-left.ssbp-wrap.ssbp-set--one
 ##.tab-bar-fixed.c-tab-bar
 ##.text-annotation-footnote-wrapper
 ##.twitter-follow-button
@@ -116,9 +117,12 @@
 49ers.com###nflMenuHeader:style(position: relative !important; top: 0 !important;)
 5newsonline.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute !important; top: 0 !important;)
 5newsonline.com##.sd-sharing-enabled.sharedaddy
-6abc.com##.frame-social
+6abc.com###feature-container:style(position: relative !important; top: 0 !important;)
+6abc.com##.share-panel-legacy.share-panel
 6abc.com##.social-icons.share
 6abc.com##.sticky.wrapper.nav-container-sticky:style(position: relative !important; top: 0 !important;)
+6abc.com##.top-share.share-panel-legacy.share-panel
+6abc.com##body:style(padding-top: 0px !important;)
 800notes.com###skin_main_header:style(position: relative !important; top: 0 !important;)
 8bitdo.com###head > .container:style(position: relative !important; top: 0 !important;)
 8bitdo.com###head:style(position: relative !important; top: 0 !important;)
@@ -185,6 +189,14 @@ abc15.com##.share-header
 abc15.com##.share__social-items
 abc2news.com##.js-mini-masthead.masthead:style(position: relative !important; top: 0 !important;)
 abc2news.com##.layout--share__second
+abc30.com###feature-container:style(position: relative !important; top: 0 !important;)
+abc30.com##.share-panel-legacy.share-panel
+abc30.com##.social-icons.share
+abc30.com##.sticky.wrapper.nav-container-sticky:style(position: relative !important; top: 0 !important;)
+abc30.com##.top-share.share-panel-legacy.share-panel
+abc30.com##body:style(padding-top: 0px !important;)
+abc3340.com##.active.v2.sd-header-wrapper:style(position: relative !important; top: 0 !important;)
+abc3340.com##body:style(padding-top: 0px !important;)
 abc7.com###feature-container:style(position: relative !important; top: 0 !important;)
 abc7.com##.nav-background
 abc7.com##.share-panel-legacy.share-panel
@@ -197,6 +209,12 @@ abc7chicago.com##.social-icons.share
 abc7chicago.com##.sticky.wrapper.nav-container-sticky:style(position: relative !important; top: 0 !important;)
 abc7chicago.com##.top-share.share-panel-legacy.share-panel
 abc7chicago.com##body:style(padding-top: 0px !important;)
+abc7news.com###feature-container:style(position: relative !important; top: 0 !important;)
+abc7news.com##.share-panel-legacy.share-panel
+abc7news.com##.social-icons.share
+abc7news.com##.sticky.wrapper.nav-container-sticky:style(position: relative !important; top: 0 !important;)
+abc7news.com##.top-share.share-panel-legacy.share-panel
+abc7news.com##body:style(padding-top: 0px !important;)
 abc7ny.com###feature-container:style(position: relative !important; top: 0 !important;)
 abc7ny.com##.footer-searchsocial
 abc7ny.com##.nav-background
@@ -385,6 +403,9 @@ al.com###adv_header:style(position: relative !important; top: 0 !important;)
 al.com###adv_mobi_edition
 al.com###social_21069380
 al.com##.sticky-nav-show.sticky-nav:style(position: relative !important; top: 0 !important;)
+alabamanews.net###popmake-overlay
+alabamanews.net##.popmake
+alabamanews.net##.ssbp--theme-2.ssbp--fixed-left.ssbp-wrap.ssbp-set--one
 alamogordonews.com##.android-smart-banner.smart-banner
 alamogordonews.com##.bx-creative
 alamogordonews.com##.bx-impress-in
@@ -11910,6 +11931,7 @@ w3schools.com###skyscraper
 w3schools.com###topnav:style(position: relative !important; top: 0 !important;)
 w3schools.com##.sharethis.w3-text-grey
 w3schools.com##.sidesection:nth-of-type(4)
+waaytv.com##tqwidget
 wafb.com###header:style(position: relative !important; top: 0 !important;)
 wafb.com###smartbanner
 wafb.com###toolbar:style(position: relative !important; top: 0 !important;)
@@ -12382,6 +12404,7 @@ wjla.com##.ddb
 wjla.com##.sd-gallery-share-toolbar
 wjla.com##.social-links
 wjla.com##.v2.sd-header-wrapper:style(position: relative !important; top: 0 !important;)
+wjla.com##body:style(padding-top: 0px !important;)
 wkrg.com###actionbar
 wkrg.com##.entry-header-sharing.sd-social-icon.robots-nocontent
 wkrg.com##.sd-sharing-enabled.sharedaddy
@@ -12584,6 +12607,8 @@ wtop.com##.row.NewsAlerts
 wtop.com##.socialmedia
 wtsp.com##.page__header:style(position: relative !important; top: 0 !important;)
 wtsp.com##.sharing
+wtto21.com##.active.v2.sd-header-wrapper:style(position: relative !important; top: 0 !important;)
+wtto21.com##body:style(padding-top: 0px !important;)
 wtvr.com###actionbar
 wtvr.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
 wtvr.com##.sd-sharing.sd-social-icon-text.sd-social.sd-block.robots-nocontent
