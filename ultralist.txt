@@ -1,10 +1,11 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:21 PM 2017-09-12
+! Last Modified: 12:33 PM 2017-09-12
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
 
 ! Start Web Annoyances Ultralist
+###amp-cookie-notice
 ###appIntercept
 ###back-to-top
 ###cookie-policy
@@ -51,6 +52,7 @@
 ##.popover.popover--bottom.is-withTransition
 ##.promoCard
 ##.sd-sharing-enabled.sharedaddy
+##.sdc-site-share--amp.sdc-site-share
 ##.share-bar
 ##.share-toolbar.proxima.hide-for-small
 ##.sharer
@@ -1463,10 +1465,8 @@ businessweek.com###oo_tab
 businessweek.com##.share_buttons
 businessweek.com##.slideout_container
 businessweek.com##.sub_sales
-businesswire.com###bw-controls
-businesswire.com###bw-nav
-businesswire.com###bw-search-js
-businesswire.com##header
+businesswire.com###bw-meta:style(position: absolute !important;)
+businesswire.com##body > header:style(position: relative !important; top: 0 !important;)
 bustle.com###ember389:style(position: relative !important; top: 0 !important;)
 bustle.com###ember412
 bustle.com##.nav-container:style(position: relative !important; top: 0 !important;)
@@ -9347,9 +9347,11 @@ sketchfab.com###responsive-header:style(position: relative !important; top: 0 !i
 sketchfab.com##.social
 skinnytaste.com##.slicknav_menu
 skip.it##header:style(position: relative !important; top: 0 !important;)
+sky.com###amp-cookie-notice
 sky.com###breaking_news_ticker
 sky.com##.sdc-news-footer__list--social.sdc-news-footer__list
 sky.com##.sdc-site-cookie-notice--visible.sdc-site-cookie-notice--fixed-bottom.sdc-site-cookie-notice
+sky.com##.sdc-site-share--amp.sdc-site-share
 sky.com##.sdc-site-share__list
 skysports.com###cookie-notice
 skysports.com##.article__social.social-list
