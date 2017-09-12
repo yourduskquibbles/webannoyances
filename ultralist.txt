@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 2:44 PM 2017-09-12
+! Last Modified: 2:50 PM 2017-09-12
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -647,7 +647,9 @@ appadvice.com##.aa_clearfix.share
 appalachianmagazine.com###td-header-menu:style(position: relative !important; top: 0 !important;)
 appalachianmagazine.com##.td-header-wrap:style(position: relative !important; top: 0 !important;)
 appendto.com##.fusion-sticky-shadow.fusion-header:style(position: relative !important; top: 0 !important;)
-apple.com##.ac-ln-wrapper
+apple.com###ac-localnav:style(position: relative !important; top: 0 !important;)
+apple.com##.component.sharesheet
+apple.com##.sharesheet-content
 appleinsider.com###article-share-container
 appleinsider.com##.adsbygoogle
 ar15.com##.cd-is-visible.cd-bottom
@@ -8815,6 +8817,7 @@ renttherunway.com##.mfp-ready.auth-form.mfp-auto-cursor.mfp-wrap
 renttherunway.com##.mfp-ready.auth-form.mfp-bg
 renttherunway.com##.ss-tooltip-wrapper
 renttherunway.com##.ss-tooltip-wrapper-unlimited
+replicationindex.wordpress.com###actionbar
 reporternews.com##.android-smart-banner.smart-banner
 reporternews.com##.bx-creative
 reporternews.com##.bx-impress-in
