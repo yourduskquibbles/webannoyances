@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 10:06 AM 2017-09-12
+! Last Modified: 10:19 AM 2017-09-12
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -167,10 +167,15 @@ abc.net.au###navigationPrimary4:style(position: relative !important; top: 0 !imp
 abc.net.au##.clearfix.share-cont
 abc.net.au##.doctype-cmcollection.view-collection-social-media-promo
 abc.net.au##.mobile-sticky
+abc11.com###feature-container:style(position: relative !important; top: 0 !important;)
 abc11.com##.nav-background
+abc11.com##.share-panel-legacy.share-panel
 abc11.com##.sticky.wrapper.nav-container-sticky:style(position: relative !important; top: 0 !important;)
+abc11.com##.top-share.share-panel-legacy.share-panel
+abc11.com##body:style(padding-top: 0px !important;)
 abc13.com###feature-container:style(position: relative !important; top: 0 !important;)
 abc13.com##.frame-social
+abc13.com##.share-panel-legacy.share-panel
 abc13.com##.shortcode-container
 abc13.com##.social-icons.share
 abc13.com##.sticky.wrapper.nav-container-sticky:style(position: relative !important; top: 0 !important;)
@@ -180,18 +185,27 @@ abc15.com##.share-header
 abc15.com##.share__social-items
 abc2news.com##.js-mini-masthead.masthead:style(position: relative !important; top: 0 !important;)
 abc2news.com##.layout--share__second
+abc7.com###feature-container:style(position: relative !important; top: 0 !important;)
 abc7.com##.nav-background
 abc7.com##.share-panel-legacy.share-panel
 abc7.com##.sticky.wrapper.nav-container-sticky:style(position: relative !important; top: 0 !important;)
 abc7.com##.top-share.share-panel-legacy.share-panel
-abc7chicago.com###feature-container:style(position: absolute !important; top: 0 !important;)
+abc7.com##body:style(padding-top: 0px !important;)
+abc7chicago.com###feature-container:style(position: relative !important; top: 0 !important;)
+abc7chicago.com##.share-panel-legacy.share-panel
 abc7chicago.com##.social-icons.share
 abc7chicago.com##.sticky.wrapper.nav-container-sticky:style(position: relative !important; top: 0 !important;)
 abc7chicago.com##.top-share.share-panel-legacy.share-panel
+abc7chicago.com##body:style(padding-top: 0px !important;)
+abc7ny.com###feature-container:style(position: relative !important; top: 0 !important;)
 abc7ny.com##.footer-searchsocial
+abc7ny.com##.nav-background
 abc7ny.com##.responsive-ad.ad-banner.ad
+abc7ny.com##.share-panel-legacy.share-panel
 abc7ny.com##.social-icons.share
 abc7ny.com##.sticky.wrapper.nav-container-sticky:style(position: relative !important; top: 0 !important;)
+abc7ny.com##.top-share.share-panel-legacy.share-panel
+abc7ny.com##body:style(padding-top: 0px !important;)
 abclocal.go.com##.fbShare
 abclocal.go.com##.links
 abclocal.go.com##.shareThis
@@ -1086,6 +1100,7 @@ bloody-disgusting.com###mvp-mob-soc-wrap
 bloody-disgusting.com###mvp-top-head-wrap:style(position: relative !important; top: 0 !important;)
 bloomberg.com###adBlockerContainer
 bloomberg.com###bb-nav:style(position: relative !important; top: 0 !important; animation: none !important;)
+bloomberg.com###sharebuttons
 bloomberg.com##.article_interaction
 bloomberg.com##.bb-nav-social__link--facebook.bb-nav-social__link
 bloomberg.com##.bb-nav-social__link--linkedin.bb-nav-social__link
@@ -4511,6 +4526,7 @@ hawaiinewsnow.com###smartbanner
 hawaiinewsnow.com###toolbar
 hawaiinewsnow.com##.sticky.cdev-menu-nav:style(position: relative !important; top: 0 !important;)
 hawaiinewsnow.com##.story-feed
+haxx.se###masthead:style(position: relative !important; top: 0 !important;)
 hazlitt.net###block-dfp-global-leaderboard
 hazlitt.net###region-navigation:style(position: relative !important; top: 0 !important;)
 hazlitt.net###zone-masthead:style(position: relative !important; top: 0 !important;)
@@ -7779,6 +7795,7 @@ patreon.com##.iXIfQn.d9l0cn-1:style(position: absolute !important; top: 0 !impor
 patreon.com##.jdmagM.u1gaxw-0 > div:nth-of-type(2):style(position: relative !important;)
 patreon.com##.sticky:style(position: relative !important; top: 0 !important;)
 patreon.com##.w14-modules-Navigation-components-Navbar--navbarContainer:style(position: relative !important; top: 0 !important;)
+paulplowman.com###scrollup
 paypal.com###header:style(position: relative !important; top: 0 !important;)
 paysimple.com##.wrapper-top.container:style(position: relative !important; top: 0 !important;)
 pbo.co.uk###navigation:style(position: relative !important; top: 0 !important;)
