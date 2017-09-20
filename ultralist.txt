@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 6:21 PM 2017-09-20
+! Last Modified: 7:21 PM 2017-09-20
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -1126,6 +1126,9 @@ birthmoviesdeath.com##.fa-lg.fa-twitter.fa
 bitmoji.com##.header:style(position: relative !important; top: 0 !important;)
 bizjournals.com###boundary-2__sticker-0 > .sm-only__expander.xs-only__expander
 bizjournals.com###tour-prompt.prompt.prompt--full-width
+bizjournals.com##.clearfix.infinite-links-chunk
+bizjournals.com##.hidden--print.hidden--sm.hidden--xs.container--wide.container
+bizjournals.com##.module--inline-padded.striped--champagne.email__module.module
 bizjournals.com##.prompt__content
 blackhat.com###social-wrapper
 blacklistednews.com##.navbar-fixed-top.no-border-radius.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
@@ -6937,6 +6940,13 @@ muslimpress.com###base-header:style(position: relative !important; top: 0 !impor
 muslimpress.com###share-icons
 muslimpress.com##.social-icon
 myaccount.google.com##.tl:style(position: relative !important; top: 0 !important;)
+myajc.com###follow-this-story
+myajc.com##.cm-story-share
+myajc.com##.in.fade.modal-backdrop
+myajc.com##.in.fade.modal.full-modal-type2.full-modal.cmg-styles.Mg2-connext
+myajc.com##.main-nav-container:style(position: relative !important; top: 0 !important;)
+myajc.com##.modal-open:style(overflow-x: hidden !important; overflow-y: auto !important;)
+myajc.com##.modal-scrollable
 myce.com##.like-button.shrinkme.white-gradient
 myce.com##.smaller.fixed.shrinkme.white-gradient.regular-height.shadow.show-for-large-up.sticky:style(position: relative !important; top: 0 !important;)
 mycentraljersey.com##.android-smart-banner.smart-banner
@@ -13154,8 +13164,6 @@ yachtingworld.com##.social-container.col-author.col-sm-6.col-xs-5
 yahoo.com###Companion-0-CanvasStickyShareButtons-Proxy
 yahoo.com###Hero-0-FeatureBar-smartphone-Proxy
 yahoo.com###Navigation:style(position: relative !important; top: 0 !important; transition: none !important; transform: none !important; -webkit-transform: none !important;)
-yahoo.com###RegularBottom-0-CanvasCommunityBar-Proxy > .Mih\(50px\).Z\(12\).Pos\(r\).cover-community-bar > .Mih\(46px\).Z\(3\).Bdtc\(\#e2e2e6\).Bdts\(s\).Bdtw\(1px\).Bgc\(\#fff\).W\(100\%\).Pos\(f\).Trstf\(e\).Trsp\(a\).Trsdu\(0\.3s\).B\(0\).canvas-community-bar
-yahoo.com###RegularBottom-0-CanvasCommunityBar-Proxy > .Mih\(50px\).Z\(12\).Pos\(r\).cover-community-bar > div:nth-of-type(3) > .Z\(2\).Bgc\(\#fff\).W\(100\%\).B\(0\).Pos\(f\).signed-out
 yahoo.com###UH-0-Header:style(position: relative !important; top: 0 !important;)
 yahoo.com###UH-1-NavLite:style(position: relative !important; top: 0 !important;)
 yahoo.com###UH:style(position: relative !important; top: 0 !important;)
@@ -13185,6 +13193,7 @@ yahoo.com##.T\(-20px\).End\(20px\).Pos\(a\)
 yahoo.com##.YDC-Header:style(position: absolute !important; top: 0 !important; transition: none !important; transform: none !important; -webkit-transform: none !important;)
 yahoo.com##.action-bar:style(position: relative !important; top: 0 !important;)
 yahoo.com##.canvas-community-bar
+yahoo.com##.cover-community-bar
 yahoo.com##.cta-overlay
 yahoo.com##.follow-us-list
 yahoo.com##.ginsuAd
@@ -13194,7 +13203,7 @@ yahoo.com##.share-button-group
 yahoo.com##.side-buttons
 yahoo.com##.tdv2-applet-navrail
 yahoo.com##.y-header:style(position: relative !important; top: 0 !important;)
-yahoo.com##.yui-sv-hd.ct-box-hd:style(position: absolute !important;)
+yahoo.com##.yui-sv-hd.ct-box-hd:style(position: relative !important; top: 0 !important;)
 yahoo.com##.yui3-overlay-focused.yui3-overlay-modal.yui3-widget-stacked.yui3-widget-positioned.yui3-overlay.yui3-widget
 yahoo.com##.yui3-overlay-mask
 yammer.com###O365_NavHeader:style(position: relative !important; top: 0 !important;)
