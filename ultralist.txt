@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 3:44 PM 2017-09-20
+! Last Modified: 6:21 PM 2017-09-20
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -45,6 +45,7 @@
 ##.highlightMenu-inner
 ##.is-visible.js-postActionsBar.postActionsBar
 ##.js-postActionsBarContent.row.postActionsBar-content
+##.js-postActionsFooter.u-flexCenter.postActions
 ##.js_top-nav-wrap.top-nav.fixed.shadow-bottom
 ##.mobile-floating-footer-show.mobile-floating-footer
 ##.notes-markers
@@ -72,6 +73,8 @@
 ##.twitter-follow-button
 ##.twitter-share-button
 ##.u-marginAuto.metabar-inner.js-metabarTop
+##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
+##.u-xs-hide.u-xs-height56.u-height65.u-verticalAlignTop.u-inlineBlock.u-alignMiddle
 ##.u-xs-paddingRight10.u-xs-paddingLeft10.u-zIndexMetabar.u-paddingBottom10.u-paddingTop10.u-borderBox.u-boxShadowTop.u-backgroundWhite.u-sizeFullWidth.u-bottom0.u-fixed
 ##.up_button
 /arscode-ninja-popups/*
@@ -835,6 +838,8 @@ autoblog.com##.guttered.top-nav-wrap:style(position: relative !important; top: 0
 autoblog.com##.tooltipster-content
 autoblog.com##.tooltipster-fade-show.tooltipster-fade.ab_product_promo.tooltipster-default.tooltipster-base
 autolist.com###smartbanner
+automateexcel.com##.customizednav.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute !important;)
+automateexcel.com##.sidebar.col-md-2.col-sm-3:style(position: absolute !important;)
 automattic.com###actionbar
 automattic.com##.sd-sharing.sd-social-icon.sd-social.sd-block.robots-nocontent
 automobilemag.com##.addthis_button_email.email.icon.social-icon
@@ -1743,7 +1748,7 @@ cheatsheet.com###navigation:style(position: relative !important; top: 0 !importa
 cheatsheet.com##.ad-300-250
 cheatsheet.com##.hm-show.sh.icon-social
 checkio.org##.is-visible.js-postActionsBar.postActionsBar
-checkio.org##.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
+checkio.org##.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: absolute !important; top: 0 !important;)
 checkout51.com##header:style(position: relative !important; top: 0 !important;)
 chefsfeed.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 chefsfeed.com##.rrssb-1.rrssb-buttons.social-cont
@@ -1944,6 +1949,8 @@ cityam.com###footer-social
 cityam.com##.clearfix.social
 cityam.com##.hidden-sm.hidden-xs.social-links.navigation-spacer.nav
 cityam.com##.js-navigation-affix:style(position: absolute !important; top: 0 !important;)
+cityandstatepa.com##.fa-facebook-square.fa
+cityandstatepa.com##.navbar-default.navbar-fixed-top.navbar:style(position: absolute !important; top: 0 !important;)
 citylab.com###blocker-msg-start
 citylab.com###social-sticky
 citylab.com##.c-newsletter--footer.c-newsletter
@@ -3746,6 +3753,7 @@ fivethirtyeight.com###header-global:style(position: relative !important; top: 0 
 fivethirtyeight.com###masterad
 fivethirtyeight.com##.lp-share
 fivethirtyeight.com##.newsletter.flexible.widget
+fivethirtyeight.com##.page-header:style(position: relative !important; top: 0 !important;)
 fivethirtyeight.com##.sd-sharing-enabled.sharedaddy
 fivethirtyeight.com##.social-links
 fivethirtyeight.com##.social-share-item.footer-menu-item
@@ -5920,6 +5928,7 @@ lawnewz.com##.countdown-clock:style(position: absolute !important; top: 0 !impor
 lawnewz.com##.social
 lawnewz.com##.teads-helper.full:style(position: relative !important; top: 0 !important;)
 lawnewz.com##body:style(padding-top: 0px !important;)
+lawyersgunsmoneyblog.com###admania_top
 lcsun-news.com##.android-smart-banner.smart-banner
 lcsun-news.com##.bx-creative
 lcsun-news.com##.bx-impress-in
@@ -5985,7 +5994,7 @@ ledwards.com##.js-stickyFooter.u-xs-paddingRight10.u-xs-paddingLeft10.u-zIndexMe
 ledwards.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
 ledwards.com##.u-xs-height56.u-height65.js-metabarSpacer.metabar--spacer.metabar
 ledwards.com##.u-xs-hide.u-xs-height56.u-height65.u-verticalAlignTop.u-inlineBlock.u-alignMiddle
-ledwards.com##.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
+ledwards.com##.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: absolute!important; top: 0 !important;)
 legacy.com##.Questionnaire__isOpen___2e031.Questionnaire__Questionnaire___3v3BM
 legalinsurrection.com##.text-36.sidebarBlock.widget.notitle.centered
 legalweek.com##.nav-fixed.nav:style(position: relative !important; top: 0 !important;)
@@ -6137,7 +6146,7 @@ logrocket.com##.svgIcon--25px.svgIcon--facebookFilled.svgIcon
 logrocket.com##.svgIcon--25px.svgIcon--twitterFilled.svgIcon
 logrocket.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
 logrocket.com##.u-xs-height95.u-height105.js-metabarSpacer.metabar--spacer.metabar
-logrocket.com##.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
+logrocket.com##.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: absolute !important; top: 0 !important;)
 lohud.com##.android-smart-banner.smart-banner
 lohud.com##.bx-creative
 lohud.com##.bx-impress-in
@@ -6291,6 +6300,10 @@ manutd.com###bottompager
 manutd.com###toolbar:style(position: relative !important; top: 0 !important;)
 manutd.com##.banner-ad.desktop
 manutd.com##.cookie-policy-message
+mapbox.com##.js-postActionsFooter.u-flexCenter.postActions
+mapbox.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
+mapbox.com##.u-xs-hide.u-xs-height56.u-height65.u-verticalAlignTop.u-inlineBlock.u-alignMiddle
+mapbox.com##.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: absolute !important; top: 0 !important;)
 mapio.net###mapwrap:style(position: absolute !important;)
 mapio.net###marrowd
 mapio.net###marrowu
@@ -7605,6 +7618,8 @@ nhl.com##.follow
 nikkei.com###header:style(position: relative !important; top: 0 !important;)
 nikkei.com##.GCCMD_removeall.mail-magazine-article:style(position: relative !important; top: 0 !important;)
 nikkei.com##.follow-nar
+nikkei.com##.mail-magazine-article
+nikkei.com##.snsicon-list
 nine.com.au###sticky
 nine.com.au##.header-module__inner:style(position: relative !important; top: 0 !important;)
 nine.com.au##.module.share
@@ -7858,7 +7873,7 @@ nyulocal.com##.button--withSvgIcon.button--withIcon.u-baseColor--buttonNormal.is
 nyulocal.com##.js-postActionsFooter.u-flexCenter.postActions
 nyulocal.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
 nyulocal.com##.u-xs-height95.u-height105.js-metabarSpacer.metabar--spacer.metabar
-nyulocal.com##.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
+nyulocal.com##.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: absolute !important; top: 0 !important;)
 nzherald.co.nz##.byline-shares
 nzherald.co.nz##.floatingNav:style(position: relative !important; top: 0 !important;)
 nzherald.co.nz##.mobile-only.pb-ad-curated.min-height-405.max-width-1130
