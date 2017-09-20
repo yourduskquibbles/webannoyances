@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 2:46 PM 2017-09-20
+! Last Modified: 3:44 PM 2017-09-20
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -685,8 +685,15 @@ ar15.com##.cd-is-visible.cd-bottom
 ar15.com##.cd-is-visible.cd-top
 ar15.com##.show-for-large.user-bar:style(position: relative !important; top: 0 !important;)
 ara.cat###adviceCookies
-ara.cat###header:style(position: absolute !important; top: 0 !important;)
+ara.cat###dev-nav-bar:style(position: relative !important; top: 0 !important;)
+ara.cat###header:style(position: relative !important; top: 0 !important;)
+ara.cat###headerCookiesAdvice
 ara.cat###sharepost
+ara.cat##.ara-header-sticky-blk-a:style(position: relative !important; top: 0 !important;)
+ara.cat##.ara-header-sticky-blk-b:style(position: relative !important; top: 0 !important;)
+ara.cat##.ara-tracking-social-facebook.ara-header-ico-fb
+ara.cat##.ara-tracking-social-twitter.ara-header-ico-tw
+ara.cat##.cp-contentnav
 architecturaldigest.com##.component-site-header--sticky.component-site-header:style(position: relative !important; top: 0 !important;)
 archive.org###wm-ipp > div:style(position: relative !important; top: 0 !important; padding-bottom: 10px !important;)
 archive.org##.iconochive-facebook
@@ -3184,9 +3191,12 @@ drivetribe.com##._3Z0E3
 droid-life.com###site-primary-navigation
 droid-life.com##.align-left.share-buttons
 droid-life.com##.align-right.share-buttons
-droid-life.com##.site__header:style(position: absolute !important; top: 0 !important;)
+droid-life.com##.site__body--content:style(margin-top: 0px !important;)
+droid-life.com##.site__header:style(position: relative !important; top: 0 !important;)
+droid-life.com##.site__header__banner:style(position: relative !important; top: 0 !important;)
 droid-life.com##.site__priNav--sections__scroller
 droid-life.com##.site__priNav:before:style(position: absolute !important; top: 0 !important;)
+droid-life.com##.social-links
 droid-life.com##.t-letter-spacing-small.menu.site__priNav--menu
 droid-life.com##.t-letter-spacing-small.menu.site__priNav--menu:style(position: absolute !important; top: 0 !important;)
 droidguiding.com###nav-topbar
@@ -10668,7 +10678,11 @@ thedodo.com##.nav__social-bar--large.nav__social-bar
 thedodo.com##.topbar:style(position: relative !important; top: 0 !important;)
 thedrive.com###nav:style(position: relative !important; top: 0 !important;)
 theengineroom.org##.header:style(position: absolute !important; top: 0 !important;)
+theepochtimes.com###slim-header:style(position: absolute !important; top: 0 !important;)
 theepochtimes.com###social-position
+theepochtimes.com##.pull-right.span3
+theepochtimes.com##.social_bar
+theepochtimes.com##.sticky.title_wrap
 thefader.com##.locked_nav.main_nav:style(position: relative !important; top: 0 !important;)
 thefederalist.com###head-ad-space
 thefederalist.com###scrollable_box_asd
@@ -12581,11 +12595,14 @@ weather.com##.styles-MgjbRUHi__ModalLayout__24Ncp.theme__active__3ea_1.theme__no
 weather.com##.taboola-module
 weather.com##.visible.flag.sb
 weather.com##.wx-social-share-ls-wrapper
+webmd.com###colorbox
+webmd.com###webmdHoverOverlay
 webmd.com##.global-nav-subscribe
 webmd.com##.is-fixed.ad-101.ad.module
-webmd.com##.is-fixed.global-nav-container:style(position: absolute !important;)
+webmd.com##.is-fixed.global-nav-container:style(position: relative !important; top: 0 !important;)
 webmd.com##.module-social-share-container.module
 webmd.com##.share-mode
+webmd.com##body:style(padding-top: 0px !important;)
 websitesuccesstools.com###scroll
 websitesuccesstools.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
 wect.com###header:style(position: relative !important; top: 0 !important;)
