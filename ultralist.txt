@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 10:08 AM 2017-10-02
+! Last Modified: 12:15 PM 2017-10-02
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -9755,8 +9755,8 @@ sethvargo.com##.stuck.profile
 sethvargo.com##.title
 sfchronicle.com###fixedCarousel
 sfgate.com###fixie
-sfgate.com###header-top:style(position: relative !important; top: 0 !important;)
-sfgate.com###siteNav:style(position: relative !important; top: 0 !important;)
+sfgate.com###header-top:style(position: absolute !important; top: 0 !important;)
+sfgate.com###siteNav:style(position: absolute !important; top: 0 !important;)
 sfgate.com##.ad-point
 sfgate.com##.article-share
 sfgate.com##.hearst-jwplayer-position:style(position: relative !important;)
@@ -10909,8 +10909,10 @@ thecut.com##.vp-0-600.ad
 thecut.com##.vp-1024-plus.ad
 thecut.com##.vp-600-1024.ad
 thedailybeast.com###react-mount-point > .ArticlePage > .PageHeader.head > .MobileNav
+thedailybeast.com##.ArticleRail__share-icons
 thedailybeast.com##.InlineNewsletter
 thedailybeast.com##.InlineNewsletter_standard.InlineNewsletter
+thedailybeast.com##.ReadThisList__header:style(position: relative !important; top: 0 !important;)
 thedailybeast.com##.ShareTools
 thedailybeast.com##.StickyNavbar--visible.StickyNavbar
 thedailybeast.com##.clearfix.homenav.header:style(position: relative !important; top: 0 !important;)
@@ -10920,6 +10922,7 @@ thedailybeast.com##.is-sticky.sticky.StickyNavbar
 thedailybeast.com##.sidebar
 thedailybeast.com##.social.css-debug
 thedailybeast.com##.sticky.ArticleRail
+thedailybeast.com##.sticky.Sidebar__sticky-wrapper:style(position: relative !important; top: 0 !important;)
 thedailyjournal.com##.android-smart-banner.smart-banner
 thedailyjournal.com##.bx-creative
 thedailyjournal.com##.bx-impress-in
@@ -11911,10 +11914,13 @@ tmz.com##.when-its-on-widget
 today.com###header:style(position: relative !important; top: 0 !important;)
 today.com###marquee:style(position: relative !important; top: 0 !important;)
 today.com###scroll-to-top
+today.com##.active.j-entry.entry:style(padding-top: 0px !important;)
 today.com##.entry-bottom
 today.com##.entry-in-view.j-share-bar-left.left.entry-social
+today.com##.j-header-follow-us.header-spotlight.header-social-wrapper
 today.com##.j-player-social-header.player-social.content-social
 today.com##.j-share-bar-left.left.entry-social
+today.com##body:style(padding-top: 0px !important;)
 toddstarnes.com##.Header--top.Header:style(position: relative !important; top: 0 !important;)
 toddstarnes.com##.copy-layer-background.sqs-slide-layer-content
 toddstarnes.com##.visible.sqs-popup-overlay.sqs-widget.yui3-widget
