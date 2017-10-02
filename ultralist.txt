@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 4:09 PM 2017-10-02
+! Last Modified: 4:50 PM 2017-10-02
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -1722,6 +1722,7 @@ cbsnews.com###social-sharebar
 cbsnews.com##.dashboard-visible:style(margin-bottom: 0px !important;)
 cbsnews.com##.floating.media-block:style(position: relative !important; top: 0 !important;)
 cbsnews.com##.header-style.theme-dark.sharebar_condensed.social
+cbsnews.com##.livestream-player-wrapper:style(position: static !important;)
 cbsnews.com##.module-follow-us.module
 cbsnews.com##.no-mantle-skin.ad-leader-plus-top
 cbsnews.com##.no-mantle-skin.dark-theme.ad-leader-top
@@ -13111,6 +13112,7 @@ wimbledon.com##.headerPos:style(position: relative !important; top: 0 !important
 wimbledon.com##.newsBgImage:style(position: relative !important; top: 0 !important;)
 windows.com##.expanded.addthis_default_style.addthis_toolbox
 windows.com##.sticky.main-nav:style(position: relative !important; top: 0 !important;)
+windows.com##.stickytop.js-cat-head.brand-blue.theme-dark:style(position: relative !important; top: 0 !important;)
 windowsreport.com##.fixed.sticky.contain-to-grid:style(position: relative !important; top: 0 !important;)
 wionews.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 wired.co.uk###domCookieWarning
