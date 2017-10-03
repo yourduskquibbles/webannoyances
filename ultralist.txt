@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 4:50 PM 2017-10-02
+! Last Modified: 10:58 AM 2017-10-03
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -15,6 +15,8 @@
 ###dsq-indicator-north
 ###dsq-indicator-south
 ###goTop
+###indicator-north
+###indicator-south
 ###outbrain_widget_2
 ###slideOutBoxContainer
 ###slidebox
@@ -923,6 +925,7 @@ axios.com##.rebelbar--fixed.rebelbar:style(position: relative !important; top: 0
 axios.com##.sidebar__follow
 axios.com##.subscribe-flow-initial.sidebar__newsletter
 axios.com##.widget__sharebar
+axios.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 axlegeeks.com##.active.adr-app-banner
 axlegeeks.com##.active.adr-pink-test.adr-app-banner
 axlegeeks.com##.clearfix.mph-wrap:style(position: relative !important; top: 0 !important;)
@@ -1017,6 +1020,7 @@ bangordailynews.com##.leaderboard.adSpot
 bankofcanada.ca##.ga-event
 bankrate.com##.glyphicon-arrow-up.glyphicon
 barneys.com##.fixed.header:style(position: relative !important; top: 0 !important;)
+barrons.com###share-tools
 barstoolsports.com###header:style(position: relative !important; top: 0 !important;)
 barstoolsports.com##.header-container:style(position: relative !important; top: 0 !important;)
 barstoolsports.com##.newsletterSignup
@@ -1149,6 +1153,7 @@ billboard.com##.social.social_vert
 billboard.com##.top-content.container:style(position: relative !important; top: 0 !important;)
 billerickson.net##.after_content.ea-share-count-wrap
 billingsgazette.com###site-navbar-container:style(position: relative !important; top: 0 !important;)
+billoreilly.com##.floatContainer.share
 biobiochile.cl##.barraDebajo.row
 biobiochile.cl##header:style(position: absolute !important; top: 0 !important;)
 biography.com##.is-visible.l-sticky-navbar:style(position: relative !important; top: 0 !important;)
@@ -3964,6 +3969,7 @@ foodnetwork.com##.prev-next-wrapper
 foodrepublic.com###masthead:style(position: relative !important; top: 0 !important;)
 foodrepublic.com##.newsletter-toggle
 foodrepublic.com##.sticky-newsletter > .newsletter-toggle
+foodtank.com##.swp_flatFresh.nc_socialPanel
 fooducate.com##.navbar-fixed-top.navbar
 fool.com###horizontal_bottom_toolbox
 fool.com###share-box
@@ -5252,6 +5258,7 @@ inc.com##.SectionUpDown
 inc.com##.ShareBoxButtons
 inc.com##.clicklessNavButton
 inc.com##.leaderboard-container
+inc.com##.mobileInsertionAdContainer
 inc.com##.share-entry
 inc.com##.sidebar_middle:style(position: absolute !important; top: 0 !important;)
 indeed.com###cmp-header-menu:style(position: relative !important; top: 0 !important;)
@@ -5379,6 +5386,7 @@ inews.co.uk##.slab-navigation.slab
 informer.com##.notify
 informnapalm.org###sttotop
 infosys.com###header-2
+infowars.com###crestashareiconincontent
 infowars.com###masthead-navigation:style(position: relative !important; top: 0 !important;)
 infowars.com###message
 infowars.com###newsletter-side-widget
@@ -6266,6 +6274,7 @@ livescience.com##.flipboardHeader
 livescience.com##.mod-hdr.h2
 livescience.com##.mod.pure-u-1.subscribe
 livescience.com##.pure-u-1.social-mod
+livestreamfails.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute !important;)
 livestrong.com###smartbanner:style(position: relative !important; top: 0 !important;)
 livestrong.com##.js-mobile_adsense.adsense_atf.article_module_section.article__section__step
 livestrong.com##.js-mobile_adsense2.article_module_section
@@ -7332,6 +7341,7 @@ nationalreview.com##.amb-30.horizontal-share-menu
 nationalreview.com##.block-nro-block-social-wrap
 nationalreview.com##.cf.tac.container.nav-fixed-top-main:style(position: relative !important; top: 0 !important;)
 nationalreview.com##.fixed.scrolling.fs-p9.cf.nav-fixed-top
+nationalreview.com##.nav-share-menu
 nationalreview.com##.nav-social-links
 nationalreview.com##.nav_wrapper_right
 nationalreview.com##.open.mobile-share.share
@@ -7341,6 +7351,7 @@ nationalreview.com##.pw-button-twitter.twitter-share.twitter.fa-twitter.fa.inlin
 nationalreview.com##.scrolling.fs-p9.cf.nav-fixed-top:style(position: relative !important; top: 0 !important;)
 nationalreview.com##.scrolling.off-phones.cf.nft-auth
 nationalreview.com##A[href="https://plus.google.com/+nationalreview"]
+nationalreview.com##body:style(padding-top: 0px !important;)
 nationmaster.com##.header:style(position: relative !important; top: 0 !important;)
 nationmaster.com##.transition.navbar-fixed-top.nav-shadow.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 nationwide.com###pinnedMenu:style(position: relative !important; top: 0 !important;)
@@ -12033,6 +12044,8 @@ tractorsupply.com###dijit_Dialog_1_underlay
 tractorsupply.com###globalHeaderBannerMobile
 tractorsupply.com###header_mainContainer_outer:style(position: relative !important; top: 0 !important;)
 tractorsupply.com##.dijitBackgroundIframe
+transamworldwide.com##.back_to_top
+transamworldwide.com##.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 transunion.com###headerMain:style(position: relative !important; top: 0 !important;)
 transunion.com###headerSection:style(position: relative !important; top: 0 !important;)
 transunion.com##.up_button
@@ -13113,6 +13126,9 @@ wimbledon.com##.newsBgImage:style(position: relative !important; top: 0 !importa
 windows.com##.expanded.addthis_default_style.addthis_toolbox
 windows.com##.sticky.main-nav:style(position: relative !important; top: 0 !important;)
 windows.com##.stickytop.js-cat-head.brand-blue.theme-dark:style(position: relative !important; top: 0 !important;)
+windowscentral.com##.mn_mbn_share
+windowscentral.com##.region-site-header.region:style(position: absolute !important;)
+windowscentral.com##.top-header--scrolled.top-header--default.top-header:style(position: absolute !important;)
 windowsreport.com##.fixed.sticky.contain-to-grid:style(position: relative !important; top: 0 !important;)
 wionews.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 wired.co.uk###domCookieWarning
@@ -13273,7 +13289,9 @@ wnd.com###site-header:style(position: relative !important; top: 0 !important;)
 wnd.com##.specific-social
 wnd.com##.window-body
 wnyc.org###ember976
+wnyc.org##.l-lowright.l-fixed
 wnyc.org##.scrollable-body:style(position: relative !important; top: 0 !important;)
+wnyc.org##.x-scrollable.sitechrome-nav.l-page-nav:style(position: absolute !important;)
 wnyc.org##DIV[style="background-color: black; opacity: 0.5; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; z-index: 9998;"]
 wnyc.org##DIV[style="width: 100%; height: 100%; padding-top: 250px; z-index: 9999; position: absolute; top: 0px; left: 0px; text-align: center;"]
 wnyc.org##DIV[style="width: 375px; position: relative; margin: 0px auto;"]
