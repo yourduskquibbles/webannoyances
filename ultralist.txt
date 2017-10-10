@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 1:23 PM 2017-10-05
+! Last Modified: 11:04 AM 2017-10-10
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -800,6 +800,7 @@ artlawjournal.com###sticky-header
 artstation.com###main-nav:style(position: relative !important; top: 0 !important;)
 artstation.com##.sharing-buttons
 artsy.net###main-layout-header:style(position: relative !important; top: 0 !important;)
+artsy.net##.article-share-fixed
 artsy.net##.from-bottom.icon-chevron-up.jump-to-top
 artsy.net##.modal.articles-es-cta--banner
 artsy.net##.share-by-email
@@ -3955,11 +3956,14 @@ food.com##.top-offset.stick.fd-next-recipe
 food52.com###desktop-email-modal-wrapper
 food52.com###global-header-block:style(position: relative !important; top: 0 !important;)
 food52.com###mobile-email-modal-wrapper
+foodandwine.com##.clearfix.clear-fix.cf > .share.component
 foodandwine.com##.content-pager__link--next.content-pager__link
 foodandwine.com##.content-pager__link--prev.content-pager__link
 foodandwine.com##.headroom--not-bottom.headroom--not-top.headroom.is-fixed.site-header__menu-bar.site-header__bar
 foodandwine.com##.is_stuck.site-header:style(position: relative !important; top: 0 !important;)
 foodandwine.com##.main-menu__social.main-menu__item
+foodandwine.com##.share.component
+foodandwine.com##nav.main:style(position: absolute !important; top: 0 !important;)
 foodbabe.com###end-of-post-subscribe
 foodbabe.com###join-newsletter
 foodbabe.com###sidebar-social
@@ -4955,6 +4959,10 @@ helpnetsecurity.com##.remodal-is-opened.hnst-modal-admost-theme.remodal-wrapper
 heraldks.com###optinform-container
 heraldsun.com##.share-icons.mi-video-utilty-bar
 heraldsun.com##.share-tools-wrapper
+herosports.com##.cd-is-visible.cd-top
+herosports.com##.home-sticky.header-main:style(position: absolute !important;)
+herosports.com##.social_icon
+herosports.com##.sticky.scrolling-fixed:style(position: absolute !important; top: 0 !important;)
 heute-show.de##.gradient
 heute-show.de##.hidden-xs.social-networks
 heute-show.de##.shy.push.header:style(position: relative !important; top: 0 !important;)
@@ -5062,6 +5070,7 @@ hotair.com##.text-center.newsletter-small.widget
 hotair.com##.tw.share.btn-lg.btn-default.btn
 hotair.com##a[href="https://facebook.com/hotaircom"] > .fa-fw.fa-facebook-official.fa
 hotair.com##a[href="https://twitter.com/hotairblog"] > .fa-fw.fa-twitter.fa
+hothardware.com##.header-fixed-top:style(position: absolute !important; top: 0 !important;)
 housebeautiful.com###share-sticky-bar
 housebeautiful.com##.footer--social
 housebeautiful.com##.sticky.nav:style(position: relative !important; top: 0 !important;)
@@ -6921,6 +6930,8 @@ mlb.com###back-to-top-button
 mlb.com###footer-social
 mlb.com###header-responsive:style(position: relative !important; top: 0 !important;)
 mlb.com###header:style(position: relative !important; top: 0 !important;)
+mlb.com##.bam-social
+mlb.com##.cf.social-bar
 mlb.com##.minimode.game-playing.primary-content:style(position: relative !important; top: 0 !important;)
 mlb.com##.navbar-brand
 mlb.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
@@ -7410,6 +7421,16 @@ nbc12.com###header:style(position: relative !important; top: 0 !important;)
 nbc12.com###smartbanner
 nbc12.com###toolbar
 nbc4i.com###masthead:style(position: relative !important; top: 0 !important;)
+nbcbayarea.com###appIntercept
+nbcbayarea.com###article_0_ad_square
+nbcbayarea.com###tve_cta
+nbcbayarea.com##.header:style(position: relative !important; top: 0 !important;)
+nbcbayarea.com##.newsletterSignupBox
+nbcbayarea.com##.socialNetworks
+nbcbayarea.com##.socialNetworks-top
+nbcbayarea.com##.stickyNav.nav-landing.navbar:style(position: relative !important; top: 0 !important;)
+nbcbayarea.com##.stickyNav.navbar:style(position: relative !important; top: 0 !important;)
+nbcbayarea.com##.swiper-container-android.swiper-container-horizontal.quick-nav:style(position: relative !important; top: 0 !important;)
 nbcchicago.com###tve_cta
 nbcchicago.com##.site-header:style(position: relative !important; top: 0 !important;)
 nbcchicago.com##.socialNetworks-top
@@ -7807,6 +7828,9 @@ newsweek.com##.sticky_social
 newsweek.com##.top-right.top.flex-sm-9
 newsweek.com##.trial-link
 newsweek.com##center
+newsworks.org###phone-navbar:style(position: absolute !important;)
+newsworks.org##.bottomfloatingHeader.mobile-social-wrapper.visible-sm-block.visible-xs-block.col-xs-12
+newsworks.org##.visible-sm-block.visible-xs-block.col-xs-12.bottom-screen
 newsy.com###memphis-optin
 newsy.com##.header:style(position: relative !important; top: 0 !important;)
 newyorker.com###AMS_NYR_CONTENTPAGE_TEXTOFFER
@@ -8213,6 +8237,9 @@ openculture.com##.socialblock
 openstreetmap.org##.welcome
 opentable.com##.navbar--fixed.navbar:style(position: relative !important; top: 0 !important;)
 oppidanspirits.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
+oprah.com###page_navigation_wrapper:style(position: absolute !important;)
+oprah.com##.social_share
+oprah.com##.subscribe-widget--narrow
 optimizely.com##.push_content.fixed.header_nav:style(position: relative !important; top: 0 !important;)
 optumrx.com##.ogn__header:style(position: relative !important; top: 0 !important;)
 oregonlive.com##.adAdhesionSidebar
@@ -9322,6 +9349,7 @@ rei.com###mainNav:style(position: relative !important; top: 0 !important;)
 relevantmagazine.com###masthead:style(position: relative !important; top: 0 !important;)
 remezcla.com###header-container:style(position: relative !important; top: 0 !important;)
 remezcla.com##.adUnitF
+remezcla.com##.social-news
 rennlist.com###magicbar
 rennlist.com###nav1:style(position: relative !important; top: 0 !important;)
 renttherunway.com##.light-background:style(position: relative !important; top: 0 !important;)
@@ -9404,7 +9432,6 @@ revelist.com##.social-bar
 reviewed.com##.primary.navbar-fixed-top.navbar:style(position: relative !important; top: 0 !important;)
 reviewed.com##.visible-desktop.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
 reviewed.com##body:style(padding-top: 0px !important;)
-reviewjournal.com###paid-post-rail:style(position: absolute !important;)
 reviewjournal.com###paid-post-rail:style(position: absolute !important;)
 reviewjournal.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
 reviewjournal.com##.rj-ads-wrap-sq
@@ -9504,6 +9531,7 @@ rootupdate.com###back-top
 rootupdate.com###mks_social_widget-2
 rootupdate.com###sticky_header
 rotoworld.com##.RW_ad300
+rottentomatoes.com##.clearfix.mob-nav-bottom
 rpiai.com##.floating-active.floating-header
 rpiai.com##.social-links
 rsf.org###overlays
@@ -10803,6 +10831,8 @@ theadvocate.com##.animate.text-center.arrow
 theadvocate.com##.arrow
 theadvocate.com##.card-container
 theadvocate.com##.popover-content
+theage.com.au###nav--secondary:style(position: relative !important; top: 0 !important;)
+theage.com.au##.adops-gutter-after.header-wrap:style(position: relative !important; top: 0 !important;)
 theamericanconservative.com##.clearfix.article-tools
 theamericanconservative.com##.widget_sign-up-form-widget.widget-container
 theamericanmirror.com##.fa-facebook.fa
@@ -11975,6 +12005,7 @@ tmz.com##.hide-tip.header:style(position: absolute !important; top: 0 !important
 tmz.com##.inpost-social
 tmz.com##.masthead-ad
 tmz.com##.quick-subscribe-form
+tmz.com##.sharing
 tmz.com##.sharing-widget
 tmz.com##.sharrre.facebook-sharrre
 tmz.com##.sharrre.twitter-sharrre
@@ -13134,6 +13165,8 @@ whoishostingthis.com###totop
 whoishostingthis.com##.clickable
 whoishostingthis.com##.menu:style(position: relative !important; top: 0 !important;)
 whosampled.com###js-nav:style(position: relative !important; top: 0 !important;)
+whyy.org##.header--top:style(position: relative !important; top: 0 !important;)
+whyy.org##body:style(padding-top: 0px !important;)
 wiat.com###masthead:style(position: relative !important; top: 0 !important;)
 wiat.com##.dfp-ad
 wiat.com##.entry-header-sharing.sd-social-icon.robots-nocontent
@@ -13362,6 +13395,7 @@ worldmarket.com###topmostHeader:style(position: relative !important; top: 0 !imp
 worldofwarcraft.com##.Sticky-content:style(position: relative !important; top: 0 !important;)
 worldofwarcraft.com##.font-none.SocialButtons
 worldstarhiphop.com##.social-networks
+worldwidewords.org##.addthis
 wosu.org##.sharing-and-programs.columns.large-2
 wowair.us##.affix.navbar-header:style(position: relative !important; top: 0 !important;)
 wowair.us##.logo:style(position: relative !important; top: 0 !important;)
@@ -13534,6 +13568,7 @@ wweek.com##.slimline.fixed.border-top-desktop.border-top-mobile.line-up.sharebar
 wweek.com##.social-tools-wrapper
 wweek.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 wxii12.com##.header-inner:style(position: relative !important; top: 0 !important;)
+wxyz.com##.layout--share__second
 wzzm13.com##.fixed.header:style(position: relative !important; top: 0 !important;)
 wzzm13.com##.is_stuck.site-nav:style(position: relative !important; top: 0 !important;)
 x.company##.u-backgroundTransparentWhiteDarkest.u-fixed.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
