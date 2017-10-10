@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:15 PM 2017-10-10
+! Last Modified: 1:43 PM 2017-10-10
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -591,6 +591,12 @@ amctheatres.com##.is-opaque.Header-wrap:style(position: relative !important; top
 america.gov##.td-affix.td-header-gradient.td-header-menu-wrap:style(position: relative !important; top: 0 !important;)
 america.gov##.td-footer-wrapper
 america.gov##.td-ss-main-sidebar
+americamagazine.org###block-followus
+americamagazine.org###block-simplenewssubscription-3
+americamagazine.org##.fixHeader.headerNav:style(position: absolute !important;)
+americamagazine.org##.signUpNewsLetterHomeWrapper
+americamagazine.org##.soucialLinks
+americamagazine.org##.tweetlLink
 americanow.com###header-container-inner:style(position: relative !important; top: 0 !important;)
 americanow.com##.is-at-top.is-stuck.sticky.top-stories:style(position: relative !important; top: 0 !important;)
 americanprogress.org##.row.custom-bg
@@ -3485,6 +3491,7 @@ engadget.com##.full-height.i-share_overlay__btn.relative
 engadget.com##.hide\@tp-.pt-30\@tp-.pt-40.col-12-of-12\@tp-.col-2-of-5.grid__cell
 engadget.com##.i-context_nav:style(position: relative !important; top: 0 !important; transition: none !important; -webkit-transition: none !important;)
 engadget.com##.inline-block.w-22\@m\+.h-22\@m\+.h-15\@s.w-15\@s
+engadget.com##.o-mobile-share-footer
 engadget.com##.o-social_nav__item
 engadget.com##.spotim-recirculation
 engadget.com##.ta-r\@tl\+.bc-white-10.pt-20\@tp-.pt-60.col-12-of-12\@tp-.col-3-of-5.grid__cell
