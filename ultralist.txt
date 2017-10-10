@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 1:43 PM 2017-10-10
+! Last Modified: 3:29 PM 2017-10-10
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -1622,6 +1622,8 @@ buzzfeed.com##.list-unstyled.js-action-bar--subbuzz.action-bar--subbuzz.action-b
 buzzfeed.com##.nav--news.fill-white.xs-border-bottom-lighter.xs-col-12.xs-z4.xs-l0.nav--desktop.nav:style(position: relative !important; top: 0 !important;)
 buzzfeed.com##.pullquote_shares_wrapper
 buzzfeed.com##.share-box
+buzzfeed.com##.sidebar-sticky-padding--preceding
+buzzfeed.com##.sidebar-sticky.xs-mb2.xs-block.fill-white:style(position: relative !important; top: 0 !important;)
 buzzfeed.com##.vertical-sidebar-info.bf_dom.diy-connect
 buzzfeed.com##.xs-l0.xs-z4.sm-fixed.xs-relative.xs-col-12.js-header-section-content:style(position: relative !important; top: 0 !important;)
 buzzfeed.com##.xs-l0.xs-z4.sm-fixed.xs-relative.xs-col-12:style(position: relative !important; top: 0 !important;)
@@ -2741,6 +2743,7 @@ dailymail.co.uk###shareLinkTop
 dailymail.co.uk###smartBanner
 dailymail.co.uk###swipeIndicator
 dailymail.co.uk###textShare
+dailymail.co.uk##.bdrcc.rotator
 dailymail.co.uk##.facebook
 dailymail.co.uk##.facebook-like-static
 dailymail.co.uk##.fb
@@ -5767,6 +5770,7 @@ justsecurity.org##.social-links
 kadavy.net##nav
 kansascity.com###newsletter-signUpWidget
 kansascity.com###story-cta-widget
+kansascity.com##.ndn_icon_share.ndn_toggleShare
 kansascity.com##.share-tools-wrapper
 kansascity.com##.sticky-tools.share-tools-wrapper
 kare11.com###column-1
@@ -6077,6 +6081,8 @@ laptopmag.com##.sticky.mqMedOff.subNavWrap:style(position: relative !important; 
 laptopmag.com##.tocside-in.tocside
 last.fm##.masthead:style(position: absolute !important; top: 10 !important;)
 last.fm##.top-bar:style(position: absolute !important; top: 0 !important;)
+lastwordonnothing.com###sidebar-link:style(position: absolute !important;)
+lastwordonnothing.com##.hupso-share-buttons
 latimes.com###content-bottom
 latimes.com###pmad-in2
 latimes.com###pmad-rail
@@ -9118,6 +9124,8 @@ racked.com##:xpath(.//*[@class="p-entry-hr"])
 radaronline.com###main-header
 radforum.de###fb_headerbox
 radforum.de##.multibarcontainer:style(position: absolute !important; top: 0 !important;)
+radio.com###component-article-social
+radio.com###component-social
 ramblinwreck.com###header:style(position: relative !important; top: 0 !important;)
 ramedium.com###admania_adb_enabled
 ramedium.com##.admania_sitefooter
