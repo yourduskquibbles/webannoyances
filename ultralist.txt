@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 9:22 AM 2017-10-12
+! Last Modified: 10:10 AM 2017-10-13
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -4191,6 +4191,7 @@ foxnews.com###top:style(position: relative !important; top: 0 !important; margin
 foxnews.com##.c-item.c-item-first.c-item-last
 foxnews.com##.g-41.section-featured
 foxnews.com##.ob_dual_left
+foxnews.com##.promo-newsletter.promo
 foxnews.com##.related-media
 foxnews.com##.related-media.related-block.social-media-block
 foxnews.com##.sharing
@@ -5176,6 +5177,7 @@ huffingtonpost.ca##.social-list
 huffingtonpost.com###badges_v2_1
 huffingtonpost.com###chicklets
 huffingtonpost.com###float_tracker
+huffingtonpost.com###inline-newsletter_placeholder
 huffingtonpost.com###next-entry
 huffingtonpost.com###orbot300x225-article
 huffingtonpost.com###orbot580x190-article
@@ -9041,6 +9043,8 @@ psypost.org##.cf.post-share-b
 psypost.org##.mnuzzg
 psypost.org##.post-share
 psypost.org##.social-follow
+ptsecurity.com##.HTML.widget
+ptsecurity.com##.goog-inline-block.post-share-buttons
 ptsecurity.com##.pr.cookie-banner
 ptsecurity.com##.social_and_more.col-lg-12
 publicintegrity.org##.donate.item
@@ -9128,13 +9132,19 @@ quora.com##.text_links
 quora.com##:xpath(.//*[@class="SignupFooter"])
 quora.com##:xpath(.//*[@class="fixed_footer_gradient"])
 quora.com##:xpath(.//*[@class="open_in_app_link"])
+qz.com###bling-1
+qz.com###bling-2
 qz.com###chyron
 qz.com###header#header:style(position: relative !important; top: 0 !important;)
+qz.com###header-bar:style(position: absolute !important;)
 qz.com###header:style(position: relative !important; top: 0 !important;)
+qz.com###marquee-ad
 qz.com###nav-main:style(position: relative !important; top: 0 !important;)
 qz.com###nav:style(position: relative !important; top: 0 !important;)
 qz.com###queue-toggle
 qz.com###tab-bar
+qz.com##.ArticleFooter__share-tools__3bibY
+qz.com##.ArticleShareIcons__container__2yYw8
 qz.com##.anno-right
 qz.com##.colored.share-buttons
 qz.com##.header-container:style(position: relative !important; top: 0 !important;)
@@ -12217,7 +12227,7 @@ tronc.com##.fa-twitter.fa
 tronc.com##.sidekick-homepage
 troyhunt.com###floating_subscribe
 troyhunt.com##.article-open_shere
-troyhunt.com##.container.header_block
+troyhunt.com##.container.header_block:style(position: absolute !important;)
 troyhunt.com##.post_socialIcons
 trulia.com###globalNavNormal:style(position: relative !important; top: 0 !important;)
 trumphotels.com##.full.bookingconsole
