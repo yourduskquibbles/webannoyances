@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:34 AM 2017-10-13
+! Last Modified: 5:04 PM 2017-10-13
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -1644,6 +1644,7 @@ buzzfeed.com##.xs-mb4.action-bar--bottom.action-bar--pagelevel.action-bar
 buzzfeed.com##.xs-mb4.action-bar--top.action-bar--pagelevel.action-bar
 buzzfeed.com##.xs-text-5.clearfix.card-share.wire-frame__shares
 buzzfeed.com##:xpath(.//*[@data-module="action-bar-subbuzz"])
+buzzfeed.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 bythewavs.com##.nav-primary:style(position: relative !important; top: 0 !important;)
 c0reteam.org##.topbar:style(position: relative !important; top: 0 !important;)
 c4isrnet.com###page-content > .js-pubsub-module.has-secondary-nav.layout-module.no-subscribe-now.generic-module
@@ -1695,6 +1696,8 @@ canadianbusiness.com###sticky_multiad_mob
 capitalone.com##.fixed:style(position: relative !important; top: 0 !important;)
 capitolcityproject.com##.pagenav.fixedmenu
 cardpool.com##.feedback_link
+careerattraction.com###back_to_top
+careerattraction.com##.sticky_animate.sticky.page_header.scrolled_not_transparent.transparent.stick.scroll_header_top_area:style(position: absolute !important;)
 careercrazze.com##.td-affix.td-header-gradient.td-header-menu-wrap:style(position: relative !important; top: 0 !important;)
 cargurus.com###headerBar:style(position: relative !important; top: 0 !important;)
 cargurus.com##.cg-mobileSubNavigation-condensedWrapper
@@ -1791,6 +1794,9 @@ celebritynetworth.com###cnwAndroidBanner:style(position: relative !important; to
 celebritynetworth.com###cnw_scroller:style(position: relative !important; top: 0 !important;)
 celebritynetworth.com###content_tab_switcher:style(position: relative !important; top: 0 !important;)
 celebritynetworth.com###header:style(position: relative !important; top: 0 !important;)
+cell.com###fixedPane:style(position: static !important;)
+cell.com##.mainTabs.tab-nav:style(position: static !important;)
+cell.com##.tab-content:style(padding-top: 0px !important;)
 cellularinsights.com##.nav-down.navbar-laread.navbar-fixed-top.navbar:style(position: relative !important; top: 0 !important;)
 cellularinsights.com##header:style(position: relative !important; top: 0 !important;)
 centurylink.net##.header__height.header__search:style(position: relative !important; top: 0 !important;)
@@ -1875,6 +1881,7 @@ chicagomag.com###reveal-bar:style(position: relative !important; top: 0 !importa
 chicagotribune.com###reg-overlay
 chicagotribune.com###row-socials-list
 chicagotribune.com##.met-promo
+chicagotribune.com##.met-rule-660.met-flyout
 chicagotribune.com##.nextgen-share-tools
 chicagotribune.com##.trb_bnn
 chicagotribune.com##.trb_gptAd
@@ -2164,6 +2171,9 @@ cnet.com###connectCNET
 cnet.com###globalSocialPromoWrap
 cnet.com###page-header:style(position: relative !important; top: 0 !important;)
 cnet.com###rbHeader:style(position: relative !important; top: 0 !important;)
+cnet.com###rbWrapper:style(padding-top: 0px !important;)
+cnet.com##.ad-nav-ad
+cnet.com##.entered.dock.inviewElement:style(position: static !important;)
 cnet.com##.fyre-notifier-container
 cnet.com##.shareBar.inline-view
 cnet.com##.sharebarWrapper
@@ -2247,6 +2257,8 @@ coindesk.com##.widget_coindesk_freestar_btf_ad_unit_widget.widget
 coindesk.com##.wpsr-floatbar-float_left.wpsr-floatbar-white.wpsr-floatbar-movable.clearfix
 collinsdictionary.com##.navigation:nth-of-type(7):style(position: relative !important; top: 0 !important;)
 collinsdictionary.com##.sticky:style(position: relative !important; top: 0 !important;)
+colonialghosts.com###masthead:style(position: absolute !important;)
+colonialghosts.com##.header-social-icons
 coloradoan.com##.android-smart-banner.smart-banner
 coloradoan.com##.bx-creative
 coloradoan.com##.bx-impress-in
@@ -2387,6 +2399,9 @@ contactmusic.com##.clearfix.socialShare
 contactmusic.com##.headerSecondary.hide-md.hide-sm.shadow.headerL.header:style(position: relative !important; top: 0 !important;)
 contactmusic.com##.hide-sm.subHeaderSocial
 contactmusic.com##.show-xl.show-lg.nextArticle
+contently.com##.fixed.submenu.globalHeader:style(position: relative !important; top: 0 !important;)
+contently.com##.share
+contently.com##progress
 continental-automotive.com###back-to-top
 continental-automotive.com###cookie-bar
 continental-automotive.com##.pseudoSticky.affix.stayTop:style(position: relative !important; top: 0 !important;)
@@ -3752,6 +3767,9 @@ fark.com##.top.ad_container
 fark.com##.top_right_container
 fark.com##.tryBareFark
 fashionista.com##.is-visible.l-sticky-navbar
+fashionista.com##.m-header--social-nav
+fashionista.com##.m-social
+fashionista.com##.mm-brand-engagement--premium.mm-component-stack--has-background.mm-component-stack--has-header.mm-component-stack--is-stacked.m-component-stack.m-brand-engagement
 fastcocreate.com##.people-tab.ready
 fastcodesign.com##.ad-wrapper--articletop.ad-wrapper--mobileleaderboard.ad-wrapper
 fastcodesign.com##.ad-wrapper--mobileparallax_1.ad-wrapper
@@ -4322,6 +4340,9 @@ gab.ai##.header:style(position: absolute !important; top: 0 !important;)
 gadgethacks.com###top-nav:style(position: relative !important; top: 0 !important;)
 gadgethacks.com##.nav-menu-block:style(position: relative !important; top: 0 !important;)
 gadgethacks.com##header:style(position: relative !important; top: 0 !important;)
+galoremag.com###deskNav:style(position: absolute !important;)
+galoremag.com##.hidden-xs.pull-left.post-social
+galoremag.com##.modal
 galvnews.com###site-navbar-container:style(position: relative !important; top: 0 !important;)
 galvnews.com##.asset-paging
 galvnews.com##.content-above.share-container
@@ -5345,6 +5366,7 @@ independent.co.uk##.email-signpost
 independent.co.uk##.fb-like
 independent.co.uk##.follow
 independent.co.uk##.sticky.video-popout-wrap:style(position: static !important;)
+independent.co.uk##.vjs-button.vjs-control.vjs-icon-share.vjs-share-control
 independent.co.uk##body:style(padding-top: 0px !important;)
 independent.ie###cookie_bar
 independent.ie###cookie_bar_top
@@ -7071,6 +7093,7 @@ moneycontrol.com##.share_arti_srevamp
 moneyish.com##.masthead:style(position: absolute !important; top: 0 !important;)
 moneyish.com##.masthead:style(position: relative !important; top: 0 !important;)
 moneyish.com##.share
+moneyish.com##.spnf_right.spnf_ticker
 moneyish.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 moneyweek.com###catapult-cookie-bar
 moneyweek.com##.ad-leaderboard
@@ -8081,6 +8104,7 @@ nydailynews.com##.ra-share-f
 nydailynews.com##.ra-share-t
 nydailynews.com##.rh-ad
 nylon.com##.nav-stuck.nav:style(position: relative !important; top: 0 !important;)
+nylon.com##.social-link
 nymag.com###ck_digg
 nymag.com###ck_facebook
 nymag.com###ck_sharethis_top
@@ -8547,11 +8571,14 @@ philly.com##.gi-hold.space-double--btm.gi
 philly.com##.gray--light.pad--left.invert-links.subscribenow
 philly.com##.js-toggle-ad.align--center.ad
 philly.com##.js-toggle-ad.space-and-half--btm.center.ad
+philly.com##.pic.bg1.type3.banner_small
 philly.com##.progress
 philly.com##.shift-right--700
 philly.com##.shift-right--900
 philly.com##.social-share__list
 philly.com##.sticky-social.cf.social-share
+philly.com##.subscribetoday__inner
+philly.com##.subscribetoday__wrap:style(position: absolute !important;)
 phillyvoice.com###navbar_background:style(position: relative !important; top: 0 !important;)
 phillyvoice.com##.sharrre.article-sharing
 phillyvoice.com##.social-links
@@ -9348,6 +9375,8 @@ recorder.com###launcher
 recorder.com###ta_pagesLeftPopup
 recorder.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 redalertpolitics.com###floating-menu:style(position: relative !important; top: 0 !important;)
+redalertpolitics.com##.dy-act-overlay.dy-modal-container
+redalertpolitics.com##.entry-social.pw-layout-horizontal.ra1-pw_size_medium.ra1-pw-classicWidget.pw-widget.pw
 redalertpolitics.com##.signup-trigger
 redalertpolitics.com##.social.pw-layout-horizontal.ra1-pw_size_medium.ra1-pw-classicWidget.pw-widget.pw
 redbullmusicacademy.com##.headroom--pinned.headroom--not-top.has-page-nav.headroom.ng-isolate-scope.ng-scope.bg-color-secondary.main-nav:style(position: relative !important; top: 0 !important;)
@@ -9418,6 +9447,13 @@ registryabstracts.com###banner:style(position: relative !important; top: 0 !impo
 rei.com###header:style(position: relative !important; top: 0 !important;)
 rei.com###mainNav:style(position: relative !important; top: 0 !important;)
 relevantmagazine.com###masthead:style(position: relative !important; top: 0 !important;)
+religionnews.com###floating-social-buttons
+religionnews.com###g-7ayl9a
+religionnews.com###gdcqugv
+religionnews.com##.clearfix.post-social.largo-follow
+religionnews.com##.g-41kowx.gnvao0t.g-d136wc.g-wzdjr0.g4jy1nf
+religionnews.com##.global-nav-bg
+religionnews.com##.show.nav_overflow_label.sticky_nav_display.sticky-nav-holder
 remezcla.com###header-container:style(position: relative !important; top: 0 !important;)
 remezcla.com##.adUnitF
 remezcla.com##.social-news
@@ -9563,6 +9599,9 @@ roadandtrack.com##.standard-social-buttons.primary-social-buttons.content-info-s
 roadandtrack.com##.sticky.nav:style(position: relative !important; top: 0 !important;)
 roadandtrack.com##.transporter-breaker-ad.list-breaker-ad.breaker-ad
 roadsandkingdoms.com###titlebar:style(position: relative !important; top: 0 !important;)
+roadsandkingdoms.com###titlebarwaypoint
+roadsandkingdoms.com##.header-contact-list
+roadsandkingdoms.com##.postsubscribe
 roanoke.com###site-top-nav
 roanoke.com###topbar-col-one
 roanoke.com##.dfp-ad.tnt-ads
@@ -9749,6 +9788,9 @@ scmp.com##.header--fixed.header:style(position: relative !important; top: 0 !imp
 scmp.com##.headroom--top.headroom--pinned.headroom--not-bottom.headroom.header--fixed.header:style(position: relative !important; top: 0 !important;)
 scout.com###updatebar-root
 scout.com##.ctx-bg-dark.stronga:style(position: relative !important; top: 0 !important;)
+scpr.org###appeal-newsletter
+scpr.org##.clearfix.follow-us
+scpr.org##.clearfix.share.disseminate.buddy
 screendaily.com###div-gpt-billboard
 screendaily.com###mainnav:style(position: relative !important; top: 0 !important;)
 screendaily.com##.email
@@ -10553,6 +10595,7 @@ studybreaks.com###cb-nav-bar:style(position: relative !important; top: 0 !import
 studybreaks.com##.cb-menu-fw.cb-font-header.clearfix.cb-site-padding.cb-nav-bar-wrap:style(position: relative !important; top: 0 !important;)
 stuff.co.nz###js-story__ad-storyrec
 stuff.co.nz##.adfeedback
+stuff.co.nz##.header-social-list
 stuff.co.nz##.menu--down.menu--top.menu:style(position: relative !important; top: 0 !important;)
 stuff.co.nz##.social--desktop.social
 stufflistings.com##.td-header-style-12.td-header-wrap:style(position: relative !important; top: 0 !important;)
@@ -10571,8 +10614,10 @@ sun-sentinel.com##.trb_nls_c
 sun-sentinel.com##.trb_sc_item_svg
 suntimes.com###header:style(position: relative !important; top: 0 !important;)
 suntimes.com##.newsletter-box.columns.small-12.medium-8.large-7
+suntimes.com##.show-for-medium-up.post-meta-social.post-meta
 suntimes.com##.show-for-small-only.post-meta-social.post-meta
 suntimes.com##.spacer
+suntimes.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 suntrust.com###container-header:style(position: absolute !important; top: 0 !important; transition: none !important;)
 suntrust.com##.scroll-indicator.ng-widget
 suntrust.com##.suntrust-header-alt.invis:style(visibility: visible !important;)
@@ -13641,6 +13686,8 @@ wvtm13.com##.js-slim-share.horizontal.article-social.js-share-container.share-co
 wvtm13.com##.slim-headline:style(position: relative !important; top: 0 !important;)
 wvtm13.com##.slim.header:style(position: relative !important; top: 0 !important;)
 wwd.com###site-header:style(position: relative !important; top: 0 !important;)
+wwd.com##.share-container
+wwd.com##.wwd-in-article-ad.margin-left-medium.margin-bottom-medium.align-right.clear-right
 wwe.com###mini-panel-header_navigation:style(position: relative !important; top: 0 !important;)
 wwe.com##.social
 wwe.com##.wwe-header--explorer.wwe-highlights-videos--wrapper:style(position: relative !important; top: 0 !important;)
