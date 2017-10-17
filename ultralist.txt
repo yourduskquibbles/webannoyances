@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 2:26 PM 2017-10-17
+! Last Modified: 3:12 PM 2017-10-17
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -4231,6 +4231,7 @@ foxnews.com###rail
 foxnews.com###signIn
 foxnews.com###top:style(position: relative !important; top: 0 !important; margin-top: 0px !important;)
 foxnews.com##.c-item.c-item-first.c-item-last
+foxnews.com##.desktop.sidebar-primary.sidebar-article.sidebar:style(position: relative !important; top: 0 !important;)
 foxnews.com##.g-41.section-featured
 foxnews.com##.ob_dual_left
 foxnews.com##.promo-newsletter.promo
@@ -9414,6 +9415,15 @@ recordedfuture.com###text-4
 recorder.com###launcher
 recorder.com###ta_pagesLeftPopup
 recorder.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
+recordonline.com###article-storyStrip:style(position: relative !important; top: 0 !important;)
+recordonline.com###backToTop
+recordonline.com###dialog-message
+recordonline.com###header-main-right
+recordonline.com###paywall-bar
+recordonline.com###toprail:style(position: absolute !important;)
+recordonline.com##.article-meta-social
+recordonline.com##.article-newsletter-signup
+recordonline.com##.vendor
 redalertpolitics.com###floating-menu:style(position: relative !important; top: 0 !important;)
 redalertpolitics.com##.dy-act-overlay.dy-modal-container
 redalertpolitics.com##.entry-social.pw-layout-horizontal.ra1-pw_size_medium.ra1-pw-classicWidget.pw-widget.pw
