@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 1:33 PM 2017-10-17
+! Last Modified: 2:26 PM 2017-10-17
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -67,6 +67,7 @@
 ##.share-toolbar.proxima.hide-for-small
 ##.sharer
 ##.sharingfooter
+##.sharrre-container
 ##.site-nav-logo.distraction-free-component
 ##.social
 ##.social-buttons
@@ -75,6 +76,7 @@
 ##.social-sidebar
 ##.socials
 ##.ssbp--theme-2.ssbp--fixed-left.ssbp-wrap.ssbp-set--one
+##.sticky-tools.share-tools-wrapper
 ##.story-share-buttons
 ##.tab-bar-fixed.c-tab-bar
 ##.text-annotation-footnote-wrapper
@@ -1220,6 +1222,8 @@ bleepingcomputer.com##.bc_wrapper:style(padding-top: 0px !important;)
 bleepingcomputer.com##.cc-bottom.cc-theme-classic.cc-type-info.cc-floating.cc-window
 bleepingcomputer.com##header:style(position: relative !important; top: 0 !important;)
 blog.bugreplay.com###bloc-nav
+blog.google##.article-share--sticky.article-sticky-share__wrap
+blog.google##.h-c-header__bar:style(position: absolute !important;)
 blog.google##.uni-fab-toggle
 blog.google##.uni-google-g-logo:style(transition: none !important; width: 0 !important;)
 blog.google##.uni-google-logo.uni-header-row:style(margin-top: 0px !important; transition: none !important;)
@@ -1228,6 +1232,7 @@ blog.google##.uni-header-content:style(position: relative !important; top: 0 !im
 blog.google##.uni-initialized.uni-footer-social-networks
 blog.google##.uni-initialized.uni-header-content:style(position: relative !important; top: 0 !important;)
 blog.google##.uni-selection-sharer-active.uni-selection-sharer
+blog.google##.uni-sticky-drawer.more-drawer
 blog.google##body > main:style(margin-top: 0px !important; transition: none !important;)
 blog.nomiku.com##.tmblr-iframe--below-header.iframe-controls--phone-mobile.tmblr-iframe--loaded.tmblr-iframe--unified-controls.tmblr-iframe
 blogs.office.com##.f-wrap-items.c-group
@@ -5299,6 +5304,7 @@ ieee.org###header:style(position: relative !important; top: 0 !important;)
 ieee.org###social-space
 ieee.org##.ad-module
 ieee.org##.ad-space
+ieee.org##.automaton.sml_article
 ieee.org##.backtotop
 ieee.org##.isotope-item.recent-item.corner-item.ad-item-related.sml_article.item
 ieee.org##.isotope-item.recent-item.corner-item.ad-item.sml_article.item
@@ -10651,6 +10657,9 @@ sun-sentinel.com##.trb_masthead_adBanner.trb_mh_adB
 sun-sentinel.com##.trb_nh:style(position: absolute !important;)
 sun-sentinel.com##.trb_nls_c
 sun-sentinel.com##.trb_sc_item_svg
+sunherald.com###newsletter-signUpWidget
+sunherald.com###story-cta-widget
+sunherald.com##.sticky-tools.share-tools-wrapper
 suntimes.com###header:style(position: relative !important; top: 0 !important;)
 suntimes.com##.newsletter-box.columns.small-12.medium-8.large-7
 suntimes.com##.show-for-medium-up.post-meta-social.post-meta
@@ -11352,6 +11361,7 @@ thehealthyfoodie.com##.shrink.site-header:style(position: relative !important; t
 theheartysoul.com##.text-center.dfp_stucky_footer
 thehill.com###article-recommendation
 thehill.com###block-social-share-social-share
+thehill.com###block-thehill-blocks-footer-signup
 thehill.com###bottom-story-socials
 thehill.com###dfp-ad-mos_1-wrapper
 thehill.com###dfp-ad-mos_2-wrapper
@@ -13556,6 +13566,7 @@ wolframalpha.com###headerad-pro
 wolframalpha.com##.pro-popup-zoom.pro-popup
 wolfstreet.com##.adsbygoogle
 wolfstreet.com##.ssba-wrap.ssba
+wololo.net##.sharrre-container
 women.com###wdc_share_pinterest
 women.com###wdc_share_tumblr
 women.com###wdc_share_twitter
