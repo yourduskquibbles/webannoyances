@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 5:18 PM 2017-10-16
+! Last Modified: 10:14 AM 2017-10-17
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -190,6 +190,8 @@
 @@||loxodo-analytics.ext.nile.works/api/save$xmlhttprequest,domain=washingtonpost.com
 a16z.com##.byline-social.social-share
 abc.net.au###navigationPrimary4:style(position: relative !important; top: 0 !important;)
+abc.net.au##.Nav-bar:style(position: absolute !important;)
+abc.net.au##.ShareLinks
 abc.net.au##.btn-group.tools
 abc.net.au##.clearfix.share-cont
 abc.net.au##.doctype-cmcollection.view-collection-social-media-promo
@@ -1872,10 +1874,13 @@ chicago.suntimes.com###actionbar
 chicago.suntimes.com###primary-navigation:style(position: relative !important; top: 0 !important;)
 chicagobusiness.com###clear-nav-account:style(position: relative !important; top: 0 !important;)
 chicagobusiness.com###clear-nav-date:style(position: relative !important; top: 0 !important;)
+chicagobusiness.com###clear-nav-share
 chicagobusiness.com###live:style(position: relative !important; top: 0 !important;)
 chicagobusiness.com###main-header:style(position: relative !important; top: 0 !important;)
 chicagobusiness.com###main-nav:style(position: relative !important; top: 0 !important;)
+chicagobusiness.com###share-follow
 chicagobusiness.com##.dialog-wrapper
+chicagobusiness.com##.read-next-follow.read-next-wrapper
 chicagobusiness.com##.reading-meter-attached.reading-meter:style(position: relative !important; top: 0 !important;)
 chicagocubsonline.com##.nav-primary:style(position: relative !important; top: 0 !important;)
 chicagomag.com###reveal-bar:style(position: relative !important; top: 0 !important;)
