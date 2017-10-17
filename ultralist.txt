@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 3:12 PM 2017-10-17
+! Last Modified: 4:20 PM 2017-10-17
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -3367,6 +3367,7 @@ droid-life.com##.t-letter-spacing-small.menu.site__priNav--menu
 droid-life.com##.t-letter-spacing-small.menu.site__priNav--menu:style(position: absolute !important; top: 0 !important;)
 droidguiding.com###nav-topbar
 dropbox.com###masthead:style(position: relative !important; top: 0 !important;)
+dropbox.com##.content-area:style(padding-top: 0px !important;)
 dropbox.com##.entry-footer
 dropbox.com##.social
 dropboxforum.com###header:style(position: relative !important; top: 0 !important;)
@@ -4515,6 +4516,8 @@ globalgolf.com###EmailModal
 globalgolf.com###Mask
 globalgolf.com###___ratingbadge_0
 globalnation.inquirer.net##.header
+globalnews.ca##.leaderboard-wrapper
+globalnews.ca##.socialShare
 globalnews.ca##.socialShare.collapsed
 globalnews.ca##.story-ad
 globalnews.ca##.withMore.socialShare
@@ -9429,6 +9432,7 @@ redalertpolitics.com##.dy-act-overlay.dy-modal-container
 redalertpolitics.com##.entry-social.pw-layout-horizontal.ra1-pw_size_medium.ra1-pw-classicWidget.pw-widget.pw
 redalertpolitics.com##.signup-trigger
 redalertpolitics.com##.social.pw-layout-horizontal.ra1-pw_size_medium.ra1-pw-classicWidget.pw-widget.pw
+redbooth.com###header:style(position: absolute !important;)
 redbullmusicacademy.com##.headroom--pinned.headroom--not-top.has-page-nav.headroom.ng-isolate-scope.ng-scope.bg-color-secondary.main-nav:style(position: relative !important; top: 0 !important;)
 redbullracing.com##.clearfix.article-social-foot
 redbullracing.com##.global-social
@@ -13425,7 +13429,9 @@ wired.com##.advertisement__leaderboard
 wired.com##.cm-subscribe-link-wrapper
 wired.com##.component-sticky:style(position: relative !important; top: 0 !important;)
 wired.com##.footer__list--social
-wired.com##.header--collapsed.header--default.header:style(position: relative !important; top: 0 !important;)
+wired.com##.header--collapsed:style(position: relative !important; top: 0 !important;)
+wired.com##.header--default.header:style(position: absolute !important;)
+wired.com##.header--show-social
 wired.com##.insider.secondary
 wired.com##.justify-c.align-m.flex-box.bg-gray-1.brad-top.rad
 wired.com##.justify-c.align-m.flex-row.cursor-pointer
