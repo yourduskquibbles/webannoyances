@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 1:57 PM 2017-10-18
+! Last Modified: 4:28 PM 2017-10-18
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -954,6 +954,10 @@ axios.com##.is-active.stream-social-cta
 axios.com##.rebelbar--fake.rebelbar
 axios.com##.rebelbar--fixed.rebelbar:style(position: relative !important; top: 0 !important;)
 axios.com##.sidebar__follow
+axios.com##.site-header:style(transition: none !important;)
+axios.com##.site-header__container--scrolled:style(position: absolute !important; transition: none !important;)
+axios.com##.site-header__container:style(position: absolute !important; transition: none !important;)
+axios.com##.site-header__logo .svg--logo:style(transition: none !important;)
 axios.com##.subscribe-flow-initial.sidebar__newsletter
 axios.com##.widget__sharebar
 axios.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
@@ -1040,9 +1044,11 @@ baltimoresun.com###support_journalism
 baltimoresun.com##.met-promo
 baltimoresun.com##.nextgen-right
 baltimoresun.com##.trb_bnn
+baltimoresun.com##.trb_em_pq_sh
 baltimoresun.com##.trb_gptAd
 baltimoresun.com##.trb_masthead_adBanner.trb_mh_adB
 baltimoresun.com##.trb_nh:style(position: absolute !important;)
+baltimoresun.com##.trb_nls_c
 bangordailynews.com###bdn-tophat:style(position: relative !important; top: 0 !important;)
 bangordailynews.com###sharebar
 bangordailynews.com##.content-padding.social
@@ -11737,6 +11743,7 @@ theoutline.com##.pullquote.pullquote--inline::after:style(background-image: none
 theoutline.com##.pullquote.pullquote--inline::before:style(background-image: none !important;)
 theoutline.com##.stack-embed--display.stack-embed:has(.general-disclaimer)
 theoutline.com##.ui-in-view.ui-scroll-start.ui-scroll-end.ui-fan-stack.card-stack--fan.card-stack
+theoutline.com##a:style(background-image: none !important;)
 thepaleomom.com##.site-header:style(position: relative !important; top: 0 !important;)
 theparisreview.org##.sticky.header-nav:style(position: relative !important; top: 0 !important;)
 thepeninsulaqatar.com##.navbar-fixed-top.menu-block:style(position: relative !important; top: 0 !important;)
