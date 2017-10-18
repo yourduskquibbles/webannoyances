@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 4:20 PM 2017-10-17
+! Last Modified: 10:53 AM 2017-10-18
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -61,6 +61,7 @@
 ##.outbrain.recommend
 ##.popover.popover--bottom.is-withTransition
 ##.promoCard
+##.scrolling.social-share-wrapper
 ##.sd-sharing-enabled.sharedaddy
 ##.sdc-site-share--amp.sdc-site-share
 ##.share-bar
@@ -1223,6 +1224,7 @@ bleepingcomputer.com##.cc-bottom.cc-theme-classic.cc-type-info.cc-floating.cc-wi
 bleepingcomputer.com##header:style(position: relative !important; top: 0 !important;)
 blog.bugreplay.com###bloc-nav
 blog.google##.article-share--sticky.article-sticky-share__wrap
+blog.google##.article-sticky-share__wrap
 blog.google##.h-c-header__bar:style(position: absolute !important;)
 blog.google##.uni-fab-toggle
 blog.google##.uni-google-g-logo:style(transition: none !important; width: 0 !important;)
@@ -3927,6 +3929,7 @@ filehippo.com##.navbar-fixed-top.navbar-default.navbar.bootstrap-home:style(posi
 filterlists.com##.site-header:style(position: relative !important; top: 0 !important;)
 finance.yahoo.com###yog-hd
 financemagnates.com###header:style(position: relative !important; top: 0 !important;)
+finehomebuilding.com###top-promo-waypoint:style(position: absolute !important;)
 finehomebuilding.com##.article__social-links
 finehomebuilding.com##.visible.inline-email-form
 finland.fi###masthead:style(position: absolute !important;)
@@ -4821,6 +4824,9 @@ gsa.gov##.addthis_toolbox.addthis_default_style
 gsa.gov##.category-nav:style(position: absolute !important;)
 gsa.gov##.hidden-xs.navbar-fixed-top:style(position: relative !important; top: 0 !important;)
 gsa.gov##.hidden-xs:style(position: relative !important; top: 0 !important;)
+gsmarena.com###footer-side:style(position: relative !important; top: 0 !important;)
+gsmarena.com###header:style(position: absolute !important;)
+gsmarena.com###social-connect
 gsuitetips.com###od-header:style(position: relative !important; top: 0 !important;)
 gsuitetips.com###od-navbar:style(position: relative !important; top: 0 !important;)
 guampdn.com##.android-smart-banner.smart-banner
@@ -6851,6 +6857,8 @@ medium.com##.u-xs-height56.u-height65.js-metabarSpacer.metabar--spacer.metabar
 medium.com##.u-xs-hide.u-xs-height56.u-height65.u-verticalAlignTop.u-inlineBlock.u-alignMiddle
 medium.com##.u-xs-paddingRight10.u-xs-paddingLeft10.u-zIndexMetabar.u-paddingBottom10.u-paddingTop10.u-borderBox.u-boxShadowTop.u-backgroundWhite.u-sizeFullWidth.u-bottom0.u-fixed
 meduza.io##.Material-materialTopBar
+megabots.com##.js-active.btn--social-tab
+megabots.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute !important;)
 megynkelly.org###openModal
 megynkelly.org##.td-scroll-up-visible.td-scroll-up
 meh.com###advertisement
@@ -8500,6 +8508,7 @@ pastemagazine.com##.ui-front.ui-widget-overlay
 pastemagazine.com##.ui-helper-clearfix.ui-corner-all.ui-widget-header.ui-dialog-titlebar:style(position: relative !important; top: 0 !important;)
 patch.com###slide-nav:style(position: relative !important; top: 0 !important;)
 patch.com##.header-container:style(position: relative !important; top: 0 !important;)
+patch.com##.scrolling.social-share-wrapper
 patch.com##.social-email-modal-inner-wrapper
 patheos.com###mdf_menu:style(position: relative !important; top: 0 !important;)
 patheos.com##.add-bottom-margin.add-top-margin.simple-follow.widget-wrap
@@ -12067,6 +12076,8 @@ thisisinsider.com##.social
 thomsonreuters.com##.navbar-toggleable.navbar-inverse.bg-inverse.fixed-top.navbar-full.navbar.header:style(position: relative !important; top: 0 !important;)
 thoughtcatalog.com##.mode-absolute.revealed.global_sharing_controls
 thoughtco.com###header_1-0:style(position: relative !important; top: 0 !important;)
+thoughtco.com###main:style(margin-top: 0px !important;)
+thoughtco.com###social-share-block_1-0
 thoughtco.com##.header-condensed.header.comp:style(position: relative !important; top: 0 !important;)
 thoughtcrimemedia.net##.Mobile-bar--top.Mobile-bar:style(position: relative !important; top: 0 !important;)
 thrashermagazine.com##.above-most.sticky-header-outer-container
@@ -12824,6 +12835,7 @@ vice.com##.site-header--home.site-header:style(position: absolute !important;)
 vice.com##.site-header:style(position: absolute !important;)
 vice.com##.slider-trigger--vice
 vice.com##.social-list
+vice.com##.up-next--visible.up-next
 vice.com##.up-sell
 vice.com##.video-navbar:style(position: relative !important; top: 0 !important;)
 viceland.com##.navbar:style(position: relative !important; top: 0 !important;)
@@ -13592,6 +13604,8 @@ wonderhowto.com###top-nav:style(position: relative !important; top: 0 !important
 wonkette.com##.td-affix.td-header-main-menu.td-header-border.td-header-row:style(position: relative !important; top: 0 !important;)
 wonkette.com##.td-header-sp-top-widget
 wonkette.com##.td-scroll-up-visible.td-scroll-up
+woodbarter.com###loginBar:style(position: absolute !important;)
+woodbarter.com###navigation:style(position: absolute !important;)
 woostercollective.com##.social
 woot.com##.social
 wordpress.com###bit
