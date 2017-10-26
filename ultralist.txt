@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 4:26 PM 2017-10-24
+! Last Modified: 4:55 PM 2017-10-26
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -3958,6 +3958,7 @@ fidelity.com##.info-flyout-wrapper
 fieldandstream.com##.main-header:style(position: relative !important; top: 0 !important;)
 fifthdomain.com##.sticky-chain-nav.attach:style(position: relative !important; top: 0 !important; width: 100% !important;)
 filehippo.com##.navbar-fixed-top.navbar-default.navbar.bootstrap-home:style(position: relative !important; top: 0 !important;)
+filehippo.com##body:style(padding-top: 0px !important;)
 filterlists.com##.site-header:style(position: relative !important; top: 0 !important;)
 finance.yahoo.com###yog-hd
 financemagnates.com###header:style(position: relative !important; top: 0 !important;)
@@ -10032,10 +10033,12 @@ seattlepi.com##.article-share
 seattlepi.com##.pm-device.article08.konafilter
 seattlepi.com##header:style(position: relative !important; top: 0 !important;)
 seattletimes.com###userMessagingInset
+seattletimes.com##.active.facebook-modal
 seattletimes.com##.global-search-button.header-search-icon
-seattletimes.com##.main-nav > .main-nav-header
+seattletimes.com##.main-nav > .main-nav-header:style(position: relative !important; top: 0 !important;)
 seattletimes.com##.modal
 seattletimes.com##.title.article-share
+seattletimes.com##.vertical.article-share
 seccountry.com##.cm-ad-block
 secondnexus.com###sb_super_bar
 secondnexus.com##.cnsmbl-container-320x50-ads
