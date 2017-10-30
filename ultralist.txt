@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 1:44 PM 2017-10-27
+! Last Modified: 8:48 AM 2017-10-30
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -653,6 +653,7 @@ anbox.io##.affix.navbar-fixed-top.navbar-default.navbar:style(position: relative
 anbox.io##.clearfix.d-header:style(position: absolute !important;)
 android.com###anchor-nav:style(position: relative !important; top: 0 !important;)
 android.com###header:style(position: relative !important; top: 0 !important;)
+android.com##.dac-toast-group
 android.com##.l-header:style(position: relative !important; top: 0 !important; transform: none !important;))
 android.com##.nocontent.devsite-top-section:style(position: relative !important; top: 0 !important;)
 android.com##body:style(padding-top: 0px !important;)
@@ -2723,6 +2724,7 @@ cubbiescrib.com###pinned-ad
 cubbiescrib.com##.article-share
 curbed.com##.c-global-header__social
 curbed.com##.c-newsletter-signup-form__1.c-newsletter-signup-form
+curbed.com##.c-pinterest-button
 curbed.com##.dfp_ad--held-area.dynamic-js-slot
 curbed.com##.m-ad__athena.m-ad__dynamic_ad_unit.m-ad
 curbed.com##.m-ad__btf_medium_rectangle_variable.m-ad__dynamic_ad_unit.m-ad
@@ -5030,6 +5032,8 @@ hammocktown.com##.ts-fab-twitter-link
 hammocktown.com##.us_buttons_5.us_mobile_bar
 hammocktown.com##.us_skin_default.us_tac.us_share_buttons.us_wrapper
 hammocktown.com##iframe
+handelsblatt.com##.main-header:style(position: absolute !important;)
+handelsblatt.com##.show.cookie
 hannity.com##.affix.full.navTopadContainer:style(position: relative !important; top: 0 !important;)
 harpercollins.com##.hc-main-header__nav-bar__navigation--fixed.hc-main-header__nav-bar__navigation:style(position: relative !important; top: 0 !important;)
 harpers.org###OFIE
@@ -5193,10 +5197,12 @@ hireright.com##.backtotop.fa-angle-up.fa
 hireright.com##.fhmm.navbar-static-top.navbar-white.navbar:style(position: relative !important; top: 0 !important;)
 history.com###backtotop
 history.com##.clearfix.visible-phone.share-tools
+history.com##.display.sticky-header.interior-header.global-header
 history.com##.hidden-phone.clearfix.article-tools-section
 history.com##.inline-signup.newsletter-signup
 history.com##.social-float
 history.com##.sticky-signup.newsletter-signup
+history.com##.story-share
 historyextra.com###om-menu-history-topics-ul-wrapper
 historyextra.com###search-block-form
 historyextra.com##.progress-bar-container
@@ -6316,6 +6322,13 @@ laptopmag.com###sticky-header:style(position: relative !important; top: 0 !impor
 laptopmag.com###stickyShare
 laptopmag.com##.sticky.mqMedOff.subNavWrap:style(position: relative !important; top: 0 !important;)
 laptopmag.com##.tocside-in.tocside
+lareviewofbooks.org###logo:style(position: relative !important; top: 0 !important; left: -100px !important;)
+lareviewofbooks.org###materialize-lean-overlay-1
+lareviewofbooks.org###newsletterModal
+lareviewofbooks.org###site-navigation-main:style(position: absolute !important;)
+lareviewofbooks.org###social
+lareviewofbooks.org##.ssk-count.ssk-group
+lareviewofbooks.org##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 last.fm##.masthead:style(position: absolute !important; top: 10 !important;)
 last.fm##.top-bar:style(position: absolute !important; top: 0 !important;)
 lastwordonnothing.com###sidebar-link:style(position: absolute !important;)
@@ -9777,6 +9790,7 @@ reuters.com##.active.container.header-pane-main:style(position: relative !import
 reuters.com##.amp-social-container
 reuters.com##.container > div > div > div > div:style(position: relative !important; top: 0 !important;)
 reuters.com##.container.next-article-info
+reuters.com##.fa-tumblr.fa
 reuters.com##.facebook
 reuters.com##.fixed.nav-white-space
 reuters.com##.fixed:style(position: relative !important; top: 0 !important;)
@@ -9785,6 +9799,7 @@ reuters.com##.header-main.group.header:style(position: relative !important; top:
 reuters.com##.header-mini.header-main.group.header > .active.container.header-pane-main:style(position: relative !important; top: 0 !important;)
 reuters.com##.last.new-social
 reuters.com##.linkedIn
+reuters.com##.main.content:style(margin-top: 0px !important;)
 reuters.com##.navbar-toggleable-sm.navbar-inverse.bg-inverse.fixed-top.navbar-full.navbar.header.special-report-nav:style(position: relative !important; top: 0 !important;)
 reuters.com##.reuters-share
 reuters.com##.slide-desc-share
@@ -13741,6 +13756,7 @@ wired.com##.marg-b-med.sidebar-rad.box.rad
 wired.com##.meta-footer-dig
 wired.com##.pad-b-50.pad-t-50.justify-c.flex-row
 wired.com##.slider-thumbs-wrapper.custom_y_scrollbar_thumbs
+wired.com##.social-share
 wired.com##.social-share-sidebar-component__content
 wired.com##.social-top
 wired.com##.social_bookmarking_module
