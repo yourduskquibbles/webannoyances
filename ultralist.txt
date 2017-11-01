@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 9:21 AM 2017-10-31
+! Last Modified: 8:40 AM 2017-11-01
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -1211,7 +1211,9 @@ bild.de##.main-nav:style(position: relative !important; top: 0 !important;)
 billboard.com###block-billboard-blocks-article-artist
 billboard.com###block-fblikebutton-fblikebutton-static-block
 billboard.com##.breaking_news_bar:style(position: relative !important; top: 0 !important;)
+billboard.com##.header-wrapper:style(position: absolute !important; transition: none !important;)
 billboard.com##.search-toggle.open-search
+billboard.com##.site-header__progress
 billboard.com##.social.social_vert
 billboard.com##.top-content.container:style(position: relative !important; top: 0 !important;)
 billerickson.net##.after_content.ea-share-count-wrap
@@ -1428,12 +1430,14 @@ boston.com##.masthead__content:style(position: relative !important; top: 0 !impo
 boston.com##body:style(padding-top: 0px !important;)
 bostonglobe.com###email-login
 bostonglobe.com###subscribe-btn
+bostonglobe.com##.ad-container
 bostonglobe.com##.bg-header__smartbar--message:style(position: relative !important; top: 0 !important;)
 bostonglobe.com##.bg-team-nav--sticky:style(position: relative !important; top: 0 !important;)
 bostonglobe.com##.infinite-modal__black-bar
 bostonglobe.com##.inline-ad-1.inline-ad
 bostonglobe.com##.inline-ad-2.inline-ad
 bostonglobe.com##.inline-ad-3.inline-ad
+bostonglobe.com##.inline-newsletter
 bostonglobe.com##.meter-modal-block
 bostonglobe.com##.meter-social-connect--visible.meter-social-connect
 bostonglobe.com##.primary-tools.tools.Top
@@ -1770,6 +1774,7 @@ casinotop10.net###totop
 catapult.co##.dark.cover-photo.banner.announcements
 catapult.co##.fixed.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 catapult.co##.in-focus.book-ad.story-ad-container
+cato.org##.blog-email-tease.tease-special
 causeandeffect.fm###sharingfooter
 causeandeffect.fm##.global-nav--scrollback.fixed.shown.animated.global-nav--permalink.hide-for-medium-down.global-nav--desktop.global-nav.js_top-nav.js_global-nav-wrap:style(position: relative !important; top: 0 !important;)
 causeandeffect.fm##.topnav__scrollback-tools
@@ -2217,12 +2222,15 @@ cmlviz.com##.floating_footer_height.close_news_floating_footer
 cmlviz.com##.floating_footer_height.news_floating_footer
 cmp.com##.active.share-buttons-fixed-container
 cnbc.com###cnbc-new-header:style(position: relative !important; top: 0 !important;)
+cnbc.com###nav_spacer:style(height: 0px !important;)
 cnbc.com###optIn-embedded
 cnbc.com###optIn-right-rail
 cnbc.com###social-tools-panel
+cnbc.com###social_bar_middle_gig_containerParent
 cnbc.com##.bx-align
 cnbc.com##.cnbc-card.cnbc-end:style(position: relative !important; top: 0 !important;)
 cnbc.com##.cnbc-menu:style(position: relative !important; top: 0 !important;)
+cnbc.com##.main-header-nav:style(height: 30px !important;)
 cnbc.com##.main-header-nav:style(position: relative !important; top: 0 !important;)
 cnbc.com##.news-widget
 cnbc.com##.persistentHeader.main-header-nav:style(position: relative !important; top: 0 !important;)
@@ -2233,6 +2241,8 @@ cnbc.com##.social-facebook
 cnbc.com##.social-google-plus
 cnbc.com##.social-twitter
 cnbc.com##.story-header-right
+cnbc.com##.sub-header
+cnbc.com##.sub-header-social-container
 cnbc.com##.theplatform-video__docked.dockable.player-lazy-loaded-mobile:style(position: relative !important; top: 0 !important;)
 cnet.com###connectCNET
 cnet.com###globalSocialPromoWrap
@@ -4591,6 +4601,11 @@ gizmodo.com##.js_post-dropdown-ct-sticky.js_post-dropdown-ct.post-dropdown-ct
 gizmodo.com##.js_post-dropdown-ct.post-dropdown-ct.js_meta-tools.meta__tools
 gizmodo.com##.js_subscribe-region-sidebar.js_dismissable.js_newsletter-btn--subscribe
 gizmodo.com##.newsletter-btn--subscribe__nodismiss.newsletter-btn--subscribe.js_subscribe-region-footer.js_newsletter-btn--subscribe
+gizmodo.com.au##.btn-facebook.btn.social-share-facebook
+gizmodo.com.au##.btn-twitter.btn.social-share-twitter
+gizmodo.com.au##.contact-module
+gizmodo.com.au##.newsletter-subscribe
+gizmodo.com.au##.site-header--fixed.site-header:style(position: absolute !important;)
 gkn.com###return-to-top
 gkn.com###top:style(position: absolute !important;)
 glamour.com##.closed.sticky.component-social-share
@@ -5294,6 +5309,7 @@ hotair.com##.text-center.newsletter-small.widget
 hotair.com##.tw.share.btn-lg.btn-default.btn
 hotair.com##a[href="https://facebook.com/hotaircom"] > .fa-fw.fa-facebook-official.fa
 hotair.com##a[href="https://twitter.com/hotairblog"] > .fa-fw.fa-twitter.fa
+hothardware.com##.ad-leaderboard
 hothardware.com##.header-fixed-top:style(position: absolute !important; top: 0 !important;)
 housebeautiful.com###share-sticky-bar
 housebeautiful.com##.footer--social
@@ -5399,6 +5415,7 @@ huffingtonpost.com##.recirc--page.recirc--vertical.recirc--more-on.recirc--trend
 huffingtonpost.com##.right-rail
 huffingtonpost.com##.sbm-main-new.clearfix
 huffingtonpost.com##.share-bar--sticky.share-bar.js-sharebar.bn-left-rail
+huffingtonpost.com##.share-bar__item-link
 huffingtonpost.com##.share-options.cf
 huffingtonpost.com##.share-tools
 huffingtonpost.com##.treated.advertisement.above_follow_us_300x250
@@ -6753,6 +6770,7 @@ makezine.com###mz-mag-cover
 makezine.com##.header-wrapper:style(position: relative !important; top: 0 !important;)
 makezine.com##.social-foot-col.col-md-3.col-sm-6.col-sm-12:nth-of-type(5)
 makezine.com##.subscribe-red-btn
+malaysiakini.com##.uk-active.uk-sticky-init.uk-position-z-index:style(position: absolute !important;)
 malwarebytes.com###bottom-subnav
 malwarebytes.com###newnav:style(position: relative !important; top: 0 !important;)
 malwaretech.com###responsive-menu-button
@@ -9312,6 +9330,8 @@ protonmail.com###header-spacer
 protonmail.com###header:style(position: relative !important; top: 0 !important;)
 protonmail.com##.csbtns
 protonmail.com##.text-right.col-sm-4
+prototypr.io##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
+prototypr.io##.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: absolute !important;)
 prri.org##.animated.slideInDown.isSticky.stickyControl.researchArticleNav
 prri.org##.noShadow.header--collapsed.header--dark.header:style(position: relative !important; top: 0 !important;)
 prwatch.org##.sharethis-buttons
@@ -11047,6 +11067,8 @@ talosintelligence.com##.social-media-share
 tampabay.com###gigyaReactionsBarButtons
 tampabay.com###gigyaShareBarButtons
 tampabay.com###gigyaShareBarButtons2
+tampabay.com##.fa-facebook-square.fa.tool.facebook
+tampabay.com##.min-height-45.amp-feature-wrapper:style(position: static !important; top: 0 !important;)
 tampabay.com##.mobile-only.row
 tampermonkey.net##.ad-changelog-block
 tampermonkey.net##.noborder.ad-changelog2
