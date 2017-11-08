@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 8:59 AM 2017-11-07
+! Last Modified: 7:30 AM 2017-11-08
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -622,6 +622,7 @@ amazon.com###tell-a-friend-byline
 amazon.com###tellAFriendBox_feature_div
 amazon.com##.actor.xrayQuickViewListItem
 amazon.com##.huc-v2-pinned-order-row-with-divider.a-row:style(position: relative !important; top: 0 !important;)
+amazon.com##.share-widget
 amazon.com##.show.xrayQuickView
 amazon.com##.xrayHeaderLink
 amazon.com##.xrayQuickViewList.collectionView
@@ -916,6 +917,8 @@ atr.org##.navbar:style(position: relative !important; top: 0 !important;)
 atr.rollcall.com###share-top
 att.com##.fixed-search.lia-quilt-row-search_row.lia-quilt-row:style(position: relative !important;)
 att.com##.ftr-social-links
+auburnpub.com###main-body-container:style(padding-top: 0px !important; margin-top: 0px !important;)
+auburnpub.com###site-navbar-container:style(position: relative !important;)
 auburntigers.com###header:style(position: relative !important; top: 0 !important;)
 auburntigers.com###sport-nav:style(position: relative !important; top: 0 !important;)
 auctiva.com##.adsbygoogle
@@ -996,6 +999,7 @@ axios.com##body:style(overflow-x: hidden !important; overflow-y: auto !important
 axlegeeks.com##.active.adr-app-banner
 axlegeeks.com##.active.adr-pink-test.adr-app-banner
 axlegeeks.com##.clearfix.mph-wrap:style(position: relative !important; top: 0 !important;)
+aylien.com##.dpsp-networks-btns-share.dpsp-networks-btns-content.dpsp-networks-btns-wrapper
 azcentral.com##.android-smart-banner.smart-banner
 azcentral.com##.asset-inline-share-tools-bottom.asset-inline-share-tools.inline-share-tools
 azcentral.com##.asset-inline-share-tools-top.asset-inline-share-tools.inline-share-tools
@@ -2744,6 +2748,7 @@ cryptocoinsnews.com###onesignal-bell-container
 cryptocoinsnews.com##.headroom--pinned.headroom--not-top.headroom.mini-bar
 cryptocoinsnews.com##.mashsb-main.mashsb-container
 cryptocoinsnews.com##.widget_text.widget
+cryptocougar.com##.single-post-share-icons-wrapper
 csindy.com###NavigationHorizontal:style(position: relative !important; top: 0 !important;)
 csindy.com###TallBar
 csindy.com###ToolBarHorizontal
@@ -3468,6 +3473,9 @@ drafthousefilms.com##.social
 dreamhost.com###back-top
 dreamhost.com###sticky_header
 drewestate.com###mini-header:style(position: absolute !important;)
+drewestate.com###simple-social-icons-2
+drewestate.com###top-bar-social
+drewestate.com##.buzz_share
 drewestate.com##.mailmunch-overlay
 drewestate.com##.mailmunch-popover
 dribbble.com###header:style(position: relative !important; top: 0 !important;)
@@ -4217,6 +4225,7 @@ foodbeast.com###goodbye-form
 foodbeast.com###mc_embed_signup
 foodbeast.com##.fdbst-ad-placement
 foodbeast.com##HEADER:style(position: relative !important; top: 0 !important;)
+foodnetwork.com###mod-social-share-1
 foodnetwork.com##.gig-button-container-horizontal.gig-share-button-container.gig-button-container-email-count-none.gig-button-container-email.gig-button-container-count-none.gig-button-container
 foodnetwork.com##.gig-button-container-horizontal.gig-share-button-container.gig-button-container-facebook-count-none.gig-button-container-facebook.gig-button-container-count-none.gig-button-container
 foodnetwork.com##.gig-button-container-horizontal.gig-share-button-container.gig-button-container-pinterest-count-none.gig-button-container-pinterest.gig-button-container-count-none.gig-button-container
@@ -4636,6 +4645,7 @@ gianlucadimarzio.com###top:style(position: relative !important; top: 0 !importan
 gianlucadimarzio.com##.condivisioni-articolo
 giftcardgranny.com###nav-main:style(position: relative !important; top: 0 !important;)
 giftcardzen.com##.header-v6.header-sticky.header-classic-white:style(position: relative !important; top: 0 !important;)
+giftcardzen.com##.wrapper.rmn-alert:style(margin-top: 0px !important;)
 gimp.org##.headerlink
 giphy.com##:xpath(.//*[@class="header-wrapper"])
 giphy.com##:xpath(.//*[@style="top: 0px;"])
@@ -5826,7 +5836,7 @@ instyle.com###header:style(position: relative !important; top: 0 !important;)
 instyle.com###logo:style(position: relative !important; top: 0 !important;)
 instyle.com##.header__logo-image:style(position: relative !important; top: 0 !important;)
 instyle.com##.instyle_menu:style(position: relative !important; top: 0 !important;)
-intel.com##.navbar-fixed-top.global-menu-simplify:style(position: relative !important; top: 0 !important;)
+intel.com##.navbar-fixed-top.global-menu-simplify:style(position: absolute !important;)
 intel.com##.no-print.breadcrumb.blade-support:style(position: relative !important; top: 0 !important;)
 intelius.com###billy-mays
 intelius.com###responsive-back-to-top
@@ -6686,6 +6696,8 @@ livestrong.com##.js-mobile_adsense2.article_module_section
 livestrong.com##.js-top_header.top_header:style(position: relative !important; top: 0 !important;)
 livestrong.com##.social-tools
 livestrong.com##.top_header__row1:style(position: relative !important; top: 0 !important;)
+livewellbakeoften.com##.sw-pinit-left.sw-pinit-top.sw-pinit-button
+livewellbakeoften.com##.swp_one.scale-fullWidth.scale-100.swp_o_fullColor.swp_i_fullColor.swp_d_fullColor.swp_flatFresh.nc_socialPanel
 livingstondaily.com##.android-smart-banner.smart-banner
 livingstondaily.com##.bx-creative
 livingstondaily.com##.bx-impress-in
@@ -7527,6 +7539,7 @@ msn.com###precontent:style(margin-top: 0px !important;)
 msn.com###social-plugins
 msn.com###subfoot
 msn.com##.Modelinfo
+msn.com##.dynamicRRWrapper
 msn.com##.fbpopup-container
 msn.com##.head:style(position: relative !important; top: 0 !important;)
 msn.com##.light.filmstrip:style(position: relative !important; top: 0 !important;)
@@ -7867,6 +7880,9 @@ nbclosangeles.com##.stickyNav.navbar:style(position: relative !important; top: 0
 nbclosangeles.com##.swiper-container-android.swiper-container-horizontal.quick-nav:style(position: relative !important; top: 0 !important;)
 nbcmiami.com##.header:style(position: relative !important; top: 0 !important;)
 nbcmiami.com##.swiper-container-android.swiper-container-horizontal.quick-nav
+nbcmontana.com###header:style(padding-top: 0px !important;)
+nbcmontana.com###site-header:style(position: relative !important; top: 0 !important;)
+nbcmontana.com##.social-share
 nbcnews.com###ember983
 nbcnews.com##.article_max.article_share.js-share
 nbcnews.com##.article_meta-container.js-bottom-limit
@@ -8339,6 +8355,8 @@ nine.com.au###sticky
 nine.com.au##.header-module__inner:style(position: relative !important; top: 0 !important;)
 nine.com.au##.module.share
 nine.com.au##.social
+nintendo.com###global-header:style(position: relative !important; top: 0 !important; transition: none !important;)
+nintendo.com##body:style(padding-top: 0px !important;)
 nintendoeverything.com##.sd-sharing-enabled.sharedaddy
 nj.com##.adAdhesionSidebar
 nj.com##.adi-share-flyout.horizontal.adi-share.adi-share-auto
@@ -8431,6 +8449,7 @@ ntknetwork.com##.navSocial
 ntknetwork.com##.share-icons
 ntknetwork.com##.social-floating
 nvcc.edu###head-social
+nvidia.com##.global-nav:style(position: absolute !important; transition: none !important;)
 nwahomepage.com###header:style(position: absolute !important; top: 0 !important;)
 nwahomepage.com###mod-up-next
 nwahomepage.com###site-header:style(position: absolute !important; top: 0 !important;)
@@ -9165,6 +9184,7 @@ polygon.com##.main-social.c-social-buttons
 polygon.com##.pinned.m-site-nav:style(position: relative !important; top: 0 !important;)
 polygon.com##.tab-bar-fixed.c-tab-bar
 polygraph.info##.hdr:style(position: relative !important; top: 0 !important;)
+poorlittleitgirl.com###site-navigation:style(position: absolute !important;)
 popehat.com##.sd-sharing-enabled.sharedaddy
 popsci.com###in-content-ad-0
 popsci.com###in-content-ad-1
@@ -10684,6 +10704,7 @@ softpedia.com##DIV[style="float:left; margin-left: 30px; width: 200px;"]
 sohu.com##.questionnaire
 someecards.com###sec-header-container
 sometimes-interesting.com##.td-header-menu-wrap:style(position: relative !important; top: 0 !important;)
+sony.com##.share-box
 sophos.com##.newsletter-panel
 soundcloud.com###content:style(padding-top: 0px !important;)
 soundcloud.com###header:style(position: relative !important; top: 0 !important;)
@@ -11240,6 +11261,7 @@ tastingtable.com##.global-header:style(position: relative !important; top: 0 !im
 tastingtable.com##.js-header-search.search:style(position: relative !important;)
 tastingtable.com##.logo:style(position: absolute !important;)
 tastingtable.com##.shares
+taxfoundation.org##.navbar:style(position: absolute !important;)
 tbo.com##.tbo-connect-container
 tcpalm.com##.android-smart-banner.smart-banner
 tcpalm.com##.bx-creative
@@ -12709,6 +12731,8 @@ tofugu.com##.search.nav-item:style(position: relative !important; top: 0 !import
 toms.com###gv-btop
 tomsguide.com##.z-layer-8.header-main.header:style(position: absolute !important; top: 0 !important;)
 tomshardware.com##.docked-buttons:style(position: relative !important; top: 0 !important;)
+tomshardware.com##.jw-player-position:style(position: static !important;)
+tomshardware.com##.jw-sharing-dock-btn.jw-reset.jw-background-color.jw-dock-button
 tomshardware.com##.share-bar
 tomshardware.com##.z-layer-8.header-main.header:style(position: absolute !important; top: 0 !important;)
 tomssurprisesale.com###ss-signup
@@ -12870,6 +12894,9 @@ truththeory.com##.group.content:style(position: relative !important; top: 0 !imp
 trxtraining.com###main-menu-wrapper:style(position: relative !important; top: 0 !important;)
 ttheplaylist.net###social-media-icons-3
 ttheplaylist.net###text-9
+tttthreads.com##.bg-dark.fixed-top.navbar-dark.navbar-expand-md.navbar:style(position: absolute !important;)
+tttthreads.com##.comments-sm.comments.d-sm-block.col-sm-1
+tttthreads.com##.top-right-action
 tuaw.com##.aol-share
 tucson.com###site-navbar-container:style(position: relative !important;)
 tumblr.com##.flattr
@@ -13381,6 +13408,7 @@ viralthread.com##.navbar-default.navbar:style(position: relative !important; top
 virgin.com###header:style(position: relative !important; top: 0 !important;)
 virgin.com###page:style(margin-top: 0px !important; top: 0px !important;)
 virgin.com##.clearfix.header-social-links
+virginia.gov##body:style(padding-top: 0px !important;)
 virginia.gov##header:style(position: relative !important; top: 0 !important;)
 virginiawinefest.com###PopupSignupForm_0
 virginiawinefest.com###slidingbar-area
@@ -13836,6 +13864,8 @@ wftv.com###wrapper:style(padding-top: 0px !important;)
 wftv.com##.fixed-desktop.wrap-portlets.pull-8.col-4
 wftv.com##.toggle-slide
 wftv.com##.ui-social
+wgauradio.com##.story-pg__social-icons-contr
+wgauradio.com##.visible.sticky-header__container
 wgno.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute !important;)
 wgno.com##.sd-sharing-enabled.sharedaddy
 wgntv.com##.station-promo
@@ -13917,6 +13947,11 @@ wiley.com##.article-tools__is-fixed.article-tools:style(position: absolute !impo
 wiley.com##.is-fixed.closed.js-module.js-article-support.article-support
 wiley.com##.notification.js-module
 wiley.com##.overlay__control.js-module.article-tools__tool-link
+wilton.com##.optin-slide-wrapper
+wilton.com##.popup-dialog
+wilton.com##.popup-overlay
+wilton.com##.secondary.back-to-top
+wilton.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 wilx.com###nav:style(position: relative !important; top: 0 !important;)
 wilx.com###navbar:style(position: relative !important; top: 0 !important;)
 wimbledon.com###mobileMenuContainer:style(position: relative !important; top: 0 !important;)
