@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:02 AM 2017-11-14
+! Last Modified: 9:00 AM 2017-11-15
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -55,6 +55,7 @@
 ##.js-postActionsBarContent.row.postActionsBar-content
 ##.js-postActionsFooter.u-flexCenter.postActions
 ##.js_top-nav-wrap.top-nav.fixed.shadow-bottom
+##.jw-sharing-dock-btn.jw-reset.jw-background-color.jw-dock-button
 ##.mobile-floating-footer-show.mobile-floating-footer
 ##.notes-markers
 ##.notesMarkers
@@ -235,6 +236,8 @@ abc30.com##.sticky.wrapper.nav-container-sticky:style(position: relative !import
 abc30.com##.top-share.share-panel-legacy.share-panel
 abc30.com##body:style(padding-top: 0px !important;)
 abc3340.com##.active.v2.sd-header-wrapper:style(position: relative !important; top: 0 !important;)
+abc3340.com##.sd-news-social-placeholder
+abc3340.com##.v2.sd-header-wrapper.sd-news-header:style(position: absolute !important;)
 abc3340.com##body:style(padding-top: 0px !important;)
 abc6onyourside.com##.sd-header
 abc6onyourside.com##.sd-news-social-placeholder
@@ -2154,6 +2157,9 @@ citizen-times.com##.site-nav-social-link.site-nav-icon-link.site-nav-first-secon
 citizen-times.com##.site-nav-social-link.site-nav-icon-link.site-nav-first-secondary-link.site-nav-end-link.site-nav-link-theme-dark-green.site-nav-link
 citizen-times.com##.story-tools
 citizen-times.com##.utility-bar-wrap
+citizensforethics.org##.donate-btn
+citizensforethics.org##.fixed-menu.sticky.header:style(position: absolute !important;)
+citizensforethics.org##.hidden-xs.top-bar:style(position: absolute !important;)
 citizenslant.com###navigation:style(position: relative !important; top: 0 !important;)
 city-data.com###top_menu:style(position: relative !important; top: 0 !important;)
 city-journal.org##.isShown.m_article-title-bar:style(position: relative !important; top: 0 !important;)
@@ -3602,6 +3608,7 @@ economist.com##.fe-blogs__desktop-beta-bar.beta-bar.bar-wrapper
 economist.com##.fe-blogs__sidebar-ad-wrapper.stickyfill
 economist.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBottomSection.u-tintSpectrum.u-tintBgColor.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
 economist.com##.navigation.navigation-sticky-scroller.sticky-scroller:style(position: relative !important; top: 0 !important;)
+economist.com##.newsletter-form
 economist.com##.subscription-ribbon
 ecotonemagazine.org##.newsletter.columns.medium-6.small-12
 ecotonemagazine.org##.social
@@ -3726,6 +3733,8 @@ epicurious.com##.recipe-top.sharing-actions
 epicurious.com##.site-header:style(position: relative !important; top: 0 !important;)
 epicurious.com##.social-buttons
 epicurious.com##.social-channel-links
+epmonthly.com###privy-container
+epmonthly.com##.cf.ep-social-icons
 equifax.com###auto-top-link
 erikdubois.be###main-header:style(position: absolute !important;)
 erikdubois.be###top-header:style(position: absolute !important;)
@@ -4532,6 +4541,7 @@ ft.com##.o-cookie-message--active.o-cookie-message--banner-centric.o-cookie-mess
 ft.com##.o-header--sticky-active.o--if-js.o-header--sticky.o-header--simple.o-header
 ft.com##.o-header--sticky-scroll-down.o-header--sticky-active.o--if-js.o-header--sticky.o-header--simple.o-header
 ft.com##.o-header--sticky-scroll-up.o-header--sticky-active.o--if-js.o-header--sticky.o-header--simple.o-header
+ft.com##.o-share-wrapper
 ft.com##.o-share__action--facebook.o-share__action
 ft.com##.o-share__action--linkedin.o-share__action
 ft.com##.o-share__action--twitter.o-share__action
@@ -5293,6 +5303,12 @@ hexxiumcreations.com###masthead:style(position: absolute !important;)
 highbeam.com##.header-outer
 highspeedexperts.com###topcontrol
 highstakesdb.com##.fixedMenu.navigation-bar:style(position: relative !important; top: 0 !important;)
+hightimes.com###mvp-main-nav-bot:style(position: relative !important;)
+hightimes.com###mvp-main-nav-top:style(position: relative !important;)
+hightimes.com##.mvp-nav-soc-wrap
+hightimes.com##.mvp-to-top.back-to-top.mvp-fly-top
+hightimes.com##.relative.left.mvp-foot-soc-list
+hightimes.com##.relative.left.mvp-post-soc-wrap
 hilton.com##.social
 hindustantimes.com##.action-links
 hindustantimes.com##.advertisement-250
@@ -7430,6 +7446,8 @@ momtricks.com###get_ebook_2_background
 momtricks.com###get_ebook_2_wrapper
 momtricks.com##.fixed-header-show.animated-all-slow.clear-after.fixed-header.site__header-top
 mondaynote.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBottomSection.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
+mondaynote.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
+mondaynote.com##.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: absolute !important;)
 mondotees.com###vertical-nav
 mondotees.com##.ftr-newsletter
 mondotees.com##.ftr-social
@@ -8597,8 +8615,10 @@ nytimes.com##.Block-noTopBorder--1M81B.Block-header--2tzq6:style(position: relat
 nytimes.com##.BlockAdvert-adContainer--1aZlM
 nytimes.com##.BlockAdvert-topAd--1_Ppx.BlockAdvert-adContainer--1aZlM
 nytimes.com##.ButtonModal-container--2sXp8
+nytimes.com##.Dock-dock--1EAX7
 nytimes.com##.Home-header--eShDq:style(position: relative !important;)
 nytimes.com##.ResponsiveAd-topAd--3WpE4
+nytimes.com##.Ribbon-dockHidden--3r3jo
 nytimes.com##.app-links.footer-content
 nytimes.com##.article-page:style(overflow-x: hidden !important; overflow-y: hidden !important;)
 nytimes.com##.article-video-sharetools
@@ -8770,6 +8790,7 @@ outsideonline.com##.nudger__inner
 outsideonline.com##.share-toolbox--vert.share-toolbox.article-share
 outsideonline.com##.social.icons-custom.social--count.article-social.article-social--side
 outsports.com##.m-entry__social
+overflow.solutions##.post-share
 overstock.com###cboxOverlay
 overstock.com###colorbox
 overstock.com###fb-container
@@ -10471,6 +10492,9 @@ sethvargo.com##.index
 sethvargo.com##.stuck.profile
 sethvargo.com##.title
 sfchronicle.com###fixedCarousel
+sfexaminer.com###top-nav:style(position: absolute !important;)
+sfexaminer.com##.fb_iframe_widget.fb-page
+sfexaminer.com##.synved-social-container-share.synved-social-container
 sfgate.com###content:style(padding-top: 84px !important;)
 sfgate.com###ctpl-fullbanner-spacer
 sfgate.com###fixie
@@ -12582,6 +12606,8 @@ thewolfhall.com##.widget_socialcountplus.widget.td_block_template_1
 thewrap.com###js-mobile-bar:style(position: relative !important; top: 0 !important;)
 thewrap.com###mobile-sticky-bottom
 thewrap.com###top-social-menu
+thewrap.com##.jw-sharing-dock-btn.jw-reset.jw-background-color.jw-dock-button
+thewrap.com##.wbtz-share-btn
 thewrap.com##.wbtz-show.right.wbtz-mobile.wbtz-embed-main-sticky
 thinkprogress.org###slidedown
 thinkprogress.org##.buttonSet--narrow.buttonSet.u-floatRight
@@ -13641,6 +13667,7 @@ washingtonpost.com##.breaking-news-bar:style(position: relative !important; top:
 washingtonpost.com##.color-icons.align-right.social-tools-wrapper-bottom
 washingtonpost.com##.daily202-newsletter.container
 washingtonpost.com##.echo-linkColor.echo-clickable.echo-streamserver-controls-stream-item-button-share.echo-streamserver-controls-stream-item-button > .echo-streamserver-controls-stream-item-buttonCaption.echo-primaryFont
+washingtonpost.com##.fa-facebook-square.fa
 washingtonpost.com##.force-visibility.unprocessed.color-top.vertical-top-sharebar.top-sharebar-wrapper
 washingtonpost.com##.head-wrap.row:style(position: relative !important; top: 0 !important;)
 washingtonpost.com##.highlights-collapsed.highlights-sticky.collapsed.liveblog-highlights
@@ -14206,6 +14233,12 @@ woostercollective.com##.social
 woot.com##.social
 wordpress.com###actionbar
 wordpress.com###bit
+worldatlas.com###goToTop
+worldatlas.com##.artFollowNav-divIn.w-article-followNav
+worldatlas.com##.articleFollow-right
+worldatlas.com##.headerMain-social
+worldatlas.com##.socialShare.socialShare-circle
+worldatlas.com##.w-headerMain:style(position: absolute !important; top: 0 !important;)
 worldmarket.com###topmostHeader:style(position: relative !important; top: 0 !important;)
 worldofwarcraft.com##.Sticky-content:style(position: relative !important; top: 0 !important;)
 worldofwarcraft.com##.font-none.SocialButtons
