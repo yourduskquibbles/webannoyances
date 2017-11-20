@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 10:47 AM 2017-11-18
+! Last Modified: 1:38 PM 2017-11-20
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -1874,6 +1874,7 @@ cbsnews.com##.livestream-player-wrapper:style(position: static !important;)
 cbsnews.com##.module-follow-us.module
 cbsnews.com##.no-mantle-skin.ad-leader-plus-top
 cbsnews.com##.no-mantle-skin.dark-theme.ad-leader-top
+cbsnews.com##.nocontent.site-header:style(position: relative !important;)
 cbsnews.com##.site-footer:style(padding-bottom: 0px !important;)
 cbsnews.com##.site-header--is-sticky.nocontent.site-header:style(position: relative !important; top: 0 !important;)
 cbsnews.com##.smart-banner-cbsn
@@ -2364,6 +2365,7 @@ cnsnews.com##.kimbiaDiv.cns.cns1.two_col.columnsPerPage1
 cnsnews.com##.mini > .header:style(position: relative !important; top: 0 !important;)
 cnsnews.com##.mini-social-icons
 cnsnews.com##.region-sidebar.region
+cntraveler.com##.closed.default.component-social-share
 cntraveler.com##.container-header:style(position: relative !important; top: 0 !important;)
 cntraveler.com##.desktop.cm-placement
 cntraveler.com##.eat.scroll-to:style(position: relative !important; top: 0 !important;)
@@ -7056,6 +7058,8 @@ marketwatch.com##.region--masthead:style(padding-top: 0px !important;)
 marketwatch.com##.sa-wd-wrapper
 marketwatch.com##.share-icons
 marketwatch.com##body:style(padding-top: 0px !important;)
+marriott.com###hws-reservation-module:style(position: relative !important;)
+marriott.com##.t-sticky-nav.l-content-container.t-in-page-navigation.l-in-page-navigation:style(position: relative !important;)
 marronebioinnovations.com##.fusion-sticky-shadow.fusion-header:style(position: relative !important; top: 0 !important;)
 marshfieldnewsherald.com##.android-smart-banner.smart-banner
 marshfieldnewsherald.com##.bx-creative
@@ -7460,6 +7464,7 @@ modernfarmer.com##.mftopad
 modernfarmer.com##.unstyled.mf-footer-social.fix
 modernfarmer.com##.unstyled.mf-single-article-share.fix
 modernistcuisine.com##header:style(position: relative !important; top: 0 !important;)
+modernistpantry.com##.header-language-background:style(position: absolute !important;)
 modernliberals.com##.mh-back-to-top
 modernreaders.com###sidebar
 modernreaders.com##.adsbygoogle
@@ -13584,6 +13589,7 @@ vogue.fr##.social_links.pw-layout-horizontal.ra1-pw_size_small.ra1-pw-classicWid
 vogue.fr##.social_newsletter
 votensw.info##.nav__wrapper:style(position: relative !important; top: 0 !important;)
 vox.com###chorus-social-fixed
+vox.com##.article__share-buttons
 vox.com##.c-global-header__social
 vox.com##.c-social-buttons
 vox.com##.dfp_ad--held-area.dynamic-js-slot
