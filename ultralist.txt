@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 3:59 PM 2017-11-20
+! Last Modified: 9:46 AM 2017-11-21
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -569,9 +569,12 @@ allenbwest.com##.c-header__menu-wrapper:style(position: relative !important; top
 allrecipes.com###footer_top_button
 allrecipes.com###shareRecipe
 allrecipes.com##.ad-recipe-page-footer-container
+allrecipes.com##.closed.review-share-toggle
 allrecipes.com##.dropdown-heart > .save-on-click
+allrecipes.com##.facebook-btn
 allrecipes.com##.loading-indicator--position
 allrecipes.com##.magazine-bar
+allrecipes.com##.pinterest-btn
 allrecipes.com##.reserve-ad-space.ad-mobile-only.ad-recipe-page-middle-container
 allrecipes.com##.reserve-ad-space.ad-search-grid
 allrecipes.com##.review-ad-space.review-container.review-divider
@@ -2568,6 +2571,10 @@ contently.com##progress
 continental-automotive.com###back-to-top
 continental-automotive.com###cookie-bar
 continental-automotive.com##.pseudoSticky.affix.stayTop:style(position: relative !important; top: 0 !important;)
+cookforyourlife.org###navigation:style(position: relative !important; top: 0 !important;)
+cookforyourlife.org##.edn_close_section
+cookforyourlife.org##.fuse_social_icons_links
+cookforyourlife.org##.share
 cookieandkate.com###wbounce-modal
 cookieandkate.com##.crunchify-social
 cookingchanneltv.com###mod-asset-navigation-1:style(position: relative !important;)
@@ -2740,6 +2747,12 @@ courierpress.com##.utility-bar-wrap
 cpj.org##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 cracked.com###header:style(position: relative !important; top: 0 !important;)
 cracked.com##.navbar-header:style(position: relative !important; top: 0 !important;)
+craftsmanship.net###WP:style(position: absolute !important;)
+craftsmanship.net###mc_embed_signup
+craftsmanship.net##.fb-top.foobar-wrapper.small-white-arrow:style(position: absolute !important; top: 0 !important;)
+craftsmanship.net##.foobar-social
+craftsmanship.net##.site-menu:style(position: absolute !important;)
+craftsmanship.net##html:style(margin-top: 0px !important;)
 craftsy.com##.fancybox-skin
 craigslist.org##.querybox:style(position: relative !important; top: 0 !important;)
 craigslist.org##.wide.global-header:style(position: relative !important; top: 0 !important;)
@@ -3370,7 +3383,6 @@ destinationxl.com##.sticky-wrap:style(position: relative !important; top: 0 !imp
 deviantart.com##div.mc-ad-chrome
 devuan.org###sticky-bar:style(position: relative !important; top: 0 !important;)
 dezeen.com##.header-inner-wrap:style(position: relative !important; top: 0 !important;)
-dhakatribune.com###essb_displayed_sidebar_1837332955 > .essb_force_hide.essb_force_hide_name.essb_links_list
 dhakatribune.com###mobile-header:style(position: absolute !important; top: 0 !important;)
 dhakatribune.com###wpfront-scroll-top-container
 dhakatribune.com##.clearfix.share_box
@@ -3391,7 +3403,7 @@ dictionary.com##.survey
 didyouknowfacts.com##.navbar-transparent.navbar-inverse.navbar-fixed-top.navbar:style(position: relative !important; top: 0 !important;)
 dietdoctor.com###post_header_wrapper
 digg.com###content-main.content-main > .grid-3col:nth-of-type(1) > .col-1.col-1--deeper
-digg.com###js--digg-header:style(position: relative !important; top: 0 !important;)
+digg.com###js--digg-header:style(position: absolute !important;)
 digg.com###js--editions-promo
 digg.com###site-promo-banner > .content
 digg.com##.ad-container--featured_videos
@@ -3473,6 +3485,7 @@ dividend.com##.affix.mm-header
 dividend.com##.affix.stock-data:style(position: relative !important; top: 0 !important;)
 dividend.com##.affix.stock-nav:style(position: relative !important; top: 0 !important;)
 dividend.com##.in.modal-backdrop
+diynetwork.com###mod-social-share-3
 diynetwork.com##.o-Header__m-SocialLinks
 diynetwork.com##.o-SocialShare
 diynetwork.com##body:style(margin-top: 0px !important;)
@@ -3904,6 +3917,8 @@ everafterguide.net##.active.gotop-btn
 everestgrp.com##.active.single-menu.main-navigation:style(position: relative !important; top: 0 !important;)
 everipedia.org##.amp-header-bar:style(position: absolute !important;)
 everipedia.org##header:style(position: relative !important; top: 0 !important;)
+everydaydishes.com###modal-newsletter
+everydaydishes.com##.in.fade.modal-backdrop
 evonomics.com###masthead-wrap:style(position: relative !important; top: 0 !important;)
 evonomics.com###megasubscribepopup_overlay
 evonomics.com###megasubscribepopup_window
@@ -6237,6 +6252,7 @@ kaspersky.com###site-header
 katu.com##.component-header-default-v3:style(position: relative !important; top: 0 !important;)
 kaufda.de##.drawer.shelf-layout-header.layout-head-drawer
 kawasaki.com##.social-five.clearfix.small-block-grid-5
+kayfabenews.com###facebooklike
 kbb.com##script:inject(abort-on-property-read.js, KBB.DataLayer)
 kcra.com##.slim.header:style(position: relative !important; top: 0 !important;)
 kcrg.com###nav:style(position: relative !important; top: 0 !important;)
@@ -7666,6 +7682,7 @@ mozilla.org###site-welcome
 mozilla.org##.social-share
 mozilla.org##.stuck.firefox.moz-sub-nav:style(position: relative !important; top: 0 !important;)
 mozilla.org##.stuck.sticky-footer
+mozilla.org##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 mozilla.org##header:style(position: relative !important; top: 0 !important;)
 mpix.com###cart-head:style(position: relative !important; top: 0 !important;)
 mrctv.org###top-nav:style(position: relative !important; top: 0 !important;)
@@ -9711,6 +9728,7 @@ quantcast.com###appNav:style(position: absolute !important;)
 queenbeetickets.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 queerty.com###masthead:style(position: relative !important; top: 0 !important;)
 queerty.com###onesignal-bell-container
+queryxchange.com##.yamm.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important;)
 quillette.com###blog-sidebar
 quillette.com##.mailmunch-forms-in-post-middle
 quora.com###__w2_hfgfBSr_banner
