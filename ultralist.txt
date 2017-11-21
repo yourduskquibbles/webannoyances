@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 1:49 PM 2017-11-21
+! Last Modified: 2:45 PM 2017-11-21
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -3457,6 +3457,7 @@ digitaltrends.com##.m-share-list
 directindustry.com###cookieFrame
 directindustry.com###float-bar-container:style(position: relative !important;)
 directindustry.com###header-nav:style(position: relative !important;)
+directv.com###dtv_header:style(position: absolute !important;)
 discourse.pi-hole.net##.clearfix.d-header:style(position: relative !important; top: 0 !important;)
 discover.com##.animation.header-wrapper:style(position: relative !important; top: 0 !important;)
 discover.com##.global-social-footer
@@ -5540,6 +5541,8 @@ howtogeek.com##.email-overlay
 howtogeek.com##.how-to-geek-follow
 howtogeek.com##.overlay-wrapper
 howwegettonext.com##.is-maximized.is-transitioning.u-tintSpectrum.u-tintBgColor.metabar--hiddenWhenMinimized.metabar--tall.metabar--dark.js-metabar.u-clearfix.metabar
+howwegettonext.com##.u-tintSpectrum.u-tintBgColor.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorDarker.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: absolute !important;)
+howwegettonext.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
 hs.fi##.share-buttons-container
 hs.fi##.show-header.clearfix.secondary-header
 htrnews.com##.android-smart-banner.smart-banner
@@ -8615,7 +8618,9 @@ ntknetwork.com##.onesignal-bell-container-bottom-right.onesignal-reset.onesignal
 ntknetwork.com##.share-icons
 ntknetwork.com##.social-floating
 nvcc.edu###head-social
+nvidia.com##.back-to-top
 nvidia.com##.global-nav:style(position: absolute !important; transition: none !important;)
+nvidia.com##.subnav:style(position: relative !important; top: 0 !important;)
 nwahomepage.com###header:style(position: absolute !important; top: 0 !important;)
 nwahomepage.com###mod-up-next
 nwahomepage.com###site-header:style(position: absolute !important; top: 0 !important;)
@@ -8808,7 +8813,6 @@ observer.com##.fw-site-header:style(position: absolute !important; top: -35px !i
 observer.com##.jetpack-is-mobile.fw-site-header:style(position: absolute !important; top: -5px !important;)
 observer.com##.mobile-adhesion-unit
 observer.com##.share-buttons.large.social-icons
-observer.com##:style(padding-top: 0px !important;)
 ocala.com###toprail:style(position: relative !important; top: 0 !important;)
 occupydemocrats.com###scroll_totop
 occupydemocrats.com##.header--slide.fixed.header:style(position: relative !important; top: 0 !important;)
@@ -9804,6 +9808,7 @@ racked.com##.m-pinterest-button.m-social-buttons__popup
 racked.com##.tab-bar-fixed.c-tab-bar:style(position: relative !important; top: 0 !important;)
 racked.com##:xpath(.//*[@class="p-entry-hr"])
 radaronline.com###main-header
+radeon.com###fixed-bar:style(position: absolute !important;)
 radforum.de###fb_headerbox
 radforum.de##.multibarcontainer:style(position: absolute !important; top: 0 !important;)
 radio-canada.ca###progressBar
@@ -10613,7 +10618,7 @@ self.com##.site-header.component-sticky:style(position: relative !important; top
 self.com##.visible-tablet.visible-desktop.left_pagination
 semanticscholar.org##.flex-row.tab-bar:style(position: relative !important; top: 0 !important;)
 semanticscholar.org##.header--light.header-center-logo.flex-static.header:style(position: relative !important; top: 0 !important;)
-semanticscholar.org##.sticky-header.header--light.header:style(position: relaive !important; top: 0 !important;
+semanticscholar.org##.sticky-header.header--light.header:style(position: relaive !important; top: 0 !important;)
 semanticscholar.org##.viewport.has-tab-bar:style(padding-top: 0px !important;)
 senate.gov###main-header:style(position: relative !important; top: 0 !important;)
 senate.gov###nav-head-bg:style(position: relative !important; top: 0 !important;)
@@ -10987,7 +10992,7 @@ spectator.org##.hidden-sm.col-xs-12.col-sm-2.col-md-3.col-lg-3
 spectator.org##.print-no.essb_width_flex.essb_1330856811.essb_template_color-leafs.essb_share.essb_displayed_bottom.essb_counters.essb_links
 spectrum.ieee.org###mainNav:style(position: relative !important; top: 0 !important;)
 spectrumnews.org###end-row
-spectrumnews.org###main-nav:style(position: relative !important; top: 0 !important;).bottom-share.share-links
+spectrumnews.org###main-nav:style(position: relative !important; top: 0 !important;)
 spectrumnews.org##.active
 spectrumnews.org##.bottom-share.share-links
 spectrumnews.org##.chapter-navigation
@@ -11082,6 +11087,7 @@ springboard.com##.js-stickyFooter.u-xs-paddingRight10.u-xs-paddingLeft10.u-zInde
 springboard.com##.u-tintSpectrum.u-tintBgColor.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorTransparentWhiteDarker.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
 springboard.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
 springboard.com##.u-xs-height95.u-height105.u-tintBgColor.js-metabarSpacer.metabar--spacer.metabar
+sprint.com##.layout-header:style(position: absolute !important;)
 sputniknews.com###share
 sputniknews.com##.arrowup
 sputniknews.com##.b-header__nav-social
@@ -11380,6 +11386,8 @@ syracuse.com##.gig-share-bar-container.gig-bar-container
 syracuse.com##.sharer
 syracuse.com##.sticky-nav-show.sticky-nav:style(position: relative !important; top: 0 !important; transition: none !important;)
 syriahr.com##.main-menu:style(position: relative !important; top: 0 !important;)
+t-mobile.com##.animate-show-hide.scroll-top
+t-mobile.com##.sticky.static.global-header:style(position: absolute !important;)
 t-nation.com##.header.navbar-fixed-top.navbar:style(position: relative !important; top: 0 !important;)
 tabletmag.com##.logo:style(position: relative !important; top: 0 !important;)
 tabletmag.com##.menu-toggle.narrow-only:style(position: relative !important; top: 0 !important;)
@@ -11641,6 +11649,9 @@ teslarati.com##.nav-soc-but
 teslarati.com##.social-sharing-bot
 teslarati.com##.social-sharing-top
 teslarati.com##.to-top-trans.back-to-top.fly-to-top
+tether.to##.blog-share-container
+tether.to##.on.mk-go-top
+tether.to##.without-image.mk-post-prev.mk-post-nav
 texasmonthly.com###\#novella-header:style(position: relative !important; top: 0 !important;)
 texasmonthly.com###navigation:style(position: relative !important; top: 0 !important;)
 texasmonthly.com##.article-subscription
@@ -13554,6 +13565,7 @@ venturebeat.com##.social-shares
 venturebeat.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 verizon.com##.is-sticky.js-nav--condensed.nav--condensed.nav:style(position: relative !important; top: 0 !important;)
 verizon.com##.masthead:style(position: relative !important; top: 0 !important;)
+verizonwireless.com##.clear-float.container-gnav:style(position: absolute !important;)
 version2.dk###header:style(position: relative !important; top: 0 !important;)
 version2.dk##.adblock-message-container
 version2.dk##.adblock-message-overlay
@@ -14507,7 +14519,7 @@ wsj.com##.style__mdstrip_1fyX3kHppwm9Usk9j5yY1Z.style__mast-head-container_2-BjW
 wsj.com##.style__mdstrip_1fyX3kHppwm9Usk9j5yY1Z.style__scrolled_1KqqY_CTh3JC3M-yub6_TC.style__mast-head-container_2-BjWSrF0qOmT-7SydjYgO:style(position: relative !important; top: 0 !important;)
 wsj.com##.style__no-hover_4K4bYt_IXexfyxCPoMe6C.style__mobile-nav_2GAjVDdd5TrKYE8DOf3zvT:style(position: relative !important; top: 0 !important;)
 wsj.com##.style__scrolled_1KqqY_CTh3JC3M-yub6_TC.style__mast-head-container_2-BjWSrF0qOmT-7SydjYgO:style(position: relative !important; top: 0 !important;)
-wsj.com##.style__scrolled_2R_Vmp-c-MDN-CKbTiTOya(margin-top: 0px !important;)
+wsj.com##.style__scrolled_2R_Vmp-c-MDN-CKbTiTOya:style(margin-top: 0px !important;)
 wsj.com##.style__scrolled_2uYEURYgK-YL-DNhPsSxyl.style__mast-head-container_3ZRcPdcChZfT1ThM3v3LLV
 wsj.com##.style__show-share-tools_2eNUztYQhyy1Z2mhTqLWjP.style__mdstrip_1fyX3kHppwm9Usk9j5yY1Z.style__scrolled_1KqqY_CTh3JC3M-yub6_TC.style__mast-head-container_2-BjWSrF0qOmT-7SydjYgO:style(position: relative !important; top: 0 !important;)
 wsj.com##.style__slim_298oVne3gOHGgVBfH7dngU.style__brand-link_2m9Qekt7oy6AxoEZOYmvKr:style(margin-top: 0px !important;)
@@ -14881,7 +14893,7 @@ zyngaplayerforums.com##.Reactions
 ||optinmonster.com*$script
 ||optnmnstr.com
 ||pagely.netdna-cdn.com^$script,domain=guns.com
-||pinterest.com/*/pinit.js$script,domain=10best.com,tedium.co
+||pinterest.com/*/pinit.js$script,domain=10best.com|tedium.co
 ||realclearpolitics.com/*/ad_slots.jsonp$script,first-party
 ||realclearpolitics.com/*/instart.js$script,first-party
 ||sitelabweb.com$domain=nasdaq.com,important
