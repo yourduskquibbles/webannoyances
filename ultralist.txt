@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 10:04 AM 2017-11-22
+! Last Modified: 10:54 AM 2017-11-22
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -3419,7 +3419,7 @@ digg.com##.ad-container--originals-top
 digg.com##.banner-dailydigg-sub
 digg.com##.col-1.col-1--deeper
 digg.com##.content-main:style(padding-top: 0px !important;)
-digg.com##.content-primary:style(margin-top: 10px !important;)
+digg.com##.content-primary:style(margin-top: 30px !important;)
 digg.com##.in.fade.modal-backdrop
 digg.com##.in.hide.fade.modal.email-subscribe-modal
 digg.com##.is--visible.js--promo-bottom.promo-bottom--editions
@@ -5131,6 +5131,7 @@ greylock.com##.svgIcon--25px.svgIcon--facebookFilled.svgIcon
 greylock.com##.svgIcon--25px.svgIcon--twitterFilled.svgIcon
 greylock.com##.u-tintSpectrum.u-tintBgColor.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorTransparentWhiteDarker.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
 greylock.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
+grist.org##.lf-share__link--fb.lf-share__link
 gritpost.com###site-navigation:style(position: relative !important; top: 0 !important;)
 gritpost.com##.back-to-top-is-visible.back-to-top
 gritpost.com##.kiwi-article-bar-center.rect.kiwi-article-bar
@@ -11676,6 +11677,12 @@ the-daily-llama.com###catapult-cookie-bar
 the-daily-llama.com##.adsbygoogle
 the-daily-llama.com##.sfsi_Sicons
 the-daily.buzz##.header-primary:style(position: relative !important; top: 0 !important;)
+the-pool.com##.controls
+the-pool.com##.controls-social-links.sidebar-social-links
+the-pool.com##.fixed-header:style(position: absolute !important;)
+the-pool.com##.join-us
+the-pool.com##.pimcore_area_content.pimcore_area_join-us
+the-pool.com##.share-article
 the-tls.co.uk##.signup-form-iframe
 theadvertiser.com##.android-smart-banner.smart-banner
 theadvertiser.com##.bx-creative
@@ -14865,6 +14872,7 @@ zyngaplayerforums.com##.Reactions
 ||dynamicyield.com$script,domain=nasdaq.com
 ||extremetech.com/g00/$script,first-party,important
 ||facebook.com/v2.4/plugins/page.php$subdocument,domain=snopes.com
+||facebook.com/v2.5/plugins/page.php
 ||fastly.net$script,domain=nasdaq.com
 ||functionalclam.com^$third-party
 ||g00.extremetech.com^$script,first-party,important
