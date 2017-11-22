@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 1:40 PM 2017-11-22
+! Last Modified: 4:43 PM 2017-11-22
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -8178,9 +8178,11 @@ nbcsports.com##:xpath(.//*[@id='sherlock'])
 nbcsports.com##clearfix.slider-border
 nbcwashington.com###appIntercept
 nbcwashington.com###article_0_ad_square
-nbcwashington.com###tve_cta:style(position: relative !important; top: 0 !important;)
+nbcwashington.com###tve_cta:style(position: relative !important; top: 0 !important; display: block !important;)
 nbcwashington.com##.ad-unit-160.ad.module.homepage-module.module-1
 nbcwashington.com##.header:style(position: relative !important; top: 0 !important;)
+nbcwashington.com##.leadShare
+nbcwashington.com##.newsletterSignupBox
 nbcwashington.com##.quick-nav:style(position: relative !important; top: 0 !important;)
 nbcwashington.com##.sfadSlot
 nbcwashington.com##.socialNetworks
@@ -8188,6 +8190,7 @@ nbcwashington.com##.socialNetworks-top
 nbcwashington.com##.stickyNav.nav-landing.navbar:style(position: relative !important; top: 0 !important;)
 nbcwashington.com##.stickyNav.navbar:style(position: relative !important; top: 0 !important;)
 nbcwashington.com##.swiper-container-android.swiper-container-horizontal.quick-nav
+nbcwashington.com##.tpShare
 ncaa.com###smartbanner
 ncaa.com##.mobile-header:style(position: relative !important; top: 0 !important;)
 ncregister.com##.fancybox-opened.fancybox-type-iframe.fancybox-desktop.fancybox-wrap
@@ -9002,6 +9005,10 @@ oregonlive.com##.sticky-nav-hide:style(margin-top: 0px !important; transition: n
 oregonlive.com##.sticky-nav-show.sticky-nav:style(position: relative !important; top: 0 !important; transition: none !important;)
 oregonlive.com##.sticky-nav:style(position: relative !important; top: 0 !important; transition: none !important;)
 oregonlive.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
+origins.com###cboxOverlay
+origins.com###colorbox
+origins.com##.page-header:style(position: absolute !important;)
+origins.com##.sticky-chat
 orlandosentinel.com##.trb_ar_rail
 orlandosentinel.com##.trb_bnn
 orlandosentinel.com##.trb_masthead_adBanner.trb_mh_adB
@@ -9870,6 +9877,10 @@ publicopiniononline.com##.story-tools
 publicopiniononline.com##.utility-bar-wrap
 pud.com###header:style(position: absolute !important; top: 0 !important;)
 pud.com##.iframe-controls--desktop.tmblr-iframe--loaded.tmblr-iframe--unified-controls.tmblr-iframe:style(position: absolute !important; top: 0 !important;)
+punchdrink.com###email-signup
+punchdrink.com##.nav-main__container:style(position: relative !important;)
+punchdrink.com##.nav-main__share
+punchdrink.com##.share-links
 putlocker.rs###header:style(position: absolute !important; top: 0 !important;)
 pvplive.net##.nav-stuck:style(position: relative !important; top: 0 !important;)
 pwc.com###menuBarWrapper:style(position: absolute !important; top: 0 !important;)
@@ -13111,15 +13122,15 @@ tmall.com###J_FpLift
 tmall.com##.mui-mbarp-qrcode
 tmall.com##.show.as-shelter:style(position: relative !important; top: 0 !important;)
 tmall.com##.sn-nav-wrapper
-tmj4.com##.header > .layout--share__second > .is-active.share__social-items
-tmj4.com##.sticky-article-foot > .layout--share__second
+tmj4.com##.is-active.share__social-items
+tmj4.com##.layout--share__second
 tmz.com###ad2
 tmz.com###legalbar
-tmz.com###masthead-wrap:style(position: relative !important; top: 0 !important;)
+tmz.com###masthead-wrap:style(position: relative !important;)
 tmz.com###smartbanner
 tmz.com##.app-links
 tmz.com##.clearfix.partner-headlines-row
-tmz.com##.hide-tip.header:style(position: absolute !important; top: 0 !important;)
+tmz.com##.hide-tip.header:style(position: absolute !important;)
 tmz.com##.inpost-social
 tmz.com##.masthead-ad
 tmz.com##.quick-subscribe-form
