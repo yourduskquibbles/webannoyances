@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 4:43 PM 2017-11-22
+! Last Modified: 6:00 PM 2017-11-22
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -580,7 +580,9 @@ allenbwest.com###social-menu-header
 allenbwest.com##.c-header__menu-wrapper:style(position: relative !important; top: 0 !important;)
 allrecipes.com###footer_top_button
 allrecipes.com###shareRecipe
+allrecipes.com##.ad-mag-homeBtm__footer
 allrecipes.com##.ad-recipe-page-footer-container
+allrecipes.com##.advertisement
 allrecipes.com##.closed.review-share-toggle
 allrecipes.com##.dropdown-heart > .save-on-click
 allrecipes.com##.facebook-btn
@@ -3477,6 +3479,7 @@ directindustry.com###header-nav:style(position: relative !important;)
 directv.com###dtv_header:style(position: absolute !important;)
 discounttire.com##header:style(position: relative !important;)
 discourse.pi-hole.net##.clearfix.d-header:style(position: relative !important; top: 0 !important;)
+discover.com###stickySection:style(position: relative !important;)
 discover.com##.animation.header-wrapper:style(position: relative !important; top: 0 !important;)
 discover.com##.global-social-footer
 discover.com##.mobile-responsive.main-container:style(padding-top: 0px !important;)
@@ -11642,6 +11645,7 @@ tampermonkey.net##.noborder.ad-changelog2
 tampermonkey.net##.social_buttons
 tandfonline.com##.fixed-tabs
 tanga.com###social-media
+tangocard.com###masthead:style(position: absolute !important;)
 tapatalk.com###appuser_navigation:style(position: relative !important; top: 0 !important;)
 tapatalk.com##.navbar-inner.inner.appuser_navigation:style(position: relative !important; top: 0 !important;)
 taskandpurpose.com###tpHeader:style(position: relative !important; top: 0 !important;)
@@ -13770,6 +13774,8 @@ version2.dk##.adblock-message-container
 version2.dk##.adblock-message-overlay
 version2.dk##.horizontal.social-tools
 version2.dk##.icon-attention.cookie-accept-overlay
+verybestbaking.com##.actions__facebook-like
+verybestbaking.com##.actions__pin-it
 verywell.com###header_1-0:style(position: relative !important; top: 0 !important;)
 verywell.com##.active.tmp-placeholder
 vesselnews.io###masthead:style(position: relative !important; top: 0 !important;)
@@ -13970,12 +13976,12 @@ warisboring.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBo
 washingtoncitypaper.com###at4-share
 washingtoncitypaper.com##.variable-ad.super-leaderboard.advertisement
 washingtonexaminer.com###body > .col1.panel > .column
-washingtonexaminer.com###header:style(position: relative !important; top: 0 !important;)
+washingtonexaminer.com###header:style(position: absolute !important;)
 washingtonexaminer.com###newsletter-signup-policy
 washingtonexaminer.com###newsletter_sign_up_form
 washingtonexaminer.com###sharebar
 washingtonexaminer.com##.akamai-control.akamai-share
-washingtonexaminer.com##.hidden-print.justify-content-between.mb-1.bg-inverse.navbar-dark.fixed-top.nav.navbar.flex-row.topbar:style(position: relative !important; top: 0 !important;)
+washingtonexaminer.com##.hidden-print.justify-content-between.mb-1.bg-inverse.navbar-dark.fixed-top.nav.navbar.flex-row.topbar:style(position: absolute !important;)
 washingtonexaminer.com##.legacy-sidebar-promo
 washingtonexaminer.com##.mb-2.mt-2.social-footer
 washingtonexaminer.com##.mb-half.mt-xs-5.mx-sm-1.mt-quarter.mx-0.article-social
