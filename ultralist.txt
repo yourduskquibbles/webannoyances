@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:59 AM 2017-11-24
+! Last Modified: 12:07 PM 2017-11-24
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -3431,14 +3431,14 @@ dictionary.com##.survey
 didyouknowfacts.com##.navbar-transparent.navbar-inverse.navbar-fixed-top.navbar:style(position: relative !important; top: 0 !important;)
 dietdoctor.com###post_header_wrapper
 digg.com###content-main.content-main > .grid-3col:nth-of-type(1) > .col-1.col-1--deeper
-digg.com###js--digg-header:style(position: absolute !important;)
+digg.com###js--digg-header:style(position: relative !important; top: 0 !important;)
 digg.com###js--editions-promo
 digg.com###site-promo-banner > .content
 digg.com##.ad-container--featured_videos
 digg.com##.ad-container--originals-top
 digg.com##.banner-dailydigg-sub
 digg.com##.col-1.col-1--deeper
-digg.com##.content-main:style(padding-top: 0px !important;)
+digg.com##.content-main:style(padding-top: 30px !important;)
 digg.com##.content-primary:style(margin-top: 30px !important;)
 digg.com##.in.fade.modal-backdrop
 digg.com##.in.hide.fade.modal.email-subscribe-modal
