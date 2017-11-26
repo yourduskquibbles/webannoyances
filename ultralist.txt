@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 10:11 AM 2017-11-25
+! Last Modified: 10:05 AM 2017-11-26
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -652,6 +652,7 @@ amazon.com##.actor.xrayQuickViewListItem
 amazon.com##.huc-v2-pinned-order-row-with-divider.a-row:style(position: relative !important; top: 0 !important;)
 amazon.com##.share-widget
 amazon.com##.show.xrayQuickView
+amazon.com##.w-swf-inline-tab
 amazon.com##.xrayHeaderLink
 amazon.com##.xrayQuickViewList.collectionView
 amazon.com##body:style(padding-top: 0px !important;)
@@ -1126,6 +1127,8 @@ baltimoresun.com##.trb_masthead_adBanner.trb_mh_adB
 baltimoresun.com##.trb_nh:style(position: absolute !important;)
 baltimoresun.com##.trb_nls_c
 bangordailynews.com###bdn-tophat:style(position: relative !important; top: 0 !important;)
+bangordailynews.com###comp-header:style(position: absolute !important;)
+bangordailynews.com###masthead-bottom-wrapper:style(position: absolute !important;)
 bangordailynews.com###sharebar
 bangordailynews.com##.content-padding.social
 bangordailynews.com##.contentBanner.adSpot
@@ -1290,6 +1293,8 @@ birthmoviesdeath.com##.fa-lg.fa-facebook.fa
 birthmoviesdeath.com##.fa-lg.fa-instagram.fa
 birthmoviesdeath.com##.fa-lg.fa-tumblr.fa
 birthmoviesdeath.com##.fa-lg.fa-twitter.fa
+bitcointechtalk.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
+bitcointechtalk.com##.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: absolute !important;)
 bitmoji.com##.header:style(position: relative !important; top: 0 !important;)
 bizjournals.com###boundary-2__sticker-0 > .sm-only__expander.xs-only__expander
 bizjournals.com###tour-prompt.prompt.prompt--full-width
@@ -3823,6 +3828,8 @@ eonline.com###article-next
 eonline.com###article-prev
 eonline.com###smartbanner:style(position: relative !important; top: 0 !important;)
 eonline.com##.cs-container
+eonline.com##.l-spacing--sm.l-grid.footer__social-list
+eonline.com##.leaderboard--docked.leaderboard:style(position: absolute !important;)
 eonline.com##.rail__mps-ad
 eonline.com##.social
 eonline.com##.social-links.horizontal
@@ -6875,6 +6882,7 @@ linkedin.com##.search-form:style(position: relative !important; top: 0 !importan
 linkedin.com##.shared-modal-dialog
 linkedin.com##.stuck.stream-header:style(position: relative !important; top: 0 !important;)
 linkedin.com##.toast-container
+linuxfoundation.org###header-outer:style(position: absolute !important;)
 linuxportal.pl###naglowek:style(position: absolute !important;)
 linuxportal.pl###przeczytaj_link_nast_2
 linuxportal.pl###przeczytaj_link_pop_2
@@ -9846,6 +9854,10 @@ protonmail.com##.csbtns
 protonmail.com##.text-right.col-sm-4
 prototypr.io##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
 prototypr.io##.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: absolute !important;)
+protribune.com##.td-affix.td-header-gradient.td-header-menu-wrap:style(position: relative !important;)
+protribune.com##.td-front-end-display-block.td-more-articles-box
+protribune.com##.td-post-sharing-top.td-post-sharing
+protribune.com##.td-scroll-up-visible.td-scroll-up
 prri.org##.animated.slideInDown.isSticky.stickyControl.researchArticleNav
 prri.org##.noShadow.header--collapsed.header--dark.header:style(position: relative !important; top: 0 !important;)
 prwatch.org##.sharethis-buttons
@@ -9863,6 +9875,7 @@ psmag.com##.span1.psmag-sharing-column
 psmag.com##.widget_psmag_mailsocial
 psychologytoday.com###pt-social-media
 psychologytoday.com##.advertisement-label
+psychologytoday.com##.block-pt-ads.block.block-pt-ads-300x-right-www
 psychologytoday.com##.blue-outer:style(position: relative !important; top: 0 !important;)
 psychologytoday.com##.fb-like-button
 psychologytoday.com##.flag-actions
@@ -11515,6 +11528,10 @@ strangesounds.org##.td-with-like.td-post-sharing-bottom.td-post-sharing
 strangesounds.org##.td-with-like.td-post-sharing-top.td-post-sharing
 stratechery.com##.sd-sharing-enabled.sharedaddy
 stratolaunch.com###header:style(position: relative !important; top: 0 !important;)
+strava.com##.social-share-bar
+strawpoll.me##.cc_container--open.cc_container.cc_banner
+strawpoll.me##.social-facebook
+strawpoll.me##.social-twitter
 stream-online-hd.xyz##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 stream.org##.show.sticky_share
 stream.org##header:style(position: relative !important; top: 0 !important;)
@@ -12185,6 +12202,7 @@ thedeepmag.ca##.mc4wp-form-23.mc4wp-form
 thedeepmag.ca##.pos-4.tpm-counter
 thedeepmag.ca##.sd-sharing-enabled.sharedaddy
 thedenverchannel.com###header:style(position: relative !important; top: 0 !important;)
+thedenverchannel.com##.is-active.share__social-items
 thedissolve.com###locking-header:style(position: relative !important; top: 0 !important;)
 thedissolve.com##.content-social.sticky.fixed
 thedodo.com###header-ad
@@ -12460,6 +12478,11 @@ thelocal.de##IMG[style="border: 0; height: 20px; width: 60px; padding: 0; margin
 thelocal.de##IMG[style="border: 0; height: 20px; width: 60px; padding: 0; margin: 0 8px 0 0;"]
 thelondoneconomic.com##.newsstand-fixed-header.header-inner-header-style-3.newsstand-header-inner:style(position: relative !important; top: 0 !important;)
 theloo.biz##.fixed.navbar-fixed-top.navbar-custom.navbar:style(position: relative !important; top: 0 !important;)
+them.us##.header__share
+them.us##.lower-half.collapsed.mx-auto.site-header:style(position: relative !important;)
+them.us##.nav__links__right.nav__links
+them.us##.upper-half.collapsed.mx-auto.site-header:style(position: relative !important;)
+them.us##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 themaclife.com###add_below_single_content
 themaclife.com###add_sidebar_bottom
 themaclife.com###add_sidebar_top
@@ -13670,6 +13693,9 @@ usenix.org##.field-label-hidden.field-type-link-field.field-name-field-links-soc
 usenix.org##body:style(padding-top: 0px !important;)
 useragents.com##.navbar-header:style(position: relative !important; top: 0 !important;)
 uservoice.com###banner-container
+usgamer.net##.social
+usgamer.net##.social-buttons
+usgamer.net##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 usjournal.net###mkdf-back-to-top
 usjournal.net##.header-appear.mkdf-sticky-header
 usjournal.net##.mkdf-blog-share
