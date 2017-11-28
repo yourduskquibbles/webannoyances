@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 1:30 PM 2017-11-28
+! Last Modified: 4:18 PM 2017-11-28
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -1593,6 +1593,8 @@ brainyquote.com##.is-sticky.sticky-wrapper:style(position: relative !important; 
 brandwatch.com##.articleSocialShares
 brave.com##.top-nav-collapse.navbar-fixed-top.navbar-default.navbar.one-page-header:style(position: relative !important; top: 0 !important;)
 bravocompanyusa.com##.sb-toggle.sb-tab
+break.com###js-header:style(position: relative !important;)
+break.com##.Header-placeholder:style(height: 0px !important;)
 breakingmalware.com##.et_social_mobile_on.et_social_sidebar_grow.et_social_rectangle.et_social_animated.et_social_slideright.et_social_visible_sidebar.et_social_sidebar_networks
 breitbart.com###BBStoreLead
 breitbart.com###BBStoreW
@@ -6355,8 +6357,10 @@ joystiq.com###GH_strip
 joystiq.com##.social-tools.group
 jpost.com##.ClickFacebookLike
 jpost.com##.article-side-share-vertical
+jpost.com##.article-subline-share
 jpost.com##.banner2016.position-control-3-in-div-2
 jpost.com##.banner2016.position-control-8-in-div-2
+jpost.com##.bar-footer.bar.footer-banner
 jpost.com##.header-menu-site-scrollingLogo.header-menu-site
 jpost.com##.header-social-wrap
 jpost.com##.newsletter-signup-wrap.position-control-1-in-div-2
@@ -11020,6 +11024,7 @@ sethvargo.com##.index
 sethvargo.com##.stuck.profile
 sethvargo.com##.title
 sfchronicle.com###fixedCarousel
+sfchronicle.com##.zonePremiumF.zone
 sfexaminer.com###top-nav:style(position: absolute !important;)
 sfexaminer.com##.fb_iframe_widget.fb-page
 sfexaminer.com##.synved-social-container-share.synved-social-container
@@ -15211,11 +15216,16 @@ yelp.com##.js-open-in-app.photo-box_overlay
 yelp.com##.js-overlay-app-link.js-open-in-app
 yelp.com##.prominent-review-pitch
 yesimright.com##.td-affix.td-header-menu-wrap:style(position: relative !important; top: 0 !important;)
-yna.co.kr###lyt_top:style(position: relative !important; top: 0 !important;)
+yna.co.kr###lyt_top:style(position: absolute !important;)
 yna.co.kr##.adsbygoogle
 yna.co.kr##.foreign-ad01.foreign_articleb_type02
+yonhapnews.co.kr###btnScrollTop
+yonhapnews.co.kr###header:style(position: relative !important; height: 173px !important;)
 yonhapnews.co.kr##.adsbygoogle
 yonhapnews.co.kr##.body-btn-top
+yonhapnews.co.kr##.fixed-bnr:style(position: absolute !important;)
+yonhapnews.co.kr##.fixed-empty
+yonhapnews.co.kr##.header-fixed:style(height: 173px !important;)
 yonhapnews.co.kr##.share-type01.share-type
 yonhapnews.co.kr##.sns-link
 yorkdispatch.com###mobileweb-banner_bottommoneyParagraph12
