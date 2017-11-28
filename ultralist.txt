@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 10:05 AM 2017-11-28
+! Last Modified: 12:46 PM 2017-11-28
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -11,6 +11,7 @@
 ###amp-cookie-notice
 ###appIntercept
 ###back-to-top
+###catapult-cookie-bar
 ###cookie-consent
 ###cookie-notice
 ###cookie-policy
@@ -41,6 +42,7 @@
 ##.bx-creative
 ##.bx-impress.bx-fx-zoom-in
 ##.c-social-buttons
+##.cc_banner-wrapper
 ##.columns.twelve.mobile-four.post-bottom
 ##.connect_blue
 ##.fa-envelope.fa
@@ -392,6 +394,12 @@ adequateman.deadspin.com##.sharingfooter
 adguard.com###floatingNavigation
 adguard.com##.static.staticPageWidth.withSearch:style(position: relative !important; top: 0 !important;)
 adl.org###header-wrapper:style(position: relative !important; top: 0 !important;)
+adlice.com###phantom:style(position: relative !important;)
+adlice.com##.facebook
+adlice.com##.google
+adlice.com##.on.scroll-top
+adlice.com##.twitter
+adlice.com##.wp_subscribe.widget
 adobe.com###j-compact-header:style(position: relative !important; top: 0 !important;)
 adobe.com###j-header-wrap:style(position: relative !important; top: 0 !important;)
 adobe.com###title-bar:style(position: relative !important; top: 0 !important;)
@@ -1689,6 +1697,7 @@ burlingtonfreepress.com##.site-nav-social-link.site-nav-icon-link.site-nav-first
 burlingtonfreepress.com##.site-nav-social-link.site-nav-icon-link.site-nav-first-secondary-link.site-nav-end-link.site-nav-link-theme-gannett-blue.site-nav-link
 burlingtonfreepress.com##.story-tools
 burlingtonfreepress.com##.utility-bar-wrap
+business-review.eu##.banner-horizontal-black.banner-horizontal-large
 business-standard.com###newMenuNavigationSecond:style(position: relative !important; top: 0 !important;)
 business-standard.com##.sticky:style(position: relative !important; top: 0 !important;)
 businessinsider.com###header-bar:style(position: relative !important; top: 0 !important;)
@@ -8953,6 +8962,7 @@ nytimes.com###masthead:style(position: relative !important; top: 0 !important;)
 nytimes.com###navigation-edge
 nytimes.com###new-york-today-email-promo
 nytimes.com###news-tips-article-promo
+nytimes.com###newsletter-module
 nytimes.com###newsletter-promo
 nytimes.com###nytmm_fixie
 nytimes.com###opinion-newsletter-promo
@@ -8968,6 +8978,13 @@ nytimes.com###sports-email-promo
 nytimes.com###step-two-modal
 nytimes.com###story-ad-1-wrapper
 nytimes.com###story-ad-2-wrapper
+nytimes.com###story-ad-3-wrapper
+nytimes.com###story-ad-4-wrapper
+nytimes.com###story-ad-5-wrapper
+nytimes.com###story-ad-6-wrapper
+nytimes.com###story-ad-7-wrapper
+nytimes.com###story-ad-8-wrapper
+nytimes.com###story-ad-9-wrapper
 nytimes.com###subscriptionCTA
 nytimes.com###upNext
 nytimes.com###welcome-back-modal
@@ -8980,6 +8997,7 @@ nytimes.com##.Dock-dock--1EAX7
 nytimes.com##.Home-header--eShDq:style(position: relative !important;)
 nytimes.com##.ResponsiveAd-topAd--3WpE4
 nytimes.com##.Ribbon-dockHidden--3r3jo
+nytimes.com##.SectionBarShare-shareMenu--2ndEi
 nytimes.com##.app-links.footer-content
 nytimes.com##.article-page:style(overflow-x: hidden !important; overflow-y: hidden !important;)
 nytimes.com##.article-video-sharetools
@@ -10925,6 +10943,7 @@ seeker.com###header-ad
 seeker.com##.ad-container
 seeker.com##.nav__outlink
 seeker.com##.u-color--black-background.header__inner--large.header__inner:style(position: relative !important; top: 0 !important;)
+seekingalpha.com###article-left-slot-2
 seekingalpha.com###f-ios
 seekingalpha.com###main-nav-wrapper-row:style(position: relative !important; top: 0 !important;)
 seekingalpha.com###nav-sec:style(position: relative !important; top: 0 !important;)
@@ -10936,6 +10955,7 @@ seekingalpha.com##.and-svg.app-and
 seekingalpha.com##.fb-svg.sl-fb
 seekingalpha.com##.in.fade.modal-backdrop
 seekingalpha.com##.in.sa-app-banner-splash-screen.ng-isolate-scope.fade.modal
+seekingalpha.com##.portfolio-main.side-portfolio-wrapper:style(position: relative !important;)
 seekingalpha.com##.rta_nav.ver_e
 seekingalpha.com##.sa-app-banner-directive
 seekingalpha.com##.tw-svg.sl-tw
@@ -15069,6 +15089,7 @@ yahoo.com###UH-1-NavLite:style(position: relative !important; top: 0 !important;
 yahoo.com###UH:style(position: relative !important; top: 0 !important;)
 yahoo.com###YDC-SecondaryNav:style(position: relative !important; top: 0 !important; transition: none !important; transform: none !important; -webkit-transform: none !important; box-shadow: none !important;)
 yahoo.com###YDC-UH-Stack:style(position: relative !important; top: 0 !important;)
+yahoo.com###atomic .Pos\(f\)\!:style(position: asbolute !important;)
 yahoo.com###community-bar
 yahoo.com###danafarberpromo
 yahoo.com###fantasyshoppromo
@@ -15078,6 +15099,7 @@ yahoo.com###masterNav:style(position: relative !important; top: 0 !important; tr
 yahoo.com###mediacontentfollowproperty_wrapper
 yahoo.com###mediacontentsharebuttons
 yahoo.com###mediasocialbuttonseasy
+yahoo.com###mega-uh-wrapper:style(position: absolute !important;)
 yahoo.com###mega-uh-wrapper:style(position: relative !important; top: 0 !important;)
 yahoo.com###mrt-node-Lead-2-AbPromo
 yahoo.com###mrt-node-UH-1-NavLite
