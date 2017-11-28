@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 4:55 PM 2017-11-27
+! Last Modified: 8:25 PM 2017-11-27
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -288,7 +288,7 @@ abclocal.go.com##.fbShare
 abclocal.go.com##.links
 abclocal.go.com##.shareThis
 abclocal.go.com##.socialNetworks
-abcnews.go.com###abcn-videoplayer:style(position: absolute !important; top: 0 !important;)
+abcnews.go.com###abcn-videoplayer:style(position: static)
 abcnews.go.com###global-header:style(position: relative !important; top: 0 !important;)
 abcnews.go.com###header-wrapper:style(position: relative !important; top: 0 !important;)
 abcnews.go.com###header-wrapper:style(width: 100% !important;)
@@ -566,10 +566,12 @@ alexkras.com##.addtoany_content_bottom.addtoany_share_save_container
 alexkras.com##.addtoany_content_top.addtoany_share_save_container
 algolia.com###header:style(position: relative !important; top: 0 !important;)
 algolia.com##.closed
-aliexpress.com###auto-search:style(position: relative !important; top: 0 !important;)
-aliexpress.com###header:style(position: absolute !important;)
+aliexpress.com###auto-search:style(position: relative !important;)
+aliexpress.com###header:style(position: relative !important;)
 aliexpress.com##.float-button-wrapper
 aliexpress.com##.ms-downloadbar
+aliexpress.com##.ms-lego-dialog
+aliexpress.com##.ui-fixed-panel
 aliexpress.com##.ui-mask
 aliexpress.com##.ui-newuser-layer-dialog.ui-window-transition.ui-window-normal.ui-window
 aljazeera.com###Article-Top-Toolbar
@@ -1107,9 +1109,9 @@ backblaze.com##.top-nav-bar:style(position: relative !important; top: 0 !importa
 backchannel.com##.is-active.popover--top.popover--quoteAttributions.popover--dark.js-popover.popover
 backchannel.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBottomSection.u-tintSpectrum.u-tintBgColor.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar
 backslasher.net##.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important;)
+backstageol.com###nav-wrapper:style(position: relative !important;)
 backstageol.com###social-box
 backstageol.com##.aligncenter.size-full.wp-image-3161
-backstageol.com##IFRAME[src="//www.facebook.com/plugins/likebox.php?href=http://www.facebook.com/backstageol&width=300&height=258&show_faces=true&colorscheme=light&stream=false&show_border=false&header=false"]
 bagleywatchco.com##.site-header--fixed.site-header--homepage.site-header--transparent.site-header:style(position: relative !important; top: 0 !important;)
 baidu.com###head:style(position: relative !important; top: 0 !important;)
 baidu.com##.s_down:style(position: relative !important; top: 0 !important;)
@@ -1136,9 +1138,7 @@ baltimoresun.com##.trb_masthead_adBanner.trb_mh_adB
 baltimoresun.com##.trb_nh:style(position: absolute !important;)
 baltimoresun.com##.trb_nls_c
 bangordailynews.com###bdn-tophat:style(position: relative !important; top: 0 !important;)
-bangordailynews.com###comp-header:style(position: absolute !important;)
 bangordailynews.com###comp-header:style(position: relative !important;)
-bangordailynews.com###masthead-bottom-wrapper:style(position: absolute !important;)
 bangordailynews.com###masthead-bottom-wrapper:style(position: relative !important;)
 bangordailynews.com###sharebar
 bangordailynews.com##.content-padding.social
@@ -1239,16 +1239,24 @@ bedbugreports.com##.navbar-fixed-top.navbar-wrapper2:style(position: relative !i
 belitsoft.com##header:style(position: relative !important; top: 0 !important;)
 bellingcat.com##.navigation-main:style(position: relative !important; top: 0 !important;)
 beltmag.com###popup
-bensbargains.com###main-nav:style(position: relative !important; top: 0 !important;)
+bensbargains.com###main-nav:style(position: absolute !important;)
 berkeley.edu##.sd-sharing-enabled.sharedaddy
 bestbuy.com###pdp-sticky-header:style(position: relative !important; top: 0 !important;)
+bestbuy.com##.blue-assist
+bestbuy.com##.in.email-submission-modal.fade.modal
+bestbuy.com##.in.fade.modal-backdrop
 bestproducts.com###sticky-wrap:style(position: relative !important;)
 bestproducts.com##.footer--social
 bestproducts.com##.social-byline--share
 bestproducts.com##.sticky.nav:style(position: relative !important;)
 bestride.com##.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important;)
-bet.com##.header__nav__bar:style(position: relative !important; top: 0 !important;)
+bet.com###moments__sticky__icon
+bet.com##.asset_balaNotification--open.asset_balaNotification
+bet.com##.asset_balaNotification--open.asset_balaNotificationOverlay
+bet.com##.header__nav__bar:style(position: relative !important;)
+bet.com##.header__nav_fixed.header__nav:style(position: relative !important;)
 bet.com##.header__nav_fixed.header__nav_scroll_down.header__nav
+bet.com##.section.followandnewsletter.parbase
 bet.com##.smartbanner
 betabeat.com##.entry-bottom-share
 betabeat.com##.entry-top-share
@@ -1382,23 +1390,18 @@ bloomberg.com##.bb-nav-social__link--linkedin.bb-nav-social__link
 bloomberg.com##.bb-nav-social__link--reddit.bb-nav-social__link
 bloomberg.com##.bb-nav-social__link--twitter.bb-nav-social__link
 bloomberg.com##.bb-nav-social__more-icon
-bloomberg.com##.dvz-v0-stuck.bb-nav-root:style(position: relative !important; top: 0 !important;)
+bloomberg.com##.dvz-v0-stuck.bb-nav-root:style(position: absolute !important;)
 bloomberg.com##.in-article-ad-dummy
 bloomberg.com##.inline-newsletter
 bloomberg.com##.mobile-box-ad-dummy
 bloomberg.com##.nav__social
-bloomberg.com##.persist-nav.bb-nav-root:style(position: relative !important; top: 0 !important;)
+bloomberg.com##.persist-nav.bb-nav-root
 bloomberg.com##.right-rail
 bloomberg.com##.social-icons
 bloomberg.com##.sticky-container
 bloomberg.com##.terminal-tout-container
 bloomberg.com##.tweet_count
 bloomberg.com##.vjs-button.vjs-control.blvs-share-button
-bloomberg.com##:xpath(.//*[data-tracker-action="share"])
-bloomberg.com##:xpath(.//*[data-tracker-category="social"])
-bloomberg.com##a[href="#"]
-bloomberg.com##a[href="javascript:window.print();"]
-bloomberg.com##a[href^="mailto:"]
 bloombergquint.com##.article__details__share
 bloombergquint.com##.bq-footer__social
 bloombergquint.com##.js-article-details-share-sticky.article__content__share--sticky
@@ -2946,6 +2949,7 @@ currentargus.com##.site-nav-social-link.site-nav-icon-link.site-nav-first-second
 currentargus.com##.story-tools
 currentargus.com##.utility-bar-wrap
 customer.xfinity.com###page-header:style(position: relative !important; top: 0 !important; background: #000000 !important;)
+cvs.com###gb-button-to-top
 cyberscoop.com###welcomeadMask
 cyberscoop.com##.header:style(position: relative !important; top: 0 !important;)
 cyberscoop.com##.side-block:nth-of-type(1)
@@ -11122,12 +11126,21 @@ slate.com##.tablet-ad
 sleek-mag.com###masthead:style(position: absolute !important;)
 sleek-mag.com###share-box-fixed
 sleek-mag.com###sleek-next-post:style(position: absolute !important;)
-slickdeals.net###dealStats:style(position: relative !important; top: 0 !important;)
-slickdeals.net###globalBar:style(position: relative !important; top: 0 !important;)
+slickdeals.net###buyNowShareContainer
+slickdeals.net###crt-adblock-a
+slickdeals.net###crt-adblock-b
+slickdeals.net###dealStats:style(position: relative !important; top: 0px !important; left: 0px !important;)
+slickdeals.net###globalBar:style(position: absolute !important;)
+slickdeals.net###logoarea
+slickdeals.net###rightcol-300x250-A
 slickdeals.net###tutorial_list
 slickdeals.net##.ab
+slickdeals.net##.injectedAd.dividerSection
+slickdeals.net##.modal-modern.modal
+slickdeals.net##.sdModalOverlay
 slickdeals.net##.social_dd
-slickdeals.net##.uninitialized.stickyHeader:style(position: relative !important; top: 0 !important;)
+slickdeals.net##.uninitialized.stickyHeader:style(position: absolute !important;)
+slickdeals.net##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 sltrib.com###nav:style(position: relative !important; top: 0 !important;)
 sltrib.com##.-gradient.top-nav-wrap.amp-feature-wrapper.page-gradient:style(position: absolute !important; top: 0 !important;)
 sltrib.com##.col-xs-12.col-sm-12.pb-f-sltrib-ad-v2.pb-layout-item.pb-feature.col-md-12.col-lg-12.clearfix.wrapper
