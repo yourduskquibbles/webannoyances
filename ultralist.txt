@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 9:39 AM 2017-11-28
+! Last Modified: 10:05 AM 2017-11-28
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -4517,7 +4517,9 @@ forums.androidcentral.com###header:style(position: relative !important; top: 0 !
 forums.xfinity.com##.lia-in.lia-dialog-titleless.lia-panel-dialog-modal-valuesurvey.lia-panel-dialog-modal-simple.lia-panel-dialog.lia-content.ui-corner-all.ui-widget-content.ui-widget.ui-dialog
 forums.xfinity.com##.ui-widget-overlay
 forward.com##.desktop.blog-sidebar
+forward.com##.nocontent.share-box
 forward.com##.slide-down.nocontent.header-sticky-container:style(position: absolute !important;)
+forward.com##.social-icons
 fossa.io##.js-postActionsFooter.u-flexCenter.postActions
 fossa.io##.js-stickyFooter.u-xs-paddingRight10.u-xs-paddingLeft10.u-zIndexMetabar.u-paddingBottom10.u-paddingTop10.u-borderBox.u-boxShadowTop.u-backgroundWhite.u-sizeFullWidth.u-bottom0.u-fixed
 fossa.io##.u-tintSpectrum.u-tintBgColor.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorTransparentWhiteDarker.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
@@ -15320,7 +15322,7 @@ zyngaplayerforums.com##.Reactions
 ||nbcsports.com/*/nbcsports-bg.jpg$image
 ||ndtv.com/*$inline-script,domain=ndtv.com
 ||onecount.net$script,domain=foreignpolicy.com
-||onesignal.com/sdks/OneSignalSDKStyles.css*
+||onesignal.com^$stylesheet,script
 ||optinmonster.com*$script
 ||optnmnstr.com
 ||pagely.netdna-cdn.com^$script,domain=guns.com
