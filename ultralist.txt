@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 8:25 PM 2017-11-27
+! Last Modified: 9:39 AM 2017-11-28
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -288,7 +288,7 @@ abclocal.go.com##.fbShare
 abclocal.go.com##.links
 abclocal.go.com##.shareThis
 abclocal.go.com##.socialNetworks
-abcnews.go.com###abcn-videoplayer:style(position: static)
+abcnews.go.com###abcn-videoplayer:style(position: static !important;)
 abcnews.go.com###global-header:style(position: relative !important; top: 0 !important;)
 abcnews.go.com###header-wrapper:style(position: relative !important; top: 0 !important;)
 abcnews.go.com###header-wrapper:style(width: 100% !important;)
@@ -345,6 +345,7 @@ accenture.com##.hidden-xs.cookie-nav
 accenture.com##.share-container
 accenture.com##.stay-connected-master
 accenture.com##body:style(padding-top: 0px !important;)
+accessnow.org##.share
 accmag.com###head-main-wrap:style(position: relative !important; top: 0 !important;)
 accmag.com###sticky-header:style(position: relative !important; top: 0 !important;)
 accmag.com##.adsbygoogle
@@ -2519,22 +2520,55 @@ com.au##.story-footer-tools.js-loaded.sticky
 combatsportslaw.com###actionbar
 combatsportslaw.com##.sd-sharing-enabled.sharedaddy
 comeaucomputing.com###topmsg
+comicbook.com###oas_FC1
+comicbook.com###oas_FC10
+comicbook.com###oas_FC11
+comicbook.com###oas_FC12
+comicbook.com###oas_FC13
+comicbook.com###oas_FC14
+comicbook.com###oas_FC15
+comicbook.com###oas_FC2
+comicbook.com###oas_FC3
+comicbook.com###oas_FC4
+comicbook.com###oas_FC5
+comicbook.com###oas_FC6
+comicbook.com###oas_FC7
+comicbook.com###oas_FC8
+comicbook.com###oas_FC9
 comicbook.com###oas_MC1
+comicbook.com###oas_MC10
+comicbook.com###oas_MC11
+comicbook.com###oas_MC12
+comicbook.com###oas_MC13
+comicbook.com###oas_MC14
+comicbook.com###oas_MC15
 comicbook.com###oas_MC2
 comicbook.com###oas_MC3
+comicbook.com###oas_MC4
+comicbook.com###oas_MC5
+comicbook.com###oas_MC6
+comicbook.com###oas_MC7
+comicbook.com###oas_MC8
+comicbook.com###oas_MC9
 comicbook.com##.adhesion-block
-comicbook.com##.full-nav:style(position: relative !important; top: 0 !important;)
+comicbook.com##.article-container:style(padding-top: 0px !important;)
+comicbook.com##.o2-in-side-view:style(position: static !important;)
+comicbook.com##.social
 comicbook.com##.social_blk
 comicbook.com##.sticky.next-article-tease
-comicbook.com##body:style(margin-top: 0px !important; overflow-x: hidden !important; overflow-y: auto !important;)
-comicbook.com##header:style(position: relative !important; top: 0 !important;)
+comicbook.com##body > header:style(position: absolute !important; height: auto !important;)
+comicbook.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 commentarymagazine.com###archives-2
+commentarymagazine.com###js-sticky-contents
 commentarymagazine.com###js-sticky-contents-resize-tool
 commentarymagazine.com##.advads-background
 commentarymagazine.com##.advads-close-button
 commentarymagazine.com##.alert-block.alert.intense
+commentarymagazine.com##.onesignal-bell-container-bottom-right.onesignal-reset.onesignal-bell-container
+commentarymagazine.com##.sticky.vw-sticky-sidebar:style(position: relative !important;)
 commentarymagazine.com##.vw-post-share-box
-commentarymagazine.com##.vw-sticky.vw-menu-main-wrapper:style(position: relative !important; top: 0 !important;)
+commentarymagazine.com##.vw-sticky.vw-menu-main-wrapper:style(position: relative !important;)
+commentarymagazine.com##.widget_vw_widget_social_counter.widget
 commercialappeal.com##.android-smart-banner.smart-banner
 commercialappeal.com##.bx-creative
 commercialappeal.com##.bx-impress-in
@@ -3749,9 +3783,10 @@ ecowatch.com##.topbar-wrapper:style(position: absolute !important; top: 0 !impor
 ecowatch.com##.v-sep.main:style(position: absolute !important; top: 0 !important;)
 eczo.bike##.t228__positionfixed.t228:style(position: relative !important; top: 0 !important;)
 edge.org###primary-menu-bar:style(position: relative !important; top: 0 !important;)
-eff.org###masthead-mobile-wrapper:style(position: relative !important; top: 0 !important;)
+eff.org###masthead-mobile-wrapper:style(position: relative !important;)
+eff.org###topbar:style(margin-bottom: 0px !important;)
 eff.org##.share-links
-eff.org##.sticky-header:style(position: relative !important; top: 0 !important;)
+eff.org##.sticky-header:style(position: relative !important;)
 ehang.com##.hidden-xs.subMenu:style(position: relative !important; top: 0 !important;)
 ehang.com##.isStuck.stuckMenu.visible-xs.static-div:style(position: relative !important; top: 0 !important;)
 elaineou.com###masthead:style(position: relative !important; top: 0 !important;)
@@ -4427,7 +4462,6 @@ forbes.com##.beta-bar-gallery.beta-bar
 forbes.com##.clearfix.csf-sharing.csr-following
 forbes.com##.flyer_ui
 forbes.com##.fs-responsive-text.fs-text-m.expand-social
-forbes.com##.mini_header:style(position: relative !important; top: 0 !important;)
 forbes.com##.mnet--longscroll.mnet
 forbes.com##.ng-scope.header-nav-collapse.initial.csr-header:style(position: absolute !important;)
 forbes.com##.ng-scope.sticky-fbs-ad-container
@@ -4435,10 +4469,8 @@ forbes.com##.show.slash-background.article-sidebar
 forbes.com##.sticky__scroll--a
 forbes.com##.top-ad-container
 forbes.com##.trending
-forbes.com##NAV:style(position: relative !important; top: 0 !important;)
 forbes.com##body > app-root > app > .undefined-expanded:nth-of-type(1):style(position: absolute !important;)
 forbes.com##fbs-ad
-forbes.com##header:style(position: relative !important; top: 0 !important;)
 forbes.com##navbar.undefined-expanded:style(background-image: none !important;)
 forbes.com##sharing
 foreignaffairs.com###kicker-2
@@ -4484,6 +4516,8 @@ fortune.com##.vjs-button.vjs-control.vjs-icon-share.vjs-share-control
 forums.androidcentral.com###header:style(position: relative !important; top: 0 !important;)
 forums.xfinity.com##.lia-in.lia-dialog-titleless.lia-panel-dialog-modal-valuesurvey.lia-panel-dialog-modal-simple.lia-panel-dialog.lia-content.ui-corner-all.ui-widget-content.ui-widget.ui-dialog
 forums.xfinity.com##.ui-widget-overlay
+forward.com##.desktop.blog-sidebar
+forward.com##.slide-down.nocontent.header-sticky-container:style(position: absolute !important;)
 fossa.io##.js-postActionsFooter.u-flexCenter.postActions
 fossa.io##.js-stickyFooter.u-xs-paddingRight10.u-xs-paddingLeft10.u-zIndexMetabar.u-paddingBottom10.u-paddingTop10.u-borderBox.u-boxShadowTop.u-backgroundWhite.u-sizeFullWidth.u-bottom0.u-fixed
 fossa.io##.u-tintSpectrum.u-tintBgColor.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorTransparentWhiteDarker.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
@@ -4989,6 +5023,7 @@ google.com##.devsite-top-section-pinned.nocontent.devsite-top-section:style(posi
 google.com##.glue-sticky-active.glue-sticky:style(position: relative !important;)
 google.com##.header__sections:style(position: relative !important; top: 0 !important;)
 google.com##.header__top:style(position: relative !important; top: 0 !important;)
+google.com##.mobile-action-bar:style(position: absolute !important;)
 google.com##.ng-scope:style(position: relative !important; top: 0 !important;)
 google.com##.nocontent.devsite-top-section:style(position: relative !important; top: 0 !important;)
 google.com##.social-sharing-widgets
@@ -9250,6 +9285,7 @@ papersource.com###signup-mobile
 parabolicarc.com##.no-break
 paragonie.com##.navbar-trans.btn-glass.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
 parents.com###gigyaShareBarUl
+parents.com##.onScreen.ad.mobileAd.lazyAd
 parktool.com##.fixed-header.header:style(position: absolute !important;)
 parktool.com##.mobile-fixed.section-indicator:style(position: absolute !important;)
 pastebin.com###abrpm
@@ -10113,7 +10149,7 @@ ramedium.com##.heateor_sss_bottom_sharing.heateor_sss_vertical_sharing.heateor_s
 ramedium.com##.heateor_sss_horizontal_sharing.heateor_sss_sharing_container
 ramw.org###fixed_section
 ramw.org###top_section:style(position: relative !important; top: 0 !important;)
-ranker.com###commonHead:style(position: relative !important; top: 0 !important;)
+ranker.com###commonHead:style(position: absolute !important;)
 ranker.com##.footNav__group--social.footNav__group.lowercase
 rapidcityjournal.com###main-body-container:style(margin-top: 20px !important;)
 rapidcityjournal.com###site-navbar-container:style(position: relative !important; top: 0 !important;)
@@ -11410,11 +11446,13 @@ springboard.com##.js-stickyFooter.u-xs-paddingRight10.u-xs-paddingLeft10.u-zInde
 springboard.com##.u-tintSpectrum.u-tintBgColor.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorTransparentWhiteDarker.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
 springboard.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
 springboard.com##.u-xs-height95.u-height105.u-tintBgColor.js-metabarSpacer.metabar--spacer.metabar
+springer.com##.u-composite-layer.banner--cookies-policy.banner
 sprint.com##.layout-header:style(position: absolute !important;)
 sputniknews.com###share
 sputniknews.com##.arrowup
 sputniknews.com##.b-header__nav-social
 spuz.me##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute !important; top: 0 !important;)
+spyzie.com##.pageTop_fix.pageTop:style(position: absolute !important;)
 squawker.org##.mashsb-stretched.mashsb-main.mashsb-container
 squawker.org##.td-affix.td-header-main-menu.td-header-border.td-header-row:style(position: absolute !important;)
 squawker.org##.td-pb-padding-side.td-post-sharing-top.td-post-sharing
@@ -12510,6 +12548,7 @@ thejacknews.com##.eltd-blog-single-share
 thejacknews.com##.mobile-header-appear.eltd-animate-mobile-header.eltd-mobile-header
 thejacknews.com##.sd-sharing-enabled.sharedaddy
 thejakartapost.com##.showin-mobile-version.no-padding.col-xs-12:style(position: relative !important; top: 0 !important;)
+thejointblog.com##.nc_socialPanel
 thekitchn.com##.ActionButtonGroup--row.ActionButtonGroup
 thekitchn.com##.PostPicture__pinterest-button
 thekitchn.com##.SiteHeader__social-links.large-order-1.show-for-large.large-6.column
@@ -15281,6 +15320,7 @@ zyngaplayerforums.com##.Reactions
 ||nbcsports.com/*/nbcsports-bg.jpg$image
 ||ndtv.com/*$inline-script,domain=ndtv.com
 ||onecount.net$script,domain=foreignpolicy.com
+||onesignal.com/sdks/OneSignalSDKStyles.css*
 ||optinmonster.com*$script
 ||optnmnstr.com
 ||pagely.netdna-cdn.com^$script,domain=guns.com
