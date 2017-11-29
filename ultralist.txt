@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 2:11 AM 2017-11-29
+! Last Modified: 3:10 AM 2017-11-29
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -1162,6 +1162,8 @@ bankrate.com##.glyphicon-arrow-up.glyphicon
 barneys.com##.fixed.header:style(position: relative !important; top: 0 !important;)
 barrons.com###share-tools
 barstoolsports.com###header:style(position: relative !important; top: 0 !important;)
+barstoolsports.com##.articleFooterSocial
+barstoolsports.com##.articleSocial
 barstoolsports.com##.header-container:style(position: relative !important; top: 0 !important;)
 barstoolsports.com##.newsletterSignup
 barstoolsports.com##.quickShop
@@ -1328,7 +1330,7 @@ birthmoviesdeath.com##.fa-lg.fa-tumblr.fa
 birthmoviesdeath.com##.fa-lg.fa-twitter.fa
 bitcointechtalk.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
 bitcointechtalk.com##.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: absolute !important;)
-bitmoji.com##.header:style(position: relative !important; top: 0 !important;)
+bitmoji.com##.header:style(position: absolute !important;)
 bizjournals.com###boundary-2__sticker-0 > .sm-only__expander.xs-only__expander
 bizjournals.com###tour-prompt.prompt.prompt--full-width
 bizjournals.com##.clearfix.infinite-links-chunk
@@ -1404,6 +1406,7 @@ bloomberg.com##.bb-nav-social__link--reddit.bb-nav-social__link
 bloomberg.com##.bb-nav-social__link--twitter.bb-nav-social__link
 bloomberg.com##.bb-nav-social__more-icon
 bloomberg.com##.dvz-v0-stuck.bb-nav-root:style(position: absolute !important;)
+bloomberg.com##.highlights-v6-story__social
 bloomberg.com##.in-article-ad-dummy
 bloomberg.com##.inline-newsletter
 bloomberg.com##.mobile-box-ad-dummy
@@ -1414,6 +1417,7 @@ bloomberg.com##.social-icons
 bloomberg.com##.sticky-container
 bloomberg.com##.terminal-tout-container
 bloomberg.com##.tweet_count
+bloomberg.com##.video-player__container:style(position: static !important;)
 bloomberg.com##.vjs-button.vjs-control.blvs-share-button
 bloombergquint.com##.article__details__share
 bloombergquint.com##.bq-footer__social
@@ -1496,7 +1500,6 @@ booking.com##.sr_rooms_left_wrap.only_x_left
 booking.com##.top_scarcity
 booking.com##.urgency_message_red.altHotels_most_recent_booking
 booking.com##.urgency_message_x_people.urgency_message_red
-booking.wowair.com##._2yafig57rg:style(position: relative !important; top: 0 !important;)
 bookscanner.de##.cc-FloatingButtonBarContainer-right.cc-FloatingButtonBarContainer
 bookscanner.de##.cc-sharebuttons-align-left.cc-sharebuttons-design-square.cc-sharebuttons-style-colored.cc-sharebuttons-size-32.cc-sharebuttons-element
 bookscanner.de##.googleplus-container
@@ -1544,7 +1547,9 @@ bostonglobe.com##.inline-ad-1.inline-ad
 bostonglobe.com##.inline-ad-2.inline-ad
 bostonglobe.com##.inline-ad-3.inline-ad
 bostonglobe.com##.inline-newsletter
+bostonglobe.com##.js-smartbar-slot.smartbar__slot
 bostonglobe.com##.meter-modal-block
+bostonglobe.com##.meter-progress-bar--visible.meter-progress-bar
 bostonglobe.com##.meter-social-connect--visible.meter-social-connect
 bostonglobe.com##.primary-tools.tools.Top
 bostonglobe.com##.recircButton__button
@@ -1553,6 +1558,7 @@ bostonglobe.com##.site-header:style(position: relative !important; top: 0 !impor
 bostonglobe.com##.social-tools
 bostonglobe.com##.sticky-tools--active.sticky-tools:style(position: relative !important; top: 0 !important;)
 bostonglobe.com##.subscription-banner__link
+bostonglobe.com##.vjs-button.vjs-control.vjs-share-control
 bostonherald.com###article-share-links
 bostonherald.com###sidebar:style(position: relative !important; left: auto !important;)
 bostonherald.com##.menu-social-links.menu
@@ -1562,7 +1568,6 @@ bostonreview.net###block-br-hhog-module-br-hhog-newsletter-general
 bostonreview.net###innercols-secondary-inner:style(position: relative !important; top: 0 !important;)
 bostonreview.net###popup
 bostonreview.net###shareiconsbar
-bostonreview.net###topbuffer
 bostonreview.net##.featurednewsletter
 bostonreview.net##.footer-secondary-social
 bostonreview.net##.header-social
@@ -5841,6 +5846,7 @@ idgod.ph##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !impo
 idigitaltimes.com##.page-header
 idropnews.com###main-nav-cont:style(position: relative !important; top: 0 !important;)
 ieee.org###header:style(position: relative !important; top: 0 !important;)
+ieee.org###mainNav:style(position: relative !important; top: 0 !important;)
 ieee.org###social-space
 ieee.org##.ad-module
 ieee.org##.ad-space
@@ -8656,6 +8662,8 @@ newspunch.com##.adsbygoogle
 newspunch.com##.mh-back-to-top
 newspunch.com##.wpsso-ssb-content.wpsso-ssb
 newsquest.co.uk###top-nav:style(position: absolute !important; top: 0 !important;)
+newstatesman.com###popup
+newstatesman.com##.article-footer-promotion
 newstatesman.com##.clearfix.site-header:style(position: relative !important; top: 0 !important;)
 newstatesman.com##.form-submit.button-primary.webform-submit
 newstatesman.com##.share-buttons
@@ -11320,15 +11328,14 @@ snopes.com##.widget_social.social-6.widget
 snopes.com##.widget_social.social-7.widget
 sochi2014.com##.b-sociality-menu
 sociable.co###nav-wrap
-social-popup/spu.js$script
 sofrep.com###mobile-menu:style(position: relative !important; top: 0 !important;)
 sofrep.com##.become-member
 sofrep.com##.sofrep-mobile-crate-cta
 softpedia.com###cookienotif
 softpedia.com###ktucmdgtfwguhqgomzvhmjagotgmjpuxl
-softpedia.com##.menubar:style(position: relative !important; top: 0 !important;)
-softpedia.com##.posrel.statusbar:style(position: relative !important; top: 0 !important;)
-softpedia.com##DIV[style="float:left; margin-left: 30px; width: 200px;"]
+softpedia.com##.menubar-hp:style(position: absolute !important;)
+softpedia.com##.menubar:style(position: absolute !important;)
+softpedia.com##.posrel.statusbar:style(position: absolute !important;)
 sohu.com##.questionnaire
 solutionreach.com##.leadinModal-preview.leadinModal-v3.leadinModal-theme-bottom-left-corner.leadinModal.leadinModal-reset
 solutionreach.com##.site-header--light.site-header:style(position: absolute !important;)
@@ -11361,9 +11368,10 @@ southwestthemagazine.com##.header:style(position: relative !important; top: 0 !i
 southwestthemagazine.com##.template-icon.nav-menu-button:style(position: relative !important; top: 0 !important;)
 southwestthemagazine.com##.twitter-share-link.template-icon
 southwestthemagazine.com##article:style(padding-bottom: 0px !important;)
+space.com###ec-popup-modal
+space.com###sticky-header
 space.com###sticky-header > .center-content:style(position: relative !important; top: 0 !important;)
 space.com###sticky-header.fixed.content-wrapper.sticky-header:style(position: relative !important; top: 0 !important;)
-space.com###sticky-header:style(position: relative !important; top: 0 !important;)
 space.com###stickyShare
 space.com###stickyShare:style(position: relative !important; top: 0 !important;)
 space.com##.fa-facebook.fa
@@ -11412,7 +11420,6 @@ spectator.co.uk##.widget_widget_follow_us.widget
 spectator.org##.adsbygoogle
 spectator.org##.hidden-sm.col-xs-12.col-sm-2.col-md-3.col-lg-3
 spectator.org##.print-no.essb_width_flex.essb_1330856811.essb_template_color-leafs.essb_share.essb_displayed_bottom.essb_counters.essb_links
-spectrum.ieee.org###mainNav:style(position: relative !important; top: 0 !important;)
 spectrumnews.org###end-row
 spectrumnews.org###main-nav:style(position: relative !important; top: 0 !important;)
 spectrumnews.org##.active
@@ -14901,6 +14908,7 @@ worldofwarcraft.com##.font-none.SocialButtons
 worldstarhiphop.com##.social-networks
 worldwidewords.org##.addthis
 wosu.org##.sharing-and-programs.columns.large-2
+wowair.com##._2yafig57rg:style(position: relative !important; top: 0 !important;)
 wowair.us##.affix.navbar-header:style(position: relative !important; top: 0 !important;)
 wowair.us##.logo:style(position: relative !important; top: 0 !important;)
 wowair.us##.stickyCookie
