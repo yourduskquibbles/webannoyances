@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 9:00 AM 2017-11-29
+! Last Modified: 9:57 AM 2017-11-29
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -86,7 +86,6 @@
 ##.sharingfooter
 ##.sharrre-container
 ##.site-nav-logo.distraction-free-component
-##.social
 ##.social-buttons
 ##.social-links
 ##.social-networks
@@ -9754,6 +9753,7 @@ popsci.com##.pane-social-header.pane-panels-mini.panel-pane
 popsci.com##.panel-pane.pane-block.pane-post-social-post-social-block
 popsci.com##.panel-pane.pane-block.pane-post-social-post-social-block.bottom
 popsci.com##.scrollToTop
+popsci.com##.track-processed.subscribe
 popsugar.com###banner-placeholder
 popsugar.com###fixednav:style(position: relative !important; top: 0 !important;)
 popsugar.com###js-primary-navigation:style(position: relative !important; top: 0 !important;)
@@ -13433,16 +13433,15 @@ tmz.com##.show.newsletter-content
 tmz.com##.social
 tmz.com##.social-icons
 tmz.com##.when-its-on-widget
-today.com###header:style(position: relative !important; top: 0 !important;)
+today.com###header:style(position: absolute !important;)
 today.com###marquee:style(position: relative !important; top: 0 !important;)
 today.com###scroll-to-top
-today.com##.active.j-entry.entry:style(padding-top: 0px !important;)
 today.com##.entry-bottom
 today.com##.entry-in-view.j-share-bar-left.left.entry-social
 today.com##.j-header-follow-us.header-spotlight.header-social-wrapper
 today.com##.j-player-social-header.player-social.content-social
 today.com##.j-share-bar-left.left.entry-social
-today.com##body:style(padding-top: 0px !important;)
+today.com##.newsletter-l-wrapper
 toddstarnes.com##.Header--top.Header:style(position: relative !important; top: 0 !important;)
 toddstarnes.com##.copy-layer-background.sqs-slide-layer-content
 toddstarnes.com##.visible.sqs-popup-overlay.sqs-widget.yui3-widget
@@ -15422,7 +15421,6 @@ zyngaplayerforums.com##.Reactions
 ||optinmonster.com*$script
 ||optnmnstr.com
 ||pagely.netdna-cdn.com^$script,domain=guns.com
-||pinterest.com/*/pinit.js$script,domain=10best.com|tedium.co
 ||pinterest.com^$script,image
 ||realclearpolitics.com/*/ad_slots.jsonp$script,first-party
 ||realclearpolitics.com/*/instart.js$script,first-party
