@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:34 AM 2017-11-29
+! Last Modified: 12:00 PM 2017-11-29
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -47,6 +47,7 @@
 ##.connect_blue
 ##.fa-envelope.fa
 ##.fa-facebook.fa
+##.fa-google-plus-square.fa
 ##.fa-google-plus.fa
 ##.fa-instagram.fa
 ##.fa-linkedin.fa
@@ -294,11 +295,10 @@ abclocal.go.com##.links
 abclocal.go.com##.shareThis
 abclocal.go.com##.socialNetworks
 abcnews.go.com###abcn-videoplayer:style(position: static !important;)
-abcnews.go.com###global-header:style(position: relative !important; top: 0 !important;)
-abcnews.go.com###header-wrapper:style(position: relative !important; top: 0 !important;)
+abcnews.go.com###global-header:style(position: absolute !important;)
+abcnews.go.com###header-wrapper:style(position: absolute !important;)
 abcnews.go.com###header-wrapper:style(width: 100% !important;)
 abcnews.go.com###nav_short_flex:style(position: relative !important; top: 0 !important;)
-abcnews.go.com###pane-main:style(padding-top: 0px !important;)
 abcnews.go.com###share-bar
 abcnews.go.com###sharetools
 abcnews.go.com###widget-subscribe-3
@@ -308,6 +308,7 @@ abcnews.go.com##.addthis_dynamic_wrapper
 abcnews.go.com##.akamai-control.akamai-share
 abcnews.go.com##.horizontal.amp-article-social
 abcnews.go.com##.horizontal.article-social
+abcnews.go.com##.ng-scope.abcn-videoplayer.offpage
 abcnews.go.com##.short_bg.short_stuck
 abcnews.go.com##.social-footer-wrapper
 abcnews.go.com##.vertical.article-social
@@ -6508,6 +6509,7 @@ khou.com##.page__header:style(position: absolute !important;)
 khou.com##.sharing
 khou.com##.site-header:style(position: relative !important; top: 0 !important;)
 khou.com##.utility-bar
+kickstarter.com##.fixed.js-project-nav.NS_projects__project_nav:style(position: relative !important;)
 kickstarter.com##.mx-1.relative.z2.shadow-high.py2.bg-navy-200
 kickstarter.com##.skrollable-after.skrollable.js-project-nav.NS_projects__project_nav:style(position: relative !important; top: 0 !important;)
 kidrock.com##.top-bar:style(position: relative !important; top: 0 !important;)
@@ -7130,7 +7132,7 @@ lohud.com##.story-tools
 lohud.com##.utility-bar-wrap
 longestshotclub.com##.fpss.ssf
 longreads.com###actionbar
-longreads.com###header:style(position: relative !important; top: 0 !important;)
+longreads.com###header:style(position: absolute !important;)
 longreads.com##.entry-email-signup
 longreads.com##.sd-sharing.sd-social-icon.sd-social.sd-block.robots-nocontent
 longreads.com##.support-footer
