@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 3:10 AM 2017-11-29
+! Last Modified: 3:57 AM 2017-11-29
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -714,7 +714,8 @@ anandtech.com##.twitter-tweet-button.twitter-share-button-rendered.twitter-share
 anbox.io##.affix.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 anbox.io##.clearfix.d-header:style(position: absolute !important;)
 android.com###anchor-nav:style(position: relative !important; top: 0 !important;)
-android.com###header:style(position: relative !important; top: 0 !important;)
+android.com###header:style(position: absolute !important;)
+android.com##.dac-nav-sidebar:style(position: absolute !important;)
 android.com##.dac-toast-group
 android.com##.l-header:style(position: relative !important; top: 0 !important; transform: none !important;))
 android.com##.nocontent.devsite-top-section:style(position: relative !important; top: 0 !important;)
@@ -4140,6 +4141,9 @@ facebook.com##div[id^="hyperfeed_story_id_"]:has(a.uiStreamSponsoredLink)
 factmag.com##.secondary-font.header:style(position: relative !important; top: 0 !important;)
 fahrrad-xxl.de##.is_stuck.mm-fixed-top.stickyloaded.regular-nav.top-nav:style(position: relative !important; top: 0 !important;)
 fahrrad-xxl.de##.sharing
+familycircle.com###header-container:style(position: absolute !important;)
+familycircle.com##.mdpShareBar
+familycircle.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 familyhandyman.com##.footersocialicons.marginbottom.font20px
 familyhandyman.com##.rightrailseparator.followusblock
 famous-smoke.com##.emailmodal.blackglassgradient.emailmodalblocker
@@ -7800,6 +7804,7 @@ modernfarmer.com##.unstyled.mf-single-article-share.fix
 modernistcuisine.com##header:style(position: relative !important; top: 0 !important;)
 modernistpantry.com##.header-language-background:style(position: absolute !important;)
 modernliberals.com##.mh-back-to-top
+modernluxury.com###social-bugs
 modernreaders.com###sidebar
 modernreaders.com##.adsbygoogle
 modernreaders.com##.code-block-1.code-block
@@ -9741,8 +9746,7 @@ popehat.com##.sd-sharing-enabled.sharedaddy
 popsci.com###in-content-ad-0
 popsci.com###in-content-ad-1
 popsci.com##.ads.st-block
-popsci.com##.content-wrapper:style(margin-top: 0px !important;)
-popsci.com##.main-header:style(position: relative !important; top: 0 !important;)
+popsci.com##.main-header:style(position: absolute !important;)
 popsci.com##.pane-post-social-post-social-block.pane-block.panel-pane
 popsci.com##.pane-social-buttons.pane-social-plugins-social-plugins-footer-icons.pane-block.panel-pane
 popsci.com##.pane-social-header.pane-panels-mini.panel-pane
@@ -10001,14 +10005,18 @@ project-syndicate.org##.sticky--is-stuck.support-ps.sticky__footer
 projectcensored.org###lpl
 projectcensored.org###lpl-overlay
 proofpoint.com##.scroll-header.js-header.header:style(position: relative !important; top: 0 !important;)
+propublica.org##.compact
+propublica.org##.content.masthead:style(position: relative !important;)
+propublica.org##.email-nav
 propublica.org##.fb
 propublica.org##.is-fixed.semi-fixed.story-tools
+propublica.org##.masthead > .section-nav:style(position: relative !important;)
 propublica.org##.module-follow.pp-module
 propublica.org##.newsletter
+propublica.org##.semi-fixed.story-tools
 propublica.org##.series-promotion.promotion
 propublica.org##.tw
 propublica.org##header:style(position: relative !important; top: 0 !important;)
-propublica.org##nav:style(position: relative !important; top: 0 !important;)
 prospect.org###ad-top
 prospect.org###buttons
 prospect.org###header:style(position: relative !important; top: 0 !important;)
@@ -12582,6 +12590,9 @@ thehindu.com##.clear.main-menu.navbar:style(position: relative !important; top: 
 thehindu.com##.hidden-sm.hidden-md.hidden-lg.logo-block:style(position: relative !important; top: 0 !important;)
 thehindu.com##.pushpopup
 thehippyseedcompany.com##.is_stuck.is_stuck_show.header-left.header-overlay.header-sticky.header-site:style(position: relative !important; top: 0 !important;)
+thehockeynews.com##.block.ad
+thehockeynews.com##.hidden-sm.hidden-xs.col-md-1.sticky-social.article-social
+thehockeynews.com##.sticky.main-nav:style(position: relative !important;)
 thehockeywriters.com###page-header-mobile:style(position: relative !important; top: 0 !important;)
 thehuddle.com###nav-branding:style(position: absolute !important; top: 0 !important;)
 thehuddle.com###story-share-buttons-old
@@ -15046,7 +15057,10 @@ wtae.com##.js-slim-share.horizontal.article-social.js-share-container.share-cont
 wtae.com##.slim-headline:style(position: relative !important; top: 0 !important;)
 wtae.com##.slim.header:style(position: absolute !important; top: 0 !important;)
 wtkr.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
+wtnh.com###lin-header-leaderboard
+wtnh.com###masthead:style(position: absolute !important;)
 wtnh.com##.entry-header-sharing.sd-social-icon.robots-nocontent
+wtnh.com##.site-content:style(padding-top: 141px !important;)
 wtop.com###TopShareMenu
 wtop.com###h_new:style(position: relative !important; top: 0 !important;)
 wtop.com###voteTools
