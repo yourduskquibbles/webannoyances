@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 3:30 PM 2017-11-29
+! Last Modified: 6:29 PM 2017-11-29
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -115,13 +115,12 @@
 /optin-monster/*$script
 /optinmonster/*$script
 100percentfedup.com##.menu-header-menu-container-add:style(position: absolute !important;)
+100percentfedup.com##.modaal-overlay
 100percentfedup.com##.spu-bg
 100percentfedup.com##.spu-total-.spu-centered.spu-box
 100percentfedup.com##.td-affix.td-header-main-menu.td-header-border.td-header-row:style(position: relative !important; top: 0 !important;)
 100percentfedup.com##.td-header-style-8.td-header-wrap:style(position: relative !important; top: 0 !important;)
 100percentfedup.com##.wpdev-desktop-social.col-sm-3
-100percentfedup.com##p
-100percentfedup.com##script:inject(abort-on-property-write.js, Math.random)
 101livesportsvideos.com###to_top_scrollup
 10best.com##.fixed:style(position: absolute !important; top: 0 !important;)
 10best.com##.homepage-top-story-callout.columns.large-12
@@ -221,6 +220,7 @@
 9to5mac.com###js-site-header:style(position: relative !important; top: 0 !important;)
 9to5mac.com##.scroll-to-fixed-fixed.news-feed-header:style(position: relative !important; top: 0 !important;)
 9to5mac.com##.sd-sharing-enabled.sharedaddy
+@@||100percentfedup.com^$generichide
 @@||disqus.com/count.js
 @@||disqus.com/embed.js
 @@||disqus.com/embed.js?_=1457540*$script
@@ -5711,6 +5711,8 @@ houstonchronicle.com##.header-share
 houstonchronicle.com##.navbar-fixed-top.navbar-default.navbar
 howardstern.com###header:style(position: absolute !important;)
 howardstern.com##.top-social-container
+howchoo.com###sidebar
+howchoo.com##.share
 howshost.com###header:style(position: relative !important; top: 0 !important;)
 howshost.com###toTop
 howsmyssl.com##.navbar-fixed-top.navbar
@@ -6917,7 +6919,9 @@ lecreuset.com###header:style(position: relative !important; top: 0 !important;)
 lecreuset.com##.fixed-shop:style(position: relative !important; top: 0 !important;)
 lecreuset.com##.site-wide-mobile:style(position: relative !important; top: 0 !important;)
 lecreuset.com##.site-wide:style(position: relative !important; top: 0 !important;)
+ledger-enquirer.com###story-cta-widget
 ledger-enquirer.com##.share-tools-wrapper
+ledger-enquirer.com##.tout-hook-tagalong.js-tout-tagalong-video.tout-sdk-instance-player:style(position: static !important;)
 ledwards.com##.js-postActionsFooter.u-flexCenter.postActions
 ledwards.com##.js-stickyFooter.u-xs-paddingRight10.u-xs-paddingLeft10.u-zIndexMetabar.u-paddingBottom10.u-paddingTop10.u-borderBox.u-boxShadowTop.u-backgroundWhite.u-sizeFullWidth.u-bottom0.u-fixed
 ledwards.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
@@ -8930,6 +8934,7 @@ ntknetwork.com##.fixed.nav:style(position: relative !important;)
 ntknetwork.com##.navSocial
 ntknetwork.com##.onesignal-bell-container-bottom-right.onesignal-reset.onesignal-bell-container
 ntknetwork.com##.share-icons
+ntknetwork.com##.social
 ntknetwork.com##.social-floating
 nvcc.edu###head-social
 nvidia.com##.back-to-top
@@ -9520,6 +9525,8 @@ pennzoil.com##.truste.cloudservice
 pennzoil.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 pentestpartners.com###catapult-cookie-bar
 pentestpartners.com###site-header:style(position: absolute !important;)
+people.com##.can-animate.has-headline.contextual-social-enabled.no-utility-ribbon.no-secondary-ribbon.main:style(position: absolute !important;)
+people.com##.display-flex.social-container
 people.com##.forceNavRow.hideSocial.styles__stickyHeader__3Nu1Q.styles__sticky__2eB5C.site-header__wrap
 people.com##.hamburger-nav__social-links
 people.com##.jumpstart-sticky-inner:style(position: static !important;)
@@ -9527,6 +9534,7 @@ people.com##.newsletter-signup
 people.com##.sd-sharing-enabled.sharedaddy
 people.com##.site-header--post.site-header:style(position: relative !important; top: 0 !important;)
 people.com##.site-header__social-links
+people.com##.social-icon.icon-pinterest-circle-solid.icon
 people.com##.svg__path--pinterest.svg__path
 peoplepressnews.com##.normal.social-sharing
 peta.org##.js-smaller.logo
