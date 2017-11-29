@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 4:18 PM 2017-11-28
+! Last Modified: 2:11 AM 2017-11-29
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -663,6 +663,7 @@ amazon.co.uk##.actor.xrayQuickViewListItem
 amazon.co.uk##.show.xrayQuickView
 amazon.co.uk##.xrayHeaderLink
 amazon.co.uk##.xrayQuickViewList.collectionView
+amazon.com###aws-page-header:style(position: absolute !important;)
 amazon.com###miniATFUDP:style(position: relative !important; top: 0 !important;)
 amazon.com###miniATF_feature_div:style(position: relative !important; top: 0 !important;)
 amazon.com###nav-mobile-airstream-stripe
@@ -1043,7 +1044,6 @@ awfulannouncing.com###mobile-menu:style(position: relative !important; top: 0 !i
 awfulannouncing.com###mobile-nav-menu:style(position: relative !important;)
 awfulannouncing.com##.site-header:style(position: relative !important; top: 0 !important;)
 awfulannouncing.com##.social-icons
-aws.amazon.com###aws-page-header:style(position: relative !important; top: 0 !important;)
 axios.com##.active.pinned-up.clone.rebelbar__inner:style(position: relative !important; top: 0 !important;)
 axios.com##.axios-promo.topic-newsletter.topic-alert
 axios.com##.is-active.stream-social-cta
@@ -3735,6 +3735,7 @@ dxc.technology###cscSurvey
 dxc.technology##.cscMainHeader:style(position: relative !important; top: 0 !important;)
 dxomark.com###dxo-bottom-banner
 dxomark.com###masthead:style(position: absolute !important; top: 0 !important;)
+earther.com##.js_subscribe-region-sidebar.js_dismissable.js_newsletter-btn--subscribe
 earthnetworks.com##.header-inner:style(position: absolute !important; top: 0 !important;)
 earthsky.org###PopupSignupForm_0
 earthsky.org###shr_canvas2
@@ -6502,6 +6503,9 @@ kinja.com##.js_post-dropdown-ct-sticky.js_post-dropdown-ct.post-dropdown-ct
 kinja.com##.js_post-dropdown-ct.post-dropdown-ct.js_meta-tools.meta__tools
 kinja.com##.js_subscribe-region-sidebar.js_dismissable.js_newsletter-btn--subscribe
 kinja.com##.newsletter-btn--subscribe__nodismiss.newsletter-btn--subscribe.js_subscribe-region-footer.js_newsletter-btn--subscribe
+kinsta.com###sidebar__sticky:style(position: relative !important; animation: none !important; transition: none !important;)
+kinsta.com###site-menu:style(position: relative !important;)
+kinsta.com##.widget-share
 kiplinger.com###smallHead:style(position: relative !important; top: 0 !important;)
 kiro7.com###header-social
 kiro7.com###header:style(position: relative !important; top: 0 !important;)
@@ -8868,16 +8872,18 @@ nplusonemag.com##.post-meta-social
 nplusonemag.com##hr
 npr.org###callout-end-of-story-mount
 npr.org###contentfooter
-npr.org###globalheader:style(position: relative !important; top: 0 !important;)
+npr.org###globalheader:style(position: relative !important;)
+npr.org###npr-player:style(position: absolute !important;)
+npr.org###wrapper:style(padding-top: 0px !important;)
 npr.org##.facebook
-npr.org##.is-active.story-sticky-header:style(position: relative !important; top: 0 !important;)
-npr.org##.nav.nav-primary:style(position: relative !important; top: 0 !important;)
+npr.org##.is-active.story-sticky-header:style(position: relative !important;)
+npr.org##.nav.nav-primary:style(position: relative !important;)
 npr.org##.share
 npr.org##.share-tools--secondary.share-tools
 npr.org##.social.clearfix
 npr.org##.story-tools
 npr.org##.twitter
-nrn.com##.js-header.header:style(position: relative !important; top: 0 !important;)
+nrn.com##.js-header.header:style(position: absolute !important;)
 nti.org###header:style(position: relative !important; top: 0 !important;)
 ntknetwork.com###b2t
 ntknetwork.com###mc_embed_signup
@@ -10142,9 +10148,9 @@ quora.com##:xpath(.//*[@class="open_in_app_link"])
 qz.com###bling-1
 qz.com###bling-2
 qz.com###chyron
-qz.com###header#header:style(position: relative !important; top: 0 !important;)
+qz.com###header#header:style(position: absolute !important;)
 qz.com###header-bar:style(position: absolute !important;)
-qz.com###header:style(position: relative !important; top: 0 !important;)
+qz.com###header:style(position: absolute !important;)
 qz.com###marquee-ad
 qz.com###nav-main:style(position: relative !important; top: 0 !important;)
 qz.com###nav:style(position: relative !important; top: 0 !important;)
@@ -10755,6 +10761,8 @@ sammobile.com##.cd-is-visible.cd-top
 sammobile.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 sammobile.com##.pull-left.topbar-social
 sammobile.com##.share-article
+samsung.com###header:style(position: absolute !important;)
+samsung.com##.btn_share
 samsung.com##.section.compare-tray
 samsung.com##.subnav-actions
 sandiegoreader.com###header:style(position: relative !important; top: 0 !important;)
@@ -13170,7 +13178,7 @@ theverge.com##.tab-bar-fixed.c-tab-bar
 thewalrus.ca###button-share
 thewalrus.ca###newsletter
 thewalrus.ca##.do_fade_in_2.navHeader.container
-thewalrus.ca##.masthead:style(position: relative !important; top: 0 !important;)
+thewalrus.ca##.masthead:style(position: absolute !important;)
 thewalrus.ca##.social-truncated
 thewanderlustkitchen.com##.et_social_inline_top.et_social_mobile_on.et_social_inline
 thewanderlustkitchen.com##.site-header:style(position: relative !important; top: 0 !important;)
@@ -14463,6 +14471,7 @@ wcyb.com###header:style(position: relative !important; top: 0 !important;)
 wd.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 wdbj7.com###nav:style(position: relative !important; top: 0 !important;)
 wdbj7.com###socialIcons
+wdc.com##.site-header:style(position: absolute !important;)
 wdrb.com###WNNavSearchSwitch.headerAbove:style(position: relative !important; top: 0 !important;)
 wdrb.com###WNNavSearchSwitch:style(position: relative !important; top: 0 !important;)
 wdsu.com##.ad-leaderboard
