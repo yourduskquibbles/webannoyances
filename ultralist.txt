@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 3:02 PM 2017-11-30
+! Last Modified: 5:11 PM 2017-11-30
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -685,6 +685,7 @@ amazon.com##.show.xrayQuickView
 amazon.com##.w-swf-inline-tab
 amazon.com##.xrayHeaderLink
 amazon.com##.xrayQuickViewList.collectionView
+amazon.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 amazon.com##body:style(padding-top: 0px !important;)
 amctheatres.com###CheckoutConfirmationMessage:style(position: relative !important; top: 0 !important;)
 amctheatres.com###CheckoutHeader:style(position: relative !important; top: 0 !important;)
@@ -1264,6 +1265,9 @@ bedbugreports.com##.navbar-fixed-top.navbar-wrapper2:style(position: relative !i
 belitsoft.com##header:style(position: relative !important; top: 0 !important;)
 bellingcat.com##.navigation-main:style(position: relative !important; top: 0 !important;)
 beltmag.com###popup
+benfrain.com###primary-menu:style(position: absolute !important;)
+benfrain.com##.post-Offer
+benfrain.com##.toc-Wrapper:style(position: absolute !important;)
 bensbargains.com###main-nav:style(position: absolute !important;)
 berkeley.edu##.sd-sharing-enabled.sharedaddy
 bestbuy.com###pdp-sticky-header:style(position: relative !important; top: 0 !important;)
@@ -5734,6 +5738,11 @@ howtogeek.com##.overlay-wrapper
 howwegettonext.com##.is-maximized.is-transitioning.u-tintSpectrum.u-tintBgColor.metabar--hiddenWhenMinimized.metabar--tall.metabar--dark.js-metabar.u-clearfix.metabar
 howwegettonext.com##.u-tintSpectrum.u-tintBgColor.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorDarker.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: absolute !important;)
 howwegettonext.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
+hrw.org###footer--sticky
+hrw.org###header--sticky:style(position: relative !important;)
+hrw.org##.article-share
+hrw.org##.is-attached.clearfix.article-utilities--fixed.article-utilities
+hrw.org##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 hs.fi##.share-buttons-container
 hs.fi##.show-header.clearfix.secondary-header
 htrnews.com##.android-smart-banner.smart-banner
@@ -7223,6 +7232,7 @@ madison.com###site-navbar-container:style(position: relative !important; top: 0 
 madison.com##.rail-copyright
 maersk.com##.NavigationScrollTarget:style(position: relative !important; top: 0 !important;)
 magnifymoney.com###header:style(position: absolute !important;)
+mailbox.org##.stuck.hv4:style(position: absolute !important;)
 mailchi.mp###awesomebar:style(position: relative !important; top: 0 !important;)
 mailtribune.com###loginBarBtm
 mainichi.jp###bottom-share
@@ -7442,6 +7452,8 @@ mashable.com##.share-container
 mashable.com##.social
 mashable.com##.stickme-holder:style(position: static !important;)
 mashable.com##.video-shares
+mashed.com###header:style(position: absolute !important; margin-top: 0px !important;)
+mashed.com###social-nav
 masslive.com###adhesionUnit
 masslive.com###adv_header:style(position: relative !important; top: 0 !important;)
 masslive.com###adv_mobi_edition
@@ -9212,6 +9224,7 @@ openculture.com##.clearfix
 openculture.com##.closing-social
 openculture.com##.mashsb-main.mashsb-container
 openculture.com##.socialblock
+opendemocracy.net##.a2a_default_style.a2a_kit_size_36.a2a_kit
 opengarden.com##.birdseye-header:style(position: absolute !important;)
 openstreetmap.org##.welcome
 opentable.com##.navbar--fixed.navbar:style(position: relative !important; top: 0 !important;)
@@ -9915,6 +9928,8 @@ postcrescent.com##.site-nav-social-link.site-nav-icon-link.site-nav-first-second
 postcrescent.com##.site-nav-social-link.site-nav-icon-link.site-nav-first-secondary-link.site-nav-end-link.site-nav-link-theme-dark-green.site-nav-link
 postcrescent.com##.story-tools
 postcrescent.com##.utility-bar-wrap
+posteo.de##.p_header:style(position: relative !important; top: 0 !important;)
+posteo.de##.p_mainnav:style(position: relative !important;)
 postlight.com##.js-postActionsFooter.u-flexCenter.postActions
 postlight.com##.js-stickyFooter.u-xs-paddingRight10.u-xs-paddingLeft10.u-zIndexMetabar.u-paddingBottom10.u-paddingTop10.u-borderBox.u-boxShadowTop.u-backgroundWhite.u-sizeFullWidth.u-bottom0.u-fixed
 postlight.com##.notesMarkers
@@ -14134,7 +14149,7 @@ vegetariantimes.com##.m-social
 vegetariantimes.com##.not-size-D.not-size-C.not-size-B.l-inline.m-in-content-ad-row
 velonews.com###header:style(position: relative !important; top: 0 !important;)
 velonews.com##.advert_location_inline.advert
-venturebeat.com###omni-navbar:style(position: absolute !important; top: 0 !important;)
+venturebeat.com###omni-navbar:style(position: relative !important; top: 0 !important;)
 venturebeat.com###sticky-wrapper
 venturebeat.com##.medrec-wrapper
 venturebeat.com##.social-links.navbar-right.navbar-nav.nav
@@ -15444,6 +15459,9 @@ zmescience.com###onesignal-bell-container
 zmescience.com###site-banner:style(position: absolute !important;)
 zvw.de###article-social-bar
 zvw.de##.main-nav-wrapper:style(position: absolute !important;)
+zwaveproducts.com###livechat-compact-container
+zwaveproducts.com##.announcement:style(position: absolute !important;)
+zwaveproducts.com##.header:style(position: absolute !important;)
 zyngaplayerforums.com###footer:style(position: relative !important; top: 0 !important;)
 zyngaplayerforums.com###header:style(position: relative !important; top: 0 !important;)
 zyngaplayerforums.com##.Reactions
