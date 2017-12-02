@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:26 AM 2017-12-02
+! Last Modified: 12:25 PM 2017-12-02
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -609,6 +609,7 @@ all-that-is-interesting.com##.social-row.row
 allaboutbirds.org###header-wrapper:style(position: relative !important; top: 0 !important;)
 allenbwest.com###social-menu-header
 allenbwest.com##.c-header__menu-wrapper:style(position: relative !important; top: 0 !important;)
+alliedpilots.org###top-link
 allrecipes.com###footer_top_button
 allrecipes.com###shareRecipe
 allrecipes.com##.ad-mag-homeBtm__footer
@@ -1475,7 +1476,11 @@ bnqt.com##.meta
 bnqt.com##.nav__social
 bnqt.com##.story-share-buttons
 boardingarea.com###ba-flybox
+boardingarea.com###boardingarea-tab
+boardingarea.com###masthead:style(position: relative !important;)
+boardingarea.com###navigation-toggle:style(position: relative !important;)
 boardingarea.com##.navbar-inverse.navbar
+boardingarea.com##.top.site-navigation:style(position: relative !important;)
 boards.ie###p2h-header:style(position: relative !important; top: 0 !important;)
 bodum.com###launcher
 boingboing.net###sidebar
@@ -3432,6 +3437,11 @@ demingheadlight.com##.site-nav-social-link.site-nav-icon-link.site-nav-first-sec
 demingheadlight.com##.site-nav-social-link.site-nav-icon-link.site-nav-first-secondary-link.site-nav-end-link.site-nav-link-theme-dark-green.site-nav-link
 demingheadlight.com##.story-tools
 demingheadlight.com##.utility-bar-wrap
+democracynow.org###campaign_modal
+democracynow.org###overlay
+democracynow.org##.not_scroll.body_wrapper:style(overflow-x: hidden !important; overflow-y: auto !important;)
+democracynow.org##.social
+democracynow.org##header:style(position: absolute !important;)
 democratandchronicle.com##.android-smart-banner.smart-banner
 democratandchronicle.com##.bx-creative
 democratandchronicle.com##.bx-impress-in
@@ -4996,6 +5006,14 @@ glamour.com##.sticky-header.component-header:style(position: relative !important
 glamour.com##.sticky.secondary:style(position: relative !important; top: 0 !important;)
 glasgowlive.co.uk##.mod-header > .secondary:style(position: relative !important; top: 0 !important;)
 glasgowlive.co.uk##.publication-theme-highlight.primary:style(position: relative !important; top: 0 !important;)
+glassdoor.co.uk###EIHdrModule:style(position: relative !important;)
+glassdoor.co.uk###EmpLinksWrapper:style(position: relative !important;)
+glassdoor.co.uk###EmpSolutionsTab
+glassdoor.co.uk###GiveToGetInstallAppModal
+glassdoor.co.uk###SmartBannerContainer
+glassdoor.co.uk##.cookieMessageDiv
+glassdoor.com###EIHdrModule:style(position: relative !important;)
+glassdoor.com###EmpLinksWrapper:style(position: relative !important;)
 glassdoor.com###EmpSolutionsTab
 glassdoor.com###UserAlertBar
 glassdoor.com###smartbanner
@@ -7619,6 +7637,7 @@ medium.com##.u-xs-height56.u-height65.js-metabarSpacer.metabar--spacer.metabar
 medium.com##.u-xs-hide.u-xs-height56.u-height65.u-verticalAlignTop.u-inlineBlock.u-alignMiddle
 medium.com##.u-xs-paddingRight10.u-xs-paddingLeft10.u-zIndexMetabar.u-paddingBottom10.u-paddingTop10.u-borderBox.u-boxShadowTop.u-backgroundWhite.u-sizeFullWidth.u-bottom0.u-fixed
 meduza.io##.Material-materialTopBar
+meetup.com##.sticky--top.border--none.stripe:style(position: relative !important;)
 megabots.com##.js-active.btn--social-tab
 megabots.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute !important;)
 megynkelly.org###openModal
@@ -8100,6 +8119,7 @@ muricatoday.com##.td-affix.td-header-menu-wrap:style(position: relative !importa
 muricatoday.com##.td-scroll-up-visible.td-scroll-up
 muricatoday.com##.td-with-like.td-post-sharing-bottom.td-post-sharing
 muricatoday.com##.td-with-like.td-post-sharing-top.td-post-sharing
+musictimes.com##.art-share
 muslimpress.com###base-header:style(position: relative !important; top: 0 !important;)
 muslimpress.com###share-icons
 muslimpress.com##.social-icon
