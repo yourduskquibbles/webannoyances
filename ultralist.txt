@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:29 PM 2017-12-05
+! Last Modified: 5:24 PM 2017-12-05
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -152,8 +152,10 @@
 1843magazine.com##.social-media
 20minutes.fr##.navbar:style(position: relative !important; top: 0 !important;)
 20minutes.fr##.pinned.headroom--not-top.headroom--not-bottom.animated.navbar:style(position: relative !important; top: 0 !important;)
+247sports.com###site-header:style(position: absolute !important;)
 247sports.com##.article-social
 247sports.com##.fixed.clearfix.nav-bar:style(position: absolute !important;)
+247sports.com##.share-icons
 2bigfeet.com##.nav-overflow:style(position: relative !important; top: 0 !important;)
 2daygeek.com###crestashareicon
 2daygeek.com###nav-mobile:style(position: absolute !important;)
@@ -4760,6 +4762,7 @@ foxnews.com###rail
 foxnews.com###signIn
 foxnews.com###top:style(position: relative !important; top: 0 !important; margin-top: 0px !important;)
 foxnews.com##.c-item.c-item-first.c-item-last
+foxnews.com##.contain:style(position: static !important;)
 foxnews.com##.desktop.sidebar-primary.sidebar-article.sidebar:style(position: relative !important; top: 0 !important;)
 foxnews.com##.g-41.section-featured
 foxnews.com##.ob_dual_left
@@ -5400,7 +5403,11 @@ greylock.com##.svgIcon--25px.svgIcon--facebookFilled.svgIcon
 greylock.com##.svgIcon--25px.svgIcon--twitterFilled.svgIcon
 greylock.com##.u-tintSpectrum.u-tintBgColor.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorTransparentWhiteDarker.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
 greylock.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
+grist.org##.clearfix.post-social
+grist.org##.hellobar--bottom.hellobar-382055.alert-box.hide-for-print.hide.hellobar
+grist.org##.js-impression.hide-for-print.recent-donor-hidden.aside--appeal-inline-ask
 grist.org##.lf-share__link--fb.lf-share__link
+grist.org##.row.email-signup-form
 gritpost.com###site-navigation:style(position: relative !important; top: 0 !important;)
 gritpost.com##.back-to-top-is-visible.back-to-top
 gritpost.com##.kiwi-article-bar-center.rect.kiwi-article-bar
@@ -8193,6 +8200,9 @@ muslimpress.com##.social-icon
 mvmtwatches.com##.header-main:style(position: absolute !important;)
 mvmtwatches.com##.js-smooth-scroll.collection-scroll-top
 mvmtwatches.com##.scroll-to-fixed-fixed.collection-filter-bar:style(position: absolute !important;)
+mwrinfosecurity.com###top:style(position: absolute !important;)
+mwrinfosecurity.com##.li-switcher
+mwrinfosecurity.com##.social-share
 myaccount.google.com##.tl:style(position: relative !important; top: 0 !important;)
 myajc.com###follow-this-story
 myajc.com##.cm-story-share
@@ -11003,6 +11013,7 @@ salon.com##.twitter-white-22.sprite
 saltyveterans.com##.floatBottom.nc_wrapper
 saltyveterans.com##.swp_d_fullColor.swp_flatFresh.nc_socialPanel
 saltyveterans.com##.swp_one.scale-fullWidth.scale-100.swp_o_fullColor.swp_i_fullColor.swp_d_fullColor.swp_flatFresh.nc_socialPanel
+saludmovil.com##.boxzilla-bottom-right-container.boxzilla-container
 saludmovil.com##.columns.medium-4.small-12.sidebar
 saludmovil.com##.fa-facebook.fa
 saludmovil.com##.fa-twitter.fa
@@ -15449,7 +15460,6 @@ yahoo.com###mediacontentfollowproperty_wrapper
 yahoo.com###mediacontentsharebuttons
 yahoo.com###mediasocialbuttonseasy
 yahoo.com###mega-uh-wrapper:style(position: absolute !important;)
-yahoo.com###mega-uh-wrapper:style(position: relative !important; top: 0 !important;)
 yahoo.com###mrt-node-Lead-2-AbPromo
 yahoo.com###mrt-node-UH-1-NavLite
 yahoo.com###so-share
