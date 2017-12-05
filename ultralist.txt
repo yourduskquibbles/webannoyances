@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 10:01 AM 2017-12-05
+! Last Modified: 12:29 PM 2017-12-05
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -737,9 +737,10 @@ android.gs##.google-plus
 androidauthority.com###aa-subscribe-widget-wrap
 androidauthority.com###back-to-top
 androidauthority.com###scrolled_view_bar
-androidauthority.com###sticky-bar:style(position: relative !important; top: 0 !important;)
-androidauthority.com###tt_hot_products_menu
+androidauthority.com###sticky-bar:style(position: absolute !important;)
+androidauthority.com##.aa_app_widget
 androidauthority.com##.aa_soc_sidebar
+androidauthority.com##.fixed.fixed-object.bottom-reached.single-sidebar.content-panel:style(position: relative !important;)
 androidauthority.com##.short.single_post_additional_block.single_share_block
 androidauthority.com##.sw_overlay_href.overlay-link
 androidcentral.com###header:style(position: relative !important; top: 0 !important;)
@@ -749,7 +750,12 @@ androidforums.com###social-icons
 androidforums.com###yvjotilvhppccccahqxngddtnoesfgzrm
 androidheadlines.com###masthead:style(position: relative !important; top: 0 !important;)
 androidmag.de###header:style(position: relative !important; top: 0 !important;)
+androidpit.com###sticky-share-bar
+androidpit.com##.articleSocial.articlePart
+androidpit.com##.cookinfo_bottom.cookinfo
+androidpit.com##.metaCondensed.shareTotal
 androidpolice.com###apfollowwidget-2
+androidpolice.com###toc_wrapper:style(position: relative !important;)
 androidpolice.com##.ap-follow-widget.widget.red.widget-2.widget-even
 androidpolice.com##.share-box
 angular.io##.mat-primary.mat-toolbar.app-toolbar:style(position: relative !important; top: 0 !important;)
@@ -1402,6 +1408,7 @@ blog.bugreplay.com###bloc-nav
 blog.google##.article-share--sticky.article-sticky-share__wrap
 blog.google##.article-sticky-share__wrap
 blog.google##.h-c-header__bar:style(position: absolute !important;)
+blog.google##.h-c-social
 blog.google##.uni-fab-toggle
 blog.google##.uni-google-g-logo:style(transition: none !important; width: 0 !important;)
 blog.google##.uni-google-logo.uni-header-row:style(margin-top: 0px !important; transition: none !important;)
@@ -4633,11 +4640,17 @@ fortressofsolitude.co.za##.clearfix.mgm-social-share
 fortressofsolitude.co.za##.mashsb-stretched.mashsb-main.mashsb-container
 fortune.cnn.com###smt_main
 fortune.com###header:style(position: relative !important; top: 0 !important;)
+fortune.com##.can-animate.has-headline.contextual-social-enabled.no-utility-ribbon.no-secondary-ribbon.main:style(position: absolute !important;)
 fortune.com##.icon-down-arrow.icon.left-nav-toggle
 fortune.com##.jumpstart-sticky-inner:style(position: static !important; top: 0 !important;)
 fortune.com##.main-header:style(position: relative !important; top: 0 !important;)
+fortune.com##.media.subscribe-callout.component
+fortune.com##.newsletter-callout.component
+fortune.com##.share.component
 fortune.com##.small-5.column
+fortune.com##.social-container
 fortune.com##.vjs-button.vjs-control.vjs-icon-share.vjs-share-control
+fortune.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 forums.androidcentral.com###header:style(position: relative !important; top: 0 !important;)
 forums.xfinity.com##.lia-in.lia-dialog-titleless.lia-panel-dialog-modal-valuesurvey.lia-panel-dialog-modal-simple.lia-panel-dialog.lia-content.ui-corner-all.ui-widget-content.ui-widget.ui-dialog
 forums.xfinity.com##.ui-widget-overlay
@@ -7321,6 +7334,8 @@ m.yelp.com##.photos-grid-shim.photos-app-pitch-shim
 m.zappos.com###downloadAppPop
 mackeeper.com##.header:style(position: relative !important; top: 0 !important;)
 mackeeper.com##.js-nav-mobile.nav-mobile:style(position: relative !important; top: 0 !important;)
+mackeepersecurity.com##.blog-post__share
+mackeepersecurity.com##.header:style(position: absolute !important;)
 macleans.ca###ad-box-2
 macleans.ca##.macleans-social-footer__wrap
 macleans.ca##.rdm-daac-notice-template
@@ -11271,6 +11286,7 @@ seriouseats.com##.d-sticky.header-wrapper
 seriouseats.com##.sidebar-bng-fixed.sidebar-bng-inner
 serverless.com##._2fXpN
 serverless.com##.lIvzX:style(position: relative !important; top: 0 !important;)
+service-now.com##.snc-article-header-toolbar.navbar-default.navbar.row:style(position: absolute !important;)
 sethvargo.com##.index
 sethvargo.com##.stuck.profile
 sethvargo.com##.title
