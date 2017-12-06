@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 2:03 PM 2017-12-06
+! Last Modified: 3:29 PM 2017-12-06
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -4311,11 +4311,12 @@ fastcodesign.com##.nav__social-button--pocket.nav__social-button
 fastcodesign.com##.nav__social-button--twitter.nav__social-button
 fastcodesign.com##.navbar-brands-container:style(position: relative !important; top: 0 !important;)
 fastcodesign.com##.newsletter-signup__container
-fastcodesign.com##.page-header:style(position: absolute !important;)
+fastcodesign.com##.page-header:style(position: relative !important; top: 0 !important;)
 fastcodesign.com##.post__article-top-ad-wrapper
 fastcodesign.com##.post__promotion
 fastcodesign.com##.preloaded_lightbox
 fastcodesign.com##.sticky-inner-wrapper
+fastcodesign.com##body:style(padding-top: 0px !important;)
 fastcoexist.com##.nav-bar:style(position: relative !important; top: 0 !important;)
 fastcompany.com###share-modal
 fastcompany.com##.ad-wrapper--flexiblehalfpage_1.ad-wrapper
@@ -15700,6 +15701,7 @@ zyngaplayerforums.com##.Reactions
 ||businessoffashion.com/assets-access-layer/js/site-app*$script,domain=businessoffashion.com
 ||chicagobusiness.com/*/interstitial.css$stylesheet,domain=chicagobusiness.com
 ||clikueo.com
+||cloudfront.net/*/js/bundle.js$script,domain=fastcodesign.com
 ||cnbc.com/*/TN-CS-Tile-03a.png$image
 ||cnn.com/*/js/cnn-analytics.min.js$script,domain=cnn.com
 ||computerworld.com/*/insider_reg_api.js$script,domain=computerworld.com
