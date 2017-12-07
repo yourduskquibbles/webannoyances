@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:24 PM 2017-12-07
+! Last Modified: 12:58 PM 2017-12-07
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -2512,9 +2512,9 @@ cnn.com##.tech-social
 cnn.com##.user-msg-flexbox.headerless.user-msg
 cnn.com##body:style(padding-top: 0px !important;)
 cnsnews.com###cns-social-links
-cnsnews.com##.hidden-xs.smallnav.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
+cnsnews.com##.hidden-xs.smallnav.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute !important;)
 cnsnews.com##.kimbiaDiv.cns.cns1.two_col.columnsPerPage1
-cnsnews.com##.mini > .header:style(position: relative !important; top: 0 !important;)
+cnsnews.com##.mini > .header:style(position: absolute !important;)
 cnsnews.com##.mini-social-icons
 cnsnews.com##.region-sidebar.region
 cntraveler.com##.closed.default.component-social-share
@@ -3370,10 +3370,11 @@ defenseone.com###featured-navigation-section.featured-element > .featured-contai
 defenseone.com##.conversion-module-bootstrap
 defenseone.com##.d1-article-bottom-subscribe-container
 defenseone.com##.d1-article-left-rail-subscribe-container
+defenseone.com##.d1-article-sidebar-subscribe-container
 defenseone.com##.d1-social-article
 defenseone.com##.d1-sticky-nav-inner:style(position: relative !important; top: 0 !important;)
 defenseone.com##.d1-sticky-nav-stick.d1-sticky-nav
-defenseone.com##.d1-sticky-nav:style(position: relative !important; top: 0 !important;)
+defenseone.com##.d1-sticky-nav:style(position: absolute !important;)
 defenseone.com##.hidetablet.hidemobile.d1-top-ad
 defenseone.com##.logo.large-logo > .featured-home-page[href="http://defenseone.com"]
 defenseone.com##.social
@@ -5015,6 +5016,7 @@ gettysburgdaily.com###toTop
 getyounity.com##.nav-container.full-width-container:style(position: relative !important; top: 0 !important;)
 gfycat.com##.header-container:style(position: absolute !important; top: 0 !important;)
 ggwash.org##.share
+ggwash.org##.signup
 ggwash.org##.sticky.primary:style(position: relative !important;)
 ghacks.net###cookie-notice
 ghostinfluence.com##.site-header:style(position: relative !important; top: 0 !important;)
@@ -5996,6 +5998,9 @@ hybriders.com##.dark.top-bar
 i-e-e.info###main-header:style(position: absolute !important; top: 0 !important;)
 ibm.com###ibm-masthead:style(position: absolute !important; top: 0 !important;)
 ibm.com##.ibm-chevron-up-link.ibm-nospacing
+ibm.com##.ibm-sitenav-menu-container
+ibm.com##.ibm-sitenav-menu-sticky:style(margin-top: 0px !important;)
+ibm.com##.ibm-txtcenter.share-blocks
 ibtimes.co.in##.fixed-social.sticky
 ibtimes.co.uk###article-left-side-share-panel
 ibtimes.co.uk###navi-wrap:style(position: relative !important; top: 0 !important;)
@@ -9317,6 +9322,8 @@ nytimes.com##.sharetools-video-container
 nytimes.com##.show.lie-continue
 nytimes.com##.subColumn-2.noBackground.mobilePromo.nocontent
 nytimes.com##.twitter-share
+nytimes.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
+nytimes.com##.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.js-metabar.u-clearfix.metabar:style(position: absolute !important;)
 nytimes.com##.vhs-tools
 nytimes.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 nytimes.com#@#.flag-moreFollowSuggestions-on
@@ -10401,6 +10408,7 @@ q13fox.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !im
 q13fox.com##.sd-sharing-enabled.sharedaddy
 q13fox.com##body:style(padding-top: 0px !important;)
 qdrinks.com##.collapsed.inverted.font-smooth.header:style(position: relative !important; top: 0 !important;)
+qt.io###navbar:style(position: absolute !important;)
 quadcinema.com##.cf:style(position: absolute !important;)
 qualityassurancemag.com###slide-nav
 qualityassurancemag.com##.navbar-header:style(position: relative !important; top: 0 !important;)
@@ -14120,6 +14128,7 @@ uproxx.com##.fixed.uproxx_sticky_ads.uproxx_iframe_ads
 uproxx.com##.inline-share
 uproxx.com##.navbar-fixed-top.navbar:style(position: relative !important; top: 0 !important;)
 uproxx.com##.progress-100.small-state.uproxx-main-navigation:style(position: relative !important; top: 0 !important;)
+uproxx.com##.small-state.uproxx-main-navigation:style(position: relative !important;)
 uproxx.com##.uproxx-retention-embed.uproxx-retention-unit
 uproxx.com##.uproxx_iframe_ads_wrapper_top.uproxx_iframe_ads_wrapper
 uproxx.com##.visible.post-top-share-widget.top_share_widget
@@ -14523,6 +14532,8 @@ visir.is##.share-this-top
 visual.ly###back-to-top
 visual.ly###eyebrow
 visual.ly##.section
+visualcapitalist.com###site-navigation:style(position: relative !important;)
+visualcapitalist.com##.default.dgd_stb_box
 vivaldi.com###site-header:style(position: absolute !important;)
 vivaldi.com##.post-sharer
 vivaldi.net###header-menu:style(position: absolute !important;)
