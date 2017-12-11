@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 9:19 AM 2017-12-11
+! Last Modified: 11:36 AM 2017-12-11
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -15,6 +15,7 @@
 ###cookie-consent
 ###cookie-notice
 ###cookie-policy
+###cookieChoiceInfo
 ###cookiePolicy
 ###dfp_leaderboard
 ###dream-box
@@ -2535,6 +2536,7 @@ cntraveler.com##.share-tools.section
 cntraveler.com##.shop.scroll-to:style(position: relative !important; top: 0 !important;)
 cntraveler.com##.stay.scroll-to:style(position: relative !important; top: 0 !important;)
 coach.me##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
+coach.me##.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.js-metabar.u-clearfix.metabar:style(position: absolute !important;)
 coach.me##.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: absolute !important; top: 0 !important;)
 coasttocoastam.com###mainheader:style(position: relative !important; top: 0 !important;)
 coasttocoastam.com###socialbar
@@ -4367,11 +4369,16 @@ fastmail.com###header:style(position: absolute !important; top: 0 !important;)
 fastmail.com###main:style(padding-top: 0px !important;)
 fastmail.com###stickybanner:style(position: relative !important; top: 0 !important;)
 fastpokemap.se##.slicknav_menu
+fatherly.com##.article__facebook-share
 fatherly.com##.article__leaderboard--desktop.article__leaderboard
+fatherly.com##.article__leaderboard--mobile.article__leaderboard
+fatherly.com##.article__rail-ad
 fatherly.com##.clearfix.inline-newsletter--general.inline-newsletter
+fatherly.com##.is_stuck.article__rail-ad
 fatherly.com##.mobile-ad-nav
 fatherly.com##.mobile-share
 fatherly.com##.nav__main-menu--secondary-social
+fatherly.com##.preloaded_lightbox
 fatherly.com##.site-header--border.sticky.clearfix.site-header:style(position: relative !important; top: 0 !important;)
 fatherly.com##.social-menu--side.social-menu
 fatwallet.com###fixed-header:style(position: relative !important; top: 0 !important;)
@@ -4795,6 +4802,7 @@ foxnews.com##.c-item.c-item-first.c-item-last
 foxnews.com##.contain:style(position: static !important;)
 foxnews.com##.desktop.sidebar-primary.sidebar-article.sidebar:style(position: relative !important; top: 0 !important;)
 foxnews.com##.g-41.section-featured
+foxnews.com##.is-programming.alert-banner
 foxnews.com##.ob_dual_left
 foxnews.com##.promo-newsletter.promo
 foxnews.com##.related-media
@@ -4879,6 +4887,7 @@ frieze.com##.frieze-ads-placement.frieze-ads-banner_article
 frieze.com##.frieze-ads-placement.frieze-ads-mpu
 frieze.com##.service-links
 frieze.com##.site-header--fixed.site-header:style(position: absolute !important;)
+fromthegrapevine.com##.social-inline-list.columns.small-12
 frontiersin.org##.collapsed.navbar-share.navbar-toggle
 frontiersin.org##.header-compact:style(position: absolute !important; top: 0 !important;)
 frontiersin.org##.navbar-fixed-top.navbar:style(position: absolute!important; top: 0 !important;)
@@ -4973,6 +4982,13 @@ gardenweb.com##.signupCtaNew.dialogFrame
 garfieldminusgarfield.net##.nav-fixed.nav-responsive.nav-wrapper:style(position: absolute !important;)
 garfieldminusgarfield.net##.tmblr-iframe--below-header.iframe-controls--phone-mobile.tmblr-iframe--loaded.tmblr-iframe--unified-controls.tmblr-iframe:style(position: absolute !important;)
 gastropod.com##.entry-share
+gatesnotes.com###cboxContent
+gatesnotes.com##.TGNBannersHolder:style(position: absolute !important;)
+gatesnotes.com##.TGN_BottomMenuS45Holder:style(position: absolute !important;)
+gatesnotes.com##.TGN_TopMenuS45:style(position: absolute !important;)
+gatesnotes.com##.bannerbgmobart:style(position: absolute !important;)
+gatesnotes.com##.bannerit.socbanner:style(position: absolute !important;)
+gatesnotes.com##.socbanner:style(position: absolute !important;)
 gazeta.pl##.hpFeed.mod_hat2014.mod:style(position: relative !important; top: 0 !important;)
 gazette.com###masthead-second
 gazette.com###takeover-right
@@ -5732,6 +5748,10 @@ helpnetsecurity.com##.newsletter-block-twitter.newsletter-block.section
 helpnetsecurity.com##.remodal-is-opened.hnst-modal-admost-theme.remodal-overlay
 helpnetsecurity.com##.remodal-is-opened.hnst-modal-admost-theme.remodal-wrapper
 heraldks.com###optinform-container
+heraldscotland.com##.bottom-socialbar.social-circles-component
+heraldscotland.com##.is-sticky.primary-nav-mobile-sticky.primary-nav:style(position: absolute !important;)
+heraldscotland.com##.social-nav-button
+heraldscotland.com##.top-socialbar.social-circles-component
 heraldsun.com##.share-icons.mi-video-utilty-bar
 heraldsun.com##.share-tools-wrapper
 herosports.com##.cd-is-visible.cd-top
@@ -7413,6 +7433,7 @@ macleans.ca##.service_footer.row
 macleans.ca##.visible-xs-block.visible-sm-block.mobile-content-single-share-bottom
 macleans.ca##.visible-xs-block.visible-sm-block.mobile-content-single-share-top
 macrumors.com##.social
+macstories.net##.social-media-menu.menu
 macsuperstore.com###main-header:style(position: relative !important; top: 0 !important;)
 macworld.co.uk###idgBrands
 macworld.co.uk###topNav:style(position: relative !important; top: 0 !important;)
@@ -12724,6 +12745,7 @@ thecut.com##.vp-1024-plus.ad
 thecut.com##.vp-600-1024.ad
 thedailybeast.com###react-mount-point > .ArticlePage > .PageHeader.head > .MobileNav
 thedailybeast.com##.ArticleRail__share-icons
+thedailybeast.com##.CheatShareButtons
 thedailybeast.com##.InlineNewsletter
 thedailybeast.com##.InlineNewsletter_standard.InlineNewsletter
 thedailybeast.com##.ReadThisList__header:style(position: relative !important; top: 0 !important;)
@@ -13691,6 +13713,7 @@ thrillist.com##.nation.has-avatar.meta-info__share-bar.sticky.share-legend
 thrillist.com##.nation.meta-info__share-bar.sticky.share-legend
 thrillist.com##.share-email-mobile
 thrillist.com##.stack-ad-placeholder.hp-stack-item--medium.hp-stack-item
+thriveglobal.com##.u-tintSpectrum.u-tintBgColor.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorDarker.js-metabar.u-clearfix.metabar:style(position: absolute !important;)
 thterrortime.com##.sd-sharing-enabled.sharedaddy
 thterrortime.com##.social-nav
 thundersplace.org###mainmenu.default.navlarge.text.fixed.right.navbar:style(position: relative !important; top: 0 !important;)
@@ -15524,6 +15547,7 @@ wwe.com###mini-panel-header_navigation:style(position: relative !important; top:
 wwe.com##.social
 wwe.com##.wwe-header--explorer.wwe-highlights-videos--wrapper:style(position: relative !important; top: 0 !important;)
 wwe.com##body:style(padding-top: 0px !important;)
+wweek.com###footer_Home
 wweek.com###siteheader:style(position: absolute !important; top: 0 !important;)
 wweek.com##.inline.social-tools-bottom
 wweek.com##.slimline.fixed.border-top-desktop.border-top-mobile.line-up.sharebar-top-mobile.sharebar-wrapper.sharebar-top-desktop:style(position: relative !important; top: 0 !important;)
