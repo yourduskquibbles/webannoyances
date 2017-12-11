@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 4:04 PM 2017-12-09
+! Last Modified: 9:19 AM 2017-12-11
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -1676,6 +1676,7 @@ breitbart.com##.connect
 breitbart.com##.fb
 breitbart.com##.rs
 breitbart.com##.tw
+breitbart.com##html:style(overflow-x: hidden !important; overflow-y: auto !important;)
 bridebox.com###widget_sp_image-15
 brides.com##.sticky-header.component-sticky > div:nth-of-type(1):style(position: relative !important; top: 0 !important;)
 brightestyoungthings.com##.fb-widget
@@ -5048,6 +5049,7 @@ gimp.org##.headerlink
 giphy.com##:xpath(.//*[@class="header-wrapper"])
 giphy.com##:xpath(.//*[@style="top: 0px;"])
 girlwithnojob.com###backtotop
+gitbook.com##.sticky:style(position: relative !important;)
 github.com##.is-stuck.js-toggler-target.js-user-profile-follow-button.js-sticky.top-0.btn-block.btn:style(position: relative !important; top: 0 !important;)
 github.com##.is-stuck.top-0.js-sticky.user-profile-nav:style(position: relative !important; top: 0 !important;)
 github.com##.user-profile-sticky-bar.js-user-profile-sticky-bar.is-stuck
@@ -6623,6 +6625,12 @@ juggle.org##.slidein-center-left.cp-slidein
 juggle.org##.width.max.x-container.x-topbar-inner > .x-social-global
 juggle.org##.x-navbar-fixed-top.x-navbar:style(position: relative !important; top: 0 !important;)
 juicero.com##.nav-full-width.pinned:style(position: relative !important; top: 0 !important;)
+junkee.com##.clearfix.share-buttons-group
+junkee.com##.clearfix.social-group
+junkee.com##.pin.pinned:style(position: relative !important;)
+junkee.com##.social-icon.facebook.nav-main__item
+junkee.com##.social-icon.twitter.nav-main__item
+junkee.com##.stick-header.slide-out:style(position: absolute !important;)
 justanswer.co.uk##.background
 justanswer.co.uk##.right.bottom.modal
 justanswer.co.uk##.th-va-mobile-teaser
@@ -9026,6 +9034,7 @@ nhl.com##.ad--top-empty.ad-responsive-slot.ad--top.ad
 nhl.com##.follow
 niemanlab.org##.mailmunch-overlay
 niemanlab.org##.mailmunch-popover
+nike.com###react-root > div > div:nth-of-type(2):style(position: absolute !important;)
 nike.com##.js-globalNav.en.gnav:style(position: absolute !important;)
 nikkei.com###header:style(position: relative !important; top: 0 !important;)
 nikkei.com###modal_gd04_01
@@ -11037,8 +11046,21 @@ rtl.de###rtli-master-related-column
 rtl.de##.rtli-master-octopus
 rtl.de##.scrollmagic-pin-spacer
 runnersworld.com###header:style(position: relative !important; top: 0 !important;)
+runnersworld.com###newsletter-block
+runnersworld.com###rwmain-subscribe
+runnersworld.com##.loaded.region-banner.region
+runnersworld.com##.pinit-btn-container
 runnersworld.com##.sharebar-wrapper
+runnersworld.com##.social-media-bar
 runnersworld.com##.sticky.inner
+runningshoesguru.com##.fontello-icon-facebook-1
+runningshoesguru.com##.fontello-icon-gplus-1
+runningshoesguru.com##.fontello-icon-twitter-1
+runningshoesguru.com##.fontello-icon-youtube-play
+runningshoesguru.com##.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important;)
+runningshoesguru.com##.pea_cook_bottomright.pea_cook_wrapper
+runningshoesguru.com##.social-bar
+runningshoesguru.com##.social-bar-vertical.text-center.visible-xl.col-xl-1
 runnymede.com##.custom-menu-bg.widget-type-cell.widget-span.span12:style(position: relative !important; top: 0 !important;)
 runwayriot.com##.alignleft.social
 rushlimbaugh.com##.et_social_heading
