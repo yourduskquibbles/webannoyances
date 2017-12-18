@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 5:12 PM 2017-12-16
+! Last Modified: 9:49 AM 2017-12-18
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -138,6 +138,7 @@
 11alive.com##.gallery__sharing
 11alive.com##.header:style(position: absolute !important; top: 0 !important;)
 11alive.com##.is_stuck.chapter-nav
+11alive.com##.page__desktop-header:style(position: absolute !important;)
 11alive.com##.page__header:style(position: absolute !important; top: 0 !important;)
 11alive.com##.sharing
 12news.com##.article__sharing
@@ -15044,6 +15045,7 @@ weeklystandard.com###article-share
 weeklystandard.com###dy_Home_Page_Sub_Promo
 weeklystandard.com###header:style(margin-top: 0px !important;)
 weeklystandard.com###header:style(position: relative !important; top: 0 !important;)
+weeklystandard.com###myModal
 weeklystandard.com###newsletter_sign_up_form
 weeklystandard.com###social-share
 weeklystandard.com###supernav
@@ -15057,12 +15059,14 @@ weeklystandard.com##.dy-act-overlay.dy-modal-container
 weeklystandard.com##.featured-cover
 weeklystandard.com##.featured-teasers
 weeklystandard.com##.fixed-bottom-ad
+weeklystandard.com##.in.fade.modal-backdrop
 weeklystandard.com##.ng-binding.cc_message
 weeklystandard.com##.social
 weeklystandard.com##.social-links
 weeklystandard.com##.subscription-promo
 weeklystandard.com##.text-tools
 weeklystandard.com##.upnext
+weeklystandard.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 weforum.org##.social-sharing
 wefunder.com##.fixed_navigation
 wefunder.com##.topNav:style(position: absolute !important;)
@@ -15449,6 +15453,8 @@ wptv.com##.module--email-widget
 wptv.com##.nav--stay-connected.nav
 wpxi.com###header:style(position: relative !important; top: 0 !important;)
 wpxi.com##.mod-body
+wrdw.com###nav:style(position: relative !important;)
+wrdw.com###socialIcons
 wreg.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
 wsaw.com###nav:style(position: relative !important; top: 0 !important;)
 wsaw.com###socialIcons
