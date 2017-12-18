@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 9:49 AM 2017-12-18
+! Last Modified: 1:00 PM 2017-12-18
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -7,6 +7,7 @@
 ! Start Web Annoyances Ultralist
 ###___plusone_0
 ###___plusone_1
+###actionbar
 ###adhesionUnit
 ###amp-cookie-notice
 ###appIntercept
@@ -1305,6 +1306,7 @@ bestbuy.com###pdp-sticky-header:style(position: relative !important; top: 0 !imp
 bestbuy.com##.blue-assist
 bestbuy.com##.in.email-submission-modal.fade.modal
 bestbuy.com##.in.fade.modal-backdrop
+bestbuy.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 bestproducts.com###sticky-wrap:style(position: relative !important;)
 bestproducts.com##.footer--social
 bestproducts.com##.social-byline--share
@@ -3893,6 +3895,7 @@ easydns.com###swifttagcontainerg0rad4vb8r
 easydns.com##.addtoany_content_bottom.addtoany_share_save_container
 easydns.com##.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important; top: 0 !important;)
 easydns.com##.navbar-fixed-top:style(position: absolute !important; top: 0 !important;)
+easypost.com##.fixed-top.bg-white.navbar-expand-md.navbar-light.navbar:style(position: absolute !important;)
 eater.com###chorus-social-fixed
 eater.com##.c-global-header__social
 eater.com##.c-newsletter-promo
@@ -6827,6 +6830,7 @@ kitsapsun.com##.site-nav-social-link.site-nav-icon-link.site-nav-first-secondary
 kitsapsun.com##.site-nav-social-link.site-nav-icon-link.site-nav-link-theme-light-blue.site-nav-link
 kitsapsun.com##.story-tools
 kitsapsun.com##.utility-bar-wrap
+kiwiirc.com##.navbar-inversee.navbar-fixed-top.navbar:style(position: absolute !important;)
 kktv.com###nav:style(position: relative !important; top: 0 !important;)
 klaw.ie##.headroom--pinned.headroom--not-top.headroom.js-header.header--inversed.site-header:style(position: relative !important; top: 0 !important;)
 klfy.com###masthead:style(position: relative !important; top: 0 !important;)
@@ -11507,6 +11511,9 @@ sfgate.com##.socialWrapper
 sfglobe##.kfm_dialog
 sfglobe##.kfm_dialog_overlay
 shadygrovefertility.com##.fixed.clearfix.header-top:style(position: relative !important; top: 0 !important;)
+shapescale.com###header:style(position: absolute !important;)
+shapescale.com##.optimonk-holder-fixed.optimonk-holder
+shapescale.com##.optimonk-iframe-container
 shareblue.com###atstbx
 shareblue.com###socialFeet
 shareblue.com###socialIcons
@@ -12878,7 +12885,10 @@ thedodo.com##.ad-container
 thedodo.com##.ga-trigger.desktop.u-hover-state.impact__follow-us
 thedodo.com##.nav__social-bar--large.nav__social-bar
 thedodo.com##.topbar:style(position: relative !important; top: 0 !important;)
-thedrive.com###nav:style(position: relative !important; top: 0 !important;)
+thedrive.com###nav:style(position: absolute !important;)
+thedrive.com##.article-social-container
+thedrive.com##.page-header-social
+thedrive.com##.spnf_right.spnf_ticker
 theengineroom.org##.header:style(position: absolute !important; top: 0 !important;)
 theepochtimes.com###slim-header:style(position: absolute !important; top: 0 !important;)
 theepochtimes.com###social-position
@@ -15161,6 +15171,8 @@ whoishostingthis.com##.clickable
 whoishostingthis.com##.menu:style(position: relative !important; top: 0 !important;)
 wholecloud.net##body > .clearfix:style(position: absolute !important;)
 wholefoodsmarket.com###scrollTop
+whoownsengland.org###actionbar
+whoownsengland.org###masthead:style(position: absolute !important;)
 whosampled.com###js-nav:style(position: relative !important; top: 0 !important;)
 whyy.org##.header--top:style(position: relative !important; top: 0 !important;)
 whyy.org##body:style(padding-top: 0px !important;)
