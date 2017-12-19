@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 5:23 PM 2017-12-18
+! Last Modified: 9:58 AM 2017-12-19
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -302,6 +302,10 @@ abc7ny.com##.top-share.share-panel-legacy.share-panel
 abc7ny.com##body:style(padding-top: 0px !important;)
 abcactionnews.com##.layout--share__second
 abcactionnews.com##.module--email-widget
+abcbirds.org##.fixed-social
+abcbirds.org##.navbar-fixed-top.navbar:style(position: absolute !important;)
+abcbirds.org##.newslatter-foot
+abcbirds.org##.social-foot
 abccolumbia.com##.ssbp--theme-2.ssbp--centred.ssbp-wrap.ssbp-set--one
 abclocal.go.com##.fbShare
 abclocal.go.com##.links
@@ -8271,17 +8275,22 @@ mozilla.com###nav-global:style(position: relative !important; top: 0 !important;
 mozilla.com###nav-util:style(position: relative !important; top: 0 !important;)
 mozilla.net###related_topics
 mozilla.net##.portal-header:style(position: absolute !important; top: 0 !important;)
-mozilla.org###nav-global:style(position: relative !important; top: 0 !important;)
+mozilla.org###nav-global:style(position: relative !important; top: 0 !important; transition: none !important; height: 2.5em !important; padding-top: 1em !important; padding-bottom: 1em !important;)
 mozilla.org###nav-util:style(position: relative !important; top: 0 !important;)
 mozilla.org###nav:style(position: relative !important; top: 0 !important;)
 mozilla.org###site-welcome
 mozilla.org###toc:style(position: relative !important;)
 mozilla.org##.badge-wrapper:style(position: relative !important; top: 0 !important;)
+mozilla.org##.logo:style(transition: none !important;)
+mozilla.org##.nav-global.is-minified
+mozilla.org##.nav-mozilla:style(transition: none !important;)
+mozilla.org##.page-top
+mozilla.org##.site-wrap:style(padding-top: 0px !important;)
 mozilla.org##.social-share
 mozilla.org##.stuck.firefox.moz-sub-nav:style(position: relative !important; top: 0 !important;)
 mozilla.org##.stuck.sticky-footer
 mozilla.org##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
-mozilla.org##header:style(position: relative !important; top: 0 !important;)
+mozilla.org##header:style(position: relative !important; width: 100% !important;)
 mpix.com###cart-head:style(position: relative !important; top: 0 !important;)
 mprnews.org###article-share
 mprnews.org###collectionAd:style(position: relative !important;)
@@ -10982,6 +10991,7 @@ reuters.com##.Header_is-fixed_3OnFb.Header_header_1xhmD:style(position: relative
 reuters.com##.RightRail_fixedIsInViewport_34nin.RightRail_fixedIsAboveViewport_2Wlfx.RightRail_fixed-wrapper_3m6JO
 reuters.com##.SocialTool_facebook_2Nibf.SocialTool_social-button_1Z8qb
 reuters.com##.SocialTool_twitter_1xUSq.SocialTool_social-button_1Z8qb
+reuters.com##.StandardArticleBody_dp-slot-inline_eUPBt.DPSlot_container_2dHIN
 reuters.com##.active.container.header-pane-main:style(position: relative !important; top: 0 !important;)
 reuters.com##.amp-social-container
 reuters.com##.container > div > div > div > div:style(position: relative !important; top: 0 !important;)
@@ -14193,6 +14203,7 @@ tvguide.com##.ad-dfp
 tvguide.com##.header-social
 tvline.com##.home-left-col.share-comment
 tvline.com##.pmc-adm-goog-pub-div
+tvline.com##.site-social
 tweeterino.com##.fixed-top.bg-faded.navbar-light.navbar-toggleable-sm.navbar:style(position: relative !important; top: 0 !important;)
 twentytwowords.com###social-bar-wide
 twincities.com##.article-share
@@ -15449,6 +15460,7 @@ woodbarter.com###loginBar:style(position: absolute !important;)
 woodbarter.com###navigation:style(position: absolute !important;)
 woostercollective.com##.social
 woot.com##.social
+wordfence.com###super-footer
 wordpress.com###actionbar
 wordpress.com###bit
 worldatlas.com###goToTop
