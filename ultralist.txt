@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:28 AM 2017-12-19
+! Last Modified: 8:21 AM 2017-12-20
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -1607,7 +1607,10 @@ boston.com##body:style(padding-top: 0px !important;)
 bostonglobe.com###email-login
 bostonglobe.com###subscribe-btn
 bostonglobe.com##.ad-container
+bostonglobe.com##.bg-footer__top-wrapper
+bostonglobe.com##.bg-header__patriots.js-open-pop-up.bg-header__subscribe
 bostonglobe.com##.bg-header__smartbar--message:style(position: relative !important; top: 0 !important;)
+bostonglobe.com##.bg-share-menu-toggle--action--open.bg-share-menu-toggle
 bostonglobe.com##.bg-team-nav--sticky:style(position: relative !important; top: 0 !important;)
 bostonglobe.com##.infinite-modal__black-bar
 bostonglobe.com##.inline-ad-1.inline-ad
@@ -1626,6 +1629,7 @@ bostonglobe.com##.social-tools
 bostonglobe.com##.sticky-tools--active.sticky-tools:style(position: relative !important; top: 0 !important;)
 bostonglobe.com##.subscription-banner__link
 bostonglobe.com##.vjs-button.vjs-control.vjs-share-control
+bostonglobe.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 bostonherald.com###article-share-links
 bostonherald.com###sidebar:style(position: relative !important; left: auto !important;)
 bostonherald.com##.menu-social-links.menu
@@ -3406,6 +3410,7 @@ defenseindustrydaily.com###nwslttrEntrySubForm
 defenseindustrydaily.com###sociallinks
 defenseindustrydaily.com###toolbar:style(position: relative !important; top: 0 !important;)
 defensenews.com##.js-pubsub-module.has-secondary-nav.layout-module.no-subscribe-now.generic-module:style(position: relative !important; top: 0 !important;)
+defensenews.com##.newsletter.signup.container
 defensenews.com##.sticky-chain-nav.attach:style(position: relative !important; top: 0 !important; width: 100% !important;)
 defenseone.com###fb_flyin_open
 defenseone.com###featured-navigation-section.featured-element > .featured-container > .logo.large-logo > .featured-home-page[href="http://defenseone.com"]
@@ -4256,7 +4261,7 @@ expatica.com##.scrollup
 expatica.com##.social
 expatsoftware.com##.subscribe-footer
 experian.com###back-to-top
-experian.com##.flx-yc.flx.main-nav-container:style(position: absolute !important; top: 0 !important;)
+experian.com##.flx-yc.flx.main-nav-container:style(position: relative !important; top: 0 !important;)
 experian.com##.main-nav-container-fixed-mobile.header-mobile:style(position: absolute !important; top: 0 !important;)
 experian.com##.main-nav-container-fixed.flx-yc.flx.main-nav-container:style(position: relative !important; top: 0 !important;)
 experts-exchange.com###col2Wrap
@@ -7081,6 +7086,7 @@ last.fm##.masthead:style(position: absolute !important; top: 10 !important;)
 last.fm##.top-bar:style(position: absolute !important; top: 0 !important;)
 lastwordonnothing.com###sidebar-link:style(position: absolute !important;)
 lastwordonnothing.com##.hupso-share-buttons
+latimes.com###app-bar-sticky:style(position: relative !important;)
 latimes.com###content-bottom
 latimes.com###pmad-in2
 latimes.com###pmad-rail
@@ -7088,11 +7094,19 @@ latimes.com###questions_list
 latimes.com###reg-overlay
 latimes.com###zenbox_tab
 latimes.com##.adblock_panel.reg-dialog
+latimes.com##.fa-facebook-square.fa
+latimes.com##.fa-pencil-square-o.fa
+latimes.com##.fa-share.fa
+latimes.com##.flex.align-right.sharebar
+latimes.com##.icon-light.fa-vimeo.fa
 latimes.com##.lb-card-share-menu
+latimes.com##.list-unstyled.footer-call-to-action-container.align-items-start.justify-start.flex-container-column
 latimes.com##.module.blurb
 latimes.com##.nextgen-right
 latimes.com##.reg-content
 latimes.com##.rendered.lb-advert-container
+latimes.com##.sharebar
+latimes.com##.spaced-lg.spaced-top.spaced.flex-container-row.footer-buttonbar.buttonbar
 latimes.com##.trb_ar_cont
 latimes.com##.trb_ar_h > .trb_sc
 latimes.com##.trb_ar_shpq
@@ -15709,6 +15723,7 @@ xda-developers.com##body:style(padding-top: 0px !important;)
 xenonstack.com###fixed-right-bar:style(position: relative !important; top: 0 !important;)
 xenonstack.com##.fixed.sticky.nav-header:style(position: relative !important; top: 0 !important;)
 xenonstack.com##.rocketchat-widget
+xfinity.com##.ad-container
 xfinity.com##.sticky.search-container:style(position: relative !important; top: 0 !important;)
 xinhuanet.com##.domPC.nav:style(position: relative !important; top: 0 !important;)
 xojane.com###follow_us_twitter-0
