@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:46 PM 2017-12-23
+! Last Modified: 7:52 AM 2017-12-31
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -2446,6 +2446,8 @@ cleveland.com##.sticky-nav-hide:style(margin-top: 0px !important; transition: no
 cleveland.com##.sticky-nav-show.sticky-nav:style(position: relative !important; top: 0 !important; transition: none !important;)
 cleveland.com##.sticky-nav:style(position: relative !important; top: 0 !important; transition: none !important;)
 cleveland.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
+cleveland19.com###WNMenuCol1:style(position: relative !important;)
+cleveland19.com##.story-feed
 click2houston.com###gmg-vf
 click2houston.com###header:style(position: relative !important; top: 0 !important; width: 100% !important; margin-bottom: 20px !important;)
 click2houston.com###ksat-fixed:style(position: relative !important; top: 0 !important; width: 100% !important; margin-bottom: 20px !important;)
@@ -5032,6 +5034,9 @@ gamerevolution.com##.scrollup
 gamerevolution.com##.share-large.share-buttons-container
 gamerevolution.com##.share-tools
 gamerevolution.com##.widget_evolve_ad_gpt_widget
+gameroomsolutions.com###main-header:style(position: absolute !important;)
+gameroomsolutions.com###top-header:style(position: absolute !important;)
+gameroomsolutions.com##.et_social_mobile_on.et_social_sidebar_flip.et_social_rectangle.et_social_animated.et_social_slideright.et_social_visible_sidebar.et_social_sidebar_networks
 gamespot.com###masthead:style(position: relative !important; top: 0 !important;)
 gamespot.com##.share
 gamingonlinux.com###social
@@ -6748,6 +6753,7 @@ justworks.com###hbl-live-chat-wrapper
 justworks.com##.js-blog-header.blog-header:style(position: absolute !important;)
 justworks.com##.js-social-icons.blog-post__social-icons
 kadavy.net##nav
+kansas.com##.share-tools-wrapper
 kansascity.com###newsletter-signUpWidget
 kansascity.com###story-cta-widget
 kansascity.com##.ndn_icon_share.ndn_toggleShare
@@ -7793,6 +7799,7 @@ mashable.com##.video-shares
 mashed.com###header:style(position: absolute !important; margin-top: 0px !important;)
 mashed.com###social-nav
 massivesci.com###frame:style(position: relative !important;)
+massivesci.com###surveyBot
 massivesci.com##.drop-shadow.mb0.mt--xs.small.sharing
 massivesci.com##.promo--newsletter.promo
 masslive.com###adhesionUnit
@@ -9000,8 +9007,12 @@ newsandsentinel.com###top_header:style(position: absolute !important;)
 newsandsentinel.com###wprmenu_bar:style(position: absolute !important;)
 newsandsentinel.com##.popup
 newsandsentinel.com##.popup.twitter
+newsbusters.org###donateButtonHeading
+newsbusters.org###donateButtonMarkup
+newsbusters.org##.hidden-xs.text-center.center-block.nb-not-content.nb-top-sa-rp.wrapper-100
 newsbusters.org##.nb-social
 newsbusters.org##.region-social-navigation.region
+newsbusters.org##.text-center.center-block.nb-not-content.wrapper-100
 newschannel10.com###WNMenuCol1:style(position: relative !important;)
 newschannel10.com###WNNavSearchSwitch:style(position: absolute !important;)
 newschannel10.com###storyFeednext
@@ -9376,7 +9387,6 @@ nymag.com##.subscription
 nymag.com##.vertical.clay-share
 nypost.com###background-wrapper:style(overflow-x: hidden !important; overflow-y: hidden !important;)
 nypost.com###footer-social
-nypost.com###footer-social
 nypost.com###highlight-share
 nypost.com###nyp-newsletter-modal
 nypost.com###page-header:style(position: relative !important; top: 0 !important;)
@@ -9447,7 +9457,6 @@ nytimes.com###welcome-back-modal
 nytimes.com##.Block-header--2tzq6:style(position: relative !important;)
 nytimes.com##.Block-noTopBorder--1M81B.Block-header--2tzq6:style(position: relative !important;)
 nytimes.com##.BlockAdvert-ad--2QvJV
-nytimes.com##.BlockAdvert-adContainer--1aZlM
 nytimes.com##.BlockAdvert-adContainer--1aZlM
 nytimes.com##.BlockAdvert-topAd--1_Ppx.BlockAdvert-adContainer--1aZlM
 nytimes.com##.BlockHeader-header--1598L:style(position: relative !important;)
@@ -10013,6 +10022,8 @@ pilotonline.com##.paymeter-promo
 pilotonline.com##.tw.btn-link.btn-md.btn
 pilotonline.com##.vf-share-bar.vf-share-bar-default.vf-widget
 pilotonline.com##.yt.btn-link.btn-md.btn
+pimylifeup.com###crestafollowbuttons
+pimylifeup.com###crestashareicon
 pinknews.co.uk###RM3Lines:style(position: absolute !important;)
 pinknews.co.uk###navBar:style(position: absolute !important; top: 0 !important;)
 pinknews.co.uk###navBar:style(position: absolute !important;)
@@ -10074,8 +10085,6 @@ pjmedia.com##.navbar-scroll.main-nav-wrapper.navbar-wrapper:style(position: rela
 pjmedia.com##.pinterest-share-button
 pjmedia.com##.share
 pjmedia.com##.social-buttons-bottom
-pjmedia.com##.social-buttons-bottom
-pjmedia.com##.social-buttons-top
 pjmedia.com##.social-buttons-top
 placesjournal.org##.article-module-stuck.article-actions
 placesjournal.org##.body__header:style(position: absolute !important; transition: none !important;)
@@ -10222,12 +10231,10 @@ popsci.com##.__pw-btnclose-false.__pw-view-auto.pw-sticky.__pw-position-left
 popsci.com##.ads.st-block
 popsci.com##.main-header:style(position: absolute !important;)
 popsci.com##.pane-post-social-post-social-block.pane-block.panel-pane
-popsci.com##.pane-post-social-post-social-block.pane-block.panel-pane
 popsci.com##.pane-social-buttons.pane-social-plugins-social-plugins-footer-icons.pane-block.panel-pane
 popsci.com##.pane-social-header.pane-panels-mini.panel-pane
 popsci.com##.panel-pane.pane-block.pane-post-social-post-social-block
 popsci.com##.panel-pane.pane-block.pane-post-social-post-social-block.bottom
-popsci.com##.scrollToTop
 popsci.com##.scrollToTop
 popsci.com##.track-processed.subscribe
 popsugar.com###banner-placeholder
@@ -11143,6 +11150,8 @@ rightwingnews.com##.ot-jumplist
 rightwingnews.com##.subset:style(position: relative !important; top: 0 !important;)
 rightwingnews.com##.widget.widget-2
 rightwingnews.com##.widget.widget-3
+ripple.com##.initial_header.navbar-fixed-top.navbar-default.navbar.banner:style(position: absolute !important;)
+ripple.com##.scrolled.navbar-fixed-top.navbar-default.navbar.banner:style(position: absolute !important;)
 ritzpix.com###header:style(position: relative !important;)
 roadandtrack.com##.active.social-menu
 roadandtrack.com##.leaderboard-ad
@@ -14180,6 +14189,7 @@ troyhunt.com###floating_subscribe
 troyhunt.com##.article-open_shere
 troyhunt.com##.container.header_block:style(position: absolute !important;)
 troyhunt.com##.post_socialIcons
+troypoint.com##.fusion-sticky-shadow.fusion-header:style(position: absolute !important;)
 truevalue.com###cboxOverlay
 truevalue.com###colorbox
 trulia.com###globalNavNormal:style(position: relative !important; top: 0 !important;)
@@ -15445,6 +15455,7 @@ wkrg.com##.entry-header-sharing.sd-social-icon.robots-nocontent
 wkrg.com##.sd-sharing-enabled.sharedaddy
 wkrn.com###masthead:style(position: relative !important; top: 0 !important;)
 wkyc.com##.fixed.header:style(position: relative !important; top: 0 !important;)
+wkyc.com##.page__desktop-header:style(position: absolute !important;)
 wkyt.com###nav:style(position: relative !important; top: 0 !important;)
 wkyt.com###socialIcons
 wlos.com###facebookShare
@@ -15646,7 +15657,6 @@ wsj.com##.scope-web\|mobileapps.wrap.media-object
 wsj.com##.scrolled.stick-uNav.nav-up.new-hat.articlePage.mega-nav:style(position: relative !important; top: 0 !important;)
 wsj.com##.scrolled.stick-uNav.new-hat.articlePage.mega-nav:style(position: relative !important; top: 0 !important;)
 wsj.com##.shareMenu
-wsj.com##.shareMenu--horizontal.shareMenu
 wsj.com##.shareMenu--horizontal.shareMenu
 wsj.com##.shareMenuInlineWrap
 wsj.com##.sharebuttons-bottom
