@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 3:19 PM 2018-01-04
+! Last Modified: 5:45 PM 2018-01-04
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -1151,6 +1151,7 @@ azcentral.com##.utility-bar
 azcentral.com##.utility-bar-wrap
 azfamily.com##.wn-sticky:style(position: relative !important; top: 0 !important;)
 azfamily.com##.wnad43.wnad
+b3ta.com###cookiewarn
 babbel.com##.masthead
 babble.com##.js-show.js-transition.js-sb-4634921.tm-sb-fixed.js-sb-wrap.tm-social-bar-wrap
 babble.com##.tm-header
@@ -1796,7 +1797,7 @@ burlingtonfreepress.com##.utility-bar-wrap
 business-review.eu##.banner-horizontal-black.banner-horizontal-large
 business-standard.com###newMenuNavigationSecond:style(position: relative !important; top: 0 !important;)
 business-standard.com##.sticky:style(position: relative !important; top: 0 !important;)
-businessinsider.com###header-bar:style(position: relative !important; top: 0 !important;)
+businessinsider.com###header-bar:style(position: absolute !important;)
 businessinsider.com###mobile-intercept
 businessinsider.com###newsSearchForm
 businessinsider.com###share
@@ -5119,6 +5120,7 @@ geico.com###cat-banner:style(position: absolute !important; top: 0 !important; m
 geico.com###primary-header:style(position: absolute !important; top: 0 !important;)
 geico.com###sidebar:style(position: absolute !important; padding-top: 100px !important;)
 geico.com##.main-header:style(position: absolute !important; top: 0 !important;)
+geico.com##.oo_feedback_float:style(position: relative !important;)
 geico.com##.print-hide.main-header:style(position: absolute !important; top: 0 !important;)
 genius.com##.article_header-inner > content-actions
 genius.com##.u-width_100 > .u-vertical_margins.u-text_center
@@ -7332,8 +7334,13 @@ lennyletter.com##.mc-modal
 lennyletter.com##.mc-modal-bg
 lennyletter.com##.site-footer__socials
 lennyletter.com##.sticky-header-container.component-sticky:style(position: relative !important;)
+lenovo.com###BackToTop
+lenovo.com###oo_tab:style(position: absolute !important;)
+lenovo.com##.fixed-top:style(position: absolute !important;)
 lenovo.com##.lia-quilt-row-static-header.lia-quilt-row
 lenovo.com##.masthead > .pageWrapper:style(position: relative !important; top: 0 !important;)
+lenovo.com##.navbarshadow.pcg-tag.navbar-fixed-top.navbar-first.navbar-default.navbar:style(position: absolute !important;)
+lenovo.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 lensculture.com##.-visible.article-sharing-btns
 lensculture.com##.open.article-header.white-header.show-alert.navbar:style(position: relative !important; top: 0 !important;)
 lensculture.com##.visible.fly-in-bottom-left.fly-in.announcement-fly-in
@@ -9661,6 +9668,7 @@ openculture.com##.closing-social
 openculture.com##.mashsb-main.mashsb-container
 openculture.com##.socialblock
 opendemocracy.net##.a2a_default_style.a2a_kit_size_36.a2a_kit
+openelec.tv###ca_banner
 opengarden.com##.birdseye-header:style(position: absolute !important;)
 openstreetmap.org##.welcome
 opentable.com##.navbar--fixed.navbar:style(position: relative !important; top: 0 !important;)
@@ -15798,7 +15806,7 @@ wtnh.com###masthead:style(position: absolute !important;)
 wtnh.com##.entry-header-sharing.sd-social-icon.robots-nocontent
 wtnh.com##.site-content:style(padding-top: 141px !important;)
 wtop.com###TopShareMenu
-wtop.com###h_new:style(position: absolute !important;)
+wtop.com###h_new:style(position: relative !important; top: 0 !important;)
 wtop.com###header_sticky_ad
 wtop.com###voteTools
 wtop.com##.Entry-infoSocial
