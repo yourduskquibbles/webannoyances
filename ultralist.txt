@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:10 PM 2018-01-03
+! Last Modified: 8:16 AM 2018-01-04
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -1070,6 +1070,7 @@ avclub.com##body:style(overflow-x: hidden !important; overflow-y: auto !importan
 avclub.com##share-via-facebook
 avclub.com##share-via-twitter
 avgthreatlabs.com###banner
+avis.com##.bg-header.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important;)
 avproductreviews.com###dcssb-slick
 avrotros.nl##.top-bar:style(position: relative !important; top: 0 !important;)
 avsforum.com###tt_mobile_banner
@@ -1480,6 +1481,7 @@ bloomberg.com##.in-article-ad-dummy
 bloomberg.com##.inline-newsletter
 bloomberg.com##.mobile-box-ad-dummy
 bloomberg.com##.nav__social
+bloomberg.com##.navi:style(position: relative !important;)
 bloomberg.com##.persist-nav.bb-nav-root
 bloomberg.com##.right-rail
 bloomberg.com##.social-icons
@@ -2133,6 +2135,7 @@ charlotteobserver.com###newsletter-signUpWidget
 charlotteobserver.com##.cta-fullwidth.subscription-cta-widget
 charlotteobserver.com##.share-tools-wrapper
 charlotteobserver.com##.sticky-tools.share-tools-wrapper
+chase.com###ad-offers-list-header:style(position: absolute !important;)
 chase.com###dashboard-header:style(position: relative !important; top: 0 !important;)
 chase.com###header-container:style(position: relative !important; top: 0 !important;)
 chase.com###header-inner-fixed-container:style(position: relative !important; top: 0 !important;)
@@ -3743,12 +3746,13 @@ directindustry.com###header-nav:style(position: relative !important;)
 directv.com###dtv_header:style(position: absolute !important;)
 discounttire.com##header:style(position: relative !important;)
 discourse.pi-hole.net##.clearfix.d-header:style(position: relative !important; top: 0 !important;)
+discover.com###stickyNav:style(position: absolute !important;)
 discover.com###stickySection:style(position: relative !important;)
-discover.com##.animation.header-wrapper:style(position: relative !important; top: 0 !important;)
+discover.com##.animation.header-wrapper:style(position: absolute !important;)
 discover.com##.global-social-footer
 discover.com##.mobile-responsive.main-container:style(padding-top: 0px !important;)
 discover.com##.no-accordian.social-icons.link-container
-discover.com##header:style(position: relative !important; top: 0 !important;)
+discover.com##header:style(position: absolute !important;)
 discovermagazine.com##.basement
 discovery.com##.shared__scrolled.headerMain__main:style(position: relative !important; top: 0 !important;)
 disney.com##.social-links
@@ -6129,6 +6133,7 @@ huronconsultinggroup.com##header:style(position: relative !important; top: 0 !im
 hyatt.com##.header:style(position: absolute !important; top: 0 !important;)
 hybriders.com##.dark.top-bar
 i-e-e.info###main-header:style(position: absolute !important; top: 0 !important;)
+iastate.edu##.affix.navbar-menu-affix.navbar-caps.no-border.navbar-static-top.navbar-default.navbar-menu.navbar:style(position: relative !important;)
 ibm.com###ibm-masthead:style(position: absolute !important; top: 0 !important;)
 ibm.com##.ibm-chevron-up-link.ibm-nospacing
 ibm.com##.ibm-sitenav-menu-container
@@ -7140,6 +7145,7 @@ last.fm##.masthead:style(position: absolute !important; top: 10 !important;)
 last.fm##.top-bar:style(position: absolute !important; top: 0 !important;)
 lastwordonnothing.com###sidebar-link:style(position: absolute !important;)
 lastwordonnothing.com##.hupso-share-buttons
+lasvegas-entertainment-guide.com##.wrapping:style(position: absolute !important;)
 latimes.com###app-bar-sticky:style(position: relative !important;)
 latimes.com###content-bottom
 latimes.com###pmad-in2
@@ -8908,6 +8914,7 @@ newfoodeconomy.com##.spu-bg
 newfoodeconomy.com##.spu-total-.spu-centered.spu-box
 newnownext.com###aosocial-widget
 newnownext.com###balaMainContainer
+neworleans.com##.header-section:style(position: absolute !important;)
 newrepublic.com###fixed-header-container:style(position: relative !important; top: 0 !important;)
 newrepublic.com###header-tout-become-a-member
 newrepublic.com###highlight-overlay
@@ -11435,6 +11442,9 @@ scmp.com###scmp-newsletter-subscribe-form
 scmp.com##.affix.affix-processed.navbar-default.navbar.masthead-main-sticky-nav:style(position: relative !important; top: 0 !important;)
 scmp.com##.header--fixed.header:style(position: relative !important; top: 0 !important;)
 scmp.com##.headroom--top.headroom--pinned.headroom--not-bottom.headroom.header--fixed.header:style(position: relative !important; top: 0 !important;)
+scmp.com##.is-stuck.is-at-top.sticky.sticky-wrap:style(position: absolute !important;)
+scmp.com##.node-newsletter-subscribe
+scmp.com##.social-media--extended.social-media
 scout.com###updatebar-root
 scout.com##.article-social
 scout.com##.clearfix.nav-bar:style(position: relative !important;)
@@ -11641,6 +11651,7 @@ sfgate.com##.article-share
 sfgate.com##.bx-active-step-1.bx-custom.bx-base.bxc
 sfgate.com##.container:style(padding-top: 251px !important;)
 sfgate.com##.ctpl-fullbanner
+sfgate.com##.desktop-vertical-social-tools-wrapper
 sfgate.com##.hearst-jwplayer-position:style(position: relative !important;)
 sfgate.com##.hst-articletools
 sfgate.com##.hst-articletools2
