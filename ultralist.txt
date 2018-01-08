@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 1:05 PM 2018-01-07
+! Last Modified: 10:46 AM 2018-01-08
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -59,6 +59,7 @@
 ##.fa-reddit.fa
 ##.fa-twitter.fa
 ##.fa-youtube.fa
+##.fb-icon
 ##.fb-like
 ##.footer-social
 ##.footer-subscribe
@@ -109,6 +110,7 @@
 ##.u-xs-hide.u-xs-height56.u-height65.u-verticalAlignTop.u-inlineBlock.u-alignMiddle
 ##.u-xs-paddingRight10.u-xs-paddingLeft10.u-zIndexMetabar.u-paddingBottom10.u-paddingTop10.u-borderBox.u-boxShadowTop.u-backgroundWhite.u-sizeFullWidth.u-bottom0.u-fixed
 ##.up_button
+##.youtube-icon
 /arscode-ninja-popups/*
 /chimpmatepro/*$script
 /chimpy/*
@@ -6016,7 +6018,11 @@ howshost.com###toTop
 howsmyssl.com##.navbar-fixed-top.navbar
 howstuffworks.com###hsw-header:style(position: relative !important; top: 0 !important;)
 howstuffworks.com###pagination-upper
+howstuffworks.com###share-bar-bottom
+howstuffworks.com###share-bar-top
 howstuffworks.com##.fb-hsw-like-wrapper.row:style(position: relative !important; top: 0 !important;)
+howstuffworks.com##.fb-icon
+howstuffworks.com##.youtube-icon
 howstuffworks.com##header:style(position: relative !important; top: 0 !important;)
 howtheyplay.com###header:style(position: relative !important; top: 0 !important;)
 howtheyplay.com###header_wrap:style(position: relative !important; top: 0 !important;)
@@ -10108,8 +10114,10 @@ pinterest.com##._5f._2l._2i._2g._3x._11._2m._3i._0:style(position: absolute !imp
 pinterest.com##.bottom.Module.BlueAppBanner
 pinterest.com##.denzelAppInterstitial
 pinterest.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
+piriform.com##.band--newsletter.band
 piriform.com##.newsletter-signup--sidebar.newsletter-signup
 piriform.com##.page-foot__social
+piriform.com##.social-followers-proto
 piriform.com##.social-icon-list
 pitbarrelcooker.com##.x-masthead:style(position: absolute !important;)
 pitchfork.com###page-header:style(position: relative !important; top: 0 !important;)
