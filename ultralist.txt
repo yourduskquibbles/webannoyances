@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 2:05 PM 2018-01-09
+! Last Modified: 2:38 PM 2018-01-09
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -422,6 +422,8 @@ add0n.com###sharing
 adequateman.deadspin.com##.sharingfooter
 adguard.com###floatingNavigation
 adguard.com##.static.staticPageWidth.withSearch:style(position: relative !important; top: 0 !important;)
+adjust.com###drift-widget-container
+adjust.com###primary-header:style(position: absolute !important;)
 adl.org###header-wrapper:style(position: relative !important; top: 0 !important;)
 adlice.com###phantom:style(position: relative !important;)
 adlice.com##.facebook
@@ -2572,6 +2574,7 @@ cnn.com##.js-share-bar.m-share__bar.js-share-rail-top.m-share__rail-top.m-share
 cnn.com##.js-skinny.js-navigation.nav:style(position: relative !important; top: 0 !important;)
 cnn.com##.large-buttons
 cnn.com##.m-share__floating.js-share-rail-top.m-share__rail-top.m-share
+cnn.com##.m-share__floating.js-share-rail-top.m-share__rail-top.m-share > .gigya-sharebar.js-gigya-sharebar
 cnn.com##.main-banner-wrapper:style(position: relative !important; top: 0 !important;)
 cnn.com##.main-banner:style(position: relative !important; top: 0 !important;)
 cnn.com##.media-social--ul
@@ -6152,6 +6155,7 @@ huffingtonpost.com##.treated.right_rail_flex.advertisement
 huffingtonpost.com##.upper-icons-wrapper
 huffingtonpost.com##.valencia-footer
 huffpost.com##.app-download-interstitial--open.app-download-interstitial--android.bn-app-download.js-app-download-interstitial.app-download-interstitial
+huffpost.com##.app-download-interstitial--open.app-download-interstitial--android.yr-app-download.bn-app-download.js-app-download-interstitial.app-download-interstitial
 huffpost.com##.bn-share-bottom.share-bar--bottom.share-bar
 huffpost.com##body:style(padding-top: 0px !important;)
 hulu.com###banner:style(position: absolute !important; top: 0 !important;)
@@ -8264,6 +8268,26 @@ mnn.com##.site-header:style(position: absolute !important;)
 mnn.com##.site-header__top-facebook
 mnn.com##.site-header__top-twitter
 mnn.com##.social
+mobile.nytimes.com###story-ad-1-slug
+mobile.nytimes.com###story-ad-2-slug
+mobile.nytimes.com###story-ad-3-slug
+mobile.nytimes.com###story-ad-4-slug
+mobile.nytimes.com###story-ad-5-slug
+mobile.nytimes.com###story-ad-6-slug
+mobile.nytimes.com###story-ad-7-slug
+mobile.nytimes.com###story-ad-8-slug
+mobile.nytimes.com###story-ad-9-slug
+mobile.nytimes.com##.BlockAdvert-fixedHeight---wGtF.BlockAdvert-adContainer--1aZlM
+mobile.nytimes.com##.Dock-dock--1EAX7
+mobile.nytimes.com##.story-ad-1-wrapper.ad
+mobile.nytimes.com##.story-ad-2-wrapper.ad
+mobile.nytimes.com##.story-ad-3-wrapper.ad
+mobile.nytimes.com##.story-ad-4-wrapper.ad
+mobile.nytimes.com##.story-ad-5-wrapper.ad
+mobile.nytimes.com##.story-ad-6-wrapper.ad
+mobile.nytimes.com##.story-ad-7-wrapper.ad
+mobile.nytimes.com##.story-ad-8-wrapper.ad
+mobile.nytimes.com##.story-ad-9-wrapper.ad
 mobile.twitter.com##.GgYynIub._3rF86cXC:style(position: absolute !important;)
 mobile.twitter.com##.LqlkGmch:style(position: absolute !important;)
 mobile.twitter.com##._3f2NsD-H.W1P7mM7E
@@ -9534,14 +9558,23 @@ nytimes.com###shell:style(padding-top: 0px !important; overflow-x: hidden !impor
 nytimes.com###signup-favor
 nytimes.com###sports-email-promo
 nytimes.com###step-two-modal
+nytimes.com###story-ad-1-slug
 nytimes.com###story-ad-1-wrapper
+nytimes.com###story-ad-2-slug
 nytimes.com###story-ad-2-wrapper
+nytimes.com###story-ad-3-slug
 nytimes.com###story-ad-3-wrapper
+nytimes.com###story-ad-4-slug
 nytimes.com###story-ad-4-wrapper
+nytimes.com###story-ad-5-slug
 nytimes.com###story-ad-5-wrapper
+nytimes.com###story-ad-6-slug
 nytimes.com###story-ad-6-wrapper
+nytimes.com###story-ad-7-slug
 nytimes.com###story-ad-7-wrapper
+nytimes.com###story-ad-8-slug
 nytimes.com###story-ad-8-wrapper
+nytimes.com###story-ad-9-slug
 nytimes.com###story-ad-9-wrapper
 nytimes.com###subscriptionCTA
 nytimes.com###upNext
@@ -9550,6 +9583,7 @@ nytimes.com##.Block-header--2tzq6:style(position: relative !important;)
 nytimes.com##.Block-noTopBorder--1M81B.Block-header--2tzq6:style(position: relative !important;)
 nytimes.com##.BlockAdvert-ad--2QvJV
 nytimes.com##.BlockAdvert-adContainer--1aZlM
+nytimes.com##.BlockAdvert-fixedHeight---wGtF.BlockAdvert-adContainer--1aZlM
 nytimes.com##.BlockAdvert-topAd--1_Ppx.BlockAdvert-adContainer--1aZlM
 nytimes.com##.BlockAdvert-topAd--1_Ppx.BlockAdvert-fixedHeight---wGtF.BlockAdvert-adContainer--1aZlM
 nytimes.com##.BlockHeader-header--1598L:style(position: relative !important;)
@@ -9607,6 +9641,15 @@ nytimes.com##.sharetools
 nytimes.com##.sharetools-menu
 nytimes.com##.sharetools-video-container
 nytimes.com##.show.lie-continue
+nytimes.com##.story-ad-1-wrapper.ad
+nytimes.com##.story-ad-2-wrapper.ad
+nytimes.com##.story-ad-3-wrapper.ad
+nytimes.com##.story-ad-4-wrapper.ad
+nytimes.com##.story-ad-5-wrapper.ad
+nytimes.com##.story-ad-6-wrapper.ad
+nytimes.com##.story-ad-7-wrapper.ad
+nytimes.com##.story-ad-8-wrapper.ad
+nytimes.com##.story-ad-9-wrapper.ad
 nytimes.com##.subColumn-2.noBackground.mobilePromo.nocontent
 nytimes.com##.twitter-share
 nytimes.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
