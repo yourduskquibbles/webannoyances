@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 1:12 PM 2018-01-09
+! Last Modified: 2:05 PM 2018-01-09
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -12026,8 +12026,11 @@ soundcloud.com##.g-z-index-header.app__header:style(position: relative !importan
 soundcloud.com##.sc-browsers-enable-gpu.l-fixed.searchTitle:style(position: relative !important; top: 0 !important;)
 soundcloud.com##.show.g-z-index-header.g-dark.fixed.sc-selection-disabled.header:style(position: relative !important; top: 0 !important;)
 soundcloud.com##.upsellBanner
+sourceforge.net###banner-sterling
 sourceforge.net###nav-social
 sourceforge.net###newsletter-floating
+sourceforge.net##.social-icons
+sourceforge.net##.stuck.l-header-nav-collapse.sandiego.sticky.l-header-nav:style(position: relative !important;)
 sousvideguy.com###site-navigation-sticky-wrapper
 southlive.in###main-nav-container:style(position: relative !important; top: 0 !important;)
 southlive.in##.sample-ad
@@ -16185,6 +16188,7 @@ zyngaplayerforums.com##.Reactions
 ||4dsply.com$script,domain=realclearpolitics.com
 ||adage.com/article$inline-script,first-party
 ||amazonaws.com/*/264.js$script,domain=realclearpolitics.com
+||app.adjust.com^$first-party
 ||bostonreview.net/sites/default/files/js/$script,first-party
 ||bounceexchange.com/*/i.js$script,important
 ||brightcove.com/*/upgrade_flash_player2.gif$image
