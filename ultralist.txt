@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:52 AM 2018-01-10
+! Last Modified: 10:36 AM 2018-01-11
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -180,6 +180,7 @@
 3dprintingforbeginners.com##.tve-leads-triggered.tl-anim-slide_bot.tve-leads-track-ribbon-72.tve-tl-anim.tve-leads-ribbon.tl-state-root
 49ers.com###TNFLSubNavigation_main:style(position: relative !important; top: 0 !important;)
 49ers.com###nflMenuHeader:style(position: relative !important; top: 0 !important;)
+5280.com##.social
 5newsonline.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute !important; top: 0 !important;)
 5newsonline.com##.sd-sharing-enabled.sharedaddy
 6abc.com###feature-container:style(position: relative !important; top: 0 !important;)
@@ -237,6 +238,7 @@
 @@||facebook.com/common/referer_frame.php$subdocument,domain=facebook.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=cbssports.com
 @@||loxodo-analytics.ext.nile.works/api/save$xmlhttprequest,domain=washingtonpost.com
+@@||s1.wp.com/*/vip-analytics.js^$script,domain=rare.us
 a16z.com##.byline-social.social-share
 aaa.com##.bottomcontainerBox
 abc.net.au###navigationPrimary4:style(position: relative !important; top: 0 !important;)
@@ -3163,6 +3165,7 @@ currentargus.com##.story-tools
 currentargus.com##.utility-bar-wrap
 customer.xfinity.com###page-header:style(position: relative !important; top: 0 !important; background: #000000 !important;)
 cvs.com###gb-button-to-top
+cyberciti.biz##cf-dialog
 cyberscoop.com###welcomeadMask
 cyberscoop.com##.header:style(position: relative !important; top: 0 !important;)
 cyberscoop.com##.side-block:nth-of-type(1)
@@ -7477,6 +7480,8 @@ linkedin.com##.shared-modal-dialog
 linkedin.com##.stuck.stream-header:style(position: relative !important; top: 0 !important;)
 linkedin.com##.toast-container
 linustechtips.com###lmgNav:style(position: relative !important;)
+linux.com###modalBackdrop
+linux.com###modalContent
 linuxfoundation.org###header-outer:style(position: absolute !important;)
 linuxportal.pl###naglowek:style(position: absolute !important;)
 linuxportal.pl###przeczytaj_link_nast_2
@@ -8777,11 +8782,13 @@ nationwide.com##.icon
 nature.com###leaderboard
 nature.com##.cleared.nature-briefing--article.nature-briefing
 nature.com##.container-type-banner-advert.cleared.container
+nature.com##.container-type-beta-switch-off.cleared.grade-c-hide.container:style(position: relative !important;)
 nature.com##.container-type-cookies-usage.cleared.container
 nature.com##.inline-icon
 nature.com##.pin-left.cleared.position-relative.js-reading-companion.reading-companion.hide-print > div > .cleared.clear > div:style(position: relative !important; top: 0 !important;)
 nature.com##.sticky-header.tighten-line-height.composite-layer.z-index-100.article-header.js-header.background-gradient-brand-primary.position-relative.hide-print.clear.cleared:style(position: relative !important; top: 0 !important;)
 nature.com##.sticky-header.tighten-line-height.composite-layer.z-index-100.default-header.js-header.background-gradient-brand-primary.position-relative.hide-print.clear.cleared:style(position: relative !important; top: 0 !important;)
+nature.com##body:style(padding-top: 0px !important;)
 nautil.us###adpayload
 nautil.us###inpagesub
 nautil.us###issue-map
@@ -10903,10 +10910,12 @@ raptorcs.com###header-background:style(position: relative !important; top: 0 !im
 raptorcs.com###header:style(position: relative !important; top: 0 !important;)
 raptorcs.com###headerlinkbox:style(position: relative !important; top: 0 !important;)
 raptorcs.com###sidebar-show-menu:style(position: relative !important; top: 0 !important;)
-rare.us###MP01-container
-rare.us##.header:style(position: relative !important; top: 0 !important;)
-rare.us##.move-social
-rare.us##.scroll-hide.header__item
+rare.us###facebook
+rare.us###twitter
+rare.us##.dyMonitor.dyother.post-card-v3__sharing.post-card-v3
+rare.us##.header:style(position: relative !important;)
+rare.us##.utility__item:nth-of-type(3)
+rare.us##body:style(padding-top: 0px !important;)
 rasmussenreports.com###cboxOverlay
 rasmussenreports.com###colorbox
 rasmussenreports.com##.join-us.module-c
@@ -12391,6 +12400,7 @@ statesmanjournal.com##.site-nav-social-link.site-nav-icon-link.site-nav-first-se
 statesmanjournal.com##.story-tools
 statesmanjournal.com##.utility-bar-wrap
 staticding.org###header:style(position: relative !important; top: 0 !important;)
+statista.com##.hideMobile.hideNoScript.socialMediaBox.box
 statnews.com###stat-modal-base
 statnews.com###uglipop_content_fixed
 statnews.com###uglipop_overlay
@@ -16283,6 +16293,7 @@ zyngaplayerforums.com##.Reactions
 ||extremetech.com/g00/$script,first-party,important
 ||facebook.com/plugins/like.php$subdocument
 ||facebook.com/plugins/likebox.php$subdocument
+||facebook.com/v2.10/plugins/like.php$subdocument
 ||facebook.com/v2.4/plugins/page.php$subdocument
 ||facebook.com/v2.5/plugins/page.php
 ||fastly.net$script,domain=nasdaq.com
@@ -16318,6 +16329,7 @@ zyngaplayerforums.com##.Reactions
 ||optnmnstr.com
 ||pagely.netdna-cdn.com^$script,domain=guns.com
 ||pinterest.com^$script,image
+||rare.us/widgets/sharing-v2$subdocument
 ||realclearpolitics.com/*/ad_slots.jsonp$script,first-party
 ||realclearpolitics.com/*/instart.js$script,first-party
 ||s.wsj.net/mktg/1for2_usd_red2_165x28.png$image
