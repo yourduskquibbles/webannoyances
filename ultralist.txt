@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 8:13 PM 2018-01-11
+! Last Modified: 10:29 AM 2018-01-12
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -389,8 +389,9 @@ accuweather.com##.Header:style(position: relative !important; top: 0 !important;
 accuweather.com##.addthis_toolbox.addthis_default_style
 accuweather.com##.footer-social
 accuweather.com##.panel-ad-mr.panel
+aclu.org###header:style(transition: none !important;)
 aclu.org##.share-icons.pane-aclu-components-share-icons.panel-pane
-aclu.org##.sticky-minimized.header:style(position: relative !important; top: 0 !important;)
+aclu.org##.sticky-minimized
 acorns.com##.bg-helper:style(position: relative !important; top: 0 !important;)
 acs.org###header_container:style(position: relative !important; top: 0 !important;)
 acs.org###header_social_links
@@ -2421,7 +2422,9 @@ citynews.cf##.is_stuck.dd-area:style(position: absolute !important; top: 0 !impo
 citypaper.com##.trb_nh:style(position: relative !important; top: 0 !important;)
 civilbeat.org##.pez-bound.donation-drive.cb-banner
 civilbeat.org##.pez-bound.header-spacer.cb-banner:style(position: relative !important;)
-civileats.com###header-wrap:style(position: relative !important; top: 0 !important;)
+civileats.com###header-wrap:style(position: absolute !important;)
+civileats.com##.side-social
+civileats.com##.social
 cjr.org###bottom-sharing
 cjr.org###interContainer
 cjr.org###interVeil
@@ -3819,6 +3822,7 @@ diynetwork.com##.o-Header__m-SocialLinks
 diynetwork.com##.o-SocialShare
 diynetwork.com##body:style(margin-top: 0px !important;)
 dll-files.com##.scroll-box.client-cta-box
+dmagazine.com##.nav:style(position: absolute !important;)
 dnainfo.com###social-buttons
 dnainfo.com##.main-nav.navbar-wrapper:style(position: relative !important; top: 0 !important;)
 dnainfo.com##HEADER:style(position: relative !important; top: 0 !important;)
@@ -4368,7 +4372,9 @@ extratv.com##.primary-navbar.container.navbar:style(position: relative !importan
 extremetech.com###bannerad
 extremetech.com##.hybrid-bar:style(position: relative !important; top: 0 !important;)
 extremetech.com##.vertical.left.share_menu
+f-secure.com###article-sidebar
 f-secure.com##.fixed:style(position: relative !important; top: 0 !important;)
+f-secure.com##.follow-div.row
 f-secure.com##.teaser-top:style(position: relative !important; top: 0 !important;)
 f-secure.com##header:style(position: relative !important; top: 0 !important;)
 facebook.com###pagelet_growth_expanding_cta
@@ -7199,7 +7205,12 @@ lansingstatejournal.com##.site-nav-social-link.site-nav-icon-link.site-nav-first
 lansingstatejournal.com##.site-nav-social-link.site-nav-icon-link.site-nav-last-secondary-link.site-nav-end-link.site-nav-link-theme-maroon.site-nav-link
 lansingstatejournal.com##.story-tools
 lansingstatejournal.com##.utility-bar-wrap
-laphamsquarterly.org##.small-header
+laphamsquarterly.org###sticky:style(position: absolute !important;)
+laphamsquarterly.org###wisepop-main-container
+laphamsquarterly.org##.share
+laphamsquarterly.org##.social-media-nav
+laphamsquarterly.org##.top-bar:style(position: relative !important;)
+laphamsquarterly.org##header.small-header:style(max-width: none !important;)
 laptopmag.com###sticky-header:style(position: relative !important; top: 0 !important;)
 laptopmag.com###stickyShare
 laptopmag.com##.headerSocial
@@ -7661,6 +7672,7 @@ mackeeper.com##.js-nav-mobile.nav-mobile:style(position: relative !important; to
 mackeepersecurity.com##.blog-post__share
 mackeepersecurity.com##.header:style(position: absolute !important;)
 macleans.ca###ad-box-2
+macleans.ca##.MLF__share
 macleans.ca##.macleans-social-footer__wrap
 macleans.ca##.rdm-daac-notice-template
 macleans.ca##.service_footer.row
@@ -8223,7 +8235,6 @@ minimaxir.com##.back-to-top-is-visible.back-to-top-theme.js-back-to-top
 minimaxir.com##.header-shrink.header-sticky.navbar-fixed-top.header-transparent-bb.header-transparent:style(position: relative !important; top: 0 !important;)
 minimaxir.com##.header-sticky.navbar-fixed-top.header-transparent-bb.header-transparent:style(position: relative !important; top: 0 !important;)
 minimaxir.com##.mega-menu.navbar:style(position: relative !important; top: 0 !important;)
-mint.com###header:style(position: relative !important; top: 0 !important;)
 mirror.co.uk###bottom-article-message
 mirror.co.uk###social-follow
 mirror.co.uk##.active.publication-theme-border.mod-cookiepolicy
@@ -9235,6 +9246,7 @@ newstatesman.com###popup
 newstatesman.com##.article-footer-promotion
 newstatesman.com##.clearfix.site-header:style(position: relative !important; top: 0 !important;)
 newstatesman.com##.form-submit.button-primary.webform-submit
+newstatesman.com##.region-ns-offers.region
 newstatesman.com##.share-buttons
 newstatesman.com##.site-footer-hidden.site-footer
 newstatesman.com##.slick-slider.slick-initialized.header-promotion
@@ -10953,6 +10965,8 @@ rawstory.com##.post_follow_appeals
 rawstory.com##.recent-post-widget-ad
 rawstory.com##.sidebar-email-signup-container
 rawstory.com##.story-page-embedded-ad
+razorpay.com###page-sidebar
+razorpay.com###tagbar:style(position: relative !important;)
 rbth.com###backtotop
 rbth.com##.hide-mobile.no-print.rbth-fb-popup
 rbth.com##.hide-mobile.top-social
