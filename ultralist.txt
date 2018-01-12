@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 1:51 PM 2018-01-11
+! Last Modified: 8:13 PM 2018-01-11
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -3776,13 +3776,14 @@ directindustry.com###header-nav:style(position: relative !important;)
 directv.com###dtv_header:style(position: absolute !important;)
 discounttire.com##header:style(position: relative !important;)
 discourse.pi-hole.net##.clearfix.d-header:style(position: relative !important; top: 0 !important;)
-discover.com###stickyNav:style(position: absolute !important;)
+discover.com###stickyNav:style(position: relative !important;)
 discover.com###stickySection:style(position: relative !important;)
-discover.com##.animation.header-wrapper:style(position: absolute !important;)
 discover.com##.global-social-footer
-discover.com##.mobile-responsive.main-container:style(padding-top: 0px !important;)
+discover.com##.header-wrapper:style(position: relative !important; top: 0 !important;)
+discover.com##.main-container:style(padding-top: 0px !important;)
 discover.com##.no-accordian.social-icons.link-container
-discover.com##header:style(position: absolute !important;)
+discover.com##.stick-with-header.secondary-nav-bar:style(position: absolute !important;)
+discover.com##header:style(position: relative !important;)
 discovermagazine.com##.basement
 discovery.com##.shared__scrolled.headerMain__main:style(position: relative !important; top: 0 !important;)
 disney.com##.social-links
@@ -7408,6 +7409,7 @@ lensculture.com##.visible.fly-in-bottom-left.fly-in.announcement-fly-in
 lensrentals.com##.detail.share
 lensrentals.com##.floatfeed_small.right
 lessonslearned.org##.share
+letsencrypt.org##.clearfix.d-header:style(position: absolute !important;)
 lever.co##.section-wrapper.page-full-width.main-header:style(position: absolute !important;)
 libertyalliance.com##.gfiframe
 libertyballers.com##.m-ad__mobile_footer.m-ad__dynamic_ad_unit.m-ad
@@ -9220,6 +9222,8 @@ newsmax.com###nmSocial
 newsmax.com###nmSpecialLinksWrapper
 newsmax.com###sharebar:style(position: relative !important; top: 0 !important;)
 newsnet5.com##.navbar.navbar--tv.navbar--bg:style(position: relative !important; top: 0 !important;)
+newsobserver.com###newsletter-signUpWidget
+newsobserver.com##.share-tools-wrapper
 newson6.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
 newsplex.com###nav:style(position: relative !important; top: 0 !important;)
 newsplex.com###navbar:style(position: relative !important; top: 0 !important;)
@@ -13377,6 +13381,7 @@ thehill.com##.floating-block-active:style(position: relative !important; top: 0 
 thehill.com##.header:style(position: relative !important; top: 0 !important; transition: none !important;)
 thehill.com##.item-shares
 thehill.com##.ndn_icon_share.ndn_toggleShare
+thehill.com##.preloaded_lightbox
 thehill.com##.region-column-left.region
 thehill.com##.region-highlighted.region:style(position: relative !important; top: 0 !important;)
 thehill.com##.scroll-down-to-next
