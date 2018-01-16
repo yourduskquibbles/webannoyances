@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 2:32 PM 2018-01-15
+! Last Modified: 1:07 PM 2018-01-16
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -11389,6 +11389,8 @@ robinlinus.github.io##iframe
 robots.com###mobiTopNav:style(position: absolute !important; top: 0 !important;)
 robots.com###searchIconImage
 rocketnews24.com###actionbar
+rockingpage.com##.uk-flex-space-between.uk-flex-middle.uk-flex.bg-grey.mg__header:style(position: absolute !important;)
+rockingpage.com##.uk-position-top-left.is--dark.mg__page-message:style(position: absolute !important;)
 rockstargames.com###headerRoot:style(position: absolute !important; top: 0 !important;)
 rockstargames.com##.ng-isolate-scope.hidden-sm.hidden-xs.hidden-xxs.share-vertical.share-block
 rollcall.com###nav:style(position: relative !important; top: 0 !important;)
@@ -11615,13 +11617,17 @@ scitation.org##.sticky-content.related-articles
 scitation.org##.sticky-content.slider-featured.related-articles
 scitation.org##.submit-article
 sclabs.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute !important; top: 0 !important;)
+scmp.com###mini-panel-social_media_box
 scmp.com###scmp-newsletter-subscribe-form
-scmp.com##.affix.affix-processed.navbar-default.navbar.masthead-main-sticky-nav:style(position: relative !important; top: 0 !important;)
-scmp.com##.header--fixed.header:style(position: relative !important; top: 0 !important;)
-scmp.com##.headroom--top.headroom--pinned.headroom--not-bottom.headroom.header--fixed.header:style(position: relative !important; top: 0 !important;)
+scmp.com##.affix.affix-processed.navbar-default.navbar.masthead-main-sticky-nav:style(position: absolute !important;)
+scmp.com##.header--fixed.header:style(position: absolute !important;)
 scmp.com##.is-stuck.is-at-top.sticky.sticky-wrap:style(position: absolute !important;)
+scmp.com##.lhs-sticky:style(position: absolute !important;)
 scmp.com##.node-newsletter-subscribe
+scmp.com##.scmp-inline-newsletter-subscription
 scmp.com##.social-media--extended.social-media
+scmp.com##.social-share
+scmp.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 scout.com###updatebar-root
 scout.com##.article-social
 scout.com##.clearfix.nav-bar:style(position: relative !important;)
