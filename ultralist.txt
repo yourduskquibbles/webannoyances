@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 8:05 AM 2018-01-19
+! Last Modified: 10:26 AM 2018-01-23
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -3259,6 +3259,7 @@ dailydot.com##.media
 dailydot.com##.media.sharing
 dailydot.com##.navbar-inner.hidden-phone
 dailydot.com##.navbar.navbar-inverse.navbar-fixed-top
+dailyfig.com###masthead:style(position: relative !important;)
 dailyheadlines.net###main-nav-wrap:style(position: relative !important; top: 0 !important;)
 dailyheadlines.net##.to-top-trans.back-to-top.fly-to-top
 dailykos.com##.affix.affixed-top.navbar-static-top.navbar.explore-bar:style(position: relative !important; top: 0 !important;)
@@ -3798,7 +3799,9 @@ discover.com##.main-container:style(padding-top: 0px !important;)
 discover.com##.no-accordian.social-icons.link-container
 discover.com##.stick-with-header.secondary-nav-bar:style(position: absolute !important;)
 discover.com##header:style(position: relative !important;)
+discovermagazine.com###wp-popup-2289690
 discovermagazine.com##.basement
+discovermagazine.com##.wp_popup_overlay
 discovery.com##.shared__scrolled.headerMain__main:style(position: relative !important; top: 0 !important;)
 disney.com##.social-links
 dispatchtribunal.com###exit-overlay
@@ -4267,6 +4270,12 @@ etsy.com##.on.banner_page_type_search.tall.grey-banner.smart-banner
 etsy.com##.on.banner_page_type_view_listing.tall.grey-banner.smart-banner
 eurekalert.org##.hidden-search.hidden-print.toolbar
 eurogamer.net##.social-buttons
+euronews.com###cookie_banner
+euronews.com###js-back-to-top
+euronews.com###js-header-sticky:style(position: absolute !important;)
+euronews.com##.c-social-share.collapse.row
+euronews.com##.spnf_right.spnf_ticker
+euronews.com##.stick.jsArticleReadingWidget.media__article-reading:style(position: absolute !important;)
 eurosport.com###header-sharing:style(position: relative !important; top: 0 !important;)
 eurosport.com###nav:style(position: relative !important; top: 0 !important;)
 eurosport.com###top:style(position: relative !important; top: 0 !important;)
@@ -5695,6 +5704,8 @@ guampdn.com##.site-nav-social-link.site-nav-icon-link.site-nav-last-secondary-li
 guampdn.com##.story-tools
 guampdn.com##.utility-bar-wrap
 guidepatterns.com###itfbppl_overlay
+guinnessworldrecords.com###cookie_alert
+guinnessworldrecords.com##.page-controls-share
 gulflive.com###adhesionUnit
 gulflive.com###adv_header:style(position: relative !important; top: 0 !important;)
 gulflive.com###adv_mobi_edition
@@ -6443,9 +6454,11 @@ indiatimes.com###pushSec
 indiatimes.com###topNavFixed:style(position: relative !important; top: 0 !important;)
 indiatimes.com##.badge_new
 indiatimes.com##.fixed.shareVert.sharingBox
+indiatimes.com##.js-common-hook.hook-section
 indiatimes.com##.leftsocial
 indiatimes.com##.ntfc_overlay
 indiatimes.com##.ntfc_popup
+indiatimes.com##.shareBar
 indiatimes.com##.showBtmBar.articlelist_container
 indiatimes.com##.sticky.leftsocial
 indiatimes.com##.topArtAd.clearfix
@@ -7663,6 +7676,8 @@ longreads.com##.sd-sharing.sd-social-icon.sd-social.sd-block.robots-nocontent
 longreads.com##.support-footer
 longwarjournal.org##.social-share
 longwarjournal.org##.sticky.nav.row:style(position: relative !important;)
+lookout.com###page:style(margin-top: 0px !important;)
+lookout.com##.sticky-wrap:style(position: relative !important;)
 lookupbook.net###banner:style(position: relative !important; top: 0 !important;)
 lordandtaylor.com##.back-to-top
 lowes.com###social-share-bar
@@ -10456,6 +10471,7 @@ politicususa.com##.social_header.pull-right
 politifact.com###social
 polygon.com###chorus-social-fixed
 polygon.com##.c-global-header__social
+polygon.com##.c-social-buttons--popover
 polygon.com##.dfp_ad--held-area.dynamic-js-slot
 polygon.com##.l-feature.l-segment > .c-social-buttons
 polygon.com##.main-social.c-social-buttons
@@ -10987,6 +11003,7 @@ rare.us##.dyMonitor.dyother.post-card-v3__sharing.post-card-v3
 rare.us##.header:style(position: relative !important;)
 rare.us##.utility__item:nth-of-type(3)
 rare.us##body:style(padding-top: 0px !important;)
+rarepepewallet.com##.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important;)
 rasmussenreports.com###cboxOverlay
 rasmussenreports.com###colorbox
 rasmussenreports.com##.join-us.module-c
@@ -16412,6 +16429,7 @@ zyngaplayerforums.com##.Reactions
 ||extremetech.com/g00/$script,first-party,important
 ||facebook.com/plugins/like.php$subdocument
 ||facebook.com/plugins/likebox.php$subdocument
+||facebook.com/plugins/share_button.php$subdocument
 ||facebook.com/v2.10/plugins/like.php$subdocument
 ||facebook.com/v2.4/plugins/page.php$subdocument
 ||facebook.com/v2.5/plugins/page.php
