@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 10:26 AM 2018-01-23
+! Last Modified: 9:52 AM 2018-01-25
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -5427,6 +5427,9 @@ google.com##.ng-scope:style(position: relative !important; top: 0 !important;)
 google.com##.nocontent.devsite-top-section:style(position: relative !important; top: 0 !important;)
 google.com##.social-sharing-widgets
 google.com##:xpath(.//*[@id='gbw']/div/div/div[2]//div[3][@aria-label="promo"])
+google.org###crisis-badge:style(position: absolute !important;)
+google.org##.fixed.share:style(position: absolute !important;)
+google.org##.header:style(position: relative !important;)
 googleblog.blogspot.com###sidebar-top
 googleblog.blogspot.com##.share
 googleblog.com##.adb-footer-social
@@ -6251,6 +6254,7 @@ ibm.com##.ibm-txtcenter.share-blocks
 ibtimes.co.in##.fixed-social.sticky
 ibtimes.co.uk###article-left-side-share-panel
 ibtimes.co.uk###navi-wrap:style(position: relative !important; top: 0 !important;)
+ibtimes.co.uk##.hidden-print.share
 ibtimes.co.uk##.share_horizontal
 ibtimes.co.uk##.top-block-soc-wrap.clearfix
 ibtimes.com###block-ibtimes-newsletters-morning-insights
@@ -6609,6 +6613,8 @@ intelligencecommunitynews.com##.sd-sharing-enabled.sharedaddy
 intellihub.com##.ess-social-network-lists
 intellihub.com##.fuze360AdsTakeoverOverlay
 intellihub.com##.td-scroll-up-visible.td-scroll-up
+intercom.com##.header__wrap:style(position: absolute !important;)
+intercom.com##.social
 internet-bikes.com###robin_tab_container
 internet-bikes.com##.abs_bottom.footer_wrapper
 internet-bikes.com##.cookiebar
@@ -6724,6 +6730,7 @@ itsgoingdown.org##.td-with-like.td-post-sharing-bottom.td-post-sharing
 itsnicethat.com##.site-header-slice__fixer:style(position: relative !important; top: 0 !important;)
 itstillworks.com##.header:style(position: relative !important; top: 0 !important;)
 itsyourturnblog.com##.u-tintSpectrum.u-tintBgColor.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorDarker.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
+itunescharts.net##.ad_responsive
 ivpn.net##.rocketchat-widget
 ivpn.net##header > .bg-white.tank:style(position: absolute !important; top: 0 !important;)
 iwaspoisoned.com###header:style(position: relative !important; top: 0 !important;)
@@ -7085,6 +7092,10 @@ kodi.tv###cookie-popup
 kodi.tv###sliding-popup
 kodi.tv##.breadcrumb-navi:style(position: relative !important;)
 kodi.tv##.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important;)
+koditips.com###main-header:style(position: absolute !important;)
+koditips.com###page-container:style(padding-top: 0px !important; margin-top: 0px !important;)
+koditips.com##.a2a_vertical_style.a2a_floating_style.a2a_kit_size_32.a2a_kit
+koditips.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 kohls.com###persistent_bar_container:style(position: relative !important;)
 koin.com###p0
 koin.com##.entry-header-sharing.sd-social-icon.robots-nocontent
@@ -10325,6 +10336,7 @@ pizzabottle.com##.g1-loaded.g1-sticky-top-wrapper:style(position: relative !impo
 pizzabottle.com##.mashsb-micro
 pizzabottle.com##.mashsb-micro-toggle
 pizzabottle.com##.mashsb-stretched.mashsb-side.mashsb-container
+pjmedia.com###desktop-notification-ask-dialog
 pjmedia.com###email-signup-sidebar
 pjmedia.com###header-mobile-email-button
 pjmedia.com###social
@@ -11235,6 +11247,7 @@ reddit.com##.newsletter-container.newsletterbar.infobar
 reddit.com##.seo-comments
 reddit.com##.seo-comments-recommendations.spacer
 reddit.com##.welcome.infobar
+reddit.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 redditblog.com##.footer-share
 redditblog.com##.header-social
 redditgifts.com##.js-header-main.header-main:style(position: absolute !important;)
@@ -13712,6 +13725,9 @@ thenews-messenger.com##.site-nav-social-link.site-nav-icon-link.site-nav-first-s
 thenews-messenger.com##.site-nav-social-link.site-nav-icon-link.site-nav-first-secondary-link.site-nav-end-link.site-nav-link-theme-dark-green.site-nav-link
 thenews-messenger.com##.story-tools
 thenews-messenger.com##.utility-bar-wrap
+thenewsminute.com###sticky:style(position: absolute !important;)
+thenewsminute.com##.share-links-wrapper
+thenewsminute.com##.social_icons
 thenewsstar.com##.android-smart-banner.smart-banner
 thenewsstar.com##.bx-creative
 thenewsstar.com##.bx-impress-in
@@ -14626,6 +14642,9 @@ turnto10.com##.visible.sd-news-main-footer.component-story-footer-v1
 turnto10.com##body:style(padding-top: 0px !important;)
 tutanota.com##.navbar-fixed-top.navbar-bottom.navbar:style(position: relative !important; top: 0 !important;)
 tv.com##.header_bar.m:style(position: absolute !important; top: 0 !important;)
+tvaddons.co##.td-affix.td-header-main-menu.td-header-border.td-header-row:style(position: absolute !important;)
+tvaddons.co##.td-header-sp-top-widget
+tvaddons.co##.td-social-list
 tvguide.com###content-wrap:style(margin-top: 0px !important;)
 tvguide.com###header:style(position: relative !important; top: 0 !important;)
 tvguide.com##.ad-dfp
@@ -14638,6 +14657,8 @@ twentytwowords.com###social-bar-wide
 twincities.com##.article-share
 twincities.com##.headroom--pinned.headroom--not-top.headroom.default.site-header:style(position: relative !important; top: 0 !important;)
 twincities.com##.headroom--unpinned.headroom--not-top.headroom.default.site-header:style(position: relative !important; top: 0 !important;)
+twingalaxies.com###main_navbar:style(position: absolute !important;)
+twingalaxies.com##.mainmyheader.main:style(position: absolute !important;)
 twinsdaily.com###fixed-header:style(position: relative !important; top: 0 !important;)
 twitch.tv##.balloon-wrapper.top-share-container
 twitch.tv##.js-nav-header.nav-header > nav:style(position: relative !important; top: 0 !important;)
@@ -16429,6 +16450,7 @@ zyngaplayerforums.com##.Reactions
 ||extremetech.com/g00/$script,first-party,important
 ||facebook.com/plugins/like.php$subdocument
 ||facebook.com/plugins/likebox.php$subdocument
+||facebook.com/plugins/page.php$subdocument
 ||facebook.com/plugins/share_button.php$subdocument
 ||facebook.com/v2.10/plugins/like.php$subdocument
 ||facebook.com/v2.4/plugins/page.php$subdocument
