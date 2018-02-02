@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 3:10 PM 2018-02-01
+! Last Modified: 10:17 AM 2018-02-02
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -1948,8 +1948,8 @@ c4isrnet.com##.sticky-chain-nav.attach:style(position: relative !important; top:
 calgaryherald.com##.mobile-header.header-nav:style(position: relative !important; top: 0 !important;)
 calgaryherald.com##.top-bar:style(position: relative !important; top: 0 !important;)
 californiasunday.com##.banner.site-header
+californiasunday.com##.navigation-bar:style(position: absolute !important;)
 californiasunday.com##.site-nav:style(position: absolute !important;)
-californiasunday.com##.site-nav:style(position: absolute top: 0 !important;)
 californiasunday.com##.story-actions
 californiasunday.com##.story-endcap
 californiasunday.com##.toc-follow-promo
@@ -12105,6 +12105,7 @@ silive.com##.sticky-nav-show.sticky-nav:style(position: relative !important; top
 silive.com##.sticky-nav:style(position: relative !important; top: 0 !important; transition: none !important;)
 silive.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 similarweb.com###js-stickyElement
+similarweb.com##.postPage-social
 simplehuman.com##.meshim_widget_components_mobileChatButton_TappingScreen
 simplehuman.com##.show.fixed.page-header:style(position: relative !important; top: 0 !important;)
 simplehuman.com##.zopim
@@ -12139,6 +12140,7 @@ slate.com###article_rollup
 slate.com###header_social
 slate.com###plus-upsell-adblock
 slate.com###sidebar_toggle
+slate.com##.article__share-sidebar
 slate.com##.footer-base
 slate.com##.footer-tiles
 slate.com##.fullwidth-wrapper
@@ -12148,7 +12150,9 @@ slate.com##.newsletter-signup-component
 slate.com##.notification
 slate.com##.sharing-buttons.centered.horiz-counts-mobile.social
 slate.com##.slate-share
+slate.com##.social-share
 slate.com##.social.social-with-popup
+slate.com##.strapline__social.social
 slate.com##.tablet-ad
 sleek-mag.com###masthead:style(position: absolute !important;)
 sleek-mag.com###share-box-fixed
@@ -12927,6 +12931,7 @@ tdameritrade.com##.stock-footer-open.stock-footer:style(position: relative !impo
 tdbank.com##.td-cs-primary.td-callout-secondary.td-callout
 tdhopper.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 teamtreehouse.com##nav:style(position: absolute !important;)
+tearsheet.co##.article_social
 techbargains.com###tb-slide-nav:style(position: relative !important; top: 0 !important;)
 techcrunch.com##.ad-300x250.ad-unit
 techcrunch.com##.ad-cluster-container
@@ -14191,6 +14196,7 @@ theverge.com##.m-nav:style(position: relative !important; top: 0 !important;)
 theverge.com##.m-nav__container
 theverge.com##.m-nav__tabs
 theverge.com##.main-social.c-social-buttons
+theverge.com##.main-social.c-social-buttons--popover
 theverge.com##.social-media-column.clearfix.instapaper_ignore.entry-unrelated
 theverge.com##.tab-bar-fixed.c-tab-bar
 thewalrus.ca###button-share
@@ -14481,6 +14487,7 @@ topic.com##.Header-directionUp.Header-header:style(position: absolute !important
 topic.com##.HeaderGrid-socialList
 topic.com##.IssueNav-directionUp
 topic.com##.IssueNav-directionUp.IssueNav-header:style(position: relative !important; top: 0 !important; transition: none !important;)
+topic.com##.IssueNav-to-up.IssueNav-header:style(position: absolute !important;)
 topic.com##.ShareButton-shareContainer
 topsiteslike.com###back-top
 topsiteslike.com###catapult-cookie-bar
