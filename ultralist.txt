@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 10:09 AM 2018-02-05
+! Last Modified: 8:57 AM 2018-02-06
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -738,6 +738,8 @@ americanow.com###header-container-inner:style(position: relative !important; top
 americanow.com##.is-at-top.is-stuck.sticky.top-stories:style(position: relative !important; top: 0 !important;)
 americanprides.org##.mashsb-stretched.mashsb-main.mashsb-container
 americanprogress.org##.row.custom-bg
+americanscientist.org##.article__socialmedia
+americanscientist.org##.nav-down.banner:style(position: absolute !important;)
 amnesty.org##.header--fixed.header--subnav.header:style(position: relative !important; top: 0 !important;)
 ampproject.org##.masthead:style(position: relative !important; top: 0 !important;)
 amusingplanet.com##.adslot_1.adsbygoogle
@@ -5893,7 +5895,10 @@ hbr.org##.sticky-top-header:style(position: absolute !important; top: 0 !importa
 hbr.org##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 hcn.org###exposeMask
 hcn.org###overlay-newsletter001
-hcn.org##.fixed:style(position: relative !important; top: 0 !important;)
+hcn.org##.fixed:style(position: absolute !important;)
+hcn.org##.hide-on-scroll.facebook.icon
+hcn.org##.hide-on-scroll.twitter.icon
+hcn.org##.slideup.paywall
 headmelted.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.js-metabar.u-clearfix.metabar
 healio.com##.mobile-view.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 health24.com###header:style(position: relative !important; top: 0 !important;)
@@ -7967,6 +7972,7 @@ marketwatch.com###storytoolsplaceholder
 marketwatch.com##.container--trending.container
 marketwatch.com##.fa-twitter.fa.twitter.social-link
 marketwatch.com##.fixed.column--full.column:style(position: relative !important; top: 0 !important; padding-bottom: 10px !important;))
+marketwatch.com##.fixed.region--masthead.region:style(position: absolute !important;)
 marketwatch.com##.fyre-notifier-container
 marketwatch.com##.page--body:style(padding-top: 40px !important;)
 marketwatch.com##.region--masthead:style(padding-top: 0px !important;)
@@ -9530,6 +9536,13 @@ nootrobox.com##.navbar-fixed-top.navbar
 nordbayern.de##header:style(position: relative !important; top: 0 !important;)
 nordstrom.com###rfx-main-header:style(position: relative !important; top: 0 !important;)
 nordstrom.com##.rfx_2Hle-.rfx_OOTKW.rfx_25d6c.rfx_QDHp6.rfx_gS72H.rfx_1rJbt:style(position: relative !important;)
+northernvirginiamag.com##.hide-for-small.fixed-me.hide-on-print.share-article
+northernvirginiamag.com##.icon-1x.facebook
+northernvirginiamag.com##.icon-1x.instagram
+northernvirginiamag.com##.icon-1x.twitter
+northernvirginiamag.com##.is_stuck.hide-for-small.fixed-me.hide-on-print.share-article
+northernvirginiamag.com##.style1.header:style(position: relative !important;)
+northernvirginiamag.com##.tve-leads-lightbox.tve_post_lightbox.tve_tcb2_blank
 northjersey.com##.android-smart-banner.smart-banner
 northjersey.com##.bx-creative
 northjersey.com##.bx-impress-in
@@ -9692,12 +9705,17 @@ nytimes.com###Top
 nytimes.com###TopAd
 nytimes.com###acm-wrapper
 nytimes.com###australia-today-email-signup
+nytimes.com###bottom-wrapper
 nytimes.com###breaking-news-email-promo
 nytimes.com###cooking-email-signup
 nytimes.com###critical-alerts
 nytimes.com###d-promo-realestate
 nytimes.com###dfp-ad-mid1
 nytimes.com###dfp-ad-mid2
+nytimes.com###dfp-ad-mid3
+nytimes.com###dfp-ad-mid4
+nytimes.com###dfp-ad-mid5
+nytimes.com###dfp-ad-mid6
 nytimes.com###digital_hoverCraft
 nytimes.com###dual_hoverCraft
 nytimes.com###duallink
@@ -9726,6 +9744,11 @@ nytimes.com###sports-email-promo
 nytimes.com###step-two-modal
 nytimes.com###story-ad-1-slug
 nytimes.com###story-ad-1-wrapper
+nytimes.com###story-ad-10-wrapper
+nytimes.com###story-ad-11-wrapper
+nytimes.com###story-ad-12-wrapper
+nytimes.com###story-ad-13-wrapper
+nytimes.com###story-ad-14-wrapper
 nytimes.com###story-ad-2-slug
 nytimes.com###story-ad-2-wrapper
 nytimes.com###story-ad-3-slug
@@ -11217,6 +11240,7 @@ recode.net###social-header
 recode.net##.c-global-header__social
 recode.net##.c-newsletter-promo
 recode.net##.c-social-buttons
+recode.net##.c-social-buttons--popover
 recode.net##.m-ad__athena.m-ad__dynamic_ad_unit.m-ad
 recode.net##.m-ad__btf_leaderboard_variable.m-ad__dynamic_ad_unit.m-ad
 recode.net##.m-ad__btf_medium_rectangle_variable.m-ad__dynamic_ad_unit.m-ad
@@ -15236,6 +15260,9 @@ virginia.gov##header:style(position: relative !important; top: 0 !important;)
 virginiawinefest.com###PopupSignupForm_0
 virginiawinefest.com###slidingbar-area
 virginiawinefest.com##.fusion-social-networks-wrapper
+virusbulletin.com###toTop
+virusbulletin.com##.NDPHPBlock
+virusbulletin.com##.bs-docs-nav.navbar-default.navbar-fixed-top.navbar:style(position: absolute !important;)
 virustotal.com###toolbar:style(position: absolute !important; top: 0 !important;)
 virustotal.com##.navbar-fixed-top.navbar:style(position: relative !important; top: 0 !important;)
 visa.com##.blue.destination-header.header:style(position: relative !important; top: 0 !important;)
@@ -15471,6 +15498,7 @@ washingtonpost.com##.powa-shot-sharing-item.powa-shot-sharing-social.franklin-bo
 washingtonpost.com##.ripple-wrapper
 washingtonpost.com##.row.signup-module
 washingtonpost.com##.separator
+washingtonpost.com##.showSubscription.pb-font-smoothing.pb-subscribe-newsletter.pb-subscribe-promo.pb-subscribe
 washingtonpost.com##.sign-up-buttons:style(right: -15px !important; height: 60px !important; width: 112px !important; top: 0 !important; position: relative !important; background-color: #000000 !important;)
 washingtonpost.com##.site-header.bar-hidden:style(height: 80px !important; transition: none !important; webkit-transition: none !important; transform: none !important;)
 washingtonpost.com##.social-tools-wrapper
