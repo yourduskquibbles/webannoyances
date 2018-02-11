@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 9:26 PM 2018-02-08
+! Last Modified: 2:27 PM 2018-02-11
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -87,6 +87,7 @@
 ##.sdc-site-share--amp.sdc-site-share
 ##.share-bar
 ##.share-toolbar.proxima.hide-for-small
+##.sharebar
 ##.sharer
 ##.sharingfooter
 ##.sharrre-container
@@ -2085,6 +2086,7 @@ cbsnews.com##.module-follow-us.module
 cbsnews.com##.no-mantle-skin.ad-leader-plus-top
 cbsnews.com##.no-mantle-skin.dark-theme.ad-leader-top
 cbsnews.com##.nocontent.site-header:style(position: relative !important;)
+cbsnews.com##.sharebar
 cbsnews.com##.site-footer:style(padding-bottom: 0px !important;)
 cbsnews.com##.site-header--is-sticky.nocontent.site-header:style(position: relative !important; top: 0 !important;)
 cbsnews.com##.smart-banner-cbsn
@@ -2788,6 +2790,7 @@ commercialappeal.com##.site-nav-social-link.site-nav-icon-link.site-nav-first-se
 commercialappeal.com##.story-tools
 commercialappeal.com##.utility-bar-wrap
 commondreams.org###block-block-47
+commondreams.org###header-container:style(position: absolute !important;)
 compact-dynamics.de###kopf:style(position: absolute !important;)
 completemusicupdate.com###cookie-law-info-bar
 complex.com###cmplx-navigation:style(position: relative !important; top: 0 !important;)
@@ -4179,6 +4182,7 @@ eonline.com##.rail__mps-ad
 eonline.com##.social
 eonline.com##.social-links.horizontal
 epi.org###epi-email-signup-backdrop
+epicgames.com##.fixed.top.blog-social
 epicurious.com##.expanded.riser
 epicurious.com##.links-list
 epicurious.com##.no-border.fullwidth.newsletter
@@ -5711,6 +5715,8 @@ gsa.gov##.hidden-xs:style(position: relative !important; top: 0 !important;)
 gsmarena.com###footer-side:style(position: relative !important; top: 0 !important;)
 gsmarena.com###header:style(position: absolute !important;)
 gsmarena.com###social-connect
+gsu.edu###fixed-util-bar:style(position: absolute !important;)
+gsu.edu##.essb_bottombar
 gsuitetips.com###od-header:style(position: relative !important; top: 0 !important;)
 gsuitetips.com###od-navbar:style(position: relative !important; top: 0 !important;)
 guampdn.com##.android-smart-banner.smart-banner
@@ -6891,9 +6897,11 @@ jpost.com##.banner2016.position-control-8-in-div-2
 jpost.com##.bar-footer.bar.footer-banner
 jpost.com##.header-menu-site-scrollingLogo.header-menu-site
 jpost.com##.header-social-wrap
+jpost.com##.header-wrap:style(position: absolute !important;)
 jpost.com##.newsletter-signup-wrap.position-control-1-in-div-2
 jpost.com##.sign-up-wrap
 jpost.com##.social-share-buttons
+jpost.com##.subscribe-top-page:style(position: absolute !important;)
 jsonline.com##.android-smart-banner.smart-banner
 jsonline.com##.bx-creative
 jsonline.com##.bx-impress-in
@@ -8562,6 +8570,7 @@ morningconsult.com##.once-subscribe-modal__body.modal-body
 morningjournal.com##.article.toolbar:style(position: relative !important; top: 0 !important;)
 morningsave.com##.members-only
 motherearthnews.com###mobileHeader:style(position: relative !important; top: 0 !important;)
+motherjones.com###adblock-message
 motherjones.com###block-block-222
 motherjones.com###block-block-506
 motherjones.com###bottom-donate
@@ -9780,6 +9789,7 @@ nytimes.com###story-ad-9-wrapper
 nytimes.com###subscriptionCTA
 nytimes.com###upNext
 nytimes.com###welcome-back-modal
+nytimes.com##.AssetMeta-shareButton--1Ws8t
 nytimes.com##.Block-header--2tzq6:style(position: relative !important;)
 nytimes.com##.Block-noTopBorder--1M81B.Block-header--2tzq6:style(position: relative !important;)
 nytimes.com##.BlockAdvert-ad--2QvJV
@@ -10138,6 +10148,7 @@ parents.com###gigyaShareBarUl
 parents.com##.onScreen.ad.mobileAd.lazyAd
 parktool.com##.fixed-header.header:style(position: absolute !important;)
 parktool.com##.mobile-fixed.section-indicator:style(position: absolute !important;)
+pass.us###info_bar:style(position: absolute !important;)
 pastebin.com###abrpm
 pastebin.com###header:style(position: relative !important; top: 0 !important;)
 pastebin.com###paypal-overlay
@@ -14003,6 +14014,7 @@ theringer.com##.facebook
 theringer.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBottomSection.u-tintSpectrum.u-tintBgColor.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar
 theringer.com##.is-maximized.metabar--affixed.u-tintSpectrum.u-tintBgColor.metabar--hiddenWhenMinimized.metabar--tall.metabar--light.js-metabar.u-clearfix.metabar
 theringer.com##.main-social.c-social-buttons
+theringer.com##.main-social.c-social-buttons--popover
 theringer.com##.tab-bar-fixed.c-tab-bar
 theringer.com##.twitter
 theringer.com##.u-tintSpectrum.u-tintBgColor.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorTransparentWhiteDarker.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
@@ -14261,6 +14273,7 @@ theverge.com##.main-social.c-social-buttons
 theverge.com##.main-social.c-social-buttons--popover
 theverge.com##.social-media-column.clearfix.instapaper_ignore.entry-unrelated
 theverge.com##.tab-bar-fixed.c-tab-bar
+thevintagenews.com###fader
 thewalrus.ca###button-share
 thewalrus.ca###newsletter
 thewalrus.ca##.do_fade_in_2.navHeader.container
