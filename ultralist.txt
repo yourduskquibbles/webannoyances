@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 3:09 PM 2018-02-11
+! Last Modified: 6:23 PM 2018-02-11
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -3953,7 +3953,9 @@ droidguiding.com###nav-topbar
 dropbox.com###masthead:style(position: relative !important; top: 0 !important;)
 dropbox.com##.content-area:style(padding-top: 0px !important;)
 dropbox.com##.entry-footer
+dropbox.com##.mast-head:style(position: absolute !important;)
 dropbox.com##.social
+dropbox.com##.visible.ha
 dropboxforum.com###header:style(position: relative !important; top: 0 !important;)
 drudgereport.com###pds-sharing
 drweil.com###js-header-inner
@@ -3964,11 +3966,15 @@ dslreports.com###share-buttons
 dsogaming.com###cookie-law-info-bar
 dsogaming.com###masthead:style(position: relative !important; top: 0 !important;)
 dsogaming.com##.dd_post_share
+duckduckgo.com###header_wrapper:style(position: relative !important;  top: 0 !important;)
 duckduckgo.com##.atb-banner
 duckduckgo.com##.atb-loaded.atb-banner__btn--standalone.btn.js-atb-banner
 duckduckgo.com##.badge-link--newsletter.badge-link--thumbnail.js-badge-link.badge-link--serp.badge-link
 duckduckgo.com##.is-stuck.has-dropdowns.js-zcm-sticky.metabar--fixed.metabar:style(position: absolute !important; top: 0 !important;)
-duckduckgo.com##.js-header-wrap.header-wrap:style(position: relative !important; top: 0 !important;)
+duckduckgo.com##.js-badge-link.ddg-extension-hide.badge-link--fadein.badge-link--top.badge-link
+duckduckgo.com##.js-badge-link.ddg-extension-hide.badge-link--serp.badge-link
+duckduckgo.com##.js-header-wrap.header-wrap:style(position: relative !important; top: 0 !important; transition: none !important;)
+duckduckgo.com##body:style(padding-top: 0px !important;)
 dudasite.com###dmBackToTop
 duellplumbingandheating.com###mobile-above-header
 duffelblog.com###nav-wrapper
