@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 8:29 AM 2018-02-12
+! Last Modified: 11:45 AM 2018-02-12
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -1235,6 +1235,7 @@ bangordailynews.com##.contentBanner.adSpot
 bangordailynews.com##.leaderboard.adSpot
 bankofcanada.ca##.ga-event
 bankrate.com##.glyphicon-arrow-up.glyphicon
+bankrate.com##.social-share
 barneys.com##.fixed.header:style(position: relative !important; top: 0 !important;)
 barrons.com###share-tools
 barstoolsports.com###header:style(position: relative !important; top: 0 !important;)
@@ -2211,6 +2212,7 @@ chefsteps.com##.bottom-bar-items
 chefsteps.com##.cs-nav:style(position: relative !important; top: 0 !important;)
 chefsteps.com##.ng-scope.bottom-bar
 chefsteps.com##.ng-scope.nav-visible.nav-fixed.cs-nav-container:style(position: relative !important; top: 0 !important;)
+chefsteps.com##madlib
 cheftalk.com###site-header:style(position: relative !important; top: 0 !important;)
 chemistryworld.com##.fixed.showMenuPushed.container.desktopNavigation:style(position: relative !important; top: 0 !important;)
 chewy.com##.header-top:style(position: relative !important;)
@@ -5289,6 +5291,8 @@ github.com##body:style(overflow-x: hidden !important; overflow-y: auto !importan
 github.io###header:style(position: relative !important;)
 github.io##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 github.io##.site-header:style(position: absolute !important;)
+gitlab.com##.active.js-sticky-banner.sticky-banner
+gitlab.com##.navbar-default.navbar-fixed-top.navbar:style(position: absolute !important;)
 gitlab.com##.navbar-gitlab-new.navbar-gitlab.navbar:style(position: absolute !important;)
 gitlab.com##.with-horizontal-nav.navbar-gitlab.navbar:style(position: relative !important; top: 0 !important;)
 givingusa.org##.clear-fix.show-for-large-up.contain-to-grid.top-bar-container:style(position: absolute !important;)
@@ -9574,6 +9578,10 @@ nola.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;
 nomadicmatt.com##.nav-primary:style(position: relative !important; top: 0 !important;)
 nomadicmatt.com##.site-title:style(position: relative !important; top: 0 !important;)
 nomadicmatt.com##.topbutton
+nomnompaleo.com###gmm-menu-bar
+nomnompaleo.com###scrollUp
+nomnompaleo.com###simple-social-icons-3
+nomnompaleo.com##.share-medium
 nootrobox.com##.article__sidebar__container
 nootrobox.com##.navbar-fixed-top.navbar
 nordbayern.de##header:style(position: relative !important; top: 0 !important;)
@@ -10890,6 +10898,7 @@ project-syndicate.org##.header-component.small-mt-0:style(position: relative !im
 project-syndicate.org##.sticky--is-stuck.support-ps.sticky__footer
 projectcensored.org###lpl
 projectcensored.org###lpl-overlay
+projectpiglet.com##.addtoany_content_top.addtoany_content.addtoany_share_save_container
 projectveritas.com##.active.ts-mega-menu.megaWrapper.ts-sticky-menu:style(position: absolute !important;)
 projectveritas.com##.addtoany_content_bottom.addtoany_share_save_container
 proofpoint.com##.scroll-header.js-header.header:style(position: relative !important; top: 0 !important;)
@@ -11128,6 +11137,7 @@ ramedium.com##.heateor_sss_bottom_sharing.heateor_sss_vertical_sharing.heateor_s
 ramedium.com##.heateor_sss_horizontal_sharing.heateor_sss_sharing_container
 ramw.org###fixed_section
 ramw.org###top_section:style(position: relative !important; top: 0 !important;)
+rand.org###header:style(position: absolute !important;)
 ranker.com###commonHead:style(position: absolute !important;)
 ranker.com##.footNav__group--social.footNav__group.lowercase
 rapidcityjournal.com###main-body-container:style(margin-top: 20px !important;)
@@ -12022,6 +12032,7 @@ sensorstechforum.com##.sticky-nav.menu-box:style(position: relative !important; 
 seoulselection.com##.social
 seriouseats.com###cad16-pop-up
 seriouseats.com##.d-sticky.header-wrapper
+seriouseats.com##.se-pinit.nav-share
 seriouseats.com##.sidebar-bng-fixed.sidebar-bng-inner
 serverless.com##._2fXpN
 serverless.com##.lIvzX:style(position: relative !important; top: 0 !important;)
@@ -13311,6 +13322,8 @@ thebaffler.com##.scroll-to-fixed-fixed.gap.donate.fixed-widget
 thebaffler.com##.smaller.header
 thebaffler.com##.social.offset-sm-2.col-sm-8.offset-md-0.col-md-1
 thebalance.com##.header-condensed.header.comp:style(position: relative !important; top: 0 !important;)
+thebaycitybeacon.com###site-navbar-container:style(position: relative !important;)
+thebaycitybeacon.com##.asset-paging
 thebeaverton.com##.show-for-small.hide-on-print.share-article
 thebiglead.com###header-sticky-wrapper:style(position: relative !important; top: 0 !important;)
 thebiglead.com###nav-branding-sticky-wrapper:style(position: relative !important;)
@@ -14522,6 +14535,7 @@ timesrecordnews.com##.site-nav-social-link.site-nav-icon-link.site-nav-link-them
 timesrecordnews.com##.story-tools
 timesrecordnews.com##.utility-bar-wrap
 timleland.com###iframeContent:style(top: 0px !important;)
+timleland.com##.scroll-to-top
 timleland.com##.stb-bottom-right-container.stb-container
 timsquirrell.com##.responsive-padding--right.responsive-padding--left.header-announcement-wrapper.sqs-announcement-bar-dropzone:style(position: relative !important; top: 0 !important;)
 tinkercad.com###navbar:style(position: absolute !important; top: 0 !important;)
@@ -14629,6 +14643,8 @@ tour-magazin.de##.a2a_vertical_style.a2a_floating_style.a2a_kit_size_32.a2a_kit.
 tour-magazin.de##.social
 tour-magazin.de##nav.set.top.stucked:style(position: relative !important; top: 0 !important;)
 toutkickthecoverage.com##.mashsb-stretched.mashsb-main.mashsb-container
+towardsdatascience.com##.u-tintSpectrum.u-tintBgColor.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar:style(position: absolute !important;)
+towardsdatascience.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
 townandcountrymag.com##.active.social-menu
 townandcountrymag.com##.content-nav-active.sticky.nav:style(position: relative !important; top: 0 !important;)
 townandcountrymag.com##.embed-related-content
@@ -15950,6 +15966,7 @@ wired.com###wiredwidgetsmarketing-3.widget.WiredWidgetsMarketing
 wired.com##.advertisement__leaderboard
 wired.com##.cm-subscribe-link-wrapper
 wired.com##.component-sticky:style(position: relative !important; top: 0 !important;)
+wired.com##.desktop-nav-sign-in-component > .sign-in-link-component:style(position: absolute !important;)
 wired.com##.footer__list--social
 wired.com##.header--collapsed:style(position: relative !important; top: 0 !important;)
 wired.com##.header--default.header:style(position: absolute !important;)
