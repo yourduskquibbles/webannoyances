@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 10:52 AM 2018-02-13
+! Last Modified: 3:41 PM 2018-02-13
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -839,6 +839,8 @@ ap.org##.clearfix.share-block
 ap.org##.ndn_floatContainer_enabled
 apartments.com###mainHeader:style(position: relative !important; top: 0 !important;)
 apartments.com###rentRollups:style(position: relative !important; top: 0 !important;)
+apify.com###intercom-container
+apify.com###xxx:style(position: absolute !important;)
 apkcreative.com##.zik-header-container:style(position: absolute !important;)
 apnews.com###header:style(position: absolute !important;)
 apnews.com##.footerColumn.followFooter
@@ -6344,6 +6346,8 @@ huffpost.com##.bn-share-bottom.share-bar--bottom.share-bar
 huffpost.com##body:style(padding-top: 0px !important;)
 hulu.com###banner:style(position: absolute !important; top: 0 !important;)
 humanbeatbox.com###back-top
+humblebundle.com##.js-maintain-scrollbar-on-dropdown.s-fixed.js-sticky-navbar.sticky-navbar
+humblebundle.com##.js-navigation-container-v2.navigation-container-v2:style(position: relative !important;)
 hunker.com###site-header:style(position: absolute !important;)
 hunker.com##.email-capture-popup-wrapper--visible.email-capture-popup-wrapper
 hunker.com##.is-sticky.social-share-icons-wrapper
@@ -6706,6 +6710,7 @@ instagram.com##:xpath(.//*[@role="alert"])
 institutionalinvestor.com###compressed-navbar:style(position: relative !important; top: 0 !important;)
 instle.com###logo:style(position: relative !important; top: 0 !important;)
 instructables.com###explore-header:style(position: relative !important; top: 0 !important;)
+instructables.com###main-header:style(position: absolute !important;)
 instructables.com###search-header:style(position: relative !important; top: 0 !important;)
 instructables.com##.affix.sticky-header
 instructables.com##.scroll-to-top
@@ -6842,6 +6847,11 @@ ithacajournal.com##.site-nav-social-link.site-nav-icon-link.site-nav-first-secon
 ithacajournal.com##.site-nav-social-link.site-nav-icon-link.site-nav-first-secondary-link.site-nav-end-link.site-nav-link-theme-dark-green.site-nav-link
 ithacajournal.com##.story-tools
 ithacajournal.com##.utility-bar-wrap
+itnews.com.au###article-scroll:style(position: absolute !important;)
+itnews.com.au###follow-us
+itnews.com.au##.article-share
+itnews.com.au##.fixed.show-for-large-up.collapse.full-width.row:style(position: absolute !important;)
+itnews.com.au##.fixed.sticky:style(position: absolute !important;)
 itsfoss.com##.cookie-notice-container
 itsfoss.com##.light.site-header:style(position: absolute !important;)
 itsfoss.com##.scroll-up
@@ -8648,7 +8658,9 @@ montrealgazette.com##.track_event.nav-wrap:style(position: relative !important; 
 moralmachine.mit.edu##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
 morningconsult.com###header-main:style(position: relative !important; top: 0 !important;)
 morningconsult.com###once-subscribe-modal
+morningconsult.com##.is-hidden-mobile.single-post__social
 morningconsult.com##.once-subscribe-modal__body.modal-body
+morningconsult.com##.single-post__content__subscribe
 morningjournal.com##.article.toolbar:style(position: relative !important; top: 0 !important;)
 morningsave.com##.members-only
 motherearthnews.com###mobileHeader:style(position: relative !important; top: 0 !important;)
