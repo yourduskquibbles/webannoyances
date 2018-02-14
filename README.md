@@ -10,6 +10,8 @@ floating navigation boxes, jump to top, interstitial site overlays, subscription
 
 When possible, sticky headers, stickynavs, floating elements, scrolling videos and more will be pinned in place to prevent site breakage.
 
+The [demonstration page](https://github.com/yourduskquibbles/webannoyances/wiki/Demonstration-of-Web-Annoyances-Ultralist) provides visual examples of Web Annoyances Ultralist in action.
+
 ## Requirements
 This filter list aims to remove annoying web elements that block your view of the screen and is created and optimized using the [uBlock Origin Extended Syntax](https://github.com/gorhill/uBlock/wiki/Static-filter-syntax).
 
