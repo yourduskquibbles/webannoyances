@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 7:45 AM 2018-02-14
+! Last Modified: 9:22 AM 2018-02-14
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -1965,6 +1965,7 @@ buzzfeed.com##:xpath(.//*[@data-module="action-bar-subbuzz"])
 buzzfeed.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 bythewavs.com##.nav-primary:style(position: relative !important; top: 0 !important;)
 c-span.org##.facebook
+c-span.org##.share
 c-span.org##.twitter
 c0reteam.org##.topbar:style(position: relative !important; top: 0 !important;)
 c4isrnet.com###page-content > .js-pubsub-module.has-secondary-nav.layout-module.no-subscribe-now.generic-module
@@ -10294,6 +10295,7 @@ pastemagazine.com##.detail.master-header.center:style(position: relative !import
 pastemagazine.com##.landing.master-header.center:style(position: relative !important; top: 0 !important;)
 pastemagazine.com##.ui-front.ui-widget-overlay
 pastemagazine.com##.ui-helper-clearfix.ui-corner-all.ui-widget-header.ui-dialog-titlebar:style(position: relative !important; top: 0 !important;)
+pasztor.at##.cookieconsent--notshown.cookieconsent--notblocked.cookieconsent--dnt.cookieconsent--js.cookieconsent
 patch.com###slide-nav:style(position: relative !important; top: 0 !important;)
 patch.com##.air-md.text-center
 patch.com##.header-container:style(position: relative !important; top: 0 !important;)
@@ -11491,7 +11493,7 @@ redding.com##.story-tools
 redding.com##.utility-bar-wrap
 reddit.com###header-bottom-right:style(position: absolute !important;)
 reddit.com###jumpToContent
-reddit.com###sr-header-area:style(position: relative !important;)
+reddit.com###sr-header-area:style(position: absolute !important; width: 100% !important;)
 reddit.com##.DualPartInterstitialFooter
 reddit.com##.DualPartInterstitial__common
 reddit.com##.DualPartInterstitial__content
@@ -12131,6 +12133,7 @@ seekingalpha.com##.portfolio-main.side-portfolio-wrapper:style(position: relativ
 seekingalpha.com##.rta_nav.ver_e
 seekingalpha.com##.sa-app-banner-directive
 seekingalpha.com##.tw-svg.sl-tw
+seisukeknife.com##.isStuck.stuckMenu:style(position: absolute !important;)
 seleniumhq.wordpress.com###actionbar
 seleniumhq.wordpress.com###jp-post-flair > .sd-sharing-enabled.sharedaddy
 self.com###box-ad-sidebar\ ads-container-item
@@ -12475,6 +12478,8 @@ snopes.com##.widget_social.social-2.widget
 snopes.com##.widget_social.social-5.widget
 snopes.com##.widget_social.social-6.widget
 snopes.com##.widget_social.social-7.widget
+snowehome.com###promo:style(position: absolute !important;)
+snowehome.com##.sticky.navbar-fixed-top.navbar-default.navbar
 sochi2014.com##.b-sociality-menu
 sociable.co###nav-wrap
 sofrep.com###mobile-menu:style(position: relative !important; top: 0 !important;)
@@ -13160,6 +13165,7 @@ tcpalm.com##.story-tools
 tcpalm.com##.utility-bar-wrap
 tdameritrade.com##.stock-footer-open.stock-footer:style(position: relative !important; top: 0 !important;)
 tdbank.com##.td-cs-primary.td-callout-secondary.td-callout
+tdbank.com##.td-header-collapsed.second-level-nav:style(position: absolute !important;)
 tdhopper.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 teamtreehouse.com##nav:style(position: absolute !important;)
 tearsheet.co##.article_social
@@ -14618,6 +14624,7 @@ time.com##.social-container
 time.com##.ssv3-social.ssv3-nav__social
 time.com##.top-banner:style(position: relative !important; top: 0 !important;)
 time.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
+time2hack.com##.floating-active.floating-header
 timeanddate.com###socialButton
 timeanddate.com##.sticky.fixed:style(position: relative !important; top: 0 !important;)
 timeline.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.u-tintSpectrum.u-tintBgColor.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
