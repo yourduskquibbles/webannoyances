@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 3:59 PM 2018-02-14
+! Last Modified: 5:28 PM 2018-02-14
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -2132,6 +2132,7 @@ cc.com###header_content
 cc.com###oo_tab_1
 cc.com###tcr-header:style(position: relative !important; top: 0 !important;)
 cc.com##.primary_background.top_outer:style(position: relative !important; top: 0 !important;)
+ccn.com##.optin-monster-overlay
 cdapress.com##.fixed.sticky.contain-to-grid:style(position: relative !important; top: 0 !important;)
 cdc.gov###socialMediaShareContainer
 ceb.com##.stick.header-menu:style(position: relative !important; top: 0 !important;)
@@ -4640,6 +4641,7 @@ fdlreporter.com##.utility-bar-wrap
 features.wearemel.com##.js-promo.promo--postFooter.promo
 federalbaseball.com##.tab-bar-fixed.c-tab-bar:style(position: relative !important; top: 0 !important;)
 federalnewsradio.com##.Entry-infoSocial
+federalnewsradio.com##.header:style(position: absolute !important;)
 federalnewsradio.com##.promo-inline
 federaltimes.com##.sticky-chain-nav.attach:style(position: relative !important; top: 0 !important; width: 100% !important;)
 fedscoop.com###welcomeadMask
@@ -4939,8 +4941,10 @@ fourweekmba.com##.onesignal-bell-container-bottom-right.onesignal-reset.onesigna
 fox-it.com###cookiemessage
 fox-it.com##.back-to-top.button--back-to-top.button--icon.button
 fox-it.com##.loaded.navigation.doc__main-nav:style(position: absolute !important;)
-fox10phoenix.com###header:style(position: relative !important; top: 0 !important;)
+fox10phoenix.com###header:style(position: absolute !important;)
 fox10phoenix.com###smartbanner
+fox10phoenix.com##.social-dropdown
+fox10phoenix.com##.social-share
 fox11online.com###facebookShare
 fox11online.com##.component-ddb-300x250-v1
 fox11online.com##.component-ddb-300x250_vertical-v1
@@ -8135,12 +8139,15 @@ marthastewart.com##.footer-sticky-social-container
 marthastewart.com##.mobile-ad-unit
 marthastewart.com##.mslo-share-bar-wrap
 mashable.com###newsletter-signup
+mashable.com###peek > div:nth-of-type(1) > div
 mashable.com###scrollable:style(padding-top: 0px !important;)
 mashable.com###share-nav
 mashable.com###site-header:style(position: relative !important; top: 0 !important;)
 mashable.com###sticky:style(position: relative !important; top: 0 !important;)
 mashable.com##.article-shares-links
 mashable.com##.article-shares-stub
+mashable.com##.fb_digioh-margin
+mashable.com##.fb_digioh-overlay-fixed.fb_digioh-overlay
 mashable.com##.follow-channel
 mashable.com##.jw-sharing-dock-btn.jw-reset.jw-background-color.jw-dock-button
 mashable.com##.microcontent-shares
@@ -9143,6 +9150,7 @@ nbcnewyork.com##.socialNetworks-top
 nbcnewyork.com##.stickyNav.nav-landing.navbar:style(position: relative !important; top: 0 !important;)
 nbcnewyork.com##.stickyNav.navbar:style(position: relative !important; top: 0 !important;)
 nbcnewyork.com##.swiper-container-android.swiper-container-horizontal.quick-nav
+nbcolympics.com###sticky-player-wrapper:style(position: absolute !important;)
 nbcolympics.com##.header.site-header:style(position: relative !important; transition: none !important;)
 nbcolympics.com##.social-sharing
 nbcolympics.com##body:style(margin-top: 0px !important; transition: none !important; transform: none !important;)
