@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 10:05 AM 2018-02-14
+! Last Modified: 10:49 AM 2018-02-14
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -11500,14 +11500,13 @@ redding.com##.story-tools
 redding.com##.utility-bar-wrap
 reddit.com###header-bottom-right:style(position: absolute !important;)
 reddit.com###jumpToContent
-reddit.com###sr-header-area:style(position: absolute !important; width: 100% !important;)
+reddit.com###sr-header-area:style(position: relative !important; width: 100% !important;)
 reddit.com##.DualPartInterstitialFooter
 reddit.com##.DualPartInterstitial__common
 reddit.com##.DualPartInterstitial__content
-reddit.com##.NavFrame__below-op-nav > .PostsFromSubredditPage > .XPromoListingClickModal
 reddit.com##.NavFrame__below-top-nav:style(padding-top: 0px !important;)
 reddit.com##.SmartBanner
-reddit.com##.TopNav:style(position: relative !important; top: 0 !important;)
+reddit.com##.TopNav:style(position: relative !important;)
 reddit.com##.TransparentOverlay
 reddit.com##.TransparentOverlay__overlay
 reddit.com##.XPromoListingClickModal
@@ -11518,7 +11517,7 @@ reddit.com##.listingsignupbar.infobar
 reddit.com##.newsletter-container.newsletterbar.infobar
 reddit.com##.seo-comments
 reddit.com##.seo-comments-recommendations.spacer
-reddit.com##.tabmenu:style(position: relative !important;)
+reddit.com##.tabmenu:style(position: absolute !important;)
 reddit.com##.welcome.infobar
 reddit.com##body::before:style(position: relative !important;)
 reddit.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
