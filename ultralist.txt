@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 6:18 PM 2018-02-15
+! Last Modified: 6:37 PM 2018-02-15
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -318,7 +318,7 @@ abclocal.go.com##.fbShare
 abclocal.go.com##.links
 abclocal.go.com##.shareThis
 abclocal.go.com##.socialNetworks
-abcnews.go.com###abcn-videoplayer:style(position: static !important;)
+abcnews.go.com###abcn-videoplayer:style(position: absolute !important;)
 abcnews.go.com###global-header:style(position: absolute !important;)
 abcnews.go.com###header-wrapper:style(position: absolute !important;)
 abcnews.go.com###header-wrapper:style(width: 100% !important;)
@@ -12984,6 +12984,7 @@ sueddeutsche.de##.article-sidebar-actions
 sueddeutsche.de##.er-header__bar:style(position: absolute !important;)
 sueddeutsche.de##.szig-pp-header__bar:style(position: relative !important; top: 0 !important;)
 sueddeutsche.de##.szig-sharing
+sun-sentinel.com##.met-flyout
 sun-sentinel.com##.met-promo
 sun-sentinel.com##.trb_ar_h > .trb_sc
 sun-sentinel.com##.trb_bnn
