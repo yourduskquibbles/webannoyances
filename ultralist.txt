@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:45 AM 2018-02-19
+! Last Modified: 9:49 AM 2018-02-20
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -1321,8 +1321,10 @@ baysidestarnews.com.au##.header.siteNav:style(position: relative !important; top
 baysidestarnews.com.au##.mobile-scrolling-nav:style(position: relative !important; top: 0 !important;)
 bbc.co.uk###page-bookmark-links-head
 bbc.co.uk##.amp-o-share-tools
+bbc.co.uk##.nav__progress-stuck.section-header__orb.section-header:style(position: absolute !important;)
 bbc.co.uk##.navigation__orb-stuck.navigation:style(position: relative !important; top: 0 !important;)
 bbc.co.uk##.section-navigation.stick:style(position: relative !important; top: 0 !important;)
+bbc.co.uk##.share__tools
 bbc.com###follow-us
 bbc.com###share-tools-top
 bbc.com###sticky-player-1:style(position: relative !important; top: 0 !important;)
@@ -6756,6 +6758,11 @@ intellihub.com##.fuze360AdsTakeoverOverlay
 intellihub.com##.td-scroll-up-visible.td-scroll-up
 intercom.com##.header__wrap:style(position: absolute !important;)
 intercom.com##.social
+interestingengineering.com###cookie-warning
+interestingengineering.com###header:style(position: absolute !important;)
+interestingengineering.com###newsletter-modal
+interestingengineering.com##.in.fade.modal-backdrop
+interestingengineering.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 internet-bikes.com###robin_tab_container
 internet-bikes.com##.abs_bottom.footer_wrapper
 internet-bikes.com##.cookiebar
