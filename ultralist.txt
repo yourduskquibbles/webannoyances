@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:46 AM 2018-02-20
+! Last Modified: 1:15 PM 2018-02-20
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -6806,10 +6806,12 @@ inverse.com##.active.-modal.promos-newsletter.rail__bottom
 inverse.com##.active.timespy.article-slidein-newsletter.right-left.article-slidein.fixed
 inverse.com##.app-header.flex:style(position: relative !important; top: 0 !important;)
 inverse.com##.app-link.btn--schmocial.-left.-side.-up.app-tab.btn--facebook.app-tabs__social.btn
+inverse.com##.fixed.header-container:style(position: absolute !important;)
 inverse.com##.flex-centered.flex.app-fullpage.promos-newsletter-slidein.promos-newsletter-page
 inverse.com##.locked.flatiron-app.consumer.article-route.article-channel.app
 inverse.com##.newsletter-modal--lists.newsletter-modal
 inverse.com##.newsletter-signup.newsletter-inline
+inverse.com##.scrollspy.newsletter-accordion.contained
 inverse.com##.socials
 inverse.com##.sticky.header-container:style(position: relative !important; top: 0 !important;)
 investmentwatchblog.com###article-bottom-ad
@@ -10117,6 +10119,10 @@ omeleto.com##.social-media-right-mid
 omnichest.info###header
 onceuponachef.com##.jw-header.fixedready.topbar:style(position: relative !important; top: 0 !important;)
 ondevice.io###mainNav:style(position: absolute !important;)
+onegreenplanet.org###totalcounts
+onegreenplanet.org##.social-mob
+onegreenplanet.org##.sociallinks
+onegreenplanet.org##.subscribebox
 onkette.com##.td-pb-padding-side.td-post-sharing-top.td-post-sharing
 onlineathens.com###navbar:style(position: relative !important; top: 0 !important;)
 onlyinyourstate.com##.mobile-share-bar-on.mobile-share-bar
@@ -11563,9 +11569,10 @@ reddit.com##.listingsignupbar.infobar
 reddit.com##.newsletter-container.newsletterbar.infobar
 reddit.com##.seo-comments
 reddit.com##.seo-comments-recommendations.spacer
+reddit.com##.side:style(position: relative !important;)
 reddit.com##.tabmenu:style(position: absolute !important;)
 reddit.com##.welcome.infobar
-reddit.com##body::before:style(position: relative !important;)
+reddit.com##body::before:style(position: relative !important; height: 0px !important;)
 reddit.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 reddit.com##script:inject(set-constant.js,isPinned,true)
 redditblog.com##.footer-share
@@ -14247,6 +14254,9 @@ theregister.co.uk###site_nav:style(position: relative !important; top: 0 !import
 theregister.co.uk###top_nav:style(position: relative !important; top: 0 !important;)
 theregister.co.uk##.article_social_btns
 theregister.co.uk##.dcl.alt_colour.bot_article.social_btns
+therepublic.com##.td-affix.td-header-gradient.td-header-menu-wrap:style(position: absolute !important;)
+therepublic.com##.td-scroll-up-visible.td-scroll-up
+therepublic.com##.td_block_social_counter
 theresurgent.com##.social
 theresurgent.com##.socnet
 therightscoop.com###trs_connect-2
