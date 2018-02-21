@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 5:02 PM 2018-02-20
+! Last Modified: 7:09 AM 2018-02-21
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -156,6 +156,8 @@
 1843magazine.com##.masthead:style(position: relative !important; top: 0 !important;)
 1843magazine.com##.menu__social-media-icons.views-field-nothing-1.views-field
 1843magazine.com##.social-media
+20k.org##.full-width-height.layer-front.sqs-slide-layer
+20k.org##.overlay-mobile-styles-enabled
 20minutes.fr##.navbar:style(position: relative !important; top: 0 !important;)
 20minutes.fr##.pinned.headroom--not-top.headroom--not-bottom.animated.navbar:style(position: relative !important; top: 0 !important;)
 247sports.com###site-header:style(position: absolute !important;)
@@ -1048,6 +1050,8 @@ atr.org###pop_up
 atr.org##.fancybox-wrap.fancybox-desktop.fancybox-type-iframe.fancybox-opened
 atr.org##.navbar:style(position: relative !important; top: 0 !important;)
 atr.rollcall.com###share-top
+atrium.co##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
+atrium.co##.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.js-metabar.u-clearfix.metabar:style(position: absolute !important;)
 att.com##.fixed-search.lia-quilt-row-search_row.lia-quilt-row:style(position: relative !important;)
 att.com##.ftr-social-links
 auburnpub.com###main-body-container:style(padding-top: 0px !important; margin-top: 0px !important;)
@@ -1439,6 +1443,7 @@ bitcoinmagazine.com##.bm-banner:style(position: absolute !important;)
 bitcointechtalk.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
 bitcointechtalk.com##.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: absolute !important;)
 bitmoji.com##.header:style(position: absolute !important;)
+bitshouts.com###nav-topbar:style(position: absolute !important;)
 bitstamp.net###header:style(position: absolute !important;)
 bittrex.com###mainNav:style(position: absolute !important;)
 bizjournals.com###boundary-2__sticker-0 > .sm-only__expander.xs-only__expander
@@ -5611,16 +5616,22 @@ gq.com###follow-us
 gq.com###nav-holder:style(position: relative !important; top: 0 !important;)
 gq.com###react-app:style(overflow-x: hidden !important; overflow-y: auto !important;)
 gq.com###social-hub
+gq.com##.article-header
 gq.com##.best-reads-list-inline.best-reads-list
 gq.com##.closed.social-share-article-heading.component-social-share
 gq.com##.closed.social-share-embedded-image.component-social-share
 gq.com##.closed.social-share-photo-essay-heading.component-social-share
 gq.com##.closed.sub-header-social-share.component-social-share
 gq.com##.cm-footer-component
+gq.com##.cm-header
 gq.com##.cm-mobile-header-text-container
+gq.com##.component-social-share
 gq.com##.container.desktop-header:style(position: relative !important; top: 0 !important;)
 gq.com##.desktop-header-utils
 gq.com##.dropdown-container
+gq.com##.gq-navigation__container:style(position: absolute !important;)
+gq.com##.gq-navigation__newsletter-form-container:style(position: absolute !important;)
+gq.com##.gq-navigation__search-form-container:style(position: absolute !important;)
 gq.com##.gq-style-navigation-compressed.container.component-gq-style-navigation:style(position: relative !important; top: 0 !important;)
 gq.com##.instream-1.article-inline-ad
 gq.com##.instream-2.article-inline-ad
@@ -7508,6 +7519,7 @@ latimes.com##.trb_sc_item
 latimes.com##.trb_sntAd.trb_ar_rail_ad.trb_gptAd
 laughingsquid.com###dd_ajax_float
 laughingsquid.com##.shareaholic-canvas
+launchdarkly.com##.resp_full_width_menu.head-container:style(position: absolute !important;)
 lauradhamilton.com###connect
 law.com###brand-nav:style(position: absolute !important;)
 law.com##.scrolled.major.main-nav-grey:style(position: absolute !important;)
@@ -8856,6 +8868,9 @@ muricatoday.com##.td-affix.td-header-menu-wrap:style(position: relative !importa
 muricatoday.com##.td-scroll-up-visible.td-scroll-up
 muricatoday.com##.td-with-like.td-post-sharing-bottom.td-post-sharing
 muricatoday.com##.td-with-like.td-post-sharing-top.td-post-sharing
+musicbusinessworldwide.com##.clearfix.mb-social.mb-block
+musicbusinessworldwide.com##.mb-advert__incontent
+musicbusinessworldwide.com##.mb-popup.mb-newsletter.mb-block
 musictimes.com##.art-share
 muslimpress.com###base-header:style(position: relative !important; top: 0 !important;)
 muslimpress.com###share-icons
@@ -12672,6 +12687,11 @@ spectrumnews.org##.chapter-navigation
 spectrumnews.org##.main-bar:style(position: relative !important; top: 0 !important;)
 spectrumnews.org##.sidebar
 spectrumnews.org##.social-icons
+speedrun.com##.curse-01.centered.panel
+speedrun.com##.curse-02.centered.panel
+speedrun.com##.curse-03.centered.panel
+speedrun.com##.curse-04.centered.panel
+speedrun.com##.navbar-inverse.navbar-fixed-top.navbar:style(position: absolute !important;)
 spiceworks.com##.affix--noborder.affix.topic-header:style(position: absolute !important;)
 spiceworks.com##.affix.slot-1-background
 spiceworks.com##.navaffix.domestic-nav:style(position: relative !important; top: 0 !important;)
@@ -14511,6 +14531,9 @@ thetowntalk.com##.site-nav-social-link.site-nav-icon-link.site-nav-first-seconda
 thetowntalk.com##.site-nav-social-link.site-nav-icon-link.site-nav-first-secondary-link.site-nav-end-link.site-nav-link-theme-dark-green.site-nav-link
 thetowntalk.com##.story-tools
 thetowntalk.com##.utility-bar-wrap
+thetrace.org###newsletter-signup
+thetrace.org##.article-footer__share-tools
+thetrace.org##.utility-social
 thetruthaboutguns.com###header:style(position: relative !important; top: 0 !important;)
 thetruthaboutguns.com##.next-previous_nav_next.next-previous_nav
 thetruthaboutguns.com##.next-previous_nav_previous.next-previous_nav
