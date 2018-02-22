@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 9:54 AM 2018-02-22
+! Last Modified: 3:33 PM 2018-02-22
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -40,13 +40,12 @@
 ##.actnbr-has-follow.actnbr-pub-isola
 ##.addthis-button
 ##.android-smart-banner.smart-banner
-##.annotateButton.js_text-annotate.text-annotation-button.icon.icon-plus-circle.text-annotation-button-shown
+##.annotateButton
 ##.buttonSet--highlightMenu.buttonSet
 ##.bx-creative
 ##.bx-impress.bx-fx-zoom-in
 ##.c-social-buttons
 ##.cc_banner-wrapper
-##.columns.twelve.mobile-four.post-bottom
 ##.connect_blue
 ##.fa-envelope.fa
 ##.fa-facebook.fa
@@ -1253,6 +1252,8 @@ bankrate.com##.glyphicon-arrow-up.glyphicon
 bankrate.com##.social-share
 barneys.com##.fixed.header:style(position: relative !important; top: 0 !important;)
 barrons.com###share-tools
+barrons.com##.article_tools
+barrons.com##.style__is-fixed_352o-fQyD96fdZgGCrBcZu:style(position: absolute !important;)
 barstoolsports.com###header:style(position: relative !important; top: 0 !important;)
 barstoolsports.com##.articleFooterSocial
 barstoolsports.com##.articleSocial
@@ -2200,6 +2201,9 @@ channelnewsasia.com##.wrapper-nav:style(position: relative !important; top: 0 !i
 chargeorigin.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
 chargeprotect.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
 charlestoncitypaper.com##.FooterboardMobileParent
+charlottefive.com##.mailmunch-topbar
+charlottefive.com##.td-post-sharing-top.td-post-sharing
+charlottefive.com##.td-scroll-up-visible.td-scroll-up
 charlotteobserver.com###newsletter-signUpWidget
 charlotteobserver.com##.cta-fullwidth.subscription-cta-widget
 charlotteobserver.com##.share-tools-wrapper
@@ -2982,13 +2986,16 @@ counterpunch.org##.print-link-top
 counterpunch.org##.sd-sharing-enabled.sharedaddy
 countryliving.com##.share-module
 couponcabin.com###couponcabin-notification
+couponcabin.com###gc-promo
+couponcabin.com###howtoTrigger
 couponcabin.com###ledger-overview
+couponcabin.com###msg-terms-agree
 couponcabin.com###store-bar:style(position: relative !important; top: 0 !important;)
 couponcabin.com##.fa-arrow-circle-up.fa
 couponcabin.com##.fancybox-overlay-fixed.fancybox-overlay
 couponcabin.com##.warning-message
-couponcabin.com##body > .fancybox-margin:nth-of-type(1):style(position: relative !important; top: 0 !important;)
-couponcabin.com##header:style(position: relative !important; top: 0 !important;)
+couponcabin.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
+couponcabin.com##header:style(position: absolute !important;)
 couponchief.com###link2hiw
 couponchief.com##.coupon-code-cover
 couponchief.com##.navbar-fixed-top.navbar:style(position: relative !important; top: 0 !important;)
@@ -7176,6 +7183,9 @@ khaleejtimes.com###foxpush_subscribe
 khaleejtimes.com##.logoarea:style(position: relative !important;)
 khaleejtimes.com##.vuukle-powerbar-processed.vuukle-powerbar-vertical
 khaleejtimes.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
+khn.org###header-site:style(position: absolute !important;)
+khn.org##.email-signup
+khn.org##.inline.related
 khou.com##.ad
 khou.com##.header:style(position: relative !important; top: 0 !important;)
 khou.com##.is_stuck.site-nav:style(position: relative !important; top: 0 !important;)
@@ -10143,6 +10153,7 @@ okayplayer.com##.affix.site-header:style(position: relative !important; top: 0 !
 okayplayer.com##.page-meta-links-container
 okcupid.com##DIV[style=" background: #142d69; padding: 14px 12px 20px; border-radius: 0 5px 5px 0;\a \9 -moz-border-radius: 0 5px 5px 0;\a \9 -webkit-border-radius: 0 5px 5px 0;\a \9  "]
 olympic.org###nav:style(position: absolute !important;)
+om.co##.social
 omaha.com###site-navbar-container:style(position: relative !important; top: 0 !important;)
 omeleto.com###myModal
 omeleto.com###reveal-modal-bg
@@ -11698,6 +11709,7 @@ restonnow.com###top-bar:style(position: relative !important; top: 0 !important;)
 retailmenot.com###quick-feedback
 retailmenot.com##.code-cover
 retailmenot.com##.csat-survey-content
+retailmenot.com##.genie-banner.js-genie-banner
 retropie.org.uk###header-menu:style(position: absolute !important;)
 retropie.org.uk##.md-header:style(position: absolute !important;)
 reuters.com###breakingNewsContainer:style(position: relative !important; top: 0 !important;)
@@ -12193,6 +12205,8 @@ seattletimes.com##.modal
 seattletimes.com##.modals
 seattletimes.com##.title.article-share
 seattletimes.com##.vertical.article-share
+sec-consult.com###social_widget-5
+sec-consult.com##.nav-growpop
 secapps.com##.nav.header:style(position: absolute !important;)
 seccountry.com##.cm-ad-block
 secondnexus.com###sb_super_bar
