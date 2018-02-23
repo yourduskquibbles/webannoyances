@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 3:36 PM 2018-02-23
+! Last Modified: 5:46 PM 2018-02-23
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -1719,6 +1719,9 @@ bourbonblog.com###signupModal
 bourbonblog.com##.modal-backdrop.fade.in
 boxwind.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute !important;)
 bpimedia.com###header-wrap:style(position: absolute !important;)
+bps.org.uk##.mc-modal
+bps.org.uk##.mc-modal-bg
+bps.org.uk##.site-title-wrapper > .social-menu
 bradenton.com###newsletter-signUpWidget
 bradenton.com###story-cta-widget
 bradenton.com##.share-tools-wrapper
@@ -2706,6 +2709,9 @@ coindesk.com##.widget_coindesk_freestar_atf_ad_unit_widget.widget
 coindesk.com##.widget_coindesk_freestar_btf_ad_unit_widget.widget
 coindesk.com##.wpsr-floatbar-float_left.wpsr-floatbar-white.wpsr-floatbar-movable.clearfix
 coindesk.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
+coinsocial.io##.dpsp-networks-btns-wrapper
+coinsocial.io##.slidebottom.wpoi-show.inc_optin_2.inc_optin.wpoi-animate.inc_opt_popup
+coinsocial.io##.wpoi-popup-overlay
 cointelegraph.com###mc-embedded-subscribe-form
 cointelegraph.com###social-wrapper
 coleysolutions.com###\#top:style(position: absolute !important; top: 0 !important;)
@@ -6295,6 +6301,13 @@ howtheyplay.com###stickyfooterad
 howtogeek.com##.email-overlay
 howtogeek.com##.how-to-geek-follow
 howtogeek.com##.overlay-wrapper
+howtogeek.com##.social-media-buttons > .share-heading
+howtogeek.com##.social-share.facebook
+howtogeek.com##.social-share.g-plus
+howtogeek.com##.social-share.linkedin
+howtogeek.com##.social-share.pocket
+howtogeek.com##.social-share.reddit
+howtogeek.com##.social-share.twitter
 howtosolutions.net###cookie-law
 howtosolutions.net###socialsharebuttons
 howwegettonext.com##.is-maximized.is-transitioning.u-tintSpectrum.u-tintBgColor.metabar--hiddenWhenMinimized.metabar--tall.metabar--dark.js-metabar.u-clearfix.metabar
@@ -9235,6 +9248,8 @@ nbcnewyork.com##.stickyNav.nav-landing.navbar:style(position: relative !importan
 nbcnewyork.com##.stickyNav.navbar:style(position: relative !important; top: 0 !important;)
 nbcnewyork.com##.swiper-container-android.swiper-container-horizontal.quick-nav
 nbcolympics.com###sticky-player-wrapper:style(position: absolute !important;)
+nbcolympics.com##.aside.schedule-block:style(position: relative !important;)
+nbcolympics.com##.filter-sticky.ng-scope.schedule-page-filter-sticky-processed.filter-block:style(position: absolute !important;)
 nbcolympics.com##.header.site-header:style(position: relative !important; transition: none !important;)
 nbcolympics.com##.social-sharing
 nbcolympics.com##body:style(margin-top: 0px !important; transition: none !important; transform: none !important;)
@@ -10206,6 +10221,7 @@ openculture.com##.socialblock
 opendemocracy.net##.a2a_default_style.a2a_kit_size_36.a2a_kit
 openelec.tv###ca_banner
 opengarden.com##.birdseye-header:style(position: absolute !important;)
+openload.co##.share-icons
 openstreetmap.org##.welcome
 opentable.com##.navbar--fixed.navbar:style(position: relative !important; top: 0 !important;)
 oppidanspirits.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
@@ -10844,6 +10860,7 @@ politicususa.com##.adsbygoogle
 politicususa.com##.social-sharethis-post
 politicususa.com##.social_header.pull-right
 politifact.com###social
+politifact.com##.article__share
 polygon.com###chorus-social-fixed
 polygon.com##.c-global-header__social
 polygon.com##.c-social-buttons--popover
@@ -17001,6 +17018,7 @@ zyngaplayerforums.com##.Reactions
 ||$subdocument,domain=nasdaq.com,important
 ||4dsply.com$script,domain=realclearpolitics.com
 ||adage.com/article$inline-script,first-party
+||alluc.ee/ximg/buttondl.png$image
 ||amazonaws.com/*/264.js$script,domain=realclearpolitics.com
 ||app.adjust.com^$first-party
 ||bostonreview.net/sites/default/files/js/$script,first-party
