@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 8:43 AM 2018-02-26
+! Last Modified: 11:28 AM 2018-02-26
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -2261,16 +2261,16 @@ chemistryworld.com##.fixed.showMenuPushed.container.desktopNavigation:style(posi
 chewy.com##.header-top:style(position: relative !important;)
 chicago.suntimes.com###actionbar
 chicago.suntimes.com###primary-navigation:style(position: relative !important; top: 0 !important;)
-chicagobusiness.com###clear-nav-account:style(position: relative !important; top: 0 !important;)
-chicagobusiness.com###clear-nav-date:style(position: relative !important; top: 0 !important;)
-chicagobusiness.com###clear-nav-share
-chicagobusiness.com###live:style(position: relative !important; top: 0 !important;)
-chicagobusiness.com###main-header:style(position: relative !important; top: 0 !important;)
-chicagobusiness.com###main-nav:style(position: relative !important; top: 0 !important;)
+chicagobusiness.com###clear-nav-account:style(position: absolute !important; transition: none !important;)
+chicagobusiness.com###clear-nav-date:style(position: absolute !important; transition: none !important;)
+chicagobusiness.com###live:style(position: absolute !important; transition: none !important;)
+chicagobusiness.com###main-header:style(position: absolute !important; transition: none !important; height: 245px !important; top: 0 !important;)
+chicagobusiness.com###main-nav:style(position: absolute !important; transition: none !important;)
 chicagobusiness.com###share-follow
+chicagobusiness.com###top-ad
 chicagobusiness.com##.dialog-wrapper
+chicagobusiness.com##.logo:style(position: relative !important; transition: none !important;)
 chicagobusiness.com##.read-next-follow.read-next-wrapper
-chicagobusiness.com##.reading-meter-attached.reading-meter:style(position: relative !important; top: 0 !important;)
 chicagocubsonline.com##.nav-primary:style(position: relative !important; top: 0 !important;)
 chicagomag.com###reveal-bar:style(position: relative !important; top: 0 !important;)
 chicagotribune.com###reg-overlay
@@ -3119,6 +3119,15 @@ craftsmanship.net##html:style(margin-top: 0px !important;)
 craftsy.com##.fancybox-skin
 craigslist.org##.querybox:style(position: relative !important; top: 0 !important;)
 craigslist.org##.wide.global-header:style(position: relative !important; top: 0 !important;)
+crainsnewyork.com###clear-nav-account:style(position: absolute !important; transition: none !important;)
+crainsnewyork.com###follow-us-links
+crainsnewyork.com###home-logo:style(transition: none !important;)
+crainsnewyork.com###main-header-rwd:style(position: absolute !important; transition: none !important;)
+crainsnewyork.com###main-nav:style(position: absolute !important; transition: none !important;)
+crainsnewyork.com###section-related-right
+crainsnewyork.com###share-follow
+crainsnewyork.com##.email-signup
+crainsnewyork.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 crateandbarrel.com##.js-email-signup-modal-overlay.email-signup-modal-overlay
 crateandbarrel.com##.js-email-signup-modal.email-signup-promotion.email-signup-modal.email-signup
 crateandbarrel.com##.ui-draggable.ui-front.ui-corner-all.ui-widget-content.ui-widget.ui-dialog
@@ -10239,6 +10248,7 @@ opendemocracy.net##.a2a_default_style.a2a_kit_size_36.a2a_kit
 openelec.tv###ca_banner
 opengarden.com##.birdseye-header:style(position: absolute !important;)
 openload.co##.share-icons
+opensignal.com##.is-scrolled.is-sticky.js-dropdown-opened.js-header.js-sticky-bar.c-header:style(position: absolute !important;)
 openstreetmap.org##.welcome
 opentable.com##.navbar--fixed.navbar:style(position: relative !important; top: 0 !important;)
 oppidanspirits.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
