@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:13 PM 2018-02-27
+! Last Modified: 4:30 PM 2018-02-27
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -253,6 +253,7 @@ abc.net.au##.btn-group.tools
 abc.net.au##.clearfix.share-cont
 abc.net.au##.doctype-cmcollection.view-collection-social-media-promo
 abc.net.au##.mobile-sticky
+abc.net.au##.share
 abc11.com###feature-container:style(position: relative !important; top: 0 !important;)
 abc11.com##.nav-background
 abc11.com##.share-panel-legacy.share-panel
@@ -972,9 +973,9 @@ armis.com##.headhesive--stick.headhesive--clone.navbar-static-top.navbar-default
 armytimes.com###top-header:style(position: relative !important; top: 0 !important;)
 armytimes.com##.site-color.secondary-navigation:style(position: relative !important; top: 0 !important;)
 armytimes.com##.sticky-chain-nav.attach:style(position: relative !important; top: 0 !important; width: 100% !important;)
-arstechnica.co.uk###mobile-masthead:style(position: relative !important; top: 0 !important;)
+arstechnica.co.uk###mobile-masthead:style(position: absolute !important;)
 arstechnica.com###article-footer
-arstechnica.com###mobile-masthead:style(position: relative !important; top: 0 !important;)
+arstechnica.com###mobile-masthead:style(position: absolute !important;)
 arstechnica.com##.scrolled-up.is_stuck.site-header:style(position: relative !important; top: 0 !important;)
 arstechnica.com##.share-buttons
 arstechnica.com##.share-links
@@ -4195,6 +4196,7 @@ electricliterature.com##.u-tintSpectrum.u-tintBgColor.u-xs-sizeFullViewportWidth
 electricliterature.com##.u-tintSpectrum.u-tintBgColor.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorTransparentWhiteDarker.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
 electricliterature.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
 electricliterature.com##.u-xs-height95.u-height105.u-tintBgColor.js-metabarSpacer.metabar--spacer.metabar
+electronicdesign.com##.js-header.header:style(position: absolute !important;)
 electronicsweekly.com###main-nav:style(position: relative !important; top: 0 !important;)
 elektrobike-online.com###main-menu:style(position: absolute !important; top: 0 !important;)
 elektrobike-online.com##.fb
@@ -4535,6 +4537,7 @@ f169bbs.com###topbox:style(position: relative  !important;)
 facebook.com###pagelet_growth_expanding_cta
 facebook.com###stream_pagelet div[id^="feed_stream_"] div[id^="substream_"] div[id^="hyperfeed_story_id_"]:has(a.uiStreamSponsoredLink)
 facebook.com##._11gk
+facebook.com##._1n-x._8k-._3m9:style(position: absolute !important;)
 facebook.com##._2avl
 facebook.com##._5zrt._2x4w:style(position: relative !important; top: 0 !important;)
 facebook.com##.canvas_rating_popout
@@ -5249,13 +5252,13 @@ fusion.net##.related-videos-wrapper
 fusion.net##NAV:style(position: relative !important; top: 0 !important;)
 futureofcapitalism.com###cboxOverlay
 futureofcapitalism.com###colorbox
-futurism.com###headerwrap:style(position: relative !important; top: 0 !important;)
-futurism.com###nav:style(position: relative !important; top: 0 !important;)
+futurism.com###nav:style(position: relative !important;)
 futurism.com###subscribe-modal
-futurism.com##.active.header-minimal:style(position: relative !important; top: 0 !important;)
+futurism.com##.active.header-minimal:style(position: relative !important;)
 futurism.com##.module.big-share-buttons
 futurism.com##.share.module
 futurism.com##.subscribe-form.center
+futurism.com##body:style(border-top: 0px !important;)
 gab.ai##.header:style(position: absolute !important; top: 0 !important;)
 gadgethacks.com###top-nav:style(position: relative !important; top: 0 !important;)
 gadgethacks.com##.nav-menu-block:style(position: relative !important; top: 0 !important;)
@@ -5407,6 +5410,7 @@ github.com##body:style(overflow-x: hidden !important; overflow-y: auto !importan
 github.io###header:style(position: relative !important;)
 github.io##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 github.io##.site-header:style(position: absolute !important;)
+githubuniverse.com##.site-header:style(position: absolute !important;)
 gitlab.com##.active.js-sticky-banner.sticky-banner
 gitlab.com##.navbar-default.navbar-fixed-top.navbar:style(position: absolute !important;)
 gitlab.com##.navbar-gitlab-new.navbar-gitlab.navbar:style(position: absolute !important;)
