@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 1:24 PM 2018-02-28
+! Last Modified: 1:43 PM 2018-02-28
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -8621,6 +8621,8 @@ minimaxir.com##.header-shrink.header-sticky.navbar-fixed-top.header-transparent-
 minimaxir.com##.header-sticky.navbar-fixed-top.header-transparent-bb.header-transparent:style(position: relative !important; top: 0 !important;)
 minimaxir.com##.mega-menu.navbar:style(position: relative !important; top: 0 !important;)
 mint.com##.widget-main.pageContainer
+mintpressnews.com##.site-header:style(position: absolute !important;)
+mintpressnews.com##.socialicons-container
 mirror.co.uk###bottom-article-message
 mirror.co.uk###social-follow
 mirror.co.uk##.active.publication-theme-border.mod-cookiepolicy
@@ -16049,8 +16051,7 @@ washingtonpost.com##.wp-column.partners-holder
 washingtonpost.com##.wpvlb-wrap:style(position: relative !important; top: 0 !important;)
 washingtonpost.com##:xpath(.//*[@class="moat-trackable pb-f-theme-normal full pb-feature pb-layout-item pb-f-page-recommended-strip"])
 washingtonpost.com##body:style(margin-top: 0px !important; padding-top: 0px !important;)
-washingtonpost.com##body:style(overflow-x: hidden !important;)
-washingtonpost.com##html:style(height: initial !important; overflow: auto !important;)
+washingtonpost.com##html:style(height: initial !important; overflow-x: hidden !important; overflow-y: auto !important;)
 washingtontimes.com###contact-links
 washingtontimes.com###feedbackify
 washingtontimes.com###info-bar
