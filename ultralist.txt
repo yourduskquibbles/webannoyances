@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 4:30 PM 2018-02-27
+! Last Modified: 10:04 AM 2018-02-28
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -9666,6 +9666,7 @@ newspunch.com##.mh-back-to-top
 newspunch.com##.wpsso-ssb-content.wpsso-ssb
 newsquest.co.uk###top-nav:style(position: absolute !important; top: 0 !important;)
 newstatesman.com###popup
+newstatesman.com###subscribeForm
 newstatesman.com##.article-footer-promotion
 newstatesman.com##.clearfix.site-header:style(position: relative !important; top: 0 !important;)
 newstatesman.com##.form-submit.button-primary.webform-submit
@@ -10397,7 +10398,6 @@ pagesix.com###outbrain_widget_0
 pagesix.com###page-header:style(position: relative !important; top: 0 !important;)
 pagesix.com###pagesix-app-flyout__wrapper
 pagesix.com###sharebar-social
-pagesix.com##.flag-region
 pagesix.com##.opaque.detached.floating-share
 pagesix.com##.sharebar
 pagesix.com##.vjs-button.vjs-share-control
@@ -12310,7 +12310,8 @@ secondnexus.com###sb_super_bar
 secondnexus.com##.cd-is-visible.df-btn-normal.df-btn.cd-top
 secondnexus.com##.cnsmbl-container-320x50-ads
 secondnexus.com##.mobile-fluid.mobile.df-social-share.df-post-sharing.style2
-securelist.com###masthead:style(position: relative !important; top: 0 !important;)
+securelist.com###masthead:style(position: absolute !important;)
+securelist.com##.widget-pusher-wrap
 securitiesanalytics.com##.logo-left.tc-menu-on.tc-shrink-on.tc-title-logo-on.tc-tagline-off.row-fluid.clearfix.tc-header:style(position: relative !important; top: 0 !important;)
 securitiesanalytics.com##.show.tc-btt-wrapper
 securityweek.com###block-block-19
@@ -13736,6 +13737,8 @@ theblaze.com##.article-footer
 theblaze.com##.mb20.article-sharing
 theblaze.com##body:style(padding-top: 0px !important;)
 thebolditalic.com###nav-wrapper:style(position: relative !important; top: 0 !important;)
+thebreakthrough.org###post_share
+thebreakthrough.org##.share
 thebrewenthusiast.com##.Mobile-bar--top.Mobile-bar:style(position: relative !important; top: 0 !important;)
 thebristolcable.org###eu-cookie
 thebristolcable.org##.fixed-top.header-standard.header:style(position: relative !important; top: 0 !important;)
@@ -15514,6 +15517,7 @@ usenix.org##.field-label-hidden.field-type-link-field.field-name-field-links-soc
 usenix.org##body:style(padding-top: 0px !important;)
 useragents.com##.navbar-header:style(position: relative !important; top: 0 !important;)
 userbenchmark.com##.container-fluid.pagebounds.top-menu:style(position: absolute !important;)
+userscripts-mirror.org###_bftn_wrapper
 userstyles.org###header:style(position: relative !important;)
 userstyles.org##body:style(top: 0px !important;)
 uservoice.com###banner-container
@@ -15695,6 +15699,7 @@ vice.com##.eg.ef.db.da.v.hu > .au
 vice.com##.inline-social
 vice.com##.mobile-hello.mobile-social-tray
 vice.com##.nav-toggle.icon-menu.icon
+vice.com##.newsletter-promo
 vice.com##.nsfw-wrapper
 vice.com##.overlay
 vice.com##.post_footer_social
