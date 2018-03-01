@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:22 PM 2018-03-01
+! Last Modified: 4:01 PM 2018-03-01
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -7009,6 +7009,7 @@ itnews.com.au###follow-us
 itnews.com.au##.article-share
 itnews.com.au##.fixed.show-for-large-up.collapse.full-width.row:style(position: absolute !important;)
 itnews.com.au##.fixed.sticky:style(position: absolute !important;)
+itprotoday.com##.js-header.header:style(position: absolute !important;)
 itsfoss.com##.cookie-notice-container
 itsfoss.com##.light.site-header:style(position: absolute !important;)
 itsfoss.com##.scroll-up
@@ -14793,15 +14794,14 @@ theweek.com###HPPromoBox
 theweek.com###HPSocialBox
 theweek.com###art-subscribe-unit-outer
 theweek.com###art-subscribe-unit-outer-graphic
-theweek.com###header.menu-close:style(position: absolute !important; top: 0 !important;)
-theweek.com###header:style(position: absolute !important; top: 0 !important;)
+theweek.com###header.menu-close:style(position: relative !important;)
+theweek.com###header:style(position: relative !important;)
 theweek.com###left-buttons
 theweek.com###left-footer-subscribe
 theweek.com###mclicksscrollouter
 theweek.com###message
 theweek.com###nfBioTwitter
 theweek.com###promofooter
-theweek.com###sticky-social_718996
 theweek.com###subscribe-btn-mob
 theweek.com##.ad_wrap
 theweek.com##.article-risk-free-offer
@@ -14811,11 +14811,10 @@ theweek.com##.col300_4free
 theweek.com##.col300_signup
 theweek.com##.fb-content.fb-desktop
 theweek.com##.fb-desktop.fb-bar
-theweek.com##.gray-rollover.scroller:style(position: relative !important; top: 0 !important;)
-theweek.com##.header-wrapper:style(position: absolute !important; top: 0 !important;)
-theweek.com##.hideonmobile.right-recirc:style(padding-top: 90px !important;)
+theweek.com##.gray-rollover.scroller:style(position: relative !important;)
+theweek.com##.header-wrapper:style(position: relative !important;)
 theweek.com##.hideoop.promo_subs_unit.oop-ad
-theweek.com##.mobile-extension-header:style(position: absolute !important; top: 0 !important;)
+theweek.com##.mobile-extension-header:style(position: relative !important;)
 theweek.com##.nfSocial
 theweek.com##.sticky-social-inside
 theweek.com##.subscribe-module
@@ -15365,11 +15364,13 @@ twitter.com##.u-boxShadow.ProfileCanopy-navBar:style(position: relative !importa
 twitter.com##.u-cf.OpenInAppBar
 twitter.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 ua-magazine.com##.move.sticky.menu_container:style(position: relative !important; top: 0 !important;)
+uber.com###article-share
 uber.com###mailchimp-top-bar
 uber.com##._style_3caARx:style(position: absolute !important;)
 uber.com##.cmln-header:style(position: absolute !important;)
 uber.com##.et_social_icons_container
 uber.com##.et_social_inline_top.et_social_mobile_on.et_social_inline
+uber.com##.flex-hor-center.flex.z-20.position--fixed.top-bar-wrapper:style(position: absolute !important;)
 uber.com##.social-media-links.palm-one-whole.one-quarter.layout__item
 uber.com##body:style(padding-top: 0px !important;)
 ubergizmo.com##.social_buttons_top_nav
