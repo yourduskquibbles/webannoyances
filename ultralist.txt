@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 4:01 PM 2018-03-01
+! Last Modified: 10:42 AM 2018-03-02
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -3464,8 +3464,10 @@ dailyrecord.com##.story-tools
 dailyrecord.com##.utility-bar-wrap
 dailysignal.com##.facebook
 dailysignal.com##HEADER:style(position: relative !important; top: 0 !important;)
-dailysnark.com##.td-affix.td-header-gradient.td-header-menu-wrap:style(position: relative !important; top: 0 !important;)
-dailysnark.com##.td-header-style-9.td-header-wrap:style(position: relative !important; top: 0 !important;)
+dailysnark.com##.td-a-rec-id-header.td-a-rec
+dailysnark.com##.td-affix.td-header-gradient.td-header-menu-wrap:style(position: relative !important; transform: none !important;)
+dailysnark.com##.td-header-style-9.td-header-wrap:style(position: relative !important;)
+dailysnark.com##.td-post-sharing
 dailysnark.com##.td-scroll-up-visible.td-scroll-up
 dailystar.co.uk###cookielaw
 dailystar.co.uk###smartbanner
@@ -3520,8 +3522,13 @@ dallasnews.com##.in-art-footer.art-share
 dallasnews.com##.in-art-header.art-share
 dallasnews.com##.is-hidden-small.hdr-social
 dallasnews.com##.js-art-pre-body.art-pre-body
-dallasobserver.com##.sde-shadow
-dallasobserver.com##.sticky-bar.masthead:style(position: relative !important; top: 0 !important;)
+dallasobserver.com###subSticky:style(position: relative !important; top: 50px !important;)
+dallasobserver.com##.is_stuck.side-soc.cs-box
+dallasobserver.com##.masthead-socials.socials
+dallasobserver.com##.masthead:after
+dallasobserver.com##.sde-shadow:style(position: absolute !important;)
+dallasobserver.com##.socials
+dallasobserver.com##.sticky-bar.masthead:style(position: absolute !important;)
 dangerousminds.net###blog:style(margin-top: 0px !important;)
 dangerousminds.net###mobile_top:style(position: relative !important; top: 0 !important;)
 dangerousminds.net###sharethisman
@@ -9313,10 +9320,12 @@ nbcmontana.com###header:style(padding-top: 0px !important;)
 nbcmontana.com###site-header:style(position: relative !important; top: 0 !important;)
 nbcmontana.com##.social-share
 nbcnews.com###ember983
+nbcnews.com##._20-Ws2Fn1Y3t_iSqRZ0LON:style(position: relative !important;)
 nbcnews.com##.article_max.article_share.js-share
 nbcnews.com##.article_meta-container.js-bottom-limit
 nbcnews.com##.button-toggle-share
 nbcnews.com##.datapoints__share
+nbcnews.com##.js-social-share
 nbcnews.com##.left_ear_wrap
 nbcnews.com##.rail_article.rail
 nbcnews.com##.sitewide-header-social
