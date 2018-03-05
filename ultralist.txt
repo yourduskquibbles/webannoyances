@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 2:26 PM 2018-03-02
+! Last Modified: 11:26 AM 2018-03-05
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -1528,6 +1528,8 @@ blog.google##.uni-selection-sharer-active.uni-selection-sharer
 blog.google##.uni-sticky-drawer.more-drawer
 blog.google##body > main:style(margin-top: 0px !important; transition: none !important;)
 blog.nomiku.com##.tmblr-iframe--below-header.iframe-controls--phone-mobile.tmblr-iframe--loaded.tmblr-iframe--unified-controls.tmblr-iframe
+blog.twitter.com##.b02-blog-post-no-masthead__share--icons
+blog.twitter.com##.theme-bg-color--dark.sticky.nav:style(position: absolute !important;)
 blogs.office.com##.f-wrap-items.c-group
 blogspot.ca###sidebar-top
 blogspot.ca##.followgooglewrapper
@@ -6275,6 +6277,8 @@ hollywoodreporter.com###site-header:style(position: relative !important; top: 0 
 hollywoodreporter.com###sticky-nav:style(position: relative !important; top: 0 !important;)
 hollywoodreporter.com##.article-share
 hollywoodreporter.com##.dfp-ad--amp
+hollywoodreporter.com##.fa-facebook.list__facebook.fb-square
+hollywoodreporter.com##.fa-twitter.list__twitter.twitter-square
 hollywoodreporter.com##.header-wrapper:style(position: absolute !important; transition: none !important;)
 hollywoodreporter.com##.header-wrapper__secondary-header:style(position: absolute !important; transition: none !important;)
 hollywoodreporter.com##.is-initialized.js-email-subscribe.email-subscribe
@@ -8402,6 +8406,8 @@ mdmag.com##.wrapperAD320x50L
 mdpi.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 mdsec.co.uk###site-header:style(position: absolute !important;)
 meaww.com##.meaww-header__main:style(position: relative !important; top: 0 !important;)
+medgadget.com##.essb_share
+medgadget.com##.soc-media-sharing
 mediaequalizer.com###header:style(position: relative !important; top: 0 !important;)
 mediaite.com###featured-posts-wrap:style(position: relative !important; top: 0 !important;)
 mediaite.com###featured-posts:style(position: relative !important; top: 0 !important;)
@@ -13714,6 +13720,10 @@ theamericanmirror.com##.visible-lg.facebook
 theantimedia.org##.i-amphtml-unresolved.amp-unresolved.i-amphtml-layout-size-defined.i-amphtml-layout-fixed.amp-notbuilt.i-amphtml-notbuilt.i-amphtml-element
 theappendix.net##.communicate
 theappendix.net##.container.social
+theartnewspaper.com###cookie-cosent
+theartnewspaper.com##.article-options-comp
+theartnewspaper.com##.is-sticky.sticky.sticky-navigation-comp
+theartnewspaper.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 theathletic.com###topnav:style(position: relative !important; top: 0 !important;)
 theatlantic.com###action-bar
 theatlantic.com###action-bar:style(position: relative !important; top: 0 !important;)
@@ -14177,8 +14187,8 @@ theindependent.com###site-navbar-container:style(position: relative !important;)
 theindependent.com##.animate.text-center.arrow
 theindependent.com##.garrett-social-links.pull-right.list-inline
 theindychannel.com##.is-active.share__social-items
-theinfatuation.com###header2017:style(position: relative !important; top: 0 !important;)
-theinfatuation.com###subheader:style(position: relative !important; top: 0 !important;)
+theinfatuation.com###header2017:style(position: absolute !important;)
+theinfatuation.com###subheader:style(position: absolute !important;)
 theinformation.com##.hidden-xs.home-page-sticky-header:style(position: relative !important; top: 0 !important;)
 theinformation.com##.sticky-header:style(position: relative !important; top: 0 !important;)
 theinquirer.net###large_share_wrapper
@@ -14887,6 +14897,7 @@ thisisinsider.com##.condensed.masthead:style(position: relative !important; top:
 thisisinsider.com##.is-scrolled.is-masthead-condensed.l-masthead:style(position: relative !important; top: 0 !important;)
 thisisinsider.com##.is-scrolled.l-masthead:style(position: relative !important; top: 0 !important;)
 thisisinsider.com##.main-header:style(position: relative !important; top: 0 !important;)
+thisisinsider.com##.share-wrapper
 thisisinsider.com##.social
 thisiswhyimbroke.com###masthead:style(position: relative !important; top: 0 !important;)
 thisiswhyimbroke.com###mobile-nav:style(position: absolute !important;)
