@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 4:08 PM 2018-03-08
+! Last Modified: 8:33 AM 2018-03-09
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -1976,6 +1976,7 @@ buzzfeed.com###mod-action-bar-1
 buzzfeed.com###mod-action-bar-subbuzz-1
 buzzfeed.com###mod-ad-msu-2
 buzzfeed.com###mod-back-to-top-1
+buzzfeed.com###mod-nav-bar-fixer-1:style(position: absolute !important;)
 buzzfeed.com###mod-newsletter-signup-1
 buzzfeed.com###mod-newsletter-signup-2
 buzzfeed.com###nav-shares
@@ -7921,6 +7922,7 @@ listverse.com##.toolbar:style(position: absolute !important;)
 literaryreview.co.uk##.popup-placer
 lithub.com###post_more_wrapper
 lithub.com##.fixed:style(position: relative !important; top: 0 !important;)
+lithub.com##.memphis-simple.memphis-lightbox.memphis-optin-visible.memphis-ct2uns2q1z-lightbox.memphis-background.optin-monster-saas-overlay
 lithub.com##.sd-sharing-enabled.sharedaddy
 lithub.com##.social_wrapper
 lithub.com##.widget_mc4wp_form_widget.widget
@@ -8410,6 +8412,8 @@ mclaren.com##.load-in.visible.animate-in.white.social-follow.stream-module
 mclaren.com##.nav__store:style(position: absolute !important;)
 mclaren.com##.nav__toggle:style(position: absolute !important;)
 mclaren.com##.show.messages
+mcsweeneys.net##.arrow
+mcsweeneys.net##.social
 mcuexchange.com##.navbar-stuck.has-nav-menu.navbar-sticky.sticky-logo-inherit.header-style-b.mega-menu-dark.navbar-dark.navbar-static-top.navbar:style(position: absolute !important; top: 0 !important;)
 mdjonline.com###site-navbar-container:style(position: relative !important; top: 0 !important;)
 mdjonline.com##.emphasis-h4.block
@@ -17282,14 +17286,10 @@ zyngaplayerforums.com##.Reactions
 ||drudgereport.com$inline-script,first-party,important
 ||dynamicyield.com$script,domain=nasdaq.com
 ||extremetech.com/g00/$script,first-party,important
-||facebook.com/plugins/like.php$subdocument
-||facebook.com/plugins/likebox.php$subdocument
-||facebook.com/plugins/page.php$subdocument
-||facebook.com/plugins/share_button.php$subdocument
-||facebook.com/v2.10/plugins/like.php$subdocument
-||facebook.com/v2.4/plugins/page.php$subdocument
-||facebook.com/v2.5/plugins/page.php
-||facebook.com/v2.9/plugins/share_button.php$subdocument
+||facebook.com/*/like.php$subdocument
+||facebook.com/*/likebox.php$subdocument
+||facebook.com/*/page.php$subdocument
+||facebook.com/*/share_button.php$subdocument
 ||fastly.net$script,domain=nasdaq.com
 ||functionalclam.com^$third-party
 ||g00.extremetech.com^$script,first-party,important
