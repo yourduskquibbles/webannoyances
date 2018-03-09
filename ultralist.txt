@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 1:18 PM 2018-03-09
+! Last Modified: 1:37 PM 2018-03-09
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -1227,7 +1227,10 @@ babycenter.com##.open.reveal-modal
 babycenter.com##.reveal-modal-bg
 babycenter.com##.topShareBar
 babycenter.com##.topSliceShare
+backblaze.com##.blog_share_social_box
 backblaze.com##.dd_outer
+backblaze.com##.nc_socialPanel
+backblaze.com##.top-nav-bar:style(position: absolute !important;)
 backblaze.com##.top-nav-bar:style(position: relative !important; top: 0 !important;)
 backchannel.com##.is-active.popover--top.popover--quoteAttributions.popover--dark.js-popover.popover
 backchannel.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBottomSection.u-tintSpectrum.u-tintBgColor.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar
@@ -14692,18 +14695,17 @@ thespruce.com##.is-collapsed.leaderboard.gpt.js-leaderboard-header.mntl-gpt-adun
 thespruce.com##.pinit-btn
 thespruce.com##.share-item
 thestar.com##.advertisement
+thestar.com##.alpha__big-box
 thestar.com##.billboard.show-for-large-up.alpha__global
 thestar.com##.container-gutters.nested-aggregate-spacer
 thestar.com##.featured-alphas
-thestar.com##.full-bleed.breadcrumb-header:style(position: relative !important; top: 0 !important;)
 thestar.com##.leaderboard.show-for-medium-only.alpha__global
 thestar.com##.partner-contents__body
-thestar.com##.position-sticky:nth-of-type(4):style(position: relative !important; top: 0 !important;)
-thestar.com##.secondary-header
+thestar.com##.position-sticky:style(position: relative !important;)
 thestar.com##.seo-media-query
 thestar.com##.share-toolbar
-thestar.com##.sticky-replace-fixed.sticky-replace--narrow.sticky-replace
-thestar.com##header:style(position: relative !important; top: 0 !important;)
+thestar.com##.show-for-small-only.side-box
+thestar.com##.sticky-replace-fixed.sticky-replace--narrow.sticky-replace.clearfix:style(position: relative !important;)
 thestar.com.my###pd-embed-slider
 thestarpress.com##.android-smart-banner.smart-banner
 thestarpress.com##.bx-creative
