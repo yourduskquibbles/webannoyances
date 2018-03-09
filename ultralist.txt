@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 9:45 AM 2018-03-09
+! Last Modified: 1:18 PM 2018-03-09
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -515,6 +515,7 @@ aerolab.co###crestashareicon
 aerolab.co##.translate_news.bottom-subscription
 aerolab.co##.white.midnightHeader
 aerolab.co##.white.midnightHeader > .midnightInner > .header-real
+aersf.com##.sqs-slide-wrapper
 aforkstale.com###om-xwiwbkcchsjqe343x6nt
 aforkstale.com###omaha-optin
 afp.com###language_switcher_btn:style(position: relative !important; top: 0 !important;)
@@ -2680,6 +2681,7 @@ cnn.com##.floating_share_button
 cnn.com##.footer--social
 cnn.com##.fyre-notifier-container
 cnn.com##.js-banner.main-banner:style(position: relative !important; top: 0 !important;)
+cnn.com##.js-gigya-sharebar
 cnn.com##.js-share-bar.m-share__bar.js-share-rail-top.m-share__rail-top.m-share
 cnn.com##.js-skinny.js-navigation.nav:style(position: relative !important; top: 0 !important;)
 cnn.com##.large-buttons
@@ -3602,13 +3604,15 @@ dealnews.com##.visible.back-to-top-outer
 deathandtaxesmag.com##.ad-holder
 deathandtaxesmag.com##.top-ad-holder.ad-holder
 deathandtaxesmag.com##HEADER:style(position: relative !important; top: 0 !important;)
-decider.com###header-theme:style(position: relative !important; top: 0 !important;)
 decider.com###nyp-newsletter-modal
 decider.com###recirc:style(position: relative !important; top: 0 !important;)
-decider.com##.fixedsticky-on.fixedsticky.nav-desktop:style(position: relative !important; top: 0 !important;)
-decider.com##.header__content:style(position: relative !important; top: 0 !important;)
+decider.com##.decider-sharedaddy-wrapper
+decider.com##.fixedsticky-on:style(position: absolute !important;)
+decider.com##.recirc__sticky.slideDown
+decider.com##.recirc__sticky.slideUp
 decider.com##.spnf_right.spnf_ticker
-decider.com##.widget_nypost_decider_social_connect_widget.module.no-mobile.box
+decider.com##.story__meta__share-count
+decider.com##.widget_nypost_decider_social_connect_widget
 deepai.org###mainNav:style(position: absolute !Important;)
 deepmind.com##.burger-btn--wrap
 deepmind.com##.fixed.search-btn--mobile
@@ -3617,9 +3621,9 @@ defenseindustrydaily.com###sociallinks
 defenseindustrydaily.com###toolbar:style(position: relative !important; top: 0 !important;)
 defensenews.com##.js-pubsub-module.has-secondary-nav.layout-module.no-subscribe-now.generic-module:style(position: relative !important; top: 0 !important;)
 defensenews.com##.newsletter.signup.container
+defensenews.com##.social
 defensenews.com##.sticky-chain-nav.attach:style(position: relative !important; top: 0 !important; width: 100% !important;)
 defenseone.com###fb_flyin_open
-defenseone.com###featured-navigation-section.featured-element > .featured-container > .logo.large-logo > .featured-home-page[href="http://defenseone.com"]
 defenseone.com##.conversion-module-bootstrap
 defenseone.com##.d1-article-bottom-subscribe-container
 defenseone.com##.d1-article-left-rail-subscribe-container
@@ -4320,6 +4324,8 @@ engadget.com##.o-social_nav__item
 engadget.com##.spotim-recirculation
 engadget.com##.ta-r\@tl\+.bc-white-10.pt-20\@tp-.pt-60.col-12-of-12\@tp-.col-3-of-5.grid__cell
 english.kyodonews.jp##footer
+entertainmentdaily.com##.nav-social
+entertainmentdaily.com##.share-panel
 entrepreneur.com###nvh:style(position: absolute !important;)
 eonline.com###HHeader:style(position: relative !important; top: 0 !important;)
 eonline.com###article-next
@@ -8121,7 +8127,8 @@ maersk.com##.NavigationScrollTarget:style(position: relative !important; top: 0 
 magicleap.com###gNav:style(position: absolute !important;)
 magnifymoney.com###header:style(position: absolute !important;)
 mailbox.org##.stuck.hv4:style(position: absolute !important;)
-mailchi.mp###awesomebar:style(position: relative !important; top: 0 !important;)
+mailchi.mp###awesomebar:style(position: absolute !important;)
+mailchi.mp##.mcnShareContent
 mailfence.com###header:style(position: absolute !important;)
 mailtribune.com###loginBarBtm
 mainichi.jp###bottom-share
@@ -9042,6 +9049,11 @@ multivu.com###hero-photo-icons
 multivu.com###topbar:style(position: relative !important; top: 0 !important;)
 mumbrella.com.au###main:style(position: absolute !important;)
 mumbrella.com.au##.social
+muraselon.com###menu-main:style(position: absolute !important;)
+muraselon.com##.adloc-is-banner
+muraselon.com##.back-top
+muraselon.com##.more-stories
+muraselon.com##.share-handler-wrap
 muricatoday.com##.fb_iframe_widget.fb-page
 muricatoday.com##.td-affix.td-header-menu-wrap:style(position: relative !important; top: 0 !important;)
 muricatoday.com##.td-scroll-up-visible.td-scroll-up
@@ -10406,6 +10418,7 @@ origins.com###cboxOverlay
 origins.com###colorbox
 origins.com##.page-header:style(position: absolute !important;)
 origins.com##.sticky-chat
+orlandosentinel.com##.met-flyout
 orlandosentinel.com##.trb_ar_rail
 orlandosentinel.com##.trb_bnn
 orlandosentinel.com##.trb_masthead_adBanner.trb_mh_adB
@@ -11981,6 +11994,7 @@ rferl.org##.boxwidget.fb-like-buttons
 rferl.org##.fb-like-buttons
 rferl.org##.hdr:style(position: relative !important; top: 0 !important;)
 rferl.org##.header:style(position: relative !important; top: 0 !important;)
+rferl.org##.share
 rgj.com##.android-smart-banner.smart-banner
 rgj.com##.bx-creative
 rgj.com##.bx-impress-in
@@ -12300,6 +12314,7 @@ scmp.com##.header--fixed.header:style(position: absolute !important;)
 scmp.com##.is-stuck.is-at-top.sticky.sticky-wrap:style(position: absolute !important;)
 scmp.com##.lhs-sticky:style(position: absolute !important;)
 scmp.com##.node-newsletter-subscribe
+scmp.com##.pane-share-widgets-article
 scmp.com##.scmp-inline-newsletter-subscription
 scmp.com##.social-media--extended.social-media
 scmp.com##.social-share
@@ -16757,6 +16772,10 @@ worldmarket.com##.ml-header-content-wrapper:style(position: relative  !important
 worldmarket.com##.ml-header-wrapper:style(position: relative !important;)
 worldmarket.com##.ml-header:style(position: relative  !important;)
 worldmarket.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
+worldoftanks.com##.js-menu-holder.menu-holder:style(position: absolute !important;)
+worldoftanks.com##.js-mobile-nav.nav-submenu.js-nav-submenu:style(position: absolute !important;)
+worldoftanks.com##.js-nav-submenu.js-top-buttons.js-mobile-nav.top-buttons:style(position: absolute !important;)
+worldoftanks.com##.js-social-dropdown-open.nav-submenu_link__labelless.nav-submenu_link.nav_item__social.nav_item.js-nav-submenu_link
 worldofwarcraft.com##.Sticky-content:style(position: relative !important; top: 0 !important;)
 worldofwarcraft.com##.font-none.SocialButtons
 worldstarhiphop.com##.social-networks
