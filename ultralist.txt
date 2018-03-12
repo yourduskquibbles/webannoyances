@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 9:27 AM 2018-03-12
+! Last Modified: 11:57 AM 2018-03-12
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -803,8 +803,9 @@ androidauthority.com##.aa_soc_sidebar
 androidauthority.com##.fixed.fixed-object.bottom-reached.single-sidebar.content-panel:style(position: relative !important;)
 androidauthority.com##.short.single_post_additional_block.single_share_block
 androidauthority.com##.sw_overlay_href.overlay-link
-androidcentral.com###header:style(position: relative !important; top: 0 !important;)
-androidcentral.com##.header-top-inner:style(position: absolute !important;)
+androidcentral.com###header:style(position: relative !important;)
+androidcentral.com##.header-top-inner2:style(position: relative !important; height: 60px !important;)
+androidcentral.com##.header-top-inner:style(position: relative !important; height: 60px !important;)
 androidcentral.com##.mn_mbn_share
 androidcentral.com##.recent-posts
 androidforums.com###social-icons
@@ -2153,6 +2154,7 @@ cbslocal.com##.adhesive-off.social-buttons
 cbslocal.com##.adhesive-on.anvato.video-wrapper:style(position: relative !important; top: 0 !important;)
 cbslocal.com##.follow-us
 cbslocal.com##.size-24x24.type-blue.social-follow-items.footer-component
+cbslocal.com##.widget_cbs_follow_us_widget
 cbsnews.com###dashboard
 cbsnews.com###module-right-rail-fd-mobile-app-promo
 cbsnews.com###pip__headline:style(position: relative !important; top: 0 !important;)
@@ -5917,6 +5919,7 @@ groundup.org.za##.navbar-fixed-top.navbar-default.navbar:style(position: relativ
 groupninemedia.com###header-main:style(position: relative !important; top: 0 !important;)
 groupninemedia.com##.brand-container-social
 groupon.com###spotlight
+groupon.com###subscribe_modal_container
 groupon.com##.ls-h-wrapper:style(position: relative !important; transition: none !important;)
 grow.com##nav:style(position: absolute !important;)
 grrrgraphics.com##.tve-leads-triggered.tl-anim-slide_top.tve-leads-track-greedy_ribbon-7.tve-tl-anim.tve-leads-greedy_ribbon.tl-state-root
@@ -8709,6 +8712,7 @@ minimaxir.com##.header-shrink.header-sticky.navbar-fixed-top.header-transparent-
 minimaxir.com##.header-sticky.navbar-fixed-top.header-transparent-bb.header-transparent:style(position: relative !important; top: 0 !important;)
 minimaxir.com##.mega-menu.navbar:style(position: relative !important; top: 0 !important;)
 mint.com##.widget-main.pageContainer
+mint.intuit.com###advice-top-container
 mintpressnews.com##.site-header:style(position: absolute !important;)
 mintpressnews.com##.socialicons-container
 mirror.co.uk###bottom-article-message
@@ -8844,7 +8848,10 @@ momtricks.com###get_ebook_2_wrapper
 momtricks.com##.fixed-header-show.animated-all-slow.clear-after.fixed-header.site__header-top
 monday.com##.hug.busy.mobile-hidden.exit-modal
 mondaynote.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBottomSection.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
+mondaynote.com##.markup--quote:style(background-image: none !important; background-color: transparent !important; transition: none !important;)
+mondaynote.com##.popover
 mondaynote.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
+mondaynote.com##.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.js-metabar.u-clearfix.metabar:style(position: absolute !important;)
 mondaynote.com##.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: absolute !important;)
 mondotees.com###vertical-nav
 mondotees.com##.ftr-newsletter
