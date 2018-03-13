@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 8:50 AM 2018-03-13
+! Last Modified: 11:07 AM 2018-03-13
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -71,13 +71,14 @@
 ##.is-visible.js-postActionsBar.postActionsBar
 ##.js-postActionsBarContent.row.postActionsBar-content
 ##.js-postActionsFooter.u-flexCenter.postActions
+##.js-postShareWidget
 ##.js_top-nav-wrap.top-nav.fixed.shadow-bottom
 ##.jw-sharing-dock-btn.jw-reset.jw-background-color.jw-dock-button
 ##.mobile-floating-footer-show.mobile-floating-footer
 ##.notes-markers
 ##.notesMarkers
+##.onesignal-bell-container
 ##.onesignal-bell-container-bottom-right
-##.onesignal-bell-container-bottom-right.onesignal-reset.onesignal-bell-container
 ##.outbrain.recommend
 ##.popover.popover--bottom.is-withTransition
 ##.promoCard
@@ -85,12 +86,13 @@
 ##.sd-sharing-enabled.sharedaddy
 ##.sdc-site-share--amp.sdc-site-share
 ##.share-bar
-##.share-toolbar.proxima.hide-for-small
+##.share-toolbar
+##.share-tools-wrapper
 ##.sharebar
+##.sharedaddy
 ##.sharer
 ##.sharingfooter
 ##.sharrre-container
-##.site-nav-logo.distraction-free-component
 ##.social-buttons
 ##.social-container
 ##.social-links
@@ -98,17 +100,12 @@
 ##.social-sidebar
 ##.socialToolbar.parbase.socialSharing
 ##.socials
-##.ssbp--theme-2.ssbp--fixed-left.ssbp-wrap.ssbp-set--one
-##.sticky-tools.share-tools-wrapper
 ##.story-share-buttons
 ##.tab-bar-fixed.c-tab-bar
 ##.text-annotation-footnote-wrapper
 ##.twitter-follow-button
 ##.twitter-share-button
 ##.u-marginAuto.metabar-inner.js-metabarTop
-##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
-##.u-xs-hide.u-xs-height56.u-height65.u-verticalAlignTop.u-inlineBlock.u-alignMiddle
-##.u-xs-paddingRight10.u-xs-paddingLeft10.u-zIndexMetabar.u-paddingBottom10.u-paddingTop10.u-borderBox.u-boxShadowTop.u-backgroundWhite.u-sizeFullWidth.u-bottom0.u-fixed
 ##.up_button
 ##.youtube-icon
 /arscode-ninja-popups/*
@@ -998,6 +995,8 @@ artfixdaily.com##.share-button
 artfixdaily.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 artlawjournal.com###herald-responsive-header:style(position: relative !important; top: 0 !important;)
 artlawjournal.com###sticky-header
+artplusmarketing.com##.js-postShareWidget
+artplusmarketing.com##.u-tintSpectrum.u-tintBgColor.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorDarker.js-metabar.u-clearfix.metabar:style(position: absolute !important;)
 artstation.com###main-nav:style(position: relative !important; top: 0 !important;)
 artstation.com##.sharing-buttons
 artsy.net###main-layout-header:style(position: relative !important; top: 0 !important;)
@@ -1076,7 +1075,7 @@ atr.org###pop_up
 atr.org##.fancybox-wrap.fancybox-desktop.fancybox-type-iframe.fancybox-opened
 atr.org##.navbar:style(position: relative !important; top: 0 !important;)
 atr.rollcall.com###share-top
-atrium.co##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
+atrium.co##.js-postShareWidget
 atrium.co##.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.js-metabar.u-clearfix.metabar:style(position: absolute !important;)
 att.com##.fixed-search.lia-quilt-row-search_row.lia-quilt-row:style(position: relative !important;)
 att.com##.ftr-social-links
@@ -1471,7 +1470,7 @@ birthmoviesdeath.com##.fa-lg.fa-tumblr.fa
 birthmoviesdeath.com##.fa-lg.fa-twitter.fa
 bitcoinmagazine.com##.bm-banner-media:style(position: absolute !important;)
 bitcoinmagazine.com##.bm-banner:style(position: absolute !important;)
-bitcointechtalk.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
+bitcointechtalk.com##.js-postShareWidget
 bitcointechtalk.com##.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: absolute !important;)
 bitmoji.com##.header:style(position: absolute !important;)
 bitshouts.com###nav-topbar:style(position: absolute !important;)
@@ -1491,8 +1490,8 @@ blackfridayhits.com##.top_share
 blackfridayhits.com##.white_style.rh-stickme.main-nav.search-form-inheader
 blackhat.com###social-wrapper
 blacklistednews.com##.navbar-fixed-top.no-border-radius.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
+blazingdb.com##.js-postShareWidget
 blazingdb.com##.u-tintSpectrum.u-tintBgColor.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar:style(position: absolute !important;)
-blazingdb.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
 bldgblog.com###masthead:style(position: relative !important; top: 0 !important;)
 bleacherreport.com###facebook-like-site-module
 bleacherreport.com##.ad
@@ -1628,8 +1627,8 @@ boingboing.net##.rune-sidebar-container
 boingboing.net##.separator
 bolt.io##.is-maximized.is-hiddenWhenMinimized.is-withBottomSection.u-tintSpectrum.u-tintBgColor.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
 bolt.io##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBottomSection.u-tintSpectrum.u-tintBgColor.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
+bolt.io##.js-postShareWidget
 bolt.io##.u-tintSpectrum.u-tintBgColor.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorTransparentWhiteDarker.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: absolute !important;)
-bolt.io##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
 bonappetit.com###masthead-banner-ad:style(position: relative !important; top: 0 !important;)
 bonappetit.com###menu:style(position: relative !important; top: 0 !important;)
 bonappetit.com###supernav:style(position: relative !important; top: 0 !important;)
@@ -1762,8 +1761,11 @@ brainpickings.org###bottom_donation
 brainpickings.org###bottom_newsletter
 brainpickings.org###brainpickings_donation_vertical_widget-3
 brainpickings.org###brainpickings_newsletter_vertical_widget-3
+brainpickings.org###header_container:style(transition: none !important;)
+brainpickings.org###icon > a > img:style(transition: none !important;)
+brainpickings.org###logo > a > img:style(transition: none !important;)
 brainpickings.org##.sd-sharing-enabled.sharedaddy
-brainpickings.org##.smaller:style(position: relative !important; top: 0 !important;)
+brainpickings.org##header:style(position: absolute  !important; transition: none !important;)
 brainyquote.com###bq-tn-id:style(position: relative !important; top: 0 !important;)
 brainyquote.com##.bq-sh-mbl-pad
 brainyquote.com##.is-sticky.sticky-wrapper:style(position: relative !important; top: 0 !important;)
@@ -2722,7 +2724,7 @@ cntraveler.com##.shop.scroll-to:style(position: relative !important; top: 0 !imp
 cntraveler.com##.stay.scroll-to:style(position: relative !important; top: 0 !important;)
 co-opfs.org##.my-modal-target.customer-service-btn
 co-opfs.org##.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important;)
-coach.me##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
+coach.me##.js-postShareWidget
 coach.me##.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.js-metabar.u-clearfix.metabar:style(position: absolute !important;)
 coach.me##.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: absolute !important; top: 0 !important;)
 coasttocoastam.com###mainheader:style(position: relative !important; top: 0 !important;)
@@ -4020,7 +4022,7 @@ dnj.com##.utility-bar-wrap
 docs.microsoft.com#.lf-selection-popover
 docusign.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 doist.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
-doit-intl.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
+doit-intl.com##.js-postShareWidget
 doit-intl.com##.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.js-metabar.u-clearfix.metabar:style(position: absolute !important;)
 dom.com###topMainNav:style(position: relative !important; top: 0 !important;)
 domain.me###glavnimeni.row.visible-desktop.fiks
@@ -4039,9 +4041,9 @@ dorkjournal.com##.header--slide.fixed.header
 dorkjournal.com##.is_stuck.show-for-medium.fixed-me.hide-on-print.share-article
 dorkjournal.com##.mfp-ready.pulse.animated.mfp-auto-cursor.mfp-close-btn-in.mfp-wrap
 dorkjournal.com##.mfp-ready.pulse.animated.mfp-bg
+dotandline.net##.js-postShareWidget
 dotandline.net##.u-tintSpectrum.u-tintBgColor.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar:style(position: absolute !important;)
-dotandline.net##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
-doublepulsar.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
+doublepulsar.com##.js-postShareWidget
 doublepulsar.com##.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.js-metabar.u-clearfix.metabar:style(position: absolute !important;)
 dowjones.com##.dropdown-submenu-opened.page-header:style(position: relative !important; top: 0 !important;)
 drafthouse.com##.fa-facebook-official.fa-lg.fa
@@ -4234,12 +4236,11 @@ electricbike.com##.scrolltofixed.scrolltofixed-top.scrolltofixed-floating.hide-o
 electricbike.com##.sticky.navigation:style(position: relative !important; top: 0 !important;)
 electricliterature.com##.button--withSvgIcon.button--withIcon.u-baseColor--buttonLight.is-touchIconBlackPulse.button--chromeless.button--light.button
 electricliterature.com##.js-postActionsFooter.u-flexCenter.postActions
+electricliterature.com##.js-postShareWidget
 electricliterature.com##.js-stickyFooter.u-xs-paddingRight10.u-xs-paddingLeft10.u-zIndexMetabar.u-paddingBottom10.u-paddingTop10.u-borderBox.u-boxShadowTop.u-backgroundWhite.u-sizeFullWidth.u-bottom0.u-fixed
 electricliterature.com##.m.l.k.j.i.h.g.f:style(position: absolute !important; top: 0 !important;)
-electricliterature.com##.u-absolute.u-transition--fadeIn300.u-sm-hide.u-foreground.js-postShareWidget
 electricliterature.com##.u-tintSpectrum.u-tintBgColor.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar:style(position: absolute !important;)
 electricliterature.com##.u-tintSpectrum.u-tintBgColor.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorTransparentWhiteDarker.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
-electricliterature.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
 electricliterature.com##.u-xs-height95.u-height105.u-tintBgColor.js-metabarSpacer.metabar--spacer.metabar
 electronicdesign.com##.js-header.header:style(position: absolute !important;)
 electronicsweekly.com###main-nav:style(position: relative !important; top: 0 !important;)
@@ -4256,11 +4257,12 @@ elektroniknet.de##.social-icons.fa-rss.fa
 elektroniknet.de##.social-icons.fa-twitter.fa
 elektroniknet.de##.social-icons.fa-xing.fa
 elevr.com##.to_the_top
+elidourado.com##.js-postShareWidget
 elidourado.com##.u-tintSpectrum.u-tintBgColor.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar:style(position: absolute !important;)
-elidourado.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
 elitedaily.com##.stickyHeader.headerInView
 elitedaily.com##.stickyNavWrapper
 elle.com##.active.social-menu
+elle.com##.content-info-social-buttons
 elle.com##.content-nav-active.sticky.nav:style(position: relative !important; top: 0 !important;)
 elle.com##.footer-social-menu.social-button-group
 elle.com##.lede-image-social-button-group.social-button-group
@@ -5048,9 +5050,9 @@ forward.com##.nocontent.share-box
 forward.com##.slide-down.nocontent.header-sticky-container:style(position: absolute !important;)
 forward.com##.social-icons
 fossa.io##.js-postActionsFooter.u-flexCenter.postActions
+fossa.io##.js-postShareWidget
 fossa.io##.js-stickyFooter.u-xs-paddingRight10.u-xs-paddingLeft10.u-zIndexMetabar.u-paddingBottom10.u-paddingTop10.u-borderBox.u-boxShadowTop.u-backgroundWhite.u-sizeFullWidth.u-bottom0.u-fixed
 fossa.io##.u-tintSpectrum.u-tintBgColor.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorTransparentWhiteDarker.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
-fossa.io##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
 fossbytes.com##.td-affix.td-header-main-menu.td-header-row:style(position: absolute !important;)
 fossbytes.com##.td-scroll-up-visible.td-scroll-up
 fossdroid.com##.mdl-layout__container:style(position: relative !important; top: 0 !important;)
@@ -5209,8 +5211,8 @@ freebeacon.com##.social.row
 freecodecamp.org##.button--withSvgIcon.button--withIcon.u-baseColor--buttonLight.is-touchIconBlackPulse.button--chromeless.button--light.button
 freecodecamp.org##.clearfix.d-header:style(position: absolute !important;)
 freecodecamp.org##.js-postActionsFooter.u-flexCenter.postActions
+freecodecamp.org##.js-postShareWidget
 freecodecamp.org##.u-tintSpectrum.u-tintBgColor.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorTransparentWhiteDarker.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
-freecodecamp.org##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
 freecodecamp.org##.u-xs-height95.u-height105.u-tintBgColor.js-metabarSpacer.metabar--spacer.metabar
 freedominthe50states.org###share_widget
 freedomworks.org###block-fw-menu-fw-desktop-menu:style(position: relative !important; top: 0 !important;)
@@ -5904,11 +5906,11 @@ grepular.com###hire-me-banner:style(position: relative !important; top: 0 !impor
 greyenlightenment.com##.facebook.socialite
 greyenlightenment.com##.site-toggles > .main-navigation-toggle:style(position: absolute !important;)
 greyenlightenment.com##.site-toggles > .widget-area-toggle:style(position: absolute !important;)
+greylock.com##.js-postShareWidget
 greylock.com##.js-stickyFooter.u-xs-paddingRight10.u-xs-paddingLeft10.u-zIndexMetabar.u-paddingBottom10.u-paddingTop10.u-borderBox.u-boxShadowTop.u-backgroundWhite.u-sizeFullWidth.u-bottom0.u-fixed
 greylock.com##.svgIcon--25px.svgIcon--facebookFilled.svgIcon
 greylock.com##.svgIcon--25px.svgIcon--twitterFilled.svgIcon
 greylock.com##.u-tintSpectrum.u-tintBgColor.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorTransparentWhiteDarker.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
-greylock.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
 grist.org##.clearfix.post-social
 grist.org##.hellobar--bottom.hellobar-382055.alert-box.hide-for-print.hide.hellobar
 grist.org##.js-impression.hide-for-print.recent-donor-hidden.aside--appeal-inline-ask
@@ -6027,12 +6029,12 @@ hackerarsenal.com##.panel_opened.wlo_gpuac.wlo_pulltab_holder
 hackerarsenal.com##.social-icons__link
 hackerarsenal.com##.social-sharing
 hackerarsenal.com##.wheelio_holder
+hackernoon.com##.js-postShareWidget
 hackernoon.com##.js-stickyFooter.u-xs-paddingRight10.u-xs-paddingLeft10.u-zIndexMetabar.u-paddingBottom10.u-paddingTop10.u-borderBox.u-boxShadowTop.u-backgroundWhite.u-sizeFullWidth.u-bottom0.u-fixed
 hackernoon.com##.u-absolute.u-transition--fadeIn300.u-sm-hide.u-foreground.js-postShareWidget
 hackernoon.com##.u-marginLeft0.u-lineHeightInherit.buttonSet
 hackernoon.com##.u-tintSpectrum.u-tintBgColor.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorDarker.js-metabar.u-clearfix.metabar:style(position: relative !important;)
 hackernoon.com##.u-tintSpectrum.u-tintBgColor.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorDarker.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
-hackernoon.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
 hackernoon.com##.u-xs-height95.u-height105.u-tintBgColor.js-metabarSpacer.metabar--spacer.metabar
 hackerone.com##.js-topbar
 hacklabo.com##.c-header--pinned.c-header--not-top.headroom--not-bottom.c-header--headroom.js-header.c-header:style(position: relative !important; top: 0 !important;)
@@ -6419,8 +6421,8 @@ howtogeek.com##.social-share.twitter
 howtosolutions.net###cookie-law
 howtosolutions.net###socialsharebuttons
 howwegettonext.com##.is-maximized.is-transitioning.u-tintSpectrum.u-tintBgColor.metabar--hiddenWhenMinimized.metabar--tall.metabar--dark.js-metabar.u-clearfix.metabar
+howwegettonext.com##.js-postShareWidget
 howwegettonext.com##.u-tintSpectrum.u-tintBgColor.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorDarker.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: absolute !important;)
-howwegettonext.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
 hpcwire.com##.et_social_mobile_on.et_social_sidebar_flip.et_social_rectangle.et_social_animated.et_social_slideright.et_social_visible_sidebar.et_social_sidebar_networks
 hrblock.com###offers
 hrblock.com##.nav-bar:style(position: absolute !important;)
@@ -6854,8 +6856,8 @@ inhabitat.com##.last.fblike
 inhabitat.com##.scrolled.right
 inhabitat.com##.share
 inhabitat.com##.socials-list
+injusticetoday.com##.js-postShareWidget
 injusticetoday.com##.u-tintSpectrum.u-tintBgColor.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorTransparentWhiteDarker.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: absolute !important;)
-injusticetoday.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
 inkedmag.com###top-nav-bar:style(position: relative !important; top: 0 !important;)
 inkedmag.com##.cpxadvert_placement-24.ad
 inkedmag.com##.cpxadvert_placement-5.ad
@@ -6890,9 +6892,9 @@ insidenova.com##.text-center.tnt-ads-container
 insidenova.com##.tout-mid-article.tout-sdk
 insightdata.ai##.logo_nav:style(position: relative !important; top: 0 !important;)
 insightdatascience.com##.js-postActionsFooter.u-flexCenter.postActions
+insightdatascience.com##.js-postShareWidget
 insightdatascience.com##.js-stickyFooter.u-xs-paddingRight10.u-xs-paddingLeft10.u-zIndexMetabar.u-paddingBottom10.u-paddingTop10.u-borderBox.u-boxShadowTop.u-backgroundWhite.u-sizeFullWidth.u-bottom0.u-fixed
 insightdatascience.com##.u-tintSpectrum.u-tintBgColor.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorTransparentWhiteDarker.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
-insightdatascience.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
 insightdatascience.com##.u-xs-height95.u-height105.u-tintBgColor.js-metabarSpacer.metabar--spacer.metabar
 insightdatascience.com##.u-xs-hide.u-xs-height56.u-height65.u-verticalAlignTop.u-inlineBlock.u-alignMiddle
 instagram.com##._2pnef._cqw45
@@ -7249,7 +7251,7 @@ junkee.com##.pin.pinned:style(position: relative !important;)
 junkee.com##.social-icon.facebook.nav-main__item
 junkee.com##.social-icon.twitter.nav-main__item
 junkee.com##.stick-header.slide-out:style(position: absolute !important;)
-jupyter.org##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
+jupyter.org##.js-postShareWidget
 jupyter.org##.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.js-metabar.u-clearfix.metabar:style(position: absolute !important;)
 justanswer.co.uk##.background
 justanswer.co.uk##.right.bottom.modal
@@ -7406,6 +7408,7 @@ kitsapsun.com##.story-tools
 kitsapsun.com##.utility-bar-wrap
 kiwiirc.com##.navbar-inversee.navbar-fixed-top.navbar:style(position: absolute !important;)
 kktv.com###nav:style(position: relative !important; top: 0 !important;)
+kktv.com###socialIcons
 klaw.ie##.headroom--pinned.headroom--not-top.headroom.js-header.header--inversed.site-header:style(position: relative !important; top: 0 !important;)
 klfy.com###masthead:style(position: relative !important; top: 0 !important;)
 knowyourmeme.com###ctoolbar
@@ -7803,8 +7806,8 @@ leaf.tv##.header-top:style(position: relative !important; top: 0 !important;)
 leafshave.com###privy-container
 leafshave.com###site-header:style(position: absolute !important;)
 leafshave.com##.animate-owy.site-sharing
+learngoprogramming.com##.js-postShareWidget
 learngoprogramming.com##.u-tintSpectrum.u-tintBgColor.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorDarker.js-metabar.u-clearfix.metabar:style(position: absolute !important;)
-learngoprogramming.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
 lecreuset.com###header:style(position: relative !important; top: 0 !important;)
 lecreuset.com##.fixed-shop:style(position: relative !important; top: 0 !important;)
 lecreuset.com##.site-wide-mobile:style(position: relative !important; top: 0 !important;)
@@ -7813,8 +7816,8 @@ ledger-enquirer.com###story-cta-widget
 ledger-enquirer.com##.share-tools-wrapper
 ledger-enquirer.com##.tout-hook-tagalong.js-tout-tagalong-video.tout-sdk-instance-player:style(position: static !important;)
 ledwards.com##.js-postActionsFooter.u-flexCenter.postActions
+ledwards.com##.js-postShareWidget
 ledwards.com##.js-stickyFooter.u-xs-paddingRight10.u-xs-paddingLeft10.u-zIndexMetabar.u-paddingBottom10.u-paddingTop10.u-borderBox.u-boxShadowTop.u-backgroundWhite.u-sizeFullWidth.u-bottom0.u-fixed
-ledwards.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
 ledwards.com##.u-xs-height56.u-height65.js-metabarSpacer.metabar--spacer.metabar
 ledwards.com##.u-xs-hide.u-xs-height56.u-height65.u-verticalAlignTop.u-inlineBlock.u-alignMiddle
 ledwards.com##.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: absolute!important; top: 0 !important;)
@@ -7884,6 +7887,7 @@ lifebuzz.co##.social-box-big
 lifehacker.com###eyubptfbcvwbxrrlnfngrubtvjrqfcaavknr
 lifehacker.com###sharingfooter
 lifehacker.com##.footer-social
+lifehacker.com##.global-nav--desktop.global-nav.js_top-nav.js_global-nav-wrap:style(position: absolute !important;)
 lifehacker.com##.js_ad-top-banner.ad-top-banner.js_ad-unit.ad-unit
 lifehacker.com##.js_post-dropdown-ct-sticky.js_post-dropdown-ct.post-dropdown-ct
 lifehacker.com##.js_post-dropdown-ct.post-dropdown-ct.js_meta-tools.meta__tools
@@ -8033,10 +8037,10 @@ login.yahoo.com###mbr-footer
 logitech.com###global-navbar:style(position: relative !important;)
 logitech.com###subnav:style(position: absolute !important;)
 logitech.com##.cForum_Header.blue-bg:style(position: relative !important; top: 0 !important;)
+logrocket.com##.js-postShareWidget
 logrocket.com##.js-stickyFooter.u-xs-paddingRight10.u-xs-paddingLeft10.u-zIndexMetabar.u-paddingBottom10.u-paddingTop10.u-borderBox.u-boxShadowTop.u-backgroundWhite.u-sizeFullWidth.u-bottom0.u-fixed
 logrocket.com##.svgIcon--25px.svgIcon--facebookFilled.svgIcon
 logrocket.com##.svgIcon--25px.svgIcon--twitterFilled.svgIcon
-logrocket.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
 logrocket.com##.u-xs-height95.u-height105.js-metabarSpacer.metabar--spacer.metabar
 logrocket.com##.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: absolute !important; top: 0 !important;)
 lohud.com##.android-smart-banner.smart-banner
@@ -8221,7 +8225,7 @@ manutd.com###toolbar:style(position: relative !important; top: 0 !important;)
 manutd.com##.banner-ad.desktop
 manutd.com##.cookie-policy-message
 mapbox.com##.js-postActionsFooter.u-flexCenter.postActions
-mapbox.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
+mapbox.com##.js-postShareWidget
 mapbox.com##.u-xs-hide.u-xs-height56.u-height65.u-verticalAlignTop.u-inlineBlock.u-alignMiddle
 mapbox.com##.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: absolute !important; top: 0 !important;)
 mapio.net###mapwrap:style(position: absolute !important;)
@@ -8523,9 +8527,9 @@ medium.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.js-metabar.u-c
 medium.com##.is-maximized.metabar--affixed.metabar--postArticle.js-metabar.u-clearfix.metabar
 medium.com##.is-minimized.metabar--affixed.is-withBottomSection.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: absolute !important;)
 medium.com##.js-postActionsFooter.u-flexCenter.postActions
+medium.com##.js-postShareWidget
 medium.com##.u-absolute.u-transition--fadeIn300.u-sm-hide.u-foreground.js-postShareWidget
 medium.com##.u-backgroundTransparentWhiteDarkest.u-fixed.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: absolute !important;)
-medium.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
 medium.com##.u-xs-height56.u-height65.js-metabarSpacer.metabar--spacer.metabar
 medium.com##.u-xs-hide.u-xs-height56.u-height65.u-verticalAlignTop.u-inlineBlock.u-alignMiddle
 medium.com##.u-xs-paddingRight10.u-xs-paddingLeft10.u-zIndexMetabar.u-paddingBottom10.u-paddingTop10.u-borderBox.u-boxShadowTop.u-backgroundWhite.u-sizeFullWidth.u-bottom0.u-fixed
@@ -8545,11 +8549,11 @@ melmagazine.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBo
 melmagazine.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBottomSection.u-tintSpectrum.u-tintBgColor.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar
 melmagazine.com##.js-actionMultirecommendButton.clapButton.button--withSvgIcon.button--withIcon.u-accentColor--buttonNormal.button--chromeless.button--primary.button
 melmagazine.com##.js-postActionsFooter.u-flexCenter.postActions
+melmagazine.com##.js-postShareWidget
 melmagazine.com##.u-marginLeft0.u-lineHeightInherit.buttonSet
 melmagazine.com##.u-maxWidth740.container:nth-of-type(1) > .u-marginTop10.u-borderTopLightest.u-paddingTop20
 melmagazine.com##.u-tintSpectrum.u-tintBgColor.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorTransparentWhiteDarker.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: absolute !important;)
 melmagazine.com##.u-tintSpectrum.u-tintBgColor.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar:style(position: absolute !important;)
-melmagazine.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
 melmagazine.com##.u-xs-height95.u-height105.u-tintBgColor.js-metabarSpacer.metabar--spacer.metabar
 melmagazine.com##.u-xs-paddingRight10.u-xs-paddingLeft10.u-zIndexMetabar.u-paddingBottom10.u-paddingTop10.u-borderBox.u-boxShadowTop.u-backgroundWhite.u-sizeFullWidth.u-bottom0.u-fixed
 menshealth.com###header:style(position: relative !important; top: 0 !important;)
@@ -8861,9 +8865,9 @@ momtricks.com###get_ebook_2_wrapper
 momtricks.com##.fixed-header-show.animated-all-slow.clear-after.fixed-header.site__header-top
 monday.com##.hug.busy.mobile-hidden.exit-modal
 mondaynote.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBottomSection.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
+mondaynote.com##.js-postShareWidget
 mondaynote.com##.markup--quote:style(background-image: none !important; background-color: transparent !important; transition: none !important;)
 mondaynote.com##.popover
-mondaynote.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
 mondaynote.com##.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.js-metabar.u-clearfix.metabar:style(position: absolute !important;)
 mondaynote.com##.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: absolute !important;)
 mondotees.com###vertical-nav
@@ -10264,6 +10268,7 @@ nytimes.com##.growl-v2-gradient
 nytimes.com##.headroom--pinned.headroom--not-top.headroom.times-video-mobile-nav:style(position: relative !important;)
 nytimes.com##.inline-share-wrapper
 nytimes.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
+nytimes.com##.js-postShareWidget
 nytimes.com##.lazyloaded.embeddedContent
 nytimes.com##.marginalia-item.related-combined-coverage-marginalia.marginalia:style(margin-top: 0px !important;)
 nytimes.com##.masthead-magazine.masthead-vertical-fullbleed.masthead-theme-transparent-ffffff.masthead:style(position: absolute !important;)
@@ -10305,7 +10310,6 @@ nytimes.com##.story-ad-8-wrapper.ad
 nytimes.com##.story-ad-9-wrapper.ad
 nytimes.com##.subColumn-2.noBackground.mobilePromo.nocontent
 nytimes.com##.twitter-share
-nytimes.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
 nytimes.com##.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.js-metabar.u-clearfix.metabar:style(position: absolute !important;)
 nytimes.com##.vhs-plugin-imax-playback-metadata-share-tools
 nytimes.com##.vhs-tools
@@ -10313,7 +10317,7 @@ nytimes.com##body:style(overflow-x: hidden !important; overflow-y: auto !importa
 nytimes.com#@#.flag-moreFollowSuggestions-on
 nyulocal.com##.button--withSvgIcon.button--withIcon.u-baseColor--buttonNormal.is-touchIconBlackPulse.button--chromeless.button
 nyulocal.com##.js-postActionsFooter.u-flexCenter.postActions
-nyulocal.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
+nyulocal.com##.js-postShareWidget
 nyulocal.com##.u-xs-height95.u-height105.js-metabarSpacer.metabar--spacer.metabar
 nyulocal.com##.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: absolute !important; top: 0 !important;)
 nzherald.co.nz###wpnPop
@@ -11203,11 +11207,11 @@ postcrescent.com##.utility-bar-wrap
 posteo.de##.p_header:style(position: relative !important; top: 0 !important;)
 posteo.de##.p_mainnav:style(position: relative !important;)
 postlight.com##.js-postActionsFooter.u-flexCenter.postActions
+postlight.com##.js-postShareWidget
 postlight.com##.js-stickyFooter.u-xs-paddingRight10.u-xs-paddingLeft10.u-zIndexMetabar.u-paddingBottom10.u-paddingTop10.u-borderBox.u-boxShadowTop.u-backgroundWhite.u-sizeFullWidth.u-bottom0.u-fixed
 postlight.com##.notesMarkers
 postlight.com##.u-marginLeft0.u-lineHeightInherit.buttonSet
 postlight.com##.u-tintSpectrum.u-tintBgColor.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorTransparentWhiteDarker.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
-postlight.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
 postlight.com##.u-xs-height95.u-height105.u-tintBgColor.js-metabarSpacer.metabar--spacer.metabar
 potbelly.com##.active-false:style(position: relative !important; top: 0 !important;)
 potbelly.com##.general-alert-modal
@@ -11399,7 +11403,7 @@ protonmail.com###header-spacer
 protonmail.com###header:style(position: relative !important; top: 0 !important;)
 protonmail.com##.csbtns
 protonmail.com##.text-right.col-sm-4
-prototypr.io##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
+prototypr.io##.js-postShareWidget
 prototypr.io##.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: absolute !important;)
 protribune.com##.jetpack-likes-widget-loaded.jetpack-likes-widget-wrapper.sd-like.sd-block.sharedaddy
 protribune.com##.sd-sharing-enabled.sharedaddy
@@ -11521,8 +11525,10 @@ queenbeetickets.com##.navbar-fixed-top.navbar-default.navbar:style(position: rel
 queerty.com###masthead:style(position: relative !important; top: 0 !important;)
 queerty.com###onesignal-bell-container
 queryxchange.com##.yamm.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important;)
-quillette.com###blog-sidebar
+quillette.com###facebook-likebox-6
+quillette.com###text-3
 quillette.com##.mailmunch-forms-in-post-middle
+quillette.com##.widget_cb_p6_sidebar_site_widget.widget
 quora.com###__w2_hfgfBSr_banner
 quora.com###__w2_tj37wQd_banner
 quora.com###__w2_wmjOzuJ_banner
@@ -11812,8 +11818,8 @@ redbull.com##.ast:style(position: absolute !important; left: -125px !important;)
 redbull.com##.nav-wrapper:style(position: relative !important; top: 0 !important;)
 redbull.com##.top.cookiebar
 redbull.com##header:style(position: relative !important; top: 0 !important;)
-redbullmusicacademy.com##.headroom--pinned.headroom--not-top.has-page-nav.headroom.ng-isolate-scope.ng-scope.bg-color-secondary.main-nav:style(position: relative !important; top: 0 !important;)
-redbullracing.com##.clearfix.article-social-foot
+redbullmusicacademy.com##.main-nav:style(position: relative !important;)
+redbullracing.com##.article-social-foot
 redbullracing.com##.global-social
 redbullracing.com##.top.cookiebar
 redbullracing.com##header:style(position: absolute !important; top: 0 !important;)
@@ -11865,7 +11871,7 @@ reddit.com##.seo-comments
 reddit.com##.seo-comments-recommendations.spacer
 reddit.com##.side:style(position: relative !important;)
 reddit.com##.splash-design.splash_wrapper
-reddit.com##.tabmenu:style(position: absolute !important;)
+reddit.com##.tabmenu:style(position: relative !important;)
 reddit.com##.welcome.infobar
 reddit.com##body::before:style(position: relative !important; height: 0px !important;)
 reddit.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
@@ -12691,9 +12697,9 @@ sierraclub.org##.greenlife-overlay.pcm-overlay
 signal.org##.navbar-shrink.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important; top: 0 !important;)
 signalvnoise.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBottomSection.u-tintSpectrum.u-tintBgColor.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
 signalvnoise.com##.js-postActionsFooter.u-flexCenter.postActions
+signalvnoise.com##.js-postShareWidget
 signalvnoise.com##.u-tintSpectrum.u-tintBgColor.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar:style(position: absolute !important;)
 signalvnoise.com##.u-tintSpectrum.u-tintBgColor.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorTransparentWhiteDarker.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
-signalvnoise.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
 signalvnoise.com##.u-xs-height95.u-height105.u-tintBgColor.js-metabarSpacer.metabar--spacer.metabar
 signalvnoise.com##.u-xs-hide.u-xs-height56.u-height65.u-verticalAlignTop.u-inlineBlock.u-alignMiddle
 signsofnassau.com##.iframe-controls--desktop.tmblr-iframe--controls.tmblr-iframe
@@ -13089,9 +13095,9 @@ sprigandsproutdc.com##.chch_shown.gold-1
 sprigandsproutdc.com##.synved-social-container-follow.synved-social-container
 springboard.com##.button--withSvgIcon.button--withIcon.u-baseColor--buttonLight.is-touchIconBlackPulse.button--chromeless.button--light.button
 springboard.com##.js-postActionsFooter.u-flexCenter.postActions
+springboard.com##.js-postShareWidget
 springboard.com##.js-stickyFooter.u-xs-paddingRight10.u-xs-paddingLeft10.u-zIndexMetabar.u-paddingBottom10.u-paddingTop10.u-borderBox.u-boxShadowTop.u-backgroundWhite.u-sizeFullWidth.u-bottom0.u-fixed
 springboard.com##.u-tintSpectrum.u-tintBgColor.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorTransparentWhiteDarker.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
-springboard.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
 springboard.com##.u-xs-height95.u-height105.u-tintBgColor.js-metabarSpacer.metabar--spacer.metabar
 springer.com##.u-composite-layer.banner--cookies-policy.banner
 sprint.com##.layout-header:style(position: absolute !important;)
@@ -13862,9 +13868,9 @@ theawl.com##.footer-newsletter
 theawl.com##.footer-social__components
 theawl.com##.highlightMenu-inner
 theawl.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBottomSection.u-tintSpectrum.u-tintBgColor.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar
+theawl.com##.js-postShareWidget
 theawl.com##.share-butts
 theawl.com##.u-tintSpectrum.u-tintBgColor.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorTransparentWhiteDarker.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
-theawl.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
 theawl.com##.u-xs-paddingRight10.u-xs-paddingLeft10.u-zIndexMetabar.u-paddingBottom10.u-paddingTop10.u-borderBox.u-boxShadowTop.u-backgroundWhite.u-sizeFullWidth.u-bottom0.u-fixed
 thebaffler.com###boxzilla-overlay
 thebaffler.com##.boxzilla-center-container.boxzilla-container
@@ -13900,9 +13906,9 @@ thebiglead.com##.sp_white-fill.brand-bg-color.sp_button
 thebiglead.com##.sticky-wrapper.is-sticky + .nav:style(padding-top: 0px !important;)
 thebigroundtable.com##.buttonSet--narrow.buttonSet.u-floatRight
 thebigroundtable.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBottomSection.u-tintSpectrum.u-tintBgColor.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
+thebigroundtable.com##.js-postShareWidget
 thebigroundtable.com##.js-stickyFooter.u-xs-paddingRight10.u-xs-paddingLeft10.u-zIndexMetabar.u-paddingBottom10.u-paddingTop10.u-borderBox.u-boxShadowTop.u-backgroundWhite.u-sizeFullWidth.u-bottom0.u-fixed
 thebigroundtable.com##.u-tintSpectrum.u-tintBgColor.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorTransparentWhiteDarker.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
-thebigroundtable.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
 thebigroundtable.com##.u-xs-height56.u-height65.u-floatLeft.metabar-block--left.metabar-block
 thebillfold.com##.divider.icon-facebook-official.icon
 thebillfold.com##.divider.icon-twitter.icon
@@ -13991,7 +13997,7 @@ thecomfybuddy.com###move-to-top
 theconnectivist.com##.header:style(position: relative !important; top: 0 !important;)
 theconnectivist.com##IMG[src="http://www.theconnectivist.com/wp-content/themes/connectivist2/library/images/headers/the_connectivist-x2.png"]
 theconservativetreehouse.com###actionbar:style(position: relative !important; top: 0 !important;)
-thecontrol.co##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
+thecontrol.co##.js-postShareWidget
 thecontrol.co##.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: absolute !important;)
 theconversation.com##.content-share.grid-two
 theconversation.com##.grid-last.large-grid-nine.grid-prepend-two.grid-ten.content-targeted-share
@@ -14641,12 +14647,12 @@ theringer.com##.dfp_ad--held-area.dynamic-js-slot
 theringer.com##.facebook
 theringer.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBottomSection.u-tintSpectrum.u-tintBgColor.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar
 theringer.com##.is-maximized.metabar--affixed.u-tintSpectrum.u-tintBgColor.metabar--hiddenWhenMinimized.metabar--tall.metabar--light.js-metabar.u-clearfix.metabar
+theringer.com##.js-postShareWidget
 theringer.com##.main-social.c-social-buttons
 theringer.com##.main-social.c-social-buttons--popover
 theringer.com##.tab-bar-fixed.c-tab-bar
 theringer.com##.twitter
 theringer.com##.u-tintSpectrum.u-tintBgColor.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorTransparentWhiteDarker.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
-theringer.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
 theringer.com##.u-xs-paddingRight10.u-xs-paddingLeft10.u-zIndexMetabar.u-paddingBottom10.u-paddingTop10.u-borderBox.u-boxShadowTop.u-backgroundWhite.u-sizeFullWidth.u-bottom0.u-fixed
 theringer.com##.youtube
 theringfinders.com###menu-main:style(position: relative !important; top: 0 !important;)
@@ -15090,10 +15096,10 @@ timeanddate.com##.sticky.fixed:style(position: relative !important; top: 0 !impo
 timeline.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.u-tintSpectrum.u-tintBgColor.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
 timeline.com##.is-maximized.metabar--affixed.u-tintSpectrum.u-tintBgColor.metabar--light.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
 timeline.com##.is-visible.js-postActionsBar.postActionsBar
+timeline.com##.js-postShareWidget
 timeline.com##.js-stickyFooter.u-xs-paddingRight10.u-xs-paddingLeft10.u-zIndexMetabar.u-paddingBottom10.u-paddingTop10.u-borderBox.u-boxShadowTop.u-backgroundWhite.u-sizeFullWidth.u-bottom0.u-fixed
 timeline.com##.u-tintSpectrum.u-tintBgColor.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorTransparentWhiteDarker.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
 timeline.com##.u-tintSpectrum.u-tintBgColor.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar:style(position: absolute !important;)
-timeline.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
 timesfreepress.com###detailClose
 timesfreepress.com###detailHeadlineStickyBar:style(position: relative !important; top: 0 !important;)
 timesfreepress.com##.sticky.headerWrap:style(position: relative !important; top: 0 !important;)
@@ -15247,8 +15253,8 @@ tour-magazin.de##.a2a_vertical_style.a2a_floating_style.a2a_kit_size_32.a2a_kit.
 tour-magazin.de##.social
 tour-magazin.de##nav.set.top.stucked:style(position: relative !important; top: 0 !important;)
 toutkickthecoverage.com##.mashsb-stretched.mashsb-main.mashsb-container
+towardsdatascience.com##.js-postShareWidget
 towardsdatascience.com##.u-tintSpectrum.u-tintBgColor.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar:style(position: absolute !important;)
-towardsdatascience.com##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
 townandcountrymag.com##.active.social-menu
 townandcountrymag.com##.content-nav-active.sticky.nav:style(position: relative !important; top: 0 !important;)
 townandcountrymag.com##.embed-related-content
@@ -15608,6 +15614,11 @@ upworthy.com##.sticky-bar--visible.sticky-nav.sticky-bar--top.sticky-bar:style(p
 upworthy.com##.sticky-share-button--visible.sticky-share-button
 upworthy.com##.ui-list--right.ui-list
 upworthy.com##body > div:nth-of-type(1) > div
+urbandaddy.com##.email-signup
+urbandaddy.com##.header:style(position: absolute !important;)
+urbandaddy.com##.navigation-article--is-active
+urbandaddy.com##.navigation:style(position: absolute !important;)
+urbandaddy.com##.social-bar
 urbandictionary.com##.columns.small-6.share
 urbanstems.com##.sticky.row.product-address-bar:style(position: relative !important; top: 0 !important;)
 urbo.com##.social_share.module
@@ -15768,11 +15779,11 @@ utilitydive.com##.wf-active.wf-abriltitling-n4-active.wf-proximanova-n4-active.w
 utsports.com##.tab-bar-fixed.c-tab-bar
 uxplanet.org##.is-active.popover--bottom.popover--quoteAttributions.popover--dark.js-popover.popover
 uxplanet.org##.js-postActionsFooter.u-flexCenter.postActions
+uxplanet.org##.js-postShareWidget
 uxplanet.org##.js-stickyFooter.u-xs-paddingRight10.u-xs-paddingLeft10.u-zIndexMetabar.u-paddingBottom10.u-paddingTop10.u-borderBox.u-boxShadowTop.u-backgroundWhite.u-sizeFullWidth.u-bottom0.u-fixed
 uxplanet.org##.markup--quote.is-other:style(background-image: none !important;)
 uxplanet.org##.paragraphControls-itemText
 uxplanet.org##.u-marginLeft0.u-lineHeightInherit.buttonSet
-uxplanet.org##.u-transition--fadeIn300.u-fixed.u-sm-hide.u-foreground.js-postShareWidget
 uxplanet.org##.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: absolute !important;)
 valleynewslive.com###nav:style(position: relative !important;)
 valleynewslive.com###socialIcons
