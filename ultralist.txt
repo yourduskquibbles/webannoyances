@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 3:49 PM 2018-03-13
+! Last Modified: 4:55 PM 2018-03-13
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -760,7 +760,7 @@ americanaffairsjournal.org##.sticky-container.leaky-paywall-notification-bar-wra
 americanaffairsjournal.org##.sticky.is-stuck:style(position: relative !important;)
 americanow.com###header-container-inner:style(position: relative !important; top: 0 !important;)
 americanow.com##.is-at-top.is-stuck.sticky.top-stories:style(position: relative !important; top: 0 !important;)
-americanprides.org##.mashsb-stretched.mashsb-main.mashsb-container
+americanprides.org##.mashsb-container
 americanprogress.org##.row.custom-bg
 americanscientist.org##.article__socialmedia
 americanscientist.org##.nav-down.banner:style(position: absolute !important;)
@@ -3036,7 +3036,7 @@ cosmosmagazine.com##.text-xs-right.col-sm-4
 counsyl.com###sg-popup
 countercept.com##.head:style(position: relative !important; top: 0 !important;)
 countercurrentnews.info##.adsbygoogle
-countercurrentnews.info##.mashsb-stretched.mashsb-main.mashsb-container
+countercurrentnews.info##.mashsb-container
 counterpointresearch.com##.icon-inline.icon-box-top.icon-box.social-icon
 counterpointresearch.com##.menu-shadows.menu-borders.style-color-xsdn-bg.menu-hide.menu-container:style(position: relative !important; top: 0 !important;)
 counterpointresearch.com##.scroll-top
@@ -3239,7 +3239,7 @@ crunchsmag.com##.td-with-like.td-post-sharing-bottom.td-post-sharing
 crutchfield.com###emailSignupOverlay
 cryptocoinsnews.com###onesignal-bell-container
 cryptocoinsnews.com##.headroom--pinned.headroom--not-top.headroom.mini-bar
-cryptocoinsnews.com##.mashsb-main.mashsb-container
+cryptocoinsnews.com##.mashsb-container
 cryptocoinsnews.com##.widget_text.widget
 cryptocompare.com##.in.ng-isolate-scope.fade.modal
 cryptocompare.com##.visible-sm-block.visible-lg-block.visible-md-block.navbar-fixed-top.navbar-main.navbar:style(position: absolute !important;)
@@ -3566,6 +3566,8 @@ daniweb.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute !i
 daniweb.com##.social-widgets.row
 dappersports.com##.right-bar
 dappersports.com##.stick-it.cf.main:style(position: relative !important; top: 0 !important;)
+darkwebguide.net###site-navigation:style(position: absolute !important;)
+darkwebguide.net##.mashsb-container
 dartagnan.com###header:style(position: relative !important; top: 0 !important;)
 datacenterdynamics.com###mainnav:style(position: relative !important; top: 0 !important;)
 davidtan.org##.site-header
@@ -4131,8 +4133,8 @@ duellplumbingandheating.com###mobile-above-header
 duffelblog.com###nav-wrapper
 duffelblog.com##.g1-back-to-top-on.g1-back-to-top
 duffelblog.com##.g1-sharebar-off.g1-sharebar-loaded.g1-sharebar.g1-row
+duffelblog.com##.mashsb-container
 duffelblog.com##.mashsb-micro-toggle
-duffelblog.com##.mashsb-stretched.mashsb-main.mashsb-container
 duke.edu###header:style(position: relative !important; top: 0 !important;)
 dummies.com##.navbar-fixed-top.main-nav.navbar:style(position: relative !important; top: 0 !important;)
 dutchnews.nl###shr_canvas2
@@ -5024,7 +5026,7 @@ foreignpolicy.com##.FP-mobile-ad_enabled.FP-mobile-ad_fixedbottom.FP-mobile-ad
 foreignpolicy.com##.default.js-takeover
 foreignpolicy.com##.facebook-button
 foreignpolicy.com##.follow-fp
-foreignpolicy.com##.header-alt-layout.site-header:style(position: absolute !important;)
+foreignpolicy.com##.header-alt-layout__title
 foreignpolicy.com##.home-ad-region-1
 foreignpolicy.com##.share-title
 foreignpolicy.com##.sharing
@@ -5032,6 +5034,7 @@ foreignpolicy.com##.slide-toggle-hover.share-links
 foreignpolicy.com##.subscribe--long
 foreignpolicy.com##.twitter-button
 foreignpolicy.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
+foreignpolicy.com##header:style(position: absolute !important; transition: none !important;)
 forksoverknives.com###masthead:style(position: relative !important; top: 0 !important;)
 formlabs.com###drift-widget-container
 formlabs.com###newsletter-signup
@@ -5043,7 +5046,7 @@ fortressofsolitude.co.za###nav-clone
 fortressofsolitude.co.za###widgetized-footer
 fortressofsolitude.co.za##.adsbygoogle
 fortressofsolitude.co.za##.clearfix.mgm-social-share
-fortressofsolitude.co.za##.mashsb-stretched.mashsb-main.mashsb-container
+fortressofsolitude.co.za##.mashsb-container
 fortune.cnn.com###smt_main
 fortune.com###header:style(position: relative !important; top: 0 !important;)
 fortune.com##.can-animate.has-headline.contextual-social-enabled.no-utility-ribbon.no-secondary-ribbon.main:style(position: absolute !important;)
@@ -6058,7 +6061,7 @@ hackernoon.com##.u-tintSpectrum.u-tintBgColor.u-xs-sizeFullViewportWidth.u-backg
 hackernoon.com##.u-xs-height95.u-height105.u-tintBgColor.js-metabarSpacer.metabar--spacer.metabar
 hackerone.com##.js-topbar
 hacklabo.com##.c-header--pinned.c-header--not-top.headroom--not-bottom.c-header--headroom.js-header.c-header:style(position: relative !important; top: 0 !important;)
-hackread.com##.mashsb-main.mashsb-container
+hackread.com##.mashsb-container
 hackster.io##.affix.affixable.group-nav:style(position: relative !important;)
 hakaimagazine.com###list--share-buttons
 hakaimagazine.com##.clearfix.block-even.block--social.block-block.block
@@ -10442,7 +10445,7 @@ ontariopolicereports.com##.td-social-icon-wrap
 openculture.com##.advertisement_notice
 openculture.com##.clearfix
 openculture.com##.closing-social
-openculture.com##.mashsb-main.mashsb-container
+openculture.com##.mashsb-container
 openculture.com##.socialblock
 opendemocracy.net##.a2a_default_style.a2a_kit_size_36.a2a_kit
 openelec.tv###ca_banner
@@ -10503,7 +10506,7 @@ outdoorlife.com##.main-header:style(position: relative !important; top: 0 !impor
 outdoorsdirectory.com###tt_mobile_banner
 outerbanks.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 outkickthecoverage.com###LayoutHeader:style(position: relative !important; top: 0 !important;)
-outkickthecoverage.com##.mashsb-stretched.mashsb-main.mashsb-container
+outkickthecoverage.com##.mashsb-container
 outline.com##outline-toolbar
 outlook.office.com##._ms_l.flex:style(position: absolute !important;)
 outlook.office.com##.ms-bgc-tp._ms_5:style(position: absolute !important;)
@@ -10618,7 +10621,7 @@ palmbeachpost.com##.story-social-share.rr-share
 palmerreport.com###fl-to-top
 palmerreport.com##.adsbygoogle
 palmerreport.com##.fl-page-nav-right.fl-page-header-fixed.fl-page-header:style(position: relative !important; top: 0 !important;)
-palmerreport.com##.mashsb-main.mashsb-container
+palmerreport.com##.mashsb-container
 pando.com###header:style(position: relative !important; top: 0 !important;)
 pando.com###social_links
 pando.com##.fyre-notifier-container
@@ -10934,9 +10937,9 @@ pizzabottle.com###bimber_widget_facebook_page-4
 pizzabottle.com##.entry-shares
 pizzabottle.com##.g1-back-to-top-on.g1-back-to-top
 pizzabottle.com##.g1-loaded.g1-sticky-top-wrapper:style(position: relative !important; top: 0 !important;)
+pizzabottle.com##.mashsb-container
 pizzabottle.com##.mashsb-micro
 pizzabottle.com##.mashsb-micro-toggle
-pizzabottle.com##.mashsb-stretched.mashsb-side.mashsb-container
 pjmedia.com###desktop-notification-ask-dialog
 pjmedia.com###email-signup-sidebar
 pjmedia.com###header-mobile-email-button
@@ -11313,7 +11316,7 @@ press-citizen.com##.site-nav-social-link.site-nav-icon-link.site-nav-first-secon
 press-citizen.com##.site-nav-social-link.site-nav-icon-link.site-nav-last-secondary-link.site-nav-end-link.site-nav-link-theme-maroon.site-nav-link
 press-citizen.com##.story-tools
 press-citizen.com##.utility-bar-wrap
-pressbull.com##.mashsb-stretched.mashsb-main.mashsb-container
+pressbull.com##.mashsb-container
 pressbull.com##.td-affix.td-header-gradient.td-header-menu-wrap:style(position: absolute !important;)
 pressbull.com##.td-front-end-display-block.td-more-articles-box
 pressbull.com##.td-scroll-up-visible.td-scroll-up
@@ -13096,7 +13099,7 @@ sportlerfrage.net##gf-share-link
 sportscastles.com##.g1-back-to-top-on.g1-back-to-top
 sportscastles.com##.g1-current-background.entry-meta-stats.entry-meta
 sportscastles.com##.g1-newsletter-horizontal.g1-newsletter.g1-box-centered.g1-box
-sportscastles.com##.mashsb-stretched.mashsb-main.mashsb-container
+sportscastles.com##.mashsb-container
 sportsnaut.com##.td-affix.td-header-gradient.td-header-menu-wrap:style(position: absolute !important;)
 sportsnaut.com##.td-with-like.td-post-sharing-top.td-post-sharing
 sportsnet.ca###ad_bigbox_within_articles_container
@@ -13130,7 +13133,7 @@ sputniknews.com##.arrowup
 sputniknews.com##.b-header__nav-social
 spuz.me##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute !important; top: 0 !important;)
 spyzie.com##.pageTop_fix.pageTop:style(position: absolute !important;)
-squawker.org##.mashsb-stretched.mashsb-main.mashsb-container
+squawker.org##.mashsb-container
 squawker.org##.td-affix.td-header-main-menu.td-header-border.td-header-row:style(position: absolute !important;)
 squawker.org##.td-pb-padding-side.td-post-sharing-top.td-post-sharing
 ssense.com##.hard-acc.header:style(position: relative !important; top: 0 !important;)
@@ -13377,7 +13380,7 @@ strongtowns.org##.g-qfluwy.g1h9i0s.g-pq3d0r.g-r00q9g.gfnpc83.g-hu34cm
 study.com###freshdeskButton
 studybreaks.com###cb-nav-bar:style(position: relative !important; top: 0 !important;)
 studybreaks.com##.cb-menu-fw.cb-font-header.clearfix.cb-site-padding.cb-nav-bar-wrap:style(position: relative !important; top: 0 !important;)
-studyfinds.org##.mashsb-main.mashsb-container
+studyfinds.org##.mashsb-container
 studyfinds.org##.scrollToTop
 stuff.co.nz###js-story__ad-storyrec
 stuff.co.nz##.adfeedback
@@ -13994,7 +13997,7 @@ thecalifornian.com##.story-tools
 thecalifornian.com##.utility-bar-wrap
 thecannabist.co###sidebar-followus
 thecannabist.co##.contain-to-grid.fixed.top-bar-container:style(position: absolute !important;)
-thecannabist.co##.mashsb-stretched.mashsb-main.mashsb-container
+thecannabist.co##.mashsb-container
 thecerbatgem.com###exit-overlay
 thecerbatgem.com###optinform-container
 thecerbatgem.com##.mobile-hide
@@ -14627,7 +14630,7 @@ theplaylist.net###cb-main-menu:style(position: relative !important; top: 0 !impo
 theplaylist.net###social-media-icons-4
 theplaylist.net##.clearfix.cb-top-menu-wrap.wrap:style(position: relative !important; top: 0 !important;)
 theplaylist.net##.fa-long-arrow-up.fa
-theplaylist.net##.mashsb-main.mashsb-container
+theplaylist.net##.mashsb-container
 thepoliticalinsider.com###imk300a
 thepoliticalinsider.com##.top-line
 thepoliticalinsider.com##.white-box
@@ -15275,7 +15278,7 @@ totalwine.com###actionbar
 tour-magazin.de##.a2a_vertical_style.a2a_floating_style.a2a_kit_size_32.a2a_kit.floating.card-sharing
 tour-magazin.de##.social
 tour-magazin.de##nav.set.top.stucked:style(position: relative !important; top: 0 !important;)
-toutkickthecoverage.com##.mashsb-stretched.mashsb-main.mashsb-container
+toutkickthecoverage.com##.mashsb-container
 towardsdatascience.com##.js-postShareWidget
 towardsdatascience.com##.u-tintSpectrum.u-tintBgColor.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar:style(position: absolute !important;)
 townandcountrymag.com##.active.social-menu
@@ -16115,7 +16118,7 @@ vr-world.com###gp-sub-header:style(position: relative !important;)
 vr-world.com###gp-to-top
 vrchat.com###mainNav:style(position: absolute !important;)
 vrodo.de###main_sticky:style(position: absolute !important;)
-vrodo.de##.mashsb-stretched.mashsb-main.mashsb-container
+vrodo.de##.mashsb-container
 vrpill.com##.navbar-fixed-top.navbar-scroll-fixed.navbar-default.navbar:style(position: absolute !important;)
 vulture.com##.ad-splash
 vulture.com##.bottom-share
