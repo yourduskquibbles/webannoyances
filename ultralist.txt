@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:07 AM 2018-03-13
+! Last Modified: 11:43 AM 2018-03-13
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -16646,6 +16646,7 @@ wired.com##.social-top
 wired.com##.social_bookmarking_module
 wired.com##.subscribe-panel-component--footer.subscribe-panel-component
 wired.com##.subscribe.secondary
+wired.com##:xpath(.//*[@data-js="leaderboard"])
 wired.com##body:style(padding-top: 0px !important;)
 wired.com##nav:style(position: relative !important; top: 0 !important;)
 wireguard.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
