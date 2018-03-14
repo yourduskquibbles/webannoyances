@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 1:26 PM 2018-03-14
+! Last Modified: 2:31 PM 2018-03-14
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -403,7 +403,10 @@ accuweather.com##.Header:style(position: relative !important; top: 0 !important;
 accuweather.com##.addthis_toolbox.addthis_default_style
 accuweather.com##.footer-social
 accuweather.com##.panel-ad-mr.panel
+aclu.org###cboxOverlay
+aclu.org###colorbox
 aclu.org###header:style(transition: none !important;)
+aclu.org##.pane-aclu-blog-news-signup.panel-pane
 aclu.org##.share-icons.pane-aclu-components-share-icons.panel-pane
 aclu.org##.sticky-minimized
 acorns.com##.bg-helper:style(position: relative !important; top: 0 !important;)
@@ -756,7 +759,13 @@ amazon.com##body:style(overflow-x: hidden !important; overflow-y: auto !importan
 amazon.com##body:style(padding-top: 0px !important;)
 amctheatres.com###CheckoutConfirmationMessage:style(position: relative !important; top: 0 !important;)
 amctheatres.com###CheckoutHeader:style(position: relative !important; top: 0 !important;)
+amctheatres.com##.Header-wrap-wrapper:style(position: absolute !important;)
+amctheatres.com##.Site > div:nth-of-type(2) > div:nth-of-type(2):style(position: absolute !important;)
+amctheatres.com##.global-notification-container:style(position: absolute !important;)
+amctheatres.com##.in.fade.modal-backdrop
 amctheatres.com##.is-opaque.Header-wrap:style(position: relative !important; top: 0 !important;)
+amctheatres.com##.modal.in.fade.grid-wrapper
+amctheatres.com##html:style(overflow-x: hidden !important; overflow-y: auto !important;)
 amdflaws.com##.w-nav.sidebar:style(position: absolute !important;)
 america.gov##.td-affix.td-header-gradient.td-header-menu-wrap:style(position: relative !important; top: 0 !important;)
 america.gov##.td-footer-wrapper
@@ -1375,6 +1384,7 @@ bbc.com###follow-us
 bbc.com###share-tools-top
 bbc.com###sticky-player-1:style(position: relative !important; top: 0 !important;)
 bbc.com##.ghost-column.show.share--lightweight.share
+bbc.com##.lx-share-tools__items
 bbc.com##.share--article.headed-section-small.headed-section > .headed-section-lining > header > .section-header > .section-title-wrapper > .section-title
 bbc.com##.share--article.small.share--desktop.share
 bbc.com##.share--article.small.share--mobile.share
@@ -10747,6 +10757,7 @@ pbs.org##.social-icons
 pbs.org##.social-media__links
 pbs.org##.social-media__social-cta
 pbs.org##.sticky.js-header.header:style(position: relative !important; top: 0 !important;)
+pbs.org##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 pcgamer.com##.cc-color-override--493919820.cc-top.cc-theme-block.cc-type-info.cc-floating.cc-window
 pcgamer.com##.cc-top.cc-theme-block.cc-type-info.cc-floating.cc-window
 pcgamer.com##.hello.almost.magic-container
@@ -12773,6 +12784,8 @@ silive.com##.sticky-nav-hide:style(margin-top: 0px !important; transition: none 
 silive.com##.sticky-nav-show.sticky-nav:style(position: relative !important; top: 0 !important; transition: none !important;)
 silive.com##.sticky-nav:style(position: relative !important; top: 0 !important; transition: none !important;)
 silive.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
+similarsites.com###header:style(position: relative !important;)
+similarsites.com###sticky_install_div
 similarweb.com###js-stickyElement
 similarweb.com##.postPage-social
 simplehuman.com##.meshim_widget_components_mobileChatButton_TappingScreen
