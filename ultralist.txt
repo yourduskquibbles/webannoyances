@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:42 AM 2018-03-14
+! Last Modified: 1:19 PM 2018-03-14
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -107,6 +107,7 @@
 ##.twitter-follow-button
 ##.twitter-share-button
 ##.u-marginAuto.metabar-inner.js-metabarTop
+##.u-xs-hide.u-xs-height56.u-height65.u-verticalAlignTop.u-inlineBlock.u-alignMiddle
 ##.up_button
 ##.youtube-icon
 /arscode-ninja-popups/*
@@ -4404,11 +4405,13 @@ espn.com##.ad-wrapper.ad-slot-incontent.ad-slot
 espn.com##.bg-opaque.mod-outbrain.mod-no-border
 espn.com##.contentItem__footer--shareMenuVideo.contentItem__footer
 espn.com##.espnDaily.sub-module
+espn.com##.facebookShareButton
 espn.com##.fixed.global-nav-wrap:style(position: absolute !important;)
 espn.com##.floatright.related.inline-1.mod-inline
 espn.com##.global-nav-wrap:style(position: relative !important;)
 espn.com##.header-ad
 espn.com##.horizontal.article-social
+espn.com##.icon-twitter-solid-before
 espn.com##.is-inview.ad-320
 espn.com##.js-bloomed.favorites-mgmt.lightbox
 espn.com##.lightbox-container
@@ -4416,6 +4419,7 @@ espn.com##.mod-page-actions
 espn.com##.newItemAlert.sm.button:style(position: relative !important; top: 0 !important;)
 espn.com##.pickShare
 espn.com##.shareMenu
+espn.com##.shareables
 espn.com##.signin-social
 espn.com##.social-menu
 espn.com##.social-nav-icons
@@ -7861,6 +7865,12 @@ legacy.com##.FixedLeftRail.Sharing
 legacy.com##.Questionnaire__isOpen___2e031.Questionnaire__Questionnaire___3v3BM
 legacy.com##.ShareElement
 legalinsurrection.com##.text-36.sidebarBlock.widget.notitle.centered
+legalist.com###intercom-container
+legalist.com##.is-maximized.metabar--affixed.u-tintSpectrum.u-tintBgColor.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar:style(position: absolute !important;)
+legalist.com##.modal
+legalist.com##.modal-content
+legalist.com##.u-tintSpectrum.u-tintBgColor.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorTransparentWhiteDarker.js-metabar.u-clearfix.metabar:style(position: absolute !important;)
+legalist.com##.w-nav.navigation:style(position: absolute !important;)
 legalweek.com##.nav-fixed.nav:style(position: relative !important; top: 0 !important;)
 lehighvalleylive.com###adhesionUnit
 lehighvalleylive.com###adv_header:style(position: relative !important; top: 0 !important;)
