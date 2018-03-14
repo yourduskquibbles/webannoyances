@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 9:01 AM 2018-03-14
+! Last Modified: 11:42 AM 2018-03-14
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -125,10 +125,16 @@
 100percentfedup.com##.td-header-style-8.td-header-wrap:style(position: relative !important; top: 0 !important;)
 100percentfedup.com##.wpdev-desktop-social.col-sm-3
 101livesportsvideos.com###to_top_scrollup
+10best.com###nav-branding:style(position: relative !important;)
+10best.com###newsletter_widget-2
+10best.com###secondary:style(position: relative !important;)
 10best.com##.fixed:style(position: absolute !important; top: 0 !important;)
 10best.com##.homepage-top-story-callout.columns.large-12
+10best.com##.nav__social
 10best.com##.scrollToTop
+10best.com##.social-cta
 10best.com##.spnf_left.spnf_ticker
+10best.com##.sticky-wrapper.is-sticky+.nav:style(padding-top: 0px !important;)
 10best.com##.vert-social-sharing-bar
 10news.com###header:style(position: relative !important; top: 0 !important;)
 10news.com##.layout--share__second
@@ -8299,6 +8305,7 @@ mardigras.com##body:style(overflow-x: hidden !important; overflow-y: auto !impor
 marginalrevolution.com##.meta_print
 marieclaire.com###share-sticky-bar
 marieclaire.com##.ad-gpt-breaker-container
+marieclaire.com##.content-info-social-buttons
 marieclaire.com##.footer--social
 marieclaire.com##.nav--secondary
 marieclaire.com##.nav:style(position: relative !important; top: 0 !important;)
@@ -14999,11 +15006,14 @@ thewire.com##.article-social.regular-social-buttons
 thewire.com##.follow-us.small
 thewire.com##.header:style(position: relative !important; top: 0 !important;)
 thewire.com##.shares
-thewire.com##.shares.bottom-only
-thewire.com##.shares.loaded
 thewirecutter.com##.ad-728x90
 thewirecutter.com##.clearfix.social
-thewirecutter.com##.js-desktop-header.desktop-header.js-header-row.header-row:style(position: relative !important;)
+thewirecutter.com##.desktop-header-wrap:style(height: 126px !important; transition: none !important;)
+thewirecutter.com##.desktop-header:style(transition: none !important;  padding-top: 0px !important; padding-bottom: 0px !important;)
+thewirecutter.com##.js-header-row.header-row:style(transition: none !important; position: relative !important; top: 0 !important; margin-top: 0px !important; padding-top: 0px !important;)
+thewirecutter.com##.newsletter
+thewirecutter.com##.newsletter-container
+thewirecutter.com##.site-header:style(transition: none !important; margin-top: 0px !important; padding-top: 0px !important; padding-bottom: 0px !important;)
 thewolfhall.com##.adsbygoogle
 thewolfhall.com##.onesignal-bell-container-bottom-left.onesignal-reset.onesignal-bell-container
 thewolfhall.com##.td-post-sharing-top.td-post-sharing
