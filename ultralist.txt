@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 2:31 PM 2018-03-14
+! Last Modified: 4:20 PM 2018-03-14
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -2099,6 +2099,7 @@ canon.com##.navbar.site-header:style(position: absolute !important;)
 capitalgazette.com##.trb_ar_h > .trb_sc
 capitalgazette.com##.trb_nh:style(position: absolute !important;)
 capitalone.com##.fixed:style(position: relative !important; top: 0 !important;)
+capitalwasteland.com###showOnScrollWrapper
 capitolcityproject.com##.pagenav.fixedmenu
 cardpool.com##.feedback_link
 careerattraction.com###back_to_top
@@ -3173,6 +3174,7 @@ courierpress.com##.site-nav-social-link.site-nav-icon-link.site-nav-link-theme-d
 courierpress.com##.story-tools
 courierpress.com##.utility-bar-wrap
 cpj.org##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
+cpuheater.com##.scroll-to-top
 cracked.com###header:style(position: absolute !important;)
 cracked.com###upAndDownController
 cracked.com##.facebook-icon.nav-icon
@@ -6522,11 +6524,6 @@ huckberry.com##.top-nav:style(position: relative !important; top: 0 !important;)
 huckmagazine.com##.first.twelvecol.header:style(position: relative !important; top: 0 !important;)
 huckmagazine.com##.social-footer.footer
 huckmagazine.com##.social-share
-huffingtonpost.ca##.desktop-only.author-card__social-container
-huffingtonpost.ca##.mod-follow.follow-us.desktop-only
-huffingtonpost.ca##.social-list
-huffingtonpost.co.uk###ooCont
-huffingtonpost.co.uk##.mobile-only.shareBarBottom
 huffingtonpost.com###badges_v2_1
 huffingtonpost.com###chicklets
 huffingtonpost.com###float_tracker
@@ -6550,7 +6547,7 @@ huffingtonpost.com##.image_overlay_icon
 huffingtonpost.com##.inline-newsletter
 huffingtonpost.com##.inline-newsletter__image
 huffingtonpost.com##.inline-newsletter__inner
-huffingtonpost.com##.js-header.header:style(position: relative !important; top: 0 !important;)
+huffingtonpost.com##.js-header.header:style(position: relative !important; height: 78px !important;)
 huffingtonpost.com##.js-highlight.share-bar-highlight
 huffingtonpost.com##.js-nav-sticky.nav-sticky
 huffingtonpost.com##.js-nav-sticky.nav-sticky--b-page.nav-sticky
@@ -8161,7 +8158,7 @@ m.csmonitor.com###csm_header_container:style(position: relative !important; top:
 m.dailykos.com##.footer
 m.destinationxl.com###mntt_alt_02
 m.gulfnews.com##.sticky.not-sticky.tab-bar
-m.huffpost.com##.header-container:style(position: relative !important; top: 0 !important;)
+m.huffpost.com##.header-container:style(position: absolute !important; transition: none !important;)
 m.imgur.com##.FloatingOIA
 m.imgur.com##.FloatingOIA-container
 m.imgur.com##.Navbar:style(position: relative !important; top: 0 !important;)
