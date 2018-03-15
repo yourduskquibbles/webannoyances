@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 7:13 AM 2018-03-15
+! Last Modified: 9:22 AM 2018-03-15
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -1017,6 +1017,8 @@ artfixdaily.com##.share-button
 artfixdaily.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 artlawjournal.com###herald-responsive-header:style(position: relative !important; top: 0 !important;)
 artlawjournal.com###sticky-header
+artofmanliness.com###gpt-ad-top
+artofmanliness.com##.fixed.top-bar-container:style(position: relative !important; transition: none !important;)
 artplusmarketing.com##.js-postShareWidget
 artplusmarketing.com##.u-tintSpectrum.u-tintBgColor.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorDarker.js-metabar.u-clearfix.metabar:style(position: absolute !important;)
 artstation.com###main-nav:style(position: relative !important; top: 0 !important;)
@@ -1146,6 +1148,7 @@ avclub.com##.fb_digioh-overlay-fixed.fb_digioh-overlay
 avclub.com##.footer-social
 avclub.com##.footer-subscribe
 avclub.com##.js_ad-top-banner.ad-top-banner.js_ad-unit.ad-unit
+avclub.com##.js_global-nav-wrap:style(position: absolute !important;)
 avclub.com##.js_post-dropdown-ct-sticky.js_post-dropdown-ct.post-dropdown-ct
 avclub.com##.js_post-dropdown-ct.post-dropdown-ct.js_meta-tools.meta__tools
 avclub.com##.js_subscribe-region-sidebar.js_dismissable.js_newsletter-btn--subscribe
@@ -1443,6 +1446,7 @@ betanews.com##.socialMedia
 betanews.com##.socialshare
 bethesdamagazine.com##.shadowbox-image
 bethesdamagazine.com##.shadowbox-image-scrim
+better.com###header-floating\ navbar:style(position: absolute !important;)
 betterads.org##.show-mobile-logo.dt-parent-menu-clickable.shadow-decoration.full-height.widgets.justify.inline-header.masthead:style(position: relative !important; top: 0 !important;)
 bettycrocker.com##.floatingBox
 bgdailynews.com###main-navigation:style(position: absolute !important; top: 0 !important;)
@@ -1546,6 +1550,7 @@ bleepingcomputer.com##.cc-color-override--1360619034.cc-bottom.cc-theme-classic.
 bleepingcomputer.com##header:style(position: relative !important; top: 0 !important;)
 blockcypher.com##.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important;)	
 blog.bugreplay.com###bloc-nav
+blog.github.com##.site-header:style(position: relative !important;)
 blog.google##.article-share--sticky.article-sticky-share__wrap
 blog.google##.article-sticky-share__wrap
 blog.google##.h-c-header__bar:style(position: absolute !important;)
@@ -3635,6 +3640,7 @@ deadspin.com###sharingfooter
 deadspin.com##.footer-social
 deadspin.com##.global-nav--scrollback.fixed.shown.animated.hide-for-large-up.mobile-nav.global-nav.js_top-nav.js_global-nav-wrap:style(position: absolute !important;)
 deadspin.com##.js_ad-top-banner.ad-top-banner.js_ad-unit.ad-unit
+deadspin.com##.js_global-nav-wrap:style(position: absolute !important;)
 deadspin.com##.js_post-dropdown-ct-sticky.js_post-dropdown-ct.post-dropdown-ct
 deadspin.com##.js_post-dropdown-ct.post-dropdown-ct.js_meta-tools.meta__tools
 deadspin.com##.js_subscribe-region-sidebar.js_dismissable.js_newsletter-btn--subscribe
@@ -4179,6 +4185,7 @@ dxomark.com###dxo-bottom-banner
 dxomark.com###masthead:style(position: absolute !important; top: 0 !important;)
 dynastynow.com###header-navigation:style(position: relative !important;)
 dynastynow.com###social-top
+earther.com##.js_global-nav-wrap:style(position: absolute !important;)
 earther.com##.js_subscribe-region-sidebar.js_dismissable.js_newsletter-btn--subscribe
 earthisland.org###raft
 earthisland.org###sb-container
@@ -5532,6 +5539,7 @@ gizmodo.com###sharingfooter
 gizmodo.com##.footer-social
 gizmodo.com##.global-nav--scrollback.fixed.shown.animated.global-nav--permalink.hide-for-medium-down.global-nav--desktop.global-nav.js_top-nav.js_global-nav-wrap:style(position: absolute !important;)
 gizmodo.com##.js_ad-top-banner.ad-top-banner.js_ad-unit.ad-unit
+gizmodo.com##.js_global-nav-wrap:style(position: absolute !important;)
 gizmodo.com##.js_post-dropdown-ct-sticky.js_post-dropdown-ct.post-dropdown-ct
 gizmodo.com##.js_post-dropdown-ct.post-dropdown-ct.js_meta-tools.meta__tools
 gizmodo.com##.js_subscribe-region-sidebar.js_dismissable.js_newsletter-btn--subscribe
@@ -7189,6 +7197,7 @@ jalopnik.com###sharingfooter
 jalopnik.com##.footer-social
 jalopnik.com##.footer-subscribe
 jalopnik.com##.js_ad-top-banner.ad-top-banner.js_ad-unit.ad-unit
+jalopnik.com##.js_global-nav-wrap:style(position: absolute !important;)
 jalopnik.com##.js_post-dropdown-ct-sticky.js_post-dropdown-ct.post-dropdown-ct
 jalopnik.com##.js_post-dropdown-ct.post-dropdown-ct.js_meta-tools.meta__tools
 jalopnik.com##.js_subscribe-region-sidebar.js_dismissable.js_newsletter-btn--subscribe
@@ -7430,6 +7439,7 @@ king5.com##.sharing
 kinja.com###sharingfooter
 kinja.com##.global-nav--scrollback.fixed.shown.animated.hide-for-large-up.mobile-nav.global-nav.js_top-nav.js_global-nav-wrap:style(position: relative !important; top: 0 !important;)
 kinja.com##.js_ad-top-banner.ad-top-banner.js_ad-unit.ad-unit
+kinja.com##.js_global-nav-wrap:style(position: absolute !important;)
 kinja.com##.js_post-dropdown-ct-sticky.js_post-dropdown-ct.post-dropdown-ct
 kinja.com##.js_post-dropdown-ct.post-dropdown-ct.js_meta-tools.meta__tools
 kinja.com##.js_subscribe-region-sidebar.js_dismissable.js_newsletter-btn--subscribe
@@ -7562,6 +7572,7 @@ korg.com##.st_sharethis_hcount
 kotaku.com###sharingfooter
 kotaku.com##.footer-social
 kotaku.com##.js_ad-top-banner.ad-top-banner.js_ad-unit.ad-unit
+kotaku.com##.js_global-nav-wrap:style(position: absolute !important;)
 kotaku.com##.js_post-dropdown-ct-sticky.js_post-dropdown-ct.post-dropdown-ct
 kotaku.com##.js_post-dropdown-ct.post-dropdown-ct.js_meta-tools.meta__tools
 kotaku.com##.newsletter-subscribe--email.newsletter-subscribe
@@ -7960,15 +7971,14 @@ lifeaspire.com###headerBlock:style(position: relative !important; top: 0 !import
 lifeaspire.com##.adsbygoogle
 lifebuzz.co##.footer-popup.footer-popup-active
 lifebuzz.co##.social-box-big
-lifehacker.com###eyubptfbcvwbxrrlnfngrubtvjrqfcaavknr
 lifehacker.com###sharingfooter
 lifehacker.com##.footer-social
-lifehacker.com##.global-nav--desktop.global-nav.js_top-nav.js_global-nav-wrap:style(position: absolute !important;)
 lifehacker.com##.js_ad-top-banner.ad-top-banner.js_ad-unit.ad-unit
+lifehacker.com##.js_global-nav-wrap:style(position: absolute !important;)
+lifehacker.com##.js_newsletter-btn--subscribe
 lifehacker.com##.js_post-dropdown-ct-sticky.js_post-dropdown-ct.post-dropdown-ct
 lifehacker.com##.js_post-dropdown-ct.post-dropdown-ct.js_meta-tools.meta__tools
 lifehacker.com##.js_subscribe-region-sidebar.js_dismissable.js_newsletter-btn--subscribe
-lifehacker.com##.newsletter-btn--subscribe__nodismiss.newsletter-btn--subscribe.js_subscribe-region-footer.js_newsletter-btn--subscribe
 lifenews.com###blockModalPopupDiv
 lifenews.com###outerModalPopupDiv
 lifesitenews.com###header:style(position: relative !important; top: 0 !important;)
@@ -8452,10 +8462,9 @@ marthastewart.com##.mobile-ad-unit
 marthastewart.com##.mslo-share-bar-wrap
 mashable.com###newsletter-signup
 mashable.com###peek > div:nth-of-type(1) > div
-mashable.com###scrollable:style(padding-top: 0px !important;)
 mashable.com###share-nav
-mashable.com###site-header:style(position: relative !important; top: 0 !important;)
-mashable.com###sticky:style(position: relative !important; top: 0 !important;)
+mashable.com###site-header:style(position: relative !important;)
+mashable.com###sticky:style(position: relative !important;)
 mashable.com##.article-shares-links
 mashable.com##.article-shares-stub
 mashable.com##.fb_digioh-margin
@@ -8464,7 +8473,7 @@ mashable.com##.follow-channel
 mashable.com##.jw-sharing-dock-btn.jw-reset.jw-background-color.jw-dock-button
 mashable.com##.microcontent-shares
 mashable.com##.microcontent-wrapper:before
-mashable.com##.navbar:style(position: relative !important; top: 0 !important;)
+mashable.com##.navbar:style(position: relative !important;)
 mashable.com##.preloaded_lightbox
 mashable.com##.pull-right.follow-menu.submenu.follow
 mashable.com##.share-container
@@ -9290,11 +9299,16 @@ naplesnews.com##.site-nav-social-link.site-nav-icon-link.site-nav-first-secondar
 naplesnews.com##.site-nav-social-link.site-nav-icon-link.site-nav-first-secondary-link.site-nav-end-link.site-nav-link-theme-dark-green.site-nav-link
 naplesnews.com##.story-tools
 naplesnews.com##.utility-bar-wrap
+narrative.ly###header:style(position: absolute !important;)
 narrative.ly###narratively-story-header:style(position: relative !important; top: 0 !important;)
 narrative.ly###share-bar
 narrative.ly##.facebook-wrapper.site-nav
+narrative.ly##.hidden-xs.subscribe_form
+narrative.ly##.mobile_post_share
 narrative.ly##.modal-content
 narrative.ly##.modal-overlay
+narrative.ly##.post_share
+narrative.ly##.smlinks
 narrative.ly##.social
 narrative.ly##.story-navigator
 narvar.com###josbank-nav:style(position: relative !important; top: 0 !important;)
@@ -13127,6 +13141,7 @@ splinternews.com##.footer-social
 splinternews.com##.footer-subscribe
 splinternews.com##.global-nav--scrollback.fixed.shown.global-nav--permalink.hide-for-medium-down.global-nav--desktop.global-nav.js_top-nav.js_global-nav-wrap:style(position: absolute !important;)
 splinternews.com##.js_ad-top-banner.ad-top-banner.js_ad-unit.ad-unit
+splinternews.com##.js_global-nav-wrap:style(position: absolute !important;)
 splinternews.com##.js_post-dropdown-ct-sticky.js_post-dropdown-ct.post-dropdown-ct
 splinternews.com##.js_post-dropdown-ct.post-dropdown-ct.js_meta-tools.meta__tools
 splinternews.com##.js_subscribe-region-sidebar.js_dismissable.js_newsletter-btn--subscribe
@@ -14762,6 +14777,7 @@ theroot.com###sharingfooter
 theroot.com##.footer-social
 theroot.com##.footer-subscribe
 theroot.com##.js_ad-top-banner.ad-top-banner.js_ad-unit.ad-unit
+theroot.com##.js_global-nav-wrap:style(position: absolute !important;)
 theroot.com##.js_post-dropdown-ct-sticky.js_post-dropdown-ct.post-dropdown-ct
 theroot.com##.js_post-dropdown-ct.post-dropdown-ct.js_meta-tools.meta__tools
 theroot.com##.js_subscribe-region-sidebar.js_dismissable.js_newsletter-btn--subscribe
@@ -14921,6 +14937,7 @@ thesun.co.uk##.sun-header__mini.sun-header--nav.sun-row
 thesun.co.uk##.swiper-container-android.swiper-container-free-mode.swiper-container-horizontal.sun-header--nav-wrap.swiper-container.no-gutters.sun-col-6.col:style(position: relative !important; top: 0 !important; transition: none !important;)
 thetab.com##.big.share__facebook
 thetakeout.com##.global-nav--scrollback.fixed.shown.global-nav--permalink.hide-for-medium-down.global-nav--desktop.global-nav.js_top-nav.js_global-nav-wrap:style(position: absolute !important;)
+thetakeout.com##.js_global-nav-wrap:style(position: absolute !important;)
 thetimes.co.uk###tto-cookieMessage
 thetimes.co.uk###tto-cookieMessageInner
 thetimes.co.uk##.ArticlePager
@@ -17532,6 +17549,7 @@ zyngaplayerforums.com##.Reactions
 ||turner.com/*/adfuel-1.1.0.js$script,domain=cnn.com
 ||turner.com/*/cnn_money-ais.js$script,domain=cnn.com
 ||turner.com/*/cnnmoney_tech.js$script,domain=cnn.com
+||urbandaddy.network/bar/light/$subdocument
 ||washingtonpost.com/*/drawbridge.js$script,first-party
 ||washingtonpost.com/*/wpPwapi1-min.js$script,first-party
 ||washtimes.com/js/base_global*$script,domain=washingtontimes.com
