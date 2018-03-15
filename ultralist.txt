@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 10:12 AM 2018-03-15
+! Last Modified: 10:29 AM 2018-03-15
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -5039,6 +5039,10 @@ fool.com##.fool-tophat-container:style(position: relative !important; top: 0 !im
 fool.com##.navigation:style(position: relative !important; top: 0 !important;)
 fool.com##.usmf-article-nav:style(position: relative !important; top: 0 !important;)
 foolishit.com##.stuck.clearfix.dark-menu-dropdown.third-skin.main-navigation:style(position: relative !important; top: 0 !important;)
+foragerfunds.com###nav:style(position: absolute !important;)
+foragerfunds.com###ssba-classic-2
+foragerfunds.com###subscribe-report-block
+foragerfunds.com##.subscribe-wrap
 forbes.com##.ad-row.et-rows.clearfix.csf-row
 forbes.com##.ad-row.no-border.et-rows.clearfix.csf-row
 forbes.com##.beta-bar-gallery.beta-bar
@@ -11979,12 +11983,11 @@ reddit.com##.seo-comments
 reddit.com##.seo-comments-recommendations.spacer
 reddit.com##.side:style(position: relative !important;)
 reddit.com##.splash-design.splash_wrapper
-reddit.com##.tabmenu:style(position: relative !important;)
+reddit.com##.tabmenu:style(position: relative !important; width: 100% !important;)
 reddit.com##.welcome.infobar
 reddit.com##body::before:style(position: relative !important; height: 0px !important;)
 reddit.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 reddit.com##ol:style(position: relative !important;)
-reddit.com##script:inject(set-constant.js,isPinned,true)
 redditblog.com##.footer-share
 redditblog.com##.header-social
 redditgifts.com##.js-header-main.header-main:style(position: absolute !important;)
