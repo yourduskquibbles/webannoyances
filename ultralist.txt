@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 9:24 AM 2018-03-15
+! Last Modified: 10:12 AM 2018-03-15
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -6365,8 +6365,8 @@ hm.com##.cookie-notification
 hm.com##.is-hidden-webview.js-viewport-offset-element.js-l-header.l-header:style(position: relative !important;)
 hm.com##.vngage-active.vngage-open.vngage-tabbanner.vngage-banner:style(position: absolute !important;)
 hm.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
-hn.algolia.com###main > .ng-scope.container > .main > .ng-scope:nth-of-type(1):style(position: relative !important; top: 0 !important;)
-hn.algolia.com##.page-header:style(position: relative !important; top: 0 !important;)
+hn.algolia.com##.page-header:style(position: absolute !important;)
+hn.algolia.com##header.ng-scope:style(position: absolute !important; width: 100% !important; left: 0 !important;)
 hoax-slayer.net###eu_cookie_law_widget-2
 hoax-slayer.net###navigation:style(position: absolute !important; top: 0 !important;)
 hoaxorfact.com###go-top
