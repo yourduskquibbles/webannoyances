@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 10:34 AM 2018-03-15
+! Last Modified: 10:47 AM 2018-03-16
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -33,6 +33,7 @@
 ###slidebox
 ###smartbanner
 ###social-media-box
+###tt_mobile_banner
 ###twitter-widget-1
 ##.Post-social
 ##.a-Pinit
@@ -1772,6 +1773,7 @@ bostonreview.net##.header-support
 bostonreview.net##.promobottom-support
 bostonreview.net##.promotilestandalone
 bostonreview.net##.rectanglead
+botl.org###tt_mobile_banner
 bottlebreacher.com###topcontrol
 bottomlineinc.com##.is_stuck.sticky-sidebar
 bottomlineinc.com##.sticky-nav.cf.navigation-wrap:style(position: relative !important; top: 0 !important;)
@@ -4841,6 +4843,7 @@ ffblife.com##.footer-top > .wrapper
 fhm.com###FHMIssueCover
 fhm.com###ctl00_Body_slideboxDiv
 fhm.com###socialButton
+fibrowomen.com###nav-mobile:style(position: absolute !important;)
 fidelity.com##.fixed.scoreCardFloatingWrapper:style(position: relative !important;)
 fidelity.com##.info-flyout-wrapper
 fidelity.com##.right-icons-bar
@@ -4986,6 +4989,7 @@ focus.de###nlgate
 focus.de###nlgate-overlay-0
 focus.de##.ressort-wrapper:style(position: relative !important;)
 foell.org##.navbar-inverse.navbar-fixed-top.navbar:style(position: absolute !important;)
+fogodechao.com###nav:style(position: absolute !important;)
 foliomag.com###primarynav:style(position: relative !important;)
 foliomag.com##.menu:style(position: relative !important;)
 food.com###fdc-navbar:style(position: relative !important; top: 0 !important;)
@@ -6400,6 +6404,7 @@ hollywoodreporter.com##.rail-ad
 hollywoodreporter.com##.sharetools.sharetools-horizontal
 hollywoodreporter.com##.site-header-basic--preta:style(position: relative !important; top: 0 !important;)
 hollywoodreporter.com##.site-header__bar:style(position: relative !important; top: 0 !important; transition: none !important;)
+hollywoodreporter.com##.site-header__progress:style(position: absolute !important;)
 hollywoodreporter.com##.social-container
 hollywoodreporter.com##.social-share
 hollywoodreporter.com##.sticky-wrapper:style(position: absolute !important; height: 1724px !important; margin-top: 0px !important;)
@@ -7078,8 +7083,9 @@ investopedia.com###AdSlot_BF-Right-Multi
 investopedia.com###infinite-scroll-container
 investopedia.com##.ad-leaderboard
 investopedia.com##.inner-helper:style(position: absolute !important;)
-investopedia.com##.meganav:style(position: absolute !important;)
+investopedia.com##.meganav:style(position: relative !important;)
 investopedia.com##.social-share
+investopedia.com##body:style(margin-top: 0px !important;)
 investorjunkie.com##.nav-down.site-header:style(position: relative !important; top: 0 !important;)
 investors.com##.text-center.leaderboard-ad.pushdown-ad.site-header-ad.ads
 ipaddress.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
@@ -8564,6 +8570,7 @@ meaww.com##.meaww-header__main:style(position: relative !important; top: 0 !impo
 medgadget.com##.essb_share
 medgadget.com##.soc-media-sharing
 mediaequalizer.com###header:style(position: relative !important; top: 0 !important;)
+mediaite.com###Mediaite_Mobile_MedRec_1
 mediaite.com###featured-posts-wrap:style(position: relative !important; top: 0 !important;)
 mediaite.com###featured-posts:style(position: relative !important; top: 0 !important;)
 mediaite.com###header-content:style(position: relative !important; top: 0 !important;)
@@ -10978,14 +10985,19 @@ pinknews.co.uk##.trendingSlideOut
 pinknews.co.uk##.twitter_btn
 pinkvilla.com##.nav-wrapper.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important;)
 pinkvilla.com##.social.submitted
+pinterest.com##.AppInterstitial
 pinterest.com##.AppUpsellHeader__background
-pinterest.com##.Module.AppBase.App > .appContent > .mainContainer > .Module.InterestFeedReactPage > .Module.InterestFeedReactWrapper > .Module.DenzelReactBridge > div > div:nth-of-type(1) > .AppInterstitial
 pinterest.com##.Module.AppBase.App > .appContent > .mainContainer > .Module.InterestFeedReactPage > .Module.InterestFeedReactWrapper > .Module.DenzelReactBridge > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3)
 pinterest.com##.ReactModalPortal
-pinterest.com##._5f._2l._2i._2g._3x._11._2m._3i._0:style(position: absolute !important; top: 0 !important;)
+pinterest.com##._38._2n._2i._2._2p._25._0
+pinterest.com##._5f._2l._2i._2g._3x._11._2m._3i._0:style(position: absolute !important;)
+pinterest.com##._5f._2o._2n._2m._2i._2p._25._0:style(position: relative !important; bottom: none !important; top: 55px !important;)
+pinterest.com##._7g._75._5f._2o._2m._2l._2i._2p._25._0:style(position: absolute !important;)
+pinterest.com##._jq._jp._6w._3a._2y._2._2p._25._0:style(max-width: none !important;)
 pinterest.com##.bottom.Module.BlueAppBanner
 pinterest.com##.denzelAppInterstitial
 pinterest.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
+pinterest.com##div:nth-of-type(2) > div > div:nth-of-type(1) > div > div:nth-of-type(2):style(position: absolute !important;)
 piriform.com##.band--newsletter.band
 piriform.com##.newsletter-signup--sidebar.newsletter-signup
 piriform.com##.page-foot__social
@@ -11604,6 +11616,8 @@ publicopiniononline.com##.utility-bar-wrap
 publicsource.org##.show.nav_overflow_label.main_nav_hide_article.sticky_nav_display.sticky-nav-holder:style(position: absolute !important;)
 pud.com###header:style(position: absolute !important; top: 0 !important;)
 pud.com##.iframe-controls--desktop.tmblr-iframe--loaded.tmblr-iframe--unified-controls.tmblr-iframe:style(position: absolute !important; top: 0 !important;)
+puff.com###breadCrumbBar:style(position: relative !important; top: 0 !important;)
+puff.com###header:style(position: relative !important; overflow-x: hidden !important;)
 punchdrink.com###email-signup
 punchdrink.com##.nav-main__container:style(position: relative !important;)
 punchdrink.com##.nav-main__share
@@ -13238,6 +13252,7 @@ stackoverflow.com##._scrolling._fixed.js-so-header.so-header:style(position: rel
 stackoverflow.com##._scrolling._fixed.js-top-bar.top-bar:style(position: absolute !important;)
 stackoverflow.com##.container:style(padding-top: 0px !important;)
 stackoverflow.com##.hero-container.s-hero
+stamps.com##.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important;)
 standard.co.uk###body:style(padding-top: 0px !important;)
 standard.co.uk###cookie-message
 standard.co.uk###footer > .social
@@ -15125,6 +15140,8 @@ thirtybees.com##.fusion-sticky-shadow.fusion-header:style(position: relative !im
 thirtybees.com##.share-box.fusion-single-sharing-box.fusion-sharing-box
 thirtybees.com##.social_links.widget.fusion-footer-widget-column
 thirtybees.com##.to-top-container
+thisamericanlife.org###site-header:style(position: absolute !important;)
+thisamericanlife.org##.social
 thisisinsider.com###editorial2
 thisisinsider.com##.ad-subnav-container
 thisisinsider.com##.condensed.masthead:style(position: relative !important; top: 0 !important;)
@@ -16619,6 +16636,9 @@ wftv.com##.toggle-slide
 wftv.com##.ui-social
 wgauradio.com##.story-pg__social-icons-contr
 wgauradio.com##.visible.sticky-header__container
+wgme.com##.sd-news-social-container
+wgme.com##.v2.sd-header-wrapper.sd-news-header:style(position: absolute !important;)
+wgme.com##.visible.sd-news-main-footer.component-story-footer-v1
 wgno.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute !important;)
 wgno.com##.sd-sharing-enabled.sharedaddy
 wgntv.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute !important; margin-top: 0px !important;)
