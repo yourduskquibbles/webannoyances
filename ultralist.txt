@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:22 PM 2018-03-17
+! Last Modified: 9:30 AM 2018-03-19
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -2113,6 +2113,7 @@ capitalgazette.com##.trb_nh:style(position: absolute !important;)
 capitalone.com##.fixed:style(position: relative !important; top: 0 !important;)
 capitalwasteland.com###showOnScrollWrapper
 capitolcityproject.com##.pagenav.fixedmenu
+caranddriver.com##.cd-social-sharing
 cardpool.com##.feedback_link
 careerattraction.com###back_to_top
 careerattraction.com##.sticky_animate.sticky.page_header.scrolled_not_transparent.transparent.stick.scroll_header_top_area:style(position: absolute !important;)
@@ -4200,6 +4201,7 @@ earthsky.org###shr_canvas2
 earthsky.org###shr_canvas3
 earthsky.org##.header:style(position: absolute !important; top: 0 !important;)
 earthtouchnews.com###header:style(position: absolute !important;)
+eastbayexpress.com##.social
 eastidahonews.com##.fa-facebook.fa
 eastidahonews.com##.fa-google-plus.fa
 eastidahonews.com##.fa-twitter.fa
@@ -4896,6 +4898,8 @@ firstwefeast.com##.rail
 fitbit.com###smartbanner
 fitbit.com##.fixed.header-main:style(position: relative !important; top: 0 !important;)
 fitbit.com##.stuck-top.sticky-nav.store-sticky-nav:style(position: relative !important;)
+fivebooks.com##.fix.-inside.top-menu-wrap.contain-to-grid:style(position: absolute !important;)
+fivebooks.com##.inline-el.-newsletter.inline-box
 fiverr.com##.android.cf.js-app-smart-banner.smart-banner
 fivethirtyeight.com###fivethirtyeight-mobile-embed-14
 fivethirtyeight.com###header-global:style(position: relative !important; top: 0 !important;)
@@ -8191,6 +8195,8 @@ lookout.com##.sticky-wrap:style(position: relative !important;)
 lookupbook.net###banner:style(position: relative !important; top: 0 !important;)
 lordandtaylor.com##.back-to-top
 lowes.com###social-share-bar
+lowes.com##.emailsignupmechanism
+lowes.com##.modal-backdrop
 lrb.co.uk###wrapper > div:nth-of-type(1)
 lrb.co.uk##.facebook.icon
 lrb.co.uk##.share.icon
@@ -9058,6 +9064,10 @@ morningconsult.com##.single-post__content__subscribe
 morningjournal.com##.article.toolbar:style(position: relative !important; top: 0 !important;)
 morningsave.com##.members-only
 motherearthnews.com###mobileHeader:style(position: relative !important; top: 0 !important;)
+mothering.com###socialNav:style(position: relative !important; transition: none !important;)
+mothering.com##.s-facebook
+mothering.com##.s-twitter
+mothering.com##.social-link
 motherjones.com###adblock-message
 motherjones.com###block-block-222
 motherjones.com###block-block-506
@@ -13475,6 +13485,7 @@ stream.org##.show.sticky_share
 stream.org##header:style(position: relative !important; top: 0 !important;)
 streamcatcher.de##.cc_container--open.cc_container.cc_banner
 streamcatcher.de##.header.navbar-fixed-top.container-fluid:style(position: absolute !important; top: 0 !important;)
+streamja.com###header:style(position: absolute !important;)
 streetinsider.com###floating_footer
 streetinsider.com###nav:style(position: relative !important; top: 0 !important;)
 streetinsider.com###twitter-widget-0
@@ -13772,9 +13783,12 @@ technologyreview.com##.sidebar.right
 technologyreview.com##.social-list
 techradar.com###fp_cookieMessageContainer
 techradar.com###sidebar
+techradar.com##.cc-bottom.cc-theme-block.cc-type-info.cc-banner.cc-window
 techradar.com##.less-space.box.socialite-widget
 techradar.com##.masthead-item.buttons-social
+techradar.com##.newsletter-signup
 techradar.com##.sharing_furniture.clearfix
+techradar.com##.socialite-widget
 techradar.com##.stoaqxzukstbmlzt
 techrepublic.com###share-bar
 techrepublic.com##.fixed.fixation:style(position: relative !important; top: 0 !important;)
@@ -15206,6 +15220,8 @@ thrillist.com##.nation.has-avatar.meta-info__share-bar.sticky.share-legend
 thrillist.com##.nation.meta-info__share-bar.sticky.share-legend
 thrillist.com##.share-email-mobile
 thrillist.com##.stack-ad-placeholder.hp-stack-item--medium.hp-stack-item
+thriveglobal.com##.markup--quote:style(background-image: none !important; background-color: transparent !important; transition: none !important;)
+thriveglobal.com##.popover
 thriveglobal.com##.u-tintSpectrum.u-tintBgColor.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorDarker.js-metabar.u-clearfix.metabar:style(position: absolute !important;)
 thterrortime.com##.sd-sharing-enabled.sharedaddy
 thterrortime.com##.social-nav
@@ -15719,6 +15735,7 @@ univision.com##.uvn-unanchor-button
 unpatent.co##.is-maximized.metabar--affixed.js-metabar.u-clearfix.metabar
 unubo.com##header:style(position: relative !important; top: 0 !important;)
 unwatch.org##.ss-social-sharing.social-sharing
+unwinnable.com##.navbar-social
 upcall.com##.sticky--index.sticky.header:style(position: absolute !important;)
 upenn.edu###article-tools
 upenn.edu##.fixed.article-tools
@@ -17551,6 +17568,7 @@ zyngaplayerforums.com##.Reactions
 ||functionalclam.com^$third-party
 ||g00.extremetech.com^$script,first-party,important
 ||gannett-cdn.com/*/peanutbutterjellytime.min.js$script,important
+||getsitecontrol.com/*/script.js$script,domain=theparisreview.org
 ||guns.com/*$inline-script,domain=guns.com
 ||hellobar.com^$third-party,script,important
 ||leadpages.co*$third-party
