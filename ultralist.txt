@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 8:39 AM 2018-03-20
+! Last Modified: 8:50 AM 2018-03-20
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -9303,13 +9303,17 @@ mypaysimple.com##header:style(position: relative !important; top: 0 !important;)
 myrecipes.com###saveShareNextBar
 myrecipes.com##.hide-nav-elements.can-animate.has-headline.no-utility-ribbon.no-secondary-ribbon.main:style(position: relative !important; top: 0 !important;)
 myrecipes.com##.share.component
-mysanantonio.com###siteNav:style(position: relative !important; top: 0 !important;)
+mysanantonio.com###ctpl-fullbanner-spacer
+mysanantonio.com###ctpl-fullbanner1
+mysanantonio.com###siteNav:style(position: relative !important;)
+mysanantonio.com###siteNav:style(transform: none !important;)
+mysanantonio.com###subHead:style(transform: none !important;)
 mysanantonio.com##.article-share
 mysanantonio.com##.facebook.socialIcon
 mysanantonio.com##.instagram.socialIcon
 mysanantonio.com##.pinterest.socialIcon
 mysanantonio.com##.rss.socialIcon
-mysanantonio.com##.topnav:style(position: relative !important; top: 0 !important;)
+mysanantonio.com##.topnav:style(position: relative !important;)
 mysanantonio.com##.twitter.socialIcon
 mysharebar.com###toolbar
 mystatesman.com###cm-access-meter-welcome
@@ -12044,6 +12048,7 @@ reddit.com##body::before:style(position: relative !important; height: 0px !impor
 reddit.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 reddit.com##ol:style(position: relative !important;)
 reddit.com##script:inject(set-constant.js,isPinned,true)
+
 redditblog.com##.footer-share
 redditblog.com##.header-social
 redditgifts.com##.js-header-main.header-main:style(position: absolute !important;)
