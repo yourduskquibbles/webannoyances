@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 10:07 AM 2018-03-20
+! Last Modified: 10:41 AM 2018-03-20
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -709,6 +709,7 @@ ally.com##.active.a11y.section-nav.sticky-nav:style(position: relative !importan
 ally.com##.active.info-bar:style(position: relative !important; top: 0 !important;)
 ally.com##.active.sticky-nav.info-bar:style(position: relative !important; top: 0 !important;)
 ally.com##.site-header:style(position: relative !important; top: 0 !important;)
+ally.com##.social-bar
 alphr.com###__ic-notice
 alphr.com###block-dennis-newsletter-newsletter-block
 alphr.com###block-menu-menu-header-social
@@ -2595,6 +2596,7 @@ cjr.org##.sharing-buttons
 cjr.org##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 clapsnews.com##.cb-top-menu-wrap.cb-site-padding.clearfix.wrap:style(position: absolute !important;)
 clara.io##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute !important;)
+claremont.org###header:style(position: relative !important;)
 clarionledger.com##.android-smart-banner.smart-banner
 clarionledger.com##.bx-creative
 clarionledger.com##.bx-impress-in
@@ -6268,8 +6270,8 @@ hearthhead.com##cookies-message
 hearthpwn.com###site-main > .main
 hearthpwn.com##h1
 heatherlikesfood.com###milotree_box_wrap
+heatherlikesfood.com##.nc_socialPanelSide
 heatherlikesfood.com##.simple-social-icons.widget
-heatherlikesfood.com##.swp_three.slide.swp_o_fullColor.swp_i_fullColor.swp_d_fullColor.swp_default.nc_socialPanel.nc_socialPanelSide
 heatst.com###bt_embed_signup
 heatst.com###fbOverlay
 heatst.com###mc_embed_signup
@@ -6945,10 +6947,9 @@ infowars.com##.container.optinsiege
 infowars.com##.from-our-store
 infowars.com##.img-responsive.hero-ad-special
 infowars.com##.inline-social
+infowars.com##.nc_socialPanel
 infowars.com##.php_widget.widget.widget-odd.widget-first.widget-1
 infowars.com##.shareinpost
-infowars.com##.swp_one.scale-fullWidth.scale-100.swp_o_lightGray.swp_i_fullColor.swp_d_fullColor.swp_threeDee.nc_socialPanel
-infowars.com##.swp_three.scale-fullWidth.scale-100.swp_o_lightGray.swp_i_fullColor.swp_d_fullColor.swp_threeDee.nc_socialPanel
 infowars.com##.textsize
 infoworld.com###share-tool
 infoworld.com###sticky-head:style(position: relative !important; top: 0 !important;)
@@ -7120,10 +7121,9 @@ investorjunkie.com##.nav-down.site-header:style(position: relative !important; t
 investors.com##.text-center.leaderboard-ad.pushdown-ad.site-header-ad.ads
 ipaddress.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 iphonehacks.com##.floatBottom.nc_wrapper
+iphonehacks.com##.nc_socialPanel
 iphonehacks.com##.social-last.social-wid
 iphonehacks.com##.sw-pinit-center.sw-pinit-top.sw-pinit-button
-iphonehacks.com##.swp_one.scale-fullWidth.scale-100.swp_o_fullColor.swp_i_fullColor.swp_d_fullColor.swp_flatFresh.nc_socialPanel
-iphonehacks.com##.swp_three.scale-fullWidth.scale-100.swp_o_fullColor.swp_i_fullColor.swp_d_fullColor.swp_flatFresh.nc_socialPanel
 ipleak.com##.navbar-fixed-top.navbar:style(position: absolute !important;)
 ipolitics.ca##.fb_iframe_widget.fb-like
 ipolitics.ca##.header-sticky.desktop.header:style(position: relative !important; top: 0 !important;)
@@ -7186,10 +7186,10 @@ itnews.com.au##.fixed.show-for-large-up.collapse.full-width.row:style(position: 
 itnews.com.au##.fixed.sticky:style(position: absolute !important;)
 itprotoday.com##.js-header.header:style(position: absolute !important;)
 itsfoss.com##.cookie-notice-container
+itsfoss.com##.et_social_networks
 itsfoss.com##.light.site-header:style(position: absolute !important;)
+itsfoss.com##.nc_socialPanel
 itsfoss.com##.scroll-up
-itsfoss.com##.swp_one.scale-fullWidth.scale-100.swp_o_customColor.swp_i_customColor.swp_d_customColor.swp_flatFresh.nc_socialPanel
-itsfoss.com##.widget_monarchwidget.et_social_outer_dark.et_social_withnetworknames.et_social_mobile_on.et_social_withtotalcount.et_social_withcounts.et_social_top.et_social_rounded.et_social_slide.et_social_2col.et_social_networks
 itsgoingdown.org##.td-header-sp-top-widget
 itsgoingdown.org##.td-scroll-up-visible.td-scroll-up
 itsgoingdown.org##.td-with-like.td-post-sharing-bottom.td-post-sharing
@@ -7436,8 +7436,7 @@ kerbalspaceprogram.com##.navbar-fixed-top.navbar-default.navbar:style(position: 
 kerbalspaceprogram.com##html:style(overflow-x: hidden !important; overflow-y: auto !important;)
 kernelmag.com###login-box
 kernelmag.com##.kernel-social.clearfix
-ketoconnect.net##.swp_one.scale-fullWidth.scale-100.swp_o_fullColor.swp_i_fullColor.swp_d_fullColor.swp_flatFresh.nc_socialPanel
-ketoconnect.net##.swp_three.scale-fullWidth.scale-100.swp_o_fullColor.swp_i_fullColor.swp_d_fullColor.swp_flatFresh.nc_socialPanel
+ketoconnect.net##.nc_socialPanel
 ketoconnect.net##.tve-leads-triggered.tl-anim-slide_top.tve-leads-track-ribbon-21.tve-tl-anim.tve-leads-ribbon.tl-state-root
 ketv.com##.article-social.js-share-container.share-content
 ketv.com##.js-sidelist-sticky-menu.article-sidelist
@@ -8083,8 +8082,8 @@ linuxportal.pl###przeczytaj_link_pop_2
 linuxportal.pl##body > div:nth-of-type(5)
 liquor.com##.navigation-slug:style(position: relative !important; top: 0 !important;)
 liquor.com##.on-right.sans.collection-tip
+listverse.com##.nc_socialPanel
 listverse.com##.sticky.asides-holder:style(margin-top: 0px !important;)
-listverse.com##.swp_one.scale-fullWidth.scale-100.swp_o_fullColor.swp_i_fullColor.swp_d_fullColor.swp_flatFresh.nc_socialPanel
 listverse.com##.toolbar:style(position: absolute !important;)
 literaryreview.co.uk##.popup-placer
 lithub.com###post_more_wrapper
@@ -8124,8 +8123,8 @@ livestrong.com##.newsletter_transparentbg.newsletter_signup_overlay
 livestrong.com##.social-tools
 livestrong.com##.social_share_container__icon_list
 livestrong.com##.top_header__row1:style(position: relative !important; top: 0 !important;)
+livewellbakeoften.com##.nc_socialPanel
 livewellbakeoften.com##.sw-pinit-left.sw-pinit-top.sw-pinit-button
-livewellbakeoften.com##.swp_one.scale-fullWidth.scale-100.swp_o_fullColor.swp_i_fullColor.swp_d_fullColor.swp_flatFresh.nc_socialPanel
 livingstondaily.com##.android-smart-banner.smart-banner
 livingstondaily.com##.bx-creative
 livingstondaily.com##.bx-impress-in
@@ -8883,6 +8882,7 @@ mirror.co.uk##body:style(margin-top: 0px !important;)
 mises.org###text-resizer
 missilethreat.csis.org##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 missilethreat.csis.org##.topbutton
+mit.edu###follow-social-items
 mit.edu###site-header-area-wrapper:style(position: relative !important;)
 mit.edu##.back-to-top
 mkdev.me###intercom-container
@@ -11179,7 +11179,7 @@ pogo.org###sticky
 pokeassistant.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 pokebattler.com###main-header:style(position: relative !important; top: 0 !important;)
 pokemongodb.net###rev-toaster
-pokemongohub.net##.swp_i_fullColor.swp_d_fullColor.swp_flatFresh.nc_socialPanel
+pokemongohub.net##.nc_socialPanel
 policymic.com###share
 policymic.com###social-prompt-circle-slider
 policymic.com##.fb-like-container
@@ -11955,8 +11955,7 @@ rebrn.com##.navbar-scroll-custom.navbar-fixed-top.navbar-default.navbar:style(po
 rebrn.com##.share
 recipetineats.com###wprmenu_bar:style(position: relative !important; top: 0 !important;)
 recipetineats.com##.icon-set-lsi_widget-2.lsi-social-icons
-recipetineats.com##.swp_leaf.nc_socialPanel
-recipetineats.com##.swp_one.scale-left.scale-70.swp_o_fullColor.swp_i_fullColor.swp_d_fullColor.swp_leaf.nc_socialPanel
+recipetineats.com##.nc_socialPanel
 recode.net###newsletter-signup-short-form
 recode.net###social-header
 recode.net##.c-global-header__social
@@ -12403,8 +12402,7 @@ salon.com##.style__socialIcons___dpxjv
 salon.com##.tout-live-channel.tout-sdk
 salon.com##.twitter-white-22.sprite
 saltyveterans.com##.floatBottom.nc_wrapper
-saltyveterans.com##.swp_d_fullColor.swp_flatFresh.nc_socialPanel
-saltyveterans.com##.swp_one.scale-fullWidth.scale-100.swp_o_fullColor.swp_i_fullColor.swp_d_fullColor.swp_flatFresh.nc_socialPanel
+saltyveterans.com##.nc_socialPanel
 saludmovil.com##.boxzilla-bottom-right-container.boxzilla-container
 saludmovil.com##.columns.medium-4.small-12.sidebar
 saludmovil.com##.fa-facebook.fa
@@ -13282,6 +13280,7 @@ springboard.com##.js-stickyFooter.u-xs-paddingRight10.u-xs-paddingLeft10.u-zInde
 springboard.com##.u-tintSpectrum.u-tintBgColor.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorTransparentWhiteDarker.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
 springboard.com##.u-xs-height95.u-height105.u-tintBgColor.js-metabarSpacer.metabar--spacer.metabar
 springer.com##.u-composite-layer.banner--cookies-policy.banner
+springer.com##.u-composite-layer.main-sidebar-right__content:style(position: absolute !important;)
 sprint.com##.layout-header:style(position: absolute !important;)
 sputniknews.com###share
 sputniknews.com##.arrowup
@@ -13780,6 +13779,7 @@ tearsheet.co##.article_social
 techbargains.com###tb-slide-nav:style(position: relative !important; top: 0 !important;)
 techcrunch.com##.ad-300x250.ad-unit
 techcrunch.com##.ad-cluster-container
+techcrunch.com##.ad-unit--fixed.ad-unit__billboard.ad-unit
 techcrunch.com##.block.collapse-adjacent.collapse.newsletters-signup.aside.section
 techcrunch.com##.close-button
 techcrunch.com##.g-3up.g.footer-follow
@@ -14013,8 +14013,7 @@ theamericanconservative.com##.clearfix.article-tools
 theamericanconservative.com##.widget_sign-up-form-widget.widget-container
 theamericanmirror.com##.fa-facebook.fa
 theamericanmirror.com##.fa-twitter.fa
-theamericanmirror.com##.swp_one.scale-fullWidth.scale-100.swp_o_fullColor.swp_i_fullColor.swp_d_fullColor.swp_flatFresh.nc_socialPanel
-theamericanmirror.com##.swp_one.scale-left.scale-100.swp_o_fullColor.swp_i_fullColor.swp_d_fullColor.swp_flatFresh.nc_socialPanel
+theamericanmirror.com##.nc_socialPanel
 theamericanmirror.com##.visible-lg.facebook
 theantimedia.org##.i-amphtml-unresolved.amp-unresolved.i-amphtml-layout-size-defined.i-amphtml-layout-fixed.amp-notbuilt.i-amphtml-notbuilt.i-amphtml-element
 theappendix.net##.communicate
@@ -14310,9 +14309,8 @@ thefirearmblog.com##.pushcrew-chrome-style-notification-safari.pushcrew-chrome-s
 thefiscaltimes.com###message
 thefiscaltimes.com##.sub-header:style(position: relative !important; top: 0 !important;)
 thefix.com###header-subscribe
-theflavorbender.com##.entry-content > .swp_one.scale-left.scale-100.swp_o_darkGray.swp_i_dgOutlines.swp_d_fullColor.swp_flatFresh.nc_socialPanel
 theflavorbender.com##.menu-toggle:style(position: relative !important; top: 0 !important;)
-theflavorbender.com##.swp_three.scale-left.scale-100.swp_o_darkGray.swp_i_dgOutlines.swp_d_fullColor.swp_flatFresh.nc_socialPanel
+theflavorbender.com##.nc_socialPanel
 thefly.com###fixed_footer
 thefly.com###site_header:style(position: relative !important; top: 0 !important;)
 thefly.com###site_header_nav:style(position: relative !important; top: 0 !important;)
@@ -15743,6 +15741,7 @@ undark.org##.header-scrolled.top-bar:style(position: relative !important; top: 0
 undark.org##.jetpack
 undark.org##.mailmunch-overlay
 undark.org##.mailmunch-popover
+undark.org##.nc_socialPanel
 underarmour.com##.in.modal-backdrop
 underarmour.com##.top-nav-container:style(position: absolute !important; top: 0 !important;)
 underarmour.com##.visitor-messaging.modal
@@ -16325,7 +16324,7 @@ wafb.com##.sticky.cdev-menu-nav:style(position: relative !important; top: 0 !imp
 wafb.com##.story-feed
 wafb.com##.wnad52.wnad
 wallethacks.com##.floatBottom.nc_wrapper
-wallethacks.com##.swp_one.scale-fullWidth.scale-100.swp_o_fullColor.swp_i_fullColor.swp_d_fullColor.swp_flatFresh.nc_socialPanel
+wallethacks.com##.nc_socialPanel
 wallstreet.org##.fancybox-overlay.snp-pop-4404-overlay
 wallstreet.org##.fancybox-wrap.fancybox-desktop.fancybox-type-inline.snp-wrap.snp-pop-4404-wrap.snp-pop-theme8-wrap.fancybox-opened
 wallstreetsurvivor.com##.td-affix.td-header-menu-wrap:style(position: relative !important; top: 0 !important;)
