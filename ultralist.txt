@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 8:57 AM 2018-03-21
+! Last Modified: 10:42 AM 2018-03-22
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -1536,6 +1536,7 @@ bizjournals.com##.hidden--print.hidden--sm.hidden--xs.container--wide.container
 bizjournals.com##.module--inline-padded.striped--champagne.email__module.module
 bizjournals.com##.priority-plus.tools-nav--mobile
 bizjournals.com##.prompt__content
+bizjournals.com##script:inject(set-constant.js, __page__.isPremium, false)
 blackfridayhits.com###float-posts-nav
 blackfridayhits.com###rh_social_panel_footer
 blackfridayhits.com###topcontrol
@@ -2420,6 +2421,7 @@ chip.de##.Share--Compressed.Share
 chipotle.com##.header:style(position: relative !important; top: 0 !important;)
 chipotle.com##.section--header.section:style(position: relative !important; top: 0 !important;)
 chipotle.com##body:style(padding-top: 0px !important;)
+choosetoencrypt.com##.sticky-header-shrink.clear.sticky-header:style(position: absolute !important;)
 chowhound.com###body_top_sharelinks
 chowhound.com###freyja_desknav:style(position: relative !important; top: 0 !important;)
 chowhound.com###freyja_mobile-sticky-wrapper:style(position: relative !important; top: 0 !important;)
@@ -3859,6 +3861,9 @@ denverpost.com##.nav-wrapper:style(position: relative !important; top: 0 !import
 denverpost.com##.sd-sharing-enabled.sharedaddy
 denverpost.com##.top-bar:style(position: relative !important; top: 0 !important;)
 deseretnews.com###header-wrapper:style(position: relative !important; top: 0 !important;)
+deseretnews.com###header:style(position: relative !important;)
+deseretnews.com###react_wrapper_edition_newsletter_signup
+deseretnews.com##.share-tools
 desertsun.com##.android-smart-banner.smart-banner
 desertsun.com##.bx-creative
 desertsun.com##.bx-impress-in
@@ -6128,6 +6133,7 @@ gulflive.com##.sticky-nav-show.sticky-nav:style(position: relative !important; t
 gulflive.com##.sticky-nav:style(position: relative !important; top: 0 !important; transition: none !important;)
 gulflive.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 gulfnews.com##.social-share
+gun.deals###subscribe-newsletter-popup
 gunbelts.com###back-top
 gunbelts.com##.fixed.nav-container:style(position: relative !important; top: 0 !important;)
 guns.com###site-wrap:style(overflow: auto !important;)
@@ -6209,6 +6215,7 @@ hannaandersson.com##.copy.news-content-modal.ui-front.ui-corner-all.ui-widget-co
 hannaandersson.com##.is-visible.js-back-to-top.icon-button.back-to-top-btn.sf-back-to-top
 hannaandersson.com##.ui-front.ui-widget-overlay
 hannity.com##.affix.full.navTopadContainer:style(position: relative !important; top: 0 !important;)
+hanselman.com##.cc-color-override-599147086.cc-bottom.cc-theme-block.cc-type-info.cc-banner.cc-window
 harpercollins.com##.hc-main-header__nav-bar__navigation--fixed.hc-main-header__nav-bar__navigation:style(position: relative !important; top: 0 !important;)
 harpers.org###OFIE
 harpers.org###issuem-leaky-paywall-articles-remaining-nag
@@ -7284,6 +7291,7 @@ jalopnik.com##.js_post-dropdown-ct-sticky.js_post-dropdown-ct.post-dropdown-ct
 jalopnik.com##.js_post-dropdown-ct.post-dropdown-ct.js_meta-tools.meta__tools
 jalopnik.com##.js_subscribe-region-sidebar.js_dismissable.js_newsletter-btn--subscribe
 jamanetwork.com##.header-wrap:style(position: absolute !important; top: 0 !important;)
+japantimes.co.jp###top_jump
 japantimes.co.jp##.social_header
 jasmcole.com###masthead:style(position: absolute !important;)
 jasmcole.com##.actnbr-has-follow.actnbr-pub-isola
@@ -11756,6 +11764,7 @@ queenbeetickets.com##.navbar-fixed-top.navbar-default.navbar:style(position: rel
 queerty.com###masthead:style(position: relative !important; top: 0 !important;)
 queerty.com###onesignal-bell-container
 queryxchange.com##.yamm.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important;)
+quickslide-powerpoint.com###header-wrapper:style(position: absolute !important;)
 quillette.com###facebook-likebox-6
 quillette.com###text-3
 quillette.com##.mailmunch-forms-in-post-middle
@@ -12976,6 +12985,8 @@ sky.com##.sdc-site-share__list
 skysports.com###cookie-notice
 skysports.com##.article__social.social-list
 skysports.com##.social-nav.site-footer__nav
+slack.help###nav_list:style(position: absolute !important;)
+slack.help##.category_header.header_white.header:style(position: absolute !important;)
 slackhq.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.is-withBottomSection.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
 slamonline.com###DesktopNav:style(position: relative !important; top: 0 !important;)
 slamonline.com##.pagebuilder-post.pagebuilder-addthis
