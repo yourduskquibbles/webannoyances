@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 10:06 AM 2018-03-23
+! Last Modified: 11:14 AM 2018-03-23
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -11815,13 +11815,16 @@ quora.com###__w2_wmjOzuJ_banner
 quora.com###page_wrapper:style(margin-top: 0px !important;)
 quora.com##.ContentWrapper:style(margin-top: 0px !important;)
 quora.com##.FacebookNetworkShare
+quora.com##.FacebookShareActionItem
 quora.com##.LoggedOutSiteHeader.SiteHeader.NonMemberSiteHeader:style(position: absolute !important;)
 quora.com##.SiteHeader.LoggedInSiteHeader:style(position: absolute !important;)
 quora.com##.TwitterNetworkShare
+quora.com##.TwitterShareActionItem
 quora.com##.ViewInAppLink
 quora.com##.better_sticky_action_bar
 quora.com##.continue_reading_wrapper
 quora.com##.core_promo
+quora.com##.feed_item.AdStory.FeedStory
 quora.com##.fixable_fixed.side_bar.list.question_related:style(position: relative !important; top: 0 !important;)
 quora.com##.fixable_fixed:style(position: relative !important;)
 quora.com##.fixed_header:style(position: relative !important; top: 0 !important;)
@@ -11829,6 +11832,7 @@ quora.com##.growl_overlay
 quora.com##.modal_promoted_content
 quora.com##.section.share_question
 quora.com##.sticky.ActionBar.Answer:style(position: relative !important;)
+quora.com##.sticky.with_metabar.icon_action_bar:style(position: absolute !important;)
 quora.com##.text_links
 quora.com##:xpath(.//*[@class="SignupFooter"])
 quora.com##:xpath(.//*[@class="fixed_footer_gradient"])
