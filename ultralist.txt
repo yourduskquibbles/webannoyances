@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 2:59 PM 2018-03-23
+! Last Modified: 3:24 PM 2018-03-23
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -1919,6 +1919,9 @@ buffalonews.com##.adStyling.centerInner
 buffalonews.com##.default.share.list-inline
 buffalonews.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
 buffer.com###masthead:style(position: absolute !important;)
+bugzilla.mozilla.org###bugzilla-body:style(overflow-x: initial !important; overflow-y: initial !important;)
+bugzilla.mozilla.org###header:style(position: relative !important;)
+bugzilla.mozilla.org###wrapper:style(overflow-x: auto !important; overflow-y: auto !important;)
 builtwith.com##.bws.navbar-fixed-top:style(position: relative !important; top: 0 !important;)
 bundestagswahl17.de###masthead:style(position: absolute !important;)
 bundestagswahl17.de##.pea_cook_bottomcenter.pea_cook_wrapper
