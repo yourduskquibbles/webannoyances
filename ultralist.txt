@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 8:20 AM 2018-03-27
+! Last Modified: 10:12 AM 2018-03-27
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -2401,6 +2401,7 @@ chicagocubsonline.com##.nav-primary:style(position: relative !important; top: 0 
 chicagomag.com###reveal-bar:style(position: relative !important; top: 0 !important;)
 chicagotribune.com###reg-overlay
 chicagotribune.com###row-socials-list
+chicagotribune.com##.met-flyout
 chicagotribune.com##.met-promo
 chicagotribune.com##.met-rule-1030.met-flyout
 chicagotribune.com##.met-rule-660.met-flyout
@@ -2627,6 +2628,12 @@ civilbeat.org##.pez-bound.header-spacer.cb-banner:style(position: relative !impo
 civileats.com###header-wrap:style(position: absolute !important;)
 civileats.com##.side-social
 civileats.com##.social
+cjonline.com###article-storyStrip:style(position: absolute !important;)
+cjonline.com###backToTop
+cjonline.com###header-main-promo
+cjonline.com###toprail:style(position: absolute !important;)
+cjonline.com##.article-meta-social
+cjonline.com##.article-newsletter-signup
 cjr.org###bottom-sharing
 cjr.org###interContainer
 cjr.org###interVeil
@@ -7983,6 +7990,7 @@ lawnewz.com##.teads-helper.full:style(position: relative !important; top: 0 !imp
 lawnewz.com##body:style(padding-top: 0px !important;)
 lawyer.com###header-wrapper:style(position: absolute !important;)
 lawyersgunsmoneyblog.com###admania_top
+lbl.gov##.nc_socialPanel
 lcsun-news.com##.android-smart-banner.smart-banner
 lcsun-news.com##.bx-creative
 lcsun-news.com##.bx-impress-in
@@ -9305,12 +9313,14 @@ mprnews.org###paginators
 mrctv.org###top-nav:style(position: relative !important; top: 0 !important;)
 msn.com###header-common.stick-enabled::before:style(height: 0 !important;)
 msn.com###header-common::before
+msn.com###msccBanner
 msn.com###precontent:style(margin-top: 0px !important;)
 msn.com###social-plugins
 msn.com###subfoot
 msn.com##.Modelinfo
 msn.com##.dynamicRRWrapper
 msn.com##.fbpopup-container
+msn.com##.head:style(margin-top: 0px !important;)
 msn.com##.head:style(position: relative !important; top: 0 !important;)
 msn.com##.light.filmstrip:style(position: relative !important; top: 0 !important;)
 msn.com##.loaded.next.paddle
@@ -15801,6 +15811,9 @@ truth-out.org###t3-mainnav:style(position: relative !important; top: 0 !importan
 truth-out.org##.ifancybox-overlay-fixed.ifancybox-overlay
 truthandaction.org###move-to-top
 truthdig.com###header-bottom:style(position: relative !important; top: 0 !important;)
+truthdig.com###sticky-sidebar:style(position: relative !important;)
+truthdig.com##.header__newsletter
+truthdig.com##.social-share
 truthrevolt.org##.fancybox-overlay.fancybox-overlay-fixed
 truthrevolt.org##.field-addthis-counter-style
 truthrevolt.org##.field-addthis-default-style
