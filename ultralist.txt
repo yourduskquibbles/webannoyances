@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 2:06 PM 2018-03-28
+! Last Modified: 2:31 PM 2018-03-28
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -10596,7 +10596,9 @@ nytimes.com##.bundle-payflow-module.module
 nytimes.com##.comments-header-container:style(position: relative !important;)
 nytimes.com##.d-fixed.d-fow-nav:style(position: relative !important; top: 0 !important;)
 nytimes.com##.eln-input-email.eln-visible.eln-email-signup
+nytimes.com##.email-sharetool
 nytimes.com##.facebook-share
+nytimes.com##.facebook-sharetool
 nytimes.com##.fixed-share-nav-outer
 nytimes.com##.footer-nav-primary-list
 nytimes.com##.g-ad-wrapper
@@ -10631,10 +10633,8 @@ nytimes.com##.recipe-details-share.share-bubbles.share-group
 nytimes.com##.ribbon-ad-container.collection-item
 nytimes.com##.robots-nocontent.nocontent.bottom-left-ad.text-ad
 nytimes.com##.series-nav-button
-nytimes.com##.share-tools
-nytimes.com##.sharetools
-nytimes.com##.sharetools-menu
 nytimes.com##.sharetools-video-container
+nytimes.com##.show-all-sharetool
 nytimes.com##.show.lie-continue
 nytimes.com##.story-ad-1-wrapper.ad
 nytimes.com##.story-ad-2-wrapper.ad
@@ -10647,6 +10647,7 @@ nytimes.com##.story-ad-8-wrapper.ad
 nytimes.com##.story-ad-9-wrapper.ad
 nytimes.com##.subColumn-2.noBackground.mobilePromo.nocontent
 nytimes.com##.twitter-share
+nytimes.com##.twitter-sharetool
 nytimes.com##.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.js-metabar.u-clearfix.metabar:style(position: absolute !important;)
 nytimes.com##.vhs-plugin-imax-playback-metadata-share-tools
 nytimes.com##.vhs-tools
@@ -14075,6 +14076,10 @@ teenvogue.com##.site-header.component-sticky > div:nth-of-type(1):style(position
 teenvogue.com##.top.component-observable-social-share
 teenvogue.com##.top.social-share-top.component-observable-social-share
 teenvogue.com##.zergnet-container.component-zergnet
+telegraaf.nl##.fixed.header-container:style(position: absolute !important;)
+telegraaf.nl##.min-height-banner__article-page.min-height-banner
+telegraaf.nl##.social-btns
+telegraaf.nl##.social-btns-bottom
 telegraf.rs###wBall_1
 telegraf.rs###wBall_5
 telegraf.rs##.fb-icon-wrap
