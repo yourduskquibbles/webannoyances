@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 3:53 PM 2018-03-28
+! Last Modified: 4:12 PM 2018-03-28
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -12946,11 +12946,10 @@ sfexaminer.com##.fb_iframe_widget.fb-page
 sfexaminer.com##.synved-social-container-share.synved-social-container
 sfgate.com###content:style(padding-top: 84px !important;)
 sfgate.com###ctpl-fullbanner-spacer
+sfgate.com###ctpl-fullbanner1
 sfgate.com###fixie
-sfgate.com###site-nav-spacer
-sfgate.com###siteNav:style(position: relative !important; top: 0 !important;)
-sfgate.com###subHead-spacer
-sfgate.com###subHead:style(position: relative !important; top: 0 !important;)
+sfgate.com###siteNav:style(position: absolute !important; transform: none !important;)
+sfgate.com###subHead:style(position: relative !important; transform: none !important;)
 sfgate.com##.ad-point
 sfgate.com##.article-share
 sfgate.com##.bx-active-step-1.bx-custom.bx-base.bxc
@@ -12961,6 +12960,7 @@ sfgate.com##.hearst-jwplayer-position:style(position: relative !important;)
 sfgate.com##.hst-articletools
 sfgate.com##.hst-articletools2
 sfgate.com##.jw-sharing-dock-btn.jw-reset.jw-background-color.jw-dock-button
+sfgate.com##.menu-bar:style(position: absolute !important; top: 50px !important;)
 sfgate.com##.s2nPlayerFrame:style(position: static !important;)
 sfgate.com##.social-links
 sfgate.com##.socialWrapper
@@ -15594,8 +15594,10 @@ timesrecordnews.com##.story-tools
 timesrecordnews.com##.utility-bar-wrap
 timesunion.com###ctpl-fullbanner-spacer
 timesunion.com###ctpl-fullbanner1
+timesunion.com###fixie
 timesunion.com###siteNav:style(position: absolute !important; transform: none !important;)
 timesunion.com###subHead:style(position: relative !important; transform: none !important;)
+timesunion.com##.menu-bar:style(position: absolute !important; top: 50px !important;)
 timesunion.com##.socialIcon
 timleland.com###iframeContent:style(top: 0px !important;)
 timleland.com##.scroll-to-top
