@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 5:44 PM 2018-03-28
+! Last Modified: 10:10 AM 2018-03-29
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -2190,12 +2190,15 @@ cbc.ca###sticky-nav-sticky-wrapper:style(position: relative !important; top: 0 !
 cbc.ca###sticky-nav:style(position: relative !important; top: 0 !important;)
 cbc.ca###totalshares
 cbc.ca##.cbc-share-bar.viafoura
+cbc.ca##.collapsed.share
 cbc.ca##.gig-button-count-none.gig-button-up.gig-share-button.gig-button
+cbc.ca##.globalHeader:style(position: absolute !important;)
 cbc.ca##.nostyle.block__sharing
 cbc.ca##.stayconnected.module-body
 cbc.ca##.sticky.clearfix.cbc-longform-header:style(position: relative !important;)
 cbc.ca##.sticky.recognitionnav:style(position: relative !important;)
 cbc.ca##.vf-share-option
+cbc.ca##.vf-total-share-count
 cbc.ca##body:style(margin-top: 0px !important;)
 cbn.com###fixed-menu-bar
 cbn.com##.\#0.facebook.button.social
@@ -4966,6 +4969,10 @@ filehippo.com##.navbar-fixed-top.navbar-default.navbar.bootstrap-home:style(posi
 filehippo.com##body:style(padding-top: 0px !important;)
 filterlists.com##.site-header:style(position: relative !important; top: 0 !important;)
 financemagnates.com###header:style(position: relative !important; top: 0 !important;)
+financialpost.com##.custom-share-icon
+financialpost.com##.header-wrapper:style(position: absolute !important;)
+financialpost.com##.mobile-story-share-container
+financialpost.com##.share-nav-button
 finehomebuilding.com###top-promo-waypoint:style(position: absolute !important;)
 finehomebuilding.com##.article__social-links
 finehomebuilding.com##.visible.inline-email-form
@@ -5385,6 +5392,8 @@ france24.com##.header:style(position: relative !important; top: 0 !important;)
 france24.com##.next
 france24.com##.on-air-board-outer:style(position: relative !important; top: 0 !important;)
 france24.com##.short-cuts-outer:style(position: relative !important; top: 0 !important;)
+freakinfacts.com##.back-to-top
+freakinfacts.com##.social-list
 fredericknewspost.com##.alert-info.alert-dismissable.alert.access.notification.meter
 fredericknewspost.com##.content-above.share-container
 fredericknewspost.com##.hidden-print.asset-paging-container
@@ -6358,6 +6367,7 @@ health24.com###header:style(position: relative !important; top: 0 !important;)
 healthcaremagic.com###buttonDiv:style(position: relative !important; top: 0 !important;)
 healthline.com###mmr1__slot
 healthline.com###site-header:style(position: absolute !important;)
+healthline.com##.css-1031od0
 healthline.com##.css-dwj0rk
 healthline.com##.top-menu-sticky
 healthyrecipeecstasy.com##.shareaholic-ui.shareaholic-share-buttons-wrapper
@@ -8144,6 +8154,7 @@ libertyhangout.org###scroll-up
 libertyhangout.org##.clearfix.apss-theme-1.apss-social-share
 libertyhangout.org##.clearfix.social-links
 libertyhangout.org##.sd-sharing-enabled.sharedaddy
+libertyheadlines.com###back-top
 libertylawsite.org##.no-break
 libertylawsite.org##.pum-active.click_open.auto_open.popmake-overlay.pum-theme-default-theme.pum-theme-21970.pum-overlay.pum
 libertylawsite.org##.share-buttons
@@ -8378,6 +8389,7 @@ lull.com###header:style(position: relative !important; top: 0 !important;)
 lull.com##body:style(margin-top: 0px !important;)
 lunacycle.com##.Headermobile:style(position: absolute !important;)
 lunacycle.com##.header:style(position: absolute !important;)
+lydiasflexitariankitchen.com##.nc_socialPanel
 lyrica.com##.isi-section-wrapper
 m.bedbathandbeyond.com###navigation:style(position: relative !important; top: 0 !important;)
 m.csmonitor.com###csm_header_container:style(position: relative !important; top: 0 !important;)
@@ -9118,6 +9130,7 @@ mobile.nytimes.com##.BlockAdvert-fixedHeight---wGtF.BlockAdvert-adContainer--1aZ
 mobile.nytimes.com##.Dock-dock--1EAX7
 mobile.nytimes.com##.InlineMessage-toneOpinion--UcqZ3.InlineMessage-inline--2ysnq
 mobile.nytimes.com##.ad
+mobile.nytimes.com##.css-15u353c
 mobile.twitter.com##.GgYynIub._3rF86cXC:style(position: absolute !important;)
 mobile.twitter.com##.LqlkGmch:style(position: absolute !important;)
 mobile.twitter.com##._3f2NsD-H.W1P7mM7E
@@ -9723,6 +9736,8 @@ nbclosangeles.com##.socialNetworks-top
 nbclosangeles.com##.stickyNav.nav-landing.navbar:style(position: relative !important; top: 0 !important;)
 nbclosangeles.com##.stickyNav.navbar:style(position: relative !important; top: 0 !important;)
 nbclosangeles.com##.swiper-container-android.swiper-container-horizontal.quick-nav:style(position: relative !important; top: 0 !important;)
+nbcmiami.com###tve_cta
+nbcmiami.com##.footerCirculationMod
 nbcmiami.com##.header:style(position: relative !important; top: 0 !important;)
 nbcmiami.com##.nav-landing.navbar:style(position: relative !important;)
 nbcmiami.com##.socialNetworks-top
@@ -10367,6 +10382,9 @@ nos.nl##.share
 notebookcheck.net###nbcCookieChoice
 notebookcheck.net##.socialarea
 notepad-plus-plus.org###header-menu:style(position: relative !important; top: 0 !important;)
+notquitenigella.com##.floating:style(position: absolute !important;)
+notquitenigella.com##.socialbuttonholder-fixed
+notquitenigella.com##.subscribe.inlinepromobox
 nova-magazine.net###top-link
 nova-magazine.net##.adsbygoogle
 nova-magazine.net##.armonioso-textwidget-no-paddings.armonioso-textwidget-wrapper
@@ -12920,6 +12938,7 @@ senate.gov###nav-head-bg:style(position: relative !important; top: 0 !important;
 senate.gov###top-header:style(position: relative !important; top: 0 !important;)
 senate.gov##.nav:style(position: relative !important; top: 0 !important;)
 senate.gov##.sticky.clearfix.mobilehead:style(position: relative !important; top: 0 !important;)
+sendspace.com##header:style(position: absolute !important;)
 sensorstechforum.com###header:style(position: relative !important; top: 0 !important;)
 sensorstechforum.com##.sticky-nav.menu-box:style(position: relative !important; top: 0 !important;)
 sentient.ai###site-navigation:style(position: absolute !important;)
@@ -13789,6 +13808,7 @@ supchina.com##.footer_social
 supchina.com##.header-subscribe.visible-md-block.visible-lg-block
 supchina.com##.newsletter-popup
 supchina.com##.social
+superlawyers.com###nav_bar_screen_wide:style(position: absolute !important;)
 superpages.com###box
 superpages.com##.col-sm-12.bus-tabs:style(position: relative !important; top: 0 !important;)
 superpages.com##.facebook-icon
@@ -13864,6 +13884,7 @@ talkingpointsmemo.com##.--span-6.FeatureShare
 talkingpointsmemo.com##.--span-6.FeatureSocial
 talkingpointsmemo.com##.--span-6.Footer__Social
 talkingpointsmemo.com##.--span-6.SideAd
+talkingpointsmemo.com##.BlockNag
 talkingpointsmemo.com##.FeatureMobileSocial
 talkingpointsmemo.com##.Sharebar
 talkingpointsmemo.com##.article-share-buttons.well.well-small
@@ -13982,6 +14003,8 @@ tdameritrade.com##.stock-footer-open.stock-footer:style(position: relative !impo
 tdbank.com##.td-cs-primary.td-callout-secondary.td-callout
 tdbank.com##.td-header-collapsed.second-level-nav:style(position: absolute !important;)
 tdhopper.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
+tealium.com###cookie-law-info-bar
+tealium.com##.on.mk-go-top
 teamtreehouse.com##nav:style(position: absolute !important;)
 tearsheet.co##.article_social
 techbargains.com###tb-slide-nav:style(position: relative !important; top: 0 !important;)
@@ -14425,6 +14448,7 @@ theculturetrip.com##.scroll-to-top-wrapper\.style__ScrollToTopWrapper-s1wyvke7-0
 theculturetrip.com##.sticky-bottom-icon-list\.styled__StickyBottomIconList-s1fht80n-0
 thecut.com##.ad-splash
 thecut.com##.bottom-share
+thecut.com##.column-subscribe
 thecut.com##.horizontal.clay-share
 thecut.com##.social
 thecut.com##.social-section
@@ -14510,6 +14534,7 @@ theepochtimes.com##.sticky.title_wrap
 thefader.com##.custom_share_buttons_top
 thefader.com##.locked_nav.main_nav:style(position: relative !important; top: 0 !important;)
 thefader.com##.mobile_newsletter.row.popular_posts
+thefader.com##.new_social_share_button
 thefader.com##.social_links_wrap
 thefederalist.com###head-ad-space
 thefederalist.com###mc_embed_signup
@@ -15070,6 +15095,7 @@ therepublic.com##.td-scroll-up-visible.td-scroll-up
 therepublic.com##.td_block_social_counter
 theresurgent.com##.social
 theresurgent.com##.socnet
+therideshareguy.com##.nc_socialPanel
 therightscoop.com###trs_connect-2
 theringer.com##.c-pinterest-button
 theringer.com##.c-social-buttons
