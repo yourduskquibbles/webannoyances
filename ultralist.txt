@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:09 AM 2018-03-29
+! Last Modified: 11:16 AM 2018-03-29
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -42,6 +42,7 @@
 ##.addthis-button
 ##.android-smart-banner.smart-banner
 ##.annotateButton
+##.butterBar--privacy.is-active.butterBar
 ##.buttonSet--highlightMenu.buttonSet
 ##.bx-creative
 ##.bx-impress.bx-fx-zoom-in
@@ -1033,8 +1034,11 @@ artlawjournal.com###herald-responsive-header:style(position: relative !important
 artlawjournal.com###sticky-header
 artofmanliness.com###gpt-ad-top
 artofmanliness.com##.fixed.top-bar-container:style(position: relative !important; transition: none !important;)
+artplusmarketing.com##.butterBar--privacy.is-active.butterBar
+artplusmarketing.com##.js-metabarSpacer
 artplusmarketing.com##.js-postShareWidget
-artplusmarketing.com##.u-tintSpectrum.u-tintBgColor.u-xs-sizeFullViewportWidth.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorDarker.js-metabar.u-clearfix.metabar:style(position: absolute !important;)
+artplusmarketing.com##.js-stickyFooter
+artplusmarketing.com##.metabar:style(position: relative !important;)
 artstation.com###main-nav:style(position: relative !important; top: 0 !important;)
 artstation.com##.sharing-buttons
 artsy.net###main-layout-header:style(position: relative !important; top: 0 !important;)
