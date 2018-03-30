@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:38 AM 2018-03-30
+! Last Modified: 1:33 PM 2018-03-30
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -13087,14 +13087,16 @@ si.com###siBar-social-twitter
 si.com###sticker:style(position: relative !important; top: 0 !important;)
 si.com##.article-utilities-body
 si.com##.bottom-rule.top-rule.margin-16-tb.share
-si.com##.can-animate.has-headline.contextual-social-enabled.with-scoreboard.main:style(position: absolute !important;)
-si.com##.can-animate.has-headline.contextual-social-enabled.with-scoreboard.with-tertiary.main:style(position: absolute !important;)
+si.com##.can-animate.has-headline.contextual-social-enabled.main:style(position: relative !important;)
+si.com##.can-animate.has-headline.contextual-social-enabled.with-scoreboard.main:style(position: relative !important;)
+si.com##.can-animate.has-headline.contextual-social-enabled.with-scoreboard.with-tertiary.main:style(position: relative !important;)
 si.com##.color-porcelain.icon-facebook.icon
 si.com##.color-porcelain.icon-twitter.icon
 si.com##.contextual-social-enabled.with-scoreboard.no-utility-ribbon.main:style(position: relative !important; top: 0 !important;)
 si.com##.desktop-only.secondary.container:style(position: relative !important; top: 0 !important;)
 si.com##.media.subscribe-callout.component
 si.com##.mobile-ad.adhesion-ad.component
+si.com##.nav-placeholder
 si.com##.newsletter-callout.component
 si.com##.nl-container
 si.com##.padding-24.top-rule.clearfix.recirc-container
@@ -14200,6 +14202,8 @@ texasmonthly.com##.close-mab
 texasmonthly.com##.follow
 texasmonthly.com##.footer__newsletter
 texasmonthly.com##.is_stuck.js-hamburger.toc__hamburger:style(position: absolute !important;)
+texasmonthly.com##.is_stuck.js-sticky-rail.article-sticky:style(position: absolute !important;)
+texasmonthly.com##.js-share.share
 texasmonthly.com##.share-bar
 texasmonthly.com##.share-bar-wrapper
 texasmonthly.com##.tm-social-share-bar
