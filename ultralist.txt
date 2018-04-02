@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 5:46 PM 2018-03-31
+! Last Modified: 10:56 AM 2018-04-02
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -714,9 +714,11 @@ allure.com##.footer-social
 allure.com##.inner:style(position: relative !important; top: 0 !important;)
 allure.com##.sticky-wrapper
 allure.com##.utility-nav
+ally.com###nav-desktop:style(position: relative !important;)
 ally.com##.active.a11y.section-nav.sticky-nav:style(position: relative !important; top: 0 !important;)
 ally.com##.active.info-bar:style(position: relative !important; top: 0 !important;)
 ally.com##.active.sticky-nav.info-bar:style(position: relative !important; top: 0 !important;)
+ally.com##.share
 ally.com##.site-header:style(position: relative !important; top: 0 !important;)
 ally.com##.social-bar
 alphr.com###__ic-notice
@@ -942,6 +944,7 @@ apple.com##.sharesheet-content
 appleinsider.com###article-share-container
 appleinsider.com###article-social-head
 appleinsider.com##.adsbygoogle
+aps.org###aps-share-widget
 ar15.com##.barpad.light-box-alt.columns
 ar15.com##.cd-is-visible.cd-bottom
 ar15.com##.cd-is-visible.cd-top
@@ -7404,6 +7407,7 @@ jalopnik.com##.js_post-dropdown-ct-sticky.js_post-dropdown-ct.post-dropdown-ct
 jalopnik.com##.js_post-dropdown-ct.post-dropdown-ct.js_meta-tools.meta__tools
 jalopnik.com##.js_subscribe-region-sidebar.js_dismissable.js_newsletter-btn--subscribe
 jamanetwork.com##.header-wrap:style(position: absolute !important; top: 0 !important;)
+jamanetwork.com##.is_stuck.is-b.full-text-link:style(position: absolute !important;)
 japantimes.co.jp###top_jump
 japantimes.co.jp##.social_header
 jasmcole.com###masthead:style(position: absolute !important;)
@@ -12576,6 +12580,7 @@ rotoballer.com###ifc-2
 rotoballer.com##.mobile-nav:style(position: absolute !important;)
 rotomshop.de##.rwd-liquid.rwd-clearfix.quick-access-fly-container:style(position: absolute !important;)
 rotoworld.com##.RW_ad300
+rottentomatoes.com###social-tools-widget
 rottentomatoes.com##.clearfix.mob-nav-bottom
 royalsocietypublishing.org##.cookieConsent
 rp-online.de###topcontainer
@@ -13401,6 +13406,7 @@ space.com##.line.mod
 space.com##.mod-hdr.h2
 space.com##.mod.pure-u-1.subscribe
 space.com##.more-arrow.st-more.st_sharethis_custom
+space.com##.partner-banner.top-mod.mod
 space.com##.pure-u-1.social-mod
 space.com##.top-mod.mod.follow
 spaceflight.watch##.twitter-tweet-button.twitter-share-button-rendered.twitter-share-button
