@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 10:56 AM 2018-04-02
+! Last Modified: 12:20 PM 2018-04-02
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -2021,11 +2021,14 @@ businessinsider.com##.social-icons
 businessinsider.com##.stick.leaderboard.subnav-content
 businessinsider.com##.subnav-container
 businessinsider.com##.toolbar.masthead:style(position: relative !important; top: 0 !important;)
+businessinsider.com##.tp-active.tp-backdrop
+businessinsider.com##.tp-modal
 businessinsider.com##.twitter.icon-twitter.-link
 businessinsider.com##.vertical-social-buttons
 businessinsider.com##DIV[style="border-top: 1px solid #ddd; margin-top: 20px; margin-left: -20px; width: 340px;"]
 businessinsider.com##a.slide-share-button.slide-share-button--facebook
 businessinsider.com##a.slide-share-button.slide-share-button--pinterest
+businessinsider.com##html:style(overflow-x: hidden !important; overflow-y: auto !important;)
 businessinsider.com.au###masthead:style(position: relative !important; top: 0 !important;)
 businessinsider.com.au###mc-signup-in-post
 businessinsider.com.au###mc_signup
@@ -11073,20 +11076,28 @@ pbs.org##.cf.sidebar-social
 pbs.org##.fea__alt.fea__narrower--ad.fl-ad
 pbs.org##.fl-nav-secondary__follow-icons.submenu-btn.js-has-submenu.fl-nav__item--secondary
 pbs.org##.follow
+pbs.org##.footer__follow
+pbs.org##.footer__subscribe
 pbs.org##.geeplus
 pbs.org##.graybg.sidebar-advertisement
 pbs.org##.in.fade.modal-backdrop
+pbs.org##.is_stuck.js-sticky-rail.video-single__sticky-rail:style(position: absolute !important;)
 pbs.org##.page-header:style(position: relative !important; top: 0 !important;)
+pbs.org##.popup--visible.js-popup.popup
 pbs.org##.post-wrap-side-share
 pbs.org##.remodal-is-opened.remodal-overlay
 pbs.org##.remodal-is-opened.remodal-wrapper
+pbs.org##.share
 pbs.org##.sharecategory
 pbs.org##.side_twitterfollow
+pbs.org##.sidebar__subscribe
 pbs.org##.social
 pbs.org##.social-icons
 pbs.org##.social-media__links
 pbs.org##.social-media__social-cta
 pbs.org##.sticky.js-header.header:style(position: relative !important; top: 0 !important;)
+pbs.org##.subscribe__follow
+pbs.org##.subscribe__form
 pbs.org##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 pcgamer.com##.cc-color-override--493919820.cc-top.cc-theme-block.cc-type-info.cc-floating.cc-window
 pcgamer.com##.cc-top.cc-theme-block.cc-type-info.cc-floating.cc-window
@@ -12059,6 +12070,8 @@ rare.us##body:style(padding-top: 0px !important;)
 rarepepewallet.com##.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important;)
 rasmussenreports.com###cboxOverlay
 rasmussenreports.com###colorbox
+rasmussenreports.com##.ad728x90
+rasmussenreports.com##.clear.top-wrapper:style(padding-top: 34px !important;)
 rasmussenreports.com##.join-us.module-c
 rasmussenreports.com##.narrow-cta.button-sprite
 rasmussenreports.com##.ndn_floatContainer.ndn_floatContainer_enabled:style(position: relative !important;)
@@ -13752,6 +13765,8 @@ stevenspointjournal.com##.site-nav-link
 stevenspointjournal.com##.story-tools
 stevenspointjournal.com##.utility-bar-wrap
 stgeorgeutah.com###email_popup
+stlouisfed.org###site-feedback-button:style(position: absolute !important;)
+stlouisfed.org##.back-fade-out.back-is-visible.back-top
 stltoday.com###main-body-container:style(margin-top: 0px !important;)
 stltoday.com###site-navbar-container:style(position: relative !important;)
 stltoday.com##.clearfix.well.whatcounts-form-container
