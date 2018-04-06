@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:28 PM 2018-04-06
+! Last Modified: 12:35 PM 2018-04-06
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -13796,6 +13796,11 @@ stockpressdaily.com##.customPopUp
 stonebrewing.com##.breadcrumb-wrapper:style(position: relative !important; top: 0 !important;)
 stonebrewing.com##.navbar-header:style(position: relative !important; top: 0 !important;)
 stonebrewing.com##.navbar:style(position: relative !important; top: 0 !important;)
+stopnadwadze.pl###bottom-bar:style(position: absolute !important;)
+stopnadwadze.pl###topcontrol
+stopnadwadze.pl##.cookie-notice-container
+stopnadwadze.pl##.theiaStickySidebar:style(position: static !important;)
+stopnadwadze.pl##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 store.google.com##.bar
 store.google.com##.sticky-stacky:style(position: relative !important; top: 0 !important;)
 storyful.com##.header:style(position: relative !important; top: 0 !important; padding-top: 0px !important;)
