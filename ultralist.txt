@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 9:58 AM 2018-04-07
+! Last Modified: 8:29 AM 2018-04-08
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -324,6 +324,7 @@ abc7ny.com##.footer-searchsocial
 abc7ny.com##.nav-background
 abc7ny.com##.responsive-ad.ad-banner.ad
 abc7ny.com##.share-panel-legacy.share-panel
+abc7ny.com##.share-sticky-outer.left-outer.social-icons
 abc7ny.com##.social-icons.share
 abc7ny.com##.sticky.wrapper.nav-container-sticky:style(position: relative !important; top: 0 !important;)
 abc7ny.com##.top-share.share-panel-legacy.share-panel
@@ -4113,6 +4114,9 @@ directindustry.com###cookieFrame
 directindustry.com###float-bar-container:style(position: relative !important;)
 directindustry.com###header-nav:style(position: relative !important;)
 directv.com###dtv_header:style(position: absolute !important;)
+directvnow.com##.nav:style(position: absolute !important;)
+directvnow.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
+directvnow.com##flow-progress-bar:style(position: absolute !important;)
 discounttire.com##header:style(position: relative !important;)
 discourse.pi-hole.net##.clearfix.d-header:style(position: relative !important; top: 0 !important;)
 discover.com###stickyNav:style(position: relative !important;)
@@ -8763,6 +8767,7 @@ masslive.com##.sticky-nav-show.sticky-nav:style(position: relative !important; t
 masslive.com##.sticky-nav:style(position: relative !important; top: 0 !important; transition: none !important;)
 masslive.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 masters.com###top:style(position: absolute !important;)
+masters.com##.backToTopContainer
 masters.com##.summary-sb:style(position: absolute !important;)
 matadornetwork.com##.header-nav:style(position: relative !important;)
 matadornetwork.com##.post-share
@@ -9093,6 +9098,7 @@ mint.intuit.com###advice-top-container
 mintpressnews.com##.site-header:style(position: absolute !important;)
 mintpressnews.com##.socialicons-container
 mirror.co.uk###bottom-article-message
+mirror.co.uk###div-gpt-native
 mirror.co.uk###social-follow
 mirror.co.uk##.active.publication-theme-border.mod-cookiepolicy
 mirror.co.uk##.mod-header:style(position: relative !important; top: 0 !important;)
@@ -10508,6 +10514,8 @@ nwfdailynews.com###toprail:style(position: relative !important; top: 0 !importan
 nwfdailynews.com##.a2a_kit.article-meta-tools
 nwfdailynews.com##.btn-highlight.btn-sm.btn
 nwfdailynews.com##.list-inline.social
+ny1.com###footerSocialLinks
+ny1.com##.navbar-fixed-top.fixed-top.site-header-inner:style(position: absolute !important;)
 nybooks.com##.newsletter_signup.well
 nybooks.com##.social
 nybooks.com##.span3
@@ -10777,6 +10785,7 @@ oddshot.tv##.Notification
 offers.com###header:style(position: relative !important; top: 0 !important;)
 offers.com###modal-overlay
 offers.com###privacy-policy-updated
+offers.com###takeover
 offers.com##header:style(position: relative !important; top: 0 !important;)
 office.com###epb
 office.com###supFeedbackWrapper:style(position: relative !important;)
@@ -12008,7 +12017,9 @@ quora.com##.better_sticky_action_bar
 quora.com##.continue_reading_wrapper
 quora.com##.core_promo
 quora.com##.feed_item.AdStory.FeedStory
+quora.com##.fixable_fixed.fixed_sidebar:style(position: absolute !important;)
 quora.com##.fixable_fixed.side_bar.list.question_related:style(position: relative !important; top: 0 !important;)
+quora.com##.fixable_fixed:style(position: absolute !important;)
 quora.com##.fixable_fixed:style(position: relative !important;)
 quora.com##.fixed_header:style(position: relative !important; top: 0 !important;)
 quora.com##.growl_overlay
@@ -13537,6 +13548,7 @@ spin.com##.text-center.sm-widget-campaign-monitor.sm-widget.sidebar-module
 splcenter.org###header
 splendidtable.org###cboxContent
 splendidtable.org###cboxOverlay
+splinternews.com###js_impactHeaderNav:style(position: absolute !important;)
 splinternews.com###sharingfooter
 splinternews.com##.footer-social
 splinternews.com##.footer-subscribe
@@ -13546,6 +13558,7 @@ splinternews.com##.js_global-nav-wrap:style(position: absolute !important;)
 splinternews.com##.js_post-dropdown-ct-sticky.js_post-dropdown-ct.post-dropdown-ct
 splinternews.com##.js_post-dropdown-ct.post-dropdown-ct.js_meta-tools.meta__tools
 splinternews.com##.js_subscribe-region-sidebar.js_dismissable.js_newsletter-btn--subscribe
+splinternews.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 splitsider.com##.leaderboard__wrapper
 splitsider.com##.menu-item-75804.menu-item-object-custom.menu-item-type-custom.menu-item.divider.icon-facebook-official.icon
 splitsider.com##.menu-item-75805.menu-item-object-custom.menu-item-type-custom.menu-item.divider.icon-twitter.icon
