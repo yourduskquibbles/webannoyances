@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 5:48 PM 2018-04-09
+! Last Modified: 2:20 PM 2018-04-10
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -1250,6 +1250,7 @@ baseballamerica.com###BaseSiteHead:style(position: relative !important; top: 0 !
 baseballhq.com##cloudflare-app:style(position: relative !important; top: 0 !important;)
 baseballprospectus.com##.header-main:style(position: relative !important; top: 0 !important;)
 baseballprospectus.com##.site-header:style(position: relative !important; top: 0 !important;)
+baseballrulesacademy.com##.et_social_animated.et_social_visible.et_social_mobile_on.et_social_auto_popup.et_social_popup
 basicincome.org###header-social-icons
 batmanplanet.com##.shareaholic-ui.shareaholic-share-buttons-wrapper
 battlecreekenquirer.com##.first-margin:style(margin-top: 0px !important;)
@@ -1346,6 +1347,7 @@ bgr.com###topnav
 bgr.com##.button-facebook
 bgr.com##.button-twitter
 bgr.com##.share-buttons
+bgr.com##.sidebar-section-middle-track:style(position: relative !important;)
 bgr.com##.site-header-sticky:style(position: relative !important; top: 0 !important;)
 bgr.com##.social
 bible.com###react-app-Footer
@@ -4915,6 +4917,10 @@ goodhousekeeping.com##.social-byline--share
 goodhousekeeping.com##.sticky.nav
 goodreads.com###backToTop
 goodreads.com###siteBanner
+goodreads.com##.headroom:style(transform: none !important; transition: none !important;)
+goodreads.com##.shareModuleBar
+goodreads.com##.siteHeader:style(position: absolute !important; top: 0px !important;)
+goodreads.com##html:style(margin-top: 0px !important;)
 goodsearch.com##.has-code.deal-button > .label
 google.ai##.h-c-header__bar:style(position: relative !important; top: 0 !important;)
 google.com###ad
@@ -9878,9 +9884,11 @@ quora.com##.SiteHeader.LoggedInSiteHeader:style(position: absolute !important;)
 quora.com##.TwitterNetworkShare
 quora.com##.TwitterShareActionItem
 quora.com##.ViewInAppLink
+quora.com##.ZapdosWallWrapper
 quora.com##.better_sticky_action_bar
 quora.com##.continue_reading_wrapper
 quora.com##.core_promo
+quora.com##.feed_expand.outer_content
 quora.com##.feed_item.AdStory.FeedStory
 quora.com##.fixable_fixed.fixed_sidebar:style(position: absolute !important;)
 quora.com##.fixable_fixed.side_bar.list.question_related:style(position: relative !important; top: 0 !important;)
@@ -9892,6 +9900,7 @@ quora.com##.modal_promoted_content
 quora.com##.section.share_question
 quora.com##.sticky.ActionBar.Answer:style(position: relative !important;)
 quora.com##.sticky.with_metabar.icon_action_bar:style(position: absolute !important;)
+quora.com##.sticky_bundle_wrapper:style(position: static !important;)
 quora.com##.text_links
 quora.com##:xpath(.//*[@class="SignupFooter"])
 quora.com##:xpath(.//*[@class="fixed_footer_gradient"])
@@ -12050,6 +12059,8 @@ thedenverchannel.com###header:style(position: relative !important; top: 0 !impor
 thedenverchannel.com##.is-active.share__social-items
 thediplomat.com###socialBlock
 thediplomat.com##.postSocial
+thedisorganizedparent.com##.addtoany_share_save_container
+thedisorganizedparent.com##.nav-primary:style(position: absolute !important;)
 thedissolve.com###locking-header:style(position: relative !important; top: 0 !important;)
 thedissolve.com##.content-social.sticky.fixed
 thedodo.com###header-ad
@@ -12428,6 +12439,7 @@ thenorthwestern.com##.pluto-video-ready.smallarticleattophtml5.priority.inline-s
 thenorthwestern.com##.site-header-inner-wrap-fixed.site-header-inner-wrap:style(position: relative !important; top: 0 !important;)
 theoatmeal.com###follow2016
 theoatmeal.com###share2016
+theoleballgame.com###topcontrol
 theonion.com##.circle.video-carousel-share-tools
 theonion.com##.global-nav.fixed
 theonion.com##.js_global-nav-wrap:style(position: absolute !important;)
@@ -14623,6 +14635,7 @@ wsj.com##.wsj-immersive-ad-placement
 wsj.com##.wsj-responsive-nav-circ-wrap
 wsj.com##DIV[style="background: #cc5302; margin: 0px; padding: 4px;clear:both;"]
 wsj.com##DIV[style="width: 100%; text-align: center; margin-left: 100px;"]
+wsj.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 wsj.com##body:style(padding-top: 0px !important;)
 wsls.com###ksat-fixed:style(position: relative !important; top: 0 !important; width: 100% !important; margin-bottom: 20px !important;)
 wsls.com##.viafoura.gmg-vf
