@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 6:45 PM 2018-04-15
+! Last Modified: 7:23 PM 2018-04-15
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -2599,6 +2599,7 @@ coindesk.com##.widget_coindesk_freestar_atf_ad_unit_widget.widget
 coindesk.com##.widget_coindesk_freestar_btf_ad_unit_widget.widget
 coindesk.com##.wpsr-floatbar-float_left.wpsr-floatbar-white.wpsr-floatbar-movable.clearfix
 coindesk.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
+coinmarketcap.com###currencies > thead > tr >th:style(position: static !important;)
 coinsocial.io##.dpsp-networks-btns-wrapper
 coinsocial.io##.slidebottom.wpoi-show.inc_optin_2.inc_optin.wpoi-animate.inc_opt_popup
 coinsocial.io##.wpoi-popup-overlay
@@ -6005,6 +6006,7 @@ interestingengineering.com###newsletter-modal
 interestingengineering.com##.in.fade.modal-backdrop
 interestingengineering.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 interia.pl###inpl_cp_cnt
+interia.pl##.account:style(position: absolute !important;)
 interia.pl##.header-bar:style(position: absolute !important;)
 internet-bikes.com###robin_tab_container
 internet-bikes.com##.abs_bottom.footer_wrapper
@@ -6435,7 +6437,9 @@ kraftrecipes.com##.in.fade.modal-backdrop
 kraftrecipes.com##.in.generic.acquisition-container.fade.modal.kraft-modal
 kraftrecipes.com##.modal-lg.modal-dialog
 kraken.com###head:style(position: absolute !important;)
-krakow.pl##.menu.clearfix:style(position: relative !important;)
+krakow.pl##.eventOrganizer
+krakow.pl##.language-picker:style(position: absolute !important;)
+krakow.pl##.menu.clearfix:style(position: static !important; visibility: visible!important;)
 krazywolf.com##.top.shareit
 krcgtv.com###facebookShare
 krcgtv.com##.component-ddb-300x250-v1
@@ -7444,7 +7448,8 @@ midwayusa.com###rvWrapper:style(position: relative !important; top: 0 !important
 midwayusa.com##.icon.to-top.tertiary-button
 midwayusa.com##.social
 mikrotik.com##.stuck.clearfix.utility-bar:style(position: absolute !important;)
-militaria.pl##.header:style(position: relative !important;)
+militaria.pl###layout-wrapper:before:style(height: 0px !important;)
+militaria.pl##.header:style(position: static !important;)
 military.com###mastHead:style(position: relative !important; top: 0 !important;)
 militarytimes.com###top-header:style(position: relative !important; top: 0 !important;)
 militarytimes.com##.ad-300X250.pb-ad-prod.pb-ad.pb-ad-container
@@ -8897,6 +8902,10 @@ nzherald.co.nz##.floatingNav:style(position: relative !important; top: 0 !import
 nzherald.co.nz##.mobile-only.pb-ad-curated.min-height-405.max-width-1130
 nzherald.co.nz##.nz-herald.onscreen.site-logo-wrapper:style(position: relative !important; top: 0 !important;)
 nzherald.co.nz##.social-tools
+o2.pl##._1RBj1.Jkoz5:style(position: absolute !important;)
+o2.pl##._2yC7E.bu4XW:style(position: absolute !important;)
+o2.pl##._3g4kZ._3TieQ:style(position: absolute !important;)
+o2.pl##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 oakpark.com##.ui-panel-content-fixed-toolbar-closed.ui-panel-animate.ui-panel-content-fixed-toolbar.slidedown.ui-header-fixed.ui-bar-c.ui-header.np:style(position: relative !important; top: 0 !important;)
 oakparkalliance.com##.topbar-sticky.topbar-expand-sm.topbar-inverse.topbar:style(position: relative !important; top: 0 !important;)
 obi.de##.auto-init.js-show-overview-fixhdr.overview-sticky-header:style(position: relative !important; top: 0 !important;)
@@ -8978,7 +8987,9 @@ onegreenplanet.org##.social-mob
 onegreenplanet.org##.sociallinks
 onegreenplanet.org##.subscribebox
 onet.pl##.notificationPrompt
-onet.pl##.pageHeader:style(position: absolute !important;)
+onet.pl##.pageHeader *:style(transition: none !important;)
+onet.pl##.pageHeader.switch
+onet.pl##.pageHeader:style(position: absolute !important; transition: none !important;)
 onkette.com##.td-pb-padding-side.td-post-sharing-top.td-post-sharing
 onlineathens.com###navbar:style(position: relative !important; top: 0 !important;)
 onlyinyourstate.com##.mobile-share-bar-on.mobile-share-bar
@@ -9817,6 +9828,8 @@ prri.org##.noShadow.header--collapsed.header--dark.header:style(position: relati
 prwatch.org##.sharethis-buttons
 prwatch.org##.social
 przelewy24.pl###menucontainerfloat
+przelewy24.pl###side-menu-contener:style(position: absolute !important;)
+przelewy24.pl##.menu-rwd.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important;)
 przystanekplanszowka.pl##.td-affix.td-header-gradient.td-header-menu-wrap:style(position: absolute !important;)
 psmag.com###image-3
 psmag.com##.is-visible.l-sticky-navbar:style(position: relative !important; top: 0 !important;)
@@ -10488,6 +10501,7 @@ rticcoolers.com##.navbar-default.navbar:style(position: relative !important; top
 rtl.de###rtli-master-related-column
 rtl.de##.rtli-master-octopus
 rtl.de##.scrollmagic-pin-spacer
+rudaslaska.com.pl###cookies-message
 runnersworld.com###header:style(position: relative !important; top: 0 !important;)
 runnersworld.com###newsletter-block
 runnersworld.com###rwmain-subscribe
@@ -13238,9 +13252,10 @@ tvguide.com##.header-social
 tvline.com##.home-left-col.share-comment
 tvline.com##.pmc-adm-goog-pub-div
 tvline.com##.site-social
-tvn24.pl###GemiusXYMap\:nav:style(position: absolute !important;)
+tvn24.pl###GemiusXYMap\:nav:style(position: absolute !important; top: 128px !important;)
 tvn24.pl###msgLayer
 tvn24.pl##.headerTop:style(position: absolute !important;)
+tvn24.pl##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 tvn24bis.pl###navigation-main:style(position: relative !important;)
 tvn24bis.pl##.header-network:style(position: absolute !important;)
 tvregionalna24.pl###cookiesdirective
@@ -14226,6 +14241,7 @@ wikia.com###globalNavigation:style(position: relative !important; top: 0 !import
 wikia.com##.anon.wds-global-navigation-wrapper:style(position: relative !important;)
 wikia.com##.card-share
 wikia.com##.ember-view.fandom-app-smart-banner
+wikia.com##.is-f2.global-navigation-mobile-wrapper:style(position: absolute !important;)
 wikia.com##.is-sticky.in-area-left.trending-topics:style(position: absolute !important;)
 wikia.com##.is-sticky.in-area-right.quick-links:style(position: absolute !important;)
 wikia.com##.no-shadow.site-head:style(position: absolute !important;)
