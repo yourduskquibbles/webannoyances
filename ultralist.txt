@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 2:19 PM 2018-04-15
+! Last Modified: 6:45 PM 2018-04-15
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -14,6 +14,7 @@
 ###appIntercept
 ###back-to-top
 ###back-top
+###backToTop
 ###backtotop
 ###catapult-cookie-bar
 ###cookie
@@ -144,6 +145,7 @@
 ##.highlightMenu-inner
 ##.icon-fa-facebook-official
 ##.icon-fa-twitter
+##.icon-share
 ##.inline-share-btn-email
 ##.inline-share-btn-facebook
 ##.inline-share-btn-linkedin
@@ -178,6 +180,7 @@
 ##.share-bar
 ##.share-bar-wrapper
 ##.share-container
+##.share-nav-button
 ##.share-panel
 ##.share-toolbar
 ##.share-tools-wrapper
@@ -902,7 +905,8 @@ anncoulter.com##.addthis_toolbox.addthis_default_style
 anovaculinary.com###content-subnav:style(position: relative !important;)
 anovaculinary.com###topic-progress-wrapper
 anovaculinary.com##.clearfix.d-header:style(position: relative !important; top: 0 !important;)
-answers.com##.dom_ready.js-header_searchinline.jsparams.header_searchinline.module:style(position: relative !important; top: 0 !important;)
+answers.com###footer_menu:style(position: relative !important;)
+answers.com##.dom_ready.js-header_searchinline.jsparams.header_searchinline.module:style(position: absolute !important;)
 answers.com##.sticky_banner.ads_dfpslot.module
 antergos.com###header-menu:style(position: absolute !important; top: 10 !important;)
 antergos.com###top-header:style(position: absolute !important; top: 0 !important;)
@@ -1992,6 +1996,8 @@ capitalgazette.com##.trb_nh:style(position: absolute !important;)
 capitalone.com##.fixed:style(position: relative !important; top: 0 !important;)
 capitalwasteland.com###showOnScrollWrapper
 capitolcityproject.com##.pagenav.fixedmenu
+caranddriver.com###mobile-nav-slider
+caranddriver.com##.active.hide-nm.w300-nm
 caranddriver.com##.cd-social-sharing
 cardpool.com##.feedback_link
 careerattraction.com###back_to_top
@@ -2261,6 +2267,7 @@ chowhound.com###freyja_top_nav:style(position: relative !important; top: 0 !impo
 chowhound.com###nav-ad
 chowhound.com##.fr_idle_wrap.mod_confirm.fr_mod_wrap
 chowhound.com##.fr_lighter_overlay.close_freyja_login.freyja_overlay
+chowhound.com##.fr_social_mobile_wrapper
 chowhound.com##.fr_social_sticky_wrapper
 chowhound.com##.freyja_desknav_back
 chowhound.com##.freyja_notmobile.freya_beta_menu
@@ -2387,7 +2394,6 @@ civileats.com###header-wrap:style(position: absolute !important;)
 civileats.com##.side-social
 civileats.com##.social
 cjonline.com###article-storyStrip:style(position: absolute !important;)
-cjonline.com###backToTop
 cjonline.com###header-main-promo
 cjonline.com###toprail:style(position: absolute !important;)
 cjonline.com##.article-meta-social
@@ -3352,6 +3358,8 @@ di.fm###main-header:style(position: relative !important; top: 0 !important;)
 di.fm###persistent-messaging-region:style(position: absolute !important;)
 di.fm###side-nav:style(position: absolute !important;)
 di.fm##.social-region.action
+diaperdekor.com###menuBar:style(position: relative !important;)
+diaperdekor.com##.clearfix.top-fixed.color-bar.container-fluid:style(position: absolute !important;)
 diasporafoundation.org##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute !important;)
 dickssportinggoods.com##.sticky-active.clearfix.pdp-sticky-container
 dictionary.com###fly-out
@@ -3621,7 +3629,6 @@ eater.com##.c-rock-newsletter
 eater.com##.dfp_ad--held-area.dynamic-js-slot
 eatthis.com##.topic-health.top:style(position: relative !important; top: 0 !important;)
 eatthis.com##.topic-home.top:style(position: relative !important; top: 0 !important;)
-ebaumsworld.com###backToTop
 ebaumsworld.com###miniMenu:style(position: relative !important; top: 0 !important;)
 ebay-kleinanzeigen.de###headerbar:style(position: absolute !important; top: 0 !important;)
 ebay-kleinanzeigen.de##.ctacontainer
@@ -4180,7 +4187,6 @@ financemagnates.com###header:style(position: relative !important; top: 0 !import
 financialpost.com##.custom-share-icon
 financialpost.com##.header-wrapper:style(position: absolute !important;)
 financialpost.com##.mobile-story-share-container
-financialpost.com##.share-nav-button
 finehomebuilding.com###top-promo-waypoint:style(position: absolute !important;)
 finehomebuilding.com##.article__social-links
 finehomebuilding.com##.visible.inline-email-form
@@ -4949,7 +4955,6 @@ goodhousekeeping.com##.footer--social
 goodhousekeeping.com##.share-module
 goodhousekeeping.com##.social-byline--share
 goodhousekeeping.com##.sticky.nav
-goodreads.com###backToTop
 goodreads.com###siteBanner
 goodreads.com##.headroom:style(transform: none !important; transition: none !important;)
 goodreads.com##.shareModuleBar
@@ -5000,7 +5005,6 @@ gossipcop.com##.social_new
 gothamist.com###entry-social-float
 gothamist.com##.clearfix.entry-share-buttons
 goupstate.com###article-storyStrip:style(position: absolute !important;)
-goupstate.com###backToTop
 goupstate.com###dialog-message
 goupstate.com###header-main-promo
 goupstate.com###subscribe-widget
@@ -5884,6 +5888,10 @@ indystar.com##.site-header-inner-wrap-fixed.site-header-inner-wrap:style(positio
 inews.co.uk##.header:style(position: relative !important; top: 0 !important;)
 inews.co.uk##.matrix-button
 inews.co.uk##.slab-navigation.slab
+infantino.com###newsletterModal
+infantino.com##.fixedbar.stuck-nav:style(position: absolute !important;)
+infantino.com##.in.fade.modal-backdrop
+infantino.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 infineon.com##.clearfix.cookie-banner
 infoarchitekta.pl###ciasteczka
 infoarchitekta.pl##.szer_body.nav_belka_dwa:style(position: relative !important;)
@@ -6627,6 +6635,7 @@ ldnews.com##.fixed.header:style(position: absolute !important; top: 0 !important
 ldnews.com##.pluto-video-ready.playlistsmallattophtml5.gallery-video.story-video.js-ui-pluto-video.ui-pluto-video.js-ui-video-init:style(position: static !important;)
 ldnews.com##.pluto-video-ready.smallarticleattophtml5.priority.inline-story-video.story-video.js-ui-pluto-video.js-video-aps.ui-pluto-video.js-ui-video-init:style(position: static !important;)
 ldnews.com##.site-header-inner-wrap-fixed.site-header-inner-wrap:style(position: relative !important; top: 0 !important;)
+leaderpost.com##.masthead:style(position: absolute !important;)
 leadpages.net$script
 leaf.tv##.fixed-header:style(position: relative !important; top: 0 !important;)
 leaf.tv##.header-top:style(position: relative !important; top: 0 !important;)
@@ -6822,6 +6831,10 @@ livingstondaily.com##.pluto-video-ready.playlistsmallattophtml5.gallery-video.st
 livingstondaily.com##.pluto-video-ready.smallarticleattophtml5.priority.inline-story-video.story-video.js-ui-pluto-video.js-video-aps.ui-pluto-video.js-ui-video-init:style(position: static !important;)
 livingstondaily.com##.site-header-inner-wrap-fixed.site-header-inner-wrap:style(position: relative !important; top: 0 !important;)
 lmanar.com.lb##.clearfix.social-sharing
+lmtonline.com###ctpl-fullbanner1
+lmtonline.com###menuBar:style(position: absolute !important;)
+lmtonline.com###siteNav:style(position: absolute !important;)
+lmtonline.com##.news.page-content:style(margin-top: 50px !important;)
 lnu.se##.cookie-policy-form
 loadoutroom.com##.enews-widget.widget
 loadoutroom.com##.fix-menu.nav-secondary:style(position: relative !important; top: 0 !important;)
@@ -7894,6 +7907,7 @@ narvar.com###josbank-nav:style(position: relative !important; top: 0 !important;
 narvar.com##.contact-us
 narvar.com##.container:style(position: relative !important; top: 0 !important;)
 narvar.com##.header-widget:style(position: relative !important; top: 0 !important;)
+narvar.com##.navbar-fixed-top:style(position: absolute !important;)
 narvar.com##.navbar-header:style(position: relative !important; top: 0 !important;)
 narvar.com##.navbar:style(position: relative !important; top: 0 !important;)
 narvar.com##header-menu-directive:style(position: relative !important; top: 0 !important;)
@@ -8653,7 +8667,6 @@ nwahomepage.com###mod-up-next
 nwahomepage.com###site-header:style(position: absolute !important; top: 0 !important;)
 nwahomepage.com##.mod-supernav-accordion-list:style(position: absolute !important; top: 0 !important;)
 nwfdailynews.com###article-storyStrip:style(position: relative !important; top: 0 !important;)
-nwfdailynews.com###backToTop
 nwfdailynews.com###dialog-message
 nwfdailynews.com###toprail:style(position: relative !important; top: 0 !important;)
 nwfdailynews.com##.a2a_kit.article-meta-tools
@@ -9607,7 +9620,6 @@ popsugar.com###node-email-widget
 popsugar.com###sidebar-email-widget
 popsugar.com##.counters
 popsugar.com##.email-signup-active.blue-blue.email-widget.slideout.js-modal-fixed-mg.modal-email-widget
-popsugar.com##.icon-share.share-open
 popsugar.com##.nav-social-buttons
 popsugar.com##.omniture-track.nav-cta-button
 popsugar.com##.pullquote-share
@@ -10169,7 +10181,6 @@ recorder.com###launcher
 recorder.com###ta_pagesLeftPopup
 recorder.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 recordonline.com###article-storyStrip:style(position: relative !important; top: 0 !important;)
-recordonline.com###backToTop
 recordonline.com###dialog-message
 recordonline.com###header-main-right
 recordonline.com###paywall-bar
@@ -10183,6 +10194,7 @@ redalertpolitics.com##.entry-social.pw-layout-horizontal.ra1-pw_size_medium.ra1-
 redalertpolitics.com##.signup-trigger
 redalertpolitics.com##.social.pw-layout-horizontal.ra1-pw_size_medium.ra1-pw-classicWidget.pw-widget.pw
 redbooth.com###header:style(position: absolute !important;)
+redbubble.com###email-slide-up
 redbull.com##.ast:style(position: absolute !important; left: -125px !important;)
 redbull.com##.nav-wrapper:style(position: relative !important; top: 0 !important;)
 redbull.com##.top.cookiebar
@@ -10363,6 +10375,7 @@ revolvy.com###topper_info
 rferl.org##.fb-like-buttons
 rferl.org##.hdr:style(position: relative !important; top: 0 !important;)
 rferl.org##.header:style(position: relative !important; top: 0 !important;)
+rferl.org##.slide-in-wg.media-block-wrap
 rgj.com##.first-margin:style(margin-top: 0px !important;)
 rgj.com##.fixed.header:style(position: absolute !important; top: 0 !important;)
 rgj.com##.pluto-video-ready.playlistsmallattophtml5.gallery-video.story-video.js-ui-pluto-video.ui-pluto-video.js-ui-video-init:style(position: static !important;)
@@ -11267,6 +11280,7 @@ sportsnet.ca##.lf-social-media-header:style(position: relative !important; top: 
 sportsnet.ca##.navbar-header:style(position: relative !important; top: 0 !important;)
 sportsnet.ca##.rdm-daac-notice-template
 sportsnet.ca##.rdm-daac-notice-template:style(position: relative !important; top: 0 !important;)
+sportsnet.ca##.row.navbar-inverse.navbar:style(position: absolute !important;)
 sportsonearth.com##.next-prev-superbar.bam-superbar
 sportsvideo.org##.edson3.functions
 sportswire.usatoday.com###secondary:style(position: absolute !important; top: 0 !important;)
@@ -12611,6 +12625,7 @@ thestar.com##.seo-media-query
 thestar.com##.show-for-small-only.side-box
 thestar.com##.sticky-replace-fixed.sticky-replace--narrow.sticky-replace.clearfix:style(position: relative !important;)
 thestar.com.my###pd-embed-slider
+thestarphoenix.com##.masthead:style(position: absolute !important;)
 thestarpress.com##.first-margin:style(margin-top: 0px !important;)
 thestarpress.com##.fixed.header:style(position: absolute !important; top: 0 !important;)
 thestarpress.com##.pluto-video-ready.playlistsmallattophtml5.gallery-video.story-video.js-ui-pluto-video.ui-pluto-video.js-ui-video-init:style(position: static !important;)
@@ -13543,11 +13558,9 @@ valuewalk.com###om-w3dbb97rb1-footer
 valuewalk.com###secondary
 valuewalk.com###ssba
 vancouversun.com##.get-the-app
-vancouversun.com##.icon-share
 vancouversun.com##.l-header:style(position: relative !important; top: 0 !important;)
 vancouversun.com##.masthead:style(position: absolute !important;)
 vancouversun.com##.pn_socialmedia_widget
-vancouversun.com##.share-nav-button
 vancouversun.com##.top-bar:style(position: absolute !important; top: 0 !important;)
 vancouversun.com##.track_event.header-logo:style(position: relative !important;)
 vancouversun.com##.track_event.nav-wrap:style(position: relative !important; top: 0 !important;)
@@ -14537,6 +14550,7 @@ wsj.com###expShareTools
 wsj.com###full-header:style(position: relative !important; top: 0 !important;)
 wsj.com###hat_tab_wsj
 wsj.com###in_ad_col_a
+wsj.com###masthead-target
 wsj.com###share-related
 wsj.com###share-target
 wsj.com###share-tools
@@ -14602,13 +14616,11 @@ wsj.com##.style__customer-nav_AkM4UW2WcCzsQLBzgQ6_d:style(position: absolute !im
 wsj.com##.style__customer-nav_gYUvXMxi-BCVRsVs8PzQe:style(position: absolute !important;)
 wsj.com##.style__fb_1Nm7orJRvKHUT3kEfQIrrD
 wsj.com##.style__fb_kNqQVkgdx4P9FOJiSd-LH.style__share-toggle_T1tjBDv6tORnjHCBUc2Fw
-wsj.com##.style__mast-head-container_DzcwPkNtboP12eehQfvbs:style(position: absolute !important;)
+wsj.com##.style__mast-head-container_DzcwPkNtboP12eehQfvbs:style(position: absolute !important; top: 35px !important;)
 wsj.com##.style__masthead_1pXevH3d78skc-4dpfbSMM:style(padding botom: 0px !important;)
 wsj.com##.style__mdstrip_1BZBmHB38biUmVPCpPp0Ty.style__mast-head-container_3ZRcPdcChZfT1ThM3v3LLV:style(position: relative !important; top: 0 !important;)
 wsj.com##.style__mdstrip_1OL7tHDuhE5n4W7uw_mYva.style__mast-head-container_DzcwPkNtboP12eehQfvbs:style(position: absolute !important;)
-wsj.com##.style__mdstrip_1OL7tHDuhE5n4W7uw_mYva.style__scrolled_3Twl4bGqTI9DNShddldAuo.style__mast-head-container_DzcwPkNtboP12eehQfvbs:style(position: relative !important; top: 0 !important;)
 wsj.com##.style__mdstrip_1fyX3kHppwm9Usk9j5yY1Z.style__mast-head-container_2-BjWSrF0qOmT-7SydjYgO:style(position: absolute !important;)
-wsj.com##.style__mdstrip_1fyX3kHppwm9Usk9j5yY1Z.style__scrolled_1KqqY_CTh3JC3M-yub6_TC.style__mast-head-container_2-BjWSrF0qOmT-7SydjYgO:style(position: relative !important; top: 0 !important;)
 wsj.com##.style__no-hover_4K4bYt_IXexfyxCPoMe6C.style__mobile-nav_2GAjVDdd5TrKYE8DOf3zvT:style(position: relative !important; top: 0 !important;)
 wsj.com##.style__scrolled_1KqqY_CTh3JC3M-yub6_TC.style__mast-head-container_2-BjWSrF0qOmT-7SydjYgO:style(position: relative !important; top: 0 !important;)
 wsj.com##.style__scrolled_2R_Vmp-c-MDN-CKbTiTOya:style(margin-top: 0px !important;)
@@ -14638,8 +14650,7 @@ wsj.com##.wsj-immersive-ad-placement
 wsj.com##.wsj-responsive-nav-circ-wrap
 wsj.com##DIV[style="background: #cc5302; margin: 0px; padding: 4px;clear:both;"]
 wsj.com##DIV[style="width: 100%; text-align: center; margin-left: 100px;"]
-wsj.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
-wsj.com##body:style(padding-top: 0px !important;)
+wsj.com##body:style(overflow-x: hidden !important; overflow-y: auto !important; padding-top: 0px !important;)
 wsls.com###ksat-fixed:style(position: relative !important; top: 0 !important; width: 100% !important; margin-bottom: 20px !important;)
 wsls.com##.viafoura.gmg-vf
 wsvn.com###header:style(position: relative !important;)
