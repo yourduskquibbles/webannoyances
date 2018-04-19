@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 2:36 PM 2018-04-19
+! Last Modified: 4:10 PM 2018-04-19
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -9280,8 +9280,9 @@ petapixel.com##.banners
 petapixel.com##.fixed.header-main:style(position: relative !important; top: 0 !important;)
 petapixel.com##.header-main__socials
 petapixel.com##.post-sharing
-petco.com###header:style(position: relative !important;)
-petco.com###primary-nav:style(position: relative !important;)
+petco.com###header:style(position: relative !important; padding: 20px !important;)
+petco.com###primary-nav:style(position: relative !important; transition: none !important; top: auto !important; box-sizing: border-box !important;)
+petco.com##body:style(padding-top: 0px !important;)
 pethelpful.com###header_wrap:style(position: relative !important; top: 0 !important;)
 petmd.com###nlSliderSignup
 petsmart.com##._HP_promoModal__fadedScreen
