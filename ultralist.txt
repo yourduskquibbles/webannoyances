@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 5:28 PM 2018-04-18
+! Last Modified: 11:46 PM 2018-04-18
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -14350,8 +14350,9 @@ wnyc.org##.x-scrollable.sitechrome-nav.l-page-nav:style(position: absolute !impo
 wnyc.org##DIV[style="background-color: black; opacity: 0.5; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; z-index: 9998;"]
 wnyc.org##DIV[style="width: 100%; height: 100%; padding-top: 250px; z-index: 9999; position: absolute; top: 0px; left: 0px; text-align: center;"]
 wnyc.org##DIV[style="width: 375px; position: relative; margin: 0px auto;"]
+wnycstudios.org##.ember-view.show-detail__show-callout
 wnycstudios.org##.ember-view.site-header:style(position: absolute !important;)
-wnycstudios.org##.show-header:style(position: relative !important;)
+wnycstudios.org##.show-header:style(position: static !important;)
 wolframalpha.com###codezone-footer
 wolframalpha.com###headerad-pro
 wolframalpha.com##.pro-popup-zoom.pro-popup
