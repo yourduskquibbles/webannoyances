@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 5:05 PM 2018-04-20
+! Last Modified: 5:19 PM 2018-04-20
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -1437,8 +1437,11 @@ billboard.com###block-billboard-blocks-article-artist
 billboard.com###block-fblikebutton-fblikebutton-static-block
 billboard.com##.breaking_news_bar:style(position: relative !important; top: 0 !important;)
 billboard.com##.header-wrapper:style(position: absolute !important; transition: none !important;)
+billboard.com##.header-wrapper__secondary-header:style(transform: none !important; transition: none !important; visibility: visible !important;)
 billboard.com##.search-toggle.open-search
+billboard.com##.site-header__background:style(transform: none !important; transition: none !important;)
 billboard.com##.site-header__progress
+billboard.com##.social-share
 billboard.com##.social.social_vert
 billboard.com##.top-content.container:style(position: relative !important; top: 0 !important;)
 billerickson.net##.after_content.ea-share-count-wrap
@@ -10192,6 +10195,7 @@ reddit.com##.commentsignupbar.infobar
 reddit.com##.ctUipT.s1axb90n-0:style(position: absolute !important;)
 reddit.com##.dfp-ad-container
 reddit.com##.dgKnDF.s1gybndk-4.fWdlEy.ft1r9n-4:style(position: relative !important;)
+reddit.com##.ejLXgY.s1rdnkxq-4:style(margin-top: 20px !important;)
 reddit.com##.fWdlEy:style(position: relative !important;)
 reddit.com##.fixed.active.read-next
 reddit.com##.gZyFXj:style(margin-top: 0px !important;)
