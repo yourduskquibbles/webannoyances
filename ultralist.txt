@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 4:10 PM 2018-04-19
+! Last Modified: 10:09 PM 2018-04-19
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -2506,7 +2506,7 @@ cnn.com###message
 cnn.com###mm-like-facebook
 cnn.com###mm-share-twitter
 cnn.com###nav-header:style(position: relative !important; top: 0 !important;)
-cnn.com###nav:style(position: relative !important; top: 0 !important;)
+cnn.com###nav:style(position: relative !important; top: 0 !important; transition: none !important;)
 cnn.com###nav__plain-header:style(position: relative !important; top: 0 !important;)
 cnn.com###notice_banner
 cnn.com###shareBar
@@ -10150,6 +10150,8 @@ reddit.com###sr-header-area:style(position: relative !important; width: 100% !im
 reddit.com##.DualPartInterstitialFooter
 reddit.com##.DualPartInterstitial__common
 reddit.com##.DualPartInterstitial__content
+reddit.com##.EsNOq.s18iqatn-2:style(margin-top: 0px !important;)
+reddit.com##.KglWz:style(position: relative !important;)
 reddit.com##.NavFrame__below-top-nav:style(padding-top: 0px !important;)
 reddit.com##.SmartBanner
 reddit.com##.TopNav:style(position: relative !important;)
@@ -10159,9 +10161,12 @@ reddit.com##.XPromoListingClickModal
 reddit.com##.bNRQFw:style(margin-top: 0px !important;)
 reddit.com##.bugTCs.s1h3x34a-1
 reddit.com##.commentsignupbar.infobar
+reddit.com##.ctUipT.s1axb90n-0:style(position: absolute !important;)
 reddit.com##.dfp-ad-container
 reddit.com##.dgKnDF.s1gybndk-4.fWdlEy.ft1r9n-4:style(position: relative !important;)
+reddit.com##.fWdlEy:style(position: relative !important;)
 reddit.com##.fixed.active.read-next
+reddit.com##.gZyFXj:style(margin-top: 0px !important;)
 reddit.com##.ihPwni.l831nu-1:style(position: relative !important;)
 reddit.com##.inaQGx.ft1r9n-2:style(position: relative !important;)
 reddit.com##.listingsignupbar.infobar
@@ -14367,6 +14372,10 @@ wnyc.org##DIV[style="width: 375px; position: relative; margin: 0px auto;"]
 wnycstudios.org##.ember-view.show-detail__show-callout
 wnycstudios.org##.ember-view.site-header:style(position: absolute !important;)
 wnycstudios.org##.show-header:style(position: static !important;)
+wogx.com###header:style(position: absolute !important;)
+wogx.com##.show-for-large-up.mod-story-progress.mod-accordion.mod-wrapper
+wogx.com##.social-dropdown
+wogx.com##.social-share
 wolframalpha.com###codezone-footer
 wolframalpha.com###headerad-pro
 wolframalpha.com##.pro-popup-zoom.pro-popup
