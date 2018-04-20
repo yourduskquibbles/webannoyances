@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 9:31 AM 2018-04-20
+! Last Modified: 1:42 PM 2018-04-20
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -92,6 +92,7 @@
 ###topcontrol
 ###totop
 ###tt_mobile_banner
+###twitter-widget-1
 ##.Post-social
 ##.a-Pinit
 ##.active.social-menu
@@ -2072,7 +2073,7 @@ cbslocal.com###cbs_social_media_promotion_widget-10
 cbslocal.com###cbs_social_media_promotion_widget-2
 cbslocal.com###facebook-likebox-5
 cbslocal.com###facebook-likebox-6
-cbslocal.com###page-header:style(position: relative !important; top: 0 !important;)
+cbslocal.com###page-header:style(position: relative !important;)
 cbslocal.com###reptile_50_wrapper
 cbslocal.com###text-36
 cbslocal.com###text-48
@@ -2081,6 +2082,8 @@ cbslocal.com##.adhesive-on.anvato.video-wrapper:style(position: relative !import
 cbslocal.com##.follow-us
 cbslocal.com##.size-24x24.type-blue.social-follow-items.footer-component
 cbslocal.com##.widget_cbs_follow_us_widget
+cbslocal.com##body:style(margin-top: 0px !important;)
+cbslocal.com##html:style(overflow-x: hidden !important; overflow-y: auto !important;)
 cbsnews.com###dashboard
 cbsnews.com###module-right-rail-fd-mobile-app-promo
 cbsnews.com###pip__headline:style(position: relative !important; top: 0 !important;)
@@ -2742,6 +2745,7 @@ consumerist.com##.clearfix.lf-header:style(position: relative !important; top: 0
 consumerist.com##.lf-section-facebook
 consumerist.com##.lf-section-twitter
 consumerist.com##.lf-share-scroll
+consumerreports.org###share-menu
 consumerreports.org##.crux-color-excellent-bg.newsletter-sign-up
 consumerreports.org##.gnav-pin-header--open.gnav-pin-header
 consumerreports.org##.parbase.social.mvisitor.new-social
@@ -2974,6 +2978,7 @@ cubbiescrib.com###Adfactory_mobile_inline_300x250__mobile
 cubbiescrib.com###pinned-ad
 cubbiescrib.com##.article-share
 cultofmac.com##.active.visible.transition.page.modals.dimmer.ui
+culturehustle.com##.sticky.mobile-nav--sticky:style(position: absolute !important;)
 curbed.com###newsletter-signup-short-form
 curbed.com##.c-global-header__social
 curbed.com##.c-newsletter-promo
@@ -5644,6 +5649,8 @@ hybrid-analysis.com##.navbar-fixed-top.navbar-default.navbar:style(position: abs
 hybriders.com##.dark.top-bar
 i-e-e.info###main-header:style(position: absolute !important; top: 0 !important;)
 iastate.edu##.affix.navbar-menu-affix.navbar-caps.no-border.navbar-static-top.navbar-default.navbar-menu.navbar:style(position: relative !important;)
+ibb.co###top-bar:style(position: absolute !important;)
+ibb.co##.panel-sh-networks
 ibm.com###ibm-masthead:style(position: absolute !important; top: 0 !important;)
 ibm.com##.ibm-chevron-up-link.ibm-nospacing
 ibm.com##.ibm-sitenav-menu-container
@@ -6374,6 +6381,7 @@ komonews.com##.sd-news-social-placeholder
 komonews.com##.v2.sd-header-wrapper.sd-news-header:style(position: absolute !important;)
 komonews.com##.visible.sd-news-main-footer.component-story-footer-v1
 konbini.com##.fixed-nav
+konbini.com##.in.fade.modal
 koreatimes.co.kr##.view_sns_div
 korg.com###btn_pagetop
 korg.com###contents_info
@@ -7775,9 +7783,11 @@ myajc.com###follow-this-story
 myajc.com##.cm-story-share
 myajc.com##.in.fade.modal-backdrop
 myajc.com##.in.fade.modal.full-modal-type2.full-modal.cmg-styles.Mg2-connext
-myajc.com##.main-nav-container:style(position: relative !important; top: 0 !important;)
+myajc.com##.main-nav-container-mobile:style(position: relative !important;)
+myajc.com##.main-nav-container:style(position: relative !important;)
 myajc.com##.modal-open:style(overflow-x: hidden !important; overflow-y: auto !important;)
 myajc.com##.modal-scrollable
+myajc.com##body > .container:style(padding-top: 0px !important;)
 myce.com##.like-button.shrinkme.white-gradient
 myce.com##.smaller.fixed.shrinkme.white-gradient.regular-height.shadow.show-for-large-up.sticky:style(position: relative !important; top: 0 !important;)
 mycentraljersey.com##.first-margin:style(margin-top: 0px !important;)
@@ -11416,7 +11426,8 @@ stripes.com##.ad-notice.text-center.label
 stripes.com##.even-4.button-group
 stripes.com##.fadeIn1.animate.hide-for-large-up.tab-bar
 stripes.com##.fadeIn1:style(animation-duration: 0s !important;)
-stripes.com##.fadeInDown.fixed.fadeIn1.animate.sticky.contain-to-grid:style(position: absolute !important; transition: none !important; animation-duration: 0s !important;) 
+stripes.com##.fadeInDown.fixed.fadeIn1.animate.sticky.contain-to-grid:style(position: absolute !important; transition: none !important; animation-duration: 0s !important;)
+stripes.com##.fixed.fadeIn1.animate.sticky.contain-to-grid:style(position: absolute !important; transition: none !important; animation-duration: 0s !important;)
 strongtowns.org##.g-qfluwy.g-hzmx1l.gdcwk7e.g-pugox1.g-vwc3tp.g-hu34cm
 strongtowns.org##.g-qfluwy.g1h9i0s.g-pq3d0r.g-r00q9g.gfnpc83.g-hu34cm
 study.com###freshdeskButton
@@ -12860,7 +12871,11 @@ timleland.com###iframeContent:style(top: 0px !important;)
 timleland.com##.stb-bottom-right-container.stb-container
 timsquirrell.com##.responsive-padding--right.responsive-padding--left.header-announcement-wrapper.sqs-announcement-bar-dropzone:style(position: relative !important; top: 0 !important;)
 tinkercad.com###navbar:style(position: absolute !important; top: 0 !important;)
+tinybeans.com##._1LXfbwVSkmKPC-Ny8GZ1hC:style(position: absolute !important; transition: none !important;)
+tinybeans.com##.header-background-mobile-visible.header-floating.header-background._1LXfbwVSkmKPC-Ny8GZ1hC:style(margin-top: 16px !important; padding-top: 16px !important; box-shadow: none !important; background-color: transparent !important;)
 tinybeans.com##.header-background-mobile-visible.header-floating.header-background:style(position: absolute !important;)
+tinybeans.com##.header-floating.header-background._1LXfbwVSkmKPC-Ny8GZ1hC:style(padding-top: 16px !important; box-shadow: none !important; background-color: transparent !important;)
+tinybeans.com##.lHVzw_jGX2jP2HsvvHbgI:style(height: 44px !important; transition: none !important; margin-top: -3px !important;)
 tinyletter.com###message-pager
 tipranks.com##._build_mobile_container_menu_header__header:style(position: relative !important; top: 0 !important;)
 tips.net###lightbox_backdrop
@@ -14467,6 +14482,7 @@ wsbtv.com###story-sticky-content:style(position: relative !important; top: 0 !im
 wsbtv.com###wrapper:style(padding-top: 0px !important;)
 wsbtv.com##.toggle-slide
 wsbtv.com##.ui-social
+wshu.org##.social-share
 wsj.com###article_tools
 wsj.com###deloitte_column
 wsj.com###expNav
@@ -14574,10 +14590,8 @@ wsj.com##.wsj-amp-share
 wsj.com##.wsj-body-ad-placement
 wsj.com##.wsj-immersive-ad-placement
 wsj.com##.wsj-responsive-nav-circ-wrap
-wsj.com##DIV[style="background: #cc5302; margin: 0px; padding: 4px;clear:both;"]
-wsj.com##DIV[style="width: 100%; text-align: center; margin-left: 100px;"]
 wsj.com##body:style(overflow-x: hidden !important; overflow-y: auto !important; padding-top: 0px !important;)
-wsj.com##header:style(position: relative !important;)
+wsj.com##header:style(position: static !important;)
 wsls.com###ksat-fixed:style(position: relative !important; top: 0 !important; width: 100% !important; margin-bottom: 20px !important;)
 wsls.com##.viafoura.gmg-vf
 wsvn.com###header:style(position: relative !important;)
