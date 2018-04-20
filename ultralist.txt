@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:19 AM 2018-04-20
+! Last Modified: 9:09 AM 2018-04-20
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -2308,7 +2308,10 @@ ciencedirect.com##.tocbutton
 cigar.com###static-footer-sprintsale
 cigar.com##.ui-front.ui-widget-overlay
 cigar.com##.ui-modal.sweepstakes-popup.ui-front.ui-corner-all.ui-widget-content.ui-widget.ui-dialog
+cigarbid.com###sweepstakes-popup
+cigarbid.com##.modal-stack.in.fade.modal-backdrop
 cigarbid.com##.pageup-btn
+cigarbid.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 cigarjournal.com###sidebar-header
 cigarjournal.com##.scroll-top
 cigarmonster.com###emailsignupmodalblackglass
@@ -6927,7 +6930,7 @@ maketecheasier.com###mte_optin_header
 maketecheasier.com###sharebar
 maketecheasier.com##.adsbygoogle
 maketecheasier.com##.pull-left.sidebar-subscribe-box
-makeuseof.com##.header-wrap:style(position: relative !important; top: 0 !important;)
+makeuseof.com##.header-wrap:style(position: absolute !important;)
 makeuseof.com##.mobile-header-wrap:style(position: absolute !important;)
 makeuseof.com##.single-post-sharing-button-list
 makezine.com###mz-mag-cover
