@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 9:09 AM 2018-04-20
+! Last Modified: 9:29 AM 2018-04-20
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -143,6 +143,7 @@
 ##.fa.svg-flipboard
 ##.fb-icon
 ##.fb-like
+##.fb-square
 ##.fb_recommend
 ##.floatBottom.nc_wrapper
 ##.footer-social
@@ -229,6 +230,7 @@
 ##.text-annotation-footnote-wrapper
 ##.twitter-follow-button
 ##.twitter-share-button
+##.twitter-square
 ##.u-marginAuto.metabar-inner.js-metabarTop
 ##.u-xs-hide.u-xs-height56.u-height65.u-verticalAlignTop.u-inlineBlock.u-alignMiddle
 ##.up_button
@@ -5460,14 +5462,15 @@ hollywoodreporter.com##.article-share
 hollywoodreporter.com##.dfp-ad--amp
 hollywoodreporter.com##.fa-facebook.list__facebook.fb-square
 hollywoodreporter.com##.fa-twitter.list__twitter.twitter-square
-hollywoodreporter.com##.header-wrapper:style(position: absolute !important; transition: none !important;)
-hollywoodreporter.com##.header-wrapper__secondary-header:style(position: absolute !important; transition: none !important;)
+hollywoodreporter.com##.header-wrapper:style(position: absolute !important; transition: none !important; visibility: visible !important;)
+hollywoodreporter.com##.header-wrapper__secondary-header:style(position: absolute !important; transition: none !important; visibility: visible !important; bottom: -43px !important;)
 hollywoodreporter.com##.is-initialized.js-email-subscribe.email-subscribe
 hollywoodreporter.com##.leaderboard--top.leaderboard.ad-container
 hollywoodreporter.com##.rail-ad
 hollywoodreporter.com##.sharetools.sharetools-horizontal
 hollywoodreporter.com##.site-header-basic--preta:style(position: relative !important; top: 0 !important;)
-hollywoodreporter.com##.site-header__bar:style(position: relative !important; top: 0 !important; transition: none !important;)
+hollywoodreporter.com##.site-header__background:style(transition: none !important; transform: none !important;)
+hollywoodreporter.com##.site-header__brand:style(transition: none !important; height: 47px !important;)
 hollywoodreporter.com##.site-header__progress:style(position: absolute !important;)
 hollywoodreporter.com##.social-share
 hollywoodreporter.com##.sticky-wrapper:style(position: absolute !important; height: 1724px !important; margin-top: 0px !important;)
