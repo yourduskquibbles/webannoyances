@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 5:19 PM 2018-04-20
+! Last Modified: 11:59 PM 2018-04-20
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -13222,8 +13222,11 @@ twitlonger.com##.navbar-fixed-top.navbar:style(position: relative !important; to
 twitter.com##.AppBar--overSignup.u-cf.AppBar--inverted.AppBar:style(position: relative !important; top: 0 !important;)
 twitter.com##.AppContent:style(padding-top: 0px !important;)
 twitter.com##.CoreLayout-header:style(position: relative !important; top: 0 !important;)
+twitter.com##.ProfileCanopy-avatar:style(bottom: -87px !important;)
+twitter.com##.ProfileCanopy-card
 twitter.com##.ProfileCanopy-header.u-bgUserColor:style(margin-top: 0 !important;)
 twitter.com##.ProfileCanopy-header:style(margin-top: 0 !important; transition: none !important;)
+twitter.com##.ProfileCanopy-headerBg > img:style(transform: none !important;)
 twitter.com##.ProfileCanopy-inner:style(position: relative !important; top: 0 !important;)
 twitter.com##.ProfileCanopy:style(transition: none !important;)
 twitter.com##.SearchNavigation:style(position: relative !important; top: 0 !important;)
@@ -13234,6 +13237,7 @@ twitter.com##.privacy-change-notice.Banner--aboveNav.Banner
 twitter.com##.rn-136ojw6.rn-axxi2z.rn-o7ynqc.rn-1i36cah.rn-ipm5af.rn-zchlnj.rn-1xcajam.rn-gy4na3.rn-1mdbw0j.rn-9aemit.rn-wk8lta.rn-bcqeeo.rn-ifefl9.rn-11wrixw.rn-p1pxzi.rn-61z16t.rn-1mnahxq.rn-1d2f490.rn-eqz5dr.rn-7vfszb.rn-1pxmb3b.rn-6koalj.rn-deolkf.rn-sfgjoc.rn-gxnn5r.rn-ndvcnb.rn-fnigne.rn-13yce4e.rn-mm0ijv.rn-rull8r.rn-14skgim.rn-1efd50x.rn-44z8sh.rn-1oszu61:style(position: absolute !important;)
 twitter.com##.rn-1lgpqti.rn-bnwqim.rn-gy4na3.rn-1mdbw0j.rn-9aemit.rn-wk8lta.rn-bcqeeo.rn-ifefl9.rn-11wrixw.rn-p1pxzi.rn-61z16t.rn-1mnahxq.rn-eqz5dr.rn-7vfszb.rn-1pxmb3b.rn-6koalj.rn-deolkf.rn-gxnn5r.rn-ndvcnb.rn-fnigne.rn-13yce4e.rn-mm0ijv.rn-rull8r.rn-14skgim.rn-1efd50x.rn-1oszu61._3wLZCidQ:style(position: absolute !important;)
 twitter.com##.rn-1xcajam:style(position: absolute !important;)
+twitter.com##.rn-gtdqiz:style(position: static !important;)
 twitter.com##.topbar-spacer:style(padding-top: 0px !important;)
 twitter.com##.u-bgUserColor.ProfileCanopy-header:style(position: relative !important; top: 0 !important;)
 twitter.com##.u-boxShadow.ProfileCanopy-navBar:style(position: relative !important; top: 0 !important;)
