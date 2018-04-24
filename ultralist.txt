@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 4:21 PM 2018-04-24
+! Last Modified: 5:27 PM 2018-04-24
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -1367,6 +1367,8 @@ benfrain.com###primary-menu:style(position: absolute !important;)
 benfrain.com##.post-Offer
 benfrain.com##.toc-Wrapper:style(position: absolute !important;)
 bensbargains.com###main-nav:style(position: absolute !important;)
+benzinga.com###sticky-header
+benzinga.com##.sidebar-inner-1:style(position: relative !important; transform: none !important; left: auto !important;)
 bestbuy.com###pdp-sticky-header:style(position: relative !important; top: 0 !important;)
 bestbuy.com##.blue-assist
 bestbuy.com##.in.email-submission-modal.fade.modal
@@ -2193,6 +2195,7 @@ charlotteobserver.com##.cta-fullwidth.subscription-cta-widget
 chase.com###ad-offers-list-header:style(position: absolute !important;)
 chase.com###dashboard-header:style(position: relative !important; top: 0 !important;)
 chase.com###header-container:style(position: relative !important; top: 0 !important;)
+chase.com###header-fixed:style(position: relative !important;)
 chase.com###header-inner-fixed-container:style(position: relative !important; top: 0 !important;)
 chase.com###header:style(position: relative !important; top: 0 !important;)
 chase.com###headerclassic:style(position: relative !important; top: 0 !important;)
@@ -3460,6 +3463,7 @@ disabilitysecrets.com##.liveChatFloatingButton
 disabilitysecrets.com##.ngageMobileFloat:style(position: absolute !important;)
 discounttire.com##header:style(position: relative !important;)
 discourse.pi-hole.net##.clearfix.d-header:style(position: relative !important; top: 0 !important;)
+discover.com###deals-nav > .inner:style(position: relative !important; top: 0px !important;)
 discover.com###oo_tab:style(position: absolute !important;)
 discover.com###stickyNav:style(position: relative !important;)
 discover.com###stickySection:style(position: relative !important;)
@@ -6080,7 +6084,8 @@ investopedia.com##.inner-helper:style(position: absolute !important;)
 investopedia.com##.meganav:style(position: relative !important;)
 investopedia.com##.social-share
 investopedia.com##body:style(margin-top: 0px !important;)
-investorjunkie.com##.nav-down.site-header:style(position: relative !important; top: 0 !important;)
+investorjunkie.com###ezw_tco-9:style(position: absolute !important;)
+investorjunkie.com##.site-header:style(position: absolute !important; top: 0px !important;)
 investors.com###subscribe-widget
 investors.com##.player-minimize.shortcode-video:style(position: static !important;)
 investors.com##.text-center.leaderboard-ad.pushdown-ad.site-header-ad.ads
@@ -8715,8 +8720,10 @@ nydailynews.com###rh-left
 nydailynews.com###rh-right
 nydailynews.com###rh-subnav:style(position: relative !important; top: 0 !important; transition: none !important;)
 nydailynews.com###rh:style(margin-top: 0px !important;)
+nydailynews.com##.inner-floating-container:style(transition: none !important;)
 nydailynews.com##.met-flyout
 nydailynews.com##.newsletter-signup
+nydailynews.com##.o2-in-side-view:style(position: static !important;)
 nydailynews.com##.ra-share
 nydailynews.com##.ra-share-e
 nydailynews.com##.ra-share-f
