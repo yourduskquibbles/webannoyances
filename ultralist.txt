@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:08 AM 2018-04-24
+! Last Modified: 4:21 PM 2018-04-24
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -1565,12 +1565,13 @@ bloomberg.com##.mobile-box-ad-dummy
 bloomberg.com##.nav__social
 bloomberg.com##.navi:style(position: relative !important;)
 bloomberg.com##.persist-nav.bb-nav-root
-bloomberg.com##.right-rail
+bloomberg.com##.recirc.rotation-item:style(transition: none !important; transform: none !important; opacity: 1 !important; max-height: 2000px !important;)
 bloomberg.com##.social-icons
-bloomberg.com##.sticky-container
+bloomberg.com##.sticky-container:style(position: static !important; top: 0px !important;)
+bloomberg.com##.sticky-video:style(transition: none !important; transform: none !important;)
 bloomberg.com##.terminal-tout-container
 bloomberg.com##.tweet_count
-bloomberg.com##.video-player__container:style(position: static !important;)
+bloomberg.com##.video-player__container:style(position: static !important; transition: none !important; transform: none !important; opacity: 1 !important; top: 0 !important; width: auto !important; height: auto !important;)
 bloomberg.com##.vjs-button.vjs-control.blvs-share-button
 bloombergquint.com##.article__details__share
 bloombergquint.com##.bq-footer__social
@@ -2128,6 +2129,7 @@ cc.com###tcr-header:style(position: relative !important; top: 0 !important;)
 cc.com##.primary_background.top_outer:style(position: relative !important; top: 0 !important;)
 ccleaner.com##.social-followers-proto
 ccn.com##.optin-monster-overlay
+ccn.com##.theiaStickySidebar:style(position: static !important;)
 cdapress.com##.fixed.sticky.contain-to-grid:style(position: relative !important; top: 0 !important;)
 cdc.gov###socialMediaShareContainer
 ceb.com##.stick.header-menu:style(position: relative !important; top: 0 !important;)
@@ -11575,6 +11577,8 @@ syfy.com##.syfywire-tracking-processed.zergnet-widget
 symless.com##.global-header:style(position: absolute !important;)
 symless.com##.navbar-default.navbar:style(position: absolute !important;)
 symless.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
+syncfusion.com###feedbackButton
+syncfusion.com###swaychat-chat-widget
 syncplify.me###navigation:style(position: absolute !important;)
 syracuse.com###adv_header:style(position: relative !important; top: 0 !important;)
 syracuse.com###adv_mobi_edition
@@ -12766,6 +12770,7 @@ theweek.com##.header-wrapper:style(position: relative !important;)
 theweek.com##.hideoop.promo_subs_unit.oop-ad
 theweek.com##.mobile-extension-header:style(position: relative !important;)
 theweek.com##.nfSocial
+theweek.com##.showonmobile.speedreads-articles:style(margin-top: 0px !important;)
 theweek.com##.sticky-social-inside
 theweek.com##.subscribe-module
 theweek.com##.subscribe-unit-header
@@ -14116,6 +14121,13 @@ weeklystandard.com###myModal
 weeklystandard.com###newsletter_sign_up_form
 weeklystandard.com###social-share
 weeklystandard.com###supernav
+weeklystandard.com##.ActionBar-items
+weeklystandard.com##.FixedHeader.Page-header:style(position: relative !important;)
+weeklystandard.com##.Page-header-articleHeader
+weeklystandard.com##.Page-header-contents-navSearchSocial:style(padding-left: 17px !important;)
+weeklystandard.com##.Page-header-contents:style(margin: 0px !important;)
+weeklystandard.com##.Page-social
+weeklystandard.com##.PageLogo-image:style(content: none !important;)
 weeklystandard.com##.ad.billboard
 weeklystandard.com##.advertisement
 weeklystandard.com##.article-share
@@ -14128,6 +14140,7 @@ weeklystandard.com##.featured-teasers
 weeklystandard.com##.fixed-bottom-ad
 weeklystandard.com##.in.fade.modal-backdrop
 weeklystandard.com##.ng-binding.cc_message
+weeklystandard.com##.show.fade.modal-backdrop
 weeklystandard.com##.social
 weeklystandard.com##.subscription-promo
 weeklystandard.com##.text-tools
