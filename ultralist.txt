@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 1:27 PM 2018-04-25
+! Last Modified: 2:07 PM 2018-04-25
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -10697,10 +10697,11 @@ scmp.com##.affix.affix-processed.navbar-default.navbar.masthead-main-sticky-nav:
 scmp.com##.header--fixed.header:style(position: absolute !important;)
 scmp.com##.headroom--top.headroom--pinned.headroom--not-bottom.headroom.header--fixed.header:style(transition: none !important; transform: none !important;)
 scmp.com##.is-stuck.is-at-top.sticky.sticky-wrap:style(position: absolute !important;)
-scmp.com##.lhs-sticky:style(position: absolute !important;)
+scmp.com##.lhs-sticky:style(position: static !important;)
 scmp.com##.node-newsletter-subscribe
 scmp.com##.pane-share-widgets-article
 scmp.com##.scmp-inline-newsletter-subscription
+scmp.com##.scrollmagic-pin-spacer:style(padding-top: 0px !important;)
 scmp.com##.social-media--extended.social-media
 scmp.com##.social-share
 scmp.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
