@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 10:04 AM 2018-04-25
+! Last Modified: 12:02 PM 2018-04-25
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -1512,8 +1512,8 @@ bleepingcomputer.com##.bc_news_letter_sidebar
 bleepingcomputer.com##.bc_social_icons
 bleepingcomputer.com##.bc_wrapper:style(padding-top: 0px !important;)
 bleepingcomputer.com##.cc-bottom.cc-theme-classic.cc-type-info.cc-floating.cc-window
-bleepingcomputer.com##.cc-color-override--1360619034.cc-bottom.cc-theme-classic.cc-type-info.cc-banner.cc-window
-bleepingcomputer.com##header:style(position: relative !important; top: 0 !important;)
+bleepingcomputer.com##.cc-theme-classic.cc-type-info.cc-banner.cc-window
+bleepingcomputer.com##header:style(position: relative !important; top: 0 !important; transition: none !important; transform: none !important;)
 blendswap.com###blendswap-header:style(position: absolute !important;)
 blendswap.com###nag-region
 blockcypher.com##.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important;)	
@@ -3757,6 +3757,8 @@ elle.com##.sticky.nav:style(position: relative !important; top: 0 !important;)
 elleuk.com###share-sticky-bar
 elleuk.com##.share-module
 elleuk.com##.social-byline--share
+ello.co##.isActive.Modal
+ello.co##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 elpasotimes.com##.first-margin:style(margin-top: 0px !important;)
 elpasotimes.com##.fixed.header:style(position: absolute !important; top: 0 !important;)
 elpasotimes.com##.pluto-video-ready.playlistsmallattophtml5.gallery-video.story-video.js-ui-pluto-video.ui-pluto-video.js-ui-video-init:style(position: static !important;)
@@ -4668,7 +4670,7 @@ futureofcapitalism.com###cboxOverlay
 futureofcapitalism.com###colorbox
 futurism.com###nav:style(position: relative !important;)
 futurism.com###subscribe-modal
-futurism.com##.active.header-minimal:style(position: relative !important;)
+futurism.com##.header-minimal:style(position: relative !important; background: none !important; transition: none !important; border-bottom: none !important; box-shadow: none !important;)
 futurism.com##.module.big-share-buttons
 futurism.com##.subscribe-form.center
 futurism.com##body:style(border-top: 0px !important;)
@@ -11949,7 +11951,7 @@ theawl.com##.share-butts
 theawl.com##.u-tintSpectrum.u-tintBgColor.u-backgroundTransparentWhiteDarkest.u-fixed.u-textColorTransparentWhiteDarker.u-boxShadowBottomThinLighter.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
 theawl.com##.u-xs-paddingRight10.u-xs-paddingLeft10.u-zIndexMetabar.u-paddingBottom10.u-paddingTop10.u-borderBox.u-boxShadowTop.u-backgroundWhite.u-sizeFullWidth.u-bottom0.u-fixed
 thebaffler.com###boxzilla-overlay
-thebaffler.com##.boxzilla-center-container.boxzilla-container
+thebaffler.com##.boxzilla-container
 thebaffler.com##.fixed-top.navbar-toggleable-sm.navbar:style(position: absolute !important; top: 0 !important;)
 thebaffler.com##.header:style(position: relative !important; top: 0 !important;)
 thebaffler.com##.hidden-sm-down.merch.offset-md-1.col-md-5
@@ -11959,6 +11961,7 @@ thebaffler.com##.row.single-email
 thebaffler.com##.scroll-to-fixed-fixed.gap.donate.fixed-widget
 thebaffler.com##.smaller.header
 thebaffler.com##.social.offset-sm-2.col-sm-8.offset-md-0.col-md-1
+thebaffler.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 thebalance.com###header_1-0:style(position: absolute !important;)
 thebalance.com###social-share_2-0
 thebalance.com##.header-condensed.header.comp:style(position: relative !important; top: 0 !important;)
