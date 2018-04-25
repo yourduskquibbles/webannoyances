@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 3:23 PM 2018-04-25
+! Last Modified: 4:43 PM 2018-04-25
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -1517,6 +1517,7 @@ bleepingcomputer.com##.cc-theme-classic.cc-type-info.cc-banner.cc-window
 bleepingcomputer.com##header:style(position: relative !important; top: 0 !important; transition: none !important; transform: none !important;)
 blendswap.com###blendswap-header:style(position: absolute !important;)
 blendswap.com###nag-region
+blockchain.info##nav:style(position: absolute !important;)
 blockcypher.com##.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important;)	
 blog.bugreplay.com###bloc-nav
 blog.github.com##.site-header:style(position: relative !important;)
@@ -3846,6 +3847,7 @@ espn.com##.ad-center
 espn.com##.ad-pencil-container
 espn.com##.ad-wrapper
 espn.com##.bg-opaque.mod-outbrain.mod-no-border
+espn.com##.container-wrapper:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 espn.com##.contentItem__footer--shareMenuVideo.contentItem__footer
 espn.com##.espnDaily.sub-module
 espn.com##.facebookShareButton
@@ -3862,7 +3864,7 @@ espn.com##.newItemAlert.sm.button:style(position: relative !important; top: 0 !i
 espn.com##.pickShare
 espn.com##.shareMenu
 espn.com##.shareables
-espn.com##.sidebar:style(position: relative !important; top: 0px !important; transition: none !important; transform: none !important;)
+espn.com##.sidebar:style(position: absolute !important; top: 0px !important; transition: none !important; transform: none !important;)
 espn.com##.signin-social
 espn.com##.social-menu
 espn.com##.social-nav-icons
