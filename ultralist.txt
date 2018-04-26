@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:59 AM 2018-04-26
+! Last Modified: 1:09 PM 2018-04-26
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -20,6 +20,7 @@
 ###cookie
 ###cookie-bar
 ###cookie-consent
+###cookie-consent-banner
 ###cookie-cosent
 ###cookie-law
 ###cookie-law-info-bar
@@ -10510,6 +10511,7 @@ rp-online.de###topcontainer
 rp-online.de##.sticky.waypoint-check-top:style(position: absolute !important;)
 rpfront.com##.addtoany_shortcode
 rpiai.com##.floating-active.floating-header
+rsf.org###navbar:style(position: absolute !important; top: 0px !important;)
 rsf.org###overlays
 rstreet.org###floatingbuttons
 rt.com###header-nav:style(position: relative !important; top: 0 !important;)
@@ -12682,23 +12684,28 @@ thestreet.com##.start-as-sticky.sticky-top-ad-wrap
 thestreet.com##.sticky-block
 thestylecon.com###upprev_box
 thesun.co.uk###articlempu
+thesun.co.uk###cookie-bar
 thesun.co.uk###newsletter_holder
-thesun.co.uk###sun-menu:style(position: relative !important; top: 0 !important; transition: none !important;)
+thesun.co.uk###sun-menu:style(position: relative !important; top: 0 !important; transition: none !important; animation: none !important;)
 thesun.co.uk##.billboard
 thesun.co.uk##.footer-follow
 thesun.co.uk##.fyre-width-medium.fyre
 thesun.co.uk##.fyre-width-small.fyre
 thesun.co.uk##.header--mobile.header:style(position: absolute !important;)
 thesun.co.uk##.mpu-container.dfp-ad-container
+thesun.co.uk##.scrolling-remove.sun-header-bg:style(transition: none !important; animation: none !important;)
 thesun.co.uk##.scrolling.sun-header-bg
-thesun.co.uk##.show.fixed.sun-header--nav.sun-row:style(position: absolute !important; top: 0 !important; transition: none !important;)
 thesun.co.uk##.social-share-buttons
-thesun.co.uk##.sun-header--nav.fixed:style(position: absolute !important; top: 0 !important; transition: none !important;)
-thesun.co.uk##.sun-header--nav.sun-row:style(position: absolute !important; transition: none !important;)
+thesun.co.uk##.sun-header--nav.fixed:style(position: absolute !important; top: 0 !important; transition: none !important; animation: none !important;)
+thesun.co.uk##.sun-header--nav.sun-header__mini:style(position: absolute !important; top: 120px !important; transition: none !important; animation: none !important;)
+thesun.co.uk##.sun-header--nav.sun-row:style(position: absolute !important; transition: none !important; animation: none !important;)
+thesun.co.uk##.sun-header-bg.scrolling-remove:style(position: absolute !important; transition: none !important; animation: none !important;)
+thesun.co.uk##.sun-header-bg.scrolling:style(position: absolute !important; transition: none !important; animation: none !important;)
+thesun.co.uk##.sun-header-bg:style(position: absolute !important; transition: none !important; animation: none !important;)
 thesun.co.uk##.sun-header__mini.sun-header--nav.sun-row
-thesun.co.uk##.swiper-container-android.swiper-container-free-mode.swiper-container-horizontal.sun-header--nav-wrap.swiper-container.no-gutters.sun-col-6.col:style(position: relative !important; top: 0 !important; transition: none !important;)
+thesun.co.uk##.swiper-container-android.swiper-container-free-mode.swiper-container-horizontal.sun-header--nav-wrap.swiper-container.no-gutters.sun-col-6.col:style(position: relative !important; top: 0 !important; transition: none !important; animation: none !important;)
 thesun.co.uk##html:style(overflow-x: hidden !important; overflow-y: auto !important;)
-thetab.com##.big.share__facebook
+thetab.com##.share__facebook
 thetakeout.com##.global-nav--scrollback.fixed.shown.global-nav--permalink.hide-for-medium-down.global-nav--desktop.global-nav.js_top-nav.js_global-nav-wrap:style(position: absolute !important;)
 thetakeout.com##.js_global-nav-wrap:style(position: absolute !important;)
 thetimes.co.uk###tto-cookieMessage
