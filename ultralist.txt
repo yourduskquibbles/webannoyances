@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:45 AM 2018-04-26
+! Last Modified: 11:59 AM 2018-04-26
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -2494,14 +2494,15 @@ cnbc.com###social-tools-panel
 cnbc.com###social_bar_middle_gig_containerParent
 cnbc.com##.bx-align
 cnbc.com##.cnbc-card.cnbc-end:style(position: relative !important; top: 0 !important;)
-cnbc.com##.cnbc-menu:style(position: relative !important; top: 0 !important;)
+cnbc.com##.cnbc-menu:style(position: relative !important; top: 0 !important; height: 30px !important;)
 cnbc.com##.fixedPosition.ng-scope.pageHeader:style(position: absolute !important;)
-cnbc.com##.main-header-nav:style(height: 30px !important;)
-cnbc.com##.main-header-nav:style(position: relative !important; top: 0 !important;)
+cnbc.com##.header-nav-content:style(height: 30px !important;)
+cnbc.com##.main-header-nav:style(position: relative !important; top: 0 !important; height: 30px !important;)
 cnbc.com##.news-widget
-cnbc.com##.persistentHeader.main-header-nav:style(position: relative !important; top: 0 !important;)
+cnbc.com##.persistentHeader.main-header-nav:style(position: relative !important; top: 0 !important; height: 30px !important;)
 cnbc.com##.pico-content
 cnbc.com##.pico-overlay
+cnbc.com##.social-container
 cnbc.com##.social-facebook
 cnbc.com##.social-google-plus
 cnbc.com##.social-twitter
