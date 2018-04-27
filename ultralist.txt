@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 4:41 PM 2018-04-26
+! Last Modified: 10:02 AM 2018-04-27
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -1837,7 +1837,6 @@ bundeswahlleiter.de###header:style(position: absolute !important;)
 bundeswahlleiter.de##.tablejigsaw-fixed-header-table.tablesaw-stack.table-stimmen.tablesaw:style(position: absolute !important;)
 burlingtonfreepress.com##.first-margin:style(margin-top: 0px !important;)
 burlingtonfreepress.com##.fixed.header:style(position: absolute !important; top: 0 !important;)
-burlingtonfreepress.com##.fixed.header:style(position: relative !important; top: 0 !important;)
 burlingtonfreepress.com##.pluto-video-ready.playlistsmallattophtml5.gallery-video.story-video.js-ui-pluto-video.ui-pluto-video.js-ui-video-init:style(position: static !important;)
 burlingtonfreepress.com##.pluto-video-ready.smallarticleattophtml5.priority.inline-story-video.story-video.js-ui-pluto-video.js-video-aps.ui-pluto-video.js-ui-video-init:style(position: static !important;)
 burlingtonfreepress.com##.site-header-inner-wrap-fixed.site-header-inner-wrap:style(position: relative !important; top: 0 !important;)
@@ -1853,48 +1852,44 @@ businessinsider.com###taboola-right-rail-thumbnails
 businessinsider.com###taboola-right-rail-thumbnails-2
 businessinsider.com###tray
 businessinsider.com##.ad-subnav-container
+businessinsider.com##.bottom-recommended
 businessinsider.com##.contact
-businessinsider.com##.cookie-notice.clearfix.alert-info.alert-block.alert
-businessinsider.com##.facebook.icon-facebook.-link
-businessinsider.com##.facebook.ks-byline-fb
-businessinsider.com##.float-right.share-button
-businessinsider.com##.footer-social-media-facebook.icon-set
-businessinsider.com##.footer-social-media-twitter.icon-set
-businessinsider.com##.gplusone.ks-bottom-gplusone
-businessinsider.com##.gplusone.ks-byline-gplusone
+businessinsider.com##.cookie-notice
+businessinsider.com##.facebook
+businessinsider.com##.footer-social-media-facebook
+businessinsider.com##.footer-social-media-twitter
+businessinsider.com##.gplusone
 businessinsider.com##.jw-reset.jw-dock
-businessinsider.com##.ks-recommended.pull-left.clear-fix.bottom-recommended
+businessinsider.com##.ks-recommended
 businessinsider.com##.ks-rr-editorial
 businessinsider.com##.ks-rr-editorial-2
-businessinsider.com##.l-masthead.is-scrolled:style(position: absolute !important;)
-businessinsider.com##.linkedin.ks-bottom-linkedin
-businessinsider.com##.linkedin.ks-byline-linkedin
+businessinsider.com##.l-masthead:style(position: absolute !important; margin-top: 0px !important;)
+businessinsider.com##.leaderboard
+businessinsider.com##.linkedin
 businessinsider.com##.main-header:style(position: relative !important; top: 0 !important;)
 businessinsider.com##.masthead:style(position: relative !important; top: 0 !important;)
 businessinsider.com##.page-wrap:style(padding-top: 0px !important;)
-businessinsider.com##.rail-recommended.ks-recommended.clear-fix
+businessinsider.com##.rail-recommended
 businessinsider.com##.right-ad
 businessinsider.com##.right-subscribe
-businessinsider.com##.share-post-box.no-padding-right.no-padding-left.col-xs-12
+businessinsider.com##.share-button
+businessinsider.com##.share-post-box
 businessinsider.com##.share-wrapper
 businessinsider.com##.social-icons
-businessinsider.com##.stick.leaderboard.subnav-content
 businessinsider.com##.subnav-container
 businessinsider.com##.toolbar.masthead:style(position: relative !important; top: 0 !important;)
 businessinsider.com##.tp-active.tp-backdrop
 businessinsider.com##.tp-modal
-businessinsider.com##.twitter.icon-twitter.-link
+businessinsider.com##.twitter
 businessinsider.com##.vertical-social-buttons
-businessinsider.com##DIV[style="border-top: 1px solid #ddd; margin-top: 20px; margin-left: -20px; width: 340px;"]
-businessinsider.com##a.slide-share-button.slide-share-button--facebook
-businessinsider.com##a.slide-share-button.slide-share-button--pinterest
+businessinsider.com##a.slide-share-button
 businessinsider.com##html:style(overflow-x: hidden !important; overflow-y: auto !important;)
 businessinsider.com.au###masthead:style(position: relative !important; top: 0 !important;)
 businessinsider.com.au###mc-signup-in-post
 businessinsider.com.au###mc_signup
 businessinsider.com.au##.adspot-300x250-pos1-container
+businessinsider.com.au##.adspot-300x600-pos2-container
 businessinsider.com.au##.share-buttons
-businessinsider.com.au##.sticky-unit.adspot-300x600-pos2-container
 businessinsider.de###mc_embed_signup
 businessinsider.de##.clearfix.rrssb-bottom.rrssb-buttons
 businessinsider.de##.condensed.masthead:style(position: relative !important; top: 0 !important;)
@@ -4227,9 +4222,16 @@ fipp.com##.share-tools
 firehouse.com##.fixed-top.fixed.header:style(position: relative !important;)
 firstcoastnews.com###column-1
 firstcoastnews.com###jwloader-1:style(position: static !important;)
-firstcoastnews.com##.fixed.header:style(position: relative !important; top: 0 !important;)
+firstcoastnews.com##.desktop-header__inner:style(transition: none !important; padding: 25px 30px !important;)
+firstcoastnews.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important; transition: none !important;)
+firstcoastnews.com##.desktop-header__nav-button:style(top: 26px !important; padding: 10px 10px 10px 50px !important; transition: none !important;)
+firstcoastnews.com##.desktop-header__nav-label:style(transition: none !important; transform: none !important;)
+firstcoastnews.com##.desktop-header__toolbar:style(top: 28px !important; transition: none !important; transform: none !important;)
+firstcoastnews.com##.header:style(position: absolute !important;)
 firstcoastnews.com##.is_stuck.site-nav:style(position: relative !important; top: 0 !important;)
 firstcoastnews.com##.mod-wrapper.inline-share-tools-asset.story-asset
+firstcoastnews.com##.page__desktop-header:style(position: absolute !important;)
+firstcoastnews.com##.page__header:style(position: absolute !important;)
 firstlook.org###menu-primary:style(position: relative !important; top: 0 !important;)
 firstpost.com###go-to-top
 firstpost.com###myScrollspy
@@ -6222,9 +6224,16 @@ kansascity.com###story-cta-widget
 kansascity.com##.ndn_icon_share.ndn_toggleShare
 kare11.com###column-1
 kare11.com###jwloader-1:style(position: static !important;)
-kare11.com##.fixed.header:style(position: relative !important; top: 0 !important;)
+kare11.com##.desktop-header__inner:style(transition: none !important; padding: 25px 30px !important;)
+kare11.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important; transition: none !important;)
+kare11.com##.desktop-header__nav-button:style(top: 26px !important; padding: 10px 10px 10px 50px !important; transition: none !important;)
+kare11.com##.desktop-header__nav-label:style(transition: none !important; transform: none !important;)
+kare11.com##.desktop-header__toolbar:style(top: 28px !important; transition: none !important; transform: none !important;)
+kare11.com##.header:style(position: absolute !important;)
 kare11.com##.is_stuck.site-nav:style(position: relative !important; top: 0 !important;)
 kare11.com##.mod-wrapper.inline-share-tools-asset.story-asset
+kare11.com##.page__desktop-header:style(position: absolute !important;)
+kare11.com##.page__header:style(position: absolute !important;)
 kaspersky.com###site-header
 katu.com##.active.v2.sd-header-wrapper.sd-news-header:style(position: absolute !important;)
 katu.com##.component-header-default-v3:style(position: relative !important; top: 0 !important;)
@@ -6243,9 +6252,16 @@ keepassxc.org##.navbar-top.navbar-default.navbar:style(position: relative !impor
 kenoshanews.com##.asset-paging
 kenoshanews.com##.social-share-link
 kens5.com###jwloader-1:style(position: relative !important; top: 0 !important;)
-kens5.com##.fixed.header:style(position: relative !important; top: 0 !important;)
+kens5.com##.desktop-header__inner:style(transition: none !important; padding: 25px 30px !important;)
+kens5.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important; transition: none !important;)
+kens5.com##.desktop-header__nav-button:style(top: 26px !important; padding: 10px 10px 10px 50px !important; transition: none !important;)
+kens5.com##.desktop-header__nav-label:style(transition: none !important; transform: none !important;)
+kens5.com##.desktop-header__toolbar:style(top: 28px !important; transition: none !important; transform: none !important;)
+kens5.com##.fixed.header:style(position: absolute !important; top: 0 !important;)
+kens5.com##.header:style(position: absolute !important;)
 kens5.com##.is_stuck.site-nav:style(position: relative !important; top: 0 !important;)
 kens5.com##.mod-wrapper.inline-share-tools-asset.story-asset
+kens5.com##.page__desktop-header:style(position: absolute !important;)
 kens5.com##.page__dock
 kens5.com##.page__header:style(position: absolute !important;)
 kens5.com##.sharing
@@ -6721,6 +6737,7 @@ lifezette.com##.mobile.menu-bar-trigger
 lifezette.com##.preloaded_lightbox
 lifezette.com##.pull-right.social
 lifezette.com##.social-share-article-small.social-share
+likeaglove.me###sticky-navigation:style(position: absolute !important;)
 liliputing.com##.icons
 limpingchicken.com###at4-share
 lineageos.org##.navbar-shadow.navbar-fixed-top.navbar-transparent.navbar:style(position: relative !important; top: 0 !important;)
@@ -8801,6 +8818,7 @@ nytimes.com##.SectionBarShare-facebook--K5FwP
 nytimes.com##.SectionBarShare-shareButton--2f1RP
 nytimes.com##.SectionBarShare-twitter--1duan
 nytimes.com##.TemplateUtils-bottomBorder--e5vHb.TemplateUtils-showBorder--2OVQ0.TemplateUtils-topLabel--1jiof:style(position: relative !important;)
+nytimes.com##.ad
 nytimes.com##.app-links.footer-content
 nytimes.com##.article-page:style(overflow-x: hidden !important; overflow-y: hidden !important;)
 nytimes.com##.article-video-sharetools
@@ -8812,17 +8830,20 @@ nytimes.com##.container > .story-meta
 nytimes.com##.d-fixed.d-fow-nav:style(position: relative !important; top: 0 !important;)
 nytimes.com##.eln-input-email.eln-visible.eln-email-signup
 nytimes.com##.email-sharetool
+nytimes.com##.email-signup
 nytimes.com##.facebook-share
 nytimes.com##.facebook-sharetool
 nytimes.com##.fixed-share-nav-outer
+nytimes.com##.follow-tools
 nytimes.com##.footer-nav-primary-list
 nytimes.com##.g-ad-wrapper
 nytimes.com##.growl-v2
 nytimes.com##.growl-v2-gradient
-nytimes.com##.headroom--pinned.headroom--not-top.headroom.times-video-mobile-nav:style(position: relative !important;)
+nytimes.com##.headroom:style(position: relative !important; transition: none !important; transform: none !important;)
 nytimes.com##.inline-share-wrapper
 nytimes.com##.is-maximized.metabar--affixed.is-hiddenWhenMinimized.js-metabar.u-clearfix.metabar:style(position: relative !important; top: 0 !important;)
 nytimes.com##.lazyloaded.embeddedContent
+nytimes.com##.main:style(padding-top: 0px !important;)
 nytimes.com##.marginalia-item.related-combined-coverage-marginalia.marginalia:style(margin-top: 0px !important;)
 nytimes.com##.masthead-magazine.masthead-vertical-fullbleed.masthead-theme-transparent-ffffff.masthead:style(position: absolute !important;)
 nytimes.com##.masthead.in-content.masthead-theme-transparent-ffffff:style(background-color: transparent !important; position: relative !important; top: 0 !important;)
@@ -8845,18 +8866,11 @@ nytimes.com##.recipe-details-share
 nytimes.com##.ribbon-ad-container.collection-item
 nytimes.com##.robots-nocontent.nocontent.bottom-left-ad.text-ad
 nytimes.com##.series-nav-button
+nytimes.com##.share-button
+nytimes.com##.share-tools
 nytimes.com##.sharetools-video-container
 nytimes.com##.show-all-sharetool
 nytimes.com##.show.lie-continue
-nytimes.com##.story-ad-1-wrapper.ad
-nytimes.com##.story-ad-2-wrapper.ad
-nytimes.com##.story-ad-3-wrapper.ad
-nytimes.com##.story-ad-4-wrapper.ad
-nytimes.com##.story-ad-5-wrapper.ad
-nytimes.com##.story-ad-6-wrapper.ad
-nytimes.com##.story-ad-7-wrapper.ad
-nytimes.com##.story-ad-8-wrapper.ad
-nytimes.com##.story-ad-9-wrapper.ad
 nytimes.com##.subColumn-2.noBackground.mobilePromo.nocontent
 nytimes.com##.twitter-share
 nytimes.com##.twitter-sharetool
@@ -9141,13 +9155,14 @@ patch.com###slide-nav:style(position: relative !important; top: 0 !important;)
 patch.com##.air-md.text-center
 patch.com##.header-container:style(position: relative !important; top: 0 !important;)
 patch.com##.in.fade.modal-backdrop
+patch.com##.next-on-patch-arrow
 patch.com##.social-email-modal-inner-wrapper
 patch.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 patheos.com###mdf_menu:style(position: relative !important; top: 0 !important;)
 patheos.com##.add-bottom-margin.add-top-margin.simple-follow.widget-wrap
 patheos.com##.boxed.social-sharing
-patheos.com##.pw-size-large.button-type-square.pw-button-facebook.pw-button
-patheos.com##.pw-size-large.button-type-square.pw-button-twitter.pw-button
+patheos.com##.pw-button-facebook
+patheos.com##.pw-button-twitter
 patheos.com##.ra1-pw-icon-email.ra1-pw-icon.pw-icon
 patheos.com##.simple-signup
 patheos.com##.socialmedia-buttons
@@ -12796,8 +12811,15 @@ thterrortime.com##.social-nav
 thundersplace.org###mainmenu.default.navlarge.text.fixed.right.navbar:style(position: relative !important; top: 0 !important;)
 thundersplace.org###mainmenu:style(position: relative !important; top: 0 !important;)
 thurrott.com###nav-wrapper:style(position: relative !important; top: 0 !important;)
-thv11.com##.fixed.header:style(position: relative !important; top: 0 !important;)
+thv11.com##.desktop-header__inner:style(transition: none !important; padding: 25px 30px !important;)
+thv11.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important; transition: none !important;)
+thv11.com##.desktop-header__nav-button:style(top: 26px !important; padding: 10px 10px 10px 50px !important; transition: none !important;)
+thv11.com##.desktop-header__nav-label:style(transition: none !important; transform: none !important;)
+thv11.com##.desktop-header__toolbar:style(top: 28px !important; transition: none !important; transform: none !important;)
+thv11.com##.header:style(position: absolute !important;)
 thv11.com##.is_stuck.site-nav:style(position: relative !important; top: 0 !important;)
+thv11.com##.page__desktop-header:style(position: absolute !important;)
+thv11.com##.page__header:style(position: absolute !important;)
 ticketfly.com###eyebrow:style(position: relative !important; top: 0 !important;)
 tiffany.com###filters:style(position: relative !important;)
 tiffany.com###headerBlueBar:style(position: absolute !important;)
