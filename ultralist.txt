@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 10:02 AM 2018-04-27
+! Last Modified: 10:21 AM 2018-04-27
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -14335,8 +14335,15 @@ wkyc.com###article_mid1_1
 wkyc.com###article_mid2_0
 wkyc.com###article_mid2_1
 wkyc.com###taboola-below-article-thumbnails-2nd-0
-wkyc.com##.fixed.header:style(position: relative !important; top: 0 !important;)
+wkyc.com##.desktop-header__inner:style(transition: none !important; padding: 25px 30px !important;)
+wkyc.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important; transition: none !important;)
+wkyc.com##.desktop-header__nav-button:style(top: 26px !important; padding: 10px 10px 10px 50px !important; transition: none !important;)
+wkyc.com##.desktop-header__nav-label:style(transition: none !important; transform: none !important;)
+wkyc.com##.desktop-header__toolbar:style(top: 28px !important; transition: none !important; transform: none !important;)
+wkyc.com##.header:style(position: absolute !important;)
+wkyc.com##.is_stuck.site-nav:style(position: relative !important; top: 0 !important;)
 wkyc.com##.page__desktop-header:style(position: absolute !important;)
+wkyc.com##.page__header:style(position: absolute !important;)
 wkyc.com##.sticky-sharing
 wkyt.com###nav:style(position: relative !important; top: 0 !important;)
 wkyt.com###socialIcons
