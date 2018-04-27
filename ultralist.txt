@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 2:52 PM 2018-04-27
+! Last Modified: 6:23 PM 2018-04-27
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -836,6 +836,7 @@ amazon.com##.actor.xrayQuickViewListItem
 amazon.com##.huc-v2-pinned-order-row-with-divider.a-row:style(position: relative !important; top: 0 !important;)
 amazon.com##.share-widget
 amazon.com##.show.xrayQuickView
+amazon.com##.stickybuybox.a-button-stack:style(position: absolute !important;)
 amazon.com##.w-swf-inline-tab
 amazon.com##.xrayHeaderLink
 amazon.com##.xrayQuickViewList.collectionView
@@ -11280,6 +11281,8 @@ spyzie.com##.pageTop_fix.pageTop:style(position: absolute !important;)
 squawker.org##.mashsb-container
 squawker.org##.td-affix.td-header-main-menu.td-header-border.td-header-row:style(position: absolute !important;)
 squawker.org##.td-pb-padding-side.td-post-sharing-top.td-post-sharing
+ssa.gov###dynamicHelp:style(position: absolute !important; top: 64px !important;)
+ssa.gov###js-btt
 ssense.com##.hard-acc.header:style(position: relative !important; top: 0 !important;)
 ssusa.org##.device-fixed-height.hidden-print.explore.HeaderPartial:style(position: relative !important; top: 0 !important;)
 stackexchange.com##._open.app-banner
@@ -12242,19 +12245,19 @@ theinquirer.net##.below_top_search
 theinquirer.net##.contentNavi_onemore
 theinquirer.net##.right_common_block_content.iefix
 theintercept.com##.Header-hamburger:style(position: absolute !important; top: 0 !important;)
-theintercept.com##.Header-hamburger:style(position: absolute !important;)
 theintercept.com##.InterceptedBanner--desktop.InterceptedBanner
 theintercept.com##.Logo--fixed.Logo:style(position: relative !important; top: 0 !important; background-color: #000000 !important; width: 100% !important;)
 theintercept.com##.Logo-bg-block:style(position: relative !important; top: 0 !important;)
 theintercept.com##.Logo-block:style(position: absolute !important;)
 theintercept.com##.Logo-svg:style(position: relative !important; top: 0 !important;)
 theintercept.com##.Newsletter
+theintercept.com##.Newsletter-shortcode
 theintercept.com##.Post-header--background-color-default.Post-header--layout-image-right-1-2.Post-header:style(position: relative !important; top: 0 !important;)
 theintercept.com##.Post-header:style(position: relative !important; top: 0 !important; padding: 0 !important;)
 theintercept.com##.Post-logo-sticky-container:style(position: relative !important; top: 0 !important;)
 theintercept.com##.Post-logo-sticky:style(position: relative !important; top: 0 !important;)
 theintercept.com##.Post-social-container
-theintercept.com##.PostLogo:style(position: relative !important; top: 0 !important;)
+theintercept.com##.PostLogo:style(position: absolute !important; top: 0 !important;)
 theitstuff.com##.visible.menu-wrap:style(position: absolute !important;)
 thejacknews.com###eltd-back-to-top
 thejacknews.com##.eltd-blog-single-share
