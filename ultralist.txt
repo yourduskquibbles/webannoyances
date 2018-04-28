@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 9:51 PM 2018-04-27
+! Last Modified: 9:14 AM 2018-04-28
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -6294,9 +6294,14 @@ khaleejtimes.com###foxpush_subscribe
 khaleejtimes.com##.logoarea:style(position: relative !important;)
 khaleejtimes.com##.vuukle-powerbar-processed.vuukle-powerbar-vertical
 khaleejtimes.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
-khn.org###header-site:style(position: absolute !important;)
+khn.org###header-site:style(position: absolute !important; margin-top: 0px !important; transition: none !important;)
+khn.org##.brand-scrolling:style(display: none !important;)
+khn.org##.brand:style(display: block !important;)
 khn.org##.email-signup
+khn.org##.header-site:style(box-shadow: none !important;)
 khn.org##.inline.related
+khn.org##.navbar-global li:style(border-left: 1px solid #0075c9 !important;)
+khn.org##.navbar-global:style(background-color: #0064ab !important; border-top-left-radius: 6px !important;)
 khou.com##.ad
 khou.com##.header:style(position: relative !important; top: 0 !important;)
 khou.com##.is_stuck.site-nav:style(position: relative !important; top: 0 !important;)
