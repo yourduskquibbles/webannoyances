@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 9:48 AM 2018-04-28
+! Last Modified: 10:09 AM 2018-04-29
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -136,17 +136,22 @@
 ##.fa-facebook.fa
 ##.fa-google-plus-square.fa
 ##.fa-google-plus.fa
+##.fa-instagram-square.fa
 ##.fa-instagram.fa
+##.fa-linkedin-square.fa
 ##.fa-linkedin.fa
 ##.fa-pinterest-square.fa
 ##.fa-pinterest.fa
+##.fa-reddit-square.fa
 ##.fa-reddit.fa
+##.fa-soundcloud-square.fa
 ##.fa-soundcloud.fa
 ##.fa-stumbleupon.fa
 ##.fa-tumblr.fa
 ##.fa-twitter-square.fa
 ##.fa-twitter.fa
 ##.fa-xing.fa
+##.fa-youtube-square.fa
 ##.fa-youtube.fa
 ##.fa.svg-flipboard
 ##.fb-icon
@@ -7328,8 +7333,10 @@ mercurynews.com##.site-header:style(position: relative !important; transition: n
 mercurynews.com##aside
 merriam-webster.com###recirc-bar-footer
 merriam-webster.com###social-sidebar-container
+merriam-webster.com###subscribe-overlay
 merriam-webster.com##.default.menu-filler
 merriam-webster.com##.default.shrinkheader:style(position: relative !important; top: 0 !important;)
+merriam-webster.com##.fixed-wrapper:style(position: absolute !important; top: 0 !important;)
 merryjane.com###view-port:style(position: relative !important; top: 0 !important;)
 messenger.com##.header:style(position: absolute !important;)
 messynessychic.com###kol_email-2
@@ -8867,6 +8874,8 @@ nytimes.com##.ribbon-ad-container.collection-item
 nytimes.com##.robots-nocontent.nocontent.bottom-left-ad.text-ad
 nytimes.com##.series-nav-button
 nytimes.com##.share-button
+nytimes.com##.sharetool
+nytimes.com##.sharetools
 nytimes.com##.sharetools-video-container
 nytimes.com##.show-all-sharetool
 nytimes.com##.show.lie-continue
@@ -10888,6 +10897,8 @@ signsofnassau.com##.iframe-controls--phone-mobile.tmblr-iframe--loaded.tmblr-ifr
 signsofnassau.com##.nav-fixed.nav-responsive.nav-wrapper:style(position: relative !important; top: 0 !important;)
 siliconstudio.co.jp###popup
 siliconstudio.co.jp###top-bar:style(position: absolute !important;)
+siliconvalley.com##.headroom--unpinned.headroom--not-top.headroom.default.site-header:style(position: absolute !important;)
+siliconvalley.com##.sign-up-follow
 silive.com###adv_header:style(position: relative !important; top: 0 !important;)
 silive.com###adv_mobi_edition
 silive.com###adv_network
@@ -11292,8 +11303,10 @@ star-telegram.com###story-cta-widget
 staradvertiser.com###top-nav-secondary:style(position: relative !important; top: 0 !important;)
 staradvertiser.com###top-nav:style(position: relative !important; top: 0 !important;)
 staradvertiser.com##.box-ad
+staradvertiser.com##.fixed-social:style(position: absolute !important; left: -50px !important;)
 staradvertiser.com##.left
 staradvertiser.com##.right
+staradvertiser.com##.share-text.desktop
 staradvertiser.com##.social-media-icons
 stardsl.net##.fusion-sticky-header-wrapper:style(position: relative !important; top: 0 !important;)
 stardsl.net##.to-top-container
@@ -13426,6 +13439,7 @@ usatoday.com##.social-item
 usatoday.com##.sponsor
 usatoday.com##.ui-pluto-video:style(transition: none !important;)
 usatoday.com##.uloop-content
+usatoday.com##.util-bar-flyout-nav-btn-wrap
 usatoday.com##.util-sticky-module:style(position: relative !important;)
 usatoday.com##nav-global:style(position: relative !important; top: 0 !important;)
 usatodayhss.com###nav-branding:style(position: relative !important; top: 0 !important;)
@@ -13482,7 +13496,9 @@ usuncut.com##.fly-but-wrap:style(position: relative !important; top: 0 !importan
 utexas.edu##.fix-header.container-logo.container:style(position: relative !important; top: 0 !important;)
 utilitydive.com##.site-menu-wrapper
 utilitydive.com##.wf-active.wf-abriltitling-n4-active.wf-proximanova-n4-active.wf-proximanova-n3-active.wf-proximanova-n9-active.wf-abriltitling-n8-active.wf-abriltitling-n7-active.wf-proximanova-n5-active.wf-proximanova-n7-active.wf-proximanova-n8-active.no-js
+uxplanet.org##.iframeContainer
 uxplanet.org##.is-active.popover--bottom.popover--quoteAttributions.popover--dark.js-popover.popover
+uxplanet.org##.js-metabar:style(position: absolute !important;)
 uxplanet.org##.markup--quote.is-other:style(background-image: none !important;)
 uxplanet.org##.paragraphControls-itemText
 uxplanet.org##.u-marginLeft0.u-lineHeightInherit.buttonSet
@@ -14607,6 +14623,7 @@ wsj.com##.vltSocialLinks
 wsj.com##.wsj-amp-share
 wsj.com##.wsj-body-ad-placement
 wsj.com##.wsj-immersive-ad-placement
+wsj.com##.wsj-native-strip
 wsj.com##.wsj-responsive-nav-circ-wrap
 wsj.com##body:style(overflow-x: hidden !important; overflow-y: auto !important; padding-top: 0px !important;)
 wsj.com##header:style(position: static !important;)
