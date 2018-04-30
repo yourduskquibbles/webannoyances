@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 9:32 AM 2018-04-30
+! Last Modified: 12:45 PM 2018-04-30
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -108,6 +108,7 @@
 ##.backToTopButton
 ##.backToTopContainer
 ##.backtotop
+##.bottom-share
 ##.butterBar--privacy.is-active.butterBar
 ##.butterBar-message
 ##.buttonSet--highlightMenu.buttonSet
@@ -202,6 +203,7 @@
 ##.popover.popover--bottom.is-withTransition
 ##.promoCard
 ##.scroll-to-top
+##.scrollToTop
 ##.scrollup
 ##.sd-news-social-container
 ##.sd-sharing-enabled
@@ -287,7 +289,6 @@
 10best.com##.fixed:style(position: absolute !important; top: 0 !important;)
 10best.com##.homepage-top-story-callout.columns.large-12
 10best.com##.nav__social
-10best.com##.scrollToTop
 10best.com##.social-cta
 10best.com##.spnf_left.spnf_ticker
 10best.com##.sticky-wrapper.is-sticky+.nav:style(padding-top: 0px !important;)
@@ -603,7 +604,6 @@ advocate.com##.adWindow.container
 advocate.com##.block-heremedia-ads.block
 advocate.com##.clearfix.bean-subheader-promo.entity-bean.entity
 advocate.com##.desktopHeader:style(position: absolute !important;)
-advocate.com##.scrollToTop
 advocate.com##.shareArticleButtons
 advocate.com##.skyboxeSection:style(margin-top: 132px !important;)
 advocate.com##.socialButtons
@@ -1603,8 +1603,7 @@ bloomsmag.com##.bsac-caption
 bloomsmag.com##.bsc-clearfix.social-list
 bloomsmag.com##.is-visible.back-top
 bloomsmag.com##.pinned.smart.bs-pinning-block.clearfix.rh-container:style(position: absolute !important;)
-bloomsmag.com##.style-1.clearfix.bottom-share.single-post-share.post-share
-bloomsmag.com##.style-1.clearfix.top-share.single-post-share.post-share
+bloomsmag.com##.post-share
 blueapron.com###header-main:style(position: absolute !important;)
 blueapron.com###header-main:style(position: relative !important; top: 0 !important;)
 blueapron.com##.fancybox-overlay-fixed.fancybox-overlay
@@ -2699,6 +2698,9 @@ commercialappeal.com##.fixed.header:style(position: absolute !important; top: 0 
 commercialappeal.com##.pluto-video-ready.playlistsmallattophtml5.gallery-video.story-video.js-ui-pluto-video.ui-pluto-video.js-ui-video-init:style(position: static !important;)
 commercialappeal.com##.pluto-video-ready.smallarticleattophtml5.priority.inline-story-video.story-video.js-ui-pluto-video.js-video-aps.ui-pluto-video.js-ui-video-init:style(position: static !important;)
 commercialappeal.com##.site-header-inner-wrap-fixed.site-header-inner-wrap:style(position: relative !important; top: 0 !important;)
+commonapp.org###block-common-structure-common-structure-social
+commonapp.org###header:style(position: absolute !important;)
+commonapp.org##.side-share
 commondreams.org###block-block-47
 commondreams.org###header-container:style(position: absolute !important;)
 commonsenseevaluation.com##.no-break
@@ -7320,7 +7322,6 @@ mentalfloss.com##.social-button-section
 mentalfloss.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 mercola.com##.mm-slideout.header:style(position: relative !important; top: 0 !important;)
 mercola.com##.mm-slideout.social-icons-mobile
-mercola.com##.scrollToTop.top-button
 mercurynews.com##.bottom.info-box.type-mng1.mng-styles.Mg2-connext
 mercurynews.com##.button-center-wrapper
 mercurynews.com##.dfp-ad
@@ -8703,7 +8704,6 @@ nymag.com###ck_sharethis_top
 nymag.com###ck_twitter
 nymag.com###magpromo
 nymag.com##.ad-splash
-nymag.com##.bottom-share
 nymag.com##.clay-share-list
 nymag.com##.column-subscribe
 nymag.com##.connect
@@ -9598,7 +9598,6 @@ popsci.com##.main-menu-social
 popsci.com##.pane-post-social-post-social-block.pane-block.panel-pane
 popsci.com##.pane-social-buttons.pane-social-plugins-social-plugins-footer-icons.pane-block.panel-pane
 popsci.com##.pane-social-header.pane-panels-mini.panel-pane
-popsci.com##.scrollToTop
 popsci.com##.track-processed.subscribe
 popsugar.com###banner-placeholder
 popsugar.com###fixednav:style(position: relative !important; top: 0 !important;)
@@ -10566,7 +10565,6 @@ savearescue.org###header:style(position: absolute !important;)
 savearescue.org##.header_social
 saveur.com##.main-header:style(position: relative !important; top: 0 !important;)
 saveur.com##.pane-social-buttons.pane-social-plugins-social-plugins-footer-icons.pane-block.panel-pane
-saveur.com##.scrollToTop
 savvytime.com##.navbar-fixed-top.sub-nav:style(position: absolute !important;)
 savvytime.com##.no-padding.header-shadow.header:style(position: absolute !important;)
 sbnation.com###newsletter-signup-short-form
@@ -11167,7 +11165,6 @@ spectator.org##.hidden-sm.col-xs-12.col-sm-2.col-md-3.col-lg-3
 spectrumnews.org###end-row
 spectrumnews.org###main-nav:style(position: absolute !important;)
 spectrumnews.org##.active
-spectrumnews.org##.bottom-share.share-links
 spectrumnews.org##.chapter-navigation
 spectrumnews.org##.main-bar:style(position: absolute !important;)
 spectrumnews.org##.sidebar
@@ -11451,7 +11448,6 @@ study.com###freshdeskButton
 studybreaks.com###cb-nav-bar:style(position: relative !important; top: 0 !important;)
 studybreaks.com##.cb-menu-fw.cb-font-header.clearfix.cb-site-padding.cb-nav-bar-wrap:style(position: relative !important; top: 0 !important;)
 studyfinds.org##.mashsb-container
-studyfinds.org##.scrollToTop
 stuff.co.nz###js-story__ad-storyrec
 stuff.co.nz##.adfeedback
 stuff.co.nz##.header-social-list
@@ -11997,7 +11993,6 @@ theculturetrip.com##.header-menu\.styled__HeaderMenu-s8ctnhx-0.flipboard-remove:
 theculturetrip.com##.scroll-to-top-wrapper\.style__ScrollToTopWrapper-s1wyvke7-0
 theculturetrip.com##.sticky-bottom-icon-list\.styled__StickyBottomIconList-s1fht80n-0
 thecut.com##.ad-splash
-thecut.com##.bottom-share
 thecut.com##.column-subscribe
 thecut.com##.horizontal.clay-share
 thecut.com##.social-section
@@ -13597,7 +13592,6 @@ venturebeat.com##.social-shares
 venturebeat.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 verizon.com##.is-sticky.js-nav--condensed.nav--condensed.nav:style(position: relative !important; top: 0 !important;)
 verizon.com##.masthead:style(position: relative !important; top: 0 !important;)
-verizon.com##.scrollToTop
 verizonwireless.com##.clear-float.container-gnav:style(position: absolute !important;)
 version2.dk###header:style(position: relative !important; top: 0 !important;)
 version2.dk##.adblock-message-container
@@ -13780,7 +13774,6 @@ vrodo.de###main_sticky:style(position: absolute !important;)
 vrodo.de##.mashsb-container
 vrpill.com##.navbar-fixed-top.navbar-scroll-fixed.navbar-default.navbar:style(position: absolute !important;)
 vulture.com##.ad-splash
-vulture.com##.bottom-share
 vulture.com##.connect-list
 vulture.com##.vertical.clay-share
 vvvv.org##.clearfix.d-header:style(position: relative !important; top: 0 !important;)
