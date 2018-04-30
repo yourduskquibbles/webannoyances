@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:45 PM 2018-04-30
+! Last Modified: 1:47 PM 2018-04-30
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -393,6 +393,7 @@
 9to5mac.com###js-site-header:style(position: relative !important; top: 0 !important;)
 9to5mac.com##.scroll-to-fixed-fixed.news-feed-header:style(position: relative !important; top: 0 !important;)
 @@||100percentfedup.com^$generichide
+@@||c-span.org^$generichide
 @@||disqus.com/count.js
 @@||disqus.com/embed.js
 @@||facebook.com/common/referer_frame.php$subdocument,domain=facebook.com
@@ -3421,6 +3422,7 @@ digg.com##.js--tweet-btn.item-actions__action
 digg.com##.jw-settings-sharing.jw-reset.jw-button-color.jw-icon-inline.jw-icon
 digg.com##.originals--infinite-break
 digg.com##.overflow-wrap:style(overflow-x: auto !important;)
+digg.com##.parallax.hp-interstitial
 digg.com##.site-navigation-bottom
 digg.com##.site-navigation__nav-list:style(position: relative !important; top: 0 !important;)
 digg.com##.story-action.story-action-share
@@ -8835,6 +8837,7 @@ nytimes.com##.bundle-payflow
 nytimes.com##.bundle-payflow-module.module
 nytimes.com##.comments-header-container:style(position: relative !important;)
 nytimes.com##.container > .story-meta
+nytimes.com##.css-15u353c
 nytimes.com##.css-1plijz3
 nytimes.com##.d-fixed.d-fow-nav:style(position: relative !important; top: 0 !important;)
 nytimes.com##.eln-input-email.eln-visible.eln-email-signup
@@ -14991,11 +14994,6 @@ zyngaplayerforums.com##.Reactions
 ||mol.im/*/160108_skin_coffee-right.png$image
 ||mol.im/*/b-play.png$image
 ||myfinance.com/*/myFinance.js$script,domain=cnn.com
-||nasdaq.com$generichide,domain=nasdaq.com,important
-||nasdaq.com$websocket,domain=nasdaq.com,important
-||nasdaq.com/*/carousel-script.js$script,domain=nasdaq.com
-||nasdaq.com/*/global.min-07072017v1.js$script,domain=nasdaq.com
-||nasdaq.com/*/oo_engine.js$script,domain=nasdaq.com
 ||nbc-sports.massrel.io/microsoft-live-extra-social$subdocument
 ||nbc-sports.massrel.io/nhl-live-extra-waterfall/$subdocument
 ||nbcsports.com/*/1500_stats_bg.jpg$image
