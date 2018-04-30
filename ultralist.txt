@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 2:09 PM 2018-04-30
+! Last Modified: 2:19 PM 2018-04-30
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -8506,10 +8506,13 @@ nextcity.org##.floating-share
 nextcity.org##.footer-banner-newsletter.footer-banner
 nextcity.org##.wrapper.header:style(position: relative !important; top: 0 !important;)
 nextgov.com###header:style(position: absolute !important;)
+nextgov.com##.advert-placeholder
+nextgov.com##.gemg-interstitial
 nextgov.com##.ng-social-follow
 nextgov.com##.ng-topad
 nextgov.com##.social-options
 nextgov.com##.subscribe
+nextgov.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 nextofwindows.com##.td-affix.td-header-menu-wrap:style(position: relative !important; top: 0 !important;)
 nextshark.com##.fixed:style(position: absolute !important; top: 0 !important;)
 nextshark.com##.social-sharing-bot
@@ -8527,9 +8530,8 @@ nfl.com##:xpath(/html/body/*//div[@class="yui3-ff-feedback-content yui3-widget-c
 nflshop.com###NFLFooterContentBottomMiddleSocial
 nginx.com###masthead:style(position: absolute !important; top: 0 !important;)
 nginx.com##.single-product-17-navbar:style(position: relative !important; top: 0 !important;)
-nhl.com##.ad--250-empty.ad-responsive-slot
-nhl.com##.ad--250-empty.ad-right-rail.ad-centered
-nhl.com##.ad--top-empty.ad-responsive-slot.ad--top.ad
+nhl.com##.ad
+nhl.com##.ad--250-empty
 nhl.com##.closed.slidemo:style(position: relative !important;)
 nhl.com##.follow
 nicovideo.jp###siteHeader:style(position: absolute !important;)
