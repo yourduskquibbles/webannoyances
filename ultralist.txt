@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 10:09 AM 2018-04-29
+! Last Modified: 9:32 AM 2018-04-30
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -5805,6 +5805,7 @@ increment.com##.primary:style(position: absolute !important;)
 increment.com##.sharing
 indeed.com###cmp-header-menu:style(position: relative !important; top: 0 !important;)
 indeed.com##.is-shown.icl-LegalConsentBanner
+independent.co.uk###dynamic-header>a>li:style(top: 0 !important; transition: none !important;)
 independent.co.uk###masthead:style(position: relative !important; top: 0 !important;)
 independent.co.uk###side
 independent.co.uk##.adblock-confirm.adblock-modal
@@ -12729,6 +12730,10 @@ thewirecutter.com##.newsletter-container
 thewirecutter.com##.site-header:style(transition: none !important; margin-top: 0px !important; padding-top: 0px !important; padding-bottom: 0px !important;)
 thewolfhall.com##.adsbygoogle
 thewolfhall.com##.widget_socialcountplus.widget.td_block_template_1
+thewonderweeks.com###CybotCookiebotDialog
+thewonderweeks.com##.active.pop-up--guide.pop-up
+thewonderweeks.com##.fixed-bottom
+thewonderweeks.com##.site-header:style(position: absolute !important;)
 theworldlink.com###site-navbar-container:style(position: relative !important;)
 thewrap.com###js-mobile-bar:style(position: relative !important; top: 0 !important;)
 thewrap.com###mobile-sticky-bottom
@@ -13525,8 +13530,11 @@ vancouversun.com##.track_event.nav-wrap:style(position: relative !important; top
 vancouversun.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 vanityfair.com###AMS_VYF_ARTICLE_INTEGRATED_END
 vanityfair.com###AMS_VYF_ARTICLE_INTEGRATED_INSTREAM
+vanityfair.com###AMS_VYF_GLOBAL_FOOTER
 vanityfair.com###AMS_VYF_GLOBAL_HEADER
 vanityfair.com###AMS_VYF_HOLLYWOOD_FOOTER
+vanityfair.com###AMS_VYF_INLINE_PROMO
+vanityfair.com###AMS_VYF_INLINE_TEXT
 vanityfair.com##.closed.casper.component-social-share
 vanityfair.com##.closed.colored.component-social-share
 vanityfair.com##.closed.mono-native.component-social-share
@@ -13535,6 +13543,7 @@ vanityfair.com##.component-sponsored-links.component
 vanityfair.com##.connect-container
 vanityfair.com##.expanded.component-riser
 vanityfair.com##.handle.component-social-share.component-social-follow
+vanityfair.com##.hive-riser.hidden.collapsed.offset-meter.component-riser
 vanityfair.com##.lower-nav-scrolled.hive-lower-nav
 vanityfair.com##.lower-nav-scrolled.lower-nav
 vanityfair.com##.modal-content
@@ -13542,6 +13551,7 @@ vanityfair.com##.mono-native.component-social-share.component-social-follow
 vanityfair.com##.parbase.cn_share_facebook_like.web
 vanityfair.com##.parbase.cn_share_facebook_share
 vanityfair.com##.parbase.cn_share_tweet
+vanityfair.com##.paywall-container
 vanityfair.com##.pinterest-link
 vanityfair.com##.players-interstitial.component-modal
 vanityfair.com##.share.vertical.web
@@ -13916,6 +13926,7 @@ washingtonpost.com##.voracious-header-line:style(position: relative !important; 
 washingtonpost.com##.wp-column.first-column
 washingtonpost.com##.wp-column.partners-holder
 washingtonpost.com##.wpvlb-wrap:style(position: relative !important; top: 0 !important;)
+washingtonpost.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 washingtonpress.com##.header--slide.fixed.header
 washingtonpress.com##.mashsb-stretched.mashsb-main.mashsb-container
 washingtontimes.com###contact-links
