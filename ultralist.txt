@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 3:20 PM 2018-05-01
+! Last Modified: 3:45 PM 2018-05-01
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -16,6 +16,7 @@
 ###back-top
 ###backToTop
 ###backtotop
+###block-social-share-social-share
 ###catapult-cookie-bar
 ###cookie
 ###cookie-bar
@@ -67,6 +68,7 @@
 ###dsq-indicator-south
 ###eu-cookie-bar
 ###fb-slider
+###go-to-top
 ###go-top
 ###goTop
 ###go_top
@@ -81,6 +83,8 @@
 ###mobileweb-banner_bottomnewsParagraph4
 ###mobileweb-banner_bottomnewsParagraph8
 ###mobileweb-banner_topnews
+###mod-social-share-1
+###mod-social-share-3
 ###move-to-top
 ###notice-cookie-block
 ###onesignal-bell-container
@@ -100,7 +104,16 @@
 ###smartbanner
 ###social-follow
 ###social-media-box
+###social-share
+###social-share-bar
+###social-share-block_1-0
+###social-share-bottom
+###social-share-buttons
+###social-share-count
+###social-share-widget
 ###social-share_1-0
+###social-share_2-0
+###social-sharebar
 ###socialMediaMenu
 ###toTop
 ###to_top_scrollup
@@ -115,8 +128,10 @@
 ##.actnbr-has-follow.actnbr-pub-isola
 ##.addthis-button
 ##.addtoany_share_save_container
+##.amp-social-share-wrapper
 ##.android-smart-banner.smart-banner
 ##.annotateButton
+##.apss-social-share
 ##.article-share
 ##.article-share-box
 ##.article-share-container
@@ -124,6 +139,10 @@
 ##.article-shares
 ##.article-shares-links
 ##.article-shares-stub
+##.article-sidebar__right__social-share-btns
+##.article-social-share
+##.article__social-share
+##.ba-social-share
 ##.back-to-top
 ##.backToTopButton
 ##.backToTopContainer
@@ -139,12 +158,16 @@
 ##.bx-slab
 ##.c-social-buttons
 ##.c-social-buttons--popover
+##.c-social-share
 ##.cc-banner
 ##.cc-cookies
 ##.cc-floating
 ##.cc_banner-wrapper
 ##.cd-top
 ##.clearfix.social-media.smp-wrap
+##.component-observable-social-share
+##.component-social-share
+##.component-two-state-social-share
 ##.connect_blue
 ##.cookie
 ##.cookie-bg
@@ -154,6 +177,7 @@
 ##.cookieBox
 ##.cookies
 ##.cookies_bar
+##.df-social-share
 ##.et_pb_scroll_top
 ##.et_social_mobile
 ##.et_social_mobile_off
@@ -224,9 +248,12 @@
 ##.js_top-nav-wrap.top-nav.fixed.shadow-bottom
 ##.jw-sharing-dock-btn.jw-reset.jw-background-color.jw-dock-button
 ##.kac-sm-panel
+##.mgm-social-share
 ##.mk-go-top
+##.mkdf-social-share-widget
 ##.mobile-floating-footer-show.mobile-floating-footer
 ##.mod-cookiepolicy
+##.module-social-share-container
 ##.navbar-share
 ##.navbar-share-tools
 ##.nc_socialPanel
@@ -237,6 +264,7 @@
 ##.onesignal-bell-container-bottom-right
 ##.outbrain.recommend
 ##.overlay-arrows.arrows
+##.pb-f-article-social-share-tools
 ##.popover.popover--bottom.is-withTransition
 ##.promoCard
 ##.scroll-to-top
@@ -270,15 +298,42 @@
 ##.social
 ##.social-buttons
 ##.social-container
+##.social-dropdown
 ##.social-icon-facebook
 ##.social-icon-twitter
 ##.social-links
+##.social-list
+##.social-nav
+##.social-nav-button
+##.social-nav-icons
+##.social-navigation
 ##.social-network
 ##.social-networks
 ##.social-page-btns
+##.social-share
+##.social-share-bar
+##.social-share-block
+##.social-share-block-wrapper
+##.social-share-button
+##.social-share-buttons
+##.social-share-buttons-consolidated
+##.social-share-container
+##.social-share-count
 ##.social-share-facebook
+##.social-share-icon-list
+##.social-share-icons-wrapper
+##.social-share-item
+##.social-share-link
+##.social-share-links
+##.social-share-nextbtn
+##.social-share-sidebar-component__content
+##.social-share-top
 ##.social-share-twitter
+##.social-share-wrap
 ##.social-share-wrapper
+##.social-share__list
+##.social-shares
+##.social-sharethis-post
 ##.social-sharing
 ##.social-sharing-bot
 ##.social-sharing-buttons
@@ -291,12 +346,18 @@
 ##.social-tools-bottom
 ##.social-tools-wrapper
 ##.social-tools-wrapper-bottom
+##.social-wrapper
+##.social-wrapper2
 ##.socialBar
+##.socialNetworks
+##.socialNetworks-bottom
+##.socialNetworks-top
 ##.socialSharing
 ##.socialToolbar
 ##.socials
 ##.socialshares
 ##.story-share-buttons
+##.story-social-share
 ##.story-tools
 ##.svgIcon--facebook
 ##.svgIcon--facebookFilled
@@ -316,6 +377,8 @@
 ##.utility-bar-wrap
 ##.visible.sd-news-main-footer.component-story-footer-v1
 ##.webPage.cookieInfo
+##.widget--social-share-buttons
+##.wx-social-share-ls-wrapper
 ##.youtube-icon
 /arscode-ninja-popups/*
 /chimpmatepro/*$script
@@ -386,8 +449,6 @@
 2paragraphs.com##.site-header:style(position: relative !important; top: 0 !important;)
 2paragraphs.com##.ssbp-container
 360.cn##.leftside
-38north.org##.affix.social-share
-38north.org##.no-print.social-share-container
 3dprint.com##.et-fixed-header:style(position: relative !important; top: 0 !important;)
 3dprint.com##.notepadding.su-note
 3dprintingforbeginners.com###floating_menu:style(position: absolute !important;)
@@ -414,7 +475,6 @@
 99percentinvisible.org##.arrow-box
 99percentinvisible.org##.comments-share
 99percentinvisible.org##.social-column
-99percentinvisible.org##.social-nav
 9gag.com###jsid-featured-sidebar-tail
 9gag.com###jsid-sticky-button
 9gag.com###sidebar-content:style(position: relative !important;)
@@ -445,10 +505,8 @@
 @@||disqus.com/count.js
 @@||disqus.com/embed.js
 @@||facebook.com/common/referer_frame.php$subdocument,domain=facebook.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=cbssports.com
 @@||loxodo-analytics.ext.nile.works/api/save$xmlhttprequest,domain=washingtonpost.com
 @@||s1.wp.com/*/vip-analytics.js^$script,domain=rare.us
-a16z.com##.byline-social.social-share
 aaa.com##.bottomcontainerBox
 abc.net.au###navigationPrimary4:style(position: relative !important; top: 0 !important;)
 abc.net.au##.Nav-bar:style(position: absolute !important;)
@@ -514,7 +572,6 @@ abccolumbia.com##.ssbp--theme-2.ssbp--centred.ssbp-wrap.ssbp-set--one
 abclocal.go.com##.fbShare
 abclocal.go.com##.links
 abclocal.go.com##.shareThis
-abclocal.go.com##.socialNetworks
 abcnews.go.com###abcn-videoplayer:style(position: absolute !important;)
 abcnews.go.com###global-header:style(position: absolute !important;)
 abcnews.go.com###header-wrapper:style(position: absolute !important;)
@@ -738,7 +795,6 @@ airspacemag.com##.newsletter-signup-article-wrapper
 airspacemag.com##.no-cover.nav-subscribe-box
 airspacemag.com##.scroll-nav-social
 airspacemag.com##.signup-wrapper
-airspacemag.com##.social-nav
 ajc.com###follow-this-story
 ajc.com##.header-wrapper:style(position: relative !important;)
 ajc.com##.hidden-md-down.footer-wrapper
@@ -746,7 +802,6 @@ ajc.com##.hidden-md-down.sub-header-nav:style(position: absolute !important;)
 ajc.com##.margin-bottom.cm-tablet-show.newsletter-tease
 ajc.com##.more-icon.section-tag.story-section-tag.-section-bg
 ajc.com##.nav-subscribe
-ajc.com##.story-social-share
 al-monitor.com###bizzbar:style(position: relative !important; top: 0 !important;)
 al.com###adv_header:style(position: relative !important; top: 0 !important;)
 al.com###adv_mobi_edition
@@ -1338,7 +1393,6 @@ ballotpedia.org###email-signup-bar
 ballotpedia.org###fixed-header-outer:style(position: relative !important; top: 0 !important;)
 ballotpedia.org###google_translate_element
 ballotpedia.org###nav-bar:style(position: relative !important; top: 0 !important;)
-ballotpedia.org###social-share-buttons
 ballotpedia.org###top-bar:style(position: relative !important; top: 0 !important;)
 baltimoresun.com###support_journalism
 baltimoresun.com##.met-flyout
@@ -1361,7 +1415,6 @@ bangordailynews.com##.contentBanner.adSpot
 bangordailynews.com##.leaderboard.adSpot
 bankofcanada.ca##.ga-event
 bankrate.com##.glyphicon-arrow-up.glyphicon
-bankrate.com##.social-share
 barneys.com##.fixed.header:style(position: relative !important; top: 0 !important;)
 barrons.com###share-tools
 barrons.com##.article_tools
@@ -1452,7 +1505,6 @@ bestride.com##.navbar-fixed-top.navbar-default.navbar:style(position: absolute !
 bet.com###moments__sticky__icon
 bet.com##.asset_balaNotification--open.asset_balaNotification
 bet.com##.asset_balaNotification--open.asset_balaNotificationOverlay
-bet.com##.clearfix.social-share
 bet.com##.header__nav__bar:style(position: relative !important;)
 bet.com##.header__nav_fixed.header__nav:style(position: relative !important;)
 bet.com##.header__nav_fixed.header__nav_scroll_down.header__nav
@@ -1477,7 +1529,6 @@ bgdailynews.com###main-navigation:style(position: absolute !important; top: 0 !i
 bgdailynews.com###site-container:style(margin-top: 0px !important;)
 bgdailynews.com##.hidden-print.alert-info.alert-dismissable.alert.read.notification.meter
 bgdailynews.com##.hidden-print.asset-paging-container
-bgdailynews.com##.social-share-link
 bgr.com###topnav
 bgr.com##.button-facebook
 bgr.com##.button-twitter
@@ -1509,7 +1560,6 @@ billboard.com##.header-wrapper__secondary-header:style(transform: none !importan
 billboard.com##.search-toggle.open-search
 billboard.com##.site-header__background:style(transform: none !important; transition: none !important;)
 billboard.com##.site-header__progress
-billboard.com##.social-share
 billboard.com##.top-content.container:style(position: relative !important; top: 0 !important;)
 billerickson.net##.after_content.ea-share-count-wrap
 billingsgazette.com###site-navbar-container:style(position: relative !important; top: 0 !important;)
@@ -1649,7 +1699,6 @@ bloomsmag.com###bs-newsletter-mailchimp-2
 bloomsmag.com###menu-main:style(position: absolute !important;)
 bloomsmag.com##.adsbygoogle
 bloomsmag.com##.bsac-caption
-bloomsmag.com##.bsc-clearfix.social-list
 bloomsmag.com##.is-visible.back-top
 bloomsmag.com##.pinned.smart.bs-pinning-block.clearfix.rh-container:style(position: absolute !important;)
 bloomsmag.com##.post-share
@@ -1697,8 +1746,6 @@ bonappetit.com##.secondary-content
 bonappetit.com##.site-header:style(position: relative !important; top: 0 !important;)
 bonappetit.com##.social-toolbar
 bonappetit.com##.subscribe-box
-bonappetit.com##.vertical-center.content-widget.clearfix > .ba-social-share
-bonappetit.com##.vertical.ba-social-share
 booking.com##.cheapest_banner_content > *
 booking.com##.fe_banner__red.fe_banner__w-icon.fe_banner__scale_small.fe_banner
 booking.com##.fe_banner__w-icon-large.fe_banner__w-icon.fe_banner
@@ -1723,7 +1770,6 @@ bookscanner.de##.is-empty.j-cart:style(position: absolute !important;)
 bookscanner.de##.j-facebook.n.j-module
 bookscanner.de##.jtpl-navigation:style(position: absolute !important; top: 0 !important;)
 boomcalifornia.com##.headroom--pinned.headroom--not-top.headroom.mini-bar
-boomcalifornia.com##.social-navigation
 boomsupersonic.com##.js-metabar:style(position: absolute !important;)
 bordercantos.com##.stickydiv:style(position: relative !important; top: 0 !important;)
 borderstan.com###search-navigation:style(position: relative !important; top: 0 !important;)
@@ -1962,7 +2008,6 @@ businessinsider.in###TopNavs
 businessinsider.in###nlFormSlide
 businessinsider.in###social-plugins
 businessinsider.in###social-plugins_bottom
-businessoffashion.com##.big-font.offset-bottom-small.social-share-block
 businessoffashion.com##.color-brand-white.background-gray-darkest.small-font.text-center.navbar-notification.navbar.navbar-default
 businessoffashion.com##.hidden-print.offset-bottom.offset-top.sans-serif.article-body-bottom.row
 businessoffashion.com##.in.fade.modal
@@ -2157,7 +2202,6 @@ cbslocal.com##html:style(overflow-x: hidden !important; overflow-y: auto !import
 cbsnews.com###dashboard
 cbsnews.com###module-right-rail-fd-mobile-app-promo
 cbsnews.com###pip__headline:style(position: relative !important; top: 0 !important;)
-cbsnews.com###social-sharebar
 cbsnews.com##.dashboard-visible:style(margin-bottom: 0px !important;)
 cbsnews.com##.floating.media-block:style(position: relative !important; top: 0 !important;)
 cbsnews.com##.header-style.theme-dark.sharebar_condensed.social
@@ -2639,7 +2683,6 @@ cnsnews.com##.kimbiaDiv.cns.cns1.two_col.columnsPerPage1
 cnsnews.com##.mini > .header:style(position: absolute !important;)
 cnsnews.com##.mini-social-icons
 cnsnews.com##.region-sidebar.region
-cntraveler.com##.closed.default.component-social-share
 cntraveler.com##.container-header:style(position: relative !important; top: 0 !important;)
 cntraveler.com##.desktop.cm-placement
 cntraveler.com##.eat.scroll-to:style(position: relative !important; top: 0 !important;)
@@ -2790,7 +2833,6 @@ computerandvideogames.com##.future-cookie-bar
 computerworld.com###share-tool
 computerworld.com###sticky-head:style(position: relative !important; top: 0 !important;)
 concreteconstruction.net##.site-header:style(position: absolute !important; top: 0 !important;)
-condenast.com##.closed.default.component-social-share
 condenast.com##.frozen.frozen-header:style(position: absolute !important;)
 confirmit.com##A[href="http://www.confirmit.com"]
 confluent.io###site-header:style(position: relative !important; top: 0 !important;)
@@ -2829,7 +2871,6 @@ consumerreports.org###share-menu
 consumerreports.org##.crux-color-excellent-bg.newsletter-sign-up
 consumerreports.org##.gnav-pin-header--open.gnav-pin-header
 consumerreports.org##.parbase.social.mvisitor.new-social
-consumerreports.org##.social-wrapper
 contactmusic.com##.adLabel
 contactmusic.com##.clearfix.socialShare
 contactmusic.com##.headerSecondary.hide-md.hide-sm.shadow.headerL.header:style(position: relative !important; top: 0 !important;)
@@ -3606,7 +3647,6 @@ dividend.com##.affix.mm-header
 dividend.com##.affix.stock-data:style(position: relative !important; top: 0 !important;)
 dividend.com##.affix.stock-nav:style(position: relative !important; top: 0 !important;)
 dividend.com##.in.modal-backdrop
-diynetwork.com###mod-social-share-3
 diynetwork.com##.o-Header__m-SocialLinks
 diynetwork.com##.o-SocialShare
 diynetwork.com##body:style(margin-top: 0px !important;)
@@ -3849,7 +3889,6 @@ elle.com##.content-nav-active.sticky.nav:style(position: relative !important; to
 elle.com##.footer-social-menu.social-button-group
 elle.com##.lede-image-social-button-group.social-button-group
 elle.com##.nav-placeholder
-elle.com##.social-share-button.embed-image-social-button.social-button-pinterest.social-button
 elle.com##.sticky.nav:style(position: relative !important; top: 0 !important;)
 elleuk.com###share-sticky-bar
 elleuk.com##.share-module
@@ -3955,7 +3994,6 @@ espn.com##.shareables
 espn.com##.sidebar:style(position: absolute !important; top: 0px !important; transition: none !important; transform: none !important;)
 espn.com##.signin-social
 espn.com##.social-menu
-espn.com##.social-nav-icons
 espn.com##.sponsored-links
 espn.com##.vertical.article-social
 espn.com##.vjs-button.vjs-icon-share.vjs-control.vjs-share-control
@@ -4011,7 +4049,6 @@ eurochannel.com###news_warp
 eurochannel.com##.social_share
 euronews.com###js-back-to-top
 euronews.com###js-header-sticky:style(position: absolute !important;)
-euronews.com##.c-social-share.collapse.row
 euronews.com##.mailmunch-scrollbox
 euronews.com##.spnf_right.spnf_ticker
 euronews.com##.stick.jsArticleReadingWidget.media__article-reading:style(position: absolute !important;)
@@ -4164,7 +4201,6 @@ fansided.com###fs-network-nav:style(position: absolute !important;)
 fansided.com##.fs-network-flipcard
 fansided.com##.next.fixed-article-nav
 fansided.com##.prev.fixed-article-nav
-fansided.com##.social-nav
 fantasypros.com###cboxLoadedContent
 fantasypros.com###cboxOverlay
 fantasypros.com###cboxWrapper
@@ -4188,7 +4224,6 @@ fashionista.com##.is-visible.l-sticky-navbar
 fashionista.com##.m-header--social-nav
 fashionista.com##.m-social
 fashionista.com##.mm-brand-engagement--premium.mm-component-stack--has-background.mm-component-stack--has-header.mm-component-stack--is-stacked.m-component-stack.m-brand-engagement
-fashionmagazine.com##.article-social-share
 fashionmagazine.com##.is-fixed.js--header-nav.header-nav:style(position: absolute !important;)
 fastcocreate.com##.people-tab.ready
 fastcodesign.com##.ad-wrapper--articletop.ad-wrapper--mobileleaderboard.ad-wrapper
@@ -4345,9 +4380,7 @@ firstcoastnews.com##.mod-wrapper.inline-share-tools-asset.story-asset
 firstcoastnews.com##.page__desktop-header:style(position: absolute !important;)
 firstcoastnews.com##.page__header:style(position: absolute !important;)
 firstlook.org###menu-primary:style(position: relative !important; top: 0 !important;)
-firstpost.com###go-to-top
 firstpost.com###myScrollspy
-firstpost.com##.social-share-wrap
 firstround.com##.-fixed._ReaderControls__
 firstround.com##._SiteNav__:style(position: absolute !important;)
 firstwefeast.com###.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
@@ -4367,7 +4400,6 @@ fivethirtyeight.com###masterad
 fivethirtyeight.com##.lp-share
 fivethirtyeight.com##.newsletter.flexible.widget
 fivethirtyeight.com##.page-header:style(position: relative !important; top: 0 !important;)
-fivethirtyeight.com##.social-share-item.footer-menu-item
 fivethirtyeight.com##.vertical-politics.page-header:style(position: relative !important; top: 0 !important;)
 fixya.com###header:style(position: relative !important; top: 0 !important;)
 fixya.com###locked-footer-ad-wrapper
@@ -4379,7 +4411,6 @@ flashbak.com###masthead:style(position: absolute !important; top: 0 !important;)
 flashbak.com###mc_embed_signup
 flashbak.com##.boxzilla-bottom-right-container.boxzilla-container
 flashbak.com##.boxzilla-center-container.boxzilla-container
-flashbak.com##.clearfix.apss-theme-4.apss-social-share
 flashbak.com##.menu-social-container
 flashbak.com##.shareaholic-ui.shareaholic-share-buttons-wrapper
 flashbak.com##.shrink.header-main-container.row:style(position: relative !important; top: 0 !important;)
@@ -4459,7 +4490,6 @@ foodbeast.com###goodbye-form
 foodbeast.com###mc_embed_signup
 foodbeast.com##.fdbst-ad-placement
 foodbeast.com##HEADER:style(position: relative !important; top: 0 !important;)
-foodnetwork.com###mod-social-share-1
 foodnetwork.com##.gig-button-container-horizontal.gig-share-button-container.gig-button-container-email-count-none.gig-button-container-email.gig-button-container-count-none.gig-button-container
 foodnetwork.com##.gig-button-container-horizontal.gig-share-button-container.gig-button-container-facebook-count-none.gig-button-container-facebook.gig-button-container-count-none.gig-button-container
 foodnetwork.com##.gig-button-container-horizontal.gig-share-button-container.gig-button-container-pinterest-count-none.gig-button-container-pinterest.gig-button-container-count-none.gig-button-container
@@ -4469,7 +4499,6 @@ foodnetwork.com##.o-Header__m-SocialLinks
 foodnetwork.com##.o-SocialShare
 foodnetwork.com##.prev-next-wrapper
 foodnetwork.com##.section.parbase.capsule.newsletter
-foodnetwork.com##.social-share
 foodnetwork.com##body:style(margin-top: 0px !important;)
 foodrepublic.com###masthead:style(position: relative !important; top: 0 !important;)
 foodrepublic.com##.newsletter-toggle
@@ -4532,7 +4561,6 @@ formlabs.com##.sticky-nav:style(position: absolute !important; top: 0 !important
 fortressofsolitude.co.za###nav-clone
 fortressofsolitude.co.za###widgetized-footer
 fortressofsolitude.co.za##.adsbygoogle
-fortressofsolitude.co.za##.clearfix.mgm-social-share
 fortressofsolitude.co.za##.mashsb-container
 fortune.com###f500-header:style(position: absolute !important;)
 fortune.com###header:style(position: relative !important; top: 0 !important;)
@@ -4557,8 +4585,6 @@ fossdroid.com##.mdl-layout__container:style(position: relative !important; top: 
 foursquare.com###header:style(position: relative !important; top: 0 !important;)
 fox-it.com##.loaded.navigation.doc__main-nav:style(position: absolute !important;)
 fox10phoenix.com###header:style(position: absolute !important;)
-fox10phoenix.com##.social-dropdown
-fox10phoenix.com##.social-share
 fox11online.com###facebookShare
 fox11online.com##.component-ddb-300x250-v1
 fox11online.com##.component-ddb-300x250_vertical-v1
@@ -4589,15 +4615,11 @@ fox32chicago.com###header:style(position: relative !important; top: 0 !important
 fox32chicago.com###wrapper:style(padding-top: 0px !important;)
 fox32chicago.com##.placeholder-container.header-more
 fox32chicago.com##.progress-bar.accordion
-fox32chicago.com##.social-dropdown
-fox32chicago.com##.social-share
 fox46charlotte.com###header:style(position: relative !important; top: 0 !important;)
 fox46charlotte.com###wrapper:style(padding-top: 0px !important;)
 fox46charlotte.com##.pad.bg-gray.row-wrapper
 fox46charlotte.com##.show-for-large-up.mod-story-progress.mod-accordion.mod-wrapper
 fox46charlotte.com##.small-12.column.portlet-column
-fox46charlotte.com##.social-dropdown
-fox46charlotte.com##.social-share
 fox59.com##.entry-share
 fox59.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important;)
 fox5dc.com###header:style(position: relative !important; top: 0 !important;)
@@ -4609,20 +4631,15 @@ fox5dc.com##.follow.right
 fox5dc.com##.header-main:style(position: relative !important; top: 0 !important;)
 fox5dc.com##.header-secondary:style(position: relative !important; top: 0 !important;)
 fox5dc.com##.mod-infinite-grid.mod-wrapper
-fox5dc.com##.social-dropdown
-fox5dc.com##.social-share
 fox5ny.com###header:style(position: relative !important; top: 0 !important;)
 fox5ny.com###wrapper:style(padding-top: 0px !important;)
 fox5ny.com##.author-share
 fox5ny.com##.show-for-large-up.mod-story-progress.mod-accordion.mod-wrapper
 fox5ny.com##.small-12.column.portlet-column
-fox5ny.com##.social-dropdown
 fox6now.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
 fox6now.com##body:style(padding-top: 0px !important;)
 fox7austin.com###header:style(position: absolute !important;)
 fox7austin.com##.follow.right
-fox7austin.com##.social-dropdown
-fox7austin.com##.social-share
 fox8.com##.sticky-wrapper
 fox8live.com##.sticky.cdev-menu-nav:style(position: absolute !important;)
 fox8live.com##.story-feed
@@ -4635,7 +4652,6 @@ foxla.com##.facebook
 foxla.com##.more
 foxla.com##.pad.bg-gray.row-wrapper
 foxla.com##.show-for-large-up.mod-story-progress.mod-accordion.mod-wrapper
-foxla.com##.social-share
 foxla.com##.twitter
 foxnews.com###janrainModalOverlay
 foxnews.com###navbar-main:style(position: relative !important; top: 0 !important;)
@@ -4674,10 +4690,8 @@ france24.com##.header:style(position: relative !important; top: 0 !important;)
 france24.com##.next
 france24.com##.on-air-board-outer:style(position: relative !important; top: 0 !important;)
 france24.com##.short-cuts-outer:style(position: relative !important; top: 0 !important;)
-freakinfacts.com##.social-list
 fredericknewspost.com##.alert-info.alert-dismissable.alert.access.notification.meter
 fredericknewspost.com##.hidden-print.asset-paging-container
-fredericknewspost.com##.icon.list-inline.hidden-print.social-share-links
 free-cinema21.streamingonline.desi###main-navigation:style(position: relative !important; top: 0 !important;)
 free-cinema21.streamingonline.desi###modal-watch
 free-cinema21.streamingonline.desi##.in.fade.modal-backdrop
@@ -4685,7 +4699,6 @@ free-times.com###site-navbar-container:style(position: relative !important; top:
 freebeacon.com###social-header
 freebeacon.com##.columns.large-6
 freebeacon.com##.contact
-freebeacon.com##.inline-list.social-share
 freebeacon.com##.large-collapse.row
 freebeacon.com##.social-icons.row
 freecodecamp.org##.button--withSvgIcon.button--withIcon.u-baseColor--buttonLight.is-touchIconBlackPulse.button--chromeless.button--light.button
@@ -4778,7 +4791,6 @@ galoremag.com##.modal
 galvnews.com###site-navbar-container:style(position: relative !important; top: 0 !important;)
 galvnews.com##.asset-paging
 galvnews.com##.hidden-print.asset-paging-container
-galvnews.com##.social-share-link
 gamepress.gg###block-appmobilemenu
 gamepress.gg###block-footerad
 gamepress.gg##.landscape.mobile.android.js
@@ -4922,7 +4934,6 @@ gizmodo.com.au##.newsletter-subscribe
 gizmodo.com.au##.site-header--fixed.site-header:style(position: absolute !important;)
 gkn.com###return-to-top
 gkn.com###top:style(position: absolute !important;)
-glamour.com##.closed.sticky.component-social-share
 glamour.com##.cns-ads-stage
 glamour.com##.collapsed-header
 glamour.com##.component-header:style(position: relative !important; top: 0 !important;)
@@ -4952,7 +4963,6 @@ glassdoor.com##.center.pad.borderTop.borderBot.seoBox.docLoadPromo.appPromoBanne
 glassdoor.com##.mfp-content
 glassdoor.com##.mfp-ready.mfp-bg
 glassdoor.com##.nav-container
-glassdoor.com##.noPad.social-share-icon-list.tbl
 glassdoor.com##.notranslate.giveToGetAppDownloadModule.giveToGetLoginModule
 glassdoor.com##.sneakPeekPromoItemXS.sm.lockedOverlayAppDownload.sneakPeekItemPromoBox
 glassdoor.com##.sticky.empLinksWrapper
@@ -5150,7 +5160,6 @@ gq.com##.best-reads-list-inline.best-reads-list
 gq.com##.cm-footer-component
 gq.com##.cm-header
 gq.com##.cm-mobile-header-text-container
-gq.com##.component-social-share
 gq.com##.container.desktop-header:style(position: relative !important; top: 0 !important;)
 gq.com##.desktop-header-utils
 gq.com##.dropdown-container
@@ -5181,7 +5190,6 @@ grammy.com##.stuck.header-menu:style(position: relative !important;)
 grandst.com###logged_out_wall
 grandst.com###share_holder
 grandst.com###site_overlay
-granta.com##.article-sidebar__right__social-share-btns
 granta.com##.desktop-nav__subscribe-container
 granta.com##.main-granta-header:style(position: absolute !important;)
 granta.com##.small-nav
@@ -5292,7 +5300,6 @@ gulflive.com##.sticky-nav-hide:style(margin-top: 0px !important; transition: non
 gulflive.com##.sticky-nav-show.sticky-nav:style(position: relative !important; top: 0 !important; transition: none !important;)
 gulflive.com##.sticky-nav:style(position: relative !important; top: 0 !important; transition: none !important;)
 gulflive.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
-gulfnews.com##.social-share
 gun.deals###subscribe-newsletter-popup
 gunbelts.com##.fixed.nav-container:style(position: relative !important; top: 0 !important;)
 guns.com###site-wrap:style(overflow: auto !important;)
@@ -5494,14 +5501,12 @@ helpnetsecurity.com###bttm
 helpnetsecurity.com###header-social-nav
 helpnetsecurity.com##.entry-meta--share
 helpnetsecurity.com##.entry-share.list-flex
-helpnetsecurity.com##.hns-social-share.social-nav.list-flex--end.list-flex
 helpnetsecurity.com##.newsletter-block-twitter.newsletter-block.section
-helpnetsecurity.com##.remodal-is-opened.hnst-modal-admost-theme.remodal-overlay
-helpnetsecurity.com##.remodal-is-opened.hnst-modal-admost-theme.remodal-wrapper
+helpnetsecurity.com##.remodal-overlay
+helpnetsecurity.com##.remodal-wrapper
 heraldks.com###optinform-container
 heraldscotland.com##.bottom-socialbar.social-circles-component
 heraldscotland.com##.is-sticky.primary-nav-mobile-sticky.primary-nav:style(position: absolute !important;)
-heraldscotland.com##.social-nav-button
 heraldscotland.com##.top-socialbar.social-circles-component
 heraldsun.com##.share-icons.mi-video-utilty-bar
 herosports.com##.home-sticky.header-main:style(position: absolute !important;)
@@ -5588,7 +5593,6 @@ hollywoodreporter.com##.site-header-basic--preta:style(position: relative !impor
 hollywoodreporter.com##.site-header__background:style(transition: none !important; transform: none !important;)
 hollywoodreporter.com##.site-header__brand:style(transition: none !important; height: 47px !important;)
 hollywoodreporter.com##.site-header__progress:style(position: absolute !important;)
-hollywoodreporter.com##.social-share
 hollywoodreporter.com##.sticky-wrapper:style(position: absolute !important; height: 1724px !important; margin-top: 0px !important;)
 hollywoodreporter.com##.stuck.js-leftRail-container.left-rail:style(position: relative !important;)
 hollywoodreporter.com##.toolMenu.toolMenuLeft
@@ -5662,7 +5666,6 @@ howtogeek.com##.email-overlay
 howtogeek.com##.how-to-geek-follow
 howtogeek.com##.overlay-wrapper
 howtogeek.com##.social-media-buttons > .share-heading
-howtogeek.com##.social-share
 howtosolutions.net###socialsharebuttons
 howwegettonext.com##.js-metabar:style(position: absolute !important;)
 hrblock.com###offers
@@ -5694,7 +5697,6 @@ huckberry.com##.modal.in.fade
 huckberry.com##.top-nav:style(position: relative !important; top: 0 !important;)
 huckmagazine.com##.first.twelvecol.header:style(position: relative !important; top: 0 !important;)
 huckmagazine.com##.social-footer.footer
-huckmagazine.com##.social-share
 huffingtonpost.com###badges_v2_1
 huffingtonpost.com###chicklets
 huffingtonpost.com###float_tracker
@@ -5744,7 +5746,6 @@ humblebundle.com##.js-maintain-scrollbar-on-dropdown.s-fixed.js-sticky-navbar.st
 humblebundle.com##.js-navigation-container-v2.navigation-container-v2:style(position: relative !important;)
 hunker.com###site-header:style(position: absolute !important;)
 hunker.com##.email-capture-popup-wrapper--visible.email-capture-popup-wrapper
-hunker.com##.social-share-icons-wrapper
 hunker.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 hupu.com##.hupu-m-fixed.m-app-info
 hupu.com##.ui-page-tools
@@ -5813,7 +5814,6 @@ iflscience.com##.newsletter-widget.widget
 iflscience.com##.page:style(padding-top: 0px !important;)
 iflscience.com##.share-article.share-widget
 iflscience.com##.smaller.header:style(position: relative !important; top: 0 !important;)
-iflscience.com##.social-shares
 iflscience.com##.totop
 igeeksblog.com##.td-affix.td-header-gradient.td-header-menu-wrap:style(position: relative !important;)
 ign.com###header-container.fixed:style(position: relative !important; top: 0 !important;)
@@ -5849,7 +5849,6 @@ ilovefreesoftware.com##.sticky.has-logo.cf.navigation:style(position: absolute !
 imausa.com###snppopup-exit
 imausa.com##.scrolled.scroll_header_top_area.fixed.page_header:style(position: relative !important; top: 0 !important;)
 imbibemagazine.com##.sticky.main-menu-fixed:style(position: relative !important; top: 0 !important;)
-imdb.com###social-share-widget
 imdb.com##.icon-link-bar.link-bar
 imgflip.com###fShare
 imgur.com###header:style(position: relative !important; top: 0 !important;)
@@ -5940,7 +5939,6 @@ indianapolismonthly.com##.share-this-buttons
 indianexpress.com###IE_WAP_NEXT_BTN
 indianexpress.com###fixedMenu:style(position: absolute !important; top: 0 !important;)
 indianexpress.com##.navbar-fixed-top.amp-wp-title-bar:style(position: absolute !important; top: 0 !important;)
-indianexpress.com##.social-share-nextbtn
 indiatimes.com###TPMainDiv
 indiatimes.com###articlelist
 indiatimes.com###backgroundPopup
@@ -6030,7 +6028,6 @@ inman.com##.bx-shroud
 inquisitr.com###htvo3h2
 inquisitr.com##.amp-active
 inquisitr.com##.amp-ad-wrapper
-inquisitr.com##.amp-social-share-wrapper
 inquisitr.com##.block.header--inner:style(position: relative !important; top: 0 !important;)
 inquisitr.com##.header_wrap:style(position: relative !important;)
 inquisitr.com##.i-amphtml-layout.i-amphtml-layout-size-defined.i-amphtml-layout-responsive.i-amphtml-element
@@ -6152,7 +6149,6 @@ investopedia.com###infinite-scroll-container
 investopedia.com##.ad-leaderboard
 investopedia.com##.inner-helper:style(position: absolute !important;)
 investopedia.com##.meganav:style(position: relative !important;)
-investopedia.com##.social-share
 investopedia.com##body:style(margin-top: 0px !important;)
 investor.fb.com##.wrapper:style(position: relative !important;)
 investorjunkie.com###ezw_tco-9:style(position: absolute !important;)
@@ -6289,7 +6285,6 @@ jpost.com##.header-social-wrap
 jpost.com##.header-wrap:style(position: absolute !important;)
 jpost.com##.newsletter-signup-wrap.position-control-1-in-div-2
 jpost.com##.sign-up-wrap
-jpost.com##.social-share-buttons
 jpost.com##.subscribe-top-page:style(position: absolute !important;)
 jpost.com##.top-share-bar-container
 jsonline.com##.first-margin:style(margin-top: 0px !important;)
@@ -6365,7 +6360,6 @@ kdvr.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute !impo
 kee.pm##.clearfix.d-header:style(position: absolute !important;)
 keepassxc.org##.navbar-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 kenoshanews.com##.asset-paging
-kenoshanews.com##.social-share-link
 kens5.com###jwloader-1:style(position: relative !important; top: 0 !important;)
 kens5.com##.desktop-header__inner:style(transition: none !important; padding: 25px 30px !important;)
 kens5.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important; transition: none !important;)
@@ -6589,7 +6583,6 @@ ktla.com##.entry-share
 ktla.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
 ktla.com##.oo-icon-share.oo-icon
 ktla.com##body:style(padding-top: 0px !important;)
-kuow.org##.bottom.social-share
 kuow.org##.sharing-and-programs.columns.large-2
 kvoa.com###WNAd41
 kvoa.com###WNNavSearchSwitch:style(position: relative !important; top: 0 !important;)
@@ -6725,7 +6718,6 @@ laweekly.com##.sticky-bar.masthead:style(position: relative !important; top: 0 !
 laweekly.com##.tw
 lawfareblog.com##.adsbygoogle
 lawfareblog.com##.rtecenter
-lawfareblog.com##.social-list
 lawnewz.com###LawNewz_Mobile_MedRec_1
 lawnewz.com###LawNewz_Mobile_MedRec_2
 lawnewz.com###featured-posts-wrap
@@ -6806,7 +6798,6 @@ leicestermercury.co.uk##.up-next--share
 leisurepro.com##header:style(position: relative !important; top: 0 !important;)
 lelo.com###wisepop-main-container
 lelo.com##.top-page-wrapper:style(position: absolute !important;)
-lennyletter.com##.closed.default.component-social-share
 lennyletter.com##.component-social-follow
 lennyletter.com##.hdr-subscribe-link
 lennyletter.com##.mc-modal
@@ -6830,7 +6821,6 @@ libertyalliance.com##.gfiframe
 libertyballers.com##.m-ad__mobile_footer.m-ad__dynamic_ad_unit.m-ad
 libertyballers.com##.m-ad__mobile_leaderboard.m-ad__dynamic_ad_unit.m-ad
 libertyhangout.org###scroll-up
-libertyhangout.org##.clearfix.apss-theme-1.apss-social-share
 libertylawsite.org##.no-break
 libertylawsite.org##.pum-active.click_open.auto_open.popmake-overlay.pum-theme-default-theme.pum-theme-21970.pum-overlay.pum
 libertylawsite.org##.share-buttons
@@ -6870,7 +6860,6 @@ lifezette.com##.even.bottom-out.social-icons.col-xs-12.col-sm-12.col-md-5.col-lg
 lifezette.com##.mobile.menu-bar-trigger
 lifezette.com##.preloaded_lightbox
 lifezette.com##.pull-right.social
-lifezette.com##.social-share-article-small.social-share
 likeaglove.me###sticky-navigation:style(position: absolute !important;)
 liliputing.com##.icons
 limpingchicken.com###at4-share
@@ -6985,12 +6974,10 @@ longreads.com###header:style(position: absolute !important;)
 longreads.com##.entry-email-signup
 longreads.com##.sd-sharing.sd-social-icon.sd-social.sd-block.robots-nocontent
 longreads.com##.support-footer
-longwarjournal.org##.social-share
 longwarjournal.org##.sticky.nav.row:style(position: relative !important;)
 lookout.com###page:style(margin-top: 0px !important;)
 lookout.com##.sticky-wrap:style(position: relative !important;)
 lookupbook.net###banner:style(position: relative !important; top: 0 !important;)
-lowes.com###social-share-bar
 lowes.com##.emailsignupmechanism
 lowes.com##.modal-backdrop
 lrb.co.uk###wrapper > div:nth-of-type(1)
@@ -7313,7 +7300,6 @@ mdjonline.com##.fb.btn-link.btn-xs.btn
 mdjonline.com##.infinity-asset-ad
 mdjonline.com##.next.paging-link
 mdjonline.com##.prev.paging-link
-mdjonline.com##.social-share-link
 mdjonline.com##.tw.btn-link.btn-xs.btn
 mdmag.com###flyBanner
 mdmag.com###navBar:style(position: relative !important; top: 0 !important;)
@@ -7811,7 +7797,6 @@ movieshype.com###modal-offer
 movieshype.com##.in.fade.modal-backdrop
 movieshype.com##.main-navigation.navbar-default.navbar-fixed-top.navbar:style(position: absolute !important;)
 movietickets.com###header:style(position: absolute !important;)
-movieweb.com##.social-wrapper2
 mozilla.com###nav-global:style(position: relative !important; top: 0 !important;)
 mozilla.com###nav-util:style(position: relative !important; top: 0 !important;)
 mozilla.net###related_topics
@@ -7826,7 +7811,6 @@ mozilla.org##.logo:style(transition: none !important;)
 mozilla.org##.nav-mozilla:style(transition: none !important;)
 mozilla.org##.page-top
 mozilla.org##.site-wrap:style(padding-top: 0px !important;)
-mozilla.org##.social-share
 mozilla.org##.stuck.firefox.moz-sub-nav:style(position: relative !important; top: 0 !important;)
 mozilla.org##.stuck.sticky-footer
 mozilla.org##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
@@ -7915,7 +7899,6 @@ mvmtwatches.com##.js-smooth-scroll.collection-scroll-top
 mvmtwatches.com##.scroll-to-fixed-fixed.collection-filter-bar:style(position: absolute !important;)
 mwrinfosecurity.com###top:style(position: absolute !important;)
 mwrinfosecurity.com##.li-switcher
-mwrinfosecurity.com##.social-share
 myaccount.google.com###gb:style(position: relative !important;)
 myaccount.google.com##.SSPGKf.yip5uc > div:nth-of-type(1) > div:style(height: 0px !important;)
 myaccount.google.com##.hdPVYc > div:nth-of-type(1) > div:style(height: 0px !important;)
@@ -8075,7 +8058,6 @@ nationalinterest.org##.adslot
 nationalinterest.org##.block-core-35.block-leaderboard-ad.block
 nationalinterest.org##.facebook
 nationalinterest.org##.print_html
-nationalinterest.org##.social-share-block-wrapper
 nationalinterest.org##.twitter
 nationaljournal.com###articleFollowBrand
 nationaljournal.com###articlePromo
@@ -8164,22 +8146,17 @@ nbcbayarea.com###tve_cta
 nbcbayarea.com##.News.nav-section > .subnav-large-container:style(margin-top: 0px !important;)
 nbcbayarea.com##.header:style(position: relative !important; top: 0 !important;)
 nbcbayarea.com##.newsletterSignupBox
-nbcbayarea.com##.socialNetworks
-nbcbayarea.com##.socialNetworks-top
 nbcbayarea.com##.stickyNav.navbar:style(position: relative !important; top: 0 !important;)
 nbcbayarea.com##.swiper-container-android.swiper-container-horizontal.quick-nav:style(position: relative !important; top: 0 !important;)
 nbcchicago.com###tve_cta
 nbcchicago.com##.News.nav-section > .subnav-large-container:style(margin-top: 0px !important;)
 nbcchicago.com##.site-header:style(position: relative !important; top: 0 !important;)
-nbcchicago.com##.socialNetworks-top
 nbcchicago.com##.stickyNav.navbar:style(position: relative !important; top: 0 !important;)
 nbcdfw.com##.News.nav-section > .subnav-large-container:style(margin-top: 0px !important;)
 nbcdfw.com##.active
 nbcdfw.com##.footerCirculationMod
 nbcdfw.com##.header:style(position: relative !important;)
 nbcdfw.com##.newsletterSignupBox
-nbcdfw.com##.socialNetworks
-nbcdfw.com##.socialNetworks-top
 nbcdfw.com##.stickyNav.navbar:style(position: relative !important; top: 0 !important;)
 nbcdfw.com##.swiper-container-horizontal.quick-nav:style(position: relative !important; top: 0 !important;)
 nbclosangeles.com###article_0_ad_square
@@ -8189,8 +8166,6 @@ nbclosangeles.com##.email-svg
 nbclosangeles.com##.facebook-svg
 nbclosangeles.com##.header:style(position: relative !important; top: 0 !important;)
 nbclosangeles.com##.newsletterSignupBox
-nbclosangeles.com##.socialNetworks
-nbclosangeles.com##.socialNetworks-top
 nbclosangeles.com##.stickyNav.navbar:style(position: relative !important; top: 0 !important;)
 nbclosangeles.com##.swiper-container-android.swiper-container-horizontal.quick-nav:style(position: relative !important; top: 0 !important;)
 nbclosangeles.com##.twitter-svg
@@ -8198,12 +8173,10 @@ nbcmiami.com###tve_cta
 nbcmiami.com##.News.nav-section > .subnav-large-container:style(margin-top: 0px !important;)
 nbcmiami.com##.footerCirculationMod
 nbcmiami.com##.header:style(position: relative !important; top: 0 !important;)
-nbcmiami.com##.socialNetworks-top
 nbcmiami.com##.stickyNav.navbar:style(position: relative !important;)
 nbcmiami.com##.swiper-container-android.swiper-container-horizontal.quick-nav
 nbcmontana.com###header:style(padding-top: 0px !important;)
 nbcmontana.com###site-header:style(position: relative !important; top: 0 !important;)
-nbcmontana.com##.social-share
 nbcnews.com###ember983
 nbcnews.com##._20-Ws2Fn1Y3t_iSqRZ0LON:style(position: relative !important;)
 nbcnews.com##._20RDh_Liu7JhJdfqmmmvsh
@@ -8223,7 +8196,6 @@ nbcnews.com##.left_ear_wrap
 nbcnews.com##.peacock___1R6oM:style(fill: #ffffff !important;)
 nbcnews.com##.rail_article.rail
 nbcnews.com##.sitewide-header-social
-nbcnews.com##.social-list_horizontal.social-list_widget.social-list
 nbcnews.com##.socialShareWrapper___39f3A
 nbcnews.com##.stack-list-share
 nbcnews.com##.stuck___PEoMv.scrolled___yAb5r.vertical___3U7Kb.navbar___1EKcg:style(background-color: #102039 !important; transition: none !important;)
@@ -8232,8 +8204,6 @@ nbcnewyork.com###tve_cta
 nbcnewyork.com##.News.nav-section > .subnav-large-container:style(margin-top: 0px !important;)
 nbcnewyork.com##.header:style(position: relative !important; top: 0 !important;)
 nbcnewyork.com##.nav-carousel
-nbcnewyork.com##.socialNetworks
-nbcnewyork.com##.socialNetworks-top
 nbcnewyork.com##.stickyNav.navbar:style(position: relative !important; top: 0 !important;)
 nbcnewyork.com##.swiper-container-android.swiper-container-horizontal.quick-nav:style(position: relative !important; top: 0 !important;)
 nbcolympics.com###sticky-player-wrapper:style(position: absolute !important;)
@@ -8245,18 +8215,12 @@ nbcphiladelphia.com###article_0_ad_square
 nbcphiladelphia.com###tve_cta
 nbcphiladelphia.com##.News.nav-section > .subnav-large-container:style(margin-top: 0px !important;)
 nbcphiladelphia.com##.header:style(position: relative !important; top: 0 !important;)
-nbcphiladelphia.com##.socialNetworks
-nbcphiladelphia.com##.socialNetworks-bottom
-nbcphiladelphia.com##.socialNetworks-top
 nbcphiladelphia.com##.stickyNav.navbar:style(position: relative !important; top: 0 !important;)
 nbcphiladelphia.com##.swiper-container-android.swiper-container-horizontal.quick-nav:style(position: relative !important; top: 0 !important;)
 nbcsandiego.com###article_0_ad_square
 nbcsandiego.com###tve_cta
 nbcsandiego.com##.News.nav-section > .subnav-large-container:style(margin-top: 0px !important;)
 nbcsandiego.com##.header:style(position: relative !important; top: 0 !important;)
-nbcsandiego.com##.socialNetworks
-nbcsandiego.com##.socialNetworks-bottom
-nbcsandiego.com##.socialNetworks-top
 nbcsandiego.com##.stickyNav.navbar:style(position: relative !important; top: 0 !important;)
 nbcsandiego.com##.swiper-container-android.swiper-container-horizontal.quick-nav:style(position: relative !important; top: 0 !important;)
 nbcsports.com###nbcsports-primary-nav:style(position: absolute !important;)
@@ -8271,9 +8235,6 @@ nbcwashington.com##.leadShare
 nbcwashington.com##.newsletterSignupBox
 nbcwashington.com##.quick-nav:style(position: relative !important; top: 0 !important;)
 nbcwashington.com##.sfadSlot
-nbcwashington.com##.socialNetworks
-nbcwashington.com##.socialNetworks-bottom
-nbcwashington.com##.socialNetworks-top
 nbcwashington.com##.stickyNav.navbar:style(position: relative !important; top: 0 !important;)
 nbcwashington.com##.subnav-large-container:style(margin-top: 0px !important;)
 nbcwashington.com##.swiper-container-android.swiper-container-horizontal.quick-nav
@@ -8300,7 +8261,6 @@ ndtv.com##.lvblog_share
 ndtv.com##.margin_b20.margin_t10.story_social_share
 ndtv.com##.new_nextarrow
 ndtv.com##.new_prevarrow
-ndtv.com##.social-share
 ndtv.com##.st_sharebar_new1
 ndtv.com##.st_story_topshare
 ndtv.com##.sticky_navbar
@@ -8552,7 +8512,6 @@ newsweek.com###dfp-ad-right4-wrapper
 newsweek.com###dfp-ad-top-wrapper
 newsweek.com###header_subscribe
 newsweek.com##.affix.stickyhead:style(position: relative !important; top: 0 !important;)
-newsweek.com##.ai-c.flex-wrap.flex-xs.social-share
 newsweek.com##.ai-fe.flex-xs.social
 newsweek.com##.article--newsletter--wrapper.col-md-12
 newsweek.com##.article-social
@@ -8692,7 +8651,6 @@ nme.com###header:style(position: absolute !important; top: 0 !important;)
 nme.com###wrapper:style(padding-top: 0px !important;)
 nme.com##.menu-social-container
 nme.com##.post-byline-inner:style(position: relative !important; top: 0 !important;)
-nme.com##.social-share
 nme.com##.vjs-button.vjs-control.vjs-share-control
 noeticforce.com###header-top:style(position: relative !important;)
 noeticforce.com##header:style(position: relative !important;)
@@ -9472,8 +9430,6 @@ philly.com##.pic.bg1.type3.banner_small
 philly.com##.progress
 philly.com##.shift-right--700
 philly.com##.shift-right--900
-philly.com##.social-share__list
-philly.com##.sticky-social.cf.social-share
 philly.com##.subscribetoday__inner
 philly.com##.subscribetoday__wrap:style(position: absolute !important;)
 phillymag.com##.entry-social
@@ -9692,7 +9648,6 @@ politico.com##.nav-politico-pro.active
 politico.com##.newsletter-sign-up-do-not-delete.super
 politico.com##.open.sticky-header
 politico.com##.social-media-items
-politico.com##.social-nav
 politico.com##.story-continued
 politico.com##.story-share
 politico.com##.toolbar-main
@@ -9703,7 +9658,6 @@ politico.eu##.banners.container
 politico.eu##.is-stuck.sticky-content.orient-vertical.show-share-count.user-tools
 politicususa.com###gform_widget-3
 politicususa.com##.adsbygoogle
-politicususa.com##.social-sharethis-post
 politicususa.com##.social_header.pull-right
 politifact.com###social
 politifact.com##.article__share
@@ -9736,8 +9690,6 @@ popsugar.com##.nav-social-buttons
 popsugar.com##.omniture-track.nav-cta-button
 popsugar.com##.pullquote-share
 popsugar.com##.social-cta-like
-popsugar.com##.social-header.-noIncrement.-default.social-share-buttons-consolidated
-popsugar.com##.social-share-buttons.clearfix
 popularmechanics.com###rr_soc_mid
 popularmechanics.com###share-sticky-bar
 popularmechanics.com##.ad-gpt-breaker-container
@@ -9860,8 +9812,6 @@ pri.org##.dark.donate.always-under
 pri.org##.navbar__wrapper.is-fixed
 priceonomics.com###lfs-wrapper
 priceonomics.com###sidebar-scrollfix
-priceonomics.com###social-share
-priceonomics.com##.clearfix.social-share-top
 primaryarms.com##.popup-content
 princewilliamgolf.com###bcg-pageHeader:style(position: relative !important; top: 0 !important;)
 princewilliamliving.com###sbe-follow
@@ -10361,7 +10311,6 @@ redstate.com##.fb.sc-fb.btn-lg
 redstate.com##.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important;)
 redstate.com##.newsletter-sign-up
 redstate.com##.preloaded_lightbox
-redstate.com##.social-nav
 redstate.com##.tw.sc-tw.btn-lg
 refinery29.com##.condensed-header
 refinery29.com##.condensed-header:style(position: relative !important; top: 0 !important;)
@@ -10500,7 +10449,6 @@ richmond.com##.animate.text-center.arrow
 richmond.com##.dfp-ad.tnt-ads
 richmond.com##.next.paging-link
 richmond.com##.pull-right.follow-links-521977
-richmond.com##.social-share-link
 richmond.com##.wcpopupmodal-open.fade-and-rise.wcpopupmodal-overlay
 richmond.com##.wcpopupmodal-wrapper-open.fade-and-rise.wcpopupmodal-wrapper
 riftcat.com###header:style(position: absolute !important;)
@@ -10516,8 +10464,6 @@ ripple.com##.scrolled.navbar-fixed-top.navbar-default.navbar.banner:style(positi
 ritzpix.com###header:style(position: relative !important;)
 roadandtrack.com##.leaderboard-ad
 roadandtrack.com##.nav-placeholder
-roadandtrack.com##.social-share-button.content-lede-image-social-button.social-button-pinterest.social-button
-roadandtrack.com##.social-share-button.embed-image-social-button.social-button-pinterest.social-button
 roadandtrack.com##.standard-article-breaker-ad.article-breaker-ad.breaker-ad
 roadandtrack.com##.standard-social-buttons.primary-social-buttons.content-info-social-buttons
 roadandtrack.com##.sticky.nav:style(position: relative !important; top: 0 !important;)
@@ -10531,7 +10477,6 @@ roadtrippers.com###trip-guide-share
 roanoke.com###site-top-nav
 roanoke.com###topbar-col-one
 roanoke.com##.dfp-ad.tnt-ads
-roanoke.com##.icon.list-inline.hidden-print.social-share-links
 robinhood.com##._3pyQUfWsuCL2xx8utSkLxQ._3nIv3nkycamcg4LkMid-k3:style(position: absolute !important;)
 robinhood.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 robinlinus.github.io##iframe
@@ -10783,7 +10728,6 @@ scmp.com##.pane-share-widgets-article
 scmp.com##.scmp-inline-newsletter-subscription
 scmp.com##.scrollmagic-pin-spacer:style(padding-top: 0px !important;)
 scmp.com##.social-media--extended.social-media
-scmp.com##.social-share
 scmp.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 scout.com###updatebar-root
 scout.com##.article-social
@@ -10800,7 +10744,6 @@ screendaily.com##.facebook
 screendaily.com##.leaderboard
 screendaily.com##.linkedin
 screendaily.com##.twitter
-screenrant.com###go-to-top
 screenrant.com##.ad-zone-container-sidebar-trending-1.ad-zone-container
 screenrant.com##.bottom.btn-more.w-btn
 screenrant.com##.js-show.btn-facebook-like.w-btn
@@ -10867,7 +10810,6 @@ secapps.com##.nav.header:style(position: absolute !important;)
 seccountry.com##.cm-ad-block
 secondnexus.com###sb_super_bar
 secondnexus.com##.cnsmbl-container-320x50-ads
-secondnexus.com##.mobile-fluid.mobile.df-social-share.df-post-sharing.style2
 securelist.com###masthead:style(position: relative !important;)
 securelist.com##.entry-social
 securelist.com##.widget-pusher-wrap
@@ -11086,8 +11028,6 @@ sky.com###breaking_news_ticker
 sky.com##.sdc-news-footer__list--social.sdc-news-footer__list
 sky.com##.sdc-site-cookie-notice--visible.sdc-site-cookie-notice--fixed-bottom.sdc-site-cookie-notice
 sky.com##.sdc-site-share__list
-skysports.com##.article__social.social-list
-skysports.com##.social-nav.site-footer__nav
 slack.help###nav_list:style(position: absolute !important;)
 slack.help##.category_header.header_white.header:style(position: absolute !important;)
 slackhq.com##.js-metabar:style(position: absolute !important;)
@@ -11114,7 +11054,6 @@ slate.com##.newsletter-signup-component
 slate.com##.notification
 slate.com##.sharing-buttons.centered.horiz-counts-mobile.social
 slate.com##.slate-share
-slate.com##.social-share
 slate.com##.social.social-with-popup
 slate.com##.strapline__social.social
 slate.com##.tablet-ad
@@ -11189,7 +11128,6 @@ snapguide.com##.no-select.bottom-right.sg-back-to-top
 snapguide.com##.sg-card
 snapzu.com##.welcome
 sneakernews.com##.responsive-nav-btn
-sneakernews.com##.social-shares
 snews.com##.hero-social
 snmidatlantic.com###nbcsports-primary-nav
 snopes.com###header-main:style(position: relative !important;)
@@ -11249,7 +11187,6 @@ southlive.in###main-nav-container:style(position: relative !important; top: 0 !i
 southlive.in##.sample-ad
 southlive.in##.share-icons-inline
 southlive.in##.show-in-desktop.side-bar-ad
-southlive.in##.social-share
 southlive.in##.sticky-icon
 southpark.cc.com###geoblockmsg
 southwestthemagazine.com###nav
@@ -11489,7 +11426,6 @@ statesman.com##.margin-bottom.cm-tablet-show.newsletter-tease
 statesman.com##.more-icon.section-tag.story-section-tag.-section-bg
 statesman.com##.nav-subscribe
 statesman.com##.products-nav-fixed.products-nav:style(position: relative !important;)
-statesman.com##.story-social-share
 statesmanjournal.com##.first-margin:style(margin-top: 0px !important;)
 statesmanjournal.com##.fixed.header:style(position: absolute !important; top: 0 !important;)
 statesmanjournal.com##.pluto-video-ready.playlistsmallattophtml5.gallery-video.story-video.js-ui-pluto-video.ui-pluto-video.js-ui-video-init:style(position: static !important;)
@@ -11550,7 +11486,6 @@ stltoday.com###main-body-container:style(margin-top: 0px !important;)
 stltoday.com###site-navbar-container:style(position: relative !important;)
 stltoday.com##.clearfix.well.whatcounts-form-container
 stltoday.com##.dfp-ad.tnt-ads
-stltoday.com##.icon.stacked.list-unstyled.hidden-print.social-share-links
 stocknews.com##.navbar-fixed-top.navbar-inverse.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 stockpressdaily.com##.customPopUp
 stonebrewing.com##.breadcrumb-wrapper:style(position: relative !important; top: 0 !important;)
@@ -11570,7 +11505,6 @@ straitstimes.com##.nlsubscribe-block.obj-grid-float-329
 straitstimes.com##.token-insert-entity-token > .clearfix.view-mode-embed_related_story.node-article.node.ds-1col > .field-group-html5.group-related-story-embed > .block-link
 strangesounds.org##.td-default-sharing
 stratolaunch.com###header:style(position: relative !important; top: 0 !important;)
-strava.com##.social-share-bar
 strawpoll.me##.cc_container--open.cc_container.cc_banner
 strawpoll.me##.social-facebook
 strawpoll.me##.social-twitter
@@ -11813,10 +11747,7 @@ techcrunch.com##.header-social:style(position: relative !important; top: 0 !impo
 techcrunch.com##.nav-fb-messenger
 techcrunch.com##.next-story-link
 techcrunch.com##.popped.section.toaster
-techcrunch.com##.share--fixed.article__social-share
 techcrunch.com##.social-cluster
-techcrunch.com##.social-share
-techcrunch.com##.sprite-social.social-list.inline-list
 techcrunch.com##body:style(padding-top: 0px !important;)
 techdirt.com##.sharetools
 techgyd.com###sticky-header
@@ -11840,7 +11771,6 @@ technologyreview.com##.meter
 technologyreview.com##.navbar__item--tertiary--subscribe.navbar__item--tertiary
 technologyreview.com##.pricing__menu__tier--premium.pricing__menu__tier
 technologyreview.com##.sidebar.right
-technologyreview.com##.social-list
 techradar.com###fp_cookieMessageContainer
 techradar.com###sidebar
 techradar.com##.masthead-item.buttons-social
@@ -11876,9 +11806,6 @@ tedium.co##.at_icon_menu_item
 tedium.co##.at_post_share
 tedium.co##.md-adbox
 tedium.co##.md-redbox.at_subscribe
-teenvogue.com##.closed.image.component-social-share
-teenvogue.com##.component-observable-social-share
-teenvogue.com##.component-two-state-social-share
 teenvogue.com##.expanded.riser
 teenvogue.com##.follow.component-facebook-like
 teenvogue.com##.footer-cm-wrapper.ad-failsafe-wrapper
@@ -11904,7 +11831,6 @@ telegraph.co.uk###shareSideContainer
 telegraph.co.uk##.article__socials
 telegraph.co.uk##.message-active.component.adblocker-message
 telegraph.co.uk##.social-follow
-telegraph.co.uk##.social-share
 telegraph.co.uk##body > div:nth-of-type(1)
 telemundo.com##.__hub--ad
 telemundo.com##.__hub--content:style(margin-top: 0px !important;)
@@ -12056,7 +11982,6 @@ thebaffler.com##.scroll-to-fixed-fixed.gap.donate.fixed-widget
 thebaffler.com##.smaller.header
 thebaffler.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 thebalance.com###header_1-0:style(position: absolute !important;)
-thebalance.com###social-share_2-0
 thebalance.com##.header-condensed.header.comp:style(position: relative !important; top: 0 !important;)
 thebaycitybeacon.com###site-navbar-container:style(position: relative !important;)
 thebaycitybeacon.com##.asset-paging
@@ -12089,7 +12014,6 @@ theblacksphere.net##.enhanced-text-widget.widget_text.et_pb_widget.small-email-c
 theblacksphere.net##.spu-bg
 theblacksphere.net##.spu-total-.spu-centered.spu-box
 theblast.com##.alt.social
-theblast.com##.social-share
 theblaze.com###header:style(position: relative !important; top: 0 !important;)
 theblaze.com###home_bottom_slider
 theblaze.com##.article-footer
@@ -12277,7 +12201,6 @@ theglobeandmail.com##.c-ad--ldbd.c-ad
 theglobeandmail.com##.c-control--social.c-control--primary
 theglobeandmail.com##.c-header-title--article.c-header-title:style(position: absolute !important;)
 theglobeandmail.com##.c-header-title--scrolling-up.c-header-title--show.c-header-title--article.c-header-title:style(position: absolute !important;)
-theglobeandmail.com##.pb-f-article-social-share-tools.pb-layout-item.pb-feature.feature-wrapper
 thegolder.com##.td-ss-main-sidebar:style(position: relative !important;)
 thegrio.com###headerbar:style(position: relative !important; top: 0 !important;)
 thegrio.com##.adcontainer
@@ -12326,7 +12249,6 @@ thehardtimes.net##.spnf_right.spnf_ticker
 thehealthyfoodie.com##.shrink.site-header:style(position: relative !important; top: 0 !important;)
 theheartysoul.com##.text-center.dfp_stucky_footer
 thehill.com###article-recommendation
-thehill.com###block-social-share-social-share
 thehill.com###block-thehill-blocks-footer-signup
 thehill.com###bottom-story-socials
 thehill.com###dfp-ad-mos_1-wrapper
@@ -12334,8 +12256,6 @@ thehill.com###dfp-ad-mos_2-wrapper
 thehill.com###dfp-ad-mosad_1
 thehill.com###lightboxjs-lightboxlib
 thehill.com###navigation:style(position: relative !important; top: 0 !important; overflow-x: hidden !important; overflow-y: hidden !important;)
-thehill.com###social-share-bottom
-thehill.com###social-share-count
 thehill.com##.akamai-button.akamai-facebook
 thehill.com##.akamai-button.akamai-share
 thehill.com##.akamai-button.akamai-twitter
@@ -12354,8 +12274,6 @@ thehill.com##.scrolling-content:style(position: relative !important; top: 0 !imp
 thehill.com##.share-additional
 thehill.com##.share-box
 thehill.com##.share-list
-thehill.com##.social-list
-thehill.com##.social-share-count
 thehill.com##.vjs-button.vjs-control.vjs-share-control
 thehill.com##:xpath(.//*[@class="rollover-people-block"])
 thehindu.com###moe-push-div
@@ -12708,7 +12626,6 @@ theseasonedhome.com##.responsive-nav-wrapper:style(position: relative !important
 theshaderoom.com###to-top
 theshaderoom.com##.js-progress-bar.nav-sticky__progress-bar
 thesimpledollar.com##.js-masthead-wrapper.masthead-wrapper:style(position: absolute !important;)
-thesimpledollar.com##.widget--social-share-buttons
 thesmokinggun.com###caulywcnhdiahphejturuivbvferhgecwm
 thesmokinggun.com###quyovarmzixnmfvgbdxjrncwggyqbmmbjnpd
 thesmokinggun.com###tjhrvbkwtquxeiwhzpskozlclzjfeffddzfkhxr
@@ -12782,7 +12699,6 @@ thesun.co.uk##.header--mobile.header:style(position: absolute !important;)
 thesun.co.uk##.mpu-container.dfp-ad-container
 thesun.co.uk##.scrolling-remove.sun-header-bg:style(transition: none !important; animation: none !important;)
 thesun.co.uk##.scrolling.sun-header-bg
-thesun.co.uk##.social-share-buttons
 thesun.co.uk##.sun-header--nav.fixed:style(position: absolute !important; top: 0 !important; transition: none !important; animation: none !important;)
 thesun.co.uk##.sun-header--nav.sun-header__mini:style(position: absolute !important; top: 120px !important; transition: none !important; animation: none !important;)
 thesun.co.uk##.sun-header--nav.sun-row:style(position: absolute !important; transition: none !important; animation: none !important;)
@@ -12937,7 +12853,6 @@ thinkprogress.org##.header-site__container:style(position: relative !important; 
 thinkprogress.org##.js-metabar:style(position: absolute !important;)
 thinkprogress.org##.post-tools.addthis_32x32_style
 thinkprogress.org##.share__wrapper
-thinkprogress.org##.social-nav
 thirtybees.com##.fusion-social-networks
 thirtybees.com##.fusion-sticky-shadow.fusion-header:style(position: relative !important; top: 0 !important;)
 thirtybees.com##.share-box.fusion-single-sharing-box.fusion-sharing-box
@@ -12961,7 +12876,6 @@ thomsonreuters.com##.top-share-bar-container
 thoughtcatalog.com##.mode-absolute.revealed.global_sharing_controls
 thoughtco.com###header_1-0:style(position: relative !important; top: 0 !important;)
 thoughtco.com###main:style(margin-top: 0px !important;)
-thoughtco.com###social-share-block_1-0
 thoughtco.com##.header-condensed.header.comp:style(position: relative !important; top: 0 !important;)
 thoughtcrimemedia.net##.Mobile-bar--top.Mobile-bar:style(position: relative !important; top: 0 !important;)
 thrashermagazine.com##.above-most.sticky-header-outer-container
@@ -12996,7 +12910,6 @@ thrillist.com##.stack-ad-placeholder
 thriveglobal.com##.js-metabar:style(position: absolute !important;)
 thriveglobal.com##.markup--quote:style(background-image: none !important; background-color: transparent !important; transition: none !important;)
 thriveglobal.com##.popover
-thterrortime.com##.social-nav
 thundersplace.org###mainmenu.default.navlarge.text.fixed.right.navbar:style(position: relative !important; top: 0 !important;)
 thundersplace.org###mainmenu:style(position: relative !important; top: 0 !important;)
 thurrott.com###nav-wrapper:style(position: relative !important; top: 0 !important;)
@@ -13186,8 +13099,6 @@ townandcountrymag.com##.leaderboard-ad
 townandcountrymag.com##.listicle-slide-list-ad.breaker-ad
 townandcountrymag.com##.slide-social-button-group.social-button-group
 townandcountrymag.com##.social-button-link
-townandcountrymag.com##.social-share-button.content-lede-image-social-button.social-button-pinterest.social-button
-townandcountrymag.com##.social-share-button.embed-image-social-button.social-button-pinterest.social-button
 townandcountrymag.com##.standard-article-breaker-ad.article-breaker-ad.breaker-ad
 townandcountrymag.com##.sticky.nav:style(position: relative !important; top: 0 !important;)
 townhall.com###closemenu
@@ -13299,14 +13210,12 @@ trustedreviews.com##.is-absolute.sticky-anchor.header-advert.advert.row
 trustedreviews.com##.menu-social-icons-container
 trustedreviews.com##.nav-social
 trustedreviews.com##.post-byline-inner:style(position: relative !important; top: 0 !important;)
-trustedreviews.com##.social-share
 trustnodes.com###header:style(position: relative !important; top: 0 !important;)
 truth-out.org###t3-mainnav:style(position: relative !important; top: 0 !important;)
 truth-out.org##.ifancybox-overlay-fixed.ifancybox-overlay
 truthdig.com###header-bottom:style(position: relative !important; top: 0 !important;)
 truthdig.com###sticky-sidebar:style(position: relative !important;)
 truthdig.com##.header__newsletter
-truthdig.com##.social-share
 truthrevolt.org##.fancybox-overlay.fancybox-overlay-fixed
 truthrevolt.org##.field-addthis-counter-style
 truthrevolt.org##.field-addthis-default-style
@@ -13440,7 +13349,6 @@ uber.com##body:style(padding-top: 0px !important;)
 ubergizmo.com##.social_buttons_top_nav
 ubergizmo.com##.social_widget_table
 ubi.com###uiTopButton
-ubi.com##.social-nav.navbar-right.navbar-nav.nav
 ubports.com###header-menu:style(position: absolute !important;)
 ubuntu-mate.community##.clearfix.d-header:style(position: absolute !important;)
 ubuntu.com##.clearfix.d-header:style(position: relative !important;)
@@ -13648,7 +13556,6 @@ usjournal.net###mkdf-back-to-top
 usjournal.net##.header-appear.mkdf-sticky-header
 usjournal.net##.mkdf-blog-share
 usjournal.net##.mkdf-icon-has-hover.mkdf-social-icon-widget-holder
-usjournal.net##.mkdf-social-share-widget.widget
 usmagazine.com###header:style(position: relative !important; top: 0 !important;)
 usmagazine.com###module-reading-list:style(position: relative !important; top: 0 !important;)
 usmagazine.com###top-ad-slot-0
@@ -13710,19 +13617,14 @@ vanityfair.com###AMS_VYF_GLOBAL_HEADER
 vanityfair.com###AMS_VYF_HOLLYWOOD_FOOTER
 vanityfair.com###AMS_VYF_INLINE_PROMO
 vanityfair.com###AMS_VYF_INLINE_TEXT
-vanityfair.com##.closed.casper.component-social-share
-vanityfair.com##.closed.colored.component-social-share
-vanityfair.com##.closed.mono-native.component-social-share
 vanityfair.com##.component-newsletter-cta
 vanityfair.com##.component-sponsored-links.component
 vanityfair.com##.connect-container
 vanityfair.com##.expanded.component-riser
-vanityfair.com##.handle.component-social-share.component-social-follow
 vanityfair.com##.hive-riser.hidden.collapsed.offset-meter.component-riser
 vanityfair.com##.lower-nav-scrolled.hive-lower-nav
 vanityfair.com##.lower-nav-scrolled.lower-nav
 vanityfair.com##.modal-content
-vanityfair.com##.mono-native.component-social-share.component-social-follow
 vanityfair.com##.parbase.cn_share_facebook_like.web
 vanityfair.com##.parbase.cn_share_facebook_share
 vanityfair.com##.parbase.cn_share_tweet
@@ -13769,7 +13671,6 @@ velonews.com##.newsletter_position_sidebar.newsletter
 venturebeat.com###omni-navbar:style(position: relative !important; top: 0 !important;)
 venturebeat.com###sticky-wrapper
 venturebeat.com##.medrec-wrapper
-venturebeat.com##.social-shares
 venturebeat.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 verizon.com##.is-sticky.js-nav--condensed.nav--condensed.nav:style(position: relative !important; top: 0 !important;)
 verizon.com##.masthead:style(position: relative !important; top: 0 !important;)
@@ -13804,7 +13705,6 @@ vice.com##.post_footer_social
 vice.com##.site-header--home.site-header:style(position: absolute !important;)
 vice.com##.site-header:style(position: absolute !important;)
 vice.com##.slider-trigger--vice
-vice.com##.social-list
 vice.com##.up-next--visible.up-next
 vice.com##.up-sell
 vice.com##.video-navbar:style(position: relative !important; top: 0 !important;)
@@ -14213,13 +14113,11 @@ weather.com##.styles-9NQaZexm__articleNavigationSticky__17gxM:style(position: ab
 weather.com##.styles-MgjbRUHi__ModalLayout__24Ncp.theme__active__3ea_1.theme__normal__1K3iz.styles-MgjbRUHi__dialog__1mP12.theme__dialog__3lw90
 weather.com##.taboola-module
 weather.com##.visible.flag.sb
-weather.com##.wx-social-share-ls-wrapper
 webmd.com###colorbox
 webmd.com###webmdHoverOverlay
 webmd.com##.global-nav-subscribe
 webmd.com##.is-fixed.ad-101.ad.module
 webmd.com##.is-fixed.global-nav-container:style(position: relative !important; top: 0 !important;)
-webmd.com##.module-social-share-container.module
 webmd.com##.share-mode
 webmd.com##body:style(padding-top: 0px !important;)
 websitesuccesstools.com###scroll
@@ -14239,7 +14137,6 @@ weeklystandard.com###dy_Home_Page_Sub_Promo
 weeklystandard.com###header:style(position: relative !important; top: 0 !important; margin-top: 0px !important;)
 weeklystandard.com###myModal
 weeklystandard.com###newsletter_sign_up_form
-weeklystandard.com###social-share
 weeklystandard.com###supernav
 weeklystandard.com##.ActionBar-items
 weeklystandard.com##.FixedHeader.Page-header:style(position: relative !important;)
@@ -14274,7 +14171,6 @@ weny.com###WNAd43
 weny.com###WNAd52
 wer-weiss-was.de##.clearfix.d-header.ember-view:style(position: absolute !important; top: 0 !important;)
 wereblog.com##.td-affix.td-header-gradient.td-header-menu-wrap:style(position: relative !important; top: 0 !important;)
-wesa.fm##.bottom.social-share
 wesa.fm##.sharing-and-programs.columns.large-2
 wesh.com##.ad-leaderboard
 wesh.com##.ad-rectangle
@@ -14469,8 +14365,6 @@ wired.com##.marg-b-med.sidebar-rad.box.rad
 wired.com##.meta-footer-dig
 wired.com##.pad-b-50.pad-t-50.justify-c.flex-row
 wired.com##.slider-thumbs-wrapper.custom_y_scrollbar_thumbs
-wired.com##.social-share
-wired.com##.social-share-sidebar-component__content
 wired.com##.social-top
 wired.com##.social_bookmarking_module
 wired.com##.subscribe-panel-component--footer.subscribe-panel-component
@@ -14485,7 +14379,6 @@ wireshark.org###masthead:style(position: relative !important; top: 0 !important;
 wireshark.org##.notify
 wisconsingazette.com###site-navbar-container:style(position: relative !important; top: 0 !important;)
 wisconsingazette.com##.hidden-print.asset-paging-container
-wisconsingazette.com##.icon.list-inline.hidden-print.social-share-links
 wisconsinrapidstribune.com##.first-margin:style(margin-top: 0px !important;)
 wisconsinrapidstribune.com##.fixed.header:style(position: absolute !important; top: 0 !important;)
 wisconsinrapidstribune.com##.pluto-video-ready.playlistsmallattophtml5.gallery-video.story-video.js-ui-pluto-video.ui-pluto-video.js-ui-video-init:style(position: static !important;)
@@ -14562,7 +14455,6 @@ wlwt.com##.article-social.js-share-container.share-content
 wlwt.com##.js-sidelist-sticky-menu.article-sidelist
 wlwt.com##.slim-headline:style(position: relative !important; top: 0 !important;)
 wlwt.com##.slim.header:style(position: relative !important; top: 0 !important;)
-wmagazine.com##.closed.squared.component-social-share
 wmagazine.com##.component-cm-footer
 wmagazine.com##.component-newsletter-subscribe-wrapper
 wmagazine.com##.component-social-follow
@@ -14613,8 +14505,6 @@ wnyt.com###sticky-header
 wnyt.com##.preloaded_lightbox
 wogx.com###header:style(position: absolute !important;)
 wogx.com##.show-for-large-up.mod-story-progress.mod-accordion.mod-wrapper
-wogx.com##.social-dropdown
-wogx.com##.social-share
 wolframalpha.com###codezone-footer
 wolframalpha.com###headerad-pro
 wolframalpha.com##.pro-popup-zoom.pro-popup
@@ -14700,7 +14590,6 @@ wsbtv.com###story-sticky-content:style(position: relative !important; top: 0 !im
 wsbtv.com###wrapper:style(padding-top: 0px !important;)
 wsbtv.com##.toggle-slide
 wsbtv.com##.ui-social
-wshu.org##.social-share
 wsj.com###article_tools
 wsj.com###deloitte_column
 wsj.com###expNav
