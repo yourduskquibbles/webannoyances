@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 5:01 PM 2018-04-30
+! Last Modified: 10:01 PM 2018-04-30
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -141,6 +141,7 @@
 ##.connect_blue
 ##.cookie
 ##.cookie-bg
+##.cookie-message
 ##.cookie-notice
 ##.cookie-notice-container
 ##.cookieBox
@@ -254,7 +255,7 @@
 ##.sharify-container
 ##.sharingfooter
 ##.sharrre-container
-##.site-masthead-subscribe-wrap-visible.site-masthead-subscribe-wrap
+##.site-masthead-subscribe-wrap
 ##.site-nav-social-link
 ##.smartbanner
 ##.social
@@ -276,7 +277,8 @@
 ##.social-tools-wrapper
 ##.social-tools-wrapper-bottom
 ##.socialBar
-##.socialToolbar.parbase.socialSharing
+##.socialSharing
+##.socialToolbar
 ##.socials
 ##.socialshares
 ##.story-share-buttons
@@ -346,7 +348,6 @@
 1688.com###j-identity
 1688.com##html:style(overflow-x: hidden !important; overflow-y: auto !important;)
 1843magazine.com###block-mailchimp-signup-newsletter
-1843magazine.com##.cookie-message
 1843magazine.com##.dfp-tag-wrapper
 1843magazine.com##.il-social-links--footer.il-social-links
 1843magazine.com##.masthead:style(position: relative !important; top: 0 !important;)
@@ -3688,7 +3689,6 @@ economist.com###ec-message-3
 economist.com###navbar
 economist.com###piano-exit-pop-up
 economist.com##.blog-post__sharebar
-economist.com##.cookie-message
 economist.com##.ec-footer__list--social.ec-footer__list
 economist.com##.fe-blogs__desktop-beta-bar.beta-bar.bar-wrapper
 economist.com##.fe-blogs__sidebar-ad-wrapper.stickyfill
@@ -8073,27 +8073,10 @@ nbcsandiego.com##.socialNetworks-bottom
 nbcsandiego.com##.socialNetworks-top
 nbcsandiego.com##.stickyNav.navbar:style(position: relative !important; top: 0 !important;)
 nbcsandiego.com##.swiper-container-android.swiper-container-horizontal.quick-nav:style(position: relative !important; top: 0 !important;)
-nbcsports.com###lower-panel
-nbcsports.com###major-events
-nbcsports.com###major-events-container
-nbcsports.com###match-summary
-nbcsports.com###nbc-footer
-nbcsports.com###nbcsports-live-extra-widget:style(position: absolute !important; height: 2772px !important; top: auto !important;)
 nbcsports.com###nbcsports-primary-nav:style(position: absolute !important;)
-nbcsports.com###scoreboard
-nbcsports.com##.acc-high-lvl-stats.accordion__tab-content.summary-tab
-nbcsports.com##.blackout-target.match-scoreboard
-nbcsports.com##.clearfix.banner728-wrap
-nbcsports.com##.go-to-live-container
-nbcsports.com##.main-scoreboard
-nbcsports.com##.match-score-area
-nbcsports.com##.row.clearfix.banner-300-250
 nbcsports.com##.sticky.nbcsports-video-wrapper:style(position: static !important;)
 nbcsports.com##.upper-ad-module
-nbcsports.com##.vod-tray.two-column.row:nth-of-type(5)
 nbcsports.com##.with-scoreboard-ad.scoreboard-container
-nbcsports.com##:xpath(.//*[@id='sherlock'])
-nbcsports.com##clearfix.slider-border
 nbcwashington.com###article_0_ad_square
 nbcwashington.com###tve_cta:style(position: relative !important; top: 0 !important; display: block !important;)
 nbcwashington.com##.News.nav-section > .subnav-large-container:style(margin-top: 0px !important;)
@@ -8812,8 +8795,8 @@ nytimes.com##.nytc---sitesearch---siteSearch
 nytimes.com##.opinion-c-col-bottom-region.region
 nytimes.com##.previous.ribbon-page-navigation-has-data.ribbon-page-navigation
 nytimes.com##.recipe-details-share
+nytimes.com##.recipe-newsletter-signup
 nytimes.com##.ribbon-ad-container.collection-item
-nytimes.com##.robots-nocontent.nocontent.bottom-left-ad.text-ad
 nytimes.com##.series-nav-button
 nytimes.com##.share-button
 nytimes.com##.sharetool
@@ -8822,6 +8805,7 @@ nytimes.com##.sharetools-video-container
 nytimes.com##.show-all-sharetool
 nytimes.com##.show.lie-continue
 nytimes.com##.subColumn-2.noBackground.mobilePromo.nocontent
+nytimes.com##.text-ad
 nytimes.com##.twitter-share
 nytimes.com##.twitter-sharetool
 nytimes.com##.vhs-plugin-imax-playback-metadata-share-tools
@@ -9175,7 +9159,6 @@ pcgamer.com##.socialite.whatsapp
 pcgameshardware.de##.header1:style(position: absolute !important;)
 pcgamesn.com###site-header:style(position: absolute !important; top: 0 !important;)
 pcgamesn.com##.article-social-wrapper
-pcgamesn.com##.cookie-message
 pcgamesn.com##.fa-rss-square.fa
 pcgamesn.com##.fa-steam.fa
 pcmag.com###main-top-nav:style(position: relative !important; top: 0 !important;)
@@ -10771,6 +10754,8 @@ shondaland.com##.nav:style(position: relative !important;)
 shondaland.com##.standard-social-buttons.primary-social-buttons.content-info-social-buttons
 shopplaywin.com##.header:style(position: absolute !important;)
 shotcutapp.com##.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important;)
+shouldiblockit.com###nav-wrap:style(position: relative !important;)
+shouldiblockit.com###siri
 showbiz411.com##.affix.td-menu-wrap.container:style(position: relative !important; top: 0 !important;)
 showbiz411.com##.textwidget
 shreveporttimes.com##.first-margin:style(margin-top: 0px !important;)
@@ -11004,8 +10989,10 @@ sourceforge.net###banner-sterling
 sourceforge.net###nav-social
 sourceforge.net###newsletter-floating
 sourceforge.net##.btn-social.hollow.blue.button
+sourceforge.net##.row.m-kmu
 sourceforge.net##.sandiego.sticky.l-header-nav:style(position: relative !important;)
 sourceforge.net##.social-icons
+sourceforge.net##.social-sharing-buttons
 sourceforge.net##.stuck.l-header-nav-collapse.sandiego.sticky.l-header-nav:style(position: relative !important;)
 sousvideguy.com###site-navigation-sticky-wrapper
 sousvidetools.com##.sticky.add-to-cart-wrapper:style(position: absolute !important;)
@@ -14872,12 +14859,6 @@ zyngaplayerforums.com##.Reactions
 ||mol.im/*/160108_skin_coffee-right.png$image
 ||mol.im/*/b-play.png$image
 ||myfinance.com/*/myFinance.js$script,domain=cnn.com
-||nbc-sports.massrel.io/microsoft-live-extra-social$subdocument
-||nbc-sports.massrel.io/nhl-live-extra-waterfall/$subdocument
-||nbcsports.com/*/1500_stats_bg.jpg$image
-||nbcsports.com/*/Comcast_SSO.png$image
-||nbcsports.com/*/high_level_stats_bg_1500.png$image
-||nbcsports.com/*/nbcsports-bg.jpg$image
 ||ndtv.com/*$inline-script,domain=ndtv.com
 ||onecount.net$script,domain=foreignpolicy.com
 ||onesignal.com^$stylesheet,script
