@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 8:11 AM 2018-05-01
+! Last Modified: 8:21 AM 2018-05-01
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -8801,12 +8801,15 @@ nytimes.com##.nytc---shared---blackBG.nytc---modal-window---isShown.nytc---modal
 nytimes.com##.nytc---sitenav---siteNav:style(position: absolute !important;)
 nytimes.com##.nytc---sitesearch---siteSearch
 nytimes.com##.opinion-c-col-bottom-region.region
+nytimes.com##.post-share-content
+nytimes.com##.post-timestamp > time:style(opacity: 1 !important; transition: none !important;)
 nytimes.com##.previous.ribbon-page-navigation-has-data.ribbon-page-navigation
 nytimes.com##.recipe-details-share
 nytimes.com##.recipe-newsletter-signup
 nytimes.com##.ribbon-ad-container.collection-item
 nytimes.com##.series-nav-button
 nytimes.com##.share-button
+nytimes.com##.share-post:style(transition: none !important; display: none !important;)
 nytimes.com##.sharetool
 nytimes.com##.sharetools
 nytimes.com##.sharetools-video-container
