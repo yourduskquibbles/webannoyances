@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 10:21 AM 2018-05-01
+! Last Modified: 10:58 AM 2018-05-01
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -145,6 +145,8 @@
 ##.cookie-notice
 ##.cookie-notice-container
 ##.cookieBox
+##.cookies
+##.cookies_bar
 ##.et_pb_scroll_top
 ##.et_social_mobile
 ##.et_social_mobile_off
@@ -914,7 +916,6 @@ americanprides.org##.mashsb-container
 americanprogress.org##.row.custom-bg
 americanscientist.org##.article__socialmedia
 americanscientist.org##.nav-down.banner:style(position: absolute !important;)
-amnesty.org##.cookies
 amnesty.org##.header--fixed.header--subnav.header:style(position: relative !important; top: 0 !important;)
 ampproject.org##.masthead:style(position: relative !important; top: 0 !important;)
 amusingplanet.com##.adslot_1.adsbygoogle
@@ -4567,7 +4568,6 @@ foxsports.com##.section-nav:style(position: relative !important; top: 0 !importa
 foxsports.com##.social-bar
 foxsports.com##.three-things-thumbnail
 france24.com##.article-action
-france24.com##.cookies_bar
 france24.com##.header:style(position: relative !important; top: 0 !important;)
 france24.com##.next
 france24.com##.on-air-board-outer:style(position: relative !important; top: 0 !important;)
@@ -10711,7 +10711,8 @@ severalnines.com##.series_nav.page_row
 severalnines.com##.zopim:style(position: absolute !important;)
 sfchronicle.com###fixedCarousel
 sfchronicle.com##.zonePremiumF.zone
-sfexaminer.com###top-nav:style(position: absolute !important;)
+sfexaminer.com###fadelogo:style(display: block !important; opacity: 1 !important;)
+sfexaminer.com###top-nav:style(position: absolute !important; animation: none !important;)
 sfexaminer.com##.fb_iframe_widget.fb-page
 sfexaminer.com##.synved-social-container-share.synved-social-container
 sfgate.com###content:style(padding-top: 84px !important;)
@@ -11193,6 +11194,7 @@ standard.co.uk##.follow-bar
 standard.net###fixed-search:style(position: absolute !important;)
 standard.net###fixed-top:style(position: absolute !important;)
 standardnotes.org##.js-metabar:style(position: absolute !important;)
+stanford.edu##.fixed-top.nav-menu:style(position: absolute !important;)
 stanfordpolitics.org##.left.rect.kiwi-floating-bar
 stanleyhotel.com###topBar:style(position: absolute !important;)
 stanleyhotel.com##.toggle-edit.app-zone.rates:style(position: absolute !important;)
@@ -13621,6 +13623,7 @@ vogue.fr###header:style(position: relative !important; top: 0 !important;)
 vogue.fr##.r1f-widget--large.r1f-labels-true.r1f-header-true.r1f-layout-horizontal.social_header.r1f-widget
 vogue.fr##.social_links.pw-layout-horizontal.ra1-pw_size_small.ra1-pw-classicWidget.pw-widget.pw
 vogue.fr##.social_newsletter
+voidlinux.eu##.navbar-fixed-top.navbar-inverse.navbar-default.navbar:style(position: absolute !important;)
 voidsec.com##.header-loaded.sticky-header.search-sm.header-11.header-corporate:style(padding-bottom: 72px !important;)
 voidsec.com##.header-main:style(position: absolute !important; padding-bottom: 0px !important; transition: none !important;)
 voidsec.com##.share-links
