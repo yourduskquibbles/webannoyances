@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 3:45 PM 2018-05-01
+! Last Modified: 9:56 AM 2018-05-03
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -115,6 +115,7 @@
 ###social-share_2-0
 ###social-sharebar
 ###socialMediaMenu
+###to-top
 ###toTop
 ###to_top_scrollup
 ###topcontrol
@@ -938,7 +939,6 @@ amazon.co.uk##.actor.xrayQuickViewListItem
 amazon.co.uk##.show.xrayQuickView
 amazon.co.uk##.xrayHeaderLink
 amazon.co.uk##.xrayQuickViewList.collectionView
-amazon.com###aws-page-header:style(position: absolute !important;)
 amazon.com###miniATFUDP:style(position: relative !important; top: 0 !important;)
 amazon.com###miniATF_feature_div:style(position: relative !important; top: 0 !important;)
 amazon.com###nav-mobile-airstream-stripe
@@ -1317,6 +1317,8 @@ awfulannouncing.com###mobile-menu:style(position: relative !important; top: 0 !i
 awfulannouncing.com###mobile-nav-menu:style(position: relative !important;)
 awfulannouncing.com##.site-header:style(position: relative !important; top: 0 !important;)
 awfulannouncing.com##.social-icons
+aws.amazon.com###aws-page-header:style(position: absolute !important;)
+aws.amazon.com##.lb-blog-nav:style(position: absolute !important;)
 axios.com##.SocialIcons__button--_Re2H
 axios.com##.active.pinned-up.clone.rebelbar__inner:style(position: relative !important; top: 0 !important;)
 axios.com##.axios-promo.topic-newsletter.topic-alert
@@ -1973,7 +1975,7 @@ businessinsider.com##.jw-reset.jw-dock
 businessinsider.com##.ks-recommended
 businessinsider.com##.ks-rr-editorial
 businessinsider.com##.ks-rr-editorial-2
-businessinsider.com##.l-masthead:style(position: absolute !important; margin-top: 0px !important;)
+businessinsider.com##.l-masthead:style(position: relative !important; margin-top: 0px !important;)
 businessinsider.com##.leaderboard
 businessinsider.com##.linkedin
 businessinsider.com##.main-header:style(position: relative !important; top: 0 !important;)
@@ -2779,6 +2781,7 @@ comicbook.com###oas_MC8
 comicbook.com###oas_MC9
 comicbook.com##.adhesion-block
 comicbook.com##.article-container:style(padding-top: 0px !important;)
+comicbook.com##.middle:style(position: absolute !important;)
 comicbook.com##.o2-in-side-view:style(position: static !important;)
 comicbook.com##.social_blk
 comicbook.com##.sticky.next-article-tease
@@ -5871,6 +5874,7 @@ imgur.com##.transition.icon-arrow-right.nextItem.contextOverlay
 impactbnd.com##.fade.fade--load.blog--scroll--item
 impactbnd.com##.header--sub--topics.header--sub:style(position: absolute !important;)
 implbits.com##.navbar-fixed-top.navbar-inverse:style(position: relative !important; top: 0 !important;)
+in30minutes.com###header-outer:style(position: absolute !important;)
 inc.com###TopNav:style(position: relative !important; top: 0 !important;)
 inc.com###article-share
 inc.com###article-share-footer
@@ -9536,6 +9540,8 @@ pjmedia.com##.header-ad-container
 pjmedia.com##.header-nav-top
 pjmedia.com##.header-social-media
 pjmedia.com##.marketing-popup-display
+pjmedia.com##.marketing-popup-overlay
+pjmedia.com##.marketing-popup-wrapper
 pjmedia.com##.navbar-scroll.main-nav-wrapper.navbar-wrapper:style(position: relative !important; top: 0 !important;)
 pjmedia.com##.pinterest-share-button
 pjmedia.com##.social-buttons-bottom
@@ -10031,6 +10037,7 @@ rachaelrayshow.com##.navbar-stick.navbar:style(position: absolute !important; to
 rachaelrayshow.com##.social-icon
 rachaelrayshow.com##.social-icons
 racked.com###chorus-social-fixed
+racked.com###newsletter-signup-short-form
 racked.com##.c-action-box
 racked.com##.c-global-header__social
 racked.com##.c-newsletter-promo
@@ -10301,7 +10308,6 @@ redfin.com###sideBarContent
 redflagnews.com###headerAnnouncementWrapper:style(position: relative !important; top: 0 !important;)
 redflagnews.com##.visible.sqs-popup-overlay.sqs-widget.yui3-widget
 redhat.com###main-nav-wrap:style(position: relative !important; top: 0 !important;)
-redhat.com###to-top
 redhat.com##.scroll-to-fixed-fixed.mini-bar-inner
 redskins.com###TNFLSubNavigation_main:style(position: relative !important; top: 0 !important;)
 redskins.com###nflMenuHeader:style(position: relative !important; top: 0 !important;)
@@ -12392,7 +12398,6 @@ themaclife.com###header-outer:style(position: relative !important; top: 0 !impor
 themaclife.com###sidebar_form
 themaclife.com###single_header_add_space
 themaclife.com###social-in-menu
-themaclife.com###to-top
 themaclife.com##.header-social
 themarshallproject.org###Layer_1
 themarshallproject.org##.email-onboard-post-footer.email-onboard-inline.email-onboard
@@ -12623,7 +12628,6 @@ thescore.com##.visible-lg.visible-md.tablet-leaderboard
 thescoreesports.com##.Header__header--3jcoj:style(position: absolute !important; top: 0 !important;)
 theseasonedhome.com###goToTop
 theseasonedhome.com##.responsive-nav-wrapper:style(position: relative !important; top: 0 !important;)
-theshaderoom.com###to-top
 theshaderoom.com##.js-progress-bar.nav-sticky__progress-bar
 thesimpledollar.com##.js-masthead-wrapper.masthead-wrapper:style(position: absolute !important;)
 thesmokinggun.com###caulywcnhdiahphejturuivbvferhgecwm
@@ -12929,6 +12933,7 @@ tigerfitness.com###olark-wrapper
 time.com###ad-homepage-content-well
 time.com###first-visit
 time.com###header:style(position: absolute !important; max-width: 100% !important; width: 100% !important; padding-bottom: 10px !important;)
+time.com###jumpstart_video_1:style(position: static !important;)
 time.com###pushdown-ad
 time.com###social-apps
 time.com###time_connect-2
@@ -13355,6 +13360,10 @@ ubuntu.com##.clearfix.d-header:style(position: relative !important;)
 ucsc.edu##.scrolled.row.page-header:style(position: absolute !important;)
 ucsusa.org###header:style(position: relative !important; top: 0 !important;)
 ul.com##.header-toolbar:style(position: relative !important; top: 0 !important;)
+ultimateclassicrock.com###site-menu-wrapper:style(position: relative !important; top: 0 !important;)
+ultimateclassicrock.com##.aside-inside:style(position: absolute !important;)
+ultimateclassicrock.com##.react-parallax-background-children:style(transition: none !important; transform: none !important;)
+ultimateclassicrock.com##.site-menu-drawer:style(transition: none !important; margin-top: 0 !important;)
 und.com###header:style(position: relative !important; top: 0 !important;)
 undark.org###boxzilla-overlay
 undark.org###gform_wrapper_4
@@ -14058,6 +14067,8 @@ wbaltv.com##.slim-headline:style(position: relative !important; top: 0 !importan
 wbaltv.com##.slim.header:style(position: relative !important; top: 0 !important;)
 wbbjtv.com##.col-xs-12.wrapper-top-row
 wbbjtv.com##.ssbp--theme-2.ssbp--.ssbp-wrap.ssbp-set--one
+wben.com###page:style(top: 0 !important;)
+wben.com##.header:style(position: relative !important;)
 wbrc.com###header:style(position: relative !important; top: 0 !important;)
 wbrc.com###toolbar
 wbtv.com###header:style(position: relative !important; top: 0 !important;)
@@ -14098,7 +14109,6 @@ wdsu.com##.slim.header:style(position: relative !important; top: 0 !important;)
 wearemel.com##.js-metabar:style(position: absolute !important;)
 wearemel.com##.js-promo.promo--postFooter.promo
 wearethorn.org###header-outer:style(position: absolute !important; top: 0 !important;)
-wearethorn.org###to-top
 weather.com###fby-tab-3758
 weather.com###navigation
 weather.com###wx-top-wrap
