@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 10:49 AM 2018-05-03
+! Last Modified: 11:54 AM 2018-05-03
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -8854,7 +8854,7 @@ nytimes.com###living-newsletter-promo
 nytimes.com###main-header:style(position: relative !important; top: 0 !important;)
 nytimes.com###masthead-placeholder
 nytimes.com###masthead-social
-nytimes.com###masthead:style(position: relative !important;)
+nytimes.com###masthead:style(position: relative !important; transition: none !important; transform: none !important;)
 nytimes.com###navigation-edge
 nytimes.com###new-york-today-email-promo
 nytimes.com###news-tips-article-promo
@@ -8965,6 +8965,7 @@ nytimes.com##.opinion-c-col-bottom-region.region
 nytimes.com##.post-share-content
 nytimes.com##.post-timestamp > time:style(opacity: 1 !important; transition: none !important;)
 nytimes.com##.previous.ribbon-page-navigation-has-data.ribbon-page-navigation
+nytimes.com##.rad-series-nav:style(position: absolute !important; transition: none !important; margin-top: 0 !important;)
 nytimes.com##.recipe-details-share
 nytimes.com##.recipe-newsletter-signup
 nytimes.com##.ribbon-ad-container.collection-item
@@ -13999,7 +14000,6 @@ washingtonpost.com##.powa-shot-sharing-item.powa-shot-sharing-social.franklin-bo
 washingtonpost.com##.pushdown.pb-ad-container
 washingtonpost.com##.ripple-wrapper
 washingtonpost.com##.row.signup-module
-washingtonpost.com##.separator
 washingtonpost.com##.showSubscription.pb-font-smoothing.pb-subscribe-newsletter.pb-subscribe-promo.pb-subscribe
 washingtonpost.com##.site-header.bar-hidden:style(height: 80px !important; transition: none !important; webkit-transition: none !important; transform: none !important;)
 washingtonpost.com##.subscribe
