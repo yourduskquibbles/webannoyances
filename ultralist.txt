@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:59 AM 2018-05-04
+! Last Modified: 3:05 PM 2018-05-04
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -1336,12 +1336,15 @@ aeon.co##.fancybox-wrap.fancybox-desktop.fancybox-type-inline.newsletter-skin.fa
 aeon.co##.footer-banner
 aeon.co##.footer__social.column
 aeon.co##.friends-article-banner
+aeon.co##.header--fixed--visible
 aeon.co##.header--fixed.header
 aeon.co##.header--top.header:style(position: absolute !important; top: 0 !important;)
+aeon.co##.header-banner
 aeon.co##.lower-share
 aeon.co##.shortcode-inline-newsletter
 aeon.co##.site-menu:style(position: absolute !important; top: 0 !important;)
 aeon.co##.social-hovers.header__social-icons
+aeon.co##.sticky-wrapper
 aeon.co##.sticky-wrapper.hide-for-small:style(position: absolute !important; top: 0 !important;)
 aeon.co##.support-bar
 aerolab.co###crestashareicon
@@ -2316,6 +2319,7 @@ bostonglobe.com##.recircButton__button
 bostonglobe.com##.signup-growler
 bostonglobe.com##.site-header:style(position: relative !important;)
 bostonglobe.com##.sticky-tools--active.sticky-tools:style(position: relative !important;)
+bostonglobe.com##.sticky-tools--visible.sticky-tools
 bostonglobe.com##.subscription-banner__link
 bostonglobe.com##.vjs-share-control
 bostonglobe.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
@@ -8862,6 +8866,7 @@ nytimes.com##.ribbon-ad-container.collection-item
 nytimes.com##.series-nav-button
 nytimes.com##.share-post:style(transition: none !important; display: none !important;)
 nytimes.com##.show.lie-continue
+nytimes.com##.shown
 nytimes.com##.subColumn-2.noBackground.mobilePromo.nocontent
 nytimes.com##.text-ad
 nytimes.com##.vhs-plugin-imax-playback-metadata-share-tools
@@ -10578,6 +10583,7 @@ seekingalpha.com##.portfolio-main.side-portfolio-wrapper:style(position: relativ
 seekingalpha.com##.rta_nav.ver_e
 seekingalpha.com##.sa-app-banner-directive
 seekingalpha.com##.sa-page-content:style(top: 0px !important;)
+seekingalpha.com##.sa-share-btn-wrapper
 seekingalpha.com##.sa-uppercase.sa-article-read-full-article-btn
 seekingalpha.com##.stick-hd:style(padding-top: 0px !important;)
 seekingalpha.com##.tw-svg.sl-tw
@@ -12391,12 +12397,14 @@ thewindowsclub.com##script:inject(setTimeout-defuser)
 thewire.com##.follow-us.small
 thewire.com##.header:style(position: relative !important; top: 0 !important;)
 thewirecutter.com##.ad-728x90
-thewirecutter.com##.desktop-header-wrap:style(height: 126px !important; transition: none !important;)
-thewirecutter.com##.desktop-header:style(transition: none !important;  padding-top: 0px !important; padding-bottom: 0px !important;)
-thewirecutter.com##.js-header-row.header-row:style(transition: none !important; position: relative !important; top: 0 !important; margin-top: 0px !important; padding-top: 0px !important;)
+thewirecutter.com##.desktop-header-wrap:style(height: 126px !important; transition: none !important; background-color: #f9f9f9 !important;)
+thewirecutter.com##.desktop-header:style(transition: none !important;  padding: 0 !important; box-shadow: none !important; background-color: #f9f9f9 !important; height: auto !important;)
+thewirecutter.com##.js-header-row.header-row:style(transition: none !important; position: relative !important; top: 0 !important; margin: 0 !important; padding: 0 !important; background-color: #f9f9f9 !important; height: auto !important; box-shadow: none !important;)
+thewirecutter.com##.mobile-header:style(position: relative !important; box-shadow: none !important; transition: none !important; background-color: #f9f9f9 !important; flex: 1 30% !important;)
 thewirecutter.com##.newsletter
 thewirecutter.com##.newsletter-container
-thewirecutter.com##.site-header:style(transition: none !important; margin-top: 0px !important; padding-top: 0px !important; padding-bottom: 0px !important;)
+thewirecutter.com##.site-header:style(transition: none !important; margin: 0 !important; padding: 0 !important; background-color: #f9f9f9 !important;)
+thewirecutter.com##.sticky-tagline
 thewolfhall.com##.adsbygoogle
 thewolfhall.com##.widget_socialcountplus.widget.td_block_template_1
 thewonderweeks.com###CybotCookiebotDialog
