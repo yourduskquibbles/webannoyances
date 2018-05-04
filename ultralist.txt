@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 9:33 AM 2018-05-04
+! Last Modified: 10:21 AM 2018-05-04
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -6575,10 +6575,10 @@ kohls.com###persistent_bar_container:style(position: relative !important;)
 koin.com###p0
 koin.com##.entry-header-sharing.sd-social-icon.robots-nocontent
 kommersant.ru##.fixed_panel--is_shown.fixed_panel
-komonews.com##.active.v2.sd-header-wrapper.sd-news-header:style(position: relative !important;)
-komonews.com##.sd-header:style(position: relative !important;)
+komonews.com##.sd-header:style(position: relative !important; top: -1px !important;)
 komonews.com##.sd-news-social-placeholder
-komonews.com##.v2.sd-header-wrapper.sd-news-header:style(position: absolute !important;)
+komonews.com##.v2.sd-header-wrapper:style(position: absolute !important; top: -1px !important; transition: none !important;)
+komonews.com##.visible.sd-news-main-footer.component-story-footer-v1
 konbini.com##.fixed-nav
 konbini.com##.in.fade.modal
 koreatimes.co.kr##.view_sns_div
