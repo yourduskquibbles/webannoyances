@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 3:05 PM 2018-05-04
+! Last Modified: 9:50 AM 2018-05-05
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -3093,6 +3093,7 @@ cnn.com##.rs-newsletter-body
 cnn.com##.s-post-footer
 cnn.com##.sibling--next.sibling
 cnn.com##.sibling--previous.sibling
+cnn.com##.social
 cnn.com##.tech-social
 cnn.com##.user-msg-flexbox.headerless.user-msg
 cnn.com##body:style(padding-top: 0px !important;)
@@ -3195,6 +3196,7 @@ comicbook.com##.adhesion-block
 comicbook.com##.article-container:style(padding-top: 0px !important;)
 comicbook.com##.middle:style(position: absolute !important;)
 comicbook.com##.o2-in-side-view:style(position: static !important;)
+comicbook.com##.social_blk
 comicbook.com##.sticky.next-article-tease
 comicbook.com##body > header:style(position: absolute !important; height: auto !important;)
 comicbook.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
@@ -4906,6 +4908,7 @@ foxnews.com##.promo-newsletter.promo
 foxnews.com##.related-media
 foxnews.com##.td-affix.td-menu-background:style(position: relative !important; top: 0 !important;)
 foxnews.com##.video-container:style(position: static !important;)
+foxnews.com##.video-ct.featured-video.featured:style(height: 504px !important; width: auto !important; margin-bottom: 110px !important;)
 foxnews.com##.video-player.m:style(position: static !important;)
 foxsports.com###LayoutNavHeader:style(position: relative !important; top: 0 !important;)
 foxsports.com###body-header-wrapper:style(position: relative !important; top: 0 !important;)
@@ -8056,7 +8059,9 @@ nature.com##.container-type-banner-advert.cleared.container
 nature.com##.container-type-beta-switch-off.cleared.grade-c-hide.container:style(position: relative !important;)
 nature.com##.container-type-cookies-usage.cleared.container
 nature.com##.inline-icon
+nature.com##.js-header-container:style(position: relative !important; padding-top: 0px !important; transition: none !important; transform: none !important;)
 nature.com##.pin-left.cleared.position-relative.js-reading-companion.reading-companion.hide-print > div > .cleared.clear > div:style(position: relative !important; top: 0 !important;)
+nature.com##.social
 nature.com##.sticky-header.tighten-line-height.composite-layer.z-index-100.article-header.js-header.background-gradient-brand-primary.position-relative.hide-print.clear.cleared:style(position: relative !important; top: 0 !important;)
 nature.com##.sticky-header.tighten-line-height.composite-layer.z-index-100.default-header.js-header.background-gradient-brand-primary.position-relative.hide-print.clear.cleared:style(position: relative !important; top: 0 !important;)
 nature.com##body:style(padding-top: 0px !important;)
@@ -9285,13 +9290,13 @@ philly.com##.subscribetoday__inner
 philly.com##.subscribetoday__wrap:style(position: absolute !important;)
 phillyvoice.com###navbar_background:style(position: relative !important; top: 0 !important;)
 phillyvoice.com##.sharrre.article-sharing
-phoenixnewtimes.com##.bottom.ads
+phoenixnewtimes.com###subSticky:style(position: relative !important; top: 50px !important;)
+phoenixnewtimes.com##.ads
 phoenixnewtimes.com##.fb
-phoenixnewtimes.com##.middle.ads
+phoenixnewtimes.com##.is_stuck.side-soc.cs-box:style(position: absolute !important;)
 phoenixnewtimes.com##.other
-phoenixnewtimes.com##.sticky-bar.masthead:style(position: absolute !important; top: 0 !important;)
+phoenixnewtimes.com##.sticky-bar.masthead:after
 phoenixnewtimes.com##.sticky-bar.masthead:style(position: relative !important; top: 0 !important;)
-phoenixnewtimes.com##.top.ads
 phoenixnewtimes.com##.tw
 phonesdownhomerun.com###header:style(position: relative !important; top: 0 !important;)
 phoronix.com###social
@@ -11825,6 +11830,7 @@ theglobeandmail.com##.c-ad--ldbd.c-ad
 theglobeandmail.com##.c-control--social.c-control--primary
 theglobeandmail.com##.c-header-title--article.c-header-title:style(position: absolute !important;)
 theglobeandmail.com##.c-header-title--scrolling-up.c-header-title--show.c-header-title--article.c-header-title:style(position: absolute !important;)
+theglobeandmail.com##.c-header-title__button-containers:style(transition: none !important; transform: none !important;)
 thegolder.com##.td-ss-main-sidebar:style(position: relative !important;)
 thegrio.com###headerbar:style(position: relative !important; top: 0 !important;)
 thegrio.com##.adcontainer
