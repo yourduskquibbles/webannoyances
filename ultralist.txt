@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 10:31 AM 2018-05-07
+! Last Modified: 10:50 AM 2018-05-07
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -83,6 +83,7 @@
 ###go_top
 ###gotoTop
 ###header-social-icons
+###header-tools > .social
 ###indicator-north
 ###indicator-south
 ###js-back-to-top
@@ -787,7 +788,6 @@
 ##.social-likes
 ##.social-likes--sidebar
 ##.social-likes_visible
-##.social-link
 ##.social-link-list
 ##.social-links
 ##.social-links-cell
@@ -6772,7 +6772,7 @@ law360.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !im
 lawandcrime.com###atf:style(padding-top: 26px !important;)
 lawandcrime.com###featured-posts-wrap:style(position: relative !important; top: 0px !important; transition: none !important;)
 lawandcrime.com###header-content:style(transition: none !important;)
-lawandcrime.com###header-tools:style(top: 0px !important; transition: none !important;)
+lawandcrime.com###header-tools:style(position: absolute !important; transition: none !important;)
 lawandcrime.com###live-promo:style(top: 0 !important; transition: none !important;)
 lawandcrime.com###lnn-promo
 lawandcrime.com###logo > img:style(height: 36px !important; width: 180px !important; max-width: 180px !important; transition: none !important;)
@@ -7740,6 +7740,7 @@ motherearthnews.com###mobileHeader:style(position: relative !important; top: 0 !
 mothering.com###socialNav:style(position: relative !important; transition: none !important;)
 mothering.com##.s-facebook
 mothering.com##.s-twitter
+mothering.com##.social-link
 motherjones.com###adblock-message
 motherjones.com###bottom-donate
 motherjones.com###mj-membership-widget-2
@@ -8719,6 +8720,7 @@ nydailynews.com##.ra-share-f
 nydailynews.com##.ra-share-t
 nydailynews.com##.rh-ad
 nylon.com##.nav-stuck.nav:style(position: relative !important; top: 0 !important;)
+nylon.com##.social-link
 nymag.com###ck_digg
 nymag.com###ck_facebook
 nymag.com###ck_sharethis_top
