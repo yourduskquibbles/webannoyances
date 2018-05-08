@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 5:45 PM 2018-05-08
+! Last Modified: 6:30 PM 2018-05-08
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -2816,6 +2816,7 @@ caller.com##.site-nav-item-hidden:style(display: table-cell !important; opacity:
 caller.com##.site-nav-logo-link.site-nav-link:style(width: 0 !important;)
 callername.com###modal
 callername.com##.modal-backdrop
+callername.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute !important;)
 calliesbiscuits.com###header:style(position: relative !important; top: 0 !important;)
 calltothepen.com##.header-billboard
 caloriecalc.net##.is-sticky.topbar:style(position: absolute !important;)
@@ -13785,7 +13786,6 @@ wsbtv.com###story-sticky-content:style(position: relative !important; top: 0 !im
 wsbtv.com###wrapper:style(padding-top: 0px !important;)
 wsbtv.com##.toggle-slide
 wsj.com###article_tools
-wsj.com###deloitte_column
 wsj.com###expNav
 wsj.com###expShareTools
 wsj.com###full-header:style(position: relative !important; top: 0 !important;)
@@ -13793,7 +13793,7 @@ wsj.com###hat_tab_wsj
 wsj.com###in_ad_col_a
 wsj.com###masthead-target
 wsj.com###subscribeNowMediumBar
-wsj.com##.--no-filters.LiveCoverageHeader
+wsj.com##.LiveCoverageHeader
 wsj.com##.LiveCoverageHeader-bar
 wsj.com##.WSJTheme__sector-unit-4_17ImS_zUt3L4vph6TcKkBK.WSJTheme__md-sector_1pJP-9Tul8uo9UZHx-ARin:style(position: relative !important; top: 0 !important;)
 wsj.com##.WSJTheme__sector-unit-4_2lPO_QLJgU7fodGLn8y_3N.WSJTheme__md-sector_11mIcrEevnV1H4euSkENvh:style(position: relative !important; top: 0 !important;)
@@ -13801,7 +13801,6 @@ wsj.com##.WSJTheme__sector-unit-4_3uAJt-50EuvR3ILdIcAPL6.WSJTheme__md-sector_2ld
 wsj.com##.WSJTheme__sector-unit-8_1NbOhnuU6IPKVV4cu-C2Xb.WSJTheme__md-sector_1pJP-9Tul8uo9UZHx-ARin:style(position: relative !important; top: 0 !important;)
 wsj.com##.WSJTheme__sector-unit-8_1sJbmmXus7rqqLAtIWPEr6.WSJTheme__md-sector_2ldy1fE4UGlWw3QDFvEj-t:style(position: relative !important; top: 0 !important;)
 wsj.com##.WSJTheme__sector-unit-8_31FKUe5DL6g9rypZrtu0kk.WSJTheme__md-sector_11mIcrEevnV1H4euSkENvh:style(position: relative !important; top: 0 !important;)
-wsj.com##.adActivate.mobile-top.wsj-ad
 wsj.com##.article-tools-mobile
 wsj.com##.blurred
 wsj.com##.breaking-social
@@ -13809,7 +13808,6 @@ wsj.com##.c-aggregate
 wsj.com##.contentFrame:style(padding-top: 0px !important;)
 wsj.com##.cr_section_1.sector:style(padding-top: 0px !important;)
 wsj.com##.customerNav:style(position: relative !important; top: 14px !important; height: 50px !important; max-width: 300px !important; float: right !important; left: 0 !important;)
-wsj.com##.f-r.video-share-b
 wsj.com##.footer_bar
 wsj.com##.fyre-flag-link
 wsj.com##.fyre-share-link
@@ -13825,11 +13823,10 @@ wsj.com##.mega-nav.scrolled+*:style(margin-top: 0px !important; padding-top: 0px
 wsj.com##.mega-nav.scrolled:style(position: relative !important; top: 0 !important; margin-top: 0px !important;)
 wsj.com##.mega-nav:style(position: relative !important; top: 0 !important;)
 wsj.com##.mobile-nav.stuck
-wsj.com##.native-bucket.wsj-ad
 wsj.com##.nc-exp-ad
 wsj.com##.nc-exp-nav:style(position: absolute !important; top: 0 !important;)
 wsj.com##.nc-exp-social-li
-wsj.com##.nc-exp-sociallabel.nc-exp-icon-wrap
+wsj.com##.nc-exp-sociallabel
 wsj.com##.ob_strip_container.SB_2
 wsj.com##.popC.connect.popClosed.popClose
 wsj.com##.scope-web\|mobileapps.wrap.media-object
@@ -13878,10 +13875,12 @@ wsj.com##.styles__sector-unit-4_2Br0pVgHL_9uiZ7SjfkdPu.styles__md-sector_25BZ8oc
 wsj.com##.styles__sector-unit-8_3phLezaz5L2o8aja481Bjm.styles__md-sector_25BZ8ocm0Q-M_AHiAOsaor:style(position: relative !important; top: 0 !important;)
 wsj.com##.temp-subscribe[href="https://subscribe.wsj.com/hpheaderlink"]
 wsj.com##.toggleBtn
-wsj.com##.topLinks.clearFix
+wsj.com##.topLinks
 wsj.com##.type-InsetNewsletterSignup
 wsj.com##.unsubNav.signin-container.module-navigation:style(position: relative !important; top: 0 !important;)
+wsj.com##.video-share-b
 wsj.com##.vltSocialLinks
+wsj.com##.wsj-ad
 wsj.com##.wsj-amp-share
 wsj.com##.wsj-body-ad-placement
 wsj.com##.wsj-immersive-ad-placement
