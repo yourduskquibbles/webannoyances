@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 9:25 AM 2018-05-08
+! Last Modified: 12:02 PM 2018-05-08
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -2442,8 +2442,7 @@ bloomberg.com##.highlights-v6-story__social
 bloomberg.com##.in-article-ad-dummy
 bloomberg.com##.inline-newsletter
 bloomberg.com##.mobile-box-ad-dummy
-bloomberg.com##.navi:style(position: relative !important;)
-bloomberg.com##.navi:style(top: 0 !important; transition: none !important;)
+bloomberg.com##.navi:style(position: relative !important; top: 0 !important; transition: none !important;)
 bloomberg.com##.persist-nav.bb-nav-root
 bloomberg.com##.recirc.rotation-item:style(transition: none !important; transform: none !important; opacity: 1 !important; max-height: 2000px !important;)
 bloomberg.com##.sticky-container:style(position: static !important; top: 0px !important;)
@@ -3340,9 +3339,8 @@ cntraveler.com##.isStartOfPage.transparent.site-header:style(position: relative 
 cntraveler.com##.isVisible.isFixed.isHidden.transparent.global-header:style(position: absolute !important;)
 cntraveler.com##.navIsFixed.site-header:style(position: relative !important; top: 0 !important;)
 cntraveler.com##.play.scroll-to:style(position: relative !important; top: 0 !important;)
-cntraveler.com##.recirc-riser--sticky.expanded.recirc-riser
-cntraveler.com##.shop.scroll-to:style(position: relative !important; top: 0 !important;)
-cntraveler.com##.stay.scroll-to:style(position: relative !important; top: 0 !important;)
+cntraveler.com##.recirc-riser
+cntraveler.com##.scroll-to:style(position: relative !important; top: 0 !important;)
 co-opfs.org##.my-modal-target.customer-service-btn
 co-opfs.org##.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important;)
 coach.me##.js-metabar:style(position: absolute !important;)
@@ -3937,8 +3935,7 @@ decider.com###nyp-newsletter-modal
 decider.com###recirc:style(position: relative !important; top: 0 !important;)
 decider.com##.decider-sharedaddy-wrapper
 decider.com##.fixedsticky-on:style(position: absolute !important;)
-decider.com##.recirc__sticky.slideDown
-decider.com##.recirc__sticky.slideUp
+decider.com##.recirc__sticky
 decider.com##.story__meta__share-count
 decider.com##.widget_nypost_decider_social_connect_widget
 deepai.org###mainNav:style(position: absolute !Important;)
@@ -3957,9 +3954,8 @@ defenseone.com##.d1-article-left-rail-subscribe-container
 defenseone.com##.d1-article-sidebar-subscribe-container
 defenseone.com##.d1-social-article
 defenseone.com##.d1-sticky-nav-inner:style(position: relative !important; top: 0 !important;)
-defenseone.com##.d1-sticky-nav-stick.d1-sticky-nav
 defenseone.com##.d1-sticky-nav:style(position: absolute !important;)
-defenseone.com##.hidetablet.hidemobile.d1-top-ad
+defenseone.com##.d1-top-ad
 defenseone.com##.logo.large-logo > .featured-home-page[href="http://defenseone.com"]
 dein-web-design.de##.navbar-small.mega.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important;)
 dein-web-design.de##.navbar-small:style(min-height: 75px !important; background-color: #000000 !important;)
@@ -8715,6 +8711,7 @@ nypost.com###nyp-newsletter-modal
 nypost.com###page-header:style(position: relative !important; top: 0 !important; transform: none !important; transition: none !important;)
 nypost.com##.modal-trigger
 nypost.com##.nyp-sitewide-notice
+nypost.com##.recirc
 nypost.com##.widget_nypost_social_widget.module.show-mobile.box
 nypost.com##body:style(margin-top: 0px !important;)
 nytimes.com###HPBottom2
@@ -10590,9 +10587,9 @@ si.com##.mobile-ad.adhesion-ad.component
 si.com##.nav-placeholder
 si.com##.newsletter-callout.component
 si.com##.nl-container
-si.com##.padding-24.top-rule.clearfix.recirc-container
 si.com##.primary.container:style(position: relative !important; top: 0 !important;)
 si.com##.promo.container-full-width.bucket.component
+si.com##.recirc-container
 si.com##.sticky-parent.full-column.ad-wrapper
 si.com##.ui-button.ui-button-close.small.is-fixed
 si.com##header:style(position: relative !important; top: 0 !important; overflow-x: hidden !important; overflow-y: hidden !important;)
