@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 3:58 PM 2018-05-08
+! Last Modified: 5:33 PM 2018-05-08
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -5625,20 +5625,20 @@ guns.com##.widget_guns_social_links_widget.widget
 gunsamerica.com###enterZip2
 gust.com##nav:style(position: relative !important; top: 0 !important;)
 haaretz.com###footer-toolbar
-haaretz.com###masthead--b:style(position: relative !important; top: 0 !important;)
-haaretz.com###masthead:style(position: absolute !important; top: 0 !important;)
-haaretz.com###osaka-wrapper
+haaretz.com###masthead--b:style(position: relative !important; top: 0 !important; transform: none !important;)
+haaretz.com###masthead:style(position: absolute !important; top: 0 !important; transform: none !important;)
+haaretz.com###osaka-wrapper:style(position: absolute !important;)
 haaretz.com###social-bar
 haaretz.com##.as.l-fluid:style(padding-top: 5px !important;)
 haaretz.com##.emb-wrapper
 haaretz.com##.footer-ruler
-haaretz.com##.h-mb--flush--l.h-mb.as--four-up--xxtight--l.footer__tools.nav
-haaretz.com##.h-mb.h-hidden--to-l.islet.has-modal.newsletterBox.newsletterInarticle.newsletter
-haaretz.com##.has-modal.h-mt--loose.islet.newsletter
+haaretz.com##.footer__tools
+haaretz.com##.h-posf:style(transform: none !important;)
 haaretz.com##.mh__social
 haaretz.com##.modal-wrapper--dark.modal-wrapper--fixed.modal-wrapper
+haaretz.com##.newsletter
+haaretz.com##.newsletter--ruler
 haaretz.com##.pn__share
-haaretz.com##.ribbon-stick-wrapper.js-stick-wrapper
 haaretz.com##.special-news--blue.special-news
 haaretz.com##.subscrOptWide
 haaretz.com##.verticleTabsFacebook
@@ -10626,6 +10626,7 @@ silive.com##.sticky-nav:style(position: relative !important; top: 0 !important; 
 silive.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 similarsites.com###header:style(position: relative !important;)
 similarsites.com###sticky_install_div
+similarweb.com###js-header:style(position: absolute !important;)
 similarweb.com###js-stickyElement
 similarweb.com##.postPage-social
 simplehuman.com##.meshim_widget_components_mobileChatButton_TappingScreen
