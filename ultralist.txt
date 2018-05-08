@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 8:30 AM 2018-05-08
+! Last Modified: 9:25 AM 2018-05-08
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -2728,13 +2728,16 @@ businessinsider.com##.toolbar.masthead:style(position: relative !important; top:
 businessinsider.com##.tp-active.tp-backdrop
 businessinsider.com##.tp-modal
 businessinsider.com##html:style(overflow-x: hidden !important; overflow-y: auto !important;)
-businessinsider.com.au###masthead:style(position: relative !important; top: 0 !important;)
+businessinsider.com.au###masthead:style(position: relative !important;)
 businessinsider.com.au###mc-signup-in-post
 businessinsider.com.au###mc_signup
+businessinsider.com.au###network:style(position: relative !important;)
 businessinsider.com.au##.adspot-300x250-pos1-container
 businessinsider.com.au##.adspot-300x600-pos2-container
-businessinsider.de##.condensed.masthead:style(position: relative !important; top: 0 !important;)
+businessinsider.com.au##body:style(padding-top: 0 !important;)
 businessinsider.de##.links-promo
+businessinsider.de##.masthead:style(position: relative !important;)
+businessinsider.de##body:style(padding-top: 0 !important;)
 businessinsider.in###TopNavs
 businessinsider.in###nlFormSlide
 businessoffashion.com##.color-brand-white.background-gray-darkest.small-font.text-center.navbar-notification.navbar.navbar-default
