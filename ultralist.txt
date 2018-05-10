@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:28 AM 2018-05-10
+! Last Modified: 4:32 PM 2018-05-10
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -3801,6 +3801,7 @@ dailymail.co.uk###swipeIndicator
 dailymail.co.uk###textShare
 dailymail.co.uk##.bdrcc.rotator
 dailymail.co.uk##.copyToClipboard
+dailymail.co.uk##.facebook-like-static
 dailymail.co.uk##.fff-social-links
 dailymail.co.uk##.floating-no-ads.has-button-share-facebook.floating-buttons
 dailymail.co.uk##.home.cc:style(position: relative !important; top: 0 !important; transform: none !important; transition: none !important;)
@@ -5948,11 +5949,13 @@ huckmagazine.com##.first.twelvecol.header:style(position: relative !important; t
 huffingtonpost.com###badges_v2_1
 huffingtonpost.com###chicklets
 huffingtonpost.com###float_tracker
+huffingtonpost.com###guce-inline-consent-iframe
 huffingtonpost.com###inline-newsletter_placeholder
 huffingtonpost.com###next-entry
 huffingtonpost.com###orbot300x225-article
 huffingtonpost.com###orbot580x190-article
 huffingtonpost.com###social-subscribe-search
+huffingtonpost.com###top-media:style(position: static !important;)
 huffingtonpost.com##.active.header-social:style(position: relative !important; top: 0 !important;)
 huffingtonpost.com##.advertisement
 huffingtonpost.com##.alert_animate.bn-masthead.js-desktop-alerts-signup.desktop-alerts-signup
@@ -5979,6 +5982,7 @@ huffingtonpost.com##.rail.fix
 huffingtonpost.com##.recirc--page.recirc--vertical.recirc--more-on.recirc--trending.recirc.loaded.js-scroll.component
 huffingtonpost.com##.right-rail
 huffingtonpost.com##.sbm-main-new.clearfix
+huffingtonpost.com##.share-bar
 huffingtonpost.com##.upper-icons-wrapper
 huffingtonpost.com##.valencia-footer
 huffpost.com##.app-download-interstitial
@@ -7645,6 +7649,11 @@ mnn.com##.site-header--eclipse.site-header:style(position: relative !important; 
 mnn.com##.site-header:style(position: absolute !important;)
 mnn.com##.site-header__top-facebook
 mnn.com##.site-header__top-twitter
+mobile.reuters.com##.header-main.group.header:style(height: 54px !important; transition: none !important;)
+mobile.reuters.com##.header-mini-buttons
+mobile.reuters.com##.header-mini.header-pane-main:style(height: 54px !important; transition: none !important;)
+mobile.reuters.com##.reuters-nav-buttons:style(display: block !important; opacity: 1 !important;)
+mobile.reuters.com##.section-nav:style(transition: none !important; padding-top: 0 !important;)
 mobile.twitter.com###react-root > .rn-ipm5af.rn-zchlnj.rn-u8s1d.rn-1d2f490
 mobile.twitter.com##.GgYynIub._3rF86cXC:style(position: absolute !important;)
 mobile.twitter.com##.LqlkGmch:style(position: absolute !important;)
@@ -10073,6 +10082,7 @@ retailmenot.com##.genie-banner
 retropie.org.uk###header-menu:style(position: absolute !important;)
 retropie.org.uk##.md-header:style(position: absolute !important;)
 reuters.com###breakingNewsContainer:style(position: relative !important; top: 0 !important;)
+reuters.com###content:style(margin-top: 24px !important;)
 reuters.com###progressbar:style(position: absolute !important;)
 reuters.com###reutersAppBanner
 reuters.com###section-follow-buttons
