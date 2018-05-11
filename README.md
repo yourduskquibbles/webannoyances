@@ -30,7 +30,7 @@ Browser specific download locations are located below:
 ## Installation Instructions
 From uBlock Origin settings panel, navigate to the 'Filter Lists' tab and scroll to the bottom under the 'Custom' section.
  
-Subscribe by ticking the 'Import' checkbox and pasting the following URL into the expanded field entry.
+Subscribe by ticking the 'Import' checkbox and pasting the following URL into the expanded field entry and then clicking on the 'Apply Changes' button at top right of screen.
 https://raw.githubusercontent.com/yourduskquibbles/webannoyances/master/ultralist.txt
 
 ### Installation Demonstration 
