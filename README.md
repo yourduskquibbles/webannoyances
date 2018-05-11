@@ -28,9 +28,9 @@ Browser specific download locations are located below:
 - [uBlock Origin for Mozilla FireFox for Android](https://addons.mozilla.org/EN-US/android/addon/ublock-origin/) 
 
 ## Installation Instructions
-From uBlock Origin settings panel, navigate to the '3rd-party filters' tab and scroll to the bottom under the 'Custom' section.
+From uBlock Origin settings panel, navigate to the 'Filter Lists' tab and scroll to the bottom under the 'Custom' section.
  
-Subscribe by pasting the following URL into the 'Custom' section at the bottom of the '3rd-party filters' tab: 
+Subscribe by ticking the 'Import' checkbox and pasting the following URL into the expanded field entry.
 https://raw.githubusercontent.com/yourduskquibbles/webannoyances/master/ultralist.txt
 
 ### Installation Demonstration 
