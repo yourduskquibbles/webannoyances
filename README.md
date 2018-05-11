@@ -29,13 +29,9 @@ Browser specific download locations are located below:
 
 ## Installation Instructions
 1. Click the uBO icon ![ublockicon_16x16](https://user-images.githubusercontent.com/22258847/39936895-7ca7a8fc-553d-11e8-9496-45a96b623614.png) in your browser bar to open the uBlock Origin popup panel.
-2. Click the settings icon ![Hamburger Settings Icon](https://user-images.githubusercontent.com/22258847/39938114-5dc5cf00-5541-11e8-996d-5d583611f76f.png) in the popup panel.
-
-![Popup Panel](https://user-images.githubusercontent.com/22258847/39938362-37c58cf4-5542-11e8-8203-57fc5a78a3d7.png)
-
-3. From uBlock Origin Dashboard, navigate to the 'Filter lists' tab.
-![filterlists](https://user-images.githubusercontent.com/22258847/39937403-1da7b8b8-553f-11e8-865a-73a3f2fa4bb8.PNG)
-4. Under the 'Custom' section at the bottom of the page, subscribe to the list by ticking the 'Import...' checkbox and pasting the following URL into the expanded field entry:
+2. Click the settings icon ![Hamburger Settings Icon](https://user-images.githubusercontent.com/22258847/39938114-5dc5cf00-5541-11e8-996d-5d583611f76f.png) in the [popup panel](https://user-images.githubusercontent.com/22258847/39938362-37c58cf4-5542-11e8-8203-57fc5a78a3d7.png).
+3. From uBlock Origin Dashboard, navigate to the ['Filter lists'](https://user-images.githubusercontent.com/22258847/39937403-1da7b8b8-553f-11e8-865a-73a3f2fa4bb8.PNG) tab.
+4. Under the ['Custom'](https://user-images.githubusercontent.com/22258847/39937753-3e898876-5540-11e8-98f0-e192350ee1f8.PNG) section at the bottom of the page, subscribe to the list by ticking the 'Import...' checkbox and pasting the following URL into the expanded field entry:
 
 `https://raw.githubusercontent.com/yourduskquibbles/webannoyances/master/ultralist.txt`
 
