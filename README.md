@@ -32,11 +32,13 @@ Browser specific download locations are located below:
 2. Click the hamburger icon in the popup panel (outlined in red in the screen shot below) to 'Open the dashboard'.
 ![uBO settings](https://user-images.githubusercontent.com/22258847/39936478-22c8d618-553c-11e8-8995-123ebef6e537.png)
 3. From uBlock Origin Dashboard, navigate to the 'Filter Lists' tab.
+![filterlists](https://user-images.githubusercontent.com/22258847/39937403-1da7b8b8-553f-11e8-865a-73a3f2fa4bb8.PNG)
 4. Under the 'Custom' section at the bottom of the page, subscribe to the list by ticking the 'Import...' checkbox and pasting the following URL into the expanded field entry:
 
 `https://raw.githubusercontent.com/yourduskquibbles/webannoyances/master/ultralist.txt`
+![Filterlist Import](https://user-images.githubusercontent.com/22258847/39937753-3e898876-5540-11e8-98f0-e192350ee1f8.PNG)
 
-5. Click on 'Apply changes' button at top right of screen.
+5. Click on ![Apply changes](https://user-images.githubusercontent.com/22258847/39937854-92c5d6c4-5540-11e8-9559-99c2923f896b.png) button at top right of screen.
 
 ### Installation Demonstration 
 Still having trouble installing the list? Try watching the gif below which shows the installation procedure.
