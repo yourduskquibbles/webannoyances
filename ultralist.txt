@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 9:04 AM 2018-05-11
+! Last Modified: 10:03 AM 2018-05-11
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -1430,10 +1430,9 @@
 9to5mac.com##.news-feed-header:style(position: relative !important; top: 0 !important;)
 @@||100percentfedup.com^$generichide
 @@||c-span.org^$generichide
-@@||disqus.com/count.js
-@@||disqus.com/embed.js
 @@||facebook.com/common/referer_frame.php$subdocument,domain=facebook.com
 @@||foodtank.com^$generichide
+@@||github.com^$generichide
 @@||loxodo-analytics.ext.nile.works/api/save$xmlhttprequest,domain=washingtonpost.com
 @@||s1.wp.com/*/vip-analytics.js^$script,domain=rare.us
 aaa.com##.bottomcontainerBox
@@ -8996,6 +8995,7 @@ oregonlive.com##.sticky-nav:style(position: relative !important; top: 0 !importa
 oregonlive.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 oregonscientific.com###menu:style(position: relative !important;)
 oregonscientific.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
+orientxxi.info##.bouton_menu > label:style(position: relative !important;)
 origins.com###cboxOverlay
 origins.com###colorbox
 origins.com##.page-header:style(position: absolute !important;)
@@ -13977,7 +13977,9 @@ wusa9.com###alert-0
 wusa9.com##.close.close-overlay
 wusa9.com##.header-main:style(position: relative !important; top: 0 !important;)
 wusa9.com##.is_stuck.site-nav:style(position: relative !important; top: 0 !important;)
+wusa9.com##.page__desktop-header:style(position: absolute !important;)
 wusa9.com##.site-footer-social-icon-list-var-width.site-footer-social-icon-list
+wusa9.com##.video__inner:style(position: static !important;)
 wvgazettemail.com###articleFontSize
 wvgazettemail.com###bodyArticleControlContainer
 wvgazettemail.com###nightReadingMode
@@ -14163,6 +14165,7 @@ yp.sg##.navbar-visible.navbar-stuck.social-disabled.navbar-center.navbar-primary
 yp.sg##.post-sidebar
 yp.sg##.posts-pagination
 yp.sg##.sidebar:style(position: absolute !important;)
+yubico.com##.av-share-box
 yucalc.com##.height-full._.vc_custom_1490276061379.column_container.wpb_column.vc_col-sm-10
 yucalc.com##.js-bottom-corner-btns.bottom-corner-btns
 yucalc.com##.mk-header-holder:style(position: absolute !important; top: 0 !important;)
