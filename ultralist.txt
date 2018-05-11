@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 2:59 PM 2018-05-11
+! Last Modified: 7:02 PM 2018-05-11
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -78,6 +78,8 @@
 ###cookiesdirective
 ###cookieswrapper
 ###cookiewarn
+###ctpl-fullbanner-spacer
+###ctpl-fullbanner1
 ###custom-share-button
 ###dfp_leaderboard
 ###dream-box
@@ -88,6 +90,7 @@
 ###facebookShare
 ###fb-container
 ###fb-slider
+###fixie
 ###fl-to-top
 ###footer-social
 ###footer-social-nav
@@ -249,6 +252,7 @@
 ###stickyShare
 ###story-share-buttons
 ###story-share-buttons-old
+###sub_nonmember
 ###to-top
 ###toTop
 ###to_top_scrollup
@@ -286,6 +290,7 @@
 ##.a2a_kit
 ##.actnbr-has-follow
 ##.actnbr-pub-isola
+##.ad-point
 ##.addthis
 ##.addthis-button
 ##.addthis_button_expanded
@@ -363,6 +368,7 @@
 ##.bx-impress.bx-fx-zoom-in
 ##.bx-shroud.bx-matte
 ##.bx-slab
+##.bxc
 ##.c-pinterest-button
 ##.c-social-buttons
 ##.c-social-buttons--popover
@@ -411,7 +417,9 @@
 ##.cookies
 ##.cookies_bar
 ##.count-shares
+##.ctpl-fullbanner
 ##.ddb
+##.desktop-vertical-social-tools-wrapper
 ##.df-social-share
 ##.display-share
 ##.entry-bottom-share
@@ -578,6 +586,9 @@
 ##.highlightMenu-arrow
 ##.highlightMenu-arrowClip
 ##.highlightMenu-inner
+##.hst-articletools
+##.hst-articletools2
+##.hst-freeform
 ##.hupso-share-buttons
 ##.icon-fa-facebook-official
 ##.icon-fa-twitter
@@ -629,6 +640,7 @@
 ##.jw-dock-button
 ##.jw-sharing-dock-btn
 ##.kac-sm-panel
+##.leaderboard
 ##.linkedIn
 ##.linkedin
 ##.linkedin-icon-wrap
@@ -3110,10 +3122,12 @@ chromestatus.com##app-header:style(position: relative !important; top: 0 !import
 chromestatus.com##footer
 chromeunboxed.com##.stb-top-left-container.stb-container
 chromium.org##.__crdxFeedbackButton
-chron.com###siteNav:style(position: relative !important; top: 0 !important;)
-chron.com###sub_nonmember
-chron.com##.hdnce-item-12450.hdnce-e.hst-freeform
-chron.com##.leaderboard
+chron.com###homepage-timestamp:style(position: absolute !important;)
+chron.com###menuBar:style(position: absolute !important; top: 50px !important;)
+chron.com###siteNav:style(position: absolute !important; transform: none !important; top: 50px !important;)
+chron.com###subHead:style(transform: none !important;)
+chron.com##.hearst-jwplayer-position:style(position: relative !important;)
+chron.com##.topnav:style(position: relative !important;)
 chronicle.com###nav-persistent__container:style(position: relative !important; top: 0 !important;)
 chronicle.com##.content-item__share--buttons
 chronicle.com##body:style(padding-top: 0px !important; overflow-x: hidden !important; overflow-y: auto !important;)
@@ -3717,6 +3731,12 @@ csoonline.com###banner:style(position: relative !important; top: 0 !important;)
 csra.com##.region-sticky-header.region:style(position: relative !important; top: 0 !important;)
 css-tricks.com##.footer-newsletter.site-footer
 css-tricks.com##.module-ad.module
+ctpost.com###homepage-timestamp:style(position: absolute !important;)
+ctpost.com###menuBar:style(position: absolute !important; top: 50px !important;)
+ctpost.com###siteNav:style(position: absolute !important; transform: none !important; top: 50px !important;)
+ctpost.com###subHead:style(transform: none !important;)
+ctpost.com##.hearst-jwplayer-position:style(position: relative !important;)
+ctpost.com##.topnav:style(position: relative !important;)
 cts-labs.com##.positioned-fixed.forwardLayerEvents.is-page-child.clickable-element.user-selectable-element.group-element.design-element:style(position: absolute !important;)
 ctvnews.ca##.mobileBoxAd
 cubbiescrib.com###Adfactory_mobile_inline_300x250__mobile
@@ -5590,6 +5610,12 @@ greenvilleonline.com##.site-header-inner-wrap-fixed:style(position: absolute !im
 greenvilleonline.com##.site-masthead-search-wrap:style(height: 80px !important;)
 greenvilleonline.com##.site-nav-item-hidden:style(display: table-cell !important; opacity: 1 !important; visibility: visible !important;)
 greenvilleonline.com##.site-nav-logo-link.site-nav-link:style(width: 0 !important;)
+greenwichtime.com###homepage-timestamp:style(position: absolute !important;)
+greenwichtime.com###menuBar:style(position: absolute !important; top: 50px !important;)
+greenwichtime.com###siteNav:style(position: absolute !important; transform: none !important; top: 50px !important;)
+greenwichtime.com###subHead:style(transform: none !important;)
+greenwichtime.com##.hearst-jwplayer-position:style(position: relative !important;)
+greenwichtime.com##.topnav:style(position: relative !important;)
 grepular.com###hire-me-banner:style(position: relative !important; top: 0 !important;)
 greyenlightenment.com##.site-toggles > .main-navigation-toggle:style(position: absolute !important;)
 greyenlightenment.com##.site-toggles > .widget-area-toggle:style(position: absolute !important;)
@@ -7065,10 +7091,12 @@ livingstondaily.com##.site-header-inner-wrap-fixed:style(position: absolute !imp
 livingstondaily.com##.site-masthead-search-wrap:style(height: 80px !important;)
 livingstondaily.com##.site-nav-item-hidden:style(display: table-cell !important; opacity: 1 !important; visibility: visible !important;)
 livingstondaily.com##.site-nav-logo-link.site-nav-link:style(width: 0 !important;)
-lmtonline.com###ctpl-fullbanner1
-lmtonline.com###menuBar:style(position: absolute !important;)
-lmtonline.com###siteNav:style(position: absolute !important;)
-lmtonline.com##.news.page-content:style(margin-top: 50px !important;)
+lmtonline.com###homepage-timestamp:style(position: absolute !important;)
+lmtonline.com###menuBar:style(position: absolute !important; top: 50px !important;)
+lmtonline.com###siteNav:style(position: absolute !important; transform: none !important; top: 50px !important;)
+lmtonline.com###subHead:style(transform: none !important;)
+lmtonline.com##.hearst-jwplayer-position:style(position: relative !important;)
+lmtonline.com##.topnav:style(position: relative !important;)
 loadoutroom.com##.enews-widget.widget
 loadoutroom.com##.fix-menu.nav-secondary:style(position: relative !important; top: 0 !important;)
 loadoutroom.com##.ubermenu-column-auto.ubermenu-column.ubermenu-item-level-0.ubermenu-item-18799.ubermenu-item-object-custom.ubermenu-item-type-custom.ubermenu-item.join-gear-club
@@ -7570,6 +7598,12 @@ michaelzimmer.org###main-header:style(position: absolute !important;)
 michaelzimmer.org###top-header:style(position: absolute !important;)
 michigan.com###affx:style(position: absolute !important; top: 0 !important;)
 michigan.com##.news-bar.container-fluid:style(position: absolute !important; top: 0 !important;)
+michigansthumb.com###homepage-timestamp:style(position: absolute !important;)
+michigansthumb.com###menuBar:style(position: absolute !important; top: 50px !important;)
+michigansthumb.com###siteNav:style(position: absolute !important; transform: none !important; top: 50px !important;)
+michigansthumb.com###subHead:style(transform: none !important;)
+michigansthumb.com##.hearst-jwplayer-position:style(position: relative !important;)
+michigansthumb.com##.topnav:style(position: relative !important;)
 microg.org##.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important;)
 microsoft.com###epb
 microsoft.com##.hidden-rsp.site-survey-opener
@@ -7586,6 +7620,12 @@ midas.com##.show-for-small-only.sticky-mobile-bar.title-bar-background.title-bar
 midcenturymenu.com###fsidebar1
 middleeasteye.net##.field-label-hidden.field-type-ds.field-name-social-links.field
 middleeastmonitor.com###navigation:style(position: relative !important; top: 0 !important;)
+middletownpress.com###homepage-timestamp:style(position: absolute !important;)
+middletownpress.com###menuBar:style(position: absolute !important; top: 50px !important;)
+middletownpress.com###siteNav:style(position: absolute !important; transform: none !important; top: 50px !important;)
+middletownpress.com###subHead:style(transform: none !important;)
+middletownpress.com##.hearst-jwplayer-position:style(position: relative !important;)
+middletownpress.com##.topnav:style(position: relative !important;)
 midwayusa.com###recentlyviewed
 midwayusa.com###rvWrapper:style(position: relative !important; top: 0 !important;)
 mikrotik.com##.stuck.clearfix.utility-bar:style(position: absolute !important;)
@@ -7845,6 +7885,12 @@ mprnews.org###collectionAd:style(position: relative !important;)
 mprnews.org###membership-ad-frame-wrapper
 mprnews.org###paginators
 mrctv.org###top-nav:style(position: relative !important; top: 0 !important;)
+mrt.com###homepage-timestamp:style(position: absolute !important;)
+mrt.com###menuBar:style(position: absolute !important; top: 50px !important;)
+mrt.com###siteNav:style(position: absolute !important; transform: none !important; top: 50px !important;)
+mrt.com###subHead:style(transform: none !important;)
+mrt.com##.hearst-jwplayer-position:style(position: relative !important;)
+mrt.com##.topnav:style(position: relative !important;)
 msn.com###header-common.stick-enabled::before:style(height: 0 !important;)
 msn.com###header-common::before
 msn.com###msccBanner
@@ -7944,6 +7990,12 @@ myfoxdc.com###csFollowUs
 myfoxdc.com##.yui-img
 myfoxny.com###WNStoryUtils
 myfoxny.com###csFollowUs
+myjournalcourier.com###homepage-timestamp:style(position: absolute !important;)
+myjournalcourier.com###menuBar:style(position: absolute !important; top: 50px !important;)
+myjournalcourier.com###siteNav:style(position: absolute !important; transform: none !important; top: 50px !important;)
+myjournalcourier.com###subHead:style(transform: none !important;)
+myjournalcourier.com##.hearst-jwplayer-position:style(position: relative !important;)
+myjournalcourier.com##.topnav:style(position: relative !important;)
 mymodernmet.com###navbar-main:style(position: absolute !important;)
 mynbc5.com##.ad-leaderboard
 mynbc5.com##.ad-rectangle
@@ -7955,16 +8007,23 @@ mynews13.com##.share-bar-link
 mypalmbeachpost.com##.main-nav-container:style(position: relative !important; top: 0 !important;)
 mypayflex.com##.navbar-fixed-top:style(position: absolute !important;)
 mypaysimple.com##header:style(position: relative !important; top: 0 !important;)
+myplainview.com###homepage-timestamp:style(position: absolute !important;)
+myplainview.com###menuBar:style(position: absolute !important; top: 50px !important;)
+myplainview.com###siteNav:style(position: absolute !important; transform: none !important; top: 50px !important;)
+myplainview.com###subHead:style(transform: none !important;)
+myplainview.com##.hearst-jwplayer-position:style(position: relative !important;)
+myplainview.com##.topnav:style(position: relative !important;)
 myrecipes.com###saveShareNextBar
 myrecipes.com##.can-animate.has-headline.contextual-social-enabled.no-utility-ribbon.no-secondary-ribbon.main:style(position: absolute !important;)
 myrecipes.com##.hide-nav-elements.can-animate.has-headline.no-utility-ribbon.no-secondary-ribbon.main:style(position: relative !important; top: 0 !important;)
 myrecipes.com##.media.subscribe-callout.component
 myrecipes.com##.newsletter-callout.component
 myrecipes.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
-mysanantonio.com###ctpl-fullbanner-spacer
-mysanantonio.com###ctpl-fullbanner1
-mysanantonio.com###siteNav:style(position: relative !important; transform: none !important;)
+mysanantonio.com###homepage-timestamp:style(position: absolute !important;)
+mysanantonio.com###menuBar:style(position: absolute !important; top: 50px !important;)
+mysanantonio.com###siteNav:style(position: absolute !important; transform: none !important; top: 50px !important;)
 mysanantonio.com###subHead:style(transform: none !important;)
+mysanantonio.com##.hearst-jwplayer-position:style(position: relative !important;)
 mysanantonio.com##.topnav:style(position: relative !important;)
 mysharebar.com###toolbar
 mystatesman.com###cm-access-meter-welcome
@@ -8460,6 +8519,12 @@ newstatesman.com##.site-footer-hidden.site-footer
 newstatesman.com##.slick-slider.slick-initialized.header-promotion
 newstatesman.com##.top-leaderboard.leaderboard
 newstatesman.com##.webform-component--sign-up-for-our-weekly-email.webform-component-email.webform-component.form-item.ns-form-item.webform-client-form
+newstimes.com###homepage-timestamp:style(position: absolute !important;)
+newstimes.com###menuBar:style(position: absolute !important; top: 50px !important;)
+newstimes.com###siteNav:style(position: absolute !important; transform: none !important; top: 50px !important;)
+newstimes.com###subHead:style(transform: none !important;)
+newstimes.com##.hearst-jwplayer-position:style(position: relative !important;)
+newstimes.com##.topnav:style(position: relative !important;)
 newsweek.com###block-nw-nw-header:style(position: relative !important; top: 0 !important;)
 newsweek.com###dfp-ad-right1-wrapper
 newsweek.com###dfp-ad-right2-wrapper
@@ -8581,6 +8646,12 @@ nhl.com##.ad
 nhl.com##.ad--250-empty
 nhl.com##.closed.slidemo:style(position: relative !important;)
 nhl.com##.follow
+nhregister.com###homepage-timestamp:style(position: absolute !important;)
+nhregister.com###menuBar:style(position: absolute !important; top: 50px !important;)
+nhregister.com###siteNav:style(position: absolute !important; transform: none !important; top: 50px !important;)
+nhregister.com###subHead:style(transform: none !important;)
+nhregister.com##.hearst-jwplayer-position:style(position: relative !important;)
+nhregister.com##.topnav:style(position: relative !important;)
 nickjanetakis.com##.navbar:style(position: absolute !important;)
 nicovideo.jp###siteHeader:style(position: absolute !important;)
 niezlomni.com###wi-topbar:style(position: relative !important;)
@@ -9038,6 +9109,12 @@ oup.com###InfoColumn:style(position: relative !important;)
 oup.com###oupcookiepolicy_message
 oup.com##.fixed.toolbar-wrap:style(position: absolute !important;)
 oup.com##.last.item-share.item-with-dropdown.toolbar-item
+ourmidland.com###homepage-timestamp:style(position: absolute !important;)
+ourmidland.com###menuBar:style(position: absolute !important; top: 50px !important;)
+ourmidland.com###siteNav:style(position: absolute !important; transform: none !important; top: 50px !important;)
+ourmidland.com###subHead:style(transform: none !important;)
+ourmidland.com##.hearst-jwplayer-position:style(position: relative !important;)
+ourmidland.com##.topnav:style(position: relative !important;)
 outdoorlife.com##.main-header:style(position: relative !important; top: 0 !important;)
 outerbanks.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 outkickthecoverage.com###LayoutHeader:style(position: relative !important; top: 0 !important;)
@@ -10066,6 +10143,12 @@ refinery29.com##.condensed-header:style(position: relative !important; top: 0 !i
 refinery29.com##.en-us.theme-basic.email-acquisition
 refinery29.com##.sticky.global-header:style(position: relative !important; top: 0 !important;)
 reformjudaism.org##.sml-links.top-menu-social-media-links
+registercitizen.com###homepage-timestamp:style(position: absolute !important;)
+registercitizen.com###menuBar:style(position: absolute !important; top: 50px !important;)
+registercitizen.com###siteNav:style(position: absolute !important; transform: none !important; top: 50px !important;)
+registercitizen.com###subHead:style(transform: none !important;)
+registercitizen.com##.hearst-jwplayer-position:style(position: relative !important;)
+registercitizen.com##.topnav:style(position: relative !important;)
 registryabstracts.com###banner:style(position: relative !important; top: 0 !important;)
 rei.com###header:style(position: relative !important; top: 0 !important;)
 rei.com###mainNav:style(position: relative !important; top: 0 !important;)
@@ -10480,11 +10563,17 @@ seattlemet.com##.g-header:style(position: relative !important; top: 0 !important
 seattlemet.com##body.has-muted-header:style(padding-top: 0px !important;)
 seattlemet.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 seattlepi.com###ctpl-fullbanner1
+seattlepi.com###homepage-timestamp:style(position: absolute !important;)
 seattlepi.com###homepage-timestamp:style(position: relative !important; top: 0 !important;)
+seattlepi.com###menuBar:style(position: absolute !important; top: 50px !important;)
 seattlepi.com###site-nav-spacer
+seattlepi.com###siteNav:style(position: absolute !important; transform: none !important; top: 50px !important;)
 seattlepi.com###siteNav:style(position: relative !important; top: 0 !important;)
+seattlepi.com###subHead:style(transform: none !important;)
 seattlepi.com##.ad_deferrable
+seattlepi.com##.hearst-jwplayer-position:style(position: relative !important;)
 seattlepi.com##.pm-device.article08.konafilter
+seattlepi.com##.topnav:style(position: relative !important;)
 seattlepi.com##header:style(position: relative !important; top: 0 !important;)
 seattletimes.com###userMessagingInset
 seattletimes.com##.active.facebook-modal
@@ -10575,22 +10664,12 @@ sfchronicle.com##.zonePremiumF.zone
 sfexaminer.com###fadelogo:style(display: block !important; opacity: 1 !important;)
 sfexaminer.com###top-nav:style(position: absolute !important; animation: none !important;)
 sfexaminer.com##.synved-social-container-share.synved-social-container
-sfgate.com###content:style(padding-top: 84px !important;)
-sfgate.com###ctpl-fullbanner-spacer
-sfgate.com###ctpl-fullbanner1
-sfgate.com###fixie
-sfgate.com###siteNav:style(position: absolute !important; transform: none !important;)
-sfgate.com###subHead:style(position: relative !important; transform: none !important;)
-sfgate.com##.ad-point
-sfgate.com##.bx-active-step-1.bx-custom.bx-base.bxc
-sfgate.com##.container:style(padding-top: 251px !important;)
-sfgate.com##.ctpl-fullbanner
-sfgate.com##.desktop-vertical-social-tools-wrapper
+sfgate.com###homepage-timestamp:style(position: absolute !important;)
+sfgate.com###menuBar:style(position: absolute !important; top: 50px !important;)
+sfgate.com###siteNav:style(position: absolute !important; transform: none !important; top: 50px !important;)
+sfgate.com###subHead:style(transform: none !important;)
 sfgate.com##.hearst-jwplayer-position:style(position: relative !important;)
-sfgate.com##.hst-articletools
-sfgate.com##.hst-articletools2
-sfgate.com##.menu-bar:style(position: absolute !important; top: 50px !important;)
-sfgate.com##.s2nPlayerFrame:style(position: static !important;)
+sfgate.com##.topnav:style(position: relative !important;)
 sfglobe##.kfm_dialog
 sfglobe##.kfm_dialog_overlay
 shadygrovefertility.com##.fixed.clearfix.header-top:style(position: relative !important; top: 0 !important;)
@@ -11815,6 +11894,12 @@ thehockeynews.com##.block.ad
 thehockeynews.com##.sticky.main-nav:style(position: relative !important;)
 thehockeywriters.com###page-header-mobile:style(position: relative !important; top: 0 !important;)
 thehomesecuritysuperstore.com###popupmsg
+thehour.com###homepage-timestamp:style(position: absolute !important;)
+thehour.com###menuBar:style(position: absolute !important; top: 50px !important;)
+thehour.com###siteNav:style(position: absolute !important; transform: none !important; top: 50px !important;)
+thehour.com###subHead:style(transform: none !important;)
+thehour.com##.hearst-jwplayer-position:style(position: relative !important;)
+thehour.com##.topnav:style(position: relative !important;)
 thehuddle.com###nav-branding:style(position: absolute !important; top: 0 !important;)
 thehuddle.com###video-container:style(position: static !important;)
 thehuddle.com##.meta
@@ -11833,6 +11918,12 @@ theinquirer.net##.below_top_search
 theinquirer.net##.contentNavi_onemore
 theinquirer.net##.nav-fixed.nav:style(position: absolute !important;)
 theinquirer.net##.right_common_block_content.iefix
+theintelligencer.com###homepage-timestamp:style(position: absolute !important;)
+theintelligencer.com###menuBar:style(position: absolute !important; top: 50px !important;)
+theintelligencer.com###siteNav:style(position: absolute !important; transform: none !important; top: 50px !important;)
+theintelligencer.com###subHead:style(transform: none !important;)
+theintelligencer.com##.hearst-jwplayer-position:style(position: relative !important;)
+theintelligencer.com##.topnav:style(position: relative !important;)
 theintercept.com##.Header-hamburger:style(position: absolute !important; top: 0 !important;)
 theintercept.com##.InterceptedBanner--desktop.InterceptedBanner
 theintercept.com##.Logo--fixed.Logo:style(position: relative !important; top: 0 !important; background-color: #000000 !important; width: 100% !important;)
@@ -12184,6 +12275,12 @@ thesun.co.uk##.swiper-container-android.swiper-container-free-mode.swiper-contai
 thesun.co.uk##html:style(overflow-x: hidden !important; overflow-y: auto !important;)
 thetakeout.com##.global-nav--scrollback.fixed.shown.global-nav--permalink.hide-for-medium-down.global-nav--desktop.global-nav.js_top-nav.js_global-nav-wrap:style(position: relative !important;)
 thetakeout.com##.js_global-nav-wrap:style(position: relative !important; top: 0 !important;)
+thetelegraph.com###homepage-timestamp:style(position: absolute !important;)
+thetelegraph.com###menuBar:style(position: absolute !important; top: 50px !important;)
+thetelegraph.com###siteNav:style(position: absolute !important; transform: none !important; top: 50px !important;)
+thetelegraph.com###subHead:style(transform: none !important;)
+thetelegraph.com##.hearst-jwplayer-position:style(position: relative !important;)
+thetelegraph.com##.topnav:style(position: relative !important;)
 thetimes.co.uk###tto-cookieMessage
 thetimes.co.uk###tto-cookieMessageInner
 thetimes.co.uk##.ArticlePager
