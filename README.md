@@ -36,4 +36,4 @@ https://raw.githubusercontent.com/yourduskquibbles/webannoyances/master/ultralis
 ### Installation Demonstration 
 Still having trouble installing the list? Try watching the gif below which shows the installation procedure.
 
-![Web Annoyances Installation](https://user-images.githubusercontent.com/22258847/29462742-6501cb08-83fe-11e7-9157-eca469936171.gif)
+![Web Annoyances Installation](https://user-images.githubusercontent.com/22258847/39935902-25add6be-553a-11e8-82b0-badc73f44ed3.gif)
