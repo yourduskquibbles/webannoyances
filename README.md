@@ -32,9 +32,9 @@ Browser specific download locations are located below:
 2. Click the settings icon ![Hamburger Settings Icon](https://user-images.githubusercontent.com/22258847/39938114-5dc5cf00-5541-11e8-996d-5d583611f76f.png) in the [popup panel](https://user-images.githubusercontent.com/22258847/39938362-37c58cf4-5542-11e8-8203-57fc5a78a3d7.png).
 3. From uBlock Origin Dashboard, navigate to the ['Filter lists'](https://user-images.githubusercontent.com/22258847/39937403-1da7b8b8-553f-11e8-865a-73a3f2fa4bb8.PNG) tab.
 4. Under the ['Custom'](https://user-images.githubusercontent.com/22258847/39937753-3e898876-5540-11e8-98f0-e192350ee1f8.PNG) section at the bottom of the page, subscribe to the list by ticking the 'Import...' checkbox and pasting the following URL into the expanded field entry:
-````
+```
 https://raw.githubusercontent.com/yourduskquibbles/webannoyances/master/ultralist.txt
-````
+```
 5. Click on the [Apply changes](https://user-images.githubusercontent.com/22258847/39937854-92c5d6c4-5540-11e8-9559-99c2923f896b.png) button located at the top right of screen.
 
 ### Installation Demonstration 
