@@ -38,7 +38,6 @@ Browser specific download locations are located below:
 4. Under the 'Custom' section at the bottom of the page, subscribe to the list by ticking the 'Import...' checkbox and pasting the following URL into the expanded field entry:
 
 `https://raw.githubusercontent.com/yourduskquibbles/webannoyances/master/ultralist.txt`
-![Filterlist Import](https://user-images.githubusercontent.com/22258847/39937753-3e898876-5540-11e8-98f0-e192350ee1f8.PNG)
 
 5. Click on ![Apply changes](https://user-images.githubusercontent.com/22258847/39937854-92c5d6c4-5540-11e8-9559-99c2923f896b.png) button at top right of screen.
 
