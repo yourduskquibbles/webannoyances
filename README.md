@@ -28,10 +28,15 @@ Browser specific download locations are located below:
 - [uBlock Origin for Mozilla FireFox for Android](https://addons.mozilla.org/EN-US/android/addon/ublock-origin/) 
 
 ## Installation Instructions
-From uBlock Origin settings panel, navigate to the 'Filter Lists' tab and scroll to the bottom under the 'Custom' section.
- 
-Subscribe by ticking the 'Import' checkbox and pasting the following URL into the expanded field entry and then clicking on the 'Apply Changes' button at top right of screen.
-https://raw.githubusercontent.com/yourduskquibbles/webannoyances/master/ultralist.txt
+1. Click the uBO icon ![ublockicon_16x16](https://user-images.githubusercontent.com/22258847/39936895-7ca7a8fc-553d-11e8-9496-45a96b623614.png) in your browser bar to open the uBlock Origin popup panel.
+2. Click the hamburger icon in the popup panel (outlined in red in the screen shot below) to 'Open the dashboard'.
+![uBO settings](https://user-images.githubusercontent.com/22258847/39936478-22c8d618-553c-11e8-8995-123ebef6e537.png)
+3. From uBlock Origin Dashboard, navigate to the 'Filter Lists' tab.
+4. Under the 'Custom' section at the bottom of the page, subscribe to the list by ticking the 'Import...' checkbox and pasting the following URL into the expanded field entry:
+
+`https://raw.githubusercontent.com/yourduskquibbles/webannoyances/master/ultralist.txt`
+
+5. Click on 'Apply changes' button at top right of screen.
 
 ### Installation Demonstration 
 Still having trouble installing the list? Try watching the gif below which shows the installation procedure.
