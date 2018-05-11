@@ -35,7 +35,7 @@ Browser specific download locations are located below:
 
 `https://raw.githubusercontent.com/yourduskquibbles/webannoyances/master/ultralist.txt`
 
-5. Click on ![Apply changes](https://user-images.githubusercontent.com/22258847/39937854-92c5d6c4-5540-11e8-9559-99c2923f896b.png) button at top right of screen.
+5. Click on the [Apply changes](https://user-images.githubusercontent.com/22258847/39937854-92c5d6c4-5540-11e8-9559-99c2923f896b.png) button located at the top right of screen.
 
 ### Installation Demonstration 
 Still having trouble installing the list? Try watching the gif below which shows the installation procedure.
