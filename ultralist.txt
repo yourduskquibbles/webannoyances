@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:27 AM 2018-05-11
+! Last Modified: 11:52 AM 2018-05-11
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -1768,10 +1768,10 @@ allure.com##.inner:style(position: relative !important; top: 0 !important;)
 allure.com##.sticky-wrapper
 allure.com##.utility-nav
 ally.com###nav-desktop:style(position: relative !important;)
-ally.com##.active.a11y.section-nav.sticky-nav:style(position: relative !important; top: 0 !important;)
-ally.com##.active.info-bar:style(position: relative !important; top: 0 !important;)
-ally.com##.active.sticky-nav.info-bar:style(position: relative !important; top: 0 !important;)
+ally.com##.info-bar:style(position: relative !important; top: 0 !important; background-color: #F2F2F2 !important; transition: none !important;)
+ally.com##.placeholder
 ally.com##.site-header:style(position: relative !important; top: 0 !important;)
+ally.com##.sticky-nav:style(position: relative !important; top: 0 !important;)
 almasdarnews.com##.rocketchat-widget
 alphr.com###__ic-notice
 alphr.com###block-dennis-newsletter-newsletter-block
