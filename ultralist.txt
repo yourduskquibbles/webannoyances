@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 8:34 AM 2018-05-11
+! Last Modified: 9:04 AM 2018-05-11
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -3153,6 +3153,7 @@ circa.com##.circa-shadow.Atom-outbrain
 circa.com##.locked.circa-Header:style(position: relative !important; top: 0 !important;)
 circa.com##footer
 circa.com##header:style(position: relative !important; top: 0 !important;)
+circleofmoms.com###mobile-banner
 citibankonline.com##.scroll_to_top
 citizen-times.com##.first-margin:style(margin-top: 0px !important;)
 citizen-times.com##.fixed.header:style(position: absolute !important; top: 0 !important;)
@@ -7120,9 +7121,9 @@ m.shop.nordstrom.com##.android-app-banner
 m.tmz.com##.ui-bar-inherit.ui-header.header-mini
 m.wikihow.com##.header:style(position: relative !important; top: 0 !important;)
 m.yelp.com###photos-app-pitch
-m.yelp.com###search-bar:style(position: relative !important; top: 0 !important;)
+m.yelp.com###search-bar:style(position: absolute !important;)
 m.yelp.com##.cta-menubar-pitch-icons
-m.yelp.com##.js-fast.menu-bar-pitch_container.cta-menubar-pitch_container
+m.yelp.com##.js-fast.menu-bar-pitch_container.cta-menubar-pitch_container:style(position: relative !important;)
 m.yelp.com##.photos-grid-shim.photos-app-pitch-shim
 m.zappos.com###downloadAppPop
 maccablo.com###nav-wrapper:style(position: absolute !important;)
@@ -9108,6 +9109,7 @@ pastebin.com###paypal-overlay
 pastebin.com##.h_800.tweet
 pasted.co###captcha_box
 pasted.co###captcha_overlay
+pastemagazine.com###bottom-leaderboard-rectangle-container
 pastemagazine.com###newsletter-signup-overlay
 pastemagazine.com##.detail.master-header.center:style(position: relative !important; top: 0 !important;)
 pastemagazine.com##.landing.master-header.center:style(position: relative !important; top: 0 !important;)
@@ -10238,6 +10240,7 @@ rt.com###header:style(position: relative !important; top: 0 !important;)
 rt.com##.b-header_top-band_on-sidebar.i-r
 rt.com##.b-main_extension.firefox.visible
 rt.com##.columns__separator
+rt.com##.follows-channel_fb
 rt.com##.offers
 rt.com##.sp_right.sp_ticker
 rt.com##.spot-im-registration-module
@@ -10329,6 +10332,7 @@ sangaline.com###navbar-main:style(position: relative !important; top: 0 !importa
 sapling.com###email-capture
 sapling.com##.modal-backdrop
 sapling.com##.sticky.header:style(position: absolute !important;)
+saraacarter.com##.fixed-nav:style(position: absolute !important;)
 savearescue.org###header:style(position: absolute !important;)
 savearescue.org##.header_social
 saveur.com##.main-header:style(position: relative !important; top: 0 !important;)
@@ -13158,10 +13162,16 @@ vocativ.com##.voc-header:style(position: relative !important; top: 0 !important;
 vocativ.com##.voc-sticky-social-strip
 vocativ.com##header:style(position: relative !important; top: 0 !important;)
 vogue.com##.__closed.modal
+vogue.com##.cm-unit-global-header:style(transform: none !important; top: 0 !important;)
 vogue.com##.component-cnid-modal-backdrop
-vogue.com##.icon-menu.site-header-links--hamburger
 vogue.com##.most-shared
-vogue.com##.site-header:style(position: relative !important; top: 0 !important;)
+vogue.com##.newsletter-modal--container__mobile
+vogue.com##.site-container:style(padding-top: 0 !important;)
+vogue.com##.site-header--drawer:style(position: relative !important; top: 0 !important; transform: none !important; transition: none !important;)
+vogue.com##.site-header--links__mobile:style(position: absolute !important; top: 0 !important; transform: none !important; transition: none !important;)
+vogue.com##.site-header-wrapper:style(position: absolute !important; top: 0 !important; transform: none !important; transition: none !important; width: 100% !important;)
+vogue.com##.site-header:style(position: absolute !important; transform: none !important; transition: none !important;)
+vogue.com##.social-sharer--share-links
 vogue.com##.text-tweet.text-tweet__template
 vogue.fr###header:style(position: relative !important; top: 0 !important;)
 vogue.fr##.social_newsletter
