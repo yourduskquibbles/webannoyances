@@ -31,7 +31,7 @@ Browser specific download locations are located below:
 1. Click the uBO icon ![ublockicon_16x16](https://user-images.githubusercontent.com/22258847/39936895-7ca7a8fc-553d-11e8-9496-45a96b623614.png) in your browser bar to open the uBlock Origin popup panel.
 2. Click the hamburger icon in the popup panel (outlined in red in the screen shot below) to 'Open the dashboard'.
 ![uBO settings](https://user-images.githubusercontent.com/22258847/39936478-22c8d618-553c-11e8-8995-123ebef6e537.png)
-3. From uBlock Origin Dashboard, navigate to the 'Filter Lists' tab.
+3. From uBlock Origin Dashboard, navigate to the 'Filter lists' tab.
 ![filterlists](https://user-images.githubusercontent.com/22258847/39937403-1da7b8b8-553f-11e8-865a-73a3f2fa4bb8.PNG)
 4. Under the 'Custom' section at the bottom of the page, subscribe to the list by ticking the 'Import...' checkbox and pasting the following URL into the expanded field entry:
 
