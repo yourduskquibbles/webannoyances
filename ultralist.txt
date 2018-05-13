@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 3:34 PM 2018-05-12
+! Last Modified: 12:05 PM 2018-05-13
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -249,6 +249,7 @@
 ###socialbar
 ###socialbar-fixed
 ###socialsharebuttons
+###ssba-classic-2
 ###stickyShare
 ###story-share-buttons
 ###story-share-buttons-old
@@ -1901,6 +1902,7 @@ anovaculinary.com##.clearfix.d-header:style(position: relative !important; top: 
 answers.com###footer_menu:style(position: relative !important;)
 answers.com##.dom_ready.js-header_searchinline.jsparams.header_searchinline.module:style(position: absolute !important;)
 answers.com##.sticky_banner.ads_dfpslot.module
+ant-techs.is##.fxd-header
 antergos.com###header-menu:style(position: absolute !important; top: 10 !important;)
 antergos.com###top-header:style(position: absolute !important; top: 0 !important;)
 aol.com##.aol-app-deeplink
@@ -4970,7 +4972,6 @@ fool.com##.navigation:style(position: relative !important; top: 0 !important;)
 fool.com##.usmf-article-nav:style(position: relative !important; top: 0 !important;)
 foolishit.com##.stuck.clearfix.dark-menu-dropdown.third-skin.main-navigation:style(position: relative !important; top: 0 !important;)
 foragerfunds.com###nav:style(position: absolute !important;)
-foragerfunds.com###ssba-classic-2
 foragerfunds.com###subscribe-report-block
 foragerfunds.com##.subscribe-wrap
 forbes.com##.beta-bar-gallery.beta-bar
@@ -7152,6 +7153,7 @@ m.destinationxl.com###mntt_alt_02
 m.facebook.com###header-notices
 m.facebook.com##._5tel
 m.gulfnews.com##.sticky.not-sticky.tab-bar
+m.huffingtonpost.co.uk###bottom-nav
 m.huffpost.com##.header-container:style(position: absolute !important; transition: none !important;)
 m.imgur.com##.FloatingOIA
 m.imgur.com##.Navbar:style(position: relative !important; top: 0 !important;)
@@ -7162,6 +7164,9 @@ m.medicalxpress.com##.slideup.ui-footer-fixed.ui-bar-c.ui-footer
 m.phys.org##.slideup.ui-footer-fixed.ui-bar-c.ui-footer.visibilityNone
 m.reddit.com##.TopNav
 m.shop.nordstrom.com##.android-app-banner
+m.spiegel.de###smartbanner
+m.spiegel.de##.mobile-header-space:style(margin: 0 !important;)
+m.spiegel.de##.social-media-box-wrapper
 m.tmz.com##.ui-bar-inherit.ui-header.header-mini
 m.wikihow.com##.header:style(position: relative !important; top: 0 !important;)
 m.yelp.com###photos-app-pitch
@@ -7660,6 +7665,7 @@ mint.intuit.com##body:style(overflow-x: hidden !important; overflow-y: auto !imp
 mintpressnews.com##.site-header:style(position: absolute !important;)
 mirror.co.uk###bottom-article-message
 mirror.co.uk###div-gpt-native
+mirror.co.uk###social-follow
 mirror.co.uk##.float-and-park.mod-video:style(position: absolute !important;)
 mirror.co.uk##.mod-cookiepolicy
 mirror.co.uk##.mod-header:style(position: relative !important; top: 0 !important;)
@@ -7670,6 +7676,7 @@ mirror.co.uk##.sharebar
 mirror.co.uk##.side-sharebar:style(position: absolute !important;)
 mirror.co.uk##.social-sites
 mirror.co.uk##.up-next--share
+mirror.co.uk##.vjs-share-control
 mirror.co.uk##body:style(margin-top: 0px !important;)
 mirror.co.uk##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 mises.org###text-resizer
@@ -8049,6 +8056,7 @@ mystatesman.com##.cm-story-share
 mystatesman.com##.main-nav-container:style(position: relative !important; top: 0 !important;)
 mytrove.com##._136824oz
 mytrove.com##.nciNa7aY
+mytwintiers.com###site-header:style(position: absolute !important;)
 nafnafgrill.com###header:style(position: absolute !important;)
 nakedcapitalism.com###dynamic-to-top
 nakedcapitalism.com##.nc-fl-right.nc-inline.subscribe-follow
@@ -11007,9 +11015,9 @@ spiceworks.com##.affix--noborder.affix.topic-header:style(position: absolute !im
 spiceworks.com##.affix.slot-1-background
 spiceworks.com##.affix.topic-header:style(position: absolute !important;)
 spiceworks.com##.navaffix.domestic-nav:style(position: relative !important; top: 0 !important;)
-spiegel.de###js-sticky-header:style(position: relative !important; top: 0 !important;)
-spiegel.de###spHeader:style(position: relative !important; top: 0 !important;)
-spiegel.de###spHeaderWrapper:style(position: relative !important; top: 0 !important;)
+spiegel.de###js-sticky-header:style(position: relative !important;)
+spiegel.de###spHeader:style(position: relative !important;)
+spiegel.de###spHeaderWrapper:style(position: relative !important;)
 spiegel.de##.nl2go
 spiegel.de##.social-bar-wrapper
 spiegel.de##.sticky-overlay
@@ -11923,6 +11931,7 @@ thehuddle.com###nav-branding:style(position: absolute !important; top: 0 !import
 thehuddle.com###video-container:style(position: static !important;)
 thehuddle.com##.meta
 thehuddle.com##.sticky-header-ad-above-nav-extra-space--resize.sticky-header-ad-above-nav-extra-space
+thehustle.co##.navbar-fixed-top.navbar:style(position: absolute !important;)
 theindependent.com###site-navbar-container:style(position: relative !important;)
 theindependent.com##.animate.text-center.arrow
 theindependent.com##.garrett-social-links.pull-right.list-inline
@@ -13358,6 +13367,7 @@ walmart.com##.feedback-page-wrapper
 walmart.com##.is-fixed.fixie-header:style(position: relative !important; top: 0 !important;)
 walmart.com##.is-fixed.fixie:style(position: relative !important; top: 0 !important;)
 walmart.com##.prod-SocialIcons
+warhistoryonline.com###fader
 warisboring.com##.js-metabar:style(position: absolute !important;)
 washingtoncitypaper.com###at4-share
 washingtoncitypaper.com##.variable-ad.super-leaderboard.advertisement
