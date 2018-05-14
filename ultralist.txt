@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 2:09 PM 2018-05-14
+! Last Modified: 2:18 PM 2018-05-14
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -117,6 +117,7 @@
 ###goTop
 ###go_top
 ###gotoTop
+###gototop
 ###gp-to-top
 ###gs-social-follow
 ###header-social
@@ -153,6 +154,8 @@
 ###mod-social-share-2
 ###mod-social-share-3
 ###move-to-top
+###nav-share
+###nav-shares
 ###notice-cookie-block
 ###onesignal-bell-container
 ###onesignal-popover-container
@@ -334,6 +337,7 @@
 ###sociallinks
 ###socialmedia
 ###socialsharebuttons
+###ssba
 ###ssba-classic-2
 ###sticky-share-bar
 ###stickyShare
@@ -493,6 +497,7 @@
 ##.c-social-buttons--popover
 ##.c-social-share
 ##.c-socialBlocks
+##.c-top-bar__social
 ##.cc-banner
 ##.cc-cookies
 ##.cc-floating
@@ -501,6 +506,9 @@
 ##.clay-share
 ##.clay-share-list
 ##.cmg-share-bar
+##.cn_share_facebook_like
+##.cn_share_facebook_share
+##.cn_share_tweet
 ##.collection-scroll-top
 ##.component-ddb-300x250-v1
 ##.component-ddb-300x250-v2
@@ -872,7 +880,8 @@
 ##.opt360-share-button-facebook-sidebar
 ##.opt360-share-buttons-article-end
 ##.outbrain.recommend
-##.overlay-arrows.arrows
+##.overlay-arrows
+##.overlay-content-arrows
 ##.p-share__buttons-container
 ##.pagebuilder-addthis
 ##.pageup-btn
@@ -934,6 +943,7 @@
 ##.rrssb-buttons
 ##.rrssb-container
 ##.s-btns
+##.s-gotop-wrap
 ##.s-hero
 ##.scroll-back-to-top-wrapper
 ##.scroll-to-fixed-fixed
@@ -1176,6 +1186,7 @@
 ##.site-header__social-links
 ##.site-masthead-subscribe-wrap
 ##.site-nav-social-link
+##.site-social
 ##.slide-share-button
 ##.smart-banner
 ##.smartbanner
@@ -1428,6 +1439,8 @@
 ##.socialshares
 ##.sp-back-to-top
 ##.spnf_ticker
+##.ssba
+##.ssba-wrap
 ##.ssbp--theme-2
 ##.ssbp-container
 ##.st-sticky-share-buttons
@@ -2975,7 +2988,6 @@ buzzfeed.com###mod-ad-msu-2
 buzzfeed.com###mod-nav-bar-fixer-1:style(position: relative !important;)
 buzzfeed.com###mod-newsletter-signup-1
 buzzfeed.com###mod-newsletter-signup-2
-buzzfeed.com###nav-shares
 buzzfeed.com##.action-bar--pagelevel.action-bar
 buzzfeed.com##.action-bar--subbuzz.action-bar
 buzzfeed.com##.ad-ex-wide-container
@@ -6408,7 +6420,6 @@ insidenova.com##.hidden-print.asset-paging-container
 insidenova.com##.text-center.tnt-ads-container
 insidenova.com##.tout-mid-article.tout-sdk
 insightcrime.org##.in-icon
-insightcrime.org##.ssba-wrap.ssba
 insightcrime.org##.subscribe
 insightcrime.org##.topmenu:style(position: absolute !important;)
 insightdata.ai##.logo_nav:style(position: relative !important; top: 0 !important;)
@@ -10339,7 +10350,6 @@ sammobile.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative 
 samsung.com###header:style(position: relative !important;)
 samsung.com##.fp-floating-nav__wrap:style(position: absolute !important;)
 samsung.com##.fp-g-live-chat
-samsung.com##.s-show.s-gotop-wrap
 samsung.com##.section.compare-tray
 samsung.com##.subnav-actions
 sandboxie.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
@@ -11535,7 +11545,6 @@ thebreakthrough.org###post_share
 thebrewenthusiast.com##.Mobile-bar--top.Mobile-bar:style(position: relative !important; top: 0 !important;)
 thebristolcable.org###eu-cookie
 thebristolcable.org##.fixed-top.header-standard.header:style(position: relative !important; top: 0 !important;)
-thebristolcable.org##.ssba-wrap.ssba
 thebump.com###fixed-footer:style(position: relative !important; top: 0 !important;)
 thebump.com###header:style(position: relative !important; top: 0 !important;)
 thebump.com###main-container > div:nth-of-type(1) > div > div > div:style(position: absolute !important;)
@@ -12640,7 +12649,6 @@ tvguide.com###content-wrap:style(margin-top: 0px !important;)
 tvguide.com###header:style(position: relative !important; top: 0 !important;)
 tvguide.com##.ad-dfp
 tvline.com##.pmc-adm-goog-pub-div
-tvline.com##.site-social
 tweeterino.com##.fixed-top.bg-faded.navbar-light.navbar-toggleable-sm.navbar:style(position: relative !important; top: 0 !important;)
 twilio.com##.nav--fixed.nav--inverted.nav:style(position: absolute !important;)
 twincities.com##.headroom--pinned.headroom--not-top.headroom.default.site-header:style(position: relative !important; top: 0 !important;)
@@ -12654,7 +12662,6 @@ twitch.tv##.js-nav-header.nav-header > nav:style(position: relative !important; 
 twitch.tv##.js-navigation.nav:style(position: relative !important; top: 0 !important;)
 twitch.tv##.js-whole-wrapper.clip-page-wrapper:style(padding-top: 0px !important;)
 twitch.tv##.tw-relative.top-nav:style(position: relative !important;)
-twitchy.com###nav-share
 twitchy.com##.ad
 twitchy.com##.ad-300x250
 twitchy.com##.ad-728x90
@@ -12852,7 +12859,6 @@ usatoday.com##.inline-share-tools-label
 usatoday.com##.logoDiv.link-disclosure.attribution-disclosure-link-hybrid
 usatoday.com##.longform-flyouts.icon-shadow.icon-box
 usatoday.com##.newsletter-embed
-usatoday.com##.overlay-content-arrows.overlay-content-arrows-next-wrap
 usatoday.com##.partner-placement
 usatoday.com##.playerIsScrolling:style(transition: none !important;)
 usatoday.com##.pluto-video-ready.smallarticleattophtml5.priority.inline-story-video.story-video.js-ui-pluto-video.js-video-aps.ui-pluto-video.js-ui-video-init:style(position: static !important;)
@@ -12924,7 +12930,6 @@ valuewalk.com###desktop_text-26
 valuewalk.com###om-k4aqrfjozo-lightbox
 valuewalk.com###om-w3dbb97rb1-footer
 valuewalk.com###secondary
-valuewalk.com###ssba
 vancouversun.com##.l-header:style(position: relative !important; top: 0 !important;)
 vancouversun.com##.masthead:style(position: absolute !important;)
 vancouversun.com##.pn_socialmedia_widget
@@ -12944,15 +12949,10 @@ vanityfair.com##.component-sponsored-links.component
 vanityfair.com##.connect-container
 vanityfair.com##.expanded.component-riser
 vanityfair.com##.hive-riser.hidden.collapsed.offset-meter.component-riser
-vanityfair.com##.lower-nav-scrolled.hive-lower-nav
-vanityfair.com##.lower-nav-scrolled.lower-nav
+vanityfair.com##.lower-nav-scrolled
 vanityfair.com##.modal-content
-vanityfair.com##.parbase.cn_share_facebook_like.web
-vanityfair.com##.parbase.cn_share_facebook_share
-vanityfair.com##.parbase.cn_share_tweet
 vanityfair.com##.paywall-container
 vanityfair.com##.players-interstitial.component-modal
-vanityfair.com##.site-social.web
 vanityfair.com##.sub-brand-nav__lower--scrolled.sub-brand-nav__lower
 vanityfair.com##.subscription-form
 vanityfair.com##.utilities.utilities-top.border-both
@@ -12961,7 +12961,6 @@ variety.com###leaderboard
 variety.com###subscribe-link-section
 variety.com###vy-site-header:style(position: relative !important; transition: none !important; transform: none !important;)
 variety.com##.ad-below-tags
-variety.com##.c-top-bar__social
 variety.com##.c-widget--newsletter.c-widget
 variety.com##.google-publisher.adma
 variety.com##.header-inner:style(position: relative !important; top: 0 !important;)
@@ -13010,7 +13009,7 @@ vice.com###yw1
 vice.com###yw3
 vice.com##.article-right-rail.right-rail
 vice.com##.eg.ef.db.da.v.hu > .au
-vice.com##.mobile-hello.mobile-social-tray
+vice.com##.mobile-social-tray
 vice.com##.nav-toggle.icon-menu.icon
 vice.com##.newsletter-promo
 vice.com##.nsfw-wrapper
@@ -13721,7 +13720,6 @@ wolframalpha.com###codezone-footer
 wolframalpha.com###headerad-pro
 wolframalpha.com##.pro-popup-zoom.pro-popup
 wolfstreet.com##.adsbygoogle
-wolfstreet.com##.ssba-wrap.ssba
 women.com###wdc_share_pinterest
 women.com###wdc_share_tumblr
 women.com###wdc_share_twitter
