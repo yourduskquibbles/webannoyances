@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 9:14 AM 2018-05-16
+! Last Modified: 11:36 AM 2018-05-16
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -2221,6 +2221,10 @@ androidpolice.com###apfollowwidget-2
 androidpolice.com###toc_wrapper:style(position: relative !important;)
 androidpolice.com##.ap-follow-widget.widget.red.widget-2.widget-even
 androidpolice.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
+androidrepublic.org##.is-sticky.uix_stickyBar.p-navSticky--primary.p-navSticky:style(position: relative !important; top: 0px !important; box-shadow: none !important;)
+androidrepublic.org##.p-staffBar
+androidrepublic.org##.u-scrollButtons
+androidrepublic.org##.uix_headerContainer .p-navSticky.is-sticky > *:style(position: relative !important; top: 0 !important; box-shadow: none !important;)
 angular.io##.mat-primary.mat-toolbar.app-toolbar:style(position: relative !important; top: 0 !important;)
 anovaculinary.com###content-subnav:style(position: relative !important;)
 anovaculinary.com###topic-progress-wrapper
@@ -3180,8 +3184,9 @@ cbc.ca###sticky-nav-sticky-wrapper:style(position: relative !important; top: 0 !
 cbc.ca###sticky-nav:style(position: relative !important; top: 0 !important;)
 cbc.ca###totalshares
 cbc.ca##.cbc-share-bar
-cbc.ca##.globalHeader:style(position: absolute !important;)
+cbc.ca##.globalHeader:style(position: relative !important;)
 cbc.ca##.nostyle.block__sharing
+cbc.ca##.risingstar
 cbc.ca##.stayconnected.module-body
 cbc.ca##.sticky.clearfix.cbc-longform-header:style(position: relative !important;)
 cbc.ca##.sticky.recognitionnav:style(position: relative !important;)
