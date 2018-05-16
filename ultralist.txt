@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 3:11 PM 2018-05-16
+! Last Modified: 4:27 PM 2018-05-16
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -4781,6 +4781,7 @@ espn.com##.pickShare
 espn.com##.sidebar:style(position: absolute !important; top: 0px !important; transition: none !important; transform: none !important;)
 espn.com##.signin-social
 espn.com##.sponsored-links
+espn.com.mx###header-wrapper:style(position: absolute !important;)
 espnfc.com###desktop-nav:style(position: relative !important; top: 0 !important;)
 espnfc.com###navbar:style(position: absolute !important; top: 0 !important;)
 esquire.co.uk##.sticky.nav:style(position: absolute !important;)
@@ -10348,6 +10349,9 @@ saksfifthavenue.com##header:style(position: relative !important;)
 salary.com###sal_pg_hd:style(position: relative !important; top: 0px !important;)
 salary.com###sal_st_hd:style(position: relative !important;)
 salary.com##.header:style(padding-bottom: 0px !important;)
+salesforce.com##.dockedContainer
+salesforce.com##.embeddedServiceHelpButton
+salesforce.com##.socialMediaSharingComponent
 salon.com###app:style(padding-top: 60px !important;)
 salon.com##.DqBWg-Vvho_ZrxWqxa8ub:style(position: absolute !important;)
 salon.com##.facebook-white-22.sprite
@@ -12723,7 +12727,9 @@ upenn.edu##.article-tools
 upenn.edu##.spu-bg
 upenn.edu##.spu-box
 upguard.com##.nav-bg-black.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
+upi.com###nl_su_st
 upi.com###p_header:style(position: relative !important; top: 0 !important;)
+upi.com###share_ico_c
 upi.com###tc_nav:style(position: relative !important; top: 0 !important;)
 upi.com##.sib_x.ico
 upi.com##header:style(position: relative !important; top: 0 !important;)
@@ -12752,6 +12758,7 @@ uproxx.com##body:style(padding-top: 0px !important;)
 ups.com###sectioniov5pt3b:style(border-top-width: 0px !important;)
 ups.com###ups-headerWrap:style(position: relative !important;)
 ups.com###ups-header_logo:style(bottom: 22px !important; transition: none !important;)
+uptimechecker.io##.navbar:style(position: absolute !important;)
 upworthy.com###gpt-place-1
 upworthy.com##.center-child--inline.inline-display.dfp-show-after-render.nugget-bottom-ad > .divider--center.divider
 upworthy.com##.layout__full-width > .inline-row--flex > .text--center.inline-column--flex
@@ -12877,6 +12884,7 @@ usnews.com##.AdhBase__Wrapper-rea3rt-0
 usnews.com##.block-loosest-for-medium-up
 usnews.com##.border.flex-ungrid.flex-row
 usnews.com##.box.bar-toolbar5:style(position: relative !important; top: 0 !important;)
+usnews.com##.dxiCCh
 usnews.com##.header-banner-section-social
 usnews.com##.ivbeTY
 usnews.com##.rail-sticky
