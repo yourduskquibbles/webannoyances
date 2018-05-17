@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:39 PM 2018-05-17
+! Last Modified: 4:34 PM 2018-05-17
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -174,6 +174,7 @@
 ###mod-social-share-3
 ###move-to-top
 ###moveToTop
+###msg-cookie
 ###nav-share
 ###nav-shares
 ###neklo_scrolltotop_arrow
@@ -658,34 +659,33 @@
 ##.et_social_mobile_on
 ##.et_social_networks
 ##.et_social_sidebar_networks
-##.fa-envelope.fa
-##.fa-facebook-official.fa
-##.fa-facebook-square.fa
-##.fa-facebook.fa
-##.fa-google-plus-square.fa
-##.fa-google-plus.fa
-##.fa-instagram-square.fa
-##.fa-instagram.fa
-##.fa-linkedin-square.fa
-##.fa-linkedin.fa
+##.fa-envelope
+##.fa-facebook
+##.fa-facebook-official
+##.fa-facebook-square
+##.fa-google-plus
+##.fa-google-plus-square
+##.fa-instagram
+##.fa-instagram-square
+##.fa-linkedin
+##.fa-linkedin-square
 ##.fa-long-arrow-up
 ##.fa-pencil-square-o
-##.fa-pinterest-square.fa
-##.fa-pinterest.fa
-##.fa-reddit-square.fa
-##.fa-reddit.fa
+##.fa-pinterest
+##.fa-pinterest-square
+##.fa-reddit
+##.fa-reddit-square
 ##.fa-share
-##.fa-soundcloud-square.fa
-##.fa-soundcloud.fa
-##.fa-stumbleupon.fa
-##.fa-tumblr.fa
-##.fa-twitter-square.fa
-##.fa-twitter.fa
+##.fa-soundcloud
+##.fa-soundcloud-square
+##.fa-stumbleupon
+##.fa-tumblr
+##.fa-twitter
+##.fa-twitter-square
 ##.fa-vimeo
-##.fa-xing.fa
-##.fa-youtube-square.fa
-##.fa-youtube.fa
-##.fa.svg-flipboard
+##.fa-xing
+##.fa-youtube
+##.fa-youtube-square
 ##.facebook
 ##.facebook-blue
 ##.facebook-btn
@@ -768,6 +768,7 @@
 ##.fyre-notifier-container
 ##.g-plusone
 ##.g1-back-to-top
+##.ga-topnav-subscribe
 ##.gdpr-privacy-bar
 ##.get-the-app
 ##.get-the-app-link
@@ -777,6 +778,7 @@
 ##.gig-button-sms
 ##.gig-share-bar-container
 ##.gigya-sharing
+##.global-nav-subscribe
 ##.global_sharing_controls
 ##.go
 ##.go-top
@@ -939,6 +941,7 @@
 ##.nav-social
 ##.nav-social-buttons
 ##.nav-social-links
+##.nav-subscribe
 ##.nav-subscribe-box
 ##.navSocial
 ##.nav__social
@@ -1575,6 +1578,7 @@
 ##.story_social_share
 ##.stumbleupon
 ##.subscribe-popover
+##.svg-flipboard
 ##.svgIcon--facebook
 ##.svgIcon--facebookFilled
 ##.svgIcon--twitter
@@ -2033,7 +2037,6 @@ ajc.com##.hidden-md-down.footer-wrapper
 ajc.com##.hidden-md-down.sub-header-nav:style(position: absolute !important;)
 ajc.com##.margin-bottom.cm-tablet-show.newsletter-tease
 ajc.com##.more-icon.section-tag.story-section-tag.-section-bg
-ajc.com##.nav-subscribe
 al-monitor.com###bizzbar:style(position: relative !important; top: 0 !important;)
 al.com###adv_header:style(position: relative !important; top: 0 !important;)
 al.com##.sticky-nav-hide:style(margin-top: 0px !important; transition: none !important;)
@@ -3194,6 +3197,7 @@ cbc.ca##.globalHeader:style(position: relative !important; transform: none !impo
 cbc.ca##.globalheader-placeholder
 cbc.ca##.landingNav:style(display: block !important;)
 cbc.ca##.nostyle.block__sharing
+cbc.ca##.responsive
 cbc.ca##.risingstar
 cbc.ca##.selectedNav:style(display: block !important;)
 cbc.ca##.stayconnected.module-body
@@ -7215,7 +7219,7 @@ listverse.com##.toolbar:style(position: absolute !important;)
 literaryreview.co.uk##.popup-placer
 lithub.com###post_more_wrapper
 lithub.com##.fixed:style(position: relative !important; top: 0 !important;)
-lithub.com##.memphis-simple.memphis-lightbox.memphis-optin-visible.memphis-ct2uns2q1z-lightbox.memphis-background.optin-monster-saas-overlay
+lithub.com##.optin-monster-saas-overlay
 lithub.com##.widget_mc4wp_form_widget.widget
 littlethings.com##.collapsed.site-header:style(position: relative !important; top: 0 !important;)
 liverpoolecho.co.uk##.float-and-park.mod-video:style(position: absolute !important; top: 0 !important;)
@@ -7226,10 +7230,19 @@ liverpoolecho.co.uk##.publication-theme-highlight.primary:style(position: absolu
 liverpoolecho.co.uk##.top.sticky.side-sharebar.byline
 liverpoolecho.co.uk##.up-next--share
 liverpoolfc.com##.i-amphtml-unresolved.amp-unresolved.i-amphtml-layout-size-defined.i-amphtml-layout-fixed.amp-notbuilt.i-amphtml-notbuilt.i-amphtml-element
+livescience.com###rightcol_top
 livescience.com###sticky-header:style(position: relative !important; top: 0 !important;)
+livescience.com###stickyShare
+livescience.com##.fa-facebook
+livescience.com##.fa-google-plus
+livescience.com##.fa-twitter
 livescience.com##.flipboardHeader
+livescience.com##.follow
+livescience.com##.jw-player-position:style(position: static !important;)
 livescience.com##.mod-hdr.h2
-livescience.com##.mod.pure-u-1.subscribe
+livescience.com##.social-mod
+livescience.com##.sticky-header
+livescience.com##.subscribe
 livestreamfails.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute !important;)
 livestrong.com##.icon-pinterest.content_card__pinterest_button
 livestrong.com##.js-jwplayer_container.jwplayer__container:style(position: relative !important;)
@@ -10856,7 +10869,7 @@ sousvideguy.com###site-navigation-sticky-wrapper
 sousvidetools.com##.sticky.add-to-cart-wrapper:style(position: absolute !important;)
 southlive.in###main-nav-container:style(position: relative !important; top: 0 !important;)
 southlive.in##.sample-ad
-southlive.in##.show-in-desktop.side-bar-ad
+southlive.in##.side-bar-ad
 southlive.in##.sticky-icon
 southpark.cc.com###geoblockmsg
 southwestthemagazine.com###nav
@@ -10876,13 +10889,13 @@ space.com###sticky-header
 space.com###sticky-header > .center-content:style(position: relative !important; top: 0 !important;)
 space.com###sticky-header.fixed.content-wrapper.sticky-header:style(position: relative !important; top: 0 !important;)
 space.com###stickyShare:style(position: relative !important; top: 0 !important;)
-space.com##.fixed.static.gtmSticckyShare
 space.com##.flipboardHeader
+space.com##.follow
+space.com##.gtmSticckyShare
 space.com##.line.mod
 space.com##.mod-hdr.h2
-space.com##.mod.pure-u-1.subscribe
 space.com##.partner-banner.top-mod.mod
-space.com##.top-mod.mod.follow
+space.com##.subscribe
 spaceflight.watch##nav:style(position: relative !important; top: 0 !important;)
 spaceflight101.com###site-navigation:style(position: relative !important; top: 0 !important;)
 spaceflightinsider.com###title:style(position: absolute !important;)
@@ -10897,7 +10910,7 @@ sparkboxstudio.com###main-header:style(position: relative !important; top: 0 !im
 sparkboxstudio.com###top-header:style(position: relative !important; top: 0 !important;)
 sparkboxstudio.com##.et_pb_row_3
 spectator.co.uk##.aria-offscreen:style(overflow-x: hidden !important; overflow-y: auto !important;)
-spectator.co.uk##.article-promo--end.article-promo
+spectator.co.uk##.article-promo
 spectator.co.uk##.email-newsletter
 spectator.co.uk##.floatyFloaty.float-container
 spectator.co.uk##.spev-modal-active:style(overflow: visible !important; position: static !important;)
@@ -10929,9 +10942,9 @@ spiegel.de##.nl2go
 spiegel.de##.social-bar-wrapper
 spiegel.de##.sticky-overlay
 spin.com###banner:style(position: relative !important; top: 0 !important;)
-spin.com##.ad-container.container
+spin.com##.ad-container
 spin.com##.ad-holder
-spin.com##.footer-ad-holder.container
+spin.com##.footer-ad-holder
 spin.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: -60px !important; margin-bottom: 0 !important;)
 spin.com##.sidebar-bg
 spin.com##.text-center.sm-widget-campaign-monitor.sm-widget.sidebar-module
@@ -10950,9 +10963,7 @@ spoonuniversity.com###page > .nav-up:style(position: absolute !important;)
 spoonuniversity.com##.off-canvas-content header.nav-hide
 spoonuniversity.com##body:style(margin-top: 0px !important;)
 sporkful.com##.fixed_section.sticky-nav.group.section:style(position: relative !important; top: 0 !important;)
-sport-english.com###msg-cookie
 sport-english.com##.en.header-section.header:style(position: relative !important;)
-sport.es###msg-cookie
 sport.es##.es.header-section.header:style(position: relative !important; top: 0 !important;)
 sport.es##.install-banner
 sportdiver.com##.main-header > .inner-wrapper:style(position: relative !important; top: 0 !important;)
@@ -11061,7 +11072,6 @@ statesman.com##.hidden-md-down.footer-wrapper
 statesman.com##.hidden-md-down.sub-header-nav:style(position: absolute !important;)
 statesman.com##.margin-bottom.cm-tablet-show.newsletter-tease
 statesman.com##.more-icon.section-tag.story-section-tag.-section-bg
-statesman.com##.nav-subscribe
 statesman.com##.products-nav-fixed.products-nav:style(position: relative !important;)
 statesmanjournal.com##.first-margin:style(margin-top: 0px !important;)
 statesmanjournal.com##.fixed.header:style(position: absolute !important; top: 0 !important;)
@@ -11278,7 +11288,6 @@ taskandpurpose.com##.sprg_registration-cta
 taskandpurpose.com##.tpAffixed.tpAffix.tp-shares
 tass.com###categoryBlock:style(position: relative !important; top: 0 !important;)
 tastecooking.com##.bottom-border
-tastecooking.com##.ga-topnav-subscribe
 tastecooking.com##.left-border
 tastecooking.com##.mobile-menu--small.mobile-menu:style(position: relative !important; top: 0 !important;)
 tastecooking.com##.nav-bar--small.nav-bar--default.nav-bar:style(position: absolute !important; top: 0 !important;)
@@ -13340,8 +13349,7 @@ weather.com##.styles-MgjbRUHi__ModalLayout__24Ncp.theme__active__3ea_1.theme__no
 weather.com##.visible.flag.sb
 webmd.com###colorbox
 webmd.com###webmdHoverOverlay
-webmd.com##.global-nav-subscribe
-webmd.com##.is-fixed.ad-101.ad.module
+webmd.com##.ad
 webmd.com##.is-fixed.global-nav-container:style(position: relative !important; top: 0 !important;)
 webmd.com##body:style(padding-top: 0px !important;)
 websitesuccesstools.com###scroll
