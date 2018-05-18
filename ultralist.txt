@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 1:09 PM 2018-05-18
+! Last Modified: 1:35 PM 2018-05-18
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -2794,6 +2794,7 @@ bloomberg.com##.mobile-box-ad-dummy
 bloomberg.com##.navi:style(position: relative !important; top: 0 !important; transition: none !important;)
 bloomberg.com##.persist-nav.bb-nav-root
 bloomberg.com##.recirc.rotation-item:style(transition: none !important; transform: none !important; opacity: 1 !important; max-height: 2000px !important;)
+bloomberg.com##.rotation-item[current=false]:style(opacity: 1 !important; max-height: 2000px !important; transform: none !important;)
 bloomberg.com##.sticky-container:style(position: static !important; top: 0px !important;)
 bloomberg.com##.sticky-video:style(transition: none !important; transform: none !important;)
 bloomberg.com##.terminal-tout-container
