@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 9:48 AM 2018-05-18
+! Last Modified: 12:49 PM 2018-05-18
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -2151,13 +2151,19 @@ amazon.co.uk##.actor.xrayQuickViewListItem
 amazon.co.uk##.show.xrayQuickView
 amazon.co.uk##.xrayHeaderLink
 amazon.co.uk##.xrayQuickViewList.collectionView
+amazon.com###huc-v2-order-row-placeholder
 amazon.com###miniATFUDP:style(position: relative !important; top: 0 !important;)
 amazon.com###miniATF_feature_div:style(position: relative !important; top: 0 !important;)
+amazon.com###nav-flyout-ewc:style(position: absolute !important; top: 0 !important; height: 600px !important;)
 amazon.com###nav-mobile-airstream-stripe
 amazon.com###tell-a-friend-byline
 amazon.com###tellAFriendBox_feature_div
+amazon.com###tellafriendAUI
 amazon.com##.actor.xrayQuickViewListItem
-amazon.com##.huc-v2-pinned-order-row-with-divider.a-row:style(position: relative !important; top: 0 !important;)
+amazon.com##.ewc-beacon.nav-flyout-body:style(top: 0 !important; height: 501px !important; border-bottom-color: rgb(202, 202, 202); !important; border-bottom-style: solid !important; border-bottom-width: 1px !important;)
+amazon.com##.huc-v2-pinned-order-row-with-divider:style(position: relative !important; top: 0 !important; padding: 0 !important;)
+amazon.com##.nav-flyout-head:style(padding-top: 47px !important; height: 99px !important; top: 0px !important;)
+amazon.com##.nav-sprite.nav-tools.nav-flyout-head:style(top: 0px !important;)
 amazon.com##.pantry-place-holder
 amazon.com##.pantry-wayfinder-sticky-bar:style(position: relative !important;)
 amazon.com##.show.xrayQuickView
@@ -9730,6 +9736,7 @@ pri.org##.navbar__wrapper.is-fixed
 priceonomics.com###lfs-wrapper
 priceonomics.com###sidebar-scrollfix
 primaryarms.com##.popup-content
+primenow.amazon.com##.page_header__header-contents-container__30wJk:style(position: absolute !important;)
 princewilliamgolf.com###bcg-pageHeader:style(position: relative !important; top: 0 !important;)
 princewilliamliving.com###sbe-follow
 princewilliamliving.com##.ui-draggable.wdev-window.move.wdpu-msg.popup.resize
