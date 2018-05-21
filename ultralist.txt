@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 5:20 PM 2018-05-21
+! Last Modified: 5:52 PM 2018-05-21
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -118,6 +118,7 @@
 ###eu_cookie_law_widget-2
 ###facebookShare
 ###facebook_btn
+###facebook_button
 ###fb-container
 ###fb-slider
 ###fb_like_bottom
@@ -163,6 +164,7 @@
 ###js_cookie-monster
 ###leaderboard_fixed
 ###left_social_share
+###linkedin_button
 ###list--share-buttons
 ###mailchimp-top-bar
 ###mailchimpsf_widget-3
@@ -419,6 +421,7 @@
 ###tve_cta
 ###twitter-widget-1
 ###twitter_btn
+###twitter_button
 ###uecookies
 ###uhfCookieAlert
 ###uiTopButton
@@ -713,6 +716,7 @@
 ##.facebook-like
 ##.facebook-like-bottom
 ##.facebook-like-static
+##.facebook-photo-gallery
 ##.facebook-share
 ##.facebook-share-button
 ##.facebook-share-footer
@@ -810,6 +814,7 @@
 ##.googlePlusLink
 ##.googleplus
 ##.googleplus-container
+##.googleplus-photo-gallery
 ##.gotop
 ##.gotop-btn
 ##.gototop
@@ -1672,6 +1677,7 @@
 ##.twitter-follow-button
 ##.twitter-icon
 ##.twitter-icon-wrap
+##.twitter-photo-gallery
 ##.twitter-share
 ##.twitter-share-button
 ##.twitter-share-link
@@ -4114,13 +4120,10 @@ dailycaller.com###dc_morning_email-66
 dailycaller.com###network-space
 dailycaller.com###secondary
 dailycaller.com###text-264
+dailycaller.com##.ad_container
 dailycaller.com##.contain-to-grid.sticky.fixed
 dailycaller.com##.dc-go-top
-dailycaller.com##.dc_morning_email-58.box.columns.small-12
-dailycaller.com##.position-right-1.box.columns.small-12.ad_container
-dailycamera.com###facebook_button
-dailycamera.com###linkedin_button
-dailycamera.com###twitter_button
+dailycaller.com##.dc_morning_email-58
 dailycamera.com##.article.toolbar:style(position: relative !important; top: 0 !important;)
 dailycamera.com##.info-box-body
 dailydot.com###dailydot-socialbar
@@ -9759,13 +9762,7 @@ pressherald.com###pos_f_320x50
 pressherald.com##.main-navigation:style(position: relative !important; top: 0 !important;)
 pressherald.com##.mtm-utility-launch
 pressherald.com##.paywall-callout
-presstelegram.com###facebook_button
-presstelegram.com###linkedin_button
-presstelegram.com###twitter_button
 presstelegram.com##.article.toolbar:style(position: relative !important; top: 0 !important;)
-presstelegram.com##.facebook-photo-gallery
-presstelegram.com##.googleplus-photo-gallery
-presstelegram.com##.twitter-photo-gallery
 presstv.com##.item-sharings
 prettydamnedfast.com###headerAnnouncementWrapper:style(position: relative !important; top: 0 !important;)
 prettydamnedfast.com##.blog-item-pagination-link--next.blog-item-pagination-link
@@ -9788,8 +9785,8 @@ privateerit.com##.hidden-xs.offcanvas-trigger:style(position: absolute !importan
 privateerit.com##.show
 privateinternetaccess.com##.navbar-pia-wrapper:style(position: absolute !important;)
 privateinternetaccess.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
-prnewswire.com##.nav-down.navbar:style(position: relative !important; top: 0 !important;)
-prnewswire.com##.visible-xs-block.mm-slideout.navbar-fixed-top.navbar-default.navbar.header-mobile
+prnewswire.com##.header-mobile:style(position: absolute !important;)
+prnewswire.com##.nav-down.navbar
 pro-football-reference.com##.adblock
 producthunt.com##.button_a78ba
 producthunt.com##.share_a630b
@@ -10045,6 +10042,7 @@ rawstory.com##.sidebar-email-signup-container
 rawstory.com##.story-page-embedded-ad
 razorpay.com###page-sidebar
 razorpay.com###tagbar:style(position: relative !important;)
+rbr.com##.td-more-articles-box
 rbth.com##.rbth-fb-popup
 rd.com###masthead
 rd.com##.adhesive-site-header--top-bar:style(position: relative !important; top: 0 !important;)
@@ -12864,6 +12862,7 @@ upworthy.com##.mobile--mvx3.text--center.mobile-1\/1.tablet-1\/2.\32 \/3.inline-
 upworthy.com##.sticky-bar--visible.sticky-nav.sticky-bar--top.sticky-bar:style(position: relative !important; top: 0 !important;)
 upworthy.com##.ui-list--right.ui-list
 upworthy.com##body > div:nth-of-type(1) > div
+urban1.com###header-sticky:style(position: absolute !important; box-shadow: none !important;)
 urbandaddy.com##.email-signup
 urbandaddy.com##.header:style(position: absolute !important;)
 urbandaddy.com##.navigation-article--is-active
