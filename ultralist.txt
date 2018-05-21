@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:10 AM 2018-05-21
+! Last Modified: 11:42 AM 2018-05-21
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -5314,8 +5314,11 @@ fox11online.com##.v2.sd-header-wrapper:style(position: relative !important; top:
 fox11online.com##body:style(padding-top: 0px !important;)
 fox13memphis.com###header:style(position: relative !important; top: 0 !important;)
 fox13memphis.com###tabcontent-news
+fox13memphis.com###wrapper:style(padding-top: 0 !important;)
 fox13memphis.com##.fixed-desktop.wrap-portlets.pull-8.col-4
+fox13memphis.com##.mod-next-article.mod-wrapper
 fox13memphis.com##.toggle-slide
+fox13memphis.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 fox13now.com##.border-bottom
 fox13now.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute !important; top: 0 !important;)
 fox25boston.com###header:style(position: relative !important; top: 0 !important;)
@@ -6346,6 +6349,7 @@ ifixit.org###header-container:style(position: absolute !important;)
 iflscience.com##.newsletter-widget.widget
 iflscience.com##.page:style(padding-top: 0px !important;)
 iflscience.com##.smaller.header:style(position: relative !important; top: 0 !important;)
+ifstudies.org###navWrap:style(position: absolute !important;)
 igeeksblog.com##.td-affix.td-header-gradient.td-header-menu-wrap:style(position: relative !important;)
 ign.com###header-container.fixed:style(position: relative !important; top: 0 !important;)
 ign.com###header-container:style(position: relative !important; top: 0 !important;)
@@ -9019,10 +9023,12 @@ nytimes.com##.branding:style(display: block !important; opacity: 1 !important;)
 nytimes.com##.bundle-payflow
 nytimes.com##.bundle-payflow-module
 nytimes.com##.comments-header-container:style(position: relative !important;)
+nytimes.com##.css-13ta9od
 nytimes.com##.css-15u353c
+nytimes.com##.css-1i860sg:style(position: relative !important;)
 nytimes.com##.css-1plijz3
 nytimes.com##.d-fow-nav:style(position: relative !important; top: 0 !important;)
-nytimes.com##.e1pwcx9q0.css-1fn8v52:style(position: relative !important;)
+nytimes.com##.e1pwcx9q0:style(position: relative !important;)
 nytimes.com##.eln-email-signup
 nytimes.com##.email-sharetool
 nytimes.com##.email-signup
@@ -9941,6 +9947,7 @@ qz.com##.ArticleFooter__share-tools__3bibY
 qz.com##.ArticleShareIcons__container__2yYw8
 qz.com##.SocialSignup__quartzy__kp075
 qz.com##.anno-right
+qz.com##.app-promo
 qz.com##.header-container:style(position: relative !important; top: 0 !important;)
 qz.com##.header-hidden.dark-theme:style(position: relative !important; top: 0 !important;)
 qz.com##.inline-ad
@@ -10565,6 +10572,8 @@ seahawks.com##.clearfix.panel-region-wrap.branding:style(position: absolute !imp
 seahawks.com##.clearfix.panel-region-wrap.mobile-toggle:style(position: absolute !important;)
 seahawks.com##.pane-nflc-mini-nav-nflc-mini-nav.pane-block.panel-pane:style(position: absolute !important;)
 searchenginejournal.com###masthead-wrapper:style(position: relative !important; top: 0 !important;)
+searchenginejournal.com##.flex-nav:style(position: absolute !important;)
+searchenginejournal.com##.sticked:style(position: absolute !important;)
 searchengineland.com###bylineShare
 searchengineland.com##.stickyheader.navbar-header
 sears.com###swordfish-header:style(position: relative !important; top: 0 !important;)
@@ -12046,6 +12055,7 @@ thepioneerwoman.com##.giddyup
 thepioneerwoman.com##.header-navbar:style(position: relative !important;)
 thepioneerwoman.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 theplayerstribune.com###global-header:style(position: relative !important; top: 0 !important;)
+theplayerstribune.com##.NavBar__Section-s14w7fc1-0:style(position: absolute !important;)
 theplayerstribune.com##.NavBar__Section-s1sueu2v-0:style(position: absolute !important;)
 theplayerstribune.com##.NavMenuFooter__IconGroup-tjmv-2
 theplayerstribune.com##.Share__Container-s1ptif8f-0
@@ -12187,6 +12197,7 @@ thesun.co.uk##.footer-follow
 thesun.co.uk##.fyre-width-medium.fyre
 thesun.co.uk##.fyre-width-small.fyre
 thesun.co.uk##.header--mobile.header:style(position: absolute !important;)
+thesun.co.uk##.header--mobile.header:style(transform: none !important;)
 thesun.co.uk##.scrolling-remove.sun-header-bg:style(transition: none !important; animation: none !important;)
 thesun.co.uk##.scrolling.sun-header-bg
 thesun.co.uk##.sun-header--nav.fixed:style(position: absolute !important; top: 0 !important; transition: none !important; animation: none !important;)
@@ -12367,7 +12378,7 @@ thrillist.com##.header-inner:style(position: relative !important; top: 0 !import
 thrillist.com##.inline-signup
 thrillist.com##.js-video-player--autoplayinview-tracked.video-player--sticky.video-player--initial-view.video-player__video:style(position: static !important;)
 thrillist.com##.main-header:style(position: relative !important; top: 0 !important;)
-thrillist.com##.mobile-header-inner.sticky:style(position: relative !important; top: 0 !important; transition: none !important;)
+thrillist.com##.mobile-header-inner:style(position: relative !important; top: 0 !important; transform: none !important; transition: none !important;)
 thrillist.com##.stack-ad-container
 thrillist.com##.stack-ad-placeholder
 thriveglobal.com##.js-metabar:style(position: absolute !important;)
@@ -12389,6 +12400,7 @@ ticketfly.com###eyebrow:style(position: relative !important; top: 0 !important;)
 tiffany.com###filters:style(position: relative !important;)
 tiffany.com###headerBlueBar:style(position: absolute !important;)
 tigerfitness.com###olark-wrapper
+tiktokv.com###appDownload:style(position: absolute !important;)
 time.com###ad-homepage-content-well
 time.com###first-visit
 time.com###header:style(position: absolute !important; max-width: 100% !important; width: 100% !important; padding-bottom: 10px !important;)
