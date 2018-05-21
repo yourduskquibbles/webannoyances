@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 2:21 PM 2018-05-21
+! Last Modified: 3:21 PM 2018-05-21
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -673,6 +673,7 @@
 ##.et_social_mobile_on
 ##.et_social_networks
 ##.et_social_sidebar_networks
+##.eupopup-container
 ##.fa-envelope
 ##.fa-facebook
 ##.fa-facebook-official
@@ -1825,6 +1826,8 @@
 @@||loxodo-analytics.ext.nile.works/api/save$xmlhttprequest,domain=washingtonpost.com
 @@||s1.wp.com/*/vip-analytics.js^$script,domain=rare.us
 aaa.com##.bottomcontainerBox
+aarp.org##.aarpe-ad-wrapper
+aarp.org##.affix:style(position: absolute !important;)
 abc.net.au###navigationPrimary4:style(position: relative !important; top: 0 !important;)
 abc.net.au##.Nav-bar:style(position: absolute !important;)
 abc.net.au##.btn-group.tools
@@ -9007,6 +9010,7 @@ nytimes.com###subscriptionCTA
 nytimes.com###upNext
 nytimes.com###welcome-back-modal
 nytimes.com##.AssetMeta-shareButton--1Ws8t
+nytimes.com##.AssetMeta-shareButton--3fkA2
 nytimes.com##.Block-header--2tzq6:style(position: relative !important;)
 nytimes.com##.Block-noTopBorder--1M81B.Block-header--2tzq6:style(position: relative !important;)
 nytimes.com##.BlockAdvert-ad--2QvJV
@@ -13046,6 +13050,9 @@ venturebeat.com###omni-navbar:style(position: relative !important; top: 0 !impor
 venturebeat.com###sticky-wrapper
 venturebeat.com##.medrec-wrapper
 venturebeat.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
+verdict.co.uk##.fixed-top-ads
+verdict.co.uk##.in-article-text-promo
+verdict.co.uk##.site-footer:style(position: relative !important;)
 verizon.com##.is-sticky.js-nav--condensed.nav--condensed.nav:style(position: relative !important; top: 0 !important;)
 verizon.com##.masthead:style(position: relative !important; top: 0 !important;)
 verizonwireless.com##.clear-float.container-gnav:style(position: absolute !important;)
