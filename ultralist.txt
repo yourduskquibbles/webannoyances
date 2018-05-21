@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 1:47 PM 2018-05-21
+! Last Modified: 2:14 PM 2018-05-21
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -5247,6 +5247,7 @@ fool.com##.fool-tophat-container:style(position: relative !important; top: 0 !im
 fool.com##.navigation:style(position: relative !important; top: 0 !important;)
 fool.com##.usmf-article-nav:style(position: relative !important; top: 0 !important;)
 foolishit.com##.stuck.clearfix.dark-menu-dropdown.third-skin.main-navigation:style(position: relative !important; top: 0 !important;)
+footwearnews.com##.l-header:style(position: relative !important; top: 0 !important;)
 foragerfunds.com###nav:style(position: absolute !important;)
 foragerfunds.com###subscribe-report-block
 foragerfunds.com##.subscribe-wrap
@@ -5689,6 +5690,7 @@ gofundme.com##.reveal-overlay
 gofundme.com##.top-bar:style(position: absolute !important;)
 goldcore.com##.page-header:style(position: relative !important; top: 0 !important;)
 goldcore.com##.pushcrew-chrome-style-notification-safari.pushcrew-chrome-style-notification
+goldderby.com##.expert-newslater
 goldrushnuggetbucket.com##.small.fixed.main-header:style(position: relative !important; top: 0 !important;)
 golf-monthly.co.uk###navigation:style(position: relative !important; top: 0 !important;)
 golf.com##.contextual-social-enabled.main:style(position: relative !important; top: 0 !important;)
@@ -6143,7 +6145,7 @@ hockey-reference.com##.adblock
 holidappy.com###header_wrap
 holidappy.com###rate_hub
 hollyrebot.com###header-navigation:style(position: absolute !important;)
-hollywoodlife.com##.site-header--unpinned.site-header--sticky.headroom--not-bottom.headroom.site-header:style(position: relative !important; top: 0 !important;)
+hollywoodlife.com##.site-header:style(position: absolute !important; top: 0 !important;)
 hollywoodreporter.com###block-block-55
 hollywoodreporter.com###js__stories-wrapper:style(position: absolute !important;)
 hollywoodreporter.com###site-header:style(position: relative !important; top: 0 !important;)
@@ -6481,7 +6483,8 @@ indiegogo.com##body:style(overflow-x: hidden !important; overflow-y: auto !impor
 indiehackers.com##.article-subscribe
 indiewire.com###leaderboard
 indiewire.com###masthead-section:style(position: relative !important; top: 0 !important;)
-indiewire.com##body:style(padding-top: 0px !important;)
+indiewire.com##.animated:style(animation: none !important;)
+indiewire.com##.slide--up:style(transform: none !important;)
 indy100.com###drawer
 indy100.com###top-nav:style(position: relative !important; top: 0 !important;)
 indystar.com##.first-margin:style(margin-top: 0px !important;)
@@ -13965,8 +13968,10 @@ wvtm13.com##.ad-rectangle
 wvtm13.com##.slim-headline:style(position: relative !important; top: 0 !important;)
 wvtm13.com##.slim.header:style(position: relative !important; top: 0 !important;)
 wwd.com###free-message-end
-wwd.com###site-header:style(position: relative !important; top: 0 !important;)
-wwd.com##.wwd-in-article-ad.margin-left-medium.margin-bottom-medium.align-right.clear-right
+wwd.com###site-header:style(position: relative !important; top: 0 !important; transition: none !important;)
+wwd.com###site-wrap:style(padding-top: 0 !important;)
+wwd.com##.site-header__daily
+wwd.com##.wwd-in-article-ad
 wwd.com##.wwd-subscribe-now-banner-ad-container
 wwe.com###mini-panel-header_navigation:style(position: relative !important; top: 0 !important;)
 wwe.com##.wwe-header--explorer.wwe-highlights-videos--wrapper:style(position: relative !important; top: 0 !important;)
