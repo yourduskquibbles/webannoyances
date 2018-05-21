@@ -1,11 +1,13 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 2:14 PM 2018-05-21
+! Last Modified: 2:21 PM 2018-05-21
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
 
 ! Start Web Annoyances Ultralist
 ###BackToTop
+###Banner_cookie_1
+###CybotCookiebotDialog
 ###GoUpWrapper
 ###Hero-0-FeatureBar-smartphone-Proxy
 ###ShareToolsMobile
@@ -21,6 +23,7 @@
 ###adhesionUnit
 ###adv_mobi_edition
 ###adv_network
+###adviceCookies
 ###amp-cookie-notice
 ###appIntercept
 ###article-share
@@ -79,6 +82,7 @@
 ###cookieFrame
 ###cookieInfo
 ###cookieInfoMsgWrapper
+###cookieMessage
 ###cookiePolicy
 ###cookieView
 ###cookie_alert
@@ -104,12 +108,14 @@
 ###custom-share-button
 ###dfp_leaderboard
 ###dmBackToTop
+###domCookieWarning
 ###dream-box
 ###dsq-indicator-north
 ###dsq-indicator-south
 ###eltd-back-to-top
 ###eu-cookie
 ###eu-cookie-bar
+###eu_cookie_law_widget-2
 ###facebookShare
 ###fb-container
 ###fb-slider
@@ -121,6 +127,8 @@
 ###footer-social-nav
 ###footer-sociallinks
 ###footer_social
+###fp_cookieMessageContainer
+###gel-cookie-banner
 ###gigyaReactionsBarButtons
 ###gigyaShareBarButtons
 ###gigyaShareBarButtons2
@@ -138,6 +146,7 @@
 ###gs-social-follow
 ###header-social
 ###header-social-icons
+###headerCookiesAdvice
 ###header_social
 ###header_social_links
 ###header_social_wrapper
@@ -147,6 +156,7 @@
 ###indicator-south
 ###intercom-container
 ###js-back-to-top
+###js-message-bar-cookie-notice
 ###js-sharebar-main
 ###js_cookie-monster
 ###leaderboard_fixed
@@ -405,6 +415,7 @@
 ###tt_mobile_banner
 ###tve_cta
 ###twitter-widget-1
+###uecookies
 ###uhfCookieAlert
 ###uiTopButton
 ###vf-share-bar
@@ -523,6 +534,7 @@
 ##.back_to_top
 ##.backtotop
 ##.bam-social
+##.banner--cookies-policy
 ##.bdsharebuttonbox
 ##.big-share-buttons
 ##.block--social
@@ -551,6 +563,7 @@
 ##.bx-slab
 ##.bxc
 ##.c-action-box
+##.c-cookie-notice
 ##.c-global-header__social
 ##.c-newsletter-promo
 ##.c-newsletter-signup-form
@@ -614,6 +627,7 @@
 ##.cookieBox
 ##.cookieConsent
 ##.cookieConsent-popOut
+##.cookieInfo
 ##.cookie_banner
 ##.cookiebar
 ##.cookieconsent
@@ -765,6 +779,7 @@
 ##.front-overlay-arrows
 ##.ftr-social
 ##.ftr-social-links
+##.future-cookie-bar
 ##.fyre-notifier-container
 ##.g-plusone
 ##.g1-back-to-top
@@ -966,6 +981,7 @@
 ##.nextgen-share-tools
 ##.notes-markers
 ##.notesMarkers
+##.notification__content-cookie
 ##.o-Header__m-SocialLinks
 ##.o-Leaderboard
 ##.o-SocialShare
@@ -1664,6 +1680,7 @@
 ##.twshare_gm_p
 ##.twttr-button
 ##.u-zIndexMetabar
+##.ui-cookie
 ##.ui-social
 ##.up-btn
 ##.up_button
@@ -1681,7 +1698,6 @@
 ##.video-share-btn
 ##.vjs-share-control
 ##.vjs-social-controls
-##.webPage.cookieInfo
 ##.widget--social-share-buttons
 ##.widget-share
 ##.widget_singlead
@@ -2214,7 +2230,6 @@ anandtech.com##.inner_wrapper:style(position: absolute !important;)
 anandtech.com##.sticky_wrapper:style(position: absolute !important;)
 anbox.io##.affix.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 anbox.io##.clearfix.d-header:style(position: absolute !important;)
-ancestry.com###Banner_cookie_1
 android.com###anchor-nav:style(position: relative !important; top: 0 !important;)
 android.com###header:style(position: absolute !important;)
 android.com##.dac-nav-sidebar:style(position: absolute !important;)
@@ -2309,10 +2324,8 @@ aps.org###aps-share-widget
 ar15.com##.barpad.light-box-alt.columns
 ar15.com##.cd-is-visible.cd-bottom
 ar15.com##.show-for-large.user-bar:style(position: relative !important; top: 0 !important;)
-ara.cat###adviceCookies
 ara.cat###dev-nav-bar:style(position: relative !important; top: 0 !important;)
 ara.cat###header:style(position: relative !important; top: 0 !important;)
-ara.cat###headerCookiesAdvice
 ara.cat##.ara-header-sticky-blk-a:style(position: relative !important; top: 0 !important;)
 ara.cat##.ara-header-sticky-blk-b:style(position: relative !important; top: 0 !important;)
 ara.cat##.ara-tracking-social-facebook
@@ -3784,7 +3797,6 @@ commonapp.org##.side-share
 commondreams.org###block-block-47
 commondreams.org###header-container:style(position: absolute !important;)
 commonsenseevaluation.com##.no-break
-community.spotify.com###js-message-bar-cookie-notice
 community.spotify.com##.stuck.navbar-bottom:style(position: absolute !important;)
 compact-dynamics.de###kopf:style(position: absolute !important;)
 complex.com###cmplx-navigation:style(position: absolute !important;)
@@ -3802,8 +3814,7 @@ complex.com##.video-bar-on-scroll--desktop
 complex.com##.video-bar-on-scroll--showing-cookie-notice
 complex.com##.video-embed-floated--showing-cookie-notice.vidible-embed:style(position: static !important;)
 computer.org##.cb-menu-fw.cb-font-header.clearfix.cb-site-padding.cb-nav-bar-wrap:style(position: relative !important; top: 0 !important;)
-computer.org##.synved-social-container-share.synved-social-container
-computerandvideogames.com##.future-cookie-bar
+computer.org##.synved-social-container
 computerworld.com###sticky-head:style(position: relative !important; top: 0 !important;)
 concreteconstruction.net##.site-header:style(position: absolute !important; top: 0 !important;)
 condenast.com##.frozen.frozen-header:style(position: absolute !important;)
@@ -4630,7 +4641,6 @@ earthnetworks.com##.header-inner:style(position: absolute !important; top: 0 !im
 earthsky.org###PopupSignupForm_0
 earthsky.org##.header:style(position: absolute !important; top: 0 !important;)
 earthtouchnews.com###header:style(position: absolute !important;)
-easac.eu##.c-cookie-notice
 eastidahonews.com##.jDialog.fa-stack
 easydns.com###header.sticky-header #header-wrap:style(position: absolute !important; top: 0 !important;)
 easydns.com###swifttagcontainerg0rad4vb8r
@@ -4849,7 +4859,6 @@ euronews.com##.stick.jsArticleReadingWidget.media__article-reading:style(positio
 eurosport.com###header-sharing:style(position: relative !important; top: 0 !important;)
 eurosport.com###nav:style(position: relative !important; top: 0 !important;)
 eurosport.com###top:style(position: relative !important; top: 0 !important;)
-eurosport.com##.notification__content-cookie
 eveningsun.com##.first-margin:style(margin-top: 0px !important;)
 eveningsun.com##.fixed.header:style(position: absolute !important; top: 0 !important;)
 eveningsun.com##.pluto-video-ready.playlistsmallattophtml5.gallery-video.story-video.js-ui-pluto-video.ui-pluto-video.js-ui-video-init:style(position: static !important;)
@@ -5445,15 +5454,15 @@ ft.com###barrier-dialogue
 ft.com##.WSODHoverPopupContainer
 ft.com##.barrier__container
 ft.com##.insideArticleShare
+ft.com##.n-header__marketing-promo
 ft.com##.n-sliding-popup--active.subscription-prompt.n-sliding-popup
 ft.com##.n-welcome
 ft.com##.n-welcome-message--fixed
 ft.com##.o-ads--center.o-ads--transition.o-ads--reserve-90.o-ads--background.above-header-advert.o-ads
-ft.com##.o-cookie-message--active.o-cookie-message--banner-centric.o-cookie-message
+ft.com##.o-cookie-message
 ft.com##.o-header--sticky-active.o--if-js.o-header--sticky.o-header--simple.o-header
 ft.com##.o-share-wrapper
 ft.com##.o-share__action
-ft.com##.visible.n-header__marketing-promo
 ftw.usatoday.com###nav-branding-sticky-wrapper:style(position: relative !important;)
 ftw.usatoday.com###secondary:style(position: absolute !important;)
 ftw.usatoday.com##.meta
@@ -5482,7 +5491,6 @@ gab.ai##.header:style(position: absolute !important; top: 0 !important;)
 gadgethacks.com###top-nav:style(position: relative !important; top: 0 !important;)
 gadgethacks.com##.nav-menu-block:style(position: relative !important; top: 0 !important;)
 gadgethacks.com##header:style(position: relative !important; top: 0 !important;)
-gallup.com###gel-cookie-banner
 galoremag.com###deskNav:style(position: absolute !important;)
 galoremag.com##.modal
 galvnews.com###site-navbar-container:style(position: relative !important; top: 0 !important;)
@@ -6135,7 +6143,6 @@ hm.com##.vngage-active.vngage-open.vngage-tabbanner.vngage-banner:style(position
 hm.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 hn.algolia.com##.page-header:style(position: absolute !important;)
 hn.algolia.com##header.ng-scope:style(position: absolute !important; width: 100% !important; left: 0 !important;)
-hoax-slayer.net###eu_cookie_law_widget-2
 hoax-slayer.net###navigation:style(position: absolute !important; top: 0 !important;)
 hoaxorfact.com##.adsbygoogle
 hoaxorfact.com##.bottom.post-share-box
@@ -7655,7 +7662,6 @@ medicalnewstoday.com##.header_hr
 medicalnewstoday.com##.leaderboard.mnt
 medicalnewstoday.com##.mobile_newsletter_container_outer.mobile_newsletter
 medicalnewstoday.com##.print
-medicalxpress.com##.ui-cookie
 medicinenet.com###ad
 medicinenet.com###apPgNum:style(position: relative !important;)
 medicinenet.com##.avgrund-overlay
@@ -8301,7 +8307,7 @@ nature.com###leaderboard
 nature.com##.cleared.nature-briefing--article.nature-briefing
 nature.com##.container-type-banner-advert.cleared.container
 nature.com##.container-type-beta-switch-off.cleared.grade-c-hide.container:style(position: relative !important;)
-nature.com##.container-type-cookies-usage.cleared.container
+nature.com##.container-type-cookies-usage
 nature.com##.inline-icon
 nature.com##.js-header-container:style(position: relative !important; padding-top: 0px !important; transition: none !important; transform: none !important;)
 nature.com##.pin-left.cleared.position-relative.js-reading-companion.reading-companion.hide-print > div > .cleared.clear > div:style(position: relative !important; top: 0 !important;)
@@ -11048,7 +11054,6 @@ sprigandsproutdc.com##.chch_shown.gold-1
 sprigandsproutdc.com##.synved-social-container-follow.synved-social-container
 springboard.com##.button--withSvgIcon.button--withIcon.u-baseColor--buttonLight.is-touchIconBlackPulse.button--chromeless.button--light.button
 springboard.com##.js-metabar:style(position: absolute !important;)
-springer.com##.banner--cookies-policy.banner
 springer.com##.u-composite-layer.main-sidebar-right__content:style(position: absolute !important;)
 sprint.com##.layout-header:style(position: absolute !important;)
 sputniknews.com##.arrowup
@@ -11411,7 +11416,6 @@ technologyreview.com##.meter
 technologyreview.com##.navbar__item--tertiary--subscribe.navbar__item--tertiary
 technologyreview.com##.pricing__menu__tier--premium.pricing__menu__tier
 technologyreview.com##.sidebar.right
-techradar.com###fp_cookieMessageContainer
 techradar.com###sidebar
 techradar.com##.newsletter-signup
 techradar.com##.stoaqxzukstbmlzt
@@ -12320,7 +12324,6 @@ thewirecutter.com##.site-header:style(transition: none !important; margin: 0 !im
 thewirecutter.com##.sticky-tagline
 thewolfhall.com##.adsbygoogle
 thewolfhall.com##.widget_socialcountplus.widget.td_block_template_1
-thewonderweeks.com###CybotCookiebotDialog
 thewonderweeks.com##.fixed-bottom
 thewonderweeks.com##.pop-up
 thewonderweeks.com##.site-header:style(position: absolute !important;)
@@ -13085,7 +13088,6 @@ videoconferencingdaily.com###cta-box
 videoconferencingdaily.com##.td-affix.td-header-menu-wrap:style(position: relative !important; top: 0 !important;)
 videoconferencingdaily.com##.td-header-menu-wrap-full:style(position: relative !important; top: 0 !important;)
 videogamer.com##.margin-block.u-clearBoth
-videolan.org###uecookies
 videolan.org##.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important;)
 viewfind.com###fixed_social
 viewfind.com###vf_nav:style(position: relative !important; top: 0 !important;)
@@ -13609,7 +13611,6 @@ windowsforum.com##.is-sticky.p-navSticky--primary.p-navSticky:style(position: ab
 windowsreport.com##.fixed.sticky.contain-to-grid:style(position: relative !important; top: 0 !important;)
 winefolly.com##.navbar:style(position: absolute !important;)
 wionews.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
-wired.co.uk###domCookieWarning
 wired.co.uk##.a-footer-share
 wired.co.uk##.a-footer-share__wrapper
 wired.co.uk##.a-gallery__aside--touch.a-gallery__aside
