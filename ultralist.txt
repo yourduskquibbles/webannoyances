@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:46 AM 2018-05-22
+! Last Modified: 1:13 PM 2018-05-22
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -107,6 +107,7 @@
 ###ctpl-fullbanner1
 ###custom-share-button
 ###dfp_leaderboard
+###dialog-message
 ###dmBackToTop
 ###domCookieWarning
 ###dream-box
@@ -2530,6 +2531,7 @@ axios.com##body:style(overflow-x: hidden !important; overflow-y: auto !important
 axlegeeks.com##.active.adr-app-banner
 axlegeeks.com##.clearfix.mph-wrap:style(position: relative !important; top: 0 !important;)
 aylien.com##.dpsp-networks-btns-share.dpsp-networks-btns-content.dpsp-networks-btns-wrapper
+azcapitoltimes.com###main-nav:style(position: relative !important;)
 azcentral.com##.asset-inline-share-tools-bottom.asset-inline-share-tools.inline-share-tools
 azcentral.com##.asset-inline-share-tools-top.asset-inline-share-tools.inline-share-tools
 azcentral.com##.bx-impress-in
@@ -5495,6 +5497,8 @@ gab.ai##.header:style(position: absolute !important; top: 0 !important;)
 gadgethacks.com###top-nav:style(position: relative !important; top: 0 !important;)
 gadgethacks.com##.nav-menu-block:style(position: relative !important; top: 0 !important;)
 gadgethacks.com##header:style(position: relative !important; top: 0 !important;)
+gadsdentimes.com###article-storyStrip:style(position: absolute !important;)
+gadsdentimes.com###toprail:style(position: absolute !important;)
 galoremag.com###deskNav:style(position: absolute !important;)
 galoremag.com##.modal
 galvnews.com###site-navbar-container:style(position: relative !important; top: 0 !important;)
@@ -5786,7 +5790,6 @@ gossipcop.com###tips
 gossipcop.com###unit-header-wrapper
 gothamist.com###entry-social-float
 goupstate.com###article-storyStrip:style(position: absolute !important;)
-goupstate.com###dialog-message
 goupstate.com###header-main-promo
 goupstate.com###subscribe-widget
 goupstate.com###toprail:style(position: absolute !important;)
@@ -8890,9 +8893,8 @@ nwahomepage.com###header:style(position: absolute !important; top: 0 !important;
 nwahomepage.com###mod-up-next
 nwahomepage.com###site-header:style(position: absolute !important; top: 0 !important;)
 nwahomepage.com##.mod-supernav-accordion-list:style(position: absolute !important; top: 0 !important;)
-nwfdailynews.com###article-storyStrip:style(position: relative !important; top: 0 !important;)
-nwfdailynews.com###dialog-message
-nwfdailynews.com###toprail:style(position: relative !important; top: 0 !important;)
+nwfdailynews.com###article-storyStrip:style(position: absolute !important;)
+nwfdailynews.com###toprail:style(position: absolute !important;)
 nwfdailynews.com##.btn-highlight.btn-sm.btn
 nwfilmforum.org##.header:style(position: absolute !important;)
 ny1.com###footerSocialLinks
@@ -9471,6 +9473,8 @@ phys.org###rank
 phys.org##.notice
 pi-hole.net##.demo_store:style(position: relative !important; top: 0 !important;)
 pi-hole.net##.site-navigation-fixed.navigation-top:style(position: relative !important; top: 0 !important;)
+picayune-times.com###article-storyStrip:style(position: absolute !important;)
+picayune-times.com###toprail:style(position: absolute !important;)
 picclick.com##.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important; top: 0 !important;)
 picclick.de##.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important;)
 pilotonline.com###leaderboard1
@@ -10104,8 +10108,7 @@ recordedfuture.com###text-4
 recorder.com###launcher
 recorder.com###ta_pagesLeftPopup
 recorder.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
-recordonline.com###article-storyStrip:style(position: relative !important; top: 0 !important;)
-recordonline.com###dialog-message
+recordonline.com###article-storyStrip:style(position: absolute !important;)
 recordonline.com###header-main-right
 recordonline.com###paywall-bar
 recordonline.com###toprail:style(position: absolute !important;)
@@ -10936,6 +10939,8 @@ sourceforge.net##.row.m-kmu
 sourceforge.net##.sticky.l-header-nav:style(position: relative !important;)
 sousvideguy.com###site-navigation-sticky-wrapper
 sousvidetools.com##.sticky.add-to-cart-wrapper:style(position: absolute !important;)
+southcoasttoday.com###article-storyStrip:style(position: absolute !important;)
+southcoasttoday.com###toprail:style(position: absolute !important;)
 southlive.in###main-nav-container:style(position: relative !important; top: 0 !important;)
 southlive.in##.sample-ad
 southlive.in##.side-bar-ad
