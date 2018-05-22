@@ -37,12 +37,12 @@ After clicking the Link above, a warning box will appear asking you to confirm t
 
 The warning box will look like the following:
 
-![installpopup](https://user-images.githubusercontent.com/22258847/40388585-79f1cd0c-5dff-11e8-96b5-b457407ed1ab.PNG)
+![installpopup](https://user-images.githubusercontent.com/22258847/40389620-73bc68ae-5e02-11e8-94ac-30bf769bdf70.PNG)
 
 After clicking 'OK' the filter list should be installed. 
 
 You can validate the list installed properly by navigating to your uBlock Origin Dashboard and clicking on the [Filter lists](https://user-images.githubusercontent.com/22258847/39937403-1da7b8b8-553f-11e8-865a-73a3f2fa4bb8.PNG) tab. Scroll to the bottom of the screen and verify Web Annoyances Ultralist is showing up in your custom section. 
-![installed](https://user-images.githubusercontent.com/22258847/40389236-54e61764-5e01-11e8-9db8-a82d5206d857.PNG)
+![installed](https://user-images.githubusercontent.com/22258847/40389548-42ecaf5e-5e02-11e8-8d16-1d7e08c805b6.PNG)
 
 ## Install Method 2 - Step-by-Step Installation
 ### Instructions to Add [Web Annoyances Ultralist](https://github.com/yourduskquibbles/webannoyances) to uBlock Origin
