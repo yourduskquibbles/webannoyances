@@ -27,7 +27,11 @@ Browser specific download locations are located below:
 ### Mobile
 - [uBlock Origin for Mozilla FireFox for Android](https://addons.mozilla.org/EN-US/android/addon/ublock-origin/) 
 
-## Installation
+## One Click Installation
+
+Click the following: [Add Web Annoyances Ultralist to Custom uBlock Origin Filters](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/yourduskquibbles/webannoyances/master/ultralist.txt&title=Web%20Annoyances%20Ultralist).
+
+## Alternative Installation
 ### Step-by-Step Guide to Add [Web Annoyances Ultralist](https://github.com/yourduskquibbles/webannoyances) to uBlock Origin
 1. Click the uBO icon ![ublockicon_16x16](https://user-images.githubusercontent.com/22258847/39936895-7ca7a8fc-553d-11e8-9496-45a96b623614.png) in your browser bar to open the uBlock Origin popup panel.
 2. Click the settings icon ![Hamburger Settings Icon](https://user-images.githubusercontent.com/22258847/39938114-5dc5cf00-5541-11e8-996d-5d583611f76f.png) in the [popup panel](https://user-images.githubusercontent.com/22258847/39938362-37c58cf4-5542-11e8-8203-57fc5a78a3d7.png).
@@ -38,9 +42,7 @@ https://raw.githubusercontent.com/yourduskquibbles/webannoyances/master/ultralis
 ```
 5. Click on the [Apply changes](https://user-images.githubusercontent.com/22258847/39937854-92c5d6c4-5540-11e8-9559-99c2923f896b.png) button located at the top right of screen.
 
-or click this [(Subscribe)](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/yourduskquibbles/webannoyances/master/ultralist.txt&title=Web%20Annoyances%20Ultralist) button.
-
-### Installation Demonstration 
+### Alternative Installation - Demonstration 
 Still having trouble installing the list? Try watching the gif below which shows the installation procedure.
 
 ![Web Annoyances Installation](https://user-images.githubusercontent.com/22258847/39935902-25add6be-553a-11e8-82b0-badc73f44ed3.gif)
