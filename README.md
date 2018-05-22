@@ -38,6 +38,8 @@ https://raw.githubusercontent.com/yourduskquibbles/webannoyances/master/ultralis
 ```
 5. Click on the [Apply changes](https://user-images.githubusercontent.com/22258847/39937854-92c5d6c4-5540-11e8-9559-99c2923f896b.png) button located at the top right of screen.
 
+or click this [(Subscribe)](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/yourduskquibbles/webannoyances/master/ultralist.txt&title=Web%20Annoyances%20Ultralist) button.
+
 ### Installation Demonstration 
 Still having trouble installing the list? Try watching the gif below which shows the installation procedure.
 
