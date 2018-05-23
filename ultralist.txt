@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 7:54 AM 2018-05-23
+! Last Modified: 2:32 PM 2018-05-23
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -2202,6 +2202,8 @@ amazon.com##.pantry-place-holder
 amazon.com##.pantry-wayfinder-sticky-bar:style(position: relative !important;)
 amazon.com##.show.xrayQuickView
 amazon.com##.stickybuybox.a-button-stack:style(position: absolute !important;)
+amazon.com##.vpc_coupon_bar:style(position: relative !important;)
+amazon.com##.vpc_coupon_bar_spacer
 amazon.com##.w-swf-inline-tab
 amazon.com##.xrayHeaderLink
 amazon.com##.xrayQuickViewList.collectionView
@@ -2456,7 +2458,10 @@ atomicobject.com###fixed-nav:style(position: relative !important; top: 0 !import
 atr.org###closeFlyOut
 atr.org###fancybox-overlay
 atr.org###pop_up
-atr.org##.fancybox-wrap.fancybox-desktop.fancybox-type-iframe.fancybox-opened
+atr.org##.amp-header__content:style(position: absolute !important;)
+atr.org##.fancybox-opened
+atr.org##.image-share
+atr.org##.main:style(padding-top: 0 !important;)
 atr.org##.navbar:style(position: relative !important; top: 0 !important;)
 atrium.co##.js-metabar:style(position: absolute !important;)
 att.com###oo_tab:style(position: absolute !important;)
@@ -3169,6 +3174,10 @@ buzzfeed.com##.wire-frame__shares
 buzzfeed.com##:xpath(.//*[@data-module="action-bar-subbuzz"])
 buzzfeed.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 bythewavs.com##.nav-primary:style(position: relative !important; top: 0 !important;)
+c-span.org##.facebook
+c-span.org##.icon-twitter
+c-span.org##.share
+c-span.org##.twitter
 c0reteam.org##.topbar:style(position: relative !important; top: 0 !important;)
 c4isrnet.com###page-content > .js-pubsub-module.has-secondary-nav.layout-module.no-subscribe-now.generic-module
 c4isrnet.com##.sticky-chain-nav.attach:style(position: relative !important; top: 0 !important; width: 100% !important;)
@@ -3373,6 +3382,7 @@ channelnewsasia.com##.is-region-02.header__outer:style(transform: none !importan
 channelnewsasia.com##.is-region-03.header__outer:style(position: relative !important; top: 0 !important;)
 channelnewsasia.com##.logo-scrolled.logo:style(position: relative !important; top: 0 !important;)
 channelnewsasia.com##.newsletter-cta
+channelnewsasia.com##.sharing__toggle-btn
 channelnewsasia.com##.title-bar:style(position: relative !important; top: 0 !important;)
 channelnewsasia.com##.wrapper-nav:style(position: relative !important; top: 0 !important;)
 channelnewsasia.com##body:style(padding-top: 0 !important;)
@@ -3839,6 +3849,7 @@ complex.com##.video-bar-on-scroll--showing-cookie-notice
 complex.com##.video-embed-floated--showing-cookie-notice.vidible-embed:style(position: static !important;)
 computer.org##.cb-menu-fw.cb-font-header.clearfix.cb-site-padding.cb-nav-bar-wrap:style(position: relative !important; top: 0 !important;)
 computer.org##.synved-social-container
+computerhistory.org###atchm-sidebar-social
 computerworld.com###sticky-head:style(position: relative !important; top: 0 !important;)
 concreteconstruction.net##.site-header:style(position: absolute !important; top: 0 !important;)
 condenast.com##.frozen.frozen-header:style(position: absolute !important;)
@@ -4141,6 +4152,12 @@ dailydot.com##.dd-share-bar-wrapper
 dailydot.com##.navbar-inner.hidden-phone
 dailydot.com##.navbar.navbar-inverse.navbar-fixed-top
 dailyfig.com###masthead:style(position: relative !important;)
+dailyfx.com###dfx-cookies-notification
+dailyfx.com###main_navbar:style(position: relative !important;)
+dailyfx.com##.dfx_scrollup
+dailyfx.com##.social-icon-art
+dailyfx.com##.top-social-icon
+dailyfx.com##body:style(margin-top: 0 !important;)
 dailyheadlines.net###main-nav-wrap:style(position: relative !important; top: 0 !important;)
 dailyherald.com##._magnetRecConrecom_270-3
 dailykos.com##.affix.affixed-top.navbar-static-top.navbar.explore-bar:style(position: relative !important; top: 0 !important;)
@@ -6968,6 +6985,7 @@ koat.com##.header-inner:style(position: relative !important; top: 0 !important;)
 koat.com##.header:style(position: relative !important; top: 0 !important;)
 koat.com##.slim-headline:style(position: relative !important; top: 0 !important;)
 koat.com##.slim.header:style(position: absolute !important; top: 0 !important;)
+kob.com###sticky-header
 koco.com###nowcast-header:style(position: relative !important;)
 koco.com##.slim.header:style(position: relative !important;)
 kodi.tv##.breadcrumb-navi:style(position: relative !important;)
@@ -7172,6 +7190,8 @@ lefigaro.fr##.fig-micronav__wrapper
 lefigaro.fr##.figh-collapse--with-abo.collapsed_content
 lefigaro.fr##.figh__container:style(position: absolute !important;)
 legacy.com##.Questionnaire__isOpen___2e031.Questionnaire__Questionnaire___3v3BM
+legalinsurrection.com###nav:style(position: absolute !important;)
+legalinsurrection.com##.socials
 legalinsurrection.com##.text-36.sidebarBlock.widget.notitle.centered
 legalist.com##.js-metabar:style(position: absolute !important;)
 legalist.com##.modal
@@ -8794,6 +8814,8 @@ nhregister.com##.topnav:style(z-index: 999999 !important;)
 nickjanetakis.com##.navbar:style(position: absolute !important;)
 nicovideo.jp###siteHeader:style(position: absolute !important;)
 niezlomni.com###wi-topbar:style(position: relative !important;)
+nightwatch.io##.mcwidget-overlay
+nightwatch.io##.newsletter-signup
 nike.com###react-root > div > div:nth-of-type(2):style(position: absolute !important;)
 nike.com##.js-globalNav.en.gnav:style(position: absolute !important;)
 nikkei.com###header:style(position: relative !important; top: 0 !important;)
@@ -10998,6 +11020,7 @@ spectator.co.uk##.email-newsletter
 spectator.co.uk##.floatyFloaty.float-container
 spectator.co.uk##.spev-modal-active:style(overflow: visible !important; position: static !important;)
 spectator.co.uk##.spev-modal-wrapper
+spectator.co.uk##.sticky.site-header:style(position: absolute !important;)
 spectator.co.uk##.subs-tease
 spectator.co.uk##.widget_advert.widget
 spectator.co.uk##.widget_widget_follow_us.widget
@@ -13197,6 +13220,8 @@ visual.ly###eyebrow
 visual.ly##.section
 visualcapitalist.com###site-navigation:style(position: relative !important;)
 visualcapitalist.com##.default.dgd_stb_box
+visualcapitalist.com##.dgd_stb_box
+visualcapitalist.com##.nav--main__wrapper:style(position: relative !important;)
 vivaldi.com###site-header:style(position: absolute !important;)
 vivaldi.net###header-menu:style(position: absolute !important;)
 vivaldi.net###header:style(position: absolute !important;)
@@ -14271,6 +14296,7 @@ zyngaplayerforums.com##.Reactions
 ||facebook.com/*/like.php$subdocument
 ||facebook.com/*/likebox.php$subdocument
 ||facebook.com/*/page.php$subdocument
+||facebook.com/*/quote.php$subdocument
 ||facebook.com/*/share_button.php$subdocument
 ||fastly.net$script,domain=nasdaq.com
 ||functionalclam.com^$third-party
