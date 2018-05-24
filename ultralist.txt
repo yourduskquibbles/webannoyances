@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 2:49 PM 2018-05-24
+! Last Modified: 3:15 PM 2018-05-24
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -5014,6 +5014,7 @@ facebook.com##:xpath(//div[@id="stream_pagelet"]//div[starts-with(@id,"hyperfeed
 facebook.com##:xpath(//div[@id="stream_pagelet"]//div[starts-with(@id,"hyperfeed_story_id_")][.//text()="Suggested Post"])
 facebook.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 facebook.com##div[id^="hyperfeed_story_id_"]:has(a.uiStreamSponsoredLink)
+facebooksappeconomy.com###navbar:style(position: absolute !important;)
 factmag.com##.secondary-font.header:style(position: relative !important; top: 0 !important;)
 fahrrad-xxl.de##.is_stuck.mm-fixed-top.stickyloaded.regular-nav.top-nav:style(position: relative !important; top: 0 !important;)
 fairfaxcounty.gov##.jumbotron-header:style(position: relative !important;)
@@ -7719,6 +7720,8 @@ medicinenet.com##.sticky.adTopWrapper
 medindia.net##.affix:style(position: absolute !important;)
 medium.com##.is-dockedTop:style(position: absolute !important;)
 medium.com##.js-metabar:style(position: absolute !important;)
+medium.com##.overlay
+medium.com##html:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 meduza.io##.Material-materialTopBar
 meetup.com##.sticky--top.border--none.stripe:style(position: relative !important;)
 megabots.com##.js-active.btn--social-tab
@@ -7900,6 +7903,8 @@ mirror.co.uk##body:style(margin-top: 0px !important; overflow-x: hidden !importa
 mises.org###text-resizer
 mit.edu###follow-social-items
 mit.edu###site-header-area-wrapper:style(position: relative !important;)
+mix.com##.LandingHeader:style(position: absolute !important; background-color: transparent !important;)
+mix.com##.LandingHeader__trailing-container:style(opacity: 1 !important;)
 mlb.com###header-responsive:style(position: relative !important; top: 0 !important;)
 mlb.com###header:style(position: relative !important; top: 0 !important;)
 mlb.com##.minimode.game-playing.primary-content:style(position: relative !important; top: 0 !important;)
