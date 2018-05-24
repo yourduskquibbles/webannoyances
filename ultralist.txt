@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 8:00 AM 2018-05-24
+! Last Modified: 9:50 AM 2018-05-24
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -2666,6 +2666,7 @@ bedbathandbeyond.com##.ad-block-msg-wrapper
 bedbathandbeyond.com##.overlay
 bedbugreports.com##.navbar-fixed-top.navbar-wrapper2:style(position: relative !important; top: 0 !important;)
 believermag.com##.carry-on
+believermag.com##.tucson-background
 belitsoft.com##header:style(position: relative !important; top: 0 !important;)
 bellingcat.com##.mailingList--sidebar.mailingList
 bellingcat.com##.masthead:style(margin-top: 0px !important; padding-top: 100px !important;)
@@ -5285,7 +5286,8 @@ foodnetwork.com##.i-amphtml-form.newsletter
 foodnetwork.com##.prev-next-wrapper
 foodnetwork.com##.section.parbase.capsule.newsletter
 foodnetwork.com##body:style(margin-top: 0px !important;)
-foodrepublic.com###masthead:style(position: relative !important; top: 0 !important;)
+foodrepublic.com###masthead:style(position: absolute !important; transform: none !important; transition: none !important; margin-top: 30px !important;)
+foodrepublic.com##.fr-logo-large:style(display: block !important;)
 foodrepublic.com##.newsletter-toggle
 foodtank.com##.header--slide.dark.show-for-large.fixed.subheader
 fooducate.com##.navbar-fixed-top.navbar
