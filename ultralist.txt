@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 5:15 PM 2018-05-24
+! Last Modified: 10:55 AM 2018-05-25
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -80,6 +80,7 @@
 ###cookieChoiceBar
 ###cookieChoiceInfo
 ###cookieCont
+###cookieContainer
 ###cookieFrame
 ###cookieInfo
 ###cookieInfoMsgWrapper
@@ -2871,6 +2872,7 @@ blueapron.com###header-main:style(position: relative !important; top: 0 !importa
 blueapron.com##.fancybox-overlay-fixed.fancybox-overlay
 bluedotdaily.com###main-nav-wrap:style(position: relative !important; top: 0 !important;)
 bluedotdaily.com##.adsbygoogle
+bluerockpublicradio.com##.js-metabar:style(position: absolute !important;)
 bmj.com###main-nav:style(position: relative !important; top: 0 !important;)
 bnn.ca##.main-header:style(position: relative !important; top: 0 !important;)
 bnonews.com##.adsbygoogle
@@ -4692,6 +4694,7 @@ easydns.com###swifttagcontainerg0rad4vb8r
 easydns.com##.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important; top: 0 !important;)
 easydns.com##.navbar-fixed-top:style(position: absolute !important; top: 0 !important;)
 easypost.com##.fixed-top.bg-white.navbar-expand-md.navbar-light.navbar:style(position: absolute !important;)
+eater.com##.tab-bar-fixed.c-tab-bar
 eatthis.com##.topic-health.top:style(position: relative !important; top: 0 !important;)
 eatthis.com##.topic-home.top:style(position: relative !important; top: 0 !important;)
 ebaumsworld.com###miniMenu:style(position: relative !important; top: 0 !important;)
@@ -7894,6 +7897,8 @@ mintpressnews.com##.site-header:style(position: absolute !important;)
 mirror.co.uk###bottom-article-message
 mirror.co.uk###div-gpt-native
 mirror.co.uk###social-follow
+mirror.co.uk##.captify-widget
+mirror.co.uk##.click-track.weather-overlay-content:style(position: absolute !important;)
 mirror.co.uk##.float-and-park.mod-video:style(position: absolute !important;)
 mirror.co.uk##.mod-cookiepolicy
 mirror.co.uk##.mod-header:style(position: relative !important; top: 0 !important;)
@@ -9732,8 +9737,9 @@ popularmechanics.com##.image-share
 popularmechanics.com##.one-up.shop-container
 popularmechanics.com##.sticky.nav:style(position: relative !important; top: 0 !important;)
 popularmechanics.com##.viral_tools
-popville.com###search-navigation:style(position: absolute !important;)
-popville.com##.top-bar:style(position: absolute !important;)
+popville.com###container-nav:style(position: absolute !important; top: -22px !important; max-height: 500% !important; overflow: auto !important;) 
+popville.com###search-navigation:style(position: absolute !important; top: 0 !important;)
+popville.com###top-bar:style(position: absolute !important;)
 porkbeinspired.com###nav-menu:style(position: relative !important;)
 porkbeinspired.com##.navbar-static-top.navbar-default.yamm.navbar:style(position: absolute !important;)
 portclintonnewsherald.com##.first-margin:style(margin-top: 0px !important;)
@@ -11135,6 +11141,8 @@ springer.com##.u-composite-layer.main-sidebar-right__content:style(position: abs
 sprint.com##.layout-header:style(position: absolute !important;)
 sputniknews.com##.arrowup
 sputniknews.com##.b-header__nav-social
+sputniknews.com##.global-fade
+sputniknews.com##.modal-window
 spuz.me##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute !important; top: 0 !important;)
 spyzie.com##.pageTop_fix.pageTop:style(position: absolute !important;)
 squawker.org##.td-affix.td-header-main-menu.td-header-border.td-header-row:style(position: absolute !important;)
@@ -13153,6 +13161,7 @@ vice.com###yw1
 vice.com###yw3
 vice.com##.article-right-rail.right-rail
 vice.com##.eg.ef.db.da.v.hu > .au
+vice.com##.hg
 vice.com##.mobile-social-tray
 vice.com##.nav-toggle.icon-menu.icon
 vice.com##.newsletter-promo
