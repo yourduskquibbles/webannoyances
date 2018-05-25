@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 2:51 PM 2018-05-25
+! Last Modified: 3:01 PM 2018-05-25
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -10753,8 +10753,10 @@ sensorstechforum.com###header:style(position: relative !important; top: 0 !impor
 sensorstechforum.com##.sticky-nav.menu-box:style(position: relative !important; top: 0 !important;)
 sentient.ai###site-navigation:style(position: absolute !important;)
 seriouseats.com###cad16-pop-up
-seriouseats.com##.d-sticky.header-wrapper
+seriouseats.com##.custom-aba
+seriouseats.com##.header-wrapper:style(position: absolute !important; transform: none !important; height: 90px !important; left: auto !important;)
 seriouseats.com##.sidebar-bng-fixed.sidebar-bng-inner
+seriouseats.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 serverless.com##._2fXpN
 serverless.com##.lIvzX:style(position: relative !important; top: 0 !important;)
 servethehome.com##.td-affix.td-header-menu-wrap:style(position: absolute !important;)
