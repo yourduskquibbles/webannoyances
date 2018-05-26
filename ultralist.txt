@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 10:15 PM 2018-05-25
+! Last Modified: 10:16 PM 2018-05-25
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -8207,6 +8207,8 @@ myajc.com##.modal-backdrop
 myajc.com##.modal-open:style(overflow-x: hidden !important; overflow-y: auto !important;)
 myajc.com##.modal-scrollable
 myajc.com##body > .container:style(padding-top: 0px !important;)
+myanimelist.net##.js-scrollfix-bottom:style(position: static!important;)
+myanimelist.net##.modal-content
 mybanktracker.com##.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important;)
 myce.com##.like-button.shrinkme.white-gradient
 myce.com##.smaller.fixed.shrinkme.white-gradient.regular-height.shadow.show-for-large-up.sticky:style(position: relative !important; top: 0 !important;)
