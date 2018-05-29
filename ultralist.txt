@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 6:19 PM 2018-05-29
+! Last Modified: 6:32 PM 2018-05-29
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -59,6 +59,7 @@
 ###catapult-cookie-bar
 ###cb-to-top
 ###chorus-social-fixed
+###connectWith
 ###cookie
 ###cookie-bar
 ###cookie-consent
@@ -10903,7 +10904,6 @@ shrm.org##.affix.noindex.container-nav.container-fluid:style(position: absolute 
 shrm.org##.mettered-counter-wrapper
 si.com###jumpstart_video_1:style(position: static !important;)
 si.com###progress
-si.com###sticker:style(position: relative !important; top: 0 !important;)
 si.com##.ad-wrapper
 si.com##.adhesion-ad
 si.com##.article-utilities-body
@@ -10911,13 +10911,15 @@ si.com##.main:style(position: relative !important; transform: none !important;)
 si.com##.nav-placeholder
 si.com##.newsletter-callout
 si.com##.nl-container
+si.com##.primary-text-links:style(opacity: 1 !important; transition: none !important;)
 si.com##.primary:style(position: relative !important; top: 0 !important;)
 si.com##.promo.container-full-width.bucket.component
 si.com##.recirc-container
 si.com##.secondary:style(position: relative !important; top: 0 !important;)
 si.com##.subscribe-callout
+si.com##.title-display:style(opacity: 0 !important;)
 si.com##.ui-button.ui-button-close.small.is-fixed
-si.com##header:style(position: relative !important; top: 0 !important; overflow-x: hidden !important; overflow-y: hidden !important;)
+si.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 si.com##hr
 si.edu##.icon
 sierraclub.org##.greenlife-overlay.pcm-overlay
