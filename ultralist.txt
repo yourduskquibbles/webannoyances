@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 2:09 PM 2018-05-26
+! Last Modified: 9:25 AM 2018-05-29
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -895,6 +895,7 @@
 ##.jetpack_subscription_widget
 ##.js-back-to-top
 ##.js-cookie
+##.js-cookie-policy-banner
 ##.js-cookies-accept
 ##.js-gdpr-banner
 ##.js-gigya-sharebar
@@ -3247,6 +3248,7 @@ capitolcityproject.com##.pagenav.fixedmenu
 caranddriver.com###mobile-nav-slider
 caranddriver.com##.active.hide-nm.w300-nm
 caranddriver.com##.cd-social-sharing
+cardano.org##.header:style(position: absolute !important;)
 cardpool.com##.feedback_link
 careadvantage.com##.sticky.nav:style(position: absolute !important;)
 careerattraction.com##.sticky_animate.sticky.page_header.scrolled_not_transparent.transparent.stick.scroll_header_top_area:style(position: absolute !important;)
@@ -3762,11 +3764,11 @@ codisec.com##.navbar-fixed-top.navbar-default.navbar:style(position: absolute !i
 coindesk.com###coindesk_follow_us_widget-2
 coindesk.com##.content:style(padding-top: 0px !important;)
 coindesk.com##.popup
-coindesk.com##.widget_coindesk_freestar_atf_ad_unit_widget.widget
-coindesk.com##.widget_coindesk_freestar_btf_ad_unit_widget.widget
+coindesk.com##.widget_coindesk_freestar_atf_ad_unit_widget
+coindesk.com##.widget_coindesk_freestar_btf_ad_unit_widget
 coindesk.com##.wpsr-floatbar-float_left.wpsr-floatbar-white.wpsr-floatbar-movable.clearfix
 coindesk.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
-coinmarketcap.com###currencies > thead > tr >th:style(position: static !important;)
+coinmarketcap.com##th:style(position: relative !important;)
 coinsocial.io##.dpsp-networks-btns-wrapper
 coinsocial.io##.slidebottom.wpoi-show.inc_optin_2.inc_optin.wpoi-animate.inc_opt_popup
 coinsocial.io##.wpoi-popup-overlay
@@ -4832,6 +4834,7 @@ eonline.com##.cs-container
 eonline.com##.footer__social-list
 eonline.com##.leaderboard--docked.leaderboard:style(position: absolute !important;)
 eonline.com##.rail__mps-ad
+eos.io##.SectionHeader:style(position: absolute !important;)
 epi.org###epi-email-signup-backdrop
 epicgames.com##.fixed.top.blog-social
 epicurious.com##.expanded.riser
@@ -11261,6 +11264,7 @@ steemit.com##.noPrint.Header:style(position: relative !important; top: 0 !import
 steepandcheap.com##.qa-header-wrap.main-header-wrap.js-header-wrap:style(position: relative !important; top: 0 !important;)
 steepandcheap.com##.qa-ui-dialog-title-1.ui-closuremodal.ui-front.ui-corner-all.ui-widget-content.ui-widget.ui-dialog
 steepandcheap.com##.ui-front.ui-widget-overlay
+stellar.org###header-wrapper:style(position: absolute !important; background-color: transparent !important;)
 stereogum.com##.ad-container
 stereogum.com##.ad-holder
 stereogum.com##.ad_desktop_placeholder
