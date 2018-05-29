@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 9:42 AM 2018-05-29
+! Last Modified: 11:46 AM 2018-05-29
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -633,6 +633,7 @@
 ##.cookie-choice
 ##.cookie-consent-container
 ##.cookie-container
+##.cookie-disclaimer
 ##.cookie-law
 ##.cookie-message
 ##.cookie-mobile-wrapper
@@ -3200,6 +3201,7 @@ buzzfeed.com##.vertical-sidebar-info.bf_dom.diy-connect
 buzzfeed.com##.wire-frame__shares
 buzzfeed.com##:xpath(.//*[@data-module="action-bar-subbuzz"])
 buzzfeed.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
+bytecoin.org##.header:style(position: absolute !important;)
 bythewavs.com##.nav-primary:style(position: relative !important; top: 0 !important;)
 c-span.org##.facebook
 c-span.org##.icon-twitter
@@ -7335,6 +7337,7 @@ liquid-iv.com###autofill_bar:style(position: absolute !important;)
 liquid-iv.com##.ub-emb-container
 liquor.com##.navigation-slug:style(position: relative !important; top: 0 !important;)
 liquor.com##.on-right.sans.collection-tip
+lisk.io##.navigation:style(position: absolute !important; height: 9rem !important; background-color: transparent !important;)
 listverse.com##.sticky.asides-holder:style(margin-top: 0px !important;)
 listverse.com##.toolbar:style(position: absolute !important;)
 literaryreview.co.uk##.popup-placer
@@ -8528,6 +8531,7 @@ neh.gov###prefix-overlay-outer
 neh.gov##body > div:nth-of-type(6)
 neighborhoods.com###area-page-affixed-navigation
 neimanmarcus.com##.tooltipArrowDownLeft.tooltipHolder
+nem.io##.navbar:style(position: absolute !important;)
 neo-magazin-royale.de##.gradient:style(position: relative !important; top: 0 !important;)
 neo-magazin-royale.de##.push.header:style(position: relative !important; top: 0 !important;)
 neo-magazin-royale.de##.shy.push.header:style(position: relative !important; top: 0 !important;)
@@ -9247,6 +9251,7 @@ omaha.com###site-navbar-container:style(position: relative !important; top: 0 !i
 omaha.com##.asset-paging-container:style(position: relative !important;)
 omeleto.com###myModal
 omeleto.com###reveal-modal-bg
+omisego.network##.navigation:style(position: relative !important;)
 omnichest.info###header
 onceuponachef.com##.jw-header.fixedready.topbar:style(position: relative !important; top: 0 !important;)
 ondevice.io###mainNav:style(position: absolute !important;)
@@ -12732,6 +12737,7 @@ tristatehomepage.com###header:style(position: relative !important; top: 0 !impor
 tristatehomepage.com##.nav-bar:style(position: relative !important; top: 0 !important;)
 tristatehomepage.com##.upnext-bg.mod-upnext-popup.mod-media-list.mod-wrapper
 tristateupdate.com###WNNavSearchSwitch:style(position: absolute !important;)
+tron.network##.section-header:style(position: absolute !important;)
 tronc.com###sidekick
 tronc.com##.sidekick-homepage
 troyhunt.com###floating_subscribe
@@ -14278,6 +14284,7 @@ yucalc.com##.height-full._.vc_custom_1490276061379.column_container.wpb_column.v
 yucalc.com##.js-bottom-corner-btns.bottom-corner-btns
 yucalc.com##.mk-header-holder:style(position: absolute !important; top: 0 !important;)
 yummly.co##.header-iab
+z.cash##header:style(position: absolute !important; background-color: transparent !important; border: none !important;)
 zacks.com###main-nav:style(position: relative !important; top: 0 !important;)
 zacks.com###main_menu_wrapper:style(position: relative !important; top: 0 !important;)
 zagat.com##.zgt-sticky-float.layout-row.layout-align-start-center.zgt-sticky.layout-wrap.zgt-header:style(position: relative !important; top: 0 !important;)
@@ -14319,6 +14326,7 @@ zerohedge.com##.layout-sidebar-left:style(position: absolute !important; top: 23
 zerohedge.com##.layout-sidebar-right:style(position: absolute !important; top: 234px !important;)
 zerolives.com##.is_stuck.sticky.naf-header-default-menu:style(position: relative !important; top: 0 !important;)
 zftpserver.com##.scrollheader.opacity-header:style(position: absolute !important;)
+zilliqa.com##.birdseye-header:style(position: absolute !important; background-color: transparent !important; color: #fff !important; border: none !important;)
 zillow.com###app-upsell-react-module
 zillow.com###hdp-action-bar-container:style(position: relative !important;)
 zillow.com###hdp-home-menu:style(position: relative !important;)
