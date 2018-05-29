@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 4:01 PM 2018-05-29
+! Last Modified: 5:20 PM 2018-05-29
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -212,6 +212,7 @@
 ###pmad-rail
 ###post-social
 ###post_share
+###pp_banner
 ###questions_list
 ###reg-overlay
 ###responsive-back-to-top
@@ -11948,13 +11949,13 @@ theguardian.com##.d2-action--share
 theguardian.com##.element-embed.element
 theguardian.com##.element-rich-link--upgraded
 theguardian.com##.email-subscription-promo4
-theguardian.com##.identity-noticebar.col-12.edge
-theguardian.com##.js-save-for-later.meta__save-for-later
-theguardian.com##.js-site-message-inner.site-message__inner
+theguardian.com##.identity-noticebar
+theguardian.com##.js-navigation-header:style(position: relative !important; top: 0 !important;)
+theguardian.com##.js-save-for-later
+theguardian.com##.js-site-message-inner
 theguardian.com##.meta__extras
-theguardian.com##.navigation-container--collapsed.navigation-container.js-navigation-header:style(position: relative !important; top: 0 !important;)
-theguardian.com##.save-for-later__button--save.js-save-for-later__button.save-for-later__button.button--tertiary.button--medium.button[href^="https://profile.theguardian.com/save-content"]
-theguardian.com##.selection-sharing--active.selection-sharing
+theguardian.com##.save-for-later__button--save
+theguardian.com##.selection-sharing
 theguardian.com##.site-message
 theguardian.com##.submeta__share
 thehackerblog.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
@@ -12142,7 +12143,7 @@ thenation.com###\'navbar\':style(position: relative !important; top: 0 !importan
 thenation.com###inline_cta_1_module_255597
 thenation.com###inline_cta_2_module_255597
 thenation.com###mobile
-thenation.com###url-title > .aside-wrap > .ad-wrap:nth-of-type(1)
+thenation.com##.ad-wrap
 thenation.com##.current-issue.indents.indent.left
 thenation.com##.donate.btn-yellow.btn
 thenation.com##.email-signup-module
@@ -13285,8 +13286,8 @@ villagevoice.com##.o-ad__top:style(margin-top: 0px !important;)
 villagevoice.com##.sde-shadow
 villagevoice.com##.u-socialWrapper
 vimeo.com###topnav_outer_wrap:style(position: relative !important; top: 0 !important;)
+vimeo.com##.app_banner
 vimeo.com##.is_mini.js-player-fullscreen.player_area:style(position: relative !important; top: 0 !important;)
-vimeo.com##.js-app_banner.app_banner
 vimeo.com##.nav_bar.bar:style(position: relative !important; top: 0 !important;)
 vimeo.com##.sidedock
 vimeo.com##.wrap_content:style(padding-top: 0px !important;)
