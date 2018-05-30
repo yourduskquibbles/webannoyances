@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 8:31 PM 2018-05-29
+! Last Modified: 8:35 PM 2018-05-29
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -903,6 +903,7 @@
 ##.js-cookie
 ##.js-cookie-policy-banner
 ##.js-cookies-accept
+##.js-elevatePostActions
 ##.js-gdpr-banner
 ##.js-gigya-sharebar
 ##.js-go-to-top-wrap
@@ -7799,11 +7800,12 @@ medicinenet.com###ad
 medicinenet.com###apPgNum:style(position: relative !important;)
 medicinenet.com##.avgrund-overlay
 medicinenet.com##.custom_popup.avgrund-popin
-medicinenet.com##.sticky.adTopWrapper
+medicinenet.com##.dTopWrapper
 medindia.net##.affix:style(position: absolute !important;)
 medium.com##.is-dockedTop:style(position: absolute !important;)
 medium.com##.js-metabar:style(position: absolute !important;)
 medium.com##.overlay
+medium.com##html:style(overflow-x: hidden !important; overflow-y: auto !important;)
 medium.com##html:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 meduza.io##.Material-materialTopBar
 meetup.com##.sticky--top.border--none.stripe:style(position: relative !important;)
