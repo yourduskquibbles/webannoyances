@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 9:19 AM 2018-05-30
+! Last Modified: 11:34 AM 2018-05-30
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -1868,6 +1868,7 @@
 @@||100percentfedup.com^$generichide
 @@||c-span.org^$generichide
 @@||facebook.com/common/referer_frame.php$subdocument,domain=facebook.com
+@@||flyingmag.com^$generichide
 @@||foodtank.com^$generichide
 @@||github.com^$generichide
 @@||loxodo-analytics.ext.nile.works/api/save$xmlhttprequest,domain=washingtonpost.com
@@ -2890,8 +2891,10 @@ bloomberg.com##.sticky-container:style(position: static !important; top: 0px !im
 bloomberg.com##.sticky-video:style(transition: none !important; transform: none !important;)
 bloomberg.com##.terminal-tout-container
 bloomberg.com##.video-player__container:style(position: static !important; transition: none !important; transform: none !important; opacity: 1 !important; top: 0 !important; width: auto !important; height: auto !important;)
+bloombergquint.com###izmiddle-box
 bloombergquint.com##.article__details__share
 bloombergquint.com##.bq-footer__social
+bloombergquint.com##.header-sticky-wrapper:style(position: relative !important;)
 bloombergquint.com##.js-article-details-share-sticky.article__content__share--sticky
 bloombergquint.com##.story.bq-nav:style(position: relative !important; top: 0 !important;)
 bloombergquint.com##.subscribe-newsletter--large
@@ -3717,6 +3720,7 @@ cnbc.com###cnbc-new-header:style(position: relative !important; top: 0 !importan
 cnbc.com###nav_spacer:style(height: 0px !important;)
 cnbc.com###optIn-embedded
 cnbc.com###optIn-right-rail
+cnbc.com###social-tools-panel
 cnbc.com##.bx-align
 cnbc.com##.cnbc-card.cnbc-end:style(position: relative !important; top: 0 !important;)
 cnbc.com##.cnbc-menu:style(position: relative !important; top: 0 !important; height: 30px !important;)
@@ -5320,6 +5324,7 @@ flyertalk.com##.bar
 flyertalk.com##.plus-nav
 flyertalk.com##.stat-container:style(position: absoltue !important;)
 flyertalk.com##.user-activity.fixed.has-nav:style(position: absolute !important; top: 0 !important;)
+flyingmag.com##.main-header:style(position: absolute !important;)
 flyreagan.com###page-header:style(position: relative !important; top: 0 !important;)
 fn.com###js-TosPrivacy
 fn.com##.js-banner.main-banner:style(position: relative !important; top: 0 !important;)
@@ -5442,6 +5447,8 @@ fox13memphis.com##.toggle-slide
 fox13memphis.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 fox13now.com##.border-bottom
 fox13now.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute !important; top: 0 !important;)
+fox17.com##.sd-news-main-sidebar-middle:style(position: relative !important; top: 0 !important;)
+fox17.com##.v2.sd-header-wrapper:style(position: absolute !important; top: 0 !important;)
 fox25boston.com###header:style(position: relative !important;)
 fox25boston.com###main:style(padding-top: 0px !important; margin-top: 0px !important;)
 fox25boston.com###story-sticky-content:style(position: relative !important; top: 0 !important;)
@@ -8824,11 +8831,9 @@ newsweek.com###dfp-ad-right4-wrapper
 newsweek.com###dfp-ad-top-wrapper
 newsweek.com###header_subscribe
 newsweek.com##.affix.stickyhead:style(position: relative !important; top: 0 !important;)
-newsweek.com##.article--newsletter--wrapper.col-md-12
+newsweek.com##.article--newsletter--wrapper
 newsweek.com##.block-fusion-ads.block
 newsweek.com##.col-md-4.page-sidebar
-newsweek.com##.container.subscription
-newsweek.com##.fixed.page-header:style(position: relative !important; top: 0 !important;)
 newsweek.com##.fixed.stickyhead:style(position: relative !important; top: 0 !important;)
 newsweek.com##.fixed.videocontent-wrapper:style(position: relative !important;)
 newsweek.com##.fixed.videocontent:style(position: relative !important; top: 0 !important;)
@@ -8837,9 +8842,11 @@ newsweek.com##.hs-menu.clearfix
 newsweek.com##.lk-3
 newsweek.com##.page-header:style(position: relative !important; top: 0 !important;)
 newsweek.com##.sticky_social
+newsweek.com##.subscription
 newsweek.com##.top-right.top.flex-sm-9
 newsweek.com##.trial-link
 newsweek.com##.videocontent:style(position: relative !important;)
+newsweek.com##body:style(padding-top: 0px !important;)
 newsweek.com##center
 newsworks.org###phone-navbar:style(position: absolute !important;)
 newsworks.org##.bottomfloatingHeader.mobile-social-wrapper.visible-sm-block.visible-xs-block.col-xs-12
@@ -9070,6 +9077,7 @@ nydailynews.com##.inner-floating-container:style(transition: none !important;)
 nydailynews.com##.met-flyout
 nydailynews.com##.newsletter-signup
 nydailynews.com##.o2-in-side-view:style(position: static !important;)
+nydailynews.com##.pb-f-ads-yieldmo
 nydailynews.com##.ra-share
 nydailynews.com##.ra-share-e
 nydailynews.com##.ra-share-f
@@ -12289,6 +12297,7 @@ therepublic.com##.td-affix.td-header-gradient.td-header-menu-wrap:style(position
 theresurgent.com##.socnet
 therightscoop.com###trs_connect-2
 theringer.com##.js-metabar:style(position: absolute !important;)
+theringer.com##.tab-bar-fixed.c-tab-bar
 theringfinders.com###menu-main:style(position: relative !important; top: 0 !important;)
 thermoworks.com###modal
 theroot.com###js-article-slider
