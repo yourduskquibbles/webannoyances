@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:34 PM 2018-05-30
+! Last Modified: 12:40 PM 2018-05-30
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -168,6 +168,7 @@
 ###indicator-south
 ###intercom-container
 ###js-back-to-top
+###js-gdpr-consent-banner
 ###js-message-bar-cookie-notice
 ###js-sharebar-main
 ###js_cookie-monster
@@ -11274,6 +11275,7 @@ stackoverflow.blog###masthead:style(position: absolute !important;)
 stackoverflow.blog##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 stackoverflow.com###herobox
 stackoverflow.com##._fixed.js-so-header.so-header:style(position: relative !important; top: 0 !important;)
+stackoverflow.com##._fixed.js-top-bar.top-bar:style(position: absolute !important;)
 stackoverflow.com##._scrolling._fixed.js-so-header.so-header:style(position: relative !important; top: 0 !important;)
 stackoverflow.com##._scrolling._fixed.js-top-bar.top-bar:style(position: absolute !important;)
 stackoverflow.com##.container:style(padding-top: 0px !important;)
