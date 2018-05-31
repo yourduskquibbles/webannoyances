@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:15 PM 2018-05-31
+! Last Modified: 12:16 PM 2018-05-31
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -1872,6 +1872,7 @@
 @@||github.com^$generichide
 @@||loxodo-analytics.ext.nile.works/api/save$xmlhttprequest,domain=washingtonpost.com
 @@||s1.wp.com/*/vip-analytics.js^$script,domain=rare.us
+@@||twitch.tv^$generichide
 aaa.com##.bottomcontainerBox
 aarp.org##.aarpe-ad-wrapper
 aarp.org##.affix:style(position: absolute !important;)
