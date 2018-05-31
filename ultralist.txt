@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:16 PM 2018-05-31
+! Last Modified: 1:53 PM 2018-05-31
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -1863,6 +1863,7 @@
 9to5mac.com###js-site-header:style(position: relative !important; top: 0 !important;)
 9to5mac.com##.header-wrap:style(position: relative !important; top: 0 !important;)
 9to5mac.com##.news-feed-header:style(position: relative !important; top: 0 !important;)
+9to5mac.com##.site-header-placeholder
 @@||100percentfedup.com^$generichide
 @@||animezone.pl^$generichide
 @@||c-span.org^$generichide
@@ -2012,6 +2013,7 @@ add0n.com###header:style(position: absolute !important;)
 add0n.com###sharing
 adguard.com###floatingNavigation
 adguard.com##.static.staticPageWidth.withSearch:style(position: relative !important; top: 0 !important;)
+adguard.com##.sticky-bar:style(position: absolute !important;)
 adjust.com###drift-widget-container
 adjust.com###primary-header:style(position: absolute !important;)
 adl.org###header-wrapper:style(position: relative !important; top: 0 !important;)
@@ -3150,6 +3152,7 @@ businessinsider.com###mobile-intercept
 businessinsider.com###newsSearchForm
 businessinsider.com###tray
 businessinsider.com##.ad-subnav-container
+businessinsider.com##.ad-title
 businessinsider.com##.bottom-recommended
 businessinsider.com##.contact
 businessinsider.com##.footer-social-media-facebook
@@ -4785,9 +4788,10 @@ economist.com###ec-message-3
 economist.com###navbar
 economist.com###piano-exit-pop-up
 economist.com##.blog-post__sharebar
-economist.com##.ec-footer__list--social.ec-footer__list
+economist.com##.ec-footer__list--social
+economist.com##.evidon-banner
 economist.com##.fe-blogs__desktop-beta-bar.beta-bar.bar-wrapper
-economist.com##.fe-blogs__sidebar-ad-wrapper.stickyfill
+economist.com##.fe-blogs__sidebar-ad-wrapper
 economist.com##.js-metabar:style(position: absolute !important;)
 economist.com##.navigation.navigation-sticky-scroller.sticky-scroller:style(position: relative !important; top: 0 !important;)
 economist.com##.newsletter-form
