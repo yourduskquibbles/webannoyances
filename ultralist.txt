@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 1:55 PM 2018-05-30
+! Last Modified: 10:32 AM 2018-05-31
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -1063,11 +1063,7 @@
 ##.pinterest-share-button
 ##.pinterestLink
 ##.pl-BackToTop
-##.popover
-##.popover--bottom
-##.popover-button
-##.popover-content
-##.popover-on
+##.popover.popover--bottom.is-withTransition
 ##.post-share
 ##.post-share-bar
 ##.post-share-buttons
@@ -2623,8 +2619,10 @@ babycenter.com##.reveal-modal-bg
 babycenter.com##.topShareBar
 babycenter.com##.topSliceShare
 backblaze.com##.blog_share_social_box
+##.popover--quoteAttributions
 backblaze.com##.dd_outer
 backblaze.com##.top-nav-bar:style(position: absolute !important;)
+backchannel.com##.popover
 backchannel.com##.js-metabar:style(position: absolute !important;)
 backslasher.net##.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important;)
 backstageol.com###nav-wrapper:style(position: relative !important;)
@@ -3420,6 +3418,7 @@ cell.com##.tab-content:style(padding-top: 0px !important;)
 cellularinsights.com##.nav-down.navbar-laread.navbar-fixed-top.navbar:style(position: relative !important; top: 0 !important;)
 cellularinsights.com##header:style(position: relative !important; top: 0 !important;)
 centurylink.net##.header__height.header__search:style(position: relative !important; top: 0 !important;)
+centurylink.net##.popover
 cepro.com##.cd-main-header:style(position: relative !important; top: 0 !important;)
 cepro.com##.sticky:style(position: relative !important; top: 0 !important;)
 ceramicgrillstore.com##.fadeInDown.on.header-bottom:style(position: absolute !important;)
@@ -7823,6 +7822,7 @@ medicinenet.com##.avgrund-overlay
 medicinenet.com##.custom_popup.avgrund-popin
 medicinenet.com##.dTopWrapper
 medindia.net##.affix:style(position: absolute !important;)
+medium.com##.popover
 medium.com##.is-dockedTop:style(position: absolute !important;)
 medium.com##.js-metabar:style(position: absolute !important;)
 medium.com##.overlay
@@ -8083,6 +8083,7 @@ monday.com##.exit-popup-overlay
 monday.com##.hug.busy.mobile-hidden.exit-modal
 mondaynote.com##.js-metabar:style(position: absolute !important;)
 mondaynote.com##.markup--quote:style(background-image: none !important; background-color: transparent !important; transition: none !important;)
+mondaynote.com##.popover
 mondotees.com###vertical-nav
 mondotees.com##.ftr-newsletter
 mondotees.com##.hdr-search.icon-search:style(position: absolute!important;)
@@ -8248,6 +8249,7 @@ msnbc.com##.feedbackPopup____QQm5.container___kfPO5:style(position: relative !im
 msnbc.com##.pane-msnbc-display-social-links-circle-content.pane-block.panel-pane
 msnbc.com##.pane-msnbc-homepage2-latest-topics.panel-pane > .pane-content
 msnbc.com##.pane-newsletter-modal
+msnbc.com##.popover-button
 mspoweruser.com##.navbar-default.navbar-fixed-top.navbar.shunno-mm.shunno-header:style(position: absolute !important;)
 mspoweruser.com##.shunno-is-visible.shunno-top
 mtb-news.de###mtbnewsShareBar
@@ -11743,6 +11745,7 @@ theadvocate.com###site-navbar-container:style(position: relative !important; top
 theadvocate.com##.animate.item
 theadvocate.com##.arrow
 theadvocate.com##.card-container
+theadvocate.com##.popover-content
 theage.com.au###nav--secondary:style(position: relative !important; top: 0 !important;)
 theage.com.au##.adops-gutter-after.header-wrap:style(position: relative !important; top: 0 !important;)
 theamericanconservative.com##.widget_sign-up-form-widget.widget-container
@@ -12597,6 +12600,7 @@ thrillist.com##.stack-ad-container
 thrillist.com##.stack-ad-placeholder
 thriveglobal.com##.js-metabar:style(position: absolute !important;)
 thriveglobal.com##.markup--quote:style(background-image: none !important; background-color: transparent !important; transition: none !important;)
+thriveglobal.com##.popover
 thriveglobal.com##.story-view__socials
 thundersplace.org###mainmenu.default.navlarge.text.fixed.right.navbar:style(position: relative !important; top: 0 !important;)
 thundersplace.org###mainmenu:style(position: relative !important; top: 0 !important;)
@@ -13200,6 +13204,7 @@ utilitydive.com##.wf-active.wf-abriltitling-n4-active.wf-proximanova-n4-active.w
 utv44.com##.sd-news-main-sidebar-middle:style(position: relative !important; top: 0 !important;)
 utv44.com##.v2.sd-header-wrapper:style(position: absolute !important; top: 0 !important;)
 uxplanet.org##.iframeContainer
+uxplanet.org##.popover
 uxplanet.org##.js-metabar:style(position: absolute !important;)
 uxplanet.org##.markup--quote.is-other:style(background-image: none !important;)
 uxplanet.org##.paragraphControls-itemText
