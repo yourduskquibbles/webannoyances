@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:55 AM 2018-06-04
+! Last Modified: 6:40 PM 2018-06-04
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -4139,6 +4139,7 @@ cryptocoinsnews.com##.widget_text.widget
 cryptocompare.com##.modal
 cryptocompare.com##.visible-sm-block.visible-lg-block.visible-md-block.navbar-fixed-top.navbar-main.navbar:style(position: absolute !important;)
 cryptocougar.com##.single-post-share-icons-wrapper
+cryptomator.org##.d-header:style(position: absolute !important;)
 cryptomator.org##.navbar:style(position: absolute !important;)
 csindy.com###NavigationHorizontal:style(position: relative !important; top: 0 !important;)
 csindy.com###TallBar
@@ -4786,6 +4787,7 @@ ebay.com###gh-bt
 ebay.com###mw-app-bnr
 ebay.com##.nojs-msg.shdw
 ebay.com##.nojs-msk
+ebay.com##.s-feedback:style(position: absolute !important;)
 ebay.com##.sbanner
 ebay.de###ocs-inflow
 ebay.de##.gh-banner-active.gh-banner
@@ -5084,26 +5086,27 @@ extremetech.com###toprightrail:style(position: absolute !important;)
 extremetech.com##.hybrid-bar:style(position: relative !important; top: 0 !important;)
 f-secure.com###article-sidebar
 f-secure.com##.fixed:style(position: relative !important; top: 0 !important;)
-f-secure.com##.follow-div.row
+f-secure.com##.follow-div
 f-secure.com##.teaser-top:style(position: relative !important; top: 0 !important;)
 f-secure.com##header:style(position: relative !important; top: 0 !important;)
 f169bbs.com###topbox:style(position: relative  !important;)
 facebook.com###js_10:style(position: absolute !important;)
 facebook.com###pagelet_growth_expanding_cta
 facebook.com###stream_pagelet div[id^="feed_stream_"] div[id^="substream_"] div[id^="hyperfeed_story_id_"]:has(a.uiStreamSponsoredLink)
-facebook.com###u_0_14:style(position: absolute !important;)
-facebook.com###u_0_1h:style(position: absolute !important;)
-facebook.com###u_0_1l:style(position: absolute !important;)
-facebook.com###u_0_1u:style(position: absolute !important;)
-facebook.com###u_0_29:style(position: absolute !important;)
-facebook.com###u_fetchstream_2_0:style(position: absolute !important;)
+facebook.com###u_0_14:style(position: relative !important;)
+facebook.com###u_0_1h:style(position: relative !important;)
+facebook.com###u_0_1l:style(position: relative !important;)
+facebook.com###u_0_1u:style(position: relative !important;)
+facebook.com###u_0_29:style(position: relative !important;)
+facebook.com###u_0_s:style(position: relative !important; top: 0 !important;)
+facebook.com###u_fetchstream_2_0:style(position: relative !important;)
 facebook.com##._11gk
 facebook.com##._1n-x._8k-._3m9:style(position: absolute !important;)
 facebook.com##._2avl
-facebook.com##._4oes:style(position: absolute !important;)
-facebook.com##._50ti:style(position: absolute !important;)
+facebook.com##._4oes:style(position: relative !important;)
+facebook.com##._50ti:style(position: relative !important;)
 facebook.com##._5zrt._2x4w:style(position: relative !important; top: 0 !important;)
-facebook.com##._lwx > div:style(position: absolute !important;)
+facebook.com##._lwx > div:style(position: relative !important;)
 facebook.com##.canvas_rating_popout
 facebook.com##.fixed_always:style(position: absolute !important;)
 facebook.com##.fixed_elem:style(position: absolute !important;)
@@ -5873,6 +5876,8 @@ golflink.com###NotAMember_pnlNotAMember
 golflink.com##.pw-sticky--active.pw-sticky--base.pw-sticky--position_left
 golfnow.com##.f-topbar-fixed:style(padding-top: 0 !important;)
 golfnow.com##.fixed.sticky.contain-to-grid:style(position: relative !important;)
+golfreview.com###sidebar-sticky:style(position: absolute !important;)
+golfreview.com##.stickyBar:style(position: absolute !important;)
 golfweek.com###nav-branding:style(position: relative !important; top: 0 !important;)
 golfweek.com###video-container:style(position: static !important;)
 golfweek.com##.golfweek-subscribe-top
@@ -6526,6 +6531,10 @@ iflscience.com##.page:style(padding-top: 0px !important;)
 iflscience.com##.smaller.header:style(position: relative !important; top: 0 !important;)
 ifstudies.org###navWrap:style(position: absolute !important;)
 igeeksblog.com##.td-affix.td-header-gradient.td-header-menu-wrap:style(position: relative !important;)
+igeeksblog.com##.td-container-header
+igeeksblog.com##.td-header-sp-logo:style(display: block !important;)
+igeeksblog.com##.td-logo-sticky.post-menu-logo.td-logo-in-header.td-main-menu-logo
+igeeksblog.com##.td-post-sharing
 ign.com###header-container.fixed:style(position: relative !important; top: 0 !important;)
 ign.com###header-container:style(position: relative !important; top: 0 !important;)
 ign.com###header-nav.fixed::after:style(position: relative !important; top: 0 !important;)
@@ -11187,6 +11196,7 @@ southwestthemagazine.com##.chapter:style(padding-top: 0px !important; padding-bo
 southwestthemagazine.com##.header:style(position: relative !important; top: 0 !important; padding-bottom: 0px !important;)
 southwestthemagazine.com##.template-icon.nav-menu-button:style(position: relative !important; top: 0 !important;)
 southwestthemagazine.com##article:style(padding-bottom: 0px !important;)
+sovworks.com##.navbar:style(position: absolute !important;)
 soylent.com###main-header:style(position: absolute !important;)
 soylent.com##.slim-nav.nav-header:style(position: absolute !important;)
 soyoulearn.com##.is-compact.is-casting-shadow.mdl-layout__header--waterfall.mdl-layout__header.srs-header:style(position: relative !important;)
