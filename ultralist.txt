@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 7:41 PM 2018-06-04
+! Last Modified: 2:24 PM 2018-06-05
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -859,6 +859,7 @@
 ##.header-social-wrapper
 ##.headerSocial
 ##.header_social
+##.heateor_sss_sharing_container
 ##.herald-share
 ##.hero-ad-special
 ##.hero-social
@@ -3662,8 +3663,9 @@ cityandstatepa.com##.navbar-default.navbar-fixed-top.navbar:style(position: abso
 citylab.com###blocker-msg-start
 citylab.com##.c-action-bar
 citylab.com##.c-newsletter
-citylab.com##.js-action-bar-active.o-small-container.c-tmp-share-sponsored-container
+citylab.com##.c-tmp-share-sponsored-container
 citylab.com##.l-sponsored
+citylab.com##html:style(overflow-x: hidden !important; overflow-y: auto !important;)
 citymetric.com###footer
 citymetric.com##.site-header.clearfix:style(position: relative !important; top: 0 !important;)
 citynews.ca##.rdm-daac-notice-template
@@ -5898,7 +5900,6 @@ goodreads.com###siteBanner
 goodreads.com##.headroom:style(transform: none !important; transition: none !important;)
 goodreads.com##.siteHeader:style(position: absolute !important; top: 0px !important;)
 goodreads.com##html:style(margin-top: 0px !important;)
-goodrx.com##.heateor_sss_sharing_container
 goodrx.com##.modal
 goodrx.com##.modal-backdrop
 goodrx.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
@@ -7014,6 +7015,7 @@ kaufda.de##.drawer.shelf-layout-header.layout-head-drawer
 kawasaki.com##.social-five.clearfix.small-block-grid-5
 kayfabenews.com###facebooklike
 kbb.com##script:inject(abort-on-property-read.js, KBB.DataLayer)
+kcci.com##.slim.header:style(position: absolute !important;)
 kcra.com##.slim.header:style(position: relative !important; top: 0 !important;)
 kcrg.com###nav:style(position: relative !important; top: 0 !important;)
 kcrw.com###eyebrow:style(position: absolute !important;)
@@ -8167,6 +8169,9 @@ monster.com##.action--open.action.nav-trigger.navbar-toggle:style(position: rela
 monster.com##.nav-shadow.navbar-fixed-top.navbar-default.navbar.navbar-2.solid-nav:style(position: relative !important; top: 0 !important;)
 monster.com##.navbar-header:style(position: relative !important; top: 0 !important;)
 monster.com##.navbar-main.container-fluid:style(position: relative !important; top: 0 !important;)
+montag.wtf###sticky-grover-logo:style(position: absolute !important;)
+montag.wtf###sticky-logobar:style(position: relative !important;)
+montag.wtf###sticky-montag-logo:style(position: absolute !important;)
 monterail.com###blogsidebar:style(position: relative !important;)
 monterail.com##.fixed-menu.widget-type-global_group:style(position: absolute !important;)
 montereyherald.com##.article.toolbar
@@ -8374,6 +8379,7 @@ myjournalcourier.com###subHead:style(transform: none !important;)
 myjournalcourier.com##.article-content:style(margin-top: 50px !important;)
 myjournalcourier.com##.hearst-jwplayer-position:style(position: relative !important;)
 myjournalcourier.com##.topnav:style(z-index: 999999 !important;)
+mymillennialguide.com##.td-affix.td-header-menu-wrap:style(position: absolute !important;)
 mymodernmet.com###navbar-main:style(position: absolute !important;)
 mynbc5.com##.ad-leaderboard
 mynbc5.com##.ad-rectangle
@@ -9508,6 +9514,7 @@ palmbeachpost.com##.hidden-md-down.footer-wrapper
 palmbeachpost.com##.sub-header-nav:style(position: relative !important; top: 0 !important;)
 palmerreport.com##.adsbygoogle
 palmerreport.com##.fl-page-header:style(position: relative !important; top: 0 !important;)
+pampers.com##.sticky.js-sticky-header-redesign.nav:style(position: absolute !important; width: auto !important; background-color: transparent !important; margin: auto !important;)
 pando.com###header:style(position: relative !important; top: 0 !important;)
 pandora.com##.AuthHeader__authButtons--sticky.AuthHeader__authButtons:style(position: absolute !important; top: 0 !important;)
 pandora.com##.Container:style(overflow-x: hidden !important; overflow-y: auto !important;)
@@ -10231,7 +10238,6 @@ railwayage.com###header:style(position: absolute !important;)
 ramblinwreck.com###header:style(position: relative !important; top: 0 !important;)
 ramedium.com###admania_adb_enabled
 ramedium.com##.admania_sitefooter
-ramedium.com##.heateor_sss_sharing_container
 ramw.org###fixed_section
 ramw.org###top_section:style(position: relative !important; top: 0 !important;)
 rand.org###header:style(position: absolute !important;)
