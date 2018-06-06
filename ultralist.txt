@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 4:08 PM 2018-06-05
+! Last Modified: 11:06 PM 2018-06-05
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -2429,10 +2429,10 @@ arizonasports.com##.primary.headerwrapper:style(position: absolute !important; t
 arkema-americas.com###header:style(position: relative !important; top: 0 !important;)
 arkema-americas.com##body:style(padding-top: 0px !important;)
 arlnow.com###article-top-728x90-ad-wrapper
-arlnow.com###container-nav:style(position: relative !important; top: 0 !important;)
+arlnow.com###container-nav:style(position: absolute !important; top: -22px !important; max-height: 500% !important; overflow: auto !important;)
 arlnow.com###menu-main:style(position: relative !important; top: 0 !important;)
-arlnow.com###search-navigation:style(position: relative !important; top: 0 !important;)
-arlnow.com###top-bar:style(position: relative !important; top: 0 !important;)
+arlnow.com###search-navigation:style(position: absolute !important; top: 0 !important;)
+arlnow.com###top-bar:style(position: absolute !important;)
 arlnow.com##.dfp-ad
 arlnow.com##.newsletter-box
 arlnow.com##.river-600x300-ads
