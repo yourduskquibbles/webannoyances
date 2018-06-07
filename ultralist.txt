@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 1:18 PM 2018-06-07
+! Last Modified: 1:28 PM 2018-06-07
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -480,6 +480,7 @@
 ##.addthis
 ##.addthis-button
 ##.addthis_button_expanded
+##.addthis_button_facebook
 ##.addthis_dynamic_wrapper
 ##.addthis_toolbox
 ##.addthis_toolbox_wrapper
@@ -4399,6 +4400,8 @@ dashlane.com##.header-std:style(position: absolute !important;)
 data.swiftkey.com##header:style(position: relative !important;)
 data.swiftkey.com##nav:style(position: absolute !important;)
 datacenterdynamics.com###mainnav:style(position: relative !important; top: 0 !important;)
+datomic.com##.d-header:style(position: absolute !important;)
+datomic.com##.d-nav-container:style(position: absolute !important;)
 daveramsey.com###ProgressBar
 daveramsey.com###dr_interrupter_budgeting
 daveramsey.com##.AsideContent-item--newsletter
@@ -7459,6 +7462,7 @@ lensculture.com##.visible.fly-in-bottom-left.fly-in.announcement-fly-in
 lensrentals.com##.floatfeed_small.right
 letsencrypt.org##.clearfix.d-header:style(position: absolute !important;)
 lever.co##.section-wrapper.page-full-width.main-header:style(position: absolute !important;)
+lgbtqnation.com##.cleveland-background
 libertyalliance.com##.gfiframe
 libertyballers.com##.m-ad
 libertylawsite.org##.no-break
@@ -12144,6 +12148,7 @@ theglobeandmail.com##.c-header-title--article.c-header-title:style(position: abs
 theglobeandmail.com##.c-header-title--scrolling-up.c-header-title--show.c-header-title--article.c-header-title:style(position: absolute !important;)
 theglobeandmail.com##.c-header-title__button-containers:style(transition: none !important; transform: none !important;)
 thegolder.com##.td-ss-main-sidebar:style(position: relative !important;)
+thegreenplace.net##.navbar:style(position: absolute !important;)
 thegrio.com###headerbar:style(position: relative !important; top: 0 !important;)
 thegrio.com##.adcontainer
 thegrio.com##.td-header-wrap:style(position: absolute !important;)
@@ -12926,6 +12931,10 @@ topic.com##.Header-header:style(position: relative !important;)
 topic.com##.HeaderGrid-socialList
 topic.com##.IssueNav-header:style(position: relative !important; transition: none !important;)
 topspeed.com##.g-fw.fixed-social-btn-list
+toptal.com##.bounce_modal
+toptal.com##.is-sticky.is-active.blog_author_banner.for-author.blog_banner.has-no_background.blog-block:style(position: absolute !important;)
+toptal.com##.is-visible.is-fixed.page_header_menu-wrapper.grid-row.blog-simple-header:style(position: absolute !important;)
+toptal.com##html:style(overflow-x: hidden !important; overflow-y: auto !important;)
 toptere.com##.fusion-sticky-shadow.fusion-header:style(position: relative !important; top: 0 !important;)
 toptere.com##.widget_monarchwidget.widget
 torontolife.com##.ad-frame--leaderboard
