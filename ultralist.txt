@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 9:44 AM 2018-06-08
+! Last Modified: 11:51 AM 2018-06-08
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -542,6 +542,7 @@
 ##.article__share-buttons
 ##.article__share-sidebar
 ##.article__shares
+##.article__sharing
 ##.article__social-links
 ##.article__social-share
 ##.article_social
@@ -818,6 +819,7 @@
 ##.g-plusone
 ##.g1-back-to-top
 ##.ga-topnav-subscribe
+##.gallery__sharing
 ##.gdpr-banner
 ##.gdpr-notice-dialog
 ##.gdpr-notice-dialog-overlay
@@ -900,6 +902,8 @@
 ##.inline-share-btn-more
 ##.inline-share-btn-twitter
 ##.inline-share-count-blog
+##.inline-share-tools
+##.inline-share-tools-asset
 ##.inline-social
 ##.instabutton
 ##.instagram
@@ -944,10 +948,12 @@
 ##.lb-advert-container
 ##.lb-card-share-menu
 ##.leaderboard
+##.lf-social-bookmarks
 ##.linkedIn
 ##.linkedin
 ##.linkedin-icon-wrap
 ##.listicle-social-buttons
+##.longform-share
 ##.lsi-social-icons
 ##.lx-share-tools__items
 ##.m-SocialLinksFresh
@@ -1361,6 +1367,7 @@
 ##.sidebar-social-links
 ##.signup-wrapper
 ##.simple-social-icons
+##.site-footer-social-icon-list
 ##.site-footer__social
 ##.site-footer__social-media
 ##.site-header__nav-social
@@ -1466,6 +1473,7 @@
 ##.social-media-items
 ##.social-media-left-mid
 ##.social-media-menu
+##.social-media-module
 ##.social-media-nav
 ##.social-media-right-mid
 ##.social-media-share
@@ -1799,17 +1807,86 @@
 10news.com##.module--multi-top__container.container--ad.container
 10tv.com##.uawn-opt-in-prompt
 11alive.com##.ad
-11alive.com##.dock
-11alive.com##.fixed.header:style(position: relative !important; top: 0 !important;)
-11alive.com##.gallery__sharing
-11alive.com##.header:style(position: absolute !important; top: 0 !important;)
-11alive.com##.is_stuck.chapter-nav
+11alive.com##.desktop-header__inner:style(padding: 25px 30px !important;)
+11alive.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important;)
+11alive.com##.desktop-header__nav-button:style(top: 26px !important;)
+11alive.com##.desktop-header__nav-label:style(transform: none !important;)
+11alive.com##.desktop-header__progress
+11alive.com##.desktop-header__toolbar:style(top: 28px !important;)
+11alive.com##.header:style(position: absolute !important; border-bottom: 1px solid #e6e6e6 !important;)
+11alive.com##.header__home-link:style(opacity: 1 !important;)
+11alive.com##.header__title_visible_true:style(opacity: 0 !important;)
+11alive.com##.live-indicator__info:style(transform: none !important; width: 96px !important;)
 11alive.com##.page__desktop-header:style(position: absolute !important;)
-11alive.com##.page__header:style(position: absolute !important; top: 0 !important;)
-12news.com##.article__sharing
+11alive.com##.page__dock
+11alive.com##.page__header:style(position: absolute !important;)
+11alive.com##.progress
+11alive.com##.video__inner:style(position: static !important;)
+12news.com##.ad
+12news.com##.desktop-header__inner:style(padding: 25px 30px !important;)
+12news.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important;)
+12news.com##.desktop-header__nav-button:style(top: 26px !important;)
+12news.com##.desktop-header__nav-label:style(transform: none !important;)
+12news.com##.desktop-header__progress
+12news.com##.desktop-header__toolbar:style(top: 28px !important;)
+12news.com##.header:style(position: absolute !important; border-bottom: 1px solid #e6e6e6 !important;)
+12news.com##.header__home-link:style(opacity: 1 !important;)
+12news.com##.header__title_visible_true:style(opacity: 0 !important;)
+12news.com##.live-indicator__info:style(transform: none !important; width: 96px !important;)
+12news.com##.page__desktop-header:style(position: absolute !important;)
 12news.com##.page__dock
-12news.com##.page__header:style(position: relative !important; top: 0 !important;)
+12news.com##.page__header:style(position: absolute !important;)
+12news.com##.progress
+12news.com##.video__inner:style(position: static !important;)
+12newsnow.com##.ad
+12newsnow.com##.desktop-header__inner:style(padding: 25px 30px !important;)
+12newsnow.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important;)
+12newsnow.com##.desktop-header__nav-button:style(top: 26px !important;)
+12newsnow.com##.desktop-header__nav-label:style(transform: none !important;)
+12newsnow.com##.desktop-header__progress
+12newsnow.com##.desktop-header__toolbar:style(top: 28px !important;)
+12newsnow.com##.header:style(position: absolute !important; border-bottom: 1px solid #e6e6e6 !important;)
+12newsnow.com##.header__home-link:style(opacity: 1 !important;)
+12newsnow.com##.header__title_visible_true:style(opacity: 0 !important;)
+12newsnow.com##.live-indicator__info:style(transform: none !important; width: 96px !important;)
+12newsnow.com##.page__desktop-header:style(position: absolute !important;)
+12newsnow.com##.page__dock
+12newsnow.com##.page__header:style(position: absolute !important;)
+12newsnow.com##.progress
+12newsnow.com##.video__inner:style(position: static !important;)
 12thman.com##.navigation:style(position: relative !important; top: 0 !important;)
+13newsnow.com##.ad
+13newsnow.com##.desktop-header__inner:style(padding: 25px 30px !important;)
+13newsnow.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important;)
+13newsnow.com##.desktop-header__nav-button:style(top: 26px !important;)
+13newsnow.com##.desktop-header__nav-label:style(transform: none !important;)
+13newsnow.com##.desktop-header__progress
+13newsnow.com##.desktop-header__toolbar:style(top: 28px !important;)
+13newsnow.com##.header:style(position: absolute !important; border-bottom: 1px solid #e6e6e6 !important;)
+13newsnow.com##.header__home-link:style(opacity: 1 !important;)
+13newsnow.com##.header__title_visible_true:style(opacity: 0 !important;)
+13newsnow.com##.live-indicator__info:style(transform: none !important; width: 96px !important;)
+13newsnow.com##.page__desktop-header:style(position: absolute !important;)
+13newsnow.com##.page__dock
+13newsnow.com##.page__header:style(position: absolute !important;)
+13newsnow.com##.progress
+13newsnow.com##.video__inner:style(position: static !important;)
+13wmaz.com##.ad
+13wmaz.com##.desktop-header__inner:style(padding: 25px 30px !important;)
+13wmaz.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important;)
+13wmaz.com##.desktop-header__nav-button:style(top: 26px !important;)
+13wmaz.com##.desktop-header__nav-label:style(transform: none !important;)
+13wmaz.com##.desktop-header__progress
+13wmaz.com##.desktop-header__toolbar:style(top: 28px !important;)
+13wmaz.com##.header:style(position: absolute !important; border-bottom: 1px solid #e6e6e6 !important;)
+13wmaz.com##.header__home-link:style(opacity: 1 !important;)
+13wmaz.com##.header__title_visible_true:style(opacity: 0 !important;)
+13wmaz.com##.live-indicator__info:style(transform: none !important; width: 96px !important;)
+13wmaz.com##.page__desktop-header:style(position: absolute !important;)
+13wmaz.com##.page__dock
+13wmaz.com##.page__header:style(position: absolute !important;)
+13wmaz.com##.progress
+13wmaz.com##.video__inner:style(position: static !important;)
 1688.com###beginnnerBottomPromoteContain
 1688.com###hp_searchFollow
 1688.com###j-identity
@@ -1848,6 +1925,22 @@
 6abc.com##.nav-container-sticky
 6abc.com##body:style(padding-top: 0 !important;)
 760kfmb.com###WNMenuCol1:style(position: absolute !important;)
+760kfmb.com##.ad
+760kfmb.com##.desktop-header__inner:style(padding: 25px 30px !important;)
+760kfmb.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important;)
+760kfmb.com##.desktop-header__nav-button:style(top: 26px !important;)
+760kfmb.com##.desktop-header__nav-label:style(transform: none !important;)
+760kfmb.com##.desktop-header__progress
+760kfmb.com##.desktop-header__toolbar:style(top: 28px !important;)
+760kfmb.com##.header:style(position: absolute !important; border-bottom: 1px solid #e6e6e6 !important;)
+760kfmb.com##.header__home-link:style(opacity: 1 !important;)
+760kfmb.com##.header__title_visible_true:style(opacity: 0 !important;)
+760kfmb.com##.live-indicator__info:style(transform: none !important; width: 96px !important;)
+760kfmb.com##.page__desktop-header:style(position: absolute !important;)
+760kfmb.com##.page__dock
+760kfmb.com##.page__header:style(position: absolute !important;)
+760kfmb.com##.progress
+760kfmb.com##.video__inner:style(position: static !important;)
 800notes.com###skin_main_content:style(padding-top: 0 !important;)
 800notes.com###skin_main_header:style(position: relative !important; top: 0 !important;)
 8bitdo.com###head > .container:style(position: relative !important; top: 0 !important;)
@@ -1865,12 +1958,22 @@
 9gag.com###top-nav:style(position: absolute !important;)
 9gag.com##.badge-toolbar-pre.fixed-wrap-post-bar
 9gag.com##.post-afterbar-a.in-post-bot.full-width
-9news.com###column-1
-9news.com##.inline-share-tools
-9news.com##.inline-share-tools-asset
-9news.com##.is_stuck.site-nav:style(position: absolute !important; top: 0 !important;)
-9news.com##.site-footer-social-icon-list
-9news.com##.site-header:style(position: relative !important; top: 0 !important;)
+9news.com##.ad
+9news.com##.desktop-header__inner:style(padding: 25px 30px !important;)
+9news.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important;)
+9news.com##.desktop-header__nav-button:style(top: 26px !important;)
+9news.com##.desktop-header__nav-label:style(transform: none !important;)
+9news.com##.desktop-header__progress
+9news.com##.desktop-header__toolbar:style(top: 28px !important;)
+9news.com##.header:style(position: absolute !important; border-bottom: 1px solid #e6e6e6 !important;)
+9news.com##.header__home-link:style(opacity: 1 !important;)
+9news.com##.header__title_visible_true:style(opacity: 0 !important;)
+9news.com##.live-indicator__info:style(transform: none !important; width: 96px !important;)
+9news.com##.page__desktop-header:style(position: absolute !important;)
+9news.com##.page__dock
+9news.com##.page__header:style(position: absolute !important;)
+9news.com##.progress
+9news.com##.video__inner:style(position: static !important;)
 9news.com.au##.feedback
 9news.com.au##.header-module__inner:style(position: relative !important; top: 0 !important;)
 9news.com.au##.js-sticky:style(position: relative !important;)
@@ -1911,6 +2014,22 @@ abc.net.au##.Nav-bar:style(position: absolute !important;)
 abc.net.au##.btn-group.tools
 abc.net.au##.doctype-cmcollection.view-collection-social-media-promo
 abc.net.au##.mobile-sticky
+abc10.com##.ad
+abc10.com##.desktop-header__inner:style(padding: 25px 30px !important;)
+abc10.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important;)
+abc10.com##.desktop-header__nav-button:style(top: 26px !important;)
+abc10.com##.desktop-header__nav-label:style(transform: none !important;)
+abc10.com##.desktop-header__progress
+abc10.com##.desktop-header__toolbar:style(top: 28px !important;)
+abc10.com##.header:style(position: absolute !important; border-bottom: 1px solid #e6e6e6 !important;)
+abc10.com##.header__home-link:style(opacity: 1 !important;)
+abc10.com##.header__title_visible_true:style(opacity: 0 !important;)
+abc10.com##.live-indicator__info:style(transform: none !important; width: 96px !important;)
+abc10.com##.page__desktop-header:style(position: absolute !important;)
+abc10.com##.page__dock
+abc10.com##.page__header:style(position: absolute !important;)
+abc10.com##.progress
+abc10.com##.video__inner:style(position: static !important;)
 abc11.com###feature-container:style(position: relative !important; top: 0 !important;)
 abc11.com##.nav-background
 abc11.com##.sticky.wrapper.nav-container-sticky:style(position: relative !important; top: 0 !important;)
@@ -3404,10 +3523,42 @@ cbr.com##.page-header
 cbs.com###globalHeaderContainer:style(position: absolute !important;)
 cbs.com###globalShowHeader:style(position: absolute !important;)
 cbs.com##.navMenuFixed.__layoutHeader.navbar:style(position: absolute !important;)
+cbs19.tv##.ad
+cbs19.tv##.desktop-header__inner:style(padding: 25px 30px !important;)
+cbs19.tv##.desktop-header__logo:style(top: 30px !important; left: 175px !important;)
+cbs19.tv##.desktop-header__nav-button:style(top: 26px !important;)
+cbs19.tv##.desktop-header__nav-label:style(transform: none !important;)
+cbs19.tv##.desktop-header__progress
+cbs19.tv##.desktop-header__toolbar:style(top: 28px !important;)
+cbs19.tv##.header:style(position: absolute !important; border-bottom: 1px solid #e6e6e6 !important;)
+cbs19.tv##.header__home-link:style(opacity: 1 !important;)
+cbs19.tv##.header__title_visible_true:style(opacity: 0 !important;)
+cbs19.tv##.live-indicator__info:style(transform: none !important; width: 96px !important;)
+cbs19.tv##.page__desktop-header:style(position: absolute !important;)
+cbs19.tv##.page__dock
+cbs19.tv##.page__header:style(position: absolute !important;)
+cbs19.tv##.progress
+cbs19.tv##.video__inner:style(position: static !important;)
 cbs46.com###WNAd104-Sticky
 cbs46.com###WNNavSearchSwitch:style(position: relative !important; top: 0 !important;)
 cbs8.com###float_icons
 cbs8.com###scrollboxheader:style(position: absolute !important;)
+cbs8.com##.ad
+cbs8.com##.desktop-header__inner:style(padding: 25px 30px !important;)
+cbs8.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important;)
+cbs8.com##.desktop-header__nav-button:style(top: 26px !important;)
+cbs8.com##.desktop-header__nav-label:style(transform: none !important;)
+cbs8.com##.desktop-header__progress
+cbs8.com##.desktop-header__toolbar:style(top: 28px !important;)
+cbs8.com##.header:style(position: absolute !important; border-bottom: 1px solid #e6e6e6 !important;)
+cbs8.com##.header__home-link:style(opacity: 1 !important;)
+cbs8.com##.header__title_visible_true:style(opacity: 0 !important;)
+cbs8.com##.live-indicator__info:style(transform: none !important; width: 96px !important;)
+cbs8.com##.page__desktop-header:style(position: absolute !important;)
+cbs8.com##.page__dock
+cbs8.com##.page__header:style(position: absolute !important;)
+cbs8.com##.progress
+cbs8.com##.video__inner:style(position: static !important;)
 cbsaustin.com##.sd-news-main-sidebar-middle:style(position: relative !important; top: 0 !important;)
 cbsaustin.com##.v2.sd-header-wrapper:style(position: absolute !important; top: 0 !important;)
 cbslocal.com###cbs-site-ribbon:style(position: relative !important; top: 0 !important;)
@@ -5322,18 +5473,22 @@ finnewsreview.com##.adsbygoogle
 finnewsreview.com##.customPopUp
 finnewsreview.com##.textwidget
 firehouse.com##.fixed-top.fixed.header:style(position: relative !important;)
-firstcoastnews.com###column-1
-firstcoastnews.com###jwloader-1:style(position: static !important;)
-firstcoastnews.com##.desktop-header__inner:style(transition: none !important; padding: 25px 30px !important;)
-firstcoastnews.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important; transition: none !important;)
-firstcoastnews.com##.desktop-header__nav-button:style(top: 26px !important; padding: 10px 10px 10px 50px !important; transition: none !important;)
-firstcoastnews.com##.desktop-header__nav-label:style(transition: none !important; transform: none !important;)
-firstcoastnews.com##.desktop-header__toolbar:style(top: 28px !important; transition: none !important; transform: none !important;)
-firstcoastnews.com##.header:style(position: absolute !important;)
-firstcoastnews.com##.is_stuck.site-nav:style(position: relative !important; top: 0 !important;)
-firstcoastnews.com##.mod-wrapper.inline-share-tools-asset.story-asset
+firstcoastnews.com##.ad
+firstcoastnews.com##.desktop-header__inner:style(padding: 25px 30px !important;)
+firstcoastnews.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important;)
+firstcoastnews.com##.desktop-header__nav-button:style(top: 26px !important;)
+firstcoastnews.com##.desktop-header__nav-label:style(transform: none !important;)
+firstcoastnews.com##.desktop-header__progress
+firstcoastnews.com##.desktop-header__toolbar:style(top: 28px !important;)
+firstcoastnews.com##.header:style(position: absolute !important; border-bottom: 1px solid #e6e6e6 !important;)
+firstcoastnews.com##.header__home-link:style(opacity: 1 !important;)
+firstcoastnews.com##.header__title_visible_true:style(opacity: 0 !important;)
+firstcoastnews.com##.live-indicator__info:style(transform: none !important; width: 96px !important;)
 firstcoastnews.com##.page__desktop-header:style(position: absolute !important;)
+firstcoastnews.com##.page__dock
 firstcoastnews.com##.page__header:style(position: absolute !important;)
+firstcoastnews.com##.progress
+firstcoastnews.com##.video__inner:style(position: static !important;)
 firstlook.org###menu-primary:style(position: relative !important; top: 0 !important;)
 firstpost.com###myScrollspy
 firstround.com##.-fixed._ReaderControls__
@@ -5530,6 +5685,22 @@ fox13memphis.com##.toggle-slide
 fox13memphis.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 fox13now.com##.border-bottom
 fox13now.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute !important; top: 0 !important;)
+fox15abilene.com##.ad
+fox15abilene.com##.desktop-header__inner:style(padding: 25px 30px !important;)
+fox15abilene.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important;)
+fox15abilene.com##.desktop-header__nav-button:style(top: 26px !important;)
+fox15abilene.com##.desktop-header__nav-label:style(transform: none !important;)
+fox15abilene.com##.desktop-header__progress
+fox15abilene.com##.desktop-header__toolbar:style(top: 28px !important;)
+fox15abilene.com##.header:style(position: absolute !important; border-bottom: 1px solid #e6e6e6 !important;)
+fox15abilene.com##.header__home-link:style(opacity: 1 !important;)
+fox15abilene.com##.header__title_visible_true:style(opacity: 0 !important;)
+fox15abilene.com##.live-indicator__info:style(transform: none !important; width: 96px !important;)
+fox15abilene.com##.page__desktop-header:style(position: absolute !important;)
+fox15abilene.com##.page__dock
+fox15abilene.com##.page__header:style(position: absolute !important;)
+fox15abilene.com##.progress
+fox15abilene.com##.video__inner:style(position: static !important;)
 fox17.com##.sd-news-main-sidebar-middle:style(position: relative !important; top: 0 !important;)
 fox17.com##.v2.sd-header-wrapper:style(position: absolute !important; top: 0 !important;)
 fox25boston.com###header:style(position: relative !important;)
@@ -7056,20 +7227,40 @@ justworks.com##.js-blog-header.blog-header:style(position: absolute !important;)
 justworks.com##.js-social-icons.blog-post__social-icons
 jwplayer.com###js-navbar:style(position: absolute !important;)
 kadavy.net##nav
+kagstv.com##.ad
+kagstv.com##.desktop-header__inner:style(padding: 25px 30px !important;)
+kagstv.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important;)
+kagstv.com##.desktop-header__nav-button:style(top: 26px !important;)
+kagstv.com##.desktop-header__nav-label:style(transform: none !important;)
+kagstv.com##.desktop-header__progress
+kagstv.com##.desktop-header__toolbar:style(top: 28px !important;)
+kagstv.com##.header:style(position: absolute !important; border-bottom: 1px solid #e6e6e6 !important;)
+kagstv.com##.header__home-link:style(opacity: 1 !important;)
+kagstv.com##.header__title_visible_true:style(opacity: 0 !important;)
+kagstv.com##.live-indicator__info:style(transform: none !important; width: 96px !important;)
+kagstv.com##.page__desktop-header:style(position: absolute !important;)
+kagstv.com##.page__dock
+kagstv.com##.page__header:style(position: absolute !important;)
+kagstv.com##.progress
+kagstv.com##.video__inner:style(position: static !important;)
 kansascity.com###newsletter-signUpWidget
 kansascity.com###story-cta-widget
-kare11.com###column-1
-kare11.com###jwloader-1:style(position: static !important;)
-kare11.com##.desktop-header__inner:style(transition: none !important; padding: 25px 30px !important;)
-kare11.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important; transition: none !important;)
-kare11.com##.desktop-header__nav-button:style(top: 26px !important; padding: 10px 10px 10px 50px !important; transition: none !important;)
-kare11.com##.desktop-header__nav-label:style(transition: none !important; transform: none !important;)
-kare11.com##.desktop-header__toolbar:style(top: 28px !important; transition: none !important; transform: none !important;)
-kare11.com##.header:style(position: absolute !important;)
-kare11.com##.is_stuck.site-nav:style(position: relative !important; top: 0 !important;)
-kare11.com##.mod-wrapper.inline-share-tools-asset.story-asset
+kare11.com##.ad
+kare11.com##.desktop-header__inner:style(padding: 25px 30px !important;)
+kare11.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important;)
+kare11.com##.desktop-header__nav-button:style(top: 26px !important;)
+kare11.com##.desktop-header__nav-label:style(transform: none !important;)
+kare11.com##.desktop-header__progress
+kare11.com##.desktop-header__toolbar:style(top: 28px !important;)
+kare11.com##.header:style(position: absolute !important; border-bottom: 1px solid #e6e6e6 !important;)
+kare11.com##.header__home-link:style(opacity: 1 !important;)
+kare11.com##.header__title_visible_true:style(opacity: 0 !important;)
+kare11.com##.live-indicator__info:style(transform: none !important; width: 96px !important;)
 kare11.com##.page__desktop-header:style(position: absolute !important;)
+kare11.com##.page__dock
 kare11.com##.page__header:style(position: absolute !important;)
+kare11.com##.progress
+kare11.com##.video__inner:style(position: static !important;)
 kaspersky.com###site-header
 katu.com##.sd-news-main-sidebar-middle:style(position: relative !important; top: 0 !important;)
 katu.com##.v2.sd-header-wrapper:style(position: absolute !important; top: 0 !important;)
@@ -7078,6 +7269,22 @@ kawasaki.com##.social-five.clearfix.small-block-grid-5
 kayfabenews.com###facebooklike
 kbb.com##script:inject(abort-on-property-read.js, KBB.DataLayer)
 kcci.com##.slim.header:style(position: absolute !important;)
+kcentv.com##.ad
+kcentv.com##.desktop-header__inner:style(padding: 25px 30px !important;)
+kcentv.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important;)
+kcentv.com##.desktop-header__nav-button:style(top: 26px !important;)
+kcentv.com##.desktop-header__nav-label:style(transform: none !important;)
+kcentv.com##.desktop-header__progress
+kcentv.com##.desktop-header__toolbar:style(top: 28px !important;)
+kcentv.com##.header:style(position: absolute !important; border-bottom: 1px solid #e6e6e6 !important;)
+kcentv.com##.header__home-link:style(opacity: 1 !important;)
+kcentv.com##.header__title_visible_true:style(opacity: 0 !important;)
+kcentv.com##.live-indicator__info:style(transform: none !important; width: 96px !important;)
+kcentv.com##.page__desktop-header:style(position: absolute !important;)
+kcentv.com##.page__dock
+kcentv.com##.page__header:style(position: absolute !important;)
+kcentv.com##.progress
+kcentv.com##.video__inner:style(position: static !important;)
 kcra.com##.slim.header:style(position: relative !important; top: 0 !important;)
 kcrg.com###nav:style(position: relative !important; top: 0 !important;)
 kcrw.com###eyebrow:style(position: absolute !important;)
@@ -7090,18 +7297,22 @@ kee.pm##.clearfix.d-header:style(position: absolute !important;)
 keep.google.com###gb:style(position: absolute !important;)
 keepassxc.org##.navbar-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 kenoshanews.com##.asset-paging
-kens5.com###jwloader-1:style(position: relative !important; top: 0 !important;)
-kens5.com##.desktop-header__inner:style(transition: none !important; padding: 25px 30px !important;)
-kens5.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important; transition: none !important;)
-kens5.com##.desktop-header__nav-button:style(top: 26px !important; padding: 10px 10px 10px 50px !important; transition: none !important;)
-kens5.com##.desktop-header__nav-label:style(transition: none !important; transform: none !important;)
-kens5.com##.desktop-header__toolbar:style(top: 28px !important; transition: none !important; transform: none !important;)
-kens5.com##.header:style(position: absolute !important;)
-kens5.com##.is_stuck.site-nav:style(position: relative !important; top: 0 !important;)
-kens5.com##.mod-wrapper.inline-share-tools-asset.story-asset
+kens5.com##.ad
+kens5.com##.desktop-header__inner:style(padding: 25px 30px !important;)
+kens5.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important;)
+kens5.com##.desktop-header__nav-button:style(top: 26px !important;)
+kens5.com##.desktop-header__nav-label:style(transform: none !important;)
+kens5.com##.desktop-header__progress
+kens5.com##.desktop-header__toolbar:style(top: 28px !important;)
+kens5.com##.header:style(position: absolute !important; border-bottom: 1px solid #e6e6e6 !important;)
+kens5.com##.header__home-link:style(opacity: 1 !important;)
+kens5.com##.header__title_visible_true:style(opacity: 0 !important;)
+kens5.com##.live-indicator__info:style(transform: none !important; width: 96px !important;)
 kens5.com##.page__desktop-header:style(position: absolute !important;)
 kens5.com##.page__dock
 kens5.com##.page__header:style(position: absolute !important;)
+kens5.com##.progress
+kens5.com##.video__inner:style(position: static !important;)
 kentucky.com###newsletter-signUpWidget
 kentucky.com###story-cta-widget
 kentucky.com##._rmSocial
@@ -7118,24 +7329,37 @@ ketv.com##.slim.header:style(position: relative !important;)
 keybase.io##.navbar-default.navbar-fixed-top.navbar:style(position: absolute !important;)
 keyxl.com##.hidden-printz.pull-center.navbar-fixed-top.navbar:style(position: relative !important; top: 0 !important;)
 kfmbfm.com###WNMenuCol1:style(position: absolute !important;)
+kfmbfm.com##.ad
+kfmbfm.com##.desktop-header__inner:style(padding: 25px 30px !important;)
+kfmbfm.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important;)
+kfmbfm.com##.desktop-header__nav-button:style(top: 26px !important;)
+kfmbfm.com##.desktop-header__nav-label:style(transform: none !important;)
+kfmbfm.com##.desktop-header__progress
+kfmbfm.com##.desktop-header__toolbar:style(top: 28px !important;)
+kfmbfm.com##.header:style(position: absolute !important; border-bottom: 1px solid #e6e6e6 !important;)
+kfmbfm.com##.header__home-link:style(opacity: 1 !important;)
+kfmbfm.com##.header__title_visible_true:style(opacity: 0 !important;)
+kfmbfm.com##.live-indicator__info:style(transform: none !important; width: 96px !important;)
+kfmbfm.com##.page__desktop-header:style(position: absolute !important;)
+kfmbfm.com##.page__dock
+kfmbfm.com##.page__header:style(position: absolute !important;)
+kfmbfm.com##.progress
+kfmbfm.com##.video__inner:style(position: static !important;)
 kfor.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
 kfor.com##body:style(padding-top: 0px !important;)
 kfyrtv.com###nav:style(position: relative !important; top: 0 !important;)
 kgbanswers.com##.navbar-fixed-top:style(position: relative !important; top: 0 !important;)
+kgw.com##.ad
 kgw.com##.desktop-header__inner:style(padding: 25px 30px !important;)
 kgw.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important;)
 kgw.com##.desktop-header__nav-button:style(top: 26px !important;)
 kgw.com##.desktop-header__nav-label:style(transform: none !important;)
 kgw.com##.desktop-header__progress
 kgw.com##.desktop-header__toolbar:style(top: 28px !important;)
-kgw.com##.header-main:style(position: relative !important; top: 0 !important;)
 kgw.com##.header:style(position: absolute !important; border-bottom: 1px solid #e6e6e6 !important;)
 kgw.com##.header__home-link:style(opacity: 1 !important;)
 kgw.com##.header__title_visible_true:style(opacity: 0 !important;)
-kgw.com##.is_stuck.site-nav:style(position: relative !important; top: 0 !important;)
-kgw.com##.lf-social-bookmarks
 kgw.com##.live-indicator__info:style(transform: none !important; width: 96px !important;)
-kgw.com##.longform-share
 kgw.com##.page__desktop-header:style(position: absolute !important;)
 kgw.com##.page__dock
 kgw.com##.page__header:style(position: absolute !important;)
@@ -7154,19 +7378,27 @@ khn.org##.inline.related
 khn.org##.navbar-global li:style(border-left: 1px solid #0075c9 !important;)
 khn.org##.navbar-global:style(background-color: #0064ab !important; border-top-left-radius: 6px !important;)
 khou.com##.ad
-khou.com##.header:style(position: relative !important; top: 0 !important;)
-khou.com##.inline-share-tools-asset
-khou.com##.is_stuck.site-nav:style(position: relative !important; top: 0 !important;)
+khou.com##.desktop-header__inner:style(padding: 25px 30px !important;)
+khou.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important;)
+khou.com##.desktop-header__nav-button:style(top: 26px !important;)
+khou.com##.desktop-header__nav-label:style(transform: none !important;)
+khou.com##.desktop-header__progress
+khou.com##.desktop-header__toolbar:style(top: 28px !important;)
+khou.com##.header:style(position: absolute !important; border-bottom: 1px solid #e6e6e6 !important;)
+khou.com##.header__home-link:style(opacity: 1 !important;)
+khou.com##.header__title_visible_true:style(opacity: 0 !important;)
+khou.com##.live-indicator__info:style(transform: none !important; width: 96px !important;)
 khou.com##.page__desktop-header:style(position: absolute !important;)
 khou.com##.page__dock
 khou.com##.page__header:style(position: absolute !important;)
-khou.com##.site-header:style(position: relative !important; top: 0 !important;)
+khou.com##.progress
 khou.com##.video__inner:style(position: static !important;)
 kickstarter.com##.fixed.js-project-nav.NS_projects__project_nav:style(position: relative !important;)
 kickstarter.com##.mx-1.relative.z2.shadow-high.py2.bg-navy-200
 kickstarter.com##.skrollable-after.skrollable.js-project-nav.NS_projects__project_nav:style(position: relative !important; top: 0 !important;)
 kidrock.com##.top-bar:style(position: relative !important; top: 0 !important;)
 kidshealth.org###kh-header:style(position: absolute !important;)
+kiiitv.com##.ad
 kiiitv.com##.desktop-header__inner:style(padding: 25px 30px !important;)
 kiiitv.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important;)
 kiiitv.com##.desktop-header__nav-button:style(top: 26px !important;)
@@ -7182,12 +7414,22 @@ kiiitv.com##.page__dock
 kiiitv.com##.page__header:style(position: absolute !important;)
 kiiitv.com##.progress
 kiiitv.com##.video__inner:style(position: static !important;)
-king5.com##.fixed.header:style(position: relative !important; top: 0 !important;)
-king5.com##.header-main:style(position: relative !important; top: 0 !important;)
-king5.com##.header:style(position: relative !important;)
-king5.com##.is_stuck.site-nav:style(position: relative !important; top: 0 !important;)
-king5.com##.page__dock:style(position: absolute !important;)
-king5.com##.page__header:style(position: relative !important;)
+king5.com##.ad
+king5.com##.desktop-header__inner:style(padding: 25px 30px !important;)
+king5.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important;)
+king5.com##.desktop-header__nav-button:style(top: 26px !important;)
+king5.com##.desktop-header__nav-label:style(transform: none !important;)
+king5.com##.desktop-header__progress
+king5.com##.desktop-header__toolbar:style(top: 28px !important;)
+king5.com##.header:style(position: absolute !important; border-bottom: 1px solid #e6e6e6 !important;)
+king5.com##.header__home-link:style(opacity: 1 !important;)
+king5.com##.header__title_visible_true:style(opacity: 0 !important;)
+king5.com##.live-indicator__info:style(transform: none !important; width: 96px !important;)
+king5.com##.page__desktop-header:style(position: absolute !important;)
+king5.com##.page__dock
+king5.com##.page__header:style(position: absolute !important;)
+king5.com##.progress
+king5.com##.video__inner:style(position: static !important;)
 kinja.com##.global-nav--scrollback.fixed.shown.animated.hide-for-large-up.mobile-nav.global-nav.js_top-nav.js_global-nav-wrap:style(position: relative !important; top: 0 !important;)
 kinja.com##.js_global-nav-wrap:style(position: relative !important; top: 0 !important;)
 kinopoisk.ru##.header-fresh-partial-component__inner:style(position: absolute !important;)
@@ -7276,6 +7518,22 @@ kraftrecipes.com##.modal-dialog
 kraken.com###head:style(position: absolute !important;)
 krcgtv.com##.sd-news-main-sidebar-middle:style(position: relative !important; top: 0 !important;)
 krcgtv.com##.v2.sd-header-wrapper:style(position: absolute !important; top: 0 !important;)
+krem.com##.ad
+krem.com##.desktop-header__inner:style(padding: 25px 30px !important;)
+krem.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important;)
+krem.com##.desktop-header__nav-button:style(top: 26px !important;)
+krem.com##.desktop-header__nav-label:style(transform: none !important;)
+krem.com##.desktop-header__progress
+krem.com##.desktop-header__toolbar:style(top: 28px !important;)
+krem.com##.header:style(position: absolute !important; border-bottom: 1px solid #e6e6e6 !important;)
+krem.com##.header__home-link:style(opacity: 1 !important;)
+krem.com##.header__title_visible_true:style(opacity: 0 !important;)
+krem.com##.live-indicator__info:style(transform: none !important; width: 96px !important;)
+krem.com##.page__desktop-header:style(position: absolute !important;)
+krem.com##.page__dock
+krem.com##.page__header:style(position: absolute !important;)
+krem.com##.progress
+krem.com##.video__inner:style(position: static !important;)
 ksat.com###GMGHeader:style(position: relative !important;)
 ksat.com###header:style(position: relative !important; top: 0 !important; width: 100% !important; margin-bottom: 20px !important;)
 ksat.com###ksat-fixed:style(position: relative !important; top: 0 !important; width: 100% !important; margin-bottom: 20px !important;)
@@ -7285,6 +7543,22 @@ ksbw.com##.ad-leaderboard
 ksbw.com##.ad-rectangle
 ksbw.com##.header:style(position: relative !important; top: 0 !important;)
 ksbw.com##.slim-headline:style(position: relative !important; top: 0 !important;)
+ksdk.com##.ad
+ksdk.com##.desktop-header__inner:style(padding: 25px 30px !important;)
+ksdk.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important;)
+ksdk.com##.desktop-header__nav-button:style(top: 26px !important;)
+ksdk.com##.desktop-header__nav-label:style(transform: none !important;)
+ksdk.com##.desktop-header__progress
+ksdk.com##.desktop-header__toolbar:style(top: 28px !important;)
+ksdk.com##.header:style(position: absolute !important; border-bottom: 1px solid #e6e6e6 !important;)
+ksdk.com##.header__home-link:style(opacity: 1 !important;)
+ksdk.com##.header__title_visible_true:style(opacity: 0 !important;)
+ksdk.com##.live-indicator__info:style(transform: none !important; width: 96px !important;)
+ksdk.com##.page__desktop-header:style(position: absolute !important;)
+ksdk.com##.page__dock
+ksdk.com##.page__header:style(position: absolute !important;)
+ksdk.com##.progress
+ksdk.com##.video__inner:style(position: static !important;)
 ksl.com###kslHeader:style(position: relative !important; top: 0 !important;)
 ksl.com###recommendationsContainer
 ksl.com##.ksl-header-reserved
@@ -7295,16 +7569,40 @@ ktla.com##.entry-share
 ktla.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
 ktla.com##.oo-icon-share.oo-icon
 ktla.com##body:style(padding-top: 0px !important;)
+ktvb.com##.ad
+ktvb.com##.desktop-header__inner:style(padding: 25px 30px !important;)
+ktvb.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important;)
+ktvb.com##.desktop-header__nav-button:style(top: 26px !important;)
+ktvb.com##.desktop-header__nav-label:style(transform: none !important;)
+ktvb.com##.desktop-header__progress
+ktvb.com##.desktop-header__toolbar:style(top: 28px !important;)
+ktvb.com##.header:style(position: absolute !important; border-bottom: 1px solid #e6e6e6 !important;)
+ktvb.com##.header__home-link:style(opacity: 1 !important;)
+ktvb.com##.header__title_visible_true:style(opacity: 0 !important;)
+ktvb.com##.live-indicator__info:style(transform: none !important; width: 96px !important;)
+ktvb.com##.page__desktop-header:style(position: absolute !important;)
+ktvb.com##.page__dock
+ktvb.com##.page__header:style(position: absolute !important;)
+ktvb.com##.progress
+ktvb.com##.video__inner:style(position: static !important;)
 kvoa.com###WNAd41
 kvoa.com###WNNavSearchSwitch:style(position: relative !important; top: 0 !important;)
-kvue.com###module_3
 kvue.com##.ad
-kvue.com##.header:style(position: absolute !important;)
-kvue.com##.is_stuck.site-nav:style(position: relative !important; top: 0 !important;)
+kvue.com##.desktop-header__inner:style(padding: 25px 30px !important;)
+kvue.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important;)
+kvue.com##.desktop-header__nav-button:style(top: 26px !important;)
+kvue.com##.desktop-header__nav-label:style(transform: none !important;)
+kvue.com##.desktop-header__progress
+kvue.com##.desktop-header__toolbar:style(top: 28px !important;)
+kvue.com##.header:style(position: absolute !important; border-bottom: 1px solid #e6e6e6 !important;)
+kvue.com##.header__home-link:style(opacity: 1 !important;)
+kvue.com##.header__title_visible_true:style(opacity: 0 !important;)
+kvue.com##.live-indicator__info:style(transform: none !important; width: 96px !important;)
 kvue.com##.page__desktop-header:style(position: absolute !important;)
-kvue.com##.page__dock:style(position: absolute !important;)
+kvue.com##.page__dock
 kvue.com##.page__header:style(position: absolute !important;)
-kvue.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
+kvue.com##.progress
+kvue.com##.video__inner:style(position: static !important;)
 kwqc.com###nav:style(position: relative !important; top: 0 !important;)
 kwqc.com###navbar:style(position: relative !important; top: 0 !important;)
 kxan.com###content:style(padding-top: 0px !important;)
@@ -8461,6 +8759,22 @@ myajc.com##body > .container:style(padding-top: 0px !important;)
 myanimelist.net##.js-scrollfix-bottom:style(position: static!important;)
 myanimelist.net##.modal-content
 myatltv.com###IGsocialslide
+myatltv.com##.ad
+myatltv.com##.desktop-header__inner:style(padding: 25px 30px !important;)
+myatltv.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important;)
+myatltv.com##.desktop-header__nav-button:style(top: 26px !important;)
+myatltv.com##.desktop-header__nav-label:style(transform: none !important;)
+myatltv.com##.desktop-header__progress
+myatltv.com##.desktop-header__toolbar:style(top: 28px !important;)
+myatltv.com##.header:style(position: absolute !important; border-bottom: 1px solid #e6e6e6 !important;)
+myatltv.com##.header__home-link:style(opacity: 1 !important;)
+myatltv.com##.header__title_visible_true:style(opacity: 0 !important;)
+myatltv.com##.live-indicator__info:style(transform: none !important; width: 96px !important;)
+myatltv.com##.page__desktop-header:style(position: absolute !important;)
+myatltv.com##.page__dock
+myatltv.com##.page__header:style(position: absolute !important;)
+myatltv.com##.progress
+myatltv.com##.video__inner:style(position: static !important;)
 mybanktracker.com##.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important;)
 myce.com##.like-button.shrinkme.white-gradient
 myce.com##.smaller.fixed.shrinkme.white-gradient.regular-height.shadow.show-for-large-up.sticky:style(position: relative !important; top: 0 !important;)
@@ -8475,6 +8789,22 @@ mycentraljersey.com##.site-nav-logo-link.site-nav-link:style(width: 0 !important
 mydomaine.com##.nav-wrapper.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 myfitnesspal.com##.last
 myfoxdc.com##.yui-img
+myfoxzone.com##.ad
+myfoxzone.com##.desktop-header__inner:style(padding: 25px 30px !important;)
+myfoxzone.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important;)
+myfoxzone.com##.desktop-header__nav-button:style(top: 26px !important;)
+myfoxzone.com##.desktop-header__nav-label:style(transform: none !important;)
+myfoxzone.com##.desktop-header__progress
+myfoxzone.com##.desktop-header__toolbar:style(top: 28px !important;)
+myfoxzone.com##.header:style(position: absolute !important; border-bottom: 1px solid #e6e6e6 !important;)
+myfoxzone.com##.header__home-link:style(opacity: 1 !important;)
+myfoxzone.com##.header__title_visible_true:style(opacity: 0 !important;)
+myfoxzone.com##.live-indicator__info:style(transform: none !important; width: 96px !important;)
+myfoxzone.com##.page__desktop-header:style(position: absolute !important;)
+myfoxzone.com##.page__dock
+myfoxzone.com##.page__header:style(position: absolute !important;)
+myfoxzone.com##.progress
+myfoxzone.com##.video__inner:style(position: static !important;)
 myjournalcourier.com###ctpl-fullbanner-spacer:style(height: 50px !important;)
 myjournalcourier.com###homepage-timestamp:style(position: absolute !important;)
 myjournalcourier.com###menuBar:style(position: absolute !important; top: 50px !important; transform: none !important;)
@@ -8916,6 +9246,22 @@ newsbusters.org###donateButtonMarkup
 newsbusters.org##.nb-social
 newsbusters.org##.region-social-navigation.region
 newsbusters.org##.text-center.center-block.nb-not-content.wrapper-100
+newscentermaine.com##.ad
+newscentermaine.com##.desktop-header__inner:style(padding: 25px 30px !important;)
+newscentermaine.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important;)
+newscentermaine.com##.desktop-header__nav-button:style(top: 26px !important;)
+newscentermaine.com##.desktop-header__nav-label:style(transform: none !important;)
+newscentermaine.com##.desktop-header__progress
+newscentermaine.com##.desktop-header__toolbar:style(top: 28px !important;)
+newscentermaine.com##.header:style(position: absolute !important; border-bottom: 1px solid #e6e6e6 !important;)
+newscentermaine.com##.header__home-link:style(opacity: 1 !important;)
+newscentermaine.com##.header__title_visible_true:style(opacity: 0 !important;)
+newscentermaine.com##.live-indicator__info:style(transform: none !important; width: 96px !important;)
+newscentermaine.com##.page__desktop-header:style(position: absolute !important;)
+newscentermaine.com##.page__dock
+newscentermaine.com##.page__header:style(position: absolute !important;)
+newscentermaine.com##.progress
+newscentermaine.com##.video__inner:style(position: static !important;)
 newschannel10.com###WNMenuCol1:style(position: relative !important;)
 newschannel10.com###WNNavSearchSwitch:style(position: absolute !important;)
 newschannel10.com###storyFeednext
@@ -12072,6 +12418,22 @@ thecut.com##.ad-splash
 thecut.com##.column-subscribe
 thecut.com##.most-popular:style(position: absolute !important;)
 thecwsandiego.com###WNMenuCol1:style(position: absolute !important;)
+thecwsandiego.com##.ad
+thecwsandiego.com##.desktop-header__inner:style(padding: 25px 30px !important;)
+thecwsandiego.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important;)
+thecwsandiego.com##.desktop-header__nav-button:style(top: 26px !important;)
+thecwsandiego.com##.desktop-header__nav-label:style(transform: none !important;)
+thecwsandiego.com##.desktop-header__progress
+thecwsandiego.com##.desktop-header__toolbar:style(top: 28px !important;)
+thecwsandiego.com##.header:style(position: absolute !important; border-bottom: 1px solid #e6e6e6 !important;)
+thecwsandiego.com##.header__home-link:style(opacity: 1 !important;)
+thecwsandiego.com##.header__title_visible_true:style(opacity: 0 !important;)
+thecwsandiego.com##.live-indicator__info:style(transform: none !important; width: 96px !important;)
+thecwsandiego.com##.page__desktop-header:style(position: absolute !important;)
+thecwsandiego.com##.page__dock
+thecwsandiego.com##.page__header:style(position: absolute !important;)
+thecwsandiego.com##.progress
+thecwsandiego.com##.video__inner:style(position: static !important;)
 thedailybeast.com###react-mount-point > .ArticlePage > .PageHeader.head > .MobileNav
 thedailybeast.com##.ArticleRail__share-icons
 thedailybeast.com##.CheatShareButtons
@@ -12808,15 +13170,22 @@ thriveglobal.com##.story-view__socials
 thundersplace.org###mainmenu.default.navlarge.text.fixed.right.navbar:style(position: relative !important; top: 0 !important;)
 thundersplace.org###mainmenu:style(position: relative !important; top: 0 !important;)
 thurrott.com###nav-wrapper:style(position: relative !important; top: 0 !important;)
-thv11.com##.desktop-header__inner:style(transition: none !important; padding: 25px 30px !important;)
-thv11.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important; transition: none !important;)
-thv11.com##.desktop-header__nav-button:style(top: 26px !important; padding: 10px 10px 10px 50px !important; transition: none !important;)
-thv11.com##.desktop-header__nav-label:style(transition: none !important; transform: none !important;)
-thv11.com##.desktop-header__toolbar:style(top: 28px !important; transition: none !important; transform: none !important;)
-thv11.com##.header:style(position: absolute !important;)
-thv11.com##.is_stuck.site-nav:style(position: relative !important; top: 0 !important;)
+thv11.com##.ad
+thv11.com##.desktop-header__inner:style(padding: 25px 30px !important;)
+thv11.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important;)
+thv11.com##.desktop-header__nav-button:style(top: 26px !important;)
+thv11.com##.desktop-header__nav-label:style(transform: none !important;)
+thv11.com##.desktop-header__progress
+thv11.com##.desktop-header__toolbar:style(top: 28px !important;)
+thv11.com##.header:style(position: absolute !important; border-bottom: 1px solid #e6e6e6 !important;)
+thv11.com##.header__home-link:style(opacity: 1 !important;)
+thv11.com##.header__title_visible_true:style(opacity: 0 !important;)
+thv11.com##.live-indicator__info:style(transform: none !important; width: 96px !important;)
 thv11.com##.page__desktop-header:style(position: absolute !important;)
+thv11.com##.page__dock
 thv11.com##.page__header:style(position: absolute !important;)
+thv11.com##.progress
+thv11.com##.video__inner:style(position: static !important;)
 ticketfly.com###eyebrow:style(position: relative !important; top: 0 !important;)
 tiffany.com###filters:style(position: relative !important;)
 tiffany.com###headerBlueBar:style(position: absolute !important;)
@@ -13101,8 +13470,24 @@ tucson.com##.fc-dialog-container.fc-root
 tucson.com##.fc-dialog-overlay
 tucson.com##.tucson-inline-subscribe_button
 tucson.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
+tucsonnewsnow.com##.ad
 tucsonnewsnow.com##.cdev-menu-nav:style(position: relative !important;)
+tucsonnewsnow.com##.desktop-header__inner:style(padding: 25px 30px !important;)
+tucsonnewsnow.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important;)
+tucsonnewsnow.com##.desktop-header__nav-button:style(top: 26px !important;)
+tucsonnewsnow.com##.desktop-header__nav-label:style(transform: none !important;)
+tucsonnewsnow.com##.desktop-header__progress
+tucsonnewsnow.com##.desktop-header__toolbar:style(top: 28px !important;)
+tucsonnewsnow.com##.header:style(position: absolute !important; border-bottom: 1px solid #e6e6e6 !important;)
+tucsonnewsnow.com##.header__home-link:style(opacity: 1 !important;)
+tucsonnewsnow.com##.header__title_visible_true:style(opacity: 0 !important;)
+tucsonnewsnow.com##.live-indicator__info:style(transform: none !important; width: 96px !important;)
+tucsonnewsnow.com##.page__desktop-header:style(position: absolute !important;)
+tucsonnewsnow.com##.page__dock
+tucsonnewsnow.com##.page__header:style(position: absolute !important;)
+tucsonnewsnow.com##.progress
 tucsonnewsnow.com##.story-feed
+tucsonnewsnow.com##.video__inner:style(position: static !important;)
 tuev-sued.de##.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important;)
 tulsaworld.com###site-navbar-container:style(position: relative !important;)
 tulsaworld.com##.asset-paging
@@ -13824,6 +14209,22 @@ wbaltv.com##.slim.header:style(position: relative !important; top: 0 !important;
 wbbjtv.com##.col-xs-12.wrapper-top-row
 wben.com###page:style(top: 0 !important;)
 wben.com##.header:style(position: relative !important;)
+wbir.com##.ad
+wbir.com##.desktop-header__inner:style(padding: 25px 30px !important;)
+wbir.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important;)
+wbir.com##.desktop-header__nav-button:style(top: 26px !important;)
+wbir.com##.desktop-header__nav-label:style(transform: none !important;)
+wbir.com##.desktop-header__progress
+wbir.com##.desktop-header__toolbar:style(top: 28px !important;)
+wbir.com##.header:style(position: absolute !important; border-bottom: 1px solid #e6e6e6 !important;)
+wbir.com##.header__home-link:style(opacity: 1 !important;)
+wbir.com##.header__title_visible_true:style(opacity: 0 !important;)
+wbir.com##.live-indicator__info:style(transform: none !important; width: 96px !important;)
+wbir.com##.page__desktop-header:style(position: absolute !important;)
+wbir.com##.page__dock
+wbir.com##.page__header:style(position: absolute !important;)
+wbir.com##.progress
+wbir.com##.video__inner:style(position: static !important;)
 wbrc.com###header:style(position: relative !important; top: 0 !important;)
 wbtv.com###header:style(position: relative !important; top: 0 !important;)
 wbtv.com##.cdev-menu-nav:style(position: relative !important; top: 0 !important;)
@@ -13836,6 +14237,22 @@ wccftech.com##.headroom--top.headroom--pinned.headroom--not-bottom.headroom:styl
 wccftech.com##.meta-share
 wccftech.com##.sidebar-ad
 wccftech.com##tqwidget
+wcnc.com##.ad
+wcnc.com##.desktop-header__inner:style(padding: 25px 30px !important;)
+wcnc.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important;)
+wcnc.com##.desktop-header__nav-button:style(top: 26px !important;)
+wcnc.com##.desktop-header__nav-label:style(transform: none !important;)
+wcnc.com##.desktop-header__progress
+wcnc.com##.desktop-header__toolbar:style(top: 28px !important;)
+wcnc.com##.header:style(position: absolute !important; border-bottom: 1px solid #e6e6e6 !important;)
+wcnc.com##.header__home-link:style(opacity: 1 !important;)
+wcnc.com##.header__title_visible_true:style(opacity: 0 !important;)
+wcnc.com##.live-indicator__info:style(transform: none !important; width: 96px !important;)
+wcnc.com##.page__desktop-header:style(position: absolute !important;)
+wcnc.com##.page__dock
+wcnc.com##.page__header:style(position: absolute !important;)
+wcnc.com##.progress
+wcnc.com##.video__inner:style(position: static !important;)
 wcpo.com###header:style(position: relative !important; top: 0 !important;)
 wcsh6.com##.asset-inline-share-tools-bottom.asset-inline-share-tools.inline-share-tools
 wcsh6.com##.is_stuck.site-nav:style(position: relative !important; top: 0 !important;)
@@ -13938,7 +14355,38 @@ wetpaint.com##.content-column-left.content-column
 wetpaint.com##.main-header.header:style(position: relative !important; top: 0 !important;)
 wetpaint.com##.nav-container:style(position: relative !important; top: 0 !important;)
 wetter.com###mainHeader:style(position: relative !important;)
-wfaa.com##.is_stuck.site-nav:style(position: relative !important; top: 0 !important;)
+wfaa.com##.ad
+wfaa.com##.desktop-header__inner:style(padding: 25px 30px !important;)
+wfaa.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important;)
+wfaa.com##.desktop-header__nav-button:style(top: 26px !important;)
+wfaa.com##.desktop-header__nav-label:style(transform: none !important;)
+wfaa.com##.desktop-header__progress
+wfaa.com##.desktop-header__toolbar:style(top: 28px !important;)
+wfaa.com##.header:style(position: absolute !important; border-bottom: 1px solid #e6e6e6 !important;)
+wfaa.com##.header__home-link:style(opacity: 1 !important;)
+wfaa.com##.header__title_visible_true:style(opacity: 0 !important;)
+wfaa.com##.live-indicator__info:style(transform: none !important; width: 96px !important;)
+wfaa.com##.page__desktop-header:style(position: absolute !important;)
+wfaa.com##.page__dock
+wfaa.com##.page__header:style(position: absolute !important;)
+wfaa.com##.progress
+wfaa.com##.video__inner:style(position: static !important;)
+wfmynews2.com##.ad
+wfmynews2.com##.desktop-header__inner:style(padding: 25px 30px !important;)
+wfmynews2.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important;)
+wfmynews2.com##.desktop-header__nav-button:style(top: 26px !important;)
+wfmynews2.com##.desktop-header__nav-label:style(transform: none !important;)
+wfmynews2.com##.desktop-header__progress
+wfmynews2.com##.desktop-header__toolbar:style(top: 28px !important;)
+wfmynews2.com##.header:style(position: absolute !important; border-bottom: 1px solid #e6e6e6 !important;)
+wfmynews2.com##.header__home-link:style(opacity: 1 !important;)
+wfmynews2.com##.header__title_visible_true:style(opacity: 0 !important;)
+wfmynews2.com##.live-indicator__info:style(transform: none !important; width: 96px !important;)
+wfmynews2.com##.page__desktop-header:style(position: absolute !important;)
+wfmynews2.com##.page__dock
+wfmynews2.com##.page__header:style(position: absolute !important;)
+wfmynews2.com##.progress
+wfmynews2.com##.video__inner:style(position: static !important;)
 wftv.com###header:style(position: relative !important; top: 0 !important;)
 wftv.com###main:style(padding-top: 0px !important; margin-top: 0px !important;)
 wftv.com###tabcontent-news
@@ -13952,13 +14400,38 @@ wgme.com##.v2.sd-header-wrapper:style(position: absolute !important; top: 0 !imp
 wgno.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute !important;)
 wgntv.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute !important; margin-top: 0px !important;)
 wgntv.com##.station-promo
-whas11.com###column-1
-whas11.com##.card-primary.primary-module-primary-suspender-sidebar-page.primary-module-border.primary-module.social-media-primary-module.social-media-primary.social-media-card-module.social-media-module
-whas11.com##.header:style(position: absolute !important;)
-whas11.com##.is_stuck.site-nav:style(position: relative !important; top: 0 !important;)
-whas11.com##.mod-wrapper.inline-share-tools-asset.story-asset
-whas11.com##.page__dock:style(position: absolute !important;)
+wgrz.com##.ad
+wgrz.com##.desktop-header__inner:style(padding: 25px 30px !important;)
+wgrz.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important;)
+wgrz.com##.desktop-header__nav-button:style(top: 26px !important;)
+wgrz.com##.desktop-header__nav-label:style(transform: none !important;)
+wgrz.com##.desktop-header__progress
+wgrz.com##.desktop-header__toolbar:style(top: 28px !important;)
+wgrz.com##.header:style(position: absolute !important; border-bottom: 1px solid #e6e6e6 !important;)
+wgrz.com##.header__home-link:style(opacity: 1 !important;)
+wgrz.com##.header__title_visible_true:style(opacity: 0 !important;)
+wgrz.com##.live-indicator__info:style(transform: none !important; width: 96px !important;)
+wgrz.com##.page__desktop-header:style(position: absolute !important;)
+wgrz.com##.page__dock
+wgrz.com##.page__header:style(position: absolute !important;)
+wgrz.com##.progress
+wgrz.com##.video__inner:style(position: static !important;)
+whas11.com##.ad
+whas11.com##.desktop-header__inner:style(padding: 25px 30px !important;)
+whas11.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important;)
+whas11.com##.desktop-header__nav-button:style(top: 26px !important;)
+whas11.com##.desktop-header__nav-label:style(transform: none !important;)
+whas11.com##.desktop-header__progress
+whas11.com##.desktop-header__toolbar:style(top: 28px !important;)
+whas11.com##.header:style(position: absolute !important; border-bottom: 1px solid #e6e6e6 !important;)
+whas11.com##.header__home-link:style(opacity: 1 !important;)
+whas11.com##.header__title_visible_true:style(opacity: 0 !important;)
+whas11.com##.live-indicator__info:style(transform: none !important; width: 96px !important;)
+whas11.com##.page__desktop-header:style(position: absolute !important;)
+whas11.com##.page__dock
 whas11.com##.page__header:style(position: absolute !important;)
+whas11.com##.progress
+whas11.com##.video__inner:style(position: static !important;)
 whatahowler.com##.is-other.markup--p-quote.markup--quote
 whatahowler.com##.js-metabar:style(position: absolute !important;)
 whatcoulditmeme.com##.floating-active.floating-header
@@ -14162,6 +14635,22 @@ wlos.com##.sd-news-main-sidebar-middle:style(position: relative !important; top:
 wlos.com##.v2.sd-header-wrapper:style(position: absolute !important; top: 0 !important;)
 wlox.com##.sticky.cdev-menu-nav:style(position: relative !important; top: 0 !important;)
 wlox.com##.story-feed
+wltx.com##.ad
+wltx.com##.desktop-header__inner:style(padding: 25px 30px !important;)
+wltx.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important;)
+wltx.com##.desktop-header__nav-button:style(top: 26px !important;)
+wltx.com##.desktop-header__nav-label:style(transform: none !important;)
+wltx.com##.desktop-header__progress
+wltx.com##.desktop-header__toolbar:style(top: 28px !important;)
+wltx.com##.header:style(position: absolute !important; border-bottom: 1px solid #e6e6e6 !important;)
+wltx.com##.header__home-link:style(opacity: 1 !important;)
+wltx.com##.header__title_visible_true:style(opacity: 0 !important;)
+wltx.com##.live-indicator__info:style(transform: none !important; width: 96px !important;)
+wltx.com##.page__desktop-header:style(position: absolute !important;)
+wltx.com##.page__dock
+wltx.com##.page__header:style(position: absolute !important;)
+wltx.com##.progress
+wltx.com##.video__inner:style(position: static !important;)
 wlwt.com##.ad-leaderboard
 wlwt.com##.ad-rectangle
 wlwt.com##.slim-headline:style(position: relative !important; top: 0 !important;)
@@ -14402,26 +14891,43 @@ wtop.com##.Entry-infoSocial
 wtop.com##.NewsAlerts
 wtop.com##.clearfix_header
 wtop.com##.retweet
-wtsp.com###column-1
-wtsp.com###jwloader-1:style(position: static !important;)
-wtsp.com###module_3
-wtsp.com##.fixed.header:style(position: relative !important; top: 0 !important;)
-wtsp.com##.header:style(position: absolute !important;)
-wtsp.com##.is_stuck.site-nav:style(position: relative !important; top: 0 !important;)
-wtsp.com##.mod-wrapper.inline-share-tools-asset.story-asset
-wtsp.com##.page__header:style(position: relative !important; top: 0 !important;)
+wtsp.com##.ad
+wtsp.com##.desktop-header__inner:style(padding: 25px 30px !important;)
+wtsp.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important;)
+wtsp.com##.desktop-header__nav-button:style(top: 26px !important;)
+wtsp.com##.desktop-header__nav-label:style(transform: none !important;)
+wtsp.com##.desktop-header__progress
+wtsp.com##.desktop-header__toolbar:style(top: 28px !important;)
+wtsp.com##.header:style(position: absolute !important; border-bottom: 1px solid #e6e6e6 !important;)
+wtsp.com##.header__home-link:style(opacity: 1 !important;)
+wtsp.com##.header__title_visible_true:style(opacity: 0 !important;)
+wtsp.com##.live-indicator__info:style(transform: none !important; width: 96px !important;)
+wtsp.com##.page__desktop-header:style(position: absolute !important;)
+wtsp.com##.page__dock
+wtsp.com##.page__header:style(position: absolute !important;)
+wtsp.com##.progress
+wtsp.com##.video__inner:style(position: static !important;)
 wtto21.com##.sd-news-main-sidebar-middle:style(position: relative !important; top: 0 !important;)
 wtto21.com##.v2.sd-header-wrapper:style(position: absolute !important; top: 0 !important;)
 wtvr.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
 wur.nl###breadcrumb:style(position: absolute !important;)
 wur.nl##.page > header:style(position: relative !important;)
 wur.nl##.primary-navigation:style(position: absolute !important;)
-wusa9.com###alert-0
-wusa9.com##.close.close-overlay
-wusa9.com##.header-main:style(position: relative !important; top: 0 !important;)
-wusa9.com##.is_stuck.site-nav:style(position: relative !important; top: 0 !important;)
+wusa9.com##.ad
+wusa9.com##.desktop-header__inner:style(padding: 25px 30px !important;)
+wusa9.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important;)
+wusa9.com##.desktop-header__nav-button:style(top: 26px !important;)
+wusa9.com##.desktop-header__nav-label:style(transform: none !important;)
+wusa9.com##.desktop-header__progress
+wusa9.com##.desktop-header__toolbar:style(top: 28px !important;)
+wusa9.com##.header:style(position: absolute !important; border-bottom: 1px solid #e6e6e6 !important;)
+wusa9.com##.header__home-link:style(opacity: 1 !important;)
+wusa9.com##.header__title_visible_true:style(opacity: 0 !important;)
+wusa9.com##.live-indicator__info:style(transform: none !important; width: 96px !important;)
 wusa9.com##.page__desktop-header:style(position: absolute !important;)
-wusa9.com##.site-footer-social-icon-list-var-width.site-footer-social-icon-list
+wusa9.com##.page__dock
+wusa9.com##.page__header:style(position: absolute !important;)
+wusa9.com##.progress
 wusa9.com##.video__inner:style(position: static !important;)
 wvgazettemail.com###articleFontSize
 wvgazettemail.com###bodyArticleControlContainer
@@ -14447,11 +14953,41 @@ wweek.com###footer_Home
 wweek.com###siteheader:style(position: absolute !important; top: 0 !important;)
 wweek.com##.slimline.fixed.border-top-desktop.border-top-mobile.line-up.sharebar-top-mobile.sharebar-wrapper.sharebar-top-desktop:style(position: relative !important; top: 0 !important;)
 wweek.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
+wwltv.com##.ad
+wwltv.com##.desktop-header__inner:style(padding: 25px 30px !important;)
+wwltv.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important;)
+wwltv.com##.desktop-header__nav-button:style(top: 26px !important;)
+wwltv.com##.desktop-header__nav-label:style(transform: none !important;)
+wwltv.com##.desktop-header__progress
+wwltv.com##.desktop-header__toolbar:style(top: 28px !important;)
+wwltv.com##.header:style(position: absolute !important; border-bottom: 1px solid #e6e6e6 !important;)
+wwltv.com##.header__home-link:style(opacity: 1 !important;)
+wwltv.com##.header__title_visible_true:style(opacity: 0 !important;)
+wwltv.com##.live-indicator__info:style(transform: none !important; width: 96px !important;)
+wwltv.com##.page__desktop-header:style(position: absolute !important;)
+wwltv.com##.page__dock
+wwltv.com##.page__header:style(position: absolute !important;)
+wwltv.com##.progress
+wwltv.com##.video__inner:style(position: static !important;)
 wxii12.com##.header-inner:style(position: relative !important; top: 0 !important;)
 wxyz.com###header:style(position: relative !important;)
 wxyz.com##.layout--share__second
-wzzm13.com##.fixed.header:style(position: relative !important; top: 0 !important;)
-wzzm13.com##.is_stuck.site-nav:style(position: relative !important; top: 0 !important;)
+wzzm13.com##.ad
+wzzm13.com##.desktop-header__inner:style(padding: 25px 30px !important;)
+wzzm13.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important;)
+wzzm13.com##.desktop-header__nav-button:style(top: 26px !important;)
+wzzm13.com##.desktop-header__nav-label:style(transform: none !important;)
+wzzm13.com##.desktop-header__progress
+wzzm13.com##.desktop-header__toolbar:style(top: 28px !important;)
+wzzm13.com##.header:style(position: absolute !important; border-bottom: 1px solid #e6e6e6 !important;)
+wzzm13.com##.header__home-link:style(opacity: 1 !important;)
+wzzm13.com##.header__title_visible_true:style(opacity: 0 !important;)
+wzzm13.com##.live-indicator__info:style(transform: none !important; width: 96px !important;)
+wzzm13.com##.page__desktop-header:style(position: absolute !important;)
+wzzm13.com##.page__dock
+wzzm13.com##.page__header:style(position: absolute !important;)
+wzzm13.com##.progress
+wzzm13.com##.video__inner:style(position: static !important;)
 x.company##.js-metabar:style(position: absolute !important;)
 xda-developers.com###google_login
 xda-developers.com###header:style(position: absolute !important; top: 0 !important;)
