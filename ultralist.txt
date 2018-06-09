@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:04 PM 2018-06-09
+! Last Modified: 3:52 PM 2018-06-09
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -993,6 +993,7 @@
 ##.menu-social-container
 ##.menu-social-links
 ##.menu-social-links-container
+##.meredith-share-bar
 ##.met-flyout
 ##.met-promo
 ##.mgm-social-share
@@ -1735,6 +1736,7 @@
 ##.trb_ar_cont
 ##.trb_ar_rail
 ##.trb_ar_shpq
+##.trb_ar_sl_it
 ##.trb_article_relatedTopics
 ##.trb_barker
 ##.trb_bnn
@@ -2463,6 +2465,8 @@ americanow.com##.is-at-top.is-stuck.sticky.top-stories:style(position: relative 
 americanprogress.org##.row.custom-bg
 americanscientist.org##.article__socialmedia
 americanscientist.org##.nav-down.banner:style(position: absolute !important;)
+amgreatness.com##.fusion-header:style(position: relative !important;)
+amgreatness.com##.tout-sdk-instance-player:style(position: static !important;)
 amnesty.org##.header--fixed.header--subnav.header:style(position: relative !important; top: 0 !important;)
 ampproject.org##.masthead:style(position: relative !important; top: 0 !important;)
 amusingplanet.com##.adslot_1.adsbygoogle
@@ -2641,6 +2645,8 @@ asc-csa.gc.ca###page-share
 asiaone.com###block-tb-megamenu-menu-a1-revamp-main-menu
 asiaone.com##.header-sticked-processed.region-header.region:style(position: relative !important;)
 asiaone.com##.sticky:style(position: relative !important; top: 0 !important;)
+askdrsears.com###access:style(position: relative !important;)
+askdrsears.com##.social-media
 asp-usa.com###pixelpop
 asp-usa.com###shopify-section-header:style(position: absolute !important;)
 assetbuilder.com###navigationContainer:style(position: relative !important;)
@@ -2798,11 +2804,15 @@ babe.net##.header-wrapper:style(position: relative !important; top: 0 !important
 babyaxis.com###nav-topbar:style(position: absolute !important;)
 babycenter.com###globalHeaderAd
 babycenter.com###guidedPathContainer:style(position: relative !important; top: 0 !important;)
+babycenter.com###leaderAdOuter
 babycenter.com###mobileRegFloaterContainer
 babycenter.com##.bottomShare
+babycenter.com##.fixedAddContainer:style(position: relative !important;)
 babycenter.com##.mediumRectangleAdContainer
+babycenter.com##.momAnswersQuestionFooterWrapper:style(position: relative !important;)
 babycenter.com##.open.reveal-modal
 babycenter.com##.reveal-modal-bg
+babycenter.com##.skyscraperAdContainer
 babycenter.com##.topShareBar
 babycenter.com##.topSliceShare
 babycentre.co.uk###mobileAd1
@@ -6005,9 +6015,11 @@ github.io##.navbar-fixed-top.navbar-default.navbar:style(position: relative !imp
 github.io##.site-header:style(position: absolute !important;)
 github.io##header:style(position: absolute !important;)
 githubuniverse.com##.site-header:style(position: absolute !important;)
+gitlab.com###CybotCookiebotDialog
 gitlab.com##.active.js-sticky-banner.sticky-banner
 gitlab.com##.is-stuck.oneline-block.js-diff-files-changed.files-changed.diff-files-changed.content-block:style(position: relative !important;)
 gitlab.com##.nav-sidebar:style(position: absolute !important;)
+gitlab.com##.navbar-empty.fixed-top.navbar:style(position: absolute !important; top: -40px !important;)
 gitlab.com##.navbar:style(position: absolute !important;)
 givingusa.org##.clear-fix.show-for-large-up.contain-to-grid.top-bar-container:style(position: absolute !important;)
 gizmodo.com##.js_global-nav-wrap:style(position: relative !important; top: 0 !important; transform: none !important;)
@@ -7229,6 +7241,7 @@ justapinch.com###header-container:style(position: absolute !important;)
 justgetflux.com###header-menu:style(position: relative !important; top: 0 !important;)
 justgetflux.com##body > div > div:nth-of-type(1):style(position: relative !important; top: 0 !important;)
 justia.com###sticky-nav:style(position: relative !important; top: 0 !important;)
+justmommies.com###facebooktwitter
 justonecookbook.com##.mini-header:style(position: absolute !important;)
 justsecurity.org###banner:style(position: absolute !important; top: 0 !important;)
 justsecurity.org###logo:style(position: absolute !important; top: 0 !important;)
@@ -7894,7 +7907,7 @@ livestrong.com##.js-jwplayer_container.jwplayer__container:style(position: relat
 livestrong.com##.js-mobile_adsense.adsense_atf.article_module_section.article__section__step
 livestrong.com##.js-mobile_adsense2.article_module_section
 livestrong.com##.js-right_rail_ad_wrapper.right_rail_ad_wrapper.js-article_nav.article_nav:style(position: relative !important;)
-livestrong.com##.js-top_header.top_header:style(position: absolute !important; display: block !important; transition: none !important; opacity: 1 !important;)
+livestrong.com##.js-top_header.top_header:style(position: relative !important; display: block !important; transition: none !important; opacity: 1 !important;)
 livestrong.com##.newsletter_signup_overlay
 livestrong.com##.top_header__row1:style(position: relative !important;)
 livingstondaily.com##.first-margin:style(margin-top: 0px !important;)
@@ -8742,6 +8755,10 @@ muckrock.com##.website-header:style(position: relative !important; top: 0 !impor
 multivu.com###topbar:style(position: relative !important; top: 0 !important;)
 mumbrella.com.au###main:style(position: absolute !important;)
 mumsnet.com###leaderboard__advertising
+mumsnet.com###page_share_links
+mumsnet.com##.bookmark
+mumsnet.com##.cookie-consent
+mumsnet.com##.header:style(margin-top: 0 !important;)
 muraselon.com###menu-main:style(position: absolute !important;)
 muraselon.com##.adloc-is-banner
 muraselon.com##.more-stories
@@ -8978,6 +8995,7 @@ nationmaster.com##.header:style(position: relative !important; top: 0 !important
 nationmaster.com##.transition.navbar-fixed-top.nav-shadow.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 nationwide.com###pinnedMenu:style(position: relative !important; top: 0 !important;)
 nationwide.com##.icon
+nationwidechildrens.org##.is-stuck.is-at-top.sticky.header-main__sticky:style(position: absolute !important;)
 natlawreview.com##.simplemodal-container
 natlawreview.com##.simplemodal-overlay
 natlawreview.com##header > .afix:style(position: absolute !important;)
@@ -9055,9 +9073,11 @@ nbcnews.com##.icon-vertical-news.icon.logo___HCovU:style(transition: none !impor
 nbcnews.com##.left_ear_wrap
 nbcnews.com##.peacock___1R6oM:style(fill: #ffffff !important;)
 nbcnews.com##.rail_article.rail
+nbcnews.com##.share___20RDh
 nbcnews.com##.sitewide-header-social
 nbcnews.com##.socialShareWrapper___39f3A
 nbcnews.com##.stack-list-share
+nbcnews.com##.stuck___1Ixkf.container___2PgWR:style(position: static !important;)
 nbcnews.com##.stuck___PEoMv.scrolled___yAb5r.vertical___3U7Kb.navbar___1EKcg:style(background-color: #102039 !important; transition: none !important;)
 nbcnews.com##.visible___32I3n.feedbackContainer___1_oan:style(position: absolute !important;)
 nbcnewyork.com##.News.nav-section > .subnav-large-container:style(margin-top: 0px !important;)
@@ -10016,6 +10036,7 @@ papersource.com###signup-mobile
 parabolicarc.com##.no-break
 paragonie.com##.navbar:style(position: relative !important; top: 0 !important;)
 parents.com##.lazyAd
+parents.com##.siteFooter__right
 parktool.com##.fixed-header.header:style(position: absolute !important;)
 parktool.com##.mobile-fixed.section-indicator:style(position: absolute !important;)
 pass.us###info_bar:style(position: absolute !important;)
@@ -11100,6 +11121,9 @@ romania-insider.com##.social4i
 romper.com##.cN:style(position: absolute !important;)
 romper.com##.e
 ronpaullibertyreport.com###header:style(position: relative !important; top: 0 !important;)
+rookiemoms.com###genesis-nav-primary:style(position: absolute !important;)
+rookiemoms.com##.subscribe-widget
+rookiemoms.com##.top.nc_wrapper
 rootupdate.com###mks_social_widget-2
 rootupdate.com###sticky_header
 rotoballer.com###ifc-2
@@ -13911,6 +13935,9 @@ verybestbaking.com##.actions__facebook-like
 verybestbaking.com##.actions__pin-it
 verywell.com###header_1-0:style(position: relative !important; top: 0 !important;)
 verywell.com##.active.tmp-placeholder
+verywellfamily.com###header_1-0:style(position: absolute !important;)
+verywellfamily.com##.header-condensed:style(border-bottom: none !important; box-shadow: none !important;)
+verywellfamily.com##.header:style(padding: .9rem calc(50% - 37.5rem) !important;)
 vesselnews.io###masthead:style(position: relative !important; top: 0 !important;)
 vice.com###yw0
 vice.com###yw1
@@ -15150,6 +15177,8 @@ youngcons.com##.o-responsive-text--desktop.o-responsive-text--tablet.o-responsiv
 yourdictionary.com##.header-container.columns.large-12.twelve.floating-header:style(position: relative !important; top: 0 !important;)
 yourdictionary.com##.wordFinderFloating.floating-header.header-container.row:style(position: relative !important; top: 0 !important;)
 yourfertility.org.au###header-container:style(position: relative !important; top: 0 !important;)
+yourkidstable.com###main-header:style(margin-top: 0 !important;)
+yourkidstable.com##.divibars
 yourmechanic.com##.main-header--anchored.main-header:style(position: absolute !important;)
 yourmechanic.com##.nav-bar__body
 yourmechanic.com##.nav-container:style(position: absolute !important;)
