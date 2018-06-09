@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:34 PM 2018-06-08
+! Last Modified: 8:55 AM 2018-06-09
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -715,6 +715,7 @@
 ##.et_social_networks
 ##.et_social_sidebar_networks
 ##.eupopup-container
+##.evidon-banner
 ##.fa-facebook
 ##.fa-facebook-f.fa
 ##.fa-facebook-official
@@ -828,6 +829,7 @@
 ##.g1-back-to-top
 ##.ga-topnav-subscribe
 ##.gallery__sharing
+##.gdpr-alert
 ##.gdpr-banner
 ##.gdpr-notice-dialog
 ##.gdpr-notice-dialog-overlay
@@ -1308,6 +1310,7 @@
 ##.share_like
 ##.share_link
 ##.share_menu
+##.share_sharethis
 ##.share_widget
 ##.share_widgets
 ##.shareables
@@ -1609,6 +1612,7 @@
 ##.social_btns
 ##.social_buttons
 ##.social_dd
+##.social_facebook_like
 ##.social_header
 ##.social_hold
 ##.social_holder.row-fluid
@@ -1676,6 +1680,7 @@
 ##.story-social
 ##.story-social-share
 ##.story-tools
+##.story__social
 ##.story_social_share
 ##.stumbleupon
 ##.subscribe-popover
@@ -2720,7 +2725,7 @@ autonews.com###live:style(position: relative !important; top: 0 !important;)
 autonews.com###main-header:style(position: relative !important; top: 0 !important;)
 autonews.com###main-nav:style(position: relative !important; top: 0 !important;)
 avclub.com###h:style(position: relative !important; top: 0 !important;)
-avclub.com##.js_global-nav-wrap:style(position: relative !important; top: 0 !important;)
+avclub.com##.js_global-nav-wrap:style(position: relative !important; top: 0 !important; transform: none !important;)
 avclub.com##.preloaded_lightbox
 avclub.com##.responsive-nav-active > .header-compact:style(position: relative !important; top: 0 !important;)
 avclub.com##.responsive-nav-active:style(position: relative !important; top: 0 !important;)
@@ -3818,6 +3823,12 @@ cincinnati.com##.site-header-inner-wrap-fixed:style(position: absolute !importan
 cincinnati.com##.site-masthead-search-wrap:style(height: 80px !important;)
 cincinnati.com##.site-nav-item-hidden:style(display: table-cell !important; opacity: 1 !important; visibility: visible !important;)
 cincinnati.com##.site-nav-logo-link.site-nav-link:style(width: 0 !important;)
+cinemablend.com###section-header:style(position: absolute !important;)
+cinemablend.com##.ad-wrap
+cinemablend.com##.ads_slot
+cinemablend.com##.header:style(position: relative !important;)
+cinemablend.com##.preloaded_lightbox
+cinemablend.com##.twitter
 cinesift.com##.sb-toggle-left
 cio.com###sticky-head:style(position: relative !important;)
 circa.com###advertisement-10
@@ -4167,6 +4178,7 @@ consumerist.com##.clearfix.lf-header:style(position: relative !important; top: 0
 consumerist.com##.lf-section-facebook
 consumerist.com##.lf-section-twitter
 consumerist.com##.lf-share-scroll
+consumerreports.org###rightrail:style(position: absolute !important;)
 consumerreports.org##.crux-color-excellent-bg.newsletter-sign-up
 consumerreports.org##.gnav-pin-header--open.gnav-pin-header
 contactmusic.com##.adLabel
@@ -4431,6 +4443,7 @@ dailycaller.com##.ad_container
 dailycaller.com##.contain-to-grid.sticky.fixed
 dailycaller.com##.dc-go-top
 dailycaller.com##.dc_morning_email-58
+dailycaller.com##.fixed.prod:style(position: absolute !important;)
 dailycamera.com##.article.toolbar:style(position: relative !important; top: 0 !important;)
 dailycamera.com##.info-box-body
 dailydot.com###dailydot-socialbar
@@ -4592,7 +4605,6 @@ dcist.com##.adv_box
 dcist.com##.main-item-footer
 dcunited.com###mls-global:style(position: absolute !important; top: 0 !important;)
 dcunited.com##.affix.nav_wrapper.region-navigation.region:style(position: absolute !important; top: 0 !important;)
-dcunited.com##.affix.nav_wrapper.region-navigation.region:style(position: relative !important; top: 0 !important;)
 deadline.com###masthead-sticky-wrapper:style(position: relative !important; top: 0 !important;)
 deadline.com###masthead:style(position: relative !important; top: 0 !important;)
 deadline.com##.blogheader:style(position: relative !important; top: 0 !important;)
@@ -4603,7 +4615,7 @@ deadline.com##.social-linkedin
 deadline.com##.social-twshare
 deadspin.com###sharingfooter
 deadspin.com##.global-nav--scrollback.fixed.shown.animated.hide-for-large-up.mobile-nav.global-nav.js_top-nav.js_global-nav-wrap:style(position: relative !important;)
-deadspin.com##.js_global-nav-wrap:style(position: relative !important; top: 0 !important;)
+deadspin.com##.js_global-nav-wrap:style(position: relative !important; top: 0 !important; transform: none !important;)
 deadstate.org###main-nav-wrap:style(position: absolute !important; top: 0 !important;)
 deadstate.org###prev-next-wrap
 deadstate.org##.nav-soc-but
@@ -4973,7 +4985,7 @@ dxomark.com###dxo-bottom-banner
 dxomark.com###masthead:style(position: absolute !important; top: 0 !important;)
 dyn.com###blog-top-nav:style(position: absolute !important;)
 dynastynow.com###header-navigation:style(position: relative !important;)
-earther.com##.js_global-nav-wrap:style(position: relative !important; top: 0 !important;)
+earther.com##.js_global-nav-wrap:style(position: relative !important; top: 0 !important; transform: none !important;)
 earthisland.org###raft
 earthnetworks.com##.header-inner:style(position: absolute !important; top: 0 !important;)
 earthsky.org###PopupSignupForm_0
@@ -5014,7 +5026,6 @@ economist.com###navbar
 economist.com###piano-exit-pop-up
 economist.com##.blog-post__sharebar
 economist.com##.ec-footer__list--social
-economist.com##.evidon-banner
 economist.com##.fe-blogs__desktop-beta-bar.beta-bar.bar-wrapper
 economist.com##.fe-blogs__sidebar-ad-wrapper
 economist.com##.inhouse__subscription-ribbon
@@ -5354,6 +5365,8 @@ fantasypros.com##.leaderboard-wrap
 fantaziesuite.com##.navbar-left.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 fantrax.com###main-nav-wrap:style(position: relative !important; top: 0 !important;)
 fantrax.com##.nav-soc-but
+fanucamerica.com###myBtn
+fanucamerica.com##.header-main:style(position: absolute !important;)
 fark.com###facebook
 fark.com###twitter
 fark.com##.ad_container
@@ -5786,9 +5799,6 @@ france24.com##.next
 france24.com##.on-air-board-outer:style(position: relative !important; top: 0 !important;)
 france24.com##.short-cuts-outer:style(position: relative !important; top: 0 !important;)
 fredericknewspost.com##.alert-info.alert-dismissable.alert.access.notification.meter
-free-cinema21.streamingonline.desi###main-navigation:style(position: relative !important; top: 0 !important;)
-free-cinema21.streamingonline.desi###modal-watch
-free-cinema21.streamingonline.desi##.modal-backdrop
 free-times.com###site-navbar-container:style(position: relative !important; top: 0 !important;)
 freebeacon.com##.columns.large-6
 freebeacon.com##.contact
@@ -5997,7 +6007,7 @@ gitlab.com##.is-stuck.oneline-block.js-diff-files-changed.files-changed.diff-fil
 gitlab.com##.nav-sidebar:style(position: absolute !important;)
 gitlab.com##.navbar:style(position: absolute !important;)
 givingusa.org##.clear-fix.show-for-large-up.contain-to-grid.top-bar-container:style(position: absolute !important;)
-gizmodo.com##.js_global-nav-wrap:style(position: relative !important; top: 0 !important;)
+gizmodo.com##.js_global-nav-wrap:style(position: relative !important; top: 0 !important; transform: none !important;)
 gizmodo.com.au##.contact-module
 gizmodo.com.au##.site-header:style(position: absolute !important;)
 gkn.com###top:style(position: absolute !important;)
@@ -6958,6 +6968,7 @@ inquisitr.com##.i-amphtml-layout.i-amphtml-layout-size-defined.i-amphtml-layout-
 inquisitr.com##.i-amphtml-unresolved.amp-unresolved.i-amphtml-layout-size-defined.i-amphtml-layout-responsive.amp-notbuilt.i-amphtml-notbuilt.i-amphtml-element
 insertcoinclothing.com###header:style(position: relative !important; top: 0 !important;)
 insideedition.com###nav:style(position: relative !important; top: 0 !important;)
+insideedition.com##.affix.main-header:style(position: absolute !important;)
 insideedition.com##.darkGreyBg.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important; top: 0 !important;)
 insideedition.com##.main_background:style(background-position: 0 !important;)
 insideedition.com##.navbar-header:style(position: relative !important; top: 0 !important;)
@@ -7136,7 +7147,7 @@ jacobinmag.com###site-header:style(position: absolute !important;)
 jacobinmag.com##.sm.po-hr-fl__sharing
 jacobinmag.com##.sr-md-po.sr-md.sr-sb-po.sr-sb
 jacobinmag.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
-jalopnik.com##.js_global-nav-wrap:style(position: relative !important; top: 0 !important;)
+jalopnik.com##.js_global-nav-wrap:style(position: relative !important; top: 0 !important; transform: none !important;)
 jamanetwork.com##.header-wrap:style(position: absolute !important; top: 0 !important;)
 jamanetwork.com##.is_stuck.is-b.full-text-link:style(position: absolute !important;)
 jasmcole.com###masthead:style(position: absolute !important;)
@@ -7426,7 +7437,7 @@ king5.com##.page__header:style(position: absolute !important;)
 king5.com##.progress
 king5.com##.video__inner:style(position: static !important;)
 kinja.com##.global-nav--scrollback.fixed.shown.animated.hide-for-large-up.mobile-nav.global-nav.js_top-nav.js_global-nav-wrap:style(position: relative !important; top: 0 !important;)
-kinja.com##.js_global-nav-wrap:style(position: relative !important; top: 0 !important;)
+kinja.com##.js_global-nav-wrap:style(position: relative !important; top: 0 !important; transform: none !important;)
 kinopoisk.ru##.header-fresh-partial-component__inner:style(position: absolute !important;)
 kinsta.com###sidebar__sticky:style(position: relative !important; animation: none !important; transition: none !important;)
 kinsta.com###site-menu:style(position: relative !important;)
@@ -7494,7 +7505,7 @@ korg.com###contents_info
 korg.com###contents_nav:style(position: relative !important; top: 0 !important;)
 korg.com###info_container
 korg.com###sns_sharethis
-kotaku.com##.js_global-nav-wrap:style(position: relative !important; top: 0 !important;)
+kotaku.com##.js_global-nav-wrap:style(position: relative !important; top: 0 !important; transform: none !important;)
 kotaku.com##.twelve.mobile-four.columns.user-bar-inside
 kottke.org###follow
 kottke.org##.post-sidebar
@@ -7795,7 +7806,7 @@ lifehack.org###lifehack_d_BTF4_ap1
 lifehack.org##._3PTI5._2kD06
 lifehack.org##.conv_state_desktop.conv-container
 lifehack.org##.sticky:style(position: absolute !important; transform: none !important; padding-bottom: 50px !important;)
-lifehacker.com##.js_global-nav-wrap:style(position: relative !important; top: 0 !important;)
+lifehacker.com##.js_global-nav-wrap:style(position: relative !important; top: 0 !important; transform: none !important;)
 lifenews.com###blockModalPopupDiv
 lifenews.com###outerModalPopupDiv
 lifesitenews.com###header:style(position: relative !important; top: 0 !important;)
@@ -8556,7 +8567,9 @@ moneynation.com##body:style(overflow-x: hidden !important; overflow-y: auto !imp
 moneyweek.com##.ad-leaderboard
 moneyweek.com##.ad-logo-right
 moneyweek.com##.cfat-snippet
+monkeylearn.com###colophon
 monkeylearn.com###header-sticky:style(position: relative !important; top: 0 !important;)
+monkeylearn.com###navigation-bar:style(position: absolute !important; top: 0 !important; background: transparent !important;)
 monmouth.edu###mainHeader:style(position: relative !important; top: 0 !important;)
 monster.com###popup-mailbox
 monster.com##.action--open.action.nav-trigger.navbar-toggle:style(position: relative !important; top: 0 !important;)
@@ -8778,7 +8791,10 @@ mycentraljersey.com##.site-header-inner-wrap-fixed:style(position: absolute !imp
 mycentraljersey.com##.site-masthead-search-wrap:style(height: 80px !important;)
 mycentraljersey.com##.site-nav-item-hidden:style(display: table-cell !important; opacity: 1 !important; visibility: visible !important;)
 mycentraljersey.com##.site-nav-logo-link.site-nav-link:style(width: 0 !important;)
+mydomaine.com###page__header:style(position: absolute !important;)
+mydomaine.com##.button--social-image.icon--pinterest
 mydomaine.com##.nav-wrapper.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
+mydomaine.com##.subscribe
 myfitnesspal.com##.last
 myfoxdc.com##.yui-img
 myfoxzone.com##.ad
@@ -9837,6 +9853,8 @@ okcupid.com##DIV[style=" background: #142d69; padding: 14px 12px 20px; border-ra
 olympic.org###nav:style(position: absolute !important;)
 omaha.com###main-body-container:style(margin-top: 0px !important;)
 omaha.com###site-navbar-container:style(position: relative !important; top: 0 !important;)
+omaha.com##.wcpopupmodal-overlay
+omaha.com##.wcpopupmodal-wrapper
 omeleto.com###myModal
 omeleto.com###reveal-modal-bg
 omisego.network##.navigation:style(position: relative !important;)
@@ -10791,6 +10809,7 @@ reason.com##.preloaded_lightbox
 rebrn.com###the-navbar:style(position: relative !important; top: 0 !important;)
 rebrn.com##.navbar-header:style(position: relative !important; top: 0 !important;)
 rebrn.com##.navbar-scroll-custom.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
+recaro.com###header:style(position: absolute !important;)
 recipetineats.com###wprmenu_bar:style(position: relative !important; top: 0 !important;)
 recode.net##.m-ad
 recordedfuture.com###text-4
@@ -11723,7 +11742,7 @@ splendidtable.org###cboxContent
 splendidtable.org###cboxOverlay
 splinternews.com###js_impactHeaderNav:style(position: absolute !important;)
 splinternews.com##.global-nav--scrollback.fixed.shown.global-nav--permalink.hide-for-medium-down.global-nav--desktop.global-nav.js_top-nav.js_global-nav-wrap:style(position: relative !important;)
-splinternews.com##.js_global-nav-wrap:style(position: relative !important; top: 0 !important;)
+splinternews.com##.js_global-nav-wrap:style(position: relative !important; top: 0 !important; transform: none !important;)
 splinternews.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 splitsider.com##.leaderboard__wrapper
 splitsider.com##.newsletter__wrapper
@@ -11731,6 +11750,8 @@ spokeo.com##.application_header:style(position: absolute !important;)
 spokesman.com##.mb4.btn-group-justified.btn-group.list-unstyled.sans-serif
 spoonuniversity.com###page > .nav-up:style(position: absolute !important;)
 spoonuniversity.com##.off-canvas-content header.nav-hide
+spoonuniversity.com##.social
+spoonuniversity.com##.subscribe
 spoonuniversity.com##body:style(margin-top: 0px !important;)
 sporkful.com##.fixed_section.sticky-nav.group.section:style(position: relative !important; top: 0 !important;)
 sport-english.com##.en.header-section.header:style(position: relative !important;)
@@ -11926,6 +11947,9 @@ stream.org##.show.sticky_share
 stream.org##header:style(position: relative !important; top: 0 !important;)
 streamable.com##.app_gdpr--2k2uB
 streamcatcher.de##.header.navbar-fixed-top.container-fluid:style(position: absolute !important; top: 0 !important;)
+streamingonline.desi###main-navigation:style(position: relative !important; top: 0 !important;)
+streamingonline.desi###modal-watch
+streamingonline.desi##.modal-backdrop
 streamja.com###header:style(position: absolute !important;)
 streetinsider.com###floating_footer
 streetinsider.com###nav:style(position: relative !important; top: 0 !important;)
@@ -12776,7 +12800,7 @@ theoatmeal.com###follow2016
 theoatmeal.com###share2016
 theonion.com##.circle.video-carousel-share-tools
 theonion.com##.global-nav.fixed
-theonion.com##.js_global-nav-wrap:style(position: relative !important; top: 0 !important;)
+theonion.com##.js_global-nav-wrap:style(position: relative !important; top: 0 !important; transform: none !important;)
 theonion.com##.newsletter-signup
 theoutline.com##.card.claudia--method-turbine.claudia
 theoutline.com##.card.dongle--harrys-vote.dongle--harrys-fastandloose.dongle
@@ -12850,7 +12874,7 @@ theringer.com##.tab-bar-fixed.c-tab-bar
 theringfinders.com###menu-main:style(position: relative !important; top: 0 !important;)
 thermoworks.com###modal
 theroot.com###js-article-slider
-theroot.com##.js_global-nav-wrap:style(position: relative !important; top: 0 !important;)
+theroot.com##.js_global-nav-wrap:style(position: relative !important; top: 0 !important; transform: none !important;)
 thesandtrap.com###elGuestTerms
 thescene.com##.cne-tools.package__side-bar--tools
 thescene.com##.js-nav-header.nav-header.ember-view:style(position: relative !important; top: 0 !important;)
@@ -12966,7 +12990,7 @@ thesun.co.uk##.swiper-container-android.swiper-container-free-mode.swiper-contai
 thesun.co.uk##html:style(overflow-x: hidden !important; overflow-y: auto !important;)
 thetakeout.com###js_impactHeaderNav:style(position: absolute !important;)
 thetakeout.com##.global-nav--scrollback.fixed.shown.global-nav--permalink.hide-for-medium-down.global-nav--desktop.global-nav.js_top-nav.js_global-nav-wrap:style(position: relative !important;)
-thetakeout.com##.js_global-nav-wrap:style(position: relative !important; top: 0 !important;)
+thetakeout.com##.js_global-nav-wrap:style(position: relative !important; top: 0 !important; transform: none !important;)
 thetelegraph.com###ctpl-fullbanner-spacer:style(height: 50px !important;)
 thetelegraph.com###homepage-timestamp:style(position: absolute !important;)
 thetelegraph.com###menuBar:style(position: absolute !important; top: 50px !important; transform: none !important;)
@@ -15045,6 +15069,8 @@ yahoo.com##body:style(padding-top: 0px !important;)
 yammer.com###O365_NavHeader:style(position: relative !important; top: 0 !important;)
 yammer.com##.topnav-fixed.zindex-t3:style(position: relative !important; top: 0 !important;)
 yammer.com##.yj-group-header-patterned-scrolling:style(position: relative !important; top: 0 !important;)
+yardbarker.com###footer_ad_outer
+yardbarker.com##.slidedown.ui-header-fixed.ui-panel-content-fixed-toolbar-closed.ui-panel-animate.ui-panel-content-fixed-toolbar.ui-bar-a.ui-header:style(position: absolute !important;)
 ydr.com##.first-margin:style(margin-top: 0px !important;)
 ydr.com##.fixed.header:style(position: absolute !important; top: 0 !important;)
 ydr.com##.pluto-video-ready.playlistsmallattophtml5.gallery-video.story-video.js-ui-pluto-video.ui-pluto-video.js-ui-video-init:style(position: static !important;)
@@ -15177,6 +15203,10 @@ zvw.de##.main-nav-wrapper:style(position: absolute !important;)
 zwaveproducts.com###livechat-compact-container
 zwaveproducts.com##.announcement:style(position: absolute !important;)
 zwaveproducts.com##.header:style(position: absolute !important;)
+zycrypto.com##.td-more-articles-box
+zycrypto.com##.td-ss-main-sidebar:style(position: absolute !important;)
+zycrypto.com##.widget_bloomwidget
+zycrypto.com##.widget_facebook_likebox
 zyngaplayerforums.com###footer:style(position: relative !important; top: 0 !important;)
 zyngaplayerforums.com###header:style(position: relative !important; top: 0 !important;)
 zyngaplayerforums.com##.Reactions
