@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:52 AM 2018-06-09
+! Last Modified: 12:04 PM 2018-06-09
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -1349,6 +1349,7 @@
 ##.sharesheet-content
 ##.sharethis
 ##.sharethis-buttons
+##.sharethis-inline-share-buttons
 ##.sharethis-wrapper
 ##.sharethis_container
 ##.sharetool
@@ -8329,8 +8330,10 @@ mentalfloss.com##.boxes-box-content
 mentalfloss.com##.footer-right-column
 mentalfloss.com##.header-wrapper:style(position: relative !important; top: 0 !important;)
 mentalfloss.com##.left
+mentalfloss.com##.player-position:style(position: static !important;)
 mentalfloss.com##.smallWidth.makeVideoticky.videoElement.close_btn:style(position: static !important;)
 mentalfloss.com##.smallWidth.makeVideoticky.videoElement.overlay:style(position: static !important;)
+mentalfloss.com##.videoElement.close_btn:style(position: static !important;)
 mentalfloss.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 mercola.com##.mm-slideout.header:style(position: relative !important; top: 0 !important;)
 mercurynews.com###indicator-north
@@ -11207,6 +11210,7 @@ savearescue.org###header:style(position: absolute !important;)
 saveur.com##.main-header:style(position: absolute !important;)
 savvytime.com##.navbar-fixed-top.sub-nav:style(position: absolute !important;)
 savvytime.com##.no-padding.header-shadow.header:style(position: absolute !important;)
+sbnation.com##.tab-bar-fixed.c-tab-bar
 sbs.com.au##.flip-pane:style(transition: none !important;)
 sbs.com.au##.global-nav__context-title:style(display: none !important;)
 sbs.com.au##.global-nav__header:style(position: absolute !important; transition: none !important; transform: none !important; box-shadow: 0 0 0 0 #ccc !important;)
