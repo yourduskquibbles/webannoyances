@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:19 AM 2018-06-09
+! Last Modified: 11:52 AM 2018-06-09
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -7173,6 +7173,7 @@ jezebel.com##.global-nav.fixed:style(position: absolute !important;)
 joc.com###navbar:style(position: absolute !important;)
 joinhoney.com###content > div > div > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1):style(position: relative !important; top: 0 !important;)
 joinhoney.com##.rmq-ee92ab5d
+jomashop.com##.block-layered-nav-inner-wrapper:style(position: relative !important;)
 jonesdesigncompany.com###responsive-menu-button:style(position: absolute !important;)
 josbank.com###header:style(position: relative !important; top: 0 !important;)
 josbank.com##.active.sticky-header:style(position: relative !important; top: 0 !important;)
@@ -8313,6 +8314,7 @@ mensjournal.com##body:style(overflow-x: hidden !important; overflow-y: auto !imp
 menswearhouse.com###main-header:style(position: relative !important; top: 0 !important;)
 mentalfloss.com###MenuBar
 mentalfloss.com###article-top-ad
+mentalfloss.com###header-main-navbar:style(position: absolute !important;)
 mentalfloss.com###header:style(position: relative !important; top: 0 !important;)
 mentalfloss.com###myPlayerID:style(position: static !important;)
 mentalfloss.com###navbar-bottom
@@ -9941,12 +9943,15 @@ ozy.com##.i-story-share-twitter-off
 ozy.com##.i-story-share-twitter-on
 ozy.com##.inherit-colour.progress:style(position: relative !important; top: 0 !important;)
 ozy.com##.inline-signup
-ozy.com##.masthead:style(position: relative !important; top: 0 !important;)
+ozy.com##.masthead:style(position: relative !important; top: 0 !important; background-color: rgba(0, 0, 0, 0.35) !important; transform: none !important; transition: none !important;)
+ozy.com##.ozy-logo:style(transition: none !important; transform: none !important;)
 ozy.com##.reading-bar
 ozy.com##.share-block-bottom
 ozy.com##.share-item
 ozy.com##.sharing-options
+ozy.com##.side-social-wrapper
 ozy.com##.sign-up
+ozy.com##.sleeve:style(background-color: rgba(0, 0, 0, 0.35) !important; transform: none !important; transition: none !important;)
 ozy.com##.social-links
 pacificsandiego.com###app-bar-sticky:style(position: relative !important;)
 pacificsandiego.com##.trb_nh:style(position: absolute !important; transform: none !important;)
