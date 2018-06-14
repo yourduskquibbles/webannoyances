@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 4:20 PM 2018-06-14
+! Last Modified: 7:04 PM 2018-06-14
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -809,6 +809,7 @@
 ##.floating-share-bar
 ##.floating-share-icons
 ##.floating_share_button
+##.floating_social_bar
 ##.footer--social
 ##.footer--social-list
 ##.footer-call-to-action-container
@@ -4685,6 +4686,7 @@ decred.org##.navigation:style(position: absolute !important;)
 deepai.org###mainNav:style(position: absolute !Important;)
 deepmind.com##.burger-btn--wrap
 deepmind.com##.fixed.search-btn--mobile
+deepmind.com##.site-nav:style(transform: none !important; opacity: 1 !important; visibility: visible !important; transition: none !important;)
 defenseindustrydaily.com###nwslttrEntrySubForm
 defenseindustrydaily.com###toolbar:style(position: relative !important; top: 0 !important;)
 defensenews.com##.attach.sticky-chain-nav:style(position: static !important;)
@@ -6058,6 +6060,7 @@ github.com##.js-user-profile-sticky-fields.js-sticky.py-3.vcard-names-container:
 github.com##.user-profile-sticky-bar.js-user-profile-sticky-bar.is-stuck
 github.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 github.io###header:style(position: relative !important;)
+github.io##.fixedHeaderContainer:style(position: absolute !important;)
 github.io##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 github.io##.site-header:style(position: relative !important;)
 github.io##header:style(position: relative !important;)
@@ -8569,6 +8572,8 @@ mit.edu##.navbar:style(position: absolute !important;)
 mix.com##.LandingHeader:style(position: absolute !important; background-color: transparent !important;)
 mix.com##.LandingHeader__trailing-container:style(opacity: 1 !important;)
 mixmax.com##.js-post-tout:style(position: absolute !important;)
+mixpanel.com###post_subscribe_wrapper
+mixpanel.com##.header-visible.header-sticky.header-new:style(position: absolute !important;)
 mlb.com###header-responsive:style(position: relative !important; top: 0 !important;)
 mlb.com###header:style(position: relative !important; top: 0 !important;)
 mlb.com##.minimode.game-playing.primary-content:style(position: relative !important; top: 0 !important;)
