@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 7:32 PM 2018-06-14
+! Last Modified: 2:36 PM 2018-06-15
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -3543,6 +3543,8 @@ careercrazze.com##.td-affix.td-header-gradient.td-header-menu-wrap:style(positio
 cargurus.com###headerBar:style(position: relative !important; top: 0 !important;)
 cargurus.com##.cg-mobileSubNavigation-condensedWrapper
 cargurus.com##.userFeedbackToggle-floatingIcon.userFeedbackToggle
+carhartt.com##.reveal-modal
+carhartt.com##.reveal-modal-bg
 carmax.com##.sticky.page-header:style(position: relative !important; top: 0 !important;)
 cars.com##.sticky-header:style(position: relative !important; top: 0 !important;)
 carsforsale.com###footer-search
@@ -3586,10 +3588,9 @@ cbinsights.com##body > header:style(position: absolute !important;)
 cbn.com###fixed-menu-bar
 cbn.com##.clearfix.article-count.container
 cbn.com##.node-teaser.views-row-last.views-row-first.views-row-odd.views-row-1.views-row
-cbr.com###page_nav:style(position: absolute !important;)
 cbr.com##.is-visible.w-sticky-header
 cbr.com##.main-header:style(position: absolute !important;)
-cbr.com##.page-header
+cbr.com##.sharing-option
 cbs.com###globalHeaderContainer:style(position: absolute !important;)
 cbs.com###globalShowHeader:style(position: absolute !important;)
 cbs.com##.navMenuFixed.__layoutHeader.navbar:style(position: absolute !important;)
@@ -4152,6 +4153,7 @@ comicbook.com###oas_MC9
 comicbook.com##.adhesion-block
 comicbook.com##.article-container:style(padding-top: 0 !important;)
 comicbook.com##.middle:style(position: absolute !important;)
+comicbook.com##.mobile-share-activator
 comicbook.com##.o2-in-side-view:style(position: static !important;)
 comicbook.com##.sticky.next-article-tease
 comicbook.com##body > header:style(position: absolute !important; height: auto !important;)
@@ -4668,6 +4670,7 @@ deadspin.com###sharingfooter
 deadspin.com##.footerSocial__FooterSocialWrap-ichFPn
 deadspin.com##.global-nav--scrollback.fixed.shown.animated.hide-for-large-up.mobile-nav.global-nav.js_top-nav.js_global-nav-wrap:style(position: relative !important;)
 deadspin.com##.js_global-nav-wrap:style(position: relative !important; top: 0 !important; transform: none !important;)
+deadspin.com##.js_newsletter-btn--subscribe
 deadstate.org###main-nav-wrap:style(position: absolute !important; top: 0 !important;)
 deadstate.org###prev-next-wrap
 deadstate.org##.nav-soc-but
@@ -5726,6 +5729,9 @@ foreignpolicy.com##.js-takeover
 foreignpolicy.com##.subscribe--long
 foreignpolicy.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 foreignpolicy.com##header:style(position: absolute !important; transition: none !important;)
+forhims.com##.global-header:style(position: static !important;)
+forhims.com##.ribbon-coupon
+forhims.com##html:style(overflow-x: hidden !important; overflow-y: auto !important;)
 forksoverknives.com###masthead:style(position: relative !important; top: 0 !important;)
 formlabs.com###drift-widget-container
 formlabs.com###newsletter-signup
@@ -5850,10 +5856,14 @@ foxnews.com##.video-ct.featured-video.featured:style(height: 504px !important; w
 foxnews.com##.video-player.m:style(position: static !important;)
 foxsports.com###LayoutNavHeader:style(position: relative !important; top: 0 !important;)
 foxsports.com###body-header-wrapper:style(position: relative !important; top: 0 !important;)
+foxsports.com###follow-nav-container
 foxsports.com###js-body-header:style(position: relative !important; top: 0 !important;)
 foxsports.com###section-scorestrip:style(position: relative !important; top: 0 !important;)
+foxsports.com##.fixed.anchor-nav-container:style(position: relative !important;)
+foxsports.com##.promo-footer:style(position: relative !important; bottom: 0 !important;)
 foxsports.com##.section-nav:style(position: relative !important; top: 0 !important;)
 foxsports.com##.three-things-thumbnail
+foxsportsgo.com##.fsg-header:style(position: absolute !important;)
 france24.com##.article-action
 france24.com##.header:style(position: relative !important; top: 0 !important;)
 france24.com##.next
@@ -6265,6 +6275,7 @@ governing.com##.static-header.row-fluid:style(position: relative !important; top
 govexec.com##.ad-topleader.ad
 govexec.com##.ge-social-follow
 govtech.com##.bk-darkgradient.hidden-phone.desktop-header
+govtech.com##.social
 govtrack.us###followus_modal
 govtrack.us##.modal-backdrop
 govtribe.com###siteHeader:style(position: relative !important; top: 0 !important;)
@@ -8435,12 +8446,14 @@ mentalfloss.com##body:style(overflow-x: hidden !important; overflow-y: auto !imp
 mercola.com##.mm-slideout.header:style(position: relative !important; top: 0 !important;)
 mercurynews.com###indicator-north
 mercurynews.com###indicator-south
+mercurynews.com##.article-share
 mercurynews.com##.bottom.info-box.type-mng1.mng-styles.Mg2-connext
 mercurynews.com##.button-center-wrapper
 mercurynews.com##.dfp-ad
 mercurynews.com##.ndn_embedded.ndn_widget_VideoPlayer-Single.ndn-widget-embed-1.ndn_embedContainer.ndn_embed:style(position: static !important;)
 mercurynews.com##.sharedaddy
-mercurynews.com##.site-header:style(position: relative !important;)
+mercurynews.com##.sharing
+mercurynews.com##.site-header:style(position: static !important; transition: none !important; transform: none !important;)
 mercurynews.com##aside
 merriam-webster.com###recirc-bar-footer
 merriam-webster.com###subscribe-overlay
@@ -8470,6 +8483,7 @@ miamiherald.com###newsletter-signUpWidget
 miamiherald.com###story-cta-widget
 miamiherald.com##.element_spacing_large.signup-widget
 miamiherald.com##.glyphicon-share.glyphicon
+miamiherald.com##html:style(overflow-x: hidden !important; overflow-y: auto !important;)
 miaminewtimes.com##.sde-shadow
 miaminewtimes.com##.sticky-bar.masthead:style(position: absolute !important; top: 0 !important;)
 mic.com###header:style(position: relative !important; top: 0 !important;)
@@ -9860,6 +9874,8 @@ nytimes.com##.css-1i860sg:style(position: relative !important;)
 nytimes.com##.css-1plijz3
 nytimes.com##.css-kp204g
 nytimes.com##.d-fow-nav:style(position: relative !important; top: 0 !important;)
+nytimes.com##.e12j3pa50.css-1iv69x4
+nytimes.com##.e12j3pa51.css-1vln2fb
 nytimes.com##.e1pwcx9q0:style(position: relative !important;)
 nytimes.com##.eln-email-signup
 nytimes.com##.email-sharetool
@@ -14498,6 +14514,7 @@ weeklystandard.com##.ActionBar-items
 weeklystandard.com##.FixedHeader.Page-header:style(position: relative !important;)
 weeklystandard.com##.Page-header-articleHeader
 weeklystandard.com##.Page-header-contents-navSearchSocial:style(padding-left: 17px !important; margin: 0 !important;)
+weeklystandard.com##.Page-navigation-mobile:style(position: absolute !important;)
 weeklystandard.com##.Page-social
 weeklystandard.com##.PageLogo-image:style(content: none !important;)
 weeklystandard.com##.ad
@@ -14948,6 +14965,7 @@ wreg.com##.navbar:style(position: absolute !important;)
 wsaw.com###nav:style(position: relative !important; top: 0 !important;)
 wsaz.com###nav:style(position: relative !important; top: 0 !important;)
 wsbeacon.com##.customPopUp
+wsbradio.com##.visible.sticky-header__container
 wsbt.com##.sd-news-main-sidebar-middle:style(position: relative !important; top: 0 !important;)
 wsbt.com##.v2.sd-header-wrapper:style(position: absolute !important; top: 0 !important;)
 wsbtv.com###header:style(position: relative !important;)
