@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 7:50 PM 2018-06-15
+! Last Modified: 12:08 PM 2018-06-16
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -577,6 +577,7 @@
 ##.block-mailchimp-signup
 ##.bottom-share
 ##.bottom-socialbar
+##.bottom.nc_wrapper
 ##.btn-backtop
 ##.btn-go-top
 ##.btn-pinterest
@@ -671,6 +672,7 @@
 ##.cookiebar
 ##.cookieconsent
 ##.cookieinfo
+##.cookies__banner
 ##.cookies_bar
 ##.cookinfo
 ##.corner-to-top
@@ -895,7 +897,9 @@
 ##.icon-facebook
 ##.icon-facebook-official
 ##.icon-facebook-sharing
+##.icon-gplus
 ##.icon-instagram
+##.icon-instagrem
 ##.icon-linkedin
 ##.icon-share
 ##.icon-social
@@ -969,6 +973,7 @@
 ##.lx-share-tools__items
 ##.m-SocialLinksFresh
 ##.m-article__share-buttons
+##.m-entry__upper-social
 ##.m-header--social-nav
 ##.m-header__social
 ##.m-pinterest-button
@@ -997,6 +1002,7 @@
 ##.meredith-share-bar
 ##.met-flyout
 ##.met-promo
+##.meta-share
 ##.mgm-social-share
 ##.mh-back-to-top
 ##.mh-share-buttons
@@ -1639,6 +1645,7 @@
 ##.socialbuttonholder-fixed
 ##.socialbuttons
 ##.socialcount
+##.socialfooter
 ##.socialicons
 ##.socialicons-container
 ##.socialinks
@@ -2471,6 +2478,11 @@ americamagazine.org##.signUpNewsLetterHomeWrapper
 americamagazine.org##.soucialLinks
 americanaffairsjournal.org##.sticky-container.leaky-paywall-notification-bar-wrapper:style(position: relative !important; top: 0 !important;)
 americanaffairsjournal.org##.sticky.is-stuck:style(position: relative !important;)
+americanmilitarynews.com###amp-user-notification1
+americanmilitarynews.com###banner
+americanmilitarynews.com##.h-sing
+americanmilitarynews.com##.sp-lt > .ss-ic
+americanmilitarynews.com##.ss-ic.s_stk
 americanow.com###header-container-inner:style(position: relative !important; top: 0 !important;)
 americanow.com##.is-at-top.is-stuck.sticky.top-stories:style(position: relative !important; top: 0 !important;)
 americanprogress.org##.row.custom-bg
@@ -3139,6 +3151,7 @@ blu.com##.sticky-bar:style(position: relative !important;)
 blueapron.com###header-main:style(position: absolute !important;)
 blueapron.com###header-main:style(position: relative !important; top: 0 !important;)
 blueapron.com##.fancybox-overlay-fixed.fancybox-overlay
+bluebirdbanter.com##.tab-bar-fixed.c-tab-bar
 bluedotdaily.com###main-nav-wrap:style(position: relative !important; top: 0 !important;)
 bluedotdaily.com##.adsbygoogle
 bluerockpublicradio.com##.js-metabar:style(position: absolute !important;)
@@ -6331,6 +6344,9 @@ grantthornton.com##.global-header__sticky-nav:style(position: absolute !importan
 grasscity.com##.sticky_wrapper:style(position: relative !important; top: 0 !important;)
 grasswire.com###sticky_header:style(position: relative !important; top: 0 !important;)
 greatamericancountry.com##body:style(margin-top: 0 !important;)
+greatbigstory.com##.footer-terms-notification
+greatbigstory.com##.navbar-master:style(position: absolute !important; top: 0 !important; transition: none !important;)
+greatbigstory.com##.story-detail-social
 greatfallstribune.com##.first-margin:style(margin-top: 0 !important;)
 greatfallstribune.com##.fixed.header:style(position: absolute !important; top: 0 !important;)
 greatfallstribune.com##.pluto-video-ready.playlistsmallattophtml5.gallery-video.story-video.js-ui-pluto-video.ui-pluto-video.js-ui-video-init:style(position: static !important;)
@@ -10658,7 +10674,6 @@ projectveritas.com##.active.ts-mega-menu.megaWrapper.ts-sticky-menu:style(positi
 proofpoint.com##.scroll-header.js-header.header:style(position: relative !important; top: 0 !important;)
 propertyshark.com###main-nav-bar:style(position: relative !important;)
 propertyshark.com###off-canvas-body:style(margin-top: 0 !important;)
-propertyshark.com##.meta-share
 propublica.org##.compact
 propublica.org##.content.masthead:style(position: relative !important;)
 propublica.org##.donate-links
@@ -10899,6 +10914,10 @@ rawstory.com##.story-page-embedded-ad
 razorpay.com###page-sidebar
 razorpay.com###tagbar:style(position: relative !important;)
 rbr.com##.td-more-articles-box
+rbth.com###mailigenarticle
+rbth.com##.follows-channel
+rbth.com##.layout__footer
+rbth.com##.layout__header:style(position: absolute !important;)
 rbth.com##.rbth-fb-popup
 rchain.coop###header:style(position: absolute !important; background-color: transparent !important;)
 rchain.coop###parallax-nav:style(position: absolute !important; top: 150px !important;)
@@ -11358,6 +11377,7 @@ savearescue.org###header:style(position: absolute !important;)
 saveur.com##.main-header:style(position: absolute !important;)
 savvytime.com##.navbar-fixed-top.sub-nav:style(position: absolute !important;)
 savvytime.com##.no-padding.header-shadow.header:style(position: absolute !important;)
+sbnation.com##.c-sports-blog-directory__item-social
 sbnation.com##.tab-bar-fixed.c-tab-bar
 sbs.com.au##.flip-pane:style(transition: none !important;)
 sbs.com.au##.global-nav__context-title:style(display: none !important;)
@@ -11983,6 +12003,8 @@ stackoverflow.com##._fixed.js-top-bar.top-bar:style(position: absolute !importan
 stackoverflow.com##._scrolling._fixed.js-so-header.so-header:style(position: relative !important; top: 0 !important;)
 stackoverflow.com##._scrolling._fixed.js-top-bar.top-bar:style(position: absolute !important;)
 stackoverflow.com##.container:style(padding-top: 0 !important;)
+stadiumroofstatus.com##.footer
+stadiumroofstatus.com##.navbar:style(position: absolute !important;)
 stamps.com##.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important;)
 standard.co.uk###body:style(padding-top: 0 !important;)
 standard.co.uk###leaderboard
@@ -12710,6 +12732,8 @@ theglobeandmail.com##.c-control--social
 theglobeandmail.com##.c-header-title--article.c-header-title:style(position: absolute !important;)
 theglobeandmail.com##.c-header-title--scrolling-up.c-header-title--show.c-header-title--article.c-header-title:style(position: absolute !important;)
 theglobeandmail.com##.c-header-title__button-containers:style(transition: none !important; transform: none !important;)
+theglobeandmail.com##.c-site-header--sticky.c-site-header--article.c-site-header:style(position: absolute !important;)
+theglobeandmail.com##.c-site-header__buttons
 thegolder.com##.td-ss-main-sidebar:style(position: relative !important;)
 thegreenplace.net##.navbar:style(position: absolute !important;)
 thegrio.com###headerbar:style(position: relative !important; top: 0 !important;)
@@ -13514,8 +13538,10 @@ toptal.com##html:style(overflow-x: hidden !important; overflow-y: auto !importan
 toptere.com##.fusion-sticky-shadow.fusion-header:style(position: relative !important; top: 0 !important;)
 toptere.com##.widget_monarchwidget.widget
 torontolife.com##.ad-frame--leaderboard
-torontolife.com##.header-fix-top:style(position: absolute !important; top: 0 !important;)
+torontolife.com##.container:style(padding-top: 0 !important; margin-top: 0 !important;)
+torontolife.com##.header-wrapper:style(position: relative !important; top: 0 !important;)
 torontolife.com##.primary-navigation:style(position: relative !important; top: 0 !important;)
+torontolife.com##.subscribe-navigation__list
 torontosun.com###popupBox
 torrentfreak.com###stick-logo:style(position: relative !important;)
 torrentfreak.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
@@ -14441,7 +14467,6 @@ wcax.com###nav:style(position: relative !important; top: 0 !important;)
 wccftech.com##.footer-4
 wccftech.com##.headroom--pinned.headroom--not-bottom.headroom--not-top.headroom
 wccftech.com##.headroom--top.headroom--pinned.headroom--not-bottom.headroom:style(position: absolute !important; top: 0 !important;)
-wccftech.com##.meta-share
 wccftech.com##.sidebar-ad
 wccftech.com##tqwidget
 wcnc.com##.ad
