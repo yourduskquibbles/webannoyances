@@ -62,4 +62,4 @@ Still having trouble installing the list? Try watching the gif below which shows
 
 ## Discord Server
 
-Join the [yourduskquibbles Discord Server](https://discord.me/yourduskquibbles) for faster reporting of issues and chat. 
+Join the yourduskquibbles Discord Server @ https://discord.me/yourduskquibbles for faster reporting of issues and chat. 
