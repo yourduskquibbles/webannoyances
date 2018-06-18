@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 3:01 PM 2018-06-18
+! Last Modified: 7:06 PM 2018-06-18
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -1957,6 +1957,7 @@
 42matters.com##.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important;)
 49ers.com###TNFLSubNavigation_main:style(position: relative !important; top: 0 !important;)
 49ers.com###nflMenuHeader:style(position: relative !important; top: 0 !important;)
+500ish.com##.js-metabar:style(position: absolute !important;)
 500px.com##.spu-bg
 500px.com##.spu-box
 500px.com##.ul-sharing
@@ -3134,6 +3135,7 @@ bloomberg.com##.persist-nav.bb-nav-root
 bloomberg.com##.recirc.rotation-item:style(transition: none !important; transform: none !important; opacity: 1 !important; max-height: 2000px !important;)
 bloomberg.com##.rotation-item[current=false]:style(opacity: 1 !important; max-height: 2000px !important; transform: none !important;)
 bloomberg.com##.sticky-container:style(position: static !important; top: 0 !important;)
+bloomberg.com##.sticky-social-buttons
 bloomberg.com##.sticky-video:style(transition: none !important; transform: none !important;)
 bloomberg.com##.terminal-tout-container
 bloomberg.com##.video-player__container:style(position: static !important; transition: none !important; transform: none !important; opacity: 1 !important; top: 0 !important; width: auto !important; height: auto !important;)
@@ -3354,6 +3356,7 @@ brides.com##.sticky-header.component-sticky > div:nth-of-type(1):style(position:
 brighthubeducation.com###subscribe2
 brightsurf.com##footer
 brightsurf.com##header:style(position: absolute !important;)
+brightthemag.com##.js-metabar:style(position: absolute !important;)
 brioni.com###siteHeader:style(position: relative !important; top: 0 !important;)
 brioni.com##.mfp-ready.uiLayer-newsletterLink.uiLayer-account.uiLayer.mfp-auto-cursor.mfp-close-btn-in.mfp-wrap
 brit.co##.collapsed.ng-isolate-scope
@@ -4829,6 +4832,7 @@ detroitnews.com##.fixed.header:style(position: absolute !important; top: 0 !impo
 detroitnews.com##.pluto-video-ready.playlistsmallattophtml5.gallery-video.story-video.js-ui-pluto-video.ui-pluto-video.js-ui-video-init:style(position: static !important;)
 detroitnews.com##.pluto-video-ready.smallarticleattophtml5.priority.inline-story-video.story-video.js-ui-pluto-video.js-video-aps.ui-pluto-video.js-ui-video-init:style(position: static !important;)
 detroitnews.com##.site-header-inner-wrap-fixed.site-header-inner-wrap:style(position: relative !important; top: 0 !important;)
+developer.amazon.com##.dpHeader:style(position: absolute !important; transform: none !important;)
 developers.google.com##.clearfix.devsite-main-content:style(margin-top: 40px !important;)
 developers.google.com##.devsite-collapsible-section:style(margin-top: 0 !important;)
 developers.google.com##.devsite-full-site-width.devsite-product-id-row:style(visibility: visible !important;)
@@ -6536,13 +6540,14 @@ hannity.com##.affix.full.navTopadContainer:style(position: relative !important; 
 harpercollins.com##.hc-main-header__nav-bar__navigation--fixed.hc-main-header__nav-bar__navigation:style(position: relative !important; top: 0 !important;)
 harpers.org###OFIE
 harpers.org###issuem-leaky-paywall-articles-remaining-nag
+harpers.org##.currentAffair > .subscribe
 harpers.org##.rightDivPad.fRight
+harpers.org##.socialmedia
 harpers.org##.stripMiddle
-harpers.org##.subscribe
-harpersbazaar.com##.slideshow-leaderboard.leaderboard-ad
-harpersbazaar.com##.slideshow-social-buttons.primary-social-buttons.content-info-social-buttons
+harpersbazaar.com##.breaker-ad
+harpersbazaar.com##.content-info-social-buttons
+harpersbazaar.com##.leaderboard-ad
 harpersbazaar.com##.sticky.nav:style(position: relative !important; top: 0 !important;)
-harpersbazaar.com##.transporter-breaker-ad.list-breaker-ad.breaker-ad
 harpersferryadventurecenter.com###main-header:style(position: relative !important; top: 0 !important;)
 harpersferryadventurecenter.com###top-header:style(position: relative !important; top: 0 !important;)
 harvard.edu##.g-header:style(position: absolute !important;)
@@ -11585,6 +11590,7 @@ seattlepi.com###subHead:style(transform: none !important;)
 seattlepi.com##.article-content:style(margin-top: 50px !important;)
 seattlepi.com##.hearst-jwplayer-position:style(position: relative !important;)
 seattlepi.com##.topnav:style(z-index: 999999 !important;)
+seattlespheres.com##.Home-header:style(position: absolute !important;)
 seattletimes.com###userMessagingInset
 seattletimes.com##.ad-continue-link
 seattletimes.com##.facebook-modal
@@ -15107,7 +15113,8 @@ wpbf.com##.slim-headline:style(position: relative !important; top: 0 !important;
 wpbf.com##.slim.header:style(position: relative !important; top: 0 !important;)
 wpde.com##.sd-news-main-sidebar-middle:style(position: relative !important; top: 0 !important;)
 wpde.com##.v2.sd-header-wrapper:style(position: absolute !important; top: 0 !important;)
-wpri.com###site-header:style(position: absolute !important;)
+wpri.com###header:style(padding-top: 0 !important;)
+wpri.com###site-header:style(position: relative !important; top: 0 !important;)
 wpri.com##html:style(overflow-x: hidden !important; overflow-y: auto !important;)
 wptv.com##.layout--share__second
 wptv.com##.module--email-widget
