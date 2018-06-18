@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 2:29 PM 2018-06-18
+! Last Modified: 3:01 PM 2018-06-18
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -1734,6 +1734,7 @@
 ##.top-social
 ##.top-social-container
 ##.top-socialbar
+##.topButton
 ##.top_share
 ##.top_share_widget
 ##.topbar--socials
@@ -1988,6 +1989,7 @@
 8bitdo.com###nav:style(position: relative !important; top: 0 !important;)
 8bitdo.com##.headroom--pinned.headroom.navbar-fixed-top.main-nav:style(position: absolute !important; transition: none !important;)
 8newsnow.com###klasSocial
+99bitcoins.com###wpfront-scroll-top-container
 99bitcoins.com##.sticky-nav.cf.navigation-wrap:style(position: absolute !important;)
 99bitcoins.com##.theiaStickySidebar:style(position: static !important; transform: none !important;)
 99bitcoins.com##.tl-anim-zoom_in.tl-states-root
@@ -4118,6 +4120,8 @@ coindesk.com##.widget_coindesk_freestar_atf_ad_unit_widget
 coindesk.com##.widget_coindesk_freestar_btf_ad_unit_widget
 coindesk.com##.wpsr-floatbar-float_left.wpsr-floatbar-white.wpsr-floatbar-movable.clearfix
 coindesk.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
+coinmama.com###launcher:style(position: absolute !important;)
+coinmama.com##.navbar:style(position: absolute !important;)
 coinmarketcap.com##th:style(position: relative !important;)
 coinsocial.io##.dpsp-networks-btns-wrapper
 coinsocial.io##.slidebottom.wpoi-show.inc_optin_2.inc_optin.wpoi-animate.inc_opt_popup
@@ -9805,6 +9809,7 @@ nwfdailynews.com##.btn-highlight.btn-sm.btn
 nwfilmforum.org##.header:style(position: absolute !important;)
 ny1.com###footerSocialLinks
 ny1.com##.navbar-fixed-top.fixed-top.site-header-inner:style(position: absolute !important;)
+nybooks.com##.icon-google-plus
 nybooks.com##.newsletter_signup.well
 nybooks.com##.span3
 nydailynews.com###app-bar-sticky:style(position: relative !important;)
@@ -13529,7 +13534,9 @@ time.com##.title-display:style(opacity: 0 !important; transform: none !important
 time.com##.top-banner:style(position: relative !important; top: 0 !important;)
 time.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 time2hack.com##.floating-active.floating-header
-timeanddate.com##.sticky.fixed:style(position: relative !important; top: 0 !important;)
+timeanddate.com###nav.sticky:before:style(position: absolute !important;)
+timeanddate.com###nav.sticky:style(position: absolute!important; top: 0 !important; transition: none !important;)
+timeanddate.com###nav:style(background-position-x: 50% !important; background-position-y: center !important;)
 timeline.com##.js-metabar:style(position: absolute !important;)
 timesfreepress.com###detailClose
 timesfreepress.com###detailHeadlineStickyBar:style(position: relative !important; top: 0 !important;)
@@ -13689,6 +13696,11 @@ tractorsupply.com###globalHeaderBannerMobile
 tractorsupply.com###header_mainContainer_outer:style(position: relative !important; top: 0 !important;)
 tractorsupply.com##.dijitBackgroundIframe
 trails.com##.ub-emb-overlay
+trakt.tv###top-brand:style(opacity: 0 !important;)
+trakt.tv###top-nav:style(position: absolute !important; background-color: transparent !important;)
+trakt.tv##.brand-left.navbar-nav.nav:style(margin: 0 !important;)
+trakt.tv##.brand-right.navbar-nav.nav:style(margin: 0 !important;)
+trakt.tv##li:nth-of-type(1) > .btn-primary.btn:style(opacity: 1 !important;)
 transamworldwide.com##.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 translate.google.com###gt-ft-res:style(position: absolute !important;)
 transparencyreport.google.com##.sticky-header:style(position: absolute !important;)
