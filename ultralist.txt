@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:20 PM 2018-06-18
+! Last Modified: 12:06 AM 2018-06-19
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -2087,6 +2087,7 @@ abc13.com##.sticky.wrapper.nav-container-sticky:style(position: relative !import
 abc13.com##body:style(padding-top: 0 !important;)
 abc15.com###header:style(position: relative !important;)
 abc15.com##.module--multi-top__container.container--ad.container
+abc15.com##.scripps_vdb_buttons
 abc27.com###masthead:style(position: relative !important;)
 abc27.com##.entry-content-wrap:style(max-height: none !important;)
 abc27.com##.read-more
@@ -2533,6 +2534,7 @@ androidcentral.com##.recent-posts
 androidforums.com###yvjotilvhppccccahqxngddtnoesfgzrm
 androidheadlines.com###masthead:style(position: relative !important; top: 0 !important;)
 androidmag.de###header:style(position: relative !important; top: 0 !important;)
+androidpit.com##.ameta__share
 androidpolice.com###apfollowwidget-2
 androidpolice.com###toc_wrapper:style(position: relative !important;)
 androidpolice.com##.ap-follow-widget.widget.red.widget-2.widget-even
@@ -5634,8 +5636,10 @@ fitbit.com##.stuck-top.sticky-nav.store-sticky-nav:style(position: relative !imp
 fivebooks.com##.fix.-inside.top-menu-wrap.contain-to-grid:style(position: absolute !important;)
 fivebooks.com##.inline-el.-newsletter.inline-box
 fivethirtyeight.com###fivethirtyeight-mobile-embed-14
-fivethirtyeight.com###header-global:style(position: relative !important; top: 0 !important;)
+fivethirtyeight.com###header-global:style(position: relative !important; top: 0 !important; height: 50px !important;)
 fivethirtyeight.com###masterad
+fivethirtyeight.com###wrapper:style(margin-top: 50px !important;)
+fivethirtyeight.com##.header-global.sticky:style(display: none !important; padding-top: 0 !important;)
 fivethirtyeight.com##.lp-share
 fivethirtyeight.com##.newsletter.flexible.widget
 fivethirtyeight.com##.page-header:style(position: relative !important; top: 0 !important;)
@@ -6226,6 +6230,7 @@ gofundme.com##.fixed-container:style(position: absolute !important;)
 gofundme.com##.js-hide-desktop-nav-search.show-for-large.action-buttons-contain
 gofundme.com##.reveal-overlay
 gofundme.com##.top-bar:style(position: absolute !important;)
+gog.com##.menu:style(position: absolute !important;)
 goldcore.com##.page-header:style(position: relative !important; top: 0 !important;)
 goldcore.com##.pushcrew-chrome-style-notification-safari.pushcrew-chrome-style-notification
 goldderby.com##.expert-newslater
@@ -8571,7 +8576,7 @@ miamiherald.com###story-cta-widget
 miamiherald.com##.element_spacing_large.signup-widget
 miamiherald.com##.glyphicon-share.glyphicon
 miamiherald.com##html:style(overflow-x: hidden !important; overflow-y: auto !important;)
-miaminewtimes.com##.sde-shadow
+miaminewtimes.com##.masthead:after
 miaminewtimes.com##.sticky-bar.masthead:style(position: absolute !important; top: 0 !important;)
 mic.com###header:style(position: relative !important; top: 0 !important;)
 mic.com##.app-header:style(position: relative !important; top: 0 !important;)
@@ -12478,6 +12483,7 @@ techwalla.com###email-capture
 techwalla.com###header-dinosaur:style(position: absolute !important;)
 techwalla.com##.modal-backdrop
 techworm.net##.pcAds.floatDivSocial
+teckfront.com##.navbar:style(position: absolute !important;)
 tecklyfe.com##.fusion-secondary-main-menu:style(position: relative !important;)
 tecmint.com###quickiebarpro:style(position: absolute !important;)
 tecmint.com##.fixedBar
@@ -13610,8 +13616,10 @@ tmall.com##.sn-nav-wrapper
 tmj4.com##.layout--share__second
 tmz.com###ad2
 tmz.com###legalbar
-tmz.com###masthead-wrap:style(position: relative !important;)
+tmz.com###masthead-wrap:style(position: relative !important; padding-top: 6px !important; height: 245px !important; top: 0 !important;)
+tmz.com###smartbanner
 tmz.com##.app-links
+tmz.com##.body-home:style(padding-top: 0 !important;)
 tmz.com##.clearfix.partner-headlines-row
 tmz.com##.hide-tip.header:style(position: absolute !important;)
 tmz.com##.inpost-social
@@ -14701,6 +14709,8 @@ weeklystandard.com##.upnext
 weeklystandard.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 wefunder.com##.fixed_navigation
 wefunder.com##.topNav:style(position: absolute !important;)
+wehavekids.com###header_wrap:style(position: absolute !important;)
+wehavekids.com###stickyfooterad
 welivesecurity.com##.wlistingsinglesocialmedia
 welt.de##.c-page-header--is-sticky.c-page-header:style(position: relative !important; top: 0 !important;)
 welt.de##.c-page-header__fixed--is-sticky.c-page-header__fixed:style(position: relative !important; top: 0 !important;)
@@ -15394,6 +15404,13 @@ xinhuanet.com##.xhapp
 xojane.com###follow_us_twitter-0
 xojane.com###read_janes_diary-0
 xojane.com###sharing-0
+xxlmag.com###ads-top-leaderboard
+xxlmag.com###site-menu-bg:style(height: 0 !important;)
+xxlmag.com###site-menu-wrapper:style(position: relative !important;)
+xxlmag.com##.aside-inside:style(position: absolute !important;)
+xxlmag.com##.site-menu-drawer:style(transition: none !important; margin-top: 0 !important;)
+xxlmag.com##.smartbanner-android.smartbanner
+xxlmag.com##.smartbanner-show:style(margin-top: 0 !important;)
 yachtcharterfleet.com##.fixed.yacht-tabs-wrap:style(position: absolute !important;)
 yachtcharterfleet.com##.nav-down.show-for-small-only.header:style(position: relative !important; top: 0 !important;)
 yachtingmonthly.com###navigation:style(position: relative !important; top: 0 !important;)
