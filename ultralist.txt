@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:18 PM 2018-06-20
+! Last Modified: 12:20 PM 2018-06-20
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -2158,6 +2158,7 @@ abplive.in##.social_articlePage.news_sports_social
 abqjournal.com###header:style(position: absolute !important;)
 abqjournal.com###permissions-prompt
 abqjournal.com###story-bottom-ad
+abus.com###cookieChoiceModalOverlay
 accent-bikes.com##.l-header-wrapper:style(position: absolute !important;)
 accenture.com###WebPartWPQ8
 accenture.com###block-jumplink:style(position: relative !important; top: 0 !important;)
@@ -3473,6 +3474,7 @@ bustle.com###ember389:style(position: relative !important; top: 0 !important;)
 bustle.com###ember412
 bustle.com##.G:style(position: relative !important;)
 bustle.com##.eN.it
+bustle.com##.m:style(position: absolute !important;)
 bustle.com##.nav-container:style(position: relative !important; top: 0 !important;)
 bustle.com##.q:style(position: absolute !important;)
 bustle.com##.s:style(position: absolute !important;)
@@ -3710,7 +3712,11 @@ cc.com###balaMainContainer
 cc.com###header_content
 cc.com###tcr-header:style(position: relative !important; top: 0 !important;)
 cc.com##.primary_background.top_outer:style(position: relative !important; top: 0 !important;)
+ccn.com##.container.content-info
+ccn.com##.main:style(top: 60px !important; overflow: auto !important;)
+ccn.com##.price-widget:style(position: relative !important; top: 0 !important;)
 ccn.com##.theiaStickySidebar:style(position: static !important; transform: none !important;)
+ccn.com##.top:style(position: absolute !important;)
 cdapress.com##.fixed.sticky.contain-to-grid:style(position: relative !important; top: 0 !important;)
 ceb.com##.stick.header-menu:style(position: relative !important; top: 0 !important;)
 cebglobal.com##.global-nav:style(position: relative !important; top: 0 !important;)
@@ -4059,6 +4065,7 @@ cnbc.com##.story-header-right
 cnbc.com##.sub-header
 cnbc.com##.sub-header-social-container
 cnbc.com##.theplatform-video__docked.dockable.player-lazy-loaded-mobile:style(position: relative !important; top: 0 !important;)
+cnbc.com##.wildcard.embed-container
 cnet.com###connectCNET
 cnet.com###globalSocialPromoWrap
 cnet.com###page-header:style(position: relative !important; top: 0 !important;)
@@ -5212,9 +5219,11 @@ elie.net##.mc-modal
 elie.net##.visible.newsletter
 elitedaily.com##.stickyHeader.headerInView
 elitedaily.com##.stickyNavWrapper
+elle.com###_evidon-barrier-wrapper
 elle.com##.content-info-social-buttons
 elle.com##.content-nav-active.sticky.nav:style(position: relative !important; top: 0 !important;)
 elle.com##.nav-placeholder
+elle.com##.policy-bar
 elle.com##.sticky.nav:style(position: relative !important; top: 0 !important;)
 ello.co##.Modal
 ello.co##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
@@ -8530,8 +8539,10 @@ melmagazine.com##.u-maxWidth740.container:nth-of-type(1) > .u-marginTop10.u-bord
 menshealth.com###header:style(position: relative !important; top: 0 !important;)
 menshealth.com###sharebar-195281
 menshealth.com###tablet-mobile-menu
+menshealth.com##.content-info-social-buttons
 menshealth.com##.prev-item
 menshealth.com##.right_rail
+menshealth.com##.social-button-pinterest
 menshealth.com##.sticky.inner
 mensjournal.com###header:style(position: relative !important; top: 0 !important;)
 mensjournal.com###magazine
@@ -10638,6 +10649,7 @@ politico.eu##.banners.container
 politico.eu##.user-tools
 politicususa.com###gform_widget-3
 politicususa.com##.adsbygoogle
+politifact.com##.sticky.article__statement:style(position: relative !important;)
 polleverywhere.com##.show-sticky.sticky.site-header
 polygon.com##.pinned.m-site-nav:style(position: relative !important; top: 0 !important;)
 polygraph.info##.hdr:style(position: relative !important; top: 0 !important;)
@@ -12241,6 +12253,7 @@ statnews.com##body:style(overflow-x: hidden !important; overflow-y: auto !import
 statoil.com###navigation-fixed_language
 statoil.com###navigation-fixed_search
 statoil.com##.search-btn-wrapper:style(position: relative !important; top: 0 !important;)
+steamcommunity.com##.responsive_header:style(position: absolute !important;)
 steamykitchen.com##.slicknav_menu:style(position: absolute !important;)
 steem.io##.cd-auto-hide-header:style(position: absolute !important;)
 steemit.com##.noPrint.Header:style(position: relative !important; top: 0 !important;)
@@ -12585,6 +12598,9 @@ tennessean.com##.site-header-inner-wrap-fixed:style(position: absolute !importan
 tennessean.com##.site-masthead-search-wrap:style(height: 80px !important;)
 tennessean.com##.site-nav-item-hidden:style(display: table-cell !important; opacity: 1 !important; visibility: visible !important;)
 tennessean.com##.site-nav-logo-link.site-nav-link:style(width: 0 !important;)
+tenor.com##.TOSBanner.Banner
+tenor.com##.fixed-top.TopBar:style(position: absolute !important;)
+tenor.com##a.ShareIcon
 tensorflow.org##.devsite-top-section-pinned.nocontent.devsite-top-section:style(position: relative !important; top: 0 !important;)
 teramind.co###header-widgets
 teramind.co###nav-topbar:style(position: relative !important; top: 0 !important;)
@@ -13643,6 +13659,8 @@ tinybeans.com##.header-background-mobile-visible.header-floating.header-backgrou
 tinybeans.com##.header-background-mobile-visible.header-floating.header-background:style(position: absolute !important;)
 tinybeans.com##.header-floating.header-background._1LXfbwVSkmKPC-Ny8GZ1hC:style(padding-top: 16px !important; box-shadow: none !important; background-color: transparent !important;)
 tinybeans.com##.lHVzw_jGX2jP2HsvvHbgI:style(height: 44px !important; transition: none !important; margin-top: -3px !important;)
+tinybuddha.com###header > .right
+tinybuddha.com##.tbshare
 tinyendian.com##.collapsed.TopBar:style(position: absolute !important;)
 tinyletter.com###message-pager
 tipranks.com##._build_mobile_container_menu_header__header:style(position: relative !important; top: 0 !important;)
@@ -15104,6 +15122,7 @@ wncn.com##.dfp-ad
 wncn.com##.row-leaderboard.row
 wncn.com##.size-medium.wp-image-352109.alignleft
 wncn.com##.size-medium.wp-image-352110.alignleft
+wnct.com###site-header:style(position: absolute !important;)
 wnd.com###additional-options
 wnd.com###div-gpt-ad-ATF_MPU_1
 wnd.com###div-gpt-ad-BTF_MPU_inArticle
