@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 8:43 PM 2018-06-19
+! Last Modified: 9:13 PM 2018-06-19
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -4539,7 +4539,7 @@ dailycaller.com##.ad_container
 dailycaller.com##.contain-to-grid.sticky.fixed
 dailycaller.com##.dc-go-top
 dailycaller.com##.dc_morning_email-58
-dailycaller.com##.fixed.prod:style(position: absolute !important;)
+dailycaller.com##header:style(position: absolute !important; height: 155px !important;)
 dailycamera.com##.article.toolbar:style(position: relative !important; top: 0 !important;)
 dailycamera.com##.info-box-body
 dailydot.com###dailydot-socialbar
@@ -4636,12 +4636,13 @@ dailytelegraph.com.au##.tgc-headerv2-blackbar:style(position: relative !importan
 dailytelegraph.com.au##.tgc-headerv2_header:style(position: relative !important; top: 0 !important;)
 dailytelegraph.com.au##.tgc-headerv2_header_nav-wrapper:style(position: relative !important; top: 0 !important;)
 dailytelegraph.com.au##.widget_newscorpau_ads.widget
-dailywire.com###header:style(position: relative !important; top: 0 !important;)
+dailywire.com###header:style(position: absolute !important;)
+dailywire.com##.ad-toggle
 dailywire.com##.article-actions
 dailywire.com##.field-addthis-compact
-dailywire.com##.header-container:style(position: relative !important; top: 0 !important;)
 dailywire.com##.remodal-is-opened
 dailywire.com##.remodal-overlay
+dailywire.com##.share
 dailywoke.com##.td-affix.td-header-menu-wrap:style(position: absolute !important; transform: none !important;)
 dailyworld.com##.first-margin:style(margin-top: 0 !important;)
 dailyworld.com##.fixed.header:style(position: absolute !important; top: 0 !important;)
@@ -7378,6 +7379,7 @@ journal-news.com##.hidden-md-down.footer-wrapper
 journal-news.com##.hidden-md-down.sub-header-nav:style(position: relative !important; top: 0 !important;)
 joystiq.com###GH_strip
 jpost.com##.ClickFacebookLike
+jpost.com##.article-related-wrap
 jpost.com##.article-side-share-vertical
 jpost.com##.article-subline-share
 jpost.com##.bar-footer.bar.footer-banner
