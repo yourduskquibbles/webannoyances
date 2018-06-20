@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:20 PM 2018-06-20
+! Last Modified: 12:24 PM 2018-06-20
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -108,6 +108,9 @@
 ###cookiesdirective
 ###cookieswrapper
 ###cookiewarn
+###crestafollowbuttons
+###crestashareicon
+###crestashareiconincontent
 ###csBrandAdPromo
 ###csFollowUs
 ###ctpl-fullbanner1
@@ -463,6 +466,7 @@
 ##.ShareBoxButtons
 ##.ShareButton-shareContainer
 ##.ShareElement
+##.ShareIcon
 ##.ShareLinks
 ##.ShareTools
 ##.ShareWidget
@@ -1943,7 +1947,6 @@
 247sports.com###site-header:style(position: absolute !important;)
 247sports.com##.fixed.clearfix.nav-bar:style(position: absolute !important;)
 2bigfeet.com##.nav-overflow:style(position: relative !important; top: 0 !important;)
-2daygeek.com###crestashareicon
 2daygeek.com###nav-mobile:style(position: absolute !important;)
 2daygeek.com###nav-topbar:style(position: absolute !important;)
 2daygeek.com###spu-bg
@@ -2269,7 +2272,6 @@ aeon.co##.site-menu:style(position: absolute !important; top: 0 !important;)
 aeon.co##.social-hovers.header__social-icons
 aeon.co##.sticky-wrapper
 aeon.co##.support-bar
-aerolab.co###crestashareicon
 aerolab.co##.translate_news.bottom-subscription
 aerolab.co##.white.midnightHeader
 aersf.com##.sqs-slide-wrapper
@@ -3997,8 +3999,6 @@ clarionledger.com##.site-masthead-search-wrap:style(height: 80px !important;)
 clarionledger.com##.site-nav-item-hidden:style(display: table-cell !important; opacity: 1 !important; visibility: visible !important;)
 clarionledger.com##.site-nav-logo-link.site-nav-link:style(width: 0 !important;)
 cleancss.com##.navbar:style(position: absolute !important;)
-cleantechnica.com###crestashareicon
-cleantechnica.com###crestashareiconincontent
 cleantechnica.com###dpsp-content-top
 cleveland.com###adv_header:style(position: relative !important; top: 0 !important;)
 cleveland.com##.sticky-nav-hide:style(margin-top: 0 !important; transition: none !important;)
@@ -7129,7 +7129,6 @@ inforcecomputing.com##.header-container:style(position: absolute !important;)
 informer.com##.notify
 infosys.com###header-2
 infoteam.ch##.fixed-animated.navbar-fixed-top.navbar-transparent.navbar-default.navbar:style(position: absolute !important;)
-infowars.com###crestashareiconincontent
 infowars.com###masthead-navigation:style(position: relative !important; top: 0 !important;)
 infowars.com###message
 infowars.com###newsletter-side-widget
@@ -10488,8 +10487,6 @@ picclick.de##.navbar-fixed-top.navbar-default.navbar:style(position: absolute !i
 pilotonline.com###leaderboard1
 pilotonline.com##.paymeter-promo
 pimaxvr.com##.clearfix.d-header:style(position: absolute !important;)
-pimylifeup.com###crestafollowbuttons
-pimylifeup.com###crestashareicon
 pineapplefund.org###mainNav:style(position: absolute !important;)
 pinknews.co.uk###RM3Lines:style(position: absolute !important;)
 pinknews.co.uk###navBar:style(position: absolute !important; top: 0 !important;)
@@ -12600,7 +12597,6 @@ tennessean.com##.site-nav-item-hidden:style(display: table-cell !important; opac
 tennessean.com##.site-nav-logo-link.site-nav-link:style(width: 0 !important;)
 tenor.com##.TOSBanner.Banner
 tenor.com##.fixed-top.TopBar:style(position: absolute !important;)
-tenor.com##a.ShareIcon
 tensorflow.org##.devsite-top-section-pinned.nocontent.devsite-top-section:style(position: relative !important; top: 0 !important;)
 teramind.co###header-widgets
 teramind.co###nav-topbar:style(position: relative !important; top: 0 !important;)
