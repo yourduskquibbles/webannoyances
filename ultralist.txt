@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:24 PM 2018-06-20
+! Last Modified: 8:57 PM 2018-06-20
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -9870,6 +9870,7 @@ ny1.com##.navbar-fixed-top.fixed-top.site-header-inner:style(position: absolute 
 nybooks.com##.icon-google-plus
 nybooks.com##.newsletter_signup.well
 nybooks.com##.span3
+nyclu.org###header:style(position: relative !important;)
 nydailynews.com###app-bar-sticky:style(position: relative !important;)
 nydailynews.com###ra-follow
 nydailynews.com###ra-share-top
@@ -10547,11 +10548,14 @@ pjmedia.com##.marketing-popup-display
 pjmedia.com##.marketing-popup-overlay
 pjmedia.com##.marketing-popup-wrapper
 pjmedia.com##.navbar-scroll.main-nav-wrapper.navbar-wrapper:style(position: relative !important; top: 0 !important;)
-placesjournal.org##.article-module-stuck.article-actions
+placesjournal.org##.article-module-stuck.article-actions:style(position: absolute !important; top: 0 !important;)
 placesjournal.org##.body__header:style(position: absolute !important; transition: none !important;)
 placesjournal.org##.body__wrapper:style(margin-top: 188px !important;)
 placesjournal.org##.follow-widget
+placesjournal.org##.ginger_banner-wrapper
+placesjournal.org##.share-widget
 placesjournal.org##.show.donation-banner
+placesjournal.org##.sidebar-article:style(margin-top: 0 !important;)
 placesjournal.org##html:style(overflow-x: hidden !important; overflow-y: auto !important;)
 plagiarismtoday.com###quickiebar
 plagiarismtoday.com##.td-affix.td-header-gradient.td-header-menu-wrap:style(position: absolute !important;)
@@ -10913,7 +10917,9 @@ qualityassurancemag.com##.supersocialshare-container
 qualtrics.com###bottom-menu:style(position: relative !important;)
 quantamagazine.org###newsletter
 quantamagazine.org###webby-pv-2014-bug
-quantamagazine.org##.nav:style(position: relative !important; top: 0 !important;)
+quantamagazine.org##.header__inner:style(transition: none !important; background-color: transparent !important; box-shadow: none !important;)
+quantamagazine.org##.mega__social
+quantamagazine.org##.nav:style(position: absolute !important;)
 quantamagazine.org##.nav__container:style(position: absolute !important; transform: none !important; transition: none !important;)
 quantamagazine.org##.theme__anchors--solid.flex-justify-center.flex.hide.post__sidebar
 quantamagazine.org##.z10.fit-r.fit-l.fit-t.fixed
@@ -10964,15 +10970,18 @@ qz.com###bling-1
 qz.com###bling-2
 qz.com###chyron
 qz.com###header#header:style(position: absolute !important; transition: none !important;)
-qz.com###header-bar:style(position: absolute !important;)
+qz.com###header-bar:style(position: absolute !important; transition: none !important; background-color: transparent !important; border-bottom: 1px solid #e2e2e2 !important;)
 qz.com###header:style(position: absolute !important; transition: none !important;)
 qz.com###marquee-ad
 qz.com###nav-main:style(position: relative !important; top: 0 !important;)
 qz.com###nav:style(position: relative !important; top: 0 !important;)
+qz.com###obsessions-email-container
 qz.com###queue-toggle
 qz.com###tab-bar
+qz.com##.About__social__3VbeZ
 qz.com##.ArticleFooter__share-tools__3bibY
 qz.com##.ArticleShareIcons__container__2yYw8
+qz.com##.Nav__hidden__1tMQE:style(transform: none !important;)
 qz.com##.SocialSignup__quartzy__kp075
 qz.com##.anno-right
 qz.com##.app-promo
