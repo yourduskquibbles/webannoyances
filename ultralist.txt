@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 5:14 PM 2018-06-21
+! Last Modified: 8:41 PM 2018-06-21
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -5846,6 +5846,7 @@ foreignpolicy.com###paywall_bg
 foreignpolicy.com###site-wrapper > .scrolled
 foreignpolicy.com##.FP-mobile-ad
 foreignpolicy.com##.follow-fp
+foreignpolicy.com##.header-alt-layout.site-header:style(background-color: #fff !important; padding: .4em 1em !important;)
 foreignpolicy.com##.header-alt-layout__title
 foreignpolicy.com##.home-ad-region-1
 foreignpolicy.com##.js-takeover
@@ -6067,7 +6068,9 @@ futureofcapitalism.com###colorbox
 futurism.com###nav:style(position: relative !important;)
 futurism.com###subscribe-modal
 futurism.com##.header-minimal:style(position: relative !important; background: none !important; transition: none !important; border-bottom: none !important; box-shadow: none !important;)
+futurism.com##.headroom--pinned.headroom:style(transform: none !important; transition: none !important;)
 futurism.com##.subscribe-form.center
+futurism.com##.tibrr-cookie-consent-container
 futurism.com##body:style(border-top: 0 !important;)
 fyvor.com##.top_btn
 gab.ai##.header:style(position: absolute !important; top: 0 !important;)
@@ -6425,6 +6428,7 @@ gq.com##.cm-mobile-header-text-container
 gq.com##.container.desktop-header:style(position: relative !important; top: 0 !important;)
 gq.com##.desktop-header-utils
 gq.com##.dropdown-container
+gq.com##.gq-navigation--hide .gq-navigation__container, .gq-navigation--hide .gq-navigation__newsletter-form-container, .gq-navigation--hide .gq-navigation__search-form-container:style(transition: none !important; transform: none !important;)
 gq.com##.gq-navigation__container:style(position: absolute !important;)
 gq.com##.gq-navigation__newsletter-form-container:style(position: absolute !important;)
 gq.com##.gq-navigation__search-form-container:style(position: absolute !important;)
@@ -9558,6 +9562,7 @@ news18.com##.share_icon
 news18.com##header:style(position: absolute !important;)
 news3lv.com##.sd-news-main-sidebar-middle:style(position: relative !important; top: 0 !important;)
 news3lv.com##.v2.sd-header-wrapper:style(position: absolute !important; top: 0 !important;)
+news4jax.com###GMGHeader:style(position: relative !important;)
 news4jax.com###header:style(position: relative !important; top: 0 !important; width: 100% !important; margin-bottom: 20px !important;)
 news4jax.com###ksat-fixed:style(position: relative !important; top: 0 !important; width: 100% !important; margin-bottom: 20px !important;)
 news4jax.com###ksat-fixed:style(position: relative !important; top: 0 !important; width: 100% !important;)
@@ -11244,6 +11249,7 @@ reddit.com##.fixed.active.read-next
 reddit.com##.gZyFXj:style(margin-top: 0 !important;)
 reddit.com##.ihPwni.l831nu-1:style(position: relative !important;)
 reddit.com##.inaQGx.ft1r9n-2:style(position: relative !important;)
+reddit.com##.kzLaSU.eurtsb-0:style(position: absolute !important;)
 reddit.com##.listingsignupbar.infobar
 reddit.com##.mobile-web-redirect-bar
 reddit.com##.mpkDK:style(margin-top: 0 !important;)
