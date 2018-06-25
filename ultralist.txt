@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:03 PM 2018-06-25
+! Last Modified: 12:18 PM 2018-06-25
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -2623,7 +2623,11 @@ ara.cat##.ara-header-sticky-blk-b:style(position: relative !important; top: 0 !i
 ara.cat##.ara-tracking-social-facebook
 ara.cat##.ara-tracking-social-twitter
 ara.cat##.cp-contentnav
+archiseek.com###wprmenu_bar:style(position: absolute !important;)
+archiseek.com##html:style(padding-top: 0 !important;)
 architectural-review.com###mainnav:style(position: relative !important;)
+architectural-review.com###mobileSections:style(position: absolute !important;)
+architectural-review.com##body:style(padding-top: 0 !important; margin-top: 0 !important;)
 architecturaldigest.com##.component-site-header--sticky.component-site-header:style(position: relative !important; top: 0 !important;)
 architectureartdesigns.com###ubermenu-main-2-primary:style(position: absolute !important;)
 architectureartdesigns.com##.vertical.inset-counter.floated.flat.no-print
@@ -7314,9 +7318,11 @@ investopedia.com###AdSlot_BF-Right-Multi
 investopedia.com###infinite-scroll-container
 investopedia.com##.ad-leaderboard
 investopedia.com##.inner-helper:style(position: absolute !important;)
-investopedia.com##.meganav:style(position: absolute !important;)
+investopedia.com##.meganav:style(position: relative !important;)
 investopedia.com##.newsletter
 investopedia.com##.share-button
+investopedia.com##.social-share
+investopedia.com##body:style(margin-top: 0 !important;)
 investor.fb.com##.wrapper:style(position: relative !important;)
 investorjunkie.com###ezw_tco-9:style(position: absolute !important;)
 investorjunkie.com##.site-header:style(position: absolute !important; top: 0 !important;)
@@ -7420,6 +7426,7 @@ jet.com###nav:style(position: absolute !important;)
 jetbrains.com##._fixed.header-secondary.js-header-secondary:style(position: absolute !important;)
 jetbrains.com##.js-banner-body-wrapper.banner__body
 jezebel.com##.global-nav.fixed:style(position: absolute !important;)
+jjie.org##.show.nav_overflow_label.sticky_nav_display.sticky-nav-holder:style(position: absolute !important;)
 joc.com###navbar:style(position: absolute !important;)
 joinhoney.com###content > div > div > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1):style(position: relative !important; top: 0 !important;)
 joinhoney.com##.rmq-ee92ab5d
@@ -8508,6 +8515,8 @@ mclaren.com##.brand-logo:style(position: absolute !important; top: 0 !important;
 mclaren.com##.nav__store:style(position: absolute !important;)
 mclaren.com##.nav__toggle:style(position: absolute !important;)
 mclaren.com##.show.messages
+mcmansionhell.com##.tmblr-iframe
+mcmansionhell.com##header:style(position: absolute !important;)
 mcsweeneys.net##.arrow
 mcuexchange.com##.navbar-stuck.has-nav-menu.navbar-sticky.sticky-logo-inherit.header-style-b.mega-menu-dark.navbar-dark.navbar-static-top.navbar:style(position: absolute !important; top: 0 !important;)
 mdjonline.com###site-navbar-container:style(position: relative !important; top: 0 !important;)
@@ -8924,7 +8933,7 @@ motherjones.com###bottom-donate
 motherjones.com###mj-membership-widget-2
 motherjones.com###mj_menu_select.open:style(max-height: 600px !important; transition: none !important;)
 motherjones.com###navbar:style(position: relative !important; top: 0 !important;)
-motherjones.com###page:style(padding-top: 50px !important;)
+motherjones.com###page:style(margin-top: 0 !important;)
 motherjones.com##.hdr-tools
 motherjones.com##.mj-article-bottom-membership-widget
 motherjones.com##.mj-sidebar-membership-widget
@@ -9579,6 +9588,7 @@ news5cleveland.com##.sticky-article-foot
 newsandsentinel.com###top_header:style(position: absolute !important;)
 newsandsentinel.com###wprmenu_bar:style(position: absolute !important;)
 newsandsentinel.com##.popup
+newsbtc.com##.sticky-header:style(position: relative !important;)
 newsbusters.org###donateButtonHeading
 newsbusters.org###donateButtonMarkup
 newsbusters.org##.nb-social
@@ -12208,6 +12218,8 @@ sportsnet.ca###ad_bigbox_within_articles_container
 sportsnet.ca###nav-sticky:style(position: relative !important; top: 0 !important;)
 sportsnet.ca##.lf-social-media-header:style(position: relative !important; top: 0 !important;)
 sportsnet.ca##.navbar-header:style(position: relative !important; top: 0 !important;)
+sportsnet.ca##.navbar:style(position: absolute !important;)
+sportsnet.ca##.rdm-daac-notice-template
 sportsnet.ca##.rdm-daac-notice-template:style(position: relative !important; top: 0 !important;)
 sportsnet.ca##.row.navbar-inverse.navbar:style(position: absolute !important;)
 sportsonearth.com##.next-prev-superbar.bam-superbar
@@ -14722,6 +14734,7 @@ washingtontimes.com##.spnf_open.spnf_visible.spnf_newsfeed-module.spot-im-newsfe
 washingtontimes.com##P[style="padding: 7px 0 4px 0;margin-bottom: 0;"]
 washingtontimes.com##body:style(padding-top: 0 !important;)
 wasserhelden.net##.main-menu-wrap:style(position: absolute !important;)
+wastedive.com###top:style(position: absolute !important;)
 watchbox.de##.header_shrink.header_shrink_for_video.js-header.header:style(position: absolute !important;)
 watsi.org##.marginLeft-32-m.flexJustify-end-m.flex
 wausaudailyherald.com##.first-margin:style(margin-top: 0 !important;)
