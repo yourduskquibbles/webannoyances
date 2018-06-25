@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 2:59 PM 2018-06-25
+! Last Modified: 5:08 PM 2018-06-25
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -10770,7 +10770,6 @@ politico.com###widgetPromoCarousel
 politico.com##.announce-social
 politico.com##.article-nav-show.article-nav:style(position: relative !important; top: 0 !important;)
 politico.com##.contrast-low.super
-politico.com##.db.cl-l.story-related
 politico.com##.fixed-top.super
 politico.com##.follow-items.is-revealed
 politico.com##.icon-mail.icon
@@ -10780,6 +10779,7 @@ politico.com##.newsletter-sign-up-do-not-delete
 politico.com##.open.sticky-header
 politico.com##.sign-up
 politico.com##.story-continued
+politico.com##.story-related
 politico.com##.toolbar-main
 politico.com##.user-tools
 politico.com##.waypoint-content:style(position: relative !important; max-height: 100em !important; transition: none !important;)
@@ -13140,13 +13140,15 @@ thehill.com###block-thehill-blocks-footer-signup
 thehill.com###dfp-ad-mos_1-wrapper
 thehill.com###dfp-ad-mos_2-wrapper
 thehill.com###dfp-ad-mosad_1
+thehill.com###expand-menu-social-share
+thehill.com###header > div:style(position: relative !important; top: 0 !important;)
 thehill.com###lightboxjs-lightboxlib
-thehill.com###navigation:style(position: relative !important; top: 0 !important; overflow-x: hidden !important; overflow-y: hidden !important;)
 thehill.com##.blogs-social-wrp
-thehill.com##.content-container-l:style(top: 0 !important;)
-thehill.com##.float-icon:style(position: relative !important; top: 0 !important; transition: none !important;)
+thehill.com##.content-container-l:style(top: 0 !important; margin-top: 0 !important;)
+thehill.com##.float-icon__show
 thehill.com##.floating-block-active:style(position: absolute !important;)
 thehill.com##.header:style(position: relative !important; top: 0 !important; transition: none !important;)
+thehill.com##.header_blocks
 thehill.com##.item-shares
 thehill.com##.jw-settings-sharing
 thehill.com##.preloaded_lightbox
@@ -13213,6 +13215,7 @@ theintercept.com##.Logo-block:style(position: absolute !important;)
 theintercept.com##.Logo-svg:style(position: relative !important; top: 0 !important;)
 theintercept.com##.Newsletter
 theintercept.com##.Newsletter-shortcode
+theintercept.com##.Post-feature-title-block:style(transform: none !important;)
 theintercept.com##.Post-header--background-color-default.Post-header--layout-image-right-1-2.Post-header:style(position: relative !important; top: 0 !important;)
 theintercept.com##.Post-header:style(position: relative !important; top: 0 !important; padding: 0 !important;)
 theintercept.com##.Post-logo-sticky-container:style(position: relative !important; top: 0 !important;)
