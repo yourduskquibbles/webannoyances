@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:49 AM 2018-06-25
+! Last Modified: 12:03 PM 2018-06-25
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -15549,11 +15549,15 @@ wzzm13.com##.progress
 wzzm13.com##.video__inner:style(position: static !important;)
 x.company##.js-metabar:style(position: absolute !important;)
 xda-developers.com###google_login
-xda-developers.com###header:style(position: absolute !important; top: 0 !important;)
+xda-developers.com###header:style(position: relative !important; top: 0 !important;)
+xda-developers.com###stickyNav:style(position: relative !important; top: 0 !important;)
+xda-developers.com###thread-header-social
 xda-developers.com###xda_header_google_login
 xda-developers.com###xda_header_social
-xda-developers.com##.breadcrumbs.navbits:style(position: absolute !important; top: 0 !important;)
+xda-developers.com##.breadcrumbs.navbits:style(position: relative !important; top: 0 !important;)
 xda-developers.com##.hosted_by
+xda-developers.com##.leaderboard
+xda-developers.com##.postbit-social
 xda-developers.com##body:style(padding-top: 0 !important;)
 xenonstack.com###fixed-right-bar:style(position: relative !important; top: 0 !important;)
 xenonstack.com##.fixed.sticky.nav-header:style(position: relative !important; top: 0 !important;)
