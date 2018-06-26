@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:05 AM 2018-06-26
+! Last Modified: 1:49 PM 2018-06-26
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -549,6 +549,7 @@
 ##.article-tools
 ##.article-tools-section
 ##.article-tools_desktop
+##.article-top-bar-share
 ##.article-top-share
 ##.article-top-social
 ##.articleFooterSocial
@@ -3530,6 +3531,10 @@ bustle.com##.nav-container:style(position: relative !important; top: 0 !importan
 bustle.com##.q:style(position: absolute !important;)
 bustle.com##.s:style(position: absolute !important;)
 bustle.com##.v
+busy.org##.BBackTop
+busy.org##.ant-layout-header:style(position: absolute !important;)
+busy.org##.leftContainer > div:style(position: relative !important;)
+busy.org##.rightContainer > div:style(position: relative !important;)
 buy-cigarettes-online.com##.sticky-header
 buybuybaby.com###box
 buybuybaby.com###navigation:style(position: relative !important;)
@@ -3834,14 +3839,19 @@ chase.com###dashboard-header:style(position: relative !important; top: 0 !import
 chase.com###header-container:style(position: relative !important; top: 0 !important;)
 chase.com###header-fixed:style(position: relative !important;)
 chase.com###header-inner-fixed-container:style(position: relative !important; top: 0 !important;)
+chase.com###header-outer-container:style(height: auto !important;)
 chase.com###header:style(position: relative !important; top: 0 !important;)
 chase.com###headerclassic:style(position: relative !important; top: 0 !important;)
+chase.com###my-profile-nav-menu:style(padding-top: 0 !important;)
+chase.com###my-profile:style(position: relative !important; top: 0 !important;)
 chase.com###pnt-tabs:style(position: relative !important; top: 0 !important;)
+chase.com###profile-header:style(position: relative !important; top: 0 !important;)
 chase.com##.accounts-list-fixed-container:style(position: absolute !important; padding-top: 0 !important;)
 chase.com##.header:style(position: relative !important; top: 0 !important;)
 chase.com##.introjs-overlay
 chase.com##.introjs-tooltip
 chase.com##.multiplePaymentsHeaderContainer:style(position: relative !important; top: 0 !important; padding-top: 0 !important;)
+chase.com##.my-profile-subcontainer:style(position: relative !important; top: 0 !important;)
 cheatsheet.com###inner-wrapper:style(padding-top: 0 !important;)
 cheatsheet.com###navigation:style(position: relative !important; top: 0 !important;)
 cheatsheet.com##.ad-300-250
@@ -5103,6 +5113,7 @@ docs.google.com##.docs-homescreen-sftc.goog-scrollfloater:style(position: relati
 docs.google.com##.gb_qc.gb_Fd.gb_tb.gb_Xa:style(position: absolute !important; visibility: visible !important; opacity: 1 !important;)
 docs.google.com##.gb_sc.gb_Id.gb_tb.gb_Xa:style(position: absolute !important;)
 docs.microsoft.com##.lf-selection-popover
+doctorofcredit.com##.gcap-shown
 docusign.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 doist.com##.js-metabar:style(position: absolute !important;)
 doit-intl.com##.js-metabar:style(position: absolute !important;)
@@ -5330,9 +5341,10 @@ engadget.com##.full-height.i-share_overlay__btn.relative
 engadget.com##.hide\@tp-.pt-30\@tp-.pt-40.col-12-of-12\@tp-.col-2-of-5.grid__cell
 engadget.com##.i-context_nav:style(position: relative !important; top: 0 !important; transition: none !important; -webkit-transition: none !important;)
 engadget.com##.inline-block.w-22\@m\+.h-22\@m\+.h-15\@s.w-15\@s
+engadget.com##.o-h.i-share_overlay__over
 engadget.com##.o-mobile-share-footer
 engadget.com##.o-social_nav__item
-engadget.com##.o-sticky_header\@tp-:style(position: absolute !important;)
+engadget.com##.o-sticky_header\@tp-:style(position: relative !important;)
 engadget.com##.spotim-recirculation
 engadget.com##.ta-r\@tl\+.bc-white-10.pt-20\@tp-.pt-60.col-12-of-12\@tp-.col-3-of-5.grid__cell
 english.kyodonews.jp##footer
@@ -7709,6 +7721,9 @@ khaleejtimes.com###foxpush_subscribe
 khaleejtimes.com##.logoarea:style(position: relative !important;)
 khaleejtimes.com##.vuukle-powerbar-processed.vuukle-powerbar-vertical
 khaleejtimes.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
+khanacademy.org##.container_jaz5sb
+khanacademy.org##.module_1soyn4l:style(position: absolute !important;)
+khanacademy.org##.navbarAboveContent_c8p5wz-o_O-navbarContainer_3jr45l-o_O-navbarSticky_usdswr:style(position: relative !important;)
 khn.org###header-site:style(position: absolute !important; margin-top: 0 !important; transition: none !important;)
 khn.org##.brand-scrolling:style(display: none !important;)
 khn.org##.brand:style(display: block !important;)
@@ -9179,6 +9194,10 @@ myatltv.com##.page__header:style(position: absolute !important;)
 myatltv.com##.progress
 myatltv.com##.video__inner:style(position: static !important;)
 mybanktracker.com##.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important;)
+mybroadband.co.za##.article-top-bar
+mybroadband.co.za##.float-newsletter-bar
+mybroadband.co.za##.next-previous-article
+mybroadband.co.za##div.box-poll.side-box:nth-of-type(3)
 myce.com##.like-button.shrinkme.white-gradient
 myce.com##.smaller.fixed.shrinkme.white-gradient.regular-height.shadow.show-for-large-up.sticky:style(position: relative !important; top: 0 !important;)
 mycentraljersey.com##.first-margin:style(margin-top: 0 !important;)
@@ -12416,6 +12435,7 @@ startribune.com##.sb-slide.navbar-fixed-top.navbar-default.navbar.site-header:st
 startribune.com##.search-pane:style(position: absolute !important;)
 startswithyou.com##.leaderboard
 startswithyou.com##.mostshared.ui_module
+starttls-everywhere.org##nav:style(position: absolute !important;)
 startupsventurecapital.com##.js-metabar:style(position: absolute !important;)
 starwars.com###body-wrapper:style(margin-top: 0 !important;)
 starwars.com###nav-inner-container:style(position: relative !important; top: 0 !important;)
@@ -14073,17 +14093,17 @@ trumphotels.com##.full.bookingconsole
 trumphotels.com##.header-property.row:style(position: relative !important; top: 0 !important;)
 trust.org###global-ticker
 trust.org###pushobj:style(padding-top: 0 !important;)
-trust.org##.fixed.genx2header.page.wrapper:style(margin-top: 0 !important;)
-trust.org##.fixed.genx2header.page.wrapper:style(position: relative !important; top: 0 !important;)
+trust.org##.fixed.genx2header.page.wrapper:style(position: relative !important; top: 0 !important; margin-top: 0 !important;)
 trust.org##.subscribe
 trustedreviews.com###_evh-button
 trustedreviews.com###_evh-ric
-trustedreviews.com###header > nav:style(position: absolute !important;)
-trustedreviews.com###header:style(position: absolute !important;)
+trustedreviews.com###header > nav:style(position: relative !important; top: 0 !important; margin-top: 0 !important;)
+trustedreviews.com###header:style(position: relative !important;)
 trustedreviews.com###wrapper:style(padding-top: 0 !important;)
 trustedreviews.com##.ad-hidden-tab.ad-hidden-mob
 trustedreviews.com##.advert
 trustedreviews.com##.ipc-advert
+trustedreviews.com##.jwplayer-wrapper:style(position: static !important;)
 trustedreviews.com##.menu-social-icons-container
 trustedreviews.com##.nav-social
 trustedreviews.com##.post-byline-inner:style(position: relative !important; top: 0 !important;)
@@ -15145,6 +15165,8 @@ whattoexpect.com###gptAd3
 whattoexpect.com###main-header:style(position: absolute !important;)
 whattoexpect.com###navbar:style(position: absolute !important;)
 whattoexpect.com##.wte-share
+whattomine.com##.centered-image-short
+whattomine.com##.navbar-fixed-top.navbar-expand-xs:style(position: absolute !important;)
 wheretraveler.com##.fade-on-bottom.article-bar
 wheretraveler.com##.navbar-header:style(position: absolute !important;)
 wheretraveler.com##.region-top-leaderboard
