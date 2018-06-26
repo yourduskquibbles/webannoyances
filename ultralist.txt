@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 2:04 PM 2018-06-26
+! Last Modified: 5:26 PM 2018-06-26
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -5703,8 +5703,10 @@ fiercetelecom.com###block-tektitegenericnewsletterblock
 fiercetelecom.com###block-tektitesocialshareblock
 fiercetelecom.com###header:style(position: relative !important; top: 0 !important;)
 fifa.com##.content-wrap:style(margin-top: 0 !important;)
+fifa.com##.fi-article__social-wrap
 fifa.com##.fi-back-to-top
 fifa.com##.fi-cookie-banner
+fifa.com##.fi-footer-link__social
 fifa.com##.fi-pageheader:style(position: relative !important; top: 0 !important; margin-bottom: 0 !important; box-shadow: none !important;)
 fifa.com##.fi-pageheader__title:style(display: block !important;)
 fifa.com##.fi-section-header:before:style(height: 100% !important; box-shadow: none !important;)
@@ -8003,6 +8005,7 @@ lancastereaglegazette.com##.site-header-inner-wrap-fixed:style(position: absolut
 lancastereaglegazette.com##.site-masthead-search-wrap:style(height: 80px !important;)
 lancastereaglegazette.com##.site-nav-item-hidden:style(display: table-cell !important; opacity: 1 !important; visibility: visible !important;)
 lancastereaglegazette.com##.site-nav-logo-link.site-nav-link:style(width: 0 !important;)
+lancasteronline.com###main-body-container:style(margin-top: 0 !important;)
 lancasteronline.com###site-navbar-container:style(position: relative !important; top: 0 !important;)
 lansingstatejournal.com##.first-margin:style(margin-top: 0 !important;)
 lansingstatejournal.com##.fixed.header:style(position: absolute !important; top: 0 !important;)
@@ -9074,11 +9077,12 @@ mozilla.org###site-welcome
 mozilla.org###toc:style(position: relative !important;)
 mozilla.org##.badge-wrapper:style(position: relative !important; top: 0 !important;)
 mozilla.org##.logo:style(transition: none !important;)
+mozilla.org##.moz-sub-nav:style(position: relative !important; top: 0 !important; box-shadow: none !important; transform: none !important;)
 mozilla.org##.nav-mozilla:style(transition: none !important;)
 mozilla.org##.page-top
 mozilla.org##.site-wrap:style(padding-top: 0 !important;)
 mozilla.org##.sticky-footer
-mozilla.org##.stuck.firefox.moz-sub-nav:style(position: relative !important; top: 0 !important;)
+mozilla.org##.sub-nav-download-wrapper:style(height: 0 !important; width: 0 !important;)
 mozilla.org##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 mozilla.org##header:style(position: relative !important;)
 mpix.com###cart-head:style(position: relative !important; top: 0 !important;)
@@ -11015,6 +11019,7 @@ propublica.org##.compact
 propublica.org##.content.masthead:style(position: relative !important;)
 propublica.org##.donate-links
 propublica.org##.email-nav
+propublica.org##.facebook
 propublica.org##.masthead > .section-nav:style(position: relative !important;)
 propublica.org##.module-follow.pp-module
 propublica.org##.newsletter
@@ -11387,6 +11392,8 @@ reddit.com##.ejLXgY.s1rdnkxq-4:style(margin-top: 20px !important;)
 reddit.com##.fWdlEy:style(position: relative !important;)
 reddit.com##.fWoCOj.s3u5zk-0:style(position: absolute !important;)
 reddit.com##.fixed.active.read-next
+reddit.com##.gFtNkX.s1x9jy1z-0
+reddit.com##.gVpNUy.s9xltci-0
 reddit.com##.gZyFXj:style(margin-top: 0 !important;)
 reddit.com##.ihPwni.l831nu-1:style(position: relative !important;)
 reddit.com##.inaQGx.ft1r9n-2:style(position: relative !important;)
@@ -12722,6 +12729,7 @@ teamtreehouse.com##nav:style(position: absolute !important;)
 teamviewer.com###navbar:style(position: absolute !important;)
 teamviewer.us###Action_bar:style(position: absolute !important;)
 teamviewer.us###Top_bar:style(position: absolute !important;)
+teamviewer.us###userlike-tab:style(position: absolute !important;)
 techbargains.com###tb-slide-nav:style(position: relative !important; top: 0 !important;)
 techcrunch.com##.ad-cluster-container
 techcrunch.com##.ad-unit
@@ -12741,6 +12749,8 @@ techgyd.com###sticky-header
 techgyd.com###text-100
 techinsider.io##.condensed.masthead:style(position: relative !important; top: 0 !important;)
 technet.microsoft.com###msccBanner
+technicpack.net###launcher:style(position: absolute !important;)
+technicpack.net##.navbar:style(position: absolute !important;)
 technobuffalo.com###top-primary-nav:style(position: relative !important; top: 0 !important;)
 technochops.com###nav:style(position: relative !important; top: 0 !important;)
 technochops.com###sgcboxContent
@@ -14598,7 +14608,7 @@ videoconferencingdaily.com###cta-box
 videoconferencingdaily.com##.td-affix.td-header-menu-wrap:style(position: relative !important; top: 0 !important;)
 videoconferencingdaily.com##.td-header-menu-wrap-full:style(position: relative !important; top: 0 !important;)
 videogamer.com##.margin-block.u-clearBoth
-videolan.org##.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important;)
+videolan.org##.navbar:style(position: absolute !important;)
 viewfind.com###fixed_social
 viewfind.com###vf_nav:style(position: relative !important; top: 0 !important;)
 viewfind.com##.main-header.container-fluid:style(position: relative !important; top: 0 !important;)
@@ -14621,6 +14631,7 @@ vimeo.com##.iris_portrait:style(visibility: visible !important;)
 vimeo.com##.is_mini.js-player-fullscreen.player_area:style(position: relative !important; top: 0 !important;)
 vimeo.com##.nav_bar.bar:style(position: relative !important; top: 0 !important;)
 vimeo.com##.sidedock
+vimeo.com##.topnav:style(position: relative !important; padding: 0 !important; background-color: transparent !important; box-shadow: none !important;)
 vimeo.com##.wrap_content:style(padding-top: 0 !important;)
 vindy.com###header:style(position: relative !important; top: 0 !important;)
 vindy.com###social_header
