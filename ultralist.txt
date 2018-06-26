@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:21 AM 2018-06-26
+! Last Modified: 11:05 AM 2018-06-26
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -159,6 +159,7 @@
 ###goTop
 ###go_top
 ###gotoTop
+###gotop
 ###gototop
 ###gp-to-top
 ###gs-social-follow
@@ -578,6 +579,7 @@
 ##.backToTopButton
 ##.backToTopContainer
 ##.back_to_top
+##.backtop
 ##.backtotop
 ##.bam-social
 ##.banner--cookies-policy
@@ -680,6 +682,7 @@
 ##.cookieInfo
 ##.cookie_banner
 ##.cookie_message
+##.cookie_notice
 ##.cookiebar
 ##.cookieconsent
 ##.cookieconsent-wrap
@@ -1282,6 +1285,7 @@
 ##.share-text
 ##.share-this
 ##.share-this-buttons
+##.share-this-mobile
 ##.share-this-top
 ##.share-this-wrapper
 ##.share-title
@@ -4381,6 +4385,7 @@ copenhagensuborbitals.com###donatebar
 copenhagensuborbitals.com##.header-top:style(margin-top: 0 !important;)
 copenhagensuborbitals.com##.navbar-scroll-point.hestia_left.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important;)
 cordcuttersnews.com###mrt-social
+cornell.edu###donate-toggle:style(position: relative !important; top: 0 !important;)
 coronacigar.com###modal-mailing-list
 coronacigar.com##.affix.navbar-inverse.navbar-static-top.navbar:style(position: absolute !important;)
 coronacigar.com##.modal-backdrop
@@ -5421,6 +5426,7 @@ etonline.com##.story__links
 etsy.com##.fixed:style(position: relative !important; top: 0 !important;)
 eurekalert.org##.hidden-search.hidden-print.toolbar
 eurochannel.com###news_warp
+eurogamer.net##.like-and-subscribe
 euronews.com###js-header-sticky:style(position: absolute !important;)
 euronews.com##.stick.jsArticleReadingWidget.media__article-reading:style(position: absolute !important;)
 europeantour.com###modalCookieContainer
@@ -5677,6 +5683,9 @@ fidelity.com##.fixed.scoreCardFloatingWrapper:style(position: relative !importan
 fidelity.com##.info-flyout-wrapper
 fidelity.com##.right-icons-bar
 fieldandstream.com##.main-header:style(position: relative !important; top: 0 !important;)
+fiercecable.com###content:style(padding-top: 0 !important;)
+fiercecable.com###header:style(position: relative !important; top: 0 !important;)
+fiercecable.com##body:style(margin-top: 0 !important;)
 fiercetelecom.com###block-tektitegenericnewsletterblock
 fiercetelecom.com###block-tektitesocialshareblock
 fiercetelecom.com###header:style(position: relative !important; top: 0 !important;)
@@ -5942,6 +5951,9 @@ fox13memphis.com###wrapper:style(padding-top: 0 !important;)
 fox13memphis.com##.fixed-desktop.wrap-portlets.pull-8.col-4
 fox13memphis.com##.toggle-slide
 fox13memphis.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
+fox13news.com###header:style(position: absolute !important;)
+fox13news.com##.mobile-progress
+fox13news.com##.mobile-up-next
 fox13now.com##.border-bottom
 fox13now.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute !important; top: 0 !important;)
 fox15abilene.com##.ad
@@ -6000,7 +6012,6 @@ fox8.com##.sticky-wrapper
 fox8live.com##.sticky.cdev-menu-nav:style(position: absolute !important;)
 fox8live.com##.story-feed
 foxbusiness.com##.radar-bar
-foxbusiness.com##.sidebars
 foxbusiness.com##.social
 foxeslovelemons.com##.slicknav_menu:style(position: relative !important; top: 0 !important;)
 foxla.com###header:style(position: absolute !important; top: 0 !important;)
@@ -10576,6 +10587,10 @@ people.com##.newsletter-signup
 people.com##.site-header--post.site-header:style(position: relative !important; top: 0 !important;)
 people.com##.svg__path--pinterest.svg__path
 perens.com##.site-navigation-fixed.navigation-top:style(position: absolute !important;)
+personalfinanceforbeginners.com###header-outer:style(position: absolute !important;)
+personalfinanceforbeginners.com###top:style(position: relative !important;)
+personalfinanceforbeginners.com##.container-wrap:style(padding-top: 0 !important;)
+personalfinanceforbeginners.com##.nectar-social-sharing-fixed
 peta.org##.js-smaller.logo
 peta.org##.sticky-banner:style(position: relative !important; top: 0 !important;)
 peta.org##.top-bar:style(position: relative !important; top: 0 !important;)
@@ -10593,6 +10608,9 @@ petsmart.com##._HP_promoModal__fadedScreen
 petsmart.com##._HP_promoModal__innerPopup
 petwantsdenversouthwest.com##.navbar:style(position: absolute !important;)
 pewresearch.org###js-user-survey-popup
+pewtrusts.org##.global-header__inner-wrapper:style(position: relative !important; top: 0 !important; height: 55px !important; padding: 0 !important; border-bottom-width: 1px !important; border-bottom-style: solid !important;) 
+pewtrusts.org##.page-toolbar__page-title
+pewtrusts.org##.page-toolbar__wrapper
 pexels.com##.navbar:style(position: absolute !important; background-color: transparent !important;)
 pexels.com##.navbar__title__anchor
 pexels.com##.pull-left.navbar__search
@@ -10963,6 +10981,7 @@ professor-excel.com###fixedheader:style(position: relative !important; top: 0 !i
 professor-excel.com##.fixed.fake-navbar
 professor-excel.com##.pum
 professor-excel.com##.pum-container
+progressivefrontier.com##.menu-social-menu-container
 project-syndicate.org##.commented.inline-comment
 project-syndicate.org##.header-component.small-mt-0:style(position: relative !important; top: 0 !important;)
 project-syndicate.org##.sticky__footer
@@ -12210,7 +12229,10 @@ spaceflight101.com###site-navigation:style(position: relative !important; top: 0
 spaceflightinsider.com###title:style(position: absolute !important;)
 spaceflightinsider.com###wrapper > label:style(position: absolute !important;)
 spaceintelreport.com###main-header:style(position: absolute !important;)
+spacenews.com###main-container:style(padding: 0 !important;)
+spacenews.com###navs-mobile:style(position: relative !important;)
 spacenews.com###navs:style(position: relative !important; top: 0 !important;)
+spacenews.com##.link-home:style(opacity: 1 !important; width: 60px !important;)
 spacesafetymagazine.com###st-launcher-tab
 spacetelescope.org###content:style(margin-top: 0 !important;)
 spacetelescope.org##.navbar-general-wrapper:style(position: relative !important;)
@@ -12498,6 +12520,8 @@ streamingonline.desi##.modal-backdrop
 streamja.com###header:style(position: absolute !important;)
 streamja.com##.middle:style(margin-top: 50px !important;)
 streamja.com##.noMiddle.inMiddle:style(margin-top: 0 !important;)
+streetartnews.net##.slicknav_menu:style(position: absolute !important;)
+streetartnews.net##.wpautbox-socials
 streetinsider.com###floating_footer
 streetinsider.com###nav:style(position: relative !important; top: 0 !important;)
 streetwise.co###center-flyin
@@ -12619,6 +12643,7 @@ tallahassee.com##.site-nav-logo-link.site-nav-link:style(width: 0 !important;)
 tampabay.com##.fs:style(position: relative !important;)
 tampabay.com##.min-height-45.amp-feature-wrapper:style(position: relative !important;)
 tampabay.com##.mobile-only.row
+tampabay.com##.story-share-container
 tampabay.com##body:style(padding-top: 0 !important;)
 tampermonkey.net##.ad-changelog-block
 tampermonkey.net##.ad-changelog2
@@ -12906,6 +12931,7 @@ thebaffler.com##.smaller.header
 thebaffler.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 thebalance.com###header_1-0:style(position: absolute !important;)
 thebalance.com##.header-condensed.header.comp:style(position: relative !important; top: 0 !important;)
+thebalancecareers.com###header_1-0:style(position: absolute !important;)
 thebaycitybeacon.com###site-navbar-container:style(position: relative !important;)
 thebenefitsguide.com###header-main:style(position: absolute !important;)
 thebenefitsguide.com##.m-popup-form
@@ -13484,6 +13510,8 @@ thescore.com##.slide-in__content
 thescore.com##.slide-in__toggle
 thescore.com##.visible-lg.visible-md.tablet-leaderboard
 thescoreesports.com##.Header__header--3jcoj:style(position: absolute !important; top: 0 !important;)
+thescottishsun.co.uk##.billboard
+thescottishsun.co.uk##.show.fixed.sun-header--nav.sun-row:style(position: relative !important;)
 theseasonedhome.com##.responsive-nav-wrapper:style(position: relative !important; top: 0 !important;)
 theshaderoom.com##.js-progress-bar.nav-sticky__progress-bar
 thesimpledollar.com##.js-masthead-wrapper.masthead-wrapper:style(position: absolute !important;)
@@ -14123,6 +14151,8 @@ turntouch.com###notification-bar:style(position: absolute !important; transform:
 turntouch.com##.sticky-header:style(position: absolute !important; transition: none !important;)
 tutanota.com##.navbar-fixed-top.navbar-bottom.navbar:style(position: relative !important; top: 0 !important;)
 tv.com##.header_bar.m:style(position: absolute !important; top: 0 !important;)
+tv3.ie##.navbar:style(position: absolute !important;)
+tv3.ie##.top_news_social
 tvaddons.co##.td-affix.td-header-main-menu.td-header-border.td-header-row:style(position: absolute !important;)
 tvguide.com###content-wrap:style(margin-top: 0 !important;)
 tvguide.com###header:style(position: relative !important; top: 0 !important;)
@@ -14713,6 +14743,7 @@ walmart.com##.is-fixed.fixie-header:style(position: relative !important; top: 0 
 walmart.com##.is-fixed.fixie:style(position: relative !important; top: 0 !important;)
 walmart.com##.prod-SocialIcons
 warhistoryonline.com###fader
+warhistoryonline.com##.inad
 warisboring.com##.js-metabar:style(position: absolute !important;)
 washingtoncitypaper.com##.variable-ad.super-leaderboard.advertisement
 washingtoncitypaper.com##body:style(padding-top: 0 !important;)
@@ -15266,6 +15297,7 @@ wisconsinrapidstribune.com##.site-nav-item-hidden:style(display: table-cell !imp
 wisconsinrapidstribune.com##.site-nav-logo-link.site-nav-link:style(width: 0 !important;)
 wisconsinwatch.org##.show.nav_overflow_label.sticky_nav_display.sticky-nav-holder:style(position: absolute !important;)
 wisetechlabs.com##.affix.header:style(position: absolute !important;)
+wishtv.com###site-header:style(position: absolute !important;)
 wisn.com##.ad-leaderboard
 wisn.com##.ad-rectangle
 wisn.com##.slim.header:style(position: relative !important; top: 0 !important;)
