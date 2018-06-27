@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 5:26 PM 2018-06-26
+! Last Modified: 8:39 PM 2018-06-26
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -2050,6 +2050,7 @@
 9to5mac.com##.site-header-placeholder
 @@||100percentfedup.com^$generichide
 @@||animezone.pl^$generichide
+@@||bigleaguepolitics.com^$generichide
 @@||c-span.org^$generichide
 @@||facebook.com/common/referer_frame.php$subdocument,domain=facebook.com
 @@||flyingmag.com^$generichide
@@ -3040,6 +3041,13 @@ bicycleretailer.com###brain-leader-slot
 bigballerbrand.com###dl-menu:style(position: relative !important; top: 0 !important;)
 bigballerbrand.com##.fancybox-opened.fancybox-type-inline.fancybox-mobile.fancybox-wrap
 bigballerbrand.com##.fancybox-overlay-fixed.fancybox-overlay
+bigleaguepolitics.com###mvp-main-nav-top:style(position: relative !important;)
+bigleaguepolitics.com##.essb_links
+bigleaguepolitics.com##.klicked-privacy-banner
+bigleaguepolitics.com##.modaal-wrapper
+bigleaguepolitics.com##.mvp-fixed:style(transform: none !important;)
+bigleaguepolitics.com##.mvp-fly-top
+bigleaguepolitics.com##.mvp-nav-soc-wrap
 bigstory.ap.org###message
 bigthink.com###most-popular-module:style(position: absolute !important;)
 bigthink.com##.fixed.header.contain-to-grid
@@ -3094,6 +3102,10 @@ bitshares.org##.navbar:style(position: absolute !important;)
 bitshouts.com###nav-topbar:style(position: absolute !important;)
 bitstamp.net###header:style(position: absolute !important;)
 bittrex.com###mainNav:style(position: absolute !important;)
+bittrex.com##.navbar-fixed-top:style(position: absolute !important; border: none !important; top: 0 !important;)
+bittrex.com##body .scroll-wrapper:style(height: auto !important; top: 0 !important;)
+bittrex.com##body::-webkit-scrollbar-thumb:style(background-color: #bbb !important;)
+bittrex.com##body::-webkit-scrollbar:style(width: 10px !important;)
 bizjournals.com###boundary-2__sticker-0 > .sm-only__expander.xs-only__expander
 bizjournals.com###tour-prompt.prompt.prompt--full-width
 bizjournals.com##.clearfix.infinite-links-chunk
@@ -6957,6 +6969,7 @@ hrw.org###header--sticky:style(position: relative !important;)
 hrw.org###header:style(position: relative !important;)
 hrw.org##.is-attached.clearfix.article-utilities--fixed.article-utilities
 hs.fi##.show-header.clearfix.secondary-header
+hsbc.com###CookieWrapper
 html-tidy.org##nav:style(position: absolute !important;)
 html5canvastutorials.com##header:style(position: absolute !important;)
 html5up.net###bar
@@ -7266,6 +7279,8 @@ infowars.com##.from-our-store
 infowars.com##.php_widget.widget.widget-odd.widget-first.widget-1
 infowars.com##.textsize
 infoworld.com###sticky-head:style(position: relative !important; top: 0 !important;)
+ingwb.com##.dialog
+ingwb.com##.glass
 inhabitat.com###header:style(position: relative !important; top: 0 !important;)
 inhabitat.com##.ibinject-container
 inhabitat.com##.ibnewsletter-wrapper
@@ -8007,6 +8022,7 @@ lancastereaglegazette.com##.site-nav-item-hidden:style(display: table-cell !impo
 lancastereaglegazette.com##.site-nav-logo-link.site-nav-link:style(width: 0 !important;)
 lancasteronline.com###main-body-container:style(margin-top: 0 !important;)
 lancasteronline.com###site-navbar-container:style(position: relative !important; top: 0 !important;)
+lancasteronline.com###tncms-region-article_instory_middle
 lansingstatejournal.com##.first-margin:style(margin-top: 0 !important;)
 lansingstatejournal.com##.fixed.header:style(position: absolute !important; top: 0 !important;)
 lansingstatejournal.com##.pluto-video-ready.playlistsmallattophtml5.gallery-video.story-video.js-ui-pluto-video.ui-pluto-video.js-ui-video-init:style(position: static !important;)
@@ -8395,6 +8411,7 @@ magento.com###nav-main:style(position: absolute !important;)
 magicleap.com###gNav:style(position: absolute !important;)
 magicleap.com##.eBPeJX.s15dwlnb-0:style(position: absolute !important;)
 magnifymoney.com###header:style(position: absolute !important;)
+magsformiles.com##.header:style(position: relative  !important;)
 mailbox.org##.stuck.hv4:style(position: absolute !important;)
 mailchi.mp###awesomebar:style(position: absolute !important;)
 mailchi.mp##.mcnShareContent
@@ -8477,6 +8494,7 @@ marcandangel.com###ck_overlay
 marcandangel.com##.sticky-message
 marcandangel.com##.widget-area.after-menu
 marclaidlaw.com##.default.page_header:style(position: relative !important; top: 0 !important;)
+marcus.com##.StickyNavigationModule__inner-row
 mardigras.com###adv_header:style(position: relative !important; top: 0 !important;)
 mardigras.com##.sticky-nav-hide:style(margin-top: 0 !important; transition: none !important;)
 mardigras.com##.sticky-nav-show.sticky-nav:style(position: relative !important; top: 0 !important; transition: none !important;)
@@ -11591,8 +11609,10 @@ rochester.edu##.top-scroll
 rockingpage.com##.uk-flex-space-between.uk-flex-middle.uk-flex.bg-grey.mg__header:style(position: absolute !important;)
 rockingpage.com##.uk-position-top-left.is--dark.mg__page-message:style(position: absolute !important;)
 rockstargames.com###headerRoot:style(position: absolute !important; top: 0 !important;)
+rollcall.com###logo_container:style(margin-top: 0 !important;)
 rollcall.com###nav:style(position: relative !important; top: 0 !important;)
 rollcall.com##.mainbody-subscribe
+rollcall.com##.right-rail:style(position: absolute !important;)
 rollingstone.com###content-card-footer
 rollingstone.com###header-bottom-hamburger
 rollingstone.com###termsNotice
@@ -12374,7 +12394,8 @@ sprigandsproutdc.com##.synved-social-container-follow.synved-social-container
 springboard.com##.button--withSvgIcon.button--withIcon.u-baseColor--buttonLight.is-touchIconBlackPulse.button--chromeless.button--light.button
 springboard.com##.js-metabar:style(position: absolute !important;)
 springer.com##.u-composite-layer.main-sidebar-right__content:style(position: absolute !important;)
-sprint.com##.layout-header:style(position: absolute !important;)
+sprint.com##.layout-header:style(position: absolute !important; transform: none !important;)
+sprint.com##html:style(overflow-x: hidden !important; overflow-y: auto !important;)
 sputniknews.com##.arrowup
 sputniknews.com##.b-header__nav-social
 sputniknews.com##.global-fade
@@ -12398,6 +12419,8 @@ stackoverflow.com##._fixed.js-top-bar.top-bar:style(position: absolute !importan
 stackoverflow.com##._scrolling._fixed.js-so-header.so-header:style(position: relative !important; top: 0 !important;)
 stackoverflow.com##._scrolling._fixed.js-top-bar.top-bar:style(position: absolute !important;)
 stackoverflow.com##.container:style(padding-top: 0 !important;)
+stackoverflow.com##.js-dismissable-hero
+stackoverflow.com##.js-sticky-leftnav.left-sidebar--sticky-container:style(position: absolute !important;)
 stadiumroofstatus.com##.footer
 stadiumroofstatus.com##.navbar:style(position: absolute !important;)
 stamps.com##.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important;)
@@ -12635,7 +12658,7 @@ syracuse.com##.sticky-nav:style(position: relative !important; top: 0 !important
 syracuse.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 syriahr.com##.main-menu:style(position: relative !important; top: 0 !important;)
 system76.com##.iframe-controls--desktop.tmblr-iframe--loaded.tmblr-iframe--unified-controls.tmblr-iframe
-t-mobile.com##.sticky.static.global-header:style(position: absolute !important;)
+t-mobile.com##.global-header:style(position: absolute !important; padding-bottom: 25px !important; background-color: #000 !important; box-shadow: none !important;)
 t-nation.com##.header.navbar-fixed-top.navbar:style(position: relative !important; top: 0 !important;)
 tabletmag.com##.logo:style(position: relative !important; top: 0 !important;)
 tabletmag.com##.menu-toggle.narrow-only:style(position: relative !important; top: 0 !important;)
@@ -14247,6 +14270,7 @@ uber.com##body:style(padding-top: 0 !important;)
 ubergizmo.com##.social_buttons_top_nav
 ubergizmo.com##.social_widget_table
 ubports.com###header-menu:style(position: absolute !important;)
+ubs.com###header:style(position: relative !important;)
 ubuntu-mate.community##.clearfix.d-header:style(position: absolute !important;)
 ubuntu.com##.clearfix.d-header:style(position: relative !important;)
 ucsc.edu##.scrolled.row.page-header:style(position: absolute !important;)
@@ -15444,6 +15468,9 @@ woodbarter.com###navigation:style(position: absolute !important;)
 woodtv.com###site-header:style(position: relative !important;)
 wootric.com##.olark-size-md.olark-launch-button:style(position: absolute !important;)
 wordfence.com###super-footer
+wordnik.com###sub-head
+wordnik.com##.header:style(position: absolute !important;)
+wordnik.com##.headerFixer:style(position: absolute !important;)
 wordpress.com###bit
 wordpress.com###masthead:style(position: absolute !important;)
 wordpress.com###wpadminbar:style(position: absolute !important;)
