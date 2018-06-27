@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 1:46 PM 2018-06-27
+! Last Modified: 2:30 PM 2018-06-27
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -106,6 +106,7 @@
 ###cookies-policy-wrapper
 ###cookies-politics
 ###cookiesInfo
+###cookies_popup_container
 ###cookiesdirective
 ###cookieswrapper
 ###cookiewarn
@@ -203,6 +204,7 @@
 ###mod-social-share-1
 ###mod-social-share-2
 ###mod-social-share-3
+###moove_gdpr_cookie_info_bar
 ###move-to-top
 ###moveToTop
 ###msg-cookie
@@ -229,6 +231,7 @@
 ###post_share
 ###pp_banner
 ###privacy-bar
+###privacy_policy
 ###questions_list
 ###reg-overlay
 ###responsive-back-to-top
@@ -461,6 +464,7 @@
 ##.Bigfoot-socialLinks
 ##.CookieBar
 ##.CookieMessage
+##.CookieWarning
 ##.CookiesBanner
 ##.Post-social
 ##.Post-social-container
@@ -2376,6 +2380,8 @@ alexaobrien.com##.follow.header-v1.stickynav-on.main:style(position: relative !i
 alexaobrien.com##.header-v1.stickynav-on.main:style(position: relative !important; top: 0 !important;)
 algolia.com###header:style(position: relative !important; top: 0 !important;)
 algolia.com##.closed
+algorithmia.com##.navbar:style(position: absolute !important;)
+alibaba.com##.sticky-areas
 aliexpress.com###auto-search:style(position: relative !important;)
 aliexpress.com###header:style(position: relative !important;)
 aliexpress.com###ms-header:style(position: absolute !important;)
@@ -2659,6 +2665,7 @@ architectural-review.com##body:style(padding-top: 0 !important; margin-top: 0 !i
 architecturaldigest.com##.component-site-header--sticky.component-site-header:style(position: relative !important; top: 0 !important;)
 architectureartdesigns.com###ubermenu-main-2-primary:style(position: absolute !important;)
 architectureartdesigns.com##.vertical.inset-counter.floated.flat.no-print
+archive.org###ToS:style(position: relative !important;)
 archive.org###wm-ipp > div:style(position: relative !important; top: 0 !important; padding-bottom: 10px !important;)
 archive.org##.iconochive-facebook
 archive.org##.iconochive-twitter
@@ -7276,8 +7283,9 @@ humaninterest.com###masthead:style(position: absolute !important;)
 humaninterest.com##.flash:style(position: absolute !important;)
 humblebundle.com##.js-maintain-scrollbar-on-dropdown.s-fixed.js-sticky-navbar.sticky-navbar
 humblebundle.com##.js-navigation-container-v2.navigation-container-v2:style(position: relative !important;)
-hunker.com###site-header:style(position: absolute !important;)
+hunker.com###site-header:style(position: absolute !important; opacity: 1 !important;)
 hunker.com##.email-capture-popup-wrapper--visible.email-capture-popup-wrapper
+hunker.com##.sticky-header
 hunker.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 hupu.com##.hupu-m-fixed.m-app-info
 hupu.com##.ui-page-tools
@@ -7314,6 +7322,7 @@ ibtimes.com##.sticky-bar.visible-desktop.show
 ibtimes.com##.sticky_social
 ibtimes.com##.stickyhead:style(position: relative !important; top: 0 !important;)
 ibtimes.com##body:style(padding-top: 0 !important;)
+icd10coded.com##.navbar:style(position: absolute !important;)
 icims.com###block-menu-menu-quick-nav:style(position: absolute !important;)
 icims.com##.page_header:style(position: absolute !important;)
 icims.com##.sticky-container:style(position: absolute !important;)
@@ -7377,6 +7386,7 @@ ikeahackers.net##.cb-menu-fw.cb-font-header.clearfix.cb-site-padding.cb-nav-bar-
 ilgiornale.it##.banner250.banner
 ilovefreesoftware.com##.sticky.has-logo.cf.navigation:style(position: absolute !important;)
 imagesocket.com##.navbar:style(position: relative !important;)
+imagetwist.com###header:style(position: absolute !important;)
 imausa.com###snppopup-exit
 imausa.com##.scrolled.scroll_header_top_area.fixed.page_header:style(position: relative !important; top: 0 !important;)
 imbibemagazine.com##.sticky.main-menu-fixed:style(position: relative !important; top: 0 !important;)
@@ -7726,6 +7736,7 @@ itsfoss.com###text-11:style(position: static !important; top: 0 !important;)
 itsfoss.com###text-11_clone
 itsfoss.com###text-3
 itsfoss.com###text-3_clone
+itsfoss.com##.CampaignType--floating.Campaign
 itsfoss.com##.atlanta-background
 itsfoss.com##.jacksonville-background
 itsfoss.com##.light.site-header:style(position: absolute !important;)
@@ -7734,6 +7745,7 @@ itsnicethat.com##.site-header-slice__fixer:style(position: relative !important; 
 itstillworks.com##.header:style(position: relative !important; top: 0 !important;)
 itsyourturnblog.com##.js-metabar:style(position: absolute !important;)
 itunescharts.net##.ad_responsive
+itworld.com###sticky-head:style(position: relative !important;)
 ivpn.net##.rocketchat-widget
 ivpn.net##header > .bg-white.tank:style(position: absolute !important; top: 0 !important;)
 iwaspoisoned.com###header:style(position: relative !important; top: 0 !important;)
@@ -8509,6 +8521,7 @@ likeaglove.me###sticky-navigation:style(position: absolute !important;)
 liliputing.com##.icons
 lineageos.org##.navbar-shadow.navbar-fixed-top.navbar-transparent.navbar:style(position: relative !important; top: 0 !important;)
 lineageos.org##.navbar-shadow.navbar-fixed-top.navbar-white.navbar:style(position: absolute !important; box-shadow: none !important;)
+lineageos.org##.navbar:style(position: absolute !important;)
 linkedin.com###atf-header:style(position: relative !important; top: 0 !important;)
 linkedin.com###core-nav:style(position: relative !important; top: 0 !important;)
 linkedin.com###extended-nav:style(position: relative !important; top: 0 !important;)
@@ -8971,6 +8984,7 @@ meadowlakewindfarm.com###edprBackNew:style(position: absolute !important;)
 meadowlakewindfarm.com###top-bar-new:style(position: absolute !important;)
 meaww.com##.meaww-header__main:style(position: relative !important; top: 0 !important;)
 mediaequalizer.com###header:style(position: relative !important; top: 0 !important;)
+mediafire.com###header:style(position: absolute !important;)
 mediaite.com###Mediaite_Mobile_MedRec_1
 mediaite.com###featured-posts-wrap:style(position: relative !important; top: 0 !important;)
 mediaite.com###featured-posts:style(position: relative !important; top: 0 !important;)
@@ -9572,6 +9586,7 @@ mycentraljersey.com##.site-nav-logo-link.site-nav-link:style(width: 0 !important
 mycentraljersey.com##html:style(overflow-x: hidden !important; overflow-y: auto !important;)
 mycentraljersey.com##nav-global:style(position: absolute !important;)
 mycentraljersey.com##util-sticky-module:style(position: absolute !important;)
+mydigitallife.net##.navbar:style(position: absolute !important;)
 mydomaine.com###page__header:style(position: absolute !important;)
 mydomaine.com##.button--social-image.icon--pinterest
 mydomaine.com##.nav-wrapper.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
@@ -11696,6 +11711,7 @@ rawstory.com##.story-page-embedded-ad
 raymond.cc###related_posts-3:style(position: static !important; top: 0 !important; transform: none !important;)
 raymond.cc###text-7
 raymond.cc##.q2w3-widget-clone-sidebar-1
+razer.com##nav:style(position: absolute !important;)
 razorpay.com###page-sidebar
 razorpay.com###tagbar:style(position: relative !important;)
 rbr.com##.td-more-articles-box
@@ -11923,6 +11939,7 @@ resonym.com##.scrolled.page_header.scrolled_not_transparent.fixed.light.scroll_h
 restonnow.com###search-navigation
 restonnow.com###top-bar:style(position: relative !important; top: 0 !important;)
 restoreprivacy.com##.site-header:style(position: absolute !important;)
+resurrectionremix.com##.navbar:style(position: absolute !important;)
 retailmenot.com###quick-feedback
 retailmenot.com##.code-cover
 retailmenot.com##.csat-survey-content
@@ -12077,6 +12094,7 @@ rottentomatoes.com##.clearfix.mob-nav-bottom
 royalcaribbean.com##.sticky.rccl-nav-main:style(position: absolute !important;)
 rp-online.de###topcontainer
 rp-online.de##.sticky.waypoint-check-top:style(position: absolute !important;)
+rpcs3.net##.menu-con-bar:style(position: absolute !important;)
 rpfront.com##.addtoany_shortcode
 rpiai.com##.floating-active.floating-header
 rsf.org###navbar:style(position: absolute !important; top: 0 !important;)
@@ -13962,6 +13980,7 @@ thenewsstar.com##.site-nav-logo-link.site-nav-link:style(width: 0 !important;)
 thenewsstar.com##html:style(overflow-x: hidden !important; overflow-y: auto !important;)
 thenewsstar.com##nav-global:style(position: absolute !important;)
 thenewsstar.com##util-sticky-module:style(position: absolute !important;)
+thenewstack.io##.nav-bar:style(position: relative !important; top: 0 !important;)
 thenextweb.com###nav:style(position: absolute !important; top: 0 !important;)
 thenextweb.com##.article-meta-wrapper
 thenextweb.com##.c-nav-logo > svg:style(transform: none !important; transition: none !important; top: 50% !important;)
