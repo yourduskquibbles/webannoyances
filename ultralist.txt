@@ -1,9 +1,17 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:29 AM 2018-06-29
+! Last Modified: 2018-06-29
 ! Title: Web Annoyances Ultralist
+! Discord: https://discord.me/yourduskquibbles
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
+! License: https://creativecommons.org/licenses/by-nc-sa/4.0/
+!
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
-
+! Works best with uBlock Origin or Nano Adblocker - be sure to install it as well!
+!
+!#include social/filters.txt
+!#include annoyance/filters.txt
+!#include annoyance/floating-elements/filters.txt
+!
 ! Start Web Annoyances Ultralist
 ###BackToTop
 ###Banner_cookie_1
