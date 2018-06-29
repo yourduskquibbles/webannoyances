@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 8:15 AM 2018-06-29
+! Last Modified: 8:36 AM 2018-06-29
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -3735,6 +3735,8 @@ c21nm.com###main-header:style(position: absolute !important;)
 c21nm.com###top-header:style(position: absolute !important;)
 c4isrnet.com###page-content > .js-pubsub-module.has-secondary-nav.layout-module.no-subscribe-now.generic-module
 c4isrnet.com##.sticky-chain-nav.attach:style(position: relative !important; top: 0 !important; width: 100% !important;)
+cake.co##.fixed-bar
+cake.co##.scroll-controls-container
 calcalistech.com###INDbtnWrap
 calcalistech.com##.fixed.art-action
 calgaryherald.com##.mobile-header.header-nav:style(position: relative !important; top: 0 !important;)
@@ -7865,6 +7867,7 @@ intezer.com###header:style(position: relative !important; top: 0 !important;)
 intezer.com###lsqtopbar_container:style(position: relative !important; top: 0 !important;)
 intezer.com###main-menu:style(position: relative !important; top: 0 !important;)
 intjvision.com###mini-mobile-scroll:style(position: relative !important; top: 0 !important;)
+intoli.com###sidebar-feature:style(position: absolute !important;)
 intoli.com##.affix.navbar-affixed-top:style(position: absolute !important;)
 intomore.com##.d-md-block.d-none.grindr-sharebuttons-wrapper
 intomore.com##.into-header-top
@@ -10403,7 +10406,7 @@ news.com.au###nav:style(position: relative !important; top: 0 !important;)
 news.com.au###network-bar:style(position: absolute !important;)
 news.com.au###sticky-ad
 news.com.au##.widget_newscorpau_ads.sidebar-right-hand-column.widget
-news.com.au##header:style(position: absolute !important;)
+news.com.au##header:style(position: absolute !important; transform: none !important; transition: none !important;)
 news.com.au##nav:style(position: absolute !important;)
 news.harvard.edu###inner-wrap:style(margin-top: 0 !important;)
 news.harvard.edu###nav:style(position: absolute !important; top: 0 !important; padding-top: 0 !important;)
@@ -10665,6 +10668,8 @@ nhregister.com###subHead:style(transform: none !important;)
 nhregister.com##.hearst-jwplayer-position:style(position: relative !important;)
 nhregister.com##.page-content:style(margin-top: 50px !important;)
 nhregister.com##.topnav:style(z-index: 999999 !important;)
+nianticlabs.com##.header:style(position: absolute !important; background-color: transparent !important; box-shadow: none !important; transition: none !important;)
+nianticlabs.com##.nl-cpb
 nickjanetakis.com##.navbar:style(position: absolute !important;)
 nicovideo.jp###siteHeader:style(position: absolute !important;)
 niezlomni.com###wi-topbar:style(position: relative !important;)
@@ -12482,6 +12487,7 @@ robots.com###searchIconImage
 rochester.edu##.top-scroll
 rockingpage.com##.uk-flex-space-between.uk-flex-middle.uk-flex.bg-grey.mg__header:style(position: absolute !important;)
 rockingpage.com##.uk-position-top-left.is--dark.mg__page-message:style(position: absolute !important;)
+rockpapershotgun.com##.social-buttons
 rockstargames.com###headerRoot:style(position: absolute !important; top: 0 !important;)
 rollcall.com###logo_container:style(margin-top: 0 !important;)
 rollcall.com###mainbody_content > p:nth-of-type(3):style(padding-top: 100px !important;)
@@ -13496,6 +13502,7 @@ stevenspointjournal.com##html:style(overflow-x: hidden !important; overflow-y: a
 stevenspointjournal.com##nav-global:style(position: absolute !important;)
 stevenspointjournal.com##util-sticky-module:style(position: absolute !important;)
 stgeorgeutah.com###email_popup
+stitchfix.com##.global-nav:style(position: absolute !important;)
 stjamesnews.com###article-storyStrip:style(position: relative !important; top: 0 !important;)
 stjamesnews.com###toprail:style(position: absolute !important;)
 stlouisfed.org###site-feedback-button:style(position: absolute !important;)
