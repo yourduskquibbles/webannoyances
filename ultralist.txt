@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:48 AM 2018-07-01
+! Last Modified: 8:50 AM 2018-07-01
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -507,6 +507,7 @@
 ##.adblock_panel
 ##.addthis
 ##.addthis-button
+##.addthis-single-wrap
 ##.addthis_button
 ##.addthis_button_expanded
 ##.addthis_button_facebook
@@ -3278,6 +3279,8 @@ blog.intercom.com##.run-less__nav:style(position: absolute !important;)
 blog.twitter.com##.b02-blog-post-no-masthead__share--icons
 blog.twitter.com##.theme-bg-color--dark.sticky.nav:style(position: absolute !important;)
 blogger.com##.header--sticky
+blogs.bing.com##.site-header-wrap:style(position: relative !important;)
+blogs.bing.com##.site:style(margin-top: 0 !important;)
 blogs.office.com##.f-wrap-items.c-group
 blogspot.ca###sidebar-top
 blogspot.ca##.followgooglewrapper
@@ -3309,6 +3312,7 @@ bloomberg.com##.navi:style(position: relative !important; top: 0 !important; tra
 bloomberg.com##.persist-nav.bb-nav-root
 bloomberg.com##.recirc.rotation-item:style(transition: none !important; transform: none !important; opacity: 1 !important; max-height: 2000px !important;)
 bloomberg.com##.rotation-item[current=false]:style(opacity: 1 !important; max-height: 2000px !important; transform: none !important;)
+bloomberg.com##.share-article-button
 bloomberg.com##.sticky-container:style(position: static !important; top: 0 !important;)
 bloomberg.com##.sticky-social-buttons
 bloomberg.com##.sticky-video:style(transition: none !important; transform: none !important;)
@@ -8671,6 +8675,7 @@ law.com###brand-nav:style(position: absolute !important;)
 law.com##.scrolled.major.main-nav-grey:style(position: absolute !important;)
 law.cornell.edu###cu-identity:style(position: relative !important; top: 0 !important;)
 law.cornell.edu###liiheader:style(position: relative !important; top: 0 !important;)
+law.georgetown.edu##.js-bound.nav_block.js-nav_block.js-toggle
 law360.com###FreeTrialModal
 law360.com##.modal-backdrop
 law360.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
@@ -9317,6 +9322,8 @@ mdmag.com##.topAdSpacer
 mdmag.com##.wrapperAD320x50L
 mdpi.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 mdsec.co.uk###site-header:style(position: absolute !important;)
+me.me##.navbar:style(position: absolute !important;)
+me.me##.stick.sticky.connected:style(position: absolute !important;)
 meadowlakewindfarm.com###edprBackNew:style(position: absolute !important;)
 meadowlakewindfarm.com###top-bar-new:style(position: absolute !important;)
 meaww.com##.meaww-header__main:style(position: relative !important; top: 0 !important;)
@@ -11030,6 +11037,7 @@ nytimes.com##.css-1i860sg:style(position: relative !important;)
 nytimes.com##.css-1plijz3
 nytimes.com##.css-1ragzwk
 nytimes.com##.css-eye0zj:style(margin-top: 0 !important;)
+nytimes.com##.css-ilfk4y > .css-y8aj3r
 nytimes.com##.css-kp204g
 nytimes.com##.d-fow-nav:style(position: relative !important; top: 0 !important;)
 nytimes.com##.e12j3pa50.css-1iv69x4
@@ -11682,6 +11690,8 @@ pogo.org###sticky
 pokeassistant.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 pokebattler.com###main-header:style(position: relative !important; top: 0 !important;)
 pokemongodb.net###rev-toaster
+policies.google.com##.n2nH3e:style(position: absolute !important;)
+policies.google.com##.nma0Wb:style(position: absolute !important;)
 political-revolution.com###header:style(position: relative !important; top: 0 !important;)
 political-revolution.com###site-header-main:style(position: absolute !important; top: 0 !important;)
 politicaldig.com###mvp-post-trend-wrap
@@ -12049,6 +12059,9 @@ quantcast.com###appNav:style(position: absolute !important;)
 queenbeetickets.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 queerty.com###masthead:style(position: relative !important; top: 0 !important;)
 queryxchange.com##.yamm.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important;)
+quickmeme.com###top-nav:style(position: absolute !important;)
+quickmeme.com##.post-info
+quickmeme.com##.sub-navbar:style(position: absolute !important;)
 quickslide-powerpoint.com###header-wrapper:style(position: absolute !important;)
 quillette.com###facebook-likebox-6
 quillette.com###text-3
@@ -12711,6 +12724,8 @@ savearescue.org###header:style(position: absolute !important;)
 saveur.com##.main-header:style(position: absolute !important;)
 savvytime.com##.navbar-fixed-top.sub-nav:style(position: absolute !important;)
 savvytime.com##.no-padding.header-shadow.header:style(position: absolute !important;)
+sayingimages.com###text-51
+sayingimages.com##.td-more-articles-box
 sbnation.com##.c-sports-blog-directory__item-social
 sbs.com.au##.flip-pane:style(transition: none !important;)
 sbs.com.au##.global-nav__context-title:style(display: none !important;)
@@ -13670,6 +13685,7 @@ superyachtworld.com###keystone-newsletter-2
 superyachtworld.com###navigation:style(position: relative !important; top: 0 !important;)
 supplyhouse.com###section-header-container:style(position: relative !important; top: 0 !important;)
 support.google.com###gb:style(position: absolute !important;)
+support.google.com##.nav-back-to-top:style(position: absolute !important;)
 support.google.com##header:style(position: relative !important; top: 0 !important; padding-bottom: 0 !important;)
 support.mozilla.org##.warning.announce-bar
 support.mozilla.org##body.scroll-header:style(padding-top: 0 !important;)
