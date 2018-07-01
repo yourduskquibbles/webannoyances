@@ -1,11 +1,10 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 8:40 PM 2018-06-30
+! Last Modified: 8:45 PM 2018-06-30
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
 
 ! Start Web Annoyances Ultralist
-! archdaily.com##.afd-nav__logo:style(opacity: 1 !important; visibility: visible !important; transform: none !important; transition: none !important;)
 ###BackToTop
 ###Banner_cookie_1
 ###CybotCookiebotDialog
@@ -4430,6 +4429,9 @@ coindesk.com##.wpsr-floatbar-float_left.wpsr-floatbar-white.wpsr-floatbar-movabl
 coindesk.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 coinmama.com###launcher:style(position: absolute !important;)
 coinmama.com##.navbar:style(position: absolute !important;)
+coinmarketcap.com##.fixed.dataTables_scrollHead:style(position: absolute !important;)
+coinmarketcap.com##.fixed_left:style(position: absolute !important;)
+coinmarketcap.com##section.margin-bottom--lv2:nth-of-type(2) > .row > div.col-xs-6:nth-of-type(2)
 coinmarketcap.com##th:style(position: relative !important;)
 coinsocial.io##.dpsp-networks-btns-wrapper
 coinsocial.io##.slidebottom.wpoi-show.inc_optin_2.inc_optin.wpoi-animate.inc_opt_popup
