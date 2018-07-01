@@ -1,10 +1,11 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 10:30 AM 2018-06-29
+! Last Modified: 8:40 PM 2018-06-30
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
 
 ! Start Web Annoyances Ultralist
+! archdaily.com##.afd-nav__logo:style(opacity: 1 !important; visibility: visible !important; transform: none !important; transition: none !important;)
 ###BackToTop
 ###Banner_cookie_1
 ###CybotCookiebotDialog
@@ -494,6 +495,7 @@
 ##.SocialShare
 ##.SocialSharing
 ##.__pw-counter-horizontal
+##._rmSocial
 ##.a-Pinit
 ##.a2a_kit
 ##.actnbr-has-follow
@@ -531,6 +533,7 @@
 ##.aol-share-block
 ##.aol-share-common
 ##.apss-social-share
+##.arrow-up
 ##.article-meta-social
 ##.article-meta-tools
 ##.article-newsletter-signup
@@ -2028,6 +2031,7 @@
 8bitdo.com###logo:style(position: relative !important; top: 0 !important;)
 8bitdo.com###nav:style(position: relative !important; top: 0 !important;)
 8bitdo.com##.headroom--pinned.headroom.navbar-fixed-top.main-nav:style(position: absolute !important; transition: none !important;)
+8ch.net##div.boardlist:nth-of-type(1):style(position: absolute !important;)
 8newsnow.com###klasSocial
 99bitcoins.com###wpfront-scroll-top-container
 99bitcoins.com##.sticky-nav.cf.navigation-wrap:style(position: absolute !important;)
@@ -2693,6 +2697,10 @@ ara.cat##.ara-header-sticky-blk-b:style(position: relative !important; top: 0 !i
 ara.cat##.ara-tracking-social-facebook
 ara.cat##.ara-tracking-social-twitter
 ara.cat##.cp-contentnav
+archdaily.com###js-afd-nav:style(position: relative !important; top: 0 !important;)
+archdaily.com##.afd-nav__list:style(transform: none !important;)
+archdaily.com##.afd-nav__logo
+archdaily.com##.kth-toast
 archiseek.com###wprmenu_bar:style(position: absolute !important;)
 archiseek.com##html:style(padding-top: 0 !important;)
 architectural-review.com###mainnav:style(position: relative !important;)
@@ -3984,6 +3992,8 @@ cert.org###custom-tweet-button
 certsimple.com##.article-nav:style(position: relative !important; top: 0 !important;)
 cgtn.com##.g-header:style(position: absolute !important; top: 0 !important;)
 cgtn.com##.header-follow-us
+chainninja.com###sidebar:style(position: absolute !important;)
+chainninja.com##.clearfix.fixed-top.header:style(position: absolute !important;)
 change.org###main-header-responsive:style(position: relative !important; top: 0 !important;)
 change.org##.bottom-bar-interrupt
 change.org##.js-mobile-action-button-container.visible-xs.position-fixed-bottom:style(position: relative !important;)
@@ -4424,6 +4434,7 @@ coinmarketcap.com##th:style(position: relative !important;)
 coinsocial.io##.dpsp-networks-btns-wrapper
 coinsocial.io##.slidebottom.wpoi-show.inc_optin_2.inc_optin.wpoi-animate.inc_opt_popup
 coinsocial.io##.wpoi-popup-overlay
+coinsquare.com##.fl-theme-builder-header-scrolled.fl-theme-builder-header-sticky:style(position: absolute !important;)
 coinstaker.com###main-header:style(position: absolute !important;)
 coinstaker.com###top-header:style(position: absolute !important;)
 coinstaker.com##.mfp-bg
@@ -5078,6 +5089,10 @@ dcist.com##.adv_box
 dcist.com##.main-item-footer
 dcunited.com###mls-global:style(position: absolute !important; top: 0 !important;)
 dcunited.com##.affix.nav_wrapper.region-navigation.region:style(position: absolute !important; top: 0 !important;)
+deadcoins.com##.fusion-header-sticky-height
+deadcoins.com##.fusion-header-wrapper:style(position: relative !important;)
+deadcoins.com##.fusion-secondary-header:style(position: relative !important;)
+deadcoins.com##.fusion-sticky-shadow.fusion-header:style(position: relative !important;)
 deadline.com###masthead-sticky-wrapper:style(position: relative !important; top: 0 !important;)
 deadline.com###masthead:style(position: relative !important; top: 0 !important;)
 deadline.com##.blogheader:style(position: relative !important; top: 0 !important;)
@@ -5405,10 +5420,14 @@ diynetwork.com##body:style(margin-top: 0 !important;)
 djcoregon.com###main-nav:style(position: relative !important;)
 dkn.tv###main-nav:style(position: relative !important;)
 dlive.io##.chatroom-right:style(position: absolute !important; top: 0 !important;)
-dlive.io##.navbar:style(position: absolute !important; top: 0 !important;)
+dlive.io##.navbar:style(position: relative !important; top: 0 !important;)
 dlive.io##.player-wrapper-desktop:style(margin-top: 0 !important;)
-dlive.io##.streamerInfo:style(height: auto !important;)
+dlive.io##.playerWrapper:style(margin-top: 0 !important;)
+dlive.io##html.has-navbar-fixed-top:style(padding-top: 0 !important;)
 dmagazine.com##.nav:style(position: absolute !important;)
+dna.land##.navbar-inverse:style(background-color: transparent !important;)
+dna.land##.navbar:style(position: absolute !important; transform: none !important; background-color: none !important;)
+dna.land##html:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 dnaindia.com###izmiddle-box
 dnaindia.com###scroller:style(position: relative !important;)
 dnaindia.com##.artlsocl
@@ -5681,6 +5700,8 @@ elpasotimes.com##util-sticky-module:style(position: absolute !important;)
 emailtester.de###header:style(position: absolute !important;)
 emailtester.de###leave-layer
 emailtester.de###menuslot:style(position: absolute !important;)
+emercoin.com###intercom-container
+emercoin.com##.up
 emphasisms.com##.is_stuck.dd-area:style(position: absolute !important;)
 employeefiduciary.com###blinder
 employeefiduciary.com###subscriberPopInner
@@ -5706,6 +5727,7 @@ engadget.com##.o-sticky_header\@tp-:style(position: relative !important;)
 engadget.com##.spotim-recirculation
 engadget.com##.ta-r\@tl\+.bc-white-10.pt-20\@tp-.pt-60.col-12-of-12\@tp-.col-3-of-5.grid__cell
 english.kyodonews.jp##footer
+ens.domains##.ezrjwbk0.css-lr4yh
 enterprisenews.com###article-storyStrip:style(position: relative !important; top: 0 !important;)
 enterprisenews.com###toprail:style(position: absolute !important;)
 entrepreneur.com###art-nav
@@ -6123,6 +6145,7 @@ finland.fi###masthead:style(position: absolute !important;)
 finnewsreview.com##.adsbygoogle
 finnewsreview.com##.customPopUp
 finnewsreview.com##.textwidget
+firehol.org##.navbar:style(position: absolute !important;)
 firehouse.com##.fixed-top.fixed.header:style(position: relative !important;)
 firstcoastnews.com##.ad
 firstcoastnews.com##.desktop-header__inner:style(padding: 25px 30px !important;)
@@ -6529,6 +6552,12 @@ ftw.usatoday.com##.meta
 ftw.usatoday.com##.sticky-wrapper.is-sticky+.nav:style(padding-top: 0 !important;)
 fubiz.net##.sticky.visible-xs.visible-sm.nav-fubiz.header-nav-mobile:style(position: relative !important; top: 0 !important;)
 fugue.co##.meta-blog__social
+funnyjunk.com###bottomNav
+funnyjunk.com###floating-bar-left:style(position: absolute !important; left: 0 !important; margin-top: 0 !important;)
+funnyjunk.com###floating-bar-right:style(position: absolute !important; left: 0 !important; margin-top: 0 !important;)
+funnyjunk.com##.bnavLinks:style(position: absolute !important;)
+funnyjunk.com##.fixed.m-inner
+funnyjunk.com##.m-inner:style(position: relative !important; left: 0 !important;)
 funnyordie.com###page-header:style(position: absolute !important;)
 funnyordie.com##.follow-links
 funnyordie.com##.mrec-container
@@ -6636,6 +6665,8 @@ geico.com###sidebar:style(position: absolute !important; padding-top: 100px !imp
 geico.com##.main-header:style(position: absolute !important; top: 0 !important;)
 geico.com##.oo_feedback_float:style(position: relative !important;)
 geico.com##.print-hide.main-header:style(position: absolute !important; top: 0 !important;)
+gemini.com###fixed-footer
+gemini.com##.headroom--pinned.headroom--not-top.headroom.bloginfo
 geneseorepublic.com###article-storyStrip:style(position: relative !important; top: 0 !important;)
 geneseorepublic.com###toprail:style(position: absolute !important;)
 genius.com##.article_header-inner > content-actions
@@ -6649,6 +6680,9 @@ gentlenursery.com##.fixed.nav-primary:style(position: absolute !important;)
 geopoliticalfutures.com##.modal-container
 getadblock.com##.js-metabar:style(position: absolute !important;)
 getconnected.southwestwifi.com###cepgad
+getmonero.org##.topnav:style(position: relative !important;  margin-top: 58px !important;))
+getmonero.org##cloudflare-app:style(position: absolute !important;)
+getmonero.org##html:style(top: 0 !important;)
 getpocket.com###related_topics
 getpocket.com##.portal-header:style(position: absolute !important;)
 getshimmer.co###s-nav:style(position: absolute !important;)
@@ -7926,6 +7960,8 @@ investors.com##.player-minimize.shortcode-video:style(position: static !importan
 investors.com##.text-center.leaderboard-ad.pushdown-ad.site-header-ad.ads
 investsnips.com###main-header:style(position: absolute !important;)
 iost.io##.navbar:style(position: absolute !important;)
+iota.org##.js-metabar:style(position: absolute !important;)
+iota.org##.js-stickyFooter
 ipaddress.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 ipdata.co##.topbar-sticky.topbar-expand-sm.topbar:style(position: absolute !important;)
 ipfs.io##.clearfix.d-header:style(position: absolute !important;)
@@ -8219,7 +8255,6 @@ kens5.com##.progress
 kens5.com##.video__inner:style(position: static !important;)
 kentucky.com###newsletter-signUpWidget
 kentucky.com###story-cta-widget
-kentucky.com##._rmSocial
 kentuckysportsradio.com###pwksrm-header:style(position: absolute !important;)
 kentuckysportsradio.com##.social4i
 kerbalspaceprogram.com###wmpci-popup-wrp
@@ -8846,6 +8881,8 @@ littlethings.com##.collapsed.site-header:style(position: relative !important; to
 livebooks.com##.navbar-custom:style(height: 89px !important; background-color: transparent !important; transition: none !important;)
 livebooks.com##.navbar:style(position: absolute !important;)
 livebooks.com##.scrolled.filters:style(position: static !important;)
+livecoinwatch.com###newsSticky
+livecoinwatch.com##.fixedHeader-floating
 livecoinwatch.com##.td-affix.td-header-gradient.td-header-menu-wrap:style(position: absolute !important;)
 liveleak.com##.liveleak_on_facebook_outer
 liveleak.com##.navbar-fixed-top:style(position: absolute !important;)
@@ -9614,6 +9651,7 @@ modernreaders.com###sidebar
 modernreaders.com##.adsbygoogle
 modernreaders.com##.code-block-1.code-block
 modernreaders.com##.textwidget
+moderntld.com##.navbar-fixed nav:style(position: absolute !important;)
 molawyersmedia.com###main-nav:style(position: relative !important;)
 mom.me###site-header:style(position: relative !important; top: 0 !important;)
 momjunction.com###mainNav:style(position: absolute !important;)
@@ -9636,6 +9674,7 @@ mondotees.com##.hdr-search.icon-search:style(position: absolute!important;)
 mondotees.com##.hdr-utility:style(position: absolute !important; top: 0 !important;)
 mondotees.com##.nav-bar:style(position: absolute !important; top: 0 !important;)
 mondotees.com##.nav-panel:style(position: absolute !important; top: 0 !important;)
+monero.how###mytopnavbar:style(position: relative !important;)
 monerov.org###header-wrapper:style(position: absolute !important;)
 money.cnn.com###js-sharebar-floater
 money.cnn.com##._2dc7d020
@@ -9772,6 +9811,7 @@ mozilla.org###site-welcome
 mozilla.org###toc:style(position: relative !important;)
 mozilla.org##.badge-wrapper:style(position: relative !important; top: 0 !important;)
 mozilla.org##.logo:style(transition: none !important;)
+mozilla.org##.moz-sub-nav:style(box-shadow: none !important; transform: none !important;)
 mozilla.org##.moz-sub-nav:style(position: relative !important; top: 0 !important; box-shadow: none !important; transform: none !important;)
 mozilla.org##.nav-mozilla:style(transition: none !important;)
 mozilla.org##.page-top
@@ -9996,6 +10036,9 @@ nafnafgrill.com###header:style(position: absolute !important;)
 nakedcapitalism.com###dynamic-to-top
 nakedcapitalism.com##.nc-fl-right.nc-inline.subscribe-follow
 namecheap.com###masthead:style(position: relative !important; top: 0 !important;)
+namecoin.org##.navbar:style(position: absolute !important;)
+namepros.com###navigation:style(position: relative  !important;)
+namepros.com##.bottomFixer
 naplesnews.com###sticky:style(position: absolute !important;)
 naplesnews.com##.first-margin:style(margin-top: 0 !important;)
 naplesnews.com##.fixed.header:style(position: absolute !important; top: 0 !important;)
@@ -11066,6 +11109,7 @@ ocweekly.com##.sideSlide
 ocweekly.com##.sticky-bar.masthead:style(position: relative !important; top: 0 !important;)
 oddshot.tv##.Notification
 ofdollarsanddata.com##.js-metabar:style(position: absolute !important;)
+offcloud.com##.persistant-menu
 offers.com###header:style(position: relative !important; top: 0 !important;)
 offers.com###modal-overlay
 offers.com###privacy-policy-updated
@@ -11117,6 +11161,7 @@ openculture.com##.advertisement_notice
 openculture.com##.closing-social
 openelec.tv###ca_banner
 opengarden.com##.birdseye-header:style(position: absolute !important;)
+opennic.org##.navbar-fixed nav:style(position: absolute !important;)
 opensignal.com##.is-scrolled.is-sticky.js-dropdown-opened.js-header.js-sticky-bar.c-header:style(position: absolute !important;)
 openstreetmap.org##.welcome
 opentable.com##.navbar--fixed.navbar:style(position: relative !important; top: 0 !important;)
@@ -13352,6 +13397,7 @@ ssa.gov###js-btt
 ssense.com##.hard-acc.header:style(position: relative !important; top: 0 !important;)
 ssense.com##.opaque-header.header:style(position: absolute !important;)
 ssusa.org##.device-fixed-height.hidden-print.explore.HeaderPartial:style(position: relative !important; top: 0 !important;)
+stackedit.io##.navigation-bar:style(position: absolute !important;)
 stackexchange.com##._open.app-banner
 stackfield.com###DivTopBar:style(position: relative !important; top: 0 !important;)
 stackoverflow.blog###masthead:style(position: absolute !important;)
@@ -15218,6 +15264,9 @@ travelchannel.com##body:style(margin-top: 0 !important;)
 travelchinaguide.com##.mobile_menu_v2:style(position: absolute !important; top: 0 !important;)
 travelskills.com##.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
 travelzoo.com###signupOverlay
+traversecity.com##.footer-scroll-container
+traversecity.com##.miniHeader
+traversecity.com##.seasonsWrapper:style(top: 0 !important;)
 treato.com###modal-bg
 treato.com##.fixed-banner.banner-sticky-toolbar-wrap:style(position: absolute !important;)
 treato.com##.fixed-widget.active.left-widget-inner:style(position: relative !important;)
@@ -15634,11 +15683,14 @@ usmagazine.com##.module-reading-list-mobile-cta:style(position: relative !import
 usmagazine.com##.module-social-sharing
 usmagazine.com##body:style(padding-top: 0 !important;)
 usnews.com###toggle-social-byline
+usnews.com###zm_survey-prompt
 usnews.com##.AdhBase__Wrapper-rea3rt-0
+usnews.com##.AdhesionAd__Wrap-s174czm-0
 usnews.com##.block-loosest-for-medium-up
 usnews.com##.border.flex-ungrid.flex-row
 usnews.com##.box.bar-toolbar5:style(position: relative !important; top: 0 !important;)
 usnews.com##.dxiCCh
+usnews.com##.hKuQwZ.jpvx17-0-Box-cwadsP
 usnews.com##.header-banner-section-social
 usnews.com##.ivbeTY
 usnews.com##.rail-sticky
@@ -16744,7 +16796,6 @@ wsbtv.com###header:style(position: relative !important;)
 wsbtv.com###main:style(padding-top: 0 !important; margin-top: 0 !important;)
 wsbtv.com###story-sticky-content:style(position: relative !important; top: 0 !important;)
 wsbtv.com###wrapper:style(padding-top: 0 !important;)
-wsbtv.com##._rmSocial
 wsbtv.com##.toggle-slide
 wsj.com###article_tools
 wsj.com###expNav
