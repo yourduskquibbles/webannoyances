@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 8:50 AM 2018-07-01
+! Last Modified: 10:19 AM 2018-07-01
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -871,6 +871,7 @@
 ##.gdpr-notice-dialog
 ##.gdpr-notice-dialog-overlay
 ##.gdpr-privacy-bar
+##.generate-back-to-top
 ##.get-the-app
 ##.get-the-app-link
 ##.gig-bar-container
@@ -2433,6 +2434,8 @@ all-that-is-interesting.com##.leaderboard
 all-that-is-interesting.com##.main-nav:style(position: absolute !important;)
 all-that-is-interesting.com##.pbh_inline
 allaboutbirds.org###header-wrapper:style(position: relative !important; top: 0 !important;)
+allacronyms.com##.navbar:style(position: absolute !important; top: 0 !important;)
+allacronyms.com##html:style(margin-top: 0 !important;)
 allenbwest.com##.c-header__menu-wrapper:style(position: relative !important; top: 0 !important;)
 allergicliving.com##.spu-bg
 allergicliving.com##.spu-box
@@ -4736,6 +4739,7 @@ courierpress.com##.site-nav-logo-link.site-nav-link:style(width: 0 !important;)
 courierpress.com##html:style(overflow-x: hidden !important; overflow-y: auto !important;)
 courierpress.com##nav-global:style(position: absolute !important;)
 courierpress.com##util-sticky-module:style(position: absolute !important;)
+coverva.org##.fixed:style(position: absolute !important;)
 cpbj.com##.flyout-ad.flyout
 cpj.org##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 cracked.com###header:style(position: absolute !important;)
@@ -5568,6 +5572,12 @@ earthnetworks.com##.header-inner:style(position: absolute !important; top: 0 !im
 earthsky.org###PopupSignupForm_0
 earthsky.org##.header:style(position: absolute !important; top: 0 !important;)
 earthtouchnews.com###header:style(position: absolute !important;)
+eastbaytimes.com##.connext-modal-backdrop
+eastbaytimes.com##.modal-scrollable
+eastbaytimes.com##.sd-sharing-enabled.sharedaddy
+eastbaytimes.com##.sign-up-follow
+eastbaytimes.com##.site-header.headroom--not-top:style(position: absolute !important;)
+eastbaytimes.com##html:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 eastidahonews.com##.jDialog.fa-stack
 eastpeoriatimescourier.com###article-storyStrip:style(position: relative !important; top: 0 !important;)
 eastpeoriatimescourier.com###toprail:style(position: absolute !important;)
@@ -6365,6 +6375,9 @@ fortune.com##.media.subscribe-callout.component
 fortune.com##.newsletter-callout.component
 fortune.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 forums.androidcentral.com###header:style(position: relative !important; top: 0 !important;)
+forums.sifive.com###topic-progress-wrapper
+forums.sifive.com##.clearfix.d-header:style(position: absolute !important;)
+forums.sifive.com##.timeline-container:style(position: absolute !important;)
 forums.xfinity.com##.lia-panel-dialog-modal-simple
 forward.com##.blog-sidebar
 forward.com##.slide-down.nocontent.header-sticky-container:style(position: absolute !important;)
@@ -6600,6 +6613,7 @@ galoremag.com##.modal
 galvanews.com###article-storyStrip:style(position: relative !important; top: 0 !important;)
 galvanews.com###toprail:style(position: absolute !important;)
 galvnews.com###site-navbar-container:style(position: relative !important; top: 0 !important;)
+gameinfo.io###iv-link:style(position: absolute !important;)
 gameinformer.com##.top-bar:style(position: absolute !important;)
 gamepress.gg###block-appmobilemenu
 gamepress.gg###block-footerad
@@ -7422,6 +7436,8 @@ homedepot.com###menuScrollInnerWrapper:style(position: relative !important; top:
 homedepot.com##.widgetEmailPrintTable
 homeownershub.com##.navbar-custom.logo.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important;)
 honda.com##header:style(position: absolute !important;)
+honest-food.net###genesis-mobile-nav-primary:style(position: absolute !important;)
+honest-food.net##.mobile-scrolled.header-widget-left
 honesttea.com###NEWFooter_new
 honesttopaws.com##.header-float:style(position: relative !important; top: 0 !important;)
 honesttopaws.com##body:style(margin-top: 0 !important;)
@@ -7682,6 +7698,10 @@ imgur.com##.post-header:style(position: relative !important; top: 0 !important;)
 imgur.com##.right.viewInAppLink
 imgur.com##.take-me-up.box
 imgur.com##.transition.icon-arrow-right.nextItem.contextOverlay
+imore.com##.adunit-wrap
+imore.com##.article-body table th:style(position: relative !important; top: 0 !important;)
+imore.com##.header-top-inner:style(position: absolute !important;)
+imore.com##.share
 impactbnd.com##.fade.fade--load.blog--scroll--item
 impactbnd.com##.header--sub--topics.header--sub:style(position: absolute !important;)
 implbits.com##.navbar-fixed-top.navbar-inverse:style(position: relative !important; top: 0 !important;)
@@ -7804,7 +7824,7 @@ infantino.com###newsletterModal
 infantino.com##.fixedbar.stuck-nav:style(position: absolute !important;)
 infantino.com##.modal-backdrop
 infantino.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
-infiniteprivacy.com##.navbar-wrap:style(position:  !important;)
+infiniteprivacy.com##.navbar-wrap:style(position: absolute !important;)
 inforcecomputing.com##.contactscroll
 inforcecomputing.com##.header-container:style(position: absolute !important;)
 informer.com##.notify
@@ -8176,6 +8196,7 @@ kadavy.net##nav
 kaggle.com##.competition-overview__nav-wrapper:style(position: relative !important; top: 0 !important;)
 kaggle.com##.pageheader__sticky--stuck.pageheader__sticky:style(position: absolute !important;)
 kaggle.com##.site-header-react__cookies-notice-desktop
+kaggle.com##.site-header-react__cookies-notice-mobile
 kagstv.com##.ad
 kagstv.com##.desktop-header__inner:style(padding: 25px 30px !important;)
 kagstv.com##.desktop-header__logo:style(top: 30px !important; left: 175px !important;)
@@ -10792,7 +10813,9 @@ nootrobox.com##.article__sidebar__container
 nootrobox.com##.navbar-fixed-top.navbar
 nordbayern.de##header:style(position: relative !important; top: 0 !important;)
 nordstrom.com###rfx-main-header:style(position: relative !important; top: 0 !important;)
+nordstrom.com##.Z2lyN7e.Z1E0VGc
 nordstrom.com##.iA20W._1YWTkD.medium_jDd9A.brandon_Z18sClN.dark_Z19mnhH
+nordstrom.com##.peekabooElementFixed_Z2d2NJd:style(position: absolute !important;)
 nordstrom.com##.rfx_2Hle-.rfx_OOTKW.rfx_25d6c.rfx_QDHp6.rfx_gS72H.rfx_1rJbt:style(position: relative !important;)
 nordvpn.com##.modal
 nordvpn.com##.modal-backdrop
@@ -11690,6 +11713,8 @@ pogo.org###sticky
 pokeassistant.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 pokebattler.com###main-header:style(position: relative !important; top: 0 !important;)
 pokemongodb.net###rev-toaster
+pokemongohub.net##.advertisement
+pokemongohub.net##html:style(overflow-x: hidden !important; overflow-y: auto !important;)
 policies.google.com##.n2nH3e:style(position: absolute !important;)
 policies.google.com##.nma0Wb:style(position: absolute !important;)
 political-revolution.com###header:style(position: relative !important; top: 0 !important;)
@@ -11950,6 +11975,7 @@ propublica.org##.promotion
 propublica.org##.titles:style(padding-top: 0 !important;)
 propublica.org##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 propublica.org##header:style(position: relative !important; top: 0 !important;)
+prosoccerusa.com###mvp-top-head-wrap:style(position: absolute !important;)
 prospect.org###ad-top
 prospect.org###buttons
 prospect.org###header:style(position: relative !important; top: 0 !important;)
@@ -12150,6 +12176,7 @@ ramw.org###top_section:style(position: relative !important; top: 0 !important;)
 rand.org###header:style(position: absolute !important;)
 rankedboost.com###header:style(position: absolute !important;)
 rankedboost.com##.bttt-active
+rankedboost.com##html:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 ranker.com###commonHead:style(position: absolute !important;)
 ranker.com##.footNav__group--social.footNav__group.lowercase
 rapidcityjournal.com###main-body-container:style(margin-top: 20px !important;)
@@ -16265,6 +16292,7 @@ wcnc.com##.video__inner:style(position: static !important;)
 wcpo.com###header:style(position: relative !important; top: 0 !important;)
 wcsh6.com##.asset-inline-share-tools-bottom.asset-inline-share-tools.inline-share-tools
 wcsh6.com##.is_stuck.site-nav:style(position: relative !important; top: 0 !important;)
+wcvb.com##.header:style(position: relative !important; top: 0 !important;)
 wcvb.com##.slim.header:style(position: relative !important; top: 0 !important;)
 wcyb.com###header:style(position: relative !important; top: 0 !important;)
 wd.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
@@ -16595,6 +16623,7 @@ wired.com###blog-follow-wrapper
 wired.com###global-header:style(position: relative !important; top: 0 !important;)
 wired.com###logo-bar:style(position: relative !important; top: 0 !important;)
 wired.com###mobile-share
+wired.com###paywall-growler
 wired.com###related
 wired.com###sharing
 wired.com###sidebar-wrap
