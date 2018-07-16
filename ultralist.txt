@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 8:48 AM 2018-07-16
+! Last Modified: 11:12 AM 2018-07-16
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -1892,6 +1892,10 @@
 10news.com###header:style(position: relative !important; top: 0 !important;)
 10news.com##.layout--share__second
 10news.com##.module--multi-top__container.container--ad.container
+10tv.com###page-content:style(overflow: unset !important; top: 0 !important;)
+10tv.com###wrapper:style(overflow-x: hidden !important; overflow-y: scroll !important;)
+10tv.com##.headroom--pinned.headroom--not-top.headroom.weather-bar__wrapper.gray-bg:style(position: relative !important;)
+10tv.com##.navbar-wrapper:style(position: relative !important;)
 10tv.com##.uawn-opt-in-prompt
 11alive.com##.ad
 11alive.com##.desktop-header__inner:style(padding: 25px 30px !important;)
@@ -2373,6 +2377,7 @@ airspacemag.com##.is-sticky.sticky-block
 ajc.com###follow-this-story
 ajc.com###fts
 ajc.com###main-nav:style(position: absolute !important;)
+ajc.com##.header-container:style(position: absolute !important;)
 ajc.com##.header-wrapper:style(position: relative !important;)
 ajc.com##.hidden-md-down.footer-wrapper
 ajc.com##.hidden-md-down.sub-header-nav:style(position: absolute !important;)
@@ -3504,6 +3509,7 @@ bozemandailychronicle.com###blox-message-incompatible
 bozemandailychronicle.com###main-body-container:style(margin-top: 0 !important;)
 bozemandailychronicle.com###site-navbar-container:style(position: relative !important;)
 bpimedia.com###header-wrap:style(position: absolute !important;)
+bps.org.uk##.mc-banner
 bps.org.uk##.mc-modal
 bps.org.uk##.mc-modal-bg
 bradenton.com###newsletter-signUpWidget
@@ -3842,6 +3848,7 @@ carmitimes.com###article-storyStrip:style(position: relative !important; top: 0 
 carmitimes.com###toprail:style(position: absolute !important;)
 cars.com##.sticky-header:style(position: relative !important; top: 0 !important;)
 carsforsale.com###footer-search
+cartalk.com##.clearfix.d-header:style(position: relative !important;)
 cartelblog.com##.sfsi_FrntInner_chg
 carthagepress.com###article-storyStrip:style(position: relative !important; top: 0 !important;)
 carthagepress.com###toprail:style(position: absolute !important;)
@@ -4161,6 +4168,7 @@ christianpost.com###bio_ep
 christianpost.com###msgForm
 christianpost.com##.js-is-sticky.site-nav:style(position: relative !important; top: 0 !important;)
 christianpost.com##.site-header-sticky.site-header-inner:style(position: absolute !important; top: 0 !important;)
+christianpost.com##.sticky-element.site-nav:style(position: relative !important;)
 christophniemann.com##.page_header:style(position: absolute !important; top: 0 !important;)
 christophniemann.com##.page_nav_toggle_open.page_nav_toggle:style(position: absolute !important; top: 0 !important;)
 chrome.google.com##.X-e-x:style(position: relative !important; top: 0 !important;)
@@ -4846,6 +4854,12 @@ cryptodisrupt.com##.wph-modal
 cryptodisrupt.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 cryptomator.org##.d-header:style(position: absolute !important;)
 cryptomator.org##.navbar:style(position: absolute !important;)
+cryptoslate.com###bot-mobile-nav:style(position: relative !important;)
+cryptoslate.com###header:style(position: relative !important;)
+cryptoslate.com###sticky-footer
+cryptoslate.com###terms-and-conditions-banner
+cryptoslate.com###top-nav:style(display: block !important;)
+cryptoslate.com##body:style(padding-top: 0 !important;)
 cryptovest.com##.mainNav:style(position: relative !important; box-shadow: none !important; border: none !important;)
 csindy.com###NavigationHorizontal:style(position: relative !important; top: 0 !important;)
 csindy.com###TallBar
@@ -5380,6 +5394,7 @@ digibyte.io##.header-main:style(position: relative !important;)
 digicert.com###masthead:style(position: relative !important; top: 0 !important;)
 digicert.com##.circleRollButton
 digicert.com##.header-offset:style(margin-top: 0 !important;)
+digicert.com##.meanmenu-reveal:style(position: absolute !important;)
 digicert.com##html:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 digiconomist.net###Social-Sidebar
 digiday.com###global-nav:style(position: relative !important; top: 0 !important;)
@@ -5437,7 +5452,9 @@ discover.com##header:style(position: relative !important;)
 discovermagazine.com###wp-popup-2289690
 discovermagazine.com##.basement
 discovermagazine.com##.wp_popup_overlay
+discovery.com###app-banner-container
 discovery.com##.shared__scrolled.headerMain__main:style(position: relative !important; top: 0 !important;)
+discovery.com##.shared__scrolled.headerShow__main:style(position: absolute !important;)
 dishragmag.com##.yui3-widget
 dispatch.com###article-storyStrip:style(position: relative !important; top: 0 !important;)
 dispatch.com###toprail:style(position: absolute !important;)
@@ -6375,6 +6392,7 @@ footwearnews.com##.l-header:style(position: relative !important; top: 0 !importa
 foragerfunds.com###nav:style(position: absolute !important;)
 foragerfunds.com###subscribe-report-block
 foragerfunds.com##.subscribe-wrap
+forbes.com###top:style(position: absolute !important;)
 forbes.com##.article-sidebar:style(padding: 0 !important;)
 forbes.com##.beta-bar-gallery.beta-bar
 forbes.com##.collapsed-header:style(position: absolute !important;)
@@ -6498,6 +6516,7 @@ fox46charlotte.com##.show-for-large-up.mod-story-progress.mod-accordion.mod-wrap
 fox46charlotte.com##.small-12.column.portlet-column
 fox59.com##.entry-share
 fox59.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important;)
+fox5atlanta.com###header:style(position: absolute !important;)
 fox5dc.com###header:style(position: relative !important; top: 0 !important;)
 fox5dc.com###story-sticky-content:style(position: relative !important; top: 0 !important;)
 fox5dc.com###wrapper:style(padding-top: 0 !important;)
@@ -7803,11 +7822,11 @@ indeonline.com###toprail:style(position: absolute !important;)
 independent.co.uk###dynamic-header>a>li:style(top: 0 !important; transition: none !important;)
 independent.co.uk###masthead:style(position: relative !important; top: 0 !important;)
 independent.co.uk###side
-independent.co.uk##.adblock-confirm.adblock-modal
-independent.co.uk##.adblock.adblock-modal
+independent.co.uk##.adblock-modal
 independent.co.uk##.column-2
 independent.co.uk##.email-signpost
 independent.co.uk##.follow
+independent.co.uk##.hero-wrapper:style(position: static !important;)
 independent.co.uk##.sticky.video-popout-wrap:style(position: static !important;)
 independent.co.uk##body:style(padding-top: 0 !important;)
 independent.ie##.google
@@ -9129,6 +9148,7 @@ m.espn.com##.inline-header:style(padding-top: 50px !important;)
 m.facebook.com###header-notices
 m.facebook.com##._5tel
 m.gulfnews.com##.sticky.not-sticky.tab-bar
+m.huffingtonpost.ca###bottom-nav
 m.huffingtonpost.co.uk###bottom-nav
 m.huffpost.com##.header-container:style(position: absolute !important; transition: none !important;)
 m.imgur.com##.FloatingOIA
@@ -9667,7 +9687,8 @@ milfordbeacon.com###article-storyStrip:style(position: relative !important; top:
 milfordbeacon.com###toprail:style(position: absolute !important;)
 milforddailynews.com###article-storyStrip:style(position: relative !important; top: 0 !important;)
 milforddailynews.com###toprail:style(position: absolute !important;)
-military.com###mastHead:style(position: relative !important; top: 0 !important;)
+military.com##body:style(padding-top: 0 !important;)
+military.com##header:style(position: relative !important; top: 0 !important;)
 militarytimes.com###top-header:style(position: relative !important; top: 0 !important;)
 militarytimes.com##.js-pubsub-module.has-secondary-nav.layout-module.generic-module:style(position: relative !important; top: 0 !important;)
 militarytimes.com##.newsletter.signup
@@ -10014,6 +10035,8 @@ mspoweruser.com##.navbar-default.navbar-fixed-top.navbar.shunno-mm.shunno-header
 mspoweruser.com##.shunno-is-visible.shunno-top
 mtb-news.de###mtbnewsShareBar
 mtb-news.de##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute !important; top: 0 !important;)
+mtlblog.com###article-share-section-mobile
+mtlblog.com##.narcity-header-bar:style(position: absolute !important;)
 mtshastanews.com###article-storyStrip:style(position: relative !important; top: 0 !important;)
 mtshastanews.com###toprail:style(position: absolute !important;)
 mtv.com###balaMainContainer
@@ -11169,6 +11192,7 @@ nytimes.com##.css-15u353c
 nytimes.com##.css-1i860sg:style(position: relative !important;)
 nytimes.com##.css-1plijz3
 nytimes.com##.css-1ragzwk
+nytimes.com##.css-1y7ysfx
 nytimes.com##.css-eye0zj:style(margin-top: 0 !important;)
 nytimes.com##.css-ilfk4y > .css-y8aj3r
 nytimes.com##.css-kp204g
@@ -11233,6 +11257,7 @@ nytimes.com##li.css-1gs0avv
 nytimes.com##li.css-1gs0avv:nth-of-type(4)
 nytimes.com##li.css-1tqhzzc
 nytimes.com##li.css-ohqqbz
+nytimes.com##li.css-ohqqbz:nth-of-type(4)
 nyulocal.com##.button--withSvgIcon.button--withIcon.u-baseColor--buttonNormal.is-touchIconBlackPulse.button--chromeless.button
 nyulocal.com##.js-metabar:style(position: absolute !important;)
 nzherald.co.nz###wpnPop
@@ -11651,6 +11676,9 @@ petapixel.com##.post-sharing
 petco.com###header:style(position: relative !important; padding: 20px !important;)
 petco.com###primary-nav:style(position: relative !important; transition: none !important; top: auto !important; box-sizing: border-box !important;)
 petco.com##body:style(padding-top: 0 !important;)
+petfinder.com##.site-main > div > .u-isSticky > .fixedBottom:style(position: relative !important;)
+petfinder.com##.slidingNav-shareBtn
+petfinder.com##.slidingNav:style(position: relative !important;)
 pethelpful.com###header_wrap:style(position: relative !important; top: 0 !important;)
 petmd.com###nlSliderSignup
 petri.com###nav-wrapper:style(position: relative !important;)
@@ -13385,6 +13413,7 @@ snopes.com##.special-msg
 snopes.com##.sticky-header-offset.gpu-acceleration.main-container > .sticky-active.sticky.compact.clearfix.header:style(position: relative !important; top: 0 !important;)
 snopes.com##.widget_boomtrain.boomtrain-3.widget
 snopes.com##.widget_social
+snopes.com##body:style(margin-top: 0 !important;)
 snopes.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 snowehome.com###promo:style(position: absolute !important;)
 snowehome.com##.sticky.navbar-fixed-top.navbar-default.navbar
@@ -13392,6 +13421,7 @@ sochi2014.com##.b-sociality-menu
 sociable.co###nav-wrap
 socialanxietysupport.com###fixed-controls:style(position: relative !important;)
 socialanxietysupport.com##.theiaStickySidebar:style(position: static !important; transform: none !important;)
+socialgameslaw.com###top-numbers-v2:style(position: absolute !important;)
 sofrep.com###mobile-menu:style(position: relative !important; top: 0 !important;)
 sofrep.com##.become-member
 sofrep.com##.join-sofrep-header:style(position: absolute !important;)
@@ -13774,6 +13804,7 @@ store.digg.com###main-navbar:style(position: absolute !important;)
 store.google.com##.bar
 store.google.com##.sticky-stacky:style(position: relative !important; top: 0 !important;)
 storyful.com##.header:style(position: relative !important; top: 0 !important; padding-top: 0 !important;)
+straight.com###header:style(position: absolute !important;)
 straighttalkonevidence.org###main-header:style(position: absolute !important;)
 straighttalkonevidence.org##.m_share-links
 straitstimes.com###navbar:style(position: relative !important; transition: none !important;)
@@ -13876,7 +13907,9 @@ swissinfo.ch##._fixed:style(position: relative !important;)
 swissinfo.ch##.sticky.show-for-medium-up.clear.spotlightbar
 swtimes.com###article-storyStrip:style(position: relative !important; top: 0 !important;)
 swtimes.com###toprail:style(position: absolute !important;)
+syfy.com###blog-post__share-facebook-twitter_gig_containerParent
 syfy.com###navigation:style(position: relative !important; top: 0 !important;)
+syfy.com##.article-strip__outer-wrapper
 syfy.com##.header--sticky-nav:style(position: relative !important; top: 0 !important; padding-bottom: 0 !important;)
 syfy.com##.header:style(position: relative !important; top: 0 !important;)
 syfy.com##.layout__top-ad
@@ -13901,6 +13934,7 @@ tabletmag.com##.navigation:style(position: relative !important; top: 0 !importan
 tacobell.com###js-clp-ribbon:style(position: relative !important;)
 tacobell.com###js-navigation:style(position: absolute !important; top: 0 !important;)
 tacobell.com###js-search:style(position: relative !important; top: 0 !important;)
+tactical-life.com###masthead:style(position: absolute !important;)
 taftmidwaydriller.com###article-storyStrip:style(position: relative !important; top: 0 !important;)
 taftmidwaydriller.com###toprail:style(position: absolute !important;)
 tailopez.com###header:style(position: relative !important; top: 0 !important;)
@@ -14720,6 +14754,7 @@ themefoxx.com##.td-more-articles-box
 themefoxx.com##.td-ss-main-sidebar:style(position: relative !important;)
 themefoxx.com##html:style(overflow-x: hidden !important; overflow-y: auto !important;)
 thememo.com##.nav-fixed.clearfix.main-menu:style(position: relative !important; top: 0 !important;)
+themillions.com##.banner:style(position: absolute !important;)
 themonthly.com.au###floating-bar:style(position: relative !important; top: 0 !important;)
 themonthly.com.au##.mean-bar:style(position: relative !important; top: 0 !important;)
 themorningnews.org##.Footer-sticky
@@ -16009,6 +16044,7 @@ verdict.co.uk##.fixed-top-ads
 verdict.co.uk##.in-article-text-promo
 verdict.co.uk##.site-footer:style(position: relative !important;)
 vergecurrency.com###header:style(position: absolute !important; background-color: transparent !important;)
+verily.com###header:style(position: relative !important;)
 verizon.com###navbar:style(position: absolute !important;)
 verizon.com##.is-sticky.js-nav--condensed.nav--condensed.nav:style(position: relative !important; top: 0 !important;)
 verizon.com##.masthead:style(position: relative !important; top: 0 !important;)
