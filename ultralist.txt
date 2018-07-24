@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:19 PM 2018-07-24
+! Last Modified: 1:06 PM 2018-07-24
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -3756,6 +3756,8 @@ buzzfeed.com##.vertical-sidebar-info.bf_dom.diy-connect
 buzzfeed.com##.wire-frame__shares
 buzzfeed.com##:xpath(.//*[@data-module="action-bar-subbuzz"])
 buzzfeed.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
+buzzfeednews.com##.js-sharing-btn.sharing-btn
+buzzfeednews.com##.sm-block.xs-hide.sticky-placeholder
 bytecoin.org##.header:style(position: absolute !important;)
 bythewavs.com##.nav-primary:style(position: relative !important; top: 0 !important;)
 bytom.io###masthead:style(position: absolute !important;)
@@ -12758,6 +12760,7 @@ robots.com###searchIconImage
 rochester.edu##.top-scroll
 rockingpage.com##.uk-flex-space-between.uk-flex-middle.uk-flex.bg-grey.mg__header:style(position: absolute !important;)
 rockingpage.com##.uk-position-top-left.is--dark.mg__page-message:style(position: absolute !important;)
+rockpapershotgun.com##.leaderboards
 rockpapershotgun.com##.social-buttons
 rockstargames.com###headerRoot:style(position: absolute !important; top: 0 !important;)
 rollcall.com###logo_container:style(margin-top: 0 !important;)
