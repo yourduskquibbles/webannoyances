@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:56 AM 2018-07-25
+! Last Modified: 3:04 PM 2018-07-25
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -2185,6 +2185,8 @@ abcnews.go.com###global-header:style(position: absolute !important;)
 abcnews.go.com###header-wrapper:style(position: absolute !important;)
 abcnews.go.com###header-wrapper:style(width: 100% !important;)
 abcnews.go.com###nav_short_flex:style(position: relative !important; top: 0 !important;)
+abcnews.go.com###news-feed.js-fixed #news-feed-content .container-wrapper:style(overflow: unset !important;)
+abcnews.go.com###news-feed.js-fixed .sidebar:style(position: absolute !important;)
 abcnews.go.com###widget-subscribe-3
 abcnews.go.com##.ad-300
 abcnews.go.com##.ad-slot
@@ -3156,6 +3158,7 @@ bettycrocker.com##.floatingBox
 bgdailynews.com###main-navigation:style(position: absolute !important; top: 0 !important;)
 bgdailynews.com###site-container:style(margin-top: 0 !important;)
 bgdailynews.com##.hidden-print.alert-info.alert-dismissable.alert.read.notification.meter
+bgov.com##.fixed:style(position: absolute !important;)
 bgr.com###topnav
 bgr.com##.button-facebook
 bgr.com##.button-twitter
@@ -7529,6 +7532,7 @@ hollywoodreporter.com##.site-header-basic--preta:style(position: relative !impor
 hollywoodreporter.com##.site-header__background:style(transition: none !important; transform: none !important;)
 hollywoodreporter.com##.site-header__brand:style(transition: none !important; height: 47px !important;)
 hollywoodreporter.com##.site-header__progress:style(position: absolute !important;)
+hollywoodreporter.com##.social-share
 hollywoodreporter.com##.sticky-wrapper:style(position: absolute !important; height: 1724px !important; margin-top: 0 !important;)
 hollywoodreporter.com##.stuck.js-leftRail-container.left-rail:style(position: relative !important;)
 hollywoodreporter.com##.toolMenu.toolMenuLeft
@@ -9045,6 +9049,7 @@ liveleak.com##.liveleak_on_facebook_outer
 liveleak.com##.navbar-fixed-top:style(position: absolute !important;)
 livemint.com##.sticky-social-icons-lg
 livemint.com##.subscribe-box
+livenation.com##.LNHeader-e260b1b4e346f248ec795a82f47710c5:style(position: absolute !important;)
 liverpoolecho.co.uk##.float-and-park.mod-video:style(position: absolute !important; top: 0 !important;)
 liverpoolecho.co.uk##.iya-test-wrapper
 liverpoolecho.co.uk##.mod-header > .secondary:style(position: absolute !important; top: 0 !important;)
@@ -9605,8 +9610,8 @@ merriam-webster.com###subscribe-overlay
 merriam-webster.com##.fixed-wrapper:style(position: absolute !important; top: 0 !important; margin-top: 110px !important;)
 merriam-webster.com##.follow-us
 merriam-webster.com##.menu-filler
-merriam-webster.com##.outer-container:style(margin-top: 130px !important;)
-merriam-webster.com##.shrinkheader:style(position: absolute !important;)
+merriam-webster.com##.outer-container:style(margin-top: 0 !important;)
+merriam-webster.com##.shrinkheader:style(position: relative !important;)
 merriam-webster.com##.social-icon
 merryjane.com###view-port:style(position: relative !important; top: 0 !important;)
 messenger.com##.header:style(position: absolute !important;)
@@ -10185,6 +10190,7 @@ mynews13.com##.navbar-fixed-top.fixed-top.site-header-inner:style(position: abso
 mynorthwest.com##.primary.headerwrapper:style(position: absolute !important;)
 mypalmbeachpost.com##.main-nav-container:style(position: relative !important; top: 0 !important;)
 mypayflex.com##.navbar-fixed-top:style(position: absolute !important;)
+mypayflex.com##.setOutlineNone.SI_5vuNwLI2emiDYoZ_SliderContainer.QSISlider:style(position: absolute !important;)
 mypaysimple.com##header:style(position: relative !important; top: 0 !important;)
 myplainview.com###ctpl-fullbanner-spacer:style(height: 50px !important;)
 myplainview.com###homepage-timestamp:style(position: absolute !important;)
@@ -15319,6 +15325,7 @@ thv11.com##.page__header:style(position: absolute !important;)
 thv11.com##.progress
 thv11.com##.video__inner:style(position: static !important;)
 ticketfly.com###eyebrow:style(position: relative !important; top: 0 !important;)
+ticketmaster.com##.main_header:style(position: absolute !important;)
 tiffany.com###filters:style(position: relative !important;)
 tiffany.com###headerBlueBar:style(position: absolute !important;)
 tigerfitness.com###olark-wrapper
