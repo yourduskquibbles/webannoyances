@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 6:33 PM 2018-07-25
+! Last Modified: 6:59 PM 2018-07-25
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -11217,6 +11217,7 @@ nytimes.com##.app-links
 nytimes.com##.article-page:style(overflow-x: hidden !important; overflow-y: hidden !important;)
 nytimes.com##.article-video-sharetools
 nytimes.com##.branding:style(display: block !important; opacity: 1 !important;)
+nytimes.com##.branding:style(display: block !important;)
 nytimes.com##.bundle-payflow
 nytimes.com##.bundle-payflow-module
 nytimes.com##.comments-header-container:style(position: relative !important;)
@@ -11253,7 +11254,9 @@ nytimes.com##.lazyloaded.embeddedContent
 nytimes.com##.marginalia:style(margin-top: 0 !important;)
 nytimes.com##.masthead-theme-standard:style(position: relative !important; top: 0 !important;)
 nytimes.com##.masthead-theme-transparent-ffffff:style(background-color: transparent !important; position: absolute !important;)
+nytimes.com##.masthead.in-content .kicker-label
 nytimes.com##.masthead.in-content:style(box-shadow: none !important;)
+nytimes.com##.masthead.masthead-theme-standard .comments-button
 nytimes.com##.masthead.theme-in-content:style(box-shadow: none !important; border-bottom: none !important;)
 nytimes.com##.max300.min300.iframe-holder
 nytimes.com##.miniNavContainer
@@ -11283,6 +11286,7 @@ nytimes.com##.subColumn-2.noBackground.mobilePromo.nocontent
 nytimes.com##.text-ad
 nytimes.com##.vhs-plugin-imax-playback-metadata-share-tools
 nytimes.com##.vhs-tools
+nytimes.com##.viewport-medium-10 .masthead.masthead-theme-standard.in-content .story-meta
 nytimes.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 nytimes.com##div.edz5sly0.css-190ncxp
 nytimes.com##li.css-12rw69b
