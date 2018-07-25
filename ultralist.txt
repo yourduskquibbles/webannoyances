@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:30 AM 2018-07-25
+! Last Modified: 11:56 AM 2018-07-25
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -1209,6 +1209,7 @@
 ##.scrollto
 ##.scrolltofixed
 ##.scrolltop
+##.scrolltotop
 ##.scrollup
 ##.sd-gallery-share-toolbar
 ##.sd-news-main-footer
@@ -2682,6 +2683,7 @@ apnews.com###header:style(position: relative !important; top: 0 !important;)
 apnews.com##.footerColumn.followFooter
 apnews.com##.ng-isolate-scope.header:style(position: absolute !important;)
 apnic.net##.smcx-modal.smcx-widget
+app.buddy.works##.header:style(position: absolute !important;)
 app.com###sticky:style(position: absolute !important;)
 app.com##.first-margin:style(margin-top: 0 !important;)
 app.com##.fixed.header:style(position: absolute !important; top: 0 !important;)
@@ -4526,6 +4528,7 @@ columbiatribune.com###toprail:style(position: absolute !important;)
 com-unik.info###optinform-container
 com-unik.info##.mobile-hide
 com.au##.story-footer-tools.js-loaded.sticky
+combook.geek##.brz-medium.brz-left-align.brz-top.brz-card-2.brz-text-grey.brz-white.brz-navbar:style(position: absolute !important;)
 comeaucomputing.com###topmsg
 comicbook.com###oas_FC1
 comicbook.com###oas_FC10
@@ -4841,6 +4844,7 @@ crookstontimes.com###toprail:style(position: absolute !important;)
 crowdstrike.com###site-header:style(position: relative !important; top: 0 !important;)
 crowdstrike.com###stickyfooterwrapper
 crowdstrike.com###top-bar-wrap:style(position: relative !important; top: 0 !important;)
+crowdstrike.com##.cs_main_menu:style(position: absolute !important;)
 crowdstrike.com##.pageStickyFooter
 crowdstrike.com##.pageStickyFooterText
 crunchbase.com##chrome:style(height: 1000% !important;)
@@ -4848,6 +4852,7 @@ crunchsmag.com##.td-affix.td-header-gradient.td-header-menu-wrap:style(position:
 crunchsmag.com##.td-front-end-display-block.td-more-articles-box
 crutchfield.com###emailSignupOverlay
 crypto-loot.com##.nav-menu:style(position: absolute !important;)
+cryptocoincharts.info##.navbar:style(position: relative !important;)
 cryptocoinsnews.com##.headroom--pinned.headroom--not-top.headroom.mini-bar
 cryptocoinsnews.com##.widget_text.widget
 cryptocompare.com##.modal
@@ -4900,6 +4905,10 @@ cubbiescrib.com###pinned-ad
 cultofmac.com##.active.visible.transition.page.modals.dimmer.ui
 culturehustle.com##.sticky.mobile-nav--sticky:style(position: absolute !important;)
 curbed.com##.m-ad
+currencio.co###ct_cTNL0Pk
+currencio.co###ct_cwB0R29
+currencio.co##.softo-bar:style(position: absolute !important;)
+currencio.co##span#ct_cxbIeHS_b
 current.org###g-vttjpz
 current.org##.imoneza-wrapper-wallet.imoneza-wrapper
 current.org##.newsletter-signup
@@ -6680,6 +6689,7 @@ futurism.com##.headroom--pinned.headroom:style(transform: none !important; trans
 futurism.com##.subscribe-form.center
 futurism.com##.tibrr-cookie-consent-container
 futurism.com##body:style(border-top: 0 !important;)
+fx-rate.net##.bottom_header:style(position: relative !important;)
 fyvor.com##.top_btn
 gab.ai##.header:style(position: absolute !important; top: 0 !important;)
 gadgethacks.com###top-nav:style(position: relative !important; top: 0 !important;)
@@ -9096,6 +9106,7 @@ local10.com###header:style(position: relative !important; top: 0 !important; wid
 local10.com###ksat-fixed:style(position: relative !important; top: 0 !important; width: 100% !important; margin-bottom: 20px !important;)
 local10.com##.container:style(width: 100% !important;)
 local10.com##body:style(padding-top: 0 !important;)
+localbitcoins.com##.navbar:style(position: absolute !important;)
 localcrimenews.com###allFooter
 locusmag.com###site-navigation:style(position: relative !important;)
 login.yahoo.com###mbr-footer
@@ -11333,6 +11344,7 @@ oilandgasinvestor.com###header:style(position: relative !important;)
 okayplayer.com##.affix.site-header:style(position: relative !important; top: 0 !important;)
 okayplayer.com##.page-meta-links-container
 okcupid.com##DIV[style=" background: #142d69; padding: 14px 12px 20px; border-radius: 0 5px 5px 0;\a \9 -moz-border-radius: 0 5px 5px 0;\a \9 -webkit-border-radius: 0 5px 5px 0;\a \9  "]
+okta.com##.is-fixed.Header:style(position: absolute !important;)
 olneydailymail.com###article-storyStrip:style(position: relative !important; top: 0 !important;)
 olneydailymail.com###toprail:style(position: absolute !important;)
 olympic.org###nav:style(position: absolute !important;)
@@ -11357,6 +11369,7 @@ ontariopolicereports.com##.td-affix.td-header-menu-wrap:style(position: relative
 openculture.com###leaderboard_div
 openculture.com##.advertisement_notice
 openculture.com##.closing-social
+opendns.com##.sticky.header:style(position: absolute !important;)
 openelec.tv###ca_banner
 opengarden.com##.birdseye-header:style(position: absolute !important;)
 openload.co##.show-box.embedbox-holder:style(position: static !important;)
@@ -12875,6 +12888,7 @@ russianmachineneverbreaks.com##.header_style1.top_bar:style(position: relative !
 sadanduseless.com###conversions-box
 safaribooksonline.com##.global:style(position: relative !important; top: 0 !important;)
 safaribooksonline.com##.orm-topbar:style(position: relative !important; top: 0 !important;)
+safenotes.org###menu:style(position: absolute !important;)
 sagefy.org##.js-metabar:style(position: absolute !important;)
 sagepub.com##.mobileHeader:style(position: absolute !important;)
 sagepub.com##.stick-it-wrapper
@@ -17630,6 +17644,7 @@ zyngaplayerforums.com##.Reactions
 ||facebook.com/*/quote.php$subdocument
 ||facebook.com/*/share_button.php$subdocument
 ||fastly.net$script,domain=nasdaq.com
+||files.ctnetfiles.com/pub/*$subdocument
 ||functionalclam.com^$third-party
 ||gannett-cdn.com/*/peanutbutterjellytime.min.js$script,important
 ||getsitecontrol.com/*/script.js$script,domain=theparisreview.org
