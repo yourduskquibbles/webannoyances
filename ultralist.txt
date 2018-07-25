@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 3:04 PM 2018-07-25
+! Last Modified: 6:33 PM 2018-07-25
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -2630,6 +2630,7 @@ androidcentral.com##.share
 androidcentral.com##html:style(overflow-x: hidden !important; overflow-y: auto !important;)
 androidforums.com###yvjotilvhppccccahqxngddtnoesfgzrm
 androidheadlines.com###masthead:style(position: relative !important; top: 0 !important;)
+androidheadlines.com##.header-shiv:style(position: absolute !important;)
 androidmag.de###header:style(position: relative !important; top: 0 !important;)
 androidpit.com##.ameta__share
 androidpolice.com###apfollowwidget-2
@@ -4406,7 +4407,9 @@ cnet.com###rbHeader:style(position: relative !important; top: 0 !important;)
 cnet.com###rbWrapper:style(padding-top: 0 !important;)
 cnet.com##.ad-nav-ad
 cnet.com##.entered.dock.inviewElement:style(position: static !important;)
+cnet.com##.fixed.sticky-leader
 cnet.com##.holidayPromo
+cnet.com##.leadWrap
 cnn.com###cnn_hdr-prompt
 cnn.com###header-main:style(position: relative !important;)
 cnn.com###js-TosPrivacy
@@ -6203,6 +6206,7 @@ fidelity.com##.fixed.scoreCardFloatingWrapper:style(position: relative !importan
 fidelity.com##.info-flyout-wrapper
 fidelity.com##.right-icons-bar
 fieldandstream.com##.main-header:style(position: relative !important; top: 0 !important;)
+fiercebiotech.com###header:style(position: relative !important; top: 0 !important;)
 fiercecable.com###content:style(padding-top: 0 !important;)
 fiercecable.com###header:style(position: relative !important; top: 0 !important;)
 fiercecable.com##body:style(margin-top: 0 !important;)
@@ -7634,6 +7638,7 @@ hubpages.com###mod_new8:style(position: absolute !important;)
 huckberry.com##.modal
 huckberry.com##.modal-backdrop
 huckberry.com##.top-nav:style(position: relative !important; top: 0 !important;)
+huckmag.com##.first.twelvecol.header:style(position: absolute !important;)
 huckmagazine.com##.first.twelvecol.header:style(position: relative !important; top: 0 !important;)
 huffingtonpost.com###badges_v2_1
 huffingtonpost.com###chicklets
@@ -9047,6 +9052,8 @@ liveleak.com##.advertise_main_outer
 liveleak.com##.current_main_outer.pad_none.col-xs-12 > h3
 liveleak.com##.liveleak_on_facebook_outer
 liveleak.com##.navbar-fixed-top:style(position: absolute !important;)
+livemint.com###fixed-header:style(position: relative !important;)
+livemint.com##.no-border.lead-stories:style(position: relative !important;)
 livemint.com##.sticky-social-icons-lg
 livemint.com##.subscribe-box
 livenation.com##.LNHeader-e260b1b4e346f248ec795a82f47710c5:style(position: absolute !important;)
@@ -10657,6 +10664,7 @@ news.harvard.edu###sticky-filter:style(position: absolute !important; top: 0 !im
 news.harvard.edu##.daily-gazette
 news.harvard.edu##.sticky:style(position: relative !important; top: 0 !important;)
 news.sky.com##.sdc-article-sibling-links__list
+news.vice.com##._f22krk:style(position: relative !important; transition: none !important; transform: none !important;)
 news.vice.com##.ah.ag.bp.bo.bn.bm.bl.bk.bj.v.u.j.bh.a:style(transform: none !important; transition: none !important;)
 news.vice.com##.callout-header
 news.vice.com##.cc.cb.ca.bz.by.ai:style(transform: none !important; transition: none !important;)
@@ -12689,6 +12697,7 @@ reuters.com##.GetTheAppBanner_get-the-app-banner_1LusN
 reuters.com##.Header_is-fixed_3OnFb.Header_header_1xhmD:style(position: relative !important; top: 0 !important;)
 reuters.com##.RightRail_fixedIsInViewport_34nin.RightRail_fixedIsAboveViewport_2Wlfx.RightRail_fixed-wrapper_3m6JO
 reuters.com##.SocialTool_facebook_2Nibf.SocialTool_social-button_1Z8qb
+reuters.com##.SocialTool_social-button
 reuters.com##.SocialTool_twitter_1xUSq.SocialTool_social-button_1Z8qb
 reuters.com##.StandardArticleBody_dp-slot-inline_eUPBt.DPSlot_container_2dHIN
 reuters.com##.active.container.header-pane-main:style(position: relative !important; top: 0 !important;)
