@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 7:00 PM 2018-07-24
+! Last Modified: 9:35 AM 2018-07-25
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
@@ -3757,6 +3757,7 @@ buzzfeed.com##.wire-frame__shares
 buzzfeed.com##:xpath(.//*[@data-module="action-bar-subbuzz"])
 buzzfeed.com##body:style(overflow-x: hidden !important; overflow-y: auto !important;)
 buzzfeednews.com##.js-sharing-btn.sharing-btn
+buzzfeednews.com##.newsblock-newsletter-signup
 buzzfeednews.com##.sm-block.xs-hide.sticky-placeholder
 bytecoin.org##.header:style(position: absolute !important;)
 bythewavs.com##.nav-primary:style(position: relative !important; top: 0 !important;)
@@ -7976,6 +7977,7 @@ insightcrime.org##.topmenu:style(position: absolute !important;)
 insightdata.ai##.logo_nav:style(position: relative !important; top: 0 !important;)
 insightdatascience.com##.js-metabar:style(position: absolute !important;)
 inspiredcoffee.com###athena-header:style(position: absolute !important;)
+instagram.com##.Fzijm.bR_3v
 instagram.com##._2pnef._cqw45
 instagram.com##._3v251._br9is
 instagram.com##._4pxed:style(position: absolute !important; top: 0 !important;)
@@ -7984,6 +7986,7 @@ instagram.com##._axuw9
 instagram.com##._jtbs5
 instagram.com##._t93vr:style(position: relative !important; top: 0 !important;)
 instagram.com##._tpnch:style(position: relative !important; top: 0 !important;)
+instagram.com##.aUCRo._lz6s:style(position: absolute !important; top: 0 !important;)
 instagram.com##:xpath(.//*[@href="/accounts/emailsignup/"])
 instagram.com##:xpath(.//*[@role="alert"])
 institutionalinvestor.com###compressed-navbar:style(position: relative !important; top: 0 !important;)
@@ -14422,7 +14425,9 @@ thecwsandiego.com##.progress
 thecwsandiego.com##.video__inner:style(position: static !important;)
 thedailybeast.com###react-mount-point > .ArticlePage > .PageHeader.head > .MobileNav
 thedailybeast.com##.ArticleRail__share-icons
+thedailybeast.com##.CheatNewsletter
 thedailybeast.com##.CheatShareButtons
+thedailybeast.com##.Header__follow
 thedailybeast.com##.InlineNewsletter
 thedailybeast.com##.ReadThisList__header:style(position: relative !important; top: 0 !important;)
 thedailybeast.com##.SimpleAd
@@ -14430,8 +14435,10 @@ thedailybeast.com##.StickyNavbar
 thedailybeast.com##.clearfix.homenav.header:style(position: relative !important; top: 0 !important;)
 thedailybeast.com##.header.header-2.clearfix:style(position: relative !important; top: 0 !important;)
 thedailybeast.com##.sidebar
+thedailybeast.com##.sidebar-container:style(position: relative !important;)
 thedailybeast.com##.sticky.ArticleRail
 thedailybeast.com##.sticky.Sidebar__sticky-wrapper:style(position: relative !important; top: 0 !important;)
+thedailybeast.com##html:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 thedailybell.com##.tve-leads-slide-in
 thedailybell.com##html:style(overflow-x: hidden !important; overflow-y: auto !important;)
 thedailyjournal.com###sticky:style(position: absolute !important;)
