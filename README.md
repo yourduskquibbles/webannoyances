@@ -23,6 +23,7 @@ Browser specific download locations are located below:
 - [uBlock Origin for Mozilla FireFox](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
 - [Nano Adblocker for Microsoft Edge](https://www.microsoft.com/en-us/p/nano-adblocker/9nsxdx2tdb3v/)
 - [uBlock Origin for Apple Safari](https://github.com/el1t/uBlock-Safari#installation)
+- [uBlock Origin for Opera](https://addons.opera.com/pl/extensions/details/ublock/)
 
 ### Mobile
 - [uBlock Origin for Mozilla FireFox for Android](https://addons.mozilla.org/EN-US/android/addon/ublock-origin/) 
