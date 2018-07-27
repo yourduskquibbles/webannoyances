@@ -15,13 +15,13 @@ Head over to the [demonstration page](https://github.com/yourduskquibbles/webann
 ## Requirements
 This filter list aims to remove annoying web elements that block your view of the screen and is created and optimized using the [uBlock Origin Extended Syntax](https://github.com/gorhill/uBlock/wiki/Static-filter-syntax).
 
-For the best user experience, please use this filter list with [uBlock Origin](https://github.com/gorhill/uBlock).
+For the best user experience, please use this filter list with [uBlock Origin](https://github.com/gorhill/uBlock) or [Nano Adblocker](https://github.com/NanoAdblocker/NanoCore)
 
 Browser specific download locations are located below:
 ### Desktop
 - [uBlock Origin for Google Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
 - [uBlock Origin for Mozilla FireFox](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
-- [uBlock Origin for Microsoft Edge](https://www.microsoft.com/en-US/store/p/app/9nblggh444l4?rtc=1)
+- [Nano Adblocker for Microsoft Edge](https://www.microsoft.com/en-us/p/nano-adblocker/9nsxdx2tdb3v/)
 - [uBlock Origin for Apple Safari](https://github.com/el1t/uBlock-Safari#installation)
 
 ### Mobile
