@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 3:54 PM 2018-07-28
+! Last Modified: 4:33 PM 2018-07-28
 ! Title: Web Annoyances Ultralist
 ! Project Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -7,9 +7,14 @@
 ! Works best with uBlock Origin or Nano Adblocker - be sure to install it as well!
 
 ! Start Web Annoyances Ultralist
-!#include filters/generic_filters.txt
 
-! Start Non-Generic Filters
+! Start Web Annoyances Ultralist Sublists
+!#include filters/generic_filters.txt
+!#include filters/newsletter_filters.txt
+!#include filters/social_filters.txt
+
+
+! Start Web Annoyances Ultralist Main Filters
 100percentfedup.com##.menu-header-menu-container-add:style(position: absolute !important;)
 100percentfedup.com##.modaal-overlay
 100percentfedup.com##.spu-bg
@@ -18,7 +23,6 @@
 100percentfedup.com##.td-header-style-8.td-header-wrap:style(position: relative !important; top: 0 !important;)
 100percentfedup.com##.wpdev-desktop-social.col-sm-3
 10best.com###nav-branding:style(position: relative !important;)
-10best.com###newsletter_widget-2
 10best.com###secondary:style(position: relative !important;)
 10best.com##.fixed:style(position: absolute !important; top: 0 !important;)
 10best.com##.homepage-top-story-callout.columns.large-12
@@ -221,21 +225,6 @@
 9to5mac.com##.header-wrap:style(position: relative !important; top: 0 !important;)
 9to5mac.com##.news-feed-header:style(position: relative !important; top: 0 !important;)
 9to5mac.com##.site-header-placeholder
-@@||100percentfedup.com^$generichide
-@@||animezone.pl^$generichide
-@@||bigleaguepolitics.com^$generichide
-@@||c-span.org^$generichide
-@@||facebook.com/common/referer_frame.php$subdocument,domain=facebook.com
-@@||flyingmag.com^$generichide
-@@||foodtank.com^$generichide
-@@||forbes.com^$generichide
-@@||foxbusiness.com^$generichide
-@@||github.com^$generichide
-@@||loxodo-analytics.ext.nile.works/api/save$xmlhttprequest,domain=washingtonpost.com
-@@||mbank.pl^$generichide
-@@||ozy.com^$generichide
-@@||s1.wp.com/*/vip-analytics.js^$script,domain=rare.us
-@@||twitch.tv^$generichide
 aaa.com##.bottomcontainerBox
 aarp.org##.aarpe-ad-wrapper
 aarp.org##.affix:style(position: absolute !important;)
@@ -1264,6 +1253,11 @@ benfrain.com##.toc-Wrapper:style(position: absolute !important;)
 benq.com##.gostick.top-bar:style(position: relative !important;)
 benq.com##.pro-fist.banner-pro.banner.small-12:style(margin-top: 0 !important;)
 bensbargains.com###main-nav:style(position: absolute !important;)
+bentkowski.info###gadget-dock
+bentkowski.info###header:style(position: absolute !important;)
+bentkowski.info###sidebar:style(position: absolute !important;)
+bentkowski.info##.viewitem-inner:style(overflow: unset !important;)
+bentkowski.info##body:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 benzinga.com###sticky-header
 benzinga.com##.sidebar-inner-1:style(position: relative !important; transform: none !important; left: auto !important;)
 bestbackups.com##.sticky.header_menu:style(position: absolute !important;)
@@ -2415,6 +2409,7 @@ citizen-times.com##.site-nav-logo-link.site-nav-link:style(width: 0 !important;)
 citizen-times.com##html:style(overflow-x: hidden !important; overflow-y: auto !important;)
 citizen-times.com##nav-global:style(position: absolute !important;)
 citizen-times.com##util-sticky-module:style(position: absolute !important;)
+citizen428.net##.js-metabar:style(position: absolute !important;)
 citizenlab.ca###article-footer
 citizensforethics.org##.donate-btn
 citizensforethics.org##.fixed-menu.sticky.header:style(position: absolute !important;)
@@ -2612,6 +2607,10 @@ cockroachlabs.com##.sticky-subscribe.subscribe
 codacy.com##.navbar:style(position: absolute !important;)
 code42.com###header:style(position: relative !important; top: 0 !important;)
 codedump.io##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute !important;)
+codementor.io##.bottom-bar
+codementor.io##.consent
+codementor.io##.fade-in.article__engager--fixed.offset.article__engager:style(position: absolute !important;)
+codementor.io##.headroom:style(position: absolute !important;)
 codex.online##.cookies
 codex.online##.topmenu.pure-g:style(position: absolute !important;)
 codisec.com##.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important; top: 0 !important;)
