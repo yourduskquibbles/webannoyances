@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 8:44 AM 2018-08-01
+! Last Modified: 9:55 AM 2018-08-01
 ! Title: Web Annoyances Ultralist
 ! Project Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -10,15 +10,13 @@
 
 ! Start Web Annoyances Ultralist Sublists
 !#include filters/generic_filters.txt
+!#include filters/modal_filters.txt
 !#include filters/newsletter_filters.txt
 !#include filters/social_filters.txt
 ! End Web Annoyances Ultralist Sublists
 
-! Start Web Annoyances Ultralist Main Filters
+! Start Web Annoyances Ultralist - Main Filters
 100percentfedup.com##.menu-header-menu-container-add:style(position: absolute !important;)
-100percentfedup.com##.modaal-overlay
-100percentfedup.com##.spu-bg
-100percentfedup.com##.spu-box
 100percentfedup.com##.td-affix.td-header-main-menu.td-header-border.td-header-row:style(position: relative !important; top: 0 !important;)
 100percentfedup.com##.td-header-style-8.td-header-wrap:style(position: relative !important; top: 0 !important;)
 10best.com###nav-branding:style(position: relative !important;)
@@ -298,7 +296,6 @@ abcnews.go.com##body:style(overflow-x: hidden !important; overflow-y: scroll !im
 abcnews4.com##.sd-header-brand:style(position: relative !important; top: 0 !important;)
 abcnews4.com##.sd-nav-only
 abcstores.com###header:style(position: relative !important; top: 0 !important;)
-abcstores.com##.modal-backdrop
 abdoriani.com###main-header:style(position: absolute !important;)
 ablehealth.com###navbar-primary:style(position: relative !important; top: 0 !important;)
 ablevets.com###main-nav:style(position: absolute !important;)
@@ -7843,6 +7840,7 @@ news5cleveland.com##.sticky-article-foot
 newsandsentinel.com###top_header:style(position: absolute !important;)
 newsandsentinel.com###wprmenu_bar:style(position: absolute !important;)
 newsandsentinel.com##.popup
+newsbtc.com###sidebar:style(position: static !important;)
 newsbtc.com##.sticky-header:style(position: relative !important;)
 newsbusters.org###donateButtonHeading
 newsbusters.org###donateButtonMarkup
@@ -12122,6 +12120,7 @@ undark.org##body:style(padding-top: 0 !important;)
 underarmour.com##.modal
 underarmour.com##.modal-backdrop
 underarmour.com##.top-nav-container:style(position: absolute !important; top: 0 !important;)
+unionmarketdc.com###header:style(position: absolute !important;)
 unionstage.com###masthead:style(position: relative !important;)
 uniquemachine.org##.navbar-fixed-top.main-nav:style(position: relative !important; top: 0 !important;)
 unitag.io###main-header:style(position: absolute !important;)

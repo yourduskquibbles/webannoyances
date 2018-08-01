@@ -1,0 +1,15 @@
+! Expires: 2 Days (Update Frequency)
+! Last Modified: 9:55 AM 2018-08-01
+! Title: Web Annoyances Ultralist - Modal Overlay Filters
+! Project Homepage: https://github.com/yourduskquibbles/webannoyances
+! Discord: https://discord.me/yourduskquibbles
+! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
+! Works best with uBlock Origin or Nano Adblocker - be sure to install it as well!
+
+! Start Web Annoyances Ultralist - Modal Overlay Filters
+100percentfedup.com##.modaal-overlay
+100percentfedup.com##.spu-bg
+100percentfedup.com##.spu-box
+abcstores.com##.modal-backdrop
+newsbtc.com##.pum
+newsbtc.com##html:style(overflow-x: hidden !important; overflow-y: scroll !important;)

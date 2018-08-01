@@ -1,22 +1,22 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 8:44 AM 2018-08-01
-! Title: Web Annoyances Ultralist
+! Last Modified: 9:55 AM 2018-08-01
+! Title: Web Annoyances Ultralist - Social Filters
 ! Project Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
 ! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
 ! Works best with uBlock Origin or Nano Adblocker - be sure to install it as well!
 
 ! Start Web Annoyances Ultralist - Social Filters
-100percentfedup.com##.wpdev-desktop-social.col-sm-3
+100percentfedup.com##.wpdev-desktop-social
 10best.com##.vert-social-sharing-bar
 10news.com##.layout--share__second
 1688.com###hp_searchFollow
-1843magazine.com##.menu__social-media-icons.views-field-nothing-1.views-field
+1843magazine.com##.menu__social-media-icons
 500px.com##.ul-sharing
 8newsnow.com###klasSocial
 99percentinvisible.org##.comments-share
 abc.net.au##.btn-group.tools
-abc.net.au##.doctype-cmcollection.view-collection-social-media-promo
+abc.net.au##.view-collection-social-media-promo
 abc13.com##.frame-social
 abc2news.com##.layout--share__second
 abc7ny.com##.footer-searchsocial
@@ -24,15 +24,15 @@ abcactionnews.com##.layout--share__second
 abcbirds.org##.fixed-social
 abclocal.go.com##.links
 abcnews.go.com##.amp-facebook
-abplive.in##.social_articlePage.news_sports_social
+abplive.in##.social_articlePage
 accenture.com###fbLike
 adage.com##.follow-us
 adbusters.org###ssb-container
 add0n.com###sharing
 aei.org##.entry-share-star
 aeon.co##.article__actions__buttons__social
+aeon.co##.header__social-icons
 aeon.co##.lower-share
-aeon.co##.social-hovers.header__social-icons
 ajc.com###follow-this-story
 alarabiya.net##.btn
 alextimes.com##.synved-social-button
@@ -53,7 +53,7 @@ androidcentral.com##.mn_mbn_share
 androidcentral.com##.share
 androidpit.com##.ameta__share
 androidpolice.com###apfollowwidget-2
-androidpolice.com##.ap-follow-widget.widget.red.widget-2.widget-even
+androidpolice.com##.ap-follow-widget
 aol.com##.gmod.m-footer__follow-aol
 ap.org###block-ap-misc-ap-social-media
 apnews.com##.footerColumn.followFooter
@@ -86,7 +86,7 @@ axios.com##.SocialIcons__button--_Re2H
 axios.com##.is-active.stream-social-cta
 axios.com##.sidebar__follow
 axios.com##.widget__sharebar
-aylien.com##.dpsp-networks-btns-share.dpsp-networks-btns-content.dpsp-networks-btns-wrapper
+aylien.com##.dpsp-networks-btns-share
 azcentral.com##.clearfix.lf-social-bookmarks
 azcentral.com##.inline-share-tools
 azcentral.com##.longform-inline-share-module
@@ -131,21 +131,21 @@ bloomberg.com##.share-article-button
 bloomberg.com##.sticky-social-buttons
 bloombergquint.com##.article__details__share
 bloombergquint.com##.bq-footer__social
-bloombergquint.com##.js-article-details-share-sticky.article__content__share--sticky
+bloombergquint.com##.js-article-details-share-sticky
 bloombergquint.com##.js-subscription-combo-box
 bloombergquint.com##.social_buttons-module__container___3CXN7
 booking.com##.hp-social_proof
 bookscanner.de##.cc-FloatingButtonBarContainer
 bookscanner.de##.cc-sharebuttons-element
-bookscanner.de##.j-facebook.n.j-module
+bookscanner.de##.j-facebook
 boredomtherapy.com###fbicon
 boredomtherapy.com###gpicon
-boredpanda.com##.visible-downto-l.fixed-bottom-facebook-widget
+boredpanda.com##.fixed-bottom-facebook-widget
 boston.com##.content-toaster--mobile-app
-bostonglobe.com##.bg-share-menu-toggle--action--open.bg-share-menu-toggle
+bostonglobe.com##.bg-share-menu-toggle
 bostonglobe.com##.js-smart-bar
 bostonglobe.com##.meter-social-connect
-bostonglobe.com##.primary-tools.tools.Top
+bostonglobe.com##.primary-tools
 bostonreview.net##.footer-secondary-social
 breakingdefense.com##.ea-share-count-wrap
 breitbart.com###content_0_fixedshare_0_divSocialMedia
@@ -1307,6 +1307,7 @@ twitchy.com##.media-links-bottom-row
 uber.com##.social-media-links.palm-one-whole.one-quarter.layout__item
 ubergizmo.com##.social_buttons_top_nav
 ubergizmo.com##.social_widget_table
+unionmarketdc.com##.social
 universetoday.com###patreon-section
 univision.com##.uvn-breaking-news-share
 univision.com##.uvn-flex-sharing-container
