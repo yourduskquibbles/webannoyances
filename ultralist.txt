@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 8:29 PM 2018-07-31
+! Last Modified: 8:44 AM 2018-08-01
 ! Title: Web Annoyances Ultralist
 ! Project Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -12,7 +12,7 @@
 !#include filters/generic_filters.txt
 !#include filters/newsletter_filters.txt
 !#include filters/social_filters.txt
-
+! End Web Annoyances Ultralist Sublists
 
 ! Start Web Annoyances Ultralist Main Filters
 100percentfedup.com##.menu-header-menu-container-add:style(position: absolute !important;)
@@ -639,6 +639,9 @@ americamagazine.org##.ca-mad-text-center
 americamagazine.org##.fixHeader.headerNav:style(position: absolute !important;)
 americanaffairsjournal.org##.sticky-container.leaky-paywall-notification-bar-wrapper:style(position: relative !important; top: 0 !important;)
 americanaffairsjournal.org##.sticky.is-stuck:style(position: relative !important;)
+americanbanker.com##.sm-site-header-item.bsp-onDomInsert-inserted-43.site-header-wrapper:style(position: relative !important;)
+americanbanker.com##.sticky-wrapper:style(position: absolute !important;)
+americanbanker.com##body:style(margin-top: 0 !important;)
 americanmilitarynews.com###amp-user-notification1
 americanmilitarynews.com###banner
 americanmilitarynews.com##.h-sing
@@ -2282,6 +2285,7 @@ cnn.com##.optanon-alert-box-wrapper
 cnn.com##.s-post-footer
 cnn.com##.sibling
 cnn.com##.user-msg-flexbox.headerless.user-msg
+cnn.com##body:style(padding-top: 0 !important;)
 cnrs.fr###header-fixe
 cnsnews.com##.kimbiaDiv.cns.cns1.two_col.columnsPerPage1
 cnsnews.com##.mini > .header:style(position: absolute !important;)
@@ -5343,8 +5347,10 @@ indiewire.com###leaderboard
 indiewire.com###masthead-section:style(position: relative !important; top: 0 !important;)
 indiewire.com##.animated:style(animation: none !important;)
 indiewire.com##.slide--up:style(transform: none !important;)
-indy100.com###drawer
-indy100.com###top-nav:style(position: relative !important; top: 0 !important;)
+indy100.com###article-column:style(overflow: unset !important;)
+indy100.com###article-container:style(overflow: unset !important;)
+indy100.com###main-container:style(overflow-x: hidden !important; overflow-y: scroll !important;)
+indy100.com###top-nav:style(position: relative !important;)
 indystar.com###sticky:style(position: absolute !important;)
 indystar.com##.first-margin:style(margin-top: 0 !important;)
 indystar.com##.fixed.header:style(position: absolute !important; top: 0 !important;)
@@ -8035,6 +8041,7 @@ nianticlabs.com##.nl-cpb
 nickjanetakis.com##.navbar:style(position: absolute !important;)
 nicovideo.jp###siteHeader:style(position: absolute !important;)
 nicusa.com##.navbar:style(position: absolute !important;)
+nielsen.com##.fixed.pagescrollstickynav
 niezlomni.com###wi-topbar:style(position: relative !important;)
 nightwatch.io##.mcwidget-overlay
 nih.gov###myScrollspy:style(position: absolute !important;)
