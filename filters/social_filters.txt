@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 9:17 AM 2018-08-06
+! Last Modified: 1:36 PM 2018-08-06
 ! Title: Web Annoyances Ultralist - Social Filters
 ! Project Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -217,6 +217,7 @@ cjr.org###bottom-sharing
 clickhole.com##.footerSocial__FooterSocialWrap-ichFPn
 cloudflare.com##.IN-widget
 cnbc.com###social-tools-panel
+cnbc.com##.Footer-share
 cnbc.com##.makeit-social-media
 cnbc.com##.social
 cnbc.com##.sub-header-social-container
@@ -520,6 +521,9 @@ independent.ie##.snap.w115.w
 indianapolismonthly.com###menu-social
 indianapolismonthly.com##.post-meta
 indiatimes.com##.leftsocial
+infowars.com###crestashareiconincontent
+infowars.com###social-media-share
+infowars.com##.inline-social
 inkedmag.com##.under-facebook
 insightcrime.org##.subscribe
 intel.com##.fa-youtube-play.fa-md.fa
@@ -1500,3 +1504,4 @@ zyngaplayerforums.com##.Reactions
 ||facebook.com/*/share_button.php$subdocument
 ||pinterest.com^$script,image
 ||rare.us/widgets/sharing-v2$subdocument
+||vuukle.com/widgets/*$subdocument

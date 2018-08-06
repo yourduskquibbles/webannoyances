@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 9:52 AM 2018-08-05
+! Last Modified: 1:36 PM 2018-08-06
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
 ! Project Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -306,6 +306,8 @@ foreignpolicy.com##.js-takeover
 foreignpolicy.com##body:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 forums.xfinity.com##.lia-panel-dialog-modal-simple
 foxnews.com###janrainModalOverlay
+freedomnode.com###overlay
+freedomnode.com##body.stop-scrolling:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 freshideen.com###embed_popup_cont
 ft.com###assanka_mockingbird_overlay
 ft.com###barrier-dialogue
@@ -917,5 +919,6 @@ zdf.de##.js-rb-attached.m-open.x-cookies.b-system-dialog
 zdnet.com###offerContainer-e651d1b3
 zdnet.com##.preloaded_lightbox
 zendesk.com###ouibounce-modal
+zenmate.com##.zm-crm-overlay
 ||lightboxcdn.com^$script,domain=wnyt.com
 ||stacklist.com/*/subscribe-modal
