@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 10:50 AM 2018-08-13
+! Last Modified: 10:59 AM 2018-08-14
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -2101,14 +2101,18 @@ cltampa.com##header > .container
 clyp.it##.fixed-banner
 clyp.it##.fixed-header:style(position: relative !important; top: 0 !important;)
 cmegroup.com##.header-par.cmePineappleHeader:style(position: absolute !important;)
-cmlviz.com##.floating_footer_height.close_news_floating_footer
-cmlviz.com##.floating_footer_height.news_floating_footer
+cmlviz.com##.news_floating_footer
 cnbc.com###GlobalNavigation:style(position: absolute !important;)
 cnbc.com###cnbc-new-header:style(position: relative !important; top: 0 !important;)
 cnbc.com###nav_spacer:style(height: 0 !important;)
 cnbc.com##.AppCnbcPhoenix .SearchToggle-button span:style(transition: none !important; opacity: 1 !important;)
 cnbc.com##.AppCnbcPhoenix .account-menu-editionMenuSticky:style(transform: none !important; transition: none !important;)
 cnbc.com##.AppCnbcPhoenix .branding-menu-brandingMenuSticky:style(opacity: 1 !important;)
+cnbc.com##.AppCnbcPhoenix .nav-menu-navMenu:style(height: 25px !important; transition: none !important; top: 44px !important; padding-bottom: 14px !important;)
+cnbc.com##.SearchToggle-buttonSticky:style(height: 37px !important;)
+cnbc.com##.Sidebar-wrapperSticky:style(position: absolute !important;)
+cnbc.com##.account-menu-editionMenuSticky:style(transform: none !important;)
+cnbc.com##.branding-menu-brandingMenuSticky:style(opacity: 1 !important;)
 cnbc.com##.cnbc-card.cnbc-end:style(position: relative !important; top: 0 !important;)
 cnbc.com##.cnbc-menu:style(position: relative !important; top: 0 !important; height: 30px !important;)
 cnbc.com##.fixedPosition.ng-scope.pageHeader:style(position: absolute !important;)
@@ -2117,13 +2121,13 @@ cnbc.com##.icon-search:before:style(font-size: 20px !important;)
 cnbc.com##.icon-search:style(height: 20px !important; right: 10px !important;)
 cnbc.com##.main-header-nav:style(position: relative !important; top: 0 !important;)
 cnbc.com##.nav-menu-mainLinks:style(transform: none !important; transition: none !important;)
-cnbc.com##.nav-menu-navMenu:style(transition: none !important; top: 44px !important; width: 100% !important; padding-left: 0 !important;)
 cnbc.com##.news-widget
 cnbc.com##.searchToggler.SearchToggle-button:style(transform: none !important; transition: none !important;)
 cnbc.com##.story-header-right
 cnbc.com##.sub-header
 cnbc.com##.theplatform-video__docked.dockable.player-lazy-loaded-mobile:style(position: relative !important; top: 0 !important;)
 cnbc.com##.wildcard.embed-container
+cnbc.com##html:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 cnet.com###page-header:style(position: relative !important; top: 0 !important;)
 cnet.com###rbHeader:style(position: relative !important; top: 0 !important;)
 cnet.com###rbWrapper:style(padding-top: 0 !important;)
@@ -6641,7 +6645,19 @@ mirror.co.uk##.side-sharebar:style(position: absolute !important;)
 mirror.co.uk##body:style(margin-top: 0 !important; overflow-x: hidden !important; overflow-y: auto !important;)
 mises.org###text-resizer
 mit.edu###site-header-area-wrapper:style(position: relative !important;)
+mit.edu###site-header:style(position: absolute !important; transition: none !important; height: 74px !important;)
+mit.edu##.main-menu.nav-trigger > span:style(opacity: 1 !important; top: 42px !important; transition: none !important; font-size: 13px !important; left: 1px !important; line-height: 16px !important;)
 mit.edu##.navbar:style(position: absolute !important;)
+mit.edu##.secondary-bar:style(position: absolute !important; transition: none !important;)
+mit.edu##.secondary-nav-trigger:after:style(top: 30px !important;)
+mit.edu##.secondary-nav-trigger:style(transition: none !important; height: 74px !important; line-height: 74px !important;)
+mit.edu##.site-banner .nav-logo img:style(transition: none !important; width: 181px !important; height: auto !important; line-height: 74px !important;)
+mit.edu##.site-banner.scrolled-top .site-navigation .login-button, .site-banner.scrolled-top .site-navigation .search-trigger, .site-banner.scrolled-top .site-navigation .store-button, .site-banner.scrolled-top .site-navigation .utility-menu:style(transition: none !important; height: 74px !important; line-height: 74px !important;)
+mit.edu##.site-navigation .main-menu i:style(font-size: 36px !important; top: 12px !important; left: 1px !important; transition: none !important;)
+mit.edu##.site-navigation button:style(height 74px !important; line-height: 74px !important; transition: none !important;)
+mit.edu##.site-navigation:style(transition: none !important; height: 74px !important; line-height: 74px !important;)
+mit.edu##.subscribe-button
+mit.edu##.utility-menu:style(transition: none !important; height: 74px !important; line-height: 74px !important;)
 miui.com###ft:style(position: relative !important;)
 miui.com###nv_fixed:style(position: relative !important;)
 mix.com##.LandingHeader:style(position: absolute !important; background-color: transparent !important;)
@@ -9326,6 +9342,7 @@ seattletimes.com##body:style(padding-top: 0 !important;)
 sec-consult.com##.nav-growpop
 secapps.com##.nav.header:style(position: absolute !important;)
 seccountry.com##.cm-ad-block
+secjuice.com##.floating-active.floating-header
 secondnexus.com##.cnsmbl-container-320x50-ads
 securelist.com###masthead:style(position: relative !important;)
 securitiesanalytics.com##.tc-header:style(position: relative !important;)
