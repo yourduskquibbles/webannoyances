@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 1:49 PM 2018-08-21
+! Last Modified: 2:49 PM 2018-08-21
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -267,8 +267,17 @@ abc7chicago.com##body:style(padding-top: 0 !important;)
 abc7news.com###feature-container:style(position: relative !important; top: 0 !important;)
 abc7news.com##.sticky.wrapper.nav-container-sticky:style(position: relative !important; top: 0 !important;)
 abc7news.com##body:style(padding-top: 0 !important;)
-abc7ny.com###feature-container:style(position: relative !important; top: 0 !important;)
+abc7ny.com###feature-container, #feature-header-container:style(position: relative !important; top: 0 !important; transition: none !important; height: 5em !important; width: 100% !important;)
+abc7ny.com###feature-container.fixed .feature-nav-local, #feature-container.fixed .feature-search-container:style(display: inline-block !important;)
+abc7ny.com###feature-container.fixed .weather-desktop:style(text-align: center !important; vertical-align: top !important;)
+abc7ny.com###feature-header-left:style(transition: none !important; position: relative !important; margin-top: 0 !important;)
+abc7ny.com###feature-header-right:style(margin-right: 0 !important; line-height: 1 !important;)
 abc7ny.com##.ad
+abc7ny.com##.feature-action:style(margin-top: -12px !important; transition: none !important; left: 376px !important; transform: none !important)
+abc7ny.com##.feature-logo .lrg-logo:style(top: 14px !important; width: 282px !important; opacity: 1 !important; transition: none !important;)
+abc7ny.com##.feature-logo .sml-logo
+abc7ny.com##.feature-menu:style(margin-top: 18px !important;)
+abc7ny.com##.feature-nav-local, #feature-container.fixed .feature-search-container:style(display: inline-block !important; opacity: 1 !important; transition: none !important;)
 abc7ny.com##.nav-background
 abc7ny.com##.sticky.wrapper.nav-container-sticky:style(position: relative !important; top: 0 !important;)
 abc7ny.com##body:style(padding-top: 0 !important;)
