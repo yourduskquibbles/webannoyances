@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:20 PM 2018-08-21
+! Last Modified: 1:49 PM 2018-08-21
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -7300,7 +7300,9 @@ nbcsandiego.com##.header:style(position: relative !important; top: 0 !important;
 nbcsandiego.com##.quick-nav:style(position: relative !important; top: 0 !important;)
 nbcsandiego.com##.stickyNav.navbar:style(position: relative !important; top: 0 !important;)
 nbcsports.com###nbcsports-primary-nav:style(position: absolute !important;)
-nbcsports.com##.sticky.nbcsports-video-wrapper:style(position: static !important;)
+nbcsports.com##.dockable.video-thumbnail.index-post-thumbnail:style(padding-bottom: 56.25% !important;)
+nbcsports.com##.nbcsports-video:style(position: absolute !important; height: 100% !important; width: 100% !important;)
+nbcsports.com##.sticky.nbcsports-video-wrapper:style(position: static !important; transform: none !important; transition: none !important;)
 nbcsports.com##.upper-ad-module
 nbcwashington.com##.News.nav-section > .subnav-large-container:style(margin-top: 0 !important;)
 nbcwashington.com##.ad-unit-160.ad.module.homepage-module.module-1
