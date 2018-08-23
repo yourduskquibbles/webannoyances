@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 2:35 PM 2018-08-23
+! Last Modified: 3:06 PM 2018-08-23
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -12117,7 +12117,8 @@ washingtontimes.com##.main-nav-scrolled.globalheader_container:style(position: r
 washingtontimes.com##.pg-widget-container
 washingtontimes.com##.right
 washingtontimes.com##.spnf_open.spnf_visible.spnf_newsfeed-module.spot-im-newsfeed-module
-washingtontimes.com##body:style(padding-top: 0 !important;)
+washingtontimes.com##body:style(padding-top: 0 !important; transform: none !important;)
+washingtontimes.com##script:inject(abort-on-property-read.js, Date.now)
 washingtontimesreporter.com###article-storyStrip:style(position: relative !important; top: 0 !important;)
 washingtontimesreporter.com###toprail:style(position: absolute !important;)
 wasserhelden.net##.main-menu-wrap:style(position: absolute !important;)
