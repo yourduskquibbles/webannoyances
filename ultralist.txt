@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 6:45 PM 2018-08-23
+! Last Modified: 9:31 AM 2018-08-24
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -16,6 +16,7 @@
 ! End Web Annoyances Ultralist Sublists
 
 ! Start Web Annoyances Ultralist - Main Filters
+01.org##.o-header:style(position: absolute !important;)
 100percentfedup.com##.menu-header-menu-container-add:style(position: absolute !important;)
 100percentfedup.com##.td-affix.td-header-main-menu.td-header-border.td-header-row:style(position: relative !important; top: 0 !important;)
 100percentfedup.com##.td-header-style-8.td-header-wrap:style(position: relative !important; top: 0 !important;)
@@ -1597,6 +1598,7 @@ buzzfeed.com##.sidebar-sticky-padding--preceding
 buzzfeed.com##.sticky-filler
 buzzfeed.com##:xpath(.//*[@data-module="action-bar-subbuzz"])
 buzzfeed.com##body:style(overflow-x: hidden !important; overflow-y: scroll !important;)
+buzzfeednews.com##.ad-bfnews-sidebar
 buzzfeednews.com##.sm-block.xs-hide.sticky-placeholder
 bytecoin.org##.header:style(position: absolute !important;)
 bythewavs.com##.nav-primary:style(position: relative !important; top: 0 !important;)
