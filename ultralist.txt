@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 9:21 AM 2018-08-29
+! Last Modified: 9:28 AM 2018-08-29
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -1199,10 +1199,10 @@ bittrex.com##body::-webkit-scrollbar-thumb:style(background-color: #bbb !importa
 bittrex.com##body::-webkit-scrollbar:style(width: 10px !important;)
 bizjournals.com###boundary-2__sticker-0 > .sm-only__expander.xs-only__expander
 bizjournals.com###tour-prompt.prompt.prompt--full-width
+bizjournals.com##+js(set-constant.js, __page__.isPremium, false)
 bizjournals.com##.clearfix.infinite-links-chunk
 bizjournals.com##.hidden--print.hidden--sm.hidden--xs.container--wide.container
 bizjournals.com##.prompt__content
-bizjournals.com##script:inject(set-constant.js, __page__.isPremium, false)
 blackfridayhits.com###float-posts-nav
 blackfridayhits.com##.white_style.rh-stickme.main-nav.search-form-inheader
 blacklistednews.com##.navbar-fixed-top.no-border-radius.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
@@ -2697,6 +2697,7 @@ dailymail.co.uk###nav-check
 dailymail.co.uk###smartBanner
 dailymail.co.uk###swipeIndicator
 dailymail.co.uk###textShare
+dailymail.co.uk##+js(addEventListener-defuser.js, scroll, getVerticalOffset)
 dailymail.co.uk##.bdrcc.rotator
 dailymail.co.uk##.billboard_wrapper
 dailymail.co.uk##.copyToClipboard
@@ -2715,7 +2716,6 @@ dailymail.co.uk##.nextBtn-3HPLH
 dailymail.co.uk##.previousBtn-2T0ps
 dailymail.co.uk##.previousBtn-aTtQv
 dailymail.co.uk##.scrollable-content:style(overflow-x: hidden !important; overflow-y: auto !important; height: auto !important; padding-top: 0 !important; margin-top: 0 !important;)
-dailymail.co.uk##script:inject(addEventListener-defuser.js, scroll, getVerticalOffset)
 dailymotion.com##.Header__container___-9nBG:style(position: absolute !important;)
 dailypress.com###app-bar-sticky:style(position: relative !important;)
 dailypress.com##.trb_nh:style(position: absolute !important; transform: none !important;)
@@ -5494,7 +5494,7 @@ kaspersky.com##body:style(padding-top: 0 !important;)
 katu.com##.sd-news-main-sidebar-middle:style(position: relative !important; top: 0 !important;)
 katu.com##.v2.sd-header-wrapper:style(position: absolute !important; top: 0 !important;)
 kaufda.de##.drawer.shelf-layout-header.layout-head-drawer
-kbb.com##script:inject(abort-on-property-read.js, KBB.DataLayer)
+kbb.com##+js(abort-on-property-read.js, KBB.DataLayer)
 kcci.com##.slim.header:style(position: absolute !important;)
 kcentv.com##.ad
 kcentv.com##.desktop-header__inner:style(padding: 25px 30px !important;)
@@ -9012,6 +9012,7 @@ reddit.com###header:style(position: relative !important;)
 reddit.com###jumpToContent
 reddit.com###sr-header-area:style(position: relative !important; width: 100% !important;)
 reddit.com###uapp-banner
+reddit.com##+js(set-constant.js,isPinned,true)
 reddit.com##.ChiRv.s1mq8742-0:style(position: absolute !important;)
 reddit.com##.EsNOq.s18iqatn-2:style(margin-top: 0 !important;)
 reddit.com##.KglWz:style(position: relative !important;)
@@ -9050,7 +9051,6 @@ reddit.com##.zh2mq5-2
 reddit.com##body::before:style(position: relative !important; height: 0 !important;)
 reddit.com##header:style(position: absolute !important;)
 reddit.com##ol:style(position: relative !important;)
-reddit.com##script:inject(set-constant.js,isPinned,true)
 redditgifts.com##.js-header-main.header-main:style(position: absolute !important;)
 redfin.com##.header-main:style(position: absolute !important;)
 redfin.com##.header-postbar
@@ -11183,7 +11183,6 @@ thewhiskeywash.com##.clearfix.bh:style(position: relative !important;)
 thewhiskeywash.com##.fff.fln
 thewhiskeywash.com##.sticky-wrapper:style(position: relative !important; top: 0 !important;)
 thewindowsclub.com##CENTER
-thewindowsclub.com##script:inject(setTimeout-defuser)
 thewire.com##.header:style(position: relative !important; top: 0 !important;)
 thewirecutter.com##.ad-728x90
 thewirecutter.com##.desktop-header-wrap:style(height: 126px !important; transition: none !important; background-color: #f9f9f9 !important;)
@@ -12158,6 +12157,7 @@ washingtontimes.com###feedbackify
 washingtontimes.com###info-bar
 washingtontimes.com###masthead:style(position: relative !important; top: 0 !important;)
 washingtontimes.com###message
+washingtontimes.com##+js(abort-on-property-read.js, Date.now)
 washingtontimes.com##.contributionbox
 washingtontimes.com##.footer
 washingtontimes.com##.full.mb.min.left
@@ -12167,7 +12167,6 @@ washingtontimes.com##.pg-widget-container
 washingtontimes.com##.right
 washingtontimes.com##.spnf_open.spnf_visible.spnf_newsfeed-module.spot-im-newsfeed-module
 washingtontimes.com##body:style(padding-top: 0 !important; transform: none !important;)
-washingtontimes.com##script:inject(abort-on-property-read.js, Date.now)
 washingtontimesreporter.com###article-storyStrip:style(position: relative !important; top: 0 !important;)
 washingtontimesreporter.com###toprail:style(position: absolute !important;)
 wasserhelden.net##.main-menu-wrap:style(position: absolute !important;)
