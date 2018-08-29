@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 2:29 PM 2018-08-29
+! Last Modified: 4:20 PM 2018-08-29
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -17,6 +17,8 @@
 
 ! Start Web Annoyances Ultralist - Main Filters
 01.org##.o-header:style(position: absolute !important;)
+1001tracklists.com###contentRoot:style(padding-top: 0 !important;)
+1001tracklists.com###fixTop:style(position: relative !important; top: 0 !important;)
 100percentfedup.com##.menu-header-menu-container-add:style(position: absolute !important;)
 100percentfedup.com##.td-affix.td-header-main-menu.td-header-border.td-header-row:style(position: relative !important; top: 0 !important;)
 100percentfedup.com##.td-header-style-8.td-header-wrap:style(position: relative !important; top: 0 !important;)
@@ -1038,6 +1040,8 @@ bestproducts.com###sticky-wrap:style(position: relative !important;)
 bestproducts.com##.nav:style(transition: none !important; position: relative !important; max-width: 100% !important; left: 0 !important; right: 0 !important; top: 0 !important; margin: 0 auto !important;)
 bestride.com##.navbar:style(position: absolute !important;)
 bestvpn.com##.main-header:style(position: absolute !important;)
+bestvpnrating.com##.header-wrapper:style(position: absolute !important;)
+bestvpnrating.com##.under_header_menu:style(position: absolute !important;)
 bet.com###moments__sticky__icon
 bet.com##.asset_balaNotification--open
 bet.com##.header__nav__bar:style(position: relative !important;)
@@ -2331,6 +2335,7 @@ crowdstrike.com##.pageStickyFooterText
 crunchbase.com##chrome:style(height: 1000% !important;)
 crunchsmag.com##.td-affix.td-header-gradient.td-header-menu-wrap:style(position: relative !important;)
 crunchsmag.com##.td-front-end-display-block.td-more-articles-box
+cryptbin.com###top-bar:style(position: absolute !important;)
 crypto-loot.com##.nav-menu:style(position: absolute !important;)
 cryptocoincharts.info##.navbar:style(position: relative !important;)
 cryptocoinsnews.com##.headroom--pinned.headroom--not-top.headroom.mini-bar
@@ -2458,7 +2463,7 @@ dailymail.co.uk##.nextBtn-3HPLH
 dailymail.co.uk##.previousBtn-2T0ps
 dailymail.co.uk##.previousBtn-aTtQv
 dailymail.co.uk##.scrollable-content:style(overflow-x: hidden !important; overflow-y: auto !important; height: auto !important; padding-top: 0 !important; margin-top: 0 !important;)
-dailymotion.com##.Header__container___-9nBG:style(position: absolute !important;)
+dailymotion.com##.Header__container___-9nBG:style(position: relative !important;)
 dailypress.com###app-bar-sticky:style(position: relative !important;)
 dailypress.com##.trb_nh:style(position: absolute !important; transform: none !important;)
 dailyrecord.co.uk##.publication-theme-highlight.primary:style(position: relative !important; top: 0 !important;)
@@ -2691,6 +2696,7 @@ disabilitysecrets.com###nGageLH
 disabilitysecrets.com##.liveChatFloatingButton
 disabilitysecrets.com##.ngageMobileFloat:style(position: absolute !important;)
 discord.me##header:style(position: absolute !important;)
+discordservers.com##._620d-_has-shadow.F8RQC_is-fixed-top._1gaW0_navbar._3AxUE_header:style(position: absolute !important;)
 discounttire.com##header:style(position: relative !important;)
 discourse.pi-hole.net##.clearfix.d-header:style(position: relative !important; top: 0 !important;)
 discover.com###deals-nav > .inner:style(position: relative !important; top: 0 !important;)
@@ -3785,6 +3791,7 @@ giphy.com##._2DQ6bb_5EegbjC94MyCFMc:style(position: absolute !important;)
 gitbook.com##.sticky:style(position: relative !important;)
 github.com##.UnderlineNav.user-profile-nav.top-0.is-placeholder
 github.com##.is-stuck.js-sticky-offset-scroll.js-sticky.pr-toolbar:style(position: relative !important;)
+github.com##.is-stuck.overflow-auto.js-sticky.dashboard-sidebar:style(position: absolute !important;)
 github.com##.pr-toolbar-shadow
 github.com##.user-profile-nav:style(position: relative !important;)
 github.com##.user-profile-sticky-bar.is-stuck
@@ -4415,6 +4422,8 @@ icd10coded.com##.navbar:style(position: absolute !important;)
 icims.com###block-menu-menu-quick-nav:style(position: absolute !important;)
 icims.com##.page_header:style(position: absolute !important;)
 icims.com##.sticky-container:style(position: absolute !important;)
+icon-park.com###footercontainer:style(position: relative !important; bottom: 0 !important;)
+icon-park.com###header:style(position: absolute !important;)
 idahonews.com##.sd-news-main-sidebar-middle:style(position: relative !important; top: 0 !important;)
 idahonews.com##.v2.sd-header-wrapper:style(position: absolute !important; top: 0 !important;)
 idahostatejournal.com###site-navbar-container:style(position: relative !important; top: 0 !important;)
@@ -5974,6 +5983,7 @@ mirror.co.uk##.publication-theme-highlight.primary:style(position: relative !imp
 mirror.co.uk##.secondary:style(position: relative !important; top: 0 !important;)
 mirror.co.uk##.side-sharebar:style(position: absolute !important;)
 mirror.co.uk##body:style(margin-top: 0 !important; overflow-x: hidden !important; overflow-y: auto !important;)
+mirrorace.com##.uk-sticky:style(position: absolute !important;)
 mises.org###text-resizer
 mit.edu###site-header-area-wrapper:style(position: relative !important;)
 mit.edu###site-header:style(position: absolute !important; transition: none !important; height: 74px !important;)
@@ -6408,6 +6418,9 @@ nationaleconomicseditorial.com##.wp-image-851.size-full.alignnone
 nationalenquirer.com###main-header:style(position: relative !important; top: 0 !important;)
 nationalgeographic.com###StickyBoxAd
 nationalgeographic.com###header-ad
+nationalgeographic.com##.CTAButton_ctaButton_3xuMB:style(position: absolute !important; opacity: 1 !important; animation: none !important;)
+nationalgeographic.com##.Header_container_3Mm30 .headroom:style(background-color: rgba(0,0,0,.3) !important;)
+nationalgeographic.com##.Header_container_3Mm30:style(position: absolute !important; background-color: transparent !important;)
 nationalgeographic.com##.ad-holder
 nationalgeographic.com##.ng-top-nav__anchor
 nationalgeographic.com##.section.textOnly
@@ -8245,6 +8258,7 @@ romper.com##.e
 ronpaullibertyreport.com###header:style(position: relative !important; top: 0 !important;)
 rookiemoms.com###genesis-nav-primary:style(position: absolute !important;)
 rookiemoms.com##.top.nc_wrapper
+rootreport.com##.site-header:style(position: absolute !important;)
 rootupdate.com###sticky_header
 rotoballer.com###ifc-2
 rotoballer.com##.mobile-nav:style(position: absolute !important;)
