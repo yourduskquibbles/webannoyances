@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 1:05 PM 2018-09-02
+! Last Modified: 3:49 PM 2018-09-25
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -223,6 +223,7 @@ daveramsey.com##body:style(overflow-x: hidden !important; overflow-y: scroll !im
 dccouncil.us###openModal
 dccouncil.us##.modal-backdrop
 decider.com###nyp-newsletter-modal
+defenseone.com##body:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 democracynow.org###campaign_modal
 democracynow.org###overlay
 democracynow.org##.not_scroll.body_wrapper:style(overflow-x: hidden !important; overflow-y: scroll !important;)
@@ -266,6 +267,8 @@ eastbaytimes.com##html:style(overflow-x: hidden !important; overflow-y: scroll !
 eastidahonews.com##.jDialog.fa-stack
 economist.com###piano-exit-pop-up
 economist.com##.modal
+ehow.com##.fancybox-overlay
+ehow.com##body:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 el-nation.com##.mfp-bg
 el-nation.com##.mfp-wrap
 electionado.com##.gt-detailcanvas-pos.k-takemeback-bx
@@ -331,6 +334,8 @@ futurism.com###subscribe-modal
 galoremag.com##.modal
 gamedev.net###elGuestTerms
 gamedev.net##.ipsDialog
+gardensalive.com##.reveal-modal
+gardensalive.com##.reveal-modal-bg
 gardenweb.com##.modal-backdrop
 gardenweb.com##.modal-padding
 gatesnotes.com###cboxContent
@@ -531,6 +536,7 @@ narrative.ly##.modal-overlay
 natashaskitchen.com###cboxOverlay
 natashaskitchen.com###colorbox
 nationalgeographic.com###privacy-policy-popup
+nationalinterest.org###sliding-popup
 nationalreview.com###cboxWrapper
 nationalreview.com###colorbox
 natlawreview.com##.simplemodal-container
@@ -745,6 +751,8 @@ slickdeals.net##.sdModalOverlay
 slickdeals.net##body:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 smithsonianstore.com###fancybox-overlay
 smithsonianstore.com###fancybox-wrap
+softpedia.com###bottombubble
+softpedia.com###spsbtns
 sophos.com##.newsletter-panel
 sophos.com##body:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 space.com###ec-popup-modal
@@ -758,6 +766,7 @@ spiegel.de##.sticky-overlay
 splendidtable.org###cboxContent
 splendidtable.org###cboxOverlay
 splinternews.com##body:style(overflow-x: hidden !important; overflow-y: scroll !important;)
+spreadsheeto.com##.tl-anim-make_way.tl-states-root
 sputniknews.com##.global-fade
 sputniknews.com##.modal-window
 staples.com###popupwin
@@ -781,6 +790,7 @@ taskandpurpose.com##.tp-oim-inline-background
 technochops.com###sgcboxContent
 technochops.com###sgcboxOverlay
 techwalla.com##.modal-backdrop
+techwalla.com##html:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 theadvocate.com##.popover-content
 theaustralian.com.au##.mm-reveal.account-lightbox
 thebaffler.com###boxzilla-overlay
@@ -805,6 +815,8 @@ thehill.com##.preloaded_lightbox
 thehindu.com###moe-push-div
 thehindu.com###storyNextPopUp
 thehindu.com##.pushpopup
+thehindubusinessline.com##.modal-content
+thehindubusinessline.com##.overlay
 thehomesecuritysuperstore.com###popupmsg
 theintell.com##.tp-backdrop
 theintell.com##.tp-modal
@@ -944,6 +956,8 @@ wish.com##.ui-popup-container
 wish.com##.ui-popup-screen
 wnyt.com##.preloaded_lightbox
 wolframalpha.com##.pro-popup
+woot.com##.app_gdpr--2k2uB
+woot.com##.popup
 wsbeacon.com##.customPopUp
 wvva.com###pojo-a11y-toolbar
 yahoo.com##.cta-overlay
@@ -958,5 +972,4 @@ zdnet.com###offerContainer-e651d1b3
 zdnet.com##.preloaded_lightbox
 zendesk.com###ouibounce-modal
 zenmate.com##.zm-crm-overlay
-||lightboxcdn.com^$script,domain=wnyt.com
 ||stacklist.com/*/subscribe-modal
