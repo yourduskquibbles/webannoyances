@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 1:55 PM 2018-09-28
+! Last Modified: 2:58 PM 2018-09-28
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -3227,6 +3227,8 @@ f-secure.com##.fixed:style(position: relative !important; top: 0 !important;)
 f-secure.com##.teaser-top:style(position: relative !important; top: 0 !important;)
 f-secure.com##header:style(position: relative !important; top: 0 !important;)
 f169bbs.com###topbox:style(position: relative  !important;)
+facebook.com###browse_lhc_container:style(position: relative !important; top: 0 !important;)
+facebook.com###content > div > ._lwx:style(position: absolute !important; padding-bottom: 10px !important;)
 facebook.com###js_10:style(position: absolute !important;)
 facebook.com###pagelet_growth_expanding_cta
 facebook.com###stream_pagelet div[id^="feed_stream_"] div[id^="substream_"] div[id^="hyperfeed_story_id_"]:has(a.uiStreamSponsoredLink)
@@ -3238,20 +3240,26 @@ facebook.com###u_0_1u:style(position: relative !important;)
 facebook.com###u_0_29:style(position: relative !important;)
 facebook.com###u_0_g:style(position: relative !important;)
 facebook.com###u_0_s:style(position: relative !important; top: 0 !important;)
-facebook.com###u_0_t:style(top: 0 !important;)
+facebook.com###u_0_t:style(position: absolute !important; top: 0 !important;)
+facebook.com###u_0_u > ._5vx4._5vx2 > .clearfix._5vx7 > .lfloat._ohe > ._4470._43o4:style(background-color: #fff !important;)
+facebook.com###u_0_v:style(position: relative !important; top: 0 !important;)
+facebook.com###u_0_w:style(position: relative !important; top: 0 !important;)
 facebook.com###u_fetchstream_2_0:style(position: relative !important;)
 facebook.com##._11gk
 facebook.com##._1n-x._8k-._3m9:style(position: absolute !important;)
 facebook.com##._2avl
+facebook.com##._2yq ._4-u2:before:style(border: none !important;)
+facebook.com##._2yq ._5sqx._5sqx:style(position: absolute !important; top: 0 !important;)
 facebook.com##._4oes:style(position: relative !important;)
 facebook.com##._50ti:style(position: relative !important;)
 facebook.com##._5ss8:style(left: auto !important; top: 0 !important;)
 facebook.com##._5zrt._2x4w:style(position: relative !important; top: 0 !important;)
-facebook.com##._lwx > div:style(position: relative !important;)
 facebook.com##.canvas_rating_popout
+facebook.com##.fbChatSidebarBody:style(height: 100% !important;)
 facebook.com##.fbTimelineStickyHeader
 facebook.com##.fixed_always:style(position: absolute !important;)
 facebook.com##.fixed_elem:style(position: absolute !important;)
+facebook.com##.pbm.clearfix:style(padding-top: 53px !important;)
 facebook.com##:xpath(.//*[@data-games-xout-query-type="gyml-recommended"])
 facebook.com##:xpath(//*/a[@class='uiStreamSponsoredLink']/ancestor::div[contains(concat(' ',normalize-space(@id),' '),'hyperfeed_story_id_')])
 facebook.com##:xpath(//div[@id="stream_pagelet"]//div[starts-with(@id,"hyperfeed_story_id_")][.//h6//span/text()="Sponsored"])
