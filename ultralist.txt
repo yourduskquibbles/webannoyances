@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 1:42 PM 2018-10-01
+! Last Modified: 2:42 PM 2018-10-01
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -2713,6 +2713,7 @@ diginomica.com##.footer-bar
 digitaljournal.com###header:style(position: relative !important; top: 0 !important;)
 digitaljournal.com##body > div:nth-of-type(5) > div > div:style(position: relative !important; top: 0 !important;)
 digitalmusicnews.com##.clearfix.cb-top-menu-wrap.wrap:style(position: absolute !important;)
+digitalocean.com##.Page-header:style(position: absolute !important;)
 digitalocean.com##.affix.TutorialBar:style(position: relative !important;)
 digitalocean.com##.content-has-mobile-image.Tutorial-content.content.section-content-growable.section-content:style(margin-top: 0 !important;)
 digitalocean.com##.is-fixed.UnifiedNav--transparent.UnifiedNav:style(position: absolute !important;)
@@ -4929,6 +4930,10 @@ jet.com###nav:style(position: absolute !important;)
 jetbrains.com##._fixed.header-secondary.js-header-secondary:style(position: absolute !important;)
 jetbrains.com##.js-banner-body-wrapper.banner__body
 jezebel.com##.global-nav.fixed:style(position: absolute !important;)
+jhu.edu##.section.nav.global-nav:style(position: absolute !important;)
+jhu.edu##.stuck.force.section.social:style(position: absolute !important; padding-top: 0 !important;)
+jhu.edu##.stuck.section.related-content:style(position: absolute !important; top: 99.7px !important;)
+jhu.edu##.unstuck.section.related-content:style(top: 99.7px !important;)
 jjie.org##.show.nav_overflow_label.sticky_nav_display.sticky-nav-holder:style(position: absolute !important;)
 joc.com###navbar:style(position: absolute !important;)
 joinhoney.com###content > div > div > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1):style(position: relative !important; top: 0 !important;)
@@ -5998,7 +6003,8 @@ messynessychic.com###sticky-menu
 metacritic.com###primary_baby_menu_movies
 metacritic.com###video_holder_wrapper:style(position: static !important;)
 metafilter.com##.headroom--pinned.headroom--not-top.headroom.logo-and-primary-nav:style(position: relative !important; top: 0 !important;)
-metafilter.com##.visible.fixed.site-header:style(position: relative !important; top: 0 !important;)
+metafilter.com##.visible.fixed.site-header:style(position: relative !important; top: 0 !important; transform: none !important; transition: none !important;)
+metafilter.com##html:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 metro.co.uk###masthead:style(position: relative !important; top: 0 !important;)
 metro.co.uk###we-need-monies
 metro.co.uk##.fixed-element-widget-top.is-visible:style(position: relative !important; top: 0 !important;)
@@ -8726,6 +8732,7 @@ skunity.com###uix_jumpToFixed
 skunity.com##.sticky_wrapper:style(position: absolute !important;)
 sky.com###breaking_news_ticker
 sky.com##.sdc-news-footer__list--social.sdc-news-footer__list
+slack.com##.is-fixed.c-nav--primary.c-nav:style(position: absolute !important;)
 slack.help###nav_list:style(position: absolute !important;)
 slack.help##.category_header.header_white.header:style(position: absolute !important;)
 slackhq.com##.js-metabar:style(position: absolute !important;)
