@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 9:47 AM 2018-09-28
+! Last Modified: 9:37 AM 2018-10-01
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -33,6 +33,9 @@ africacheck.org##html:style(overflow-x: hidden !important; overflow-y: scroll !i
 aftenposten.no##.widget.relatedContents.flyout.noPrint.active.instantiated
 alabamanews.net###popmake-overlay
 alabamanews.net##.popmake
+alexa.com##.in.fade.hide.modal
+alexa.com##.in.fade.modal-backdrop
+alexa.com##html:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 aliexpress.com##.ms-lego-dialog
 aliexpress.com##.ui-mask
 aliexpress.com##.ui-newuser-layer-dialog.ui-window-transition.ui-window-normal.ui-window
@@ -323,7 +326,11 @@ foreignpolicy.com###paywall_bg
 foreignpolicy.com##.js-takeover
 foreignpolicy.com##body:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 forums.xfinity.com##.lia-panel-dialog-modal-simple
+forzieri.com##.mfp-bg
+forzieri.com##.mfp-wrap
+forzieri.com##html:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 foxnews.com###janrainModalOverlay
+fratellirossetti.com###cookie_warning
 freedomnode.com###overlay
 freedomnode.com##body.stop-scrolling:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 freshideen.com###embed_popup_cont
@@ -349,6 +356,7 @@ geniuskitchen.com###gigya-screen-dialog-page-overlay
 geniuskitchen.com##html:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 geniuspack.com##.fancybox-overlay-fixed.fancybox-overlay
 geopoliticalfutures.com##.modal-container
+gettyimages.fi###euCookieDialog
 getweeklyupdate.com##.modal
 getweeklyupdate.com##.modal-backdrop
 getweeklyupdate.com##body:style(overflow-x: hidden !important; overflow-y: scroll !important;)
@@ -736,6 +744,7 @@ searchenginewatch.com##.modal
 searchenginewatch.com##.modal-backdrop
 searchenginewatch.com##html:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 seatgeek.com##.seatgeek-lightbox-background
+seattletimes.com###container:style(filter: none !important;)
 seattletimes.com##.modal
 seattletimes.com##.modals
 sec.gov##.acsModalBackdrop
@@ -957,6 +966,8 @@ wilton.com##.popup-overlay
 wish.com##.disable-touch-background
 wish.com##.ui-popup-container
 wish.com##.ui-popup-screen
+wnd.com###rev-corner-button-container
+wnd.com##.preloaded_lightbox
 wnyt.com##.preloaded_lightbox
 wolframalpha.com##.pro-popup
 woot.com##.app_gdpr--2k2uB
