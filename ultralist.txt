@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:12 PM 2018-10-02
+! Last Modified: 1:54 PM 2018-10-02
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -7854,6 +7854,7 @@ pressdemocrat.com##.mobile-adhesion-ad
 pressherald.com###pos_f_320x50
 pressherald.com##.main-navigation:style(position: relative !important; top: 0 !important;)
 pressherald.com##.paywall-callout
+pressherald.com##.story-head:style(margin-top: 0 !important;)
 pressmentor.com###article-storyStrip:style(position: relative !important; top: 0 !important;)
 pressmentor.com###toprail:style(position: absolute !important;)
 presstelegram.com##.article.toolbar:style(position: relative !important; top: 0 !important;)
@@ -11132,11 +11133,15 @@ weeklycitizen.com###article-storyStrip:style(position: relative !important; top:
 weeklycitizen.com###toprail:style(position: absolute !important;)
 weeklystandard.com###header:style(position: relative !important; top: 0 !important; margin-top: 0 !important;)
 weeklystandard.com###supernav
-weeklystandard.com##.FixedHeader.Page-header:style(position: relative !important;)
+weeklystandard.com##.FixedHeader.Page-header:style(position: relative !important; box-shadow: none !important;)
 weeklystandard.com##.Page-header-articleHeader
 weeklystandard.com##.Page-header-contents-navSearchSocial:style(padding-left: 17px !important; margin: 0 !important;)
+weeklystandard.com##.Page-header-contents:style(margin-right: 50px !important; border: none !important;)
+weeklystandard.com##.Page-header-openSideNav:style(border-bottom: 1px solid #dcddde !important; height: 39px !important;)
+weeklystandard.com##.Page-header:style(background-color: #fff !important; border: 1px solid #dcddde !important;)
 weeklystandard.com##.Page-navigation-mobile:style(position: absolute !important;)
-weeklystandard.com##.PageLogo-image:style(content: none !important;)
+weeklystandard.com##.Page-navigation:style(display: block !important;)
+weeklystandard.com##.PageLogo-image:style(content: none !important; height: 35px !important;)
 weeklystandard.com##.ad
 weeklystandard.com##.advertisement
 weeklystandard.com##.block.form.widget
