@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:40 AM 2018-10-03
+! Last Modified: 10:11 PM 2018-10-03
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -58,6 +58,7 @@ asp-usa.com###pixelpop
 astronomy.com###wp-popup-2302039
 astronomy.com##.wpcss-close-popup
 atavist.com##.notification-overlay
+atavist.com##.paywall-notification-visible:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 atlasobscura.com###email-roadblock-topographic-modal
 atlasobscura.com###facebook-topographic-modal
 atlasobscura.com###gastro-email-roadblock-modal
@@ -169,6 +170,7 @@ cigarinspector.com##html:style(overflow-x: hidden !important; overflow-y: scroll
 cigarmonster.com###emailsignupmodalblackglass
 cigarsinternational.com###sweepstakes-popup
 cinemablend.com##.preloaded_lightbox
+cisco.com##.explicit_consent.privacy_prompt
 citylab.com###blocker-msg-start
 citylab.com##html:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 cjr.org###interContainer
@@ -365,6 +367,7 @@ gettyimages.fi###euCookieDialog
 getweeklyupdate.com##.modal
 getweeklyupdate.com##.modal-backdrop
 getweeklyupdate.com##body:style(overflow-x: hidden !important; overflow-y: scroll !important;)
+giphy.com##.gkGvKV.flash-message__MessageWrapper-hMFkob
 gitlab.com###CybotCookiebotDialog
 gizmodo.com###lightbox_overlay_div
 gizmodo.com##.preloaded_lightbox
@@ -398,7 +401,12 @@ groupon.com###subscribe_modal_container
 guns.com###site-wrap:style(overflow: auto !important;)
 guns.com##.pum-container
 guns.com##.pum-overlay
+gurufocus.com###cboxOverlay
+gurufocus.com###colorbox
+gurufocus.com###reflex-chat-widget
 haaretz.com##.modal-wrapper
+hackernoon.com##.overlay
+hackernoon.com##html.u-overflowHidden:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 halfwheel.com##.austin-background
 hcn.org###exposeMask
 hcn.org###overlay-newsletter001
@@ -501,6 +509,7 @@ lowes.com##.modal-backdrop
 lvb.com##.flyout-ad.flyout
 m.zappos.com###downloadAppPop
 m4arts.org##.s_WgMETPAModalSkin
+mail.yahoo.com##.inf-scroll-top.inf-scroll-btn-v2
 mamapedia.com##.popupBackground
 mamapedia.com##.popupWrapper
 mamapedia.com##html:style(overflow-x: hidden !important; overflow-y: scroll !important;)
@@ -594,6 +603,7 @@ newstatesman.com###popup
 newyorker.com##.bx-has-close-inside
 nextgov.com##.gemg-interstitial
 nextgov.com##body:style(overflow-x: hidden !important; overflow-y: scroll !important;)
+nhl.com##.btm-nhl-announcement-modal
 nightwatch.io##.mcwidget-overlay
 nikkei.com###modal_gd04_01
 nikkei.com##body:style(overflow-x: hidden !important; overflow-y: scroll !important;)
