@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:07 PM 2018-10-05
+! Last Modified: 12:33 PM 2018-10-05
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -1183,6 +1183,7 @@ blackfridayhits.com###float-posts-nav
 blackfridayhits.com##.white_style.rh-stickme.main-nav.search-form-inheader
 blacklistednews.com##.navbar-fixed-top.no-border-radius.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
 blackswanltd.com##.custom-scroll-header-bg
+blairbellecurve.com###sticker:style(position: absolute !important;)
 blastingnews.com###header:style(position: absolute !important;)
 blastingnews.com##.us.sticky-container:style(position: absolute !important;)
 blazingdb.com##.js-metabar:style(position: absolute !important;)
@@ -1440,7 +1441,13 @@ britannica.com##.md-article-toolbar.middle-xs.flex.navigation-bar:style(position
 brobible.com###header
 brokemillennial.com##.navbar-fixed-top.navbar-default.navbar.banner:style(position: absolute !important;)
 brookings.edu##.unpinned.not-top.site-header:style(position: relative !important; top: 0 !important;)
-browardpalmbeach.com##.sde-shadow
+browardpalmbeach.com###subSticky:style(position: relative !important; top: 50px !important;)
+browardpalmbeach.com##.ads
+browardpalmbeach.com##.is_stuck.side-soc.cs-box:style(position: absolute !important;)
+browardpalmbeach.com##.other
+browardpalmbeach.com##.sticky-bar.masthead:after
+browardpalmbeach.com##.sticky-bar.masthead:style(position: relative !important; top: 0 !important;)
+browardpalmbeach.com##script:inject(set-constant.js, VMG.Components.Adblock, false)
 brownwoodtx.com###article-storyStrip:style(position: relative !important; top: 0 !important;)
 brownwoodtx.com###toprail:style(position: absolute !important;)
 bt.com##.cookie-ui__cookieUI___3fxp1
@@ -6529,7 +6536,9 @@ mynbc5.com##.slim-headline:style(position: relative !important; top: 0 !importan
 mynbc5.com##.slim.header:style(position: relative !important; top: 0 !important;)
 mynews13.com##.navbar-fixed-top.fixed-top.site-header-inner:style(position: absolute !important;)
 mynorthwest.com##.primary.headerwrapper:style(position: absolute !important;)
+mypalmbeachpost.com##.main-header .main-nav-container .main-nav-v2 .main-nav-list .main-nav-item.main-nav-logo
 mypalmbeachpost.com##.main-nav-container:style(position: relative !important; top: 0 !important;)
+mypalmbeachpost.com##body.fixed-nav-desktop .main-header .main-nav-container:style(background-color: #fff !important;)
 mypayflex.com##.navbar-fixed-top:style(position: absolute !important;)
 mypayflex.com##.setOutlineNone.SI_5vuNwLI2emiDYoZ_SliderContainer.QSISlider:style(position: absolute !important;)
 mypaysimple.com##header:style(position: relative !important; top: 0 !important;)
@@ -8341,6 +8350,7 @@ repairpal.com###header:style(position: absolute !important;)
 repubblica.it###rep-slim-header
 repubblica.it##.fixed.bottom-header-wrapper:style(position: absolute !important;)
 requipd.com###privy-container
+research.fb.com##.top-menu:style(position: absolute !important; height: 128px !important;)
 researchgate.net##.sticky-placeholder
 resilience.org##.logo-location-sticky_nav:style(display: none !important;)
 resilience.org##.navbar-header:style(height: auto !important; padding: 0 !important; margin: 0 1 !important; border: none !important;)
@@ -8424,6 +8434,7 @@ riftcat.com###header:style(position: absolute !important;)
 rightwingnews.com##.ot-jumplist
 rightwingnews.com##.subset:style(position: relative !important; top: 0 !important;)
 ripple.com##.navbar.banner:style(position: absolute !important;)
+ritholtzwealth.com##.header:style(position: absolute !important;)
 ritzpix.com###header:style(position: relative !important;)
 roadandtrack.com##.breaker-ad
 roadandtrack.com##.leaderboard-ad
@@ -8664,6 +8675,7 @@ seattletimes.com##.global-header-top:style(position: relative !important; top: 0
 seattletimes.com##.global-search-button.header-search-icon
 seattletimes.com##.main-nav > .main-nav-header:style(position: relative !important; top: 0 !important;)
 seattletimes.com##.top-ad-fixed
+seattletimes.com##body.fixed:style(position: relative !important;)
 seattletimes.com##body:style(padding-top: 0 !important;)
 sec-consult.com##.nav-growpop
 secapps.com##.nav.header:style(position: absolute !important;)
@@ -8738,7 +8750,7 @@ serverless.com##.lIvzX:style(position: relative !important; top: 0 !important;)
 servethehome.com##.td-a-rec-id-header_mob:style(padding-top: 0 !important;)
 servethehome.com##.td-affix.td-header-menu-wrap:style(position: absolute !important;)
 servethehome.com##.td-header-wrap:style(position: relative !important;)
-servethehome.com##.td-ss-main-sidebar:style(position: relative !important;)
+servethehome.com##.td-ss-main-sidebar:style(position: relative !important; top: 0 !important;)
 service-now.com##.snc-article-header-toolbar.navbar-default.navbar.row:style(position: absolute !important;)
 sethvargo.com##.index
 sethvargo.com##.stuck.profile
@@ -8842,6 +8854,7 @@ slack.help###nav_list:style(position: absolute !important;)
 slack.help##.category_header.header_white.header:style(position: absolute !important;)
 slackhq.com##.js-metabar:style(position: absolute !important;)
 slamonline.com###DesktopNav:style(position: relative !important; top: 0 !important;)
+slamonline.com##.header:style(position: absolute !important;)
 slashdot.org###slashboxes:style(position: relative !important;)
 slashdot.org##.slashbar:style(position: absolute !important; top: 0 !important;)
 slashgear.com###header:style(position: absolute !important;)
@@ -9810,6 +9823,7 @@ thehill.com##.float-icon__show
 thehill.com##.floating-block-active:style(position: absolute !important;)
 thehill.com##.header:style(position: relative !important; top: 0 !important; transition: none !important;)
 thehill.com##.header_blocks
+thehill.com##.player-position:style(position: static !important; width: 640px !important; height: 360px !important;)
 thehill.com##.region-column-left.region
 thehill.com##.region-highlighted.region:style(position: relative !important; top: 0 !important;)
 thehill.com##.scroll-down-to-next
@@ -9854,6 +9868,7 @@ theintercept.com##.Post-logo-sticky-container:style(position: relative !importan
 theintercept.com##.Post-logo-sticky:style(position: relative !important; top: 0 !important;)
 theintercept.com##.PostLogo:style(position: absolute !important; top: 0 !important;)
 theinvestigativefund.org###sticky_header
+theirrelevantinvestor.com###sticker:style(position: absolute !important;)
 theitstuff.com##.visible.menu-wrap:style(position: absolute !important;)
 thejacknews.com##.mobile-header-appear.eltd-animate-mobile-header.eltd-mobile-header
 thejakartapost.com##.showin-mobile-version.no-padding.col-xs-12:style(position: relative !important; top: 0 !important;)
@@ -10082,6 +10097,7 @@ thesun.co.uk##.dfp-ad-container
 thesun.co.uk##.fyre-width-medium.fyre
 thesun.co.uk##.fyre-width-small.fyre
 thesun.co.uk##.header--mobile.header:style(position: absolute !important; transform: none !important;)
+thesun.co.uk##.newsletter_holder
 thesun.co.uk##.scrolling-remove.sun-header-bg:style(transition: none !important; animation: none !important;)
 thesun.co.uk##.scrolling.sun-header-bg
 thesun.co.uk##.sun-header--nav.fixed:style(position: absolute !important; top: 0 !important; transition: none !important; animation: none !important;)
