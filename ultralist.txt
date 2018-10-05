@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:33 PM 2018-10-05
+! Last Modified: 2:18 PM 2018-10-05
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -748,6 +748,7 @@ appian.com##.header_main:style(position: absolute !important;)
 apple.com###ac-globalnav:style(position: absolute !important;)
 apple.com###ac-localnav:style(position: relative !important;)
 apple.com###localnav:style(position: relative !important;)
+apple.com##.filter-bar:style(position: relative !important;)
 appleinsider.com##.adsbygoogle
 ar15.com##.barpad.light-box-alt.columns
 ar15.com##.cd-is-visible.cd-bottom
@@ -1441,13 +1442,13 @@ britannica.com##.md-article-toolbar.middle-xs.flex.navigation-bar:style(position
 brobible.com###header
 brokemillennial.com##.navbar-fixed-top.navbar-default.navbar.banner:style(position: absolute !important;)
 brookings.edu##.unpinned.not-top.site-header:style(position: relative !important; top: 0 !important;)
-browardpalmbeach.com###subSticky:style(position: relative !important; top: 50px !important;)
-browardpalmbeach.com##.ads
-browardpalmbeach.com##.is_stuck.side-soc.cs-box:style(position: absolute !important;)
-browardpalmbeach.com##.other
-browardpalmbeach.com##.sticky-bar.masthead:after
-browardpalmbeach.com##.sticky-bar.masthead:style(position: relative !important; top: 0 !important;)
-browardpalmbeach.com##script:inject(set-constant.js, VMG.Components.Adblock, false)
+browardpalmbeach.com, dallasobserver.com, houstonpress.com, miaminewtimes.com, phoenixnewtimes.com, westword.com###subSticky:style(position: relative !important; top: 50px !important;)
+browardpalmbeach.com, dallasobserver.com, houstonpress.com, miaminewtimes.com, phoenixnewtimes.com, westword.com##.ads
+browardpalmbeach.com, dallasobserver.com, houstonpress.com, miaminewtimes.com, phoenixnewtimes.com, westword.com##.is_stuck.side-soc.cs-box:style(position: absolute !important;)
+browardpalmbeach.com, dallasobserver.com, houstonpress.com, miaminewtimes.com, phoenixnewtimes.com, westword.com##.other
+browardpalmbeach.com, dallasobserver.com, houstonpress.com, miaminewtimes.com, phoenixnewtimes.com, westword.com##.sticky-bar.masthead:after
+browardpalmbeach.com, dallasobserver.com, houstonpress.com, miaminewtimes.com, phoenixnewtimes.com, westword.com##.sticky-bar.masthead:style(position: relative !important; top: 0 !important;)
+browardpalmbeach.com, dallasobserver.com, houstonpress.com, miaminewtimes.com, phoenixnewtimes.com, westword.com##.stickyTop .content .about:style(margin-top: 0 !important;)
 brownwoodtx.com###article-storyStrip:style(position: relative !important; top: 0 !important;)
 brownwoodtx.com###toprail:style(position: absolute !important;)
 bt.com##.cookie-ui__cookieUI___3fxp1
@@ -2553,11 +2554,6 @@ dailywoke.com##.td-affix.td-header-menu-wrap:style(position: absolute !important
 dallasnews.com###courier-iframe
 dallasnews.com##.js-art-pre-body.art-pre-body
 dallasnews.com##html:style(overflow-x: hidden !important; overflow-y: scroll !important;)
-dallasobserver.com###subSticky:style(position: relative !important; top: 50px !important;)
-dallasobserver.com##.is_stuck.side-soc.cs-box
-dallasobserver.com##.masthead:after
-dallasobserver.com##.sde-shadow:style(position: absolute !important;)
-dallasobserver.com##.sticky-bar.masthead:style(position: absolute !important;)
 dangerousminds.net###blog:style(margin-top: 0 !important;)
 dangerousminds.net###mobile_top:style(position: relative !important; top: 0 !important;)
 dangerousminds.net##body:style(margin-top: 0 !important;)
@@ -6088,8 +6084,6 @@ mexicoledger.com###toprail:style(position: absolute !important;)
 mexiconewsdaily.com##.ac-ads
 mexiconewsdaily.com##.adinpost
 miamiherald.com##html:style(overflow-x: hidden !important; overflow-y: scroll !important;)
-miaminewtimes.com##.masthead:after
-miaminewtimes.com##.sticky-bar.masthead:style(position: absolute !important; top: 0 !important;)
 miamiok.com###article-storyStrip:style(position: relative !important; top: 0 !important;)
 miamiok.com###toprail:style(position: absolute !important;)
 mic.com###header:style(position: relative !important; top: 0 !important;)
@@ -6937,6 +6931,7 @@ newscientist.com###artTools
 newscientist.com###main-nav:style(position: relative !important; top: 0 !important;)
 newscientist.com###marketingtertiary
 newscientist.com###tertiary-sidebar-banner
+newscientist.com###tertiary-sidebar:style(position: absolute !important;)
 newscientist.com##.leaderboard-container
 newsday.com###masthead:style(position: relative !important; transition: none !important;)
 newsday.com##.left
@@ -7333,6 +7328,8 @@ oakpark.com##.ui-panel-content-fixed-toolbar-closed.ui-panel-animate.ui-panel-co
 oakparkalliance.com##.topbar:style(position: relative !important; top: 0 !important;)
 oakridger.com###article-storyStrip:style(position: relative !important; top: 0 !important;)
 oakridger.com###toprail:style(position: absolute !important;)
+oath.com###header:style(position: absolute !important;)
+oath.com##.nav-shadow
 obi.de##.auto-init.js-show-overview-fixhdr.overview-sticky-header:style(position: relative !important; top: 0 !important;)
 obi.de##.nav-meta:style(position: relative !important; top: 0 !important;)
 objective-see.com##nav:style(position: relative !important;)
@@ -7693,12 +7690,6 @@ philly.com##.shift-right--700
 philly.com##.shift-right--900
 philly.com##.subscribetoday__wrap:style(position: absolute !important;)
 phillyvoice.com###navbar_background:style(position: relative !important; top: 0 !important;)
-phoenixnewtimes.com###subSticky:style(position: relative !important; top: 50px !important;)
-phoenixnewtimes.com##.ads
-phoenixnewtimes.com##.is_stuck.side-soc.cs-box:style(position: absolute !important;)
-phoenixnewtimes.com##.other
-phoenixnewtimes.com##.sticky-bar.masthead:after
-phoenixnewtimes.com##.sticky-bar.masthead:style(position: relative !important; top: 0 !important;)
 phonesdownhomerun.com###header:style(position: relative !important; top: 0 !important;)
 photosync-app.com##.block.mod_navigation.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important;)
 phys.org###back-top
@@ -8683,6 +8674,7 @@ seccountry.com##.cm-ad-block
 secjuice.com##.floating-active.floating-header
 secondnexus.com##.cnsmbl-container-320x50-ads
 securelist.com###masthead:style(position: relative !important;)
+securinghardware.com###js-menu-trigger:style(position: absolute !important;)
 securitiesanalytics.com##.tc-header:style(position: relative !important;)
 securityweek.com##DIV[style="margin-top:2px;"]
 securityweek.com##body:style(overflow-y: scroll !important; overflow-x: auto !important;)
@@ -10586,7 +10578,6 @@ twitter.com##.u-bgUserColor.ProfileCanopy-header:style(position: relative !impor
 twitter.com##.u-boxShadow.ProfileCanopy-navBar:style(position: relative !important; top: 0 !important;)
 twitter.com##.u-cf.OpenInAppBar
 twitter.com##.wrapper-search.AppContent:style(padding-top: 0 !important;)
-twitter.com##body:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 twittercommunity.com##.d-header:style(position: absolute !important;)
 ua-magazine.com##.move.sticky.menu_container:style(position: relative !important; top: 0 !important;)
 uber.com##._style_3caARx:style(position: absolute !important;)
@@ -11312,12 +11303,6 @@ wesh.com##.slim-headline:style(position: relative !important; top: 0 !important;
 wesh.com##.slim.header:style(position: relative !important; top: 0 !important;)
 westernjournalism.com##.shrink.site-header:style(position: relative !important; top: 0 !important;)
 westernjournalism.com##.site-header:style(position: relative !important; top: 0 !important;)
-westword.com###subSticky:style(position: relative !important; top: 50px !important;)
-westword.com##.ads
-westword.com##.is_stuck.side-soc.cs-box:style(position: absolute !important;)
-westword.com##.other
-westword.com##.sticky-bar.masthead:after
-westword.com##.sticky-bar.masthead:style(position: relative !important; top: 0 !important;)
 westworldwatchers.com###gridlove-header-sticky
 westworldwatchers.com###gridlove_adsense_widget-10
 westworldwatchers.com##.gridlove-adsense-wrapper

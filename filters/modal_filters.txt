@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:33 PM 2018-10-05
+! Last Modified: 2:18 PM 2018-10-05
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -228,6 +228,9 @@ dailydot.com###subscriptionModal
 dailymotion.com##.CookiePopup__popup____KSqw
 dailywire.com##.remodal-is-opened
 dailywire.com##.remodal-overlay
+dariusforoux.com###ck_overlay
+dariusforoux.com##.ck_modal
+dariusforoux.com##body.ck_modal_open:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 databreachtoday.com###popup-interstitial-full-page
 daveramsey.com###dr_interrupter_budgeting
 daveramsey.com##.dr-Interrupter
@@ -599,6 +602,8 @@ news12.com##.paywall-widget
 newsandsentinel.com##.popup
 newsbtc.com##.pum
 newsbtc.com##html:style(overflow-x: hidden !important; overflow-y: scroll !important;)
+newscientist.com###registration-barrier
+newscientist.com##body.reg-barrier.registration-barrier-overflow:style(position: relative !important; overflow-x: hidden !important; overflow-y: scroll !important;)
 newseum.org##.pum
 newseum.org##.pum-active:style(overflow: none !important;)
 newseum.org##.pum-container
