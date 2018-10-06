@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 2:45 PM 2018-10-05
+! Last Modified: 1:49 PM 2018-10-06
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -807,6 +807,8 @@ arstechnica.com###article-footer
 arstechnica.com###mobile-masthead:style(position: absolute !important;)
 arstechnica.com##.site-header:style(position: relative !important; top: 0 !important;)
 arstechnica.com##.xrail
+art-sheep.com##.td-affix.td-header-main-menu.td-header-row:style(position: absolute !important;)
+art-sheep.com##.td-ss-main-sidebar:style(position: absolute !important;)
 arte.tv##.row.next-navigation:style(position: absolute !important;)
 artfixdaily.com##.header-reg.col-md-4
 artfixdaily.com##body:style(overflow-x: hidden !important; overflow-y: scroll !important;)
@@ -818,6 +820,8 @@ artofmanliness.com##.fixed.top-bar-container:style(position: relative !important
 artplusmarketing.com##.js-metabar:style(position: absolute !important;)
 artstation.com###main-nav:style(position: relative !important; top: 0 !important;)
 artsy.net###main-layout-header:style(position: relative !important; top: 0 !important;)
+artsy.net##.iemmXc.NewsNav__NewsNavContainer-s1g0ss8v-2:style(position: absolute !important;)
+artsy.net##.js-artwork-commercial.artwork-commercial:style(position: relative !important;)
 arubanetworks.com###masthead:style(position: absolute !important; top: 0 !important;)
 arworkshop.com##.mk-header-toolbar:style(position: absolute !important;)
 asb-erlangen.de##.fixer.navigation:style(position: absolute !important;)
@@ -977,10 +981,14 @@ ballotpedia.org###top-bar:style(position: relative !important; top: 0 !important
 baltimoresun.com###app-bar-sticky:style(position: relative !important;)
 baltimoresun.com##.trb_nh:style(position: absolute !important; transform: none !important;)
 bandcamp.com##.row.hd:style(position: absolute !important;)
-bangordailynews.com###bdn-tophat:style(position: relative !important; top: 0 !important;)
-bangordailynews.com###comp-header:style(position: relative !important;)
-bangordailynews.com###masthead-bottom-wrapper:style(position: relative !important;)
+bangordailynews.com###bpcads-top-leaderboard
+bangordailynews.com###comp-header:style(position: absolute !important;)
+bangordailynews.com###masthead-bottom-wrapper:style(position: relative !important; top: 0 !important; transform: none !important;)
 bangordailynews.com##.adSpot
+bangordailynews.com##div#masthead-bottom-wrapper #topic-leader:style(max-width: 250px !important; margin-right: 10px !important;)
+bangordailynews.com##header#comp-header #menu-main-nav.hide:style(opacity: 1 !important; visibility: visible !important;)
+bangordailynews.com##header#comp-header #menu-main-nav:style(opacity: 1 !imporant; visibility: visible !important; transition: none !important;)
+bangordailynews.com##header#comp-header #nav-logo.show
 bankofcanada.ca##.ga-event
 bankofinternet.com##.navy.top-bar:style(position: absolute !important;)
 bankrate.com##.glyphicon-arrow-up.glyphicon
@@ -1465,6 +1473,8 @@ buffalonews.com##.navbar:style(position: absolute !important;)
 buffer.com###masthead:style(position: absolute !important;)
 buffer.com##.main-navigation:style(position: absolute !important;)
 bugatti.com##.page-header:style(position: absolute !important; transform: none !important; transition: none !important;)
+bugs.chromium.org###meta-float:style(position: relative !important;)
+bugs.chromium.org###summary-float:style(position: relative !important;)
 bugzilla.mozilla.org###bugzilla-body:style(overflow-x: initial !important; overflow-y: initial !important;)
 bugzilla.mozilla.org###header:style(position: relative !important;)
 bugzilla.mozilla.org###wrapper:style(overflow-x: auto !important; overflow-y: auto !important;)
@@ -1922,6 +1932,7 @@ chromebeat.com##.cloudHeader:style(position: absolute !important;)
 chromestatus.com##.main-toolbar:style(position: relative !important; top: 0 !important;)
 chromestatus.com##app-header:style(position: relative !important; top: 0 !important;)
 chromestatus.com##footer
+chromium-review.googlesource.com##.gr-change-list-0 .topHeader.gr-change-list th.gr-change-list:style(position: relative !important;)
 chromium.org##.__crdxFeedbackButton
 chron.com, ctpost.com, greenwichtime.com, lmtonline.com, michigansthumb.com, middletownpress.com, mrt.com, myjournalcourier.com, myplainview.com, mysanantonio.com, newstimes.com, nhregister.com, ourmidland.com, registercitizen.com, seattlepi.com, sfgate.com, thehour.com, theintelligencer.com, thetelegraph.com, timesunion.com###ctpl-fullbanner-spacer:style(height: 50px !important;)
 chron.com, ctpost.com, greenwichtime.com, lmtonline.com, michigansthumb.com, middletownpress.com, mrt.com, myjournalcourier.com, myplainview.com, mysanantonio.com, newstimes.com, nhregister.com, ourmidland.com, registercitizen.com, seattlepi.com, sfgate.com, thehour.com, theintelligencer.com, thetelegraph.com, timesunion.com###homepage-timestamp:style(position: absolute !important;)
@@ -8708,6 +8719,7 @@ seekingalpha.com##.sa-app-banner-directive
 seekingalpha.com##.sa-page-content:style(top: 0 !important;)
 seekingalpha.com##.sa-uppercase.sa-article-read-full-article-btn
 seekingalpha.com##.stick-hd:style(padding-top: 0 !important;)
+seekingalpha.com##.stick-up.sticky-checkout:style(position: relative !important;)
 seisukeknife.com##.isStuck.stuckMenu:style(position: absolute !important;)
 sekvoice.com###article-storyStrip:style(position: relative !important; top: 0 !important;)
 sekvoice.com###toprail:style(position: absolute !important;)
@@ -9366,6 +9378,7 @@ tabletmag.com##.logo:style(position: relative !important; top: 0 !important;)
 tabletmag.com##.menu-toggle.narrow-only:style(position: relative !important; top: 0 !important;)
 tabletmag.com##.navigation:style(position: relative !important; top: 0 !important;)
 tacobell.com###js-clp-ribbon:style(position: relative !important;)
+tacobell.com###js-left-navigation:style(position: absolute !important;)
 tacobell.com###js-navigation:style(position: absolute !important; top: 0 !important;)
 tacobell.com###js-search:style(position: relative !important; top: 0 !important;)
 tactical-life.com###masthead:style(position: absolute !important;)
@@ -9423,6 +9436,7 @@ tattoodo.com##.RD8Vk8L:style(position: absolute !important;)
 tatuajecigars.com###navigation:style(position: absolute !important;)
 tauntongazette.com###article-storyStrip:style(position: relative !important; top: 0 !important;)
 tauntongazette.com###toprail:style(position: absolute !important;)
+tavarzawacki.com###topBar:style(position: absolute !important;)
 taxfoundation.org##.navbar:style(position: absolute !important;)
 tdameritrade.com##.stock-footer-open.stock-footer:style(position: relative !important; top: 0 !important;)
 tdbank.com##.td-cs-primary.td-callout-secondary.td-callout
