@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:53 PM 2018-10-08
+! Last Modified: 10:54 AM 2018-10-09
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -200,15 +200,27 @@
 9news.com.au##.js-sticky:style(position: relative !important;)
 9news.com.au##.site-header.module
 9news.com.au##.sticky-mobile-banner
-9to5google.com###js-site-header:style(position: relative !important; top: 0 !important;)
-9to5google.com##.header-wrap:style(position: relative !important; top: 0 !important;)
-9to5google.com##.news-feed-header:style(position: relative !important; top: 0 !important;)
-9to5google.com##.site-header-placeholder
-9to5mac.com###js-site-header:style(position: relative !important; top: 0 !important;)
-9to5mac.com##.header-wrap:style(position: relative !important; top: 0 !important;)
-9to5mac.com##.news-feed-header:style(position: relative !important; top: 0 !important;)
-9to5mac.com##.site-header-placeholder
-9to5toys.com###js-site-header:style(position: absolute !important;)
+9to5google.com##nav:style(background-color: #16341b !important;)
+9to5google.com, 9to5mac.com, 9to5toys.com, dronedj.com, electrek.co###js-site-header:style(position: relative !important; top: 0 !important; padding-bottom: 45px !important; box-shadow: none !important;)
+9to5google.com, 9to5mac.com, 9to5toys.com, dronedj.com, electrek.co###menu-guides:style(max-width: 960px !important; transform: none !important; height: 45px !important;)
+9to5google.com, 9to5mac.com, 9to5toys.com, dronedj.com, electrek.co##.has-next .js-mobile-menu-next, .has-prev .js-mobile-menu-prev
+9to5google.com, 9to5mac.com, 9to5toys.com, dronedj.com, electrek.co##.header-logo:style(flex: (1 0 250px) !important;)
+9to5google.com, 9to5mac.com, 9to5toys.com, dronedj.com, electrek.co##.header-right-area:style(flex: 1 0 calc(100% - 250px) !important;)
+9to5google.com, 9to5mac.com, 9to5toys.com, dronedj.com, electrek.co##.header-wrap:style(position: relative !important; top: 0 !important;)
+9to5google.com, 9to5mac.com, 9to5toys.com, dronedj.com, electrek.co##.js-button:style(display: inline-block !important;)
+9to5google.com, 9to5mac.com, 9to5toys.com, dronedj.com, electrek.co##.js-header-normal .primary-menu:after, .js-header-normal .primary-menu:before:style(content: "" !important; display: block !important; position: absolute !important; top: 0 !important; height: 45px !important; width: calc(50vw - 470px) !important; z-index: 3 !important; transition: none !important;)
+9to5google.com, 9to5mac.com, 9to5toys.com, dronedj.com, electrek.co##.js-header-normal .primary-menu:after:style(right: 100% !important;)
+9to5google.com, 9to5mac.com, 9to5toys.com, dronedj.com, electrek.co##.js-header-normal .primary-menu:before:style(left: 100% !important;)
+9to5google.com, 9to5mac.com, 9to5toys.com, dronedj.com, electrek.co##.js-mobile-menu-prev svg:style(fill: #fff !important;)
+9to5google.com, 9to5mac.com, 9to5toys.com, dronedj.com, electrek.co##.news-feed-header:style(position: relative !important; top: 0 !important;)
+9to5google.com, 9to5mac.com, 9to5toys.com, dronedj.com, electrek.co##.primary-menu-ul:style(width: 100% !important;)
+9to5google.com, 9to5mac.com, 9to5toys.com, dronedj.com, electrek.co##.primary-menu:style(padding 0 25px !important;)
+9to5google.com, 9to5mac.com, 9to5toys.com, dronedj.com, electrek.co##.site-header-placeholder
+9to5google.com, 9to5mac.com, 9to5toys.com, dronedj.com, electrek.co##.site-header.js-header-sticky .header-logo img:style(max-width: 190px !important;)
+9to5google.com, 9to5mac.com, 9to5toys.com, dronedj.com, electrek.co##.site-header.js-header-sticky .primary-menu
+9to5google.com, 9to5mac.com, 9to5toys.com, dronedj.com, electrek.co##.site-header.js-header-sticky .site-header-inner:style(height: 70px !important;)
+9to5mac.com##nav:style(background-color: #0d4d7c !important;)
+9to5toys.com##nav:style(background-color: #6b393b !important;)
 aaa.com##.bottomcontainerBox
 aarp.org##.aarpe-ad-wrapper
 aarp.org##.affix:style(position: absolute !important;)
@@ -2854,6 +2866,7 @@ droid-life.com##.site__header:style(position: relative !important;)
 droid-life.com##.site__priNav--sections__scroller:style(position: absolute !important;)
 droid-life.com##.site__priNav:before
 droidguiding.com###nav-topbar
+dronedj.com##nav:style(background-color: #c81c34 !important;)
 dropbox.com###masthead:style(position: relative !important; top: 0 !important;)
 dropbox.com##.RebrandNavigation-container:style(position: absolute !important;)
 dropbox.com##.content-area:style(padding-top: 0 !important;)
@@ -2977,12 +2990,7 @@ elearningindustry.com###info-banner
 elearningindustry.com###js-site-header:style(position: absolute !important;)
 electionado.com###kanvz-app-header
 electionado.com##.header-container
-electrek.co###content > .scroll-to-fixed-fixed.news-feed-header > .elastic-container:style(position: relative !important; top: 0 !important;)
-electrek.co##.author_ad.adsbygoogle
-electrek.co##.header-wrap:style(position: relative !important; top: 0 !important;)
-electrek.co##.news-feed-header:style(position: relative !important; top: 0 !important;)
-electrek.co##.site-header-placeholder:style(position: relative !important; top: 0 !important;)
-electrek.co##header:style(position: relative !important; top: 0 !important;)
+electrek.co##nav:style(background-color: #2f7a91 !important;)
 electricbike.com##.sticky.navigation:style(position: relative !important; top: 0 !important;)
 electricliterature.com##.js-metabar:style(position: absolute !important;)
 electricliterature.com##.m.l.k.j.i.h.g.f:style(position: absolute !important; top: 0 !important;)
@@ -6381,7 +6389,8 @@ myfoxzone.com##.page__header:style(position: absolute !important;)
 myfoxzone.com##.progress
 myfoxzone.com##.video__inner:style(position: static !important;)
 mymillennialguide.com##.td-affix.td-header-menu-wrap:style(position: absolute !important;)
-mymodernmet.com###navbar-main:style(position: absolute !important;)
+mymodernmet.com###navbar-main:style(position: relative !important; padding: 15px 0 !important;)
+mymodernmet.com##body:style(padding-top: 0 !important;)
 mynbc5.com##.ad-leaderboard
 mynbc5.com##.ad-rectangle
 mynbc5.com##.slim-headline:style(position: relative !important; top: 0 !important;)
@@ -10775,6 +10784,7 @@ washingtoncitypaper.com##header:style(position: relative !important; top: 0 !imp
 washingtonexaminer.com###body > .col1.panel > .column
 washingtonexaminer.com###cnx-autoplay-container:style(position: static !important;)
 washingtonexaminer.com##.FixedHeader:style(position: absolute !important;)
+washingtonexaminer.com##.desktop-ad-undertone
 washingtonexaminer.com##.hidden-print.justify-content-between.mb-1.bg-inverse.navbar-dark.fixed-top.nav.navbar.flex-row.topbar:style(position: absolute !important;)
 washingtonexaminer.com##.legacy-sidebar-promo
 washingtonexaminer.com##.ndn_floatContainer:style(position: static !important;)
