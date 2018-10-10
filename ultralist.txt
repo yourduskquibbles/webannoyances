@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 2:43 PM 2018-10-09
+! Last Modified: 10:57 PM 2018-10-09
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -99,8 +99,7 @@
 9gag.com##.badge-toolbar-pre.fixed-wrap-post-bar
 9gag.com##.post-afterbar-a.in-post-bot.full-width
 9news.com.au##.feedback
-9news.com.au##.header-module__inner:style(position: relative !important; top: 0 !important;)
-9news.com.au##.header-module__inner:style(transform: none !important;)
+9news.com.au##.header-module__inner:style(position: relative !important; top: 0 !important; transform: none !important;)
 9news.com.au##.js-sticky:style(position: relative !important;)
 9news.com.au##.site-header.module
 9news.com.au##.sticky-mobile-banner
@@ -7372,6 +7371,11 @@ prnewswire.com##.header-mobile:style(position: absolute !important;)
 prnewswire.com##.nav-down.navbar
 pro-football-reference.com##.adblock
 pro-football-reference.com##.pi_form_control:style(margin-top: 0 !important;)
+productdork.com##.d-header:style(position: absolute !important;)
+productdork.com##.logo-small
+productdork.com##.timeline-container:style(position: absolute !important;)
+productdork.com##.title-wrapper > .bullet.badge-wrapper
+productdork.com##.topic-link.widget-link
 productforums.google.com###__top_header:style(position: relative !important; top: 0 !important;)
 productforums.google.com##.BOXPGHD-N-f:style(position: absolute !important;)
 productforums.google.com##.BOXPGHD-e-a.BOXPGHD-C-yb:style(position: relative  !important;)
@@ -8491,7 +8495,7 @@ sportsnet.ca##.row.navbar-inverse.navbar:style(position: absolute !important;)
 sportsonearth.com##.next-prev-superbar.bam-superbar
 sportstop.com##.zopim:style(position: absolute !important;)
 sportsvideo.org##.edson3.functions
-spotify.com##.navbar-highlight-aquamarine.navbar-semi-transparent.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
+spotify.com###js-navbar:style(position: absolute !important; background-color: transparent !important;)
 spreadprivacy.com##.floating-active.floating-header:style(position: absolute !important;)
 spreadsheeto.com##.fusion-sticky-shadow.fusion-header:style(position: relative !important; top: 0 !important;)
 sprigandsproutdc.com##.chch_shown.gold-1
@@ -8700,6 +8704,7 @@ superyachtworld.com###embed_code-3
 superyachtworld.com###navigation:style(position: relative !important; top: 0 !important;)
 supplyhouse.com###section-header-container:style(position: relative !important; top: 0 !important;)
 support.google.com###gb:style(position: absolute !important;)
+support.google.com##.fixed-sidebar-container:style(position: absolute !important;)
 support.google.com##.gb_Hd:style(box-shadow: none !important;)
 support.google.com##.nav-back-to-top:style(position: absolute !important;)
 support.google.com##header:style(position: relative !important; top: 0 !important; padding-bottom: 0 !important;)
@@ -9737,6 +9742,10 @@ travelandleisure.com##.under-nav
 travelchannel.com##body:style(margin-top: 0 !important;)
 travelchinaguide.com##.mobile_menu_v2:style(position: absolute !important; top: 0 !important;)
 travelskills.com##.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
+traveltips.usatoday.com##.next-wrap
+traveltips.usatoday.com##.previous-wrap
+traveltips.usatoday.com##.site-masthead:style(height: 80px !important;)
+traveltips.usatoday.com##.site-nav-fixed.site-nav:style(position: absolute !important;)
 traversecity.com##.miniHeader
 traversecity.com##.seasonsWrapper:style(top: 0 !important;)
 treato.com##.fixed-banner.banner-sticky-toolbar-wrap:style(position: absolute !important;)
@@ -10024,6 +10033,7 @@ usatoday.com##.footer>nav>.fronts:style(margin-top: 0 !important;)
 usatoday.com##.front-arrow-wrapper
 usatoday.com##.jwplayer:style(position: relative !important; animation: none !important;)
 usatoday.com##.logoDiv.link-disclosure.attribution-disclosure-link-hybrid
+usatoday.com##.longform-chapter-nav.style-scope.sticky.chapter-container:style(position: absolute !important;)
 usatoday.com##.nav:style(padding-top: 0 !important;)
 usatoday.com##.partner-placement
 usatoday.com##.playerIsScrolling:style(transition: none !important;)
@@ -10887,6 +10897,7 @@ wsj.com##.LiveCoverageHeader
 wsj.com##.LiveCoverageHeader-bar
 wsj.com##.WSJTheme__adContainer_39QoSCiFRHj0OwE7STJ23b
 wsj.com##.WSJTheme__adWrapper_2v6EA8giE6Pw9SoNUltRuT
+wsj.com##.WSJTheme__masthead_2OoI1al70fhTikbZur4fz8:style(margin-top: 0 !important; margin-bottom: 0 !important;)
 wsj.com##.WSJTheme__onboarding-banner_2iniaUJWnOXdS0jqStuxs2
 wsj.com##.WSJTheme__sector-unit-4_17ImS_zUt3L4vph6TcKkBK.WSJTheme__md-sector_1pJP-9Tul8uo9UZHx-ARin:style(position: relative !important; top: 0 !important;)
 wsj.com##.WSJTheme__sector-unit-4_2lPO_QLJgU7fodGLn8y_3N.WSJTheme__md-sector_11mIcrEevnV1H4euSkENvh:style(position: relative !important; top: 0 !important;)
@@ -10932,7 +10943,6 @@ wsj.com##.style__at16units_232osa60J_L2xxs8yf-igg.style__stick-cust-nav_1TmM50QD
 wsj.com##.style__brand-link_2m9Qekt7oy6AxoEZOYmvKr:style(margin: 0 auto 0px !important;)
 wsj.com##.style__customer-nav_AkM4UW2WcCzsQLBzgQ6_d:style(position: absolute !important; top: 14px !important;)
 wsj.com##.style__customer-nav_gYUvXMxi-BCVRsVs8PzQe:style(position: absolute !important;)
-wsj.com##.style__fb_1Nm7orJRvKHUT3kEfQIrrD
 wsj.com##.style__login-buttons_2AlXz2kN-GyfeoGvsttrZh:style(position: relative !important;)
 wsj.com##.style__logo_Ms7ZFr_j7_kFb3RngGpfX:style(top: -1px !important; opacity: 1 !important; transition: none !important;)
 wsj.com##.style__mast-head-container_DzcwPkNtboP12eehQfvbs:style(position: absolute !important;)
