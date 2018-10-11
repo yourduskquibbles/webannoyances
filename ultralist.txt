@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 9:14 AM 2018-10-11
+! Last Modified: 9:57 AM 2018-10-11
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -1122,6 +1122,7 @@ blog.twitter.com##.theme-bg-color--dark.sticky.nav:style(position: absolute !imp
 blogger.com##.header--sticky
 blogs.bing.com##.site-header-wrap:style(position: relative !important;)
 blogs.bing.com##.site:style(margin-top: 0 !important;)
+blogs.nasa.gov##body:before, body:after
 blogs.office.com##.f-wrap-items.c-group
 blogspot.ca###sidebar-top
 blogspot.com###HTML5
@@ -7832,6 +7833,10 @@ reuters.com##.header-mini.header-main.group.header > .active.container.header-pa
 reuters.com##.home-icon:style(visibility: hidden !important; opacity: 0 !important;)
 reuters.com##.home-tab
 reuters.com##.main.content:style(margin-top: 0 !important;)
+reuters.com##.nav-item .text:style(display: inline-block !important;)
+reuters.com##.nav-item.active-icon .home-icon::style(margin-right: 8px !important;)
+reuters.com##.nav-item.active-icon .pictures-icon:style(margin-right: 8px !important;)
+reuters.com##.nav-item.active-icon .video-icon:style(margin-right: 8px !important;)
 reuters.com##.nav-item:style(position: relative !important; transition: none !important;)
 reuters.com##.nav-list:style(transition: none !important;)
 reuters.com##.nav-white-space
