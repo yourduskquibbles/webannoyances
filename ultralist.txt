@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 9:27 AM 2018-10-19
+! Last Modified: 9:33 AM 2018-10-19
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -6102,7 +6102,9 @@ nationalgeographic.com##.fixed.gn_sticky-component:style(position: absolute !imp
 nationalgeographic.com##.gn_sticky-component.fixed-hidden:style(position: absolute !important; top: 0 !important; transition: none !important; animation: none !important;)
 nationalgeographic.com##.ng-top-nav__anchor
 nationalgeographic.com##.section.textOnly
+nationalgeographic.com##.sticky-container .sticky-hidden:style(transform: none !important;)
 nationalgeographic.com##.sticky-container > .sticky:style(position: absolute !important;)
+nationalgeographic.com##.sticky-container > div:style(position: absolute !important;)
 nationalgeographic.org###stickynav
 nationalgeographic.org##.fk-sticky--active > .sticky-inner-wrapper
 nationalgeographic.org##body:style(overflow-x: hidden !important; overflow-y: scroll !important;)
