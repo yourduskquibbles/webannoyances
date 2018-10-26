@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 9:09 AM 2018-10-22
+! Last Modified: 11:12 PM 2018-10-25
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -1331,11 +1331,14 @@ breakingdefense.com##.navbar-top:style(margin-bottom: 76px !important;)
 breitbart.com###BBStoreLead
 breitbart.com###BBStoreW
 breitbart.com###HWIC:style(position: relative !important; top: 0 !important;)
+breitbart.com###TopNav:style(position: absolute !important;)
 breitbart.com###bb-store-ldr
 breitbart.com###cin_header
 breitbart.com###cin_ps_in_article
 breitbart.com###cin_sidebar
 breitbart.com###cin_slideup_w
+breitbart.com##.active.js-nav-logo
+breitbart.com##.js-navigation:style(display: inline-block !important;)
 breitbart.com##.rs
 brid.tv###launcher:style(position: absolute !important;)
 brid.tv##.header-class:style(position: absolute !important;)
@@ -1837,7 +1840,8 @@ circa.com##.circa-Header:style(position: relative !important; top: 0 !important;
 circa.com##footer
 circa.com##header:style(position: relative !important; top: 0 !important;)
 circleofmoms.com###mobile-banner
-citi.com##.LPMoverlay.LPMcontainer > div:style(position: absolute !important;)
+citi.com##.LPMoverlay.LPMcontainer:style(position: absolute !important;)
+citi.com##.olUpNewIcon.feedbackDesktop:style(position: absolute !important;)
 citizen428.net##.js-metabar:style(position: absolute !important;)
 citizenlab.ca###article-footer
 citizensforethics.org##.donate-btn
@@ -1918,7 +1922,11 @@ cnbc.com###nav_spacer:style(height: 0 !important;)
 cnbc.com##.AppCnbcPhoenix .SearchToggle-button span:style(transition: none !important; opacity: 1 !important;)
 cnbc.com##.AppCnbcPhoenix .account-menu-editionMenuSticky:style(transform: none !important; transition: none !important;)
 cnbc.com##.AppCnbcPhoenix .branding-menu-brandingMenuSticky:style(opacity: 1 !important;)
+cnbc.com##.AppCnbcPhoenix .nav-menu-desktopHamburgerSticky:style(transform: none !important;)
+cnbc.com##.AppCnbcPhoenix .nav-menu-mainLinksSticky:style(margin-left: -1px !important;)
 cnbc.com##.AppCnbcPhoenix .nav-menu-navMenu:style(height: 25px !important; transition: none !important; top: 44px !important; padding-bottom: 14px !important;)
+cnbc.com##.AppCnbcPhoenix .nav-menu-navMenuSticky:style(background-color: unset !important;)
+cnbc.com##.GlobalNavigation-globalNavigation.GlobalNavigation-globalNavigationSticky:style(height: 70px !important;)
 cnbc.com##.SearchToggle-buttonSticky:style(height: 37px !important;)
 cnbc.com##.Sidebar-wrapperSticky:style(position: absolute !important;)
 cnbc.com##.account-menu-editionMenuSticky:style(transform: none !important;)
@@ -1930,9 +1938,11 @@ cnbc.com##.header-nav-content:style(height: 30px !important;)
 cnbc.com##.icon-search:before:style(font-size: 20px !important;)
 cnbc.com##.icon-search:style(height: 20px !important; right: 10px !important;)
 cnbc.com##.main-header-nav:style(position: relative !important; top: 0 !important;)
+cnbc.com##.nav-menu-logo.nav-menu-logoSticky
 cnbc.com##.nav-menu-mainLinks:style(transform: none !important; transition: none !important;)
 cnbc.com##.news-widget
 cnbc.com##.searchToggler.SearchToggle-button:style(transform: none !important; transition: none !important;)
+cnbc.com##.searchToggler.SearchToggle-buttonSticky.SearchToggle-button:style(width: 155px !important; background-color: #336aa0 !important;)
 cnbc.com##.story-header-right
 cnbc.com##.sub-header
 cnbc.com##.theplatform-video__docked.dockable.player-lazy-loaded-mobile:style(position: relative !important; top: 0 !important;)
@@ -1968,6 +1978,7 @@ cnn.com##.ng-scope.clear:style(position: relative !important; top: 0 !important;
 cnn.com##.ng-scope.mediaHeader:style(position: relative !important; top: 0 !important;)
 cnn.com##.ng-scope.smallHeader.clear:style(position: relative !important; top: 0 !important;)
 cnn.com##.optanon-alert-box-wrapper
+cnn.com##.pg-vertical.pg-vertical--politics .nav:style(height: 98px !important; padding: 24px 10px 24px 0 !important;)
 cnn.com##.s-post-footer
 cnn.com##.sibling
 cnn.com##.user-msg-flexbox.headerless.user-msg
@@ -2399,6 +2410,7 @@ dailysnark.com##.td-affix.td-header-gradient.td-header-menu-wrap:style(position:
 dailysnark.com##.td-header-style-9.td-header-wrap:style(position: relative !important;)
 dailystar.co.uk###cmp-container-id
 dailystar.co.uk###vjs_video_3:style(position: relative !important; top: 0 !important;)
+dailystar.co.uk##.with-gdpr.breaking-news-container:style(position: relative !important; bottom: unset !important; top: 0 !important;)
 dailytelegraph.com.au##.tgc-footer_apps
 dailytelegraph.com.au##.tgc-footer_disclaimer
 dailytelegraph.com.au##.tgc-headerv2-blackbar:style(position: relative !important; top: 0 !important;)
@@ -2675,6 +2687,9 @@ dividend.com##ul.list-inline:style(margin-bottom: 0 !important; margin-left: -5p
 dividend.com##ul.list-unstyled:style(margin-bottom: 0 !important; margin-left: -5px !important;)
 diynetwork.com##body:style(margin-top: 0 !important;)
 djcoregon.com###main-nav:style(position: relative !important;)
+djournal.com###main-body-container:style(margin-top: 0 !important;)
+djournal.com###site-navbar-container:style(position: relative !important;)
+djournal.com##.affix #main-navigation:style(box-shadow: none !important;)
 dkn.tv###main-nav:style(position: relative !important;)
 dlive.io##.chatroom-right:style(position: absolute !important; top: 0 !important;)
 dlive.io##.livestream-body:style(margin-top: 0 !important;)
@@ -2844,11 +2859,8 @@ economist.com##.fe-blogs__desktop-beta-bar.beta-bar.bar-wrapper
 economist.com##.fe-blogs__sidebar-ad-wrapper
 economist.com##.js-metabar:style(position: absolute !important;)
 economist.com##.navigation.navigation-sticky-scroller.sticky-scroller:style(position: relative !important; top: 0 !important;)
-ecowatch.com###poweredby_rebelmouse_link:style(position: absolute !important; top: 0 !important;)
-ecowatch.com##.no-mb.clearfix.row-wrapper:style(position: absolute !important; top: 0 !important;)
-ecowatch.com##.skin-simple.rebelbar--fixed.rebelbar:style(position: relative !important; top: 0 !important;)
-ecowatch.com##.topbar-wrapper:style(position: absolute !important; top: 0 !important;)
-ecowatch.com##.v-sep.main:style(position: absolute !important; top: 0 !important;)
+ecowatch.com###sTop_Bar_0_11_0_0_0_8:style(position: relative !important;)
+ecowatch.com##.socialux-container:style(margin-top: 0 !important;)
 ecs-federal.com###topbar:style(position: absolute !important;)
 ecs-federal.com##header:style(position: absolute !important;)
 eczo.bike##.t228__positionfixed.t228:style(position: relative !important; top: 0 !important;)
@@ -3324,6 +3336,7 @@ fitbit.com##.stuck-top.sticky-nav.store-sticky-nav:style(position: relative !imp
 fivebooks.com##.fix.-inside.top-menu-wrap.contain-to-grid:style(position: absolute !important;)
 fivethirtyeight.com###header-global:style(position: relative !important;)
 fivethirtyeight.com###masterad
+fivethirtyeight.com###nav:style(position: absolute !important;)
 fivethirtyeight.com##.header-global.sticky
 fixya.com###locked-footer-ad-wrapper
 fixya.com##.next-arrow
@@ -3384,9 +3397,10 @@ food.com###fdc-navbar:style(position: relative !important; top: 0 !important;)
 food.com##.navbar-header:style(position: relative !important; top: 0 !important;)
 food.com##.top-offset.stick.fd-next-recipe
 food52.com###global-header-block:style(position: relative !important; top: 0 !important;)
-foodandwine.com##.content-pager__link
-foodandwine.com##.headroom--not-bottom.headroom--not-top.headroom.is-fixed.site-header__menu-bar.site-header__bar
+foodandwine.com##.desktop-only.title-display
 foodandwine.com##.is_stuck.site-header:style(position: relative !important; top: 0 !important;)
+foodandwine.com##.primary-text-links:style(opacity: 1 !important; transform: none !important;)
+foodandwine.com##.under-nav:style(display: block !important;)
 foodandwine.com##nav.main:style(position: absolute !important; top: 0 !important;)
 foodbabe.com##.fixed-top.navbar-light.navbar-toggleable-sm.navbar:style(position: relative !important; top: 0 !important;)
 foodbeast.com###goodbye-form
@@ -4910,6 +4924,7 @@ kkare.com###headerWrapper:style(position: absolute !important;)
 kktv.com###nav:style(position: relative !important; top: 0 !important;)
 klaw.ie##.headroom--pinned.headroom--not-top.headroom.js-header.header--inversed.site-header:style(position: relative !important; top: 0 !important;)
 klfy.com###masthead:style(position: relative !important; top: 0 !important;)
+knoe.com###nav:style(position: relative !important;)
 knowyourmeme.com###mobile-sticky-ad
 knowyourmeme.com##.floating-fixed.floating-bar:style(position: relative !important; top: 0 !important;)
 knowyourmeme.com##.left.previous-arrow.sticky.arrow:style(position: absolute !important;)
@@ -6236,6 +6251,7 @@ nbcnewyork.com##.header:style(position: relative !important; top: 0 !important;)
 nbcnewyork.com##.nav-carousel
 nbcnewyork.com##.quick-nav:style(position: relative !important; top: 0 !important;)
 nbcnewyork.com##.stickyNav.navbar:style(position: relative !important; top: 0 !important;)
+nbcnewyork.com##.subnav-large-container:style(margin-top: 0 !important;)
 nbcolympics.com###sticky-player-wrapper:style(position: absolute !important;)
 nbcolympics.com##.aside.schedule-block:style(position: relative !important;)
 nbcolympics.com##.filter-sticky.ng-scope.schedule-page-filter-sticky-processed.filter-block:style(position: absolute !important;)
@@ -7538,6 +7554,7 @@ pythontips.com##.wpcnt-header.wpcnt
 q13fox.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
 q13fox.com##body:style(padding-top: 0 !important;)
 qdrinks.com##.collapsed.inverted.font-smooth.header:style(position: relative !important; top: 0 !important;)
+qsrmagazine.com###navigation:style(position: relative !important;)
 qt.io###navbar:style(position: absolute !important;)
 qtum.org###header-menu:style(position: absolute !important;)
 quadcinema.com##.cf:style(position: absolute !important;)
@@ -8049,6 +8066,7 @@ sandiegouniontribune.com###app-bar-sticky:style(position: relative !important;)
 sandiegouniontribune.com##.trb_nh:style(position: absolute !important; transform: none !important;)
 sandvine.com##.navbar-fixed-top.navbar:style(position: absolute !important; top: 0 !important;)
 sangaline.com###navbar-main:style(position: relative !important; top: 0 !important;)
+sapiens.org##.fixed.header-fixed-wrapper:style(position: absolute !important;)
 sapling.com##.sticky.header:style(position: absolute !important;)
 saraacarter.com##.fixed-nav:style(position: absolute !important;)
 savannahnow.com###article-storyStrip:style(position: relative !important; top: 0 !important;)
@@ -8101,6 +8119,7 @@ scitation.org##.submit-article
 sclabs.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute !important; top: 0 !important;)
 sclawyersweekly.com###main-nav:style(position: relative !important;)
 scmp.com##.affix.affix-processed.navbar-default.navbar.masthead-main-sticky-nav:style(position: absolute !important;)
+scmp.com##.fixto-fixed.sidebar-col:style(position: absolute !important;)
 scmp.com##.header--fixed.header:style(position: absolute !important;)
 scmp.com##.headroom--top.headroom--pinned.headroom--not-bottom.headroom.header--fixed.header:style(transition: none !important; transform: none !important;)
 scmp.com##.is-stuck.is-at-top.sticky.sticky-wrap:style(position: absolute !important;)
@@ -8299,6 +8318,7 @@ simplehuman.com##.meshim_widget_components_mobileChatButton_TappingScreen
 simplehuman.com##.show.fixed.page-header:style(position: relative !important; top: 0 !important;)
 simplehuman.com##.zopim
 simplyrecipes.com##.callout-badge
+simpsonsworld.com###header-wrapper:style(position: absolute !important;)
 simscale.com##.article-progress-container
 simscale.com##.navigation-wrapper:style(position: absolute !important;)
 sina.com.cn###SI_Top_Wrap:style(position: absolute !important;)
@@ -9142,6 +9162,7 @@ thecut.com##.ad
 thecut.com##.article-nav-top.article-nav-dynamic:style(top: 11px !important;)
 thecut.com##.logo:style(flex-basis: 192px !important;)
 thecut.com##.most-popular:style(position: absolute !important;)
+thecut.com##.package-list:style(position: relative !important;)
 thecut.com##.page-header:style(position: relative !important; top: 0 !important;)
 thecut.com##.page-sticky-header.header-after-scroll:style(border-bottom: none !important;)
 thecwsandiego.com###WNMenuCol1:style(position: absolute !important;)
@@ -9635,6 +9656,7 @@ thrashermagazine.com##.above-most.sticky-header-outer-container
 threadreaderapp.com##.cookies
 threadreaderapp.com##.fixed-top.navbar:style(position: absolute !important;)
 threadreaderapp.com##.top-right-action:style(position: absolute !important;)
+thrillist.com###content-right > .is-standard.right-rail.right-rail__group--initial.right-rail__group > .right-rail__group-inner:style(position: static !important;)
 thrillist.com###header-ad
 thrillist.com###header-ads
 thrillist.com###legal-notice
@@ -10488,10 +10510,16 @@ washingtontimes.com##.contributionbox
 washingtontimes.com##.footer
 washingtontimes.com##.full.mb.min.left
 washingtontimes.com##.globalheader_container:style(position: relative !important; top: 0 !important;)
+washingtontimes.com##.header-container #cssmenu:style(box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4) !important;)
+washingtontimes.com##.header-container.sticky .info-bar:style(display: block !important;)
+washingtontimes.com##.header-container.sticky .topics:style(display: block !important;)
+washingtontimes.com##.header-container.sticky header#mainnav div.topper .headcol.sitelogo:style(position: unset !important; padding: unset !important; top: unset !important;)
+washingtontimes.com##.header-container.sticky header#mainnav:style(padding: 34px 20px 11px !important;)
 washingtontimes.com##.main-nav-scrolled.globalheader_container:style(position: relative !important; top: 0 !important;)
 washingtontimes.com##.pg-widget-container
 washingtontimes.com##.right
 washingtontimes.com##.spnf_open.spnf_visible.spnf_newsfeed-module.spot-im-newsfeed-module
+washingtontimes.com##.sticky.header-container:style(position: relative !important; height: 218px !important; background-color: unset !important; border-bottom: unset !important; box-shadow: unset !important; top: unset !important; left: unset !important; right: unset !important;)
 washingtontimes.com##body:style(padding-top: 0 !important; transform: none !important;)
 washingtontimesreporter.com###article-storyStrip:style(position: relative !important; top: 0 !important;)
 washingtontimesreporter.com###toprail:style(position: absolute !important;)
@@ -11230,6 +11258,7 @@ yammer.com##.topnav-fixed.zindex-t3:style(position: relative !important; top: 0 
 yammer.com##.yj-group-header-patterned-scrolling:style(position: relative !important; top: 0 !important;)
 yardbarker.com###footer_ad_outer
 yardbarker.com##.slidedown.ui-header-fixed.ui-panel-content-fixed-toolbar-closed.ui-panel-animate.ui-panel-content-fixed-toolbar.ui-bar-a.ui-header:style(position: absolute !important;)
+ycombinator.com##.nav-wp:style(position: relative !important;)
 yellowpages.com###content-container:style(margin-top: 0 !important;)
 yellowpages.com###feedback
 yellowpages.com###yp-header:style(position: relative !important; top: 0 !important;)
@@ -11283,6 +11312,7 @@ youtube.com###header:style(transform: none !important; transition: none !importa
 youtube.com###masthead-container:style(position: absolute !important;)
 youtube.com###masthead-positioner:style(position: relative !important; top: 0 !important;)
 youtube.com###yt-masthead-container:style(position: relative !important; top: 0 !important;)
+youtube.com##.appbar-guide-menu-layout:style(position: relative !important; left: -230px !important; top: -90px !important;)
 youtube.com##.js-yt-header.yt-header:style(position: absolute !important;)
 yp.sg##.navbar-visible.navbar-stuck.social-disabled.navbar-center.navbar-primary:style(position: absolute !important;)
 yp.sg##.post-sidebar
