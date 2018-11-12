@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 12:01 PM 2018-11-09
+! Last Modified: 08:59 AM 2018-11-12
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -1172,7 +1172,8 @@ bloomberg.com##.nav:style(position: absolute !important;)
 bloomberg.com##.navi:style(position: relative !important; top: 0 !important; transition: none !important;)
 bloomberg.com##.persist-nav.bb-nav-root
 bloomberg.com##.recirc.rotation-item:style(transition: none !important; transform: none !important; opacity: 1 !important; max-height: 2000px !important;)
-bloomberg.com##.rotation-item[current=false]:style(padding: 0 20px 12px !important; opacity: 1 !important; max-height: 2000px !important; transform: none !important;)
+bloomberg.com##.rotation-item.recirc-v2:style(padding: 0 20px !important;)
+bloomberg.com##.rotation-item[current=false]:style(padding: 0 20px !important; opacity: 1 !important; max-height: 2000px !important; transform: none !important;)
 bloomberg.com##.sticky-container:style(position: static !important; top: 0 !important;)
 bloomberg.com##.sticky-video:style(transition: none !important; transform: none !important;)
 bloomberg.com##.terminal-tout-container
@@ -1545,6 +1546,7 @@ care.com##.navbar:style(position: absolute !important;)
 careadvantage.com##.sticky.nav:style(position: absolute !important;)
 careerattraction.com##.sticky_animate.sticky.page_header.scrolled_not_transparent.transparent.stick.scroll_header_top_area:style(position: absolute !important;)
 careercrazze.com##.td-affix.td-header-gradient.td-header-menu-wrap:style(position: relative !important; top: 0 !important;)
+careers.google.com##.active.GXRRIBB-g-w:style(position: absolute !important;)
 careers.twitter.com##.sticky.jobs-search-nav-sticky:style(position: absolute !important;)
 cargurus.com###headerBar:style(position: relative !important; top: 0 !important;)
 cargurus.com##.cg-mobileSubNavigation-condensedWrapper
@@ -1924,7 +1926,10 @@ climateactionprogramme.org##.floatingmainmenu_b.header-undermenu:style(position:
 climatehawksvote.com##.site-header:style(position: relative !important; top: 0 !important;)
 clippituser.tv##.download-android.download-link-container
 clippituser.tv##.download-text
+cloud.google.com##.devsite-nav.devsite-page-nav:style(position: relative !important; top: 0 !important; left: auto !important;)
+cloud.google.com##.devsite-top-section-pinned.nocontent.devsite-top-section:style(position: absolute !important;)
 cloud.google.com##.h-c-header__bar:style(position: absolute !important;)
+cloud.google.com##.nocontent.devsite-nav.devsite-section-nav:style(position: relative !important; top: 0 !important;)
 cltampa.com##header > .container
 clyp.it##.fixed-banner
 clyp.it##.fixed-header:style(position: relative !important; top: 0 !important;)
@@ -3763,6 +3768,7 @@ geekdad.com##.is_stuck.responsive-grid.grid-fluid-12-80-30.wrapper-fixed-grid.wr
 geekdad.com##.mega-stuck.mega-sticky.mega-menu-wrap
 geekwire.com###ad-300x600_top
 geekwire.com###ad-leaderboard
+geekwire.com###left_newsfeed:style(position: absolute !important;)
 geekwire.com##.navbar-fixed-top.navbar-inverse.navbar.banner:style(position: absolute !important; top: 0 !important;)
 geekwire.com##.newsfeed_adunit
 geekwire.com##.post-sidebar.col-md-4:style(position: relative !important; top: 0 !important;)
@@ -5084,6 +5090,7 @@ lamag.com##.module-ad
 lancasteronline.com###main-body-container:style(margin-top: 0 !important;)
 lancasteronline.com###site-navbar-container:style(position: relative !important; top: 0 !important;)
 lancasteronline.com###tncms-region-article_instory_middle
+landing.google.com##.clearfix.header:style(position: absolute !important;)
 laphamsquarterly.org###sticky:style(position: absolute !important;)
 laphamsquarterly.org##.top-bar:style(position: relative !important;)
 laphamsquarterly.org##header.small-header:style(max-width: none !important;)
@@ -9726,6 +9733,7 @@ thoughtco.com###header_1-0:style(position: relative !important; top: 0 !importan
 thoughtco.com###main:style(margin-top: 0 !important;)
 thoughtco.com##.header-condensed.header.comp:style(position: relative !important; top: 0 !important;)
 thoughtcrimemedia.net##.Mobile-bar--top.Mobile-bar:style(position: relative !important; top: 0 !important;)
+thousandeyes.com##.is-stuck.is-at-top.sticky:style(position: absolute !important; box-shadow: none !important;)
 thrashermagazine.com##.above-most.sticky-header-outer-container
 threadreaderapp.com##.cookies
 threadreaderapp.com##.fixed-top.navbar:style(position: absolute !important;)
@@ -10313,7 +10321,7 @@ vanityfair.com##.component-riser
 vanityfair.com##.component-sponsored-links
 vanityfair.com##.lower-nav-scrolled
 variety.com###leaderboard
-variety.com###vy-site-header:style(position: relative !important; transition: none !important; transform: none !important;)
+variety.com###vy-site-header:style(position: relative !important; transition: none !important; transform: none !important; height: 128px !important;)
 variety.com##.ad-below-tags
 variety.com##.google-publisher.adma
 variety.com##.header-inner:style(position: relative !important; top: 0 !important;)
