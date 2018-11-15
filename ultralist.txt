@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:45 PM 2018-11-12
+! Last Modified: 10:30 AM 2018-11-15
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -1494,6 +1494,8 @@ buzzfeed.com##.sticky-filler
 buzzfeed.com##:xpath(.//*[@data-module="action-bar-subbuzz"])
 buzzfeed.com##body:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 buzzfeednews.com##.ad-bfnews-sidebar
+buzzfeednews.com##.grid-layout-sidebar .sidebar-container--sticky:style(position: relative !important;)
+buzzfeednews.com##.paginated-sidebar--hidden:style(opacity: 1 !important;)
 buzzfeednews.com##.sm-block.xs-hide.sticky-placeholder
 bythewavs.com##.nav-primary:style(position: relative !important; top: 0 !important;)
 bytom.io###masthead:style(position: absolute !important;)
@@ -4705,6 +4707,7 @@ instructables.com###explore-header:style(position: relative !important; top: 0 !
 instructables.com###main-header:style(position: absolute !important;)
 instructables.com###search-header:style(position: relative !important; top: 0 !important;)
 instructables.com##.affix.sticky-header
+instructure.com##header:style(position: absolute !important;)
 instyle.com###logo:style(position: relative !important; top: 0 !important;)
 instyle.com##.header__logo-image:style(position: relative !important; top: 0 !important;)
 instyle.com##.instyle_menu:style(position: relative !important; top: 0 !important;)
@@ -8415,6 +8418,9 @@ silive.com##body:style(overflow-x: hidden !important; overflow-y: scroll !import
 similarsites.com###sticky_install_div
 similarweb.com###js-header:style(position: absolute !important;)
 similarweb.com###js-stickyElement
+similarweb.com##.is-fixed.js-scroll-nav.scroll-navbar:style(position: absolute !important;)
+similarweb.com##.js-websiteHeaderTop.websiteHeader-topContainer:style(position: absolute !important;)
+similarweb.com##.websiteHeader:before
 simplehuman.com##.meshim_widget_components_mobileChatButton_TappingScreen
 simplehuman.com##.show.fixed.page-header:style(position: relative !important; top: 0 !important;)
 simplehuman.com##.zopim
@@ -9064,6 +9070,7 @@ techtarget.com##.en.header_v2.header:style(position: relative !important; top: 0
 techtimes.com##.hd-fixed.bk-header:style(position: relative !important; top: 0 !important;)
 techtinkering.com##.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important;)
 techwalla.com###header-dinosaur:style(position: absolute !important;)
+techwalla.com###jwplayerContainer:style(position: static !important;)
 techworld.com##.header-section__wrapper:style(position: relative !important;)
 teckfront.com##.navbar:style(position: absolute !important;)
 tecklyfe.com##.fusion-secondary-main-menu:style(position: relative !important;)
@@ -10148,6 +10155,7 @@ univision.com##.ad_wrapper
 univision.com##.uvn-anchor-animation.uvn-anchor.jw-flag-live.uvn-relative.jw-breakpoint-5.jw-flag-aspect-mode.jw-stretch-uniform.jw-skin-uvn.jw-state-playing.jw-reset.jwplayer:style(position: relative !important; top: 0 !important;)
 univision.com##.uvn-s-header-sticky:style(position: relative !important; top: 0 !important; overflow-x: hidden !important; overflow-y: hidden !important;)
 univision.com##.uvn-unanchor-button
+unl.edu###wdn_navigation_bar:style(position: relative !important;)
 unpatent.co##.js-metabar:style(position: absolute !important;)
 unsplash.com##._2xMJp._1M8LQ:style(position: absolute !important;)
 unsplash.com##.mV0BM._2jvJJ
