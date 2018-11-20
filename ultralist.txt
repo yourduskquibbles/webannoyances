@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 09:19 AM 2018-11-19
+! Last Modified: 08:24 AM 2018-11-20
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -1116,6 +1116,8 @@ bittrex.com##body .scroll-wrapper:style(height: auto !important; top: 0 !importa
 bittrex.com##body::-webkit-scrollbar-thumb:style(background-color: #bbb !important;)
 bittrex.com##body::-webkit-scrollbar:style(width: 10px !important;)
 bitwarden.com##.js-metabar:style(position: absolute !important;)
+biv.com###site-topbar:style(position: absolute !important;)
+biv.com##body:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 bizjournals.com###boundary-2__sticker-0 > .sm-only__expander.xs-only__expander
 bizjournals.com###tour-prompt.prompt.prompt--full-width
 bizjournals.com##+js(set-constant.js, __page__.isPremium, false)
@@ -2463,6 +2465,7 @@ dailymail.co.uk##.previousBtn-2T0ps
 dailymail.co.uk##.previousBtn-aTtQv
 dailymail.co.uk##.scrollable-content:style(overflow-x: hidden !important; overflow-y: auto !important; height: auto !important; padding-top: 0 !important; margin-top: 0 !important;)
 dailymotion.com##.Header__container___-9nBG:style(position: relative !important;)
+dailyoilbulletin.com##.docs-sticky-top-bar.utils-nav:style(position: absolute !important;)
 dailypress.com###app-bar-sticky:style(position: relative !important;)
 dailypress.com##.trb_nh:style(position: absolute !important; transform: none !important;)
 dailyrecord.co.uk##.publication-theme-highlight.primary:style(position: relative !important; top: 0 !important;)
@@ -3715,6 +3718,8 @@ ft.com##.o-header--sticky-active.o--if-js.o-header--sticky.o-header--simple.o-he
 ftw.usatoday.com###nav-branding-sticky-wrapper:style(position: relative !important;)
 ftw.usatoday.com##.meta
 ftw.usatoday.com##.sticky-wrapper.is-sticky+.nav:style(padding-top: 0 !important;)
+fubiz.net###sticky_nav
+fubiz.net##.left-content-single:style(position: absolute !important; transform: none !important;)
 fubiz.net##.sticky.visible-xs.visible-sm.nav-fubiz.header-nav-mobile:style(position: relative !important; top: 0 !important;)
 fullhn.com##.toolbar:style(position: absolute !important; top: 0 !important; background-color: transparent !important;)
 funnyjunk.com###bottomNav
@@ -3797,12 +3802,16 @@ garfieldminusgarfield.net##.tmblr-iframe--below-header.iframe-controls--phone-mo
 gastongazette.com###article-storyStrip:style(position: relative !important; top: 0 !important;)
 gastongazette.com###toprail:style(position: absolute !important;)
 gasworld.com##.full.container.mast:style(position: absolute !important;)
+gatesnotes.com###tgnbody:style(overflow: unset !important;)
 gatesnotes.com##.TGNBannersHolder:style(position: absolute !important;)
+gatesnotes.com##.TGNBodyHeaderBack:style(position: absolute !important;)
+gatesnotes.com##.TGNBodyHeaderBackRight:style(position: absolute !important;)
 gatesnotes.com##.TGN_BottomMenuS45Holder:style(position: absolute !important;)
 gatesnotes.com##.TGN_TopMenuS45:style(position: absolute !important;)
 gatesnotes.com##.bannerbgmobart:style(position: absolute !important;)
 gatesnotes.com##.bannerit.socbanner:style(position: absolute !important;)
 gatesnotes.com##.socbanner:style(position: absolute !important;)
+gatesnotes.com##body:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 gazette.com###main-body-container:style(margin-top: 0 !important;)
 gazette.com###masthead-second
 gazette.com###site-navbar-container.affix #main-navigation:style(background-color: #e6e6e6 !important)
@@ -3929,6 +3938,9 @@ gitlab.com##.navbar-empty.fixed-top.navbar:style(position: absolute !important; 
 gitlab.com##.navbar:style(position: absolute !important;)
 givingusa.org##.clear-fix.show-for-large-up.contain-to-grid.top-bar-container:style(position: absolute !important;)
 gkn.com###top:style(position: absolute !important;)
+glaciermedia.ca##.fixed.sectors-menu.map-filters:style(position: absolute !important; top: 0 !important;)
+glaciermedia.ca##.has-header.has-cover:style(position: absolute !important; margin: 50px auto 0 auto !important; top: 0 !important; transform: none !important; height: 80px !important; left: unset !important;)
+glaciermedia.ca##.visible.sticky:style(position: absolute !important;)
 glamour.com##.cns-ads-stage
 glamour.com##.collapsed-header
 glamour.com##.component-header:style(position: relative !important; top: 0 !important;)
@@ -4677,6 +4689,7 @@ indianexpress.com###fixedMenu:style(position: absolute !important; top: 0 !impor
 indianexpress.com##.navbar-fixed-top.amp-wp-title-bar:style(position: absolute !important; top: 0 !important;)
 indiatimes.com###TPMainDiv
 indiatimes.com###articlelist
+indiatimes.com###feedbackForm:style(position: absolute !important;)
 indiatimes.com###footer
 indiatimes.com###my_web_push_app_box_confirm
 indiatimes.com###navigation:style(position: relative !important; top: 0 !important;)
@@ -4688,6 +4701,7 @@ indiatimes.com##.onScrolled
 indiatimes.com##.showBtmBar.articlelist_container
 indiatimes.com##.topArtAd.clearfix
 indiatimes.com##.widget.ad
+indiatimes.com##body:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 indiegogo.com##.i-top-lined-mobile-only.col-sm-4
 indiewire.com###leaderboard
 indiewire.com###masthead-section:style(position: relative !important; top: 0 !important;)
@@ -6555,6 +6569,7 @@ news.com.au###nav:style(position: relative !important; top: 0 !important;)
 news.com.au###network-bar:style(position: absolute !important;)
 news.com.au###sticky-ad
 news.com.au##.fix-top-stick:style(position: absolute !important; top: 0 !important;)
+news.com.au##.vms-no-playlist.rhc-stick.vms-ready.vms-player.module.vms:style(position: static !important;)
 news.com.au##.widget_newscorpau_ads.sidebar-right-hand-column.widget
 news.com.au##header:style(position: absolute !important; transform: none !important; transition: none !important;)
 news.com.au##nav:style(position: absolute !important;)
@@ -8474,6 +8489,7 @@ similarweb.com##.websiteHeader:before
 simplehuman.com##.meshim_widget_components_mobileChatButton_TappingScreen
 simplehuman.com##.show.fixed.page-header:style(position: relative !important; top: 0 !important;)
 simplehuman.com##.zopim
+simplisafe.com##.lp-promo-sticky-banner:style(position: relative !important;)
 simplyrecipes.com##.callout-badge
 simpsonsworld.com###header-wrapper:style(position: absolute !important;)
 simscale.com##.article-progress-container
@@ -8529,6 +8545,7 @@ slickdeals.net###rightcol-300x250-A
 slickdeals.net###tutorial_list
 slickdeals.net##.ab
 slickdeals.net##.injectedAd.dividerSection
+slickdeals.net##.stickyFixedBottom:style(position: relative !important;)
 slickdeals.net##.stickyHeader.headerContainer:style(position: absolute !important;)
 slickdeals.net##.stickyHeader.headerPlaceholder:style(position: absolute !important;)
 slickdeals.net##.uninitialized.stickyHeader:style(position: absolute !important;)
@@ -10888,6 +10905,7 @@ wheretraveler.com##.region-top-leaderboard
 whiskeyriff.com##.fixed.main-nav:style(position: relative !important; top: 0 !important;)
 whispersystems.discoursehosting.net##.clearfix.d-header:style(position: absolute !important;)
 whispersystems.org##.navbar-shrink.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
+whistlermagazine.com###header:style(position: absolute !important;)
 whitehalljournal.com###article-storyStrip:style(position: relative !important; top: 0 !important;)
 whitehalljournal.com###toprail:style(position: absolute !important;)
 whitesourcesoftware.com###default-next-button-wrapper
