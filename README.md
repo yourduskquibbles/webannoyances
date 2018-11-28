@@ -32,15 +32,6 @@ Browser specific download locations are located below:
 
 Click the following: [Add Web Annoyances Ultralist to Custom uBlock Origin Filters](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/yourduskquibbles/webannoyances/master/ultralist.txt&title=Web%20Annoyances%20Ultralist).
 
-## CDN
-
-```
-https://cdn.staticaly.com/gh/yourduskquibbles/webannoyances/master/ultralist.txt
-```
-```
-https://cdn.jsdelivr.net/gh/yourduskquibbles/webannoyances/ultralist.txt
-```
-
 ### Installation Notes 
 
 After clicking the Link above, a warning box will appear asking you to confirm the installation - Click 'OK' to add the list to your Custom Filter Lists. 
@@ -73,3 +64,8 @@ Still having trouble installing the list? Try watching the gif below which shows
 ## Discord Server
 
 Join the yourduskquibbles Discord Server @ https://discord.me/yourduskquibbles for faster reporting of issues and chat. 
+
+## Mirror Hosts of Web Annoyances Ultralist
+
+`https://cdn.staticaly.com/gh/yourduskquibbles/webannoyances/master/ultralist.txt`
+`https://cdn.jsdelivr.net/gh/yourduskquibbles/webannoyances/ultralist.txt`
