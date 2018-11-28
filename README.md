@@ -68,4 +68,5 @@ Join the yourduskquibbles Discord Server @ https://discord.me/yourduskquibbles f
 ## Mirror Hosts of Web Annoyances Ultralist
 
 `https://cdn.staticaly.com/gh/yourduskquibbles/webannoyances/master/ultralist.txt`
+
 `https://cdn.jsdelivr.net/gh/yourduskquibbles/webannoyances/ultralist.txt`
