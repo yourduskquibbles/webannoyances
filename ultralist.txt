@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:49 AM 2018-12-07
+! Last Modified: 11:06 AM 2018-12-10
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -939,8 +939,8 @@ bitshouts.com###nav-topbar:style(position: absolute !important;)
 bittrex.com###mainNav:style(position: absolute !important;)
 bittrex.com##.navbar-fixed-top:style(position: absolute !important; border: none !important; top: 0 !important;)
 bittrex.com##body .scroll-wrapper:style(height: auto !important; top: 0 !important;)
-bittrex.com##body::-webkit-scrollbar-thumb:style(background-color: #bbb !important;)
-bittrex.com##body::-webkit-scrollbar:style(width: 10px !important;)
+bittrex.com##body:-webkit-scrollbar-thumb:style(background-color: #bbb !important;)
+bittrex.com##body:-webkit-scrollbar:style(width: 10px !important;)
 biv.com###site-topbar:style(position: absolute !important;)
 bizjournals.com###boundary-2__sticker-0 > .sm-only__expander.xs-only__expander
 bizjournals.com###tour-prompt.prompt.prompt--full-width
@@ -2231,7 +2231,7 @@ distiller.com##.header:style(position: relative !important; top: 0 !important;)
 distiller.com##.menu-toggle
 distillerytrail.com##.js-bottom-corner-btns.bottom-corner-btns
 distillvideo.com##.header_area:style(position: absolute !important;)
-distinguished.com##.headroom--top, .sb-slide.utility::style(position: absolute !important;)
+distinguished.com##.headroom--top, .sb-slide.utility:style(position: absolute !important;)
 distractify.com###header
 distractify.com###pc-fix-header
 distributech.com###headerWrapper:style(position: relative !important; top: 0 !important;)
@@ -2938,7 +2938,7 @@ foxnews.com##.featured .info .caption:style(border-bottom: 1px solid #cedfef !im
 foxnews.com##.featured.featured-video .control
 foxnews.com##.featured.featured-video .video-container:style(margin-bottom: 16px !important;)
 foxnews.com##.featured.featured-video.sticky-video .contain .info .title a:style(color: #036 !important;)
-foxnews.com##.featured.featured-video.sticky-video .contain .info .title::before
+foxnews.com##.featured.featured-video.sticky-video .contain .info .title:before
 foxnews.com##.featured.featured-video.sticky-video .contain .info p:style(display: inline-block !important;)
 foxnews.com##.featured.featured-video.sticky-video .contain .info:style(padding: 0 !important;)
 foxnews.com##.featured.featured-video.sticky-video .contain:style(background: #fff !important;)
@@ -3603,7 +3603,7 @@ huckberry.com##.top-nav:style(position: relative !important; top: 0 !important;)
 huckmag.com##.first.twelvecol.header:style(position: absolute !important;)
 huckmagazine.com##.first.twelvecol.header:style(position: relative !important; top: 0 !important;)
 huffingtonpost.com###badges_v2_1
-huffingtonpost.com###breaking-news, .progress::style(position: absolute !important;)
+huffingtonpost.com###breaking-news, .progress:style(position: absolute !important;)
 huffingtonpost.com###chicklets
 huffingtonpost.com###float_tracker
 huffingtonpost.com###guce-inline-consent-iframe
@@ -4020,9 +4020,7 @@ kaufda.de##.drawer.shelf-layout-header.layout-head-drawer
 kbb.com##+js(abort-on-property-read.js, KBB.DataLayer)
 kcci.com##.slim.header:style(position: absolute !important;)
 kcra.com##.slim.header:style(position: relative !important; top: 0 !important;)
-kcrw.com###eyebrow:style(position: absolute !important;)
-kcrw.com###player_scrubber:style(position: absolute !important;)
-kcrw.com##.logo_wrapper:style(position: absolute !important;)
+kcrw.com###eyebrow, #player_scrubber, .logo_wrapper:style(position: absolute !important;)
 kdnuggets.com##.kd_bottom
 kdvr.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute !important;)
 kee.pm##.clearfix.d-header:style(position: absolute !important;)
@@ -4031,8 +4029,7 @@ keepassxc.org##.navbar-top.navbar-default.navbar:style(position: relative !impor
 kentuckysportsradio.com###pwksrm-header:style(position: absolute !important;)
 kerbalspaceprogram.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 kernelmag.com###login-box
-ketv.com##.slim-headline:style(position: relative !important;)
-ketv.com##.slim.header:style(position: relative !important;)
+ketv.com##.slim-headline, .slim.header:style(position: relative !important;)
 keybase.io##.navbar-default.navbar-fixed-top.navbar:style(position: absolute !important;)
 keyxl.com##.hidden-printz.pull-center.navbar-fixed-top.navbar:style(position: relative !important; top: 0 !important;)
 kfmbfm.com###WNMenuCol1:style(position: absolute !important;)
@@ -4049,11 +4046,10 @@ khn.org##.header-site:style(box-shadow: none !important;)
 khn.org##.inline.related
 khn.org##.navbar-global li:style(border-left: 1px solid #0075c9 !important;)
 khn.org##.navbar-global:style(background-color: #0064ab !important; border-top-left-radius: 6px !important;)
-kickstarter.com##.NS_projects__project_nav:style(position: relative !important; top: 0 !important;)
+kickstarter.com##.NS_projects__project_nav, .skrollable-after.skrollable.js-project-nav.NS_projects__project_nav:style(position: relative !important; top: 0 !important;)
 kickstarter.com##.fixed.js-project-nav.NS_projects__project_nav:style(position: relative !important;)
 kickstarter.com##.mx-1.relative.z2.shadow-high.py2.bg-navy-200
 kickstarter.com##.pt11:style(padding-top: 0 !important;)
-kickstarter.com##.skrollable-after.skrollable.js-project-nav.NS_projects__project_nav:style(position: relative !important; top: 0 !important;)
 kickstarter.com##.skrollable.project-nav__buttons:style(bottom: 0 !important;)
 kidpower.org###main-header
 kidpower.org###top-header
@@ -4066,34 +4062,25 @@ kinsta.com###sidebar__sticky:style(position: relative !important; animation: non
 kinsta.com###site-menu:style(position: relative !important;)
 kiplinger.com###smallHead:style(position: relative !important; top: 0 !important;)
 kiplinger.com##.kip-advertisement
-kiro7.com###header.container:style(position: relative !important; top: 0 !important;)
-kiro7.com###main:style(padding-top: 0 !important; margin-top: 0 !important;)
-kiro7.com###story-sticky-content:style(position: relative !important; top: 0 !important;)
-kiro7.com###wrapper:style(padding-top: 0 !important; margin-top: 0 !important;)
+kiro7.com###header.container, #story-sticky-content:style(position: relative !important; top: 0 !important;)
+kiro7.com###main, #wrapper:style(padding-top: 0 !important; margin-top: 0 !important;)
 kiwiirc.com##.navbar-inversee.navbar-fixed-top.navbar:style(position: absolute !important;)
 kkare.com###headerWrapper:style(position: absolute !important;)
 klaw.ie##.headroom--pinned.headroom--not-top.headroom.js-header.header--inversed.site-header:style(position: relative !important; top: 0 !important;)
 klfy.com###masthead:style(position: relative !important; top: 0 !important;)
 knowyourmeme.com###mobile-sticky-ad
 knowyourmeme.com##.floating-fixed.floating-bar:style(position: relative !important; top: 0 !important;)
-knowyourmeme.com##.left.previous-arrow.sticky.arrow:style(position: absolute !important;)
-knowyourmeme.com##.right.next-arrow.sticky.arrow:style(position: absolute !important;)
+knowyourmeme.com##.left.previous-arrow.sticky.arrow, .right.next-arrow.sticky.arrow:style(position: absolute !important;)
 knowyourmeme.com##.sticky-sidebar:style(position: relative !important;)
 knowyourmobile.com###__ic-notice
 knowyourmobile.com###page-bottom
-knowyourmobile.com###sticky-meta:style(position: relative !important; top: 0 !important;)
-knowyourmobile.com###title-group:style(position: relative !important; top: 0 !important;)
+knowyourmobile.com###sticky-meta, #title-group:style(position: relative !important; top: 0 !important;)
 ko-fi.com##.navbar:style(position: absolute !important; background-color: transparent !important; box-shadow: none !important;)
-koaa.com###WNHeader:style(position: relative !important; top: 0 !important;)
-koaa.com###WNNavSearchSwitch:style(position: relative !important; top: 0 !important;)
-koat.com##.alerts-block:style(position: relative !important; top: 0 !important;)
-koat.com##.header-inner:style(position: relative !important; top: 0 !important;)
-koat.com##.header:style(position: relative !important; top: 0 !important;)
-koat.com##.slim-headline:style(position: relative !important; top: 0 !important;)
+koaa.com###WNHeader, #WNNavSearchSwitch:style(position: relative !important; top: 0 !important;)
+koat.com##.alerts-block, .header-inner, .header, .slim-headline:style(position: relative !important; top: 0 !important;)
 koat.com##.slim.header:style(position: absolute !important; top: 0 !important;)
 kob.com###sticky-header
-koco.com###nowcast-header:style(position: relative !important;)
-koco.com##.slim.header:style(position: relative !important;)
+koco.com###nowcast-header, .slim.header:style(position: relative !important;)
 kodi.tv##.breadcrumb-navi:style(position: relative !important;)
 kodi.tv##.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important;)
 koditips.com###main-header:style(position: absolute !important;)
@@ -4121,22 +4108,16 @@ kremlin.ru##.topline__menu.topline:style(position: absolute !important;)
 kromtech.com###wrapper:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 ksbw.com##.ad-leaderboard
 ksbw.com##.ad-rectangle
-ksbw.com##.header:style(position: relative !important; top: 0 !important;)
-ksbw.com##.slim-headline:style(position: relative !important; top: 0 !important;)
-ksl.com###kslHeader:style(position: relative !important; top: 0 !important;)
+ksbw.com##.header, .slim-headline:style(position: relative !important; top: 0 !important;)
+ksl.com###kslHeader, .ksl-header__outer:style(position: relative !important; top: 0 !important;)
 ksl.com###recommendationsContainer
 ksl.com##.ksl-header-reserved
-ksl.com##.ksl-header__outer:style(position: relative !important; top: 0 !important; transition: none !important;)
 ksl.com##.newStoryAlert
 ktar.com##.primary.headerwrapper:style(position: absolute !important;)
 ktgl.com##.main-header:style(position: relative !important; top: 0 !important;)
 kubernetes.io##header:style(position: absolute !important; transform: none !important;)
-kucoin.com###udesk-support:style(position: absolute !important;)
-kucoin.com##.bonusVideoBtn___3aTKK:style(position: absolute !important;)
-kucoin.com##.headerRoom___LprVc .headroom--pinned:style(position: absolute !important;)
-kucoin.com##.headerRoom___LprVc .headroom--unfixed:style(position: absolute !important;)
+kucoin.com###udesk-support, .bonusVideoBtn___3aTKK, .headerRoom___LprVc .headroom--pinned, .headerRoom___LprVc .headroom--unfixed, .referralVideoBtn___2QmZn:style(position: absolute !important;)
 kucoin.com##.headroom--scrolled.headroom--unpinned.headroom
-kucoin.com##.referralVideoBtn___2QmZn:style(position: absolute !important;)
 kvoa.com###WNAd41
 kvoa.com###WNNavSearchSwitch:style(position: relative !important; top: 0 !important;)
 kxan.com###content:style(padding-top: 0 !important;)
@@ -4167,17 +4148,13 @@ landing.google.com##.clearfix.header:style(position: absolute !important;)
 laphamsquarterly.org###sticky:style(position: absolute !important;)
 laphamsquarterly.org##.top-bar:style(position: relative !important;)
 laphamsquarterly.org##header.small-header:style(max-width: none !important;)
-laptopmag.com###sticky-header:style(position: relative !important; top: 0 !important;)
-laptopmag.com##.cf.masthead:style(position: relative !important;)
-laptopmag.com##.sticky.mqMedOff.subNavWrap:style(position: relative !important; top: 0 !important;)
+laptopmag.com###sticky-header, .sticky.mqMedOff.subNavWrap:style(position: relative !important; top: 0 !important;)
+laptopmag.com##.cf.masthead, .z-layer-8.header-main.header:style(position: relative !important;)
 laptopmag.com##.tocside-in.tocside
-laptopmag.com##.z-layer-8.header-main.header:style(position: relative !important;)
 lareviewofbooks.org###logo:style(position: relative !important; top: 0 !important; left: -100px !important;)
 lareviewofbooks.org###site-navigation-main:style(position: absolute !important;)
 lareviewofbooks.org##.ssk-count.ssk-group
-last.fm##.masthead:style(position: absolute !important; top: 10 !important;)
-last.fm##.recommended-next-page-container:style(position: absolute !important;)
-last.fm##.top-bar:style(position: absolute !important; top: 0 !important;)
+last.fm##.masthead, .recommended-next-page-container, .top-bar:style(position: absolute !important; top: 0 !important;)
 lastwordonnothing.com###sidebar-link:style(position: absolute !important;)
 lasvegas-entertainment-guide.com##.wrapping:style(position: absolute !important;)
 lasvegasnews.media###sticky_header:style(position: absolute !important;)
@@ -4186,51 +4163,42 @@ latimes.com##.pb-f-list-nav-ticker:style(display: block !important;)
 latimes.com##.trb_nh:style(position: absolute !important; transform: none !important;)
 laughingsquid.com###dd_ajax_float
 launchdarkly.com##.resp_full_width_menu.head-container:style(position: absolute !important;)
-law.com###brand-nav:style(position: absolute !important;)
-law.com##.scrolled.major.main-nav-grey:style(position: absolute !important;)
-law.cornell.edu###cu-identity:style(position: relative !important; top: 0 !important;)
-law.cornell.edu###liiheader:style(position: relative !important; top: 0 !important;)
+law.com###brand-nav, .scrolled.major.main-nav-grey:style(position: absolute !important;)
+law.cornell.edu###cu-identity, #liiheader:style(position: relative !important; top: 0 !important;)
 law.georgetown.edu##.js-bound.nav_block.js-nav_block.js-toggle
 law360.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 lawandcrime.com###atf:style(padding-top: 26px !important;)
 lawandcrime.com###featured-posts-wrap:style(position: relative !important; top: 0 !important; transition: none !important;)
-lawandcrime.com###header-content:style(transition: none !important;)
-lawandcrime.com###header-tools:style(transition: none !important;)
+lawandcrime.com###header-content, #header-tools:style(transition: none !important;)
 lawandcrime.com###live-promo:style(top: 0 !important; transition: none !important;)
 lawandcrime.com###lnn-promo
 lawandcrime.com###logo > img:style(height: 36px !important; width: 180px !important; max-width: 180px !important; transition: none !important;)
 lawandcrime.com###logo:style(top: 10px !important; height: 36px !important; transition: none !important;)
 lawandcrime.com###post-nav
-lawandcrime.com##.compact.teads-helper:style(position: absolute !important; transition: none !important;)
-lawandcrime.com##.full.teads-helper:style(position: absolute !important; transition: none !important;)
+lawandcrime.com##.compact.teads-helper, .full.teads-helper:style(position: absolute !important; transition: none !important;)
 laweekly.com##.active.city-color-border.next.sideSlide
 laweekly.com##.city-color-border.city-color-back.tab
 laweekly.com##.container-fluid.slide-body:style(position: relative !important; top: 0 !important;)
 laweekly.com##.convert-media-ad
 laweekly.com##.cs-box
 laweekly.com##.other
-laweekly.com##.sticky-bar.masthead:after:style(height: 0 !important; width: 0 !important; background: transparent !important; position: relative !important; top: 0 !important; z-index: 1 !important;)
+laweekly.com##.sticky-bar.masthead:after:style(position: relative !important; top: 0 !important; height: 0 !important; width: 0 !important; background: transparent !important; z-index: 1 !important;)
 laweekly.com##.sticky-bar.masthead:style(position: relative !important; top: 0 !important;)
 lawfareblog.com##.adsbygoogle
 lawfareblog.com##.rtecenter
-lawnewz.com###LawNewz_Mobile_MedRec_1
-lawnewz.com###LawNewz_Mobile_MedRec_2
+lawnewz.com###LawNewz_Mobile_MedRec_1, #LawNewz_Mobile_MedRec_2
 lawnewz.com###featured-posts-wrap
 lawnewz.com###lnn-promo
 lawnewz.com###post-nav
-lawnewz.com##.compact.teads-helper:style(position: relative !important; top: 0 !important;)
+lawnewz.com##.compact.teads-helper, .teads-helper.full:style(position: relative !important; top: 0 !important;)
 lawnewz.com##.countdown-clock:style(position: absolute !important; top: 0 !important;)
-lawnewz.com##.teads-helper.full:style(position: relative !important; top: 0 !important;)
 lawyer.com###header-wrapper:style(position: absolute !important;)
 lawyersgunsmoneyblog.com###admania_top
 leaderpost.com##.masthead:style(position: absolute !important;)
-leaf.tv##.fixed-header:style(position: relative !important; top: 0 !important;)
-leaf.tv##.header-top:style(position: relative !important; top: 0 !important;)
+leaf.tv##.fixed-header, .header-top:style(position: relative !important; top: 0 !important;)
 leafshave.com###privy-container
 leafshave.com###site-header:style(position: absolute !important;)
-lecreuset.com##.fixed-shop:style(position: relative !important; top: 0 !important;)
-lecreuset.com##.site-wide-mobile:style(position: relative !important; top: 0 !important;)
-lecreuset.com##.site-wide:style(position: relative !important; top: 0 !important;)
+lecreuset.com##.fixed-shop, .site-wide-mobile, .site-wide:style(position: relative !important; top: 0 !important;)
 ledger-enquirer.com##.tout-hook-tagalong.js-tout-tagalong-video.tout-sdk-instance-player:style(position: static !important;)
 ledger.com##.stickied.header--fixed:style(position: absolute !important;)
 lefigaro.fr##.fig-micronav__wrapper
@@ -4244,19 +4212,15 @@ legalist.com##.w-nav.navigation:style(position: absolute !important;)
 legalweek.com##.nav-fixed.nav:style(position: relative !important; top: 0 !important;)
 lehighvalleylive.com###adv_header:style(position: relative !important; top: 0 !important;)
 lehighvalleylive.com##.sticky-nav-hide:style(margin-top: 0 !important; transition: none !important;)
-lehighvalleylive.com##.sticky-nav-show.sticky-nav:style(position: relative !important; top: 0 !important; transition: none !important;)
-lehighvalleylive.com##.sticky-nav:style(position: relative !important; top: 0 !important; transition: none !important;)
-leicestermercury.co.uk##.click-track.weather-overlay-content:style(position: absolute !important;)
-leicestermercury.co.uk##.mod-header > .secondary:style(position: absolute !important;)
-leicestermercury.co.uk##.publication-theme-highlight.primary:style(position: absolute !important;)
+lehighvalleylive.com##.sticky-nav-show.sticky-nav, .sticky-nav:style(position: relative !important; top: 0 !important; transition: none !important;)
+leicestermercury.co.uk##.click-track.weather-overlay-content, .mod-header > .secondary, .publication-theme-highlight.primary:style(position: absolute !important;)
 leisurepro.com##header:style(position: relative !important; top: 0 !important;)
 lelo.com##.top-page-wrapper:style(position: absolute !important;)
 lemonde.fr##.Nav--sticky.Nav:style(position: relative !important;)
 lennyletter.com##.sticky-header-container.component-sticky:style(position: relative !important;)
-lenovo.com##.fixed-top:style(position: absolute !important;)
+lenovo.com##.fixed-top, .navbarshadow.pcg-tag.navbar-fixed-top.navbar-first.navbar-default.navbar:style(position: absolute !important;)
 lenovo.com##.lia-quilt-row-static-header.lia-quilt-row
 lenovo.com##.masthead > .pageWrapper:style(position: relative !important; top: 0 !important;)
-lenovo.com##.navbarshadow.pcg-tag.navbar-fixed-top.navbar-first.navbar-default.navbar:style(position: absolute !important;)
 lensculture.com##.navbar:style(position: absolute !important; background-color: transparent !important;)
 lensrentals.com##.floatfeed_small.right
 lesswrong.com##.headroom--scrolled.headroom--pinned.headroom:style(position: absolute !important;)
@@ -4273,13 +4237,8 @@ lifeaspire.com###headerBlock:style(position: relative !important; top: 0 !import
 lifeaspire.com##.adsbygoogle
 lifedaily.com##.topbar:style(position: absolute !important;)
 lifehack.org###bugmuncher_button:style(position: absolute !important;)
-lifehack.org###lifehack_d_ATF1_ap1
-lifehack.org###lifehack_d_ATF2_ap1
-lifehack.org###lifehack_d_BTF1_ap1
-lifehack.org###lifehack_d_BTF2_ap1
-lifehack.org###lifehack_d_BTF3_ap1
-lifehack.org###lifehack_d_BTF4_ap1
 lifehack.org##._3PTI5._2kD06
+lifehack.org##.ad-wrap-transparent
 lifehack.org##.conv_state_desktop.conv-container
 lifehack.org##.sticky:style(position: absolute !important; transform: none !important; padding-bottom: 50px !important;)
 lifewire.com###header_1-0:style(position: relative !important; top: 0 !important;)
@@ -4292,31 +4251,15 @@ likeaglove.me###sticky-navigation:style(position: absolute !important;)
 lineageos.org##.navbar:style(position: absolute !important; box-shadow: none !important;)
 lingohub.com##.x-navbar:style(position: absolute !important; background-color: transparent !important;)
 linkedin.com###artdeco-global-alert-container
-linkedin.com###atf-header:style(position: relative !important; top: 0 !important;)
-linkedin.com###core-nav:style(position: relative !important; top: 0 !important;)
-linkedin.com###extended-nav:style(position: relative !important; top: 0 !important;)
-linkedin.com###header-anchor:style(position: relative !important; top: 0 !important;)
-linkedin.com###header-banner:style(position: relative !important; top: 0 !important;)
-linkedin.com###responsive-nav-scrollable:style(position: relative !important; top: 0 !important;)
-linkedin.com###shared-modal-dialog-wrapper:style(position: relative !important; top: 0 !important;)
+linkedin.com###atf-header, #core-nav, #extended-nav, #header-anchor, #header-banner, #responsive-nav-scrollable, #shared-modal-dialog-wrapper, .display-flex.nav-main__content, .feed-share-nav-bar, .global-alert-offset-top.nav-main-container.core-nav, .header-container, .left-rail-container, .nav-container.nav-main, .right-rail-container, .search-form, .sticky, .stuck.stream-header:style(position: relative !important; top: 0 !important;)
 linkedin.com###siteflow-widget-next
 linkedin.com##.authentication-outlet:style(margin-top: 0 !important;)
-linkedin.com##.display-flex.nav-main__content:style(position: relative !important; top: 0 !important;)
 linkedin.com##.ember-view.stuck.sticky.scrollable.sub-nav
 linkedin.com##.ember-view.video-s-loader__video-container:style(position: static !important;)
 linkedin.com##.feed-right-rail__container:style(border-bottom: 1px solid #cfcfcf !important;)
-linkedin.com##.feed-share-nav-bar:style(position: relative !important; top: 0 !important;)
 linkedin.com##.feed-shared-news-module--visible
-linkedin.com##.global-alert-offset-top.nav-main-container.core-nav:style(position: relative !important; top: 0 !important;)
-linkedin.com##.header-container:style(position: relative !important; top: 0 !important;)
-linkedin.com##.left-rail-container:style(position: relative !important; top: 0 !important;)
-linkedin.com##.nav-container.nav-main:style(position: relative !important; top: 0 !important;)
 linkedin.com##.neptune-grid:style(padding: 5px 32px !important;)
-linkedin.com##.right-rail-container:style(position: relative !important; top: 0 !important;)
-linkedin.com##.search-form:style(position: relative !important; top: 0 !important;)
 linkedin.com##.sticky.stuck>:first-child:style(position: relative !important; top: 0 !important; margin-top: 0 !important; transition: none !important;)
-linkedin.com##.sticky:style(position: relative !important; top: 0 !important;)
-linkedin.com##.stuck.stream-header:style(position: relative !important; top: 0 !important;)
 linkedin.com##.toast-container
 linustechtips.com###lmgNav:style(position: relative !important;)
 linuxboot.org##.navbar-custom.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important;)
@@ -4339,15 +4282,11 @@ livecoinwatch.com##.fixedHeader-floating
 livecoinwatch.com##.td-affix.td-header-gradient.td-header-menu-wrap:style(position: absolute !important;)
 liveleak.com##.advertise_main_outer
 liveleak.com##.current_main_outer.pad_none.col-xs-12 > h3
-liveleak.com##.liveleak_on_facebook_outer
 liveleak.com##.navbar-fixed-top:style(position: absolute !important;)
-livemint.com###fixed-header:style(position: relative !important;)
-livemint.com##.no-border.lead-stories:style(position: relative !important;)
+livemint.com###fixed-header. .no-border.lead-stories:style(position: relative !important;)
 livenation.com##.LNHeader-e260b1b4e346f248ec795a82f47710c5:style(position: absolute !important;)
-liverpoolecho.co.uk##.float-and-park.mod-video:style(position: absolute !important; top: 0 !important;)
+liverpoolecho.co.uk##.float-and-park.mod-video, .mod-header > .secondary, .publication-theme-highlight.primary:style(position: absolute !important; top: 0 !important;)
 liverpoolecho.co.uk##.iya-test-wrapper
-liverpoolecho.co.uk##.mod-header > .secondary:style(position: absolute !important; top: 0 !important;)
-liverpoolecho.co.uk##.publication-theme-highlight.primary:style(position: absolute !important; top: 0 !important;)
 liverpoolfc.com##.i-amphtml-unresolved.amp-unresolved.i-amphtml-layout-size-defined.i-amphtml-layout-fixed.amp-notbuilt.i-amphtml-notbuilt.i-amphtml-element
 livescience.com###rightcol_top
 livescience.com###sticky-header:style(position: relative !important; top: 0 !important;)
@@ -4357,12 +4296,9 @@ livescience.com##.sticky-header
 livestream.com##.js-category_section.category_section:style(position: absolute !important;)
 livestream.com##.site_header:style(position: absolute !important; box-shadow: none !important;)
 livestreamfails.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute !important;)
-livestrong.com##.js-jwplayer_container.jwplayer__container:style(position: relative !important;)
-livestrong.com##.js-mobile_adsense.adsense_atf.article_module_section.article__section__step
-livestrong.com##.js-mobile_adsense2.article_module_section
-livestrong.com##.js-right_rail_ad_wrapper.right_rail_ad_wrapper.js-article_nav.article_nav:style(position: relative !important;)
+livestrong.com##.js-jwplayer_container.jwplayer__container, .js-right_rail_ad_wrapper.right_rail_ad_wrapper.js-article_nav.article_nav, .top_header__row1:style(position: relative !important;)
+livestrong.com##.js-mobile_adsense, .js-mobile_adsense2
 livestrong.com##.js-top_header.top_header:style(position: relative !important; display: block !important; transition: none !important; opacity: 1 !important;)
-livestrong.com##.top_header__row1:style(position: relative !important;)
 lmgsecurity.com##.hamburger-container:style(position: absolute !important;)
 loadoutroom.com##.enews-widget.widget
 loadoutroom.com##.fix-menu.nav-secondary:style(position: relative !important; top: 0 !important;)
@@ -4403,8 +4339,7 @@ m.huffingtonpost.ca###bottom-nav
 m.huffingtonpost.co.uk###bottom-nav
 m.huffpost.com##.header-container:style(position: absolute !important; transition: none !important;)
 m.imgur.com##.FloatingOIA
-m.imgur.com##.Navbar:style(position: relative !important; top: 0 !important;)
-m.imgur.com##.headroom--scrolled.headroom--pinned.headroom:style(position: relative !important; top: 0 !important;)
+m.imgur.com##.Navbar, .headroom--scrolled.headroom--pinned.headroom:style(position: relative !important; top: 0 !important;)
 m.independent.ie##.root-a > header:style(position: relative !important; top: 0 !important;)
 m.medicalxpress.com##.slideup.ui-footer-fixed.ui-bar-c.ui-footer
 m.phys.org##.slideup.ui-footer-fixed.ui-bar-c.ui-footer.visibilityNone
@@ -4421,8 +4356,7 @@ m.yelp.com##.photos-grid-shim.photos-app-pitch-shim
 m4arts.org###SITE_HEADER:style(position: absolute !important;)
 m4arts.org##.tpagw0
 maccablo.com###nav-wrapper:style(position: absolute !important;)
-mackeeper.com##.header:style(position: relative !important; top: 0 !important;)
-mackeeper.com##.js-nav-mobile.nav-mobile:style(position: relative !important; top: 0 !important;)
+mackeeper.com##.header, .js-nav-mobile.nav-mobile:style(position: relative !important; top: 0 !important;)
 macleans.ca###ad-box-2
 macleans.ca##.rdm-daac-notice-template
 macleans.ca##.service_footer.row
@@ -4439,8 +4373,7 @@ madison.com###site-navbar-container:style(position: relative !important; top: 0 
 madison.com##.rail-copyright
 maersk.com##.NavigationScrollTarget:style(position: relative !important; top: 0 !important;)
 magento.com###nav-main:style(position: absolute !important;)
-magicleap.com###gNav:style(position: absolute !important;)
-magicleap.com##.eBPeJX.s15dwlnb-0:style(position: absolute !important;)
+magicleap.com###gNav, .eBPeJX.s15dwlnb-0:style(position: absolute !important;)
 magnifymoney.com###header:style(position: absolute !important; height: 125px !important;)
 magnifymoney.com##.livechatbox:style(position: relative !important;)
 magnifymoney.com##.navbar-header:style(display: block !important; animation: none !important;)
@@ -4458,25 +4391,20 @@ maketecheasier.com###MTE_in_content_ad
 maketecheasier.com###masthead:style(position: absolute !important; top: 0 !important;)
 maketecheasier.com###mte_optin_header
 maketecheasier.com##.adsbygoogle
-makeuseof.com##.header-wrap:style(position: absolute !important;)
-makeuseof.com##.mobile-header-wrap:style(position: absolute !important;)
+makeuseof.com##.header-wrap, .mobile-header-wrap:style(position: absolute !important;)
 makezine.com###mz-mag-cover
 makezine.com###nav-level-2:style(position: relative !important;)
-makezine.com##.ham-menu-animate.nav-hamburger:style(position: absolute !important;)
+makezine.com##.ham-menu-animate.nav-hamburger, .search-button:style(position: absolute !important;)
 makezine.com##.header-wrapper:style(position: relative !important; top: 0 !important;)
-makezine.com##.scrolling.newsletter-footer
-makezine.com##.search-button:style(position: absolute !important;)
 makezine.com##.sticky-sidebar-posts-nav
 malaysiakini.com##.uk-active.uk-sticky-init.uk-position-z-index:style(position: absolute !important;)
 malwarebytes.com###bottom-subnav
 malwarebytes.com###newnav:style(position: absolute !important;)
-malwarepatrol.net###main-header:style(position: absolute !important;)
-malwarepatrol.net###top-header:style(position: absolute !important;)
+malwarepatrol.net###main-header, #top-header:style(position: absolute !important;)
 malwaretech.com###responsive-menu-button
 malwaretips.com##.floatingAction.callToAction
-malwaretips.com##.is-sticky.uix_stickyBar.p-navSticky--primary.p-navSticky:style(position: absolute !important;)
+malwaretips.com##.is-sticky.uix_stickyBar.p-navSticky--primary.p-navSticky, .uix_stickyBodyElement.uix_sidebarInner:style(position: absolute !important;)
 malwaretips.com##.sticky_wrapper:style(position: relative !important;)
-malwaretips.com##.uix_stickyBodyElement.uix_sidebarInner:style(position: absolute !important;)
 mamamia.com.au###top:style(position: absolute !important;)
 mamapedia.com##.headerGroup:style(position: absolute !important;)
 manager-tools.com###ccc-state
@@ -4484,53 +4412,48 @@ manchestereveningnews.co.uk##.captify-widget
 manchestereveningnews.co.uk##.publication-theme-highlight.primary:style(position: absolute !important;)
 mangarock.com##._2Dq7D:style(position: absolute !important;)
 mansionglobal.com###webui-stickyheader
-mansionglobal.com##.article-subscribe-container.container
-mansionglobal.com##.global-search-bar--active.js-global-search-bar.global-search-bar:style(position: relative !important; top: 0 !important;)
-mansionglobal.com##.js-main-header.mg__main-header:style(position: relative !important; top: 0 !important;)
-mansionglobal.com##.newsletter-signup-container
+mansionglobal.com##.global-search-bar--active.js-global-search-bar.global-search-bar, .js-main-header.mg__main-header:style(position: relative !important; top: 0 !important;)
 manualslib.com###caffix:style(position: relative !important; top: 0 !important;)
 manualslib.com##.policy
 manutd.com###bottompager
 manutd.com###toolbar:style(position: relative !important; top: 0 !important;)
 manutd.com##.banner-ad.desktop
 mapio.net###mapwrap:style(position: absolute !important;)
-mapio.net###marrowd
-mapio.net###marrowu
+mapio.net###marrowd, #marrowu
 mapio.net##.adsbygoogle
 mapleleaffarms.com###box
 maps.org##.uk-active.uk-sticky-init:style(position: relative !important; top: 0 !important;)
 maps.org##.uk-panel-box.uk-panel
 mapsofworld.com###full_from
 mapsofworld.com###short_from
-mapsofworld.com###slide
-mapsofworld.com###slide2
+mapsofworld.com###slide, #slide2
 mapsofworld.com##.graphics-banner
 mapzen.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 marca.com###privacyPolicyLayerN
 marca.com##.android-banner.marca-app-banner
-marca.com##.breadcrumbs
-marca.com##.fixed-news.fixed-up.inside.marca-en.js-cnav-header.super-menu-header:style(position: absolute !important;)
-marca.com##.fixed-title-news.fixed-down.futbol.js-cnav-header.ochenta-aniversario.inside-news.inside.main-header:style(position: absolute !important;)
+marca.com##.container-header, .content-list-teams:style(position: static !important; clip: unset !important;)
 marca.com##.js_fixed.aside-block:style(position: absolute !important;)
-marca.com##.super-menu-header:style(position: absolute !important; transition: none !important;)
+marca.com##.main-header, .main-nav-container:style(position: relative !important; display: block !important; box-shadow: none !important;)
+marca.com##.main-top-header-container:style(height: 60px !important;)
+marca.com##.tab-news
+marca.com##body > div:nth-of-type(4), body > div:nth-of-type(5)
+marca.com##ul.main-nav-tabs ul.highlight-list, .iconsvg-highlight-a:style(display: block !important;)
 marcandangel.com##.sticky-message
 marcandangel.com##.widget-area.after-menu
 marclaidlaw.com##.default.page_header:style(position: relative !important; top: 0 !important;)
 marcus.com##.StickyNavigationModule__inner-row
 mardigras.com###adv_header:style(position: relative !important; top: 0 !important;)
 mardigras.com##.sticky-nav-hide:style(margin-top: 0 !important; transition: none !important;)
-mardigras.com##.sticky-nav-show.sticky-nav:style(position: relative !important; top: 0 !important; transition: none !important;)
-mardigras.com##.sticky-nav:style(position: relative !important; top: 0 !important; transition: none !important;)
+mardigras.com##.sticky-nav-show.sticky-nav, .sticky-nav:style(position: relative !important; top: 0 !important; transition: none !important;)
 marginalrevolution.com##.meta_print
 marieclaire.com##.ad-gpt-breaker-container
 marieclaire.com##.nav--secondary
 marieclaire.com##.nav:style(position: relative !important; top: 0 !important;)
 mariettatimes.com###right_column_inside
-mariettatimes.com###top_header:style(position: absolute !important; top: 0 !important;)
-mariettatimes.com###wprmenu_bar:style(position: relative !important; top: 0 !important;)
+mariettatimes.com###top-header:style(position: absolute !important; top: 0 !important;)
+mariettatimes.com###wprmenu_bartop_header:style(position: relative !important; top: 0 !important;)
 mariettatimes.com##.article_details_icons.half_article_details
-marinecorpstimes.com###top-header:style(position: relative !important; top: 0 !important;)
-marinecorpstimes.com##.js-pubsub-module.has-secondary-nav.layout-module.generic-module:style(position: relative !important; top: 0 !important;)
+marinecorpstimes.com###top-header, .js-pubsub-module.has-secondary-nav.layout-module.generic-module:style(position: relative !important; top: 0 !important;)
 marinecorpstimes.com##.sticky-chain-nav.attach:style(position: relative !important; top: 0 !important; width: 100% !important;)
 marinij.com##.article.toolbar
 markedbyteachers.com###float-left-tab
@@ -4539,67 +4462,53 @@ marketingland.com##.drop_shadow:style(opacity: 0 !important;)
 marketingland.com##.mini-logo:style(width: 165px !important;)
 marketingland.com##.stickyheader.navbar-header:style(position: relative !important; top: 0 !important;)
 marketingplatform.google.com##.gmp-header__bar.h-c-header__bar:style(position: absolute !important; top: 0 !important; transform: none !important;)
-marketplace.org###player:style(position: absolute !important;)
-marketplace.org##.js-sticky-top.fixed-header:style(position: absolute !important;)
+marketplace.org###player, .js-sticky-top.fixed-header:style(position: absolute !important;)
 marketwatch.com###brass-rail
 marketwatch.com###content-cutout > .lame-content-wrapper
 marketwatch.com###footer-app-store
 marketwatch.com###footer-logo
-marketwatch.com###market-overview:style(position: relative !important; top: 0 !important;)
+marketwatch.com###market-overview, #site-nav:style(position: relative !important; top: 0 !important;)
 marketwatch.com###right-rail-cutout
-marketwatch.com###site-nav:style(position: relative !important; top: 0 !important;)
 marketwatch.com###trendingTickers
 marketwatch.com##.container--trending.container
 marketwatch.com##.fixed.column--full.column:style(position: relative !important; top: 0 !important; padding-bottom: 10px !important;)
-marketwatch.com##.fixed.region--masthead.region:style(position: absolute !important;)
-marketwatch.com##.fixed:style(position: absolute !important;)
+marketwatch.com##.fixed.region--masthead.region, .fixed, .slide-down.fixed--top.element--intraday.element:style(position: absolute !important;)
 marketwatch.com##.fyre-notifier-container
 marketwatch.com##.page--body:style(padding-top: 40px !important;)
 marketwatch.com##.region--masthead:style(padding-top: 0 !important;)
 marketwatch.com##.sa-wd-wrapper
-marketwatch.com##.slide-down.fixed--top.element--intraday.element:style(position: absolute !important;)
-marriott.com###hws-reservation-module:style(position: relative !important;)
+marriott.com###hws-reservation-module, .t-sticky-nav.l-content-container.t-in-page-navigation.l-in-page-navigation:style(position: relative !important;)
 marriott.com##.header:style(position: absolute !important;)
-marriott.com##.t-sticky-nav.l-content-container.t-in-page-navigation.l-in-page-navigation:style(position: relative !important;)
 marronebioinnovations.com##.fusion-sticky-shadow.fusion-header:style(position: relative !important; top: 0 !important;)
-marthastewart.com###js-site-nav-ad-wrap
-marthastewart.com##.mobile-ad-unit
+marthastewart.com###js-site-nav-ad-wrap, .mobile-ad-unit
 martindale.com##.run-sticky-header:style(position: absolute !important;)
 maryland.gov##.mdg-entNav:style(position: absolute !important;)
 mashable.com###peek > div:nth-of-type(1) > div
-mashable.com###site-header:style(position: relative !important;)
-mashable.com###sticky:style(position: relative !important;)
+mashable.com###site-header, #sticky, .navbar:style(position: relative !important;)
 mashable.com##.microcontent-wrapper:before
-mashable.com##.navbar:style(position: relative !important;)
 mashable.com##.stickme-holder:style(position: static !important;)
 mashable.com##.zerg-widgets
 mashed.com###header:style(position: absolute !important; margin-top: 0 !important;)
 mashtips.com##.td-affix.td-header-menu-wrap:style(position: absolute !important;)
 mashtips.com##.td-ss-main-sidebar:style(position: absolute !important;)
 masnsports.com##.is-fixed.nav:style(position: absolute !important;)
-mass.gov##.js-scroll-anchors.ma__jump-links__links:style(position: absolute !important;)
-mass.gov##.js-sticky-header.ma__header__button-container:style(position: absolute !important;)
-mass.gov##.ma__fixed-feedback-button:style(position: absolute !important;)
+mass.gov##.js-scroll-anchors.ma__jump-links__links, .js-sticky-header.ma__header__button-container, .ma__fixed-feedback-button:style(position: absolute !important;)
 mass.gov##.ma__floating-action--alignment-right.ma__floating-action
 massivesci.com###frame:style(position: relative !important;)
 massivesci.com###surveyBot
 masslive.com###adv_header:style(position: relative !important; top: 0 !important;)
 masslive.com##.sticky-nav-hide:style(margin-top: 0 !important; transition: none !important;)
-masslive.com##.sticky-nav-show.sticky-nav:style(position: relative !important; top: 0 !important; transition: none !important;)
-masslive.com##.sticky-nav:style(position: relative !important; top: 0 !important; transition: none !important;)
-masters.com###top:style(position: absolute !important;)
-masters.com##.summary-sb:style(position: absolute !important;)
+masslive.com##.sticky-nav-show.sticky-nav, .sticky-nav:style(position: relative !important; top: 0 !important; transition: none !important;)
+masters.com###top, .summary-sb:style(position: absolute !important;)
 matadornetwork.com##.header-nav:style(position: relative !important;)
-matadornetwork.com##.stuck-mid.page-header-wrapper:style(position: relative !important; top: 0 !important;)
-matadornetwork.com##.stuck-mid.sticky.header-nav:style(position: relative !important; top: 0 !important;)
+matadornetwork.com##.stuck-mid.page-header-wrapper, .stuck-mid.sticky.header-nav:style(position: relative !important; top: 0 !important;)
 matchdeck.com##.header:style(position: absolute !important;)
 material.io##.header:style(position: absolute !important; top: 0 !important; transform: none !important; transition: none !important;)
 mathworks.com##.affix.includes_subnav.sticky_header_container:style(position: relative !important; top: 0 !important;)
 matrix.org###et-top-navigation:style(padding-top: 33px !important; transition: none !important;)
-matrix.org###logo:style(transition: none !important;)
+matrix.org###logo, .logo_container:style(transition: none !important;)
 matrix.org###main-header:style(position: absolute !important; transition: none !important;)
 matrix.org###page-container:style(margin-top: -1px !important; transition: none !important;)
-matrix.org##.logo_container:style(transition: none !important;)
 maxconsole.com###navigation:style(position: relative !important;)
 maxmind.com###privacy-policy-banner
 maxmind.com##.js-header.header:style(position: absolute !important;)
@@ -4610,13 +4519,10 @@ mby.com###navigation:style(position: relative !important; top: 0 !important;)
 mby.com##.sidebar-top.sidebar.col-xs-12
 mcall.com###app-bar-sticky:style(position: relative !important;)
 mcall.com##.trb_nh:style(position: absolute !important; transform: none !important;)
-mcclatchydc.com###next_wrapper
-mcclatchydc.com###previous_wrapper
+mcclatchydc.com###next_wrapper, #previous_wrapper
 mcdiarmid.org##.pad-h.header:style(position: relative !important; top: 0 !important;)
-mclaren.com###head:style(position: absolute !important; top: 0 !important;)
-mclaren.com##.brand-logo:style(position: absolute !important; top: 0 !important;)
-mclaren.com##.nav__store:style(position: absolute !important;)
-mclaren.com##.nav__toggle:style(position: absolute !important;)
+mclaren.com###head, .brand-logo:style(position: absolute !important; top: 0 !important;)
+mclaren.com##.nav__store, .nav__toggle:style(position: absolute !important;)
 mclaren.com##.show.messages
 mcmansionhell.com##header:style(position: absolute !important;)
 mcsweeneys.net##.arrow
@@ -4626,11 +4532,8 @@ mdjonline.com##.emphasis-h4.block
 mdjonline.com##.infinity-asset-ad
 mdjonline.com##.paging-link
 mdmag.com###flyBanner
-mdmag.com###navBar:style(position: relative !important; top: 0 !important;)
-mdmag.com###rightTabContent:style(position: relative !important; top: 0 !important;)
-mdmag.com###topHeaderFixedBar:style(position: relative !important; top: 0 !important;)
-mdmag.com##.topAdSpacer
-mdmag.com##.wrapperAD320x50L
+mdmag.com###navBar, #rightTabContent, #topHeaderFixedBar:style(position: relative !important; top: 0 !important;)
+mdmag.com##.topAdSpacer,.wrapperAD320x50L
 mdpi.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 mdsec.co.uk###site-header:style(position: absolute !important;)
 me.me##.stick.sticky.connected:style(position: absolute !important;)
@@ -4649,8 +4552,7 @@ mediarun.com###jeg_sidecontent:style(position: absolute !important;)
 mediarun.com##.jeg_sticky_nav.notransition.jeg_navbar_normal.jeg_navbar_shadow.jeg_navbar_wrapper.jeg_navbar.jeg_stickybar
 mediatrackers.org##.state-navigation.sticky
 medicaldaily.com###close_fusion_jwplayer
-medicaldaily.com##.fixed.page-header:style(position: relative !important; top: 0 !important;)
-medicaldaily.com##.stickyhead:style(position: relative !important; top: 0 !important;)
+medicaldaily.com##.fixed.page-header, .stickyhead:style(position: relative !important; top: 0 !important;)
 medicalnewstoday.com###mnt_dlb_head_container
 medicalnewstoday.com###navigation:style(position: relative !important; top: 0 !important;)
 medicalnewstoday.com###navigation_scroll
@@ -4658,18 +4560,14 @@ medicalnewstoday.com##.header_hr
 medicalnewstoday.com##.leaderboard.mnt
 medicalnewstoday.com##.print
 medicinenet.com###ad
-medicinenet.com###apPgNum:style(position: relative !important;)
+medicinenet.com###apPgNum, #headline, .stickyrightrail:style(position: relative !important;)
 medicinenet.com###backTop
-medicinenet.com###headline:style(position: relative !important;)
 medicinenet.com##.dTopWrapper
-medicinenet.com##.stickyrightrail:style(position: relative !important;)
 medindia.net##.affix:style(position: absolute !important;)
 medium.com##.is-dockedTop:style(position: absolute !important;)
 meduza.io##.Material-materialTopBar
 meetup.com##.sticky--top.border--none.stripe:style(position: relative !important;)
-meh.com###advertisement
-meh.com###advertisements
-meh.com##.adsbygoogle
+meh.com###advertisement, #advertisements, .adsbygoogle
 melmagazine.com##.graf-after--p.graf--figure.graf
 melmagazine.com##.js-actionMultirecommendButton.clapButton.button--withSvgIcon.button--withIcon.u-accentColor--buttonNormal.button--chromeless.button--primary.button
 melmagazine.com##.u-maxWidth740.container:nth-of-type(1) > .u-marginTop10.u-borderTopLightest.u-paddingTop20
@@ -4686,19 +4584,13 @@ menswearhouse.com###main-header:style(position: relative !important; top: 0 !imp
 mentalfloss.com###MenuBar
 mentalfloss.com###article-top-ad
 mentalfloss.com###header-main-navbar:style(position: absolute !important;)
-mentalfloss.com###myPlayerID:style(position: static !important;)
+mentalfloss.com###myPlayerID, .player-position, .smallWidth.makeVideoticky.videoElement.close_btn, .smallWidth.makeVideoticky.videoElement.overlay, .videoElement.close_btn:style(position: static !important;)
 mentalfloss.com###navbar-bottom
-mentalfloss.com###navbar-section:style(position: relative !important; top: 0 !important;)
-mentalfloss.com###navbar-slim-wrapper:style(position: relative !important; top: 0 !important;)
+mentalfloss.com###navbar-section, #navbar-slim-wrapper, .header-wrapper:style(position: relative !important; top: 0 !important;)
 mentalfloss.com###subMenuBar
 mentalfloss.com##.boxes-box-content
 mentalfloss.com##.footer-right-column
-mentalfloss.com##.header-wrapper:style(position: relative !important; top: 0 !important;)
 mentalfloss.com##.left
-mentalfloss.com##.player-position:style(position: static !important;)
-mentalfloss.com##.smallWidth.makeVideoticky.videoElement.close_btn:style(position: static !important;)
-mentalfloss.com##.smallWidth.makeVideoticky.videoElement.overlay:style(position: static !important;)
-mentalfloss.com##.videoElement.close_btn:style(position: static !important;)
 mentegram.com###header:style(position: absolute !important;)
 mercola.com##.mm-slideout.header:style(position: relative !important; top: 0 !important;)
 mercurynews.com###indicator-north
@@ -4711,9 +4603,7 @@ mercurynews.com##.dfp-ad
 mercurynews.com##.ndn_embedded.ndn_widget_VideoPlayer-Single.ndn-widget-embed-1.ndn_embedContainer.ndn_embed:style(position: static !important;)
 mercurynews.com##.site-header:style(position: static !important; transition: none !important; transform: none !important;)
 mercurynews.com##aside
-meredith.com###header:style(position: absolute !important;)
-meredith.com###sidebar:style(position: absolute !important;)
-meredith.com##.subnav:style(position: absolute !important;)
+meredith.com###header, #sidebar, .subnav:style(position: absolute !important;)
 merit.me##.site__Navigation:style(position: absolute !important;)
 merit.me##.supportWidget
 merriam-webster.com###recirc-bar-footer
@@ -4734,23 +4624,16 @@ metlife.com##.hidden-md.hidden-sm.hidden-xs.skip
 metro.co.uk###masthead:style(position: relative !important; top: 0 !important;)
 metro.co.uk###we-need-monies
 metro.co.uk##.fixed-element-widget-top.is-visible:style(position: relative !important; top: 0 !important;)
-metro.us###pageHeader:style(position: relative !important; top: 0 !important;)
-metro.us##.clearfix.header:style(position: relative !important; top: 0 !important;)
-mexiconewsdaily.com##.ac-ads
-mexiconewsdaily.com##.adinpost
+metro.us###pageHeader, .clearfix.header:style(position: relative !important; top: 0 !important;)
+mexiconewsdaily.com##.ac-ads, .adinpost
 miamiherald.com##.fuse-nav-bar--visible.fuse-nav-bar
 miamiherald.com##html:style(overflow-x: hidden !important; overflow-y: scroll !important;)
-mic.com##.app-header:style(position: relative !important; top: 0 !important;)
+mic.com##.app-header, .header--tech.header--condensed.header, .mobile-header--article--condensed.mobile-header--condensed.mobile-header--article.mobile-header:style(position: relative !important; top: 0 !important;)
 mic.com##.desktop-article__hero-container:style(padding-top: 0 !important;)
-mic.com##.header--tech.header--condensed.header:style(position: relative !important; top: 0 !important;)
-mic.com##.mobile-header--article--condensed.mobile-header--condensed.mobile-header--article.mobile-header:style(position: relative !important; top: 0 !important;)
 michaels.com###toky
-michaels.com##.fixed-top.clearfix.mobile-category-header:style(position: absolute !important;)
-michaels.com##.scrolldown.largeviewDisabled.search-result-options-top.search-result-mobile-header.search-result-options-header.is-mobile:style(position: absolute !important;)
-michaelzimmer.org###main-header:style(position: absolute !important;)
-michaelzimmer.org###top-header:style(position: absolute !important;)
-michigan.com###affx:style(position: absolute !important; top: 0 !important;)
-michigan.com##.news-bar.container-fluid:style(position: absolute !important; top: 0 !important;)
+michaels.com##.fixed-top.clearfix.mobile-category-header, .scrolldown.largeviewDisabled.search-result-options-top.search-result-mobile-header.search-result-options-header.is-mobile:style(position: absolute !important;)
+michaelzimmer.org###main-header, #top-header:style(position: absolute !important;)
+michigan.com###affx, .news-bar.container-fluid:style(position: absolute !important; top: 0 !important;)
 microcenter.com##.mm-t007-sticky-bar
 microchip.com##header:style(position: absolute !important;)
 microg.org##.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important;)
@@ -4760,12 +4643,10 @@ microsoft.com###feedbackDockedBtn:style(position: absolute !important; display: 
 microsoft.com###in-page_generated_clone
 microsoft.com##.f-stuck.f-sticky.pi-page-bar:style(position: relative !important; box-shadow: none !important; background-color: transparent !important; animation: none !important; padding: 0 !important; text-align: center !important;)
 microsoft.com##.navigation.azure-header:style(position: relative !important; top: 0 !important;)
-microsoft.com##.ng-scope.survey-background:style(position: relative !important;)
-microsoft.com##.right-rail.content-media:style(position: relative !important;)
+microsoft.com##.ng-scope.survey-background, .right-rail.content-media:style(position: relative !important;)
 microsoft.com##.site-survey-opener
-microsoft.com##.site-survey-opener-desktop:style(position: absolute !important;)
+microsoft.com##.site-survey-opener-desktop, .survey-invite-slide-in.survey-invite.survey-tab:style(position: absolute !important;)
 microsoft.com##.skylight-entry
-microsoft.com##.survey-invite-slide-in.survey-invite.survey-tab:style(position: absolute !important;)
 microsoft.com##html:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 midas.com###recaptcha
 midas.com##.hide-king.chat-king-desktop
@@ -4774,28 +4655,20 @@ midcenturymenu.com###fsidebar1
 middleeastmonitor.com###navigation:style(position: relative !important; top: 0 !important;)
 midwayusa.com###recentlyviewed
 midwayusa.com###rvWrapper:style(position: relative !important; top: 0 !important;)
-mikrotik.com##.holder:style(position: absolute !important;)
-mikrotik.com##.hsubmenu:style(position: absolute !important;)
-mikrotik.com##.stuck.clearfix.utility-bar:style(position: absolute !important;)
+mikrotik.com##.holder, .hsubmenu, .stuck.clearfix.utility-bar:style(position: absolute !important;)
 milcorp.com##.site-header:style(position: absolute !important;)
 military.com##header:style(position: relative !important; top: 0 !important;)
-militarytimes.com###top-header:style(position: relative !important; top: 0 !important;)
-militarytimes.com##.js-pubsub-module.has-secondary-nav.layout-module.generic-module:style(position: relative !important; top: 0 !important;)
+militarytimes.com###top-header, .js-pubsub-module.has-secondary-nav.layout-module.generic-module, .site-color.secondary-navigation:style(position: relative !important; top: 0 !important;)
 militarytimes.com##.pb-ad-container
-militarytimes.com##.site-color.secondary-navigation:style(position: relative !important; top: 0 !important;)
 militarytimes.com##.sticky-chain-nav.attach:style(position: relative !important; top: 0 !important; width: 100% !important;)
 milotree.com##.header-group:style(position: absolute !important;)
 mind-blowingfacts.com###main-nav:style(position: relative !important;)
-mindbodyonline.com###fixedTop:style(position: absolute !important;)
-mindbodyonline.com##.fixedHeader:style(position: absolute !important;)
-mindbodyonline.com##.wrapperTop:style(position: absolute !important;)
+mindbodyonline.com###fixedTop, .fixedHeader, .wrapperTop:style(position: absolute !important;)
 minds.com##.topbar:style(position: relative !important; top: 0 !important;)
 minecraft-resourcepacks.com##.td-affix.td-header-gradient.td-header-menu-wrap:style(position: absolute !important;)
 minecraft-resourcepacks.com##.td-ss-main-sidebar:style(position: absolute !important;)
 minecraft.net###master-head:style(position: absolute !important; transform: none !important; transition: none !important;)
-minimaxir.com##.header-shrink.header-sticky.navbar-fixed-top.header-transparent-bb.header-transparent:style(position: relative !important; top: 0 !important;)
-minimaxir.com##.header-sticky.navbar-fixed-top.header-transparent-bb.header-transparent:style(position: relative !important; top: 0 !important;)
-minimaxir.com##.mega-menu.navbar:style(position: relative !important; top: 0 !important;)
+minimaxir.com##.header-shrink.header-sticky.navbar-fixed-top.header-transparent-bb.header-transparent, .header-sticky.navbar-fixed-top.header-transparent-bb.header-transparent, .mega-menu.navbar:style(position: relative !important; top: 0 !important;)
 mint.com##.widget-main.pageContainer
 mint.intuit.com###advice-top-container
 mint.intuit.com###nanoRepProxyContainer:style(position: absolute !important;)
@@ -4804,20 +4677,13 @@ mintpressnews.com##.site-header:style(position: absolute !important;)
 mirror.co.uk###bottom-article-message
 mirror.co.uk###div-gpt-native
 mirror.co.uk##.captify-widget
-mirror.co.uk##.click-track.weather-overlay-content:style(position: absolute !important;)
-mirror.co.uk##.float-and-park.mod-video:style(position: absolute !important;)
+mirror.co.uk##.click-track.weather-overlay-content, .float-and-park.mod-video, .side-sharebar:style(position: absolute !important;)
 mirror.co.uk##.mod-cookiepolicy
-mirror.co.uk##.mod-header:style(position: relative !important; top: 0 !important;)
-mirror.co.uk##.publication-theme-highlight.primary:style(position: relative !important; top: 0 !important;)
-mirror.co.uk##.secondary:style(position: relative !important; top: 0 !important;)
-mirror.co.uk##.side-sharebar:style(position: absolute !important;)
+mirror.co.uk##.mod-header, .publication-theme-highlight.primary, .secondary:style(position: relative !important; top: 0 !important;)
 mirrorace.com##.uk-sticky-placeholder
 mirrorace.com##.uk-sticky:style(position: relative !important; animation: none !important; animation-duration: 0ms !important;)
 mises.org###text-resizer
-mississippi.gov###govNav:style(position: absolute !important;)
-mississippi.gov##.menuDiv:style(position: absolute !important;)
-mississippi.gov##.searchSection:style(position: absolute !important;)
-mississippi.gov##.tools:style(position: absolute !important;)
+mississippi.gov###govNav, .menuDiv, .searchSection, .tools:style(position: absolute !important;)
 mit.edu###site-header-area-wrapper:style(position: relative !important;)
 mit.edu###site-header:style(position: absolute !important; transition: none !important; height: 74px !important;)
 mit.edu##.main-menu.nav-trigger > span:style(opacity: 1 !important; top: 42px !important; transition: none !important; font-size: 13px !important; left: 1px !important; line-height: 16px !important;)
@@ -4831,8 +4697,7 @@ mit.edu##.site-navigation button:style(height 74px !important; line-height: 74px
 mit.edu##.site-navigation:style(transition: none !important; height: 74px !important; line-height: 74px !important;)
 mit.edu##.subscribe-button
 mit.edu##.utility-menu:style(transition: none !important; height: 74px !important; line-height: 74px !important;)
-miui.com###ft:style(position: relative !important;)
-miui.com###nv_fixed:style(position: relative !important;)
+miui.com###ft, #nv_fixed:style(position: relative !important;)
 mix.com##.LandingHeader:style(position: absolute !important; background-color: transparent !important;)
 mix.com##.LandingHeader__trailing-container:style(opacity: 1 !important;)
 mixi.media##.hsIZxo.unkrlh-0:style(position: relative !important;)
@@ -4840,10 +4705,9 @@ mixing.dj##.td-affix.td-header-main-menu.td-header-row:style(position: relative 
 mixmax.com##.js-post-tout:style(position: absolute !important;)
 mixpanel.com###post_subscribe_wrapper
 mixpanel.com##.header-visible.header-sticky.header-new:style(position: absolute !important;)
-mlb.com###header-responsive:style(position: relative !important; top: 0 !important;)
+mlb.com###header-responsive, .minimode.game-playing.primary-content:style(position: relative !important; top: 0 !important;)
 mlb.com###player-header:style(margin-bottom: 0 !important; max-width: 1276px !important;)
 mlb.com###player-nav:style(position: absolute !important; top: 0 !important; box-shadow: none !important;)
-mlb.com##.minimode.game-playing.primary-content:style(position: relative !important; top: 0 !important;)
 mlb.com##.navbar-brand
 mlb.com##.p-ad
 mlb.com##.player-headshot:style(opacity: 1 !important; transition: none !important; bottom: -76px !important;)
@@ -4854,12 +4718,9 @@ mlb.com##.template-article__sidebar:style(position: relative !important; height:
 mlbstreams.net##.stuck.waypoint:style(position: absolute !important;)
 mlbtraderumors.com##.headlines-bar:style(position: relative !important; top: 0 !important;)
 mlbtraderumors.com##.nav-arrow
-mlive.com###adv_header:style(position: relative !important; top: 0 !important;)
+mlive.com###adv_header, .sticky-nav-show.sticky-nav, .sticky-nav:style(position: relative !important; top: 0 !important;)
 mlive.com##.sticky-nav-hide:style(margin-top: 0 !important; transition: none !important;)
-mlive.com##.sticky-nav-show.sticky-nav:style(position: relative !important; top: 0 !important; transition: none !important;)
-mlive.com##.sticky-nav:style(position: relative !important; top: 0 !important; transition: none !important;)
-mlssoccer.com###mls-global:style(position: absolute !important; top: 0 !important;)
-mlssoccer.com##.affix.nav_wrapper.region-navigation.region:style(position: absolute !important; top: 0 !important;)
+mlssoccer.com###mls-global, .affix.nav_wrapper.region-navigation.region:style(position: absolute !important; top: 0 !important;)
 mlssoccer.com##.logo__custom:style(position: absolute !important;)
 mmafighting.com##.m-ad
 mmajunkie.com###header-ad
@@ -4869,22 +4730,18 @@ mmajunkie.com##.meta
 mmajunkie.com##.sticky-wrapper.is-sticky + .nav:style(padding-top: 0 !important;)
 mnn.com##.site-header:style(position: absolute !important;)
 mnn.com##.site-header__nav:style(position: absolute !important;)
-mobafire.com###header-logo-new:style(position: absolute !important;)
-mobafire.com###net-menu:style(position: absolute !important;)
-mobafire.com##.header-new.self-clear:style(position: absolute !important;)
+mobafire.com###header-logo-new, #net-menu, .header-new.self-clear:style(position: absolute !important;)
 mobile.reuters.com##.header-main.group.header:style(height: 54px !important; transition: none !important;)
 mobile.reuters.com##.header-mini-buttons
 mobile.reuters.com##.header-mini.header-pane-main:style(height: 54px !important; transition: none !important;)
 mobile.reuters.com##.reuters-nav-buttons:style(display: block !important; opacity: 1 !important;)
 mobile.reuters.com##.section-nav:style(transition: none !important; padding-top: 0 !important;)
 mobile.twitter.com###react-root > .rn-ipm5af.rn-zchlnj.rn-u8s1d.rn-1d2f490
-mobile.twitter.com##.GgYynIub._3rF86cXC:style(position: absolute !important;)
-mobile.twitter.com##.LqlkGmch:style(position: absolute !important;)
+mobile.twitter.com##.GgYynIub._3rF86cXC, .LqlkGmch, .rn-1xcajam:style(position: absolute !important;)
 mobile.twitter.com##._3f2NsD-H.W1P7mM7E
 mobile.twitter.com##._3f2NsD-H._1363jyKz
 mobile.twitter.com##._3f2NsD-H._22omdtNH._8qpj9SE2._3xujJ3kq
 mobile.twitter.com##._3f2NsD-H._2qq9pBP0
-mobile.twitter.com##.rn-1xcajam:style(position: absolute !important;)
 mobile.wnd.com##.bottom.left.footer-single
 mobilityware.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 modernfarmer.com###fixed_nav:style(position: relative !important; top: 0 !important;)
@@ -4900,19 +4757,14 @@ moderntld.com##.navbar-fixed nav:style(position: absolute !important;)
 moldmanusa.com###header-container:style(position: relative !important;)
 moldmanusa.com###wrapper:style(margin-top: 0 !important;)
 mom.me###site-header:style(position: relative !important; top: 0 !important;)
-momjunction.com###mainNav:style(position: absolute !important;)
-momjunction.com###subcatpop_widget-2:style(position: absolute !important;)
+momjunction.com###mainNav, #subcatpop_widget-2:style(position: absolute !important;)
 mommyish.com###footer-mobile-ad
-momtastic.com###js-right-rail:style(position: absolute !important;)
-momtastic.com##.main:style(position: absolute !important;)
-momtastic.com##.show-full.js-header:style(position: absolute !important;)
+momtastic.com###js-right-rail, .main, .show-full.js-header:style(position: absolute !important;)
 momtricks.com##.fixed-header-show.animated-all-slow.clear-after.fixed-header.site__header-top
 mondaynote.com##.markup--quote:style(background-image: none !important; background-color: transparent !important; transition: none !important;)
 mondotees.com###vertical-nav
 mondotees.com##.hdr-search.icon-search:style(position: absolute!important;)
-mondotees.com##.hdr-utility:style(position: absolute !important; top: 0 !important;)
-mondotees.com##.nav-bar:style(position: absolute !important; top: 0 !important;)
-mondotees.com##.nav-panel:style(position: absolute !important; top: 0 !important;)
+mondotees.com##.hdr-utility, .nav-bar, .nav-panel:style(position: absolute !important; top: 0 !important;)
 monero.how###mytopnavbar:style(position: relative !important;)
 monerov.org###header-wrapper:style(position: absolute !important;)
 money.cnn.com##._2dc7d020
@@ -4929,32 +4781,24 @@ moneycrashers.com##.bumper
 moneycrashers.com##.genesis-nav-menu a:style(padding: 14px 20px !important;)
 moneycrashers.com##.nav-primary:style(position: relative !important;)
 moneyish.com##.masthead:style(position: relative !important; top: 0 !important;)
-moneynation.com##.cb-is-stuck-t.clearfix.cb-sidebar:style(position: absolute !important;)
-moneynation.com##.cb-top-menu-wrap.cb-site-padding.clearfix.wrap:style(position: absolute !important;)
+moneynation.com##.cb-is-stuck-t.clearfix.cb-sidebar, .cb-top-menu-wrap.cb-site-padding.clearfix.wrap:style(position: absolute !important;)
 moneysavingexpert.com###alertBar
 moneysavingexpert.com##.guide-section-menu:style(position: relative !important; top: 0 !important; width: 100% !important;)
-moneyweek.com##.ad-leaderboard
-moneyweek.com##.ad-logo-right
+moneyweek.com##.ad-leaderboard, .ad-logo-right
 moneyweek.com##.cfat-snippet
 mongodb.com##.m-nav-flex-y.m-nav:style(position: absolute !important; top: 0 !important; transform: none !important;)
 monkeylearn.com###colophon
 monkeylearn.com###header-sticky:style(position: relative !important; top: 0 !important;)
 monkeylearn.com###navigation-bar:style(position: absolute !important; top: 0 !important; background: transparent !important;)
 monmouth.edu###mainHeader:style(position: relative !important; top: 0 !important;)
-monster.com##.action--open.action.nav-trigger.navbar-toggle:style(position: relative !important; top: 0 !important;)
-monster.com##.nav-shadow.navbar-fixed-top.navbar-default.navbar.navbar-2.solid-nav:style(position: relative !important; top: 0 !important;)
-monster.com##.navbar-header:style(position: relative !important; top: 0 !important;)
-monster.com##.navbar-main.container-fluid:style(position: relative !important; top: 0 !important;)
-montag.wtf###sticky-grover-logo:style(position: absolute !important;)
+monster.com##.action--open.action.nav-trigger.navbar-toggle, .nav-shadow.navbar-fixed-top.navbar-default.navbar.navbar-2.solid-nav, .navbar-header, .navbar-main.container-fluid:style(position: relative !important; top: 0 !important;)
+montag.wtf###sticky-grover-logo, #sticky-montag-logo:style(position: absolute !important;)
 montag.wtf###sticky-logobar:style(position: relative !important;)
-montag.wtf###sticky-montag-logo:style(position: absolute !important;)
 monterail.com###blogsidebar:style(position: relative !important;)
 monterail.com##.fixed-menu.widget-type-global_group:style(position: absolute !important;)
 montereyherald.com##.article.toolbar
-montrealgazette.com##.l-header:style(position: relative !important; top: 0 !important;)
+montrealgazette.com##.l-header, .track_event.header-logo, .track_event.nav-wrap:style(position: relative !important; top: 0 !important;)
 montrealgazette.com##.top-bar:style(position: absolute !important; top: 0 !important;)
-montrealgazette.com##.track_event.header-logo:style(position: relative !important; top: 0 !important;)
-montrealgazette.com##.track_event.nav-wrap:style(position: relative !important; top: 0 !important;)
 moralmachine.mit.edu##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
 morningconsult.com###header-main:style(position: relative !important; top: 0 !important;)
 morningjournal.com##.article.toolbar:style(position: relative !important; top: 0 !important;)
@@ -4973,62 +4817,44 @@ motherjones.com##.mj-article-bottom-membership-widget
 motherjones.com##.mj-sidebar-membership-widget
 motor-talk.de###StickyHeader:style(position: absolute !important;)
 motor-talk.de###b-cc
-motoring.com.au##.csn-motoring-search-panel:style(position: relative !important; top: 0 !important;)
-motoring.com.au##.csn-motoring-sticky-search:style(position: relative !important; top: 0 !important;)
-motoring.com.au##.morph-main-menu-button:style(position: relative !important; top: 0 !important;)
-motoring.com.au##.td-header-main-menu-clone.td-header-row:style(position: relative !important; top: 0 !important;)
+motoring.com.au##.csn-motoring-search-panel, .csn-motoring-sticky-search, .morph-main-menu-button, .td-header-main-menu-clone.td-header-row:style(position: relative !important; top: 0 !important;)
 motorsport.com###footer
-motorsport.com###main_menu_button:style(position: absolute !important; top: 0 !important;)
+motorsport.com###main_menu_button, #user_na_menu_button, .eHeader-1, .eLogo, .eLogoBox, .eSearchBox, .ready.eContentMenu, .rtprime.eHeader:style(position: absolute !important; top: 0 !important;)
 motorsport.com###motorsport_insider_form
 motorsport.com###privacy_accept
-motorsport.com###user_na_menu_button:style(position: absolute !important; top: 0 !important;)
-motorsport.com##.eHeader-1:style(position: absolute !important; top: 0 !important;)
 motorsport.com##.eJoinPrimeLogo
-motorsport.com##.eLogo:style(position: absolute !important; top: 0 !important;)
-motorsport.com##.eLogoBox:style(position: absolute !important; top: 0 !important;)
-motorsport.com##.eSearchBox:style(position: absolute !important; top: 0 !important;)
-motorsport.com##.ready.eContentMenu:style(position: absolute !important; top: 0 !important;)
-motorsport.com##.rtprime.eHeader:style(position: absolute !important;)
 mountainbike-magazin.de###main-menu:style(position: absolute !important; top: 0 !important;)
 movermeyer.com##.navbar-custom.navbar-fixed-top.navbar-default.navbar:style(position: relative !important;)
 moviefone.com###leaderboard
 moviepilot.com###header-normal:style(position: relative !important; top: 0 !important;)
 moviepilot.com##.supplication.for-small-devices
-movieshype.com###masthead:style(position: absolute !important;)
-movieshype.com##.main-navigation.navbar-default.navbar-fixed-top.navbar:style(position: absolute !important;)
-mozilla.com###nav-global:style(position: relative !important; top: 0 !important;)
-mozilla.com###nav-util:style(position: relative !important; top: 0 !important;)
+movieshype.com###masthead, .main-navigation.navbar-default.navbar-fixed-top.navbar:style(position: absolute !important;)
+mozilla.com###nav-global, #nav-util:style(position: relative !important; top: 0 !important;)
 mozilla.net###related_topics
 mozilla.net##.portal-header:style(position: absolute !important; top: 0 !important;)
 mozilla.org###nav-global:style(position: absolute !important; top: 0 !important; transition: none !important; height: 2.5em !important; padding-top: 1em !important; padding-bottom: 1em !important;)
-mozilla.org###nav-util:style(position: relative !important; top: 0 !important;)
-mozilla.org###nav:style(position: relative !important; top: 0 !important;)
+mozilla.org###nav-util, #nav, ##.badge-wrapper:style(position: relative !important; top: 0 !important;)
 mozilla.org###site-welcome
-mozilla.org###toc:style(position: relative !important;)
-mozilla.org##.badge-wrapper:style(position: relative !important; top: 0 !important;)
+mozilla.org###toc, header:style(position: relative !important;)
 mozilla.org##.logo:style(transition: none !important;)
-mozilla.org##.moz-sub-nav:style(box-shadow: none !important; transform: none !important;)
 mozilla.org##.moz-sub-nav:style(position: relative !important; top: 0 !important; box-shadow: none !important; transform: none !important;)
 mozilla.org##.nav-mozilla:style(transition: none !important;)
 mozilla.org##.page-top
 mozilla.org##.site-wrap:style(padding-top: 0 !important;)
 mozilla.org##.sticky-footer
 mozilla.org##.sub-nav-download-wrapper:style(height: 0 !important; width: 0 !important;)
-mozilla.org##header:style(position: relative !important;)
 mpix.com###cart-head:style(position: relative !important; top: 0 !important;)
 mprnews.org###collectionAd:style(position: relative !important;)
 mprnews.org###membership-ad-frame-wrapper
 mprnews.org###paginators
 mrctv.org###top-nav:style(position: relative !important; top: 0 !important;)
-msdn.microsoft.com###rightNavigationMenu:style(position: absolute !important;)
-msdn.microsoft.com###tocnav:style(position: absolute !important;)
+msdn.microsoft.com###rightNavigationMenu, #tocnav:style(position: absolute !important;)
 msn.com###MSN_NTP_Faster_Creative
 msn.com###Microsoft_News_app
 msn.com###header-common.stick-enabled:before:style(height: 0 !important;)
 msn.com###header-common:before
-msn.com###maincontent:style(margin-top: 0 !important;)
+msn.com###maincontent, #precontent:style(margin-top: 0 !important;)
 msn.com###msccBanner
-msn.com###precontent:style(margin-top: 0 !important;)
 msn.com###sticky-footer
 msn.com###subfoot
 msn.com##.Modelinfo
@@ -5042,12 +4868,10 @@ msn.com##.size234column.todayshowcasead
 msnbc.com###channel-tabs
 msnbc.com###mobile-controls
 msnbc.com###nv-comment-counter
-msnbc.com###secondary-nav:style(position: absolute !important;)
+msnbc.com###secondary-nav, ._20-Ws2Fn1Y3t_iSqRZ0LON, .container___20-Ws:style(position: absolute !important;)
 msnbc.com###site-header:style(position: relative !important;)
 msnbc.com###topbanner
-msnbc.com##._20-Ws2Fn1Y3t_iSqRZ0LON:style(position: absolute !important;)
 msnbc.com##.advert--pencil:style(margin-top: 0 !important;)
-msnbc.com##.container___20-Ws:style(position: absolute !important;)
 msnbc.com##.featured-slider-pager
 msnbc.com##.feedbackPopup____QQm5.container___kfPO5:style(position: relative !important;)
 msnbc.com##.pane-msnbc-homepage2-latest-topics.panel-pane > .pane-content
@@ -5058,14 +4882,10 @@ mtlblog.com##.narcity-header-bar:style(position: absolute !important;)
 mtv.com###balaMainContainer
 mtv.com###leaderboard
 mtv.com##.ad
-mtv.com##.events-header_top-outer:style(position: relative !important; top: 0 !important;)
-mtv.com##.primary_background.top_outer:style(position: relative !important; top: 0 !important;)
-mtv.com##.top_outer:style(position: relative !important; top: 0 !important;)
+mtv.com##.events-header_top-outer, .primary_background.top_outer, .top_outer:style(position: relative !important; top: 0 !important;)
 mucbook.de##.sticky_animate.sticky.page_header.scrolled_not_transparent.stick.scroll_header_top_area.centered_logo:style(position: absolute !important;)
 muckrack.com##.js-navbar-primary:style(position: absolute !important;)
-muckrock.com###nav:style(position: relative !important; top: 0 !important;)
-muckrock.com##.global-header:style(position: relative !important; top: 0 !important;)
-muckrock.com##.website-header:style(position: relative !important; top: 0 !important;)
+muckrock.com###nav, .global-header, .website-header:style(position: relative !important; top: 0 !important;)
 multivu.com###topbar:style(position: relative !important; top: 0 !important;)
 mumbrella.com.au###main:style(position: absolute !important;)
 mumsnet.com###leaderboard__advertising
@@ -5078,16 +4898,13 @@ muraselon.com##.more-stories
 muricatoday.com##.td-affix.td-header-menu-wrap:style(position: relative !important; top: 0 !important;)
 musicbusinessworldwide.com##.mb-advert__incontent
 muslimpress.com###base-header:style(position: relative !important; top: 0 !important;)
-mvmtwatches.com##.collection-filter-bar:style(position: absolute !important;)
-mvmtwatches.com##.header-main:style(position: absolute !important;)
+mvmtwatches.com##.collection-filter-bar, .header-main:style(position: absolute !important;)
 mwrinfosecurity.com###top:style(position: absolute !important;)
 mwrinfosecurity.com##.li-switcher
 myaccount.google.com###gb:style(position: relative !important;)
-myaccount.google.com##.SSPGKf.yip5uc > div:nth-of-type(1) > div:style(height: 0 !important;)
-myaccount.google.com##.hdPVYc > div:nth-of-type(1) > div:style(height: 0 !important;)
+myaccount.google.com##.SSPGKf.yip5uc > div:nth-of-type(1) > div, .hdPVYc > div:nth-of-type(1) > div:style(height: 0 !important;)
 myaccount.google.com##.tl:style(position: relative !important; top: 0 !important;)
-myajc.com##.main-nav-container-mobile:style(position: relative !important;)
-myajc.com##.main-nav-container:style(position: relative !important;)
+myajc.com##.main-nav-container-mobile, .main-nav-container:style(position: relative !important;)
 myajc.com##body > .container:style(padding-top: 0 !important;)
 myanimelist.net##.js-scrollfix-bottom:style(position: static!important;)
 mybanktracker.com##.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important;)
@@ -5103,17 +4920,14 @@ myflorida.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative 
 myfoxdc.com##.yui-img
 mymillennialguide.com##.td-affix.td-header-menu-wrap:style(position: absolute !important;)
 mymodernmet.com###navbar-main:style(position: relative !important; padding: 15px 0 !important;)
-mynbc5.com##.ad-leaderboard
-mynbc5.com##.ad-rectangle
-mynbc5.com##.slim-headline:style(position: relative !important; top: 0 !important;)
-mynbc5.com##.slim.header:style(position: relative !important; top: 0 !important;)
+mynbc5.com##.ad-leaderboard, .ad-rectangle
+mynbc5.com##.slim-headline, .slim.header:style(position: relative !important; top: 0 !important;)
 mynews13.com##.navbar-fixed-top.fixed-top.site-header-inner:style(position: absolute !important;)
 mynorthwest.com##.primary.headerwrapper:style(position: absolute !important;)
 mypalmbeachpost.com##.main-header .main-nav-container .main-nav-v2 .main-nav-list .main-nav-item.main-nav-logo
 mypalmbeachpost.com##.main-nav-container:style(position: relative !important; top: 0 !important;)
 mypalmbeachpost.com##body.fixed-nav-desktop .main-header .main-nav-container:style(background-color: #fff !important;)
-mypayflex.com##.navbar-fixed-top:style(position: absolute !important;)
-mypayflex.com##.setOutlineNone.SI_5vuNwLI2emiDYoZ_SliderContainer.QSISlider:style(position: absolute !important;)
+mypayflex.com##.navbar-fixed-top, .setOutlineNone.SI_5vuNwLI2emiDYoZ_SliderContainer.QSISlider:style(position: absolute !important;)
 mypaysimple.com##header:style(position: relative !important; top: 0 !important;)
 myrecipes.com###bodyMainHeaderLogo:style(transform: none !important;)
 myrecipes.com##.desktop-only.tall-only.logo:style(transform: none !important; transition: none !important; opacity: 1 !important;)
@@ -5137,20 +4951,12 @@ namepros.com##.bottomFixer
 napoleon.org##.clearfix.cnil-block
 narrative.ly###narratively-story-header:style(position: relative !important; top: 0 !important;)
 narrative.ly##.story-navigator
-narvar.com###josbank-nav:style(position: relative !important; top: 0 !important;)
+narvar.com###josbank-nav, .container, .header-widget, .navbar-header, .navbar, header-menu-directive, marketinglayout > div > div:nth-of-type(1):style(position: relative !important; top: 0 !important;)
 narvar.com##.contact-us
-narvar.com##.container:style(position: relative !important; top: 0 !important;)
-narvar.com##.header-widget:style(position: relative !important; top: 0 !important;)
 narvar.com##.navbar-fixed-top:style(position: absolute !important;)
-narvar.com##.navbar-header:style(position: relative !important; top: 0 !important;)
-narvar.com##.navbar:style(position: relative !important; top: 0 !important;)
-narvar.com##header-menu-directive:style(position: relative !important; top: 0 !important;)
-narvar.com##marketinglayout > div > div:nth-of-type(1):style(position: relative !important; top: 0 !important;)
 nasa.gov##.article_nav_block
-nasa.gov##.fixed_show.fixed.site_header_area:style(position: relative !important; top: 0 !important;)
+nasa.gov##.fixed_show.fixed.site_header_area, .stickynav-active.stickynav-processed, .stickynav-processed:style(position: relative !important; top: 0 !important;)
 nasa.gov##.site_header_area:style(position: absolute !important;)
-nasa.gov##.stickynav-active.stickynav-processed:style(position: relative !important; top: 0 !important;)
-nasa.gov##.stickynav-processed:style(position: relative !important; top: 0 !important;)
 nasdaq.com###global_header .logo span:style(height: 50px !important; width: 177px !important;)
 nasdaq.com###global_nav #mainNav-88x31:style(margin: 14px 5px 0 0 !important;)
 nasdaq.com###global_nav #nasdaq_login, #hot_topics:style(line-height: 60px !important;)
