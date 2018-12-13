@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 08:02 PM 2018-12-12
+! Last Modified: 08:47 AM 2018-12-13
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -3716,9 +3716,10 @@ indiewire.com##.slide--up:style(transform: none !important;)
 indy100.com###article-column, #article-container:style(overflow: unset !important;)
 indy100.com###main-container:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 indy100.com###top-nav:style(position: relative !important;)
-inews.co.uk##.header:style(position: relative !important; top: 0 !important;)
+inews.co.uk##.article__stickymeta:style(position: absolute !important; top: 450px !important;)
+inews.co.uk##.header:style(position: relative !important;)
 inews.co.uk##.matrix-button
-inews.co.uk##.slab-navigation.slab
+inews.co.uk##body:style(margin-top: 0 !important;)
 infantino.com##.fixedbar.stuck-nav:style(position: absolute !important;)
 infiniteprivacy.com##.navbar-wrap:style(position: absolute !important;)
 inforcecomputing.com##.contactscroll
