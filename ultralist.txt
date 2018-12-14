@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 03:30 PM 2018-12-14
+! Last Modified: 04:59 PM 2018-12-14
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -1017,6 +1017,7 @@ bloomberg.com##.sticky-video:style(transition: none !important; transform: none 
 bloomberg.com##.terminal-tout-container
 bloomberg.com##.video-player__container:style(position: static !important; transition: none !important; transform: none !important; opacity: 1 !important; top: 0 !important; width: auto !important; height: auto !important;)
 bloomberg.com##.zipr-recirc:style(position: relative !important; top: 0 !important; max-height: 100px !important;)
+bloomberg.com##div:has(:scope > .dvz-v0-ad)
 bloombergquint.com##.header-sticky-wrapper, .sticky-outer-wrapper > .sticky-inner-wrapper:style(position: relative !important;)
 bloombergquint.com##.story.bq-nav:style(position: relative !important; top: 0 !important;)
 bloombergquint.com##.tv-miniplayer:style(position: absolute !important; top: 7px !important;)
