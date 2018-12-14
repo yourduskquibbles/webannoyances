@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 10:11 AM 2018-12-14
+! Last Modified: 11:02 AM 2018-12-14
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -2818,8 +2818,11 @@ forbes.com##div.amp-ad-container
 forbes.com##fbs-ad
 forbes.com##html:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 forbes.com##navbar.undefined-expanded:style(background-image: none !important;)
+foreignaffairs.com###dfp-ad-outofpage-wrapper
 foreignaffairs.com###kicker-2
-foreignaffairs.com##.site-header--sticky:style(position: relative !important; top: 0 !important;)
+foreignaffairs.com##.site-header--sticky
+foreignaffairs.com##.site-header__top-bar:style(height: auto !important;)
+foreignaffairs.com##.subscribe-callout-image:style(top: -37px !important;)
 foreignpolicy.com###logo
 foreignpolicy.com###main-nav-target:style(position: relative !important; top: 0 !important;)
 foreignpolicy.com###menu
@@ -3082,7 +3085,7 @@ getmonero.org##cloudflare-app:style(position: absolute !important;)
 getmonero.org##html:style(top: 0 !important;)
 getoutline.org###wrapper > .udo-app-header.style-scope:style(position: absolute !important; transform: none !important;)
 getpocket.com###related_topics
-getpocket.com##.portal-header:style(position: absolute !important;)
+getpocket.com##.portal-header, .sticky.article_meta:style(position: relative !important;)
 getshimmer.co###s-nav:style(position: absolute !important;)
 gettyimages.com##.recirc
 gettyimages.com##.show.up-next-bar
@@ -5430,6 +5433,7 @@ ontariopolicereports.com##.adsbygoogle
 onthehub.com###grve-inner-header:style(position: relative !important; height: 90px !important; line-height: 90px !important;)
 oo-software.com###pnavi:style(position: relative !important;)
 openculture.com###leaderboard_div, .advertisement_notice
+openculture.com##.framearound_ad_in_post
 opendns.com##.sticky.header:style(position: absolute !important;)
 openelec.tv###ca_banner
 opengarden.com##.birdseye-header:style(position: absolute !important;)
@@ -5646,7 +5650,7 @@ pgatour.com##.fixed-full:style(position: absolute !important;)
 pgatour.com##.float-content.container-wrapper:style(position: absolute !important; top: 0 !important;)
 pgatour.com##.js-ad, .leaderboard-banner-ad
 phandroid.com##.fixed.brand-logo, .nav-main-wrapper, .z-depth-1_5.navbar-fixed:style(position: absolute !important;)
-philly.com##.ad__leaderboard, .js-toggle-ad
+philly.com###a1-top-furniture, .ad__leaderboard, .js-toggle-ad
 philly.com##.cb.pad-and-half--top > .cb > .border--btm.pad--btm.pad--top.space--btm.font--ml.font--primary.shirttail
 philly.com##.content:style(padding-top: 0 !important;)
 philly.com##.gi-hold.space-double--btm.gi
