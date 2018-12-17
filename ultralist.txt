@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:56 AM 2018-12-17
+! Last Modified: 11:57 AM 2018-12-17
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -6072,9 +6072,18 @@ razorpay.com###tagbar:style(position: relative !important;)
 rbth.com##.layout__header:style(position: absolute !important;)
 rchain.coop###header, .title-nav-wrapper:style(position: absolute !important; background-color: transparent !important;)
 rchain.coop###parallax-nav:style(position: absolute !important; top: 150px !important;)
-rd.com###masthead
-rd.com##.adhesive-site-header--top-bar, .stationary-site-header--promo:style(position: relative !important; top: 0 !important;)
-rd.com##.fwf--fixed__right
+rd.com###toh-search-form-wrapper > .close-btn
+rd.com###toh-search-form-wrapper:style(position: relative !important; padding: 0 !important; border-bottom: none !important; box-shadow: none !important; max-width: 400px !important;)
+rd.com##.desktop-upper-wrapper:style(display: flex !important;)
+rd.com##.focus-menu::before:style(content: "" !important; display: inline-block !important; background-color: #fff !important; width: 1px !important; height: 41px !important; vertical-align: middle !important; margin: 0 20px !important;)
+rd.com##.header-banner-container:style(margin-top: 0 !important;)
+rd.com##.header-logo:style(position: absolute !important; top: -120px !important;)
+rd.com##.site-header:style(position: relative !important; height: 196px !important; padding-top: 140px !important;)
+rd.com##.toh-search-form form:style(display: block !important;)
+rd.com##.toh-search-form input[type="submit"]
+rd.com##.toh-search-form:style(max-width: 400px !important;)
+rd.com##div[id^="listicle-between-cards-ad"]
+rd.com##header.site-header.sticky::after:style(top: 140px !important;)
 reachlocal.com###fixed-header:style(position: absolute !important; top: 0 !important;)
 reactjs.org##.css-3ao3zf, .css-mlkfzr:style(position: absolute !important;)
 readonlymemory.vg##.hidden-small.notification-bar
