@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 05:51 PM 2018-12-18
+! Last Modified: 09:59 PM 2018-12-18
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -2434,6 +2434,8 @@ espn.com##.sidebar:style(position: absolute !important; top: 0 !important; trans
 espn.com.mx###header-wrapper:style(position: absolute !important;)
 espnfc.com###desktop-nav:style(position: relative !important; top: 0 !important;)
 espnfc.com###navbar:style(position: absolute !important; top: 0 !important;)
+espnmediazone.com###body-wrapper:style(margin-top: 0 !important;)
+espnmediazone.com###nav-wrapper:style(position: relative !important; max-width: 1000px !important;)
 esquire.co.uk##.sticky.nav:style(position: absolute !important;)
 esquire.com##.ad-gpt-breaker-container
 esquire.com##.content-nav-active.sticky.nav, .nav, .sticky.nav:style(position: relative !important; top: 0 !important;)
@@ -7916,10 +7918,9 @@ vanityfair.com##.component-sponsored-links
 vanityfair.com##.lower-nav-scrolled
 variety.com###leaderboard
 variety.com###vy-site-header:style(position: relative !important; transition: none !important; transform: none !important; height: 128px !important;)
-variety.com##.ad-below-tags
+variety.com##.ad-below-tags, .l-header__leaderboard
 variety.com##.google-publisher.adma
 variety.com##.header-inner, .module-share-tools:style(position: relative !important; top: 0 !important;)
-variety.com##.l-header__leaderboard
 variety.com##.l-list--row-wrap.l-list
 variety.com##.player-position:style(position: static !important;)
 vectrus.com###header-wrapper:style(position: relative !important; top: 0 !important;)
@@ -7927,8 +7928,10 @@ vegetariantimes.com##.is-visible.l-sticky-navbar:style(position: relative !impor
 vegetariantimes.com##.m-detail--footer
 vegetariantimes.com##.m-in-content-ad-row
 velonews.com##.advert
+venturebeat.com###ac-player-wrapper:style(position: static !important; width: unset !important;)
 venturebeat.com###omni-navbar:style(position: relative !important; top: 0 !important;)
 venturebeat.com###sticky-wrapper
+venturebeat.com##.lre-cancel-float
 verdict.co.uk##.fixed-top-ads, .in-article-text-promo
 verdict.co.uk##.site-footer:style(position: relative !important;)
 vergecurrency.com###header:style(position: absolute !important; background-color: transparent !important;)
@@ -8228,8 +8231,7 @@ weeklystandard.com##.PageLogo-image:style(content: none !important; height: 35px
 weeklystandard.com##.ad, .advertisement, .fixed-bottom-ad
 weeklystandard.com##.block.form.widget
 weeklystandard.com##.cover
-weeklystandard.com##.featured-cover
-weeklystandard.com##.featured-teasers
+weeklystandard.com##.featured-cover, .featured-teasers
 weeklystandard.com##.upnext
 wefunder.com##.fixed_navigation
 wefunder.com##.topNav:style(position: absolute !important;)
