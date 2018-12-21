@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 01:54 PM 2018-12-21
+! Last Modified: 03:20 PM 2018-12-21
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -1501,8 +1501,8 @@ circa.com##.Atom-actionButton
 circa.com##div[id^="advertisement-"]
 circa.com##footer
 circleofmoms.com###mobile-banner
-citi.com##.LPMoverlay.LPMcontainer:style(position: absolute !important;)
 citi.com##.olUpNewIcon.feedbackDesktop:style(position: absolute !important;)
+citi.com##div[style^="position:fixed;"]:style(position: absolute !important; top: 0 !important;)
 citizenlab.ca###article-footer
 citizensforethics.org##.donate-btn
 citizensforethics.org##.fixed-menu.sticky.header, .hidden-xs.top-bar:style(position: absolute !important;)
@@ -1617,8 +1617,7 @@ codecov.io##.menu.fixed.desktop.pointing.inverted.large.ui:style(position: absol
 codedump.io##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute !important;)
 codementor.io##.bottom-bar
 codementor.io##.consent
-codementor.io##.fade-in.article__engager--fixed.offset.article__engager:style(position: absolute !important;)
-codementor.io##.headroom:style(position: absolute !important;)
+codementor.io##.fade-in.article__engager--fixed.offset.article__engager, .headroom:style(position: absolute !important;)
 codeproject.com###ctl00_Nav:style(position: static !important;)
 codex.online##.cookies
 codex.online##.topmenu.pure-g:style(position: absolute !important;)
@@ -1662,8 +1661,7 @@ comicbook.com##.sticky.next-article-tease
 comicbook.com##body > header:style(position: absolute !important; height: auto !important;)
 comicbook.com.com##div[id^="oas_"]
 commentarymagazine.com###archives-2
-commentarymagazine.com###js-sticky-contents
-commentarymagazine.com###js-sticky-contents-resize-tool
+commentarymagazine.com###js-sticky-contents, #js-sticky-contents-resize-tool
 commentarymagazine.com##.alert-block.alert.intense
 commentarymagazine.com##.sticky.vw-sticky-sidebar, .vw-sticky.vw-menu-main-wrapper:style(position: relative !important;)
 commerce.gov###header-wrapper:style(position: absolute !important;)
@@ -1680,9 +1678,7 @@ complex.com###ctoolbar
 complex.com###elContainer, .background-image, .floating-aside-panel--floated.floating-aside-panel:style(position: relative !important; top: 0 !important;)
 complex.com##.base:style(padding-top: 0 !important;)
 complex.com##.suitcase-ad
-complex.com##.video-bar-on-scroll
-complex.com##.video-bar-on-scroll--desktop
-complex.com##.video-bar-on-scroll--showing-cookie-notice
+complex.com##.video-bar-on-scroll, .video-bar-on-scroll--desktop, .video-bar-on-scroll--showing-cookie-notice
 complex.com##.video-embed-floated--showing-cookie-notice.vidible-embed:style(position: static !important;)
 computer.org##.cb-menu-fw.cb-font-header.clearfix.cb-site-padding.cb-nav-bar-wrap:style(position: relative !important; top: 0 !important;)
 computerworld.com###sticky-head:style(position: relative !important; top: 0 !important;)
@@ -1697,8 +1693,7 @@ consequenceofsound.net##.site-header:style(position: relative !important; top: 0
 conservativeread.com##.widget_text.widget
 conservativereview.com###nav-top_wrapper:style(position: absolute !important;)
 conservativereview.com##.header-main, .stuck.header__single.header__main:style(position: relative !important; top: 0 !important;)
-conservativetribune.com##.ad-notice-small, .before-article-ad
-conservativetribune.com##.persistent-footer.sponsor
+conservativetribune.com##.ad-notice-small, .before-article-ad, .persistent-footer.sponsor
 conservativetribune.com##.persistent-header
 conservativetribune.com##.related.article-extras, .trending.article-extras
 consimworld.com###header-navigation:style(position: absolute !important;)
@@ -1920,15 +1915,11 @@ dailymail.co.uk##.dms-puff
 dailymail.co.uk##.home.cc:style(position: relative !important; top: 0 !important; transform: none !important; transition: none !important;)
 dailymail.co.uk##.home.item.html_snippet_module
 dailymail.co.uk##.hp-swipe
-dailymail.co.uk##.linksHolder-2WTnM
-dailymail.co.uk##.linksHolder-3KBa2
+dailymail.co.uk##.linksHolder-2WTnM, .linksHolder-3KBa2
 dailymail.co.uk##.mobile-sharing.news.cc, .mobile-sharing:style(position: relative !important; top: 0 !important;)
-dailymail.co.uk##.mol-previous-next-navigation_next-button
-dailymail.co.uk##.mol-previous-next-navigation_previous-button
-dailymail.co.uk##.nextBtn-2Mn7O
-dailymail.co.uk##.nextBtn-3HPLH
-dailymail.co.uk##.previousBtn-2T0ps
-dailymail.co.uk##.previousBtn-aTtQv
+dailymail.co.uk##.mol-previous-next-navigation_next-button, .mol-previous-next-navigation_previous-button
+dailymail.co.uk##.nextBtn-2Mn7O, .nextBtn-3HPLH
+dailymail.co.uk##.previousBtn-2T0ps, .previousBtn-aTtQv
 dailymail.co.uk##.scrollable-content:style(overflow-x: hidden !important; overflow-y: auto !important; height: auto !important; padding-top: 0 !important; margin-top: 0 !important;)
 dailymotion.com##.Header__container___-9nBG:style(position: relative !important;)
 dailyoilbulletin.com##.docs-sticky-top-bar.utils-nav:style(position: absolute !important;)
