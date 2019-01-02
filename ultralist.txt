@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 09:06 AM 2019-01-02
+! Last Modified: 10:20 AM 2019-01-02
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -1654,6 +1654,10 @@ comicbook.com##.o2-in-side-view:style(position: static !important;)
 comicbook.com##.sticky.next-article-tease
 comicbook.com##body > header:style(position: absolute !important; height: auto !important;)
 comicbook.com.com##div[id^="oas_"]
+comicsalliance.com##.aside-inside
+comicsalliance.com##.fixed-full-width #site-menu-bg:style(height: calc(100% - 32px) !important;)
+comicsalliance.com##.fixed-full-width #site-menu-wrapper:style(position: relative !important;)
+comicsalliance.com##.site-menu-drawer:style(margin-top: 0 !important;)
 commentarymagazine.com###archives-2
 commentarymagazine.com###js-sticky-contents, #js-sticky-contents-resize-tool
 commentarymagazine.com##.alert-block.alert.intense
@@ -2618,6 +2622,7 @@ fatherly.com##.article__leaderboard, .article__rail-ad, .mobile-ad-nav, .module_
 fatherly.com##.clearfix.site-header:style(position: absolute !important;)
 fatwallet.com###fixed-header:style(position: relative !important; top: 0 !important;)
 fauna.com##.header--logo, .js-mobile-nav-button.button--nav-menu.button:style(position: absolute !important;)
+faz.net##.gh-MainNav-is-visible.js-article-scroller-sticky-header.js-global-header-main-nav-sticky.gh-MainNav-is-sticky.gh-MainNav
 fbi.gov##.top-navigation-container.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important; top: 0 !important;)
 federalreserve.gov###nav-primary:style(position: relative !important; top: 0 !important;)
 federalreserve.gov###t4_nav:style(position: absolute !important; top: 0 !important;)
@@ -3422,6 +3427,9 @@ hm.com##.is-hidden-webview.js-viewport-offset-element.js-l-header.l-header:style
 hm.com##.vngage-active.vngage-open.vngage-tabbanner.vngage-banner:style(position: absolute !important;)
 hn.algolia.com##.page-header:style(position: absolute !important;)
 hn.algolia.com##header.ng-scope:style(position: absolute !important; width: 100% !important; left: 0 !important;)
+hn.premii.com##.f-border, .pull-to-refresh-layer
+hn.premii.com##.pagebd-container:style(overflow: unset !important;)
+hn.premii.com##.pages-container:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 hoax-slayer.net###navigation:style(position: absolute !important; top: 0 !important;)
 hoaxorfact.com##.sticky-wrapper
 hoaxorfact.com##.stuck.fixed-next-page:style(position: relative !important; top: 0 !important;)
@@ -3590,6 +3598,19 @@ ign.com##.ign-logo:style(opacity: 1 !important;)
 ign.com##.queue-container:style(position: relative !important; top: 0 !important; bottom: 2.5em !important; padding: 0 !important;)
 ign.com##.queue-item-image-container
 ign.com##.queue-item.undercover:style(max-height: 20rem !important;)
+iheart.com###NavHeader:style(background-color: transparent !important; border-bottom: none !important;)
+iheart.com###page-view-container:style(margin-top: 6.5rem !important;)
+iheart.com##._full-width.component-microsite, .hero-active.component-branded-header:style(margin-top: 76px !important;)
+iheart.com##.component-playerbar:style(position: absolute !important; height: 75px !important; top: 81px !important; margin-top: 0 !important; margin-bottom: 76px !important; z-index: 1 !important;)
+iheart.com##.container-home-page-carousel.container-fluid, .content-layout-container:style(margin-top: 77px !important;)
+iheart.com##.css-13t6g5d, .header, .nav-sticky.header:style(position: absolute !important;)
+iheart.com##.css-1fpo8d0:style(height: 6.5rem !important;)
+iheart.com##.css-1fpo8d0:style(position: absolute !important; transform: none !important;)
+iheart.com##.css-y7m2f7:style(margin-top: 13rem !important;)
+iheart.com##.dropdown-menu-popper, .menu-option:style(z-index: 2 !important;)
+iheart.com##.e13u9iy40.css-gsoye7:style(position: absolute !important; top: 6.5rem !important; margin-top: 0 !important;)
+iheart.com##.es9qdcx0.css-s7spms
+iheart.com##.station-header-container:style(position: absolute !important; top: 0 !important;)
 ihop.com##.c-navbar:style(position: absolute !important;)
 ihsmarkit.com###solution-cta:style(top: 0 !important; right: 0 !important;)
 ihsmarkit.com##.sticky.topnav:style(position: relative !important; box-shadow: none !important;)
@@ -3793,6 +3814,9 @@ inverse.com##.-right.-side.-up.app-tab.menu-button.ellipsis.follow.btn
 inverse.com##.app-header.flex, .sticky.header-container:style(position: relative !important; top: 0 !important;)
 inverse.com##.fixed.header-container:style(position: absolute !important;)
 inverse.com##.locked.flatiron-app.consumer.article-route.article-channel.app
+investing.com##.navMenuWrapper:style(top: 0 !important;)
+investing.com##.subMenuWrapper:style(top: 31px !important;)
+investing.com##.switchHeader, header:style(position: absolute !important;)
 investmentwatchblog.com###article-bottom-ad, .adsbygoogle
 investopedia.com###AdSlot_AF-Right-Multi, #AdSlot_BF-Right-Multi, .ad-leaderboard
 investopedia.com###Content:style(padding-top: 20px !important;)
@@ -6423,6 +6447,8 @@ sky.com###breaking_news_ticker
 sky.com##.sdc-news-footer__list--social.sdc-news-footer__list
 slack.com##.is-fixed.c-nav--primary.c-nav:style(position: absolute !important;)
 slack.help###nav_list, .category_header.header_white.header:style(position: absolute !important;)
+slackhq.com##.c-nav__primary__alt__title
+slackhq.com##.is-fixed.c-nav__primary.c-nav:style(position: absolute !important;)
 slamonline.com###DesktopNav:style(position: relative !important; top: 0 !important;)
 slashdot.org###slashboxes:style(position: relative !important;)
 slashdot.org##.slashbar:style(position: absolute !important; top: 0 !important;)
