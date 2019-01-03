@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 03:49 PM 2019-01-02
+! Last Modified: 09:57 PM 2019-01-02
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -86,6 +86,7 @@ avclub.com##.preloaded_lightbox
 avclub.com##body:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 avclub.com,causeandeffect.fm,clickhole.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,kinja.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com###lightbox_overlay_div
 avclub.com,causeandeffect.fm,clickhole.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,kinja.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.preloaded_lightbox
+avsforum.com###ukCookiePopup
 avsforum.com###vspopup-all-overlays
 awscloud.com##.mo-wp
 azcentral.com##.bx-impress-in
@@ -277,7 +278,7 @@ defenseone.com##body:style(overflow-x: hidden !important; overflow-y: scroll !im
 democracynow.org###campaign_modal
 democracynow.org###overlay
 democracynow.org##.not_scroll.body_wrapper:style(overflow-x: hidden !important; overflow-y: scroll !important;)
-denverpost.com,statesman.com##.Mg2-connext
+denverpost.com,mercurynews.com,mystatesman.com,statesman.com##.Mg2-connext
 developers.google.com##.devsite-notification-eu-cookie
 dfiles.eu##.cookie_popup
 dictionary.com###fly-out
@@ -293,9 +294,6 @@ digg.com##.promo-bottom--editions
 digitalocean.com###DO_CC_PANEL
 discordbots.org##.app_gdpr--2k2uB
 discordbots.org##.modal
-discovermagazine.com###wp-popup-2289690
-discovermagazine.com###wp-popup-2350412
-discovermagazine.com###wp-popup-2354829
 discovermagazine.com##.wp_popup_overlay
 discovermagazine.com##html:style(overflow-x: hidden !important; overflow-y: scroll !important; margin-top: 0 !important;)
 dispatch.com##.tp-backdrop
@@ -614,6 +612,8 @@ medium.com##.overlay
 medium.com##.popover
 medium.com##html:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 megynkelly.org###openModal
+mercurynews.com##.connext-modal-backdrop, .modal-scrollable
+mercurynews.com##body.modal-open:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 merriam-webster.com###subscribe-overlay
 metacritic.com###popup_newslettter
 mic.com##.modal-overlay
@@ -820,6 +820,7 @@ potbelly.com##.global-modal-background
 pressherald.com###iubenda-cs-banner
 primaryarms.com##.popup-content
 princewilliamliving.com##.ui-draggable.wdev-window.move.wdpu-msg.popup.resize
+product-reviews.net##.g1-teaser
 professor-excel.com##.pum
 professor-excel.com##.pum-container
 projectcensored.org###lpl
@@ -866,6 +867,9 @@ revealnews.org##.pum-active
 reviewjournal.com##.connext-modal-backdrop
 reviewjournal.com##.modal-open:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 reviewjournal.com##.modal-scrollable
+reviewmeta.com###terms_modal
+reviewmeta.com##.modal-backdrop
+reviewmeta.com##body:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 revisionisthistory.com###mail
 revisionisthistory.com##html:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 rewire.news###austin-optin
@@ -878,6 +882,7 @@ rsf.org###overlays
 ruindays.com##.sticky_nav--stick.sticky_nav.main_nav_wrapper
 ruindays.com##.wheelio_holder
 sabonnyc.com##.dynotifyjs-corner
+samsung.com##.cm-cookie-geo
 sandiegoreader.com###newsletter-modal
 sandiegoreader.com##.reveal-modal-bg
 santafenewmexican.com###notification-area
