@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 01:56 PM 2019-01-05
+! Last Modified: 03:34 PM 2019-01-05
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -975,10 +975,7 @@ bloomberg.com##.in-article-ad-dummy, .mobile-box-ad-dummy, .leaderboard-containe
 bloomberg.com##.middle-column:style(overflow: unset !important;)
 bloomberg.com##.navi:style(position: relative !important; top: 0 !important; transition: none !important;)
 bloomberg.com##.persist-nav.bb-nav-root
-bloomberg.com##.recirc-opinion:style(padding: 0 20px 12px !important;)
-bloomberg.com##.recirc.rotation-item:style(transition: none !important; transform: none !important; opacity: 1 !important; max-height: 2000px !important;)
-bloomberg.com##.rotation-item.recirc-v2:style(padding: 0 20px !important;)
-bloomberg.com##.rotation-item[current=false]:style(padding: 10px !important; opacity: 1 !important; max-height: 2000px !important; transform: none !important;)
+bloomberg.com##.recirc-opinion:, .recirc.rotation-item, .rotation-item.recirc-v2, .rotation-item[current=false]:style(transition: none !important; transform: none !important; opacity: 1 !important; max-height: 2000px !important; padding: 0 20px 12px !important;)
 bloomberg.com##.sticky-container:style(position: static !important; top: 0 !important;)
 bloomberg.com##.sticky-video:style(transition: none !important; transform: none !important;)
 bloomberg.com##.terminal-tout-container
