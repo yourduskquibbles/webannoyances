@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 02:14 AM 2019-01-15
+! Last Modified: 09:44 PM 2019-01-15
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -54,6 +54,7 @@ aol.com##.newsletter-popup
 apnic.net##.smcx-modal.smcx-widget
 appuals.com###iubenda-cs-banner
 appuals.com##.ad-popup
+ar15.com##.cd-fade-out.cd-is-visible.cd-top
 arianespace.com##.is-fixed.js-tirette.tirette, .js-banner.cookie
 army-technology.com###cookiepopup
 artnet.com###ouibounce-modal
@@ -399,7 +400,6 @@ foreignpolicy.com##.cookie_message
 foreignpolicy.com##.js-takeover
 foreignpolicy.com##.paywall_counter
 foreignpolicy.com##body:style(overflow-x: hidden !important; overflow-y: scroll !important;)
-forums.cpanel.net##.bottomFixer
 forums.xfinity.com##.lia-panel-dialog-modal-simple
 forzieri.com##.mfp-bg
 forzieri.com##.mfp-wrap
@@ -427,6 +427,7 @@ gatesnotes.com###cboxContent
 gatesnotes.com##.surveyContainer
 gazette.com###takeover-right
 gazettextra.com###syncronexOverlayContainer
+gazettextra.com##.syncronex-warning-overlay
 gazettextra.com##body:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 gcaptain.com##.wph-modal
 gearbest.com###layui-layer-shade1
@@ -447,6 +448,7 @@ glassdoor.co.uk###GiveToGetInstallAppModal
 glassdoor.com##.mfp-bg
 glassdoor.com##.mfp-content
 glassdoor.com##.sneakPeekPromoItemXS.sm.lockedOverlayAppDownload.sneakPeekItemPromoBox
+glassesusa.com##.welcomeNotice__wrap___3LWDX
 globalgolf.com###EmailModal
 globalgolf.com###Mask
 globalvoices.org###cboxOverlay
@@ -826,6 +828,7 @@ petsmart.com##._HP_promoModal__innerPopup
 pewresearch.org###js-user-survey-popup
 photobucket.com###myModal
 photobucket.com##.modal-backdrop
+picreel.com##.frame-container
 pinterest.com##.AppInterstitial
 pinterest.com##.AppUpsellHeader__background
 pinterest.com##.ReactModalPortal
@@ -932,6 +935,7 @@ seattletimes.com###container:style(filter: none !important;)
 seattletimes.com##.modal
 seattletimes.com##.modals
 sec.gov##.acsModalBackdrop
+securitycheckli.st##.style__ScrollToTop-sc-1z0so4v-7
 seekingalpha.com##.in.modal
 seekingalpha.com##.modal-backdrop
 seekingalpha.com##html:style(overflow-x: hidden !important; overflow-y: scroll !important;)
@@ -1007,7 +1011,6 @@ taskandpurpose.com##.charlotte-background
 taskandpurpose.com##.tp-oim-inline-background
 teamblind.com##.app_down_bar
 teamblind.com##.pop_toast_noti
-techguy.org##.bottomFixer
 technochops.com###sgcboxContent
 technochops.com###sgcboxOverlay
 techsupportall.com##.bs-wrap-gdpr-law
@@ -1031,8 +1034,6 @@ thedailybeast.com##html:style(overflow-x: hidden !important; overflow-y: scroll 
 thedailybell.com##.tve-leads-slide-in
 thedailybell.com##html:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 thefashionlaw.com##.visible.sqs-popup-overlay.sqs-widget.yui3-widget
-thefloorpro.com##.bottomFixer
-thefloorpro.com##.xbScrollButtons
 theglobeandmail.com###pianowrapper
 theglobeandmail.com###subscription-pencil-area
 theglobeandmail.com##.ab-iam-root
@@ -1204,7 +1205,6 @@ weeklystandard.com##.modal
 weeklystandard.com##.modal-backdrop
 wegmans.com###webuiPopover2
 wikiarms.com##.popup
-wilderssecurity.com##.Notices.PanelScrollerOff
 wiley.com##.notification.js-module
 wilton.com##.optin-slide-wrapper
 wilton.com##.popup-dialog
@@ -1238,4 +1238,5 @@ zendesk.com###ouibounce-modal
 zenmate.com##.zm-crm-overlay
 zutano.com###privy-container
 ||izooto.com^$script,domain=bloombergquint.com|dnaindia.com
+||picreel.com^$subdocument
 ||stacklist.com/*/subscribe-modal
