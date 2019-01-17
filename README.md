@@ -1,4 +1,4 @@
-# Web Annoyances Ultralist - *unsuck the web!*
+# Web Annoyances Ultralist - *better web expirience!*
 ## Intro
 Are you tired of not being able to use all of your screen real estate for the text that matters on a website 
 because floating headers and other distracting elements are blocking your view?
