@@ -8,14 +8,14 @@ Block annoying web elements such as [sticky headers](https://alisdair.mcdiarmid.
 
 When possible, sticky headers, stickynavs, floating elements, scrolling videos and more will be pinned in place to prevent site breakage.
 
-## unsuck the web Demonstration
-### Before Installing Web Annoyances Ultralist
+## *unsuck the web* - Demonstration
+### Typical Website in 2019 *Before* Installing Web Annoyances Ultralist
 
 ![scrolling_video_newsletter_header_share_icons highlighted](https://user-images.githubusercontent.com/22258847/51348578-16f08980-1a71-11e9-80b8-0f2ad5379bcd.png)
 
 
 Above screenshot taken using uBlock Origin Default Filter Lists
-### After Installing Web Annoyances Ultralist
+### Typical Website in 2019 *After* Installing Web Annoyances Ultralist
 
 ![afterinstall](https://user-images.githubusercontent.com/22258847/51348138-e8be7a00-1a6f-11e9-9b0c-5fac61a83f8f.png)
 
