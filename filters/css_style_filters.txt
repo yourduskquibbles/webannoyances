@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 01:39 PM 2019-01-19
+! Last Modified: 07:14 PM 2019-01-19
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -571,6 +571,7 @@ bet.com##.sticky-box--sticky:style(position: absolute !important; top: 0 !import
 bet.com##.sticky-share--visible:style(transform: none !important; transition: none !important;)
 better.com###header-floating\ navbar:style(position: absolute !important;)
 betterads.org##.show-mobile-logo.dt-parent-menu-clickable.shadow-decoration.full-height.widgets.justify.inline-header.masthead:style(position: relative !important; top: 0 !important;)
+betterhelp.com##.scroll-header, header:style(position: absolute !important; background-color: transparent !important;)
 betterment.com##.sc-SiteLayout-header:style(position: absolute !important; box-shadow: none !important;)
 betweenborders.com##.open.sidebar-toggle:style(position: absolute !important;)
 bgdailynews.com###main-navigation:style(position: absolute !important; top: 0 !important;)
@@ -3992,8 +3993,9 @@ shrm.org##.affix.noindex.container-nav.container-fluid:style(position: absolute 
 si.com##.longform-hero-container:style(padding-top: 0 !important;)
 si.com##.main:style(position: relative !important; transform: none !important;)
 si.com##.primary, .secondary:style(position: relative !important; top: 0 !important;)
-si.com##.primary-text-links:style(opacity: 1 !important; transition: none !important;)
+si.com##.primary-text-links, .under-social nav.main.contextual-social-enabled .full-logo.desktop-only:style(transform: none !important; opacity: 1 !important;)
 si.com##.title-display:style(opacity: 0 !important;)
+si.com##.vjs-control-bar:style(transform: none !important;)
 siderite.blogspot.com###mastheadnbt:style(position: relative !important; height: 72px !important; padding: 25px 0 !important;)
 siderite.blogspot.com##.clippy:style(position: absolute !important;)
 siftery.com##siftery-header > .align-items-center.d-flex:style(position: absolute !important;)
