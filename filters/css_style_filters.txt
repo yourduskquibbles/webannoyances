@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 10:06 AM 2019-01-21
+! Last Modified: 11:02 AM 2019-01-21
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -861,6 +861,7 @@ cbslocal.com##iframe:style(width: 618px !important; height: 351px !important; ma
 cbslocal.com,snopes.com,themarshallproject.org,nvidia.com##body:style(overflow-x: hidden !important; overflow-y: scroll !important; margin-top: 0 !important;)
 cbsnews.com###pip__headline, .floating.media-block:style(position: relative !important; top: 0 !important;)
 cbsnews.com##.dashboard-visible:style(margin-bottom: 0 !important;)
+cbsnews.com##.embed__content--draggable.floating:style(position: absolute !important;)
 cbsnews.com##.livestream-player-wrapper:style(position: static !important;)
 cbsnews.com##.site-footer:style(padding-bottom: 0 !important;)
 cbsnews.com##.site-header:style(position: relative !important;)
