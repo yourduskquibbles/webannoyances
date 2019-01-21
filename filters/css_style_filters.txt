@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:02 AM 2019-01-21
+! Last Modified: 12:05 PM 2019-01-21
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -2862,8 +2862,10 @@ mlbstreams.net##.stuck.waypoint:style(position: absolute !important;)
 mlbtraderumors.com##.headlines-bar:style(position: relative !important; top: 0 !important;)
 mlssoccer.com###mls-global, .affix.nav_wrapper.region-navigation.region:style(position: absolute !important; top: 0 !important;)
 mlssoccer.com##.logo__custom:style(position: absolute !important;)
-mmajunkie.com###nav-branding:style(position: relative !important; top: 0 !important;)
+mmajunkie.com###nav-branding-sticky-wrapper, #nav-branding:style(position: relative !important;)
+mmajunkie.com###secondary:style(position: absolute !important; bottom: unset !important;)
 mmajunkie.com###video-container:style(position: static !important;)
+mmajunkie.com##.jwplayer:style(position: relative !important; height: 563px !important; max-width: 1000px !important; width: 100% !important; bottom: unset !important; animation: none !important;)
 mmajunkie.com##.sticky-wrapper.is-sticky + .nav:style(padding-top: 0 !important;)
 mnn.com##.site-header__nav:style(position: absolute !important;)
 mobafire.com###header-logo-new, #net-menu, .header-new.self-clear:style(position: absolute !important;)
