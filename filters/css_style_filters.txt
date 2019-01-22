@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 01:38 PM 2019-01-22
+! Last Modified: 02:05 PM 2019-01-22
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -1354,7 +1354,7 @@ discourse.pi-hole.net##.clearfix.d-header:style(position: relative !important; t
 discover.com###container, .main-container:style(padding-top: 0 !important;)
 discover.com###deals-nav > .inner, #headingTwo, .header-wrapper, .right-section:style(position: relative !important; top: 0 !important;)
 discover.com###stickyNav, #stickySection, .asc-position-sticky.col-sm-12.col-lg-3.activity-search-container, .tdc-position-sticky, header:style(position: relative !important;)
-discover.com##.container.offers-container:style(margin-top: 0 !important;)
+discover.com##.mainContainer, .container.offers-container:style(margin-top: 0 !important;)
 discover.com##.header-wrapper:style(display: block !important;)
 discover.com##.main-content.promotions-container .sticky-section .custom-navigation .custom-navlist-wrapper .custom-nav-list li:style(border-bottom: none !important;)
 discover.com##.main-content.promotions-container .sticky-section .short-marquee-container:style(display: none !important; height: 0 !important;)
@@ -1435,8 +1435,7 @@ dw.com##.head:style(position: absolute !important;)
 dwatchseries.to,swatchseries.to###top-band:style(position: absolute !important;)
 dxc.technology##.cscMainHeader:style(position: relative !important; top: 0 !important;)
 dxomark.com###masthead:style(position: absolute !important; top: 0 !important;)
-dyn.com###blog-top-nav:style(position: absolute !important;)
-dyn.com###top-navbar:style(position: absolute !important;)
+dyn.com###blog-top-nav, #top-navbar:style(position: absolute !important;)
 dynadot.com##.navbar-fixed-top:style(position: absolute !important;)
 dynastynow.com###header-navigation:style(position: relative !important;)
 earlywarning.com###snav:style(position: absolute !important;)
