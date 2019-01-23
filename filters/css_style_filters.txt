@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 01:20 PM 2019-01-23
+! Last Modified: 01:34 PM 2019-01-23
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -66,7 +66,7 @@
 6abc.com,abc11.com,abc13.com,abc30.com,abc7.com,abc7chicago.com,abc7news.com,abc7ny.com##.feature-menu:style(margin-top: 18px !important;)
 6abc.com,abc11.com,abc13.com,abc30.com,abc7.com,abc7chicago.com,abc7news.com,abc7ny.com##.feature-nav-local, #feature-container.fixed .feature-search-container:style(display: inline-block !important; opacity: 1 !important; transition: none !important;)
 6abc.com,abc11.com,abc13.com,abc30.com,abc7.com,abc7chicago.com,abc7news.com,abc7ny.com##.sticky.wrapper.nav-container-sticky:style(position: relative !important; top: 0 !important;)
-6abc.com,abc11.com,abc13.com,abc30.com,abc7.com,abc7chicago.com,abc7news.com,abc7ny.com,accenture.com,adexchanger.com,adweek.com,afr.com,android.com,aol.com,architectural-review.com,arkema-americas.com,bitport.io,boston.com,businessinsider.com.au,businessinsider.de,buzzfeed.com,capbluecross.com,cebglobal.com,channelnewsasia.com,chipotle.com,city-data.com,click2houston.com,clickondetroit.com,clickorlando.com,cnn.com,collectorsweekly.com,cpbj.com,cryptoslate.com,deltadentalins.com,dribbble.com,duckduckgo.com,emsisoft.com,excellusbcbs.com,expressvpn.com,fair.org,fastcodesign.com,fastcompany.com,filehippo.com,geek.com,giga.de,glassesdirect.co.uk,hannaandersson.com,huffpost.com,ign.com,independent.co.uk,kaspersky.com,kfor.com,ksat.com,lairdtech.com,lawnewz.com,local10.com,logolounge.com,marketwatch.com,mediaite.com,military.com,myflorida.com,mymodernmet.com,nationalreview.com,nature.com,neteller.com,news4jax.com,newsweek.com,nintendo.com,petco.com,q13fox.com,rare.us,reviewed.com,reviewjournal.com,rollingstone.com,screenrant.com,seattletimes.com,standard.co.uk,stereogum.com,tampabay.com,techcrunch.com,texasmonthly.com,theblaze.com,thecipherbrief.com,thestar.com.my,timesofisrael.com,uber.com,undark.org,uproxx.com,usenix.org,usmagazine.com,variety.com,vinepair.com,virginia.gov,washingtoncitypaper.com,washingtontimes.com,whatsapp.com,whyy.org,wired.com,wmtw.com,wsj.com,wsls.com,wwe.com,xda-developers.com##body:style(padding-top: 0 !important;)
+6abc.com,abc11.com,abc13.com,abc30.com,abc7.com,abc7chicago.com,abc7news.com,abc7ny.com,accenture.com,adexchanger.com,adweek.com,afr.com,android.com,aol.com,architectural-review.com,arkema-americas.com,bitport.io,boston.com,businessinsider.com.au,businessinsider.de,buzzfeed.com,capbluecross.com,cebglobal.com,channelnewsasia.com,chipotle.com,city-data.com,click2houston.com,clickondetroit.com,clickorlando.com,cnn.com,collectorsweekly.com,cpbj.com,cryptoslate.com,css-tricks.com,deltadentalins.com,dribbble.com,duckduckgo.com,emsisoft.com,excellusbcbs.com,expressvpn.com,fair.org,fastcodesign.com,fastcompany.com,filehippo.com,geek.com,giga.de,glassesdirect.co.uk,hannaandersson.com,huffpost.com,ign.com,independent.co.uk,kaspersky.com,kfor.com,ksat.com,lairdtech.com,lawnewz.com,local10.com,logolounge.com,marketwatch.com,mediaite.com,military.com,myflorida.com,mymodernmet.com,nationalreview.com,nature.com,neteller.com,news4jax.com,newsweek.com,nintendo.com,petco.com,q13fox.com,rare.us,reviewed.com,reviewjournal.com,rollingstone.com,screenrant.com,seattletimes.com,standard.co.uk,stereogum.com,tampabay.com,techcrunch.com,texasmonthly.com,theblaze.com,thecipherbrief.com,thestar.com.my,timesofisrael.com,uber.com,undark.org,uproxx.com,usenix.org,usmagazine.com,variety.com,vinepair.com,virginia.gov,washingtoncitypaper.com,washingtontimes.com,whatsapp.com,whyy.org,wired.com,wmtw.com,wsj.com,wsls.com,wwe.com,xda-developers.com##body:style(padding-top: 0 !important;)
 760kfmb.com###WNMenuCol1:style(position: absolute !important;)
 800notes.com###skin_main_content:style(padding-top: 0 !important;)
 800notes.com###skin_main_header:style(position: relative !important; top: 0 !important;)
@@ -1164,7 +1164,9 @@ csnne.com###nbcsports-primary-nav:style(position: relative !important; top: 0 !i
 csoonline.com###banner:style(position: relative !important; top: 0 !important;)
 csoonline.com###sticky-head:style(position: relative !important;)
 csra.com##.region-sticky-header.region:style(position: relative !important; top: 0 !important;)
-css-tricks.com###site-header, .main-nav>ul:style(position: relative !important;)
+css-tricks.com###site-header:style(position: relative !important; box-shadow: none !important; transform: none !important; animation: none !important;)
+css-tricks.com##.main-nav>ul:style(position: relative !important;)
+css-tricks.com##html:root body.header-not-at-top:style(--nav-height: 130px !important;)
 cssauthor.com##.pinned.smart.bs-pinning-block.content-wrap:style(position: absolute !important;)
 cts-labs.com##.positioned-fixed.forwardLayerEvents.is-page-child.clickable-element.user-selectable-element.group-element.design-element:style(position: absolute !important;)
 culturehustle.com##.sticky.mobile-nav--sticky:style(position: absolute !important;)
