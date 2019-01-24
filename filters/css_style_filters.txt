@@ -1,11 +1,11 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 10:33 AM 2019-01-24
+! Last Modified: 12:42 PM 2019-01-24
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
 ! License: https://creativecommons.org/licenses/by-sa/4.0
 ! Copyright:  © 2016-2019 by yourduskquibbles
-! Purpose: Block annoying web elements and reclaim lost screen real estate - Unsuck the web and make it more user friendly!
+! Purpose: Modify CSS elements that block screen real estate - Unsuck the web and make it more user friendly!
 ! Works best with uBlock Origin or Nano Adblocker - be sure to install it as well!
 
 ! Start Web Annoyances Ultralist - CSS Style Modifying Filters
@@ -1138,6 +1138,7 @@ crosscut.com##.clearfix.header:style(position: absolute !important;)
 crowdin.com###header:style(position: absolute !important; background-color: transparent !important;)
 crowdstrike.com###site-header, #top-bar-wrap:style(position: relative !important; top: 0 !important;)
 crowdstrike.com##.cs_main_menu:style(position: absolute !important;)
+crucial.com##.is-stuck.is-at-top.sticky, .prechat-flag.prechat:style(position: absolute !important;)
 crunchbase.com##chrome:style(height: 1000% !important;)
 cruxnow.com##.move.sticky.menu_container:style(position: relative !important;)
 cryptbin.com###top-bar:style(position: absolute !important;)
@@ -1170,6 +1171,7 @@ cts-labs.com##.positioned-fixed.forwardLayerEvents.is-page-child.clickable-eleme
 culturehustle.com##.sticky.mobile-nav--sticky:style(position: absolute !important;)
 currencio.co##.softo-bar:style(position: absolute !important;)
 current.org##.show.nav_overflow_label.sticky_nav_display.sticky-nav-holder:style(position: relative !important; top: 0 !important;)
+custompc.com.cy##.floating.space-top.vs-full-width.et-full-width.et-sticky-menu.top-menu-grid.span16, #my_custom_badge:style(position: absolute !important;)
 cyclingtips.com###dropdown-bar, .clearfix.main-bar:style(position: relative !important; top: 0 !important;)
 cyclingtips.com##.HeaderMain__logo-logo:style(display: table !important;)
 cyclingtips.com##.HeaderMain__logo:style(max-width: 18.44444em !important;)
@@ -1881,7 +1883,7 @@ galoremag.com###deskNav:style(position: absolute !important;)
 galvnews.com###site-navbar-container:style(position: relative !important; top: 0 !important;)
 game-debate.com###topBar:style(position: absolute !important;)
 gameinfo.io###iv-link:style(position: absolute !important;)
-gameinformer.com##.top-bar:style(position: absolute !important;)
+gameinformer.com,thejournal.ie##.top-bar:style(position: absolute !important;)
 gamerevolution.com###js-site-navigation:style(position: relative !important; top: 0 !important;)
 gameroomsolutions.com###main-header, #top-header:style(position: absolute !important;)
 gamersify.com###bk-single-sidebar, .fixed.main-nav:style(position: absolute !important;)
@@ -3684,7 +3686,7 @@ primenow.amazon.com##.page_header__header-contents-container__30wJk:style(positi
 primevideo.com###av-nav:style(position: absolute !important;)
 princewilliamgolf.com###bcg-pageHeader:style(position: relative !important; top: 0 !important;)
 prism-break.org##.content-side:style(position: absolute !important;)
-privateinternetaccess.com##.navbar-pia-wrapper:style(position: absolute !important;)
+privateinternetaccess.com##.navbar-pia-wrapper, .top-bar, #dp_widget_container > div > iframe:nth-of-type(1):style(position: absolute !important;)
 prnewswire.com##.header-mobile:style(position: absolute !important;)
 pro-football-reference.com##.pi_form_control:style(margin-top: 0 !important;)
 productdork.com##.d-header, .timeline-container:style(position: absolute !important;)
@@ -3704,8 +3706,7 @@ propublica.org##.titles:style(padding-top: 0 !important;)
 prosoccerusa.com###mvp-top-head-wrap:style(position: absolute !important;)
 prosperousamerica.org##.header-container:style(position: absolute !important;)
 protribune.com##.wpb_wrapper:style(position: relative !important;)
-provideserver.com##.scrollheader.opacity-header:style(position: absolute !important;)
-provideserver.com##.top.border-page:style(position: absolute !important;)
+provideserver.com##.scrollheader.opacity-header, .top.border-page:style(position: absolute !important;)
 prri.org##.noShadow.header--collapsed.header--dark.header:style(position: relative !important; top: 0 !important;)
 psafe.com##.top-navigation:style(position: absolute !important;)
 psmag.com##.is-visible.l-sticky-navbar:style(position: relative !important; top: 0 !important;)
@@ -3789,6 +3790,8 @@ realcleardefense.com,realclearpolitics.com##.progress-bar:style(position: relati
 realclearpolitics.com###masthead-container, #masthead-wrapper, #masthead, .alpha-wrapper:style(position: relative !important; top: 0 !important;)
 realclearpolitics.com##.rc_video_player_container:style(position: relative !important;)
 realitysteve.com###main-nav-wrap:style(position: relative !important; top: 0 !important;)
+realtek.com###t3-header:style(position: relative !important;)
+realtek.com##.ja-masthead, .t3-masthead.wrap:style(margin-top: 0 !important;)
 reason.com###nav1:style(position: relative !important; top: 0 !important;)
 reasoncoresecurity.com###nav:style(position: absolute !important; top: 0 !important;)
 reasoncoresecurity.com##.sectionheader:style(position: absolute !important;)
@@ -4518,7 +4521,6 @@ theitstuff.com##.visible.menu-wrap:style(position: absolute !important;)
 thejakartapost.com##.showin-mobile-version.no-padding.col-xs-12:style(position: relative !important; top: 0 !important;)
 thejc.com##.main-header:style(position: relative !important;)
 thejewishvoice.com##.mvp-nav-small, .mvp-fixed1:style(position: absolute !important; top: 0 !important;)
-thejournal.ie##.top-bar:style(position: absolute !important;)
 theknot.com###main-nav-container, .main-nav-container-container, .theme-image-container:style(position: relative !important; top: 0 !important;)
 theladders.com##.sticky.global-header:style(position: absolute !important;)
 theleafonline.com###main-nav:style(position: relative !important; top: 0 !important;)
