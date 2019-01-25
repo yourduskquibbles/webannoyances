@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:30 PM 2019-01-24
+! Last Modified: 10:01 AM 2019-01-25
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -2103,6 +2103,9 @@ harpersferryadventurecenter.com###main-header, #top-header:style(position: relat
 harvard.edu##.g-header:style(position: absolute !important;)
 havenly.com##.role-temp.curtain:style(position: absolute !important;)
 hawaiinewsnow.com##.sticky.cdev-menu-nav:style(position: relative !important; top: 0 !important;)
+hawaiinewsnow.com,mysuncoast.com,wlbt.com###sticky-nav:style(position: relative !important;)
+hawaiinewsnow.com,mysuncoast.com,wlbt.com##.powa-sticky-stuck.powa-sticky:style(padding-bottom: 0 !important;)
+hawaiinewsnow.com,mysuncoast.com,wlbt.com##.powa-sticky.powa-sticky-stick:style(position: static !important; animation: none !important; width: 100% !important; max-width: unset !important;)
 hazlitt.net###region-navigation, #zone-masthead:style(position: relative !important; top: 0 !important;)
 hbo.com###contentContainerTop:style(position: relative !important; top: 0 !important;)
 hbr.org##.sticky-top-header:style(position: absolute !important; top: 0 !important;)
@@ -2784,6 +2787,7 @@ mediaite.com###featured-posts-wrap, #featured-posts, #header-content, .compact.t
 mediaite.com##header #logo img:style(width: 196px !important; max-width: 196px !important; height: 30px !important; min-height: 30px !important;)
 mediaite.com##header.full #header-content:style(margin: 0 !important;)
 mediakix.com###primary-menu:style(position: absolute !important;)
+mediapost.com##.navbar:style(position: absolute !important;)
 mediarun.com###jeg_sidecontent:style(position: absolute !important;)
 medicaldaily.com##.fixed.page-header, .stickyhead:style(position: relative !important; top: 0 !important;)
 medicinenet.com###apPgNum, #headline, .stickyrightrail:style(position: relative !important;)
@@ -3002,7 +3006,6 @@ myrecipes.com,travelandleisure.com##.full-logo:style(opacity: 1 !important; tran
 mysanantonio.com##._3cE4pPRA95cnUaxH8Y1Bbf:style(position: static !important; height: 500px !important;)
 mystatesman.com##.main-nav-container:style(position: relative !important; top: 0 !important;)
 mystream.to##.scrolled.header:style(position: absolute !important;)
-mysuncoast.com###sticky-nav:style(position: relative !important;)
 mysupermarket.co.uk##.SiteHeader:style(position: relative !important;)
 name.com##.top-nav:style(position: absolute !important;)
 namekin.com###mainNav:style(position: absolute !important; background-color: transparent !important; border: none !important;)
@@ -4308,6 +4311,10 @@ taskandpurpose.com###tpSidebar.fixedAtTop:style(position: absolute !important; w
 tass.com,tass.ru###categoryBlock, #lentaBlock:style(position: relative !important; top: 0 !important;)
 tastecooking.com##.mobile-menu--small.mobile-menu, .nav-search-button--small.nav-search-button:style(position: relative !important; top: 0 !important;)
 tastecooking.com##.nav-bar--small.nav-bar--default.nav-bar:style(position: absolute !important; top: 0 !important;)
+tasteofcountry.com###site-menu-bg:style(height: calc(100% - 32px) !important;)
+tasteofcountry.com###site-menu-wrapper, .aside-inside:style(position: relative !important; top: 0 !important;)
+tasteofcountry.com##.main-aside:style(background-color: transparent !important;)
+tasteofcountry.com##.site-menu-drawer:style(margin-top: 0 !important;)
 tasteofhome.com###navbar-top:style(position: relative !important; top: 0 !important;)
 tasteofhome.com##.site-header:style(padding-top: 140px !important;)
 tasteofhome.com##.sticky.site-header, .single-recipe aside.right-sidebar, .adunit.ad-wrapper:style(position: static !important;)
@@ -5172,8 +5179,6 @@ wkyc.com##.desktop-header__nav-label:style(transition: none !important; transfor
 wkyc.com##.desktop-header__toolbar:style(top: 28px !important; transition: none !important; transform: none !important;)
 wkyc.com##.is_stuck.site-nav:style(position: relative !important; top: 0 !important;)
 wkyc.com##.page__desktop-header, .page__header:style(position: absolute !important;)
-wlbt.com###sticky-nav:style(position: relative !important;)
-wlbt.com##.powa-sticky-stick.powa-sticky:style(position: static !important; animation: none !important;)
 wlox.com##.sticky.cdev-menu-nav:style(position: relative !important; top: 0 !important;)
 wmagazine.com##.inner:style(position: absolute !important;)
 wmagazine.com##.sub-header-sticky, .sub-header:style(position: relative !important; top: 0 !important;)
