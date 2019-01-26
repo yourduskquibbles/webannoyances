@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 03:18 PM 2019-01-26
+! Last Modified: 10:50 PM 2019-01-24
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -1276,7 +1276,7 @@ yelp.com##.js-open-in-app
 yelp.com##.photo-box_overlay
 yodalearning.com##.tve-leads-shortcode.tve-leads-triggered:style(opacity: 0 !important;)
 yodalearning.com##.tve_content_lock.tve_lead_lock.tve_lock_blur .tve_lead_locked_content:style(z-index: 999999 !important;)
-yodalearning.com##.tve_lead_locked_content:style(filter: none !important; user-select: text !important; -moz-user-select: text !important;)
+yodalearning.com##.tve_lead_locked_content:style(filter: none !important; user-select: unset !important;)
 yodalearning.com##.tve_lead_locked_overlay, .tve-leads-screen-filler
 yodalearning.com##html:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 zdf.de##.js-rb-attached.m-open.x-cookies.b-system-dialog
