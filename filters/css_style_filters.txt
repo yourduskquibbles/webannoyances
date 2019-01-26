@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 02:40 PM 2019-01-26
+! Last Modified: 03:18 PM 2019-01-26
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -3921,7 +3921,7 @@ scouting.org##.sc-sticky-header:style(position: absolute !important;)
 screenbeam.com###main-header, #ssb-container:style(position: absolute !important;)
 screendaily.com###mainnav:style(position: relative !important; top: 0 !important;)
 scribd.com###global_header, .main_header:style(position: relative !important; top: 0 !important;)
-scribd.com##.text_layer:style(text-shadow: black 0 0 !important; -moz-user-select: auto !important; -moz-user-focus: normal !important;)
+scribd.com##.text_layer:style(text-shadow: black 0 0 !important; user-select: text !important; -moz-user-select: text !important; -moz-user-focus: normal !important;)
 scribd.com##div[class^="newpage"]:style(display: block !important;)
 scroll.in##.global-navigation.stick-global-navigation:style(margin-bottom: 0 !important;)
 scroll.in##.scroll-navigation-container:style(position: relative !important;)
