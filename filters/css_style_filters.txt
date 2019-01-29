@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 04:16 PM 2019-01-29
+! Last Modified: 04:48 PM 2019-01-29
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -2153,9 +2153,10 @@ huckmag.com##.first.twelvecol.header:style(position: absolute !important;)
 huckmagazine.com##.first.twelvecol.header:style(position: relative !important; top: 0 !important;)
 huffingtonpost.com###breaking-news, .progress:style(position: absolute !important;)
 huffingtonpost.com###top-media:style(position: static !important;)
-huffingtonpost.com##.active.header-social, .module-navigation.module, .o2-in-side-view:style(position: relative !important; top: 0 !important;)
+huffingtonpost.com##.active.header-social, .module-navigation.module:style(position: relative !important; top: 0 !important;)
 huffingtonpost.com##.js-header.header:style(position: relative !important; height: 78px !important;)
 huffingtonpost.com##.logo__img:style(height: 28px !important;)
+huffingtonpost.com##.o2-in-side-view:style(position: static !important; width: 100% !important; height: 100% !important; right: 0 !important; bottom: 0 !important;)
 huffingtonpost.com##.opener:style(margin-top: 0 !important;)
 hulu.com###banner:style(position: absolute !important; top: 0 !important;)
 humaninterest.com###masthead, .flash:style(position: absolute !important;)
@@ -2653,6 +2654,15 @@ marketingplatform.google.com##.gmp-header__bar.h-c-header__bar:style(position: a
 marketplace.org###player, .js-sticky-top.fixed-header:style(position: absolute !important;)
 marketplace.visualstudio.com###section-banner, .itemdetails.details-tab, .ms-Pivot, .ux-item-shortdesc:style(animation: none !important;)
 marketplace.visualstudio.com###section-banner, .ms-Pivot:style(position: relative !important;)
+markets.businessinsider.com###header-bar:style(box-shadow: none !important;)
+markets.businessinsider.com###options-area:style(padding-top: 0 !important;)
+markets.businessinsider.com##.business-insider-logo:style(background-position: 0 -304px !important; width: 115px !important; height: 45px !important; margin-top: 30px !important;)
+markets.businessinsider.com##.header-logo:style(margin-top: 0 !important;)
+markets.businessinsider.com##.icon-logo:style(background-position: 0 -215px !important; width: 220px !important; height: 70px !important; margin: 15px 0 0 0 !important;)
+markets.businessinsider.com##.navi-magnifying-glassV2:style(top: 37px !important; margin-left: 15px !important;)
+markets.businessinsider.com##.navi-sign-up:style(padding: 15px !important; margin-top: 23px !important;)
+markets.businessinsider.com##.search-area input[type="text"]:style(height: 50px !important; margin-top: 0 !important; padding: 0 10px 0 45px !important; font-size: 18px !important;)
+markets.businessinsider.com##.search-area:style(height: 50px !important; margin-top: 23px !important; padding: 0 10px 0 45px !important; font-size: 18px !important;)
 marketwatch.com###market-overview, #site-nav:style(position: relative !important; top: 0 !important;)
 marketwatch.com##.fixed.column--full.column:style(position: relative !important; top: 0 !important; padding-bottom: 10px !important;)
 marketwatch.com##.fixed.region--masthead.region, .fixed, .slide-down.fixed--top.element--intraday.element:style(position: absolute !important;)
