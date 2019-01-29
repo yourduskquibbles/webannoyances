@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 09:08 PM 2019-01-28
+! Last Modified: 09:35 PM 2019-01-28
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -975,10 +975,14 @@ cloud.google.com##.devsite-top-section-pinned.nocontent.devsite-top-section, .h-
 cloud.google.com##.nocontent.devsite-nav.devsite-section-nav:style(position: relative !important; top: 0 !important;)
 clyp.it##.fixed-header:style(position: relative !important; top: 0 !important;)
 cmegroup.com##.header-par.cmePineappleHeader:style(position: absolute !important;)
-cnbc.com###GlobalNavigation-Persistent, #GlobalNavigation, .SidebarArticle-sticky, .Sidebar-wrapperSticky, .fixedPosition.ng-scope.pageHeader:style(position: absolute !important;)
+cnbc.com###GlobalNavigation-Persistent, #GlobalNavigation, #MakeItGlobalNavigation, .SidebarArticle-sticky, .Sidebar-wrapperSticky, .fixedPosition.ng-scope.pageHeader:style(position: absolute !important;)
 cnbc.com###cnbc-new-header, .cnbc-card.cnbc-end, .main-header-nav, .theplatform-video__docked.dockable.player-lazy-loaded-mobile:style(position: relative !important; top: 0 !important;)
 cnbc.com###nav_spacer:style(height: 0 !important;)
 cnbc.com##.GlobalNavigation-globalNavigation.GlobalNavigation-globalNavigationSticky:style(height: 70px !important;)
+cnbc.com##.MakeIt-globalNavigation:style(height: 80px !important; border-bottom: 5px solid #3e4855 !important;)
+cnbc.com##.NavLinks-logo:style(transform: none !important; width: 166px !important; height: 33px !important;)
+cnbc.com##.NavLinks-navMenu:style(top: 34px !important;)
+cnbc.com##.NavLinks-navMenuArticleSticky .NavLinks-hiddenArticleLinks, .nav-menu-articleNavLinks:style(display: flex !important;)
 cnbc.com##.SearchToggle-button span:style(transition: none !important; opacity: 1 !important;)
 cnbc.com##.SearchToggle-buttonSticky:style(height: 37px !important;)
 cnbc.com##.account-menu-editionMenuSticky, .nav-menu-mainLinks, .searchToggler.SearchToggle-button:style(transform: none !important; transition: none !important;)
@@ -988,7 +992,6 @@ cnbc.com##.header-nav-content:style(height: 30px !important;)
 cnbc.com##.icon-search:before:style(font-size: 20px !important;)
 cnbc.com##.icon-search:style(height: 20px !important; right: 10px !important;)
 cnbc.com##.nav-menu-articleButtonText, .nav-menu-desktopHamburgerArticleSticky, .nav-menu-desktopHamburgerArticleSticky:before:style(color: #fff !important;)
-cnbc.com##.nav-menu-articleNavLinks:style(display: flex !important;)
 cnbc.com##.nav-menu-desktopHamburgerSticky, .account-menu-editionMenuSticky:style(transform: none !important;)
 cnbc.com##.nav-menu-navMenu:style(height: 25px !important; top: 44px !important; width: 75% !important; background-color: #005594 !important;)
 cnbc.com##.searchToggler.SearchToggle-buttonSticky.SearchToggle-button:style(width: 155px !important; background-color: #336aa0 !important;)
