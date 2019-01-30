@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 02:44 PM 2019-01-30
+! Last Modified: 04:02 PM 2019-01-30
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -151,6 +151,7 @@ acorns.com##.bg-helper:style(position: relative !important; top: 0 !important;)
 acs.org###header_container, .sticky.menu.menu_header:style(position: relative !important; top: 0 !important;)
 actionnetwork.org###pre_header, .stickybar:style(position: relative !important; top: 0 !important;)
 actionnewsjax.com###main:style(padding-top: 0 !important; margin-top: 0 !important;)
+aculab.com##.uk-sticky-placeholder > .uk-active, #livechat-compact-container:style(position: absolute !important;)
 adblockplus.org###navbar:style(position: absolute !important; top: 0 !important;)
 additudemag.com##.header-primary:style(position: absolute !important;)
 adexchanger.com##.fixed:style(position: relative!important;)
@@ -1175,6 +1176,7 @@ dagbladet.no##.fixed.index-header:style(position: relative !important; top: 0 !i
 dailycaller.com##header:style(position: absolute !important; height: 155px !important;)
 dailycamera.com##.article.toolbar:style(position: relative !important; top: 0 !important;)
 dailycollegian.com##.scroll-to-fixed-fixed.navbarwrap:style(position: absolute !important;)
+dailydot.com###mega-menu-wrap-header:style(position: relative !important; transform: none !important;)
 dailydot.com##.dd-nav-global:style(position: relative !important; top: 0 !important;)
 dailyfig.com,fitgirl-repacks.site,netblocks.org,securelist.com,smittenkitchen.com,unionstage.com###masthead:style(position: relative !important;)
 dailyfx.com###main_navbar:style(position: relative !important;)
@@ -1335,8 +1337,9 @@ directvnow.com###navigationPanelId, .nav, flow-progress-bar:style(position: abso
 disabilitysecrets.com##.ngageMobileFloat:style(position: absolute !important;)
 discordservers.com##._620d-_has-shadow.F8RQC_is-fixed-top._1gaW0_navbar._3AxUE_header:style(position: absolute !important;)
 discourse.pi-hole.net##.clearfix.d-header:style(position: relative !important; top: 0 !important;)
-discover.com###container, .main-container:style(padding-top: 0 !important;)
+discover.com###container, .main-container, body:style(padding-top: 0 !important;)
 discover.com###deals-nav > .inner, #headingTwo, .header-wrapper, .right-section:style(position: relative !important; top: 0 !important;)
+discover.com###global-nav-wrap:style(position: relative !important; background-color: transparent !important; box-shadow: none !important;)
 discover.com###stickyNav, #stickySection, .asc-position-sticky.col-sm-12.col-lg-3.activity-search-container, .tdc-position-sticky, header:style(position: relative !important;)
 discover.com##.header-wrapper:style(display: block !important;)
 discover.com##.main-content.promotions-container .sticky-section .custom-navigation .custom-navlist-wrapper .custom-nav-list li:style(border-bottom: none !important;)
