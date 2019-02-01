@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:40 PM 2019-01-31
+! Last Modified: 11:58 PM 2019-01-31
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -2513,7 +2513,14 @@ lasvegas-entertainment-guide.com##.wrapping:style(position: absolute !important;
 lasvegasnews.media###sticky_header:style(position: absolute !important;)
 latimes.com##.pb-f-list-nav-ticker:style(display: block !important;)
 launchdarkly.com##.resp_full_width_menu.head-container:style(position: absolute !important;)
-law.com###brand-nav, .scrolled.major.main-nav-grey:style(position: absolute !important;)
+law.com###brand-nav:style(position: absolute !important; top: auto !important; display: block !important; opacity: 1 !important; z-index: 99 !important;)
+law.com###leaderboard:style(padding: 30px 0 !important;)
+law.com##.lgwk-main-nav-sub, .main-nav-sub:style(font-size: 13px !important;)
+law.com##.main-nav-grey ul.join-account.scrolled:style(margin: 18px 0 0 !important;)
+law.com##.main-nav-grey ul.menu-search:style(margin: 15px 0 0 !important;)
+law.com##.main-nav-grey:style(display: block !important; opacity: 1 !important;)
+law.com##.scrolled.major.main-nav-grey:style(position: relative !important; display: block !important; opacity: 1 !important;)
+law.com##img.brand-logo:style(height: 45px !important;)
 law.cornell.edu###cu-identity, #liiheader:style(position: relative !important; top: 0 !important;)
 lawandcrime.com###atf:style(padding-top: 26px !important;)
 lawandcrime.com###featured-posts-wrap:style(position: relative !important; top: 0 !important; transition: none !important;)
