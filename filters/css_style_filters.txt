@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 03:29 PM 2019-02-11
+! Last Modified: 06:24 PM 2019-02-11
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -3846,6 +3846,8 @@ sciencenews.org##body.responsive-layout-mobile:style(padding-top: 0 !important;)
 sciencing.com##.header-container:style(position: absolute !important; transition: none !important;)
 scientificamerican.com##.is-sticky.sticky-header:style(position: absolute !important;)
 scientificamerican.com##.primary-nav.hide:style(display: block !important;)
+scitation.org##.fragmentNavigationContent ul li a:style(visibility: visible !important;)
+scitation.org##.fragmentNavigationContent:style(position: absolute !important; top: 400px !important;)
 sclabs.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute !important; top: 0 !important;)
 scmp.com##.affix.affix-processed.navbar-default.navbar.masthead-main-sticky-nav, .fixto-fixed.sidebar-col, .header--fixed.header, .is-stuck.is-at-top.sticky.sticky-wrap:style(position: absolute !important;)
 scmp.com##.headroom--top.headroom--pinned.headroom--not-bottom.headroom.header--fixed.header:style(transition: none !important; transform: none !important;)
