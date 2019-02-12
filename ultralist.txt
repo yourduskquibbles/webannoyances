@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 11:42 PM 2019-02-11
+! Last Modified: 10:08 AM 2019-02-12
 ! Title: Web Annoyances Ultralist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -220,6 +220,8 @@ assh.org###footer-rights
 assh.org###neko-to-top
 assisianimalhealth.com##.blog-loop-btn-abs
 atavist.com##.atavist-story-block-subscription.atavist-story-block-article
+athletic.net##+js(abort-current-inline-script.js, $, blur)
+athletic.net##.sign-up-box
 atlanticbb.net##.news_toolbar
 atlasobscura.com##.mini-nav-wrapper
 atlasobscura.com##.site-top-notification-link
@@ -3339,6 +3341,7 @@ zwaveproducts.com###livechat-compact-container
 ||anv.bz/*/anvload.html$subdocument
 ||apis.google.com/_/widget/render/page$subdocument
 ||app.adjust.com^$first-party
+||athletic.net/css/signedOutBlur
 ||bostonreview.net/sites/default/files/js/$script,first-party
 ||bounceexchange.com/*/i.js$script,important
 ||brightcove.com/*/upgrade_flash_player2.gif$image
