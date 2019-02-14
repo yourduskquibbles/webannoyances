@@ -1,5 +1,5 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 16:01 2019-02-14
+! Last Modified: 16:06 2019-02-14
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
@@ -133,6 +133,9 @@ ablehealth.com###navbar-primary:style(position: relative !important; top: 0 !imp
 ablevets.com###main-nav, .page_header:style(position: absolute !important;)
 about.com###mast-fixed.p-bg.mast-fixed.mast, #mast-fixed, .p-bg.mast-fixed.mast, .post-lock.leaderboard.gpt:style(position: relative !important; top: 0 !important;)
 about.twitter.com##.nav:style(position: absolute !important; top: 0 !important; transform: none !important; transition: none !important; animation: none !important;)
+aboutamazon.com##.ArticlePage-aside-content[data-is-stuck], .AuthorPage-aside-content[data-is-stuck], .CreativeWorkPage-WithLeftRail-aside-content[data-is-stuck], .GalleryPage-aside-content[data-is-stuck], .LiveBlogPage-aside-content[data-is-stuck], .PodcastPage-aside-content[data-is-stuck], .RoundupPage-aside-content[data-is-stuck], .TimelinePage-aside-content[data-is-stuck]:style(position: relative !important; top: 0 !important;)
+aboutamazon.com##.ArticlePage-hat, .AuthorPage-hat, .CategoryPage-hat, .CreativeWorkPage-WithLeftRail-hat, .CreativeWorkPage-hat, .EventPage-hat, .GalleryPage-hat, .LiveBlogPage-hat, .LongformPage-hat, .MapPage-hat, .NotFound-hat, .Page-hat, .PageHome-hat, .PodcastPage-hat, .RoundupPage-hat, .SearchResultsPage-hat, .TimelinePage-hat:style(height: 65px !important;)
+aboutamazon.com##.ArticlePage-header, .AuthorPage-header, .CategoryPage-header, .CreativeWorkPage-WithLeftRail-header, .CreativeWorkPage-header, .EventPage-header, .GalleryPage-header, .LiveBlogPage-header, .LongformPage-header, .MapPage-header, .NotFound-header, .Page-header, .PageHome-header, .PodcastPage-header, .RoundupPage-header, .SearchResultsPage-header, .TimelinePage-header:style(position: absolute !important;)
 abplive.in###mainNav1, .affix.navbar-sub:style(position: absolute !important; top: 0 !important;)
 academia.edu##.swp-mobile-get-pdf-footer.js-swp-mobile-get-pdf-footer:style(position: absolute !important;)
 accent-bikes.com##.l-header-wrapper:style(position: absolute !important;)
