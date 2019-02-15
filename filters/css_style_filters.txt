@@ -1,11 +1,11 @@
 ! Expires: 2 Days (Update Frequency)
-! Last Modified: 23:10 2019-02-14
+! Last Modified: 09:10 2019-02-15
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
 ! License: https://creativecommons.org/licenses/by-sa/4.0
 ! Copyright:  © 2016-2019 by yourduskquibbles
-! Purpose: Modify CSS elements that block screen real estate - Unsuck the web and make it more user friendly!
+! Purpose: Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Works best with uBlock Origin or Nano Adblocker - be sure to install it as well!
 
 ! Start Web Annoyances Ultralist - CSS Style Modifying Filters
@@ -5212,7 +5212,6 @@ wrcthegame.com##.main-header:style(position: absolute !important; background-col
 wsbtv.com###main:style(padding-top: 0 !important; margin-top: 0 !important;)
 wsbtv.com###story-sticky-content:style(position: relative !important; top: 0 !important;)
 wsj.com###full-header, .WSJTheme__sector-unit-4_17ImS_zUt3L4vph6TcKkBK.WSJTheme__md-sector_1pJP-9Tul8uo9UZHx-ARin, .WSJTheme__sector-unit-4_2lPO_QLJgU7fodGLn8y_3N.WSJTheme__md-sector_11mIcrEevnV1H4euSkENvh, .WSJTheme__sector-unit-4_3uAJt-50EuvR3ILdIcAPL6.WSJTheme__md-sector_2ldy1fE4UGlWw3QDFvEj-t, .WSJTheme__sector-unit-8_1NbOhnuU6IPKVV4cu-C2Xb.WSJTheme__md-sector_1pJP-9Tul8uo9UZHx-ARin, .WSJTheme__sector-unit-8_1sJbmmXus7rqqLAtIWPEr6.WSJTheme__md-sector_2ldy1fE4UGlWw3QDFvEj-t, .WSJTheme__sector-unit-8_31FKUe5DL6g9rypZrtu0kk.WSJTheme__md-sector_11mIcrEevnV1H4euSkENvh, .hide8.hide4.DJHat, .mega-nav, .logged-out.at8units.hat-closed.cnav-closed.edition-picker-footer-unexpanded.edition-picker-unexpanded.hamburger-sections-active.hamburger-closed.search-closed.stuck.unstuck-usernav.unscrolled.mobile-nav, .style__at12units_2zBLFHSA9E0ELomjd0hIGJ.style__stick-cust-nav_1Sgmsy032Q5y4S_8j9Q_nh.style__scrolled_2R_Vmp-c-MDN-CKbTiTOya.style__wsj-header_34lQSbG_0ms4yUg0JKTlQ0, .style__at12units_UBXdDqMqvscHidlpmQZ6h.style__stick-cust-nav_1TmM50QDDL_l8iqfGHP_C3.style__scrolled_S35y-Q2jaGv7Ns7p4t74E.style__wsj-header_22l5Z8m7UC9IqccfdULTJ6, .style__at12units_hNUq-5KbYuHXq7Tm5K8In.style__stick-cust-nav_GVvxlwhu56xsYLpEYcYl6.style__scrolled_3f55E_Sg705w7aXJWonyxo.style__wsj-header_2eGdYq6qJ9DnSzu70Z4bo1, .style__at16units_1Ajy8qI5jPkLqbasqIErFs.style__stick-cust-nav_GVvxlwhu56xsYLpEYcYl6.style__scrolled_3f55E_Sg705w7aXJWonyxo.style__wsj-header_2eGdYq6qJ9DnSzu70Z4bo1, .style__at16units_1OtkLFintMX3neDqoUy6L2.style__stick-cust-nav_1Sgmsy032Q5y4S_8j9Q_nh.style__scrolled_2R_Vmp-c-MDN-CKbTiTOya.style__wsj-header_34lQSbG_0ms4yUg0JKTlQ0, .style__at16units_232osa60J_L2xxs8yf-igg.style__stick-cust-nav_1TmM50QDDL_l8iqfGHP_C3.style__scrolled_S35y-Q2jaGv7Ns7p4t74E.style__wsj-header_22l5Z8m7UC9IqccfdULTJ6, .style__mdstrip_1BZBmHB38biUmVPCpPp0Ty.style__mast-head-container_3ZRcPdcChZfT1ThM3v3LLV, .style__no-hover_4K4bYt_IXexfyxCPoMe6C.style__mobile-nav_2GAjVDdd5TrKYE8DOf3zvT, .style__scrolled_1KqqY_CTh3JC3M-yub6_TC.style__mast-head-container_2-BjWSrF0qOmT-7SydjYgO, .style__small_280dtFEAAwn8xHKuYAQ-D7.style__logo_Ms7ZFr_j7_kFb3RngGpfX, .styles__sector-unit-4_2Br0pVgHL_9uiZ7SjfkdPu.styles__md-sector_25BZ8ocm0Q-M_AHiAOsaor, .styles__sector-unit-8_3phLezaz5L2o8aja481Bjm.styles__md-sector_25BZ8ocm0Q-M_AHiAOsaor, .unsubNav.signin-container.module-navigation:style(position: relative !important; top: 0 !important;)
-wsj.com##.WSJTheme__masthead_2OoI1al70fhTikbZur4fz8:style(margin-top: 0 !important; margin-bottom: 0 !important;)
 wsj.com##.carousel-container, .contentFrame, .cr_section_1.sector:style(padding-top: 0 !important;)
 wsj.com##.customerNav:style(position: relative !important; top: 14px !important; height: 50px !important; max-width: 300px !important; float: right !important; left: 0 !important;)
 wsj.com##.hide8.hide4.masthead-strap:style(opacity: 1 !important; visibility: visible !important;)
