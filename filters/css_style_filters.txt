@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 15:25 2019-02-15
+! Last Modified: 15:26 2019-02-15
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1513,6 +1513,7 @@ easydns.com###header.sticky-header #header-wrap, .navbar-fixed-top.navbar-defaul
 easypost.com##.fixed-top.bg-white.navbar-expand-md.navbar-light.navbar:style(position: absolute !important;)
 easyuefi.com###float_menu:style(position: absolute !important;)
 eatthis.com##.topic-health.top, .topic-home.top:style(position: relative !important; top: 0 !important;)
+ebates.com###ebatesChatRoot > div:style(position: absolute !important;)
 ebates.com###header-main:style(position: absolute !important;)
 ebates.com###scrolling-container:style(height: auto !important;)
 ebates.com##.h-mainheader:style(height: 105px !important;)
@@ -3039,8 +3040,7 @@ myflorida.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative 
 mymodernmet.com###navbar-main:style(position: relative !important; padding: 15px 0 !important;)
 mynews13.com##.navbar-fixed-top.fixed-top.site-header-inner:style(position: absolute !important;)
 mynorthwest.com##.primary.headerwrapper:style(position: absolute !important;)
-mypalmbeachpost.com##.main-nav-container:style(position: relative !important; top: 0 !important;)
-mypalmbeachpost.com##body.fixed-nav-desktop .main-header .main-nav-container:style(background-color: #fff !important;)
+mypalmbeachpost.com##.main-nav-container:style(position: relative !important; top: 0 !important; background-color: #fff !important;)
 mypayflex.com##.navbar-fixed-top, .setOutlineNone.SI_5vuNwLI2emiDYoZ_SliderContainer.QSISlider:style(position: absolute !important;)
 myrecipes.com###bodyMainHeaderLogo:style(transform: none !important;)
 myrecipes.com##.desktop-only.tall-only.logo:style(transform: none !important; transition: none !important; opacity: 1 !important;)
