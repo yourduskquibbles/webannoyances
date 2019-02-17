@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 21:13 2019-02-16
+! Last Modified: 21:27 2019-02-16
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2085,6 +2085,8 @@ gq.com###nav-holder, .container.desktop-header, .gq-style-navigation-compressed.
 gq.com###react-app:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 gq.com##.gq-navigation--hide .gq-navigation__container, .gq-navigation--hide .gq-navigation__newsletter-form-container, .gq-navigation--hide .gq-navigation__search-form-container:style(transition: none !important; transform: none !important;)
 gq.com##.gq-navigation__container, .gq-navigation__newsletter-form-container, .gq-navigation__search-form-container:style(position: absolute !important;)
+gq.com.au##.Header-module-logoFullWidth-3JI2C--:style(margin-top: 0 !important;)
+gq.com.au##nav:style(position: absolute !important; top: 0 !important;)
 grabien.com###headfixed:style(position: absolute !important;)
 gracobaby.com##.fixed-nav.pdp-navigation-container > ul:style(position: relative !important; top: 0 !important;)
 grammarly.com##._3TO90-_-_-client-guidelines-header--header-fixed._2KNnY-_-_-client-guidelines-header--header-header:style(position: absolute !important;)
