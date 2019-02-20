@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 15:46 2019-02-19
+! Last Modified: 19:54 2019-02-19
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -4330,8 +4330,16 @@ swamedia.com###globalHeader:style(position: relative !important; top: 0 !importa
 swiftbysundell.com###headerAnnouncementWrapper:style(position: absolute !important;)
 swiftkey.com##.slide.masthead, .slide.search-box:style(position: absolute !important;)
 swissinfo.ch##._fixed:style(position: relative !important;)
-syfy.com###navigation, .header:style(position: relative !important; top: 0 !important;)
-syfy.com##.header--sticky-nav:style(position: relative !important; top: 0 !important; padding-bottom: 0 !important;)
+syfy.com##.article-strip__sticky-latest--active .article-strip__outer-wrapper--sticky .article-strip__outer-wrapper:style(margin-bottom: 40px !important;)
+syfy.com##.header--sticky-nav .layout__navigation:style(position: absolute !important; transform: none !important;)
+syfy.com##.header:style(padding-bottom: 0 !important;)
+syfy.com##.navbar--syfywire .navbar__logo-link:style(transform: translateY(24px) !important;)
+syfy.com##.navbar:style(position: absolute !important; height: 70px !important; transform: none !important;)
+syfy.com##.navbar__inner, .navbar--syfywire .navbar__logo-link-icon:style(transform: none !important;)
+syfy.com##.navbar__live-trigger-inner, .navbar__news-trigger-inner, .navbar__watch-trigger-inner:style(transform:translateY(27px) !important;)
+syfy.com##.navbar__primary-item-link-inner, .navbar__primary-item-link-text, .navbar__search-trigger-inner:style(transform: translateY(29px) !important;)
+syfy.com##.syfy-wire-latest-article + div:style(margin-top: 40px !important;)
+syfy.com##.syfy-wire-latest-article:style(position: relative !important; top: 40px !important; transform: none !important;)
 symantec.com###app-footer:style(position: absolute !important; bottom: 0 !important;)
 symantec.com###app-header:style(position: absolute !important;)
 symbaloo.com##.global_nav:style(position: absolute !important;)
