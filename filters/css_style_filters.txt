@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 18:27 2019-02-20
+! Last Modified: 08:54 2019-02-21
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -3350,6 +3350,7 @@ northwestfirearms.com##.fixed .navFloatwrapper:style(position: relative !importa
 northwestfirearms.com##.fixed .navTabs .navTab.selected .tabLinks:style(visibility: visible !important; opacity: 1 !important;)
 northwestfirearms.com##.navFloatHelper:style(min-height: 0px !important;)
 northwestfirearms.com##header:style(height: 202px !important;)
+norway.no##body > header:style(position: absolute !important;)
 notepad-plus-plus.org###header-menu:style(position: relative !important; top: 0 !important;)
 notquitenigella.com##.floating:style(position: absolute !important;)
 novayagazeta.ru##._3z6Z5:style(position: relative !important; top: 0 !important;)
@@ -3463,7 +3464,8 @@ ottawacitizen.com##.header-is-sticky.l-header:style(position: relative !importan
 oup.com###InfoColumn:style(position: relative !important;)
 oup.com##.fixed.toolbar-wrap:style(position: absolute !important;)
 oureverydaylife.com##.header-nav-bar:style(position: absolute !important;)
-ourworldindata.org##.entry-sidebar:style(position: relative!important; top: 227px !important; left: 0 !important;)
+ourworldindata.org##.entry-sidebar:style(position: relative !important; top: 227px !important; left: 0 !important;)
+ourworldindata.org##.feedbackPromptContainer:style(position: absolute !important;)
 outkickthecoverage.com###LayoutHeader:style(position: relative !important; top: 0 !important;)
 outlook.office.com##._ms_l.flex, .ms-bgc-tp._ms_5:style(position: absolute !important;)
 overstock.com###newo-hd, .sticky-header:style(position: relative !important; top: 0 !important;)
