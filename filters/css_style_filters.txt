@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 10:16 2019-02-21
+! Last Modified: 12:18 2019-02-21
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -941,6 +941,8 @@ channelnewsasia.com##.is-region-01.header__outer:style(display: block !important
 channelnewsasia.com##.is-region-02.header__outer, .is-region-03.header__outer:style(transform: none !important; transition: none !important; transform-origin: none !important; will-change: none !important;)
 chaoslist.io###PureChatWidget, .marketing-notification-container:style(position: absolute !important;)
 chaoslist.io###mainNavigation:style(position: absolute !important; background-color: transparent !important;)
+chartable.com###HSBeaconFabButton:style(position: absolute !important;)
+chartable.com##.js-toc.pa3.b--blue.bg-washed-blue.br2.ba.w5.dn.db-l.fr:style(position: relative !important;)
 chase.com###ad-offers-list-header, #flyoutClose, #flyoutHeaderContent:style(position: absolute !important;)
 chase.com###addAuthUser, #dashboard-header, #documentsMenuHeader, #header-container, #header-inner-fixed-container, #headerclassic, #my-profile, #pnt-tabs, #profile-header, .header, .my-profile-subcontainer:style(position: relative !important; top: 0 !important;)
 chase.com###back-nav-hdr-container:style(position: static !important;)
@@ -1800,7 +1802,7 @@ fivethirtyeight.com###header-global:style(position: relative !important;)
 fivethirtyeight.com,fogodechao.com,foragerfunds.com,herdprotect.com,iridiumbrowser.de,jet.com,kiln.digital,legalinsurrection.com,news.harvard.edu,nextcloud.com,olympic.org,ont.io,thedrive.com,thenextweb.com,thezdi.com,videolan.org,zerodayinitiative.com###nav:style(position: absolute !important;)
 flashbak.com##.shrink.header-main-container.row, headerv:style(position: relative !important; top: 0 !important;)
 flashrouters.com##.header-container.sticky-header .header-wrapper:style(position: absolute !important;)
-flexport.com##.zIndex10.sticky:style(position: relative !important; top: 0 !important;)
+flexport.com##.siteNavigation:style(position: absolute !important; top: 0 !important;)
 flickr.com###global-nav, .fixed.fluid-subnav, .sohp-mobile-navable.fluid.styleguide-global-nav.global-nav-content:style(position: absolute !important;)
 flickr.com##.global-nav:style(position: relative !important;)
 flickr.com##.requiredToShowOnServer.mobile-app-upsell-view.view:style(position: relative !important; top: 0 !important;)
