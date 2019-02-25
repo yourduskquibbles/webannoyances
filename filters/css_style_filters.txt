@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 12:18 2019-02-25
+! Last Modified: 15:28 2019-02-25
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2051,6 +2051,10 @@ glassesdirect.co.uk###search-controls:style(position: relative !important;)
 glassesusa.com##.flag-sticky.gjs-header-top.top-strip, .flag-sticky.optimizely-sticky-menu.gjs-header-bottom.bottom-strip, .headerMain__sticky___34mXQ:style(position: absolute !important;)
 globalcitizen.org##.scroll.nav:style(position: relative !important; top: 0 !important;)
 globalnews.ca##.affix.dynamic-widgets-wrapper:style(position: absolute !important;)
+globalnews.ca##.sticky-wrapper.restored .stickyiframe-container, .sticky-wrapper.sticky:style(animation: none !important;)
+globalnews.ca##.sticky-wrapper.sticky .stickyiframe-container:style(padding: 0 !important;)
+globalnews.ca##.sticky-wrapper.sticky iframe:style(position: absolute !important; height: 376.867px !important; width: 100% !important; right: 0 !important;)
+globalnews.ca##.sticky-wrapper.sticky:style(position: absolute !important; top: 0 !important; bottom: 0 !important;)
 glowing.com##.clearfix.m-nav-bar:style(position: absolute !important;)
 gm.com##.q-header, header:style(position: relative !important; top: 0 !important;)
 gmanetwork.com##.navbar-fixed-top:style(position: relative !important; top: 0 !important;)
