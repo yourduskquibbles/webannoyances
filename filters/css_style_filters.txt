@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 09:27 2019-02-25
+! Last Modified: 09:42 2019-02-25
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -3548,9 +3548,11 @@ pcgamer.com##.position-sticky.next-prev-container:style(position: relative !impo
 pcgameshardware.de##.header1:style(position: absolute !important;)
 pcgamesn.com###site-header:style(position: absolute !important; top: 0 !important;)
 pcgamesn.com##.banner:style(position: absolute !important;)
-pcmag.com###main-top-nav, #pcmlogo_mobile, .logo:style(position: relative !important; top: 0 !important;)
+pcmag.com###main-top-nav, #pcmlogo_mobile, .logo, header, .breadcrumbs, #breadcrumbs:style(position: relative !important; top: 0 !important;)
 pcmag.com###main-wrapper:style(padding-top: 0 !important;)
-pcmag.com##.social, .trending-nav, header:style(position: absolute !important;)
+pcmag.com##.container.wrapper:style(padding-top: 30px !important;)
+pcmag.com##.social, .trending-nav:style(position: absolute !important;)
+pcmag.com##header#main-top-nav.scrolling .logo:style(height: 80px !important; width: 66px !important;)
 pcworld.com###drr-top-ad:style(margin-top: 0 !important;)
 pcworld.com###page-top:style(position: relative !important;)
 pcworld.com##.attached.some-toc.scaleArticleToc.tocWrapper, .stick-rr-vid.howto-video-feature:style(position: absolute !important;)
