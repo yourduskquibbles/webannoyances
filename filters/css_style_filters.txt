@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 22:02 2019-02-24
+! Last Modified: 22:14 2019-02-24
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1135,9 +1135,9 @@ community.jivesoftware.com###j-compact-header:style(position: absolute !importan
 community.jivesoftware.com###j-cust-head:style(visibility: visible !important; transform: none !important;)
 community.spotify.com##.stuck.navbar-bottom:style(position: absolute !important;)
 compact-dynamics.de###kopf:style(position: absolute !important;)
-complex.com###cmplx-navigation, .header-bar__container:style(position: absolute !important;)
-complex.com###elContainer, .background-image, .floating-aside-panel--floated.floating-aside-panel:style(position: relative !important; top: 0 !important;)
+complex.com###cmplx-navigation, #elContainer, .background-image, .header-bar__container:style(position: relative !important; top: 0 !important;)
 complex.com##.base:style(padding-top: 0 !important;)
+complex.com##.sticky-aside-panel:style(position: absolute !important;)
 complex.com##.video-embed-floated--showing-cookie-notice.vidible-embed:style(position: static !important;)
 computer.org##.cb-menu-fw.cb-font-header.clearfix.cb-site-padding.cb-nav-bar-wrap:style(position: relative !important; top: 0 !important;)
 computerworld.com###sticky-head:style(position: relative !important; top: 0 !important;)
