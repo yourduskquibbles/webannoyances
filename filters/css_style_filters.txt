@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 09:07 2019-02-25
+! Last Modified: 09:27 2019-02-25
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -493,6 +493,7 @@ axlegeeks.com##.clearfix.mph-wrap:style(position: relative !important; top: 0 !i
 azfamily.com##.wn-sticky:style(position: relative !important; top: 0 !important;)
 azure.microsoft.com###azure-header:style(position: relative !important;)
 azure.microsoft.com##.active.fixed-status-header.status-table:style(position: absolute !important;)
+azure.microsoft.com##.wa-container:style(padding-top: 0 !important;)
 babe.net##.header-wrapper:style(position: relative !important; top: 0 !important;)
 babyaxis.com###nav-topbar:style(position: absolute !important;)
 babycenter.com###guidedPathContainer:style(position: relative !important; top: 0 !important;)
@@ -1650,6 +1651,7 @@ evite.com###header:style(position: relative !important; transform: none !importa
 evite.com##.event-view:style(padding-top: 0 !important;)
 evite.com##.mobile-event-view-tabs, .mobile.universal-nav:style(position: relative !important; transform: none !important;)
 evonomics.com###masthead-wrap:style(position: relative !important; top: 0 !important;)
+evry.com##.main-header, .industry-crumbs:style(position: absolute !important;)
 ew.com##.desktop-only.tall-only.logo:style(transform: none !important; transition: none !important; opacity: 1 !important;)
 ew.com##.header-collapsed .stacked-header__section--wide .logo a.full-logo svg:style(height: 44px !important; width: 213.5px !important;)
 ew.com##.jumpstart-sticky-inner:style(position: static !important;)
