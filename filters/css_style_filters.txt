@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 09:55 2019-02-26
+! Last Modified: 10:27 2019-02-26
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -4750,11 +4750,10 @@ threadreaderapp.com##.fixed-top.navbar, .top-right-action:style(position: absolu
 threatpost.com##.c-site-header:style(position: relative !important;)
 threatpost.com##.js-stickybit-parent.c-article__info.c-sidebar.o-col:style(position: absolute !important;)
 thrillist.com###content-right > .is-standard.right-rail.right-rail__group--initial.right-rail__group > .right-rail__group-inner, .js-video-player--autoplayinview-tracked.video-player--sticky.video-player--initial-view.video-player__video:style(position: static !important;)
+thrillist.com###header--large, #section-subnav > h3, #section-subnav, #thrillist-header, .header-inner:style(position: relative !important; top: 0 !important;)
 thrillist.com###mobile-header-utility, #mobile-header:style(position: absolute !important; top: 0 !important;)
-thrillist.com###section-subnav > h3, #section-subnav, #thrillist-header:style(position: relative !important; top: 0 !important;)
-thrillist.com##.header-inner:style(position: relative !important; top: 0 !important; transition: none !important;)
-thrillist.com##.main-header:style(position: relative !important; top: 0 !important; height: 55px !important; transition: none !important;)
-thrillist.com##.mobile-header-inner:style(position: relative !important; top: 0 !important; transform: none !important; transition: none !important;)
+thrillist.com##.main-header:style(position: relative !important; top: 0 !important; height: 55px !important;)
+thrillist.com##.mobile-header-inner:style(position: relative !important; top: 0 !important; transform: none !important;)
 thriveglobal.com##.markup--quote:style(background-image: none !important; background-color: transparent !important; transition: none !important;)
 thundersplace.org###mainmenu.default.navlarge.text.fixed.right.navbar, #mainmenu:style(position: relative !important; top: 0 !important;)
 thurrott.com###nav-wrapper:style(position: relative !important; top: 0 !important;)
