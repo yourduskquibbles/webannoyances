@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist
-! Last Modified: 23:56 2019-02-25
+! Last Modified: 01:28 2019-02-26
 ! Expires: 2 Days (Update Frequency)
 ! Description: Block annoying web elements and reclaim lost screen real estate. Web Annoyances Ultralist also includes the following sublists - CSS Style Modifying Filters, Generic Filters, Modal Filters, Newsletter Filters, & Social Filters. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -38,8 +38,7 @@ aaa.com##.bottomcontainerBox
 aappublications.org###region-sidebar-first
 aarp.org##.aarpe-ad-wrapper
 abc.net.au##.mobile-sticky
-abcnews.go.com##.ad-300, .ad-slot, .nav-alerts-notify-msg, .ng-scope.abcn-videoplayer.offpage, .short_bg.short_stuck
-abcnews.go.com##[class^="StoryPage__ad"]
+abcnews.go.com##.ad-300, .ad-slot, .nav-alerts-notify-msg, .ng-scope.abcn-videoplayer.offpage, .short_bg.short_stuck, [class^="StoryPage__ad"]
 abcnews4.com##.sd-nav-only
 abcradio.com###wdsi-slide_in
 about.com###article-legend
@@ -334,8 +333,7 @@ cigarjournal.com###sidebar-header
 cigarsinternational.com###static-footer-ship
 cinemablend.com##.ad-wrap, .ads_slot
 cinesift.com##.sb-toggle-left
-circa.com##.AboutPage-hamburglarButton, .ArticlePage-hamburglarButton, .AuthenticationPage-hamburglarButton, .AuthorPage-hamburglarButton, .CarouselGallery-hamburglarButton, .Error404Page-hamburglarButton, .GalleryPage-hamburglarButton, .LegalPage-hamburglarButton, .OurPeople-hamburglarButton, .Page-hamburglarButton, .SearchResultsPage-hamburglarButton, .UserProfilePage-hamburglarButton, .VideoPage-hamburglarButton, .VideoPageLive-hamburglarButton, .ArticlePage-ad, .GoogleDfpAd, .Atom-actionButton, footer
-circa.com##div[id^="advertisement-"]
+circa.com##.AboutPage-hamburglarButton, .ArticlePage-hamburglarButton, .AuthenticationPage-hamburglarButton, .AuthorPage-hamburglarButton, .CarouselGallery-hamburglarButton, .Error404Page-hamburglarButton, .GalleryPage-hamburglarButton, .LegalPage-hamburglarButton, .OurPeople-hamburglarButton, .Page-hamburglarButton, .SearchResultsPage-hamburglarButton, .UserProfilePage-hamburglarButton, .VideoPage-hamburglarButton, .VideoPageLive-hamburglarButton, .ArticlePage-ad, .GoogleDfpAd, .Atom-actionButton, footer, div[id^="advertisement-"]
 circleofmoms.com###mobile-banner
 citizenlab.ca###article-footer
 citizensforethics.org##.donate-btn
@@ -373,8 +371,7 @@ collegeinfogeek.com###text-27_clone
 columbiabasinherald.com##.no-print.row.ad
 com-unik.info##.mobile-hide
 comeaucomputing.com###topmsg
-comicbook.com##.adhesion-block, .sticky.next-article-tease
-comicbook.com.com##div[id^="oas_"]
+comicbook.com##.adhesion-block, .sticky.next-article-tease, div[id^="oas_"]
 comicsalliance.com##.aside-inside
 commentarymagazine.com###archives-2, #js-sticky-contents, #js-sticky-contents-resize-tool, .alert-block.alert.intense
 commondreams.org###block-block-47
@@ -442,8 +439,7 @@ dailytelegraph.com.au##.tgc-footer_apps, .tgc-footer_disclaimer, .widget_newscor
 dailywire.com##.ad-toggle, .article-actions, .field-addthis-compact, .powr-show-always.powr-size-small.powr-close.pwr-button.pwr-control
 dallasnews.com###courier-iframe, .js-art-pre-body.art-pre-body
 dappersports.com##.right-bar
-datalounge.com##.advert-leader-inline, .sticky-thing
-datalounge.com##div[id^="div-insticator-ad"], div[id^="insticator-embed"]
+datalounge.com##.advert-leader-inline, .sticky-thing, div[id^="div-insticator-ad"], div[id^="insticator-embed"]
 daveramsey.com###ProgressBar
 davidtan.org##.site-header
 dawn.com##.navstory__arrow
@@ -1179,10 +1175,7 @@ ntknetwork.com###b2t
 nybooks.com##.span3
 nydailynews.com###rh-left, #rh-right, .pb-f-ads-yieldmo, .rh-ad
 nypost.com##.nyp-sitewide-notice
-nytimes.com###HPBottom2, #HPHalf, #Top, #TopAd, #acm-wrapper, #bottom-wrapper, #critical-alerts, #digital_hoverCraft, #dual_hoverCraft, #duallink, #gatewayUnit, #masthead-placeholder, #navigation-edge, #nytmm_fixie, #recipeDetailsPromoSlot, #saudi-series-box, #upNext, .Dock-dock--1EAX7, .InlineMessage-inline--2ysnq, .Ribbon-dockHidden--3r3jo, .app-links, .growl-v2, .growl-v2-gradient, .lazyloaded.embeddedContent, .max300.min300.iframe-holder, .miniNavContainer, .nav-wrapper, .not-signedin, .nytc---sitesearch---siteSearch, .opinion-c-col-bottom-region, .ribbon-page-navigation, .series-nav-button, .show.lie-continue, .shown, .subColumn-2.noBackground.mobilePromo.nocontent, .no-fill.rad-top-nav, .meter_default, .css-13ta9od, .css-15u353c, .css-1plijz3, .css-1ragzwk, .css-1y7ysfx, .css-eqw76k, .css-ho7eae, .css-ilfk4y > .css-y8aj3r, .css-kp204g, .e12j3pa50.css-1iv69x4, .e1p1csu90, .efqptxt0, .e1am8aqz0.css-1597c7c, .edz5sly0.css-190ncxp, .css-1xz93ux, .masthead-theme-transparent.masthead, .masthead.in-content .kicker, .masthead.in-content .kicker-label, .masthead.masthead-theme-standard .comments-button, .viewport-medium-10 .masthead.masthead-theme-standard.in-content .story-meta, BlockAdvert-ad--2QvJV, .BlockAdvert-adContainer--1aZlM, .ResponsiveAd-topAd--3WpE4, .ad, .e12j3pa51, .g-ad-wrapper, .ribbon-ad-container, .text-ad
-nytimes.com##[id^="dfp-ad-"]
-nytimes.com##[id^="story-ad-"]
-nytimes.com##div[data-testid^="inline-message"]
+nytimes.com###HPBottom2, #HPHalf, #Top, #TopAd, #acm-wrapper, #bottom-wrapper, #critical-alerts, #digital_hoverCraft, #dual_hoverCraft, #duallink, #gatewayUnit, #masthead-placeholder, #navigation-edge, #nytmm_fixie, #recipeDetailsPromoSlot, #saudi-series-box, #upNext, .Dock-dock--1EAX7, .InlineMessage-inline--2ysnq, .Ribbon-dockHidden--3r3jo, .app-links, .growl-v2, .growl-v2-gradient, .lazyloaded.embeddedContent, .max300.min300.iframe-holder, .miniNavContainer, .nav-wrapper, .not-signedin, .nytc---sitesearch---siteSearch, .opinion-c-col-bottom-region, .ribbon-page-navigation, .series-nav-button, .show.lie-continue, .shown, .subColumn-2.noBackground.mobilePromo.nocontent, .no-fill.rad-top-nav, .meter_default, .css-13ta9od, .css-15u353c, .css-1plijz3, .css-1ragzwk, .css-1y7ysfx, .css-eqw76k, .css-ho7eae, .css-ilfk4y > .css-y8aj3r, .css-kp204g, .e12j3pa50.css-1iv69x4, .e1p1csu90, .efqptxt0, .e1am8aqz0.css-1597c7c, .edz5sly0.css-190ncxp, .css-1xz93ux, .masthead-theme-transparent.masthead, .masthead.in-content .kicker, .masthead.in-content .kicker-label, .masthead.masthead-theme-standard .comments-button, .viewport-medium-10 .masthead.masthead-theme-standard.in-content .story-meta, BlockAdvert-ad--2QvJV, .BlockAdvert-adContainer--1aZlM, .ResponsiveAd-topAd--3WpE4, .ad, .e12j3pa51, .g-ad-wrapper, .ribbon-ad-container, .text-ad, [id^="dfp-ad-"], [id^="story-ad-"], div[data-testid^="inline-message"]
 nzherald.co.nz##.pb-ad-curated
 oag.com###hubspot-messages-iframe-container
 oath.com##.nav-shadow
@@ -1332,8 +1325,7 @@ ratemyprofessors.com##.mobileAppPromo, .promotionDesktop.promotion
 rawstory.com##.full-post-ftp-ad, .recent-post-widget-ad, .story-page-embedded-ad
 raymond.cc###text-7, .q2w3-widget-clone-sidebar-1
 razorpay.com###page-sidebar
-rd.com###toh-search-form-wrapper > .close-btn, .toh-search-form input[type="submit"]
-rd.com##div[id^="listicle-between-cards-ad"]
+rd.com###toh-search-form-wrapper > .close-btn, .toh-search-form input[type="submit"], div[id^="listicle-between-cards-ad"]
 readonlymemory.vg##.hidden-small.notification-bar
 realcleardefense.com##.RC-AD-TOP-BANNER.RC-AD
 realclearpolitics.com###notifications_hover, .beta_module, .bottom-banner, .ndn_article_body_title, .spot-im-sticky, .upNext-container
@@ -1460,8 +1452,7 @@ snapguide.com##.cover-nav
 snapzu.com##.welcome
 snbforums.com##.Notices.FloatingContainer
 sneakernews.com##.responsive-nav-btn
-snopes.com##.Campaign, .debunker-slider-ImageElement--wrapper, .proper-ad-unit, .special-msg, .widget_boomtrain.boomtrain-3.widget
-snopes.com##[id^="post-body-"]
+snopes.com##.Campaign, .debunker-slider-ImageElement--wrapper, .proper-ad-unit, .special-msg, .widget_boomtrain.boomtrain-3.widget, [id^="post-body-"]
 snowehome.com##.sticky.navbar-fixed-top.navbar-default.navbar
 sociable.co###nav-wrap
 socialcops.com##.posts-pagination
