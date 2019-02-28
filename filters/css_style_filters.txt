@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 00:08 2019-02-28
+! Last Modified: 00:19 2019-02-28
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2178,6 +2178,8 @@ guaranteedrate.com##.small-nav.navbar-parent:style(position: absolute !important
 guide.michelin.com##.header--fixed.header, .feedback:style(position: absolute !important;)
 guidestar.org###profileNavbar:style(position: relative !important;)
 guidingtech.com##.header-global:style(position: absolute !important;)
+gulfnews.com##.gn-sticky-fill.main-header:style(position: relative !important;)
+gulfnews.com##.top-navbar .top-nav-toggle .navbar-nav:style(display: flex !important;)
 gunbelts.com##.fixed.nav-container:style(position: relative !important; top: 0 !important;)
 gurufocus.com###bookmark-section, #reflex-feedback-widget:style(position: absolute !important;)
 gust.com##nav:style(position: relative !important; top: 0 !important;)
