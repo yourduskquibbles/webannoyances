@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 00:19 2019-02-28
+! Last Modified: 09:26 2019-02-28
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -4205,7 +4205,8 @@ soundcloud.com##.m-hideHeader > #app > .m-visible.g-z-index-control-bar.playCont
 soundcloud.com##.m-hideHeader > #app:style(padding-top: 46px !important;)
 soundcloud.com##.m-visible.g-z-index-control-bar.playControls:style(position: absolute !important; top: 0 !important; margin-top: 46px !important; margin-bottom: 46px !important;)
 soundguys.com###sticky-bar:style(position: absolute !important; background-color: none !important; transition: none !important;)
-sourceforge.net##.sticky.l-header-nav:style(position: relative !important;)
+sourceforge.net##.search:style(position: static !important;)
+sourceforge.net##.sticky.l-header-nav:style(position: relative !important; top: 0 !important;)
 sousvidetools.com##.sticky.add-to-cart-wrapper:style(position: absolute !important;)
 southcarolinablues.com###dijit__WidgetBase_0:style(position: static !important; margin-left: 3% !important; width: 17% !important;)
 southlive.in###main-nav-container:style(position: relative !important; top: 0 !important;)
