@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 09:35 2019-03-01
+! Last Modified: 11:29 2019-03-01
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -3921,6 +3921,7 @@ retropie.org.uk###header-menu, .md-header:style(position: absolute !important;)
 reuters.com###breakingNewsContainer, .Header_is-fixed_3OnFb.Header_header_1xhmD, .active.container.header-pane-main, .container > div > div > div > div, .fixed, .header-main.group.header, .header-mini.header-main.group.header > .active.container.header-pane-main:style(position: relative !important; top: 0 !important;)
 reuters.com###content:style(margin-top: 24px !important;)
 reuters.com###progressbar, .Sticky_fixed.Sticky_content, .navbar-expand-sm.navbar-dark.bg-dark.fixed-top.navbar-full.navbar.header, .navbar-toggleable-sm.navbar-inverse.bg-inverse.fixed-top.navbar-full.navbar.header.special-report-nav, .special-report-nav:style(position: absolute !important;)
+reuters.com##.BreakingNews_bar:style(position: absolute !important; top: 9.2em !important; bottom: unset !important; opacity: 1 !important; max-width: 100% !important; width: 100% !important; border-radius: 0 !important;)
 reuters.com##.TrendingBar_trending-item_bItjC.TrendingBar_loaded_3oiZW:style(animation: none !important; opacity: 1 !important;)
 reuters.com##.Video_container > div > div > div > div > div:style(position: relative !important; background-color: transparent !important; width: 100% !important; box-shadow: none !important; opacity: 1 !important;)
 reuters.com##.Video_container > div > div > div > div:style(position: absolute !important; width: 100% !important; top: unset !important; left: unset !important;)
