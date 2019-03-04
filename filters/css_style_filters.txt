@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 11:03 2019-03-04
+! Last Modified: 13:12 2019-03-04
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -528,8 +528,8 @@ bakingsteel.com###mainNavigation, #showOnScrollWrapper:style(position: relative 
 balkanride.com##.stuck.navigation-wrap:style(position: relative !important;)
 ballotpedia.org###bp-header, #sidebar-left, #sidebar-right:style(position: absolute !important;)
 ballotpedia.org###fixed-header-outer, #nav-bar, #top-bar:style(position: relative !important; top: 0 !important;)
-baltimoresun.com##[data-video-float] .trb_em_v_i:style(position: absolute !important; width: 720px !important; height: 405px !important; right: 0 !important; bottom: 0!important; transform: none !important;)
 baltimoresun.com,capitalgazette.com,chicagotribune.com,citypaper.com,courant.com,dailypress.com,latimes.com,mcall.com,nydailynews.com,orlandosentinel.com,pacificsandiego.com,sandiegouniontribune.com,sun-sentinel.com###app-bar-sticky:style(position: relative !important;)
+baltimoresun.com,capitalgazette.com,chicagotribune.com,citypaper.com,courant.com,dailypress.com,latimes.com,mcall.com,orlandosentinel.com,pacificsandiego.com,sandiegouniontribune.com,sun-sentinel.com##.trb_em_v_i:style(position: absolute !important; width: 100% !important; height: 100% !important; right: 0 !important; bottom: 0 !important; transform: none !important;)
 baltimoresun.com,capitalgazette.com,chicagotribune.com,citypaper.com,courant.com,dailypress.com,latimes.com,mcall.com,orlandosentinel.com,pacificsandiego.com,sandiegouniontribune.com,sun-sentinel.com##.trb_nh:style(position: absolute !important; transform: none !important;)
 bandcamp.com##.row.hd:style(position: absolute !important;)
 bangordailynews.com###comp-header:style(position: absolute !important;)
