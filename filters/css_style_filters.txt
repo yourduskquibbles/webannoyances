@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 14:33 2019-03-05
+! Last Modified: 14:53 2019-03-05
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2861,7 +2861,9 @@ mamapedia.com##.headerGroup:style(position: absolute !important;)
 mangarock.com##._2Dq7D:style(position: absolute !important;)
 mansionglobal.com##.global-search-bar--active.js-global-search-bar.global-search-bar, .js-main-header.mg__main-header:style(position: relative !important; top: 0 !important;)
 manualslib.com###caffix:style(position: relative !important; top: 0 !important;)
-manutd.com###toolbar:style(position: relative !important; top: 0 !important;)
+manutd.com###content:style(margin-top: 0 !important; min-height: 100% !important;)
+manutd.com###toolbar, .home-header:style(position: relative !important; top: 0 !important;)
+manutd.com##.home-header.scrolled-header:style(height: 139px !important;)
 mapio.net###mapwrap:style(position: absolute !important;)
 maps.org##.uk-active.uk-sticky-init:style(position: relative !important; top: 0 !important;)
 marca.com##.container-header, .content-list-teams:style(position: static !important; clip: unset !important;)
@@ -3000,6 +3002,7 @@ mit.edu##.secondary-nav-trigger:after:style(top: 30px !important;)
 mit.edu##.site-banner .nav-logo img:style(transition: none !important; width: 181px !important; height: auto !important; line-height: 74px !important;)
 mit.edu##.site-navigation .main-menu i:style(font-size: 36px !important; top: 12px !important; left: 1px !important; transition: none !important;)
 mit.edu##.site-navigation button:style(height 74px !important; line-height: 74px !important; transition: none !important;)
+mitpressjournals.org##.sticky-header .homepage-header:style(position: relative !important; top: -150px !important; height: 130.5px !important;)
 miui.com###ft, #nv_fixed:style(position: relative !important;)
 mix.com##.LandingHeader:style(position: absolute !important; background-color: transparent !important;)
 mix.com##.LandingHeader__trailing-container:style(opacity: 1 !important;)
