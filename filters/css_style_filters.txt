@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 11:25 2019-03-05
+! Last Modified: 11:34 2019-03-05
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -4578,12 +4578,12 @@ theathletic.com###topnav:style(position: relative !important; top: 0 !important;
 theatlantic.com###action-bar, #site-header-container, #site-header, .site-header:style(position: relative !important; top: 0 !important;)
 theaustralian.com.au##.fixed.clearfix.fixed-navigation:style(position: relative !important; top: 0 !important;)
 thebaffler.com##.fixed-top.navbar-toggleable-sm.navbar:style(position: absolute !important; top: 0 !important;)
-thebalance.com,thebalancesmb.com###header_1-0:style(position: absolute !important;)
-thebalance.com,thebalancesmb.com##.header-condensed.header.comp:style(position: relative !important; top: 0 !important;)
-thebalance.com,thebalancesmb.com##.header__centered-logo:style(opacity: 1 !important;)
-thebalance.com,thebalancesmb.com##.logo__icon:style(transform: none !important; transition: none !important;)
+thebalance.com##.logo__text-with-slogan.icon:style(height: 1.75rem !important; transform: none !important;)
+thebalance.com,thebalancecareers.com,thebalancesmb.com###header_1-0:style(position: absolute !important;)
+thebalance.com,thebalancecareers.com,thebalancesmb.com##.header-condensed.header.comp:style(position: relative !important; top: 0 !important;)
+thebalance.com,thebalancecareers.com,thebalancesmb.com##.header__centered-logo:style(opacity: 1 !important;)
+thebalance.com,thebalancecareers.com,thebalancesmb.com##.logo__icon:style(transform: none !important; transition: none !important;)
 thebalance.com,thebalancesmb.com##.logo__text.icon:style(display: block !important; transform: none !important; transition: none !important;)
-thebalancecareers.com###header_1-0:style(position: absolute !important;)
 thebenefitsguide.com###header-main:style(position: absolute !important;)
 thebiglead.com###header-sticky-wrapper, #nav-branding:style(position: relative !important; top: 0 !important;)
 thebiglead.com###nav-branding-sticky-wrapper, #secondary:style(position: relative !important;)
@@ -4602,7 +4602,7 @@ thecooperreview.com##.is_stuck.vce-sticky:style(position: absolute !important;)
 theculturetrip.com##.header-menu\.styled__HeaderMenu-s8ctnhx-0.flipboard-remove:style(position: absolute !important;)
 thecwsandiego.com###WNMenuCol1:style(position: absolute !important;)
 thedailybeast.com##.NavDesktop__wrapper:style(position: absolute !important;)
-thedailybeast.com##.NavMainDesktop, .NavSubDesktop:style(transform: none !important;)
+thedailybeast.com##.NavMainDesktop, .NavSubDesktop, .NavMainDesktop__logo-link.TrackingLink:style(transform: none !important;)
 thedailybeast.com##.NavMainDesktop__cheatsheet-link.TrackingLink:style(transform: translateY(0) rotate(-18deg) !important;)
 thedailybeast.com##.ReadThisList__header, .clearfix.homenav.header, .header.header-2.clearfix, .sticky.Sidebar__sticky-wrapper:style(position: relative !important; top: 0 !important;)
 thedailybeast.com##.sidebar-container:style(position: relative !important;)
