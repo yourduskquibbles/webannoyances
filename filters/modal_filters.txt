@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 14:33 2019-03-05
+! Last Modified: 22:35 2019-03-07
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of cookie bars & other page covering elements. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -10,17 +10,21 @@
 ! Works best with uBlock Origin or Nano Adblocker - be sure to install it as well!
 
 ! Start Web Annoyances Ultralist - Modal Overlay Filters
-100percentfedup.com##.modaal-overlay
+||izooto.com^$script,domain=bloombergquint.com|dnaindia.com
+||lightboxcdn.com/vendor/*$domain=cnet.com
+||picreel.com^$subdocument
+||stacklist.com/*/subscribe-modal
 100percentfedup.com,500px.com,allergicliving.com,mucbook.de,netwatch.me,newfoodeconomy.*,nintendosoup.com,theblacksphere.net,upenn.edu##.spu-bg, .spu-box
+100percentfedup.com##.modaal-overlay
 20k.org##.overlay-mobile-styles-enabled
 2daygeek.com###spu-bg, #spu-main
 3dprintingforbeginners.com##.tl-state-root
-99bitcoins.com##.tl-anim-zoom_in.tl-states-root
 99bitcoins.com,africacheck.org,alexa.com,amctheatres.com,betterhelp.com,breitbart.com,brioni.com,buckscountycouriertimes.com,burlingtoncountytimes.com,businessinsider.com,change.org,china-underground.com,chron.com,cigarinspector.com,citylab.com,coinstaker.com,dewalt.com,discovermagazine.com,eastbaytimes.com,ew.com,fair.org,filmcomment.com,forzieri.com,geniuskitchen.com,hackernoon.com,hindustantimes.com,iphonelife.com,jcutrer.com,kerbalspaceprogram.com,leaf.tv,lightstalking.com,mamapedia.com,medium.com,mongodb.com,motor-talk.de,newsbtc.com,newseum.org,otakustream.tv,paper.li,publicdomainreview.org,rankedboost.com,readfrontier.org,revisionisthistory.com,searchenginewatch.com,seekingalpha.com,shopstyle.com,slamonline.com,spiceworks.com,syfy.com,techwalla.com,thedailybeast.com,thedailybell.com,theintell.com,themefoxx.com,thespoon.tech,toptal.com,trefiel.com,usatoday.com,washingtonmonthly.com,watchpro.com,williams-sonoma.com,yodalearning.com##html:style(overflow-x: hidden !important; overflow-y: scroll !important;)
+99bitcoins.com##.tl-anim-zoom_in.tl-states-root
 abcstores.com,activejunky.com,betterhelp.com,blooom.com,bourbonblog.com,callername.com,carefirst.com,cigarbid.com,coronacigar.com,dccouncil.us,dividend.com,everydaydishes.com,fee.org,fermatslibrary.com,gardenweb.com,govtrack.us,hooktube.com,infantino.com,interestingengineering.com,law360.com,lowes.com,michaels.com,mississippi.gov,movieshype.com,otakustream.tv,paper.li,patch.com,pbs.org,photobucket.com,reviewmeta.com,ripple.com,sapling.com,streamingonline.desi,techwalla.com,washingtontimes.com##.modal-backdrop
 ablebits.com###common-floatbanner-big
-aboutamazon.com##.vex, .vex-overlay
 aboutamazon.com,activejunky.com,alternet.org,atlasobscura.com,avclub.com,becauseofthemwecan.com,bestbuy.com,blooom.com,bostonglobe.com,breakingdefense.com,camelcamelcamel.com,carefirst.com,citizensforethics.org,cjr.org,cnet.com,coronacigar.com,couponcabin.com,cryptodisrupt.com,dailydot.com,dariusforoux.com,daveramsey.com,defenseone.com,denverpost.com,deskbright.com,digg.com,dispatch.com,ehow.com,ello.co,fatherly.com,fermatslibrary.com,flair.co,foreignpolicy.com,freedomnode.com,gazettextra.com,getweeklyupdate.com,golfchannel.com,goodreads.com,goodrx.com,greatnonprofits.org,healthline.com,ifixit.com,indiegogo.com,infantino.com,interestingengineering.com,jacobinmag.com,lareviewofbooks.org,littlepassports.com,mercurynews.com,metacafe.com,myajc.com,nextgov.com,nikkei.com,nytimes.com,patch.com,pbs.org,reviewjournal.com,reviewmeta.com,sephora.com,slickdeals.net,smarteranalyst.com,sophos.com,splinternews.com,statnews.com,summerinfant.com,thebaffler.com,theladders.com,trycosmo.com,tucson.com,underarmour.com,usnews.com,utah.com,utilitydive.com,venturebeat.com,victoriassecret.com,wagwalking.com,wisegeek.com##body:style(overflow-x: hidden !important; overflow-y: scroll !important;)
+aboutamazon.com##.vex, .vex-overlay
 abus.com###cookieChoiceModalOverlay
 aclu.org,futureofcapitalism.com,gurufocus.com,natashaskitchen.com,origins.com,overstock.com,rasmussenreports.com,truevalue.com###cboxOverlay, #colorbox
 activejunky.com###registrationModal
@@ -55,8 +59,8 @@ astronomy.com###wp-popup-2302039, .wpcss-close-popup
 asus.com###online-service:style(position: absolute !important;)
 atavist.com##.notification-overlay
 atavist.com##.paywall-notification-visible:style(overflow-x: hidden !important; overflow-y: scroll !important;)
-atimes.com##.modal-window
 atimes.com,ifixit.com,mic.com,narrative.ly,pedestrian.tv,timesofisrael.com##.modal-overlay
+atimes.com##.modal-window
 atlasobscura.com###email-roadblock-topographic-modal, #facebook-topographic-modal, #gastro-email-roadblock-modal, .ad-background, .ad-background-intra-body
 atr.org###closeFlyOut, #fancybox-overlay, #pop_up, .fancybox-opened
 attn.com##.roadblock
@@ -72,10 +76,10 @@ backchannel.com,centurylink.net,medium.com,mondaynote.com,thriveglobal.com,uxpla
 bakingsteel.com###spc-popup-mask
 baseballdailydigest.com,fairfieldcurrent.com,marketbeat.com###exit-overlay-inline, #optinform-container
 beautifulpixels.com###ml-webforms-popup-536841
-becauseofthemwecan.com##.top-banner.grid--full
 becauseofthemwecan.com,smarteranalyst.com##.jquery-modal
-bedbathandbeyond.com###box, .ad-block-msg-wrapper
+becauseofthemwecan.com##.top-banner.grid--full
 bedbathandbeyond.com,hackernoon.com,medium.com,realcleardefense.com,realclearpolitics.com,thehindubusinessline.com,vice.com##.overlay
+bedbathandbeyond.com###box, .ad-block-msg-wrapper
 beerpay.io###privacy-notice
 believermag.com##.carry-on, .tucson-background
 beltmag.com###popup
@@ -179,15 +183,15 @@ dccouncil.us###openModal
 dd-wrt.com##.cookieinfo
 decider.com###nyp-newsletter-modal
 decryptmedia.com###intercom-container
-democracynow.org###campaign_modal, #overlay
 democracynow.org##.not_scroll.body_wrapper:style(overflow-x: hidden !important; overflow-y: scroll !important;)
+democracynow.org###campaign_modal, #overlay
 denverpost.com,eastbaytimes.com,mercurynews.com,myajc.com,mystatesman.com,reviewjournal.com,statesman.com##.Mg2-connext, .connext-modal-backdrop, .modal-scrollable
 developers.google.com##.devsite-notification-eu-cookie
 dewalt.com###SFMC-modalPopUp__overlay
 dfiles.eu##.cookie_popup
 dictionary.com###fly-out
-digg.com###email-capture-modal, #js--editions-promo, .email-subscribe-modal, .parallax.hp-interstitial, .promo-bottom--editions
 digg.com##.overflow-wrap:style(overflow-x: auto !important;)
+digg.com###email-capture-modal, #js--editions-promo, .email-subscribe-modal, .parallax.hp-interstitial, .promo-bottom--editions
 digital.com###discbar_footer
 digitalocean.com###DO_CC_PANEL, ._panel_1nv7e_1
 digitalspy.com###_evidon-barrier-wrapper
@@ -282,8 +286,8 @@ grrrgraphics.com##.tl-state-root
 grubstreet.com,nymag.com,thecut.com,vulture.com##.ad-splash
 guidestar.org###signUpFooter
 gulfnews.com##.gn-cookies-warning
-guns.com###site-wrap:style(overflow: auto !important;)
 guns.com,newseum.org,professor-excel.com##.pum, .pum-container
+guns.com###site-wrap:style(overflow: auto !important;)
 gurufocus.com###reflex-chat-widget
 haaretz.com,victoriassecret.com##.modal-wrapper
 halfwheel.com##.austin-background
@@ -418,8 +422,8 @@ newscientist.com##body:style(position: relative !important; overflow-x: hidden !
 newsminer.com##.ta_bottomLeftPopup.ta_lowProducts.ta_popup
 newsok.com###elevator
 newstatesman.com###popup
-newyorker.com##.Failsafe__tny-failsafe___3NxXj
 newyorker.com##.bx-has-close-inside
+newyorker.com##.Failsafe__tny-failsafe___3NxXj
 nextgov.com##.gemg-interstitial
 nhl.com##.btm-nhl-announcement-modal
 nicepage.com##.subscribe-modal
@@ -519,8 +523,8 @@ santafenewmexican.com###notification-area
 sbs.ox.ac.uk##.info.popup-content
 scribd.com###lightboxes, #seo_roadblock_lb_new_basic, .modal_wrapper
 seatgeek.com##.seatgeek-lightbox-background
-seattletimes.com###container:style(filter: none !important;)
 seattletimes.com##.modals
+seattletimes.com###container:style(filter: none !important;)
 sec.gov##.acsModalBackdrop
 securitycheckli.st##.style__ScrollToTop-sc-1z0so4v-7
 sephora.com##div[data-comp^="GlobalModalsWrapper"]
@@ -612,8 +616,8 @@ tractorsupply.com###dijit_Dialog_1, #dijit_Dialog_1_underlay, .dijitBackgroundIf
 trails.com##.ub-emb-overlay
 trains.com##.wp_popup_overlay, .wpcss-close-popup
 travelzoo.com###signupOverlay
-treato.com###modal-bg
 treato.com##.treatoSqueezePagePopupWrap
+treato.com###modal-bg
 trefiel.com##.tve-leads-lightbox
 tripadvisor.com###taplc_pcb_branding_interstitial_rollout_p1_0, .dark.ui_backdrop
 tristatehomepage.com##.upnext-bg.mod-upnext-popup.mod-media-list.mod-wrapper
@@ -666,17 +670,13 @@ wvnews.com###blox-message-incompatible
 wvva.com###pojo-a11y-toolbar
 yahoo.com##.cta-overlay, .yui3-overlay-mask
 yelp.com###fullscreen-pitch, #privacy-policy-notice, .js-open-in-app, .photo-box_overlay
-yodalearning.com##.tve-leads-shortcode.tve-leads-triggered:style(opacity: 0 !important;)
 yodalearning.com##.tve_content_lock.tve_lead_lock.tve_lock_blur .tve_lead_locked_content:style(z-index: 999999 !important;)
 yodalearning.com##.tve_lead_locked_content:style(filter: none !important; user-select: text !important; -moz-user-select: text !important; -webkit-user-select: text !important;)
 yodalearning.com##.tve_lead_locked_overlay, .tve-leads-screen-filler
+yodalearning.com##.tve-leads-shortcode.tve-leads-triggered:style(opacity: 0 !important;)
 zdf.de##.js-rb-attached.m-open.x-cookies.b-system-dialog
 zdnet.com###offerContainer-e651d1b3
 zendesk.com###ouibounce-modal
 zenmate.com##.zm-crm-overlay
 zerononcense.com###d-notification-bar
 zutano.com###privy-container
-||izooto.com^$script,domain=bloombergquint.com|dnaindia.com
-||lightboxcdn.com/vendor/*$domain=cnet.com
-||picreel.com^$subdocument
-||stacklist.com/*/subscribe-modal
