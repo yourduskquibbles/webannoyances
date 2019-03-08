@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Generic Filters
-! Last Modified: 23:23 2019-03-07
+! Last Modified: 23:44 2019-03-07
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for generic cosmetic filters - Cosmetically remove common annoyances found on multiple domains typically provided in the social, modal and newsletter Web Annoyances Ultralist sublists. Also includes cookie & gdpr warning elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2090,6 +2090,12 @@
 ##.zergnet-holder
 ##.zergnet-recommend
 ##.zergnet-widget
+##a[href*="facebook.com/sharer/sharer.php?"]
+##a[href*="linkedin.com/shareArticle"]
+##a[href*="pinterest.com/js/pinmarklet.js?"]
+##a[href*="reddit.com/submit?url="]
+##a[href*="share.flipboard.com"]
+##a[href*="twitter.com/share"]
 ##alert-remaining-views-bar
 ##nav-share-buttons
 ##ss-scroll-to-top
