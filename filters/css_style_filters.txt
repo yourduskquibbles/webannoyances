@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 14:38 2019-03-08
+! Last Modified: 23:32 2019-03-08
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -533,6 +533,8 @@ baidu.com###head, .s_down, .s_form:style(position: relative !important; top: 0 !
 baincapital.com###__header:style(position: relative !important; top: 0 !important;)
 bakingsteel.com###mainNavigation, #showOnScrollWrapper:style(position: relative !important; top: 0 !important;)
 balkanride.com##.stuck.navigation-wrap:style(position: relative !important;)
+ballistixgaming.com##.sticky:style(position: relative !important; top: 0 !important; margin-top: 0 !important; bottom: unset !important; transform: 0 !important;)
+ballistixgaming.com##nav:style(height: 88.4px !important; padding: .5rem 0 !important;)
 ballotpedia.org###bp-header, #sidebar-left, #sidebar-right:style(position: absolute !important;)
 ballotpedia.org###fixed-header-outer, #nav-bar, #top-bar:style(position: relative !important; top: 0 !important;)
 baltimoresun.com,capitalgazette.com,chicagotribune.com,citypaper.com,courant.com,dailypress.com,latimes.com,mcall.com,nydailynews.com,orlandosentinel.com,pacificsandiego.com,sandiegouniontribune.com,sun-sentinel.com###app-bar-sticky:style(position: relative !important;)
