@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Generic Filters
-! Last Modified: 16:21 2019-03-09
+! Last Modified: 08:37 2019-03-11
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for generic cosmetic filters - Cosmetically remove common annoyances found on multiple domains typically provided in the social, modal and newsletter Web Annoyances Ultralist sublists. Also includes cookie & gdpr warning elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -538,7 +538,6 @@
 ###ts-back-to-top
 ###tt_mobile_banner
 ###tve_cta
-###twitter-widget-1
 ###twitter_btn
 ###twitter_button
 ###uecookies
@@ -1480,6 +1479,7 @@
 ##.share-handler-wrap
 ##.share-header
 ##.share-heading
+##.share-icon-container
 ##.share-icons
 ##.share-icons-inline
 ##.share-icons-lhs
@@ -2093,11 +2093,14 @@
 ##.zergnet-holder
 ##.zergnet-recommend
 ##.zergnet-widget
+##a[href*="facebook.com/sharer.php?"]
 ##a[href*="facebook.com/sharer/sharer.php?"]
 ##a[href*="linkedin.com/shareArticle"]
 ##a[href*="pinterest.com/js/pinmarklet.js?"]
+##a[href*="reddit.com/submit?title="]
 ##a[href*="reddit.com/submit?url="]
 ##a[href*="share.flipboard.com"]
+##a[href*="twitter.com/intent/tweet"]
 ##a[href*="twitter.com/share"]
 ##a[href="reddit.com/submit?url="]
 ##alert-remaining-views-bar
@@ -2129,7 +2132,6 @@
 adn.com#@#.utility-bar
 github.com#@#.social-count
 itorrents.org#@#.leaderboard
-lawandcrime.com#@##twitter-widget-1
 linkedin.com#@#.share-box
 postimg.cc#@#.share
 postimg.cc,vidlox.me#@##share

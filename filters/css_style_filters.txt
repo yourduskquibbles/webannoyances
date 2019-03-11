@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 00:01 2019-03-10
+! Last Modified: 08:37 2019-03-11
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -3038,6 +3038,7 @@ mlb.com##.template-article__content:style(margin-left: 0 !important;)
 mlb.com##.template-article__sidebar:style(position: relative !important; height: auto !important;)
 mlbstreams.net##.stuck.waypoint:style(position: absolute !important;)
 mlbtraderumors.com,prohockeyrumors.com##.headlines-bar:style(position: absolute !important;)
+mlive.com##.main-wrapper:style(transform: none !important;)
 mlssoccer.com###mls-global, .affix.nav_wrapper.region-navigation.region:style(position: absolute !important; top: 0 !important;)
 mlssoccer.com##.logo__custom:style(position: absolute !important;)
 mmajunkie.com###nav-branding-sticky-wrapper, #nav-branding:style(position: relative !important;)
@@ -5093,6 +5094,17 @@ variety.com##.player-position:style(position: static !important; width: 100% !im
 vectrus.com###header-wrapper:style(position: relative !important; top: 0 !important;)
 vegetariantimes.com##.is-visible.l-sticky-navbar:style(position: relative !important; top: 0 !important;)
 vegnews.com##.site-header-sticky:style(position: absolute !important;)
+venezuelanalysis.com###nav-menu-wrapper > .container-fluid:style(max-width: 1200px !important; padding: 0 25px 0 25px !important;)
+venezuelanalysis.com###nav-menu-wrapper:style(position: relative !important;)
+venezuelanalysis.com##.btn-donate-header:style(width: 250px !important;)
+venezuelanalysis.com##.is_stuck.venanalysis-processed.float-content-wrapper:style(position: absolute !important;)
+venezuelanalysis.com##.nav > li:style(display: block !important;)
+venezuelanalysis.com##.navbar-default .navbar-nav > .active > a:style(color: #B74039 !important; background-color: #fff !important;)
+venezuelanalysis.com##.navbar-default .navbar-nav > li > a:style(color: #1E1F20 !important;)
+venezuelanalysis.com##.navbar-default .sticky-before .navbar-container:style(background-color: rgb(245, 245, 245) !important;)
+venezuelanalysis.com##.navbar-default .sticky-before:style(top: 0 !important; background: transparent !important;)
+venezuelanalysis.com##.navbar:style(margin-bottom: 0 !important;)
+venezuelanalysis.com##.search-toggle:style(color: #1E1F20 !important; background-color: #fff !important;)
 venturebeat.com###ac-player-wrapper:style(position: static !important; width: unset !important;)
 venturebeat.com###omni-navbar:style(position: relative !important; top: 0 !important;)
 vera.org###Header:style(position: absolute !important;)
