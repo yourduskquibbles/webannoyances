@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 16:51 2019-03-11
+! Last Modified: 22:12 2019-03-11
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1760,6 +1760,7 @@ extremetech.com##.hybrid-bar:style(position: relative !important; top: 0 !import
 eyeo.com###phantom:style(position: absolute !important;)
 f-secure.com##.fixed, .teaser-top, header:style(position: relative !important; top: 0 !important;)
 f169bbs.com###topbox:style(position: relative !important;)
+f5.com##.headroom:style(position: absolute !important; transform: none !important;)
 fablesofaesop.com###dc-contact-2:style(position: absolute !important;)
 facebook.com,facebookcorewwwi.onion###browse_lhc_container, #entity_sidebar, #leftCol > div > div, #u_0_11, #u_0_12, #u_0_13, #u_0_1a, #u_0_1b, #u_0_1d, #u_0_s, #u_0_t, #u_0_u, #u_0_v, #u_0_w, #u_0_x, #u_0_y, #u_0_z, #u_fetchstream_1_3, #u_jsonp_2_0, #u_jsonp_2_3, #u_jsonp_3_3, #u_jsonp_3_h, #u_jsonp_4_9, #u_jsonp_5_3, #u_jsonp_5_i, ._4-u8._4-u2._4k-l._4k-k, ._5c_8, ._5zrt._2x4w, ._kyy, ._uey._3azy._638s:style(position: relative !important; top: 0 !important;)
 facebook.com,facebookcorewwwi.onion###content > div > ._lwx:style(position: absolute !important; padding-bottom: 10px !important;)
@@ -5381,8 +5382,8 @@ windowsreport.com##.fixed.sticky.contain-to-grid:style(position: relative !impor
 winnerslacrosse.org##.yui3-widget:style(position: absolute !important;)
 wired.co.uk##.c-nav__wrapper, .n-main__nav-logo:style(position: absolute !important;)
 wired.co.uk##.is-stuck.n-main__sticker-child:style(position: relative !important; top: 0 !important;)
-wired.com###global-header, #logo-bar, .component-sticky, .header--collapsed, nav:style(position: relative !important; top: 0 !important;)
-wired.com##.desktop-nav-sign-in-component > .sign-in-link-component, .header--default.header:style(position: absolute !important;)
+wired.com###global-header, #logo-bar, .component-sticky, .header--collapsed, nav, .desktop-nav-sign-in-component > .sign-in-link-component,:style(position: relative !important; top: 0 !important;)
+wired.com##.header--default.header:style(position: absolute !important;)
 wired.com##.inset-left-component:style(opacity: 1 !important; transform: none !important; transition: none !important;)
 wireshark.org###masthead:style(position: absolute !important; top: 0 !important; min-height: 90px !important; transform: none !important; transition: none !important;)
 wirexapp.com##.desktop-header > .header-pane:style(position: absolute !important;)
