@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 10:26 2019-03-12
+! Last Modified: 10:38 2019-03-12
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -3124,7 +3124,7 @@ mozilla.org##.moz-sub-nav:style(position: relative !important; top: 0 !important
 mozilla.org##.nav-global .logo:style(height: 40px !important; width: 126px !important;)
 mozilla.org##.nav-global .nav-global-fxdownload .button:style(padding: .25em 20px !important;)
 mozilla.org##.nav-global, .nav-global.is-minified .nav-mozilla-menu, .nav-global .nav-global-fxdownload .button:style(font-size: 0.8888888889rem !important;)
-mozilla.org##.nav-mozilla-menu:style(padding: 1em 0 !important;)
+mozilla.org##.nav-global, .nav-mozilla-menu:style(padding: 1em 0 !important;)
 mozilla.org##.site-wrap:style(padding-top: 0 !important;)
 mozilla.org##.sub-nav-download-wrapper:style(height: 0 !important; width: 0 !important;)
 mpix.com###cart-head:style(position: relative !important; top: 0 !important;)
@@ -3921,9 +3921,9 @@ rd.com##.toh-search-form:style(max-width: 400px !important;)
 rd.com##header.site-header.sticky::after:style(top: 140px !important;)
 reachlocal.com###fixed-header:style(position: absolute !important; top: 0 !important;)
 reactjs.org##.css-3ao3zf, .css-mlkfzr:style(position: absolute !important;)
-realclearbooks.com,realcleardefense.com,realcleareducation.com,realclearenergy.org,realclearfuture.com,realclearhealth.com,realclearhistory.com,realclearinvestigations.com,realclearlife.com,realclearmarkets.com,realclearpolitics.com,realclearreligion.org,realclearscience.com,realclearsports.com,realclearworld.com##.nav-down:style(position: relative !important; top: 0 !important;)
+realclearbooks.com,realcleardefense.com,realcleareducation.com,realclearenergy.org,realclearfuture.com,realclearhealth.com,realclearhistory.com,realclearinvestigations.com,realclearlife.com,realclearmarkets.com,realclearpolitics.com,realclearreligion.org,realclearscience.com,realclearsports.com,realclearworld.com,searchenginejournal.com###masthead-wrapper:style(position: relative !important; top: 0 !important;)
 realcleardefense.com,realclearpolitics.com##.progress-bar:style(position: relative !important; top: 0 !important;)
-realclearpolitics.com###masthead-container, #masthead-wrapper, #masthead, .alpha-wrapper:style(position: relative !important; top: 0 !important;)
+realclearpolitics.com###masthead-container, #masthead, .alpha-wrapper:style(position: relative !important; top: 0 !important;)
 realclearpolitics.com##.rc_video_player_container:style(position: relative !important;)
 realtek.com###t3-header:style(position: relative !important;)
 realtek.com##.ja-masthead, .t3-masthead.wrap:style(margin-top: 0 !important;)
@@ -4118,7 +4118,6 @@ scroll.in##.global-navigation.stick-global-navigation:style(margin-bottom: 0 !im
 scroll.in##.scroll-navigation-container:style(position: relative !important;)
 scubaboard.com##.fixed.navFloatwrapper:style(position: relative !important; top: 0 !important;)
 seacoastonline.com###edge-radio-player-container:style(position: absolute !important;)
-searchenginejournal.com###masthead-wrapper:style(position: relative !important; top: 0 !important;)
 searchenginejournal.com##.flex-nav, .sticked:style(position: absolute !important;)
 sears.com###rightrail, .product-header, .productdetails-page .fixed, .moved-product-attachments .fixed:style(position: static !important;)
 sears.com###swordfish-header:style(position: relative !important; top: 0 !important;)
