@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 11:19 2019-03-15
+! Last Modified: 11:43 2019-03-15
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2732,7 +2732,8 @@ kpopstarz.com##.static_menu:style(position: relative !important; top: 0 !importa
 kqed.org##.components-AudioPlayer-___AudioPlayer__audioPlayer:style(position: absolute !important; top: 0 !important; bottom: unset !important; margin-top: 50px !important; border-bottom: 1px solid #000 !important;)
 kqed.org##.components-AudioPlayer-components-AudioBar-___AudioBar__audioBar__open:style(height: 7rem !important;)
 kqed.org##.components-Header-___Header__header, .kqed-header, .src-components-Header-___Header__header___3bMN6:style(position: absolute !important;)
-kqed.org##.components-Header-___Header__header__collapsed .components-Header-___Header__header_Wrap, .components-Header-___Header__header_Wrap_Full:style(height: 50px !important;)
+kqed.org##.components-Header-___Header__header_Wrap:style(height: 50px !important;)
+kqed.org##.components-Header-___Header__header_Wrap_Full:style(height: 50px !important; overflow: unset !important;)
 kqed.org##.components-Header-___Header__logo .logo:style(max-height: 100% !important;)
 kqed.org##.components-NavMenu-___NavMenu__navMenu_Tab_Title:style(margin-top: 7px !important;)
 kqed.org##.page-main:style(margin-top: 66px !important;)
