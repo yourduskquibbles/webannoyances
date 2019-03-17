@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 19:12 2019-03-15
+! Last Modified: 12:38 2019-03-17
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -332,7 +332,10 @@ android.com##.l-header:style(position: relative !important; top: 0 !important; t
 androidauthority.com###sticky-bar:style(position: absolute !important; top: 0 !important; transform: none !important; transition: none !important;)
 androidauthority.com###tt_hot_products_menu:style(top: 0 !important;)
 androidauthority.com##.fixed.fixed-object.bottom-reached.single-sidebar.content-panel:style(position: relative !important;)
-androidcentral.com##.header-top-inner2, .header-top-inner:style(position: relative !important; height: 60px !important;)
+androidcentral.com##.header-sib__inner:style(position: relative !important; top: 0 !important;)
+androidcentral.com##.header-top-inner2, .header-top-inner:style(position: relative !important; top: 0 !important; height: 40px !important;)
+androidcentral.com##.header-top__drawer-toggle i, .header-top__navigation-link i, .header-top__search-button i:style(line-height: 40px !important; font-size: 16px !important;)
+androidcentral.com##.header-top__drawer-toggle, .header-top__navigation-link, .header-top__search-button:style(height: 40px !important; line-height: 40px !important; width: 40px !important;)
 androidheadlines.com##.header-shiv:style(position: absolute !important;)
 androidheadlines.com,bldgblog.com,creativecommons.org,digicert.com,dropbox.com,dsogaming.com,elaineou.com,forksoverknives.com,glennbeck.com,haxx.se,independent.co.uk,luckypeach.com,metro.co.uk,namecheap.com,newsday.com,queerty.com,relevantmagazine.com,standard.co.uk,thecipherbrief.com,thisiswhyimbroke.com,turkeyblocks.org,vesselnews.io,wiat.com,wncn.com###masthead:style(position: relative !important; top: 0 !important;)
 androidpolice.com###toc_wrapper:style(position: relative !important;)
@@ -2570,7 +2573,7 @@ instle.com###logo:style(position: relative !important; top: 0 !important;)
 instructables.com###explore-header, #search-header:style(position: relative !important; top: 0 !important;)
 instyle.com###header, #logo, .header__logo-image, .instyle_menu:style(position: relative !important; top: 0 !important;)
 instyle.com##.container-full-width:style(padding: 0 !important;)
-intel.com###utility-bar, .navbar-fixed-top.global-menu-simplify, .navbar-fixed-top.site-header:style(position: absolute !important;)
+intel.com###utility-bar, .navbar-fixed-top.global-menu-simplify, .navbar-fixed-top.site-header, .affix.nav-affixer.wrap-1:style(position: absolute !important;)
 intel.com##.affix.lch-affix:style(position: absolute !important; margin-left: 0 !important; padding: 0 !important; width: 100% !important;)
 intel.com##.no-print.breadcrumb.blade-support:style(position: relative !important; top: 0 !important;)
 intel.com##.stick-to-top.compare-page-view.hidden-xs.compare-products-blade.blade:style(position: relative !important;)
