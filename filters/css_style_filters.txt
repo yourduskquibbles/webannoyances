@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 13:45 2019-03-18
+! Last Modified: 15:04 2019-03-18
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1988,6 +1988,9 @@ foxnews.com##.video-dropdown:style(opacity: 1 !important;)
 foxnomad.com###main-header:style(position: relative !important;)
 foxsports.com###LayoutNavHeader, #body-header-wrapper, #js-body-header, #section-scorestrip, .section-nav:style(position: relative !important; top: 0 !important;)
 foxsports.com##.fixed.anchor-nav-container:style(position: relative !important;)
+foxsports.com##.fs-pin-wrapper:style(position: static !important; top: 0 !important; background-color: transparent !important; height: 100% !important; animation: none !important;)
+foxsports.com##.pin-player.pin-top.platformPlayer-wrapper:style(width: 100% !important; margin: 0 !important; animation: none !important;)
+foxsports.com##.platformPlayer-wrapper.pin-player:style(animation: none !important;)
 foxsports.com##.promo-footer:style(position: relative !important; bottom: 0 !important;)
 foxsportsgo.com##.fsg-header:style(position: absolute !important;)
 fragiledeal.com##.clearfix.d-header, .timeline-container:style(position: absolute !important;)
