@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 15:04 2019-03-18
+! Last Modified: 15:40 2019-03-18
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2361,13 +2361,14 @@ hola.com##.brand:style(opacity: 1 !important;)
 hola.com##.container.mainMenu.fixed-mainMenu.fixed-menu:style(position: absolute !important;)
 hola.com##.sticky:style(position: relative !important;)
 hollyrebot.com###header-navigation:style(position: absolute !important;)
-hollywoodreporter.com###js__stories-wrapper, .site-header__progress, .sticky-wrapper:style(position: absolute !important;)
+hollywoodreporter.com###js__stories-wrapper:style(position: absolute !important; top: 0 !important;)
 hollywoodreporter.com###site-header, #sticky-nav, .site-header-basic--preta, .stuck.js-leftRail-container.left-rail:style(position: relative !important; top: 0 !important;)
 hollywoodreporter.com##.header-wrapper:style(position: absolute !important; visibility: visible !important;)
 hollywoodreporter.com##.header-wrapper__secondary-header:style(top: 37px !important;)
 hollywoodreporter.com##.is-content-initialized.js-floater-media.main-media__video:style(position: static !important;)
 hollywoodreporter.com##.site-header__background:style(transform: none !important;)
 hollywoodreporter.com##.site-header__brand:style(height: 47px !important;)
+hollywoodreporter.com##.site-header__progress, .sticky-wrapper:style(position: absolute !important;)
 homedepot.com###menuScroll, #menuScrollInnerWrapper:style(position: relative !important; top: 0 !important;)
 homedepot.com##.LPMoverlay.LPMcontainer, .QSIFeedBackLink:style(position: absolute !important;)
 homeownershub.com##.navbar-custom.logo.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important;)
