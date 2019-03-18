@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 09:17 2019-03-18
+! Last Modified: 09:52 2019-03-18
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1682,6 +1682,8 @@ engadget.com###header-post-nav, #nav-flow:style(position: relative !important; t
 engadget.com##.i-context_nav:style(position: relative !important; top: 0 !important; transition: none !important; -webkit-transition: none !important;)
 engadget.com##.o-sticky_header\@tp-:style(position: relative !important;)
 enotes.com##.redacted.obscured:style(filter: unset !important; color: #000 !important; text-shadow: none !important;)
+entertainment.ie##.inner-wrapper-sticky:style(position: static !important; top: 0 !important;)
+entertainment.ie##.wrap-div:style(position: relative !important;)
 entrepreneur.com###nvh:style(position: relative !important;)
 enzymediane.com##.navigation:style(position: relative !important;)
 eon.com##.Set1.Color.eon-de-navbar:style(position: absolute !important;)
@@ -4017,6 +4019,8 @@ repubblica.it##.fixed.bottom-header-wrapper:style(position: absolute !important;
 research.fb.com##.top-menu:style(position: absolute !important; height: 128px !important;)
 researchgate.net##.is-sticky.publication-resources-summary__inner.js-lite-sticky-target:style(position: absolute !important; box-shadow: none !important;)
 researchgate.net##.publication-resources-summary--sticky.publication-resources-summary:style(position: relative !important;)
+resetera.com##.is-sticky.uix_stickyBar.p-navSticky--all.p-navSticky, .uix_stickyBodyElement.uix_sidebarNav__inner:style(position: absolute !important; top: 0 !important;)
+resetera.com##.uix_headerContainer .p-navSticky.is-sticky > *:style(box-shadow: none !important;)
 resilience.org##.navbar-header:style(height: auto !important; padding: 0 !important; margin: 0 1 !important; border: none !important;)
 resilience.org##.navbar-inner:style(background-color: transparent !important; box-shadow: none !important;)
 resilience.org##.navbar:style(position: relative !important; top: 0 !important; height: 185px !important; padding-bottom: 0 !important; padding-top: 0 !important;)
