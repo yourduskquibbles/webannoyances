@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 16:04 2019-03-18
+! Last Modified: 16:25 2019-03-18
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -5264,7 +5264,12 @@ walmart.com##.Header-wrapper--blueBg:style(background-color: transparent !import
 walmart.com##.is-fixed.fixie-header, .is-fixed.fixie:style(position: relative !important; top: 0 !important;)
 warbyparker.com##.c-how-it-made__nav:style(position: relative !important;)
 warisboring.com##.affix.navbar-wrapper:style(position: relative !important;)
-washingtoncitypaper.com##header:style(position: relative !important; top: 0 !important; transform: none !important;)
+washingtoncitypaper.com##.block.primary[data-bvo-type*="navigation"] a:style(padding: 0 17px !important;)
+washingtoncitypaper.com##.block.secondary:style(display: flex !important;)
+washingtoncitypaper.com##.fixed header .block[data-bvo-type="branding"] img:style(max-height: 100% !important;)
+washingtoncitypaper.com##header .primary[data-bvo-type="navigation"]:style(padding-top: 0 !important;)
+washingtoncitypaper.com##header:style(position: relative !important; top: 0 !important; padding: 20px 0 !important; box-shadow: none !important; transform: none !important;)
+washingtoncitypaper.com##nav ul:style(padding: 10px 0 !important;)
 washingtonexaminer.com###cnx-autoplay-container, .ndn_floatContainer:style(position: static !important;)
 washingtonexaminer.com##.FixedHeader, .hidden-print.justify-content-between.mb-1.bg-inverse.navbar-dark.fixed-top.nav.navbar.flex-row.topbar:style(position: absolute !important;)
 washingtonexaminer.com##.pt-1, .pt-3:style(padding-top: 0 !important;)
