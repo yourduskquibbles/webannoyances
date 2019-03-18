@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 11:55 2019-03-18
+! Last Modified: 12:05 2019-03-18
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2996,10 +2996,9 @@ matadornetwork.com##.header-nav:style(position: relative !important;)
 matadornetwork.com##.stuck-mid.page-header-wrapper, .stuck-mid.sticky.header-nav:style(position: relative !important; top: 0 !important;)
 material.io##.header:style(position: absolute !important; top: 0 !important; transform: none !important; transition: none !important;)
 mathworks.com##.affix.includes_subnav.sticky_header_container:style(position: relative !important; top: 0 !important;)
-matrix.org###et-top-navigation:style(padding-top: 33px !important; transition: none !important;)
-matrix.org###logo, .logo_container:style(transition: none !important;)
-matrix.org###main-header:style(position: absolute !important; transition: none !important;)
-matrix.org###page-container:style(margin-top: -1px !important; transition: none !important;)
+matrix.org###et-top-navigation:style(padding-top: 33px !important;)
+matrix.org###main-header:style(position: absolute !important; height: 80px !important; box-shadow: none !important;)
+matrix.org###page-container:style(margin-top: -1px !important;)
 maxmind.com##.js-header.header:style(position: absolute !important;)
 mayerdan.com##.navbar-fixed-top.navbar:style(position: absolute !important;)
 mcdiarmid.org##.pad-h.header:style(position: relative !important; top: 0 !important;)
