@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 16:42 2019-03-18
+! Last Modified: 20:13 2019-03-18
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -5266,7 +5266,7 @@ warbyparker.com##.c-how-it-made__nav:style(position: relative !important;)
 warisboring.com##.affix.navbar-wrapper:style(position: relative !important;)
 washingtoncitypaper.com##.block.break-container:style(padding: 15px 20px !important;)
 washingtoncitypaper.com##.block.primary[data-bvo-type*="navigation"] a:style(padding: 0 17px !important;)
-washingtoncitypaper.com##.block.secondary, .fixed header .break-container [data-bvo-type="navigation"]:last-of-type:style(display: flex !important;)
+washingtoncitypaper.com##.block.secondary, .fixed header .break-container [data-bvo-type="navigation"]:last-of-type, .fixed header .nav-item.news, .fixed header .nav-item:not(.navigation-overlay)[class*="platform"]:style(display: flex !important;)
 washingtoncitypaper.com##.fixed header .block[data-bvo-type="branding"] img:style(max-height: 100% !important;)
 washingtoncitypaper.com##header .primary[data-bvo-type="navigation"]:style(padding-top: 0 !important;)
 washingtoncitypaper.com##header:style(position: relative !important; top: 0 !important; padding: 20px 0 !important; box-shadow: none !important; transform: none !important;)
