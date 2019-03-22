@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 10:55 2019-03-22
+! Last Modified: 11:17 2019-03-22
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2293,6 +2293,8 @@ hackaday.io##.fixed.project-menu:style(position: relative !important; top: 0 !im
 hacklabo.com##.c-header--pinned.c-header--not-top.headroom--not-bottom.c-header--headroom.js-header.c-header:style(position: relative !important; top: 0 !important;)
 hackr.io##.header:style(position: relative !important;)
 hackster.io##.affix.affixable.group-nav:style(position: relative !important;)
+haitiantimes.com###top > .logo:style(position: relative !important;)
+haitiantimes.com##.shrinked.aaaaa:style(position: absolute !important;)
 halfwheel.com###navigation_bar:style(position: absolute !important;)
 hangaroundtheweb.com###header:style(position: absolute !important; transform: none !important;)
 hannaandersson.com##.clearfix.js-header.site-header:style(position: relative !important;)
@@ -3457,11 +3459,10 @@ newsweek.com##.jc-c.flex-md:style(display: -webkit-flex !important; display: fle
 newsweek.com##.lk-2:style(padding: 10px 12px !important;)
 newsweek.com##.lk-3:style(padding: 10px 10px 10px 12px !important;)
 newsweek.com##.mStickyPlayer .tvplayer, .mStickyPlayer #fusion_jwplayer:style(width: 100% !important; margin: 0 !important;)
-newsweek.com##.mStickyPlayer .videocontent:style(box-shadow: none !important;)
 newsweek.com##.page-header .brand svg:style(width: 257px !important; height: 39px !important; margin: 10px auto 0 !important;)
 newsweek.com##.page-header .header-bottom:before:style(position: absolute !important; top: 0 !important; right: 0 !important; content: "" !important; display: block !important; width: 60px !important; background-color: #f72210 !important; border-left: 12px solid #fff !important; border-top: 13px solid #f72210 !important;)
 newsweek.com##.tvplayer:style(height: 414.367px !important;)
-newsweek.com##.videocontent:style(position: relative !important; top: 0 !important; padding-bottom: 56.25% !important;)
+newsweek.com##.videocontent:style(position: relative !important; top: 0 !important; padding-bottom: 56.25% !important; box-shadow: none !important;)
 newsweek.com##form#search-block-form--2 .element-invisible:style(top: 18px !important; right: 82px !important;)
 newsweek.com##form#search-block-form--2 input[type="text"]:style(position: absolute !important; height: 54px !important; width: 60px !important;)
 newsweek.com##form#search-block-form--2:style(position: static !important; padding: 0 !important; margin: 0 !important;)
