@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 11:58 2019-03-25
+! Last Modified: 13:05 2019-03-25
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2414,6 +2414,7 @@ hotelnewsnow.com##.widget-menu-widget:style(max-width: 1100px !important;)
 hotelnewsnow.com##.zone-navigation:style(min-height: 89px !important;)
 hothardware.com##.header-fixed-top:style(position: absolute !important; top: 0 !important;)
 hotnewhiphop.com###wrap-header-container.stickyHeader, .amp-header:style(position: absolute !important;)
+house.gov###zone-branding-wrapper:style(position: relative !important;)
 house.gov##.fixed-position.navbar:style(position: absolute !important;)
 housebeautiful.com##.sticky.nav:style(position: relative !important; top: 0 !important;)
 houstonchronicle.com###articleRibbon:style(position: relative !important; transform: none !important;)
@@ -4236,6 +4237,7 @@ seattletimes.com##.global-header-top:style(position: relative !important; top: 0
 seattletimes.com##.main-nav > .main-nav-header:style(position: relative !important; top: 0 !important;)
 seattletimes.com##body.fixed:style(position: relative !important;)
 secapps.com##.nav.header:style(position: absolute !important;)
+securelist.com##.scrolled.toc-sticky.toc-container.post-toc:style(position: absolute !important;)
 secureworldexpo.com##.site-header:style(position: relative !important; padding: 25px 0 !important;)
 securinghardware.com###js-menu-trigger:style(position: absolute !important;)
 securitiesanalytics.com##.tc-header:style(position: relative !important;)
@@ -5352,6 +5354,7 @@ washingtonpost.com##.site-header.bar-hidden:style(height: 80px !important; webki
 washingtonpost.com##.voracious-header-line:style(position: relative !important; transform: none !important;)
 washingtonpost.com##.wpv-fixed:style(position: static !important;)
 washingtontimes.com###masthead, .globalheader_container, .main-nav-scrolled.globalheader_container:style(position: relative !important; top: 0 !important;)
+washingtontimes.com###mrf-header:style(position: absolute !important;)
 washingtontimes.com##.header-container #cssmenu:style(box-shadow: 0 2px 3px rgba(0,0,0,.4) !important;)
 washingtontimes.com##.header-container.sticky .info-bar, .header-container.sticky .topics, .header-container.sticky header#mainnav div.topper .headcol.sitelogo em:style(display: block !important;)
 washingtontimes.com##.header-container.sticky header#mainnav div.topper .headcol.sitelogo:style(position: unset !important; padding: unset !important; top: unset !important;)
