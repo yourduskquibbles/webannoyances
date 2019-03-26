@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 22:37 2019-03-25
+! Last Modified: 11:02 2019-03-26
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -81,8 +81,8 @@
 8bitdo.com###head > .container, #head, #logo, #nav:style(position: relative !important; top: 0 !important;)
 8bitdo.com##.headroom--pinned.headroom.navbar-fixed-top.main-nav:style(position: absolute !important;)
 8ch.net##div.boardlist:nth-of-type(1):style(position: absolute !important;)
-99bitcoins.com,athabascaadvocate.com,barrheadleader.com,bonnyvillenouvelle.ca,conatusnews.com,innisfailprovince.ca,laclabichepost.com,mountainviewgazette.ca,oldsalbertan.ca,rmoutlook.com,rockyviewweekly.com,spjournal.com,stalbertgazette.com,washingtonexec.com,westernwheel.com,westlocknews.com##.sticky-nav.cf.navigation-wrap:style(position: absolute !important;)
-99bitcoins.com,avsforum.com,blackmainstreet.net,bloody-disgusting.com,ccn.com,conatusnews.com,directexpose.com,discoverpods.com,freedomoutpost.com,gizmochina.com,govconwire.com,greenrushdaily.com,groovypost.com,hedgeaccordingly.com,hightimes.com,instabug.com,latinamericareports.com,mediarun.com,psypost.org,socialanxietysupport.com,socialcops.com,steelersdepot.com,teslarati.com,tsarizm.com,vrv.co,vrvblog.co,wthitv.com##.theiaStickySidebar:style(position: static !important; transform: none !important;)
+99bitcoins.com,athabascaadvocate.com,barrheadleader.com,bonnyvillenouvelle.ca,conatusnews.com,hardwaresfera.com,innisfailprovince.ca,laclabichepost.com,mountainviewgazette.ca,oldsalbertan.ca,rmoutlook.com,rockyviewweekly.com,spjournal.com,stalbertgazette.com,washingtonexec.com,westernwheel.com,westlocknews.com##.sticky-nav.cf.navigation-wrap:style(position: absolute !important;)
+99bitcoins.com,avsforum.com,blackmainstreet.net,bloody-disgusting.com,ccn.com,conatusnews.com,directexpose.com,discoverpods.com,freedomoutpost.com,gizmochina.com,govconwire.com,greenrushdaily.com,groovypost.com,hardwaresfera.com,hedgeaccordingly.com,hightimes.com,instabug.com,latinamericareports.com,mediarun.com,psypost.org,socialanxietysupport.com,socialcops.com,steelersdepot.com,teslarati.com,tsarizm.com,vrv.co,vrvblog.co,wthitv.com##.theiaStickySidebar:style(position: static !important; transform: none !important;)
 9gag.com###sidebar-content:style(position: relative !important;)
 9gag.com###top-nav:style(position: absolute !important;)
 9news.com.au##.flexbox .layout--sticky .layout__utility__sticky:style(position: static !important;)
@@ -5180,6 +5180,10 @@ usatoday.com##.longform-chapter-nav.style-scope.sticky.chapter-container:style(p
 usatoday.com##.s2nPlayerFrame:style(position: absolute !important; transform: none !important;)
 usatoday.com##.util-sticky-module:style(position: relative !important;)
 usatodayhss.com###nav-branding:style(position: relative !important; top: 0 !important;)
+uscannenbergmedia.com##.center-nav:style(display: block !important; opacity: 1 !important;)
+uscannenbergmedia.com##.pb-f-global-header-nav div.headernav .row-two .top-nav-list .top-nav-list-item.first, .pb-f-global-header-nav div.headernav .row-two .top-nav-list .top-nav-list-item.last:style(margin-left: 0 !important;)
+uscannenbergmedia.com##div.headernav .row-two .top-nav-list .top-nav-list-item:style(margin: 0 10px !important;)
+uscannenbergmedia.com,wweek.com###siteheader:style(position: absolute !important; top: 0 !important;)
 uscreen.tv##.active.fixed-header.site-header:style(position: absolute !important;)
 useragents.com##.navbar-header:style(position: relative !important; top: 0 !important;)
 userbenchmark.com##.container-fluid.pagebounds.top-menu:style(position: absolute !important;)
@@ -5613,7 +5617,6 @@ wwd.com###site-header:style(position: relative !important; top: 0 !important;)
 wwd.com###site-wrap:style(padding-top: 0 !important;)
 wwe.com###mini-panel-header_navigation:style(position: relative !important; top: 0 !important;)
 wwe.com##.wwe-header--explorer.wwe-highlights-videos--wrapper:style(position: relative !important; top: 0 !important; transform: none !important;)
-wweek.com###siteheader:style(position: absolute !important; top: 0 !important;)
 wweek.com##.slimline.fixed.border-top-desktop.border-top-mobile.line-up.sharebar-top-mobile.sharebar-wrapper.sharebar-top-desktop:style(position: relative !important; top: 0 !important;)
 www.vice.com##.site-header .site-header__channel-slider-trigger__button path, .site-header .site-header__channel-slider-trigger__text path, .site-header .site-header__nav-trigger path, .site-header .site-header__social-icon path, .site-header .site-header__link path, .site-header__logo path:style(fill: #000000 !important;)
 www.vice.com##.site-header__logo:style(width: 127px !important;)
