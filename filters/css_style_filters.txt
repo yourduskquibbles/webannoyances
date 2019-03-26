@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 11:13 2019-03-26
+! Last Modified: 11:24 2019-03-26
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -251,7 +251,7 @@ alexa.com###alx-header, .fusion-sticky-shadow.fusion-header:style(position: abso
 alexaobrien.com##.follow.header-v1.stickynav-on.main, .header-v1.stickynav-on.main:style(position: relative !important; top: 0 !important;)
 aliexpress.com###auto-search:style(position: relative !important;)
 aliexpress.com###j-detail-gallery-main, #ms-header, #shopping-history, .ui-switchable-nav.ui-tab-nav:style(position: absolute !important;)
-aliexpress.com,androidcentral.com,bgov.com,boston25news.com,bugzilla.mozilla.org,burpee.com,claremont.org,cryptoslate.com,dailywire.com,dazeddigital.com,ericksonliving.com,fox13memphis.com,gamerant.com,github.io,hrw.org,lamag.com,mobile.wnd.com,nationalreview.com,nyclu.org,oilandgasinvestor.com,ok.co.uk,reactos.org,reddit.com,ritzpix.com,samsung.com,similarsites.com,splcenter.org,tass.ru,telesurtv.net,terrawest.com,thebrag.com,theweek.com,trustedreviews.com,ubs.com,userstyles.org,verily.com,woodmagazine.com,wsbtv.com,wsvn.com###header:style(position: relative !important;)
+aliexpress.com,androidcentral.com,bgov.com,boston25news.com,bugzilla.mozilla.org,burpee.com,claremont.org,cryptoslate.com,dailywire.com,dazeddigital.com,ericksonliving.com,fox13memphis.com,fox23.com,gamerant.com,github.io,hrw.org,lamag.com,mobile.wnd.com,nationalreview.com,nyclu.org,oilandgasinvestor.com,ok.co.uk,reactos.org,reddit.com,ritzpix.com,samsung.com,similarsites.com,splcenter.org,tass.ru,telesurtv.net,terrawest.com,thebrag.com,theweek.com,trustedreviews.com,ubs.com,userstyles.org,verily.com,woodmagazine.com,wsbtv.com,wsvn.com###header:style(position: relative !important;)
 aljazeera.com###article-main-header:style(position: relative !important; display: block !important; opacity: 1 !important;)
 aljazeera.com##.article-main-header-logo:style(display: block !important; width: 100% !important;)
 aljazeera.com##.article-sidebar-trendings:style(top: 0 !important; left: 0 !important;)
@@ -787,7 +787,7 @@ boredomtherapy.com##.topmenu:style(position: relative !important; top: 0 !import
 boston.com##.content-toaster, .masthead, .masthead__content:style(position: relative !important; top: 0 !important;)
 boston25news.com###main:style(padding-top: 0 !important; margin-top: 0 !important;)
 boston25news.com###story-sticky-content:style(position: absolute !important;)
-boston25news.com,fox13memphis.com,news.samsung.com,nme.com,npr.org,trustedreviews.com,wftv.com,wsbtv.com###wrapper:style(padding-top: 0 !important;)
+boston25news.com,news.samsung.com,nme.com,npr.org,trustedreviews.com,wftv.com,wsbtv.com###wrapper:style(padding-top: 0 !important;)
 bostonfed.org###topbar, .nav-list-wrapper:style(display: block !important;)
 bostonfed.org##.is-stuck.header-section:style(position: absolute !important;)
 bostonglobe.com##.bg-header__smartbar--message, .bg-team-nav--sticky, .js-site-header.site-header, .site-header, .sticky-tools--active.sticky-tools:style(position: relative !important;)
@@ -1978,6 +1978,7 @@ fosters.com###edge-radio-player-container:style(position: absolute !important;)
 foundation.mozilla.org##.category-nav, .creepiness-slider:style(position: relative !important;)
 foundr.com##.scrolled.site-header:style(position: absolute !important; background-color: transparent !important;)
 fox-it.com##.loaded.navigation.doc__main-nav:style(position: absolute !important;)
+fox13memphis.com,fox23.com,thoughtco.com,wsoctv.com###main:style(margin-top: 0 !important;)
 fox4kc.com,portlandscw.com,sflcw.com,wgntv.com,whotv.com,wnep.com##.navbar:style(position: absolute !important; margin-top: 0 !important;)
 fox4news.com###story-sticky-content:style(position: relative !important;)
 fox5dc.com###story-sticky-content:style(position: relative !important; top: 0 !important;)
@@ -4957,7 +4958,6 @@ thisiswhyimbroke.com###mobile-nav:style(position: absolute !important;)
 thomsonreuters.com##.navbar-toggleable.navbar-inverse.bg-inverse.fixed-top.navbar-full.navbar.header:style(position: relative !important; top: 0 !important;)
 thoughtcatalog.com###tc-header:style(position: relative !important;)
 thoughtco.com###header_1-0, .header-condensed.header.comp:style(position: relative !important; top: 0 !important;)
-thoughtco.com###main:style(margin-top: 0 !important;)
 thoughtcrimemedia.net##.Mobile-bar--top.Mobile-bar:style(position: relative !important; top: 0 !important;)
 thousandeyes.com##.is-stuck.is-at-top.sticky:style(position: absolute !important; box-shadow: none !important;)
 threadreaderapp.com##.fixed-top.navbar, .top-right-action:style(position: absolute !important;)
@@ -5606,7 +5606,6 @@ wsj.com##.style__scrolled_2R_Vmp-c-MDN-CKbTiTOya, .style__slim_298oVne3gOHGgVBfH
 wsj.com##.style__slim_3Yt-1Jkecgc27ZlzN3GB5x.style__brand-link_21t2YbqaDYvH4LO0QT-vmc:style(opacity: 0 !important; visibility: none !important;)
 wsj.com##header:style(position: static !important;)
 wsj.com##html:style(overflow: unset !important;)
-wsoctv.com###main:style(margin-top: 0 !important;)
 wthr.com###page-content:style(position: relative !important; overflow: hidden !important;)
 wtop.com###h_new:style(position: relative !important; top: 0 !important;)
 wur.nl###breadcrumb, .page > header, .primary-navigation:style(position: absolute !important;)
