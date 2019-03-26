@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 15:17 2019-03-25
+! Last Modified: 22:37 2019-03-25
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2915,6 +2915,8 @@ m.soundcloud.com###content:style(padding-top: 0 !important;)
 m.yelp.com###search-bar:style(position: absolute !important;)
 m.yelp.com##.js-fast.menu-bar-pitch_container.cta-menubar-pitch_container:style(position: relative !important;)
 m4arts.org###SITE_HEADER:style(position: absolute !important;)
+maccosmetics.com##.is-sticky.drawer-container.site-footer--sticky:style(position: relative !important;)
+maccosmetics.com##.js-site-header-fixed-wrapper.site-header__fixed-wrapper:style(position: absolute !important;)
 mackeeper.com##.header, .js-nav-mobile.nav-mobile:style(position: relative !important; top: 0 !important;)
 macobserver.com##.f-topbar-fixed:style(padding-top: 0 !important;)
 macobserver.com##.top-bar-container:style(position: absolute !important;)
@@ -4304,8 +4306,8 @@ signal.org##.navbar-shrink.navbar-fixed-top.navbar-default.navbar:style(position
 signsofnassau.com##.nav-fixed.nav-responsive.nav-wrapper:style(position: relative !important; top: 0 !important;)
 sikids.com##.sticky.site:style(position: absolute !important;)
 siliconangle.com##.sa-sticky:style(position: absolute !important;)
-siliconrepublic.com##.nocontent.sticky.headermain:style(position: relative !important; top: 0 !important; height: 80px !important;)
 siliconrepublic.com##.inner-wrap:style(margin-top: 0 !important;)
+siliconrepublic.com##.nocontent.sticky.headermain:style(position: relative !important; top: 0 !important; height: 80px !important;)
 siliconvalley.com##.headroom--unpinned.headroom--not-top.headroom.default.site-header:style(position: absolute !important;)
 similarweb.com###js-header, .is-fixed.js-scroll-nav.scroll-navbar, .js-websiteHeaderTop.websiteHeader-topContainer:style(position: absolute !important;)
 similarweb.com##.websiteHeader-caption:style(font-size: 2rem !important;)
