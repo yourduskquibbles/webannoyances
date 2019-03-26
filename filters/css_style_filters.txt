@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 11:02 2019-03-26
+! Last Modified: 11:13 2019-03-26
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -804,10 +804,10 @@ brainpickings.org##.smaller, header:style(position: absolute !important;)
 brainstation.io##.v3-page-header:style(position: absolute !important;)
 brainyquote.com###bq-tn-id, .is-sticky.sticky-wrapper:style(position: relative !important; top: 0 !important;)
 branchfree.org##.custom-logo:style(clear: both !important; display: block !important; margin-bottom: 1.75em !important; max-width: 300px !important; max-height: 150px !important;)
+branchfree.org##.site-content:style(padding-top: 0 !important;)
 branchfree.org##.site-description:style(display: inline-block !important; margin-bottom: 0 !important;)
 branchfree.org##.site-header:style(position: relative !important; padding: 1.75em 0 0 0 !important; margin-bottom: 5.35em !important;)
 branchfree.org##.site-title:style(font-size: 1.8125rem !important; margin: 0 .4375em 0 0 !important;)
-branchfree.org,finsmes.com,fusion.net###site-content:style(padding-top: 0 !important;)
 brave.com##.top-nav-collapse.navbar-fixed-top.navbar-default.navbar.one-page-header:style(position: relative !important; top: 0 !important;)
 brbrainpickings.org##header:style(position: absolute !important;)
 break.com###js-header:style(position: relative !important;)
@@ -1883,6 +1883,7 @@ finehomebuilding.com###top-promo-waypoint, .siteheader--main, .siteheader:style(
 fineknitting.com##.fusion-header:style(position: relative !important; top: 0 !important;)
 fineknitting.com##.fusion-sticky-shadow.fusion-header:style(position: absolute !important;)
 finsmes.com###site-navigation:style(position: static !important; margin-top: 20px !important;)
+finsmes.com,fusion.net###site-content:style(padding-top: 0 !important;)
 fir3net.com##.tm-headerbar:style(position: absolute !important; height: 140px !important; width: 100% !important;)
 fir3net.com##.tm-logo:style(width: 390px !important; height: 88px !important;)
 fir3net.com##.tm-navbar-fixed .tm-headerbar-small .uk-navbar-content, .uk-hidden-small.uk-navbar-brand, .tm-navbar-fixed .tm-headerbar-small .uk-navbar-nav>li>a, .uk-search, .uk-search:before:style(height: 140px !important; line-height: 140px !important;)
