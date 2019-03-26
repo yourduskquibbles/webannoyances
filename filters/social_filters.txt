@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Social Filters
-! Last Modified: 15:18 2019-03-25
+! Last Modified: 15:27 2019-03-26
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for social networking & sharing - Remove third party social media share sections, icons & other cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -184,11 +184,7 @@ bostonglobe.com##.sticky-tools--visible.sticky-tools
 bostonreview.net##.footer-secondary-social
 breakermag.com###the-chain-social-share
 breakingdefense.com##.ea-share-count-wrap
-breitbart.com###content_0_fixedshare_0_divSocialMedia
-breitbart.com###iscbbshar
-breitbart.com###iscscon
-breitbart.com###navFSocialUL
-breitbart.com##.connect
+breitbart.com###bsocial, #content_0_fixedshare_0_divSocialMedia, #iscbbshar, #iscscon, #navFSocialUL, .connect
 brusselstimes.com###main-item-social
 buffalonews.com##.socmed
 business-standard.com##.social-icon
@@ -887,6 +883,7 @@ nbcnews.com##.sitewide-header-social
 nbcnews.com##.socialShareWrapper___39f3A
 nbcnews.com##.stack-list-share
 nbcwashington.com##.leadShare
+ncaa.com##.ncaa-share-hanger
 ndtv.com##.gsocialbar
 ndtv.com##.lvblog_share
 neatorama.com###story-shareonfb
@@ -1207,6 +1204,7 @@ sandiegoreader.com##.icon16
 sandiegoreader.com##.object_tools
 sayingimages.com###text-51
 sb2.live##.resp-sharing-button__link
+sba.gov##.blogsShareLink
 sbnation.com##.c-sports-blog-directory__item-social
 sc.gov###pinterestAnchor
 schneier.com##.social_share_privacy_area
