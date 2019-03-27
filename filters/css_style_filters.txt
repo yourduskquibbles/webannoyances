@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 15:27 2019-03-26
+! Last Modified: 23:10 2019-03-26
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -5337,6 +5337,7 @@ washingtonpost.com###nav-bar:style(webkit-transform: none !important; background
 washingtonpost.com###pb-root:style(margin-top: 0 !important; padding-top: 0 !important;)
 washingtonpost.com###sections-menu-wide:style(opacity: 1 !important; visibility: visible !important;)
 washingtonpost.com##.brandstudio-bar, .lockfixed.echo-apps-conversations-streamHeader:style(position: relative !important;)
+washingtonpost.com##.pb-f-page-header-v2 header.bar-hidden #nav-bar:style(transform: none !important;)
 washingtonpost.com##.pb-f-page-header-v2:style(max-width: unset !important;)
 washingtonpost.com##.pb-local-content, .toggle-container, .wpvlb-wrap:style(position: relative !important; top: 0 !important;)
 washingtonpost.com##.powa-wrap-inner.sticky:style(position: static !important; width: 100% !important; max-width: unset !important;)
