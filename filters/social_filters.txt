@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Social Filters
-! Last Modified: 23:52 2019-03-27
+! Last Modified: 11:45 2019-03-28
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for social networking & sharing - Remove third party social media share sections, icons & other cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1230,9 +1230,7 @@ securelist.com##.widget-pusher-wrap
 securitiesanalytics.com##.show.tc-btt-wrapper
 securityweek.com###block-block-19
 securityweek.com###block-block-3
-seekingalpha.com###share-btns
-seekingalpha.com###share-unit
-seekingalpha.com##.sa-share-btn-wrapper
+seekingalpha.com###share-btns, #share-unit, .sa-share-btn-wrapper
 semiwiki.com##.socialwrap
 sensorstechforum.com##.apss-social-share-sidebar
 shadersmods.com###text-2
