@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 13:57 2019-03-29
+! Last Modified: 14:09 2019-03-29
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1194,9 +1194,11 @@ colorlib.com,eslint.org,gkn.com,haydenjames.io,mamamia.com.au,mwrinfosecurity.co
 columbiabasinherald.com##.fixed.sticky.contain-to-grid, .no-print.site-header:style(position: relative !important; top: 0 !important;)
 combook.geek##.brz-medium.brz-left-align.brz-top.brz-card-2.brz-text-grey.brz-white.brz-navbar:style(position: absolute !important;)
 comicbook.com##.article-container:style(padding-top: 0 !important;)
+comicbook.com##.inner-floating-container:style(opacity: 1 !important;)
 comicbook.com##.main:style(margin-top: 91px !important;)
-comicbook.com##.middle:style(position: absolute !important;)
-comicbook.com##.o2-in-side-view:style(position: static !important;)
+comicbook.com##.middle, .o2-in-side-view:style(position: absolute !important;)
+comicbook.com##.social-list > *:not(.comments)
+comicbook.com##.vdb_player > div > div:style(position: absolute !important; width: 100% !important; height: 100% !important; inset: auto 0px 0px auto !important;)
 comicbook.com##body > header:style(position: absolute !important; top: 0 !important; height: auto !important;)
 commentarymagazine.com##.sticky.vw-sticky-sidebar, .vw-sticky.vw-menu-main-wrapper:style(position: relative !important;)
 commerce.gov,emttime.com,espn.com.mx,lawyer.com,monerov.org,quickslide-powerpoint.com,simpsonsworld.com###header-wrapper:style(position: absolute !important;)
