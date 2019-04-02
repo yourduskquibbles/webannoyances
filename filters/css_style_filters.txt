@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 15:01 2019-04-02
+! Last Modified: 15:02 2019-04-02
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -4835,6 +4835,7 @@ theintercept.com##.Header-hamburger, .Logo-bg-block, .Logo-block, .Post-logo-sti
 theintercept.com##.HomeFeature-content-wrapper:style(transform: none !important;)
 theintercept.com##.Homepage-sidemenu, .Post-social--fixed:style(position: absolute !important; top: unset !important;)
 theintercept.com##.Post-header:style(position: relative !important; top: 0 !important; padding: 0 !important;)
+theintercept.com##.Post-social-link-block:style(float: right !important;)
 theintercept.com##.Post-social-link:style(border-right: #EEE 1px solid !important;)
 theirrelevantinvestor.com###sticker:style(position: absolute !important;)
 theitstuff.com##.visible.menu-wrap:style(position: absolute !important;)
