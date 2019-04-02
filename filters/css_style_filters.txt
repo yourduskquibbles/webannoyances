@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 12:15 2019-04-02
+! Last Modified: 13:02 2019-04-02
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1517,8 +1517,11 @@ digitalocean.com##.affix.TutorialBar:style(position: relative !important;)
 digitalocean.com##.content-has-mobile-image.Tutorial-content.content.section-content-growable.section-content:style(margin-top: 0 !important;)
 digitalocean.com##.sticky.has-init.table-of-contents:style(position: absolute !important; top: 258px !important;)
 digitalspy.com##.sticky.nav:style(position: absolute !important; top: 0 !important;)
-digitaltrends.com###dt-sticky-video-container, .m-sticky-video--head:style(position: absolute !important;)
+digitaltrends.com###dt-sticky-video-container:style(position: absolute !important;)
+digitaltrends.com##.dtvideos-container:style(position: relative !important;)
 digitaltrends.com##.is-fixed.m-pint-wrap, .m-pint-pos:style(position: relative !important; top: 0 !important;)
+digitaltrends.com##.m-site-head--nav:style(opacity: 1 !important; pointer-events: unset !important;)
+digitaltrends.com##.m-sticky-video.is-stuck.is-stuck > div, .m-sticky-video.is-stuck.is-stuck > iframe:style(position: absolute !important; top: unset !important; bottom: unset !important; left: unset !important; right: unset !important; animation: none !important;)
 digix.global##.container.ui > .branding.item > img:style(opacity: 1 !important;)
 digix.global##.fixed.top.menu:style(position: absolute !important; background-color: transparent !important;)
 dimensional.com###global-header, .nav:style(position: absolute !important;)
