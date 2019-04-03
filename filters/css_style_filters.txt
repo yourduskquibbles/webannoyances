@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 09:39 2019-04-03
+! Last Modified: 09:49 2019-04-03
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -5255,6 +5255,8 @@ vancouversun.com##.masthead, .top-bar:style(position: absolute !important; top: 
 vancouversun.com##.track_event.header-logo:style(position: relative !important;)
 vanguard.com###opinion_labs:style(position: absolute !important;)
 vanguard.com##.sticky-bar:style(top: 0 !important;)
+vanityfair.com##.sub-brand-nav__links:style(display: -webkit-box !important; display: -ms-flexbox !important; display: flex !important;)
+vanityfair.com##.sub-brand-nav__lower:style(position: relative !important; height: 48px !important; animation: none !important;)
 variety.com###vy-site-header:style(position: relative !important; transform: none !important; height: 128px !important;)
 variety.com##.header-inner, .module-share-tools:style(position: relative !important; top: 0 !important;)
 variety.com##.player-position:style(position: static !important; width: 100% !important; height: 100% !important; border-radius: none !important; box-shadow: none !important; padding: 0 !important;)
