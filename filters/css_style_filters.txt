@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 11:39 2019-04-03
+! Last Modified: 13:13 2019-04-03
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -4314,11 +4314,18 @@ si.com##.jumpnext-playlist-controls:style(transform: translate(110%,0) !importan
 si.com##.jumpnext-playlist-video:style(transform: translate(110%,0) !important; padding-bottom: 45% !important;)
 si.com##.jumpnext-rec--2, .jumpnext-rec--3:style(display: block !important;)
 si.com##.longform-hero-container:style(padding-top: 0 !important;)
-si.com##.main:style(position: relative !important; transform: none !important;)
 si.com##.primary, .secondary:style(position: relative !important; top: 0 !important;)
-si.com##.primary-text-links, .under-social nav.main.contextual-social-enabled .full-logo.desktop-only:style(transform: none !important; opacity: 1 !important;)
+si.com##.subcontainer, .tall-only.logo:style(opacity: 1 !important;)
 si.com##.title-display:style(opacity: 0 !important;)
 si.com##.vjs-control-bar:style(transform: none !important;)
+si.com##body.nav-collapsed nav.main.with-scoreboard.full-size-nav-enabled ~ nav.menu:style(top: 287px !important; height: calc(100% - 207px) !important;)
+si.com##nav.main.full-size-nav-enabled .container.primary:style(height: 105px !important;)
+si.com##nav.main.full-size-nav-enabled .container.secondary .subcontainer:style(justify-content: center !important;)
+si.com##nav.main.full-size-nav-enabled.hide-nav-elements > .container.primary > .subcontainer .logo.tall-only:style(transform: translate3d(-50%,0,0) !important;)
+si.com##nav.main.full-size-nav-enabled.hide-nav-elements > .container.primary > .subcontainer .primary-links.desktop-only, .primary-links:style(justify-content: center !important; opacity: 1 !important;)
+si.com##nav.main.hide-nav-elements.full-size-nav-enabled.no-secondary-ribbon, nav.main.hide-nav-elements.full-size-nav-enabled.no-secondary-ribbon.with-scoreboard, nav.main.hide-nav-elements.full-size-nav-enabled.with-scoreboard:style(height: 167px !important;)
+si.com##nav.main.hide-nav-elements.full-size-nav-enabled.with-scoreboard:style(height: 207px !important;)
+si.com##nav.main:style(position: relative !important; transform: translateZ(0) !important;)
 siam.org##.content-margin:style(margin-top: 0 !important;)
 siam.org##.header:style(min-height: 120px !important;)
 siam.org##.sticky-header:style(position: relative !important;)
