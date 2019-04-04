@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 11:13 2019-04-04
+! Last Modified: 13:50 2019-04-04
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -5419,9 +5419,12 @@ weather.com##.styles-9NQaZexm__articleNavigationSticky__17gxM, .styles__articleN
 web.archive.org###wm-ipp > div:style(position: absolute !important;)
 webcompat.com##.navigation:style(position: absolute !important; transform: none !important;)
 webfoundation.org###ccc-icon:style(position: absolute !important;)
+webmd.com##.akamai-player, .removeUnmuteText.vjs-unmute-overlay, .vjs-control-bar:style(visibility: visible !important;)
 webmd.com##.global-header:style(position: relative !important;)
 webmd.com##.global-nav-container:style(height: 90px !important;)
 webmd.com##.global-nav-right-container, .global-nav-upper-reg-links:style(top: 0 !important;)
+webmd.com##.sticky-wrapper-init:style(position: relative !important; top: auto !important; right: auto !important;)
+webmd.com##.video-js:style(position: relative !important; top: 0 !important; left: 0 !important; width: 676px !important; border: none !important; box-shadow: none !important;)
 wect.com###WNMenuCol1:style(position: relative !important;)
 weddingbee.com##.anim.isFixed.js-wrapper, .frame-top-nav.frame, .topNav-wrapper:style(position: relative !important; top: 0 !important;)
 wedevs.com###masthead:style(position: absolute !important; background-color: transparent !important;)
