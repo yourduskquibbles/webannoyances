@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 13:19 2019-04-05
+! Last Modified: 13:34 2019-04-05
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1080,7 +1080,8 @@ chrome.google.com##.F-f-k:style(position: relative !important; overflow: unset !
 chrome.google.com##.O-j-k, .Yb-wa.h-Yb-wa:style(position: absolute !important;)
 chrome.google.com##.X-e-x:style(position: relative !important; top: 0 !important;)
 chromebeat.com##.cloudHeader:style(position: absolute !important;)
-chromestatus.com##.main-toolbar, app-header:style(position: relative !important; top: 0 !important;)
+chromestatus.com##app-header:style(position: absolute !important; padding-left: 0 !important; transform: translate3d(0px, 0px, 0px) !important;)
+chromestatus.com##footer:style(position: relative !important;)
 chromium-review.googlesource.com##.gr-change-list-0 .topHeader.gr-change-list th.gr-change-list:style(position: relative !important;)
 chron.com##.s2nPlayerFrame:style(position: static !important; top: 0 !important; left: 0 !important; width: 630px !important; height: 383px !important; transform: none !important;)
 chron.com,ctpost.com,greenwichtime.com,lmtonline.com,michigansthumb.com,middletownpress.com,mrt.com,myjournalcourier.com,myplainview.com,mysanantonio.com,newstimes.com,nhregister.com,ourmidland.com,registercitizen.com,seattlepi.com,sfgate.com,stamfordadvocate.com,thehour.com,theintelligencer.com,thetelegraph.com,timesunion.com###ctpl-fullbanner-spacer:style(height: 50px !important;)
