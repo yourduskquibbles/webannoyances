@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 16:12 2019-04-04
+! Last Modified: 23:18 2019-04-04
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -163,6 +163,7 @@ acorns.com##.bg-helper:style(position: relative !important; top: 0 !important;)
 acs.org###header_container, .sticky.menu.menu_header:style(position: relative !important; top: 0 !important;)
 actionnetwork.org###pre_header, .stickybar:style(position: relative !important; top: 0 !important;)
 actionnewsjax.com,boston25news.com,fox13memphis.com,fox23.com,thoughtco.com,wftv.com,wsbtv.com,wsoctv.com###main:style(padding-top: 0 !important; margin-top: 0 !important;)
+activedogs.com##.header, .fixed-header-bar:style(position: absolute !important;)
 activestate.com###cesis_header:style(position: relative !important;)
 aculab.com##.uk-sticky-placeholder > .uk-active, #livechat-compact-container:style(position: absolute !important;)
 adblockplus.org###navbar:style(position: absolute !important; top: 0 !important;)
@@ -1603,6 +1604,7 @@ docs.microsoft.com##.rating:style(position: absolute !important; right: 150px !i
 docs.slatejs.org##._10qmvhe:style(position: relative !important;)
 docs.slatejs.org##._1t6cbs3:style(position: relative !important; max-height: unset !important;)
 dodi-repacks.site###wpadminbar, .navigation-top:style(position: absolute !important;)
+dog.com###headerRow1:style(position: absolute !important;)
 dom.com###topMainNav:style(position: relative !important; top: 0 !important;)
 domains.google##.main-main.main-navigation:style(position: relative !important; top: 0 !important; transform: none !important;)
 domains.google.com###gb:style(position: absolute !important; box-shadow: none !important;)
@@ -1639,7 +1641,7 @@ dummies.com##.aside-container:style(position: absolute !important; top: 0 !impor
 dummies.com##.content-container:style(padding-left: 368px !important; width: 100% !important;)
 duo.com###js-navbar__nav:style(position: relative !important; padding-bottom: 1.5rem !important;)
 dw.com##.head:style(position: absolute !important;)
-dwatchseries.to,swatchseries.to###top-band:style(position: absolute !important;)
+dwatchseries.to,swatchseries.to,tvbuzer.com###top-band:style(position: absolute !important;)
 dxc.technology##.cscMainHeader:style(position: relative !important; top: 0 !important;)
 dyn.com###blog-top-nav, #top-navbar:style(position: absolute !important;)
 dynadot.com,elastic.co,learningsolutionsmag.com,liveleak.com,narvar.com,tegna.com##.navbar-fixed-top:style(position: absolute !important;)
@@ -4477,6 +4479,7 @@ sportsnet.ca###leaderboard-sticky, #nav-sticky, .lf-social-media-header, .navbar
 spotify.com###js-navbar:style(position: relative !important;)
 spreadsheeto.com##.fusion-sticky-shadow.fusion-header:style(position: relative !important; top: 0 !important;)
 spreadsheetsmadeeasy.com##.x-navbar-fixed-top.x-navbar:style(position: absolute !important;)
+sprenger.de##div.sidebar-flyout:style(position: absolute !important;)
 springer.com##.u-composite-layer.main-sidebar-right__content:style(position: absolute !important;)
 sprint.com##.layout-header:style(position: absolute !important; transform: none !important;)
 spuz.me##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute !important; top: 0 !important;)
@@ -5118,6 +5121,8 @@ turntouch.com###notification-bar, .sticky-header:style(position: absolute !impor
 tutanota.com###headerNav:style(position: absolute !important; background-color: transparent !important;)
 tutanota.com##.navbar-fixed-top.navbar-bottom.navbar:style(position: relative !important; top: 0 !important;)
 tv.com##.header_bar.m:style(position: absolute !important; top: 0 !important;)
+tvbuzer.com###bg-top-menu:style(position: absolute !important;)
+tvbuzer.com###big-menu-shows-new:style(position: relative !important; top: 0 !important;)
 tvguide.com###content-wrap:style(margin-top: 0 !important;)
 tvguide.com###tvg-quick-links:style(position: relative !important; top: 0 !important;)
 tweaktown.com##.stickymenu:style(position: relative !important;)
