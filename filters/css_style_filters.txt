@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 12:54 2019-04-05
+! Last Modified: 13:19 2019-04-05
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -983,6 +983,7 @@ cbc.ca##.sticky.clearfix.cbc-longform-header, .sticky.recognitionnav:style(posit
 cbc.ca##.subNavList.responsiveNav > li.subNavListItem.navItem:nth-of-type(9):style(visibility: visible !important; position: relative !important;)
 cbc.ca##.subNavListItem.hidden:style(visibility: hidden !important;)
 cbinsights.com,norway.no,simplethread.com##body > header:style(position: absolute !important;)
+cbn.com###global:style(position: absolute !important;)
 cbr.com###page_nav, .main-header:style(position: absolute !important;)
 cbs.com###globalHeaderContainer, #globalShowHeader, .navMenuFixed.__layoutHeader.navbar:style(position: absolute !important;)
 cbs2iowa.com##.HamburgerHeader_SearchIdle__2030.HamburgerHeader_HamburgerHeader__2oF8, ._3NFr5._1N0Rs:style(position: absolute !important;)
@@ -1503,7 +1504,13 @@ devrant.com##.scroll.nav:style(position: absolute !important; background-color: 
 devuan.org###sticky-bar:style(position: relative !important; top: 0 !important;)
 dezeen.com##.header-inner-wrap:style(position: relative !important; top: 0 !important;)
 dhakatribune.com###mobile-header, .move.sticky.style_5.menu_container:style(position: absolute !important; top: 0 !important;)
-dhgate.com###filters, #head-Warpauto, .j-headerWarp.new-header:style(position: relative !important;)
+dhgate.com###ctabBox, #filters, #head-Warpauto, .j-headerWarp.new-header:style(position: relative !important;)
+dhgate.com##.buyitnow input:style(padding: 7px 29px !important;)
+dhgate.com##.ctab .buyitnow:style(display: block !important; float: right !important; vertical-align: top !important; margin: 4px 10px 0 0 !important;)
+dhgate.com##.ctab:style(width: 100% !important; border: solid 1px #e9e9e9 !important;)
+dhgate.com##.tab-toolbar .ctab-in:style(border-left: none !important;)
+dhgate.com##.tab-toolbar .restrictedlink:style(display: block !important;)
+dhgate.com##.topLayer:style(position: absolute !important;)
 di.fm###persistent-messaging-region, #side-nav:style(position: absolute !important;)
 di.fm,macsuperstore.com,menswearhouse.com,nationalenquirer.com,nautil.us,pokebattler.com###main-header:style(position: relative !important; top: 0 !important;)
 diaperdekor.com###menuBar:style(position: relative !important;)
