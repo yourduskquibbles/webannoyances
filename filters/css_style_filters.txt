@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 16:16 2019-04-10
+! Last Modified: 16:28 2019-04-10
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -3039,6 +3039,8 @@ marketingplatform.google.com##.gmp-header__bar.h-c-header__bar:style(position: a
 marketplace.org###player, .fixed-header:style(position: absolute !important;)
 marketplace.visualstudio.com###section-banner, .itemdetails.details-tab, .ms-Pivot, .ux-item-shortdesc:style(animation: none !important;)
 marketplace.visualstudio.com###section-banner, .ms-Pivot:style(position: relative !important;)
+marketplace.visualstudio.com##.details-tab:style(padding-top: 0 !important;)
+marketplace.visualstudio.com##.ux-item-details:style(margin-bottom: 0 !important;)
 markets.businessinsider.com###header-bar:style(box-shadow: none !important;)
 markets.businessinsider.com###options-area:style(padding-top: 0 !important;)
 markets.businessinsider.com##.business-insider-logo:style(background-position: 0 -304px !important; width: 115px !important; height: 45px !important; margin-top: 30px !important;)
