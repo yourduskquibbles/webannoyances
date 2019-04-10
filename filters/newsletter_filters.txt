@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Newsletter Subscription Filters
-! Last Modified: 09:13 2019-04-05
+! Last Modified: 09:15 2019-04-10
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for newsletter annoyances - Remove newsletter & other subscription cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -410,6 +410,7 @@ nplusonemag.com##.module-newsletter
 nybooks.com##.newsletter_signup
 nydailynews.com##.newsletter-signup
 nytimes.com###Newsletter-embed-NYT-Now, #Science-Newsletter-promo, #THEurope-newsletter-module, #THasia-newsletter-module, #australia-today-email-signup, #breaking-news-email-promo, #cooking-email-signup, #d-promo-realestate, #evening-briefing-email-promo, #living-newsletter-promo, #new-york-today-email-promo, #news-tips-article-promo, #newsletter-module, #newsletter-promo, #opinion-newsletter-promo, #signup-favor, #sports-email-promo, #subscriptionCTA, .eln-email-signup, .email-signup, .recipe-newsletter-signup, .css-17dprlf.medium
+nytimes.com##div > p:has([href^="https://www.nytimes.com/newsletters/"])
 oilprice.com##.signup_iframe
 onegreenplanet.org##.subscribebox
 openculture.com##.new_subscription_block
@@ -646,8 +647,7 @@ timesofisrael.com##.newsletter-promo
 timesofisrael.com##.nlsignup
 tmz.com##.newsletter-content
 tmz.com##.quick-subscribe-form
-today.com##.entry-bottom
-today.com##.newsletter-l-wrapper
+today.com##.entry-bottom, .newsletter-l-wrapper, .tabletNewsletter___Av6eE
 todayonline.com##.article-detail_subscription
 tomsguide.com###newsletter
 toptenreviews.com###newsletter

@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist
-! Last Modified: 13:31 2019-04-08
+! Last Modified: 09:15 2019-04-10
 ! Expires: 2 Days (Update Frequency)
 ! Description: Block annoying web elements and reclaim lost screen real estate. Web Annoyances Ultralist also includes the following sublists - CSS Style Modifying Filters, Generic Filters, Modal Filters, Newsletter Filters, & Social Filters. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -158,7 +158,7 @@ atomicobject.com###border-left, #border-right, #border-top
 autoblog.com##.tooltipster-content, .tooltipster-fade-show.tooltipster-fade.ab_product_promo.tooltipster-default.tooltipster-base
 autoevolution.com##div[class^="ad"]
 autonews.com###headerToggle
-avclub.com,causeandeffect.fm,clickhole.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,kinja.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.contained-ad-container, .global-nav--scrollback
+avclub.com,causeandeffect.fm,clickhole.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,kinja.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com###privacypolicy, .contained-ad-container, .global-nav--scrollback, 
 avgthreatlabs.com###banner
 avproductreviews.com###dcssb-slick
 avsforum.com##.Leaderboard-bottom, .box-ad.ad, .sponsors-footer.wrapper
@@ -328,7 +328,7 @@ centralrestaurant.com###phplive_automatic_chat_invite_wrapper
 channelnewsasia.com##.article__meta-info-wrapper, .c-advertisement--leaderboard, .c-advertisement--rectangle-float, .c-header--default:before, .is-region-02.header__outer:before, .is-hidden-smartphone
 char.gd##.consently-bar
 charlestoncitypaper.com##.FooterboardMobileParent
-cheatsheet.com##.ad-300-250
+cheatsheet.com##.ad-300-250, .has-ad, .leader-board
 cheddar.com##.video__upnext_container_show___398UD.video__upnext_container___38zH7
 cheese.com###top-banner, .leaderBoard, .skyscraper
 chefsteps.com##.bottom-bar-items, .ng-scope.bottom-bar, madlib
@@ -575,8 +575,7 @@ evergreensmallbusiness.com###sfsi-plus-widget-2, .sfsiaftrpstwpr
 evite.com###fixed-header-spacer, #header_spacer
 evite.com###mobile_top_ad, .advertisement
 evonomics.com###text-14, .bottom-stuff, .optshorts
-ew.com##.ad-section-container, .articles-recirculation, nav.main .stacked-header__cm-ad.desktop-only
-ew.com##.desktop-only.title-display, .no-utility-ribbon.no-secondary-ribbon.nav-placeholder
+ew.com##.ad-section-container, .articles-recirculation, nav.main .stacked-header__cm-ad.desktop-only, .desktop-only.title-display, .no-utility-ribbon.no-secondary-ribbon.nav-placeholder
 examine.com##.site--wrapper > div:nth-of-type(1), .sticky-menu
 excelcampus.com##.apsf.ssf
 excelcommand.com###menu_above_all, .box_v3_background_standout_light.email_subscribe_wrapper-bottom_of_page.box_v3_width_variable_full.box_v3_wrapper
@@ -591,6 +590,7 @@ extremetech.com###bannerad
 f-secure.com###article-sidebar
 fablesofaesop.com###prvcypop_372
 facebook.com,facebookcorewwwi.onion###headerArea > div > div:nth-of-type(3), #pagelet_growth_expanding_cta, ._11gk, ._2avl, ._4rtl, ._kyz > div:nth-of-type(2), ._uex, .canvas_rating_popout, .fbTimelineStickyHeader
+failory.com###magnify-widget-container
 fairygodboss.com##.fixedBottom
 familycircle.com,parents.com,bhg.com##.topContainer
 fangraphs.com###BlogSideBar1_panAd1, #BlogSideBar1_panAd2, .fg-ads-mobile, #top_da, .sticky.top-logo
@@ -775,6 +775,7 @@ heddels.com##header
 hedgeaccordingly.com##.main-header, .worldplus-ad-clearfix
 heidi.ie##.js-bottom-corner-btns.bottom-corner-btns, .mk-header-padding-wrapper
 hellobestow.com##.sticky.js-site-header.site-header
+hellomagazine.com###all > div:nth-of-type(2)
 hellosign.com##.sticky-nav-wrapper
 helpnetsecurity.com###bttm
 heraldks.com###optinform-container
@@ -1201,7 +1202,7 @@ nuclino.com##.page-header--stick.page-header--clone.page-header
 nybooks.com##.span3
 nydailynews.com###rh-left, #rh-right, .pb-f-ads-yieldmo, .rh-ad, div[data-pb-name^="Taboola"]
 nypost.com##.nyp-sitewide-notice, div[id^="outbrain_widget_"]
-nytimes.com###HPBottom2, #HPHalf, #Top, #TopAd, #acm-wrapper, #bottom-wrapper, #critical-alerts, #digital_hoverCraft, #dual_hoverCraft, #duallink, #gatewayUnit, #masthead-placeholder, #navigation-edge, #nytmm_fixie, #recipeDetailsPromoSlot, #saudi-series-box, #upNext, .Dock-dock--1EAX7, .InlineMessage-inline--2ysnq, .Ribbon-dockHidden--3r3jo, .app-links, .growl-v2, .growl-v2-gradient, .lazyloaded.embeddedContent, .max300.min300.iframe-holder, .miniNavContainer, .nav-wrapper, .not-signedin, .nytc---sitesearch---siteSearch, .opinion-c-col-bottom-region, .ribbon-page-navigation, .series-nav-button, .show.lie-continue, .shown, .subColumn-2.noBackground.mobilePromo.nocontent, .no-fill.rad-top-nav, .meter_default, .css-13ta9od, .css-15u353c, .css-1plijz3, .css-1ragzwk, .css-1y7ysfx, .css-eqw76k, .css-ho7eae, .css-ilfk4y > .css-y8aj3r, .css-kp204g, .e12j3pa50.css-1iv69x4, .e1p1csu90, .efqptxt0, .e1am8aqz0.css-1597c7c, .edz5sly0.css-190ncxp, .css-1xz93ux, .masthead-theme-transparent.masthead, .masthead.in-content .kicker, .masthead.in-content .kicker-label, .masthead.masthead-theme-standard .comments-button, .masthead.masthead-theme-standard.in-content .story-meta, BlockAdvert-ad--2QvJV, .BlockAdvert-adContainer--1aZlM, .ResponsiveAd-topAd--3WpE4, .ad, .e12j3pa51, .g-ad-wrapper, .ribbon-ad-container, .text-ad, [id^="dfp-ad-"], [id^="story-ad-"], div[data-testid^="inline-message"], #masthead .story-meta, .masthead-theme-transparent.masthead.in-content .sections-button, .masthead.in-content.masthead-theme-transparent-ffffff .sections-button, .viewport-small-20 .masthead-theme-transparent.masthead.in-content .search-button, .viewport-small-20 .masthead.in-content.masthead-theme-transparent-ffffff .search-button
+nytimes.com###HPBottom2, #HPHalf, #Top, #TopAd, #acm-wrapper, #bottom-wrapper, #critical-alerts, #digital_hoverCraft, #dual_hoverCraft, #duallink, #gatewayUnit, #masthead-placeholder, #navigation-edge, #nytmm_fixie, #recipeDetailsPromoSlot, #saudi-series-box, #upNext, .Dock-dock--1EAX7, .InlineMessage-inline--2ysnq, .Ribbon-dockHidden--3r3jo, .app-links, .growl-v2, .growl-v2-gradient, .lazyloaded.embeddedContent, .max300.min300.iframe-holder, .miniNavContainer, .nav-wrapper, .not-signedin, .nytc---sitesearch---siteSearch, .opinion-c-col-bottom-region, .ribbon-page-navigation, .series-nav-button, .show.lie-continue, .shown, .subColumn-2.noBackground.mobilePromo.nocontent, .no-fill.rad-top-nav, .meter_default, .css-13ta9od, .css-15u353c, .css-1plijz3, .css-1ragzwk, .css-1y7ysfx, .css-eqw76k, .css-ho7eae, .css-ilfk4y > .css-y8aj3r, .css-kp204g, .e12j3pa50.css-1iv69x4, .e1p1csu90, .efqptxt0, .e1am8aqz0.css-1597c7c, .edz5sly0.css-190ncxp, .css-1xz93ux, .masthead-theme-transparent.masthead, .masthead.in-content .kicker, .masthead.in-content .kicker-label, .masthead.masthead-theme-standard .comments-button, .masthead.masthead-theme-standard.in-content .story-meta, BlockAdvert-ad--2QvJV, .BlockAdvert-adContainer--1aZlM, .ResponsiveAd-topAd--3WpE4, .ad, .e12j3pa51, .g-ad-wrapper, .ribbon-ad-container, .text-ad, [id^="dfp-ad-"], [id^="story-ad-"], div[data-testid^="inline-message"], #masthead .story-meta, .masthead-theme-transparent.masthead.in-content .sections-button, .masthead.in-content.masthead-theme-transparent-ffffff .sections-button, .viewport-small-20 .masthead-theme-transparent.masthead.in-content .search-button, .viewport-small-20 .masthead.in-content.masthead-theme-transparent-ffffff .search-button, .css-1ahhg7f, .css-4g4cvq
 nzherald.co.nz##.pb-ad-curated
 oag.com###hubspot-messages-iframe-container
 oath.com##.nav-shadow
@@ -1459,7 +1460,7 @@ shoes.com##.sb-header--mini
 shondaland.com##.nav-placeholder
 shouldiblockit.com###siri
 shrm.org##.mettered-counter-wrapper
-si.com###progress, .ad-wrapper, .adhesion-ad, .nav-placeholder, .promo.container-full-width.bucket.component, .ui-button.ui-button-close.small.is-fixed, body:not(.under-social) nav.main .under-social-logo.desktop-only, hr, .nav-placeholder, .short-only.logo > .desktop-only.full-logo > .color-porcelain.hover-fill
+si.com###progress, .ad-wrapper, .adhesion-ad, .nav-placeholder, .promo.container-full-width.bucket.component, .ui-button.ui-button-close.small.is-fixed, body:not(.under-social) nav.main .under-social-logo.desktop-only, hr, .short-only.logo > .desktop-only.full-logo > .color-porcelain.hover-fill
 siliconrepublic.com###leaderboard
 similarsites.com###sticky_install_div
 similarweb.com###js-stickyElement, .websiteHeader-dateShort, .websiteHeader:before
@@ -1469,6 +1470,7 @@ simplicable.com###nav
 simplyrecipes.com##.callout-badge
 simscale.com##.article-progress-container
 sitepoint.com###main-outlet > .container, .google-dfp-ad
+sixthtone.com##.sticky-scroll .logo-noodletimes.black
 skinnytaste.com##.slicknav_menu
 sky.com###breaking_news_ticker, .sdc-news-footer__list--social.sdc-news-footer__list
 slackhq.com##.c-nav__primary__alt__title
@@ -1729,7 +1731,7 @@ toptere.com##.widget_monarchwidget.widget
 torontolife.com##.ad-frame--leaderboard
 totalfratmove.com###mobile-bottom-ad
 totalprosports.com###ctoolbar
-townandcountrymag.com##.breaker-ad, .leaderboard-ad, .embed-related-content
+townandcountrymag.com##.breaker-ad, .leaderboard-ad, .embed-related-content, .nav-placeholder
 townhall.com###closemenu, .ad, .comment-alert, .hlw, .sc, .sticky
 tractorsupply.com###globalHeaderBannerMobile
 traumanurses.org###fixed_cloned
@@ -1766,7 +1768,7 @@ upi.com###nl_su_st
 uploaded.net##.hg_container-area
 uploadvr.com##.clearfix.sortbar.bar-header, .control-bar.col-md-12, .noPadding.heat-index-single.col-md-12, .pull-right.nav
 uproxx.com###uproxx-fixed-header-placeholder, #woven-leaderboard-wrapper, .fixed.uproxx_sticky_ads.uproxx_iframe_ads, .uproxx-retention-embed.uproxx-retention-unit, .uproxx_iframe_ads_wrapper_top.uproxx_iframe_ads_wrapper
-ups.com###sectionisswf4ts, .panel-default:has(img[alt="Promotion"])
+ups.com###sectionisswf4ts, img[alt^="Affiliate"], img[alt="Promotion"]
 upworthy.com###gpt-place-1, .center-child--inline.inline-display.dfp-show-after-render.nugget-bottom-ad > .divider--center.divider, .layout__full-width > .inline-row--flex > .text--center.inline-column--flex, .mobile--mvx3.text--center.mobile-1\/1.tablet-1\/2.\32 \/3.inline-column--flex.inline-column--gutter.inline-column, .ui-list--right.ui-list, body > div:nth-of-type(1) > div
 urbandaddy.com##.navigation-article--is-active
 usacarry.com###gform_widget-2, .ig_clear_fix.ig_content
@@ -1799,6 +1801,7 @@ vice.com###yw0, #yw1, #yw3, .article-right-rail.right-rail, .eg.ef.db.da.v.hu > 
 vid.me##.android-install-banner
 videoconferencingdaily.com###cta-box
 videogamer.com##.margin-block.u-clearBoth
+vidoza.net##.vjs-topbar
 viewster.com###help-us
 villagevoice.com##.city-color-border.city-color-back.tab, .sde-shadow
 vimeo.com##.app_banner, .sidedock
