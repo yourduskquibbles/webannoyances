@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 09:07 2019-04-12
+! Last Modified: 12:00 2019-04-12
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -548,6 +548,7 @@ awfulannouncing.com##.site-branding:style(top: .5625rem !important;)
 awfulannouncing.com##.site-header .search-form:style(margin: .6875rem 1.25rem .375rem 0 !important;)
 awfulannouncing.com##.site-navigation-wrap:style(position: relative !important; top: .3125rem !important;)
 aws.amazon.com###aws-page-header, .lb-blog-nav:style(position: absolute !important;)
+aws.amazon.com##.lb-floating-wrapper-content:style(position: absolute !important; top: 0 !important; bottom: 0 !important;)
 awscloud.com###aws-page-header:style(position: absolute !important;)
 axios.com##.Logo__compressed--1HrUV:style(height: 40px !important;)
 axios.com##.Navigation__compressed--1VpjA:style(height: 110px !important;)
@@ -1609,8 +1610,18 @@ docs.aws.amazon.com###awsdocs-header, #aws-nav, #footer:style(position: relative
 docs.aws.amazon.com###content-container:style(margin-top: 0 !important;)
 docs.aws.amazon.com###left-column:style(position: relative !important; height: 100% !important;)
 docs.aws.amazon.com###right-content-wrapper:style(position: relative !important; top: 0 !important;)
-docs.aws.amazon.com##.btn-default.btn.awstoc:style(margin-bottom: 0 !important;)
-docs.aws.amazon.com##html, body:style(height: 100% !important;)
+docs.aws.amazon.com##.awsdocs-banner-container:style(margin-left: 300px !important;)
+docs.aws.amazon.com##.awsdocs-container, .awsui .awsui-app-layout__content:style(overflow: unset !important;)
+docs.aws.amazon.com##.awsdocs-footer.awsui-util-container-footer:style(position: relative !important; bottom: 0 !important;)
+docs.aws.amazon.com##.awsui .awsui-app-layout__tools.awsui-app-layout--open + .awsui-app-layout__toggle--tools:style(right: unset !important; left: -4rem !important;)
+docs.aws.amazon.com##.awsui .awsui-util-mb-xxl, .awsui .awsui-util-mv-xxl, .btn-default.btn.awstoc:style(margin-bottom: 0 !important;)
+docs.aws.amazon.com##.awsui-app-layout--open.awsui-app-layout__tools:style(position: absolute !important; right: unset !important; bottom: 19px !important; border-top: 1px solid #eaeded !important; border-right: 1px solid #eaeded !important; box-shadow: 0 1px 1px 0 rgba(0,28,36,.5) !important; border-radius: 0 !important;)
+docs.aws.amazon.com##.awsui-app-layout:style(height: unset !important;)
+docs.aws.amazon.com##.awsui-app-layout__toggle--tools:style(right: unset !important; bottom: 19px !important; border-top: 1px solid #eaeded !important; border-right: 1px solid #eaeded !important; box-shadow: 0 1px 1px 0 rgba(0,28,36,.5) !important; border-radius: 0 !important;)
+docs.aws.amazon.com##awsdocs-footer:style(position: relative !important; bottom: 0 !important; top: unset !important; background-color: #f2f3f3 !important;)
+docs.aws.amazon.com##awsui-app-layout, #app-layout, landing-page-sections, html, body:style(height: 100% !important;)
+docs.aws.amazon.com##body.awsdocs.awsui:style(overflow: auto !important;)
+docs.aws.amazon.com##landing-page-content:style(background-color: #f2f3f3 !important;)
 docs.google.com###docs-homescreen-add:style(opacity: 1 !important;)
 docs.google.com##.docs-homescreen-fcc-pinnedcontainer-pinned.docs-homescreen-fcc-pinnedcontainer, .docs-homescreen-floater-header-shadow.docs-homescreen-floater-grid-header.goog-scrollfloater, .gb_sc.gb_Id.gb_tb.gb_Xa:style(position: absolute !important;)
 docs.google.com##.docs-homescreen-floater-grid-header.goog-scrollfloater:style(position: absolute !important; top: 64px !important;)
