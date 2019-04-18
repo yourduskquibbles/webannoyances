@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 19:01 2019-04-17
+! Last Modified: 20:54 2019-04-17
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1535,6 +1535,7 @@ dhgate.com##.topLayer:style(position: absolute !important;)
 di.fm###persistent-messaging-region, #side-nav:style(position: absolute !important;)
 di.fm,macsuperstore.com,menswearhouse.com,nationalenquirer.com,nautil.us,pokebattler.com###main-header:style(position: relative !important; top: 0 !important;)
 diag-auto.site,foodexsport.com,mygoodstream.pw##.media-control[data-media-control]:style(pointer-events: auto !important;)
+diag-auto.site,foodexsport.com,mygoodstream.pw##div[data-player]:style(pointer-events: auto !important; user-select: all !important;)
 diaperdekor.com###menuBar:style(position: relative !important;)
 diaperdekor.com##.clearfix.top-fixed.color-bar.container-fluid:style(position: absolute !important;)
 diasporafoundation.org##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute !important;)
@@ -4763,6 +4764,7 @@ tapatalk.com###appuser_navigation, .navbar-inner.inner.appuser_navigation:style(
 target.com##.gSAFJT.styles__StickyContentWrapper-s1m6rpna-0:style(position: absolute !important;)
 taskandpurpose.com###tpHeader:style(position: relative !important; top: 0 !important;)
 taskandpurpose.com###tpSidebar.fixedAtTop:style(position: absolute !important; width: 100% !important;)
+taskandpurpose.com##.js-load-brick-on-click.widget__section:style(margin-top: 0 !important;)
 taskandpurpose.com##.rebelbar:style(line-height: 82px !important; height: 82px !important;)
 taskandpurpose.com##.skin-simple.rebelbar--fixed.rebelbar:style(position: absolute !important;)
 tass.*###categoryBlock, #lentaBlock:style(position: relative !important; top: 0 !important;)
