@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 22:28 2019-04-17
+! Last Modified: 22:50 2019-04-17
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -3690,7 +3690,7 @@ nytimes.com###story:style(padding-top: 0 !important;)
 nytimes.com##.article-page:style(overflow: hidden !important;)
 nytimes.com##.css-eye0zj, .marginalia:style(margin-top: 0 !important;)
 nytimes.com##.masthead-theme-standard:style(position: absolute !important; top: 0 !important;)
-nytimes.com##.masthead-theme-transparent-ffffff:style(position: absolute !important; background-color: transparent !important;)
+nytimes.com##.masthead-theme-transparent-ffffff, .masthead-theme-transparent.masthead:style(position: absolute !important; background-color: transparent !important;)
 nytimes.com##.masthead-theme-transparent.masthead.in-content .branding, .masthead.in-content.masthead-theme-transparent-ffffff .branding:style(display: block !important;)
 nytimes.com##.masthead.in-content:style(box-shadow: none !important;)
 nytimes.com##.masthead.masthead-theme-transparent .home-button .icon, .masthead.masthead-theme-transparent-ffffff .home-button .icon:style(opacity: 1 !important;)
