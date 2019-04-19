@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 14:47 2019-04-18
+! Last Modified: 01:10 2019-04-19
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -521,6 +521,8 @@ autoblog.com###navbar, .affix-top.flex-banner.flex-module.navbar, .guttered.top-
 autoblog.com###navbar-wrapper:style(position: relative !important;)
 autoevolution.com###topbar:style(position: absolute !important;)
 autogravity.com##.header___3bMN6.hidden-print:style(position: absolute !important;)
+autohotkey.com##.mbr-navbar__brand-link::after, .mbr-navbar__brand-img:style(height: 74px !important;)
+autohotkey.com##.mbr-section.mbr-navbar__section:style(position: absolute !important; background-color: transparent !important;)
 automateexcel.com##.customizednav.navbar-fixed-top.navbar-inverse.navbar, .sidebar.col-md-2.col-sm-3:style(position: absolute !important;)
 automationworld.com###awbs-mobile-navbar:style(position: absolute !important;)
 autonews.com###clear-nav-account, #live, #main-header, #main-nav:style(position: relative !important; top: 0 !important;)
@@ -5189,6 +5191,7 @@ tour-magazin.de##nav.set.top.stucked:style(position: relative !important; top: 0
 townandcountrymag.com##.content-nav-active.sticky.nav, .sticky.nav:style(position: relative !important; top: 0 !important;)
 townhall.com###thm-nav-sm, .fa-bars.fa, .fadeInDown.animated.navbar-article.navbar-fixed-top.navbar-default.navbar, .toggle, nav:style(position: relative !important; top: 0 !important;)
 townsquaremedia.com###nav-close-button, #nav-menu-button:style(position: absolute !important;)
+toxicpatat.com##nav:style(position: absolute !important; transform: none !important;)
 trackico.io##.topbar-inverse.topbar-expand-lg.topbar:style(position: absolute !important;)
 tractorsupply.com###header_mainContainer_outer:style(position: relative !important; top: 0 !important;)
 tradingeconomics.com##.uv-slide-right.uv-tab:style(position: absolute !important;)
