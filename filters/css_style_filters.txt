@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 15:54 2019-04-23
+! Last Modified: 11:43 2019-04-24
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -111,15 +111,14 @@
 aa.com##.pin.affix.column-headers:style(position: relative !important;)
 aapc.com##.fixed_header:style(position: absolute !important;)
 aappublications.org###section-superheader:style(position: absolute !important;)
-aarp.org,medindia.net##.affix:style(position: absolute !important;)
+aarp.org,medindia.net,nccgroup.trust##.affix:style(position: absolute !important;)
 ab-solution.info###header > .inside:style(height: 100px !important;)
 ab-solution.info###header-banner:style(margin-top: 0 !important;)
 ab-solution.info###header:style(position: relative !important; box-shadow: none !important;)
 ab-solution.info###mobile-header:style(position: absolute !important;)
 ab-solution.info##.block.mod_search, .main-nav .level_1 > .menu-item > a:style(line-height: 100px !important;)
 ab-solution.info##.inside > .logo > .block.last.first.ce_image > .image_container img:style(height: 80px !important;)
-abc-7.com##.CollapsibleHeader-collapse:style(position: static !important;)
-abc-7.com##.CollapsibleHeader:style(padding-top: 15px !important;)
+abc-7.com##.CollapsibleHeader-collapse:style(position: static !important; padding-top: 15px !important;)
 abc.net.au###navigationPrimary4:style(position: relative !important; top: 0 !important;)
 abc.net.au##.Nav-bar:style(position: absolute !important;)
 abc15.com,abcactionnews.com,fox47news.com,kivitv.com,kjrh.com,kshb.com,nbc26.com,news5cleveland.com,newschannel5.com,thedenverchannel.com,theindychannel.com,tmj4.com,turnto23.com,tv20detroit.com,wcpo.com,wkbw.com,wmar2news.com,wptv.com,wxyz.com##.js-is-prefloating:style(margin-top: 0 !important;)
