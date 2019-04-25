@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 12:30 2019-04-25
+! Last Modified: 12:49 2019-04-25
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -3039,6 +3039,7 @@ maccosmetics.com##.is-sticky.drawer-container.site-footer--sticky:style(position
 maccosmetics.com##.js-site-header-fixed-wrapper.site-header__fixed-wrapper:style(position: absolute !important;)
 mackeeper.com##.header, .js-nav-mobile.nav-mobile:style(position: relative !important; top: 0 !important;)
 macobserver.com##.f-topbar-fixed:style(padding-top: 0 !important;)
+macrotrends.net###menu_container:style(position: relative !important;)
 madcoversite.com##.menubar:style(position: relative !important; top: 0 !important;)
 maddadskillz.com##.main-navbar:style(position: relative !important; top: 0 !important;)
 maersk.com##.NavigationScrollTarget:style(position: relative !important; top: 0 !important;)
@@ -3902,8 +3903,8 @@ penny-arcade.com###bb, #header, .btnJoinClubPA.btn:style(position: absolute !imp
 peoplespunditdaily.com##.eltd-sticky-sidebar.eltd-sidebar:style(position: absolute !important;)
 percona.com##.change-logo.sticky.header-body.header-main:style(position: absolute !important;)
 perens.com##.site-navigation-fixed.navigation-top:style(position: absolute !important;)
-personalfinanceforbeginners.com###top:style(position: relative !important;)
 personalfinanceforbeginners.com##.container-wrap:style(padding-top: 0 !important;)
+personalfinanceforbeginners.com,transferwise.com###top:style(position: relative !important;)
 perspectaweather.com###content:style(opacity: 1 !important;)
 perspectaweather.com###folderNav:style(margin-top: 0 !important;)
 perspectaweather.com###header h1:style(font-size: 18px !important; transform: none !important;)
