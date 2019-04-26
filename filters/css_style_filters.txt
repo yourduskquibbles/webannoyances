@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 10:53 2019-04-26
+! Last Modified: 13:41 2019-04-26
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2346,7 +2346,7 @@ gq.com###cne-main-content, .page-container:style(padding-top: 0 !important;)
 gq.com###nav-holder, .container.desktop-header, .gq-style-navigation-compressed.container.component-gq-style-navigation, .mm-nav, .mobile-header, .the-nav.js-nav.cne-wrapper--header:style(position: relative !important; top: 0 !important;)
 gq.com###react-app:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 gq.com##.gq-navigation--hide .gq-navigation__container, .gq-navigation--hide .gq-navigation__newsletter-form-container, .gq-navigation--hide .gq-navigation__search-form-container:style(transform: none !important;)
-gq.com##.gq-navigation__container, .gq-navigation__newsletter-form-container, .gq-navigation__search-form-container:style(position: absolute !important;)
+gq.com##.gq-navigation__container, .gq-navigation__newsletter-form-container, .gq-navigation__search-form-container, .persistent-top:style(position: absolute !important;)
 gq.com.au##.Header-module-logoFullWidth-3JI2C--:style(margin-top: 0 !important;)
 grabien.com###headfixed:style(position: absolute !important;)
 gracobaby.com##.fixed-nav.pdp-navigation-container > ul:style(position: relative !important; top: 0 !important;)
