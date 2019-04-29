@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 11:21 2019-04-29
+! Last Modified: 11:41 2019-04-29
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2745,6 +2745,8 @@ investopedia.com###header_1-0, .inner-helper:style(position: absolute !important
 investopedia.com##.meganav:style(position: relative !important;)
 investor.fb.com##.wrapper:style(position: relative !important;)
 investorjunkie.com###ezw_tco-9:style(position: absolute !important;)
+investorplace.com##.site-header .global-header:style(padding: 8px 0 !important;)
+investorplace.com##.site-header:style(position: absolute !important; box-shadow: none !important;)
 investors.com##.player-minimize.shortcode-video:style(position: static !important;)
 investvine.com##.td-affix:style(position: absolute !important;)
 ipburger.com##.ast-header-sticked.ast-sticky-shrunk.ast-sticky-active.ast-above-header, .ast-header-sticked.ast-sticky-shrunk.ast-sticky-active.ast-below-header:style(position: absolute !important;)
