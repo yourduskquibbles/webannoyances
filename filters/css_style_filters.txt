@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 08:52 2019-04-30
+! Last Modified: 09:00 2019-04-30
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -3191,6 +3191,8 @@ mentalfloss.com###header-main-navbar:style(position: absolute !important;)
 mentalfloss.com###myPlayerID, .player-position, .smallWidth.makeVideoticky.videoElement.close_btn, .smallWidth.makeVideoticky.videoElement.overlay, .videoElement.close_btn:style(position: static !important;)
 mentalfloss.com###navbar-section, #navbar-slim-wrapper, .header-wrapper:style(position: relative !important; top: 0 !important;)
 mercola.com##.mm-slideout.header:style(position: relative !important; top: 0 !important;)
+mercopress.com###goToTop > header:style(position: absolute !important;)
+mercopress.com,newsbtc.com,siam.org##.sticky-header:style(position: relative !important;)
 meredith.com###header, #sidebar, .subnav:style(position: absolute !important;)
 merit.me##.site__Navigation:style(position: absolute !important;)
 merriam-webster.com##.fixed-wrapper:style(position: absolute !important; top: 0 !important; margin-top: 110px !important;)
@@ -3589,7 +3591,6 @@ news12.com##.wn-sticky:style(position: relative !important; top: 0 !important;)
 news24.com##.personalisationContainer:style(position: absolute !important;)
 newsandsentinel.com###top_header, #wprmenu_bar:style(position: absolute !important;)
 newsbtc.com###sidebar:style(position: static !important;)
-newsbtc.com##.sticky-header:style(position: relative !important;)
 newschannel10.com###WNMenuCol1:style(position: relative !important;)
 newschannel10.com###WNNavSearchSwitch:style(position: absolute !important;)
 newscientist.com###tertiary-sidebar, .sticky-mpu:style(position: absolute !important; top: 0 !important;)
@@ -4460,7 +4461,6 @@ si.com##nav.main.full-size-nav-enabled.with-scoreboard.no-secondary-ribbon:style
 si.com##nav.main:style(position: relative !important; transform: translateZ(0) !important;)
 siam.org##.content-margin:style(margin-top: 0 !important;)
 siam.org##.header:style(min-height: 120px !important;)
-siam.org##.sticky-header:style(position: relative !important;)
 siam.org##.topBar, .sitename:style(display: block !important; opacity: 1 !important;)
 siderite.blogspot.com###mastheadnbt:style(position: relative !important; height: 72px !important; padding: 25px 0 !important;)
 siderite.blogspot.com##.clippy:style(position: absolute !important;)
