@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 13:23 2019-05-02
+! Last Modified: 14:06 2019-05-02
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -5138,11 +5138,18 @@ theweek.com##.page-header-section:style(padding-top: 0 !important;)
 theweek.com##.sticky-top.speedreads-module:style(position: absolute !important; margin-top: 0 !important;)
 thewhiskeywash.com##.clearfix.bh:style(position: relative !important;)
 thewhiskeywash.com##.sticky-wrapper:style(position: relative !important; top: 0 !important;)
+thewirecutter.com##._1bc0cc20:style(flex: 1 30% !important; background-color: transparent !important;)
+thewirecutter.com##.ac259f97:style(width: 260px !important; height: 58px !important;)
+thewirecutter.com##.b6f700a9._9b7aa201, ._5f872f8f .a3d55f08 .e29b8700 + .e29b8700:style(display: block !important;)
+thewirecutter.com##.b907cc9c:style(display: block !important; visibility: visible !important; margin-top: 15px !important;)
 thewirecutter.com##.desktop-header-wrap:style(height: 126px !important; background-color: #f9f9f9 !important;)
 thewirecutter.com##.desktop-header:style(padding: 0 !important; box-shadow: none !important; background-color: #f9f9f9 !important; height: auto !important;)
 thewirecutter.com##.js-header-row.header-row:style(position: relative !important; top: 0 !important; margin: 0 !important; padding: 0 !important; background-color: #f9f9f9 !important; height: auto !important; box-shadow: none !important;)
 thewirecutter.com##.mobile-header:style(position: relative !important; box-shadow: none !important; background-color: #f9f9f9 !important; flex: 1 30% !important;)
 thewirecutter.com##.site-header:style(margin: 0 !important; padding: 0 !important; background-color: #f9f9f9 !important;)
+thewirecutter.com##header > div:style(position: relative !important; top: 0 !important; padding-top: 0 !important; padding-bottom: 0 !important; box-shadow: none !important; background-color: transparent !important;)
+thewirecutter.com##header:style(margin-top: 0 !important;)
+thewirecutter.com##nav:style(margin-top: 27px !important;)
 thewrap.com###js-mobile-bar:style(position: absolute !important;)
 thewrap.com###js-site-navigation:style(padding-top: 16px !important;)
 thewrap.com##.widget-area.-above-header:style(margin-bottom: 0 !important;)
