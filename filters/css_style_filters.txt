@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 14:27 2019-05-06
+! Last Modified: 19:48 2019-05-06
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -4587,6 +4587,11 @@ soundcloud.com##.g-z-index-header.app__header, .header, .sc-browsers-enable-gpu.
 soundcloud.com##.m-hideHeader > #app > .m-visible.g-z-index-control-bar.playControls:style(position: absolute !important; top: 0 !important; margin-top: 0 !important; margin-bottom: 46px !important;)
 soundcloud.com##.m-hideHeader > #app:style(padding-top: 46px !important;)
 soundcloud.com##.m-visible.g-z-index-control-bar.playControls:style(position: absolute !important; top: 0 !important; margin-top: 46px !important; margin-bottom: 46px !important;)
+soundcloud.com##.volume__sliderBackground, .volume__sliderProgress:style(transition: none !important;)
+soundcloud.com##.volume__sliderHandle, .volume__sliderWrapper:style(position: relative !important; transition: none !important;)
+soundcloud.com##.volume__sliderWrapper::after:style(top: 0px !important; left: 21px !important; bottom: unset !important; transform: rotate(135deg) !important;)
+soundcloud.com##.volume__sliderWrapper::before:style(top: -1px !important; left: 23px !important; bottom: unset !important; transform: rotate(135deg) !important;)
+soundcloud.com##.volume__sliderWrapper:style(bottom: 6px !important;)
 soundguys.com###sticky-bar:style(position: absolute !important; background-color: none !important;)
 sourceforge.net##.search:style(position: static !important;)
 sourceforge.net##.sticky.l-header-nav:style(position: relative !important; top: 0 !important;)
