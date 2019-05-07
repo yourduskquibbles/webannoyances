@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Social Filters
-! Last Modified: 11:21 2019-05-07
+! Last Modified: 11:33 2019-05-07
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for social networking & sharing - Remove third party social media share sections, icons & other cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -29,7 +29,8 @@ abclocal.go.com##.links
 abcnews.go.com##.amp-facebook, .vertical.article-social
 abplive.in##.social_articlePage
 accenture.com###fbLike, .hidden-tooltip.cardShare, .stay-connected-master
-adage.com##.follow-us
+accringtonobserver.co.uk,birminghammail.co.uk,birminghampost.co.uk,bristolpost.co.uk,chroniclelive.co.uk,coventrytelegraph.net,dailypost.co.uk,dailyrecord.co.uk,derbytelegraph.co.uk,devonlive.com,examinerlive.co.uk,gazettelive.co.uk,hulldailymail.co.uk,leicestermercury.co.uk,liverpoolecho.co.uk,manchestereveningnews.co.uk,mirror.co.uk,mylondon.news,nottinghampost.com,plymouthherald.co.uk,walesonline.co.uk##.up-next--share
+adage.com,cbslocal.com,consequenceofsound.net,merriam-webster.com,scpr.org,spectator.co.uk,spectator.us,thewire.com##.follow-us
 adbusters.org###ssb-container
 add0n.com###sharing
 adlice.com##.google
@@ -106,7 +107,6 @@ bigleaguepolitics.com##.mvp-nav-soc-wrap
 billboard.com###block-fblikebutton-fblikebutton-static-block
 billerickson.net##.after_content.ea-share-count-wrap
 birdsandblooms.com##.cta-connect.cta
-birminghammail.co.uk##.up-next--share
 bizjournals.com##.js-tools
 bizjournals.com##.priority-plus.tools-nav--mobile
 blackfridayhits.com###rh_social_panel_footer
@@ -195,7 +195,6 @@ cbs2iowa.com##div[id^="js-Stay-Connected-Container"]
 cbs8.com###float_icons
 cbslocal.com###cbs_social_media_promotion_widget-10, #cbs_social_media_promotion_widget-2
 cbslocal.com###facebook-likebox-5, #facebook-likebox-6
-cbslocal.com##.follow-us
 cbslocal.com##.widget_cbs_follow_us_widget
 cbsnews.com##.module-follow-us
 cbssports.com##.nav-follow-us
@@ -257,7 +256,6 @@ commonapp.org###block-common-structure-common-structure-social
 commonapp.org##.side-share
 complex.com##.header-bar__social
 computerhistory.org###atchm-sidebar-social
-consequenceofsound.net##.follow-us
 consumerist.com##.lf-section-facebook
 consumerist.com##.lf-section-twitter
 consumerist.com##.lf-share-scroll
@@ -349,7 +347,7 @@ economist.com##.ec-footer__list--social
 edition.cnn.com##.SocialTimeBar__container
 edmunds.com##.Reactions
 electricliterature.com##.button--withSvgIcon.button--withIcon.u-baseColor--buttonLight.is-touchIconBlackPulse.button--chromeless.button--light.button
-elle.com##.content-info-social-buttons
+elle.com,esquire.com,harpersbazaar.com,marieclaire.com,menshealth.com,popularmechanics.com,roadandtrack.com,shondaland.com##.content-info-social-buttons
 elpais.com###compartir_social
 elpais.com###compartir_social_inferior
 emptywheel.net##.av-share-box
@@ -365,7 +363,6 @@ epmonthly.com##.cf.ep-social-icons
 escapistmagazine.com##.share_content
 espn.com##.article-social, .contentItem__footer--shareMenuVideo.contentItem__footer, .icon-twitter-solid-before, .mod-page-actions, .pickShare, .signin-social
 espnmediazone.com###social-sites-wrapper
-esquire.com##.content-info-social-buttons
 esquire.com##.image-share
 etonline.com##.block-system.block.menu--footer-social.navigation
 etonline.com##.story__links
@@ -500,7 +497,6 @@ halfwaypost.com###wpcom_social_media_icons_widget-3, .widget_facebook_likebox.wi
 hammocktown.com##.ts-fab-googleplus-link, .ts-fab-twitter-link, .us_skin_default.us_tac.us_share_buttons.us_wrapper
 happyhealthymama.com###convertkit_form-2, .sw-pinit-button, .swp_social_panel
 harpers.org##.socialmedia
-harpersbazaar.com##.content-info-social-buttons
 harvard.edu##.list-social
 hbr.org##.fixedsticky-on.sticky-tools.fixedsticky
 hdo.to.sb-likeshare
@@ -605,7 +601,6 @@ lauren.vortex.com##td:nth-of-type(4) > center
 leafshave.com##.animate-owy.site-sharing
 ledger-enquirer.com###story-cta-widget
 legalinsurrection.com##.socials
-leicestermercury.co.uk##.up-next--share
 lennyletter.com##.site-footer__socials
 levelskip.com##.img_button_wrapper
 libreoffice.org###___plusone_0
@@ -616,7 +611,6 @@ livekindly.co###mc4wp-form-1
 liveleak.com##.liveleak_on_facebook_outer
 livemint.com##.sticky-social-icons-lg
 liverpoolecho.co.uk##.top.sticky.side-sharebar.byline
-liverpoolecho.co.uk##.up-next--share
 livescience.com###stickyShare
 livescience.com##.fa-facebook
 livescience.com##.fa-google-plus
@@ -641,7 +635,6 @@ malwarecomplaints.info###googleplus-badge-2
 mamamia.com.au##.mwn-mobile-share-stick
 mansionglobal.com###webui-shareTools
 manutd.com##.home-content-panel__details-social__icons
-marieclaire.com##.content-info-social-buttons
 marketbeat.com###shareWidget
 marketwatch.com###share-bar
 marketwatch.com###share-tools-fixed
@@ -669,7 +662,6 @@ medicalxpress.com###js-soc-panel
 medicalxpress.com###rank
 megabots.com##.js-active.btn--social-tab
 menshealth.com###sharebar-195281
-menshealth.com##.content-info-social-buttons
 menshealth.com##.social-button-pinterest
 mensjournal.com###stay-connected
 mentalfloss.com###navbar-slim-fb
@@ -681,7 +673,6 @@ mercurynews.com##.sharedaddy
 mercurynews.com##.sharing
 meredith.com##.social-links
 merriam-webster.com###social-sidebar-container
-merriam-webster.com##.follow-us
 merriam-webster.com##.social-icon
 methodsman.com###sqs-social
 methodsman.com##.social-icons-style-regular.social-icons-size-extra-large.social-icons-color-standard.social-icon-alignment-center.sqs-svg-icon--outer
@@ -695,7 +686,6 @@ microsoft.com##.ms-social-bar__share
 mirror.co.uk###social-follow
 mirror.co.uk##.sharebar
 mirror.co.uk##.social-sites
-mirror.co.uk##.up-next--share
 mirror.co.uk##.vjs-share-control
 mit.edu###follow-social-items
 mlb.com##.p-follow--sm
@@ -808,7 +798,6 @@ nintendolife.com##.ui-share-page
 nist.gov##.pane-social-share
 nme.com##.icon-social-facebook, .icon-social-google, .icon-social-instagram, .icon-social-pinterest, .icon-social-twitter, .social-share
 nomiku.com##.tmblr-iframe
-nottinghampost.com##.up-next--share
 nova-magazine.net##.post-info-share
 nova-magazine.net##.widget_armonioso_social_icons
 nowthisnews.com##.email-form
@@ -892,12 +881,11 @@ pizzabottle.com##.entry-shares
 pjmedia.com###header-mobile-email-button
 placesjournal.org##.follow-widget
 placesjournal.org##.share-widget
-plymouthherald.co.uk##.up-next--share
 pogdesign.co.uk##.newpbutts
 politico.com,politico.eu###widgetConnect, #widgetFacebookRecommended, .announce-social, .follow-items.is-revealed, .icon-mail.icon, .micro-social, .user-tools
 popsci.com##.main-menu-social
 popsugar.com##.counters, .email-exitintent-widget, .pullquote-share, .social-share-control-container
-popularmechanics.com###rr_soc_mid, .content-info-social-buttons, .image-share, .viral_tools
+popularmechanics.com###rr_soc_mid, .image-share, .viral_tools
 post-gazette.com##.pgevoke-contentarea-socialbuttons-wrapper, .pgevoke-story-socialbuttons
 postandcourier.com##.article-share-nav, default.follow-links-494188
 postmake.io##a.resp-sharing-button__link, .ml-auto.mx-2.navbar-text
@@ -1008,7 +996,6 @@ rightwingnews.com##.header-topmenu > .wrapper > .left
 rightwingnews.com##.widget.widget-2
 rightwingnews.com##.widget.widget-3
 risk.net##.tools-meta-outer
-roadandtrack.com##.content-info-social-buttons
 roadsandkingdoms.com##.distro--post.distro
 roadsandkingdoms.com##.header-contact-list
 roadsandkingdoms.com##.postsubscribe
@@ -1072,7 +1059,6 @@ scientificamerican.com##.footer-banner
 scientificamerican.com##.footer_followUs
 scmp.com###mini-panel-social_media_box
 scotsman.com###shareTool
-scpr.org##.follow-us
 screenrant.com##.bottom.btn-more.w-btn
 screenrant.com##.js-show.btn-facebook-like.w-btn
 screenrant.com##.js-show.btn-facebook.w-btn
@@ -1092,7 +1078,6 @@ shadersmods.com##.youtube
 shape.com###block-meredith-blocks-connect-with-us--2
 shareblue.com###atstbx
 shimano.com###utility-bar
-shondaland.com##.standard-social-buttons.primary-social-buttons.content-info-social-buttons
 showbiz411.com##.textwidget
 si.com##.article-utilities-body
 si.edu##.icon
@@ -1132,7 +1117,6 @@ spacesafetymagazine.com##.flare
 sparkboxstudio.com##.et_pb_row_3
 spectator.co.uk##.floatyFloaty.float-container
 spectator.co.uk##.widget_widget_follow_us
-spectator.co.uk,spectator.us##.follow-us
 spiegel.de##.social-bar-wrapper
 spiegel.de##.social-media-box-wrapper
 spieltimes.com##.jeg_share_float_container
@@ -1371,7 +1355,6 @@ theweek.com##.speedreads-share-section
 theweek.com##.sticky-social-inside
 thewhiskeywash.com##.ss
 thewhiskeywash.com##.tt-share
-thewire.com##.follow-us.small
 thewirecutter.com##[data-scp^="social"]
 thewolfhall.com##.widget_socialcountplus
 thewrap.com###mobile-sticky-bottom
