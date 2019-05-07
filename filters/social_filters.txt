@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Social Filters
-! Last Modified: 14:27 2019-05-06
+! Last Modified: 09:51 2019-05-07
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for social networking & sharing - Remove third party social media share sections, icons & other cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -888,15 +888,7 @@ openload.co##.share-icons
 oracle.com##.cb07social
 oup.com##.last.item-share.item-with-dropdown.toolbar-item
 outsports.com##.m-entry__social
-ozy.com##.i-story-share-facebook-off
-ozy.com##.i-story-share-facebook-on
-ozy.com##.i-story-share-twitter-off
-ozy.com##.i-story-share-twitter-on
-ozy.com##.share-block-bottom
-ozy.com##.share-item
-ozy.com##.sharing-options
-ozy.com##.side-social-wrapper
-ozy.com##.social-links
+ozy.com##.i-story-share-facebook-off, .i-story-share-facebook-on, .i-story-share-twitter-off, .i-story-share-twitter-on, .share-block-bottom, .share-item, .sharing-options, .side-social-wrapper, .social-links
 pagesix.com###highlight-share
 pagesix.com##.widget_nypost_social_widget
 paloaltoonline.com##._magnetRelSbCon
@@ -919,10 +911,9 @@ pbs.org##.subscribe__form
 pcgamesn.com##.fa-rss-square.fa
 pcgamesn.com##.fa-steam.fa
 pcmag.com##.social
-people.com##.forceNavRow.hideSocial.styles__stickyHeader__3Nu1Q.styles__sticky__2eB5C.site-header__wrap, .share, .svg__path--pinterest.svg__path
+people.com##.docked-sharebar, .forceNavRow.hideSocial.styles__stickyHeader__3Nu1Q.styles__sticky__2eB5C.site-header__wrap, .share, .svg__path--pinterest.svg__path
 peoplespunditdaily.com###custom_html-14, .eltd-blog-share, .eltd-share-link, .eltd-single-share-holder, .widget_eltd_social_icon_widget
-petapixel.com##.header-main__socials
-petapixel.com##.post-sharing
+petapixel.com##.header-main__socials, .post-sharing
 petfinder.com##.slidingNav-shareBtn
 pga.com###social-share-container
 phandroid.com##.social
@@ -939,26 +930,11 @@ placesjournal.org##.follow-widget
 placesjournal.org##.share-widget
 plymouthherald.co.uk##.up-next--share
 pogdesign.co.uk##.newpbutts
-politico.com###widgetConnect
-politico.com###widgetFacebookRecommended
-politico.com##.announce-social
-politico.com##.follow-items.is-revealed
-politico.com##.icon-mail.icon
-politico.com##.micro-social
-politico.com##.user-tools
-politico.eu##.announce-social
-politico.eu##.user-tools
+politico.com,politico.eu###widgetConnect, #widgetFacebookRecommended, .announce-social, .follow-items.is-revealed, .icon-mail.icon, .micro-social, .user-tools
 popsci.com##.main-menu-social
-popsugar.com##.counters
-popsugar.com##.email-exitintent-widget
-popsugar.com##.pullquote-share
-popsugar.com##.social-share-control-container
-popularmechanics.com###rr_soc_mid
-popularmechanics.com##.content-info-social-buttons
-popularmechanics.com##.image-share
-popularmechanics.com##.viral_tools
-post-gazette.com##.pgevoke-contentarea-socialbuttons-wrapper
-post-gazette.com##.pgevoke-story-socialbuttons
+popsugar.com##.counters, .email-exitintent-widget, .pullquote-share, .social-share-control-container
+popularmechanics.com###rr_soc_mid, .content-info-social-buttons, .image-share, .viral_tools
+post-gazette.com##.pgevoke-contentarea-socialbuttons-wrapper, .pgevoke-story-socialbuttons
 postandcourier.com##.article-share-nav, default.follow-links-494188
 postmake.io##a.resp-sharing-button__link, .ml-auto.mx-2.navbar-text
 pressherald.com##.mtm-utility-launch
