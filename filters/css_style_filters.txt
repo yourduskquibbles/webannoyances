@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 15:37 2019-05-08
+! Last Modified: 16:44 2019-05-08
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -5517,6 +5517,8 @@ vev.io,vidup.io##.fixed-top:style(position: absolute !important; top: 0 !importa
 vev.io,vidup.io##.page-content:style(overflow: unset !important;)
 viaircorp.com##.header-image .nav-tertiary:style(position: absolute !important; margin: 20px auto !important;)
 viaircorp.com##.header-image .site-header > .wrap:style(margin: 10px auto !important;)
+vice.com##.navbar-container, .navbar-container--entered:style(position: absolute !important; top: 0 !important; transform: translateY(0) !important;)
+vice.com##.navbar-container--entering .networkbar, .navbar-container--entered .networkbar, .navbar-container--exiting .networkbar:style(display: flex !important;)
 vice.com##.site-header--home, .site-header--default, .site-header--article, .site-header--transparent:style(background: transparent !important;)
 vice.com##.site-header--home.visible-bottom-edge, .site-header--default.visible-bottom-edge, .site-header--article.visible-bottom-edge:style(box-shadow: none !important;)
 vice.com##.site-header__center-content:style(justify-content: center !important;)
