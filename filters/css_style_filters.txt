@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 16:39 2019-05-07
+! Last Modified: 22:11 2019-05-07
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -3752,7 +3752,7 @@ nypost.com###page-header:style(position: relative !important; top: 0 !important;
 nypost.com##body > .content:style(margin-top: 0 !important;)
 nytimes.com###collection__filter__container, .Block-header--2tzq6, .Block-noTopBorder--1M81B.Block-header--2tzq6, .BlockHeader-header--1598L, .BlockHeader-header--QxD_4, .CommentsPanel-stickyContent--3ah6a, .Home-header--eShDq, .TemplateUtils-bottomBorder--e5vHb.TemplateUtils-showBorder--2OVQ0.TemplateUtils-topLabel--1jiof, .comments-header-container, .css-1i860sg, .e1pwcx9q0, .css-136op87, .css-13lpfd6, .css-1855pjc, .css-koxs0u, .css-1mgcajg, .css-ulr03x:style(position: relative !important;)
 nytimes.com###main-header, .d-fow-nav:style(position: relative !important; top: 0 !important;)
-nytimes.com###masthead, .headroom:style(position: relative !important; transform: none !important;)
+nytimes.com###masthead:not([class*=".masthead-theme-transparent-ffffff"]), .headroom:style(position: absolute !important; transform: translateY(0) !important;)
 nytimes.com###ribbon:style(position: relative !important; top: 0 !important; width: 100% !important;)
 nytimes.com###shell:style(padding-top: 0 !important; overflow: hidden !important;)
 nytimes.com###story:style(padding-top: 0 !important;)
@@ -3773,8 +3773,7 @@ nytimes.com##.masthead:style(position: relative !important; display: block !impo
 nytimes.com##.nytc---sitenav---siteNav:style(position: absolute !important;)
 nytimes.com##.post-timestamp > time, .theme-speech-bubble-x-small.comments-button.button:style(opacity: 1 !important;)
 nytimes.com##.rad-series-nav:style(position: absolute !important; margin-top: 0 !important;)
-nytimes.com##.viewport-large-70 .masthead-theme-transparent.masthead.in-content .container, .viewport-large-70 .masthead.in-content.masthead-theme-transparent-ffffff .container:style(border-bottom: none !important;)
-nytimes.com##.viewport-large-70 .masthead-theme-transparent.masthead.in-content .container, .viewport-large-70 .masthead.in-content.masthead-theme-transparent-ffffff .container:style(max-width: unset !important;)
+nytimes.com##.viewport-large-70 .masthead-theme-transparent.masthead.in-content .container, .viewport-large-70 .masthead.in-content.masthead-theme-transparent-ffffff .container:style(border-bottom: none !important; max-width: unset !important;)
 nytimes.com##.viewport-medium-30 .masthead .quick-navigation .button-text:style(width: auto !important; height: auto !important; margin: 0 !important; clip: auto !important; overflow: visible !important;)
 nytimes.com##.viewport-medium-30 .masthead.masthead-theme-transparent .home-button .button-text, .viewport-medium-30 .masthead.masthead-theme-transparent-ffffff .home-button .button-text:style(position: relative !important; margin-left: 5px !important;)
 nzherald.co.nz##.floatingNav, .nz-herald.onscreen.site-logo-wrapper:style(position: relative !important; top: 0 !important;)
