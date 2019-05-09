@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 13:49 2019-05-09
+! Last Modified: 13:53 2019-05-09
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -4814,6 +4814,10 @@ substack.com##.main-menu-content:style(position: absolute !important; top: 0 !im
 sucuri.net##.navbar-inverse.navbar-fixed-top.navbar:style(position: relative !important; top: 0 !important;)
 sueddeutsche.de###header-navigation, .szig-pp-header__ba:style(position: relative !important; top: 0 !important;)
 sueddeutsche.de##.er-header__bar:style(position: absolute !important;)
+summit.news###mvp-main-nav-top:style(position: relative !important; box-shadow: none !important; transform: none !important;)
+summit.news,visualcapitalist.com###mvp-main-body-wrap:style(margin-top: 0 !important;)
+summit.news,visualcapitalist.com###mvp-main-nav-bot, .mvp-fixed1:style(position: relative !important; top: 0 !important; height: 50px !important; margin-top: 0 !important; transform: none !important;)
+summit.news,visualcapitalist.com###site-navigation, .nav--main__wrapper:style(position: relative !important;)
 suntimes.com##.contain-to-grid:style(position: relative !important;)
 suntrust.com###container-header:style(position: absolute !important; top: 0 !important;)
 suntrust.com##.suntrust-header-alt.invis:style(visibility: visible !important;)
@@ -5571,10 +5575,7 @@ virginiabusiness.com##.stuck.main:style(position: absolute !important; margin: 0
 virustotal.com###toolbar:style(position: absolute !important; top: 0 !important;)
 visa.com##.blue.destination-header.header, .header:style(position: relative !important; top: 0 !important;)
 visir.is##.mobile-stick-top.header-mobile:style(position: absolute !important; top: 0 !important;)
-visualcapitalist.com###mvp-main-body-wrap:style(margin-top: 0 !important;)
-visualcapitalist.com###mvp-main-nav-bot, .mvp-fixed1:style(position: relative !important; top: 0 !important; height: 50px !important; margin-top: 0 !important; transform: none !important;)
 visualcapitalist.com###mvp-main-nav-top:style(position: relative !important; padding: 15px 0 !important; height: 70px !important; box-shadow: none !important; transform: none !important;)
-visualcapitalist.com###site-navigation, .nav--main__wrapper:style(position: relative !important;)
 visualstudio.com###main:style(transform: none !important;)
 vitalchek.com##.sticky.my_sticky.headdown:style(position: relative !important; top: 0 !important;)
 vivaldi.com###site-header, #header-menu:style(position: absolute !important;)
