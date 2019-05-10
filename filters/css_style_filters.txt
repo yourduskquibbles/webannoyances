@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 15:02 2019-05-09
+! Last Modified: 09:04 2019-05-10
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -819,6 +819,8 @@ blu.com##.sticky-bar:style(position: relative !important;)
 blueapron.com,ebates.com,groupninemedia.com,thebenefitsguide.com###header-main:style(position: absolute !important;)
 bluecrossnc.com,delanceyplace.com,dynadot.com,elastic.co,learningsolutionsmag.com,liveleak.com,narvar.com,nutro.com,tegna.com##.navbar-fixed-top:style(position: absolute !important;)
 bluedotdaily.com,dailyheadlines.net,fantrax.com,pymnts.com,realitysteve.com,redhat.com,themattwalshblog.com###main-nav-wrap:style(position: relative !important; top: 0 !important;)
+blueorigin.com##.header:style(width: 100% !important;)
+blueorigin.com##nav:style(position: static !important; background-color: transparent !important;)
 bnef.com###header, .element-sticky--fixed.article__head:style(position: relative !important; opacity: 1 !important;)
 bnef.com##.article__head h1:style(font-size: 48px !important; line-height: 58px !important; padding: 60px 0 30px 0 !important; overflow: unset !important;)
 bnnbloomberg.ca##.main-header:style(position: absolute !important; transform: none !important;)
