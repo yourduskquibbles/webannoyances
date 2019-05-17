@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 13:30 2019-05-17
+! Last Modified: 13:45 2019-05-17
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -4024,6 +4024,8 @@ pewchip.com##.header-wrapper:style(position: relative !important;)
 pewchip.com##.sticky-jump .stuck:style(animation: none !important;)
 pewtrusts.org##.global-header__inner-wrapper:style(position: relative !important; top: 0 !important; height: 55px !important; padding: 0 !important; border-bottom-width: 1px !important; border-bottom-style: solid !important;)
 pfsense.org##.header-fixed:style(position: absolute !important; background-color: transparent !important;)
+pga.com##.breaking-news:style(position: static !important; right: 100% !important;)
+pga.com##.breaking-news__wrap:style(right: 0 !important;)
 pga.com##.global-header:style(position: relative !important;)
 pga.com##.global-sidebar__wrap:style(position: absolute !important; height: 200vh !important;)
 pgatour.com##.fixed-full:style(position: absolute !important;)
