@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 18:40 2019-05-20
+! Last Modified: 19:22 2019-05-20
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -734,8 +734,15 @@ bigseventravel.com##.is_stuck.trawell-sidebar-sticky:style(position: absolute !i
 bigthink.com###most-popular-module, .fixed.header, .rebelbar--fixed.rebelbar, .sticky-active.sticky-target:style(position: absolute !important;)
 bijan.com##.nav-desktop:style(position: absolute !important; background-color: transparent !important;)
 bike-magazin.de##nav.set.top.stucked:style(position: relative !important; top: 0 !important;)
-bilasport.net###darkmode:style(position: relative !important; top: 0 !important; right: 0 !important; border: none !important; border-radius: unset !important;)
+bilasport.net###darkmode:style(position: relative !important; top: 0 !important; right: 0 !important; padding: 5px !important; border: none !important; border-radius: unset !important;)
+bilasport.net###right_side_a:style(margin: 0 !important;)
+bilasport.net###rspmnu:style(top: 5px !important;)
+bilasport.net##.hmbd_container:style(padding-top: 10px !important;)
+bilasport.net##.logo:style(height: 40px !important; width: 124px !important; padding: 10px 14px 0 14px !important;)
+bilasport.net##.logo_img:style(height: 50% !important; width: 50% !important;)
+bilasport.net##.page_header:style(height: 40px !important;)
 bilasport.net##.player-poster:style(background-image: none !important;)
+bilasport.net##.top_main_menu:style(position: absolute !important; left: 100px !important; top: 40px !important;)
 bild.de##.main-nav:style(position: relative !important; top: 0 !important;)
 billboard.com###on_the_charts, .stuck.js-leftRail-container.left-rail:style(position: absolute !important;)
 billboard.com##.breaking_news_bar, .top-content.container:style(position: relative !important; top: 0 !important;)
