@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 10:12 2019-05-20
+! Last Modified: 10:26 2019-05-20
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -748,6 +748,8 @@ binance.com##.wrapper:style(position: static !important;)
 bing.com###b_tq_header:style(position: absolute !important;)
 biobiochile.cl,emailinnovations.com,flocombat.com,redbullracing.com,smithsonianjourneys.org,theappeal.org##header:style(position: absolute !important; top: 0 !important;)
 biography.com##.is-visible.l-sticky-navbar:style(position: relative !important; top: 0 !important;)
+biologicperformance.com###logo img:style(max-height: 120px !important;)
+biologicperformance.com##.stuck.header-wrapper:style(position: relative !important; top: unset !important; box-shadow: none !important; animation: none !important;)
 biologos.org##.shrink:style(position: relative !important; top: 0 !important;)
 biomedcentral.com###ArticleNavigation:style(position: absolute !important;)
 bios-pw.org,lifedaily.com,radare.org##.topbar:style(position: absolute !important;)
