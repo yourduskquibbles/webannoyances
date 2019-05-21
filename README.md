@@ -27,18 +27,25 @@ Head over to the [demonstration page](https://github.com/yourduskquibbles/webann
 ## Requirements
 This filter list aims to remove annoying web elements that block your view of the screen and is created and optimized using the [uBlock Origin Extended Syntax](https://github.com/gorhill/uBlock/wiki/Static-filter-syntax).
 
-For the best user experience, please use this filter list with [uBlock Origin](https://github.com/gorhill/uBlock) or [Nano Adblocker](https://github.com/NanoAdblocker/NanoCore)
+For the best user experience, please use this filter list with [![uBO_icon_16](https://user-images.githubusercontent.com/22258847/58104215-675c2d00-7bb2-11e9-9ef7-53bd5d32139c.png) uBlock Origin](https://github.com/gorhill/uBlock), 
+[![nano_icon_16](https://user-images.githubusercontent.com/22258847/58104236-7347ef00-7bb2-11e9-86c3-7f1646118e7e.png) Nano Adblocker](https://github.com/NanoAdblocker/NanoCore), 
+[![adguard_icon_16](https://user-images.githubusercontent.com/22258847/58104254-7d69ed80-7bb2-11e9-989b-a0a73db4d808.png) AdGuard for ![64px-Windows_darkblue_2012_svg svg](https://user-images.githubusercontent.com/22258847/58109066-ea818100-7bba-11e9-9808-fde2015ebe10.png)](https://adguard.com/en/adguard-windows/overview.html), or [![adguard_icon_16](https://user-images.githubusercontent.com/22258847/58104254-7d69ed80-7bb2-11e9-989b-a0a73db4d808.png) AdGuard for ![64px-MacOS_wordmark_(2017) svg](https://user-images.githubusercontent.com/22258847/58109057-e6edfa00-7bba-11e9-886b-f162bcffc7df.png)](https://adguard.com/en/adguard-mac/overview.html).
 
 Browser specific download locations are located below:
 ### Desktop
-- [uBlock Origin for Google Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
-- [uBlock Origin for Mozilla FireFox](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
-- [Nano Adblocker for Microsoft Edge](https://www.microsoft.com/en-us/p/nano-adblocker/9nsxdx2tdb3v/)
-- [uBlock Origin for Apple Safari](https://github.com/el1t/uBlock-Safari#installation)
-- [uBlock Origin for Opera](https://addons.opera.com/extensions/details/ublock/)
+- ![uBO_icon_16](https://user-images.githubusercontent.com/22258847/58104215-675c2d00-7bb2-11e9-9ef7-53bd5d32139c.png) [uBlock Origin for ![google-social-logo-chrome-16](https://user-images.githubusercontent.com/22258847/58106483-354cca00-7bb6-11e9-9e23-d0e727180c2a.png) Google Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
+- ![uBO_icon_16](https://user-images.githubusercontent.com/22258847/58104215-675c2d00-7bb2-11e9-9ef7-53bd5d32139c.png) [uBlock Origin for ![Firefox_Logo_2017_16](https://user-images.githubusercontent.com/22258847/58106480-34b43380-7bb6-11e9-8156-d103da14289b.png) Mozilla FireFox](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
+- ![nano_icon_16](https://user-images.githubusercontent.com/22258847/58104236-7347ef00-7bb2-11e9-86c3-7f1646118e7e.png) [Nano Adblocker for 
+![Microsoft_Edge_logo_16](https://user-images.githubusercontent.com/22258847/58106487-354cca00-7bb6-11e9-9c84-c6c201ff5605.png) Microsoft Edge](https://www.microsoft.com/en-us/p/nano-adblocker/9nsxdx2tdb3v/)
+- ![uBO_icon_16](https://user-images.githubusercontent.com/22258847/58104215-675c2d00-7bb2-11e9-9ef7-53bd5d32139c.png) [uBlock Origin for 
+![Safari_browser_logo_16](https://user-images.githubusercontent.com/22258847/58106493-35e56080-7bb6-11e9-8d9d-4feebb27a241.png) Apple Safari](https://github.com/el1t/uBlock-Safari#installation)
+- ![uBO_icon_16](https://user-images.githubusercontent.com/22258847/58104215-675c2d00-7bb2-11e9-9ef7-53bd5d32139c.png) [uBlock Origin for ![Opera_2015_icon_16](https://user-images.githubusercontent.com/22258847/58106490-354cca00-7bb6-11e9-9826-e339bbd708b3.png) Opera](https://addons.opera.com/extensions/details/ublock/)
+- ![adguard_icon_16](https://user-images.githubusercontent.com/22258847/58104254-7d69ed80-7bb2-11e9-989b-a0a73db4d808.png) [AdGuard for ![64px-Windows_darkblue_2012_svg svg](https://user-images.githubusercontent.com/22258847/58109066-ea818100-7bba-11e9-9808-fde2015ebe10.png)](https://adguard.com/en/adguard-windows/overview.html)
+- ![adguard_icon_16](https://user-images.githubusercontent.com/22258847/58104254-7d69ed80-7bb2-11e9-989b-a0a73db4d808.png) [AdGuard for ![64px-MacOS_wordmark_(2017) svg](https://user-images.githubusercontent.com/22258847/58109057-e6edfa00-7bba-11e9-886b-f162bcffc7df.png)](https://adguard.com/en/adguard-mac/overview.html)
 
 ### Mobile
-- [uBlock Origin for Mozilla FireFox for Android](https://addons.mozilla.org/EN-US/android/addon/ublock-origin/) 
+- ![uBO_icon_16](https://user-images.githubusercontent.com/22258847/58104215-675c2d00-7bb2-11e9-9ef7-53bd5d32139c.png) [uBlock Origin for ![Firefox_Logo_2017_16](https://user-images.githubusercontent.com/22258847/58106480-34b43380-7bb6-11e9-8156-d103da14289b.png) Mozilla FireFox for 
+![16px-Android_robot svg](https://user-images.githubusercontent.com/22258847/58109333-74314e80-7bbb-11e9-98ea-b25525b42e9d.png) Android](https://addons.mozilla.org/EN-US/android/addon/ublock-origin/) 
 
 ## One Click Installation
 
