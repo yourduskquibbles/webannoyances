@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 19:33 2019-05-20
+! Last Modified: 08:47 2019-05-21
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -187,6 +187,7 @@ adexchanger.com##.top-bar-container:style(height: 45px !important; border-bottom
 adexchanger.com##.top-bar:style(height: 45px !important; margin-top: 0 !important; border-top: 4px solid #00003b !important;)
 adguard.com###navigation .pageContent:style(height: 70px !important; background-color: transparent !important; box-shadow: none !important;)
 adguard.com###navigation.static .primaryNavLinks .navTabs .navTab.selected .tabLinks, #navigation.static .secondaryNavLinks, #navigation.static .navTabs .navTab.selected .tabLinks:style(display: block !important; background-color: transparent !important;)
+adguard.com##.sidebar__sticky-in:style(position: static !important;)
 adguard.com##.static.staticPageWidth.withSearch:style(position: relative !important;)
 adguard.com##.sticky-bar:style(position: absolute !important;)
 adidas.com##.sticky___1rlqQ.gl-is-sticky.header___3wNCY:style(position: absolute !important;)
@@ -3446,16 +3447,16 @@ msn.com##.light.filmstrip:style(position: relative !important; top: 0 !important
 msnbc.com###secondary-nav, ._20-Ws2Fn1Y3t_iSqRZ0LON, .container___20-Ws:style(position: absolute !important;)
 msnbc.com###site-header, .feedbackPopup____QQm5.container___kfPO5:style(position: relative !important;)
 msnbc.com##.advert--pencil:style(margin-top: 0 !important;)
-msnbc.com,nbcnews.com##.hamburger:style(background-color: transparent !important; color: #000 !important; border-left: 1px solid #000 !important; border-bottom: 1px solid #000 !important;)
-msnbc.com,nbcnews.com##.hfsh .hamburger span:style(background-color: #000 !important;)
-msnbc.com,nbcnews.com##.hfsh .local:style(background-color: transparent !important; border-bottom: 1px solid #000 !important;)
-msnbc.com,nbcnews.com##.hfsh .logo-wrap:style(background-position: right bottom !important;)
-msnbc.com,nbcnews.com##.hfsh .shortcuts:style(color: #000 !important;)
-msnbc.com,nbcnews.com##.hfsh.active .shortcuts:style(transform: none !important;)
-msnbc.com,nbcnews.com##.hfsh.dark .logo, .hfsh.vertical .logo, .hfsh.transparent .logo, .hfsh .logo:style(color: #000 !important;)
-msnbc.com,nbcnews.com##.hfsh.dark .shortcuts a:hover, .hfsh.transparent .shortcuts a:hover, .hfsh.vertical .shortcuts a:hover:style(color: #3062ff !important;)
-msnbc.com,nbcnews.com##.hfsh.scrolled .local:style(box-shadow: none !important;)
-msnbc.com,nbcnews.com##.hfsh:style(position: absolute !important; transform: translateY(0) !important;)
+msnbc.com,nbcnews.com,today.com##.hamburger:style(background-color: transparent !important; color: #000 !important; border-left: 1px solid #000 !important; border-bottom: 1px solid #000 !important;)
+msnbc.com,nbcnews.com,today.com##.hfsh .hamburger span:style(background-color: #000 !important;)
+msnbc.com,nbcnews.com,today.com##.hfsh .local:style(background-color: transparent !important; border-bottom: 1px solid #000 !important;)
+msnbc.com,nbcnews.com,today.com##.hfsh .logo-wrap:style(background-position: right bottom !important;)
+msnbc.com,nbcnews.com,today.com##.hfsh .shortcuts:style(color: #000 !important;)
+msnbc.com,nbcnews.com,today.com##.hfsh.active .shortcuts:style(transform: none !important;)
+msnbc.com,nbcnews.com,today.com##.hfsh.dark .logo, .hfsh.vertical .logo, .hfsh.transparent .logo, .hfsh .logo:style(color: #000 !important;)
+msnbc.com,nbcnews.com,today.com##.hfsh.dark .shortcuts a:hover, .hfsh.transparent .shortcuts a:hover, .hfsh.vertical .shortcuts a:hover:style(color: #3062ff !important;)
+msnbc.com,nbcnews.com,today.com##.hfsh.scrolled .local:style(box-shadow: none !important;)
+msnbc.com,nbcnews.com,today.com##.hfsh:style(position: absolute !important; transform: translateY(0) !important;)
 mtb-news.de##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute !important; top: 0 !important;)
 mtlblog.com##.narcity-header-bar:style(position: absolute !important;)
 mtv.com##.events-header_top-outer, .primary_background.top_outer, .top_outer:style(position: relative !important; top: 0 !important;)
