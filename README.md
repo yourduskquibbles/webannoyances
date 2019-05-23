@@ -45,7 +45,11 @@ Browser specific download locations are located below:
 
 ### Mobile
 - ![uBO_icon_16](https://user-images.githubusercontent.com/22258847/58104215-675c2d00-7bb2-11e9-9ef7-53bd5d32139c.png) [uBlock Origin for ![Firefox_Logo_2017_16](https://user-images.githubusercontent.com/22258847/58106480-34b43380-7bb6-11e9-8156-d103da14289b.png) Mozilla FireFox for 
-![16px-Android_robot svg](https://user-images.githubusercontent.com/22258847/58109333-74314e80-7bbb-11e9-98ea-b25525b42e9d.png) Android](https://addons.mozilla.org/EN-US/android/addon/ublock-origin/) 
+![16px-Android_robot svg](https://user-images.githubusercontent.com/22258847/58109333-74314e80-7bbb-11e9-98ea-b25525b42e9d.png) Android](https://addons.mozilla.org/EN-US/android/addon/ublock-origin/)
+- ![nano_icon_16](https://user-images.githubusercontent.com/22258847/58104236-7347ef00-7bb2-11e9-86c3-7f1646118e7e.png) [Nano Adblocker for ![Yandex](https://user-images.githubusercontent.com/5884000/58223100-aad0ab80-7d18-11e9-8f9e-6579c2cc0024.png) Yandex for 
+![16px-Android_robot svg](https://user-images.githubusercontent.com/22258847/58109333-74314e80-7bbb-11e9-98ea-b25525b42e9d.png) Android](https://chrome.google.com/webstore/detail/nano-adblocker/gabbbocakeomblphkmmnoamkioajlkfo)
+- ![uBO_icon_16](https://user-images.githubusercontent.com/22258847/58104215-675c2d00-7bb2-11e9-9ef7-53bd5d32139c.png) [uBlock Origin for ![Kiwi Browser](https://user-images.githubusercontent.com/5884000/58223279-4eba5700-7d19-11e9-9f72-6bc905b1405f.png) Kiwi Browser for 
+![16px-Android_robot svg](https://user-images.githubusercontent.com/22258847/58109333-74314e80-7bbb-11e9-98ea-b25525b42e9d.png) Android](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
 
 ## One Click Installation
 
