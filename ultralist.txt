@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist
-! Last Modified: 22:18 2019-05-28
+! Last Modified: 22:23 2019-05-28
 ! Expires: 2 Days (Update Frequency)
 ! Description: Block annoying web elements and reclaim lost screen real estate. Web Annoyances Ultralist also includes the following sublists - CSS Style Modifying Filters, Generic Filters, Modal Filters, Newsletter Filters, & Social Filters. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1892,8 +1892,7 @@ kaggle.com##.site-header-react__cookies-notice-desktop
 kaggle.com##.site-header-react__cookies-notice-mobile
 kansascity.com###story-cta-widget
 kaufda.de##.drawer.shelf-layout-header.layout-head-drawer
-kbb.com##+js(abort-on-property-read.js
-kbb.com##KBB.DataLayer)
+kbb.com##+js(abort-on-property-read.js, KBB.DataLayer)
 kcet.org##.active.kl-header-sticky.pane-kl-sticky-header.pane-panels-mini.panel-pane
 kdnuggets.com##.kd_bottom
 kernelmag.com###login-box
@@ -2191,8 +2190,7 @@ mirror.co.uk##.swipe-prompt
 mirrorace.com##.uk-sticky-placeholder
 mises.org###text-resizer
 mit.edu##.subscribe-button
-mixcloud.com##+js(addEventListener-defuser.js
-mixcloud.com##beforeunload)
+mixcloud.com##+js(addEventListener-defuser.js, beforeunload)
 mixpanel.com###post_subscribe_wrapper
 mlb.com##.navbar-brand
 mlb.com##.p-ad
@@ -2679,8 +2677,7 @@ phys.org###back-top
 phys.org###rank
 phys.org##.notice
 picmonkey.com###header
-picodi.com##+js(abort-on-property-read.js
-picodi.com##titleBack)
+picodi.com##+js(abort-on-property-read.js, titleBack)
 pilotonline.com###leaderboard1
 pilotonline.com##.paymeter-promo
 pinknews.co.uk##.ad-slot_inline-mpu
@@ -2891,7 +2888,7 @@ recordonline.com###paywall-bar
 recordonline.com##.vendor
 reddit.com###jumpToContent
 reddit.com###uapp-banner
-reddit.com##+js(set-constant.js
+reddit.com##+js(set-constant.js, isPinned, true)
 reddit.com##.NavFrame > div:nth-of-type(2) > .TopNav > .TopButton
 reddit.com##.SmartBanner
 reddit.com##.commentsignupbar.infobar
@@ -2904,8 +2901,6 @@ reddit.com##.premium-banner-outer
 reddit.com##.res-show-link
 reddit.com##.s1h3x34a-1
 reddit.com##.zh2mq5-2
-reddit.com##isPinned
-reddit.com##true)
 redfin.com##.header-postbar
 redflagnews.com##.yui3-widget
 redhat.com##.main-header > div:nth-of-type(2)
