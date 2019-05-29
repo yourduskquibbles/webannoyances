@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist
-! Last Modified: 22:23 2019-05-28
+! Last Modified: 22:28 2019-05-28
 ! Expires: 2 Days (Update Frequency)
 ! Description: Block annoying web elements and reclaim lost screen real estate. Web Annoyances Ultralist also includes the following sublists - CSS Style Modifying Filters, Generic Filters, Modal Filters, Newsletter Filters, & Social Filters. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -427,12 +427,10 @@ bitchute.com###nav-side-menu > .search-box
 bitchute.com##.side-toggle
 bizjournals.com###boundary-2__sticker-0 > .sm-only__expander.xs-only__expander
 bizjournals.com###tour-prompt.prompt.prompt--full-width
-bizjournals.com##+js(set-constant.js
+bizjournals.com##+js(set-constant.js, __page__.isPremium, false)
 bizjournals.com##.clearfix.infinite-links-chunk
 bizjournals.com##.hidden--print.hidden--sm.hidden--xs.container--wide.container
 bizjournals.com##.prompt__content
-bizjournals.com##__page__.isPremium
-bizjournals.com##false)
 blackfridayhits.com###float-posts-nav
 blackfridayhits.com##.white_style.rh-stickme.main-nav.search-form-inheader
 blackswanltd.com##.custom-scroll-header-bg
