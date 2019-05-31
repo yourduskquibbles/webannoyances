@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 23:23 2019-05-30
+! Last Modified: 14:39 2019-05-31
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2325,11 +2325,13 @@ github.com##.js-user-profile-sticky-fields.js-sticky.py-3.vcard-names-container:
 github.com##.overflow-auto.px-lg-4.px-md-4.px-3.top-0.js-sticky.dashboard-sidebar:style(width: auto !important; height: 100% !important; position: static !important; top: 0 !imporant; left: 0 !important;)
 github.com##.pr-review-tools:style(margin-top: -4px !important;)
 github.com##.profile-timeline-year-list:style(position: static !important; top: 74px !important; width: 16.66667% !important;)
+github.com##.rgh-sticky-sidebar.discussion-sidebar:style(position: static !important;)
 github.com##.user-profile-nav:style(position: relative !important;)
 github.com##.vcard-names-container.is-stuck .vcard-names:style(opacity: 1 !important;)
 github.com##.vcard-names-container.is-stuck:style(pointer-events: none !important;)
 github.com##.vcard-names-container.py-3.js-sticky.js-user-profile-sticky-fields.is-stuck:style(position: static !important; margin-top: unset !important;)
 github.com##.vcard-names-container.py-3.js-user-profile-sticky-fields.is-placeholder:style(height: 0 !important; visibility: hidden !important; display: none !important; width: auto !important;)
+github.com##.vcard-names-container:style(position: static !important; top: unset !important; left: unset !important; width: auto !important;)
 github.io###menu, .fixedHeaderContainer, .menu-btn:style(position: absolute !important;)
 github.io##.site-header, header:style(position: relative !important;)
 github.io,ipaddress.com,kerbalspaceprogram.com,law360.com,mapzen.com,mdpi.com,mobilityware.com,outerbanks.com,planeplottermobile.com,pokeassistant.com,recorder.com,robinhood.com,statepress.com,stereogum.com,stream-online-hd.xyz,tdhopper.com,thedatatrust.com,thehackerblog.com,wd.com,wionews.com,wireguard.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
