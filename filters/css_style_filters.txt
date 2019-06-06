@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 11:26 2019-06-06
+! Last Modified: 11:45 2019-06-06
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -3433,6 +3433,8 @@ mmanews.com##.vc_hidden-xs.td-pb-span4.vc_column_container.wpb_column > .vc_colu
 mnn.com##.site-header:style(box-shadow: none !important;)
 mnot.net##.navigation:style(position: absolute !important;)
 mobafire.com###header-logo-new, #net-menu, .header-new.self-clear:style(position: absolute !important;)
+mobile.edweek.org###login-states:style(transform: translateY(0px) !important;)
+mobile.edweek.org,okta.com##.Header:style(position: absolute !important;)
 mobile.reuters.com##.header-main.group.header, .header-mini.header-pane-main:style(height: 54px !important;)
 mobile.reuters.com##.reuters-nav-buttons:style(display: block !important; opacity: 1 !important;)
 mobile.reuters.com##.section-nav:style(padding-top: 0 !important;)
@@ -3949,7 +3951,6 @@ oilprice.com##.singleArticle__wrapper > div:nth-child(2):style(height: unset !im
 ok.co.uk###container:style(margin-top: 0 !important;)
 okayplayer.com##.affix.site-header:style(position: relative !important; top: 0 !important;)
 oklahoman.com,rt.com,theathletic.com###header-nav:style(position: relative !important;)
-okta.com##.is-fixed.Header:style(position: absolute !important;)
 old.reddit.com##.active.fixed.read-next:style(position: absolute !important; bottom: unset !important;)
 old.reddit.com##.gXMpvN:style(position: absolute !important;)
 old.reddit.com##ol:style(position: static !important;)
