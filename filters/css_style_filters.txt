@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 09:09 2019-06-06
+! Last Modified: 09:15 2019-06-06
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -6088,7 +6088,7 @@ xconomy.com##.longNav:style(position: absolute !important;)
 xda-developers.com###stickyNav, .breadcrumbs.navbits, .topbar:style(position: relative !important; top: 0 !important;)
 xda-developers.com###stickyNav:style(left: 0 !important;)
 xda-developers.com##.container:style(margin-top: 20px !important;)
-xda-developers.com##body:not(iframe):style(overflow-x: hidden !important; overflow-y: scroll !important;)
+xda-developers.com##body:not(iframe):style(overflow-x: hidden !important; overflow-y: auto !important;)
 xe.com###siteHeader:style(position: relative !important; background-color: transparent !important;)
 xe.com##.OuterContainer-s1ggaci3-0:style(max-height: 0 !important;)
 xenonstack.com###fixed-right-bar, .fixed.sticky.nav-header:style(position: relative !important; top: 0 !important;)
