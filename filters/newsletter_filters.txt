@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Newsletter Subscription Filters
-! Last Modified: 08:47 2019-06-07
+! Last Modified: 08:48 2019-06-10
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for newsletter annoyances - Remove newsletter & other subscription cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -277,6 +277,7 @@ ibtimes.com###block-ibtimes-newsletters-morning-insights
 icv2.com##.sub-c
 iflscience.com##.newsletter-widget.widget
 ifu.com##.contact-newsletter-tab
+inc.com##[class*="NewsLetterBar__NewsLetterBar__"]
 independent.co.uk##.email-signpost
 indiegogo.com##.ng-scope.emailCapture
 indiehackers.com##.article-subscribe
@@ -514,6 +515,7 @@ scmp.com##.scmp-inline-newsletter-subscription
 scotsman.com##.newsletter-widget
 scpr.org###appeal-newsletter
 screendaily.com##.email
+screenrant.com##.w-newsletter-signup
 secjuice.com##.subscribe-form
 seekingalpha.com###add-ticker-to-portfolio-unit
 self.com##.component-subscription-unit
@@ -637,6 +639,7 @@ theweek.com##.col300_signup
 theweek.com##.subscribe-module
 theweek.com##.subscribe-unit-header
 thewirecutter.com##.newsletter, .newsletter-container
+thewirecutter.com##div#__next > div:has-text(Sign up for)
 thisisinsider.com##.editorial-sidebar
 threatpost.com##.c-newsletter-section
 threatpost.com##.c-newsletter-widget
