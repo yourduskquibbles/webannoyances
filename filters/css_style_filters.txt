@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 14:27 2019-06-17
+! Last Modified: 14:52 2019-06-17
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -3552,6 +3552,7 @@ msn.com###header-common.stick-enabled:before:style(height: 0 !important;)
 msn.com###maincontent, #precontent:style(margin-top: 0 !important;)
 msn.com##.head:style(position: relative !important; top: 0 !important; margin-top: 0 !important;)
 msn.com##.light.filmstrip:style(position: relative !important; top: 0 !important;)
+msn.com##.playershrunk .overlay-open, .playershrunk .wcvideoplayer:style(position: absolute !important; width: 100% !important; height: 100% !important; top: 0 !important; right: unset !important; bottom: unset !important; z-index: unset !important;)
 msnbc.com###secondary-nav, ._20-Ws2Fn1Y3t_iSqRZ0LON, .container___20-Ws:style(position: absolute !important;)
 msnbc.com###site-header, .feedbackPopup____QQm5.container___kfPO5:style(position: relative !important;)
 msnbc.com##.advert--pencil:style(margin-top: 0 !important;)
