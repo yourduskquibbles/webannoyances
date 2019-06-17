@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 09:46 2019-06-17
+! Last Modified: 10:29 2019-06-17
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -3931,7 +3931,8 @@ nypost.com###page-header:style(position: relative !important; top: 0 !important;
 nypost.com##body > .content:style(margin-top: 0 !important;)
 nytimes.com###collection__filter__container, .Block-header--2tzq6, .Block-noTopBorder--1M81B.Block-header--2tzq6, .BlockHeader-header--1598L, .BlockHeader-header--QxD_4, .CommentsPanel-stickyContent--3ah6a, .Home-header--eShDq, .TemplateUtils-bottomBorder--e5vHb.TemplateUtils-showBorder--2OVQ0.TemplateUtils-topLabel--1jiof, .comments-header-container, .css-1i860sg, .e1pwcx9q0, .css-136op87, .css-13lpfd6, .css-1855pjc, .css-koxs0u, .css-1mgcajg, .css-ulr03x:style(position: relative !important;)
 nytimes.com###main-header, .d-fow-nav:style(position: relative !important; top: 0 !important;)
-nytimes.com###masthead:not([class*=".masthead-theme-transparent-ffffff"]), .headroom:style(position: absolute !important; transform: translateY(0) !important;)
+nytimes.com###masthead:not([class=".masthead header wrapper clearfix" role="banner"]):not([class*=".masthead-theme-transparent-ffffff"]), .headroom:style(position: absolute !important; transform: translateY(0) !important;)
+nytimes.com###masthead[class=".masthead header wrapper clearfix" role="banner"]:style(position: relative !important; display: block !important; border-bottom: none !important;)
 nytimes.com###ribbon:style(position: absolute !important; width: 100% !important;)
 nytimes.com###story:style(padding-top: 0 !important;)
 nytimes.com##.article-page:style(overflow: hidden !important;)
@@ -3944,12 +3945,13 @@ nytimes.com##.masthead-theme-standard, .topnav:style(position: absolute !importa
 nytimes.com##.masthead-theme-transparent-ffffff, .masthead-theme-transparent.masthead:style(position: absolute !important; background-color: transparent !important;)
 nytimes.com##.masthead-theme-transparent.masthead.in-content .branding, .masthead.in-content.masthead-theme-transparent-ffffff .branding:style(display: block !important;)
 nytimes.com##.masthead-theme-transparent.masthead.in-content .home-button, .masthead.in-content.masthead-theme-transparent-ffffff .home-button:style(margin-top: 5px !important; height: unset !important;)
-nytimes.com##.masthead.in-content:style(top: 0 !important; box-shadow: none !important;)
+nytimes.com##.masthead.in-content:style(display: block !important; top: 0 !important; box-shadow: none !important;)
 nytimes.com##.masthead.masthead-theme-transparent .home-button .icon, .masthead.masthead-theme-transparent-ffffff .home-button .icon:style(opacity: 1 !important;)
 nytimes.com##.masthead.masthead-theme-transparent .quick-navigation, .masthead.masthead-theme-transparent-ffffff .quick-navigation, .masthead.masthead-theme-transparent .story-meta, .masthead.masthead-theme-transparent-ffffff .story-meta, .masthead.masthead-theme-transparent .collection-meta, .masthead.masthead-theme-transparent-ffffff .collection-meta, .masthead.masthead-theme-transparent .user-tools, .masthead.masthead-theme-transparent-ffffff .user-tools:style(padding-top: 5px !important;)
 nytimes.com##.masthead.masthead-theme-transparent-ffffff .home-button .icon:style(background-position: -249px -276px !important; width: 17px !important; height: 17px !important;)
+nytimes.com##.masthead.masthead-theme-transparent.in-content, .masthead.in-content.masthead-theme-transparent-ffffff:style(position: absolute !important; background-color: transparent !important; border-bottom: none !important;)
 nytimes.com##.masthead.theme-in-content:style(box-shadow: none !important; border-bottom: none !important;)
-nytimes.com##.masthead:style(position: relative !important; display: block !important; border-bottom: none !important;)
+nytimes.com##.masthead:style(display: block !important; border-bottom: none !important;)
 nytimes.com##.nytc---sitenav---siteNav, .specialrate-bar, .universalNav:style(position: absolute !important;)
 nytimes.com##.post-timestamp > time, .theme-speech-bubble-x-small.comments-button.button:style(opacity: 1 !important;)
 nytimes.com##.rad-series-nav:style(position: absolute !important; margin-top: 0 !important;)
