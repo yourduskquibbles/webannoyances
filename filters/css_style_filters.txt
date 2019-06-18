@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 15:59 2019-06-17
+! Last Modified: 09:59 2019-06-18
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1132,7 +1132,7 @@ chartable.com##.js-toc.pa3.b--blue.bg-washed-blue.br2.ba.w5.dn.db-l.fr:style(pos
 chartiq.com,earthnow.com,wedevs.com###masthead:style(position: absolute !important; background-color: transparent !important;)
 chase.com###ad-offers-list-header, #flyoutClose, #flyoutHeaderContent:style(position: absolute !important;)
 chase.com###addAuthUser, #dashboard-header, #documentsMenuHeader, #header-container, #header-inner-fixed-container, #headerclassic, #my-profile, #pnt-tabs, #profile-header, #SeeAllOffersHeader, .header, .my-profile-subcontainer:style(position: relative !important; top: 0 !important;)
-chase.com###back-nav-hdr-container:style(position: static !important;)
+chase.com###back-nav-hdr-container, .overview-summary .more-link.without-ellipse .jpui.dropdown .input:style(position: static !important;)
 chase.com###header-fixed:style(position: relative !important;)
 chase.com###header-outer-container:style(height: auto !important;)
 chase.com###my-profile-nav-menu:style(padding-top: 0 !important;)
@@ -3208,6 +3208,7 @@ loadoutroom.com##.fix-menu.nav-secondary:style(position: relative !important; to
 localbabysitter.com###et-top-navigation:style(padding-top: 33px !important;)
 localbabysitter.com###page-container:style(padding-top: 0 !important; margin-top: -1px !important;)
 localbabysitter.com##.et_header_style_left #et-top-navigation nav > ul > li > a, .et_header_style_split #et-top-navigation nav > ul > li > a:style(padding-bottom: 33px !important;)
+lockheedmartinjobs.com###inpage-nav:style(position: static !important; padding: 70px 0 25px !important;)
 logitech.com###global-navbar:style(position: relative !important;)
 logitech.com###subnav:style(position: absolute !important;)
 logitech.com##.cForum_Header.blue-bg:style(position: relative !important; top: 0 !important;)
