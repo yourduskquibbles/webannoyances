@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 13:00 2019-06-18
+! Last Modified: 14:30 2019-06-18
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -3968,6 +3968,7 @@ nytimes.com##.viewport-medium-10 .masthead.masthead-theme-standard .quick-naviga
 nytimes.com##.viewport-medium-30 .masthead .quick-navigation .button-text:style(position: static !important; width: auto !important; height: auto !important; margin: 0 !important; clip: auto !important; overflow: visible !important;)
 nytimes.com##.viewport-medium-30 .masthead.masthead-theme-standard .quick-navigation .button-text:style(margin-left: 7px !important;)
 nytimes.com##.viewport-medium-30 .masthead.masthead-theme-transparent .home-button .button-text, .viewport-medium-30 .masthead.masthead-theme-transparent-ffffff .home-button .button-text:style(position: relative !important; margin-left: 5px !important;)
+nytimes.com##body:style(overflow-x: unset !important;)
 nytimes.com##header#masthead.masthead-theme-standard.masthead:style(position: relative !important;)
 nzherald.co.nz##.floatingNav, .nz-herald.onscreen.site-logo-wrapper:style(position: relative !important; top: 0 !important;)
 oakpark.com##.ui-panel-content-fixed-toolbar-closed.ui-panel-animate.ui-panel-content-fixed-toolbar.slidedown.ui-header-fixed.ui-bar-c.ui-header.np:style(position: relative !important; top: 0 !important;)
