@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 15:22 2019-06-20
+! Last Modified: 15:48 2019-06-20
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -4818,6 +4818,9 @@ solecollector.com##.rail:style(position: absolute !important; top: 0 !important;
 solteq.com##.header-wrapper:style(position: absolute !important; top: 0 !important; animation: none !important; opacity: 1 !important; visibility: visible !important;)
 solutionreach.com##.site-header--light.site-header:style(position: absolute !important;)
 soompi.com##.component-feedback:style(position: absolute !important;)
+sorbet.org###docsNav:style(position: static !important;)
+sorbet.org##.fixedHeaderContainer:style(position: absolute !important;)
+sorbet.org##.onPageNav:style(position: static !important; margin-top: 50px !important;)
 soundcloud.com##.g-z-index-header.app__header, .header, .sc-browsers-enable-gpu.l-fixed.searchTitle:style(position: relative !important; top: 0 !important;)
 soundcloud.com##.m-hideHeader > #app > .m-visible.g-z-index-control-bar.playControls:style(position: absolute !important; top: 0 !important; margin-top: 0 !important; margin-bottom: 46px !important;)
 soundcloud.com##.m-hideHeader > #app:style(padding-top: 46px !important;)
