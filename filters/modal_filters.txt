@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 14:51 2019-06-20
+! Last Modified: 15:28 2019-06-21
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of cookie bars & other page covering elements. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -717,6 +717,7 @@ yodalearning.com##.tve_content_lock.tve_lead_lock.tve_lock_blur .tve_lead_locked
 yodalearning.com##.tve_lead_locked_content:style(filter: none !important; user-select: text !important; -moz-user-select: text !important; -webkit-user-select: text !important;)
 yodalearning.com##.tve_lead_locked_overlay, .tve-leads-screen-filler, .tve-leads-triggered
 yodalearning.com##body:style(margin-top: 0 !important;)
+yodalearning.com##w-div:has([role^="dialog"])
 zdf.de##.js-rb-attached.m-open.x-cookies.b-system-dialog
 zdnet.com###offerContainer-e651d1b3
 zenmate.com##.zm-crm-overlay
