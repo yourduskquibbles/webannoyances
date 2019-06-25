@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 12:05 2019-06-25
+! Last Modified: 15:37 2019-06-25
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2739,8 +2739,8 @@ i-d.vice.com##.site-header__logo:style(width: 51px !important;)
 i-d.vice.com,sports.vice.com##.site-header__logo path:style(fill: #000 !important;)
 i-e-e.info###main-header:style(position: absolute !important; top: 0 !important;)
 iastate.edu##.affix.navbar-menu-affix.navbar-caps.no-border.navbar-static-top.navbar-default.navbar-menu.navbar:style(position: relative !important;)
-ibm.com###ibm-masthead:style(position: absolute !important; top: 0 !important;)
-ibm.com##.ibm-sitenav-menu-sticky:style(margin-top: 0 !important;)
+ibm.com###ibm-masthead, .ibm-sitenav-menu-container:style(position: relative !important; top: 0 !important; transform: translate3d(0,0,0) !important;)
+ibm.com##.ibm-masthead-sticky.ibm-masthead-sticky-showing.ibm-sitenav-menu, .ibm-sitenav-menu-sticky, .ibm-sitenav-menu-container:style(margin-top: 0 !important;)
 ibm.com##.site-progress-bar:style(position: absolute !important;)
 ibtimes.co.in##.mob-search, .slicknav_menu:style(position: absolute !important;)
 ibtimes.co.uk###navi-wrap:style(position: relative !important; top: 0 !important;)
