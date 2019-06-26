@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 15:55 2019-06-25
+! Last Modified: 23:37 2019-06-25
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -6290,7 +6290,7 @@ youtube.com##.appbar-guide-menu-layout, .gstl_50.sbdd_a, .js-yt-header.yt-header
 youtube.com##.no-scroll #page-manager:style(margin-top: 0px !important)
 youtube.com##app-drawer:style(bottom: 0 !important; padding-bottom: 0 !important;)
 youtube.com##app-drawer[opened=""]:style(position: fixed !important;)
-youtube.com##ytd-app[is-watch-page][scrolling_][style^="--ytd-app-fullerscreen-scrollbar-width:17px; --ytd-masthead-height:0px;"] #masthead-container:style(opacity: 0 !important;)
+youtube.com##ytd-app[is-watch-page][scrolling_][style^="--ytd-app-fullerscreen-scrollbar-width:17px; --ytd-masthead-height:0px;"] #masthead-container, ytd-app[scrolling_=""] #masthead-container:style(opacity: 0 !important;)
 youtube.com##ytd-guide-entry-renderer:style(display: block !important;)
 youtube.com##ytd-playlist-sidebar-renderer.ytd-browse, ytd-settings-sidebar-renderer.ytd-browse:style(position: absolute !important; left: unset !important;)
 yp.sg##.navbar-visible.navbar-stuck.social-disabled.navbar-center.navbar-primary, .sidebar:style(position: absolute !important;)
