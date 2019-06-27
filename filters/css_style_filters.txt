@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 14:22 2019-06-27
+! Last Modified: 15:00 2019-06-27
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2769,6 +2769,8 @@ idiallo.com##.master-header:style(position: absolute !important;)
 idnes.cz###fix-block-1:style(position: absolute !important;)
 idnes.cz###p-menu:style(position: relative !important;)
 idropnews.com###main-nav-cont:style(position: relative !important; top: 0 !important;)
+idropnews.com###sidebar:style(opacity: 1 !important;)
+idropnews.com,zeit.co##.sticky:style(position: absolute !important;)
 idtbox.com##.topbar-wrap:style(padding-top: 0 !important;)
 idtbox.com##.topbar:style(position: relative !important;)
 idtheftcenter.org##.av-logo-container.container, nav > div > ul > li > a:style(height: 118px !important; line-height: 118px !important;)
@@ -6335,7 +6337,6 @@ zdnet.com###bodyWrapper:style(overflow-x: hidden !important; overflow-y: scroll 
 zdnet.com###mainHeader:style(padding-bottom: 0 !important;)
 zdnet.com##.fixed.fixation:style(position: relative !important; top: 0 !important;)
 zdnet.com##.gallery-controls-top, .gallery-page:style(overflow: hidden !important;)
-zeit.co##.sticky:style(position: absolute !important;)
 zemana.com##.clearfix.header-small.header:style(position: absolute !important;)
 zendesk.com###contact-widget-launcher:style(position: absolute !important;)
 zendesk.com##.sticky-container:style(position: relative !important;)
