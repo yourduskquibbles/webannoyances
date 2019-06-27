@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 23:37 2019-06-25
+! Last Modified: 23:03 2019-06-26
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -3836,6 +3836,9 @@ news.vice.com##._f22krk:style(position: relative !important; transform: none !im
 news.vice.com##._s7ge0q:style(padding-top: 31px !important; padding-bottom: 31px !important;)
 news.vice.com##.ah.ag.bp.bo.bn.bm.bl.bk.bj.v.u.j.bh.a, .cc.cb.ca.bz.by.ai:style(transform: none !important;)
 news.vice.com##.j.i.h.g.f:style(position: absolute !important; transform: none !important;)
+news.yahoo.com##.bottom-docked-container div[style*="position: fixed;"]:style(position: relative !important; bottom: 0 !important;)
+news.yahoo.com##.bottom-docked-container:style(margin-top: 0 !important;)
+news.yahoo.com##div[id="render-target-default"]:style(top: 0 !important;)
 news12.com##.wn-sticky:style(position: relative !important; top: 0 !important;)
 news24.com##.personalisationContainer:style(position: absolute !important;)
 newsandsentinel.com###top_header, #wprmenu_bar:style(position: absolute !important;)
