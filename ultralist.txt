@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist
-! Last Modified: 23:03 2019-06-26
+! Last Modified: 23:08 2019-06-26
 ! Expires: 2 Days (Update Frequency)
 ! Description: Block annoying web elements and reclaim lost screen real estate. Web Annoyances Ultralist also includes the following sublists - CSS Style Modifying Filters, Generic Filters, Modal Filters, Newsletter Filters, & Social Filters. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -456,6 +456,7 @@ blogger.com##.header--sticky
 blogs.nasa.gov##body:after
 blogs.nasa.gov##body:before
 blogs.office.com##.f-wrap-items.c-group
+blogs.spectator.co.uk##div[style="height: 73px;"]
 blogspot.ca,blogspot.com###sidebar-top
 blogspot.com###HTML5
 blogspot.com,sb2.live,talospace.com,vulnano.com##.animating.sticky.centered-top-container
@@ -2470,6 +2471,8 @@ nextcity.org##.footer-banner-newsletter.footer-banner
 nextgov.com##.advert-placeholder
 nextgov.com##.ng-topad
 nextimpulsesports.com###top-ad-section
+nextshark.com##.sticky-el
+nextshark.com##div[id^="sticky-footer-div-gpt-ad-"]
 nfl.com###experienceUpgradePromo
 nfl.com##.bling
 nfl.com##.yui3-nfl-rewards-drivebar-top-bar-wrapper
