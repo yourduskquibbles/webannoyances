@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 11:37 2019-06-28
+! Last Modified: 12:55 2019-06-28
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2729,6 +2729,7 @@ huffingtonpost.*,huffpost.com###breaking-news, .progress, .js-site-header-fixed.
 huffingtonpost.*,huffpost.com###top-media:style(position: static !important;)
 huffingtonpost.*,huffpost.com##.a-page:not(.section-video) .header__placeholder, .interactive.sticky-nav .header__placeholder, .newsletter-hub-page .header__placeholder:style(height: 50px !important;)
 huffingtonpost.*,huffpost.com##.active.header-social, .module-navigation.module:style(position: relative !important; top: 0 !important;)
+huffingtonpost.*,huffpost.com##.header:style(height: 78px !important;)
 huffingtonpost.*,huffpost.com##.inner-floating-container:style(opacity: 1 !important;)
 huffingtonpost.*,huffpost.com##.js-header.header:style(position: relative !important; top: 0 !important;)
 huffingtonpost.*,huffpost.com##.logo__img:style(height: 28px !important;)
