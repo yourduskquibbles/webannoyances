@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 16:16 2019-06-27
+! Last Modified: 23:38 2019-06-27
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -5932,6 +5932,8 @@ washingtoncitypaper.com##header:style(position: relative !important; top: 0 !imp
 washingtoncitypaper.com##nav ul:style(padding: 10px 0 !important;)
 washingtonexaminer.com###cnx-autoplay-container, .ndn_floatContainer:style(position: static !important;)
 washingtonexaminer.com##.FixedHeader, .hidden-print.justify-content-between.mb-1.bg-inverse.navbar-dark.fixed-top.nav.navbar.flex-row.topbar:style(position: absolute !important;)
+washingtonexaminer.com##.cnx-in-can-close.cnx-float-transition.top-right.cnx-float.cnx-bp-xl.cnx-size-responsive.cnx-video-container:style(inset: 0 0 auto auto !important;)
+washingtonexaminer.com##.cnx-size-responsive.cnx-video-container:style(position: absolute !important; left: 0 !important; top: 0 !important; width: 100% !important; height: 100% !important;)
 washingtonexaminer.com##.pt-1, .pt-3:style(padding-top: 0 !important;)
 washingtonian.com##.navbar-fixed.progressBar.slim-navbar.container-fluid:style(position: relative !important;)
 washingtonmonthly.com##.scrolled.home-header.header:style(position: relative !important; top: 0 !important;)
