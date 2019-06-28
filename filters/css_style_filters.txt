@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 11:13 2019-06-28
+! Last Modified: 11:37 2019-06-28
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2654,6 +2654,7 @@ hindustantimes.com##.header2:style(position: absolute !important;)
 hireright.com##.fhmm.navbar-static-top.navbar-white.navbar:style(position: relative !important; top: 0 !important;)
 history.com##.m-video-player--frame-container:style(position: static !important; bottom: 0 !important; height: 100% !important; left: 0 !important; right: 0 !important; top: 0 !important; width: unset !important;)
 history.com##.mm-video-player--floating .m-video-player--frame:style(height: 100% !important; width: 100% !important;)
+historyextra.com##.is-sticky.site-header__eyebrow, .is-sticky.site-header__nav:style(position: absolute !important;)
 historynet.com##.ubermenu:style(position: absolute !important;)
 historytoday.com##.ht-mini-header-wrapper:style(position: absolute !important;)
 hm.com##.is-hidden-webview.js-viewport-offset-element.js-l-header.l-header:style(position: relative !important;)
