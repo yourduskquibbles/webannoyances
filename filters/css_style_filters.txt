@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 13:13 2019-07-02
+! Last Modified: 13:38 2019-07-02
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -3608,6 +3608,9 @@ motherjones.com###page:style(margin-top: 0 !important;)
 mothership.sg###menu-new-main-menu, .search-bar, .top-nav:style(position: absolute !important;)
 motionelements.com###launcher, #main-header, #top-header:style(position: absolute !important;)
 motor-talk.de###StickyHeader:style(position: absolute !important;)
+motor1.com###post_sidebar:style(position: static !important;)
+motor1.com##.m1-header-main:style(position: absolute !important; transform: translateZ(0) !important;)
+motor1.com##.withAvatar.postAuthorBox:style(margin-top: 25px !important;)
 motorauthority.com###masterhead-inner, .nav-container:style(position: absolute !important;)
 motorauthority.com##.article-wrap .right-col aside.stay:style(position: absolute !important; top: -85px !important;)
 motoring.com.au##.csn-motoring-search-panel, .csn-motoring-sticky-search, .morph-main-menu-button, .td-header-main-menu-clone.td-header-row:style(position: relative !important; top: 0 !important;)
