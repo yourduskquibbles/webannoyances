@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 12:50 2019-07-03
+! Last Modified: 15:08 2019-07-03
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -3466,9 +3466,9 @@ mercopress.com###goToTop > header:style(position: absolute !important;)
 mercopress.com,newsbtc.com,siam.org##.sticky-header:style(position: relative !important;)
 meredith.com###header, #sidebar, .subnav:style(position: absolute !important;)
 merit.me##.site__Navigation:style(position: absolute !important;)
-merriam-webster.com##.fixed-wrapper:style(position: absolute !important; top: 0 !important; margin-top: 110px !important;)
+merriam-webster.com###definition-fixed-wrapper, .rail-abl-box, .shrinkheader:style(position: relative !important;)
+merriam-webster.com##.fixed-wrapper:style(position: relative !important; top: 0 !important; margin-top: 0 !important;)
 merriam-webster.com##.outer-container:style(margin-top: 0 !important;)
-merriam-webster.com##.shrinkheader:style(position: relative !important;)
 merriman.com###page-container:style(padding-top: 0 !important;)
 merriman.com,thenewsrep.com###top-header:style(position: absolute !important;)
 merryjane.com###view-port:style(position: relative !important; top: 0 !important;)
