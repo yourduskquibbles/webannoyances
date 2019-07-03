@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist
-! Last Modified: 09:24 2019-07-03
+! Last Modified: 11:59 2019-07-03
 ! Expires: 2 Days (Update Frequency)
 ! Description: Block annoying web elements and reclaim lost screen real estate. Web Annoyances Ultralist also includes the following sublists - CSS Style Modifying Filters, Generic Filters, Modal Filters, Newsletter Filters, & Social Filters. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -332,9 +332,13 @@ autoblog.com##.tooltipster-content
 autoblog.com##.tooltipster-fade-show.tooltipster-fade.ab_product_promo.tooltipster-default.tooltipster-base
 autoevolution.com##div[class^="ad"]
 autonews.com###headerToggle
-avclub.com,causeandeffect.fm,clickhole.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,kinja.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com###privacypolicy
-avclub.com,causeandeffect.fm,clickhole.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,kinja.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.contained-ad-container
-avclub.com,causeandeffect.fm,clickhole.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,kinja.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.global-nav--scrollback
+avclub.com##.cLeTpq.header__GlobalNav-sc-80eizx-7
+avclub.com##.jhkYuB.sc-80eizx-7
+avclub.com,clickhole.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,jezebel.com,kinja.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com###privacypolicy
+avclub.com,clickhole.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,jezebel.com,kinja.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.ad-non-sticky
+avclub.com,clickhole.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,jezebel.com,kinja.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.contained-ad-container
+avclub.com,clickhole.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,jezebel.com,kinja.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.global-nav--scrollback
+avclub.com,clickhole.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,jezebel.com,kinja.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##div[class^="header__Container-sc-"] >:matches-css(position: fixed)
 avgthreatlabs.com###banner
 avproductreviews.com###dcssb-slick
 avsforum.com##.Leaderboard-bottom
@@ -768,6 +772,8 @@ cjonline.com###header-main-promo
 cjr.org##.navbar-right.navbar-nav.nav
 cleantechnica.com###dpsp-content-top
 cleveland19.com##.story-feed
+clickhole.com##.eSDOIL.header__GlobalNav-sc-80eizx-7
+clickhole.com##.iRdRiC.sc-80eizx-7
 climateactionprogramme.com##.icon-text.phone-icon
 clippituser.tv##.download-android.download-link-container
 clippituser.tv##.download-text
@@ -1017,6 +1023,8 @@ dbltap.com##.next-post-button
 dcist.com##.adv_box
 dcist.com##.main-item-footer
 deadline.com##.counters
+deadspin.com##.fxZQwA.header__GlobalNav-sc-80eizx-7
+deadspin.com##.iSyYtB.sc-80eizx-7
 deadstate.org###prev-next-wrap
 dealcatcher.com###main-menu
 dealnews.com##.slide-container-image.slide-container-middle.slide-container-left.slide-container
@@ -1491,6 +1499,8 @@ github.com##.pr-toolbar-shadow
 github.com##.toolbar-shadow
 github.com##.user-profile-sticky-bar
 gitlab.com##.active.js-sticky-banner.sticky-banner
+gizmodo.com##.dKiHSS.sc-80eizx-7
+gizmodo.com##.gDavHO.header__GlobalNav-sc-80eizx-7
 glamour.com##.cns-ads-stage
 glamour.com##.collapsed-header
 glamour.com##.expanded.riser
@@ -1885,9 +1895,13 @@ itsfoss.com###text-3
 itsfoss.com###text-3_clone
 itunescharts.net##.ad_responsive
 ivpn.net##.rocketchat-widget
+jalopnik.com##.cTqRbi.header__GlobalNav-sc-80eizx-7
+jalopnik.com##.gRFTMP.sc-80eizx-7
 jamestownsun.com##.title-recommendation-engine-block
 japaneseknifeimports.com###spacer
 jetbrains.com##.js-banner-body-wrapper.banner__body
+jezebel.com##.gsnEuB.sc-80eizx-7
+jezebel.com##.iArcuo.header__GlobalNav-sc-80eizx-7
 jilt.com###sticky-header
 joerogan.com###showOnScrollWrapper
 joinhoney.com##.rmq-ee92ab5d
@@ -1920,6 +1934,7 @@ kickstarter.com##.mx-1.relative.z2.shadow-high.py2.bg-navy-200
 kidpower.org###main-header
 kidpower.org###top-header
 kinguin.net##.sticky_header
+kinja.com##.jFENrj.sc-80eizx-7
 kinsta.com###site-menu--hover
 kiplinger.com###smallHead
 kiplinger.com##.kip-advertisement
@@ -1934,6 +1949,8 @@ konbini.com,winpasskey.com##.fixed-nav
 koreatimes.co.kr##.view_sns_div
 korg.com###contents_info
 korg.com###info_container
+kotaku.com##.fSIhRp.sc-80eizx-7
+kotaku.com##.jeICbu.header__GlobalNav-sc-80eizx-7
 kottke.org,yp.sg##.post-sidebar
 kqed.org##.components-AdLive-___AdLive__ad
 kqed.org##.components-AudioPlayer-components-AudioBar-___AudioBar__audioBar_Ad
@@ -1994,6 +2011,8 @@ lifealth.com##.header--slide.fixed.header
 lifehack.org##._3PTI5._2kD06
 lifehack.org##.ad-wrap-transparent
 lifehack.org##.conv_state_desktop.conv-container
+lifehacker.com##.QrmaM.sc-80eizx-7
+lifehacker.com##.erPJCj.header__GlobalNav-sc-80eizx-7
 lifewire.com###leaderboard_2-0
 lifezette.com##.ad-widget
 lifezette.com##.menu-bar-trigger
@@ -3228,6 +3247,8 @@ spin.com##.ad-container
 spin.com##.ad-holder
 spin.com##.footer-ad-holder
 spin.com##.sidebar-bg
+splinternews.com##.cVkxCb.sc-80eizx-7
+splinternews.com##.hEXoiA.header__GlobalNav-sc-80eizx-7
 splitsider.com##.leaderboard__wrapper
 spoonuniversity.com##.off-canvas-content header.nav-hide
 sport.es##.install-banner
@@ -3517,6 +3538,8 @@ theinquirer.net##.below_top_search
 theinquirer.net##.contentNavi_onemore
 theinquirer.net##.right_common_block_content.iefix
 theintercept.com##.InterceptedBanner--desktop.InterceptedBanner
+theinventory.com##.dPbRcY.header__GlobalNav-sc-80eizx-7
+theinventory.com##.kcztTz.sc-80eizx-7
 thejacknews.com##.mobile-header-appear.eltd-animate-mobile-header.eltd-mobile-header
 thejournal.ie###notify-container
 thekitchn.com##.StickNSlideContainer
@@ -3545,6 +3568,8 @@ thenational.ae##.sticky-logo
 thenational.ae##.sticky-search
 thenewcivilrightsmovement.com##.block-alert
 thenewinquiry.com###sideline
+theonion.com##.dyeBYJ.header__GlobalNav-sc-80eizx-7
+theonion.com##.kxfoNN.sc-80eizx-7
 theoutline.com##.card.claudia--method-turbine.claudia
 theoutline.com##.card.dongle--harrys-vote.dongle--harrys-fastandloose.dongle
 theoutline.com##.card.gdongle--harrys-german.gdongle
@@ -3574,6 +3599,8 @@ therecord.com###div3881
 therecord.com##.fa-angle-up
 therecord.com##ads
 therecord.com##body > span
+theroot.com##.eDFfja.sc-80eizx-7
+theroot.com##.fddgWk.header__GlobalNav-sc-80eizx-7
 thescore.com##.Ad__bigbox--3DeHj
 thescore.com##.Ad__container--2fhQb
 thescore.com##.ad-tile
@@ -3610,6 +3637,8 @@ thestreet.com##.main-nav__header-ad
 thestreet.com##.sticky-block
 thestreet.com##.sticky-top-ad-wrap
 thestylecon.com###upprev_box
+thetakeout.com##.cgAddJ.header__GlobalNav-sc-80eizx-7
+thetakeout.com##.dWCMAB.sc-80eizx-7
 thetimes.co.uk###tto-cookieMessage
 thetimes.co.uk###tto-cookieMessageInner
 thetimes.co.uk##.ArticlePager
