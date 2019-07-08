@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 11:31 2019-07-08
+! Last Modified: 14:37 2019-07-08
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of cookie bars & other page covering elements. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -451,6 +451,8 @@ neh.gov###prefix-overlay-outer
 netgear.com##.alert-overlay
 newatlas.com###subscribe_modal_container, .jqmOverlay
 newrepublic.com###highlight-overlay, #read-next-flyout, .simplemodal-close, .site-popup
+news.sky.com##div[class^="sp_message"], div[class^="sp_veil"]
+news.sky.com##html.sp-message-open:style(overflow: auto !important; position: unset !important;)
 news12.com##.paywall-widget
 newscientist.com###registration-barrier
 newscientist.com##body:style(position: relative !important; overflow-x: hidden !important; overflow-y: scroll !important;)
