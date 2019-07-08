@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 14:48 2019-07-08
+! Last Modified: 15:17 2019-07-08
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -3885,6 +3885,11 @@ news.google.com##.fmkQje .waNn5b:style(opacity: 1 !important;)
 news.harvard.edu###inner-wrap:style(margin-top: 0 !important;)
 news.harvard.edu###sticky-filter:style(position: absolute !important; top: 0 !important;)
 news.harvard.edu##.sticky:style(position: relative !important; top: 0 !important;)
+news.mit.edu###site-header-area-wrapper #site-header-area #options-wrapper:style(margin-top: 50px !important;)
+news.mit.edu###site-header-area-wrapper #site-header-area #site-header a#logo-mit-news:style(height: 67px !important; width: 289px !important; background-position-x: 0 !important; background-position-y: 0 !important;)
+news.mit.edu###site-header-area-wrapper #site-header-area #site-header:style(padding: 20px 0 !important;)
+news.mit.edu##.sticky-wrapper .stuck:style(position: relative !important;)
+news.mit.edu##nav > .sticky-wrapper:style(height: 88px !important;)
 news.trust.org##.detail-page.article .lead-image .information p:style(display: block !important;)
 news.vice.com##._19nu02r:style(transform: scale(1.2, 1.2) !important;)
 news.vice.com##._f22krk:style(position: relative !important; transform: none !important;)
