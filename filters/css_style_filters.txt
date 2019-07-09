@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 11:47 2019-07-09
+! Last Modified: 11:54 2019-07-09
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -4034,6 +4034,7 @@ nutro.com##.header-wrapper .logo-wrapper .logo-img, .logo-wrapper:style(position
 nvidia.com###box:style(padding-top: 0 !important;)
 nvidia.com###page-content:style(margin-top: 0 !important;)
 nvidia.com##.global-nav, .secondary-menu-slot, .subnav:style(position: relative !important; top: 0 !important;)
+nvidia.com##div[style="margin-top:75px;"]:style(margin-top: 0 !important;)
 ny1.com##.navbar-fixed-top.fixed-top.site-header-inner:style(position: absolute !important;)
 nydailynews.com###rh-subnav:style(position: relative !important; top: 0 !important;)
 nydailynews.com###rh:style(margin-top: 0 !important;)
@@ -4916,7 +4917,7 @@ snapguide.com###cover, #guide-toolbar-container, .navbar:style(position: relativ
 snopes.com###header-main:style(position: relative !important;)
 snopes.com###header-mobile, .sticky-header-offset.gpu-acceleration.main-container > .sticky-active.sticky.compact.clearfix.header:style(position: relative !important; top: 0 !important;)
 snopes.com##.main:style(padding-top: 0 !important;)
-snopes.com,themarshallproject.org,nvidia.com##body:style(overflow-x: hidden !important; overflow-y: scroll !important; margin-top: 0 !important;)
+snopes.com,themarshallproject.org##body:style(overflow-x: hidden !important; overflow-y: scroll !important; margin-top: 0 !important;)
 snowbrains.com###sb-main-menu:style(position: absolute !important;)
 snowbrains.com###secondary:style(top: 0 !important;)
 snowbrains.com##.sb-footer.container-fluid:style(position: relative !important;)
