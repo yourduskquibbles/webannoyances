@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist
-! Last Modified: 08:25 2019-07-16
+! Last Modified: 08:28 2019-07-16
 ! Expires: 2 Days (Update Frequency)
 ! Description: Block annoying web elements and reclaim lost screen real estate. Web Annoyances Ultralist also includes the following sublists - CSS Style Modifying Filters, Generic Filters, Modal Filters, Newsletter Filters, & Social Filters. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -4200,6 +4200,7 @@ wsj.com##.wsj-body-ad-placement
 wsj.com##.wsj-immersive-ad-placement
 wsj.com##.wsj-native-strip
 wsj.com##.wsj-responsive-nav-circ-wrap
+wsj.com##div[class^="WSJTheme--adWrapper--"]
 wsvn.com###main-body-wrap-js > div:nth-of-type(1)
 wtop.com###header_sticky_ad
 wtop.com###voteTools
