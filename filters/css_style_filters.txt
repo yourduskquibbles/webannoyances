@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 12:55 2019-07-18
+! Last Modified: 14:24 2019-07-18
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1442,8 +1442,10 @@ crackwatch.com##.friends-icon, .menu-drawer-icon, .message-icon, .nav-profile, .
 craft.co##.header__universal-search.navbar-left.navbar-form > .us > .us-trigger, .navbar:style(position: absolute !important;)
 craftsmanship.net###WP, .site-menu:style(position: absolute !important;)
 craftsmanship.net##.fb-top.foobar-wrapper.small-white-arrow:style(position: absolute !important; top: 0 !important;)
-craigslist.org##.querybox, .wide.global-header:style(position: relative !important; top: 0 !important;)
-craigslist.org##.search-options-container:style(position: absolute !important;)
+craigslist.org##.querybox:style(position: relative !important; margin-top: 0 !important;)
+craigslist.org##.search-legend:style(padding-top: 0 !important;)
+craigslist.org##.search-options-container:style(position: absolute !important; top: 0 !important;)
+craigslist.org##.wide.global-header:style(position: static !important;)
 crain.com###header-page.header-home .logo:style(padding: 0 !important; transform: none !important;)
 crain.com###header-page.header-home.header-page-fixed:style(background-color: transparent !important;)
 crain.com###header-page:style(position: absolute !important; box-shadow: none !important;)
