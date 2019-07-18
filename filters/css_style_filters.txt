@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 14:24 2019-07-18
+! Last Modified: 15:20 2019-07-18
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1906,7 +1906,7 @@ eff.org###tools:style(position: relative !important; top: 0 !important;)
 eff.org###topbar:style(margin-bottom: 0 !important;)
 efficiencyiseverything.com###fh5co-header:style(position: absolute !important; background: transparent !important; margin-top: 20px !important; box-shadow: none !important; animation: none !important; border: none !important;)
 ehang.com##.hidden-xs.subMenu, .isStuck.stuckMenu.visible-xs.static-div:style(position: relative !important; top: 0 !important;)
-ehomerecordingstudio.com###custom_html-12:style(position: absolute !important; top: 100px !important;)
+ehomerecordingstudio.com##section[id^="custom_html"][style^="position: fixed"]:style(position: absolute !important; top: 100px !important;)
 ehow.com###Header:style(position: absolute !important; top: 0 !important; transform: none !important;)
 eia-global.org##.header_navigation_wrapper:style(position: relative !important; background-image: none !important; background-color: rgba(2,2,2,.8) !important;)
 eji.org##.head-wrap:style(position: absolute !important; box-shadow: none !important;)
