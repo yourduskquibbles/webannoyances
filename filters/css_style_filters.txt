@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 11:16 2019-07-19
+! Last Modified: 12:14 2019-07-19
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -289,7 +289,7 @@ alaskaair.com###wrap > div.container > div.row:style(height: 0 !important;)
 alaskaair.com##.hentry:style(margin-top: 0 !important;)
 alaskaair.com##.masthead:style(position: relative !important; top: 0 !important; margin-top: -100px !important; margin-bottom: 0 !important; background-position-x: center !important; background-position-y: 0 !important;)
 alaskahighwaynews.ca,assiniboiatimes.ca,axios.com,blog.logrocket.com,bowenislandundercurrent.com,burnabynow.com,canoracourier.com,carlyleobserver.com,coastreporter.net,dawsoncreekmirror.ca,delorainetimes.ca,delta-optimist.com,empireadvance.ca,estevanmercury.ca,humboldtjournal.ca,kamsacktimes.com,kiplingcitizen.ca,lillooetnews.net,melitanewera.ca,newsoptimist.ca,newwestrecord.ca,nsnews.com,pipelinenews.ca,pipelinenewsnorth.ca,preecevilleprogress.com,princegeorgecitizen.com,prpeak.com,restonrecorder.ca,richmond-news.com,sourisplaindealer.ca,squamishchief.com,theoutlook.ca,thereminder.ca,thompsoncitizen.net,timescolonist.com,tisdalerecorder.ca,tricitynews.com,vancourier.com,westmanjournal.com,weyburnreview.com,weyburnthisweek.com,yorktonthisweek.com##.fixed-top:style(position: absolute !important;)
-alaskapublic.org,america.gov,art-sheep.com,celebtoast.com,checkpoint.com,cryptosumer.com,dansdeals.com,eng.uber.com,finbulletin.com,globalanimal.org,intellihub.com,lamag.com,mashtips.com,mmanews.com,minecraft-resourcepacks.com,mybelieves.com,nextofwindows.com,nmsunews.com,passiveincomemd.com,plagiarismtoday.com,protribune.com,saraacarter.com,servethehome.com,technorms.com,thegolder.com,themefoxx.com,uspostnews.com,winbuzzer.com,wirelessster.com,zycrypto.com##.td-ss-main-sidebar:style(position: static !important;)
+alaskapublic.org,america.gov,art-sheep.com,celebtoast.com,checkpoint.com,cryptosumer.com,dansdeals.com,eng.uber.com,finbulletin.com,globalanimal.org,intellihub.com,lamag.com,mashtips.com,mmanews.com,minecraft-resourcepacks.com,mybelieves.com,nextofwindows.com,nmsunews.com,passiveincomemd.com,pcmdnews.com,plagiarismtoday.com,protribune.com,saraacarter.com,servethehome.com,technorms.com,thegolder.com,themefoxx.com,uspostnews.com,winbuzzer.com,wirelessster.com,zycrypto.com##.td-ss-main-sidebar:style(position: static !important;)
 alexa.com###alx-header, .fusion-sticky-shadow.fusion-header:style(position: absolute !important;)
 alexaobrien.com##.follow.header-v1.stickynav-on.main, .header-v1.stickynav-on.main:style(position: relative !important; top: 0 !important;)
 alibaba.com##.list-seachbar-content-wrap:style(position: relative !important;)
@@ -4265,6 +4265,8 @@ pcmag.com##.container.wrapper:style(padding-top: 60px !important;)
 pcmag.com##.trending-nav:style(position: absolute !important;)
 pcmag.com##header#main-top-nav nav .main-nav:style(position: absolute !important; max-width: 100% !important; overflow-x: scroll !important; overflow-y: hidden !important;)
 pcmag.com##header#main-top-nav.scrolling .logo:style(height: 80px !important; width: 66px !important;)
+pcmdnews.com##.td-header-main-menu:style(position: relative !important; transform: translate3d(0, 0, 0) !important;)
+pcmdnews.com##.td-logo-in-menu .td-sticky-disable.td-header-logo:style(display: block !important;)
 pcworld.com###drr-top-ad:style(margin-top: 0 !important;)
 pcworld.com###page-top:style(position: relative !important;)
 pcworld.com##.attached.some-toc.scaleArticleToc.tocWrapper, .stick-rr-vid.howto-video-feature:style(position: absolute !important;)
