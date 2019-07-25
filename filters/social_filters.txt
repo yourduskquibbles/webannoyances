@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Social Filters
-! Last Modified: 08:51 2019-07-25
+! Last Modified: 09:13 2019-07-25
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for social networking & sharing - Remove third party social media share sections, icons & other cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -620,6 +620,8 @@ outsports.com##.m-entry__social
 ozy.com##.i-story-share-facebook-off, .i-story-share-facebook-on, .i-story-share-twitter-off, .i-story-share-twitter-on, .share-block-bottom, .share-item, .sharing-options, .side-social-wrapper, .social-links
 pagesix.com###highlight-share, .widget_nypost_social_widget
 paloaltoonline.com##._magnetRelSbCon
+parenting.nytimes.com##div[data-testid="share-tools"] li:has-text(Share on Facebook)
+parenting.nytimes.com##div[data-testid="share-tools"] li:nth-child(2):style(margin-left: 0 !important;)
 pastebin.com##.h_800.tweet
 patch.com##.social-email-modal-inner-wrapper
 patheos.com##.add-bottom-margin.add-top-margin.simple-follow.widget-wrap, .pw-button-facebook, .pw-button-twitter, .ra1-pw-icon-email.ra1-pw-icon.pw-icon, .socialmedia-buttons, .top-share-icons
