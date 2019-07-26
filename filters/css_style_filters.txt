@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 12:29 2019-07-25
+! Last Modified: 09:03 2019-07-26
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -401,7 +401,8 @@ answers.com##.dom_ready.js-header_searchinline.jsparams.header_searchinline.modu
 answers.microsoft.com###content-vote:style(position: absolute !important;)
 answers.microsoft.com###threadfooter:style(position: relative !important;)
 antena3.com##.fixed.sticky-element.mode-2.modulo-menu-noticias:style(position: absolute !important;)
-antergos.com###header-menu, #main-header, #top-header:style(position: absolute !important;)
+antergos.com###header-menu, #main-header, #top-header:style(position: relative !important;)
+antergos.com,getmonero.org##cloudflare-app:style(position: absolute !important;)
 anthem.com,bcbsga.com##.on.alert-pattern-v2.ant-dismissable.ant-anthem-alert:style(position: absolute !important;)
 anthem.com,bcbsga.com,empireblue.com##.ant-new-nav-wrapper.mbr-top-of-page-wrapper:style(position: absolute !important;)
 antimalwareserviceexecutable.co,antimalwareserviceexecutable.org,arnoldporter.com,blog.sucuri.net,chromeunboxed.com,collinmbarrett.com,copyblogger.com,digital.com,dqydj.com,ebikeschool.com,ehomerecordingstudio.com,eng.uber.com,formidable.com,githubuniverse.com,intowindows.com,kaspersky.com,milcorp.com,mintpressnews.com,mnn.com,notlaura.com,peerlyst.com,phickle.com,quartersnacks.com,recordedfuture.com,restoreprivacy.com,rootreport.com,samharris.org,smartrecruiters.com,tekrevue.com,theamphour.com,thetechhacker.com,thewonderweeks.com,utech-polyurethane.com,vice.com,warriortrading.com,wdc.com,wifinowevents.com,wmiproviderhost.com,wtfuh.com##.site-header:style(position: absolute !important;)
@@ -2409,7 +2410,6 @@ gentlenursery.com##.fixed.nav-primary:style(position: absolute !important;)
 get.dev##.h-c-header__bar:style(position: absolute !important;)
 get.dev,getintra.org##.h-c-header__bar:style(position: absolute !important;)
 getmonero.org##.topnav:style(position: relative !important; margin-top: 58px !important;)
-getmonero.org##cloudflare-app:style(position: absolute !important;)
 getmonero.org##html:style(top: 0 !important;)
 getoutline.org###wrapper > .udo-app-header.style-scope:style(position: absolute !important; transform: none !important;)
 getpocket.com##.persistent-actions-container, div.sticky-container:style(position: absolute !important;)
