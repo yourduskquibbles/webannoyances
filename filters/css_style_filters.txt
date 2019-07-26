@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 09:08 2019-07-26
+! Last Modified: 09:41 2019-07-26
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -3129,6 +3129,15 @@ kirkcenter.org###page-container:style(margin-top: -1px !important;)
 kiro7.com###header.container, #story-sticky-content:style(position: relative !important; top: 0 !important;)
 kiro7.com###main, #wrapper:style(padding-top: 0 !important; margin-top: 0 !important;)
 kite.com##.header__blog-wrapper--sticky.header__blog-wrapper:style(position: absolute !important;)
+kiwico.com###sticky-page-nav:style(position: absolute !important; top: 70px !important; margin-top: 0 !important;)
+kiwico.com###universal-header, .top-nav::before:style(position: absolute !important; height: 70px !important;)
+kiwico.com##.menu3:style(top: 50px !important; padding-top: 14px !important;)
+kiwico.com##.sticky-page-nav ~ .page-wrapper:style(top: 115px !important;)
+kiwico.com##.top-nav .open .toggle-section::after, .top-nav .toggle-section::after:style(top: 15px !important;)
+kiwico.com##.top-nav .toggle-section, .top-nav .universal-nav .top-link-login:style(padding: 10px 30px 10px 10px !important;)
+kiwico.com##.top-nav-logo a:style(height: 50px !important; width: 50px !important; background-position-x: 0% !important; background-position-y: 0% !important; background-size: auto 78px !important;)
+kiwico.com##.top-nav-logo:style(margin-top: 10px !important;)
+kiwico.com##.universal-nav-item:style(padding: 14px 0 !important;)
 kiwiirc.com##.navbar-inversee.navbar-fixed-top.navbar:style(position: absolute !important;)
 kkare.com###headerWrapper:style(position: absolute !important;)
 klaw.ie##.headroom--pinned.headroom--not-top.headroom.js-header.header--inversed.site-header:style(position: relative !important; top: 0 !important;)
