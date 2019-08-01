@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 16:52 2019-07-31
+! Last Modified: 22:38 2019-07-31
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -3624,6 +3624,9 @@ mobile.reuters.com##.reuters-nav-buttons:style(display: block !important; opacit
 mobile.reuters.com##.section-nav:style(padding-top: 0 !important;)
 mobile.twitter.com##.GgYynIub._3rF86cXC, .LqlkGmch, .rn-1xcajam:style(position: absolute !important;)
 mobile.twitter.com##.r-1ovo9ad.r-1xcajam.css-1dbjc4n:style(top: 0 !important;)
+mobile.twitter.com##div[data-testid="sidebarColumn"] .r-1xcajam:style(position: relative !important; top: 0 !important;)
+mobile.twitter.com##div[data-testid="sidebarColumn"] [class*="r-gtdqiz"]:style(position: relative !important; top: 0 !important; bottom: unset !important;)
+mobile.twitter.com##header .r-1xcajam:style(position: relative !important;)
 mobilemarketer.com,utilitydive.com###top, .menu-search:style(position: absolute !important;)
 mobilemarketer.com,utilitydive.com##.menu-bar.topics:style(position: absolute !important; top: 55px !important;)
 mobilemarketer.com,utilitydive.com##.top-nav-dropdown-item:style(position: relative !important; top: 0 !important; right: unset !important;)
