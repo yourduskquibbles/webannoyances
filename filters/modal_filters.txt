@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 14:05 2019-07-31
+! Last Modified: 08:41 2019-08-02
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of cookie bars & other page covering elements. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -11,9 +11,9 @@
 
 ! Start Web Annoyances Ultralist - Modal Overlay Filters
 100percentfedup.com##.modaal-overlay
-100percentfedup.com,500px.com,allergicliving.com,mucbook.de,netwatch.me,newfoodeconomy.*,nintendosoup.com,theblacksphere.net,upenn.edu##.spu-bg, .spu-box
+100percentfedup.com,500px.com,allergicliving.com,mucbook.de,netwatch.me,newfoodeconomy.*,nintendosoup.com,theartblog.org,theblacksphere.net,upenn.edu##.spu-bg, .spu-box
 20k.org##.overlay-mobile-styles-enabled
-2daygeek.com###spu-bg, #spu-main
+2daygeek.com,threepercenternation.com###spu-bg, #spu-main
 3dprintingforbeginners.com##.tl-state-root
 404ink.com##.sqs-popup-overlay-content
 500ish.com,artplusmarketing.com,atrium.co,backchannel.com,backstage.1blocker.com,badootech.badoo.com,bitcointechtalk.com,bitwarden.com,blazingdb.com,blog.angularindepth.com,blog.devcolor.org,blog.confiant.com,blog.growthhackers.com,blog.hiri.com,blog.ltse.com,blog.statebox.org,blog.twitch.tv,blog.waffle.io,bluerockpublicradio.com,bolt.io,boomsupersonic.com,bradfieldcs.com,brightthemag.com,checkio.org,citizen428.net,coach.me,codeburst.io,dave-bailey.com,discordapp.com,doist.com,doit-intl.com,dotandline.net,doublepulsar.com,economist.com,electricliterature.com,elidourado.com,esciencecenter.nl,fossa.io,freecodecamp.org,fritz.ai,getadblock.com,greylock.com,hackernoon.com,headmelted.com,helium.com,howwegettonext.com,iheart.com,injusticetoday.com,insightdatascience.com,iota.org,itnext.io,itsyourturnblog.com,jupyter.org,keepingstock.net,kiwi.com,learngoprogramming.com,learningbyshipping.com,ledwards.com,legalist.com,logrocket.com,mapbox.com,medium.com,melmagazine.com,mondaynote.com,newco.co,news.smugmug.com,nyulocal.com,ofdollarsanddata.com,okmeter.io,postlight.com,prototypr.io,rainway.io,sagefy.org,signalvnoise.com,slackhq.com,springboard.com,standardnotes.org,startupsventurecapital.com,stoplight.io,tech.buzzfeed.com,theabacus.io,theawl.com,thebigroundtable.com,thebillfold.com,thebolditalic.com,thecontrol.co,theringer.com,thinkprogress.org,thriveglobal.com,timeline.com,towardsdatascience.com,udacity.com,unpatent.co,usejournal.com,uxdesign.cc,uxplanet.org,warisboring.com,wearemel.com,whatahowler.com,x.company##.overlay:not(:has-text(Welcome back)):not(:has-text(write a response))
@@ -276,6 +276,7 @@ formidable.com##.formidaCookie
 forums.xfinity.com##.lia-panel-dialog-modal-simple
 foxnews.com###janrainModalOverlay
 fratellirossetti.com###cookie_warning
+freecourseweb.com###to_top_scrollup
 freedomnode.com###overlay
 freshideen.com###embed_popup_cont
 ft.com###assanka_mockingbird_overlay, #barrier-dialogue, .WSODHoverPopupContainer, .barrier__container
@@ -631,6 +632,9 @@ ted.com###recommends-banner, ._Notice_vquc8_16
 tested.com,wonderwall.com###footer-notification
 theadvocate.com##.popover-content
 theaustralian.com.au##.mm-reveal.account-lightbox
+thebroadcastbridge.com###GatedModal, .modal-backdrop
+thebroadcastbridge.com##.js_readinglist_down
+thebroadcastbridge.com##body:style(overflow-x: hidden !important; overflow-y: scroll !important; padding-right: 0 !important;)
 thecerbatgem.com###exit-overlay, #optinform-container
 theconversation.com##[role^="dialog"]
 thedailybell.com##.tve-leads-slide-in
@@ -653,6 +657,7 @@ thescore.com##.privacy-popup-wrapper
 thestocktalker.com##.customPopUp, .customPopUpContent
 thewalrus.ca##.spu-box
 thewonderweeks.com##.pop-up
+threepercenternation.com###cookie-law-info-bar, .spnf_right.spnf_ticker, .vw-scroll-to-top
 thrillist.com###popoutContainer, #popup-signup, #vortex, #vortex-overlay
 thriveglobal.com##.notificationBar__visible--2U7sn.notificationBar__wrapper--378uN
 thunderbolttechnology.net###lightbox, #lightbox2-overlay
