@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 16:16 2019-08-01
+! Last Modified: 08:27 2019-08-02
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -3234,7 +3234,8 @@ lasvegasnow.com###site-nav:style(position: relative !important; flex: unset !imp
 lasvegasnow.com###wrapper.header-compact #header:style(padding: 0 !important;)
 lasvegasnow.com###wrapper.header-compact #site-header .site-logo .site-logo-wrapper:style(background-position: 50% 50% !important;)
 lasvegasnow.com###wrapper.header-compact #site-nav > .row > .column:style(padding: 0 1.05556rem !important;)
-latimes.com##.pb-f-list-nav-ticker:style(display: block !important;)
+latimes.com##.HomePage .Page-header-logo, .pb-f-list-nav-ticker:style(display: block !important;)
+latimes.com##.Page-header-wrapper:style(position: absolute !important;)
 launchdarkly.com##.resp_full_width_menu.head-container:style(position: absolute !important;)
 law.com###brand-nav:style(position: absolute !important; top: auto !important; display: block !important; opacity: 1 !important; z-index: 99 !important;)
 law.com###leaderboard:style(padding: 30px 0 !important;)
