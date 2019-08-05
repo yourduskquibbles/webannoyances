@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 12:29 2019-08-02
+! Last Modified: 08:35 2019-08-05
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of cookie bars & other page covering elements. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -40,7 +40,7 @@ africacheck.org,brioni.com,china-underground.com,cigarinspector.com,coinstaker.c
 aftenposten.no##.widget.relatedContents.flyout.noPrint.active.instantiated
 alabamanews.net###popmake-overlay, .popmake
 alaskahighwaynews.ca,assiniboiatimes.ca,bowenislandundercurrent.com,burnabynow.com,canoracourier.com,carlyleobserver.com,coastreporter.net,dawsoncreekmirror.ca,delorainetimes.ca,delta-optimist.com,empireadvance.ca,estevanmercury.ca,humboldtjournal.ca,kamsacktimes.com,kiplingcitizen.ca,lillooetnews.net,melitanewera.ca,newsoptimist.ca,newwestrecord.ca,nsnews.com,pipelinenews.ca,pipelinenewsnorth.ca,preecevilleprogress.com,princegeorgecitizen.com,prpeak.com,restonrecorder.ca,richmond-news.com,sourisplaindealer.ca,squamishchief.com,theoutlook.ca,thereminder.ca,thompsoncitizen.net,timescolonist.com,tisdalerecorder.ca,tricitynews.com,vancourier.com,westmanjournal.com,weyburnreview.com,weyburnthisweek.com,yorktonthisweek.com###alertAdblockerDetected
-alexa.com,amctheatres.com,atlasobscura.com,bestbuy.com,brit.co,businessoffashion.com,citizensforethics.org,climatechangenews.com,deskbright.com,digg.com,everycaller.com,getweeklyupdate.com,goodrx.com,greatnonprofits.org,huckberry.com,kraftrecipes.com,mnn.com,movieflix.to,myajc.com,nordvpn.com,searchenginewatch.com,seekingalpha.com,thisiswhyimbroke.com,underarmour.com,washingtonpost.com,weeklystandard.com##.modal, .modal-backdrop
+alexa.com,amctheatres.com,atlasobscura.com,bestbuy.com,brit.co,buffalonews.com,businessoffashion.com,citizensforethics.org,climatechangenews.com,deskbright.com,digg.com,everycaller.com,getweeklyupdate.com,goodrx.com,greatnonprofits.org,huckberry.com,kraftrecipes.com,mnn.com,movieflix.to,myajc.com,nordvpn.com,searchenginewatch.com,seekingalpha.com,thisiswhyimbroke.com,underarmour.com,washingtonpost.com,weeklystandard.com##.modal, .modal-backdrop
 alibaba.com##.show.m-go-top.m-toolbar-item
 aliexpress.com###j-aliexpress-notice, .ms-lego-dialog, .ui-mask
 alifeofproductivity.com###snppopup-welcome
@@ -120,6 +120,7 @@ brit.co##.modal-dialog
 bt.com,canadagoose.com,crucial.com,greencarreports.com,mattressfirm.com,motorauthority.com,paypal-community.com,rag-bone.com##.ui-dialog, .ui-widget-overlay
 buckscountycouriertimes.com,burlingtoncountytimes.com,businessinsider.com,dispatch.com,suntimes.com,thedailybeast.com,theintell.com##.tp-backdrop, .tp-modal
 buffalonews.com###paywall-footer
+buffalonews.com,thebroadcastbridge.com##body:style(overflow-x: hidden !important; overflow-y: scroll !important; padding-right: 0 !important;)
 buffer.com###gs
 burningman.org##.post-navigation
 business-review.eu##.banner-horizontal-black.banner-horizontal-large
@@ -234,6 +235,8 @@ elie.net,masterclass.com##.mc-modal
 elifesciences.org##.opt-in-message-bar
 elle.com###_evidon-barrier-wrapper
 ello.co##.Modal
+elpasotimes.com##body:style(height: auto !important;)
+elpasotimes.com##div[id^="sp_message_id"]
 emerils.com##.is-active.interruptor
 entrepreneur.com###pr-ticker
 enzymediane.com,ustvgo.net##.grecaptcha-badge
@@ -297,6 +300,7 @@ glassdoor.co.uk,glassdoor.com###GiveToGetInstallAppModal, #JAModal, .mfp-bg, .sn
 glassesusa.com##.welcomeNotice__wrap___3LWDX
 globalgolf.com###EmailModal, #Mask
 globalvoices.org###cboxOverlay, #cboxWrapper
+gocomics.com##.cc_banner-wrapper
 goerie.com###syncronexOverlayContent
 gofundme.com###exit-modal-mobile, .reveal-overlay
 golf4her.com##.modal-mask, .vol-modal
@@ -634,7 +638,6 @@ theadvocate.com##.popover-content
 theaustralian.com.au##.mm-reveal.account-lightbox
 thebroadcastbridge.com###GatedModal, .modal-backdrop
 thebroadcastbridge.com##.js_readinglist_down
-thebroadcastbridge.com##body:style(overflow-x: hidden !important; overflow-y: scroll !important; padding-right: 0 !important;)
 thecerbatgem.com###exit-overlay, #optinform-container
 theconversation.com##[role^="dialog"]
 thedailybell.com##.tve-leads-slide-in
