@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Social Filters
-! Last Modified: 10:20 2019-08-09
+! Last Modified: 11:36 2019-08-09
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for social networking & sharing - Remove third party social media share sections, icons & other cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -242,6 +242,8 @@ drudgereport.com###pds-sharing
 drugs.com###share-block
 duffelblog.com##.g1-sharebar-off.g1-sharebar-loaded.g1-sharebar.g1-row
 dw.com###mobileSharingGroup, #sharing-bar
+dw.com##div a[href^="https://twitter.com/"]:nth-ancestor(2)
+dw.com##div a[href^="https://www.facebook.com/"]:nth-ancestor(2)
 earnestcapital.com###engagement-bar
 earnthenecklace.com##.etn-social-share, .sticky-top.from-the-web.shareworthy-section
 eatthis.com##.above-content-sharebar, .below-content-sharebar, .pin-it-button, .sticky > .social
