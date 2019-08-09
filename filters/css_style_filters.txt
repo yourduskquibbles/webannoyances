@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 09:57 2019-08-09
+! Last Modified: 10:14 2019-08-09
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -3128,6 +3128,9 @@ jolitabrilliant.com##header:style(position: relative !important; margin-top: 0 !
 jomashop.com##.block-layered-nav-inner-wrapper:style(position: relative !important;)
 jonesdesigncompany.com###responsive-menu-button:style(position: absolute !important;)
 josbank.com##.active.sticky-header, .d-sticky-header-container, .sticky-header:style(position: relative !important; top: 0 !important;)
+jossandmain.com,wayfair.com##.PdpLayoutVariationBCSidecar, .is-active.StickyHeader:style(position: absolute !important;)
+jossandmain.com,wayfair.com##.PdpLayoutVariationBSidecar-card:style(opacity: 1 !important; transform: translateY(0) !important;)
+jossandmain.com,wayfair.com##.PdpLayoutVariationBSidecar:style(position: relative !important;)
 journal-leader.com###gkTopBar:style(position: absolute !important; top: 0 !important;)
 jpost.com###header-stiky:style(position: relative !important;)
 jpost.com##.header-wrap, .subscribe-top-page:style(position: absolute !important;)
@@ -3377,6 +3380,7 @@ livestream.com##.site_header:style(position: relative !important; box-shadow: no
 livestreamfails.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute !important;)
 livestrong.com##.js-jwplayer_container.jwplayer__container, .js-right_rail_ad_wrapper.right_rail_ad_wrapper.js-article_nav.article_nav, .top_header__row1:style(position: relative !important;)
 livestrong.com##.js-top_header.top_header:style(position: relative !important; display: block !important; opacity: 1 !important;)
+livingspaces.com##.bcFloat:style(position: absolute !important;)
 lmgsecurity.com##.hamburger-container:style(position: absolute !important;)
 loadoutroom.com##.fix-menu.nav-secondary:style(position: relative !important; top: 0 !important;)
 localbabysitter.com###et-top-navigation:style(padding-top: 33px !important;)
@@ -6189,9 +6193,6 @@ waterstones.com###header-bar:style(position: relative !important;)
 waterstones.com###main-logos:style(margin-top: 0 !important;)
 waterstones.com##.main-nav:style(position: relative !important; top: 34px !important;)
 wave3.com##.sticky.cdev-menu-nav:style(position: relative !important; top: 0 !important;)
-wayfair.com##.PdpLayoutVariationBCSidecar, .is-active.StickyHeader:style(position: absolute !important;)
-wayfair.com##.PdpLayoutVariationBSidecar-card:style(opacity: 1 !important; transform: translateY(0) !important;)
-wayfair.com##.PdpLayoutVariationBSidecar:style(position: relative !important;)
 waypoint.vice.com##.site-header__logo path:style(fill: #1fd9b7 !important;)
 waypoint.vice.com##.site-header__logo:style(width: 143px !important;)
 waze.com##.Header_preloaded_2phNZ.Header_visible_2m3SY:style(position: absolute !important;)
