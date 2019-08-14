@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 11:07 2019-08-13
+! Last Modified: 14:26 2019-08-14
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of cookie bars & other page covering elements. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -48,6 +48,7 @@ allmodern.com,birchlane.com,jossandmain.com,wayfair.com##.popup-block
 alternet.org###bpcontainer
 amazon.com###a-popover-1, #a-popover-lgtbox
 americanheritage.com###popup-dialog-background, #popup-dialog-window
+amgreatness.com##.reveal-alert
 androidauthority.com##.sw_overlay_href.overlay-link
 androidsage.com,arsesaworldgist.com###eu-cookie-law
 antena3.com,discordbots.org,gamepedia.com,mmo-champion.com,streamable.com,woot.com##.app_gdpr--2k2uB
@@ -269,6 +270,7 @@ fiverr.com###js-popup-user, .b-modal
 flair.co###swell-overlay, #swell-popup
 flashbak.com,geneticliteracyproject.org,marijuanamoment.net,naturalblaze.com,saludmovil.com,thebaffler.com,undark.org,wealthydoc.org###boxzilla-overlay, .boxzilla-container
 flashrouters.com##.cc-popup-right_bottom
+flickr.com##.foot-banner-container
 flickr.com##.hidden.footer-banner-view.view
 flyingmag.com##.scrollToTop
 focus.de###nlgate, #nlgate-overlay-0
@@ -491,6 +493,8 @@ nytimes.com##html:style(overflow-x: hidden !important; overflow-y: auto !importa
 nzherald.co.nz###wpnPop
 objective-see.com##.mc-modal-bg
 offers.com###modal-overlay, #takeover
+oilprice.com,themediterraneandish.com,topclassactions.com,uspostnews.com,wellplated.com##.Campaign
+oilprice.com,uspostnews.com##html.om-position-popup body:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 omaha.com,richmond.com##.wcpopupmodal-overlay, .wcpopupmodal-wrapper
 omeleto.com###myModal, #reveal-modal-bg
 omni.se##.psi-parent
@@ -652,7 +656,6 @@ thehomesecuritysuperstore.com###popupmsg
 theintercept.com###third-party--viewport-takeover
 thelibertydigest.com###arevicofancy-overlay
 themarshallproject.org##.toast-notifications-container
-themediterraneandish.com,topclassactions.com,uspostnews.com,wellplated.com##.Campaign
 thenevadaindependent.com##.kYqsUP
 thenewrevere.com##.popupflyin-clicks-area
 theplayerstribune.com###sailthru-overlay-container
@@ -698,7 +701,6 @@ usatoday.com###TB_overlay, #usat-newsletter-modal, .bx-wrap, .close-overlay, .fa
 userstyles.org##.NotificationLine, .android_button_banner
 uservoice.com###externalSiteNotification, #externalSiteNotificationOverlay
 usnews.com###zm_survey-prompt, .hQxvSO.jpvx17-0-Box-cwadsP, body > div:nth-of-type(6)
-uspostnews.com##html.om-position-popup body:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 uxplanet.org##.iframeContainer
 valuewalk.com###om-k4aqrfjozo-lightbox
 vanityfair.com##.component-modal, .paywall-container
