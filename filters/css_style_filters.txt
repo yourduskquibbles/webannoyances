@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 09:29 2019-08-20
+! Last Modified: 09:36 2019-08-20
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -4537,6 +4537,9 @@ porkbeinspired.com##.navbar-static-top.navbar-default.yamm.navbar:style(position
 portlandbolt.com##.noprint.header-fixed.site-header:style(position: absolute !important; top: 0 !important;)
 post-gazette.com###querylycontainer, #top-header, .pgevoke-header, .subscribe-btn:style(position: relative !important; top: 0 !important;)
 post-gazette.com##.pg-hidden-mobile.pgevoke-story-rightrail-stickyboxbottom, .pgevoke-story-rightrail-stickybox:style(position: relative !important;)
+post-gazette.com##.pgevoke-header-row1:style(display: block !important;)
+post-gazette.com##.pgevoke-slidemenu, .dfp-wallpaper:style(position: absolute !important; top: 0 !important;)
+post-gazette.com##body.pgevoke-stickyheader .pgevoke-pagecontent:style(margin-top: 0 !important;)
 post-journal.com###top_header, #wprmenu_bar:style(position: absolute !important;)
 postandcourier.com###site-navbar-container, .navbar-header:style(position: relative !important; top: 0 !important;)
 posteo.de##.p_header:style(position: relative !important; top: 0 !important;)
