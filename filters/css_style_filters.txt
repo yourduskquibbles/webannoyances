@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 14:52 2019-08-25
+! Last Modified: 15:06 2019-08-25
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1255,6 +1255,8 @@ chubstr.com##.sticky-header--active .site-header.size-set .logo img, .site-heade
 cigaraficionado.com##.nav:style(opacity: 1 !important; animation: none !important;)
 cigaraficionado.com,turnuav.com###mainNavigation:style(position: relative !important;)
 cigardojo.com##.clearfix.cb-top-menu-wrap.wrap:style(position: relative !important;)
+cigardojo.com,educateinspirechange.org###cb-main-menu:style(position: relative !important;)
+cigardojo.com,educateinspirechange.org##.cb-sidebar:style(position: static !important; top: 0 !important;)
 cinemablend.com##.content_story_pages_imagegallery:style(margin: 0 !important;)
 cinemablend.com,oneplus.com###section-header:style(position: absolute !important;)
 cio.com###sticky-head:style(position: relative !important;)
@@ -1942,8 +1944,6 @@ edge.org###primary-menu-bar:style(position: relative !important; top: 0 !importa
 edition.cnn.com##.header.Header__component.Header__isSticky:style(position: absolute !important; transform: none !important;)
 edmunds.com###subnav:style(position: relative !important;)
 edri.org##a.logo img:style(position: absolute !important;)
-educateinspirechange.org###cb-main-menu:style(position: relative  !important;)
-educateinspirechange.org##.cb-is-stuck-t.clearfix.cb-sidebar:style(position: absolute !important; top: 0 !important;)
 eetimes.com,gitbook.com,hola.com##.sticky:style(position: relative !important;)
 eezy.xyz###stuff0, header:style(position: absolute !important;)
 eff.org###masthead-mobile-wrapper, .sticky-header:style(position: relative !important;)
@@ -2172,9 +2172,8 @@ fanfox.net##.top-bar, .side-code:style(position: absolute !important;)
 fangraphs.com##.header-container:style(position: absolute !important; top: 0 !important;)
 fangraphs.com##div.top-logo:style(display: block !important;)
 fansided.com###fs-network-nav:style(position: absolute !important;)
-fantasypros.com###nav-top:style(position: absolute !important; top: 0 !important;)
-fantasypros.com##.body-wrap:style(padding-top: 54px !important;)
-fantasypros.com##.pcast-hide-close, .pcast-wrap:style(position: absolute !important;)
+fantasypros.com###nav-sub, #nav-top:style(position: relative !important; top: 0 !important;)
+fantasypros.com##.body-wrap:style(top: 0 !important;)
 fantasysports.yahoo.com###editTeamSaveBar:style(position: relative !important;)
 fanucamerica.com##.header-main:style(position: absolute !important;)
 fas.org###wrapper_nav:style(position: relative !important; transform: none !important;)
