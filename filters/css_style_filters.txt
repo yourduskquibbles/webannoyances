@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 20:23 2019-08-26
+! Last Modified: 21:57 2019-08-26
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2162,7 +2162,8 @@ fakespot.com##.product-show .analysis-section .analysis-details h5, .product-sho
 falconhospital.com##.breadcrumb-wrapper, .header:style(position: absolute !important;)
 famous-smoke.com###launcher, #support-pill:style(position: absolute !important;)
 famous-smoke.com###ordersummary:style(position: absolute !important; top: 75px !important;)
-fandom.com##.is-sticky.in-area-left.trending-topics, .is-sticky.in-area-right.quick-links:style(position: static !important;)
+fandom.com###WikiaAdInContentPlaceHolder, .is-sticky.in-area-left.trending-topics, .is-sticky.in-area-right.quick-links:style(position: static !important;)
+fandom.com###globalNavigation, #WikiaBarWrapper:style(position: absolute !important;)
 fandom.com##.wds-global-navigation-wrapper:style(position: relative !important;)
 fandomwire.com###responsive-menu-button:style(position: absolute !important;)
 fandomwire.com##.td-affix .header-search-wrap .td-icon-search, .td-header-wrap .td-affix .sf-menu > li > a:style(line-height: 50px !important;)
