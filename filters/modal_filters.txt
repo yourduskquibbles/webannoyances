@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 08:59 2019-08-27
+! Last Modified: 11:51 2019-08-28
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of cookie bars & other page covering elements. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -65,6 +65,7 @@ artsy.net,bestvpn.com,change.org,cryptocompare.com,discordbots.org,economist.com
 askleo.com,trickyways.com##.et_bloom_flyin
 askubuntu.com,serverfault.com,stackexchange.com,stackoverflow.com,superuser.com###js-gdpr-consent-banner
 asp-usa.com###pixelpop
+assh.org###neko-to-top
 astronomy.com###wp-popup-2302039, .wpcss-close-popup
 asus.com###online-service:style(position: absolute !important;)
 atavist.com##.notification-overlay
@@ -114,6 +115,7 @@ bose.com##.bottom_banner
 bostonglobe.com##.infinite-modal__black-bar, .meter-modal-block, .meter-progress-bar
 bourbonblog.com###signupModal
 bps.org.uk##.mc-banner, .mc-modal, .mc-modal-bg
+brandnol.com##.hestia-scroll-to-top
 breitbart.com###bbsp_site_overlay, #fancybox-container-1, #isc_front_takeover_div, #isc_front_takeover_overlay, #isc_trump_takeover_div, #isc_trump_takeover_overlay
 brightwalldarkroom.com##.tpm-counter
 brit.co##.modal-dialog
@@ -135,6 +137,7 @@ cardboardconnection.com##.fancybox-overlay, .fancybox-wrap
 carefirst.com###introModal
 carters.com,oshkosh.com,skiphop.com###tkbl_widget, .fxm_modal_Wrapper
 cbc.ca##.privacyNotification
+ccm.net###jGoNext, #jGoPrev, #jGoTop
 change.org##.bottom-bar-interrupt
 channel4.com###all4gn-cookie-policy-notification
 chase.com##.abandon-modal, .abandon-overlay, .introjs-overlay, .introjs-tooltip
@@ -185,6 +188,7 @@ cultofmac.com##.active.visible.transition.page.modals.dimmer.ui
 cyberciti.biz##cf-dialog
 cyberscoop.com###welcomeadMask
 d7xtech.com##.hb-single-next-prev
+dailycaller.com##.dc-go-top
 dailydot.com###modal-page, #subscriptionModal
 dailymail.co.uk###next-story
 dailymotion.com##.CookiePopup__popup____KSqw
@@ -264,7 +268,8 @@ fee.org###email-capture-modal
 fermatslibrary.com###emailCollectionModal
 fhm.com###ctl00_Body_slideboxDiv
 fidelity.com##.info-flyout-wrapper
-filmlifestyle.com##.optin-monster-saas-overlay
+fifa.com##.fi-back-to-top
+filmlifestyle.com##.optin-monster-saas-overlay, .sh-back-to-top
 finnewsreview.com##.customPopUp
 fiverr.com###js-popup-user, .b-modal
 flair.co###swell-overlay, #swell-popup
@@ -282,6 +287,7 @@ foxnews.com###janrainModalOverlay
 fratellirossetti.com###cookie_warning
 freecourseweb.com###to_top_scrollup
 freedomnode.com###overlay
+freedomoutpost.com##.vw-scroll-to-top
 freshideen.com###embed_popup_cont
 ft.com###assanka_mockingbird_overlay, #barrier-dialogue, .WSODHoverPopupContainer, .barrier__container
 futurism.com,southernkitchen.com###subscribe-modal
@@ -324,6 +330,7 @@ gurufocus.com###reflex-chat-widget
 haaretz.com,victoriassecret.com##.modal-wrapper
 halfwheel.com##.austin-background
 hawaii.com###ToSPPAlert
+hayneedle.com##.back-to-top__container___1_ERv
 hcn.org###exposeMask, #overlay-newsletter001
 healthline.com###modal-host
 healthtap.com###policyBannerModal
@@ -351,7 +358,7 @@ ignite.co##html.fancyboxAge-lock:style(overflow-x: hidden !important; overflow-y
 ignorelimits.com##.optin-monster-saas-overlay
 ijr.com,product-reviews.net,themindcircle.com,vegannews.co##.g1-teaser
 imausa.com###snppopup-exit
-imgur.com##.transition.icon-arrow-right.nextItem.contextOverlay
+imgur.com##.ButtonBackToTop, .transition.icon-arrow-right.nextItem.contextOverlay
 indeed.com##.cmp-ReactInSoy-ReviewsPromo
 independent.co.uk##.adblock-modal
 indiatimes.com###backgroundPopup, #scrollTop, .ntfc_overlay, .ntfc_popup
@@ -394,6 +401,7 @@ lelo.com###wisepop-main-container
 lennyletter.com##.mc-modal, .mc-modal-bg
 lensculture.com##.announcement-fly-in
 lgbtqnation.com##.cleveland-background
+libreoffice.org###toTop
 lifebuzz.co##.footer-popup.footer-popup-active
 lifenews.com###blockModalPopupDiv, #outerModalPopupDiv
 lightstalking.com##.tve-leads-lightbox, .tve_p_lb_overlay
@@ -422,7 +430,7 @@ mediaite.com###newsletter-modal-wrap
 mediapart.fr##.mkt-banner
 medicalnewstoday.com###mask, #message
 medicalxpress.com,outsideonline.com,pjrvs.com##.notice
-medicinenet.com##.avgrund-overlay, .avgrund-popin
+medicinenet.com###backTop, .avgrund-overlay, .avgrund-popin
 megynkelly.org###openModal
 merriam-webster.com###subscribe-overlay
 metacafe.com###shadow, .OUTBRAIN
@@ -525,6 +533,7 @@ pewresearch.org###js-user-survey-popup
 pga.com###mss-legal-banner
 phmloans.com###ReadyChat_WP
 photobucket.com###myModal
+phys.org###back-top
 picreel.com##.frame-container
 pinterest.com##.AppInterstitial, .AppUpsellHeader__background, .ReactModalPortal, .denzelAppInterstitial
 pjmedia.com###desktop-notification-ask-dialog, #policy-warning-container, .marketing-popup-display, .marketing-popup-overlay, .marketing-popup-wrapper
@@ -553,6 +562,7 @@ rag-bone.com##.js-footer-cookie-banner
 rankedboost.com##.bttt-active
 rappler.com###cookie-popup-rappler, #emailPopupDiv
 ratemyprofessors.com###rateReminderModal
+rawstory.com##.mvp-to-top.back-to-top.mvp-fly-top
 readfrontier.org,revealnews.org,themefoxx.com,washingtonmonthly.com##.pum-active
 realclearbooks.com,realcleardefense.com,realcleareducation.com,realclearenergy.org,realclearfuture.com,realclearhealth.com,realclearhistory.com,realclearinvestigations.com,realclearlife.com,realclearmarkets.com,realclearpolitics.com,realclearreligion.org,realclearscience.com,realclearsports.com,realclearworld.com##.progress-bar
 realclearpolitics.com###large_notif_wrapper, .cc-stop-overlay, .notif-wrapper.warning-wrapper
@@ -637,6 +647,7 @@ symphony.com##.sym-cookie-container-fluid
 tabletmag.com##.animated-email-box
 taskandpurpose.com##.charlotte-background, .tp-oim-inline-background
 teamblind.com##.app_down_bar, .pop_toast_noti
+techcommunity.microsoft.com##.scroll-to-top
 techcrunch.com##.surveymonkey-popup
 technochops.com###sgcboxContent, #sgcboxOverlay
 techsupportall.com##.bs-wrap-gdpr-law
@@ -647,6 +658,7 @@ theaustralian.com.au##.mm-reveal.account-lightbox
 thebroadcastbridge.com###GatedModal, .modal-backdrop
 thebroadcastbridge.com##.js_readinglist_down
 theconversation.com##[role^="dialog"]
+theculturetrip.com##.scroll-to-top-wrapper\.style__ScrollToTopWrapper-s1wyvke7-0
 thedailybell.com##.tve-leads-slide-in
 thefashionlaw.com##.visible.sqs-popup-overlay.sqs-widget.yui3-widget
 theglobeandmail.com###pianowrapper, #subscription-pencil-area, .ab-iam-root
@@ -718,6 +730,7 @@ wallethub.com###footer_cta
 warisboring.com##.ulp-overlay, .ulp-window
 washingtonexaminer.com##.dy-modal-container
 washingtonpost.com###drawbridge-signup-overlay, #exposeMask, .jqm-init.arrow_box.story-label-explainer, .jqmOverlay, .overlay-template, .simple-overlay:not(.usw_Signin)
+wbrz.com##.back-to-top-button
 wbur.org##.section--takeover
 wdsu.com##.ab-iam-root
 weather.com##.styles-MgjbRUHi__ModalLayout__24Ncp.theme__active__3ea_1.theme__normal__1K3iz.styles-MgjbRUHi__dialog__1mP12.theme__dialog__3lw90
@@ -740,6 +753,7 @@ wsj.com###cx-candybar, #cx-candybarhp, #cx-scrim
 wusthof.com##.custom-modal
 wvnews.com###blox-message-incompatible
 wvva.com###pojo-a11y-toolbar
+www.reddit.com##div button:has-text(Back to top)
 wykop.pl##.big.button, .rodo-alert
 yahoo.com##.cta-overlay, .yui3-overlay-mask
 yelp.com###fullscreen-pitch, #privacy-policy-notice, .js-open-in-app, .photo-box_overlay
