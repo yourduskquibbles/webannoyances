@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 16:17 2019-08-27
+! Last Modified: 09:34 2019-08-28
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -155,6 +155,8 @@ abdoriani.com,bitcoingold.org,borrowlenses.com,brave.com,coinobserver.io,cugmhp.
 ablehealth.com###navbar-primary:style(position: absolute !important;)
 ablevets.com###main-nav, .page_header:style(position: absolute !important;)
 about.com###mast-fixed.p-bg.mast-fixed.mast, #mast-fixed, .p-bg.mast-fixed.mast, .post-lock.leaderboard.gpt:style(position: relative !important; top: 0 !important;)
+about.google##.glue-sticky:style(position: relative !important; left: unset !important; top: unset !important;)
+about.google##.static-content-view .glue-sticky.glue-sticky-active::after:style(box-shadow: unset !important;)
 about.google,google.com##.fixed-nav.header:style(position: absolute !important; top: 0 !important;)
 about.twitter.com##.nav:style(position: absolute !important; top: 0 !important; transform: none !important; animation: none !important;)
 aboutamazon.com##.ArticlePage-aside-content[data-is-stuck], .AuthorPage-aside-content[data-is-stuck], .CreativeWorkPage-WithLeftRail-aside-content[data-is-stuck], .GalleryPage-aside-content[data-is-stuck], .LiveBlogPage-aside-content[data-is-stuck], .PodcastPage-aside-content[data-is-stuck], .RoundupPage-aside-content[data-is-stuck], .TimelinePage-aside-content[data-is-stuck]:style(position: relative !important; top: 0 !important;)
