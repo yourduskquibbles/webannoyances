@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 14:49 2019-08-28
+! Last Modified: 09:32 2019-08-29
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1172,7 +1172,7 @@ cgtn.com##.g-header:style(position: absolute !important; top: 0 !important;)
 chainninja.com###sidebar, .clearfix.fixed-top.header:style(position: absolute !important;)
 chamberofcommerce.com##.wrap-header:style(position: absolute !important;)
 chamberofcommerce.com##.wrap-skyline:style(height: 92px !important; padding-top: 35px !important;)
-chandoo.org##.is-sticky.p-navSticky--primary.p-navSticky:style(position: absolute !important;)
+chandoo.org##.is-sticky.p-navSticky--primary.p-navSticky, section[style^="position: fixed;"]:style(position: absolute !important;)
 change.org###main-header-responsive:style(position: relative !important; top: 0 !important;)
 change.org##.js-mobile-action-button-container.visible-xs.position-fixed-bottom:style(position: relative !important;)
 changetower.com###wt_header:style(position: absolute !important; padding: 8px 0px !important;)
@@ -1183,8 +1183,7 @@ channelnewsasia.com##.is-region-02.header__outer, .is-region-03.header__outer:st
 channelnewsasia.com##[data-css="c-article"] .article__meta-info:style(position: absolute !important;)
 chaoslist.io###PureChatWidget, .marketing-notification-container:style(position: absolute !important;)
 chaoslist.io###mainNavigation:style(position: absolute !important; background-color: transparent !important;)
-chartable.com###HSBeaconFabButton:style(position: absolute !important;)
-chartable.com##.BeaconFabButtonFrame:style(position: absolute !important;)
+chartable.com###HSBeaconFabButton, .BeaconFabButtonFrame:style(position: absolute !important;)
 chartable.com##.js-toc.pa3.b--blue.bg-washed-blue.br2.ba.w5.dn.db-l.fr:style(position: relative !important;)
 chartiq.com,earthnow.com,wedevs.com###masthead:style(position: absolute !important; background-color: transparent !important;)
 chase.com###ad-offers-list-header, #flyoutClose, #flyoutHeaderContent:style(position: absolute !important;)
