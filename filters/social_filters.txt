@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Social Filters
-! Last Modified: 16:00 2019-09-03
+! Last Modified: 15:30 2019-09-05
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for social networking & sharing - Remove third party social media share sections, icons & other cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -343,6 +343,9 @@ geniuskitchen.com###sticky-share-module, .analytic-box.fd-share-tools.recipe-sha
 georgesoros.com##.sharing-facebook, .sharing-twitter
 getrevue.co###issue-share
 getweeklyupdate.com##.icon-bar
+giphy.com##a[title^="Share"], div[data-title^="Share on"]
+giphy.com##div:xpath(//h3[contains(text(),"Share it!")]/..)
+giphy.com##h3:has-text(Share it!)
 glassdoor.com##.GDsocialShare
 globalcitizen.org##.content-like
 globalnews.ca##.facebook, .twitter

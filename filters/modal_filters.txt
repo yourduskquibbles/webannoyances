@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 11:55 2019-09-05
+! Last Modified: 15:30 2019-09-05
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of cookie bars & other page covering elements. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -304,8 +304,10 @@ gearbest.com###layui-layer-shade1, #layui-layer1
 geniuskitchen.com###gigya-modal-plugin-container-showScreenSet, #gigya-screen-dialog-page-overlay
 geopoliticalfutures.com##.modal-container
 gettyimages.fi###euCookieDialog
+gfycat.com##.signup-call-to-action
 ghostery.com##.piwik-notice-container
 giphy.com##.gkGvKV.flash-message__MessageWrapper-hMFkob
+giphy.com##[class^="flash-message__MessageWrapper"]:has-text(updated our Privacy Policy)
 gitlab.com###CybotCookiebotDialog
 glassdoor.co.uk,glassdoor.com###GiveToGetInstallAppModal, #JAModal, .mfp-bg, .sneakPeekPromoItemXS.sm.lockedOverlayAppDownload.sneakPeekItemPromoBox
 glassesusa.com##.welcomeNotice__wrap___3LWDX
