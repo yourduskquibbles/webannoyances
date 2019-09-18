@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 09:00 2019-09-18
+! Last Modified: 09:04 2019-09-18
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -337,7 +337,7 @@ allmodern.com,birchlane.com,jossandmain.com,wayfair.com##.PdpLayoutVariationBSid
 allpointnetwork.com###navigation-sticky:style(position: absolute !important;)
 alltrails.com###fullscreen-search-filters, #mobile-header, .result-info:style(position: relative !important; top: 0 !important;)
 allure.com##.inner:style(position: relative !important; top: 0 !important;)
-allure.com,architecturaldigest.com,bonappetit.com,epicurious.com,glamour.com,gq.com,teenvogue.com,them.us,vanityfair.com##.persistent-top:style(position: absolute !important;)
+allure.com,architecturaldigest.com,bonappetit.com,epicurious.com,glamour.com,gq.com,teenvogue.com,them.us,vanityfair.com,wired.com##.persistent-top:style(position: absolute !important;)
 ally.com###nav-desktop:style(position: relative !important;)
 ally.com##.info-bar:style(position: relative !important; top: 0 !important; background-color: #F2F2F2 !important;)
 ally.com##.site-header, .sticky-nav:style(position: relative !important; top: 0 !important;)
@@ -6491,7 +6491,9 @@ wired.com##.logo-bar--science:style(background-color: #FFC036 !important; border
 wired.com##.logo-bar--security:style(background-color: #621200 !important; border-bottom: 1px solid #621200 !important;)
 wired.com##.logo-bar--transportation:style(background-color: #E44C50 !important; border-bottom: 1px solid #E44C50 !important;)
 wired.com##.logo-bar:style(transition: none !important;)
+wired.com##.sticky-box:style(position: static !important;)
 wired.com##.wallpaper-component__image:style(top: 0 !important;)
+wired.com##html:style(overflow-x: hidden !important;)
 wireshark.org###masthead .nav > li > a:style(padding: 33px 15px !important;)
 wireshark.org###masthead .navbar-brand:style(line-height: 90px !important; height: 90px !important;)
 wireshark.org###masthead:style(position: absolute !important; top: 0 !important; min-height: 90px !important; transform: none !important;)
