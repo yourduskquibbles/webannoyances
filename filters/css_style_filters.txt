@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 15:28 2019-09-17
+! Last Modified: 09:00 2019-09-18
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -942,7 +942,7 @@ bonappetit.com##.homepage #react-app:style(padding-top: 0 !important;)
 bongino.com###site-header\ 1 > .site-header-main:style(height: 167.3px !important;)
 bongino.com##.sticky.makeplus-is-sticky.sticky-site-header.makeplus-sticky-header.no-site-title.header-layout-1.site-header:style(position: absolute !important; height: 167.3px !important;)
 bonobos.com##.header---component---KYgWP.header-component:style(position: relative !important;)
-bonobos.com,casinotop10.net,cheatsheet.com,citizenslant.com,cookforyourlife.org,fstoppers.com,golf-monthly.co.uk,lamag.com,m.bedbathandbeyond.com,mby.com,medicalnewstoday.com,middleeastmonitor.com,pbo.co.uk,sfchronicle.com,strem.io,superyachtworld.com,texasmonthly.com,yachtingmonthly.com,yachtingworld.com###navigation:style(position: relative !important; top: 0 !important;)
+bonobos.com,casinotop10.net,cheatsheet.com,citizenslant.com,cookforyourlife.org,fstoppers.com,golf-monthly.co.uk,lamag.com,m.bedbathandbeyond.com,mby.com,medicalnewstoday.com,middleeastmonitor.com,pbo.co.uk,strem.io,superyachtworld.com,texasmonthly.com,yachtingmonthly.com,yachtingworld.com###navigation:style(position: relative !important; top: 0 !important;)
 bookscanner.de##.is-empty.j-cart:style(position: absolute !important;)
 bookscanner.de##.jtpl-navigation:style(position: absolute !important; top: 0 !important;)
 bordercantos.com##.stickydiv:style(position: relative !important; top: 0 !important;)
@@ -5024,9 +5024,13 @@ seriouseats.com##.sidebar-bng-fixed.sidebar-bng-inner:style(position: static !im
 serverless.com##.lIvzX:style(position: relative !important; top: 0 !important;)
 servethehome.com##.td-a-rec-id-header_mob:style(padding-top: 0 !important;)
 service-now.com##.snc-article-header-toolbar.navbar-default.navbar.row:style(position: absolute !important;)
-sfchronicle.com##.article:style(padding-top: 10px !important;)
+sfchronicle.com###container:style(margin-top: 70px !important;)
+sfchronicle.com###navigation:style(margin-top: 44px !important;)
+sfchronicle.com###subNavigation:style(position: relative !important; top: 0 !important; z-index: unset !important;)
+sfchronicle.com##.article:style(padding-top: 44px !important; margin-top: 70px !important;)
+sfchronicle.com##.pageHeader, body > .header:style(position: relative !important;)
+sfchronicle.com##.pageHeader:not(.collection)[data-stage="2"] .pageHeader--logo:style(display: block !important;)
 sfchronicle.com##.stickyItem:style(position: absolute !important;)
-sfchronicle.com##body > .header:style(position: relative !important;)
 sfexaminer.com###fadelogo:style(display: block !important; opacity: 1 !important;)
 sfexaminer.com###top-nav:style(position: absolute !important; animation: none !important;)
 sfexaminer.com##.sticky.is-stuck:style(position: absolute !important;)
