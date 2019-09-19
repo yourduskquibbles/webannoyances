@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 18:34 2019-09-18
+! Last Modified: 22:18 2019-09-18
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -349,6 +349,7 @@ altervista.org##.btrans.trans, .gtrans.trans:style(position: absolute !important
 altpress.com,barneys.com,golfgenius.com,occupydemocrats.com,yorkdispatch.com##.fixed.header:style(position: relative !important; top: 0 !important;)
 amazingribs.com###top-nav:style(position: relative !important; top: 0 !important;)
 amazingribs.com##.top-nav:style(position: absolute !important;)
+amazingribs.com,anthem.com,bcbsga.com,empireblue.com##.ant-new-nav-wrapper.mbr-top-of-page-wrapper:style(position: absolute !important;)
 amazon.com###leftCol, #navRow, #profile-search-bar-container, .br-fixed.long.br-ob-carousel, .glimpse-fixed-navigation-container.glimpse-navigation-container, .pantry-wayfinder-sticky-bar, .style__navArea__jlY6Q, .vpc_coupon_bar:style(position: relative !important;)
 amazon.com###miniATFUDP, #miniATF_feature_div:style(position: relative !important; top: 0 !important;)
 amazon.com###nav-flyout-ewc:style(position: absolute !important; top: 0 !important; height: 600px !important;)
@@ -430,7 +431,6 @@ antergos.com###header-menu, #main-header, #top-header:style(position: relative !
 antergos.com,getmonero.org##cloudflare-app:style(position: absolute !important;)
 antergos.com,getmonero.org##html:style(top: 0 !important;)
 anthem.com,bcbsga.com##.on.alert-pattern-v2.ant-dismissable.ant-anthem-alert:style(position: absolute !important;)
-anthem.com,bcbsga.com,empireblue.com##.ant-new-nav-wrapper.mbr-top-of-page-wrapper:style(position: absolute !important;)
 antimalwareserviceexecutable.co,antimalwareserviceexecutable.org,arnoldporter.com,blog.sucuri.net,chromeunboxed.com,collinmbarrett.com,copyblogger.com,digital.com,dqydj.com,ebikeschool.com,ehomerecordingstudio.com,eng.uber.com,formidable.com,githubuniverse.com,intowindows.com,kaspersky.com,milcorp.com,mintpressnews.com,mnn.com,notlaura.com,peerlyst.com,phickle.com,quartersnacks.com,recordedfuture.com,restoreprivacy.com,rootreport.com,samharris.org,smartrecruiters.com,tekrevue.com,theamphour.com,thetechhacker.com,thewonderweeks.com,utech-polyurethane.com,vice.com,warriortrading.com,wdc.com,wifinowevents.com,wmiproviderhost.com,wtfuh.com##.site-header:style(position: absolute !important;)
 aol.co.uk,aol.com##.m-navbar--hasSubnav.m-navbar--hasLogo.m-navbar.l-navbar--fixed.l-navbar, .m-navbar.l-navbar--fixed.l-navbar, .o2-in-side-view, .vdb_player:style(position: relative !important; top: 0 !important;)
 aol.co.uk,aol.com##.navigation:style(position: relative !important; top: 0 !important; z-index: -1 !important;)
@@ -2069,7 +2069,10 @@ essayoutlinetemplate.org##.header-cont:style(position: absolute !important; top:
 essential.com###MainMenu:style(position: relative !important; top: 0 !important;)
 etonline.com###nav, .sidebar.story__sidebar:style(position: relative !important; top: 0 !important;)
 etonline.com##.sticky.stuck.field-type-entity-reference--hero.field-type-entity-reference.field-video--hero.field-video.field:style(position: static !important;)
+etsy.com###gnav-header:style(position: relative !important; box-shadow: none !important;)
 etsy.com##.fixed:style(position: relative !important; top: 0 !important;)
+etsy.com##.sticky-search-shadow:style(box-shadow: none !important;)
+etsy.com##.ui-toolkit #gnav-header:style(margin-right: 0 !important;)
 eudict.com##.uk-sticky-fixed.uk-sticky-below.uk-active.uk-sticky.uk-navbar-container:style(position: absolute !important;)
 euractiv.com###ea-ancillary-menu, #ea-primary-menu:style(position: absolute !important;)
 euronews.com###js-header-sticky, .stick.jsArticleReadingWidget.media__article-reading:style(position: absolute !important;)
@@ -4508,6 +4511,7 @@ pinterest.com##._5f._2o._2n._2m._2i._2p._25._0:style(position: relative !importa
 pinterest.com##._jq._jp._6w._3a._2y._2._2p._25._0:style(max-width: none !important;)
 pitbarrelcooker.com##.x-masthead:style(position: absolute !important;)
 pitchfork.com###page-header, .fixed.standard.nav-container, .nav-container--fixed.nav-container--standard.nav-container:style(position: relative !important; top: 0 !important;)
+pitmaster.amazingribs.com##.conversation-toolbar-wrapper:style(position: relative !important; inset: unset !important;)
 pixieset.com###top-menu:style(position: relative !important;)
 pixls.us###bar:style(position: absolute !important;)
 pixnet.net###navigation-wapper:before, #new-navigation:style(position: absolute !important;)
