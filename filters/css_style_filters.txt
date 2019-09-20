@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 00:40 2019-09-20
+! Last Modified: 00:41 2019-09-20
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1708,8 +1708,7 @@ developer.microsoft.com##.App-nav, .content_c82e8e8e:style(position: absolute !i
 developer.microsoft.com##.pageTitle_c82e8e8e:style(font-size: 72px !important; padding-top: 94px !important; height: 236px !important; box-shadow: none !important;)
 developer.mozilla.org###toc:style(position: relative !important;)
 developer.oculus.com##._1lpv._1lpw, ._3yfq._3yfj._3yfi._3yff:style(position: absolute !important;)
-developers.cloudflare.com###sidebar, .navigation:style(position: absolute !important;)
-developers.cloudflare.com###sidebar-toggle:style(position: absolute !important;)
+developers.cloudflare.com###sidebar, #sidebar-toggle, .navigation:style(position: absolute !important;)
 developers.facebook.com##._132f:style(position: absolute !important;)
 developers.google.com##.clearfix.devsite-main-content:style(margin-top: 40px !important;)
 developers.google.com##.devsite-collapsible-section, .devsite-wrapper:style(margin-top: 0 !important;)
