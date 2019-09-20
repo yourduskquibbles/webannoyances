@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 16:31 2019-09-19
+! Last Modified: 00:40 2019-09-20
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1709,6 +1709,7 @@ developer.microsoft.com##.pageTitle_c82e8e8e:style(font-size: 72px !important; p
 developer.mozilla.org###toc:style(position: relative !important;)
 developer.oculus.com##._1lpv._1lpw, ._3yfq._3yfj._3yfi._3yff:style(position: absolute !important;)
 developers.cloudflare.com###sidebar, .navigation:style(position: absolute !important;)
+developers.cloudflare.com###sidebar-toggle:style(position: absolute !important;)
 developers.facebook.com##._132f:style(position: absolute !important;)
 developers.google.com##.clearfix.devsite-main-content:style(margin-top: 40px !important;)
 developers.google.com##.devsite-collapsible-section, .devsite-wrapper:style(margin-top: 0 !important;)
@@ -4485,7 +4486,7 @@ petco.com###primary-nav:style(position: relative !important; top: auto !importan
 petfinder.com##.site-main > div > .u-isSticky > .fixedBottom, .slidingNav:style(position: relative !important;)
 pethelpful.com###header_wrap:style(position: relative !important; top: 0 !important;)
 pethelpful.com###mod_new11:style(position: static !important; top: 0 !important;)
-petri.com###nav-wrapper:style(position: relative !important;)
+petri.com###nav-wrapper, ._sticky._noprint.-fullbleed.navigation-block:style(position: relative !important;)
 pewchip.com###top-bar.hide-for-sticky:style(display: flex !important;)
 pewchip.com##.header-main:style(height: 76px !important;)
 pewchip.com##.header-wrapper:style(position: relative !important;)
@@ -4839,7 +4840,10 @@ reuters.com##.story-photo img, .featured-story-image img, .pictures-module img, 
 revelist.com##.header-article.header-article-sd.header-content:style(position: relative !important; top: 0 !important;)
 revelist.com##.header-content-inject:style(position: absolute !important;)
 reviewed.com##.primary.navbar-fixed-top.navbar, .visible-desktop.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
+reviewjournal.com###menu-top .menu-top-helper:style(padding-top: 20px !important; padding-left: 150px !important; padding-right: 150px !important;)
+reviewjournal.com###menu-top:style(position: relative !important; top: 0 !important; height: 20px !important;)
 reviewjournal.com###paid-post-rail, .s-header-ext:style(position: absolute !important;)
+reviewjournal.com##.menu-main-container.rj-container:style(position: relative !important; top: 0 !important;)
 reviewsignal.com###ViperBar_main:style(position: absolute !important;)
 revisionisthistory.com###mhSticky:style(position: absolute !important; background-color: transparent !important; height: 99px !important;)
 revisionisthistory.com##.m-h__logo:style(width: 204px !important;)
