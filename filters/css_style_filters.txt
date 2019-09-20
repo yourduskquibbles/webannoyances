@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 00:41 2019-09-20
+! Last Modified: 08:52 2019-09-20
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1321,7 +1321,15 @@ cloud.google.com##.devsite-nav.devsite-page-nav:style(position: relative !import
 cloud.google.com##.devsite-top-section-pinned.nocontent.devsite-top-section, .h-c-header__bar:style(position: absolute !important;)
 cloud.google.com##.h-c-header--corporate-initiative.h-is-wholly-scrolled .h-c-header__bar, .h-c-header--product-initiative.h-is-wholly-scrolled .h-c-header__bar:style(transform: translateZ(0) !important;)
 cloud.google.com##.nocontent.devsite-nav.devsite-section-nav:style(position: relative !important; top: 0 !important;)
+cloudflare.com##.button--new-orange:style(background: transparent !important; border: 1px solid #000 !important; color: #000 !important;)
+cloudflare.com##.desktop-nav, .topnav:style(background-color: transparent !important; border-bottom: none !important;)
 cloudflare.com##.desktop-nav, .topnav:style(position: absolute !important;)
+cloudflare.com##.learning-article-body-container--left-margin:style(margin-left: 0 !important;)
+cloudflare.com##.learning-sidenav, .learning-subnav-desktop--stuck:style(position: relative !important; top: 0 !important;)
+cloudflare.com##.top-nav.top-nav--transparent .top-nav__item-list__link a, .top-nav.top-nav--transparent .top-nav__items a, .top-nav.top-nav--transparent .top-nav__items li, .top-nav.top-nav--transparent .top-nav__items span, .top-nav.top-nav--transparent .top-nav__link a, .top-nav__item-list__link, .top-nav__upper-bar .top-nav__item-list a, .top-nav__upper-bar .top-nav__item-list span:style(color: #000 !important;)
+cloudflare.com##.top-nav.top-nav--transparent .top-nav__upper-bar .header-language-picker .header-language-picker__globe-icon:style(background: none !important;)
+cloudflare.com##.top-nav.top-nav--transparent:style(width: 100% !important;)
+cloudflare.com##.top-nav__logo--dark:style(display: block !important;)
 clyp.it##.fixed-header:style(position: relative !important; top: 0 !important;)
 cmegroup.com##.header-par.cmePineappleHeader:style(position: absolute !important;)
 cn.nytimes.com##.article-ribbon:style(position: relative !important; transform: translateY(0) !important;)
@@ -2385,6 +2393,7 @@ fox29.com,fox5dc.com##.site-header .nav-row:style(height: 78px !important; line-
 fox29.com,fox5dc.com##.site-header .primary-nav a:style(padding: 6px 16px !important;)
 fox29.com,fox5dc.com##.site-header .primary-nav li:style(margin-right: 20px !important;)
 fox29.com,fox5dc.com##.stick.sidebar-primary.sidebar, .stick.sidebar-secondary.sidebar:style(position: static !important;)
+fox29.com,fox5dc.com##.stick.sticky-region:style(position: absolute !important;)
 fox4kc.com,portlandscw.com,sflcw.com,wgntv.com,whotv.com,wnep.com##.navbar:style(position: absolute !important; margin-top: 0 !important;)
 fox4news.com,fox5dc.com,wsbtv.com###story-sticky-content:style(position: relative !important; top: 0 !important;)
 fox8live.com##.sticky.cdev-menu-nav:style(position: absolute !important;)
