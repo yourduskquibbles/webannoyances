@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 08:52 2019-09-20
+! Last Modified: 08:56 2019-09-20
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -4852,6 +4852,7 @@ reviewjournal.com###menu-top .menu-top-helper:style(padding-top: 20px !important
 reviewjournal.com###menu-top:style(position: relative !important; top: 0 !important; height: 20px !important;)
 reviewjournal.com###paid-post-rail, .s-header-ext:style(position: absolute !important;)
 reviewjournal.com##.menu-main-container.rj-container:style(position: relative !important; top: 0 !important;)
+reviewjournal.com##.rj-gallery .xscreen .media-float.float-enable:style(position: relative !important; left: unset !important; bottom: unset !important; width: 100% !important;)
 reviewsignal.com###ViperBar_main:style(position: absolute !important;)
 revisionisthistory.com###mhSticky:style(position: absolute !important; background-color: transparent !important; height: 99px !important;)
 revisionisthistory.com##.m-h__logo:style(width: 204px !important;)
