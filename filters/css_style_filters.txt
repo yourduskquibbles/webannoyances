@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 13:35 2019-09-23
+! Last Modified: 13:41 2019-09-23
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2237,9 +2237,11 @@ federalreserve.gov###t4_nav:style(position: absolute !important; top: 0 !importa
 federalreserve.gov##.nav-primary.affix + .container:style(margin-top: 0 !important;)
 federalreserve.gov##.navbar-fixed-top.navbar-default.navbar.t1_nav:style(position: absolute !important;)
 fedex.com###fxg-header-container:style(position: unset !important; background-color: transparent !important;)
+fedex.com###nina-fedex.nw_Popin:style(position: absolute !important;)
 fedex.com##.fxg-global-nav .fxg-link:style(padding: 31px 15px 30px 15px !important;)
 fedex.com##.fxg-header__logo_wrapper:style(height: 75px !important;)
 fedex.com##.fxg-user-options__option .fxg-link:style(padding: 25px 16px 23px !important;)
+fedex.com,parenting.com,wired.com##html:style(overflow-x: hidden !important;)
 fedscoop.com##.logo--small:style(transform: none !important;)
 fedscoop.com##.page-hero-homepage.page-hero:style(margin-top: 0 !important;)
 fedscoop.com##.wrapper:style(padding-top: 0 !important;)
@@ -4404,7 +4406,6 @@ paper.li##.controls-left, .controls-right, .paper-navigation:style(position: abs
 papermag.com###search-trigger:style(position: absolute !important;)
 papermc.io##.navbar-fixed > .darken-4.grey:style(position: absolute !important;)
 parade.com##.global:style(position: absolute !important;)
-parenting.com,wired.com##html:style(overflow-x: hidden !important;)
 parenting.nytimes.com##header[data-testid="header"] > div:style(position: absolute !important;)
 parents.com##.component.navigation-test .menu-homepage-row:last-of-type .primary-links, .logo, .menu-homepage-row:last-of-type .primary-link:style(display: flex !important;)
 parentspoc.com##.menu-shadows.menu-borders.style-color-xsdn-bg.menu-hide.menu-container:style(position: absolute !important; top: 0 !important; transform: none !important;)
