@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 13:32 2019-09-23
+! Last Modified: 13:35 2019-09-23
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2236,7 +2236,7 @@ federalreserve.gov###nav-primary:style(position: relative !important; top: 0 !im
 federalreserve.gov###t4_nav:style(position: absolute !important; top: 0 !important;)
 federalreserve.gov##.nav-primary.affix + .container:style(margin-top: 0 !important;)
 federalreserve.gov##.navbar-fixed-top.navbar-default.navbar.t1_nav:style(position: absolute !important;)
-fedex.com###fxg-header-container:style(position: unset !important;)
+fedex.com###fxg-header-container:style(position: unset !important; background-color: transparent !important;)
 fedex.com##.fxg-global-nav .fxg-link:style(padding: 31px 15px 30px 15px !important;)
 fedex.com##.fxg-header__logo_wrapper:style(height: 75px !important;)
 fedex.com##.fxg-user-options__option .fxg-link:style(padding: 25px 16px 23px !important;)
