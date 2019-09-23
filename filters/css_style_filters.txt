@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 13:37 2019-09-22
+! Last Modified: 08:58 2019-09-23
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -961,10 +961,7 @@ boston25news.com###story-sticky-content:style(position: absolute !important;)
 boston25news.com,fox26houston.com,lasvegasnow.com,news.samsung.com,nme.com,npr.org,trustedreviews.com,wftv.com,wsbtv.com###wrapper:style(padding-top: 0 !important;)
 bostonfed.org###topbar, .nav-list-wrapper:style(display: block !important;)
 bostonfed.org##.is-stuck.header-section:style(position: absolute !important;)
-bostonglobe.com###article-right-rail:style(margin-left: unset !important;)
-bostonglobe.com##.bg-header__smartbar--message, .bg-team-nav--sticky, .js-site-header.site-header, .site-header, .sticky-tools--active.sticky-tools, .masthead_scroll.fixed, .sign_in_settings_container:style(position: relative !important;)
-bostonglobe.com##.content--big-template:style(padding-top: 0 !important;)
-bostonglobe.com##.navigation_masthead_container:style(position: unset !important;)
+bostonglobe.com##.masthead_scroll:style(position: absolute !important;)
 bostonreview.net###innercols-secondary-inner:style(position: relative !important; top: 0 !important;)
 bottomlineinc.com##.sticky-nav.cf.navigation-wrap:style(position: relative !important; top: 0 !important;)
 boulevardmagazines.com,oasislife.ca,vancouverboulevard.com,wave.campbellrivermirror.com,winetrails.ca##.affix.affix-container:style(position: absolute !important;)

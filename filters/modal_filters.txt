@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 13:33 2019-09-22
+! Last Modified: 08:58 2019-09-23
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of cookie bars & other page covering elements. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -119,7 +119,8 @@ boardingarea.com###ba-flybox
 boingboing.net##.rune-modal-body.rune-c3--container, .rune-sidebar-container
 bookforum.com###EmailRegistrationPopup, #OverlayRegistration
 bose.com##.bottom_banner
-bostonglobe.com##.infinite-modal__black-bar, .meter-modal-block, .meter-progress-bar
+bostonglobe.com###continue_button, .infinite-modal__black-bar, .meter-progress-bar
+bostonglobe.com##div[class$="overflow_hidden"]:style(height: unset !important;)
 bourbonblog.com###signupModal
 bps.org.uk##.mc-banner, .mc-modal, .mc-modal-bg
 brandnol.com##.hestia-scroll-to-top
