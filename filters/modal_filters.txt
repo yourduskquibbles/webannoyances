@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 11:09 2019-09-24
+! Last Modified: 15:51 2019-09-24
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of cookie bars & other page covering elements. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -58,7 +58,9 @@ antena3.com,discordbots.org,gamepedia.com,mmo-champion.com,streamable.com,woot.c
 aol.co.uk,aol.com###mod-notifications-banner-1, .newsletter-modal-background, .newsletter-popup
 apartmenttherapy.com,avclub.com,bobvila.com,bongino.com,causeandeffect.fm,cinemablend.com,clickhole.com,cnet.com,deadline.com,deadspin.com,earther.com,eatthis.com,fastcodesign.com,fastcompany.com,fatherly.com,gizmodo.com,golfchannel.com,hotair.com,hughhewitt.com,jalopnik.com,jezebel.com,kinja.com,kotaku.com,lifehacker.com,lifezette.com,mashable.com,purewow.com,reason.com,redstate.com,splinternews.com,thehill.com,theinventory.com,theonion.com,theroot.com,thetakeout.com,townhall.com,twitchy.com,wnd.com,wnyt.com,zdnet.com##.preloaded_lightbox
 apnic.net##.smcx-modal.smcx-widget
-appuals.com##.ad-popup
+appuals.com###reading-position-indicator, .ad-popup, .tie-popup
+appuals.com###tie-wrapper:style(filter: none !important;)
+appuals.com##html:style(overflow-x: hidden !important; overflow-y: scroll !important; margin-right: 0 !important; padding-right: 0 !important;)
 ar15.com##.cd-fade-out.cd-is-visible.cd-top
 arianespace.com##.is-fixed.js-tirette.tirette, .js-banner.cookie
 arm.com##.c-policies
@@ -226,6 +228,7 @@ dictionary.com###fly-out
 digg.com###email-capture-modal, #js--editions-promo, .email-subscribe-modal, .parallax.hp-interstitial, .promo-bottom--editions
 digg.com##.overflow-wrap:style(overflow-x: auto !important;)
 digital.com###discbar_footer
+digitalcitizen.life###eu-cookies-consent
 digitalocean.com###DO_CC_PANEL, ._panel_1nv7e_1
 digitalspy.com###_evidon-barrier-wrapper
 discovermagazine.com##.wp_popup_overlay
@@ -637,6 +640,7 @@ shtfplan.com###sgpb-popup-dialog-main-div-wrapper, ##.sgpb-popup-overlay
 siam.org###goup
 sierraclub.org##.pcm-overlay
 siliconrepublic.com###cookie-law > div
+silicophilic.com##.button-top-visible.button-top
 simplehuman.com###subscriptionModal
 simplemost.com##.top-container
 sitepoint.com##sp-fixed-countdown-bar
@@ -777,6 +781,7 @@ whalewisdom.com###abd-banner
 wiley.com##.notification.js-module
 williams-sonoma.com###ecatalog-wrapper, .overlayMask.stickyOverlayMask, .overlayScroll.stickyOverlayScroll
 wilton.com##.optin-slide-wrapper
+windowsreport.com###ad_blocker_notice_body
 wired.co.uk###optanon, .is-fixed.js-c-infobar.c-infobar
 wired.com##.paywall-bar--visible.paywall-bar
 wisegeek.com###jquery-lightbox, #jquery-overlay
