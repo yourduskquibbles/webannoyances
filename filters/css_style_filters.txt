@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 08:25 2019-09-24
+! Last Modified: 08:31 2019-09-24
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -363,7 +363,7 @@ amazon.com##.ewc-beacon.nav-flyout-body:style(top: 0 !important; height: 100% !i
 amazon.com##.huc-v2-pinned-order-row-with-divider:style(position: relative !important; top: 0 !important; padding: 0 !important;)
 amazon.com##.nav-flyout-head:style(padding-top: 47px !important; height: 99px !important; top: 0 !important;)
 amazon.com##.nav-sprite.nav-tools.nav-flyout-head:style(top: 0 !important;)
-amazon.com,chronicle.com,ibtimes.com,mensjournal.com,wsj.com##body:style(overflow-x: hidden !important; overflow-y: scroll !important; padding-top: 0 !important;)
+amazon.com##body:style(overflow-x: hidden !important; overflow-y: scroll !important; padding-top: 0 !important; margin-right: 0 !important;)
 amctheatres.com###CheckoutConfirmationMessage, #CheckoutHeader, .is-opaque.Header-wrap:style(position: relative !important; top: 0 !important;)
 amctheatres.com##.Header-container:style(position: absolute !important; background-color: transparent !important;)
 amctheatres.com##.Header-wrap-wrapper, .Site > div:nth-of-type(2) > div:nth-of-type(2), .global-notification-container:style(position: absolute !important;)
@@ -1276,6 +1276,7 @@ chron.com,ctpost.com,greenwichtime.com,lmtonline.com,michigansthumb.com,middleto
 chron.com,ctpost.com,greenwichtime.com,lmtonline.com,michigansthumb.com,middletownpress.com,mrt.com,myjournalcourier.com,myplainview.com,mysanantonio.com,newstimes.com,nhregister.com,ourmidland.com,registercitizen.com,seattlepi.com,sfgate.com,stamfordadvocate.com,thehour.com,theintelligencer.com,thetelegraph.com,timesunion.com##div[class*="monti-container-player"]:style(position: relative !important; top: 0 !important; bottom: unset !important; right: unset !important; height: 100% !important; width: 100% !important; margin: 0 !important;  box-shadow: none !important;)
 chronicle.com###nav-persistent__container:style(position: relative !important; top: 0 !important;)
 chronicle.com##.nav-ribbon--label:style(display: inline-block !important; opacity: 1 !important; visibility: visible !important; filter: unset !important;)
+chronicle.com,ibtimes.com,mensjournal.com,wsj.com##body:style(overflow-x: hidden !important; overflow-y: scroll !important; padding-top: 0 !important;)
 chubstr.com##.sticky-header--active .site-header.size-set .logo img, .site-header.size-set.slidedown .logo img, .site-header.size-set.sticky-menu-2.stuck .logo img:style(height: 80px !important;)
 cigaraficionado.com##.nav:style(opacity: 1 !important; animation: none !important;)
 cigaraficionado.com,turnuav.com###mainNavigation:style(position: relative !important;)
