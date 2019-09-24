@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 12:54 2019-09-23
+! Last Modified: 08:25 2019-09-24
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of cookie bars & other page covering elements. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -104,7 +104,7 @@ bestvpn.com##.sticky.how-we-review.widget:style(position: static !important;)
 bestvpnrating.com###top, .popup-overlap
 betterhelp.com###modal-exit, #modal-landing
 bfst.to,buffstream.to###webmodal2
-bigballerbrand.com,blueapron.com,chron.com,couponcabin.com,ehow.com,geniuspack.com,mysanantonio.com,ncregister.com,truthrevolt.org,usatoday.com,wallstreet.org##.fancybox-overlay
+bigballerbrand.com,blueapron.com,chron.com,coogi.com,couponcabin.com,ehow.com,geniuspack.com,mysanantonio.com,ncregister.com,truthrevolt.org,usatoday.com,wallstreet.org##.fancybox-overlay
 bigballerbrand.com,ncregister.com##.fancybox-wrap
 bigleaguepolitics.com##.modaal-wrapper, .mvp-fly-top
 birdguides.com###cookie-control-modal, .modal-backdrop
@@ -176,6 +176,7 @@ community.arm.com##.join-alert
 community.jivesoftware.com###cookie-consent-alert
 conference-board.org##.browserCacheBox
 conservativeintel.com###splashmodal, .popupbox_mid
+coogi.com,mysanantonio.com##.fancybox-lock:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 cookieandkate.com###wbounce-modal
 cookistry.com##.nav-circlepop
 coronacigar.com###modal-mailing-list
@@ -479,7 +480,6 @@ musically.com,slitherio.org###scnb-cookie-bar
 mychicagosteak.com##.om-holder
 mygoodplanet.com##.thb-cookie-bar
 mypayflex.com##.QSIPopOver, .QSIPopOverShadowBox
-mysanantonio.com##.fancybox-lock:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 myspace.com###termsOfService, .eucookie
 n-gate.com###not_yet
 narcity.com##.fc-ab-root
@@ -527,6 +527,7 @@ objective-see.com##.mc-modal-bg
 offers.com###modal-overlay, #takeover
 oilprice.com,themediterraneandish.com,topclassactions.com,uspostnews.com,wellplated.com##.Campaign
 oilprice.com,uspostnews.com##html.om-position-popup body:style(overflow-x: hidden !important; overflow-y: scroll !important; padding-right: 0 !important;)
+old.reddit.com##.in.spezmodal.fade.modal, .in.fade.modal-backdrop
 omaha.com,richmond.com##.wcpopupmodal-overlay, .wcpopupmodal-wrapper
 omeleto.com###myModal, #reveal-modal-bg
 omni.se##.psi-parent
