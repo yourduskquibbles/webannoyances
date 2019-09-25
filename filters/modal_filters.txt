@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 15:51 2019-09-24
+! Last Modified: 22:43 2019-09-24
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of cookie bars & other page covering elements. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -155,7 +155,9 @@ chase.com##.abandon-modal, .abandon-overlay, .introjs-overlay, .introjs-tooltip
 cheddar.com,decrypt.co,decryptmedia.com,facetdev.com,forgeglobal.com,intoli.com,pubilling.io,snapeda.com,streak.com###intercom-container
 chefkoch.de###ck-cookie-statement
 chicagobusiness.com##.dialog-wrapper
+chowhound.com##.fb_lightbox-lock:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 chowhound.com##.freyja_overlay
+chowhound.com,rollingstone.com,washingtontimes.com##.fb_lightbox-overlay, .preloaded_lightbox
 chromeunboxed.com##.hustle-modal
 cigarbid.com###sweepstakes-popup
 cigarchief.com###heateor_ss_browser_popup_bg, #the_champ_sharing_more_providers
@@ -613,7 +615,6 @@ ripoffreport.com###live-gdpr, #live-popover
 ripple.com###newsletterModal
 risk.net###rdm-cookie-consent
 rocketleague.com###privmessage
-rollingstone.com,washingtontimes.com##.fb_lightbox-overlay, .preloaded_lightbox
 rsf.org###overlays
 rt.com##.cookies__banner
 ruindays.com##.sticky_nav--stick.sticky_nav.main_nav_wrapper, .wheelio_holder
