@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 09:59 2019-09-25
+! Last Modified: 14:01 2019-09-25
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of cookie bars & other page covering elements. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -169,6 +169,7 @@ citusdata.com###consentBox
 citylab.com###blocker-msg-start
 cjr.org###interContainer, #interVeil
 cnbc.com##.bx-align, .pico-content, .pico-overlay
+cnn.com,msn.com##.optanon-alert-box-wrapper
 co-opfs.org##.my-modal-target.customer-service-btn
 codepen.io###modal-overlay, .modal-message
 coindesk.com,newsandsentinel.com,pbs.org,wikiarms.com,woot.com##.popup
@@ -262,7 +263,7 @@ elpasotimes.com##body:style(height: auto !important;)
 elpasotimes.com##div[id^="sp_message_id"]
 emerils.com##.is-active.interruptor
 entrepreneur.com###pr-ticker
-enzymediane.com,ustvgo.net##.grecaptcha-badge
+enzymediane.com,ustvgo.*##.grecaptcha-badge
 epainassist.com##.popup-wrapper
 espn.com##.active.js-feed-item-mask, .bg-opaque.mod-outbrain.mod-no-border, .cookie-overlay, .js-bloomed.favorites-mgmt.lightbox
 europeantour.com###modalCookieContainer
