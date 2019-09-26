@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 15:05 2019-09-26
+! Last Modified: 16:05 2019-09-26
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -3099,7 +3099,7 @@ insideedition.com##.affix.main-header:style(position: absolute !important;)
 insideedition.com##.darkGreyBg.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important; top: 0 !important;)
 insideedition.com##.main_background:style(background-position: 0 !important;)
 insideevs.com,motor1.com,rideapart.com###post_sidebar, .section-sidebar:style(position: static !important; top: 0 !important; transform: translate3d(0px, 0px, 0px) !important;)
-insideevs.com,motor1.com,rideapart.com##.m1-header-main:style(position: relative !important; transform: translateZ(0) !important;)
+insideevs.com,motor1.com,rideapart.com##.m1-header-main:style(position: relative !important; margin-bottom: -60px !important; transform: translateZ(0) !important;)
 insideevs.com,motor1.com,rideapart.com##.withAvatar.postAuthorBox:style(margin-top: 25px !important;)
 insidehighered.com##.stickit:style(position: absolute !important; padding-top: 0 !important;)
 insider.com##.close-icon-wrapper, .search-icon-wrapper:style(border-left: 1px solid #e0e4e5 !important; padding-left: 20px !important;)
@@ -5717,6 +5717,7 @@ thehealthyfoodie.com##.shrink.site-header:style(position: relative !important; t
 thehill.com###header > div, .header, .region-highlighted.region, .scrolling-content:style(position: relative !important; top: 0 !important;)
 thehill.com##.content-container-l:style(top: 0 !important; margin-top: 0 !important;)
 thehill.com##.floating-block-active:style(position: absolute !important;)
+thehill.com##.page-bottom:style(padding-top: 80px !important; margin-top: 0 !important;)
 thehill.com##.player-position:style(position: static !important; width: 640px !important; height: 360px !important; border-radius: 0 !important; box-shadow: none !important; padding: 0 !important;)
 thehindu.com##.clear.main-menu.navbar, .hidden-sm.hidden-md.hidden-lg.logo-block:style(position: relative !important; top: 0 !important;)
 thehindubusinessline.com##.col-xs-12.paddingLeftRight20.top-left-inf-scroll:style(width: 66.66666667% !important;)
