@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 11:33 2019-09-27
+! Last Modified: 21:39 2019-09-27
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -177,6 +177,7 @@ aboutamazon.com##.ArticlePage-header, .AuthorPage-header, .CategoryPage-header, 
 abovethelaw.com###primary-nav:style(margin-top: 90px !important;)
 abovethelaw.com##.logo-wrapper.columns:style(position: relative !important; top: 0 !important;)
 abovethelaw.com##nav.sites .menu-wrap, nav.sites button:style(position: absolute !important;)
+abovetopsecret.com##nav.fixed:style(position: relative !important;)
 abplive.in###mainNav1, .affix.navbar-sub:style(position: absolute !important; top: 0 !important;)
 academia.edu##.swp-mobile-get-pdf-footer.js-swp-mobile-get-pdf-footer:style(position: absolute !important;)
 accent-bikes.com##.l-header-wrapper:style(position: absolute !important;)
@@ -2842,6 +2843,7 @@ hindustantimes.com##.header2:style(position: absolute !important;)
 hireright.com##.fhmm.navbar-static-top.navbar-white.navbar:style(position: relative !important; top: 0 !important;)
 history.com##.m-video-player--frame-container:style(position: static !important; bottom: 0 !important; height: 100% !important; left: 0 !important; right: 0 !important; top: 0 !important; width: unset !important;)
 history.com##.mm-video-player--floating .m-video-player--frame:style(height: 100% !important; width: 100% !important;)
+historycollection.co###g-header:style(position: absolute !important;)
 historyextra.com##.is-sticky.site-header__eyebrow, .is-sticky.site-header__nav:style(position: absolute !important;)
 historynet.com##.ubermenu:style(position: absolute !important;)
 historytoday.com##.ht-mini-header-wrapper:style(position: absolute !important;)
@@ -3183,6 +3185,7 @@ ipmvs.com##.crumStick.hidden-xs.titleBreadCrumb:style(position: absolute !import
 ipmvs.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; margin-bottom: 0 !important;)
 ipmvs.com##.title:style(margin-top: 0 !important;)
 ipolitics.ca##.header-sticky.desktop.header, .nav-top.nav:style(position: relative !important; top: 0 !important;)
+ipsw.me##.navbar-expand-lg.bg-primary.navbar-dark.fixed-top.navbar:style(position: absolute !important;)
 ipvm.com##.nav-down.push.navbar-light.navbar-fixed-top.navbar.bg-white:style(position: absolute !important;)
 irishcentral.com##.affix.scrollable:style(position: static !important;)
 isara.com##.after-scroll-wrap.navbar-inverse.navbar:style(position: absolute !important;)
@@ -4813,7 +4816,7 @@ reachlocal.com###fixed-header:style(position: absolute !important; top: 0 !impor
 reactjs.org##.css-3ao3zf, .css-mlkfzr:style(position: absolute !important;)
 realclearbooks.com,realcleardefense.com,realcleareducation.com,realclearenergy.org,realclearfuture.com,realclearhealth.com,realclearhistory.com,realclearinvestigations.com,realclearlife.com,realclearmarkets.com,realclearpolitics.com,realclearreligion.org,realclearscience.com,realclearsports.com,realclearworld.com###container:style(padding-top: 10px !important;)
 realclearbooks.com,realcleardefense.com,realcleareducation.com,realclearenergy.org,realclearfuture.com,realclearhealth.com,realclearhistory.com,realclearinvestigations.com,realclearlife.com,realclearmarkets.com,realclearpolitics.com,realclearreligion.org,realclearscience.com,realclearsports.com,realclearworld.com###masthead-wrapper:style(position: relative !important; top: 0 !important; box-shadow: none !important;)
-realclearbooks.com,realcleardefense.com,realcleareducation.com,realclearenergy.org,realclearfuture.com,realclearhealth.com,realclearhistory.com,realclearinvestigations.com,realclearlife.com,realclearmarkets.com,realclearpolitics.com,realclearreligion.org,realclearscience.com,realclearsports.com,realclearworld.com##.scroll.sticky-right-col:style(position: relative !important; margin-top: 0 !important;)
+realclearbooks.com,realcleardefense.com,realcleareducation.com,realclearenergy.org,realclearfuture.com,realclearhealth.com,realclearhistory.com,realclearinvestigations.com,realclearlife.com,realclearmarkets.com,realclearpolitics.com,realclearreligion.org,realclearscience.com,realclearsports.com,realclearworld.com##.scroll.sticky-right-col:style(position: relative !important; top: 0 !important; margin-top: 0 !important;)
 realclearpolitics.com###masthead-container, #masthead, .alpha-wrapper:style(position: relative !important; top: 0 !important;)
 realclearpolitics.com##.rc_video_player_container:style(position: relative !important;)
 realtek.com###t3-header:style(position: relative !important;)
