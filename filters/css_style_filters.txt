@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 11:38 2019-10-01
+! Last Modified: 12:16 2019-10-01
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -4873,6 +4873,8 @@ retropie.org.uk###header-menu, .md-header:style(position: absolute !important;)
 reuters.com###breakingNewsContainer, .Header_is-fixed_3OnFb.Header_header_1xhmD, .active.container.header-pane-main, .container > div > div > div > div, .fixed, .header-main.group.header, .header-mini.header-main.group.header > .active.container.header-pane-main, .navbar-toggleable-sm.navbar-inverse.bg-inverse.fixed-top.navbar-full.navbar.header.special-report-nav, .special-report-nav:style(position: relative !important; top: 0 !important;)
 reuters.com###content:style(margin-top: 24px !important;)
 reuters.com###progressbar, .edition-header, .navbar-expand-sm.navbar-dark.bg-dark.fixed-top.navbar-full.navbar.header, .Sticky_fixed.Sticky_content:style(position: absolute !important;)
+reuters.com###searchBar.active .search-submit-button:style(top: 8px !important;)
+reuters.com###searchForm:style(margin-left: 118px !important;)
 reuters.com##.BreakingNews_bar:style(position: absolute !important; top: 9.2em !important; bottom: unset !important; opacity: 1 !important; max-width: 100% !important; width: 100% !important; border-radius: 0 !important;)
 reuters.com##.BreakingNews_bar:style(transition: none !important;)
 reuters.com##.Sticky_at-bottom.Sticky_content:style(bottom: unset !important;)
@@ -4881,12 +4883,13 @@ reuters.com##.TrendingBar_trending-item_bItjC.TrendingBar_loaded_3oiZW:style(ani
 reuters.com##.Video_container > div > div > div > div > div:style(position: relative !important; background-color: transparent !important; width: 100% !important; box-shadow: none !important; opacity: 1 !important;)
 reuters.com##.Video_container > div > div > div > div:style(position: absolute !important; width: 100% !important; top: unset !important; left: unset !important;)
 reuters.com##.Video_container.Video_docked:not(.Video_docked-hidden) .Video_video-container > iframe:style(position: absolute !important; transform: none !important; width: 100% !important; height: 100% !important; box-shadow: none !important;)
-reuters.com##.header-mini-logo:style(visibility: hidden !important; opacity: 0 !important;)
-reuters.com##.home-icon:style(visibility: visible !important; opacity: 1 !important;)
+reuters.com##.header-mini-logo:style(visibility: visible !important; opacity: 1 !important;)
+reuters.com##.home-icon:style(visibility: hidden !important; opacity: 0 !important;)
 reuters.com##.lazy-photo img:style(opacity: 1 !important;)
 reuters.com##.main.content:style(margin-top: 0 !important;)
 reuters.com##.nav-item .search-icon:style(margin: 6px 0 0 0 !important;)
-reuters.com##.nav-item .text:style(display: inline-block !important;)
+reuters.com##.nav-item.active-icon:style(vertical-align: bottom !important;)
+reuters.com##.nav-item.active-text .home-icon, .nav-item.active-text .pictures-icon, .nav-item.active-text .video-icon:style(margin-right: 0 !important;)
 reuters.com##.nav-item:not(.home-tab):not(.search-tab):style(position: relative !important;)
 reuters.com##.story-photo img, .featured-story-image img, .pictures-module img, .video-module img:style(-webkit-filter: brightness(1) !important; transition: none !important;)
 revelist.com##.header-article.header-article-sd.header-content:style(position: relative !important; top: 0 !important;)
