@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Newsletter Subscription Filters
-! Last Modified: 09:49 2019-10-01
+! Last Modified: 13:07 2019-10-01
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for newsletter annoyances - Remove newsletter & other subscription cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -579,6 +579,9 @@ vox.com##p:has-text(Sign up for)
 wallethacks.com###text-32
 washingtonexaminer.com###newsletter-signup-policy, #newsletter_sign_up_form, .newsletter, .subscribe-promo
 washingtonpost.com###nav-subscribe, #signup-banner, #signup-box-instream, #signup-box-rr, .daily202-newsletter, .newsletter-inline-unit, .newsletter-unit.signup-box-rr, .pb-f-page-subscription-promo, .pb-subscribe, .pb-subscribe-promo, .right-rail-subscription, .signup-module, .subscribe, .subscribe-links
+washingtonpost.com##.hide-for-print :has([name="signup-email"])
+washingtonpost.com##.hide-for-print:has([alt*="Newsletter"])
+washingtonpost.com##button:has-text(Subscribe)
 washingtontechnology.com##.WASHINGTON-TECHNOLOGY
 washingtontimes.com###newsletter-form-story, .block-email-alerts-footer, .email-alerts
 weeklystandard.com###dy_Home_Page_Sub_Promo, #newsletter_sign_up_form, .desktop-sidebar-sub, .fixed-sub-button, .sub-drawer, .subscription-promo
