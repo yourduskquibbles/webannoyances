@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 13:47 2019-10-02
+! Last Modified: 14:16 2019-10-02
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -230,7 +230,7 @@ ads.twitter.com,developer.twitter.com,dmagazine.com,globalcitizen.org,lotuffleat
 adsack.com###main-nav-container:style(position: relative !important;)
 adssettings.google.com###yDmH0d:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 adssettings.google.com##c-wiz:style(overflow: unset !important;)
-adssettings.google.com,airbnb.design,ambotv.com,azarus.io,blog.bitbucket.org,blueorigin.com,brainpickings.org,brightsurf.com,btcwires.com,cedarfair.com,chicagobusiness.com,citizensaccess.com,community.microfocus.com,couponcabin.com,crainscleveland.com,crainsdetroit.com,crainsnewyork.com,dippindots.com,dropboxforum.com,embracepetinsurance.com,extrahop.com,fedex.com,flopstarter.com,foreignpolicy.com,gamedev.net,goodrx.com,honda.com,html5canvastutorials.com,i24news.tv,instructure.com,ipaddress.com,islamicfinder.org,jimmyjohns.com,libp2p.io,mcmansionhell.com,microchip.com,modernistcuisine.com,news18.com,pocketsense.com,rhodecode.com,sendspace.com,solarmoviez.ru,thepiratebay-proxylist.se,usw.org,wendys.com,whio.com##header:style(position: absolute !important;)
+adssettings.google.com,airbnb.design,ambotv.com,azarus.io,blog.bitbucket.org,blueorigin.com,brainpickings.org,brightsurf.com,btcwires.com,cedarfair.com,chicagobusiness.com,citizensaccess.com,community.microfocus.com,couponcabin.com,crainscleveland.com,crainsdetroit.com,crainsnewyork.com,dippindots.com,dropboxforum.com,embracepetinsurance.com,extrahop.com,fedex.com,flopstarter.com,foreignpolicy.com,gamedev.net,goodrx.com,html5canvastutorials.com,i24news.tv,instructure.com,ipaddress.com,islamicfinder.org,jimmyjohns.com,libp2p.io,mcmansionhell.com,microchip.com,modernistcuisine.com,news18.com,pocketsense.com,rhodecode.com,sendspace.com,solarmoviez.ru,thepiratebay-proxylist.se,usw.org,wendys.com,whio.com##header:style(position: absolute !important;)
 advancemediany.com,amgreatness.com,beltmag.com,girlscangrill.com,keckmedicine.org,njadvancemedia.com,spigot.com,themediabriefing.com,ublock.org##.fusion-header:style(position: relative !important;)
 advegis.ml##.is_stuck.main-navigation:style(position: relative !important;)
 adventuresofanurse.com,bythewavs.com,chicagocubsonline.com,thefuntimesguide.com##.nav-primary:style(position: relative !important; top: 0 !important;)
@@ -589,7 +589,7 @@ auctiva.com##.navbar-fixed-top.navbar, .site-header:style(position: relative !im
 auctiva.com##html.csscolumns-span:style(overflow-x: hidden !important; overflow-y: scroll !important; padding-right: 0 !important;)
 audible.com###navigation-top-wrapper:style(position: absolute !important;)
 augusta.com##.navbar-fixed-top.navbar-default.navbar, .navbar-header:style(position: relative !important; top: 0 !important;)
-aura.app,bitport.io,boardofwisdom.com,buffalonews.com,dailycaller.com,data.swiftkey.com,deepcapture.com,democracynow.org,discord.me,discounttire.com,irehouse.com,irishexaminer.com,marketwatch.com,mic.com,nypost.com,saksfifthavenue.com,simpleflying.com,support.google.com,withgoogle.com##header:style(position: relative !important;)
+aura.app,bitport.io,boardofwisdom.com,buffalonews.com,dailycaller.com,data.swiftkey.com,deepcapture.com,democracynow.org,discord.me,discounttire.com,honda.com,irehouse.com,irishexaminer.com,marketwatch.com,mic.com,nypost.com,saksfifthavenue.com,simpleflying.com,support.google.com,withgoogle.com##header:style(position: relative !important;)
 auslogics.com###widget-area:style(margin-top: 0 !important;)
 auslogics.com##.top-nav:style(position: absolute !important;)
 austinchronicle.com##.logo-nav-slide:style(position: absolute !important;)
@@ -603,6 +603,11 @@ autohotkey.com##.mbr-section.mbr-navbar__section:style(position: absolute !impor
 automateexcel.com###chat-application, #topsearchbar, .menubar, .navbar, .myaccountusersection, .rightsidebar:style(position: absolute !important;)
 automateexcel.com##.sidebar:style(absolute !important; top: 0 !important;)
 automationworld.com###awbs-mobile-navbar:style(position: absolute !important;)
+automobiles.honda.com##.m_header > nav:style(position: relative !important; transform: translate3d(0,0,0) !important;)
+automobiles.honda.com##.sticky-wrapper:style(height: auto !important;)
+automobiles.honda.com##.vehicle-nav-new-model.hrt-peekaboo-behavior.vehicle-nav:style(position: relative !important;)
+automobiles.honda.com##.wrapper.hrt.collapsed-nav .vehicle-nav.force-nav-stuck, .wrapper.hrt.collapsed-nav .vehicle-nav.stuck, .wrapper.hrt.expanded-nav .vehicle-nav.force-nav-stuck, .wrapper.hrt.expanded-nav .vehicle-nav.stuck:style(position: relative !important; top: 0 !important; transform: translate3d(0,0,0) !important; margin-top: -7.5rem !important; margin-bottom: 1.5rem !important;)
+automobiles.honda.com##.wrapper:style(margin-top: 0 !important;)
 autonews.com###clear-nav-account, #live, #main-header, #main-nav:style(position: relative !important; top: 0 !important;)
 autoweek.com##.header-wrap:style(position: absolute !important;)
 avadirect.com##.a-header, .ava-blog-header:style(position: absolute !important;)
@@ -2884,6 +2889,7 @@ homelight.com##.section--no-embossed-border.agent-quiz.section:style(position: s
 homeownershub.com##.navbar-custom.logo.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important;)
 homernews.com,peninsulaclarion.com##.top-bar-container:style(position: relative !important;)
 hometheaterforum.com###userBar > .sticky_wrapper:style(position: relative !important;)
+honda.com,law.cornell.edu##.navbar-fixed-bottom, .navbar-fixed-top:style(position: absolute !important;)
 honest-food.net###genesis-mobile-nav-primary:style(position: absolute !important;)
 honesttopaws.com##.header-float:style(position: relative !important; top: 0 !important;)
 hooktheory.com,the-pool.com##.fixed-header:style(position: absolute !important;)
@@ -3403,7 +3409,6 @@ law.com##.main-nav-grey:style(display: block !important; opacity: 1 !important;)
 law.com##.scrolled.major.main-nav-grey:style(position: relative !important; display: block !important; opacity: 1 !important;)
 law.com##img.brand-logo:style(height: 45px !important;)
 law.com##img.law-logo.scrolled:style(height: 40px !important; margin: 10px 0 0 !important;)
-law.cornell.edu##.navbar-fixed-bottom, .navbar-fixed-top:style(position: absolute !important;)
 lawandcrime.com###atf:style(padding-top: 26px !important;)
 lawandcrime.com###featured-posts-wrap:style(position: relative !important; top: 0 !important;)
 lawandcrime.com###live-promo:style(top: 0 !important;)
