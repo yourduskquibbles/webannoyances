@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 12:16 2019-10-01
+! Last Modified: 09:40 2019-10-02
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1618,6 +1618,7 @@ dailymail.co.uk##.vjs-video-container::before:style(padding-bottom: 86px !import
 dailymail.co.uk##.vjs-video-container:style(position: relative !important;)
 dailymotion.com##.Header__container___-9nBG:style(position: relative !important;)
 dailyoilbulletin.com##.docs-sticky-top-bar.utils-nav:style(position: absolute !important;)
+dailyrepublic.com###menu-wrap:style(position: absolute !important;)
 dailysentinel.com###main-nav_menu > li:first-child > a:style(background-image: none !important; width: unset !important;)
 dailysentinel.com##.tnt-svg.tnt-star.tnt-w-18:style(display: inline-block !important; color: #00899a !important;)
 dailysignal.com,deathandtaxesmag.com,foodbeast.com##HEADER:style(position: relative !important; top: 0 !important;)
@@ -2050,6 +2051,7 @@ eng.uber.com##.td-more-articles-box:style(position: absolute !important; right: 
 engadget.com###header-post-nav, #nav-flow, .i-context_nav:style(position: relative !important; top: 0 !important;)
 engadget.com##.o-sticky_header\@tp-:style(position: relative !important;)
 engineering.linecorp.com##.stuck.header-wrapper:style(position: relative !important; animation: none !important; box-shadow: none !important;)
+enmnews.com##.menu-sticky.navigation-bar:style(position: static !important;)
 enotes.com##.redacted.obscured:style(filter: unset !important; color: #000 !important; text-shadow: none !important;)
 entertainment.ie##.inner-wrapper-sticky:style(position: static !important; top: 0 !important;)
 entertainment.ie##.wrap-div:style(position: relative !important;)

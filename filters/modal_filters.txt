@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 09:49 2019-10-01
+! Last Modified: 09:40 2019-10-02
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of cookie bars & other page covering elements. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -263,6 +263,8 @@ ello.co##.Modal
 elpasotimes.com##body:style(height: auto !important;)
 elpasotimes.com##div[id^="sp_message_id"]
 emerils.com##.is-active.interruptor
+enmnews.com##html.pum-open.pum-open-overlay, html.pum-open.pum-open-overlay.pum-open-fixed .pum-overlay:style(overflow-x: hidden !important; overflow-y: scroll !important; padding-right: 0 !important;)
+enmnews.com,fair.org,libertylawsite.org,locusmag.com,newsbtc.com,securityboulevard.com,slamonline.com,storiesfromcbd.com,thefreethoughtproject.com,thespoon.tech,uscreen.tv##.pum
 entrepreneur.com###pr-ticker
 enzymediane.com,ustvgo.*##.grecaptcha-badge
 epainassist.com##.popup-wrapper
@@ -277,7 +279,6 @@ ew.com###close-btn-wrapper, .bxc
 excelcampus.com###top, .tve-leads-screen-filler
 express-scripts.com##.open._flyoutTTM.tabFlyout
 facebook.com,facebookcorewwwi.onion###u_0_c._5hn6
-fair.org,libertylawsite.org,locusmag.com,newsbtc.com,securityboulevard.com,slamonline.com,storiesfromcbd.com,thefreethoughtproject.com,thespoon.tech,uscreen.tv##.pum
 faithwire.com##.catfish
 famous-smoke.com##.emailmodal
 fanfox.net##.side-top
@@ -762,7 +763,7 @@ uservoice.com###externalSiteNotification, #externalSiteNotificationOverlay
 usnews.com###zm_survey-prompt, .hQxvSO.jpvx17-0-Box-cwadsP, body > div:nth-of-type(6)
 uxplanet.org##.iframeContainer
 valuewalk.com###om-k4aqrfjozo-lightbox
-vanityfair.com##.component-modal, .paywall-container
+vanityfair.com##.component-modal, .paywall-bar, .paywall-container
 venturebeat.com##.medrec-wrapper
 version2.dk##.adblock-message-container, .adblock-message-overlay
 vev.io,vidup.io##.Cookie
