@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Social Filters
-! Last Modified: 14:17 2019-10-02
+! Last Modified: 11:52 2019-10-03
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for social networking & sharing - Remove third party social media share sections, icons & other cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -477,7 +477,7 @@ ktla.com##.entry-share, .oo-icon-share.oo-icon
 kuriositas.com###conversions-box
 lamag.com###menu-social
 laptopmag.com###stickyShare
-latimes.com##.ArticlePage-actionsSticky
+latimes.com##.ArticlePage-actionsSticky, .LongFormPage-actionsSticky-content > .ActionBar > .ActionBar-items
 lauradhamilton.com###connect
 lauren.vortex.com##td:nth-of-type(4) > center
 leafshave.com##.animate-owy.site-sharing
@@ -653,7 +653,7 @@ patch.com##.social-email-modal-inner-wrapper
 patheos.com##.add-bottom-margin.add-top-margin.simple-follow.widget-wrap, .pw-button-facebook, .pw-button-twitter, .ra1-pw-icon-email.ra1-pw-icon.pw-icon, .socialmedia-buttons, .top-share-icons
 pbs.org##.footer__follow, .footer__subscribe, .geeplus, .post-wrap-side-share, .side_twitterfollow, .subscribe__follow, .subscribe__form
 pcgamesn.com##.fa-rss-square.fa, .fa-steam.fa
-people.com##.forceNavRow.hideSocial.styles__stickyHeader__3Nu1Q.styles__sticky__2eB5C.site-header__wrap, .share, .svg__path--pinterest.svg__path
+people.com##.forceNavRow.hideSocial.styles__stickyHeader__3Nu1Q.styles__sticky__2eB5C.site-header__wrap, .share, .square.share-new.component, .svg__path--pinterest.svg__path
 peoplespunditdaily.com###custom_html-14, .eltd-blog-share, .eltd-share-link, .eltd-single-share-holder, .widget_eltd_social_icon_widget
 petapixel.com##.header-main__socials, .post-sharing
 petfinder.com##.slidingNav-shareBtn
@@ -851,7 +851,7 @@ techradar.com###sidebar
 techtarget.com##.nav-social
 techtimes.com##.bts_social
 techworm.net##.pcAds.floatDivSocial
-techxplore.com###js-soc-panel
+techxplore.com###js-soc-panel, .fb.article-interaction__link, .tw.article-interaction__link
 ted.com##.tdd-footer__box-social
 tedium.co##.at_icon_menu_item
 teenvogue.com##.follow.component-facebook-like
