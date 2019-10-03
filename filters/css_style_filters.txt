@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 08:34 2019-10-03
+! Last Modified: 08:48 2019-10-03
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -4041,8 +4041,10 @@ nba.com##.headerWrapper:style(position: relative !important; top: 0 !important;)
 nbc-2.com##.CollapsibleHeader:style(position: relative !important;)
 nbc-2.com##.Video-wrapper--dock .Video-content:style(position: absolute !important;)
 nbc.com##.sticky-inner-wrapper:style(position: relative !important;)
-nbcbayarea.com,nbcchicago.com,nbcdfw.com,nbclosangeles.com,nbcmiami.com,nbcnewyork.com,nbcphiladelphia.com,nbcsandiego.com,nbcwashington.com##.News.nav-section > .subnav-large-container:style(top: 57px !important; margin-top: 0 !important; box-shadow: none !important;)
-nbcbayarea.com,nbcchicago.com,nbcdfw.com,nbclosangeles.com,nbcmiami.com,nbcnewyork.com,nbcphiladelphia.com,nbcsandiego.com,nbcwashington.com##.header, .site-header, .quick-nav, .stickyNav.navbar:style(position: relative !important; top: 0 !important;)
+nbcbayarea.com,nbcchicago.com,nbcdfw.com,nbclosangeles.com,nbcmiami.com,nbcnewyork.com,nbcphiladelphia.com,nbcsandiego.com,nbcwashington.com##.News.nav-section > .subnav-large-container:style(top: 57px !important; margin-top: 0 !important; box-shadow: none !important; z-index: unset !important;)
+nbcbayarea.com,nbcchicago.com,nbcdfw.com,nbclosangeles.com,nbcmiami.com,nbcnewyork.com,nbcphiladelphia.com,nbcsandiego.com,nbcwashington.com##.header, .site-header, .quick-nav:style(position: relative !important; top: 0 !important;)
+nbcbayarea.com,nbcchicago.com,nbcdfw.com,nbclosangeles.com,nbcmiami.com,nbcnewyork.com,nbcphiladelphia.com,nbcsandiego.com,nbcwashington.com##.nav-landing:style(height: 92px !important;)
+nbcbayarea.com,nbcchicago.com,nbcdfw.com,nbclosangeles.com,nbcmiami.com,nbcnewyork.com,nbcphiladelphia.com,nbcsandiego.com,nbcwashington.com##.stickyNav.navbar:style(position: relative !important; top: 0 !important; box-shadow: 0 2px 15px rgba(0,0,0,.5) !important;)
 nbcnews.com##._20-Ws2Fn1Y3t_iSqRZ0LON, .container___20-Ws:style(position: relative !important;)
 nbcnews.com##.active___3azSy.white___NqBga.container___1dm2Y, .container___1dm2Y, .stuck___PEoMv.scrolled___yAb5r.vertical___3U7Kb.navbar___1EKcg:style(background-color: #102039 !important;)
 nbcnews.com##.container___20-Ws .navbar___1EKcg.light___10Qi1, .logo___1IYlZ:after:style(background-color: transparent !important;)
