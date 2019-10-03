@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 11:52 2019-10-03
+! Last Modified: 12:08 2019-10-03
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of cookie bars & other page covering elements. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -270,7 +270,7 @@ enmnews.com,fair.org,libertylawsite.org,locusmag.com,newsbtc.com,securitybouleva
 entrepreneur.com###pr-ticker
 enzymediane.com,ustvgo.*##.grecaptcha-badge
 epainassist.com##.popup-wrapper
-espn.com##.active.js-feed-item-mask, .bg-opaque.mod-outbrain.mod-no-border, .cookie-overlay, .js-bloomed.favorites-mgmt.lightbox
+espn.com##.active.js-feed-item-mask, .alert--fixed.alert--center.alert, .bg-opaque.mod-outbrain.mod-no-border, .cookie-overlay, .js-bloomed.favorites-mgmt.lightbox
 europeantour.com###modalCookieContainer
 everlane.com##.modal__bg--default.modal__bg
 everydaydishes.com###modal-newsletter
@@ -777,7 +777,8 @@ wagwalking.com###cta-modal
 wallethub.com###footer_cta
 warisboring.com##.ulp-overlay, .ulp-window
 washingtonexaminer.com##.dy-modal-container
-washingtonpost.com###drawbridge-signup-overlay, #exposeMask, .jqm-init.arrow_box.story-label-explainer, .jqmOverlay, .overlay-template, .simple-overlay:not(.usw_Signin), .content_gate
+washingtonpost.com###drawbridge-signup-overlay, #exposeMask, #fusion-app .bottom-0.top-0.right-0.left-0.fixed, .content_gate, .jqm-init.arrow_box.story-label-explainer, .jqmOverlay, .overlay-template, .simple-overlay:not(.usw_Signin)
+washingtonpost.com##body:style(position: unset !important; height: unset !important; overflow: auto !important;)
 washingtonpost.com##html[style*="overflow: hidden;"]:style(overflow: auto !important;)
 wbrz.com##.back-to-top-button
 wbur.org##.section--takeover
