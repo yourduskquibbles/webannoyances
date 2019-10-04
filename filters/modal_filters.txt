@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 09:16 2019-10-04
+! Last Modified: 15:38 2019-10-04
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of cookie bars & other page covering elements. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -633,6 +633,7 @@ sabonnyc.com##.dynotifyjs-corner
 samsung.com##.cm-cookie-geo
 santafenewmexican.com###notification-area
 scribd.com###lightboxes, #seo_roadblock_lb_new_basic, .modal_wrapper
+scribd.com##body.modal_open:style(overflow-x: hidden !important; overflow-y: scroll !important; padding-right: 0 !important;)
 seatgeek.com##.seatgeek-lightbox-background
 seattletimes.com###container:style(filter: none !important;)
 seattletimes.com##.modals
