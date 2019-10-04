@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist
-! Last Modified: 13:26 2019-10-04
+! Last Modified: 14:03 2019-10-04
 ! Expires: 2 Days (Update Frequency)
 ! Description: Block annoying web elements and reclaim lost screen real estate. Web Annoyances Ultralist also includes the following sublists - CSS Style Modifying Filters, Generic Filters, Modal Filters, Newsletter Filters, & Social Filters. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -352,6 +352,7 @@ avclub.com,clickhole.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,jezeb
 avclub.com,clickhole.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,jezebel.com,kinja.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.global-nav--scrollback
 avclub.com,clickhole.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,jezebel.com,kinja.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.pe_newlayout .mezzanine
 avclub.com,clickhole.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,jezebel.com,kinja.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##div[class^="header__Container-sc-"] >:matches-css(position: fixed)
+avclub.com,clickhole.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,jezebel.com,kinja.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##div[class^="js_header"] > div[class^="js_header"] > div :matches-css(position: fixed)
 avgthreatlabs.com###banner
 avproductreviews.com###dcssb-slick
 avsforum.com##.Leaderboard-bottom
