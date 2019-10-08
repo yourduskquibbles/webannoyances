@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 22:23 2019-10-07
+! Last Modified: 22:24 2019-10-07
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -886,6 +886,8 @@ bitbucket.org##.imkt-navbar, .stuck.header__branded-domains--bitbucket.header__b
 bitchute.com###nav-side-menu, #nav-top-menu:style(position: absolute !important;)
 bitchute.com##.side-toggle:style(position: absolute !important; left: 205px !important;)
 bitcoin.com###btctm-top:style(position: absolute !important;)
+bitcoin.com##.sticky-inner-wrapper:style(position: relative !important;)
+bitcoin.com##div[class^="styled__StickyWrap-sc"]:style(height: 110px !important; box-shadow: none !important; background-color: transparent !important;)
 bitcoinchallenge.codes##.mainmenu-area:style(position: absolute !important;)
 bitcoinist.com##.extra-header:style(position: relative !important; top: 0 !important;)
 bitcoinmagazine.com##.bm-banner-media, .bm-banner:style(position: absolute !important;)
