@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 16:02 2019-10-08
+! Last Modified: 16:09 2019-10-08
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2453,11 +2453,11 @@ foxbusiness.com##.featured-video.sticky-video .contain, .featured-video.sticky-v
 foxbusiness.com##.featured-video.sticky-video .contain:style(position: static !important; top: 0 !important; bottom: unset !important; right: unset !important; width: 100% !important;)
 foxbusiness.com##.info:style(float: unset !important; padding: 16px 0 0 !important; width: unset !important;)
 foxbusiness.com##.site-header:style(position: relative !important; animation: none !important; box-shadow: none !important; padding-bottom: 10px !important;)
+foxbusiness.com##.stick.sidebar-primary.sidebar:style(position: static !important;)
 foxeslovelemons.com##.slicknav_menu:style(position: relative !important; top: 0 !important;)
 foxitsoftware.com##.help-panel:style(position: absolute !important;)
 foxnews.com###navbar-main, #network, .desktop.sidebar-primary.sidebar-article.sidebar, .td-affix.td-menu-background:style(position: relative !important; top: 0 !important;)
-foxnews.com###site-wrapper.scroll-video .video-wrap .video-container:style(position: absolute !important; top: -421.867px !important; right: 14px !important;)
-foxnews.com###site-wrapper.scroll-video .video-wrap .video-container:style(width: 750px !important; height: 421.867px !important;)
+foxnews.com###site-wrapper.scroll-video .video-wrap .video-container:style(position: absolute !important; top: -421.867px !important; right: 14px !important; width: 750px !important; height: 421.867px !important;)
 foxnews.com###top:style(position: relative !important; top: 0 !important; margin-top: 0 !important;)
 foxnews.com##.col-md-8.col-xs-12.inner-container, .sticky-region, body .sticky, body .sticky-bottom, body .sticky-top:style(position: relative !important;)
 foxnews.com##.contain > .info:style(background-color: #fff !important;)
