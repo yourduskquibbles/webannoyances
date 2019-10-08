@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 15:47 2019-10-08
+! Last Modified: 16:02 2019-10-08
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2446,6 +2446,12 @@ fox29.com,fox5dc.com,fox5ny.com##.stick.sidebar-primary.sidebar, .stick.sidebar-
 fox4kc.com,portlandscw.com,sflcw.com,wgntv.com,whotv.com,wnep.com##.navbar:style(position: absolute !important; margin-top: 0 !important;)
 fox4news.com,fox5dc.com,wsbtv.com###story-sticky-content:style(position: relative !important; top: 0 !important;)
 fox8live.com##.sticky.cdev-menu-nav:style(position: absolute !important;)
+foxbusiness.com##.featured-video.sticky-video .contain .info .title a:style(color: #036 !important;)
+foxbusiness.com##.featured-video.sticky-video .contain .info .title:style(color: #222 !important; vertical-align: baseline !important; font-size: 16px !important; line-height: 22px !important;)
+foxbusiness.com##.featured-video.sticky-video .contain .info p:style(display: block !important;)
+foxbusiness.com##.featured-video.sticky-video .contain, .featured-video.sticky-video:style(background: none !important;)
+foxbusiness.com##.featured-video.sticky-video .contain:style(position: static !important; top: 0 !important; bottom: unset !important; right: unset !important; width: 100% !important;)
+foxbusiness.com##.info:style(float: unset !important; padding: 16px 0 0 !important; width: unset !important;)
 foxbusiness.com##.site-header:style(position: relative !important; animation: none !important; box-shadow: none !important; padding-bottom: 10px !important;)
 foxeslovelemons.com##.slicknav_menu:style(position: relative !important; top: 0 !important;)
 foxitsoftware.com##.help-panel:style(position: absolute !important;)
