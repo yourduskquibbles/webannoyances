@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 11:17 2019-10-08
+! Last Modified: 11:36 2019-10-08
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -990,6 +990,7 @@ boldgrid.com###masthead:style(position: absolute !important; max-height: 100% !i
 boldgrid.com###site-navigation:style(margin-top: 0 !important;)
 bonappetit.com###masthead-banner-ad, #menu, #supernav, .desktop-header-container > .site-header, .header-container--fixed.header-container, .main-site-header, .site-header:style(position: relative !important; top: 0 !important;)
 bonappetit.com##.homepage #react-app:style(padding-top: 0 !important;)
+bonappetit.com,wired.com##.sticky-box:style(position: static !important;)
 bongino.com###site-header\ 1 > .site-header-main:style(height: 167.3px !important;)
 bongino.com##.sticky.makeplus-is-sticky.sticky-site-header.makeplus-sticky-header.no-site-title.header-layout-1.site-header:style(position: absolute !important; height: 167.3px !important;)
 bonobos.com##.header---component---KYgWP.header-component:style(position: relative !important;)
@@ -6652,7 +6653,6 @@ wired.com##.logo-bar--science:style(background-color: #FFC036 !important; border
 wired.com##.logo-bar--security:style(background-color: #621200 !important; border-bottom: 1px solid #621200 !important;)
 wired.com##.logo-bar--transportation:style(background-color: #E44C50 !important; border-bottom: 1px solid #E44C50 !important;)
 wired.com##.logo-bar:style(transition: none !important;)
-wired.com##.sticky-box:style(position: static !important;)
 wired.com##.wallpaper-component__image:style(top: 0 !important;)
 wireshark.org###masthead .nav > li > a:style(padding: 33px 15px !important;)
 wireshark.org###masthead .navbar-brand:style(line-height: 90px !important; height: 90px !important;)
