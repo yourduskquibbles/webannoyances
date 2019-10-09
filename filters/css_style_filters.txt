@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 20:50 2019-10-08
+! Last Modified: 20:59 2019-10-08
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -5091,7 +5091,7 @@ scribd.com##.auto__doc_page_App_Page_Body_OnScrollViewportBottomRecommenders.col
 scribd.com##.auto__doc_page_App_Page_Body_OnScrollViewportBottomRecommenders:style(position: relative !important;)
 scribd.com##.auto__doc_page_page .page_wrapper:style(overflow: unset !important;)
 scribd.com##.auto__shared_navigation_globalnav_sidebar:style(position: static !important;)
-scribd.com##.text_layer:style(text-shadow: black 0 0 !important; -moz-user-select: text !important; -webkit-user-select: text !important; user-select: text !important; -moz-user-focus: normal !important;)
+scribd.com##div.text_layer span:style(text-shadow: black 0 0 !important; text-shadow: black 0 0 !important; -moz-user-select: text !important; -webkit-user-select: text !important; user-select: text !important; -moz-user-focus: normal !important;)
 scribd.com##div[class^="newpage"]:style(display: block !important;)
 scroll.com##.Titlebar__header___3haix:style(position: absolute !important;)
 scroll.in##.global-navigation.stick-global-navigation:style(margin-bottom: 0 !important;)
