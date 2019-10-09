@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 14:26 2019-10-08
+! Last Modified: 20:17 2019-10-08
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of cookie bars & other page covering elements. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -10,7 +10,6 @@
 ! Works best with uBlock Origin or Nano Adblocker - be sure to install it as well!
 
 ! Start Web Annoyances Ultralist - Modal Overlay Filters
-thescottishsun.co.uk,thesun.co.uk,thesun.ie###cookie-bar
 100percentfedup.com##.modaal-overlay
 100percentfedup.com,500px.com,allergicliving.com,mucbook.de,netwatch.me,newfoodeconomy.*,nintendosoup.com,theartblog.org,theblacksphere.net,upenn.edu##.spu-bg, .spu-box
 20k.org##.overlay-mobile-styles-enabled
@@ -267,8 +266,8 @@ ello.co##.Modal
 elpasotimes.com##body:style(height: auto !important;)
 elpasotimes.com##div[id^="sp_message_id"]
 emerils.com##.is-active.interruptor
-enmnews.com##html.pum-open.pum-open-overlay, html.pum-open.pum-open-overlay.pum-open-fixed .pum-overlay:style(overflow-x: hidden !important; overflow-y: scroll !important; padding-right: 0 !important;)
-enmnews.com,fair.org,libertylawsite.org,locusmag.com,newsbtc.com,securityboulevard.com,slamonline.com,storiesfromcbd.com,thefreethoughtproject.com,thespoon.tech,uscreen.tv##.pum
+enmnews.com,fair.org,fnamerica.com,libertylawsite.org,locusmag.com,newsbtc.com,securityboulevard.com,slamonline.com,storiesfromcbd.com,thefreethoughtproject.com,thespoon.tech,uscreen.tv##.pum
+enmnews.com,fnamerica.com##html.pum-open.pum-open-overlay, html.pum-open.pum-open-overlay.pum-open-fixed .pum-overlay:style(overflow-x: hidden !important; overflow-y: scroll !important; padding-right: 0 !important;)
 entrepreneur.com###pr-ticker
 enzymediane.com,ustvgo.*##.grecaptcha-badge
 epainassist.com##.popup-wrapper
@@ -726,6 +725,7 @@ thenewrevere.com##.popupflyin-clicks-area
 theplayerstribune.com###sailthru-overlay-container
 theregister.co.uk###RegCCO
 thescore.com##.privacy-popup-wrapper
+thescottishsun.co.uk,thesun.co.uk,thesun.ie###cookie-bar
 thestocktalker.com##.customPopUp, .customPopUpContent
 thewalrus.ca##.spu-box
 thewonderweeks.com##.pop-up
