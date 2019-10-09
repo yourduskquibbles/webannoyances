@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 09:47 2019-10-09
+! Last Modified: 09:56 2019-10-09
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -4380,6 +4380,7 @@ nytimes.com##.viewport-medium-30 .masthead .quick-navigation .button-text:style(
 nytimes.com##.viewport-medium-30 .masthead.masthead-theme-standard .quick-navigation .button-text:style(margin-left: 7px !important;)
 nytimes.com##.viewport-medium-30 .masthead.masthead-theme-transparent .home-button .button-text, .viewport-medium-30 .masthead.masthead-theme-transparent-ffffff .home-button .button-text:style(position: relative !important; margin-left: 5px !important;)
 nytimes.com##body:style(overflow-x: unset !important;)
+nytimes.com##div[data-testid="photoviewer-overlay"] >div:not([data-testid="photoviewer-captionblock"]):not([data-testid="photoviewer-wrapper-hidden"]), div[data-testid="photoviewer-wrapper"] >div:not([data-testid="photoviewer-captionblock"]):not([data-testid="photoviewer-wrapper-hidden"]):style(height: calc(100% - 25px) !important;)
 nytimes.com##header#masthead.masthead-theme-standard.masthead:style(position: relative !important;)
 nytimes.com##img:style(display: block !important; opacity: 1 !important; transition: none !important;)
 nytimes.com##section[data-block-tracking-id="Editors Picks"]:style(margin-bottom: 40px !important;)
@@ -5742,6 +5743,7 @@ thebump.com###main-container > div:nth-of-type(1) > div > div > div:style(positi
 thechicagocouncil.org,transparencyreport.google.com,youstake.com##.sticky-header:style(position: absolute !important;)
 thechive.com##.header-wrap:style(position: absolute !important;)
 theconservativetreehouse.com###actionbar:style(position: relative !important; top: 0 !important;)
+theconservativetreehouse.com##.infinite-wrap:style(min-height: 100% !important;)
 thecooperreview.com##.is_stuck.vce-sticky:style(position: absolute !important;)
 theculturetrip.com###page-header-id:style(position: absolute !important;)
 theculturetrip.com##.header-menu\.styled__HeaderMenu-s8ctnhx-0.flipboard-remove:style(position: absolute !important;)
