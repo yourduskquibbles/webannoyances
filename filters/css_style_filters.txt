@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 12:33 2019-10-10
+! Last Modified: 13:44 2019-10-11
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -3673,6 +3673,7 @@ marketwatch.com###market-overview, #site-nav, .fixed.region--full.region:style(p
 marketwatch.com##.bulletins:style(position: relative !important; top: 0 !important;)
 marketwatch.com##.fixed.column--full.column:style(position: relative !important; top: 0 !important; padding-bottom: 10px !important;)
 marketwatch.com##.masthead-elements.region--full.region:style(padding-top: 60px !important;)
+marketwatch.com##.nav-fixed:style(position: absolute !important;)
 marketwatch.com##.page--body:style(padding-top: 40px !important;)
 marriott.com###hws-reservation-module, .t-sticky-nav.l-content-container.t-in-page-navigation.l-in-page-navigation:style(position: relative !important;)
 marronebioinnovations.com##.fusion-sticky-shadow.fusion-header:style(position: relative !important; top: 0 !important;)
@@ -5042,7 +5043,7 @@ sandiegolifestyleblog.com###main-header:style(position: relative !important; hei
 sandiegolifestyleblog.com###page-container:style(padding-top: 0 !important; margin-top: -1px !important;)
 sandiegolifestyleblog.com##.et_header_style_left #et-top-navigation, .et_header_style_split #et-top-navigation:style(height: 66px !important; padding-top: 33px !important;)
 sandvine.com##.navbar-fixed-top.navbar:style(position: absolute !important; top: 0 !important;)
-sangaline.com###navbar-main:style(position: relative !important; top: 0 !important;)
+sangaline.com,zippia.com###navbar-main:style(position: relative !important; top: 0 !important;)
 sapiens.org##.fixed.header-fixed-wrapper:style(position: absolute !important;)
 sapling.com##.sticky.header:style(position: absolute !important;)
 saraacarter.com##.fixed-nav:style(position: absolute !important;)
@@ -5542,7 +5543,9 @@ swatchseries.to##.listings li:style(border-left: #e8eef7 solid 1px !important;)
 swatchseries.to##span:nth-of-type(1):style(padding-left: 0.2em !important;)
 swiftbysundell.com###headerAnnouncementWrapper:style(position: absolute !important;)
 swiftkey.com##.slide.masthead, .slide.search-box:style(position: absolute !important;)
-swissinfo.ch##._fixed:style(position: relative !important;)
+swissinfo.ch###fixedMenu, ._fixed:style(position: relative !important;)
+swissinfo.ch##.sticky-container:style(height: 65.9333px !important;)
+swissinfo.ch##.top-bar:style(padding-top: .5em !important; padding-bottom: .5em !important;)
 syfy.com##.article-strip__sticky-latest--active .article-strip__outer-wrapper--sticky .article-strip__outer-wrapper:style(margin-bottom: 40px !important;)
 syfy.com##.header--sticky-nav .layout__navigation:style(position: absolute !important; transform: none !important;)
 syfy.com##.navbar--syfywire .navbar__logo-link:style(transform: translateY(24px) !important;)
