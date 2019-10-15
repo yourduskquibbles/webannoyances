@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist
-! Last Modified: 15:30 2019-10-15
+! Last Modified: 15:42 2019-10-15
 ! Expires: 2 Days (Update Frequency)
 ! Description: Block annoying web elements and reclaim lost screen real estate. Web Annoyances Ultralist also includes the following sublists - CSS Style Modifying Filters, Generic Filters, Modal Filters, Newsletter Filters, & Social Filters. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -445,7 +445,7 @@ bilasport.net###right_side_ich
 bilasport.net##.cc-window
 bilasport.net##.ctnr50
 bilasport.net##.donate
-bilasport.net##[data-player] a img
+bilasport.net,blab.email,sportsstats.*,yoursports.stream##[data-player] a img
 billboard.com###block-billboard-blocks-article-artist
 billboard.com##.search-toggle.open-search
 billboard.com##.site-header__progress
@@ -3332,7 +3332,6 @@ sports4u.pro,wizistreams.xyz###floatLayer1
 sportsnet.ca###ad_bigbox_within_articles_container
 sportsnet.ca##.rdm-daac-notice-template
 sportsonearth.com##.next-prev-superbar.bam-superbar
-sportsstats.*##[data-player] a img
 sportsstats.*##[data-watermark] img
 sportsvideo.org##.edson3.functions
 spotify.com##div[aria-live^="polite"]
@@ -4343,7 +4342,6 @@ yourkidstable.com##.divibars
 yourmechanic.com##.nav-bar__body
 yoursports.stream###streambutton
 yoursports.stream###watchMe
-yoursports.stream##[data-player] a img
 yoursports.stream##img#close
 youtube.com###masthead-positioner-height-offset
 youtube.com##.iv-branding.annotation-type-custom.annotation
