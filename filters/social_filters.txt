@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Social Filters
-! Last Modified: 13:43 2019-10-11
+! Last Modified: 15:04 2019-10-15
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for social networking & sharing - Remove third party social media share sections, icons & other cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -208,6 +208,10 @@ cryptonews.com##.cn-invite-fixed, .cn-social-links
 csindy.com##.pullQuoteTwitter
 cyberdefensemagazine.com,sparktoro.com##.csbwfs-social-widget
 dailycaller.com###fblike
+dailycaller.com##article li:has([data-social="fb"])
+dailycaller.com##article li:has([data-social="reddit"])
+dailycaller.com##article li:has([data-social="tw"])
+dailycaller.com##footer ul:has([href*="facebook.com"])
 dailydot.com###dailydot-socialbar, .dd-share-bar-wrapper
 dailyfx.com##.social-icon-art, .top-social-icon
 dailymail.co.uk###articleIconLinksContainer, #socialLinks, .facebook, .facebook-like-static, .fb, .fff-social-links, .floating-buttons, .mailto, .mobile-sharing-button, .mol-related-videos-panel-social, .share-link, .shareComment, .social, .socialContainer-1Yly1, .vjs-social-controls, .vjs-social-share-control, .whatsapp
