@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 15:04 2019-10-15
+! Last Modified: 15:30 2019-10-15
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -5671,6 +5671,10 @@ ted.com##.sticky-inner-wrapper, .sticky.article-sidebar__sticky:style(position: 
 teeltech.com##.ubermenu:style(position: relative !important;)
 teenvogue.com##.site-header.component-sticky > div:nth-of-type(1):style(position: absolute !important; top: 0 !important;)
 tegna.com##.maincontainer:style(padding-top: 0 !important;)
+tekton.com###main-container:style(margin-top: 0 !important;)
+tekton.com##.header-main-wrapper:style(border-bottom: 1px solid #ececec !important;)
+tekton.com##.header-top-nav-wrapper, .header-menu-rewards:style(height: 40px !important;)
+tekton.com##.shopping-layout-header, .myaccount-layout-header, .checkout-layout-header:style(position: relative !important; margin-bottom: 0 !important; box-shadow: 0 0px 0px rgba(0,0,0,0.175) !important;)
 telegraf.rs##.telegraf-header:style(position: absolute !important; top: 0 !important;)
 telegraph.co.uk##.my-telegraph:style(position: relative !important;)
 telemundo.com##.__hub--content:style(margin-top: 0 !important;)
