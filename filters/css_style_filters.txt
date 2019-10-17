@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 08:38 2019-10-17
+! Last Modified: 08:58 2019-10-17
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -918,6 +918,8 @@ bleacherreport.com##.component-small-nav:style(position: relative !important; to
 bleepingcomputer.com##.bc_wrapper:style(padding-top: 0 !important;)
 bleepingcomputer.com##header:style(position: relative !important; top: 0 !important; transform: none !important;)
 blendswap.com###blendswap-header:style(position: absolute !important;)
+blindmanspuff.com###main-header-wrapper:style(height: 80px !important;)
+blindmanspuff.com###main-header:style(position: relative !important; height: 80px !important;)
 blockchain.com##.Header__GlobalNav-ra9ecu-0:style(position: absolute !important; top: 0 !important; transform: none !important;)
 blockchain.com##.scrolling:style(position: absolute !important;)
 blockchain.info,data.swiftkey.com,grow.com,html-tidy.org,impossiblefoods.com,nitter.net,razer.com,rgagnon.com,starttls-everywhere.org,teamtreehouse.com,urbanairship.com,userchrome.org,victoriassecret.com##nav:style(position: absolute !important;)
@@ -1321,6 +1323,10 @@ chronicle.com,ibtimes.com,mensjournal.com,wsj.com##body:style(overflow-x: hidden
 chubstr.com##.sticky-header--active .site-header.size-set .logo img, .site-header.size-set.slidedown .logo img, .site-header.size-set.sticky-menu-2.stuck .logo img:style(height: 80px !important;)
 cigaraficionado.com##.nav:style(opacity: 1 !important; animation: none !important;)
 cigaraficionado.com,turnuav.com###mainNavigation:style(position: relative !important;)
+cigarandpipes.com###header-container:style(position: relative !important; top: 0 !important; height: 100px !important; box-shadow: none !important;)
+cigarandpipes.com###header.skin1 #header-container .container .header-wrapper:style(padding-top: 25px !important;)
+cigarandpipes.com###header.skin1 #logo:style(margin-top: 0 !important;)
+cigarandpipes.com###logo-img img:style(width: 302px !important;)
 cigardojo.com##.clearfix.cb-top-menu-wrap.wrap:style(position: relative !important;)
 cigardojo.com,educateinspirechange.org###cb-main-menu:style(position: relative !important;)
 cigardojo.com,educateinspirechange.org##.cb-sidebar:style(position: static !important; top: 0 !important;)
@@ -2801,7 +2807,10 @@ hacklabo.com##.c-header--pinned.c-header--not-top.headroom--not-bottom.c-header-
 hackster.io##.affix.affixable.group-nav:style(position: relative !important;)
 haitiantimes.com###top > .logo:style(position: relative !important;)
 haitiantimes.com##.shrinked.aaaaa:style(position: absolute !important;)
+halfwheel.com###infinite-page-wrapper:style(background: none !important; cursor: auto !important;)
 halfwheel.com###navigation_bar:style(position: absolute !important;)
+halfwheel.com##.infinite-fixed-navigation.infinite-style-fixed, .infinite-fixed-navigation.infinite-style-slide:style(position: absolute !important; height: 80px !important; top: 35.5px !important; bottom: 0 !important;)
+halfwheel.com##.infinite-sticky-menu-placeholder:style(height: 79px !important;)
 hannaandersson.com##.clearfix.js-header.site-header:style(position: relative !important;)
 hannity.com##.affix.full.navTopadContainer:style(position: relative !important; top: 0 !important;)
 harpercollins.com##.hc-main-header__nav-bar__navigation--fixed.hc-main-header__nav-bar__navigation:style(position: relative !important; top: 0 !important;)
