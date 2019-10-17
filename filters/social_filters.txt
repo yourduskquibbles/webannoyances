@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Social Filters
-! Last Modified: 13:09 2019-10-17
+! Last Modified: 15:12 2019-10-17
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for social networking & sharing - Remove third party social media share sections, icons & other cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -328,7 +328,7 @@ forbes.com##.profile-share
 foreignpolicy.com##.follow-fp
 fortune.com##[class*="socialItem__facebook"]
 forum.piriform.com,linustechtips.com##.ipsClearfix.ipsList_noSpacing.ipsList_inline
-forum.piriform.com,linustechtips.com##.ipsPad :has-text(Share on other sites)
+forum.piriform.com,linustechtips.com##.ipsPad :has-text(/Share on other sites/)
 fossbytes.com##.ai-viewport-1.code-block-1.code-block, .widget_siliconcounters.widget
 fox29.com,fox59.com,fox5dc.com,fox5ny.com,fox7austin.com##.author-share, .entry-share, .follow.right, .social-share
 foxbusiness.com,foxnews.com###navbar-share, #node-share-top, .follow-buttons.section, .social-icons > ul > .fb, .social-icons > ul > .flipboard, .social-icons > ul > .gp, .social-icons > ul > .ig, .social-icons > ul > .tw
@@ -358,7 +358,7 @@ getrevue.co###issue-share
 getweeklyupdate.com##.icon-bar
 giphy.com##a[title^="Share"], div[data-title^="Share on"]
 giphy.com##div:xpath(//h3[contains(text(),"Share it!")]/..)
-giphy.com##h3:has-text(Share it!)
+giphy.com##h3:has-text(/Share it!/)
 github.io##.page__share
 glassdoor.com##.GDsocialShare
 globalcitizen.org##.content-like
@@ -636,7 +636,7 @@ nydailynews.com###ra-follow, #ra-share-top, #rf-follow, .footer-call-to-action-c
 nymag.com###ck_digg, #ck_facebook, #ck_sharethis_top, #ck_twitter, .art-nav-share-list-item, .rightMenu.followLabel
 nypost.com###highlight-share, .floating-share, .widget_nypost_social_widget
 nytimes.com###masthead-social, #sharetools-interactive, .article-video-sharetools, .email-sharetool, .follow-tools, .inline-share-wrapper, .masthead.in-content .sharetools, .recipe-details-share, .share-post, .styles-shareButton--KciLA, .show-all-sharetool.sharetool, .styles-shareMenu--17wGM, .styles-shareNetworks--2_V3p, .vhs-plugin-imax-playback-metadata-share-tools, .vhs-tools, .facebook-sharetool, .twitter-sharetool, .save-sharetool, .masthead.in-content.masthead-theme-transparent-ffffff .user-tools, .footer-nav-primary-list, [aria-label^="Email"], [aria-label^="More sharing options"], [aria-label^="Share on Facebook"], [aria-label^="Share on Twitter"]
-nytimes.com##aside:has-text(Follow Us)
+nytimes.com##aside:has-text(/Follow Us/)
 nyulocal.com##.button--withSvgIcon.button--withIcon.u-baseColor--buttonNormal.is-touchIconBlackPulse.button--chromeless.button
 nzherald.co.nz##.byline-shares
 oag.com##.IN-widget, .floating-social
@@ -652,7 +652,7 @@ outsports.com##.m-entry__social
 ozy.com##.i-story-share-facebook-off, .i-story-share-facebook-on, .i-story-share-twitter-off, .i-story-share-twitter-on, .share-block-bottom, .share-item, .sharing-options, .side-social-wrapper, .social-links
 pagesix.com###highlight-share, .widget_nypost_social_widget
 paloaltoonline.com##._magnetRelSbCon
-parenting.nytimes.com##div[data-testid="share-tools"] li:has-text(Share on Facebook)
+parenting.nytimes.com##div[data-testid="share-tools"] li:has-text(/Share on Facebook/)
 parenting.nytimes.com##div[data-testid="share-tools"] li:nth-child(2):style(margin-left: 0 !important;)
 parents.com##.socialWrapper__followParents.followParents
 pastebin.com##.h_800.tweet
