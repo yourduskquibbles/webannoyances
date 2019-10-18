@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 16:33 2019-10-17
+! Last Modified: 09:41 2019-10-18
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1218,7 +1218,7 @@ cbslocal.com##body:not([onload^="anvp.baseURL"]):style(overflow-x: hidden !impor
 cbslocal.com##iframe:style(max-width: 100% !important;)
 cbsnews.com###pip__headline, .floating.media-block:style(position: relative !important; top: 0 !important;)
 cbsnews.com##.dashboard-visible:style(margin-bottom: 0 !important;)
-cbsnews.com##.embed__content--draggable.floating:style(position: absolute !important;)
+cbsnews.com##.embed__content--draggable:style(position: absolute !important; top: unset !important; left: unset !important; max-width: 100% !important; width: 100% !important; height: 100% !important;)
 cbsnews.com##.livestream-player-wrapper:style(position: static !important;)
 cbsnews.com##.site-footer:style(padding-bottom: 0 !important;)
 cbsnews.com##body:not(.embedded):style(overflow-x: hidden !important; overflow-y: scroll !important; padding-right: 0 !important;)
