@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 10:36 2019-10-23
+! Last Modified: 10:54 2019-10-23
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -5332,6 +5332,7 @@ sofi.com###global-top-nav:style(position: absolute !important;)
 sofrep.com###mobile-menu:style(position: relative !important; top: 0 !important;)
 sofrep.com##.join-sofrep-header:style(position: absolute !important;)
 softpedia.com##.menubar-hp, .menubar, .posrel.statusbar:style(position: absolute !important;)
+softpedia.com,venturebeat.com###ac-player-wrapper:style(position: static !important; bottom: unset !important; right: unset !important; width: 100% !important;)
 solecollector.com##.headerContainer:style(position: absolute !important;)
 solecollector.com##.navbar__section--global.navbar__section:style(transform: none !important;)
 solecollector.com##.rail:style(position: absolute !important; top: 0 !important;)
@@ -5685,6 +5686,8 @@ techquila.co.in##.td-affix.td-header-menu-wrap:style(position: relative !importa
 techquila.co.in##.td-header-style-5 .sf-menu > li > a, .td-header-wrap .td-affix .sf-menu > li > a, .td-header-wrap .td-affix .td-main-menu-logo a:style(line-height: 60px !important;)
 techquila.co.in##.td-header-style-5 .td-main-menu-logo, .td-header-wrap .td-affix .td-main-menu-logo:style(height: 60px !important;)
 techquila.co.in##.td-header-wrap .td-affix .td-main-menu-logo img:style(top: -1px !important; max-height: 60px !important;)
+techradar.com##.jw-reset.jw-video:style(position: relative !important;)
+techradar.com##.jwplayer:style(position: relative !important; bottom: unset !important; left: unset !important; right: unset !important; width: 100% !important; height: 390px !important; will-change: unset !important;)
 techrepublic.com##.fixed.fixation:style(position: relative !important; top: 0 !important;)
 techsoup.org##.nav-one.navbar-fixed-top.navbar:style(position: absolute !important;)
 techspot.com###header-ts:style(position: absolute !important;)
@@ -6367,7 +6370,6 @@ venezuelanalysis.com##.navbar-default .sticky-before .navbar-container:style(bac
 venezuelanalysis.com##.navbar-default .sticky-before:style(top: 0 !important; background: transparent !important;)
 venezuelanalysis.com##.navbar:style(margin-bottom: 0 !important;)
 venezuelanalysis.com##.search-toggle:style(color: #1E1F20 !important; background-color: #fff !important;)
-venturebeat.com###ac-player-wrapper:style(position: static !important; width: unset !important;)
 venturebeat.com###omni-navbar:style(position: relative !important; top: 0 !important;)
 vera.org###Header:style(position: absolute !important;)
 verdict.co.uk##.site-footer:style(position: relative !important;)
