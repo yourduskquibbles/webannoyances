@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Social Filters
-! Last Modified: 08:58 2019-10-23
+! Last Modified: 13:37 2019-10-23
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for social networking & sharing - Remove third party social media share sections, icons & other cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -336,8 +336,9 @@ foxbusiness.com,foxnews.com###navbar-share, #node-share-top, .follow-buttons.sec
 foxla.com##.anv-splash-share
 foxsports.com###follow-nav-container
 france24.com##.article-action, .m-share-bar
-freebeacon.com##.columns.large-6
-freebeacon.com##.facebook
+freebeacon.com##.facebook, .instagram, .twitter, .youtube
+freebeacon.com##a[href*="facebook.com/share.php"]:nth-ancestor(1)
+freebeacon.com##a[href*="twitter.com/share"]:nth-ancestor(1)
 freecodecamp.org##.button--withSvgIcon.button--withIcon.u-baseColor--buttonLight.is-touchIconBlackPulse.button--chromeless.button--light.button
 freedomoutpost.com##.essb_links
 ft.com##.insideArticleShare, .o-share-wrapper, .o-share__action
