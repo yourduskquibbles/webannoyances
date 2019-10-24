@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 15:26 2019-10-23
+! Last Modified: 19:13 2019-10-24
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of cookie bars & other page covering elements. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -122,7 +122,7 @@ bk.com##body.modal-open:style(position: unset !important;)
 blackmainstreet.net###ct-ultimate-gdpr-cookie-popup
 blakkpepper.com###ppsPopupBgOverlay
 blindmanspuff.com##.optin-monster-saas-overlay
-bloombergquint.com,dnaindia.com###izmiddle-box
+bloombergquint.com,dnaindia.com###desktopBannerWrapped, #izmiddle-box
 boardingarea.com###ba-flybox
 boingboing.net##.rune-modal-body.rune-c3--container, .rune-sidebar-container
 bookforum.com###EmailRegistrationPopup, #OverlayRegistration
@@ -188,6 +188,7 @@ com-unik.info,heraldks.com###optinform-container
 commentarymagazine.com##.advads-background, .advads-close-button
 community.arm.com##.join-alert
 community.jivesoftware.com###cookie-consent-alert
+community.spotify.com###js-message-bar-cookie-notice, .lia-in.lia-dialog-titleless.lia-panel-dialog-modal-valuesurvey.lia-panel-dialog-modal-simple.lia-panel-dialog.lia-content.ui-corner-all.ui-widget-content.ui-widget.ui-dialog, .ui-widget-overlay
 conference-board.org##.browserCacheBox
 conservativeintel.com###splashmodal, .popupbox_mid
 coogi.com,mysanantonio.com##.fancybox-lock:style(overflow-x: hidden !important; overflow-y: scroll !important;)
