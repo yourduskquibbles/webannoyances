@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 21:43 2019-10-24
+! Last Modified: 22:05 2019-10-24
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -4662,9 +4662,10 @@ pineco.de##.headroom--pinned.headroom--not-top.is-scroll.headroom--not-bottom.he
 pinknews.co.uk###RM3Lines:style(position: absolute !important;)
 pinknews.co.uk###navBar:style(position: absolute !important; top: 0 !important;)
 pinkvilla.com##.nav-wrapper.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important;)
-pinterest.com##._5f._2l._2i._2g._3x._11._2m._3i._0, ._7g._75._5f._2o._2m._2l._2i._2p._25._0, div:nth-of-type(2) > div > div:nth-of-type(1) > div > div:nth-of-type(2):style(position: absolute !important;)
-pinterest.com##._5f._2o._2n._2m._2i._2p._25._0:style(position: relative !important; bottom: none !important; top: 55px !important;)
-pinterest.com##._jq._jp._6w._3a._2y._2._2p._25._0:style(max-width: none !important;)
+pinterest.com###HeaderContent:style(position: absolute !important;)
+pinterest.com##.UserProfilePage:style(margin-top: 65px !important;)
+pinterest.com##.fixed.fixedHeader:style(position: relative !important; top: 0 !important;)
+pinterest.com##body:style(position: unset !important;)
 pitbarrelcooker.com##.x-masthead:style(position: absolute !important;)
 pitchfork.com###page-header, .fixed.standard.nav-container, .nav-container--fixed.nav-container--standard.nav-container:style(position: relative !important; top: 0 !important;)
 pitmaster.amazingribs.com##.conversation-toolbar-wrapper:style(position: relative !important; inset: unset !important;)
