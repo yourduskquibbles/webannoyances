@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 09:10 2019-10-25
+! Last Modified: 01:01 2019-10-26
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of cookie bars & other page covering elements. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -407,7 +407,7 @@ ingwb.com##.dialog
 inman.com##.bx-shroud
 insideevs.com,motor1.com,rideapart.com##.m1-footer-messages
 insidernj.com##.footer-bar--active.footer-bar
-instagram.com###react-root ~ div[class*=" "][class$=" "][role="presentation"]:has(a[href="/accounts/emailsignup/"])
+instagram.com###react-root ~ div[class*=" "][class$=" "][role="presentation"]:has(a[href^="/accounts/"][href*="signup/"])
 instagram.com##.lOPC8, .tHaIX
 instagram.com##body:style(overflow-y: scroll !important;)
 instagram.com##body[style*="overflow: hidden;"] .XQXOT:style(width: calc(100% - 12px) !important; padding-right: 0 !important;)
