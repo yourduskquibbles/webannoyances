@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 15:25 2019-10-28
+! Last Modified: 15:45 2019-10-28
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -3006,7 +3006,10 @@ huffingtonpost.*,huffpost.com##.logo__img:style(height: 28px !important;)
 huffingtonpost.*,huffpost.com##.o2-cvs-player-wrapper > div > div > div:style(position: absolute !important; width: 100% !important; height: 100% !important; inset: auto 0px 0px auto !important;)
 huffingtonpost.*,huffpost.com##.o2-in-side-view:style(position: absolute !important; width: 100% !important; height: 100% !important; right: 0 !important; bottom: 0 !important; inset: auto 0px 0px auto !important;)
 huffingtonpost.*,huffpost.com##.opener:style(margin-top: 0 !important;)
+huffingtonpost.*,huffpost.com##.subnav--sticky:style(position: relative !important;)
+huffingtonpost.*,huffpost.com##.subnav__items.hidden:style(display: flex !important; visibility: visible !important;)
 huffingtonpost.*,huffpost.com##.vdb_player > div > div > div[id^="vdb"], .vdb_player > div[id^="vdb"] > div > div:style(position: relative !important; width: 100% !important; inset: auto 0px 0px auto !important;)
+huffingtonpost.*,huffpost.com##body.nav-sticking .header:style(margin-bottom: 0 !important;)
 hulu.com###banner:style(position: absolute !important; top: 0 !important;)
 humanevents.com###mvp-main-body-wrap, #mvp-site-main:style(margin-top: 0 !important;)
 humanevents.com##.mvp-main-head-grid, .mvp-nav-fixed:style(position: absolute !important; top: 0 !important; transform: none !important;)
