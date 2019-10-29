@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 01:01 2019-10-26
+! Last Modified: 23:15 2019-10-28
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of cookie bars & other page covering elements. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -389,7 +389,7 @@ howtogeek.com##.email-overlay, .email-overlay555, .overlay-wrapper, .overlay-wra
 huffingtonpost.*,huffpost.com###cambria-callout, #subscription-toaster, .image_overlay_icon, .popup-window__modal-body-container, .app-download-interstitial, .newsletter-toaster, .subscription-toaster
 hwinfo.com##.cookie-agree-with-use
 ibtimes.com###colorbox
-ifixit.com##.modalBox
+ifixit.com##.modalBox:not(:has(.modalContentBox #login))
 ign.com##.privacy-content
 ignite.co###privy-container, .fancyboxAge-overlay-fixed.fancyboxAge-overlay
 ignite.co##html.fancyboxAge-lock:style(overflow-x: hidden !important; overflow-y: scroll !important; padding-right: 0 !important;)
