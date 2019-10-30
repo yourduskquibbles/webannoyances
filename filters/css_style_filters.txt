@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 14:18 2019-10-30
+! Last Modified: 16:16 2019-10-30
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1895,6 +1895,7 @@ dividend.com##.stock-data:style(position: static !important; top: auto !importan
 dividend.com##.stock-nav:style(position: static !important; top: 0 !important; box-shadow: none !important; border: none !important; padding: 0 !important;)
 dividend.com##.title:style(display: block !important;)
 dividend.com##ul.list-inline, ul.list-unstyled:style(margin-bottom: 0 !important; margin-left: -5px !important;)
+dji.com##.sub-nav-wrap-common:style(position: absolute !important;)
 djournal.com##.affix #main-navigation:style(box-shadow: none !important;)
 dlive.io##.chatroom-right:style(position: absolute !important; top: 0 !important;)
 dlive.io##.livestream-body, .player-wrapper-desktop, .playerWrapper:style(margin-top: 0 !important;)
