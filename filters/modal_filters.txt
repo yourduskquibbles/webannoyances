@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 11:25 2019-10-30
+! Last Modified: 14:26 2019-10-30
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of cookie bars & other page covering elements. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -576,6 +576,9 @@ pastebin.com###float-box-frame, #paypal-overlay
 pasted.co###captcha_box, #captcha_overlay
 pastemagazine.com###newsletter-signup-overlay
 patch.com###email-modal-wrapper
+patreon.com###renderPageContentWrapper > div:style(filter: unset !important;)
+patreon.com##body[style="overflow: hidden;"]:style(overflow: auto !important;)
+patreon.com##div[data-focus-lock-disabled="false"]
 paypal-community.com##.lia-cookie-banner-alert
 pbs.org###frontline_newsletter_over, #frontline_newsletter_please, #pbs-confirm-modal-overlay, #pbs-confirm-station, #wnetpopupajax .remodal-is-opened
 pedestrian.tv###popup-home
