@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Newsletter Subscription Filters
-! Last Modified: 08:33 2019-11-01
+! Last Modified: 14:36 2019-11-01
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for newsletter annoyances - Remove newsletter & other subscription cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -54,7 +54,7 @@ axios.com##.StoryNewsletterPromo__root--34CRf, .sidebar__newsletter, .topic-news
 azcentral.com##.site-masthead-subscribe-link
 babycenter.com##.familyNavAndAdContainer
 ballotpedia.org###email-signup-bar
-baltimoresun.com,capitalgazette.com,chicagotribune.com,citypaper.com,courant.com,dailypress.com,mcall.com,nydailynews.com,orlandosentinel.com,sun-sentinel.com##[href]:has-text(Sign up for)
+baltimoresun.com,capitalgazette.com,chicagotribune.com,citypaper.com,courant.com,dailypress.com,mcall.com,nydailynews.com,orlandosentinel.com,sun-sentinel.com##[href]:has-text(/Sign up for/)
 bankingdive.com,biopharmadive.com,cfodive.com,ciodive.com,constructiondive.com,educationdive.com,fooddive.com,grocerydive.com,healthcaredive.com,hrdive.com,marketingdive.com,medtechdive.com,mobilemarketer.com,restaurantdive.com,retaildive.com,smartcitiesdive.com,socialmediatoday.com,supplychaindive.com,utilitydive.com,wastedive.com##.signup
 barstoolsports.com##.newsletterSignup
 baseballdailydigest.com,dispatchtribunal.com,fairfieldcurrent.com,marketbeat.com,mayfieldrecorder.com,rivertonroll.com,rocklandregister.com,slatersentinel.com,sundanceherald.com,techknowbits.com,thecerbatgem.com##.entry > form:nth-of-type(1), .sidebar-email
@@ -62,6 +62,7 @@ bbc.co.uk,bbc.com##.news-app-promo
 bearingarms.com##.newsletter-sign-up
 beautifulpixels.com##.widget_optin_form
 bellingcat.com##.mailingList
+bellinghamherald.com,bnd.com,bradenton.com,centredaily.com,charlotteobserver.com,elnuevoherald.com,fresnobee.com,heraldonline.com,heraldsun.com,idahostatesman.com,islandpacket.com,kansas.com,kansascity.com,kentucky.com,ledger-enquirer.com,macon.com,mcclatchydc.com,mercedsunstar.com,miamiherald.com,modbee.com,myrtlebeachonline.com,newsobserver.com,sacbee.com,sanluisobispo.com,star-telegram.com,sunherald.com,thenewstribune.com,theolympian.com,thestate.com,tri-cityherald.com###newsletter-signUpWidget, .signup-widget
 benzinga.com###benzinga-newsletter-signup
 bgr.in###izooto-subscription-prompt
 bhg.com,coastalliving.com,cookinglight.com,ew.com,foodandwine.com,fortune.com,health.com,hellogiggles.com,instyle.com,myrecipes.com,people.com,peopleenespanol.com,realsimple.com,southernliving.com,time.com,travelandleisure.com##.menu-subscribe
@@ -79,15 +80,13 @@ boredpanda.com##.new-variation-3.newsletter-variation
 boston.com##.content-toaster--newsletter
 bostonglobe.com###subscribe-btn, .bg-header__subscribe, .inline-newsletter, .newsletter, .signup-growler, .subscription-banner__link
 bostonreview.net###block-br-hhog-module-br-hhog-newsletter-general, .featurednewsletter
-bradenton.com,fresnobee.com,kansascity.com,kentucky.com,mcclatchydc.com,miamiherald.com,newsobserver.com,star-telegram.com,sunherald.com,thestate.com###newsletter-signUpWidget
 brainpickings.org###bottom_newsletter, #brainpickings_newsletter_vertical_widget-3
 breakingdefense.com##.signup-with-checkboxes
 breitbart.com###EmailOptinM, #content_0_rightrail_0_ctl12_sectionSubscribe
 brighthubeducation.com###subscribe2
 brookings.edu##.newsletter
 browardpalmbeach.com,dallasobserver.com,houstonpress.com,miaminewtimes.com,phoenixnewtimes.com,westword.com##.subscribe.widget.vmgs
-businessinsider.com##.right-subscribe
-businessinsider.com,insider.com,thisisinsider.com##.editorial-sidebar
+businessinsider.com,insider.com,thisisinsider.com##.editorial-sidebar, .right-subscribe
 businessinsider.com.au###mc-signup-in-post, #mc_signup
 businessinsider.in###nlFormSlide
 buzzfeed.com###mod-newsletter-signup-1, #mod-newsletter-signup-2
@@ -266,7 +265,7 @@ jpost.com##.newsletter-signup-wrap, .sign-up-wrap
 judicialwatch.org###newsletter_signup_fullwidth
 julieseatsandtreats.com##.et_bloom_inline_form
 justfacts.com###signUpBoxSticky
-kentucky.com###story-cta-widget, #subscription-cta-container
+kentucky.com###subscription-cta-container
 keyvalues.com##.subscription-section
 khaleejtimes.com###foxpush_subscribe
 khn.org##.email-signup
@@ -295,7 +294,7 @@ manicoti.com###emailbanner
 mansionglobal.com###webui-newsletter-bottom-column, #webui-newsletter-right-column, .article-subscribe-container, .newsletter-signup-container
 mariettatimes.com###newsletter
 marinecorpstimes.com##.newsletter.signup.container
-marketingland.com##.panel-body:has-text(Sign up)
+marketingland.com##.panel-body:has-text(/Sign up/)
 marketwatch.com###signUpForm
 massivesci.com##.newsletter, .promo--newsletter.promo
 mediaite.com###newsletter > .heading
@@ -306,15 +305,13 @@ mensjournal.com##.module-newsletter-form, .subscribe, .subscription-tout
 mercatus.org##.pane-grey-box.panel-pane
 mercopress.com##.sidebar
 messynessychic.com###kol_email-2
-miamiherald.com###story-cta-widget, .signup-widget
 mic.com##.newsletter-signup, .newsletter-signup-mobile
 microsoft.com###email-newsletter-dialog
 militarytimes.com##.newsletter.signup
 mindk.com##.subscribe-widget
 mnn.com##.right_rail_email_signup
 mondotees.com##.ftr-newsletter
-money.com##.homepage-newsletter
-money.com##.newsletter-callout
+money.com##.homepage-newsletter, .newsletter-callout
 moneysavingexpert.com###fixed-cross-site-tipbox, .tipbox-form-wrp
 montrealgazette.com###pn-newsletter-signup
 morningconsult.com##.single-post__content__subscribe
@@ -344,7 +341,7 @@ neurosciencenews.com###optinforms-form5-container
 newatlas.com##.PlusSubscribeAd
 newrepublic.com##.email-container, .inserted-housead, .subscribe, .subscribe-sidebar, .subscription-prompts
 news.harvard.edu##.daily-gazette
-news.yahoo.com##p:has-text(newsletter, and follow)
+news.yahoo.com##p:has-text(/newsletter, and follow/)
 news5cleveland.com##.module--email-widget
 newscientist.com###nav-sub-button, #subASave, .footer-newsletter, .header-promotion, .header-subscribe, .register-signup-promo, .signpost
 newsday.com##.newsletterSignup
@@ -366,9 +363,9 @@ nybooks.com##.newsletter_signup
 nydailynews.com##.newsletter-signup
 nytimes.com###Newsletter-embed-NYT-Now, #Science-Newsletter-promo, #THEurope-newsletter-module, #THasia-newsletter-module, #australia-today-email-signup, #breaking-news-email-promo, #cooking-email-signup, #d-promo-realestate, #evening-briefing-email-promo, #living-newsletter-promo, #new-york-today-email-promo, #news-tips-article-promo, #newsletter-module, #newsletter-promo, #opinion-newsletter-promo, #signup-favor, #sports-email-promo, #subscriptionCTA, .eln-email-signup, .email-signup, .recipe-newsletter-signup, .css-17dprlf.medium
 nytimes.com##aside:has([id^="newsletter-iframe-container"])
-nytimes.com##aside:has-text(Sign Up)
+nytimes.com##aside:has-text(/Sign Up/)
 nytimes.com##div > p:has([href^="https://www.nytimes.com/newsletters/"])
-observer.com##.entry-content > p :has-text(Subscribe to)
+observer.com##.entry-content > p :has-text(/Subscribe to/)
 oilprice.com##.signup_iframe
 onegreenplanet.org##.subscribebox
 openculture.com##.new_subscription_block
@@ -484,7 +481,7 @@ supchina.com##.header-subscribe, .newsletter-popup
 superyachtworld.com###keystone-newsletter-2
 tabletmag.com##.newsletter-signup
 talkingpointsmemo.com##.Daybreaker
-taskandpurpose.com##.sm-mb-2 > div:has-text(Get Task & Purpose in your inbox)
+taskandpurpose.com##.sm-mb-2 > div:has-text(/Get Task & Purpose in your inbox/)
 taskandpurpose.com##.sprg_registration-cta
 tastecooking.com##.newsletter-signup
 techcrunch.com##.newsletter-signup-block, .newsletters-signup
@@ -499,7 +496,7 @@ telesurenglish.net###bulletin
 tesla.com##.tesla-newsletter--sticky
 texasmonthly.com##.article-newsletter, .article-subscription, .footer__newsletter
 theaircurrent.com##.eckosc_button_rounded
-theamericanmirror.com##h3:has-text(Get Our Email Newsletter!)
+theamericanmirror.com##h3:has-text(/Get Our Email Newsletter!/)
 theamericanscholar.org##.sidebar-block-newsletter
 theartofdoingstuff.com##.tve-leads-triggered
 theatlantic.com###series-newsletter-signup, .c-popular__container--newsletter, .c-subscription, .module-newsletter-signup, .newsletters, .sign-up, .subscribe
@@ -530,7 +527,7 @@ themaclife.com###sidebar_form
 themarshallproject.org##.email-onboard, .email-onboard-container-wrapper
 themarysue.com###newsletter-promo
 thenation.com##.email-signup-module
-thenevadaindependent.com##.no-print > div:has-text(newsletter)
+thenevadaindependent.com##.no-print > div:has-text(/newsletter/)
 thenewsrep.com###newsrep-header-sub-cta-1
 thenextweb.com##.newsletter
 theonion.com##.newsletter-signup
@@ -547,7 +544,7 @@ theverge.com###subForm
 thewalrus.ca###newsletter
 theweek.com###art-subscribe-unit-outer, #art-subscribe-unit-outer-graphic, .article-risk-free-offer, .col300_signup, .subscribe-module, .subscribe-unit-header
 thewirecutter.com##.newsletter, .newsletter-container
-thewirecutter.com##div#__next > div:has-text(Sign up for)
+thewirecutter.com##div#__next > div:has-text(/Sign up for/)
 threatpost.com##.c-newsletter-section, .c-newsletter-widget
 thrillist.com##.inline-signup
 time.com##.homepage-newsletter, .media.subscribe-callout, .newsletter-callout
@@ -587,15 +584,15 @@ vera.org###PopupEmailSignup
 vice.com##.interstitial, .newsletter-promo, .newsletter-wrapper
 villagevoice.com##.c-Footer__subscribe
 visualcapitalist.com###mc4wp-form-1, #mc4wp-form-2, #mc4wp_email, #mc4wp_widget-4, [href*="/subscribe"]
-vox.com##p:has-text(Sign up for)
+vox.com##p:has-text(/Sign up for/)
 wallethacks.com###text-32
 wamu.org##.newsletter-module
 washingtonexaminer.com###newsletter-signup-policy, #newsLetter-signup-box, #newsletter_sign_up_form, .newsletter, .subscribe-promo
 washingtonpost.com###nav-subscribe, #signup-banner, #signup-box-instream, #signup-box-rr, .daily202-newsletter, .newsletter-inline-unit, .newsletter-unit.signup-box-rr, .pb-f-page-subscription-promo, .pb-subscribe, .pb-subscribe-promo, .right-rail-subscription, .signup-module, .subscribe, .subscribe-links
 washingtonpost.com##.hide-for-print :has([name="signup-email"])
 washingtonpost.com##.hide-for-print:has([alt*="Newsletter"])
-washingtonpost.com##article > div[class^="hide-for-print"]:has-text(Subscribe)
-washingtonpost.com##button:has-text(Subscribe)
+washingtonpost.com##article > div[class^="hide-for-print"]:has-text(/Subscribe/)
+washingtonpost.com##button:has-text(/Subscribe/)
 washingtontechnology.com##.WASHINGTON-TECHNOLOGY
 washingtontimes.com###newsletter-form-story, .block-email-alerts-footer, .email-alerts
 weeklystandard.com###dy_Home_Page_Sub_Promo, #newsletter_sign_up_form, .desktop-sidebar-sub, .fixed-sub-button, .sub-drawer, .subscription-promo
@@ -608,7 +605,7 @@ wptv.com##.module--email-widget
 wsj.com###subscribeNowMediumBar, .WSJTheme__signup_2Ht8gW1wgqoJwLXY6GkF72, .temp-subscribe[href="https://subscribe.wsj.com/hpheaderlink"], .type-InsetNewsletterSignup, #cx-article-newsletter-tile
 wsws.org##aside
 wtop.com##hr
-wtop.com##p:has-text(SIGN UP TODAY)
+wtop.com##p:has-text(/SIGN UP TODAY/)
 wwd.com##.pmc-adm-site-served, .wwd-subscribe-now-banner-ad-container
 xconomy.com##.leads
 yachtingworld.com##.keystone-newsletter-class
