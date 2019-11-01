@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Newsletter Subscription Filters
-! Last Modified: 14:36 2019-11-01
+! Last Modified: 16:03 2019-11-01
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for newsletter annoyances - Remove newsletter & other subscription cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -14,7 +14,8 @@
 10tv.com##.uawn-opt-in-prompt
 500ish.com,artplusmarketing.com,atrium.co,backchannel.com,backstage.1blocker.com,badootech.badoo.com,bitcointechtalk.com,bitwarden.com,blazingdb.com,blog.angularindepth.com,blog.coinbase.com,blog.confiant.com,blog.devcolor.org,blog.growthhackers.com,blog.hiri.com,blog.ltse.com,blog.statebox.org,blog.twitch.tv,blog.waffle.io,bluerockpublicradio.com,bolt.io,boomsupersonic.com,bradfieldcs.com,brightthemag.com,broadcast.listennotes.com,checkio.org,citizen428.net,coach.me,codeburst.io,dave-bailey.com,discordapp.com,doist.com,doit-intl.com,dotandline.net,doublepulsar.com,economist.com,electricliterature.com,elidourado.com,esciencecenter.nl,fossa.io,freecodecamp.org,fritz.ai,getadblock.com,greylock.com,headmelted.com,helium.com,howwegettonext.com,iheart.com,injusticetoday.com,insightdatascience.com,iota.org,itnext.io,itsyourturnblog.com,jupyter.org,keepingstock.net,kiwi.com,learngoprogramming.com,learningbyshipping.com,ledwards.com,legalist.com,logrocket.com,mapbox.com,medium.com,melmagazine.com,mondaynote.com,newco.co,news.smugmug.com,nyulocal.com,ofdollarsanddata.com,okmeter.io,open.nytimes.com,postlight.com,prototypr.io,rainway.io,sagefy.org,signalvnoise.com,slack.engineering,slackhq.com,springboard.com,standardnotes.org,startupsventurecapital.com,stoplight.io,tech.buzzfeed.com,theabacus.io,theawl.com,thebigroundtable.com,thebillfold.com,thebolditalic.com,thecontrol.co,theringer.com,thinkprogress.org,thriveglobal.com,timeline.com,towardsdatascience.com,udacity.com,unpatent.co,usejournal.com,uxdesign.cc,uxplanet.org,warisboring.com,wearemel.com,whatahowler.com,x.company##.js-directEmailSignup
 99percentinvisible.org###engagement-newsletter
-aawsat.com###newsletter
+a16z.com##.home-section--subscribe, .widget--subscribe.widget
+aawsat.com,cjr.org,lawandcrime.com,lawnewz.com,mariettatimes.com,mosaicscience.com,quantamagazine.org,thewalrus.ca,tomsguide.com,tomshardware.com,toptenreviews.com###newsletter
 abc.net.au##.newsmail-signup
 abcactionnews.com##.module--email-widget
 abcbirds.org##.newslatter-foot
@@ -106,7 +107,6 @@ cigarandpipes.com##.klaviyo_flyout
 circleci.com##.bg-gray-light
 cityam.com###footer-newsletter, #footer-newsletter-mobile
 citylab.com##.c-newsletter
-cjr.org###newsletter
 cnbc.com###optIn-embedded, #optIn-right-rail
 cnet.com##.holidayPromo
 cnn.com###rs-newletter-mod, .cd--tool__mailchimp-subscribe, .cnn-politics-app-promo-card, .rs-newsletter-body
@@ -275,8 +275,6 @@ lamag.com##.hubspot-form-widget
 laphamsquarterly.org###lq_daily
 laptopmag.com###newsletter-subscribe-banner
 latimes.com,pacificsandiego.com,sandiegouniontribune.com##.NewsletterModule
-lawandcrime.com###newsletter
-lawnewz.com###newsletter
 lennyletter.com##.hdr-subscribe-link
 leowid.com###mc4wp_form_widget-3
 lightreading.com###mktng_popin
@@ -292,7 +290,6 @@ makeuseof.com##.single-post-newsletter
 makezine.com##.newsletter-footer, .subscribe-red-btn
 manicoti.com###emailbanner
 mansionglobal.com###webui-newsletter-bottom-column, #webui-newsletter-right-column, .article-subscribe-container, .newsletter-signup-container
-mariettatimes.com###newsletter
 marinecorpstimes.com##.newsletter.signup.container
 marketingland.com##.panel-body:has-text(/Sign up/)
 marketwatch.com###signUpForm
@@ -315,7 +312,6 @@ money.com##.homepage-newsletter, .newsletter-callout
 moneysavingexpert.com###fixed-cross-site-tipbox, .tipbox-form-wrp
 montrealgazette.com###pn-newsletter-signup
 morningconsult.com##.single-post__content__subscribe
-mosaicscience.com###newsletter
 motherjones.com##.incontent-promo, .newsletter-signup
 motorauthority.com##.desktop-newsletter
 msn.com###MSN_Today_Newsletter, [href*="/newsletters"]
@@ -405,7 +401,6 @@ projectveritas.com###cmApp_signupContainer
 propublica.org##.newsletter
 publicintegrity.org##.email-signup-form-wrapper
 punchdrink.com###email-signup
-quantamagazine.org###newsletter
 qz.com###obsessions-email-container, ._86eee.context-default.e1535, .context-promotion,  .quartz.context-default, .EmailSignup__container__cDTsj
 radiotimes.com##.widget-newsletter-sign-up
 rappler.com###emailPopupDiv, #page > div:nth-of-type(5)
@@ -541,7 +536,6 @@ thesslstore.com##.open.slide-out-div
 thestreet.com###subscribe_premium
 theundefeated.com##.newsletter-article-signup
 theverge.com###subForm
-thewalrus.ca###newsletter
 theweek.com###art-subscribe-unit-outer, #art-subscribe-unit-outer-graphic, .article-risk-free-offer, .col300_signup, .subscribe-module, .subscribe-unit-header
 thewirecutter.com##.newsletter, .newsletter-container
 thewirecutter.com##div#__next > div:has-text(/Sign up for/)
@@ -553,8 +547,6 @@ timesofisrael.com##.nlsignup
 tmz.com##.newsletter-content, .quick-subscribe-form
 today.com##.entry-bottom, .newsletter-l-wrapper, .tabletNewsletter___Av6eE
 todayonline.com##.article-detail_subscription
-tomsguide.com,tomshardware.com###newsletter
-toptenreviews.com###newsletter
 torontolife.com##.subscribe-navigation__list
 townhall.com##.email-signup-inpage, .nlbox
 trains.com##.aboveMobile.basement

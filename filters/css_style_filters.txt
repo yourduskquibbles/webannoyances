@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 14:50 2019-11-01
+! Last Modified: 16:03 2019-11-01
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1990,7 +1990,7 @@ dropbox.com##.maestro .maestro-tab-nav .c-tabs__bar:style(position: relative !im
 dropbox.com##.mc-table-head-row-fixed:style(position: relative !important; width: 100% !important;)
 dslrbodies.com###sitemenu:style(position: absolute !important; top: 0 !important;)
 dualshockers.com##.nav-main:style(position: absolute !important;)
-duckduckgo.com###header_wrapper, .js-header-wrap.header-wrap:style(position: relative !important; top: 0 !important;)
+duckduckgo.com###header_wrapper:not(.header-wrap--with-hero), .js-header-wrap.header-wrap:not(.header-wrap--with-hero):style(position: relative !important; top: 0 !important;)
 duckduckgo.com##.is-stuck.has-dropdowns.js-zcm-sticky.metabar--fixed.metabar:style(position: absolute !important; top: 0 !important;)
 duckduckgo.com##.js-serp-bottom-right.serp__bottom-right:style(position: absolute !important; bottom: unset !important;)
 duffelblog.com###mvp-main-body-wrap, #mvp-main-nav-bot, .mvp-fixed-next:style(margin-top: 0 !important;)
