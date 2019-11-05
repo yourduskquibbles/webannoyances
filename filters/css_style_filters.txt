@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 14:19 2019-11-04
+! Last Modified: 10:04 2019-11-05
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -5280,7 +5280,10 @@ shouldisendit.com##.navbar:style(position: absolute !important; padding-top: 20p
 showbiz411.com##.affix.td-menu-wrap.container:style(position: absolute !important;)
 shrm.org###ctl00_PlaceHolderMain_ArticleSectionNavigation_pan_Main:style(position: relative !important; top: 0 !important;)
 shrm.org##.affix.noindex.container-nav.container-fluid:style(position: absolute !important;)
+si.com###comments, .app_container > .main_section > div > div > div > div:nth-of-type(1), .conversation-and-stream > div > div:nth-of-type(2), .main_section > div > div > div > div:nth-of-type(2), .main_section > div > div > div:nth-of-type(2), .tab-stream.detail-stream > div > div > div:nth-of-type(1):style(position: static !important;)
+si.com###content .conversation.app > div > div:nth-of-type(1):not([class="maven-sidebar"]), .channel.app > div > div:nth-of-type(1):not([class="maven-sidebar"]):style(position: absolute !important; background: transparent !important; transition: none !important;)
 si.com##.longform-hero-container:style(padding-top: 0 !important;)
+si.com##.maven-sidebar > div > div:style(position: absolute !important;)
 si.com##.primary, .secondary:style(position: static !important; top: 0 !important;)
 si.com##.subcontainer, .tall-only.logo:style(opacity: 1 !important;)
 si.com##.title-display:style(opacity: 0 !important;)
@@ -6572,6 +6575,7 @@ washingtonpost.com###nav-bar:style(webkit-transform: none !important; background
 washingtonpost.com###pb-root:style(margin-top: 0 !important; padding-top: 0 !important;)
 washingtonpost.com###pg-top-nav:style(position: relative !important; opacity: 1 !important; transform: translateY(60px) !important;)
 washingtonpost.com###sections-menu-wide:style(opacity: 1 !important; visibility: visible !important;)
+washingtonpost.com###twitter-widget-1:style(width: unset !important;)
 washingtonpost.com##.brandstudio-bar, .lockfixed.echo-apps-conversations-streamHeader:style(position: relative !important;)
 washingtonpost.com##.context-pdf-box:style(height: 100% !important;)
 washingtonpost.com##.header-nav:style(position: absolute !important; top: 0 !important;)
