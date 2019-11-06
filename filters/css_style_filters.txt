@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 15:00 2019-11-06
+! Last Modified: 15:02 2019-11-06
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -3428,6 +3428,8 @@ khn.org##.brand:style(display: block !important;)
 khn.org##.header-site:style(box-shadow: none !important;)
 khn.org##.navbar-global li:style(border-left: 1px solid #0075c9 !important;)
 khn.org##.navbar-global:style(background-color: #0064ab !important; border-top-left-radius: 6px !important;)
+kia.com##.L2Nav:style(position: static !important;)
+kia.com##.global-nav:style(position: relative !important; transform: translate3d(0,0,0) !important;)
 kickstarter.com##.NS_projects__project_nav, .skrollable-after.skrollable.js-project-nav.NS_projects__project_nav:style(position: relative !important; top: 0 !important;)
 kickstarter.com##.fixed.js-project-nav.NS_projects__project_nav:style(position: relative !important;)
 kickstarter.com##.pt11:style(padding-top: 0 !important;)
@@ -6248,6 +6250,11 @@ townandcountrymag.com##.content-nav-active.sticky.nav, .sticky.nav:style(positio
 townhall.com###thm-nav-sm, .fa-bars.fa, .toggle, nav:style(position: relative !important; top: 0 !important;)
 townsquaremedia.com###nav-close-button, #nav-menu-button:style(position: absolute !important;)
 toxicpatat.com##nav:style(position: absolute !important; transform: none !important;)
+toyota.com##.is-ready.tcom-tab-subnav-scrollable:style(position: relative !important; width: auto !important;)
+toyota.com##.tcom-tab-subnav-container .tcom-tab-subnav-nav:style(padding: 28px 0 23px !important;)
+toyota.com##.tcom-tab-subnav-container .tcom-toggle-link:style(margin-right: 15px !important;)
+toyota.com##.tcom-tab-subnav.fixedsticky-on::before, .tcom-tab-subnav.is-sticky::before:style(background: none !important;)
+toyota.com##.tcom-tab-subnav:style(position: static !important; height: auto !important; box-shadow: none !important;)
 toyota.com##.tcom-tiered-subnav:style(position: relative !important;)
 trackico.io##.topbar-inverse.topbar-expand-lg.topbar:style(position: absolute !important;)
 tractorsupply.com###header_mainContainer_outer:style(position: relative !important; top: 0 !important;)
