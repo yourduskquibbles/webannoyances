@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 18:54 2019-11-06
+! Last Modified: 19:14 2019-11-06
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2322,8 +2322,8 @@ fandom.com###globalNavigation, #WikiaBarWrapper:style(position: absolute !import
 fandom.com##.wds-global-navigation-wrapper:style(position: relative !important;)
 fandomwire.com###responsive-menu-button:style(position: absolute !important;)
 fandomwire.com##.td-affix .header-search-wrap .td-icon-search, .td-header-wrap .td-affix .sf-menu > li > a:style(line-height: 50px !important;)
-fandomwire.com,grownmenstuff.com,igeeksblog.com##.td-header-menu-wrap.td-affix:style(position: absolute !important; transform: translate3d(0,0,0) !important;)
 fandomwire.com,grownmenstuff.com,techquila.co.in,thezerohack.com,troublefixers.org##.td-ss-main-sidebar:style(position: static !important; top: auto !important;)
+fandomwire.com,igeeksblog.com##.td-header-menu-wrap.td-affix:style(position: absolute !important; transform: translate3d(0,0,0) !important;)
 fanfox.net##.top-bar, .side-code:style(position: absolute !important;)
 fangraphs.com##div.top-logo:style(display: block !important;)
 fangraphs.com,gfycat.com##.header-container:style(position: absolute !important; top: 0 !important;)
@@ -2848,7 +2848,10 @@ groovypost.com,steelersdepot.com###body-main-wrap:style(padding-top: 15px !impor
 groovypost.com,steelersdepot.com###main-nav-wrap:style(position: relative !important;)
 groupon.com##.ls-h-wrapper:style(position: relative !important;)
 grownmenstuff.com##.td-container:style(padding-top: 0 !important;)
+grownmenstuff.com##.td-header-gradient.td-header-menu-wrap, .td-header-menu-wrap.td-affix:style(position: static !important; transform: translate3d(0,0,0) !important; visibility: visible !important;)
 grownmenstuff.com##.td-header-wrap:style(position: relative !important; top: 0 !important; height: 60px !important; border-top: none !important;)
+grownmenstuff.com##.td-main-page-wrap:style(padding-top: 150px !important;)
+grownmenstuff.com##.tdc-content-wrap:style(padding-top: 40px !important;)
 grubstreet.com,nymag.com,thecut.com,vulture.com##.article-nav-top.article-nav-dynamic:style(top: 11px !important; opacity: 1 !important;)
 grubstreet.com,nymag.com,thecut.com,vulture.com##.article-nav.deep-scroll .article-nav-deepscroll:style(opacity: 0 !important;)
 grubstreet.com,nymag.com,thecut.com,vulture.com##.global-nav:style(padding-bottom: 70px !important;)
