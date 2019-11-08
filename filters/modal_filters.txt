@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 16:02 2019-11-07
+! Last Modified: 09:41 2019-11-08
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of cookie bars & other page covering elements. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -25,6 +25,7 @@
 99bitcoins.com,affordanything.com,bloggeek.me,heatherlikesfood.com,trumpexcel.com,unchainedpodcast.com##.tl-style, .tve-leads-triggered, .tl-anim-zoom_in.tl-states-root
 99bitcoins.com,affordanything.com,bloggeek.me,heatherlikesfood.com,trumpexcel.com,unchainedpodcast.com##body:style(padding-right: 0 !important;)
 99bitcoins.com,affordanything.com,bloggeek.me,heatherlikesfood.com,trumpexcel.com,unchainedpodcast.com##html.tve-o-hidden.tve-hide-overflow.tve-l-open:style(overflow-x: hidden !important; overflow-y: scroll !important; padding-right: 0 !important;)
+abcnews.go.com##.terms-alert-fixed
 abcstores.com,activejunky.com,betterhelp.com,blooom.com,bourbonblog.com,buffalonews.com,callername.com,carefirst.com,cigarbid.com,coronacigar.com,dccouncil.us,dividend.com,everydaydishes.com,fee.org,fermatslibrary.com,gardenweb.com,govtrack.us,hooktube.com,infantino.com,interestingengineering.com,law360.com,lowes.com,michaels.com,mississippi.gov,movieshype.com,otakustream.tv,paper.li,patch.com,pbs.org,photobucket.com,reviewmeta.com,ripple.com,sapling.com,streamingonline.desi,techwalla.com,washingtontimes.com##.modal-backdrop
 ablebits.com###common-floatbanner-big
 ably.io##.c-dialog--cookies.c-dialog
@@ -256,6 +257,8 @@ digitalocean.com###DO_CC_PANEL, ._panel_1nv7e_1
 digitalspy.com###_evidon-barrier-wrapper
 discovermagazine.com##.wp_popup_overlay
 discovermagazine.com##html:style(margin-top: 0 !important;)
+disney.com##body > div:has-text(/Please review our/)
+disneynow.com##body > div:has-text(/Please review our/)
 dividend.com###popup-modal
 dividend.com,interestingengineering.com,pbs.org,sandiegoreader.com,washingtontimes.com###newsletter-modal
 docs.aws.amazon.com###cookie-notice, awsui-alert, awsdocs-footer.ng-isolate-scope > awsui-alert > .awsui-alert-type-info.awsui-alert
