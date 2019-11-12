@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 10:05 2019-11-12
+! Last Modified: 10:14 2019-11-12
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -4530,6 +4530,7 @@ nytimes.com##.nytc---sitenav---siteNav, .specialrate-bar, .universalNav:style(po
 nytimes.com##.post-timestamp > time, .theme-speech-bubble-x-small.comments-button.button:style(opacity: 1 !important;)
 nytimes.com##.rad-series-nav:style(position: absolute !important; margin-top: 0 !important;)
 nytimes.com##.ribbon:style(border-top: none !important;)
+nytimes.com##.template-minimal.viewport-medium-50 .masthead.masthead-theme-standard:style(border-bottom: 1px solid #ccc !important;)
 nytimes.com##.topnav:style(position: absolute !important; top: 0 !important;)
 nytimes.com##.viewport-large-20 .masthead.masthead-theme-standard .branding:style(display: block !important; opacity: 1 !important;)
 nytimes.com##.viewport-large-40 .masthead.masthead-theme-standard .user-tools:style(margin-right: 15px !important;)
