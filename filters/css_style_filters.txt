@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 19:25 2019-11-17
+! Last Modified: 20:13 2019-11-17
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -862,9 +862,8 @@ betterhelp.com##.scroll-header, header:style(position: absolute !important; back
 betterment.com##.sc-SiteLayout-header:style(position: static !important; box-shadow: none !important;)
 betweenborders.com##.open.sidebar-toggle:style(position: absolute !important;)
 bfmtv.com##header, #mediaplayer .header-fixed.activated:style(position: absolute !important; top: 0 !important;)
-bfst.to,buffstream.to,buffstreamz.com###footer:style(margin-top: 250px !important;)
-bfst.to,buffstream.to,buffstreamz.com##.navbar-fixed-bottom:style(position: relative !important;)
-bfst.to,buffstream.to,buffstreamz.com##html:style(height: 100% !important;)
+bfst.to,buffstream.to,buffstreamz.com###schedule > .panel-primary.panel, .pood, body > .container, body:style(height: 100vh !important;)
+bfst.to,buffstream.to,buffstreamz.com##.navbar-fixed-bottom:style(position: relative !important; margin-top: 10px !important;)
 bgdailynews.com###main-navigation:style(position: absolute !important; top: 0 !important;)
 bgdailynews.com,santafenewmexican.com###site-container:style(margin-top: 0 !important;)
 bgov.com,coverva.org,el-nation.com,hcn.org,shop.spacex.com,stockdigest.info##.fixed:style(position: absolute !important;)
