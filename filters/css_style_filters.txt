@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 11:43 2019-11-14
+! Last Modified: 19:06 2019-11-17
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1247,6 +1247,7 @@ cbslocal.com##body:not([onload^="anvp.baseURL"]):style(overflow-x: hidden !impor
 cbslocal.com##iframe:style(max-width: 100% !important;)
 cbsnews.com###pip__headline, .floating.media-block:style(position: relative !important; top: 0 !important;)
 cbsnews.com##.dashboard-visible:style(margin-bottom: 0 !important;)
+cbsnews.com##.dashboard:style(position: relative !important; bottom: 0 !important;)
 cbsnews.com##.embed__content--draggable:style(position: absolute !important; top: unset !important; left: unset !important; max-width: 100% !important; width: 100% !important; height: 100% !important;)
 cbsnews.com##.livestream-player-wrapper:style(position: static !important;)
 cbsnews.com##.site-footer:style(padding-bottom: 0 !important;)
@@ -6061,6 +6062,10 @@ thenib.com##.Navbar-collapsed .Navbar-logoLink, .Navbar-logoSvg:style(width: 20e
 thenib.com##.Navbar-container:style(position: absolute !important;)
 thenib.com##.Navbar-logoLettering:style(display: inline !important;)
 theoutline.com##.headline-card__line, .hr, .post__meta:after, .pullquote > span, .pullquote.pullquote--inline:after, .pullquote.pullquote--inline:before, .quote-card__line, a:style(background-image: none !important;)
+theoutline.com##.main, .path__plane:style(overflow: unset !important;)
+theoutline.com##.navigation__menu:style(position: absolute !important; top: 0 !important; bottom: unset !important; display: block !important; width: 100% !important;)
+theoutline.com##.navigation__menu__item--hamburger.navigation__menu__item:style(position: absolute !important; top: 0 !important; right: 0 !important;)
+theoutline.com##body:style(overflow-y: scroll !important;)
 thepacker.com###all-header-wrapper:style(position: absolute !important;)
 theparisreview.org##.sticky.header-nav:style(position: relative !important; top: 0 !important;)
 thepeninsulaqatar.com##.navbar-fixed-top.menu-block:style(position: relative !important; top: 0 !important;)
