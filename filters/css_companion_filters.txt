@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Companion Filters
-! Last Modified: 08:57 2019-11-18
+! Last Modified: 11:50 2019-11-18
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Companion Sublist to be used with CSS Style Modifications List -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -10,38 +10,92 @@
 ! Works best with uBlock Origin or Nano Adblocker - be sure to install it as well!
 
 ! Start Web Annoyances Ultralist - CSS Style Modifying Companion Filters
-13wham.com,abc22now.com,abc3340.com,abc45.com,abc6onyourside.com,abc7amarillo.com,abcstlouis.com,azteca48.com,bakersfieldnow.com,cbs12.com,cbs2iowa.com,cbs4local.com,cbs6albany.com,cbsaustin.com,chattanoogacw.com,cnycentral.com,cw14online.com,cw15kxvo.com,cw18milwaukee.com,cw23tv.com,cw34.com,cw35.com,cw58.tv,cw7michigan.com,cwalbany.com,cwbaltimore.com,cwcentralpa.com,cwcincinnati.com,cwcolumbus.com,cwlasvegas.com,cwokc.com,cwrochester.com,cwtreasurevalley.com,fox11online.com,fox17.com,fox23maine.com,fox28media.com,fox38corpuschristi.com,fox42kptm.com,fox45now.com,fox47.com,fox4beaumont.com,fox56.com,foxbaltimore.com,foxchattanooga.com,foxillinois.com,foxkansas.com,foxlexington.com,foxnebraska.com,foxreno.com,foxrichmond.com,foxrochester.com,foxsanantonio.com,idahonews.com,katu.com,katv.com,kbsi23.com,kcby.com,kdsm17.com,keprtv.com,kfdm.com,kfoxtv.com,khqa.com,kimatv.com,klewtv.com,kmph.com,kmyu.tv,komonews.com,kpic.com,krcgtv.com,krcrtv.com,ktul.com,ktvl.com,ktvo.com,ktxs.com,kunptv.com,kunwtv.com,kutv.com,kval.com,local12.com,local21news.com,my15wtcn.com,my40.tv,my48.tv,mycbs4.com,myfox28columbus.com,mynbc15.com,mynews4.com,myrdctv.com,mytv30web.com,mytvbuffalo.com,mytvdayton.com,mytvrichmond.com,mytvwichita.com,mytvz.com,mywdka.com,nbc16.com,nbc24.com,nbc25news.com,nbcmontana.com,nebraska.tv,news3lv.com,news4sanantonio.com,newschannel20.com,newschannel9.com,okcfox.com,raleighcw.com,siouxlandnews.com,southernoregoncw.com,star64.tv,telemundoaustin.com,thecw46.com,thecwtc.com,turnto10.com,univisionseattle.com,upnorthlive.com,utv44.com,valleycentral.com,wabm68.com,wach.com,wchstv.com,wcti12.com,wcyb.com,weartv.com,wfgxtv.com,wfxl.com,wgme.com,wgxa.tv,wjactv.com,wjla.com,wlos.com,wpde.com,wpgh53.com,wsbt.com,wset.com,wsmh.com,wtov9.com,wtto21.com,wtwc40.com,wutv29.com,wvah.com,wwmt.com##.LivePlayer_closeBtn__R028
+13wham.com,abc22now.com,abc3340.com,abc45.com,abc6onyourside.com,abc7amarillo.com,abcstlouis.com,azteca48.com,bakersfieldnow.com,cbs12.com,cbs2iowa.com,cbs4local.com,cbs6albany.com,cbsaustin.com,chattanoogacw.com,cnycentral.com,cw14online.com,cw15kxvo.com,cw18milwaukee.com,cw23tv.com,cw34.com,cw35.com,cw58.tv,cw7michigan.com,cwalbany.com,cwbaltimore.com,cwcentralpa.com,cwcincinnati.com,cwcolumbus.com,cwlasvegas.com,cwokc.com,cwrochester.com,cwtreasurevalley.com,fox11online.com,fox17.com,fox23maine.com,fox28media.com,fox38corpuschristi.com,fox42kptm.com,fox45now.com,fox47.com,fox4beaumont.com,fox56.com,foxbaltimore.com,foxchattanooga.com,foxillinois.com,foxkansas.com,foxlexington.com,foxnebraska.com,foxreno.com,foxrichmond.com,foxrochester.com,foxsanantonio.com,idahonews.com,katu.com,katv.com,kbsi23.com,kcby.com,kdsm17.com,keprtv.com,kfdm.com,kfoxtv.com,khqa.com,kimatv.com,klewtv.com,kmph.com,kmyu.tv,komonews.com,kpic.com,krcgtv.com,krcrtv.com,ktul.com,ktvl.com,ktvo.com,ktxs.com,kunptv.com,kunwtv.com,kutv.com,kval.com,local12.com,local21news.com,my15wtcn.com,my40.tv,my48.tv,mycbs4.com,myfox28columbus.com,mynbc15.com,mynews4.com,myrdctv.com,mytv30web.com,mytvbuffalo.com,mytvdayton.com,mytvrichmond.com,mytvwichita.com,mytvz.com,mywdka.com,nbc16.com,nbc24.com,nbc25news.com,nbcmontana.com,nebraska.tv,news3lv.com,news4sanantonio.com,newschannel20.com,newschannel9.com,okcfox.com,raleighcw.com,siouxlandnews.com,southernoregoncw.com,star64.tv,telemundoaustin.com,thecw46.com,thecwtc.com,turnto10.com,univisionseattle.com,upnorthlive.com,utv44.com,valleycentral.com,wabm68.com,wach.com,wchstv.com,wcti12.com,wcyb.com,weartv.com,wfgxtv.com,wfxl.com,wgme.com,wgxa.tv,wjactv.com,wjla.com,wlos.com,wpde.com,wpgh53.com,wsbt.com,wset.com,wsmh.com,wtov9.com,wtto21.com,wtwc40.com,wutv29.com,wvah.com,wwmt.com###js-LivePlayer-Container, .LivePlayer_closeBtn__R028
+6abc.com,abc11.com,abc13.com,abc30.com,abc7.com,abc7chicago.com,abc7news.com,abc7ny.com##.feature-logo .sml-logo
+9gag.com##.badge-toolbar-pre.fixed-wrap-post-bar, .post-afterbar-a.in-post-bot.full-width
+9news.com.au##.eLyHDS.LogoNav__NetworkNavLogosWrapper-sc-19zkpff-1.LogoNav__LogosWrapper-sc-19zkpff-0, .site-header.module, .sticky-mobile-banner
+9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co##.site-header-placeholder, .site-header.js-header-sticky .primary-menu
+abcnews.go.com##.ng-scope.abcn-videoplayer.offpage, .short_bg.short_stuck
 accringtonobserver.co.uk,birminghammail.co.uk,birminghampost.co.uk,bristolpost.co.uk,chroniclelive.co.uk,coventrytelegraph.net,dailypost.co.uk,dailyrecord.co.uk,derbytelegraph.co.uk,devonlive.com,examinerlive.co.uk,gazettelive.co.uk,hulldailymail.co.uk,leicestermercury.co.uk,liverpoolecho.co.uk,manchestereveningnews.co.uk,mirror.co.uk,mylondon.news,nottinghampost.com,plymouthherald.co.uk,walesonline.co.uk##.float-and-park.mod-video
+adguard.com###floatingNavigation, .staticNavDummy
+adweek.com###sticky-nav, .sticky-container.widget-area
+aeon.co##.header--fixed, .header--fixed--visible, .header-banner, .sticky-wrapper
 affordanything.com##.sticky-nav-container
-aliexpress.com##.detail-fixed-tab
-aliexpress.com##.float-button-wrapper
-aliexpress.com##.placeholder-div
-aliexpress.com##.ui-fixed-panel
-aliexpress.com##div[data-role="for_header_fixed"]
-allrecipes.com,bhg.com,coastalliving.com,cookinglight.com,ew.com,familycircle.com,foodandwine.com,fortune.com,health.com,hellogiggles.com,instyle.com,myrecipes.com,people.com,peopleenespanol.com,realsimple.com,si.com,southernliving.com,time.com,travelandleisure.com##.docking-nav-placeholder
-allrecipes.com,bhg.com,coastalliving.com,cookinglight.com,ew.com,familycircle.com,foodandwine.com,fortune.com,health.com,hellogiggles.com,instyle.com,myrecipes.com,people.com,peopleenespanol.com,realsimple.com,si.com,southernliving.com,time.com,travelandleisure.com##.jumpnext-playlist-container
-allrecipes.com,bhg.com,coastalliving.com,cookinglight.com,ew.com,familycircle.com,foodandwine.com,fortune.com,health.com,hellogiggles.com,instyle.com,myrecipes.com,people.com,peopleenespanol.com,realsimple.com,si.com,southernliving.com,time.com,travelandleisure.com##.vjs-loading-spinner
+airforcetimes.com,armytimes.com,c4isrnet.com,federaltimes.com,fifthdomain.com,marinecorpstimes.com,militarytimes.com,navytimes.com##.pb-f-video-mco-sticky-player
+airlive.net,alextimes.com,cryptodisrupt.com,finbulletin.com,nmsunews.com##.td-logo-sticky
+airspacemag.com###Scroll-Nav, is-sticky.sticky-block
+ajc.com,daytondailynews.com,journal-news.com,springfieldnewssun.com##.header-fixed .main-nav--sticky-logo, .header-fixed .main-nav__item__logo, .header__mobile-logo__image, .header__mobile-pinned-logo__image, .main-nav--sticky-logo, main-nav__flyout__section-name, .main-nav__user-mobile-pinned
+alamogordonews.com,app.com,argusleader.com,azcentral.com,battlecreekenquirer.com,baxterbulletin.com,bucyrustelegraphforum.com,burlingtonfreepress.com,caller.com,chillicothegazette.com,cincinnati.com,citizen-times.com,clarionledger.com,coloradoan.com,commercialappeal.com,coshoctontribune.com,courier-journal.com,courierpostonline.com,courierpress.com,currentargus.com,daily-times.com,dailyrecord.com,dailyworld.com,delawareonline.com,delmarvanow.com,demingheadlight.com,democratandchronicle.com,desertsun.com,desmoinesregister.com,detroitnews.com,dnj.com,elpasotimes.com,eveningsun.com,fdlreporter.com,floridatoday.com,freep.com,gosanangelo.com,greatfallstribune.com,greenbaypressgazette.com,greenvilleonline.com,guampdn.com,hattiesburgamerican.com,htrnews.com,independentmail.com,indystar.com,ithacajournal.com,jacksonsun.com,jconline.com,jsonline.com,kitsapsun.com,knoxnews.com,lancastereaglegazette.com,lansingstatejournal.com,lcsun-news.com,ldnews.com,livingstondaily.com,lohud.com,mansfieldnewsjournal.com,marionstar.com,marshfieldnewsherald.com,montgomeryadvertiser.com,mycentraljersey.com,naplesnews.com,newarkadvocate.com,news-leader.com,news-press.com,newsleader.com,northjersey.com,packersnews.com,pal-item.com,pnj.com,portclintonnewsherald.com,postcrescent.com,poughkeepsiejournal.com,press-citizen.com,pressconnects.com,publicopiniononline.com,redding.com,reporternews.com,rgj.com,scsun-news.com,sctimes.com,sheboyganpress.com,shreveporttimes.com,stargazette.com,statesmanjournal.com,stevenspointjournal.com,tallahassee.com,tcpalm.com,tennessean.com,theadvertiser.com,thecalifornian.com,thedailyjournal.com,thegleaner.com,theleafchronicle.com,thenews-messenger.com,thenewsstar.com,thenorthwestern.com,thespectrum.com,thestarpress.com,thetimesherald.com,thetowntalk.com,timesrecordnews.com,usatoday.com,vcstar.com,visaliatimesdelta.com,wausaudailyherald.com,wisconsinrapidstribune.com,ydr.com,zanesvilletimesrecorder.com##.in-depth-scroll-depth, .pluto-title-bar, .video-placeholder.smallarticleattophtml5
+alaskaair.com##.mobile-logo
+alexandriava.gov##.stuck.sticky
+alibaba.com##.sticky-areas
+aliexpress.com##.detail-fixed-tab, .float-button-wrapper, .placeholder-div, .ui-fixed-panel, div[data-role="for_header_fixed"]
+aljazeera.com###Article-Top-Toolbar, #sticky-article-header, .article-main-header-logo-Big, .logo-sticky
+aljazeera.com,androidsage.com,artlawjournal.com,benzinga.com,jilt.com,kob.com,letsdothistrip.com,rentcafe.com,space.com,sparkonit.com,squarespace.com,techgyd.com,usni.org,wdio.com,wnyt.com###sticky-header
+allrecipes.com,bhg.com,coastalliving.com,cookinglight.com,ew.com,familycircle.com,foodandwine.com,fortune.com,health.com,hellogiggles.com,instyle.com,myrecipes.com,people.com,peopleenespanol.com,realsimple.com,si.com,southernliving.com,time.com,travelandleisure.com##.component.navigation-test .menu-homepage-row:last-of-type .logo, .scroll-up .component.navigation-test .primary-text-links
+allrecipes.com,bhg.com,coastalliving.com,cookinglight.com,ew.com,familycircle.com,foodandwine.com,fortune.com,health.com,hellogiggles.com,instyle.com,myrecipes.com,people.com,peopleenespanol.com,realsimple.com,si.com,southernliving.com,time.com,travelandleisure.com##.docking-nav-placeholder, .jumpnext-playlist-container, .vjs-loading-spinner
+allure.com##.sticky-wrapper, .utility-nav
+altaonline.com###df-sticky-nav
+amazon.com###huc-v2-order-row-placeholder, .br-ob-carousel-offset, .pantry-place-holder, .s-ember-font.as-fixed-header, .style__placeholder__1rEYs, .vpc_coupon_bar_spacer
+americanexpress.com##.add-logo, .iNavShadow
+americanpetpro.com##.fl-page-nav-toggle-visible-mobile.fl-page-nav-toggle-button.fl-page-nav-right.fl-page-header-fixed.fl-page-header
+americastestkitchen.com,cookscountry.com##.atkPinnedHeader
+amgreatness.com,deadcoins.com,keckmedicine.org##.fusion-header-sticky-height
+amzreviewtrader.com###floating-button
+androidauthority.com###scrolled_view_bar
+anothermanmag.com##.sticky-main-navigation-container
+aol.co.uk,aol.com##.m-navbar__nav-right.m-navbar__services.m-navbar__nav
+apnews.com##.header-placeholder
+apnews.com##.optional-header-title
+archdaily.com###js-article-fixed-bar, .afd-nav__logo
+artreport.com##.stick-header-info
+artstation.com##.navbar-artist-user.stuck
+asiatimes.com##header .header-bottom .logo-cont
+atlasobscura.com##.mini-nav-wrapper, .site-top-notification-link
+avclub.com,clickhole.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,jezebel.com,kinja.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.global-nav--scrollback
+avclub.com,clickhole.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,jezebel.com,kinja.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##div[class^="header__Container-sc-"] >:matches-css(position: fixed)
+avclub.com,clickhole.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,jezebel.com,kinja.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##div[class^="js_header"] > div[class^="js_header"] > div :matches-css(position: fixed)
+awfulannouncing.com##.brid-close, .brid-temp-holder
+babbel.com##.masthead
+babble.com##.tm-header
+babycenter.com###stickyHeaderSpaceHolder
+bangordailynews.com##header#comp-header #nav-logo.show
 bcbsks.com###stickyy
 beamauthentic.com##.show.sticky-nav
+beaumontenterprise.com,chron.com,ctpost.com,darientimes.com,fairfieldcitizenonline.com,greenwichtime.com,lmtonline.com,michigansthumb.com,middletownpress.com,milfordmirror.com,mrt.com,myjournalcourier.com,myplainview.com,mysanantonio.com,ncadvertiser.com,newmilfordspectrum.com,newstimes.com,nhregister.com,ourmidland.com,registercitizen.com,seattlepi.com,sfchronicle.com,sfgate.com,sheltonherald.com,stamfordadvocate.com,thehour.com,theintelligencer.com,theridgefieldpress.com,thetelegraph.com,timesunion.com,trumbulltimes.com,westport-news.com,wiltonbulletin.com,yourconroenews.com###site-nav-spacer, .hearst-mmplayer-float-title
+beervanablog.com##.Mobile-bar--bottom.Mobile-bar
+bellinghamherald.com,bnd.com,bradenton.com,centredaily.com,charlotteobserver.com,elnuevoherald.com,fresnobee.com,heraldonline.com,heraldsun.com,idahostatesman.com,islandpacket.com,kansas.com,kansascity.com,kentucky.com,ledger-enquirer.com,macon.com,mcclatchydc.com,mercedsunstar.com,miamiherald.com,modbee.com,myrtlebeachonline.com,newsobserver.com,sacbee.com,sanluisobispo.com,star-telegram.com,sunherald.com,thenewstribune.com,theolympian.com,thestate.com,tri-cityherald.com##.is-sticky.mi-sticky-player
+bet.com###div.page__aside__flex-box:nth-of-type(1) > .sticky-box, #moments__sticky__icon, .header_full .header__nav_fixed .header__logo__compact, .header_full .header__nav_fixed-enhanced .header__logo__compact
+bethesdamagazine.com##.shadowbox-image, .shadowbox-image-scrim
+bigseventravel.com##.active.trawell-header-sticky.trawell-header
+bigthink.com##.fixed.header.contain-to-grid
+bilasport.net,blab.email,sportsstats.*,yoursports.stream##[data-player] a img
+bing.com###miniheader
+bizarrepedia.com###stack > .ln-thr, #stack > .holder
+blackfridayhits.com##.white_style.rh-stickme.main-nav.search-form-inheader
+blackswanltd.com##.custom-scroll-header-bg
+bleacherreport.com##.article_nav-bar
+blogger.com##.header--sticky
+blogspot.com,sb2.live,talospace.com,vulnano.com##.animating.sticky.centered-top-container
+bloombergview.com###header
+blueshieldca.com##.open.navigation-sticky
+boardingarea.com##.header-fixed .navbar-collapse ul .search-wrapper
+boardingarea.com##.one-column.bar.pull-right.dropdown
+boingboing.net##.separator
+bold.global##.banner--stick.banner--clone.hidden-xs.hidden-sm.banner
 calgarysun.com,canoe.com,edmontonsun.com,ottawasun.com,theprovince.com,torontosun.com,winnipegsun.com##.featured-video.sticky-video .sticky-close-btn, .featured-video.sticky-video .sticky-video-title
 cbsnews.com##.deep-story-dashboard .close-btn
-dailymail.co.uk##.jwplayer_body_1
-dailymail.co.uk##.vjs-flyout-control
-dailymail.co.uk##div[class^="jwplayer"][style*="position"][style*="fixed"]
-dailystar.co.uk##.mod-video.float-and-park .float-and-park-top-bar
-dailystar.co.uk##.mod-video[data-player-type="brightcove"] .video-headline::before
+dailymail.co.uk##.jwplayer_body_1, vjs-flyout-control, div[class^="jwplayer"][style*="position"][style*="fixed"]
+dailystar.co.uk##.mod-video.float-and-park .float-and-park-top-bar, .mod-video[data-player-type="brightcove"] .video-headline::before
 dailywire.com##.powr-show-always.powr-size-small.powr-close.pwr-button.pwr-control
 firstquarterfinance.com##.sticky-nav-logo
 geneticliteracyproject.org##.main-navigation.sticky-navigation-transition .navigation-logo img
-golfweek.com###video-0-original-location
-golfweek.com##.close-button
-grammarly.com##[class$="src-shared-components-header--header-pseudo"]
+golfweek.com###video-0-original-location, close-button
+grammarly.com##[class*="src-shared-components-header--header-pseudo"]
 groovehq.com##.active.sticky-nav
 hawaiinewsnow.com,mysuncoast.com,wlbt.com##.powa-sticky-close
 hellosign.com##.sticky-nav-wrapper
-history.com##.display.sticky-header.interior-header.global-header
-history.com##.is-visible.l-sticky-navbar.m-site-nav
-history.com##.m-video-player--close.m-icon-button
+history.com##.display.sticky-header.interior-header.global-header, .is-visible.l-sticky-navbar.m-site-nav, .m-video-player--close.m-icon-button
 humblebundle.com##.js-maintain-scrollbar-on-dropdown.s-fixed.js-sticky-navbar.sticky-navbar
 inc.com##div[class^="CloseButton__close"]
 itstillworks.com,oureverydaylife.com###jwplayerClose
@@ -49,17 +103,13 @@ knowablemagazine.org##.-active.sticky-nav
 livemint.com##.close-btn.sticky2.btnClose
 medicaldaily.com###close_fusion_jwplayer
 msn.com##.start.animate.close-mini
-nasdaq.com###global_nav_placeholder
-nasdaq.com##.powr-show-always.powr-size-small.powr-close.pwr-button.pwr-control
-nasdaq.com##.responsive .global-fixed-nav #global_nav_placeholder
+nasdaq.com###global_nav_placeholder, .powr-show-always.powr-size-small.powr-close.pwr-button.pwr-control, .responsive .global-fixed-nav #global_nav_placeholder
 nationalreview.com##.jw-player-container .close-button
 pbskids.org##.vjs-station-logo
 popsci.com##.__pw-btnclose-false.__pw-view-auto.pw-sticky.__pw-position-left
-popsugar.com###control-bar
-popsugar.com##.omniture-track.nav-cta-button
+popsugar.com###control-bar, .omniture-track.nav-cta-button
 pri.org##.navbar__wrapper.is-fixed
-princetonreview.com###test-name-container
-princetonreview.com###test-name-container-nav
+princetonreview.com###test-name-container, #test-name-container-nav
 prnewswire.com##.nav-down.navbar
 protonmail.com###header-spacer
 purch.com###nav
@@ -67,67 +117,44 @@ purewow.com##.fixed-header
 rachaelraymag.com##.is-visible.l-sticky-navbar
 redstate.com##.navbar-fixed-top.navbar-default.navbar
 rehansaeed.com###headerwrap.fixed-header #main-nav-wrap
-religionnews.com##.global-nav-bg
-religionnews.com##.show.nav_overflow_label.sticky_nav_display.sticky-nav-holder
+religionnews.com##.global-nav-bg, .show.nav_overflow_label.sticky_nav_display.sticky-nav-holder
 researchgate.net##.sticky-placeholder
-reuters.com###nav-item-1 > .nav-link-sec > .text
-reuters.com###spacerElement
-reuters.com###sticky > .sectionContent
-reuters.com##.nav-item.active-text .text
-reuters.com##.nav-item.home-tab
-reuters.com##.nav-white-space
-reviewjournal.com###menu-top.fixed .rj-logo
-reviewjournal.com##.float-close
-rferl.org##.hdr .sticky-nav-wrap
-rferl.org##.js .navigation .items .item.collapsible.service, .js .navigation .items .item.collapsible.collapsed.service
+reuters.com###nav-item-1 > .nav-link-sec > .text, #spacerElement, #sticky > .sectionContent, .nav-item.active-text .text, .nav-item.home-tab, .nav-white-space
+reviewjournal.com###menu-top.fixed .rj-logo, .float-close
+rferl.org##.hdr .sticky-nav-wrap, .js .navigation .items .item.collapsible.service, .js .navigation .items .item.collapsible.collapsed.service
 roanoke.com###site-top-nav
-rollingstone.com##.player-close
-rollingstone.com##.player-minimize div#floating-video-title
+rollingstone.com##.player-close, .player-minimize div#floating-video-title
 rsaconference.com###sticky-logo
 scitation.org##.fixed-header
-si.com##.short-only.logo > .desktop-only.full-logo > .color-porcelain.hover-fill
-si.com##.ui-button.ui-button-close.small.is-fixed
-si.com##body:not(.under-social) nav.main .under-social-logo.desktop-only
+si.com##.short-only.logo > .desktop-only.full-logo > .color-porcelain.hover-fill, .ui-button.ui-button-close.small.is-fixed, body:not(.under-social) nav.main .under-social-logo.desktop-only
 sixthtone.com##.sticky-scroll .logo-noodletimes.black
 skinnytaste.com##.slicknav_menu
-smithsonianmag.com###Scroll-Nav
-smithsonianmag.com##.aux-nav
-smithsonianmag.com##.is-sticky.sticky-block
+smithsonianmag.com###Scroll-Nav, .aux-nav, .is-sticky.sticky-block
 snowehome.com##.sticky.navbar-fixed-top.navbar-default.navbar
 sociable.co###nav-wrap
-socialitelife.com##.navbar-dummy
-socialitelife.com##.navbar-primary .navbar .navbar-brand
+socialitelife.com##.navbar-dummy, .navbar-primary .navbar .navbar-brand
 solecollector.com##.complex-navbar--sub .navbar__section--alternate
 sonymobile.com##.sticky-nav
-sourceforge.net##.sandiego.l-header-nav-bottom .dev-menu-when-stuck
-sourceforge.net##.sandiego.l-header-nav-bottom .sf-logo
-space.com##.sticky-player-background
-space.com##.sticky-player-top-fade
+sourceforge.net##.sandiego.l-header-nav-bottom .dev-menu-when-stuck, .sandiego.l-header-nav-bottom .sf-logo
+space.com##.sticky-player-background, .sticky-player-top-fade
 spoonuniversity.com##.off-canvas-content header.nav-hide
 sportingnews.com##.site-header.reduced .mid-level-nav .navbar-header
 sportlerfrage.net##.StickyContent--sticky.StickyContent
-statoil.com###navigation-fixed_language
-statoil.com###navigation-fixed_search
+statoil.com###navigation-fixed_language, #navigation-fixed_search
 stockx.com##.cms-home #site-header nav .navbar-brand.dark
-summit.news##.mvp-drop-nav-title
-summit.news##.mvp-nav-logo-small
-supermoney.com##.scroll-cta-with-navbar.navbar-cta
-supermoney.com##.scrolled-bar.navbar-anchors
+summit.news##.mvp-drop-nav-title, .mvp-nav-logo-small
+supermoney.com##.scroll-cta-with-navbar.navbar-cta, .scrolled-bar.navbar-anchors
 tasteofhome.com##.close-btn
 tesla.com##.animate_scrolltop--revealed.animate_scrolltop--to_reveal.sticky-nav--mobile
 theartnewspaper.com##.is-sticky.sticky.sticky-navigation-comp
 theartofdoingstuff.com###access.sticky-element-cloned.element-is-sticky
 thecorrespondent.com##.navigation-placeholder
-thedailybeast.com###react-mount-point > .ArticlePage > .PageHeader.head > .MobileNav
-thedailybeast.com##.StickyNavbar
+thedailybeast.com###react-mount-point > .ArticlePage > .PageHeader.head > .MobileNav, .StickyNavbar
 thehill.com##.close-btn
-thenational.ae##.sticky-ham-open.ham-open
-thenational.ae##.sticky-logo
-thenational.ae##.sticky-search
+thenational.ae##.sticky-ham-open.ham-open, .sticky-logo, .sticky-search
 theshaderoom.com##.js-progress-bar.nav-sticky__progress-bar
 thesleuthjournal.com##.sticky_logo
-townhall.com##.fadeInDown.animated.navbar-article.navbar-fixed-top.navbar-default.navbar
-townhall.com##.sticky
+townhall.com##.fadeInDown.animated.navbar-article.navbar-fixed-top.navbar-default.navbar, .sticky
 toyota.com##.fixedsticky-dummy
 traumanurses.org###fixed_cloned
 trust.org##.unslider-nav.sticky-clone-nav
@@ -137,21 +164,13 @@ uproxx.com###uproxx-fixed-header-placeholder
 usatoday.com###video-original-location
 usnews.com##.sticky-heading
 vacationtracker.io##.header-appear.mkdf-sticky-header
-vanityfair.com##.lower-nav-scrolled
-vanityfair.com##.sticky-nav
-variety.com###floating-video-title
-variety.com##.player-close
-venezuelanalysis.com###nav-spacer
-venezuelanalysis.com##.navbar-default .sticky-before .logo-va-alt
-venezuelanalysis.com##.secondary.navbar-nav.nav.menu
+vanityfair.com##.lower-nav-scrolled, .sticky-nav
+variety.com###floating-video-title, .player-close
+venezuelanalysis.com###nav-spacer, .navbar-default .sticky-before .logo-va-alt, .secondary.navbar-nav.nav.menu
 venturebeat.com###sticky-wrapper
 vidoza.net##.vjs-topbar
-washingtonpost.com##.pb-font-smoothing.posttv-sticky-player-video
-washingtonpost.com##.powa-sticky-close
-washingtonpost.com##.powa-wrap-inner-close
+washingtonpost.com##.pb-font-smoothing.posttv-sticky-player-video, .powa-sticky-close, .powa-wrap-inner-close
 washingtonpress.com##.header--slide.fixed.header
 washingtontimes.com##.floatCloseButton
-wsj.com##.style--scrolled--3f55E_Sg .style--brand-link--21t2Ybqa.style--slim--3Yt-1Jke
-wsj.com##.style__scrolled_2uYEURYgK-YL-DNhPsSxyl.style__mast-head-container_3ZRcPdcChZfT1ThM3v3LLV
-yahoo.com##.yvp-docked-bg
-yahoo.com##.yvp-docked-close-button
+wsj.com##.style--scrolled--3f55E_Sg .style--brand-link--21t2Ybqa.style--slim--3Yt-1Jke, .style__scrolled_2uYEURYgK-YL-DNhPsSxyl.style__mast-head-container_3ZRcPdcChZfT1ThM3v3LLV
+yahoo.com##.yvp-docked-bg, .yvp-docked-close-button

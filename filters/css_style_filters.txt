@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 08:25 2019-11-18
+! Last Modified: 11:50 2019-11-18
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1015,6 +1015,24 @@ bnonews.com##.navbar-fixed-top.navbar-default.navbar, .pull-left.navbar-header:s
 bnqt.com###nav-branding:style(position: absolute !important; top: 0 !important;)
 bnqt.com,golfweek.com,hoopshype.com,mmajunkie.com,thehuddle.com,usatodayhss.com###video-container:style(position: static !important;)
 boardingarea.com###masthead, #navigation-toggle, .top.site-navigation:style(position: relative !important;)
+boardingarea.com###menu-top.menu:style(float: right !important; width: auto !important; padding-left: 40px !important;)
+boardingarea.com##.brand-message:style(position: relative !important; display: block !important; top: 44px !important; font-style: italic !important; color: #83a1a7 !important; font-size: 14px !important; margin-left: 20px !important;)
+boardingarea.com##.dropdown-toggle:style(background-color: #425154 !important;)
+boardingarea.com##.header-fixed .bar, .header-fixed .bar li, .header-fixed .pull-right.bar, .header-fixed .pull-right.bar li:style(float: right !important;)
+boardingarea.com##.header-fixed .navbar .container:style(max-width: 1170px !important; padding-right: 15px !important;)
+boardingarea.com##.header-fixed .navbar-brand img:style(width: 100% !important;)
+boardingarea.com##.header-fixed .navbar-collapse .dropdown-toggle:style(float: unset !important; min-width: unset !important; padding-bottom: 15px !important; color: #fff !important; font-family: "droid_serifregular",sans-serif !important;)
+boardingarea.com##.header-fixed .navbar-collapse ul .pull-right ul li:style(padding: 5px 0px 5px 10px !important;)
+boardingarea.com##.header-fixed .navbar-collapse ul li:style(float: left !important;)
+boardingarea.com##.header-fixed .navbar-header:style(position: static !important; width: unset !important;)
+boardingarea.com##.header-fixed .navbar:style(z-index: unset !important;)
+boardingarea.com##.header-fixed:style(position: absolute !important; top: 0 !important; width: 100% !important;)
+boardingarea.com##.navbar-brand img:style(position: static !important; height: unset !important; width: 100% !important; float: none !important; display: inline !important; margin-top: 0 !important;)
+boardingarea.com##.navbar-brand:style(padding: 15px 0px 15px 15px !important;)
+boardingarea.com##.navbar-nav:style(float: right !important; padding-left: 0 !important; width: unset !important;)
+boardingarea.com##.navbar:style(position: relative !important; max-height: 106px !important; min-height: 106px !important;)
+boardingarea.com##.pull-right.bar:style(padding: unset !important; list-style-type: unset !important; width: 100% !important;)
+boardingarea.com##.two-columns.bar.pull-right.dropdown:style(display: block !important; width: 100% !important;)
 boardofwisdom.com,influxdata.com,rushlimbaugh.com###page-container:style(margin-top: 0 !important;)
 boards.ie###p2h-header:style(position: relative !important; top: 0 !important;)
 boatingmag.com,cruisingworld.com,cyclevolta.com,cycleworld.com,dirtrider.com,fieldandstream.com,flair.co,flyingmag.com,hrblock.com,islands.com,marlinmag.com,motorcyclecruiser.com,motorcyclistonline.com,outdoorlife.com,popphoto.com,popsci.com,range365.com,sailingworld.com,saltwatersportsman.com,saveur.com,schooledintech.com,sportfishingmag.com,tastecooking.com,wakeboardingmag.com,yachtingmagazine.com,yts.*##.nav-bar:style(position: absolute !important;)
