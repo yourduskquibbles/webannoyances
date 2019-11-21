@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 19:02 2019-11-20
+! Last Modified: 23:30 2019-11-20
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -4380,9 +4380,9 @@ newsandsentinel.com###top_header, #wprmenu_bar:style(position: absolute !importa
 newsbtc.com###sidebar:style(position: static !important;)
 newschannel10.com###WNMenuCol1:style(position: relative !important;)
 newschannel10.com###WNNavSearchSwitch:style(position: absolute !important;)
-newscientist.com###tertiary-sidebar, .sticky-mpu:style(position: absolute !important; top: 0 !important;)
-newscientist.com##.header--sticky .header-tools__item-text:style(display: inline !important;)
-newscientist.com##.header-nav:style(position: relative !important; box-shadow: none !important; border-bottom: none !important;)
+newscientist.com###tertiary-sidebar, .header-logo:style(position: static !important;)
+newscientist.com##.header-nav:style(min-height: 3.375rem !important;)
+newscientist.com##.header-nav:style(position: relative !important; padding-top: 0 !important; box-shadow: none !important; border-bottom: none !important;)
 newscientist.com##.header:style(margin: 1.87495rem 0 1.375rem !important;)
 newser.com###divEntireNav:style(position: relative !important; top: 0 !important;)
 newslogue.com##.navbar-custom.navbar-default.navbar, .navbar-header:style(position: relative !important; top: 0 !important;)
@@ -5614,6 +5614,7 @@ sprint.com##.layout-header:style(position: absolute !important; transform: none 
 spuz.me##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute !important; top: 0 !important;)
 spyfly.com##.fix-search.sidebar-left.sidebar:style(position: absolute !important;)
 spyzie.com##.pageTop_fix.pageTop:style(position: absolute !important;)
+squareup.com##.toc-sidebar:style(position: static !important;)
 srlabs.de###header-logo-text, #navigation, .logo-bildmarke.logo, .site-header-main:style(position: absolute !important;)
 ssa.gov###dynamicHelp:style(position: absolute !important; top: 64px !important;)
 ssense.com##.hard-acc.header:style(position: relative !important; top: 0 !important;)
