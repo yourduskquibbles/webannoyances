@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 20:52 2019-11-25
+! Last Modified: 21:02 2019-11-25
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2185,8 +2185,10 @@ eng.uber.com##.td-more-articles-box:style(position: absolute !important; right: 
 engadget.com###header-post-nav, #nav-flow, .i-context_nav:style(position: relative !important; top: 0 !important;)
 engadget.com##.o-sticky_header\@tp-:style(position: relative !important;)
 engineering.linecorp.com##.stuck.header-wrapper:style(position: relative !important; box-shadow: none !important; animation: none !important;)
+english.alarabiya.net###sticky:style(position: absolute !important; inset: 0px auto auto 0px !important;)
 english.alarabiya.net##.fixed .navigations li.current-page a b:style(border-bottom-width: 10px !important; border-left: 10px solid transparent !important; border-right: 10px solid transparent !important; width: 0 !important; left: 50% !important; margin-left: -10px !important;)
 english.alarabiya.net##.fixed.clearfix:style(position: absolute !important; top: 55px !important;)
+english.alarabiya.net##.wrapper-sticky:style(position: absolute !important; inset: 0 0 auto auto !important;)
 english.alarabiya.net##header #site-logo:style(height: 146px !important; background-position: 0 0 !important;)
 english.alarabiya.net##header nav.fixed:style(box-shadow: none !important;)
 enmnews.com##.menu-sticky.navigation-bar:style(position: static !important;)
