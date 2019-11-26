@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist
-! Last Modified: 20:50 2019-11-25
+! Last Modified: 20:52 2019-11-25
 ! Expires: 2 Days (Update Frequency)
 ! Description: Block annoying web elements and reclaim lost screen real estate. Web Annoyances Ultralist also includes the following sublists - CSS Style Modifying Filters, Generic Filters, Modal Filters, Newsletter Filters, & Social Filters. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -4026,6 +4026,7 @@ zerohedge.com###sidebarleft-bottom
 zerohedge.com###sidebarleft-top
 zerohedge.com##.ad-header-container
 zerohedge.com##.ad-left-container
+zerohedge.com##.carousel-placement [class="ad__wrapper-element"]:nth-ancestor(1)
 zerohedge.com##.injected-ad-wrapper
 zerohedge.com##.js-l1
 zerohedge.com##.js-links
