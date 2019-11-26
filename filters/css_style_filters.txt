@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 21:02 2019-11-25
+! Last Modified: 08:53 2019-11-26
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -3386,7 +3386,12 @@ ishares.com###rightSidebar:style(position: absolute !important;)
 ishares.com##.rsb-desc:style(width: 268px !important;)
 islamicfinder.org###feedbackbtn, .fixed.sticky-nav:style(position: absolute !important;)
 islamicfinder.org##.stick-to-top.fixed-cards.row:style(position: static !important; top: 0 !important;)
-israelnationalnews.com###LayoutTop:style(position: absolute !important;)
+israelnationalnews.com###LayoutTop:style(position: absolute !important; margin-top: 0 !important; top: 0 !important;)
+israelnationalnews.com###divTopNewsLeft, body.LayoutTopDown #LayoutTop .shared, body.ltr.LangEn.LayoutTopDown #LayoutTop #TopTags div > b, body.ltr.LangEn.LayoutTopDown #LayoutTop #TopTags div > a:style(display: block !important;)
+israelnationalnews.com##body.ltr.LangEn #LayoutTop .Top .Logo img:style(width: 320px !important; visibility: visible !important;)
+israelnationalnews.com##body.ltr.LangEn #LayoutTop .Top .Logo:style(position: static !important; top: 11px !important; right: auto !important; width: 320px !important;)
+israelnationalnews.com##body.ltr.LangEn #LayoutTop .Top:style(height: 97px !important;)
+israelnationalnews.com##body.ltr.LangEn.LayoutTopDown #LayoutTop #TopTags div > span:style(margin-left: 0 !important;)
 isthmus.com###topnav:style(position: absolute !important;)
 itch.io##.header_widget, .index_sidebar:style(position: absolute !important;)
 itnews.com.au###article-scroll, .fixed.show-for-large-up.collapse.full-width.row, .fixed.sticky:style(position: absolute !important;)
