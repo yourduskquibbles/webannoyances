@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 13:12 2019-11-26
+! Last Modified: 14:58 2019-11-26
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -595,6 +595,7 @@ asiatimes.com##header .header-bottom .sticky-container.sticky .menu .menu-list .
 asiatimes.com##header .header-bottom .sticky-container.sticky .menu .menu-list .top-menu[data-tag="home"]:style(display: list-item !important;)
 asicentral.com###main-nav:style(position: absolute !important;)
 askdrsears.com,spaceanswers.com###access:style(position: relative !important;)
+askthebuilder.com###search:style(position: relative !important;)
 askubuntu.com,serverfault.com,stackexchange.com,stackoverflow.com,superuser.com##.js-sticky-leftnav.left-sidebar--sticky-container:style(position: relative !important; top: 0 !important;)
 askubuntu.com,serverfault.com,stackexchange.com,stackoverflow.com,superuser.com##.top-bar:style(position: absolute !important;)
 asp-usa.com###shopify-section-header:style(position: absolute !important;)
@@ -1815,6 +1816,8 @@ deloitte.com,insidesources.com###navigationBar:style(position: absolute !importa
 deltadental.com##.sticky-navbar.row.secondary-navbar:style(position: absolute !important;)
 deltadentalins.com##.stickynav-active.region-primary-menu.region:style(position: absolute !important;)
 democracyjournal.org##.stickynav-offset.stickynav:style(position: absolute !important;)
+dengarden.com###header_placeholder #header_wrap:style(position: absolute !important;)
+dengarden.com##.modulePopular:style(position: static !important;)
 denverpost.com##.nav-wrapper, .top-bar:style(position: relative !important; top: 0 !important;)
 departures.com##.navigation .navbar:style(margin-bottom: 10px !important;)
 departures.com##.navigation > .no-padding.container:style(height: 114px !important;)
@@ -4110,6 +4113,7 @@ mpix.com###cart-head:style(position: relative !important; top: 0 !important;)
 mpnlookup.com##.affix.vue-affix:style(position: absolute !important;)
 mprnews.org###collectionAd:style(position: relative !important;)
 mrctv.org###top-nav:style(position: relative !important; top: 0 !important;)
+mrrooter.com###HeaderZone:style(position: relative !important;)
 msdn.microsoft.com###rightNavigationMenu, #tocnav:style(position: absolute !important;)
 msn.com###header-common.stick-enabled:before:style(height: 0 !important;)
 msn.com###maincontent, #precontent, section.filmstrip .scrollouter:style(margin-top: 0 !important;)
@@ -6055,6 +6059,7 @@ theglobeandmail.com##.c-site-header__button-group--primary:style(transform: none
 thegrio.com###headerbar:style(position: relative !important; top: 0 !important;)
 thegroundwork.com##.inverted:style(position: relative !important;)
 theguardian.com##.js-navigation-header:style(position: relative !important; top: 0 !important;)
+theguardian.com##.live-blog__sticky-components-container:style(position: static !important;)
 thehardtimes.net###menu-sections:style(position: relative !important;)
 thehardtimes.net##.navigation__trigger:style(position: absolute !important;)
 thehealthyfoodie.com##.shrink.site-header:style(position: relative !important; top: 0 !important;)
