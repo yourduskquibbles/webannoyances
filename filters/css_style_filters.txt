@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 10:01 2019-12-05
+! Last Modified: 10:11 2019-12-05
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1452,7 +1452,6 @@ clyp.it##.fixed-header:style(position: relative !important; top: 0 !important;)
 cmegroup.com##.header-par.cmePineappleHeader:style(position: absolute !important;)
 cn.nytimes.com##.article-ribbon:style(position: relative !important; transform: translateY(0) !important;)
 cnbc.com###GlobalNavigation-Persistent, #GlobalNavigation, #MakeItGlobalNavigation, .Sidebar-wrapperSticky, .fixedPosition.ng-scope.pageHeader:style(position: absolute !important;)
-cnbc.com###cnbc-new-header:not(body.amp), .cnbc-card.cnbc-end:not(body.amp), .main-header-nav:not(body.amp), .theplatform-video__docked.dockable.player-lazy-loaded-mobile:not(body.amp):style(position: relative !important; top: 0 !important;)
 cnbc.com###nav_spacer:style(height: 0 !important;)
 cnbc.com##.GlobalNavigation-globalNavigation.GlobalNavigation-globalNavigationSticky:style(height: 70px !important;)
 cnbc.com##.MakeIt-globalNavigation:style(height: 80px !important; border-bottom: 5px solid #3e4855 !important;)
@@ -1463,8 +1462,6 @@ cnbc.com##.SearchToggle-button span, .branding-menu-brandingMenuSticky:style(opa
 cnbc.com##.SearchToggle-buttonSticky:style(height: 37px !important;)
 cnbc.com##.SidebarArticle-sticky:style(position: absolute !important; top: 0 !important;)
 cnbc.com##.account-menu-editionMenuSticky, .nav-menu-desktopHamburgerSticky, .account-menu-editionMenuSticky, .searchToggler.SearchToggle-button:style(transform: none !important;)
-cnbc.com##.cnbc-menu:not(body.amp):style(position: relative !important; top: 0 !important; height: 30px !important;)
-cnbc.com##.header-nav-content:not(body.amp):style(height: 30px !important;)
 cnbc.com##.icon-search:before:style(font-size: 20px !important;)
 cnbc.com##.icon-search:style(height: 20px !important; right: 10px !important;)
 cnbc.com##.nav-menu-articleButtonText, .nav-menu-desktopHamburgerArticleSticky, .nav-menu-desktopHamburgerArticleSticky:before:style(color: #fff !important;)
