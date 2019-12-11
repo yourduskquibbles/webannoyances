@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 14:12 2019-12-06
+! Last Modified: 13:17 2019-12-11
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of cookie bars & other page covering elements. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -195,6 +195,7 @@ citusdata.com###consentBox
 citylab.com###blocker-msg-start
 cjr.org###interContainer, #interVeil
 cnbc.com##.bx-align, .pico-content, .pico-overlay
+cnn.com###onetrust-consent-sdk
 cnn.com,msn.com,thescottishsun.co.uk,thesun.co.uk,thesun.ie##.optanon-alert-box-wrapper
 co-opfs.org##.my-modal-target.customer-service-btn
 codepen.io###modal-overlay, .modal-message
@@ -660,7 +661,7 @@ rawstory.com##.mvp-to-top.back-to-top.mvp-fly-top
 readfrontier.org,revealnews.org,themefoxx.com,washingtonmonthly.com##.pum-active
 realclearbooks.com,realcleardefense.com,realcleareducation.com,realclearenergy.org,realclearfuture.com,realclearhealth.com,realclearhistory.com,realclearinvestigations.com,realclearmarkets.com,realclearpolitics.com,realclearpublicaffairs.com,realclearreligion.org,realclearscience.com,realclearsports.com,realclearworld.com##.progress-bar
 realclearpolitics.com###large_notif_wrapper, .cc-stop-overlay, .cc-window, .notif-wrapper.warning-wrapper, .overlay_newsletter_promo
-reason.com###donationdrive_popup, #donationdrive_popup_overlay
+reason.com###donationdrive_popup, #donationdrive_popup_overlay, .active.blackout
 reasoncoresecurity.com###backgroundModal, #popModal
 reclaimthenet.org###go-top
 recorder.com###ta_pagesLeftPopup
@@ -748,7 +749,7 @@ symphony.com##.sym-cookie-container-fluid
 tabletmag.com##.animated-email-box
 taskandpurpose.com##.charlotte-background, .tp-oim-inline-background
 teamblind.com##.app_down_bar, .pop_toast_noti
-techcommunity.microsoft.com##.scroll-to-top
+techcommunity.microsoft.com##.lia-panel-dialog-modal-valuesurvey.ui-dialog, .scroll-to-top, .ui-widget-overlay
 techcrunch.com##.surveymonkey-popup
 technochops.com###sgcboxContent, #sgcboxOverlay
 ted.com###recommends-banner, ._Notice_vquc8_16
