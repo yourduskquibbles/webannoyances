@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 11:30 2019-12-12
+! Last Modified: 16:17 2019-12-12
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -175,6 +175,7 @@ abcnews.go.com###global-header, #header-wrapper:style(position: relative !import
 abcnews.go.com###nav_short_flex:style(position: relative !important; top: 0 !important;)
 abcnews.go.com###news-feed #news-feed-content.sidebar, #news-feed.js-fixed .sidebar, .Navigation__header--2ijIr:style(position: absolute !important; top: 0 !important;)
 abcnews.go.com###news-feed.js-fixed #news-feed-content .container-wrapper:style(overflow: unset !important;)
+abcnews.go.com##.navigation:style(position: static !important;)
 abcnews.go.com##.supra-wrapper:style(height: 100% !important;)
 abcnews.go.com##body.breaking-on.scroll-locked[data-section="homepage"] #abcn-videoplayer:style(top: 225.5px !important;)
 abcnews.go.com##body.breaking-on:not(.scroll-locked)[data-section="homepage"] #abcn-videoplayer:style(top: 191.567px !important;)
