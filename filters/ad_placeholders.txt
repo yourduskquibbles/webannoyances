@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Ad Placeholder Filters
-! Last Modified: 13:03 2019-12-13
+! Last Modified: 15:41 2019-12-13
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for empty advertising placeholders.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -14,5 +14,6 @@ cnbc.com##.MostPopular-taboolaContainer.MostPopular-wrapper
 legalinsurrection.com##.sidebarBlock [id^="div-gpt-ad"]:nth-ancestor(2)
 legalinsurrection.com##[id^="div-gpt-ad"]
 nbcsports.com###topbanner
+nbcwashington.com##.ad, .sfadSlot
 slate.com##.ad--inArticleBanner
 vidsrc.me###adbox_desktop
