@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 12:39 2019-12-16
+! Last Modified: 08:37 2019-12-18
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -55,7 +55,7 @@
 247sports.com###site-header, .fixed.clearfix.nav-bar:style(position: absolute !important;)
 2bigfeet.com##.nav-overflow:style(position: relative !important; top: 0 !important;)
 2daygeek.com###nav-mobile:style(position: absolute !important;)
-2daygeek.com,babyaxis.com,bitshouts.com,fraudguides.com,the.dailywebthing.com,worldfreeware.com###nav-topbar:style(position: absolute !important;)
+2daygeek.com,babyaxis.com,bitshouts.com,cnsnews.com,fraudguides.com,the.dailywebthing.com,worldfreeware.com###nav-topbar:style(position: absolute !important;)
 2guyscigars.com,ambition.com,apps.gab.com,centurylink.com,countyoffice.org,cryptocoincharts.info,feeder.co,gobankingrates.com,huffingtonpost.*,huffpost.com,ihavenotv.com,imagesocket.com,niteo.co,postmake.io,psychologytoday.com,q13fox.com,technode.com,thebulletin.org,vipbox.im,wlfi.com,wpd.app,wthitv.com##.navbar:style(position: relative !important;)
 2paragraphs.com,arstechnica.com,climatehawksvote.com,consumeraffairs.com,epicurious.com,filterlists.com,flutter.io,ghostinfluence.com,newstatesman.com,ocregister.com,screenrant.com,thepaleomom.com,thewanderlustkitchen.com##.site-header:style(position: relative !important; top: 0 !important;)
 3dprint.com##.et-fixed-header:style(position: relative !important; top: 0 !important;)
@@ -1483,7 +1483,7 @@ cnn.com###nav, #nav-header, #nav__plain-header, .cnn-tech-line-div, .js-skinny.j
 cnn.com##.Header__isSticky.header.Header__component, ._06ca2a31.null._482caaf5, ._4b262fa5:style(position: absolute !important;)
 cnn.com##.header.Header__component:style(transform: translateY(0px) !important;)
 cnn.com##.pg-vertical.pg-vertical--politics .nav:style(height: 98px !important; padding: 24px 10px 24px 0 !important;)
-cnsnews.com##.mini > .header, .navbar:style(position: absolute !important;)
+cnsnews.com##.mini > .header:style(position: absolute !important;)
 cntraveler.com##.component-sticky:style(position: relative !important; top: 0 !important;)
 cntraveler.com##.container-header, .eat.scroll-to, .isStartOfPage.transparent.site-header, .navIsFixed.site-header, .play.scroll-to, .scroll-to:style(position: relative !important; top: 0 !important;)
 cntraveller.com##.c-nav__wrapper:style(position: absolute !important;)
@@ -3680,6 +3680,8 @@ levelskip.com,owlcation.com,wehavekids.com###header_wrap:style(position: absolut
 lever.co##.section-wrapper.page-full-width.main-header:style(position: absolute !important;)
 lg.com##.component-wrap .component.sticky-active:style(position: relative !important; text-align: center !important; margin: 0 -15px !important;)
 lg.com##.contents-menu-list .tab-menu-belt:style(display: table !important; width: 100% !important; text-align: center !important;)
+libreelec.tv###nav-topbar:style(position: absolute !important; transform: translate(0px) !important;)
+libreelec.tv,lookout.com,motherjones.com,nationalpost.com,webtrickz.com###page:style(margin-top: 0 !important;)
 libreoffice.org##.navbar, .notify:style(position: absolute !important;)
 lifealth.com##.is_stuck.style1.fixed-me.sidebar_inner:style(position: absolute !important; top: 0 !important;)
 lifeaspire.com###headerBlock:style(position: relative !important; top: 0 !important;)
@@ -3754,7 +3756,6 @@ lonelyplanet.com###sub-nav:style(position: relative !important;)
 longreads.com###header:style(visibility: visible !important; opacity: 1 !important;)
 longwarjournal.org##.sticky.nav.row:style(position: relative !important;)
 lookout.com##.sticky-wrap:style(position: relative !important;)
-lookout.com,motherjones.com,nationalpost.com,webtrickz.com###page:style(margin-top: 0 !important;)
 lookupbook.net###banner:style(position: relative !important; top: 0 !important;)
 love2dev.com##.main-header.body-row:style(position: absolute !important;)
 lowyinstitute.org###header:style(position: absolute !important; background: #1A1F23 !important; color: #fff !important;)
@@ -6703,7 +6704,7 @@ visir.is##.mobile-stick-top.header-mobile:style(position: absolute !important; t
 visualcapitalist.com###mvp-main-nav-top:style(position: relative !important; padding: 15px 0 !important; height: 70px !important; box-shadow: none !important; transform: none !important;)
 visualstudio.com###main:style(transform: none !important;)
 vitalchek.com##.sticky.my_sticky.headdown:style(position: relative !important; top: 0 !important;)
-vivaldi.com###site-header, #header-menu:style(position: absolute !important;)
+vivaldi.com###site-header, #header-menu, #vivaldiheader:style(position: absolute !important;)
 vlchelp.com###quickiebar:style(position: absolute !important;)
 voanews.com##.hdr, .header:style(position: relative !important; top: 0 !important;)
 vocabulary.com##.page-header:style(position: absolute !important; background: transparent !important;)
