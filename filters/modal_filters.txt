@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 23:46 2019-12-27
+! Last Modified: 08:44 2019-12-30
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of cookie bars & other page covering elements. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -139,6 +139,7 @@ bk.com##body.modal-open:style(position: unset !important;)
 blackmainstreet.net###ct-ultimate-gdpr-cookie-popup
 blakkpepper.com###ppsPopupBgOverlay
 blindmanspuff.com##.optin-monster-saas-overlay
+blog.petrockblock.com###wpca-bar
 bloomberg.com###graphics-paywall-overlay
 bloomberg.com##body[data-paywall-overlay-status="show"]:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 bloomberglaw.com,codex.online,evry.com,neweracap.com,threadreaderapp.com##.cookies
@@ -350,6 +351,7 @@ focus.de###nlgate, #nlgate-overlay-0
 food52.com###desktop-email-modal-wrapper, #mobile-email-modal-wrapper
 foreignpolicy.com###paywall_bg, .cookie_message, .js-takeover, .paywall_counter, .preloaded_lightbox
 formidable.com##.formidaCookie
+forums.att.com##.scrollBubble
 forums.xfinity.com##.lia-panel-dialog-modal-simple
 foxnews.com###janrainModalOverlay
 fratellirossetti.com###cookie_warning
@@ -833,6 +835,7 @@ truthdig.com##.am2-modal
 tsarizm.com##.wbounce-modal
 tucson.com##.fc-dialog-container.fc-root, .fc-dialog-overlay
 tvstoreonline.com##[class*="Modal__ModalPortalStyled"]
+ubackup.com##.ensureCookie
 umaidry.com###cookies-wrapper, .springmail-modal, .springmail-overlay
 undark.org##.mailmunch-overlay, .mailmunch-popover
 unitedhomeexperts.com###popup-container
@@ -874,7 +877,7 @@ wegmans.com###webuiPopover2
 welcometothejungle.co##.bAVakr.s1u7oiza-0
 whalewisdom.com###abd-banner
 wiley.com##.notification.js-module
-williams-sonoma.com###ecatalog-wrapper, .overlayMask.stickyOverlayMask, .overlayScroll.stickyOverlayScroll
+williams-sonoma.com###attentive_overlay, #ecatalog-wrapper, .overlayMask.stickyOverlayMask, .overlayScroll.stickyOverlayScroll
 wilton.com##.optin-slide-wrapper
 windowsreport.com###ad_blocker_notice_body
 wired.co.uk###optanon, .is-fixed.js-c-infobar.c-infobar
