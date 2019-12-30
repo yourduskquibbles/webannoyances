@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 12:41 2019-12-30
+! Last Modified: 14:41 2019-12-30
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -5505,6 +5505,11 @@ similarweb.com##.websiteHeader-dateFull:style(display: block !important;)
 similarweb.com##.websiteHeader-dateOverview:style(display: block !important; text-align: left !important;)
 similarweb.com##.websiteHeader-topContainer:style(margin-right: 0 !important; margin-left: 0 !important; transform: none !important;)
 similarweb.com##.websiteHeader-topInner:style(flex-wrap: wrap !important; padding-top: 15px !important; padding-bottom: 8px !important; border-radius: 4px 4px 0 0 !important; box-shadow: none !important;)
+simkl.com##.simklheader:style(position: absolute !important; box-shadow: none !important;)
+simkl.com##.simklheadercenterleftmenuitem:style(min-height: 83px !important;)
+simkl.com##.simklheadercenterleftmenuitemimg:style(height: 22px !important; opacity: 1 !important; background-size: auto 22px !important;)
+simkl.com##.simklheadercenterleftmenuitemtext:style(padding-top: 9px !important;)
+simkl.com##body.headroom--pinned .simklheadercenterleftmenu, body.headroom--unpinned.headroom--bottom .simklheadercenterleftmenu:style(animation: none !important;)
 simonandschuster.com##.sticky-sidebar:style(position: absolute !important;)
 simplehuman.com##.show.fixed.page-header:style(position: relative !important; top: 0 !important;)
 simplisafe.com##.lp-promo-sticky-banner:style(position: relative !important;)
