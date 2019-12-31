@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 14:41 2019-12-30
+! Last Modified: 09:58 2019-12-31
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of cookie bars & other page covering elements. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -183,6 +183,7 @@ ccm.net###jGoNext, #jGoPrev, #jGoTop
 celebtoast.com,crunchsmag.com,cryptosumer.com,electronichouse.com,finbulletin.com,geekstraw.com,lastwordonprofootball.com,mybelieves.com,pressbull.com,protribune.com,rbr.com,rnsdaily.com,sayingimages.com,themefoxx.com,zycrypto.com##.td-more-articles-box
 change.org##.bottom-bar-interrupt
 channel4.com###all4gn-cookie-policy-notification
+char.gd##.consently-bar
 chase.com##.abandon-modal, .abandon-overlay, .introjs-overlay, .introjs-tooltip
 chase.com##body[style="overflow-y: hidden;"]:style(overflow-y: scroll !important;)
 cheddar.com,decrypt.co,decryptmedia.com,deepdiveduck.com,facetdev.com,forgeglobal.com,intoli.com,pubilling.io,sleeper.app,snapeda.com,streak.com###intercom-container
@@ -206,6 +207,7 @@ cnbc.com##.bx-align, .pico-content, .pico-overlay
 cnn.com###onetrust-consent-sdk
 cnn.com,msn.com,thescottishsun.co.uk,thesun.co.uk,thesun.ie##.optanon-alert-box-wrapper
 co-opfs.org##.my-modal-target.customer-service-btn
+codementor.io##.consent
 codepen.io###modal-overlay, .modal-message
 coindesk.com,newsandsentinel.com,pbs.org,wikiarms.com,woot.com##.popup
 coinsocial.io##.slidebottom.wpoi-show.inc_optin_2.inc_optin.wpoi-animate.inc_opt_popup, .wpoi-popup-overlay
@@ -216,6 +218,7 @@ commentarymagazine.com##.advads-background, .advads-close-button
 community.arm.com##.join-alert
 community.jivesoftware.com###cookie-consent-alert
 community.spotify.com###js-message-bar-cookie-notice, .lia-in.lia-dialog-titleless.lia-panel-dialog-modal-valuesurvey.lia-panel-dialog-modal-simple.lia-panel-dialog.lia-content.ui-corner-all.ui-widget-content.ui-widget.ui-dialog, .ui-widget-overlay
+complex.com##.video-bar-on-scroll--showing-cookie-notice
 computerweekly.com###cmp-banner
 conference-board.org##.browserCacheBox
 conservativeintel.com###splashmodal, .popupbox_mid
@@ -245,6 +248,7 @@ cyberscoop.com###welcomeadMask
 d7xtech.com##.hb-single-next-prev
 dailycaller.com##.dc-go-top
 dailydot.com###modal-page, #subscriptionModal
+dailyfx.com###dfx-cookies-notification
 dailymail.co.uk###next-story
 dailymotion.com##.CookiePopup__popup____KSqw
 dailywire.com##.remodal-is-opened, .remodal-overlay
@@ -338,6 +342,7 @@ fermatslibrary.com###emailCollectionModal
 fhm.com###ctl00_Body_slideboxDiv
 fidelity.com##.info-flyout-wrapper
 fifa.com##.fi-back-to-top
+fifa.com##.fi-cookie-banner
 filecritic.com###wpfront-notification-bar
 filmlifestyle.com##.optin-monster-saas-overlay, .sh-back-to-top
 finnewsreview.com##.customPopUp
@@ -348,6 +353,7 @@ flashbak.com,geneticliteracyproject.org,marijuanamoment.net,naturalblaze.com,sal
 flashrouters.com##.cc-popup-right_bottom
 flickr.com##.foot-banner-container
 flickr.com##.hidden.footer-banner-view.view
+flightglobal.com,flightstats.com###rbiCookiePolicy_pushDownBoxWrapper
 flyingmag.com##.scrollToTop
 focus.de###nlgate, #nlgate-overlay-0
 food52.com###desktop-email-modal-wrapper, #mobile-email-modal-wrapper
@@ -361,7 +367,7 @@ freecourseweb.com###to_top_scrollup
 freedomnode.com###overlay
 freedomoutpost.com##.vw-scroll-to-top
 freshideen.com###embed_popup_cont
-ft.com###assanka_mockingbird_overlay, #barrier-dialogue, .WSODHoverPopupContainer, .barrier__container
+ft.com###assanka_mockingbird_overlay, #barrier-dialogue, .WSODHoverPopupContainer, .barrier__container, .n-messaging-slot--cookieConsentB, .o-cookie-message
 futurism.com,southernkitchen.com###subscribe-modal
 gamedev.net##.ipsDialog
 gardenweb.com##.modal-padding
@@ -426,9 +432,11 @@ homedepot.com###fancybox-loading
 hon.com##[id^="_im_banner"]
 howardstern.com##.show-banner.notification
 howtogeek.com##.email-overlay, .email-overlay555, .overlay-wrapper, .overlay-wrapper555
+hsbc.com###CookieWrapper
 htpcguides.com##.ginger_banner-wrapper
 htpcguides.com##.ssbp-toggle-close.ssbp-toggle-switch
 huffingtonpost.*,huffpost.com###cambria-callout, #subscription-toaster, .image_overlay_icon, .popup-window__modal-body-container, .app-download-interstitial, .newsletter-toaster, .subscription-toaster
+huffingtonpost.*,huffpost.com###guce-inline-consent-iframe
 hwdrivers.com##.privacy_notification
 hwinfo.com##.cookie-agree-with-use
 ibtimes.com###colorbox
@@ -441,6 +449,7 @@ ijr.com,product-reviews.net,themindcircle.com,vegannews.co##.g1-teaser
 imausa.com###snppopup-exit
 imgur.com##.ButtonBackToTop, .transition.icon-arrow-right.nextItem.contextOverlay
 indeed.com##.cmp-ReactInSoy-ReviewsPromo
+indeed.com##.is-shown.icl-LegalConsentBanner
 independent.co.uk##.adblock-modal, .tp-backdrop, .tp-modal
 indiatimes.com###backgroundPopup, #scrollTop, .ntfc_overlay, .ntfc_popup
 indiegogo.com##.i-info-message
@@ -473,6 +482,8 @@ johnsolomonreports.com##.post-navigation.navigation
 juggle.org##.slidein-center-left.cp-slidein
 justanswer.co.uk,justanswer.com##.background, .th-va-mobile-teaser
 justworks.com###hbl-live-chat-wrapper
+kaggle.com##.site-header-react__cookies-notice-desktop, .site-header-react__cookies-notice-mobile
+keepass.info###consent_c
 kerbalspaceprogram.com###wmpci-popup-wrp
 kiwico.com###show-unlock-modal, .header_ctas
 knowablemagazine.org##.article-flyout
@@ -527,6 +538,7 @@ metacafe.com###shadow, .OUTBRAIN
 metacritic.com###popup_newslettter
 mic.com##.modal-prompt-half-page, .new-user-modal
 michaels.com##.modal-body
+microsoft.com###cookie-prompt
 microsoftcasualgames.com###banner, #cookie-consent-container
 mindk.com##.cookies-alert-block, .mk-btn-top
 mississippi.gov###socialModal
@@ -560,6 +572,7 @@ nationalgeographic.com###privacy-policy-popup
 nationalinterest.org###sliding-popup
 nationalpost.com##.fc-dialog-container
 nationalreview.com###cboxWrapper, #colorbox
+nature.com##.container-type-cookies-usage
 ncsc.gov.uk##.pcf-backtotop
 neh.gov###prefix-overlay-outer
 nesn.com,realclearpolitics.com##.spot-im-sticky
@@ -586,6 +599,8 @@ njbiz.com##.flyout-ad.flyout
 nokia.com##.nokia_cookie-wrapper
 nolo.com###special-holiday-promo-banner
 northernvirginiamag.com##.tve-leads-lightbox.tve_post_lightbox.tve_tcb2_blank
+nos.nl###npo_cc_notification
+notebookcheck.net###nbcCookieChoice
 notepad-plus-plus.org##[href="#main"]
 ntknetwork.com###popUpBlack, .popupBg, .showPopUp
 nvidia.com###cookiePolicy-layer
@@ -610,6 +625,7 @@ onsitegas.com###gdpr_footer
 opensecrets.org###floating-donate-button
 opera.com###overlay
 opsian.com###bio_ep, #bio_ep_bg, .signup-popup
+oup.com###oupcookiepolicy_message
 owler.com###pageless-onboarding-popup
 ozy.com##.PopUpsMainSite
 pagesix.com###background-wrapper:style(overflow-x: hidden !important; overflow-y: hidden !important;)
@@ -624,7 +640,7 @@ patch.com###email-modal-wrapper
 patreon.com###renderPageContentWrapper > div:style(filter: unset !important;)
 patreon.com##body[style="overflow: hidden;"]:style(overflow: auto !important;)
 patreon.com##div[data-focus-lock-disabled="false"]
-paypal-community.com##.lia-cookie-banner-alert
+paypal-community.com##.cookie-notification, .lia-cookie-banner-alert
 pbs.org###frontline_newsletter_over, #frontline_newsletter_please, #pbs-confirm-modal-overlay, #pbs-confirm-station, #wnetpopupajax .remodal-is-opened
 pbs.org##body.inactive, body.modal-is-open, body.modal-open, body[style*="overflow: hidden;"]:style(overflow-x: hidden !important; overflow-y: scroll !important; padding-right: 0 !important;)
 pedestrian.tv###popup-home
@@ -746,6 +762,7 @@ spectator.co.uk##.spev-modal-wrapper
 speedtest.net##.privacy-update
 spiceworks.com##.join-login-wrapper, .msp_menu, .sui-site-message-container
 spiegel.de##.sticky-overlay
+spieltimes.com##.jnews-cookie-law-policy
 spigen.com###ztb-slide-box-widget
 splendidtable.org###cboxContent, #cboxOverlay
 spreadsheeto.com##.cf-overlay.convertflow-cta, .tl-anim-make_way.tl-states-root
@@ -769,6 +786,8 @@ techcommunity.microsoft.com##.lia-panel-dialog-modal-valuesurvey.ui-dialog, .scr
 techcrunch.com##.surveymonkey-popup
 technochops.com###sgcboxContent, #sgcboxOverlay
 ted.com###recommends-banner, ._Notice_vquc8_16
+telegraph.co.uk###qb_cookie_consent_main
+tenforums.com###cookiescript_injected
 tested.com,wonderwall.com###footer-notification
 theadvocate.com##.popover-content
 theatlantic.com##.c-nudge__container
@@ -784,6 +803,7 @@ theconservativetreehouse.com###infinite-footer
 theconversation.com##[role^="dialog"]
 theculturetrip.com##.scroll-to-top-wrapper\.style__ScrollToTopWrapper-s1wyvke7-0
 thedailybell.com##.tve-leads-slide-in
+thefa.com##.active.fa-cookie
 theglobeandmail.com###pianowrapper, #subscription-pencil-area, .ab-iam-root
 thegoodtrade.com##.visible.sqs-popup-overlay.sqs-widget.yui3-widget
 thehardtimes.net###sky-form-modal-overlay, .chimpy-reset
@@ -792,6 +812,7 @@ thehindu.com###moe-push-div, #storyNextPopUp, .entrySubs, .pushpopup
 thehindubusinessline.com###myModal
 thehomesecuritysuperstore.com###popupmsg
 theinformation.com##.container.ti-modal
+theinquirer.net###rdm-cookie-consent
 theintercept.com###third-party--viewport-takeover
 thelibertydigest.com###arevicofancy-overlay
 themarshallproject.org##.toast-notifications-container
@@ -804,6 +825,7 @@ thescore.com##.privacy-popup-wrapper
 thescottishsun.co.uk,thesun.co.uk,thesun.ie###cookie-bar
 thescottishsun.co.uk,thesun.co.uk,thesun.ie,upi.com##.back-to-top
 thestocktalker.com##.customPopUp, .customPopUpContent
+thetimes.co.uk###tto-cookieMessage, #tto-cookieMessageInner
 thewalrus.ca##.spu-box
 thewonderweeks.com##.pop-up
 threepercenternation.com###cookie-law-info-bar, .spnf_right.spnf_ticker, .vw-scroll-to-top
@@ -833,6 +855,7 @@ tristatehomepage.com##.upnext-bg.mod-upnext-popup.mod-media-list.mod-wrapper
 trucks.com###mpopupBox, .cb-footer-widget
 truepundit.com###sgpb-popup-dialog-main-div-wrapper
 trumpf.com##.is-open.cookieMsg.notification-small.notification
+trunews.com###ifrmCookieBanner, #main-cookie-banner
 truth-out.org##.ifancybox-overlay
 truthdig.com##.am2-modal
 tsarizm.com##.wbounce-modal
@@ -850,6 +873,7 @@ uservoice.com###externalSiteNotification, #externalSiteNotificationOverlay
 usnews.com###zm_survey-prompt, .hQxvSO.jpvx17-0-Box-cwadsP, body > div:nth-of-type(6), [class^="ModalWrapper__BigBox"]
 ustvgo.tv##.mh-back-to-top
 uxplanet.org##.iframeContainer
+v3.co.uk###rdm-cookie-consent
 valuewalk.com###om-k4aqrfjozo-lightbox
 vanityfair.com##.component-modal, .paywall-bar, .paywall-container
 venturebeat.com##.medrec-wrapper
