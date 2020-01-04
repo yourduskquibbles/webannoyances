@@ -1,12 +1,12 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 12:50 2019-12-31
+! Last Modified: 10:54 2020-01-04
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of cookie bars & other page covering elements. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
 ! Issues: https://github.com/yourduskquibbles/webannoyances/issues
 ! License: https://creativecommons.org/licenses/by-sa/4.0
-! Copyright: © 2016-2019 by yourduskquibbles
+! Copyright: © 2016-2020 by yourduskquibbles
 ! Works best with uBlock Origin or Nano Adblocker - be sure to install it as well!
 
 ! Start Web Annoyances Ultralist - Modal Overlay Filters
@@ -494,6 +494,9 @@ lacrosseunlimited.com##.active-popup
 lairdtech.com###sliding-popup
 laphamsquarterly.org###wisepop-main-container
 lareviewofbooks.org###materialize-lean-overlay-1, #newsletterModal
+latimes.com,pacificsandiego.com,sandiegouniontribune.com###reg-overlay
+latimes.com,pacificsandiego.com,sandiegouniontribune.com##+js(aeld, scroll, event.dispatch)
+latimes.com,pacificsandiego.com,sandiegouniontribune.com##html[data-dss-meterup], html[data-dss-meterup] > body:style(overflow-x: hidden !important; overflow-y: scroll !important; padding-right: 0 !important;)
 law360.com###FreeTrialModal
 leaf.tv##.popup-mask
 legalist.com,myanimelist.net,narrative.ly,thehindubusinessline.com,vanityfair.com##.modal-content
