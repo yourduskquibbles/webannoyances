@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 11:00 2020-01-04
+! Last Modified: 10:12 2020-01-05
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1380,9 +1380,12 @@ chip.de,espn.*,mobile.edweek.org,okta.com,riskiq.com##.Header:style(position: ab
 chipotle.com##.header, .section--header.section:style(position: relative !important; top: 0 !important;)
 chipotle.com##.sticky_header.js-header.c-site-header:style(position: absolute !important;)
 choosetoencrypt.com##.sticky-header-shrink.clear.sticky-header:style(position: absolute !important;)
+chowhound.com###fr_eye_nav:style(width: 98.9vw !important;)
 chowhound.com###freyja_desknav, #freyja_mobile-sticky-wrapper, #freyja_mobile, #freyja_top_nav-sticky-wrapper, #freyja_top_nav, .freyja_wrap:style(position: relative !important; top: 0 !important;)
+chowhound.com##.ch_dk_subnav, .ch_search:style(display: flex !important; opacity: 1 !important;)
 chowhound.com##.fr_article_wrapper .fr_stickypane:style(position: static !important;)
 chowhound.com##.fr_ebrow:style(opacity: 1 !important;)
+chowhound.com##.freyja_desknav:style(transform: translate(0) !important;)
 chowhound.com##.sticky-wrapper:style(position: relative !important;)
 chrisniedenthal.com###basket-count, #header:before, body > .top-preload:style(position: absolute !important;)
 christianpost.com##.js-is-sticky.site-nav:style(position: relative !important; top: 0 !important;)
@@ -2396,7 +2399,7 @@ fairprice.com.sg###headerWrapper:style(height: 160px !important; box-shadow: non
 fairprice.com.sg##.top_header_section:style(position: static !important; box-shadow: none !important;)
 fairprice.com.sg##body.fix #headerWrapper header:style(display: block !important;)
 fairprice.com.sg##body.fix .logo_section:style(height: 114px !important; padding-top: 40px !important;)
-fakespot.com##.product-show .analysis-section .analysis-details h5, .product-show .reviews-summary h5, .product-show .similar-products h5:style(position: static !important;)
+fakespot.com##.product-show .analysis-section .analysis-details h5, .product-show .reviews-summary h5, .product-show .similar-products h5, .product-show-section2 .analysis-section .analysis-details h5, .product-show-section2 .reviews-summary h5, .product-show-section2 .sticky-feature:style(position: static !important;)
 falconhospital.com##.breadcrumb-wrapper, .header:style(position: absolute !important;)
 familycircle.com##.component.navigation-test.sticky-nav .main-new:style(position: relative !important;)
 familycircle.com##.scroll-up .component.navigation-test .logo:style(display: block !important;)
@@ -4609,14 +4612,14 @@ nypost.com###page-header:style(position: relative !important; top: 0 !important;
 nypost.com##.s2nFloatBox:style(position: absolute !important; inset: 0px !important;)
 nypost.com##.s2nFloatParams:style(width: 100% !important; margin: 0 !important;)
 nypost.com##body > .content:style(margin-top: 0 !important;)
-nytimes.com###collection__filter__container, .Block-header--2tzq6, .Block-noTopBorder--1M81B.Block-header--2tzq6, .BlockHeader-header--1598L, .BlockHeader-header--QxD_4, .CommentsPanel-stickyContent--3ah6a, .Home-header--eShDq, .TemplateUtils-bottomBorder--e5vHb.TemplateUtils-showBorder--2OVQ0.TemplateUtils-topLabel--1jiof, .comments-header-container, .css-1i860sg, .e1pwcx9q0, .css-136op87, .css-13lpfd6, .css-1855pjc, .css-koxs0u, .css-1mgcajg, .css-ulr03x, .css-qbefct, header#masthead.masthead-theme-standard.masthead:style(position: relative !important;)
+nytimes.com###collection__filter__container, .Block-header--2tzq6, .Block-noTopBorder--1M81B.Block-header--2tzq6, .BlockHeader-header--1598L, .BlockHeader-header--QxD_4, .CommentsPanel-stickyContent--3ah6a, .Home-header--eShDq, .TemplateUtils-bottomBorder--e5vHb.TemplateUtils-showBorder--2OVQ0.TemplateUtils-topLabel--1jiof, .comments-header-container, .css-1i860sg, .e1pwcx9q0, .css-136op87, .css-13lpfd6, .css-183q51, .css-1855pjc, .css-koxs0u, .css-1mgcajg, .css-ulr03x, .css-qbefct, header#masthead.masthead-theme-standard.masthead:style(position: relative !important;)
 nytimes.com###main-header, .d-fow-nav:style(position: relative !important; top: 0 !important;)
 nytimes.com###masthead[class="masthead header wrapper clearfix"][role="banner"], #masthead[class="masthead masthead-theme-standard ribbon-visible"][role="banner"]:style(position: relative !important; display: block !important; border-bottom: none !important;)
 nytimes.com###ribbon:style(position: relative !important; top: 0 !important; width: 100% !important;)
 nytimes.com###shell, #story:style(padding-top: 0 !important;)
 nytimes.com##.article-page:style(overflow: hidden !important;)
-nytimes.com##.css-183q51, .css-1aor85t, .g-freebird.g-story div.series-masthead, .nytc---sitenav---siteNav, .specialrate-bar, .universalNav:style(position: absolute !important;)
 nytimes.com##.css-1almeyj:style(visibility: visible !important; opacity: 1 !important;)
+nytimes.com##.css-1aor85t, .g-freebird.g-story div.series-masthead, .nytc---sitenav---siteNav, .specialrate-bar, .universalNav:style(position: absolute !important;)
 nytimes.com##.css-1bxnhxc:style(position: unset !important;)
 nytimes.com##.css-1q8i86q:style(position: static !important; margin-top: 0 !important;)
 nytimes.com##.css-eye0zj, .marginalia:style(margin-top: 0 !important;)
