@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Ad Placeholder Filters
-! Last Modified: 08:44 2020-01-06
+! Last Modified: 08:52 2020-01-06
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for empty advertising placeholders.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -84,6 +84,7 @@ buzzfeed.com###mod-ad-msu-2, .ad-ex-wide-container
 buzzfeednews.com##.ad-bfnews-sidebar
 cnbc.com##.MostPopular-taboolaContainer.MostPopular-wrapper
 digg.com###site-promo-banner > .content, .ad-container--featured_videos, .ad-container--originals-inline, .ad-container--originals-top
+kyivpost.com##.wrap > .b-title:has-text(/Advertisement/)
 latimes.com,pacificsandiego.com,sandiegouniontribune.com##div.GoogleDfpAd-wrapper
 legalinsurrection.com##.sidebarBlock [id^="div-gpt-ad"]:nth-ancestor(2)
 legalinsurrection.com##[id^="div-gpt-ad"]
