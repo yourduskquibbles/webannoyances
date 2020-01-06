@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 13:07 2020-01-06
+! Last Modified: 13:09 2020-01-06
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of cookie bars & other page covering elements. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -290,6 +290,7 @@ discovermagazine.com##.wp_popup_overlay
 discovermagazine.com##html:style(margin-top: 0 !important;)
 disney.com##body > div:has-text(/Please review our/)
 disneynow.com##body > div:has-text(/Please review our/)
+distractify.com###_CookieConsent
 dividend.com###popup-modal
 dividend.com,interestingengineering.com,pbs.org,sandiegoreader.com,washingtontimes.com###newsletter-modal
 docs.aws.amazon.com###cookie-notice, awsui-alert, awsdocs-footer.ng-isolate-scope > awsui-alert > .awsui-alert-type-info.awsui-alert
