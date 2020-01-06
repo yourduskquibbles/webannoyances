@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Companion Filters
-! Last Modified: 09:09 2020-01-06
+! Last Modified: 13:07 2020-01-06
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Companion Sublist to be used with CSS Style Modifications List -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -119,7 +119,12 @@ cruisecritic.com##.document--wrapper-1200 .nav__secondary .logo-container .logo,
 dailymail.co.uk##.jwplayer_body_1, vjs-flyout-control, div[class^="jwplayer"][style*="position"][style*="fixed"]
 dailystar.co.uk##.mod-video.float-and-park .float-and-park-top-bar, .mod-video[data-player-type="brightcove"] .video-headline::before
 dailywire.com##.powr-show-always.powr-size-small.powr-close.pwr-button.pwr-control
+detailed.com##.navbar-dummy
+diag-auto.site,mygoodstream.pw,worldstream.xyz##div[data-watermark-top-right], div[data-watermark]
+districtondeck.com##.fixed-article-nav
+dividend.com##.stock-data-space, .stock-nav-space
 dnyuz.com##.sticky_blankspace
+dreamhost.com,hongkongfp.com,rootupdate.com,sportempi.com,thecooperreview.com,theinvestigativefund.org,windowsclan.com###sticky_header
 firstquarterfinance.com##.sticky-nav-logo
 fox29.com,fox5atlanta.com,fox5dc.com,fox5ny.com,fox9.com##.mini-header .branding .logo-mini
 foxnews.com##.c-item.c-item-first.c-item-last, .featured.featured-video .control, .featured.featured-video.sticky-video .contain .info .title:before, .g-41.section-featured, .vid-scroll-bknd
@@ -135,6 +140,7 @@ hp.com##.footer-fixed.ask-common-wrap
 htpcguides.com##.element-is-sticky.sticky-element-cloned.widget_text.inner-padding.widget
 humblebundle.com##.js-maintain-scrollbar-on-dropdown.s-fixed.js-sticky-navbar.sticky-navbar
 inc.com##div[class^="CloseButton__close"]
+indeed.com##.cmp-HeaderStickyContainer-brandColorStrip, .cmp-HeaderStickyContainer-stickyTriggerElement, .sticky-banner
 israelnationalnews.com##body.ltr.LangEn.LayoutTopDown #LayoutTop .Top .Logo .icon-a7
 itstillworks.com,oureverydaylife.com###jwplayerClose
 knivesandtools.co.uk##.product-offer-card__body
