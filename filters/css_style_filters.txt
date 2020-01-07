@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 08:41 2020-01-07
+! Last Modified: 08:49 2020-01-07
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2900,7 +2900,7 @@ good.is##.state-fixed.js-sidebar.sidebar, .js-pulltab.pulltab:style(position: ab
 goodereader.com,rookiemoms.com,trendblog.net###genesis-nav-primary:style(position: absolute !important;)
 goodreads.com##.siteHeader:style(position: absolute !important; top: 0 !important;)
 google.ai##.h-c-header__bar:style(position: relative !important; top: 0 !important;)
-google.com###js-header, #searchform, .O-j-k, .header, .js-header.chr-header, .mobile-action-bar, body > .ng-scope, #flt-nav, .gws-flights__scrollbar-padding.gws-flights__selection-bar, .gws-flights__selection-bar-shadow-mask:style(position: absolute !important;)
+google.com###js-header, #searchform, .O-j-k, .header:not(.column-section):not(.viewed), .js-header.chr-header, .mobile-action-bar, body > .ng-scope, #flt-nav, .gws-flights__scrollbar-padding.gws-flights__selection-bar, .gws-flights__selection-bar-shadow-mask:style(position: absolute !important;)
 google.com###maia-header, #maia-nav-x, .header__top:style(position: relative !important; top: 0 !important;)
 google.com##.UiI33b, .glue-sticky-active.glue-sticky, .gmail-nav, .goog-scrollfloater, .nIQDsf.qconn, .gb_Zd:style(position: relative !important;)
 google.com##.chr-download-link, .chr-header .chr-cta__button:style(margin-right: 0 !important;)
