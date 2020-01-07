@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Ad Placeholder Filters
-! Last Modified: 13:07 2020-01-06
+! Last Modified: 12:41 2020-01-07
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for empty advertising placeholders.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -92,6 +92,7 @@ circa.com##.ArticlePage-ad, .GoogleDfpAd, div[id^="advertisement-"]
 citylab.com##.l-sponsored
 cnbc.com##.MostPopular-taboolaContainer.MostPopular-wrapper
 digg.com###site-promo-banner > .content, .ad-container--featured_videos, .ad-container--originals-inline, .ad-container--originals-top
+ikream.com##.stickyad:nth-ancestor(2)
 kyivpost.com##.wrap > .b-title:has-text(/Advertisement/)
 latimes.com,pacificsandiego.com,sandiegouniontribune.com##div.GoogleDfpAd-wrapper
 legalinsurrection.com##.sidebarBlock [id^="div-gpt-ad"]:nth-ancestor(2)
