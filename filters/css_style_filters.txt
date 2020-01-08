@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 23:30 2020-01-07
+! Last Modified: 00:07 2020-01-08
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -14,6 +14,9 @@
 ! End Web Annoyances Ultralist - CSS Style Companion Filters
 
 ! Start Web Annoyances Ultralist - CSS Style Modifying Filters
+backcountry.com##.header-wrap:style(position: relative !important; top: 0 !important;)
+bikeradar.com##.is-sticky.site-header__eyebrow:style(position: absolute !important;)
+bikeradar.com##.site-header__nav:style(position: static !important;)
 01.org,france24.com##.o-header:style(position: absolute !important;)
 1001tracklists.com###contentRoot:style(padding-top: 0 !important;)
 1001tracklists.com###fixTop:style(position: relative !important; top: 0 !important;)
