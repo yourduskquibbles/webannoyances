@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Social Filters
-! Last Modified: 00:07 2020-01-08
+! Last Modified: 11:31 2020-01-13
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for social networking & sharing - Remove third party social media share sections, icons & other cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -332,7 +332,11 @@ find.xyz##.share-create
 fineartamerica.com###socialDiv
 firefox.com##.social_container
 fivethirtyeight.com##.custom-like-follow, .liveblog-share, .lp-share
+flightglobal.com##.facebook:nth-ancestor(1)
 flightglobal.com##.fg-glyph--share
+flightglobal.com##.linkedin:nth-ancestor(1)
+flightglobal.com##.twitter:nth-ancestor(1)
+flightglobal.com##.whatsapp:nth-ancestor(1)
 flyingmag.com##.pane-post-social-post-social-block
 focus.de###article-social-holder
 food52.com##.social__link
