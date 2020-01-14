@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 11:16 2020-01-14
+! Last Modified: 12:55 2020-01-14
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of cookie bars & other page covering elements. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -210,8 +210,8 @@ cision.com###cision-cookie-policy-banner
 citusdata.com###consentBox
 citylab.com###blocker-msg-start
 cjr.org###interContainer, #interVeil
-cnbc.com##.bx-align, .pico-content, .pico-overlay
-cnbc.com##[style*="z-index: 100000000;"]
+cnbc.com##+js(aopr, googletag)
+cnbc.com##.bx-align, .pico-content, .pico-overlay, [style*="z-index: 100000000;"]
 cnn.com###onetrust-consent-sdk
 cnn.com,msn.com,the-sun.com,thescottishsun.co.uk,thesun.co.uk,thesun.ie##.optanon-alert-box-wrapper
 co-opfs.org##.my-modal-target.customer-service-btn
@@ -287,7 +287,7 @@ digg.com##.overflow-wrap:style(overflow-x: auto !important;)
 digital.com###discbar_footer
 digitalcitizen.life###eu-cookies-consent
 digitalocean.com###DO_CC_PANEL, ._panel_1nv7e_1
-digitalspy.com###_evidon-barrier-wrapper
+digitalspy.com,elle.com,reuters.com,runnersworld.com###_evidon-barrier-wrapper
 discovermagazine.com##.wp_popup_overlay
 discovermagazine.com##html:style(margin-top: 0 !important;)
 disney.com##body > div:has-text(/Please review our/)
@@ -317,7 +317,6 @@ electromaker.io###cccwr, .open.footer-collapse-container
 electronicdesign.com,machinedesign.com##.gdpr-popup-border
 elie.net,masterclass.com##.mc-modal
 elifesciences.org##.opt-in-message-bar
-elle.com###_evidon-barrier-wrapper
 ello.co##.Modal
 elpasotimes.com##body:style(height: auto !important;)
 elpasotimes.com##div[id^="sp_message_id"]
@@ -740,7 +739,6 @@ rsf.org###overlays
 rt.com##.cookies__banner
 ruindays.com##.sticky_nav--stick.sticky_nav.main_nav_wrapper, .wheelio_holder
 runitonce.com##.cta-signup-banner, .splash-screen-riop
-runnersworld.com###_evidon-barrier-wrapper
 sabonnyc.com##.dynotifyjs-corner
 samsung.com##.cm-cookie-geo
 santafenewmexican.com###notification-area

@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 11:16 2020-01-14
+! Last Modified: 12:55 2020-01-14
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -5828,6 +5828,8 @@ startribune.com##.search-pane:style(position: absolute !important;)
 starwars.com###nav-inner-container:style(position: relative !important; top: 0 !important;)
 starwars.com###nav-outer-container #navbar #nav-header-bg, #nav-outer-container #navbar #nav-sw-logo, #nav-outer-container #navbar #nav-external-links:style(display: block !important;)
 starwars.com###nav-wrapper:style(opacity: 1 !important;)
+statebicycle.com##.header:style(position: relative !important; box-shadow: none !important;)
+statebicycle.com##.topbar:style(padding-top: 0 !important;)
 statebox.org###main-nav, .gitter-open-chat-button:style(position: absolute !important;)
 statenews.com##.article header.container nav.navbar .container:style(width: auto !important;)
 stateoftheart.ai##.el-main:style(overflow: unset !important;)
