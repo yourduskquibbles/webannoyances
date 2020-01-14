@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 15:34 2020-01-14
+! Last Modified: 15:40 2020-01-14
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -4065,6 +4065,7 @@ merriam-webster.com##.outer-container:style(margin-top: 0 !important;)
 merriman.com###page-container:style(padding-top: 0 !important;)
 merriman.com,thenewsrep.com###top-header:style(position: absolute !important;)
 merryjane.com###view-port:style(position: relative !important; top: 0 !important;)
+messages.google.com##.h-c-header--product-marketing-one-tier.h-is-wholly-scrolled .h-c-header__bar, .h-c-header__bar:style(position: absolute !important; transform: translate3d(0,0,0) !important;)
 metacafe.com##.mc-header-top:style(position: absolute !important;)
 metacritic.com###video_holder_wrapper:style(position: static !important;)
 metafilter.com##.headroom--pinned.headroom--not-top.headroom.logo-and-primary-nav:style(position: relative !important; top: 0 !important;)
