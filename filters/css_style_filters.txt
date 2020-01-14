@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 12:55 2020-01-14
+! Last Modified: 15:34 2020-01-14
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -735,6 +735,7 @@ babygaga.com,hotcars.com,moms.com,screenrant.com,thegamer.com,thequiz.com,theric
 babygaga.com,hotcars.com,moms.com,screenrant.com,thegamer.com,thequiz.com,therichest.com,thesportster.com,thetalko.com,thethings.com,thetravel.com##.sidebar-sticky:style(position: relative !important; top: 0 !important;)
 babynames.net##.names-container [style*="user-select: none"]:style(user-select: auto !important;)
 babynames.net,spigen.com##.nav-bar:style(position: relative !important;)
+babynamesdirect.com###fav:style(position: absolute !important;)
 backblaze.com##.custom-logo-link:style(max-width: 180px !important;)
 backblaze.com##.site-title a:style(margin-top: 24px !important; margin-bottom: 24px !important;)
 backblaze.com##.top-nav-bar:style(position: absolute !important;)
@@ -5295,7 +5296,7 @@ reuters.com##.Sticky_content:style(top: 0 !important; transform: none !important
 reuters.com##.TrendingBar_trending-item_bItjC.TrendingBar_loaded_3oiZW:style(opacity: 1 !important; animation: none !important;)
 reuters.com##.Video_container > div > div > div > div > div:style(position: relative !important; background-color: transparent !important; width: 100% !important; box-shadow: none !important; opacity: 1 !important;)
 reuters.com##.Video_container > div > div > div > div:style(position: absolute !important; width: 100% !important; top: unset !important; left: unset !important;)
-reuters.com##.Video_container.Video_docked:not(.Video_docked-hidden) .Video_video-container > iframe:style(position: absolute !important; transform: none !important; width: 100% !important; height: 100% !important; box-shadow: none !important;)
+reuters.com##.Video_container.Video_docked:not(.Video_docked-hidden) .Video_video-container > iframe, [class*="HpVideoModule__player-container"]:style(position: absolute !important; width: 100% !important; height: 100% !important; box-shadow: none !important; transform: none !important; )
 reuters.com##.header-mini-logo:style(visibility: visible !important; opacity: 1 !important;)
 reuters.com##.home-icon:style(visibility: hidden !important; opacity: 0 !important;)
 reuters.com##.lazy-photo img:style(opacity: 1 !important;)
