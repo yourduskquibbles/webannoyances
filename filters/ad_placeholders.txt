@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Ad Placeholder Filters
-! Last Modified: 10:21 2020-01-19
+! Last Modified: 10:28 2020-01-19
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for empty advertising placeholders.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -106,6 +106,8 @@ heraldcourier.com##.media.promo.card:nth-ancestor(2)
 ikream.com##.stickyad:nth-ancestor(2)
 imgur.com###sidebar-bottom-ads, .FloatingOIA-container, .buttonOIA.viewInAppLink.margin-top.center-text, .getTheApp, .viewInAppLink
 jpost.com##.OUTBRAIN, .line-left-side-before-and-after-container, .one-row.line-one-row-before-and-after-container
+jpost.com##.margin-container-right .hide-for-premium .OUTBRAIN:nth-ancestor(2)
+jpost.com##[id^="div-gpt-ad-"]:nth-ancestor(3)
 kyivpost.com##.wrap > .b-title:has-text(/Advertisement/)
 latimes.com,pacificsandiego.com,sandiegouniontribune.com##div.GoogleDfpAd-wrapper
 legalinsurrection.com##.sidebarBlock [id^="div-gpt-ad"]:nth-ancestor(2)
