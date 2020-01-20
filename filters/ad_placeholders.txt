@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Ad Placeholder Filters
-! Last Modified: 11:24 2020-01-20
+! Last Modified: 11:59 2020-01-20
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for empty advertising placeholders.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -117,6 +117,12 @@ kyivpost.com##.wrap > .b-title:has-text(/Advertisement/)
 latimes.com,pacificsandiego.com,sandiegouniontribune.com##div.GoogleDfpAd-wrapper
 legalinsurrection.com##.sidebarBlock [id^="div-gpt-ad"]:nth-ancestor(2)
 legalinsurrection.com##[id^="div-gpt-ad"]
+lifewire.com###leaderboard_2-0
+lifezette.com##.ad-widget
+liveleak.com##.advertise_main_outer
+livemint.com##.adHolderStory
+livescience.com###rightcol_top, .mod-hdr.h2, sticky-header
+livestrong.com##.js-mobile_adsense, .js-mobile_adsense2
 mercurynews.com,richmond.com,roanoke.com,stltoday.com,tucson.com,wiat.com,wncn.com##.dfp-ad
 microsoft.com##.skylight-entry
 msn.com###MSN_NTP_Faster_Creative, #Microsoft_News_app, #irisbannerph, #msccBanner, .dynamicRRWrapper, .size234column.todayshowcasead
