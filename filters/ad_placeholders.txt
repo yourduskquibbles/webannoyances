@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Ad Placeholder Filters
-! Last Modified: 23:16 2020-01-19
+! Last Modified: 11:22 2020-01-20
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for empty advertising placeholders.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -67,6 +67,7 @@ baseball-reference.com##.adblock
 bicycleretailer.com###brain-leader-slot
 bigleaguepolitics.com##.klicked-privacy-banner, .tpd-box-ad-a, .tpd-box-ad-b, .tpd-box-ad-c, .z-lockerdome-inline
 birthmoviesdeath.com##.Ad--header.Ad
+bleacherreport.com##.ad, .installApp, .notification, .relatedContent, .smart_banner
 blendswap.com###nag-region, #adBlockerContainer, #paywall-banner, .article_interaction, .in-article-ad-dummy, .mobile-box-ad-dummy
 boardingarea.com##.div-gpt-ad-adhesion-leaderboard-wrap
 bonappetit.com##.ba-recirc-riser.expanded.riser, .header-ad-area
@@ -98,6 +99,9 @@ cnbc.com##.news-widget, .wildcard.embed-container
 cnet.com###leaderTopWrap, .ad-nav-ad, .fixed.sticky-leader, .leadWrap
 dailymail.co.uk###smartBanner, .mol-ads-label-container
 digg.com###site-promo-banner > .content, .ad-container--featured_videos, .ad-container--originals-inline, .ad-container--originals-top
+freebeacon.com##div[id^="rb-"]
+frieze.com###block-ds-extras-article-sidebar, .frieze-ads-banner_article, .frieze-ads-mpu
+frontpagemag.com###block-bean-sidebar-ad-1
 gainesvilletimes.com,themonroetimes.com###articleBody85860Ad, .home-top__ad, .in-text-ad
 gallup.com##.section-speedbump
 gamepress.gg###block-appmobilemenu, #block-footerad
@@ -138,6 +142,14 @@ nhl.com##.ad, .ad--250-empty
 nydailynews.com##.ft--cta, .pb-f-ads-yieldmo, .rh-ad, div[data-pb-name^="Taboola"]
 nypost.com##div[id^="outbrain_widget_"]
 nytimes.com###HPBottom2, #HPHalf, #Top, #TopAd, #acm-wrapper, #bottom-wrapper, #digital_hoverCraft, #dual_hoverCraft, #duallink, #gatewayUnit, #recipeDetailsPromoSlot, .BlockAdvert-adContainer--1aZlM, .InlineMessage-inline--2ysnq, .ResponsiveAd-topAd--3WpE4, .ad, .g-ad-wrapper, .max300.min300.iframe-holder, .opinion-c-col-bottom-region, .ribbon-ad-container, .subColumn-2.noBackground.mobilePromo.nocontent, .text-ad, BlockAdvert-ad--2QvJV, [id^="dfp-ad-"], [id^="story-ad-"], div[data-testid^="inline-message"]
+pbs.org###readthisnext, .fl-ad, .sidebar-advertisement
+pcgamer.com##[class^="slot"]
+pedelecs.co.uk##.banner.advert
+pgatour.com##.js-ad, .leaderboard-banner-ad
+philly.com###a1-top-furniture, .ad__leaderboard, .js-toggle-ad, .pic.bg1.type3.banner_small, .shift-right--700, .shift-right--900
+phys.org###rank, .notice
+pilotonline.com###leaderboard1, .paymeter-promo
+pinknews.co.uk##.ad-slot_inline-mpu
 player.fm##.top-promo
 pressdemocrat.com##.block-1-ad, .mobile-adhesion-ad
 reuters.com###reutersAppBanner, .DPSlot_container, .GetTheAppBanner_get-the-app-banner_1LusN, .RecircRibbon_container, .StandardArticleBody_dp-slot-inline_eUPBt.DPSlot_container_2dHIN, .get-the-app-banner_1LusN

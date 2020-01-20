@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 23:16 2020-01-19
+! Last Modified: 11:22 2020-01-20
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of cookie bars & other page covering elements. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -136,6 +136,7 @@ betakit.com##.slide-dock.widget
 betterhelp.com###modal-exit, #modal-landing
 betterthanpants.com###spin-modal
 bfst.to,buffstream.to,buffstreamz.com###webmodal2
+biblehub.com###left, #right
 bigballerbrand.com,blueapron.com,chron.com,coogi.com,couponcabin.com,ehow.com,geniuspack.com,mysanantonio.com,ncregister.com,truthrevolt.org,usatoday.com,wallstreet.org##.fancybox-overlay
 bigballerbrand.com,ncregister.com##.fancybox-wrap
 bigleaguepolitics.com##.modaal-wrapper, .mvp-fly-top
@@ -148,6 +149,7 @@ bk.com##body.modal-open:style(position: unset !important;)
 blackmainstreet.net###ct-ultimate-gdpr-cookie-popup
 blakkpepper.com###ppsPopupBgOverlay
 blindmanspuff.com##.optin-monster-saas-overlay
+blog.checklyhq.com##.progress-container
 blog.petrockblock.com###wpca-bar
 bloomberg.com###graphics-paywall-overlay
 bloomberg.com##body[data-paywall-overlay-status="show"]:style(overflow-x: hidden !important; overflow-y: scroll !important;)
@@ -213,7 +215,7 @@ citusdata.com###consentBox
 citylab.com###blocker-msg-start
 cjr.org###interContainer, #interVeil
 cnbc.com##+js(aopr, googletag)
-cnbc.com##.bx-align, .pico-content, .pico-overlay, [style*="z-index: 100000000;"]
+cnbc.com##.ProgressBar-container, .bx-align, .pico-content, .pico-overlay, [style*="z-index: 100000000;"]
 cnn.com###onetrust-consent-sdk
 cnn.com,msn.com,the-sun.com,thescottishsun.co.uk,thesun.co.uk,thesun.ie##.optanon-alert-box-wrapper
 co-opfs.org##.my-modal-target.customer-service-btn
@@ -375,8 +377,9 @@ foreignpolicy.com###paywall_bg, .cookie_message, .js-takeover, .paywall_counter,
 formidable.com##.formidaCookie
 forums.att.com##.scrollBubble
 forums.xfinity.com##.lia-panel-dialog-modal-simple
-foxnews.com###janrainModalOverlay
-foxnews.com##.notification-banner
+fox13news.com##.mobile-progress, .mobile-up-next
+fox32chicago.com,realclearbooks.com,realcleardefense.com,realcleareducation.com,realclearenergy.org,realclearfuture.com,realclearhealth.com,realclearhistory.com,realclearinvestigations.com,realclearmarkets.com,realclearpolitics.com,realclearpublicaffairs.com,realclearreligion.org,realclearscience.com,realclearsports.com,realclearworld.com,simonmccade.com##.progress-bar
+foxnews.com###janrainModalOverlay, .notification-banner
 fratellirossetti.com###cookie_warning
 freecourseweb.com###to_top_scrollup
 freedomnode.com###overlay
@@ -441,6 +444,7 @@ heraldmailmedia.com##.alert-dismissable.alert.access.notification.meter
 herosports.com###poh
 hetzner.com###dpi-banner
 hired.com##.on-top.xs-12of12.box--black.navbar.position-fixed.layout--center
+historyextra.com##.progress-bar-container
 homeadvisor.com###FloatyBar
 homebrewtalk.com###join_hbt_pop_up
 homedepot.com###fancybox-loading
@@ -652,6 +656,7 @@ opensecrets.org###floating-donate-button
 opera.com###overlay
 opsian.com###bio_ep, #bio_ep_bg, .signup-popup
 oup.com###oupcookiepolicy_message
+outsystems.com##.header-progress-bar
 owler.com###pageless-onboarding-popup
 ozy.com##.PopUpsMainSite
 pagesix.com###background-wrapper:style(overflow-x: hidden !important; overflow-y: hidden !important;)
@@ -676,6 +681,7 @@ petri.com##.gdpr-cookie-banner
 petsmart.com##._HP_promoModal__fadedScreen, ._HP_promoModal__innerPopup
 pewresearch.org###js-user-survey-popup
 pga.com###mss-legal-banner
+philly.com##.progress
 phmloans.com###ReadyChat_WP
 photobucket.com###myModal
 phys.org###back-top
@@ -711,13 +717,13 @@ quora.com##.growl_overlay, .modal_promoted_content
 qz.com##div[aria-labelledby="subscribe-bar-primary-text"]
 radarbox24.com###privacy-popup
 radaronline.com##.jeeng-widget-reset, .topic-bar
+radixdlt.com##.progress-bar-holder
 rag-bone.com##.js-footer-cookie-banner
 rankedboost.com##.bttt-active
 rappler.com###cookie-popup-rappler, #emailPopupDiv
 ratemyprofessors.com###rateReminderModal
 rawstory.com##.mvp-to-top.back-to-top.mvp-fly-top
 readfrontier.org,revealnews.org,themefoxx.com,washingtonmonthly.com##.pum-active
-realclearbooks.com,realcleardefense.com,realcleareducation.com,realclearenergy.org,realclearfuture.com,realclearhealth.com,realclearhistory.com,realclearinvestigations.com,realclearmarkets.com,realclearpolitics.com,realclearpublicaffairs.com,realclearreligion.org,realclearscience.com,realclearsports.com,realclearworld.com##.progress-bar
 realclearpolitics.com###large_notif_wrapper, .cc-stop-overlay, .cc-window, .notif-wrapper.warning-wrapper, .overlay_newsletter_promo
 reason.com###donationdrive_popup, #donationdrive_popup_overlay, .active.blackout
 reasoncoresecurity.com###backgroundModal, #popModal
