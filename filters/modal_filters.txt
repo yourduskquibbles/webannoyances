@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 12:04 2020-01-20
+! Last Modified: 12:16 2020-01-20
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of cookie bars & other page covering elements. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -10,6 +10,7 @@
 ! Works best with uBlock Origin or Nano Adblocker - be sure to install it as well!
 
 ! Start Web Annoyances Ultralist - Modal Overlay Filters
+walmart.com##.feedback-fixed-link-wrapper, .feedback-page-wrapper, .prod-feedback-page-wrapper
 100percentfedup.com##.modaal-overlay
 100percentfedup.com,500px.com,allergicliving.com,mucbook.de,netwatch.me,newfoodeconomy.*,nintendosoup.com,theartblog.org,theblacksphere.net,upenn.edu##.spu-bg, .spu-box
 11alive.com,12news.com,12newsnow.com,13newsnow.com,13wmaz.com,9news.com,abc10.com,cbs19.tv,firstcoastnews.com,fox15abilene.com,kagstv.com,kare11.com,kcentv.com,kens5.com,kgw.com,khou.com,kiiitv.com,king5.com,krem.com,ksdk.com,ktvb.com,kvue.com,myfoxzone.com,newscentermaine.com,thv11.com,wbir.com,wcnc.com,wfaa.com,wfmynews2.com,wgrz.com,whas11.com,wltx.com,wtsp.com,wusa9.com,wwltv.com,wzzm13.com,760kfmb.com,cbs8.com,kfmbfm.com,myatltv.com,thecwsandiego.com,tucsonnewsnow.com##.desktop-header__progress, .page__dock, .progress
@@ -227,14 +228,21 @@ coinsocial.io##.slidebottom.wpoi-show.inc_optin_2.inc_optin.wpoi-animate.inc_opt
 coinsutra.com##.austin-background, .tulsa-background
 colorlib.com##.optin-monster-saas-overlay
 com-unik.info,heraldks.com###optinform-container
-commentarymagazine.com##.advads-background, .advads-close-button
+comicbook.com##.sticky.next-article-tease
+commentarymagazine.com##.advads-background, .advads-close-button, .alert-block.alert.intense
+commonwealmagazine.org###paywall-message
 community.arm.com##.join-alert
 community.jivesoftware.com###cookie-consent-alert
+community.microfocus.com##.lia-component-common-widget-scroll-to
 community.spotify.com###js-message-bar-cookie-notice, .lia-in.lia-dialog-titleless.lia-panel-dialog-modal-valuesurvey.lia-panel-dialog-modal-simple.lia-panel-dialog.lia-content.ui-corner-all.ui-widget-content.ui-widget.ui-dialog, .ui-widget-overlay
 complex.com##.video-bar-on-scroll--showing-cookie-notice
 computerweekly.com###cmp-banner
 conference-board.org##.browserCacheBox
+confluent.io###header-pusher
+consequenceofsound.net###footeradhesive
 conservativeintel.com###splashmodal, .popupbox_mid
+contactmusic.com##.show-xl.show-lg.nextArticle
+contently.com##progress
 coogi.com,mysanantonio.com##.fancybox-lock:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 cookieandkate.com###wbounce-modal
 cookistry.com##.nav-circlepop

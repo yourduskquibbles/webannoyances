@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Ad Placeholder Filters
-! Last Modified: 12:04 2020-01-20
+! Last Modified: 12:16 2020-01-20
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for empty advertising placeholders.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -99,8 +99,21 @@ circa.com##.ArticlePage-ad, .GoogleDfpAd, div[id^="advertisement-"]
 citylab.com##.l-sponsored
 cnbc.com##.news-widget, .wildcard.embed-container
 cnet.com###leaderTopWrap, .ad-nav-ad, .fixed.sticky-leader, .leadWrap
+columbiabasinherald.com##.no-print.row.ad
+comicbook.com##.adhesion-block
+comicbook.com##div[id^="oas_"]
+complex.com##.suitcase-ad
+consequenceofsound.net,globalnews.ca##.leaderboard-wrapper
+conservativetribune.com##.ad-notice-small, .before-article-ad, .persistent-footer.sponsor, .persistent-header, .related.article-extras, .trending.article-extras
+contactmusic.com##.adLabel
+cookinglight.com###ad-300x250_LL_m_1
+cookinglight.com,si.com##.adhesion-ad
+coosavalleynews.com##.top_banner
+copenhagensuborbitals.com###donatebar
+cosmopolitan.com,harpersbazaar.com,roadandtrack.com,townandcountrymag.com##.breaker-ad
 dailymail.co.uk###smartBanner, .mol-ads-label-container
 digg.com###site-promo-banner > .content, .ad-container--featured_videos, .ad-container--originals-inline, .ad-container--originals-top
+fantasypros.com###top-banner, .ad-300, .leaderboard-wrap
 freebeacon.com##div[id^="rb-"]
 frieze.com###block-ds-extras-article-sidebar, .frieze-ads-banner_article, .frieze-ads-mpu
 frontpagemag.com###block-bean-sidebar-ad-1
@@ -109,6 +122,8 @@ gallup.com##.section-speedbump
 gamepress.gg###block-appmobilemenu, #block-footerad
 gamerevolution.com##.widget_evolve_ad_gpt_widget
 gazette.com##.adZone
+globalnews.ca##.story-ad
+harpersbazaar.com,roadandtrack.com,runnersworld.com,townandcountrymag.com##.leaderboard-ad
 heraldcourier.com##.media.promo.card:nth-ancestor(2)
 ikream.com##.stickyad:nth-ancestor(2)
 imgur.com###sidebar-bottom-ads, .FloatingOIA-container, .buttonOIA.viewInAppLink.margin-top.center-text, .getTheApp, .viewInAppLink
@@ -163,13 +178,22 @@ player.fm##.top-promo
 pressdemocrat.com##.block-1-ad, .mobile-adhesion-ad
 reuters.com###reutersAppBanner, .DPSlot_container, .GetTheAppBanner_get-the-app-banner_1LusN, .RecircRibbon_container, .StandardArticleBody_dp-slot-inline_eUPBt.DPSlot_container_2dHIN, .get-the-app-banner_1LusN
 reuters.com##.module-header:has-text(/Advertisement/):nth-ancestor(1)
+rockpapershotgun.com##.leaderboards
 seeker.com###header-ad, .ad-container
 slate.com##.ad--inArticleBanner
+splitsider.com,thebillfold.com,thehairpin.com##.leaderboard__wrapper
 the-sun.com,thescottishsun.co.uk,thesun.co.uk,thesun.ie###articlempu, .billboard,.dfp-ad-container
+thespruce.com,thesprucecrafts.com,thespruceeats.com,thesprucepets.com###leaderboard--header_1-0, .leaderboard
 thestreet.com###lower-ad-banner, .main-nav__header-ad, .sticky-top-ad-wrap
 tutsplus.com##.post__article-ad
 vice.com##.vmp-ad
 vidsrc.me###adbox_desktop
+w3schools.com###skyscraper
+walmart.com###sponsored-container-top
+warhistoryonline.com###fader, .inad
+warriortrading.com###someone-purchased
+washingtonexaminer.com##.desktop-ad-undertone, .legacy-sidebar-promo, .prompt-content, .upnext, .visible.basic.cp-prompt
+washingtonian.com###ad_pos_targeted_in_article
 wkyc.com###article_atf, #article_atf_1, #article_mid1_0, #article_mid1_1, #article_mid2_0, #article_mid2_1
 wmur.com##.ad, .ad-container, .ad-leaderboard
 wncn.com##.row-leaderboard.row
