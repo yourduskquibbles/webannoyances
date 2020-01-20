@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 12:16 2020-01-20
+! Last Modified: 16:36 2020-01-20
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of cookie bars & other page covering elements. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -10,7 +10,6 @@
 ! Works best with uBlock Origin or Nano Adblocker - be sure to install it as well!
 
 ! Start Web Annoyances Ultralist - Modal Overlay Filters
-walmart.com##.feedback-fixed-link-wrapper, .feedback-page-wrapper, .prod-feedback-page-wrapper
 100percentfedup.com##.modaal-overlay
 100percentfedup.com,500px.com,allergicliving.com,mucbook.de,netwatch.me,newfoodeconomy.*,nintendosoup.com,theartblog.org,theblacksphere.net,upenn.edu##.spu-bg, .spu-box
 11alive.com,12news.com,12newsnow.com,13newsnow.com,13wmaz.com,9news.com,abc10.com,cbs19.tv,firstcoastnews.com,fox15abilene.com,kagstv.com,kare11.com,kcentv.com,kens5.com,kgw.com,khou.com,kiiitv.com,king5.com,krem.com,ksdk.com,ktvb.com,kvue.com,myfoxzone.com,newscentermaine.com,thv11.com,wbir.com,wcnc.com,wfaa.com,wfmynews2.com,wgrz.com,whas11.com,wltx.com,wtsp.com,wusa9.com,wwltv.com,wzzm13.com,760kfmb.com,cbs8.com,kfmbfm.com,myatltv.com,thecwsandiego.com,tucsonnewsnow.com##.desktop-header__progress, .page__dock, .progress
@@ -452,6 +451,7 @@ heralddemocrat.com###dialog-message
 heraldmailmedia.com##.alert-dismissable.alert.access.notification.meter
 herosports.com###poh
 hetzner.com###dpi-banner
+hideipvpn.com###cookie-content_placeholder
 hired.com##.on-top.xs-12of12.box--black.navbar.position-fixed.layout--center
 historyextra.com##.progress-bar-container
 homeadvisor.com###FloatyBar
@@ -459,26 +459,31 @@ homebrewtalk.com###join_hbt_pop_up
 homedepot.com###fancybox-loading
 hon.com##[id^="_im_banner"]
 hotdeals.com##.back-to-top_link, .privacy_policy_pop
+hotukdeals.com##.voteBar
 howardstern.com##.show-banner.notification
+howstuffworks.com###pagination-upper
 howtogeek.com##.email-overlay, .email-overlay555, .overlay-wrapper, .overlay-wrapper555
 hsbc.com###CookieWrapper
-htpcguides.com##.ginger_banner-wrapper
-htpcguides.com##.ssbp-toggle-close.ssbp-toggle-switch
-huffingtonpost.*,huffpost.com###cambria-callout, #subscription-toaster, .image_overlay_icon, .popup-window__modal-body-container, .app-download-interstitial, .newsletter-toaster, .subscription-toaster
-huffingtonpost.*,huffpost.com###guce-inline-consent-iframe
+html5up.net###bar
+htpcguides.com##.ginger_banner-wrapper, .ssbp-toggle-close.ssbp-toggle-switch
+huffingtonpost.*,huffpost.com###cambria-callout, #guce-inline-consent-iframe, #subscription-toaster, .image_overlay_icon, .popup-window__modal-body-container, .app-download-interstitial, .newsletter-toaster, .subscription-toaster
 hwdrivers.com##.privacy_notification
 hwinfo.com##.cookie-agree-with-use
-ibtimes.com###colorbox
+ibm.com##.ibm-chevron-up-link.ibm-nospacing
+ibtimes.com###colorbox, .grwf2_backdrop, .grwf2-wrapper, .scroll-top
 ifixit.com##.modalBox:not(:has(.modalContentBox #login))
-ign.com##.privacy-content
+ifunny.co##.l-scroll-up
+ign.com###policyNotice, .privacy-content
 ignite.co###privy-container, .fancyboxAge-overlay-fixed.fancyboxAge-overlay
 ignite.co##html.fancyboxAge-lock:style(overflow-x: hidden !important; overflow-y: scroll !important; padding-right: 0 !important;)
 ignorelimits.com##.optin-monster-saas-overlay
+ijr.com###progress-bar
 ijr.com,product-reviews.net,themindcircle.com,vegannews.co##.g1-teaser
 imausa.com###snppopup-exit
 imgur.com###post-jump-container, .NewCover .GoUp, .ButtonBackToTop, .go-to-comments.box, .transition.icon-arrow-right.nextItem.contextOverlay
-indeed.com##.cmp-ReactInSoy-ReviewsPromo
-indeed.com##.is-shown.icl-LegalConsentBanner
+impactbnd.com##.fade.fade--load.blog--scroll--item
+inc.com##.SectionUpDown, .clicklessNavButton
+indeed.com##.cmp-ReactInSoy-ReviewsPromo, .is-shown.icl-LegalConsentBanner
 independent.co.uk##.adblock-modal, .tp-backdrop, .tp-modal
 indiatimes.com###backgroundPopup, #scrollTop, .ntfc_overlay, .ntfc_popup
 indiegogo.com##.i-info-message
@@ -493,12 +498,16 @@ instagram.com##.lOPC8, .tHaIX
 instagram.com##body[style*="overflow: hidden;"] .XQXOT:style(width: calc(100% - 12px) !important; padding-right: 0 !important;)
 instagram.com##body[style*="overflow: hidden;"]:style(overflow-y: scroll !important;)
 intego.com##.roadblock
+intelius.com###billy-mays
+intelligencecommunitynews.com###cttus-live-tabs, #cttus-live-tabs-bch
 intellihub.com##.fuze360AdsTakeoverOverlay
+interestingengineering.com##.category-bar:before
 interfax.com###confirmation_request
 inverse.com##.app-modal, .modc__ovly, .newsletter-modal, .nws-ov
 investing.com###PromoteSignUpPopUp, .js-userDataPopup.userDataPopup
 investors.com###investors-policy-terms-consent-dialog
 inyourarea.co.uk##.news-postcode-sticky.postcode-box, .style_container_1nf9F
+ir.net##.pushcrew-chrome-style-notification, .pushcrew-mobile-box
 israelnationalnews.com###spnGoTop
 issuu.com##.ixu-cascading-fluid-typography.ixu-cascading-typography.ixu-cascading-base.icc-Root
 itsfoss.com##.Campaign, .atlanta-background, .jacksonville-background, .optin-monster-saas-overlay
@@ -934,6 +943,7 @@ volkswagenag.com##.cookieWarning
 waaytv.com,wccftech.com##tqwidget
 wagwalking.com###cta-modal
 wallethub.com###footer_cta
+walmart.com##.feedback-fixed-link-wrapper, .feedback-page-wrapper, .prod-feedback-page-wrapper
 warisboring.com##.ulp-overlay, .ulp-window
 warroom.org,watchpro.com##html.hustle-no-scroll:style(overflow-x: auto !important; overflow-y: scroll !important; padding-right: 0 !important;)
 washingtonexaminer.com##.dy-modal-container
