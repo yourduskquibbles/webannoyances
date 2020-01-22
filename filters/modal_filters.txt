@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 12:15 2020-01-22
+! Last Modified: 12:35 2020-01-22
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of cookie bars & other page covering elements. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -179,8 +179,7 @@ business-review.eu##.banner-horizontal-black.banner-horizontal-large
 business-standard.com###eu_cookie
 calgaryherald.com,calgarysun.com,canoe.com,edmontonjournal.com,edmontonsun.com,leaderpost.com,lfpress.com,montrealgazette.com,nationalpost.com,ottawacitizen.com,ottawasun.com,theprovince.com,thestarphoenix.com,torontosun.com,vancouversun.com,windsorstar.com,winnipegsun.com###popupBox
 callername.com,chubstr.com,thermoworks.com###modal
-camelcamelcamel.com###cmp-ui-iframe
-camelcamelcamel.com##.qc-cmp-ui-container
+camelcamelcamel.com###cmp-ui-iframe, .qc-cmp-ui-container
 cameo.com###content > div[data-reactroot=""] div:has([id="cookie-policy-banner-close-btn"])
 campbells.com###_ghostery-message-row
 campusreform.org##.side_modal
@@ -201,8 +200,7 @@ cheddar.com,decrypt.co,decryptmedia.com,deepdiveduck.com,facetdev.com,forgegloba
 chefkoch.de###ck-cookie-statement
 chicagobusiness.com##.dialog-wrapper
 chowhound.com##.fb_lightbox-lock:style(overflow-x: hidden !important; overflow-y: scroll !important;)
-chowhound.com##.fr_rr_sticky, .keep_scrolling, .side.to_topmobile
-chowhound.com##.freyja_overlay
+chowhound.com##.fr_rr_sticky, .freyja_overlay, .keep_scrolling, .side.to_topmobile
 chowhound.com,rollingstone.com,washingtontimes.com##.fb_lightbox-overlay, .preloaded_lightbox
 chromeunboxed.com##.hustle-modal
 cigarbid.com###sweepstakes-popup
@@ -249,7 +247,7 @@ coronacigar.com###modal-mailing-list
 coswitmedia.com##.greatwp-scroll-top
 counsyl.com###sg-popup
 couponcabin.com###couponcabin-slider
-cpbj.com##.flyout-ad.flyout
+cpbj.com,lvb.com,njbiz.com##.flyout-ad.flyout
 crackwatch.com##.Overlay
 craftsy.com##.fancybox-skin
 crain.com###back-to-top
@@ -563,7 +561,6 @@ littlepassports.com,radixdlt.com,utah.com,wilton.com##.popup-dialog, .popup-over
 livestrong.com##.newsletter_signup_overlay
 love2dev.com##.gdpr.footer-prompt
 lowes.com##.emailsignupmechanism
-lvb.com##.flyout-ad.flyout
 m.imgur.com##.FloatingOIA
 m.zappos.com###downloadAppPop
 m4arts.org##.s_WgMETPAModalSkin
@@ -634,6 +631,7 @@ newfoodeconomy.org##.cp-module
 newrepublic.com###highlight-overlay, #read-next-flyout, .simplemodal-close, .site-popup
 news.sky.com##div[class^="sp_message"], div[class^="sp_veil"]
 news.sky.com##html.sp-message-open:style(overflow: auto !important; position: unset !important; padding-right: 0 !important;)
+news.yahoo.com##.userintent-tooltip
 news12.com##.paywall-widget
 newscientist.com###registration-barrier, .prompt
 newscientist.com##body:style(position: relative !important; overflow-x: hidden !important; overflow-y: scroll !important;)
@@ -646,7 +644,6 @@ nhl.com##.btm-nhl-announcement-modal
 nicepage.com##.subscribe-modal
 nightwatch.io##.mcwidget-overlay
 nikkei.com###JSID_baseModalBackground, #JSID_basePopup, #modal_gd04_01
-njbiz.com##.flyout-ad.flyout
 nokia.com##.nokia_cookie-wrapper
 nolo.com###special-holiday-promo-banner
 northernvirginiamag.com##.tve-leads-lightbox.tve_post_lightbox.tve_tcb2_blank
@@ -927,8 +924,7 @@ umaidry.com###cookies-wrapper, .springmail-modal, .springmail-overlay
 undark.org##.mailmunch-overlay, .mailmunch-popover
 unitedhomeexperts.com###popup-container
 uploaded.net##.pico-overlay
-ups.com###__tealiumImplicitmodal
-ups.com###uz_popup_container
+ups.com###__tealiumImplicitmodal, #uz_popup_container
 usatoday.com###TB_overlay, #usat-newsletter-modal, .bx-wrap, .fancybox-skin, .longform-flyouts.icon-shadow.icon-box, .recommended-flyout-wrap
 userstyles.org##.NotificationLine, .android_button_banner
 uservoice.com###externalSiteNotification, #externalSiteNotificationOverlay
@@ -986,6 +982,7 @@ wusthof.com##.custom-modal
 wvnews.com###blox-message-incompatible
 wvva.com###pojo-a11y-toolbar
 www.reddit.com##div button:has-text(/Back to top/)
+www.yahoo.com##[data-wf-toggle-target=".userintent-tooltip"]
 wykop.pl##.big.button, .rodo-alert
 yahoo.com###community-bar, #yucs-top-bar, .canvas-community-bar, .cover-community-bar, .cta-overlay, .hpsetbannerpromotdv2wafer, .yui3-overlay-mask
 yelp.com###fullscreen-pitch, #privacy-policy-notice, .js-open-in-app, .photo-box_overlay
