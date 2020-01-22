@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Generic Filters
-! Last Modified: 14:26 2020-01-21
+! Last Modified: 13:32 2020-01-22
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for generic cosmetic filters - Cosmetically remove common annoyances found on multiple domains typically provided in the social, modal and newsletter Web Annoyances Ultralist sublists. Also includes cookie & gdpr warning elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2202,17 +2202,19 @@
 ##.zergnet-holder
 ##.zergnet-recommend
 ##.zergnet-widget
-##a[href*="facebook.com/dialog/share?"]
-##a[href*="facebook.com/sharer.php?"]
-##a[href*="facebook.com/sharer/sharer.php?"]
-##a[href*="linkedin.com/shareArticle"]
-##a[href*="pinterest.com/js/pinmarklet.js?"]
-##a[href*="reddit.com/submit?title="]
-##a[href*="reddit.com/submit?url="]
-##a[href*="share.flipboard.com"]
-##a[href*="twitter.com/intent/tweet"]
-##a[href*="twitter.com/share"]
-##a[href="reddit.com/submit?url="]
+##[href*="facebook.com/dialog/share?"]
+##[href*="facebook.com/share.php?u="]
+##[href*="facebook.com/sharer.php?"]
+##[href*="facebook.com/sharer/sharer.php?"]
+##[href*="linkedin.com/shareArticle"]
+##[href*="pinterest.com/js/pinmarklet.js?"]
+##[href*="reddit.com/submit/?url="]
+##[href*="reddit.com/submit?title="]
+##[href*="reddit.com/submit?url="]
+##[href*="share.flipboard.com"]
+##[href*="twitter.com/intent/tweet"]
+##[href*="twitter.com/share"]
+##[href="reddit.com/submit?url="]
 ##alert-remaining-views-bar
 ##div [class*="pin-it-button"]
 ##nav-share-buttons
@@ -2244,7 +2246,12 @@ cnet.com#@#.share-button
 dailyprogress.com,dothaneagle.com,fredericksburg.com,godanriver.com,greensboro.com,heraldcourier.com,hickoryrecord.com,journalnow.com,kearneyhub.com,martinsvillebulletin.com,mcdowellnews.com,morganton.com,newsadvance.com,nonpareilonline.com,nptelegraph.com,oanow.com,omaha.com,pressofatlanticcity.com,richmond.com,roanoke.com,scnow.com,starexponent.com,starherald.com,statesville.com,theeagle.com,theindependent.com,tulsaworld.com,wacotrib.com,yorknewstimes.com#@#.social-share-link
 dailyprogress.com,dothaneagle.com,fredericksburg.com,godanriver.com,greensboro.com,heraldcourier.com,hickoryrecord.com,journalnow.com,kearneyhub.com,martinsvillebulletin.com,mcdowellnews.com,morganton.com,newsadvance.com,nonpareilonline.com,nptelegraph.com,oanow.com,omaha.com,pressofatlanticcity.com,richmond.com,roanoke.com,scnow.com,starexponent.com,starherald.com,statesville.com,theeagle.com,theindependent.com,tulsaworld.com,wacotrib.com,yorknewstimes.com#@#.social-share-links
 eonline.com,golfchannel.com,imgur.com,itorrents.org#@#.leaderboard
+facebook.com#@#[href*="facebook.com/dialog/share?"]
+facebook.com#@#[href*="facebook.com/share.php?u="]
+facebook.com#@#[href*="facebook.com/sharer.php?"]
+facebook.com#@#[href*="facebook.com/sharer/sharer.php?"]
 fenix-antologia.pl,linuxtechi.com,ostechnix.com,postimg.cc,tecmint.com#@#.share
+flipboard.com#@#[href*="share.flipboard.com"]
 foxbusiness.com,foxnews.com#@#.article-social
 foxbusiness.com,foxnews.com#@#.social-icons
 gcnlive.com#@##backtotop
@@ -2255,12 +2262,17 @@ howstuffworks.com#@##share-bar-bottom
 howstuffworks.com#@#.share-wrap
 hub.filterlists.com#@#.btn-social
 linkedin.com#@#.share-box
+linkedin.com#@#[href*="linkedin.com/shareArticle"]
 masters.com#@#.social_bar
 mercopress.com#@##goToTop
 moneyunder30.com#@#.social-media-buttons
 msn.com#@#.stb-bsb
+pinterest.com#@#[href*="pinterest.com/js/pinmarklet.js?"]
 postimg.cc,vidlox.me#@##share
 quora.com#@#.facebook_button
+reddit.com#@#[href*="reddit.com/submit/?url="]
+reddit.com#@#[href*="reddit.com/submit?title="]
+reddit.com#@#[href*="reddit.com/submit?url="]
 scmp.com#@#.share-widget
 si.com#@#.scroll-box
 siliconrepublic.com#@#.social-list
@@ -2270,6 +2282,8 @@ sportsgrid.com#@#.social-block
 theaustralian.com.au#@#.share-tools
 thinkprogress.org#@#.sticky-share
 toptenreviews.com#@##back-to-top
+twitter.com#@#[href*="twitter.com/intent/tweet"]
+twitter.com#@#[href*="twitter.com/share"]
 upi.com#@#.share-block
 vt.edu#@#.scrollto
 wikihow.com#@##actionbar
