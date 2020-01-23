@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 14:20 2020-01-22
+! Last Modified: 23:07 2020-01-22
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of cookie bars & other page covering elements. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -232,6 +232,7 @@ community.arm.com##.join-alert
 community.jivesoftware.com###cookie-consent-alert
 community.microfocus.com##.lia-component-common-widget-scroll-to
 community.spotify.com###js-message-bar-cookie-notice, .lia-in.lia-dialog-titleless.lia-panel-dialog-modal-valuesurvey.lia-panel-dialog-modal-simple.lia-panel-dialog.lia-content.ui-corner-all.ui-widget-content.ui-widget.ui-dialog, .ui-widget-overlay
+comparitech.com##.ct-cookie-consent-pop
 complex.com##.video-bar-on-scroll--showing-cookie-notice
 computerweekly.com###cmp-banner
 conference-board.org##.browserCacheBox
@@ -302,6 +303,7 @@ digitalocean.com###DO_CC_PANEL, ._panel_1nv7e_1
 digitalspy.com,elle.com,reuters.com,runnersworld.com###_evidon-barrier-wrapper
 discovermagazine.com##.wp_popup_overlay
 discovermagazine.com##html:style(margin-top: 0 !important;)
+discussions.apple.com##.persist-question
 disney.com##body > div:has-text(/Please review our/)
 disneynow.com##body > div:has-text(/Please review our/)
 distractify.com###_CookieConsent
@@ -770,6 +772,7 @@ rt.com##.cookies__banner
 ruindays.com##.sticky_nav--stick.sticky_nav.main_nav_wrapper, .wheelio_holder
 runitonce.com##.cta-signup-banner, .splash-screen-riop
 sabonnyc.com##.dynotifyjs-corner
+sabrent.com,securityweek.com,yesmovies.*##cloudflare-app
 samsung.com##.cm-cookie-geo
 santafenewmexican.com###notification-area
 scribd.com###lightboxes, #seo_roadblock_lb_new_basic, .modal_wrapper
@@ -779,7 +782,6 @@ seattletimes.com###container:style(filter: none !important;)
 seattletimes.com##.modals
 sec.gov##.acsModalBackdrop
 securitycheckli.st##.style__ScrollToTop-sc-1z0so4v-7
-securityweek.com,yesmovies.*##cloudflare-app
 seekingalpha.com##.modal:not(.sa-auth), .modal-backdrop
 sephora.com##div[data-comp^="GlobalModalsWrapper"]
 sepio.systems###showOnScrollWrapper
