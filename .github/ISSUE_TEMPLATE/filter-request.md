@@ -1,6 +1,6 @@
 ---
-name: New Filter Request - Request websites to be added to Web Annoyances Ultralist
-about: 'Request a website be added to Web Annoyances Ultralist '
+name: Filter Request
+about: 'Request a website or annoyance to be added to Web Annoyances Ultralist '
 title: ''
 labels: filter updates
 assignees: ''

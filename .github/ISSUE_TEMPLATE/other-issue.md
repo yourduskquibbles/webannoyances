@@ -1,17 +1,13 @@
 ---
-name: Existing Filter Issue - Web Annoyances Ultralist
-about: Report specific website features or designs broken by Web Annoyances Ultralist
+name: Other Issue
+about: Suggest an idea for this project
 title: ''
-labels: bug, filter updates
+labels: ''
 assignees: ''
 
 ---
 
 <!-- Replace the bracketed [...] placeholders with your own information. -->
-
-### URL(s) where the issue occurs
-
-`[At least one URL for a web page where the clearly described issue occurs is **mandatory**. The backticks surrounding the URLs is important, it prevents the URL from being clickable. Warn with "NSFW" where applicable.]`
 
 ### Describe the issue
 

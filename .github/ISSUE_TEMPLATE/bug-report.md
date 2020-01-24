@@ -1,6 +1,6 @@
 ---
-name: Request Filter Fix - Report a problem caused by Web Annoyances Ultralist
-about: Report specific website features or designs broken by Web Annoyances Ultralist
+name: Bug Report
+about: Report a filter issue or problem caused by Web Annoyances Ultralist
 title: ''
 labels: bug, filter updates
 assignees: ''
