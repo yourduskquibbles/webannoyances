@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 23:23 2020-01-24
+! Last Modified: 09:26 2020-01-25
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1954,6 +1954,8 @@ developers.google.com##.devsite-top-logo-row-wrapper-wrapper, .devsite-top-secti
 developers.google.com##.nocontent.devsite-nav.devsite-section-nav:style(position: relative !important; top: 0 !important;)
 developers.google.com##.nocontent.devsite-top-section:style(position: relative !important;)
 deviceatlas.com##.navbar:not(#inverted):style(position: absolute !important;)
+devonlive.com##.mod-header > .primary [data-level="1"] .has-children > a:style(padding-right: 13px !important; padding-left: 5px !important;)
+devonlive.com##.mod-header > .primary [data-level="1"] .has-children::after:style(right: 0 !important;)
 devrant.com##.scroll.nav:style(position: absolute !important; background-color: transparent !important;)
 devuan.org###sticky-bar:style(position: relative !important; top: 0 !important;)
 dezeen.com###algolia-search-box.footer-search-form input, #algolia-search-box.gsc-input input, .footer-search-form input, .gsc-input input, .header-search-form#algolia-search-box input, .header-search-form input:style(position: relative !important; top: 2px !important; max-width: 210px !important; margin-right: 0 !important;)
