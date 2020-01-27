@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 10:21 2020-01-27
+! Last Modified: 14:20 2020-01-27
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of cookie bars & other page covering elements. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1016,6 +1016,7 @@ youtube.com##ytd-popup-container paper-dialog:has-text(/Try it free/)
 youtube.com##ytd-popup-container paper-dialog:has-text(/Try the YouTube Kids app/)
 youtube.com##ytd-popup-container paper-dialog:has-text(/What is your biggest complaint/)
 youtube.com##ytd-popup-container paper-dialog:has-text(/You're signed out of YouTube/)
+youtube.com##ytd-popup-container yt-bubble-hint-renderer:has-text(/Get access to exclusive perks/)
 youtube.com##ytd-popup-container yt-tooltip-renderer:has-text(/Choose what to play next/)
 yubico.com##.cookie-pop
 zacks.com###toolbar, .disclosure-fixed-slab
