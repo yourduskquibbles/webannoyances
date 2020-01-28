@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 14:34 2020-01-28
+! Last Modified: 15:30 2020-01-28
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -5540,9 +5540,11 @@ scitation.org##.fragmentNavigationContent ul li a:style(visibility: visible !imp
 scitation.org##.fragmentNavigationContent:style(position: absolute !important; top: 400px !important;)
 scitation.org##.pt-sticky-col-online.most-read-right-side.col-md-1-4:style(position: static !important;)
 sclabs.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute !important; top: 0 !important;)
+scmp.com###main-content:style(overflow-x: hidden !important; overflow-y: scroll !important; padding-right: 0 !important;)
 scmp.com##.affix.affix-processed.navbar-default.navbar.masthead-main-sticky-nav, .fixto-fixed.sidebar-col, .header--fixed.header, .is-stuck.is-at-top.sticky.sticky-wrap:style(position: absolute !important;)
 scmp.com##.article > .wrapper .contents .main .main__left .share-widget--desktop, .article > .wrapper .contents .main .row .share .share-widget--desktop, .lhs-sticky, .notification, .opinion-section, .page-header-menu, .visual-stories .accordion:style(position: static !important;)
 scmp.com##.article > .wrapper .contents .main .row .timeline .timeslot:style(position: static !important; overflow: unset !important;)
+scmp.com##.article-page .article-swiper, .article-page .article-swiper > .wrapper .slide__container:style(overflow: unset !important;)
 scmp.com##.header-menu-container .header-menu .menu-top .menu-panel:style(transform: scale(0) !important; opacity: 0 !important;)
 scmp.com##.header-menu-container:style(position: static !important; transform: translate3d(0px, 0px, 0px) !important;)
 scmp.com##.headroom--top.headroom--pinned.headroom--not-bottom.headroom.header--fixed.header:style(transform: none !important;)
