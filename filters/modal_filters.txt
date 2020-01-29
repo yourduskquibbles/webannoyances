@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 15:30 2020-01-28
+! Last Modified: 15:57 2020-01-29
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of cookie bars & other page covering elements. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -167,7 +167,7 @@ bostonglobe.com##div[class$="overflow_hidden"]:style(height: unset !important;)
 botsentinel.com##.rplm-alert, .rplm-overlay
 bourbonblog.com###signupModal
 bps.org.uk##.mc-banner, .mc-modal, .mc-modal-bg
-brandnol.com##.hestia-scroll-to-top
+brandnol.com,parsers.me##.hestia-scroll-to-top
 breitbart.com###bbsp_site_overlay, #fancybox-container-1, #HaDW, #isc_front_takeover_div, #isc_front_takeover_overlay, #isc_trump_takeover_div, #isc_trump_takeover_overlay
 brightwalldarkroom.com##.tpm-counter
 brit.co##.modal-dialog
@@ -480,6 +480,7 @@ ibm.com##.ibm-chevron-up-link.ibm-nospacing
 ibtimes.com###colorbox, .grwf2_backdrop, .grwf2-wrapper, .scroll-top
 ifixit.com##.modalBox:not(:has(.modalContentBox #login))
 ifixsmartphone.com,puretrance.com##.scroll-top
+ifre.com##.welcome-cookie
 ifunny.co##.l-scroll-up
 ign.com###policyNotice, .privacy-content
 ignite.co###privy-container, .fancyboxAge-overlay-fixed.fancyboxAge-overlay
@@ -815,6 +816,7 @@ smithsonianstore.com###fancybox-overlay, #fancybox-wrap
 smugmug.com##.sm-page-scroll-to-top
 socialitelife.com##.pk-scroll-to-top
 softpedia.com###bottombubble, #spsbtns
+sonsoflibertymedia.com##.scrollTo_top
 sophos.com##.newsletter-panel
 sothebys.com###NotificationOverlay
 soundbaze.com.ng##.afc_popup
