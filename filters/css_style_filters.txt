@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 13:54 2020-01-31
+! Last Modified: 14:01 2020-01-31
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1345,11 +1345,12 @@ cbsnews.com###amp-live-list--title:before:style(bottom: unset !important;)
 cbsnews.com###amp-live-list--title:style(width: auto !important;)
 cbsnews.com###breaking-news:style(position: relative !important; margin-top: 0 !important;)
 cbsnews.com###pip__headline, .floating.media-block:style(position: relative !important; top: 0 !important;)
+cbsnews.com##.content--type-updating_story .content .label--watch-live:style(margin-bottom: 12px !important;)
 cbsnews.com##.content--type-updating_story .content__cta:style(grid-row: 5 !important; margin-top: 15px !important;)
 cbsnews.com##.content--type-updating_story .content__header-wrapper .content__header:style(grid-column: unset !important; grid-gap: 0 !important;)
 cbsnews.com##.content--type-updating_story .content__header-wrapper .content__high-wrapper+.embed:style(margin-left: 0 !important; width: 500px !important;)
 cbsnews.com##.content--type-updating_story .content__header-wrapper .content__meta-byline:style(grid-row: 3 !important; grid-column: 1 / span 2 !important; margin-top: 15px !important;)
-cbsnews.com##.content--type-updating_story .content__header-wrapper .content__meta-timestamp:style(grid-row: 4 !important;)
+cbsnews.com##.content--type-updating_story .content__header-wrapper .content__meta-timestamp:style(grid-row: 4 !important; grid-column: 1 / span 2 !important;)
 cbsnews.com##.content--type-updating_story .content__header-wrapper .content__title:style(font-size: 2rem !important; line-height: 1.13 !important; font-weight: 900 !important; letter-spacing: 0 !important;)
 cbsnews.com##.content--type-updating_story .content__header-wrapper .sharebar:style(display: flex !important;)
 cbsnews.com##.content--type-updating_story .content__header-wrapper:style(padding: 35px 0 40px !important; flex-direction: column !important; grid-gap: 0 40px !important; grid-template-columns: auto 500px !important;)
