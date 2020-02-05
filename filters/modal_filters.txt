@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 15:30 2020-02-04
+! Last Modified: 08:40 2020-02-05
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of cookie bars & other page covering elements. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -761,6 +761,7 @@ reclaimthenet.org###go-top
 recorder.com###ta_pagesLeftPopup
 redalertpolitics.com##.dy-modal-container, .signup-trigger
 reddit.com##.DualPartInterstitialFooter, .DualPartInterstitial__common, .DualPartInterstitial__content, .TransparentOverlay, .TransparentOverlay__overlay, .XPromoListingClickModal, .XPromoPill, .XPromoPopup, .dSHRel.s8g432y-0, .esxAEQ.pqvesn-2, .mobile-web-redirect-bar, .seo-comments, .seo-comments-recommendations, .splash-design.splash_wrapper, .welcome
+reddit.com##body.scroll-disabled:style(position: static !important; overflow: visible !important;)
 redfin.com###RegistrationLightbox, #RegistrationLightbox_underlay
 redhat.com##.redhat-cookie-banner
 redsoccer.info,techobest.com###__vliadb83, #__vliadb83-bg
