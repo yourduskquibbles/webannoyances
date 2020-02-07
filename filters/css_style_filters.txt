@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 18:41 2020-02-06
+! Last Modified: 19:28 2020-02-06
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -4597,6 +4597,8 @@ nest.com##nl-secondary-navigation:style(position: absolute !important; top: 0 !i
 netflix.com###hdPinTarget:style(position: absolute !important; top: 0 !important;)
 netflix.com##.head-opaque.akira-header, .main-header:style(background-color: transparent !important;)
 netflix.com##.nysmHeader, .pinning-header-container:style(position: relative !important; top: 0 !important;)
+netflix.com##.pinning-header-container:style(background: transparent none repeat scroll 0% 0% !important;)
+netflix.com##body:style(pointer-events: auto !important;)
 netgate.com##.header-body:style(position: absolute !important;)
 netgear.com##.fixed.product_navbar, .header_desktop:style(position: absolute !important;)
 netgear.com##.info_content:style(height: auto !important; opacity: 1 !important;)
