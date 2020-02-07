@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Social Filters
-! Last Modified: 11:14 2020-01-31
+! Last Modified: 18:54 2020-02-07
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for social networking & sharing - Remove third party social media share sections, icons & other cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -480,6 +480,10 @@ indiatimes.com##.as_fbicon, .as_inicon, .as_twticon, .leftsocial, .shareMore.sha
 informationisbeautiful.net##.iib-share, .iib-viz-section-share
 infowars.com###crestashareiconincontent, #social-media-share, .inline-social, .social-share
 inkedmag.com##.under-facebook
+insideedition.com##.st_facebook_custom:nth-ancestor(2)
+insideedition.com##.st_flipboard_custom:nth-ancestor(2)
+insideedition.com##.st_reddit_custom:nth-ancestor(2)
+insideedition.com##.st_twitter_custom:nth-ancestor(2)
 insider.com,intel.com##.fa-youtube-play.fa
 insidermonkey.com##.single-post-gp-button
 insightcrime.org##.subscribe

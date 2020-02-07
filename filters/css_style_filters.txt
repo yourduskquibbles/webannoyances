@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 18:48 2020-02-07
+! Last Modified: 18:54 2020-02-07
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -3500,6 +3500,7 @@ insideedition.com###nav, .navbar-header:style(position: relative !important; top
 insideedition.com##.affix.main-header:style(position: absolute !important;)
 insideedition.com##.darkGreyBg.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important; top: 0 !important;)
 insideedition.com##.main_background:style(background-position: 0 !important;)
+insideedition.com##.player__container:style(position: absolute !important; width: 100% !important; height: 100% !important; right: unset !important; bottom: 0 !important; left: 0 !important;)
 insideevs.com,motor1.com,rideapart.com###post_sidebar, .section-sidebar:style(position: static !important; top: 0 !important; transform: translate3d(0px, 0px, 0px) !important;)
 insideevs.com,motor1.com,rideapart.com##.m1-header-main:style(position: relative !important; margin-bottom: -60px !important; transform: translateZ(0) !important;)
 insideevs.com,motor1.com,rideapart.com##.withAvatar.postAuthorBox:style(margin-top: 25px !important;)
