@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 09:51 2020-02-14
+! Last Modified: 09:55 2020-02-14
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1839,7 +1839,7 @@ dailyesports.gg,maccablo.com###nav-wrapper:style(position: absolute !important;)
 dailyfx.com###main_navbar:style(position: relative !important;)
 dailyfx.com##.dfx-articleHeadWrapper, .dfx-menu:style(position: relative !important; top: 0 !important;)
 dailyfx.com##.dfx-articleHead__header:style(font-size: 2rem !important; padding-bottom: .5rem !important; padding-top: .5rem !important;)
-dailyfx.com##.dfx-logoBar:style(visibility: visible !important; z-index: 101 !important;)
+dailyfx.com##.dfx-logoBar:style(position: static !important; visibility: visible !important; z-index: 101 !important;)
 dailyfx.com##.dfx-logoBar__language-switcher:style(display: block !important;)
 dailyfx.com##.dfx-ratesPanel:style(position: absolute !important; top: 0 !important;)
 dailyfx.com##body:style(padding-top: 55px !important;)
