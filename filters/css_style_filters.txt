@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 16:16 2020-02-14
+! Last Modified: 16:21 2020-02-14
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1322,6 +1322,7 @@ cavedivers.com.au##.header-body:style(position: absolute !important;)
 cbc.ca###section-link-title > .icon:style(display: inline-block !important; opacity: 1 !important;)
 cbc.ca###section-link-title:style(opacity: 1 !important; display: inline-block !important; transform: none !important;)
 cbc.ca###sticky-nav-sticky-wrapper, #sticky-nav:style(position: relative !important; top: 0 !important;)
+cbc.ca##.feed .detail.detailBody .detailBodyContainer .detailSideRail .stickyContainer>div:style(position: static !important;)
 cbc.ca##.globalHeader:style(position: relative !important; transform: none !important; box-shadow: none !important;)
 cbc.ca##.landingNav, .selectedNav:style(display: block !important;)
 cbc.ca##.sticky.clearfix.cbc-longform-header, .sticky.recognitionnav:style(position: relative !important;)
