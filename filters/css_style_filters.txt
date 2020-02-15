@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 10:39 2020-02-15
+! Last Modified: 11:07 2020-02-15
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -4378,17 +4378,18 @@ mrctv.org###top-nav:style(position: relative !important; top: 0 !important;)
 mrrooter.com###HeaderZone:style(position: relative !important;)
 msdn.microsoft.com###rightNavigationMenu, #tocnav:style(position: absolute !important;)
 msn.com###header-common.stick-enabled:before:style(height: 0 !important;)
-msn.com###maincontent, #precontent, .irisbactive-top.ap, section.filmstrip .scrollouter:style(margin-top: 0 !important;)
+msn.com###maincontent, #precontent, .irisbactive-top.ap .yveebxa, .irisbactive-top.ap .yvefofpyxkkbo, .irisbactive-top.gp .yveebxa, .irisbactive-top.gp .yvefofpyxkkbo, .irisbactive-top.channelplayerpage .yveebxa, .irisbactive-top.channelplayerpage .yvefofpyxkkbo, [class="i10c-mark-cssrule"], section.filmstrip .scrollouter:style(margin-top: 0 !important;)
 msn.com###refreshbar, .baseHeader_fixed-1:style(position: absolute !important;)
 msn.com##.aaiwtps, .stickable-2.stickable-1, .yveebxa:style(position: relative !important;)
+msn.com##.content aside div[style*="position: fixed;"], .light.filmstrip:style(position: relative !important; top: 0 !important;)
 msn.com##.head:style(position: relative !important; top: 0 !important; margin-top: 0 !important;)
 msn.com##.irisbactive-top.hp .head, .irisbactive-top.hp .irisbanner, .irisbactive-top.hp #maincontent, .irisbactive-top.hp #precontent, .irisbactive-top.sp .head, .irisbactive-top.sp .irisbanner, .irisbactive-top.sp #maincontent, .irisbactive-top.sp #precontent:style(transform: translateZ(0) !important;)
-msn.com##.light.filmstrip:style(position: relative !important; top: 0 !important;)
 msn.com##.oneFooter-1:style(position: relative !important; bottom: 0 !important;)
 msn.com##.playershrunk .overlay-open, .playershrunk .wcvideoplayer:style(position: absolute !important; width: 100% !important; height: 100% !important; top: 0 !important; right: unset !important; bottom: unset !important; z-index: unset !important;)
 msn.com##.spotlight_title-1:style(display: block !important;)
 msn.com##.start .head.scrolled:style(box-shadow: none !important;)
 msn.com##.stb-flex:style(position: absolute !important; top: 0 !important;)
+msn.com##.yveczvy, [class="i10c-mark-cssrule"]:style(position: static !important;)
 msnbc.com###secondary-nav, ._20-Ws2Fn1Y3t_iSqRZ0LON, .container___20-Ws:style(position: absolute !important;)
 msnbc.com###site-header, .feedbackPopup____QQm5.container___kfPO5:style(position: relative !important;)
 msnbc.com##.advert--pencil:style(margin-top: 0 !important;)
@@ -6574,6 +6575,7 @@ theweek.com##.sticky-top.speedreads-module:style(position: absolute !important; 
 theweek.in##.week-header:style(position: relative !important;)
 thewhiskeywash.com##.clearfix.bh:style(position: relative !important;)
 thewhiskeywash.com##.sticky-wrapper:style(position: relative !important; top: 0 !important;)
+thewirecutter.com###__next div[style*="position: fixed;"]:style(position: static !important; top: 0 !important;)
 thewirecutter.com##._1bc0cc20:style(flex: 1 30% !important; background-color: transparent !important;)
 thewirecutter.com##.ac259f97:style(width: 260px !important; height: 58px !important;)
 thewirecutter.com##.b6f700a9._9b7aa201, ._5f872f8f .a3d55f08 .e29b8700 + .e29b8700:style(display: block !important;)
