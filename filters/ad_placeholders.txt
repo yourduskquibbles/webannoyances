@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Ad Placeholder Filters
-! Last Modified: 11:16 2020-02-15
+! Last Modified: 11:21 2020-02-16
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for empty advertising placeholders.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -208,7 +208,7 @@ livestrong.com##.js-mobile_adsense, .js-mobile_adsense2
 medicinenet.com###ad
 meh.com###advertisement, #advertisements
 microsoft.com##.skylight-entry
-msn.com###MSN_NTP_Faster_Creative, #Microsoft_News_app, #irisbannerph, #msccBanner, .dynamicRRWrapper, .size234column.todayshowcasead
+msn.com###MSN_NTP_Faster_Creative, #Microsoft_News_app, #irisbannerph, #msccBanner, .dynamicRRWrapper, .size234column.todayshowcasead, div[data-nativead-placements]
 msnbc.com,nbcnews.com,today.com##.db-m.dn[style*="height"], [class*="bannerAd"]
 nbcsports.com###topbanner
 nbcwashington.com##.ad, .sfadSlot
@@ -285,6 +285,7 @@ tomsguide.com,tomshardware.com###Ribbon_ad, #responsive_ad
 torontolife.com##.ad-frame--leaderboard
 totalfratmove.com###mobile-bottom-ad
 townhall.com##.ad
+tripadvisor.*###taplc_header_banner_ad_rr_responsive_0
 trustedreviews.com##.ad-hidden-tab.ad-hidden-mob, .advert, .ipc-advert
 tutsplus.com##.post__article-ad
 tvguide.com##.ad-dfp
