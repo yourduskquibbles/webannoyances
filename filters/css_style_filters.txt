@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 23:25 2020-02-17
+! Last Modified: 08:26 2020-02-18
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -6855,7 +6855,7 @@ twitchy.com###sticky1, #sticky2, #sticky3, .stick:style(position: static !import
 twitlonger.com##.navbar-fixed-top.navbar:style(position: relative !important; top: 0 !important;)
 twitter.com###header, #message-drawer, .js-topbar.topbar, .rn-1lgpqti.rn-zchlnj.rn-1xcajam.rn-12vffkv.rn-gy4na3.rn-1mdbw0j.rn-9aemit.rn-wk8lta.rn-bcqeeo.rn-ifefl9.rn-11wrixw.rn-p1pxzi.rn-61z16t.rn-1mnahxq.rn-1d2f490.rn-eqz5dr.rn-7vfszb.rn-1pxmb3b.rn-6koalj.rn-deolkf.rn-1p0dtai.rn-gxnn5r.rn-ndvcnb.rn-fnigne.rn-13yce4e.rn-mm0ijv.rn-rull8r.rn-14skgim.rn-1efd50x.rn-aqfbo4.rn-1oszu61, .r-1g40b8q.r-ipm5af.r-gtdqiz.r-qklmqi.r-rull8r.r-1igl3o0.r-kemksi.r-aqfbo4.css-1dbjc4n, .r-1g40b8q.r-ipm5af.r-gtdqiz.r-qklmqi.r-rull8r.r-1ila09b.r-yfoy6g.r-aqfbo4.css-1dbjc4n, .css-1dbjc4n.r-f9dfq4, .css-1dbjc4n.r-1gymjhz:style(position: relative !important;)
 twitter.com###page-container, .topbar-spacer, .wrapper-search.AppContent:style(padding-top: 0 !important;)
-twitter.com##.AppBar--overSignup.u-cf.AppBar--inverted.AppBar, .CoreLayout-header, .ProfileCanopy-inner, .SearchNavigation, .js-variableHeightTopBar.StreamsTopBar--fixed.StreamsTopBar, .u-bgUserColor.ProfileCanopy-header, .u-boxShadow.ProfileCanopy-navBar:style(position: relative !important; top: 0 !important;)
+twitter.com##.AppBar--overSignup.u-cf.AppBar--inverted.AppBar, .CoreLayout-header, .ProfileCanopy-inner, .SearchNavigation, .js-variableHeightTopBar.StreamsTopBar--fixed.StreamsTopBar, .u-bgUserColor.ProfileCanopy-header, .u-boxShadow.ProfileCanopy-navBar, [data-testid="sidebarColumn"] > div > div[style*="top: "]:style(position: relative !important; top: 0 !important;)
 twitter.com##.ProfileCanopy-avatar:style(bottom: -87px !important;)
 twitter.com##.ProfileCanopy-header.u-bgUserColor, .ProfileCanopy-header:style(margin-top: 0 !important;)
 twitter.com##.ProfileCanopy-headerBg > img:style(transform: none !important;)
