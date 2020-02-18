@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Ad Placeholder Filters
-! Last Modified: 12:20 2020-02-16
+! Last Modified: 23:14 2020-02-17
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for empty advertising placeholders.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -58,7 +58,7 @@ avclub.com,clickhole.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,jezeb
 avgthreatlabs.com###banner
 avsforum.com##.Leaderboard-bottom, .box-ad.ad, .sponsors-footer.wrapper
 awfulannouncing.com##.top-ad-section
-axios.com##div[class^="StreamCapAd"]
+axios.com##div[class^="StreamCapAd"], [class*="StoryImageVideoAd"]
 axlegeeks.com##.active.adr-app-banner
 azcapitoltimes.com###check-also-box
 babycenter.com###ad_slice, #globalHeaderAd, #leaderAdOuter, #mobileRegFloaterContainer, .mediumRectangleAdContainer, .skyscraperAdContainer
