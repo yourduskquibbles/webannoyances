@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 08:59 2020-02-25
+! Last Modified: 09:21 2020-02-25
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1098,9 +1098,12 @@ bnnbloomberg.ca##.content .article-media .video-outer-wrapper.persistent .video-
 bnnbloomberg.ca##.main-header:style(position: absolute !important; transform: none !important;)
 bnnbloomberg.ca##.ng-scope.stuck.video-wrapper:style(position: relative !important; top: unset !important; left: unset !important; width: 100% !important;)
 bnonews.com###mvp-main-body-wrap, #mvp-main-nav-bot, .mvp-fixed-next:style(margin-top: 0 !important;)
-bnonews.com###mvp-main-nav-bot[class="left relative"], #mvp-main-nav-bot[class="left relative mvp-fixed1"], #mvp-main-nav-bot[class="left relative mvp-fixed1 mvp-fixed2"]:style(position: relative !important; top: 0 !important; height: 50px !important; box-shadow: none !important; transform: translate3d(0,0,0) !important;)
-bnonews.com###mvp-main-nav-top[class="left relative mvp-nav-small mvp-fixed mvp-fixed-shadow mvp-soc-mob-up"],#mvp-main-nav-top[class="left relative mvp-nav-small"], #mvp-main-nav-top[class="left relative mvp-nav-small mvp-fixed"]:style(position: relative !important; top: 0 !important; padding: 15px 0 !important; height: auto !important; box-shadow: none !important; transform: translate3d(0,0,0) !important;)
+bnonews.com###mvp-main-nav-bot[class="left relative mvp-fixed1 mvp-fixed2"], #mvp-main-nav-bot[class="left relative mvp-fixed1"], #mvp-main-nav-bot[class="left relative"]:style(position: relative !important; top: 0 !important; height: 50px !important; box-shadow: none !important; transform: translate3d(0,0,0) !important;)
+bnonews.com###mvp-main-nav-top[class="left relative mvp-nav-small mvp-fixed mvp-fixed-shadow mvp-soc-mob-up"], #mvp-main-nav-top[class="left relative mvp-nav-small mvp-fixed mvp-fixed-shadow"], #mvp-main-nav-top[class="left relative mvp-nav-small mvp-fixed"], #mvp-main-nav-top[class="left relative mvp-nav-small"]:style(position: relative !important; top: 0 !important; padding: 15px 0 !important; height: auto !important; box-shadow: none !important; transform: translate3d(0,0,0) !important;)
+bnonews.com##.mvp-nav-logo-reg > img[itemprop="logo"]:style(float: none !important;)
+bnonews.com##.mvp-nav-logo-reg:style(display: block !important; text-align: center !important;)
 bnonews.com##.mvp-nav-top-left, .mvp-nav-top-right:style(display: block !important;)
+bnonews.com##.mvp-nav-top-mid:style(height: 87.25px !important; text-align: center !important;)
 bnonews.com##.navbar-fixed-top.navbar-default.navbar, .pull-left.navbar-header:style(position: relative !important; top: 0 !important;)
 bnqt.com###nav-branding:style(position: absolute !important; top: 0 !important;)
 bnqt.com,golfweek.com,hoopshype.com,mmajunkie.com,thehuddle.com,usatodayhss.com###video-container:style(position: static !important;)
