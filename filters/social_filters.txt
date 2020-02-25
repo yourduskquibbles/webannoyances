@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Social Filters
-! Last Modified: 14:28 2020-02-25
+! Last Modified: 14:43 2020-02-25
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for social networking & sharing - Remove third party social media share sections, icons & other cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -258,6 +258,8 @@ deloitte.com##.share-action-list-mobile
 democracynow.org##.popup.google, .scrolling.social
 denverpost.com##.sd-sharing-enabled.sharedaddy
 designtaxi.com###follow
+developer.amazon.com##.share__icon-fb, .share__icon-in, .share__icon--tw
+developer.amazon.com##[class*="share__icon"]:nth-ancestor(1)
 dezeen.com##.header-search > .social-buttons > h2, .social-buttons
 digg.com##.facebook, .item-actions__share-actions, .js--facebook-share-btn, .js--save-btn.item-actions__action.digg-story__action--save, .js--tweet-btn, .jw-settings-sharing, .story-action, .story-actions__container, .twitter
 digiconomist.net###Social-Sidebar
