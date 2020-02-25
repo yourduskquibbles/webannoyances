@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 08:31 2020-02-25
+! Last Modified: 08:42 2020-02-25
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -132,7 +132,7 @@
 97x.com,arcadesushi.com,comicsalliance.com,diffuser.fm,guyspeed.com,loudwire.com,noisecreep.com,popcrush.com,screencrush.com,tasteofcountry.com,theboombox.com,theboot.com,thefw.com,ultimateclassicrock.com,wbckfm.com,xxlmag.com##.main-aside:style(background-color: transparent !important;)
 97x.com,arcadesushi.com,comicsalliance.com,diffuser.fm,guyspeed.com,loudwire.com,noisecreep.com,popcrush.com,screencrush.com,tasteofcountry.com,theboombox.com,theboot.com,thefw.com,ultimateclassicrock.com,wbckfm.com,xxlmag.com##.react-parallax-background-children:style(transform: none !important;)
 97x.com,arcadesushi.com,comicsalliance.com,diffuser.fm,guyspeed.com,loudwire.com,noisecreep.com,popcrush.com,screencrush.com,tasteofcountry.com,theboombox.com,theboot.com,thefw.com,ultimateclassicrock.com,wbckfm.com,xxlmag.com##.site-menu-drawer:style(margin-top: 0 !important;)
-99bitcoins.com,appuals.com,avsforum.com,blackmainstreet.net,bloody-disgusting.com,ccn.com,complyadvantage.com,conatusnews.com,coswitmedia.com,defence-blog.com,digitaltransactions.net,directexpose.com,discoverpods.com,dnyuz.com,duffelblog.com,escapistmagazine.com,freedomoutpost.com,gematsu.com,gizmochina.com,govconwire.com,greenrushdaily.com,groovypost.com,hardwaresfera.com,hedgeaccordingly.com,hightimes.com,instabug.com,latinamericareports.com,marriedbiography.com,mediarun.com,militarymachine.com,networthpost.org,overclock.net,psypost.org,reneweconomy.com.au,sedsports.com,socialanxietysupport.com,socialcops.com,stackify.com,steelersdepot.com,teslarati.com,thecoderworld.com,thefreethoughtproject.com,thepostmillennial.com,thewalrus.ca,top10homeremedies.com,topstocksnews.com,tsarizm.com,usasports.ml,visualcapitalist.com,vrv.co,vrvblog.co,washingtonexec.com,webtrickz.com,whatsonweibo.com,wktv.com,wthitv.com##.theiaStickySidebar:style(position: static !important; transform: none !important;)
+99bitcoins.com,appuals.com,avsforum.com,blackmainstreet.net,bloody-disgusting.com,bnonews.com,ccn.com,complyadvantage.com,conatusnews.com,coswitmedia.com,defence-blog.com,digitaltransactions.net,directexpose.com,discoverpods.com,dnyuz.com,duffelblog.com,escapistmagazine.com,freedomoutpost.com,gematsu.com,gizmochina.com,govconwire.com,greenrushdaily.com,groovypost.com,hardwaresfera.com,hedgeaccordingly.com,hightimes.com,instabug.com,latinamericareports.com,marriedbiography.com,mediarun.com,militarymachine.com,networthpost.org,overclock.net,psypost.org,reneweconomy.com.au,sedsports.com,socialanxietysupport.com,socialcops.com,stackify.com,steelersdepot.com,teslarati.com,thecoderworld.com,thefreethoughtproject.com,thepostmillennial.com,thewalrus.ca,top10homeremedies.com,topstocksnews.com,tsarizm.com,usasports.ml,visualcapitalist.com,vrv.co,vrvblog.co,washingtonexec.com,webtrickz.com,whatsonweibo.com,wktv.com,wthitv.com##.theiaStickySidebar:style(position: static !important; transform: none !important;)
 99bitcoins.com,athabascaadvocate.com,barrheadleader.com,bonnyvillenouvelle.ca,conatusnews.com,hardwaresfera.com,innisfailprovince.ca,laclabichepost.com,mountainviewgazette.ca,oldsalbertan.ca,rmoutlook.com,rockyviewweekly.com,spjournal.com,stalbertgazette.com,washingtonexec.com,westernwheel.com,westlocknews.com##.sticky-nav.cf.navigation-wrap:style(position: absolute !important;)
 9gag.com###sidebar-content:style(position: relative !important;)
 9gag.com###top-nav:style(position: absolute !important;)
@@ -1098,6 +1098,11 @@ bnnbloomberg.ca##.content .article-media .video-outer-wrapper.persistent .video-
 bnnbloomberg.ca##.main-header:style(position: absolute !important; transform: none !important;)
 bnnbloomberg.ca##.ng-scope.stuck.video-wrapper:style(position: relative !important; top: unset !important; left: unset !important; width: 100% !important;)
 bnonews.com##.navbar-fixed-top.navbar-default.navbar, .pull-left.navbar-header:style(position: relative !important; top: 0 !important;)
+bnonews.com,duffelblog.com###mvp-main-body-wrap, #mvp-main-nav-bot, .mvp-fixed-next:style(margin-top: 0 !important;)
+bnonews.com,duffelblog.com###mvp-main-nav-bot, #mvp-main-nav-top, #mvp-main-nav-bot-cont, .mvp-fixed1:style(position: relative !important; top: 0 !important; transform: none !important;)
+bnonews.com,duffelblog.com###mvp-main-nav-top:style(padding: 15px 0 !important;)
+bnonews.com,duffelblog.com###mvp-top-head-wrap:style(position: absolute !important; box-shadow: none !important;)
+bnonews.com,duffelblog.com##.mvp-nav-small .mvp-nav-top-wrap, .mvp-nav-small .mvp-nav-top-mid:style(height: 102.617px !important;)
 bnqt.com###nav-branding:style(position: absolute !important; top: 0 !important;)
 bnqt.com,golfweek.com,hoopshype.com,mmajunkie.com,thehuddle.com,usatodayhss.com###video-container:style(position: static !important;)
 boardingarea.com###masthead, #navigation-toggle, .top.site-navigation:style(position: relative !important;)
@@ -2225,11 +2230,6 @@ dualshockers.com##.nav-main:style(position: absolute !important;)
 duckduckgo.com###header_wrapper:not(.header-wrap--with-hero), .js-header-wrap.header-wrap:not(.header-wrap--with-hero):style(position: relative !important; top: 0 !important;)
 duckduckgo.com##.is-stuck.has-dropdowns.js-zcm-sticky.metabar--fixed.metabar:style(position: absolute !important; top: 0 !important;)
 duckduckgo.com##.js-serp-bottom-right.serp__bottom-right:style(position: absolute !important; bottom: unset !important;)
-duffelblog.com###mvp-main-body-wrap, #mvp-main-nav-bot, .mvp-fixed-next:style(margin-top: 0 !important;)
-duffelblog.com###mvp-main-nav-bot, #mvp-main-nav-top, #mvp-main-nav-bot-cont, .mvp-fixed1:style(position: relative !important; top: 0 !important; transform: none !important;)
-duffelblog.com###mvp-main-nav-top:style(padding: 15px 0 !important;)
-duffelblog.com###mvp-top-head-wrap:style(position: absolute !important; box-shadow: none !important;)
-duffelblog.com##.mvp-nav-small .mvp-nav-top-wrap, .mvp-nav-small .mvp-nav-top-mid:style(height: 102.617px !important;)
 dukehealth.org###desktop-header:style(position: absolute !important;)
 duluthtrading.com##.fix-head .header-banner:style(top: 0 !important;)
 duluthtrading.com##.fix-head .top-promo-bg:style(height: 39px !important;)
