@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Social Filters
-! Last Modified: 10:43 2020-02-25
+! Last Modified: 14:28 2020-02-25
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for social networking & sharing - Remove third party social media share sections, icons & other cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1029,11 +1029,11 @@ tmall.com##.sn-nav-wrapper
 tmz.com##.app-links, .inpost-social, .gallery-share.facebook, .gallery-share.twitter, .masthead-social, .social__btn--facebook, .social__btn--twitter
 todayonline.com##.is-active.today-utility-bar, .today-share-mobile
 toddstarnes.com##.yui3-widget
-tomsguide.com,tomshardware.com##.share-bar, .shareButtons, .uix_icon--share.uix_icon.fa-share-alt.far.fa--xf
-tomsguide.com,tomshardware.com##.socialite.facebook:nth-ancestor(1)
-tomsguide.com,tomshardware.com##.socialite.pinterest:nth-ancestor(1)
-tomsguide.com,tomshardware.com##.socialite.reddit:nth-ancestor(1)
-tomsguide.com,tomshardware.com##.socialite.twitter:nth-ancestor(1)
+tomsguide.com,tomshardware.*##.share-bar, .shareButtons, .uix_icon--share.uix_icon.fa-share-alt.far.fa--xf
+tomsguide.com,tomshardware.*##.socialite.facebook:nth-ancestor(1)
+tomsguide.com,tomshardware.*##.socialite.pinterest:nth-ancestor(1)
+tomsguide.com,tomshardware.*##.socialite.reddit:nth-ancestor(1)
+tomsguide.com,tomshardware.*##.socialite.twitter:nth-ancestor(1)
 tomssurprisesale.com###ss-signup
 topclassactions.com##.getsocial
 topic.com##.ArticleTombstone-shareCol, .HeaderGrid-socialList

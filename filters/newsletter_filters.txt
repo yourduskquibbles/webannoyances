@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Newsletter Subscription Filters
-! Last Modified: 11:02 2020-02-25
+! Last Modified: 14:28 2020-02-25
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for newsletter annoyances - Remove newsletter & other subscription cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -16,7 +16,7 @@
 500ish.com,artplusmarketing.com,atrium.co,backchannel.com,backstage.1blocker.com,badootech.badoo.com,bitcointechtalk.com,blazingdb.com,blog.angularindepth.com,blog.bitwarden.com,blog.coinbase.com,blog.confiant.com,blog.devcolor.org,blog.growthhackers.com,blog.hiri.com,blog.ltse.com,blog.statebox.org,blog.twitch.tv,blog.waffle.io,bluerockpublicradio.com,bolt.io,boomsupersonic.com,bradfieldcs.com,brightthemag.com,broadcast.listennotes.com,checkio.org,citizen428.net,coach.me,codeburst.io,dave-bailey.com,discordapp.com,doist.com,doit-intl.com,dotandline.net,doublepulsar.com,electricliterature.com,elidourado.com,esciencecenter.nl,fossa.io,freecodecamp.org,fritz.ai,getadblock.com,greylock.com,headmelted.com,helium.com,howwegettonext.com,iheart.com,injusticetoday.com,insightdatascience.com,iota.org,itnext.io,itsyourturnblog.com,jupyter.org,keepingstock.net,kiwi.com,learngoprogramming.com,learningbyshipping.com,ledwards.com,legalist.com,logrocket.com,mapbox.com,medium.com,melmagazine.com,mondaynote.com,newco.co,news.smugmug.com,nyulocal.com,ofdollarsanddata.com,okmeter.io,open.nytimes.com,postlight.com,prototypr.io,rainway.io,sagefy.org,signalvnoise.com,slack.engineering,slackhq.com,springboard.com,standardnotes.org,startupsventurecapital.com,stoplight.io,tech.buzzfeed.com,theabacus.io,theawl.com,thebigroundtable.com,thebillfold.com,thebolditalic.com,thecontrol.co,theringer.com,thinkprogress.org,thriveglobal.com,timeline.com,towardsdatascience.com,udacity.com,unpatent.co,usejournal.com,uxdesign.cc,uxplanet.org,warisboring.com,wearemel.com,whatahowler.com,x.company##.js-directEmailSignup
 99percentinvisible.org###engagement-newsletter
 a16z.com##.home-section--subscribe, .widget--subscribe.widget
-aawsat.com,cjr.org,lawandcrime.com,lawnewz.com,mariettatimes.com,mosaicscience.com,quantamagazine.org,thewalrus.ca,tomsguide.com,tomshardware.com,toptenreviews.com###newsletter
+aawsat.com,cjr.org,lawandcrime.com,lawnewz.com,mariettatimes.com,mosaicscience.com,quantamagazine.org,thewalrus.ca,tomsguide.com,tomshardware.*,toptenreviews.com###newsletter
 abc.net.au##.newsmail-signup
 abcactionnews.com##.module--email-widget
 abcbirds.org##.newslatter-foot
@@ -298,7 +298,7 @@ kyivpost.com,secjuice.com##.subscribe-form
 lamag.com##.hubspot-form-widget
 lamag.com##p a[href*="/newsletters/"]:nth-ancestor(3)
 laphamsquarterly.org###lq_daily
-laptopmag.com###newsletter-subscribe-banner
+laptopmag.com###newsletter-subscribe-banner, .newsletter-signup.box
 latimes.com,pacificsandiego.com,sandiegouniontribune.com##.NewsletterModule
 lawenforcementtoday.com##.block-subscribe-now:nth-ancestor(2)
 legalinsurrection.com##.sidebarNewsletter:nth-ancestor(1)
@@ -407,7 +407,7 @@ parenting.nytimes.com##[data-testid="home-newsletter-signup"]
 patch.com###in-article-boxed-recirc
 patheos.com##.simple-signup
 pbs.org##.sidebar__subscribe
-pcgamer.com,tomsguide.com,tomshardware.com##.newsletter-signup.box
+pcgamer.com,tomsguide.com,tomshardware.*,toptenreviews.com##.newsletter-signup.box
 pcmag.com###subscribe-pcmag, #subscribe_btn, .newsletter-widget
 pcworld.com###footer-subscribe
 pedestrian.tv##.panel-signup
