@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 16:29 2020-02-25
+! Last Modified: 12:29 2020-02-27
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of cookie bars & other page covering elements. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -183,6 +183,7 @@ buffer.com###gs
 burningman.org##.post-navigation
 business-review.eu##.banner-horizontal-black.banner-horizontal-large
 business-standard.com###eu_cookie
+buzzfeed.com###mod-action-bar-1, #mod-action-bar-subbuzz-1, #mod-privacy-policy-banner-1, .action-bar, [data-module="action-bar-subbuzz"]
 calgaryherald.com,calgarysun.com,canoe.com,edmontonjournal.com,edmontonsun.com,leaderpost.com,lfpress.com,montrealgazette.com,nationalpost.com,ottawacitizen.com,ottawasun.com,theprovince.com,thestarphoenix.com,torontosun.com,vancouversun.com,windsorstar.com,winnipegsun.com###popupBox
 callername.com,chubstr.com,thermoworks.com###modal
 camelcamelcamel.com###cmp-ui-iframe, .qc-cmp-ui-container
@@ -209,6 +210,7 @@ chowhound.com##.fb_lightbox-lock:style(overflow-x: hidden !important; overflow-y
 chowhound.com##.fr_rr_sticky, .freyja_overlay, .keep_scrolling, .side.to_topmobile
 chowhound.com,rollingstone.com,variety.com,washingtontimes.com##.fb_lightbox-overlay, .preloaded_lightbox
 chromeunboxed.com##.hustle-modal
+chubstr.com,contently.com,si.com###progress
 cigarbid.com###sweepstakes-popup
 cigarchief.com,juanitajean.com,kyivpost.com,mcafee.com###heateor_ss_browser_popup_bg, #the_champ_sharing_more_providers
 cigarking.com##.pushassist_notification8
@@ -246,7 +248,6 @@ confluent.io###header-pusher
 consequenceofsound.net###footeradhesive
 conservativeintel.com###splashmodal, .popupbox_mid
 contactmusic.com##.show-xl.show-lg.nextArticle
-contently.com##progress
 coogi.com,mysanantonio.com##.fancybox-lock:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 cookieandkate.com###wbounce-modal
 cookistry.com##.nav-circlepop
@@ -283,7 +284,7 @@ dariusforoux.com###ck_overlay, .ck_modal
 darlingmagazine.org,headphonesty.comsocialcops.com,socialitelife.com,yp.sg##.posts-pagination
 databreachtoday.com###popup-interstitial-full-page
 dataviper.io##.footer-scroll-top, .scroll-top
-daveramsey.com###dr_interrupter_budgeting, .dr-Interrupter
+daveramsey.com###ProgressBar, #dr_interrupter_budgeting, .dr-Interrupter
 dccouncil.us###openModal
 dd-wrt.com##.cookieinfo
 deadline.com##.a-wrapper.pmc-u-padding-a-1.u-box-shadow-medium.pmc-u-background-white.pmc-u-margin-b-0
@@ -306,7 +307,7 @@ digg.com##.overflow-wrap:style(overflow-x: auto !important;)
 digital.com###discbar_footer
 digitalcitizen.life###eu-cookies-consent
 digitalocean.com###DO_CC_PANEL, ._panel_1nv7e_1
-digitalspy.com,elle.com,reuters.com,runnersworld.com###_evidon-barrier-wrapper
+digitalspy.com,elle.com,esquire.*,harpersbazaar.com,investors.com,marieclaire.com,popularmechanics.com,reuters.com,roadandtrack.com,runnersworld.com,shondaland.com,si.com,townandcountrymag.com###_evidon-barrier-wrapper
 discovermagazine.com##.wp_popup_overlay
 discovermagazine.com##html:style(margin-top: 0 !important;)
 discussions.apple.com##.persist-question
@@ -338,6 +339,7 @@ electromaker.io###cccwr, .open.footer-collapse-container
 electronicdesign.com,machinedesign.com##.gdpr-popup-border
 elie.net,masterclass.com##.mc-modal
 elifesciences.org##.opt-in-message-bar
+elle.com##.policy-bar
 ello.co##.Modal
 elpasotimes.com##body:style(height: auto !important;)
 elpasotimes.com##div[id^="sp_message_id"]
@@ -598,6 +600,7 @@ medicalxpress.com,outsideonline.com,pjrvs.com##.notice
 medicinenet.com###backTop, .avgrund-overlay, .avgrund-popin
 meds.se##.accepted-cookies
 megynkelly.org###openModal
+menshealth.com##.prev-item
 merriam-webster.com###subscribe-overlay
 metacafe.com###shadow, .OUTBRAIN
 metacritic.com###popup_newslettter
@@ -740,6 +743,7 @@ politicalstorm.com##.link-overlay
 politico.com###overlayMagazine, .cookie-modal.js-cookie-modal, .is-stuck.pop-up-bar
 popsugar.com###policy-modal-banner, .modal-email-widget
 popularwoodworking.com##.pagnav-wrapper
+post-gazette.com##.pgevoke-backtotop
 potbelly.com##.general-alert-modal, .global-modal, .global-modal-background
 potterybarn.com##.overlayMask.stickyOverlayMask, .overlayScroll.stickyOverlayScroll
 pressdemocrat.com##.cph-ccpa_banner
@@ -758,6 +762,7 @@ quora.com##.growl_overlay, .modal_promoted_content
 qz.com##div[aria-labelledby="subscribe-bar-primary-text"]
 radarbox24.com###privacy-popup
 radaronline.com##.jeeng-widget-reset, .topic-bar
+radio-canada.ca###progressBar
 radixdlt.com##.progress-bar-holder
 rag-bone.com##.js-footer-cookie-banner
 rankedboost.com##.bttt-active
@@ -793,11 +798,13 @@ rsf.org###overlays
 rt.com##.cookies__banner
 ruindays.com##.sticky_nav--stick.sticky_nav.main_nav_wrapper, .wheelio_holder
 runitonce.com##.cta-signup-banner, .splash-screen-riop
+runnersworld.com##.loaded.region-banner.region
 sabonnyc.com##.dynotifyjs-corner
 sabrent.com,securityweek.com,yesmovies.*##cloudflare-app
 saksfifthavenue.com###generic-modal, #saksOverlay
 samsung.com##.cm-cookie-geo, .f_backtotop
 santafenewmexican.com###notification-area
+scientificamerican.com##.mobile-context-nav, .nextStoryFly, .page-context-nav
 scribd.com###lightboxes, #seo_roadblock_lb_new_basic, .modal_wrapper
 scribd.com##body.modal_open:style(overflow-x: hidden !important; overflow-y: scroll !important; padding-right: 0 !important;)
 seatgeek.com##.seatgeek-lightbox-background
@@ -869,14 +876,13 @@ tabletmag.com##.animated-email-box
 taskandpurpose.com##.charlotte-background, .tp-oim-inline-background
 teamblind.com##.app_down_bar, .pop_toast_noti
 techcommunity.microsoft.com##.lia-panel-dialog-modal-valuesurvey.ui-dialog, .scroll-to-top, .ui-widget-overlay
-techcrunch.com##.surveymonkey-popup
+techcrunch.com##.next-story-link, .surveymonkey-popup
 technochops.com###sgcboxContent, #sgcboxOverlay
 ted.com###recommends-banner, ._Notice_vquc8_16
 telegraph.co.uk###qb_cookie_consent_main
 tenforums.com###cookiescript_injected
 tested.com,wonderwall.com###footer-notification
-the-sun.com,thescottishsun.co.uk,thesun.co.uk,thesun.ie###cookie-bar
-the-sun.com,thescottishsun.co.uk,thesun.co.uk,thesun.ie,upi.com##.back-to-top
+the-sun.com,thescottishsun.co.uk,thesun.co.uk,thesun.ie###cookie-bar, .back-to-top
 theadvocate.com##.popover-content
 theatlantic.com##.c-nudge__container
 theaustralian.com.au##.mm-reveal.account-lightbox
@@ -960,6 +966,7 @@ ulta.com###js-stickyEmailSignUpFooter
 umaidry.com###cookies-wrapper, .springmail-modal, .springmail-overlay
 undark.org##.mailmunch-overlay, .mailmunch-popover
 unitedhomeexperts.com###popup-container
+upi.com##.back-to-top
 uploaded.net##.pico-overlay
 ups.com###__tealiumImplicitmodal, #uz_popup_container
 usatoday.com###TB_overlay, #usat-newsletter-modal, .bx-wrap, .fancybox-skin, .longform-flyouts.icon-shadow.icon-box, .recommended-flyout-wrap
@@ -1037,10 +1044,10 @@ youtube.com##ytd-popup-container paper-dialog:has-text(/Get access to exclusive 
 youtube.com##ytd-popup-container paper-dialog:has-text(/How is YouTube today?/)
 youtube.com##ytd-popup-container paper-dialog:has-text(/Our Terms of Service have been updated/)
 youtube.com##ytd-popup-container paper-dialog:has-text(/Rate your ads/)
-youtube.com##ytd-popup-container paper-dialog:has-text(/Which problems are you experiencing/)
 youtube.com##ytd-popup-container paper-dialog:has-text(/Try it free/)
 youtube.com##ytd-popup-container paper-dialog:has-text(/Try the YouTube Kids app/)
 youtube.com##ytd-popup-container paper-dialog:has-text(/What is your biggest complaint/)
+youtube.com##ytd-popup-container paper-dialog:has-text(/Which problems are you experiencing/)
 youtube.com##ytd-popup-container paper-dialog:has-text(/You're signed out of YouTube/)
 youtube.com##ytd-popup-container yt-bubble-hint-renderer:has-text(/Get access to exclusive perks/)
 youtube.com##ytd-popup-container yt-tooltip-renderer:has-text(/Choose what to play next/)

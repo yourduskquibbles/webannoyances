@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Social Filters
-! Last Modified: 16:29 2020-02-25
+! Last Modified: 12:29 2020-02-27
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for social networking & sharing - Remove third party social media share sections, icons & other cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -194,7 +194,7 @@ civileats.com##.side-social
 cjr.org###bottom-sharing
 cleantechnica.com,iceagenow.info,reclaimthenet.org###dpsp-content-top
 cloudflare.com##.IN-widget, .learning-share-icons
-cnbc.com###rt_social, #social-buttons-nav_gig_containerParent, #social-buttons_gig_containerParent, #social-tools-panel, .Footer-share, .HighlightShare-container, .Share-share, .makeit-social-media, .sub-header-social-container
+cnbc.com###rt_social, #social-buttons-nav_gig_containerParent, #social-buttons_gig_containerParent, #social-buttons-transporter, #social-tools-panel, .Footer-share, .HighlightShare-container, .Share-share, .SocialShare-headerWrapper, .makeit-social-media, .sub-header-social-container 
 cnet.com###connectCNET, #globalSocialPromoWrap
 cnn.com###smt_floater, #smt_main, #smt_secondary, .SocialBar__component, .aaea9bbf, .c_sharelftcol, .e036253d, .gigya-sharebar.js-gigya-sharebar, .media-social--ul, .shareBar_gigya, .tech-social, [class*="social-sharestyles__ShareButton"], div[class*="social-share-expandablestyles"], div[class*="social-sharestyles__ShareLabelWrapper"]
 cnsnews.com###cns-social-links
@@ -293,7 +293,7 @@ edition.cnn.com##.SocialTimeBar__container
 edmunds.com##.Reactions
 electricliterature.com##.button--withSvgIcon.button--withIcon.u-baseColor--buttonLight.is-touchIconBlackPulse.button--chromeless.button--light.button
 electrive.com##.center.full.widget
-elle.com,esquire.com,harpersbazaar.com,marieclaire.com,menshealth.com,popularmechanics.com,roadandtrack.com,shondaland.com##.content-info-social-buttons
+elle.com,esquire.*,harpersbazaar.com,marieclaire.com,menshealth.com,popularmechanics.com,roadandtrack.com,shondaland.com##.content-info-social-buttons
 elpais.com###compartir_social, #compartir_social_inferior
 emptywheel.net,yubico.com##.av-share-box
 emsisoft.com##.shareBar
@@ -307,7 +307,7 @@ erudipedia.co.uk##.sticka.connect
 escapistmagazine.com##.share_content
 espn.*##.article-social, .contentItem__footer--shareMenuVideo.contentItem__footer, .icon-twitter-solid-before, .mod-page-actions, .pickShare, .signin-social
 espnmediazone.com###social-sites-wrapper
-esquire.com##.image-share
+esquire.*##.image-share
 etonline.com##.block-system.block.menu--footer-social.navigation, .story__links
 eurogamer.net##.like-and-subscribe
 everydayfeminism.com##.fb-box-big
@@ -584,7 +584,7 @@ mediatrackers.org##.toolbar-social
 medicalxpress.com###js-soc-panel, #rank
 megabots.com##.js-active.btn--social-tab
 melmagazine.com##.wp-embed-share
-menshealth.com###sharebar-195281, .social-button-pinterest
+menshealth.com###sharebar-195281, .social-button-pinterest, .sticky.inner
 mensjournal.com###stay-connected
 mentalfloss.com###navbar-slim-fb, #navbar-slim-twitter, #navbar-slim-youtube, #slim-instagram
 mercurynews.com##.article-share, .sharedaddy, .sharing

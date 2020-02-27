@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Ad Placeholder Filters
-! Last Modified: 14:28 2020-02-25
+! Last Modified: 12:29 2020-02-27
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for empty advertising placeholders.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -89,6 +89,13 @@ businessinsider.com,insider.com,thisisinsider.com##.targeted-recommended
 businessinsider.com.au##.adspot-300x250-pos1-container, .adspot-300x600-pos2-container
 buzzfeed.com###mod-ad-msu-2, .ad-ex-wide-container
 buzzfeednews.com##.ad-bfnews-sidebar
+calgarysun.com,canoe.com,edmontonsun.com,ottawasun.com,torontosun.com,winnipegsun.com##.l-top-content
+calltothepen.com##.header-billboard
+canadianbusiness.com###sticky_multiad_mob
+caranddriver.com##.active.hide-nm.w300-nm
+catapult.co##.story-ad-container
+cbs46.com###WNAd104-Sticky
+cbslocal.com###p0-ad-content
 cbsnews.com###module-right-rail-fd-mobile-app-promo, .ad-leader-plus-top, .ad-leader-top, .content__cta, .smart-banner-cbsn
 channelnewsasia.com##.c-advertisement--leaderboard, .c-advertisement--rectangle-float
 charlestoncitypaper.com##.FooterboardMobileParent
@@ -116,11 +123,21 @@ copenhagensuborbitals.com###donatebar
 cosmopolitan.com,harpersbazaar.com,roadandtrack.com,townandcountrymag.com##.breaker-ad
 cosmosmagazine.com###announcements
 cyclingentertainment.stream,herbelay.com,sedsports.com,sport5.live,toxicpatat.com###ads_overlay, #awtsbox
+dailycaller.com##.ad
+dailycaller.com,fark.com,poynter.org##.ad_container
 dailyfx.com##.text-center:has-text(/Advertisement/)
 dailymail.co.uk###smartBanner, .mol-ads-label-container, .mpu_puff_wrapper.item
 dailyprogress.com,dothaneagle.com,fredericksburg.com,godanriver.com,greensboro.com,heraldcourier.com,hickoryrecord.com,journalnow.com,kearneyhub.com,martinsvillebulletin.com,mcdowellnews.com,morganton.com,newsadvance.com,nonpareilonline.com,nptelegraph.com,oanow.com,omaha.com,pressofatlanticcity.com,richmond.com,roanoke.com,scnow.com,starexponent.com,starherald.com,statesville.com,theeagle.com,theindependent.com,tulsaworld.com,wacotrib.com,yorknewstimes.com###fixed-leaderboard-top, .tnt-ads
+dailywire.com##.ad-toggle
+datalounge.com##.advert-leader-inline, div[id^="div-insticator-ad"], div[id^="insticator-embed"]
+dcist.com##.adv_box
+deathandtaxesmag.com##.ad-holder
+defenseone.com##.d1-top-ad
+defensesystems.com##.ad
+delish.com##.ad-gpt-breaker
 digg.com###site-promo-banner > .content, .ad-container--featured_videos, .ad-container--originals-inline, .ad-container--originals-top
 drweil.com###leaderboard_sticky
+eater.com##.adblock-whitelist-messaging__article-wrapper
 economist.com##.advert, .fe-blogs__sidebar-ad-wrapper
 electronichouse.com##.topads-jumbo
 elektrobike-online.com##.partner.row-full
@@ -129,8 +146,8 @@ eonline.com##.rail__mps-ad
 epicurious.com##.expanded.riser
 espn.*###mod_ad-box, .ad-320, .ad-center, .ad-pencil-container, .floatright.related.inline-1.mod-inline, .header-ad
 espn.*,fastcocreate.com,fastcompany.com,si.com,southernliving.com,sportingnews.com,theatlantic.com##.ad-wrapper
-esquire.com##.shop-products
-esquire.com,goodhousekeeping.com,marieclaire.com,popularmechanics.com##.ad-gpt-breaker-container
+esquire.*##.shop-products
+esquire.*,goodhousekeeping.com,marieclaire.com,popularmechanics.com##.ad-gpt-breaker-container
 etonline.com###footer-ad, #header-ad
 eurogamer.net###leaderboard
 evite.com###mobile_top_ad
@@ -140,6 +157,9 @@ fangraphs.com###BlogSideBar1_panAd1, #BlogSideBar1_panAd2, #top_da, .fg-ads-mobi
 fantasypros.com###top-banner, .ad-300, .leaderboard-wrap
 fastcocreate.com,fastcompany.com##.post__article-top-ad-wrapper
 fatherly.com##.article__leaderboard, .article__rail-ad, .mobile-ad-nav, .module__ad
+filmcomment.com,flyingmag.com,investors.com,popsci.com##.ads
+flocombat.com##.dfp-item, .ng-star-inserted.ad-fadeIn
+flyertalk.com##.adblock-section
 football.fantasysports.yahoo.com##[class="Tst-adlocation-LREC"]
 france24.com##.o-ad-container
 freebeacon.com##div[id^="rb-"]
@@ -152,6 +172,8 @@ gamerevolution.com##.widget_evolve_ad_gpt_widget
 gazette.com##.adZone
 getpocket.com##.syndication-ad
 globalnews.ca##.story-ad
+govexec.com,govtribe.com,grubstreet.com,newatlas.com,nymag.com,thecut.com,vulture.com,webmd.com##.ad
+guns.com##.ad-wrap
 harpers.org###OFIE, .rightDivPad.fRight, .stripMiddle
 harpersbazaar.com,roadandtrack.com,runnersworld.com,townandcountrymag.com##.leaderboard-ad
 heavy.com###Mobile_InArticle_300x250_Bottom_2, #Mobile_InArticle_300x250_Bottom_3, #after-post, .heavy_ad, .wpcom-protected-iframe
@@ -159,7 +181,9 @@ hedgeaccordingly.com##.worldplus-ad-clearfix
 hightimes.com##.dfp-ad-widget-class
 hindustantimes.com##.advertisement-250, .advertisement-middle
 history.com##.m-header-ad
+hockey-reference.com##.adblock
 hollywoodreporter.com##.ad-container, .dfp-ad--amp, .rail-ad
+hopesandfears.com##.adblock-message
 hotelnewsnow.com##.ArticleBannerAd
 hothardware.com##.ad-leaderboard
 hotnewhiphop.com##.full-width-ad-wrapper
@@ -179,6 +203,7 @@ ilgiornale.it##.banner250.banner
 imgur.com###sidebar-bottom-ads, .FloatingOIA-container, .buttonOIA.viewInAppLink.margin-top.center-text, .getTheApp, .viewInAppLink
 imore.com##.adunit-wrap
 inc.com###leaderboard-container-placeholder, .mobileInsertionAdContainer
+indiatimes.com###TPMainDiv, .ad, .topArtAd
 infowars.com###message, #store-widget, .article-ad, .container.optinsiege, .from-our-store, .php_widget.widget.widget-odd.widget-first.widget-1, .textsize
 inkedmag.com##.ad, .show-for-medium-up.fixed-sidebar-300
 inquirer.net###billboard
@@ -195,11 +220,14 @@ itunescharts.net##.ad_responsive
 jpost.com##.OUTBRAIN, .line-left-side-before-and-after-container, .one-row.line-one-row-before-and-after-container
 jpost.com##.margin-container-right .hide-for-premium .OUTBRAIN:nth-ancestor(2)
 jpost.com##[id^="div-gpt-ad-"]:nth-ancestor(3)
+kqed.org##.components-AdLive-___AdLive__ad, .components-AudioPlayer-components-AudioBar-___AudioBar__audioBar_Ad
+ksbw.com,mynbc5.com,wbaltv.com,wdsu.com,wesh.com,wisn.com,wlwt.com,wmtw.com,wpbf.com,wvtm13.com##.ad-leaderboard, .ad-rectangle
 kyivpost.com##.wrap > .b-title:has-text(/Advertisement/)
 latimes.com,pacificsandiego.com,sandiegouniontribune.com##div.GoogleDfpAd-wrapper
 lawtally.com##.ad-mid-sidebar
 legalinsurrection.com##.sidebarBlock [id^="div-gpt-ad"]:nth-ancestor(2)
 legalinsurrection.com##[id^="div-gpt-ad"]
+lifehack.org##.ad-wrap-transparent
 lifewire.com###leaderboard_2-0
 lifezette.com##.ad-widget
 liveleak.com##.advertise_main_outer
@@ -208,9 +236,17 @@ livescience.com###rightcol_top, .mod-hdr.h2, sticky-header
 livestrong.com##.js-mobile_adsense, .js-mobile_adsense2
 medicinenet.com###ad
 meh.com###advertisement, #advertisements
+mexiconewsdaily.com##.ac-ads, .adinpost
 microsoft.com##.skylight-entry
+moneyweek.com##.ad-leaderboard, .ad-logo-right
 msn.com###MSN_NTP_Faster_Creative, #Microsoft_News_app, #irisbannerph, #msccBanner, .dynamicRRWrapper, .size234column.todayshowcasead, div[data-nativead-placements]
 msnbc.com,nbcnews.com,today.com##.db-m.dn[style*="height"], [class*="bannerAd"]
+mtv.com###leaderboard, .ad
+mumsnet.com###leaderboard__advertising
+muraselon.com##.adloc-is-banner
+nationalgeographic.com###StickyBoxAd, #header-ad, .ad-holder, .adSlotDynamic-slot
+nationalinterest.org##.adslot, .block-leaderboard-ad
+nationaljournal.com###articlePromo, #electionFloorPromo, #walkingHeader
 nbcsports.com###topbanner
 nbcwashington.com##.ad, .sfadSlot
 ncronline.org##.paragraphs-item-house-ad
@@ -233,6 +269,8 @@ nhl.com##.ad, .ad--250-empty
 nydailynews.com##.ft--cta, .pb-f-ads-yieldmo, .rh-ad, div[data-pb-name^="Taboola"]
 nypost.com##div[id^="outbrain_widget_"]
 nytimes.com###HPBottom2, #HPHalf, #Top, #TopAd, #acm-wrapper, #bottom-wrapper, #digital_hoverCraft, #dock, #dual_hoverCraft, #duallink, #gatewayUnit, #recipeDetailsPromoSlot, .BlockAdvert-adContainer--1aZlM, .InlineMessage-inline--2ysnq, .ResponsiveAd-topAd--3WpE4, .ad, .g-ad-wrapper, .max300.min300.iframe-holder, .opinion-c-col-bottom-region, .ribbon-ad-container, .subColumn-2.noBackground.mobilePromo.nocontent, .text-ad, BlockAdvert-ad--2QvJV, [id^="dfp-ad-"], [id^="story-ad-"], div[data-testid^="inline-message"]
+onlinesearches.com##.top-ad-choices-container
+openculture.com###leaderboard_div, .advertisement_notice, .framearound_ad_in_post
 pbs.org###readthisnext, .fl-ad, .sidebar-advertisement
 pcgamer.com##[class^="slot"]
 pedelecs.co.uk##.banner.advert
@@ -243,16 +281,55 @@ pilotonline.com###leaderboard1, .paymeter-promo
 pinknews.co.uk##.ad-slot_inline-mpu
 pjmedia.com##.article-mobile-middle-ad-container, .article-mobile-top-ad-container, .header-ad-container
 player.fm##.top-promo
+popsci.com###in-content-ad-0, #in-content-ad-1
+popularmechanics.com##.ad-gpt-main
+post-gazette.com##.mb25.pgevoke-story-rightrail-ad1, .pgevoke-story-rightrail-stickybox > .mb25, .pgevoke-story-topads-banner
+poynter.org##.ad_section
 pressdemocrat.com##.block-1-ad, .mobile-adhesion-ad
+priceonomics.com###bottom-ad, #lfs-wrapper
+pro-football-reference.com##.adblock
 propublica.org##.compact, .donate-links, .promotion
 prospect.org###ad-top, #in-article-ad, .rich_footer_q2.rich_footer_q, .rich_footer_q4.rich_footer_q
 psmag.com##.m-header--coverlines-container, .m-in-content-ad, .m-in-content-ad--slot, .m-sidebar-ad
 psychologytoday.com##.advertisement-label, .block-pt-ads, .flag-actions
+quora.com##.ViewInAppLink, .feed_item.AdStory.FeedStory
+qz.com###marquee-ad, .app-promo, .inline-ad
+racked.com##.m-ad
+ramedium.com###admania_adb_enabled, .admania_sitefooter
+rasmussenreports.com##.ad728x90, .narrow-cta.button-sprite
+raspberrypistarterkits.com##.holidayPromo
+ratemyprofessors.com##.mobileAppPromo, .promotionDesktop.promotion
+rawstory.com##.full-post-ftp-ad, .recent-post-widget-ad, .story-page-embedded-ad
+rd.com##div[id^="listicle-between-cards-ad"]
+realcleardefense.com##.RC-AD-TOP-BANNER.RC-AD
+reason.com###google_ads_div_Home_rectangle_1, #leaderboard
+recode.net##.m-ad
+reddit.com##.dfp-ad-container
+remezcla.com##.adUnitF
 reuters.com###reutersAppBanner, .DPSlot_container, .GetTheAppBanner_get-the-app-banner_1LusN, .RecircRibbon_container, .StandardArticleBody_dp-slot-inline_eUPBt.DPSlot_container_2dHIN, .get-the-app-banner_1LusN
 reuters.com##.module-header:has-text(/Advertisement/):nth-ancestor(1)
+reviewjournal.com###rjth-region-under-article-content, .rj-ads-wrap-sq
+revolvermag.com##.full-ad-wrapper, .st-ad-wrapper
 rockpapershotgun.com##.leaderboards
+rollingstone.com##div[id^="adm-inline-article-ad"]+p
+rotoworld.com##.RW_ad300
+rugerforum.net##.page tbody:has-text(/Advertisements/)
+sciencenews.org##.block-sn-ad-blog-wrapper
+scientificamerican.com##.aside-banner, .banner-leaderboard, .global__toaster-ad, .is-sticky.home-banner, .toaster-ad
+scmp.com##.advert, .header-ad-slot, .oop-ad-slot-1, .oop-ad-slot-2
+screendaily.com###div-gpt-billboard
+screenrant.com##.ad-zone, .ad-zone-container
+seattletimes.com##.ad-continue-link, .top-ad-fixed
+seccountry.com##.cm-ad-block
+secondnexus.com##.cnsmbl-container-320x50-ads
 seeker.com###header-ad, .ad-container
+seekingalpha.com###DFP_1, #article-left-slot-2, #f-ios, #midArticleAdContainer, #news-left-slot-1, #news_headlines, .and-svg.app-and, .sa-app-banner-directive, .sa-uppercase.sa-article-read-full-article-btn
+self.com###box-ad-sidebar\ ads-container-item, .cns-ads-stage
+si.com##.promo.container-full-width.bucket.component
 slate.com##.ad--inArticleBanner
+southernliving.com##.ad-title
+southlive.in##.sample-ad, .side-bar-ad
+spin.com##.ad-container, .ad-holder, .footer-ad-holder, .sidebar-bg
 splitsider.com,thebillfold.com,thehairpin.com##.leaderboard__wrapper
 sports.yahoo.com###defaultLREC2-9-wrapper
 standard.co.uk###leaderboard
@@ -264,13 +341,34 @@ stripes.com##.ad-notice
 studyfinds.org###widget_sfspot-2, .widget_custom_html, .sfspot
 stuff.co.nz###js-story__ad-storyrec, .adfeedback
 sucuri.net,tailopez.com###olark-container
+talkingpointsmemo.com##.BlockNag, .SideAd
+tampabay.com##.advertising-flag
+tampermonkey.net##.ad-changelog-block, .ad-changelog2
+tass.ru##.adsSlot300600
+tasteofhome.com###subscribe-to-magazine-sticky, .CMRightRail-AD, .header-banner-container, .rd_header_ads, .sticky-bottom.recent-article
+tastingtable.com###mobile_sticky_bottom, #sideReel
+techcrunch.com##.ad-cluster-container, .ad-unit
 techgenix.com###featured-links
 techgenix.com##.ezoic-ad.sidebar_middle:nth-ancestor(2)
 techgenix.com##[id*="ad_pos_"]:nth-ancestor(2)
+tedium.co##.md-adbox
+teenvogue.com##.ad-failsafe-wrapper, .expanded.riser
+telegraph.co.uk###message, .adblocker-message
+telemundo.com##.__hub--ad, .ad--MAIN, .ad--MULTI, .ad-container, .banner-sticky-bg
+texastribune.org##.col_adunit300x250, .site_ad--gray, .site_ad--wrapper
 the-sun.com,thescottishsun.co.uk,thesun.co.uk,thesun.ie###articlempu, .billboard,.dfp-ad-container
+thechive.com##.ad
 thecinemaholic.com##.gridlove-ad-below-header
+thedodo.com###header-ad, .ad-container
+thegrio.com##.adcontainer
+theguardian.com##.amp-ad-container, [id^="dfp-ad--"]
 thehackernews.com##.ad_two
+thehill.com###article-recommendation, #dfp-ad-mos_1-wrapper, #dfp-ad-mos_2-wrapper, #dfp-ad-mosad_1
+thehill.com##p:has-text(/Sponsored/)
+thehockeynews.com##.block.ad
 thekitchn.com##.StickNSlideContainer, .StickyHeadline, .js-dfp-ad--content, .js-post-toast
+themonroetimes.com##.adunitContainer
+themoscowtimes.com###TMTtoolbarAd
 thenation.com##.ad-wrap, .current-issue.indents.indent.left, .donate.btn-yellow.btn
 theregister.co.uk###ad-condor, .ad-eagle, .ad-falcon, .faux-article
 thescore.com##.Ad__bigbox--3DeHj, .Ad__container--2fhQb, .ad-tile, .article-sponsor-info, .tablet-leaderboard
@@ -288,6 +386,7 @@ tmz.com###ad2, #smartbanner, .app-links, .clearfix.partner-headlines-row, .masth
 tomsguide.com,tomshardware.*###Ribbon_ad, #responsive_ad
 torontolife.com##.ad-frame--leaderboard
 totalfratmove.com###mobile-bottom-ad
+townandcountrymag.com##.embed-related-content
 townhall.com##.ad
 tripadvisor.*###taplc_header_banner_ad_rr_responsive_0
 trustedreviews.com##.ad-hidden-tab.ad-hidden-mob, .advert, .ipc-advert
@@ -298,6 +397,8 @@ twitchy.com##.ad, .ad-300x250, .ad-728x90
 univision.com##.ad_wrapper
 uproxx.com###woven-leaderboard-wrapper, .fixed.uproxx_sticky_ads.uproxx_iframe_ads, .uproxx_iframe_ads_wrapper_top.uproxx_iframe_ads_wrapper
 ups.com##img[alt="Promotion"], img[alt^="Affiliate"]
+usatoday.com###partner-poster-0, #read-this-next, .partner-placement, .sponsor, [aria-label="advertisement"]
+usatoday.com##[id*="ad-slot-"]:nth-ancestor(1)
 usgamer.net##.advert-container
 usnews.com##.AdhBase__Wrapper-rea3rt-0, .AdhesionAd__Wrap-s174czm-0
 vanityfair.com###AMS_VYF_ARTICLE_INTEGRATED_END, #AMS_VYF_ARTICLE_INTEGRATED_INSTREAM, #AMS_VYF_GLOBAL_FOOTER, #AMS_VYF_GLOBAL_HEADER, #AMS_VYF_HOLLYWOOD_FOOTER, #AMS_VYF_INLINE_PROMO, #AMS_VYF_INLINE_TEXT, .component-riser, .component-sponsored-links, .consumer-marketing-unit, .paywall-growler
@@ -314,6 +415,7 @@ warhistoryonline.com###fader, .inad
 warriortrading.com###someone-purchased
 washingtonexaminer.com##.desktop-ad-undertone, .legacy-sidebar-promo, .prompt-content, .upnext, .visible.basic.cp-prompt
 washingtonian.com###ad_pos_targeted_in_article
+washingtonpost.com###leaderboard-wrapper, #recommended-toast, #slug_leaderboard, .ad, .ent-ad-container, .outbrain-wrapper, .pb-ad-container, .pb-f-ad-leaderboard
 weeklystandard.com##.ad, .block.form.widget, .cover, .featured-cover, .featured-teasers, .fixed-bottom-ad
 wehavekids.com###stickyfooterad
 weny.com###WNAd1, #WNAd41, #WNAd43, #WNAd52
@@ -323,7 +425,9 @@ whattoexpect.com###gptAd2, #gptAd3
 wheretraveler.com##.region-top-leaderboard
 wikia.com###WikiaBarWrapper, .fandom-app-smart-banner
 wikipedia.org##.cn-WikiLovesPride2019, .cn-fundraising, .frb
+wiley.com##.advert-leaderboard__container
 windowscentral.com##.article-leaderboard, .header-top-alert-bar, .header-top__offer
+wired.co.uk##.ad__main
 wired.com###paywall-growler, #wiredwidgetsecommerce-2, #wiredwidgetsecommerce-3, #wiredwidgetsmarketing-3, .advertisement__leaderboard, .affiliate-links-component, .insider, .js-post-listing-rad, .js-prefooter-rad, .magazine, .paywall-container-component, .rad
 wired.com##:xpath(.//*[@data-js="leaderboard"])
 wkyc.com###article_atf, #article_atf_1, #article_mid1_0, #article_mid1_1, #article_mid2_0, #article_mid2_1
@@ -334,8 +438,13 @@ wolframalpha.com###headerad-pro
 wsj.com###cx-article-cover-image, #cx-articlecover, #cx-candybar-wrapper, #cx-mktg-tile, #cx-notification, #cx-popup, #expNav, #hat_tab_wsj, #in_ad_col_a, .WSJTheme__adContainer_39QoSCiFRHj0OwE7STJ23b .WSJTheme__adWrapper_2v6EA8giE6Pw9SoNUltRuT, .WSJTheme__onboarding-banner_2iniaUJWnOXdS0jqStuxs2, .bing-native-ad, .inno-adhesive-container, .innovation-mojo-ad-wrapper, .nc-exp-ad, .ob_strip_container.SB_2, .popC.connect.popClosed.popClose, .scope-web\|mobileapps.wrap.media-object, .space-bottom.mktg-tile, .toggleBtn, .topLinks, .wsj-ad, .wsj-body-ad-placement, .wsj-immersive-ad-placement, .wsj-native-strip, .wsj-responsive-nav-circ-wrap, [class^="WSJTheme--ad-container-"], [class^="WSJTheme--slide-related-ad-container-"], [class^="style__wsj-nav-promobottom"], div[class^="WSJTheme--adWrapper--"]
 wsj.com###wrapper-AD_PUSH:nth-ancestor(1)
 wsj.com##div[class^="style--native-strip-"]:has-text(/PAID PROGRAM/)
+wwd.com##.wwd-in-article-ad
 www.yahoo.com##[id*="modal-sidekick-"] li span[class="sponsored"]:nth-ancestor(4)
 xfinity.com##._visible.x-ui-theme--dark.upsell-filter--top.upsell-filter.flex, .ad-container
 yahoo.com###YDC-MainCanvasLeadAd-Composite, #danafarberpromo, #defaultdestLREC, #fantasyshoppromo, #get-the-app, #mega-banner, #mega-banner-wrapper, #mrt-node-Lead-2-AbPromo, #sportsshop-promo, #uh-scroll-promo, #unblock-instructions, #unblock-intstructions, #viewer-LDRB, #yset-search-upsell-container, #yucs-top-ff-promo, .H-fixed.Ad, .ginsuAd, .nr-applet-main-nav-right, .sponsored, .td-applet-canvass
 yahoo.com###viewer-LREC-iframe:nth-ancestor(2)
+yuganet.us##.custom-ads-close
+zerohedge.com###abd-banner, #sidebar-right-1, #sidebar-right-2, #sidebar-right-3, #sidebarleft-bottom, #sidebarleft-top, .ad-header-container, .ad-left-container, .injected-ad-wrapper
+zerohedge.com##.carousel-placement [class="ad__wrapper-element"]:nth-ancestor(1)
 ||anyclip.com^$domain=gameplay.tips|thewindowsclub.com
+||menshealth.com/*/advagg_js$script,domain=menshealth.com
