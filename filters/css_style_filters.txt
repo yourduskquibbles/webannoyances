@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 11:50 2020-02-28
+! Last Modified: 14:38 2020-02-28
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -7579,6 +7579,12 @@ yenisafak.com##.effect.bottom-nav:style(position: absolute !important;)
 yesmovies.*###xsidebar, header:style(position: absolute !important;)
 yna.co.kr###lyt_top:style(position: absolute !important;)
 yodalearning.com###seocrawler-mobile-header:style(position: relative !important;)
+yogonet.com##.buscador_lupa_header:style(display: block !important;)
+yogonet.com##.contenedor_menu_principal.sticky .ul_items_menu_principal:style(float: none !important;)
+yogonet.com##.contenedor_menu_principal:style(position: relative !important; box-shadow: none !important; border: none !important;)
+yogonet.com##.redes_sociales_buscador:style(position: static !important; width: 14% !important; float: right !important;)
+yogonet.com##.sticky li.li_items_menu_principal a:style(padding: 5px 0 !important;)
+yogonet.com##.ul_items_menu_principal:style(width: 100% !important;)
 yonhapnews.co.kr###header:style(position: relative !important; height: 173px !important;)
 yonhapnews.co.kr##.fixed-bnr:style(position: absolute !important;)
 yonhapnews.co.kr##.header-fixed:style(height: 173px !important;)
