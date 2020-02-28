@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 11:41 2020-02-28
+! Last Modified: 11:50 2020-02-28
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -734,6 +734,7 @@ axios.com##.Logo__compressed--1HrUV:style(height: 40px !important;)
 axios.com##.Navigation__compressed--1VpjA:style(height: 110px !important;)
 axios.com##.active.pinned-up.clone.rebelbar__inner, .rebelbar--fixed.rebelbar:style(position: relative !important; top: 0 !important;)
 axios.com##.site-header__container--scrolled, .site-header__container, nav[class*="Nav__StyledNav-sc"]:style(position: absolute !important;)
+axios.com##[class*="StoryComponent__StoryHeader-sc-"]:style(margin-top: 0 !important;)
 axlegeeks.com##.clearfix.mph-wrap:style(position: relative !important; top: 0 !important;)
 azfamily.com##.wn-sticky:style(position: relative !important; top: 0 !important;)
 azure.microsoft.com###azure-header:style(position: relative !important;)
