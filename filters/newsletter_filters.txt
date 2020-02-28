@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Newsletter Subscription Filters
-! Last Modified: 14:58 2020-02-28
+! Last Modified: 15:03 2020-02-28
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for newsletter annoyances - Remove newsletter & other subscription cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -393,6 +393,7 @@ nytimes.com###Newsletter-embed-NYT-Now, #Science-Newsletter-promo, #THEurope-new
 nytimes.com##[data-testid="interest-action-button"][name="Subscribe to newsletter"][aria-label="Subscribe to newsletter"]:nth-ancestor(6)
 nytimes.com##aside:has([id^="newsletter-iframe-container"])
 nytimes.com##aside:has-text(/Sign Up/)
+nytimes.com##button[name="select interest"]:nth-ancestor(3)
 nytimes.com##div > p:has([href^="https://www.nytimes.com/newsletters/"])
 observer.com##.entry-content > p :has-text(/Subscribe to/)
 oilprice.com##.signup_iframe
