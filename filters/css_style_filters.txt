@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 09:02 2020-03-02
+! Last Modified: 09:06 2020-03-02
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1584,7 +1584,7 @@ cnbc.com##.NavLinks-navMenu:style(top: 34px !important;)
 cnbc.com##.NavLinks-navMenuArticleSticky .NavLinks-hiddenArticleLinks, .nav-menu-articleNavLinks:style(display: flex !important;)
 cnbc.com##.SearchToggle-button span, .branding-menu-brandingMenuSticky:style(opacity: 1 !important;)
 cnbc.com##.SearchToggle-buttonSticky:style(height: 37px !important;)
-cnbc.com##.SidebarArticle-sticky:style(position: absolute !important; top: 0 !important;)
+cnbc.com##.SidebarArticle-sticky:style(position: static !important; top: 0 !important;)
 cnbc.com##.account-menu-editionMenuSticky, .nav-menu-desktopHamburgerSticky, .account-menu-editionMenuSticky, .searchToggler.SearchToggle-button:style(transform: none !important;)
 cnbc.com##.icon-search:before:style(font-size: 20px !important;)
 cnbc.com##.icon-search:style(height: 20px !important; right: 10px !important;)
