@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 15:47 2020-03-02
+! Last Modified: 19:21 2020-03-02
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1150,6 +1150,8 @@ bordercantos.com##.stickydiv:style(position: relative !important; top: 0 !import
 borderstan.com###search-navigation, #top-bar:style(position: relative !important; top: 0 !important;)
 boredomtherapy.com,snakeriverfarms.com##.topmenu:style(position: relative !important; top: 0 !important;)
 boston.com##.content-toaster, .masthead, .masthead__content:style(position: relative !important; top: 0 !important;)
+boston.com##body:style(padding-top: 110px !important;)
+boston.com#@#.site-container:style(margin-top: -100px !important;)
 boston25news.com###story-sticky-content:style(position: absolute !important;)
 boston25news.com,fox26houston.com,lasvegasnow.com,news.samsung.com,nme.com,npr.org,trustedreviews.com,wftv.com,wsbtv.com###wrapper:style(padding-top: 0 !important;)
 bostonfed.org###topbar, .nav-list-wrapper:style(display: block !important;)
