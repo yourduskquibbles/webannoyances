@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 19:21 2020-03-02
+! Last Modified: 09:29 2020-03-03
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -535,6 +535,9 @@ apnews.com##.sticky-part:style(position: relative !important; top: 0 !important;
 appadvice.com###js-nav:style(position: relative !important; top: 0 !important;)
 appalachianmagazine.com###td-header-menu, .td-header-wrap:style(position: relative !important; top: 0 !important;)
 appendto.com##.fusion-sticky-shadow.fusion-header:style(position: relative !important; top: 0 !important;)
+appfolio.com###topnav:style(position: absolute !important; top: 0 !important;)
+appfolio.com##.f-top-nav-outer.f-container, .layout__topbar-placeholder:style(position: absolute !important;)
+appfolio.com##.layout__topbar:style(box-shadow: none !important;)
 appian.com##.header_main:style(position: absolute !important;)
 apple.com###ac-globalnav:style(position: absolute !important;)
 apple.com###ac-localnav, #localnav, .filter-bar:style(position: relative !important;)
@@ -5564,7 +5567,6 @@ roesle.com##.header-main, .main-search--form:style(position: absolute !important
 rollcall.com###logo_container, #right_rail_content, #right_rail_related_second:style(margin-top: 0 !important;)
 rollcall.com##.right-rail:style(top: 0 !important; left: auto !important;)
 rollcall.com##.right-rail[style*="position: fixed;"]:style(position: absolute !important;)
-rollingstone.com##.floating-preroll-ad-container:style(position: absolute !important;)
 rollingstone.com##.header-bottom-logo:style(opacity: 1 !important;)
 rollingstone.com##.header-comment:style(opacity: 1 !important; margin-top: 13px !important;)
 rollingstone.com##.header-nav:style(opacity: 1 !important; top: 0 !important;)
@@ -5572,6 +5574,7 @@ rollingstone.com##.header-title:style(opacity: 0 !important;)
 rollingstone.com##.l-header__content:style(transform: none !important;)
 rollingstone.com##.l-header__wrap:style(position: absolute !important; top: 0 !important;)
 rollingstone.com##.player-position:style(position: static !important; bottom: unset !important; right: unset !important; width: unset !important; height: unset !important; padding: unset !important; overflow: unset !important; margin: unset !important; opacity: 1 !important; box-shadow: none !important; border-radius: unset !important; background-color: unset !important; z-index: unset !important;)
+rollingstone.com,variety.com##.floating-preroll-ad-container:style(position: absolute !important;)
 romacrafttobac.com###header-outer:style(position: absolute !important; padding-top: 0 !important;)
 romper.com##.cN:style(position: absolute !important;)
 rookout.com###custom_html-2:style(position: static !important; top: 0 !important;)
