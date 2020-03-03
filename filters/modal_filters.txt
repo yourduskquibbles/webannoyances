@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 18:44 2020-03-03
+! Last Modified: 18:56 2020-03-03
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of cookie bars & other page covering elements. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -225,6 +225,7 @@ cjr.org###interContainer, #interVeil
 cnbc.com##+js(aopr, googletag)
 cnbc.com##.ProgressBar-container, .bx-align, .pico-content, .pico-overlay, [style*="z-index: 100000000;"]
 cnn.com###cnn_hdr-prompt, #js-TosPrivacy, #message, #notice_banner, #onetrust-consent-sdk, .cnn-toast--tos.cnn-toast, .s-post-footer
+cnn.com##.icon_stick-arrow-up:nth-ancestor(1)
 cnn.com,msn.com,the-sun.com,thescottishsun.co.uk,thesun.co.uk,thesun.ie##.optanon-alert-box-wrapper
 co-opfs.org##.my-modal-target.customer-service-btn
 codementor.io##.consent
@@ -783,6 +784,7 @@ ratemyprofessors.com###rateReminderModal
 rawstory.com##.mvp-to-top.back-to-top.mvp-fly-top
 readfrontier.org,revealnews.org,themefoxx.com,washingtonmonthly.com##.pum-active
 realclearpolitics.com###large_notif_wrapper, .cc-stop-overlay, .cc-window, .notif-wrapper.warning-wrapper, .overlay_newsletter_promo
+realclearscience.com##.spnf_right.spnf_ticker
 reason.com###donationdrive_popup, #donationdrive_popup_overlay, .active.blackout
 reasoncoresecurity.com###backgroundModal, #popModal
 reclaimthenet.org###go-top
