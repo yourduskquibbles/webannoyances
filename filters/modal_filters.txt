@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 14:25 2020-03-03
+! Last Modified: 15:12 2020-03-03
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of cookie bars & other page covering elements. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -52,6 +52,7 @@ adidas.com,theladders.com###modal-root
 adjust.com,exabeam.com,formlabs.com,mailgun.com,nginx.com,simplethread.com###drift-widget-container
 adriannapapell.com,primaryarms.com,sbs.ox.ac.uk##.popup-content
 aeon.co,wallstreet.org##.fancybox-opened
+aerospace-technology.com,airport-technology.com,army-technology.com,chemicals-technology.com,clinicaltrialsarena.com,cosmetics-technology.com,designbuild-network.com,drinks-insight-network.com,foodprocessing-technology.com,homelandsecurity-technology.com,hospitalmanagement.net,hotelmanagement-network.com,hydrocarbons-technology.com,medicaldevice-network.com,mining-technology.com,naval-technology.com,offshore-technology.com,packaging-gateway.com,pharmaceutical-technology.com,power-technology.com,railway-technology.com,renewable-technology.com,retail-insight-network.com,roadtraffic-technology.com,ship-technology.com,verdict.co.uk,verdictfoodservice.com,water-technology.net###cookiepopup
 aetna.com##.app-download__animator.app-download__container.dismissable__container.dismissable
 aforkstale.com###om-xwiwbkcchsjqe343x6nt, #omaha-optin
 africacheck.org,alexa.com,betterhelp.com,breitbart.com,brioni.com,buckscountycouriertimes.com,burlingtoncountytimes.com,businessinsider.com,change.org,china-underground.com,chron.com,cigarinspector.com,citylab.com,cjr.org,coinstaker.com,dewalt.com,discovermagazine.com,eastbaytimes.com,ew.com,fair.org,filmcomment.com,forzieri.com,geniuskitchen.com,glassdoor.com,hindustantimes.com,iphonelife.com,jcutrer.com,kerbalspaceprogram.com,leaf.tv,lightstalking.com,mamapedia.com,mongodb.com,motor-talk.de,newfoodeconomy.org,newsbtc.com,newseum.org,otakustream.tv,paper.li,propublica.org,publicdomainreview.org,rankedboost.com,readfrontier.org,revealnews.org,revisionisthistory.com,searchenginewatch.com,shopstyle.com,slamonline.com,spiceworks.com,syfy.com,techwalla.com,thedailybeast.com,thedailybell.com,thefreethoughtproject.com,theintell.com,themediterraneandish.com,themefoxx.com,thespoon.tech,topclassactions.com,toptal.com,trefiel.com,usatoday.com,variety.com,washingtonmonthly.com,wdsu.com,wellplated.com,williams-sonoma.com,yodalearning.com##html:style(overflow-x: hidden !important; overflow-y: scroll !important; padding-right: 0 !important;)
@@ -87,7 +88,6 @@ ar15.com##.cd-fade-out.cd-is-visible.cd-top
 arcadepunks.com##.penci-wrap-gprd-law
 arianespace.com##.is-fixed.js-tirette.tirette, .js-banner.cookie
 arm.com##.c-policies
-army-technology.com###cookiepopup
 arris.com,forces.net,hostway.com###optanon
 artnet.com,thehackernews.com,zendesk.com###ouibounce-modal
 artsy.net,bestvpn.com,change.org,cryptocompare.com,discordbots.org,economist.com,franchisehelp.com,galoremag.com,goodreads.com,justanswer.co.uk,justanswer.com,kiwico.com,konbini.com,legalist.com,seattletimes.com,thehackernews.com,thenation.com,vogue.com,yts.*##.modal
@@ -398,6 +398,7 @@ flightglobal.com,flightstats.com###rbiCookiePolicy_pushDownBoxWrapper
 flyingmag.com##.scrollToTop
 focus.de###nlgate, #nlgate-overlay-0
 food52.com###desktop-email-modal-wrapper, #mobile-email-modal-wrapper
+foodprocessing-technology.com,medicaldevice-network.com,ship-technology.com##.corner-modal
 foreignpolicy.com###paywall_bg, .cookie_message, .js-takeover, .paywall_counter, .preloaded_lightbox
 formidable.com##.formidaCookie
 forums.att.com##.scrollBubble
@@ -436,7 +437,7 @@ glassesusa.com##.welcomeNotice__wrap___3LWDX
 globalgolf.com###EmailModal, #Mask
 globalvoices.org,hawaiitribune-herald.com,nysun.com,thegardenisland.com,westhawaiitoday.com###cboxOverlay, #cboxWrapper
 glog.glennf.com,thefashionlaw.com##.visible.sqs-popup-overlay.sqs-widget.yui3-widget
-gocomics.com,retropie.org.uk##.cc_banner-wrapper
+gocomics.com,just-auto.com,just-drinks.com,just-food.com,just-style.com,retropie.org.uk##.cc_banner-wrapper
 goerie.com###syncronexOverlayContent
 gofundme.com###exit-modal-mobile, .reveal-overlay
 golf4her.com##.modal-mask, .vol-modal
@@ -542,6 +543,7 @@ jamanetwork.com##.widget-GdprCookieBanner
 japaneseknifeimports.com##.eg-cc-window
 johnsolomonreports.com##.post-navigation.navigation
 juggle.org##.slidein-center-left.cp-slidein
+just-auto.com,just-drinks.com,just-food.com,just-style.com###catfishHolder, #catfishHolder-updated-footer
 justanswer.co.uk,justanswer.com##.background, .th-va-mobile-teaser
 justworks.com###hbl-live-chat-wrapper
 kaggle.com##.site-header-react__cookies-notice-desktop, .site-header-react__cookies-notice-mobile
@@ -709,6 +711,9 @@ oup.com###oupcookiepolicy_message
 outsystems.com##.header-progress-bar
 owler.com###pageless-onboarding-popup
 ozy.com##.PopUpsMainSite
+packaging-gateway.com##.tve-leads-lightbox
+packaging-gateway.com##body.tve-hide-overflow:style(padding-right: 0 !important;)
+packaging-gateway.com##html.tve-hide-overflow:style(overflow-x: hidden !important; overflow-y: scroll !important; padding-right: 0px !important;)
 pagesix.com###background-wrapper:style(overflow-x: hidden !important; overflow-y: hidden !important;)
 pagesix.com###pagesix-app-flyout__wrapper, .modal-trigger
 paper.li##.modal-legacy-wrapper
@@ -734,7 +739,7 @@ pga.com###mss-legal-banner
 philly.com##.progress
 phmloans.com###ReadyChat_WP
 photobucket.com###myModal
-phys.org###back-top
+phys.org,sportcal.com###back-top
 picreel.com##.frame-container
 pinterest.com##.AppInterstitial, .AppUpsellHeader__background, .ReactModalPortal, .denzelAppInterstitial
 pinterest.com##main > article > section > div h4:has-text(/Heads up: This might be sensitive content/):nth-ancestor(4)
@@ -752,6 +757,7 @@ popularwoodworking.com##.pagnav-wrapper
 post-gazette.com##.pgevoke-backtotop
 potbelly.com##.general-alert-modal, .global-modal, .global-modal-background
 potterybarn.com##.overlayMask.stickyOverlayMask, .overlayScroll.stickyOverlayScroll
+power-technology.com##.gd-report-modal
 pressdemocrat.com##.cph-ccpa_banner
 princetonreview.com###exitIntentSliderBlockUI, #exitIntentSliderContainer
 princewilliamliving.com##.ui-draggable.wdev-window.move.wdpu-msg.popup.resize
@@ -987,6 +993,7 @@ v3.co.uk###rdm-cookie-consent
 valuewalk.com###om-k4aqrfjozo-lightbox
 vanityfair.com##.component-modal, .paywall-bar, .paywall-container
 venturebeat.com##.medrec-wrapper
+verdict.co.uk###scroll_totop, .eupopup-container, .site-footer
 version2.dk##.adblock-message-container, .adblock-message-overlay
 vev.io,vidup.io##.Cookie
 vidsource.me##.jw-logo.jw-logo-bottom-left
