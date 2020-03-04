@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 15:26 2020-03-04
+! Last Modified: 15:29 2020-03-04
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of cookie bars & other page covering elements. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -180,7 +180,7 @@ bt.com##.cookie-ui__cookieUI___3fxp1
 bt.com,canadagoose.com,crucial.com,greencarreports.com,mattressfirm.com,motorauthority.com,paypal-community.com,rag-bone.com##.ui-dialog, .ui-widget-overlay
 buckscountycouriertimes.com,burlingtoncountytimes.com,businessinsider.com,dispatch.com,suntimes.com,thedailybeast.com,theintell.com##.tp-backdrop, .tp-modal
 buffalonews.com###paywall-footer
-buffalonews.com,cruisecritic.com##body.modal-open:style(overflow-x: hidden !important; overflow-y: scroll !important; padding-right: 0 !important;)
+buffalonews.com##body.modal-open:style(overflow-x: hidden !important; overflow-y: scroll !important; padding-right: 0 !important; margin: 0 !important;)
 buffer.com###gs
 burningman.org##.post-navigation
 business-review.eu##.banner-horizontal-black.banner-horizontal-large
@@ -266,6 +266,7 @@ crainsdetroit.com##.QSIInfoBar
 crateandbarrel.com##.email-signup, .email-signup-modal-overlay
 crikey.com.au###freetrial_slideup
 crimeandinvestigationnetwork.com###PopNotice
+cruisecritic.com##body.modal-open:style(overflow-x: hidden !important; overflow-y: scroll !important; padding-right: 0 !important;)
 crutchfield.com###emailSignupOverlay
 cryptodisrupt.com,gcaptain.com,thecollegefix.com,watchpro.com##.wph-modal
 culinarydepotinc.com##.klaviyo-form
