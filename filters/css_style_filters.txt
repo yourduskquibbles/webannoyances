@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 18:56 2020-03-03
+! Last Modified: 19:03 2020-03-03
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2409,6 +2409,7 @@ espn.*###global-scoreboard .cscore_link:style(height: 80px !important; padding: 
 espn.*###global-scoreboard .scoreEvent__content:style(height: 80px !important; padding: 10px 16px 14px 16px !important;)
 espn.*###global-scoreboard .scoreLabel_content:style(height: 81px !important;)
 espn.*###global-scoreboard, #global-scoreboard .wrap .scoreboard-content .scores-carousel, #global-scoreboard .scores-date-pick, #global-scoreboard .scores-prev, #global-scoreboard .scores-next, #global-scoreboard .view-full, #global-scoreboard .scoreboard-dropdown-wrapper, #global-scoreboard .conference-menu, .scoreCenter .scores-date-pick, .scoreCenter .scores-prev, .scoreCenter .scores-next, .scoreCenter .view-full, .scoreCenter .scoreboard-dropdown-wrapper, .scoreCenter .conference-menu, #global-scoreboard .wrap .scoreboard-content .scores-carousel #leagues .league:style(height: 80px !important;)
+espn.*###global-viewport #global-header, #news-feed:style(position: static !important;)
 espn.*###global-viewport #header-wrapper, #header-wrapper:style(position: relative !important; top: 0 !important; transform: translateY(0) translateZ(0) !important;)
 espn.*###main-article:style(top: 0 !important;)
 espn.*###main-header:style(margin: 0 auto 40px auto !important;)
