@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Ad Placeholder Filters
-! Last Modified: 15:12 2020-03-03
+! Last Modified: 19:15 2020-03-03
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for empty advertising placeholders.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -114,8 +114,7 @@ citylab.com##.l-sponsored
 cnbc.com##.news-widget, .wildcard.embed-container
 cnet.com###leaderTopWrap, .ad-nav-ad, .fixed.sticky-leader, .leadWrap
 columbiabasinherald.com##.no-print.row.ad
-comicbook.com##.adhesion-block
-comicbook.com##div[id^="oas_"]
+comicbook.com##.adhesion-block, div[id^="oas_"]
 complex.com##.suitcase-ad
 consequenceofsound.net,globalnews.ca##.leaderboard-wrapper
 conservativetribune.com##.ad-notice-small, .before-article-ad, .persistent-footer.sponsor, .persistent-header, .related.article-extras, .trending.article-extras
@@ -163,21 +162,34 @@ fantasypros.com###top-banner, .ad-300, .leaderboard-wrap
 fastcocreate.com,fastcompany.com##.dianomiScriptContainer.dianomi_context, .post__article-top-ad-wrapper
 fatherly.com##.article__leaderboard, .article__rail-ad, .mobile-ad-nav, .module__ad
 filmcomment.com,flyingmag.com,investors.com,popsci.com##.ads
+fixya.com###locked-footer-ad-wrapper
 flocombat.com##.dfp-item, .ng-star-inserted.ad-fadeIn
 flyertalk.com##.adblock-section
+foodbeast.com##.fdbst-ad-placement
+foodexsport.com###ad_center
 football.fantasysports.yahoo.com##[class="Tst-adlocation-LREC"]
+forbes.com##.fbs-ad--top-wrapper, .sticky-fbs-ad-container, .top-ad-container, div.amp-ad-container, fbs-ad
+foreignaffairs.com###dfp-ad-outofpage-wrapper, #kicker-2
+foreignpolicy.com##.FP-mobile-ad, .home-ad-region-1
+fortune.com###Leaderboard0, .header__adWrapper--hK8Xq
 france24.com##.o-ad-container
 freebeacon.com##div[id^="rb-"]
 frieze.com###block-ds-extras-article-sidebar, .frieze-ads-banner_article, .frieze-ads-mpu
 frontpagemag.com###block-bean-sidebar-ad-1
+ft.com##.o-ads
 gainesvilletimes.com,themonroetimes.com###articleBody85860Ad, .home-top__ad, .in-text-ad
 gallup.com##.section-speedbump
 gamepress.gg###block-appmobilemenu, #block-footerad
 gamerevolution.com##.widget_evolve_ad_gpt_widget
 gazette.com##.adZone
+geekwire.com###ad-300x600_top, #ad-leaderboard, .newsfeed_aduni
 getpocket.com##.syndication-ad
+glamour.com##.cns-ads-stage
 globalnews.ca##.story-ad
+google.com###ad, #ad-label
+google.com##:xpath(.//*[@id='gbw']/div/div/div[2]//div[3][@aria-label="promo"])
 govexec.com,govtribe.com,grubstreet.com,newatlas.com,nymag.com,thecut.com,vulture.com,webmd.com##.ad
+grammy.com##.block--dfp-ad--desktop
 guns.com##.ad-wrap
 harpers.org###OFIE, .rightDivPad.fRight, .stripMiddle
 harpersbazaar.com,roadandtrack.com,runnersworld.com,townandcountrymag.com##.leaderboard-ad
@@ -212,8 +224,7 @@ indiatimes.com###TPMainDiv, .ad, .topArtAd
 infowars.com###message, #store-widget, .article-ad, .container.optinsiege, .from-our-store, .php_widget.widget.widget-odd.widget-first.widget-1, .textsize
 inkedmag.com##.ad, .show-for-medium-up.fixed-sidebar-300
 inquirer.net###billboard
-inquisitr.com###htvo3h2
-inquisitr.com##.amp-active, .amp-ad-wrapper, [data-adm-in-site]
+inquisitr.com###htvo3h2, .amp-active, .amp-ad-wrapper, [data-adm-in-site]
 insideedition.com##.redBg.sidebar-module-inset.sidebar-module
 insidenova.com##.tnt-ads-container, .tout-mid-article.tout-sdk
 interestingengineering.com##.adW
@@ -415,8 +426,7 @@ vanityfair.com###AMS_VYF_ARTICLE_INTEGRATED_END, #AMS_VYF_ARTICLE_INTEGRATED_INS
 variety.com###leaderboard, .ad-below-tags, .google-publisher.adma, .l-header__leaderboard
 vegetariantimes.com##.m-in-content-ad-row
 velonews.com##.advert
-verdict.co.uk##.fixed-top-ads, .in-article-text-promo
-verdict.co.uk##.top-leaderboard
+verdict.co.uk##.fixed-top-ads, .in-article-text-promo, .top-leaderboard
 verticalmag.com##.mhm-ad
 vice.com##.vmp-ad
 vidsrc.me###adbox_desktop
