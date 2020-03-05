@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 11:01 2020-03-05
+! Last Modified: 11:51 2020-03-05
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -7368,15 +7368,19 @@ wikia.com###globalNavigation, .site-head-fandom-bar, .site-head-wrapper, .site-h
 wikia.com##.anon.wds-global-navigation-wrapper:style(position: relative !important;)
 wikia.com##.is-f2.global-navigation-mobile-wrapper, .is-sticky.in-area-left.trending-topics, .is-sticky.in-area-right.quick-links, .no-shadow.site-head, .wds-global-navigation:style(position: absolute !important;)
 wikidot.com###navi-bar:style(position: absolute !important;)
-wikihow.com###header.shrunk #actions li .nav:style(padding-top: 47px !important; line-height: 12px !important;)
-wikihow.com###header.shrunk #actions li, #header:style(height: 72px !important;)
+wikihow.com###header.shrunk #actions li .nav, .header #actions li .nav:style(padding-top: 47px !important; line-height: 14px !important;)
+wikihow.com###header.shrunk #actions li, #header, .header #actions li:style(height: 72px !important;)
 wikihow.com###header.shrunk #cse-search-box, #header.shrunk #bubble_search:style(padding: 15px 15px 15px 0 !important;)
 wikihow.com###header.shrunk #search_site_bubble:style(height: 40px !important; padding: 0 !important; background-size: 25px !important;)
 wikihow.com###header.shrunk .logo:style(margin: 15px 20px 15px 0 !important;)
-wikihow.com###header.shrunk .nav_icon:style(display: block !important;)
 wikihow.com###header.shrunk .search_box:style(padding: 7px 7px 4px 7px !important;)
+wikihow.com###header_container:style(position: absolute !important; height: 72px !important;)
+wikihow.com###header_logo:style(background-position: left 20px !important;)
 wikihow.com###header_outer:style(position: absolute !important;)
+wikihow.com###hs_query:style(height: auto !important;)
+wikihow.com###hs_submit:style(height: 39px !important; background-size: 25px !important; margin-top: 1px !important;)
 wikihow.com###logo_link:style(height: 42px !important;)
+wikihow.com##.nav_icon:style(display: block !important;)
 wikihow.com##.section h2.sticking, .section h3.sticking, .tool div.sticking:style(position: absolute !important; top: 0 !important; -webkit-border-radius: 4px 4px 0 0 !important;)
 wikihow.com##.sticking > .altblock:style(position: relative !important; width: 60px !important; height: 60px !important; padding: 0 !important; margin: 0 15px 0 0 !important;)
 wikihow.com##.sticking:style(top: 0 !important;)
