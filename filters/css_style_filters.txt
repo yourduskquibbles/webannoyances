@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 16:04 2020-03-05
+! Last Modified: 16:46 2020-03-05
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -3599,8 +3599,9 @@ instyle.com###header, #logo, .header__logo-image, .instyle_menu:style(position: 
 instyle.com##.container-full-width:style(padding: 0 !important;)
 intego.com###persist-footer:style(position: relative !important;)
 integrahealthcentre.com###medchat-outreach, .medchat-widget #medchat-trigger:style(position: absolute !important;)
-intel.com###utility-bar, .navbar-fixed-top.global-menu-simplify, .navbar-fixed-top.site-header, .affix.nav-affixer.wrap-1:style(position: absolute !important;)
+intel.com###utility-bar, .navbar-fixed-top.global-menu-simplify, .navbar-fixed-top.site-header:style(position: absolute !important;)
 intel.com##.affix.lch-affix:style(position: absolute !important; margin-left: 0 !important; padding: 0 !important; width: 100% !important;)
+intel.com##.affix.nav-affixer.wrap-1:style(position: absolute !important; top: 0 !important;)
 intel.com##.no-print.breadcrumb.blade-support:style(position: relative !important; top: 0 !important;)
 intel.com##.stick-to-top.compare-page-view.hidden-xs.compare-products-blade.blade:style(position: relative !important;)
 intercom.com##.header__wrap:style(position: absolute !important;)
