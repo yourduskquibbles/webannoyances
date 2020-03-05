@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 15:30 2020-03-04
+! Last Modified: 09:00 2020-03-05
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of cookie bars & other page covering elements. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -210,7 +210,7 @@ chefkoch.de###ck-cookie-statement
 chicagobusiness.com##.dialog-wrapper
 chowhound.com##.fb_lightbox-lock:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 chowhound.com##.fr_rr_sticky, .freyja_overlay, .keep_scrolling, .side.to_topmobile
-chowhound.com,rollingstone.com,variety.com,washingtontimes.com##.fb_lightbox-overlay, .preloaded_lightbox
+chowhound.com,rawstory.com,rollingstone.com,variety.com,washingtontimes.com##.fb_lightbox-overlay, .preloaded_lightbox
 chromeunboxed.com##.hustle-modal
 chubstr.com,contently.com,si.com###progress
 cigarbid.com###sweepstakes-popup
@@ -784,6 +784,7 @@ rankedboost.com##.bttt-active
 rappler.com###cookie-popup-rappler, #emailPopupDiv
 ratemyprofessors.com###rateReminderModal
 rawstory.com##.mvp-to-top.back-to-top.mvp-fly-top
+rawstory.com##body[style*="overflow-y: hidden;"]:style(overflow-y: scroll !important;)
 readfrontier.org,revealnews.org,themefoxx.com,washingtonmonthly.com##.pum-active
 realclearpolitics.com###large_notif_wrapper, .cc-stop-overlay, .cc-window, .notif-wrapper.warning-wrapper, .overlay_newsletter_promo
 realclearscience.com##.spnf_right.spnf_ticker
