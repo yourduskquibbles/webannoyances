@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 17:00 2020-03-05
+! Last Modified: 10:28 2020-03-06
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2791,6 +2791,7 @@ fox29.com,fox5atlanta.com,fox5dc.com,fox5ny.com,fox9.com##.site-header .primary-
 fox29.com,fox5atlanta.com,fox5dc.com,fox5ny.com,fox9.com##.stick.sidebar-primary.sidebar, .stick.sidebar-secondary.sidebar, .stick.sticky-region:style(position: static !important;)
 fox4kc.com,portlandscw.com,sflcw.com,wgntv.com,whotv.com,wnep.com##.navbar:style(position: absolute !important; margin-top: 0 !important;)
 fox4news.com,fox5dc.com,wsbtv.com###story-sticky-content:style(position: relative !important; top: 0 !important;)
+fox5ny.com##.is-custom.slide-in.alert-banner:style(position: relative !important;)
 fox5vegas.com###site-navbar-container:style(position: relative !important;)
 fox8live.com##.sticky.cdev-menu-nav:style(position: absolute !important;)
 foxbusiness.com##.featured-video.sticky-video .contain .info .title a:style(color: #036 !important;)
@@ -3864,7 +3865,15 @@ kqed.org##.components-Header-___Header__header_Wrap:style(height: 50px !importan
 kqed.org##.components-Header-___Header__header_Wrap_Full:style(height: 50px !important; overflow: unset !important;)
 kqed.org##.components-Header-___Header__logo .logo:style(max-height: 100% !important;)
 kqed.org##.components-NavMenu-___NavMenu__navMenu_Tab_Title:style(margin-top: 7px !important;)
-kqed.org##.page-main:style(margin-top: 66px !important;)
+kqed.org##.components-NextHeader-___NextHeader__bigMenu, .components-NextHeader-___NextHeader__navBtn:style(top: 34px !important; transform: translateY(100%) translateZ(0) !important;)
+kqed.org##.components-NextHeader-___NextHeader__collapsed .components-NextHeader-___NextHeader__header_Logo:style(width: unset !important;)
+kqed.org##.components-NextHeader-___NextHeader__collapsed .components-NextHeader-___NextHeader__subnav:style(transform: translateY(0) translateZ(-3px) !important;)
+kqed.org##.components-NextHeader-___NextHeader__header_Content:style(height: 104px !important;)
+kqed.org##.components-NextHeader-___NextHeader__header_Login:style(position: static !important; opacity: 1 !important; visibility: visible !important;)
+kqed.org##.components-NextHeader-___NextHeader__header_Logo .logo-kqed:style(height: 48px !important;)
+kqed.org##.components-NextHeader-___NextHeader__header_Logo:style(margin-bottom: -3px !important;)
+kqed.org##.components-NextHeader-___NextHeader__header_Tagline:style(display: block !important;)
+kqed.org##.components-NextHeader-___NextHeader__wrap:style(position: static !important;)
 kraftrecipes.com###topHeader:style(position: relative !important; top: 0 !important;)
 kraken.com###head:style(position: absolute !important;)
 kremlin.ru##.topline__menu.topline:style(position: absolute !important;)
