@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 11:30 2020-03-06
+! Last Modified: 12:08 2020-03-06
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2637,8 +2637,11 @@ filehippo.com##.navbar-fixed-top.navbar-default.navbar.bootstrap-home:style(posi
 filingdb.com,m4arts.org###SITE_HEADER:style(position: absolute !important;)
 filmlifestyle.com##.sh-sticky-header-active.sh-sticky-header.sh-header-2.sh-header:style(position: relative !important; left: unset !important; right: unset !important;)
 filmschoolrejects.com##.navbar-sticky:style(position: relative !important; top: 0 !important;)
-finance.yahoo.com##div[style*="backface-visibility: hidden; position: relative; top:"]:style(position: absolute !important; top: unset !important;)
-finance.yahoo.com##div[style="backface-visibility: hidden; position: fixed; z-index: 3; width: 40px; bottom: 40px;"]:style(position: absolute !important; bottom: unset !important;)
+finance.yahoo.com##.bottom-docked-container:style(height: 60px !important;)
+finance.yahoo.com##div[class="bottom-docked-container "][style="height: 96px;"]:style(height: 96px !important;)
+finance.yahoo.com##div[style*="backface-visibility: hidden; position:"] div[class*="Op(0)"]:style(opacity: 1 !important;)
+finance.yahoo.com##div[style*="backface-visibility: hidden; position:"] div[class="Trsdu(.2s) Trsp(scale) Scale(0)"]:style(transform: scale(1) !important;)
+finance.yahoo.com##div[style*="backface-visibility: hidden; position:"]:style(position: relative !important; top: 0 !important; bottom: unset !important;)
 finance.yahoo.com##html:not(.modal-postopen) #Navigation, html:not(.modal-postopen) .YDC-Header:style(transform: translate3d(0,0,0) !important; transition: 0 !important;)
 finance.yahoo.com#@#.YDC-Header, .Sticky.ya-left-rail-sticker:style(position: absolute !important; top: 0 !important; transform: none !important;)
 finance.yahoo.com,news.yahoo.com###close-modal-btn:style(position: absolute !important; top: 20px !important;)
