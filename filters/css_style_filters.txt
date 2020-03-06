@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 13:17 2020-03-06
+! Last Modified: 16:56 2020-03-06
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -3527,7 +3527,13 @@ india.com###navigation-bar, .headersection, .navbar-fixed-top.iwplheader-wrap:st
 indiainfoline.com###master_header:style(position: absolute !important; top: 0 !important;)
 indianapolismonthly.com###content:style(padding-top: 150px !important;)
 indianexpress.com###fixedMenu, .g-header__global-bar, .navbar-fixed-top.amp-wp-title-bar:style(position: absolute !important;)
+indianexpress.com###navbar > li > a:style(line-height: 43px !important;)
 indianexpress.com###nextstory:style(position: relative !important;)
+indianexpress.com##.fixednav #navbar:style(padding-left: 0 !important; text-align: center !important;)
+indianexpress.com##.mainnav:style(max-width: 990px !important; padding: 0 !important;)
+indianexpress.com##.toggle-menu:style(top: 6px !important;)
+indianexpress.com##.topsocial a:style(line-height: 36px !important;)
+indianexpress.com##nav#fixednavbar:style(position: relative !important; height: 43px !important;)
 indiatimes.com###feedbackForm:style(position: absolute !important;)
 indiatimes.com###navigation, #topNavFixed:style(position: relative !important; top: 0 !important;)
 indiatimes.com##.opensticky.next_article_open:style(position: relative !important;)
