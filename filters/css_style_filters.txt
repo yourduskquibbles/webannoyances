@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 12:37 2020-03-06
+! Last Modified: 12:58 2020-03-06
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2644,6 +2644,7 @@ finance.yahoo.com,news.yahoo.com,www.yahoo.com##div[class="bottom-docked-contain
 finance.yahoo.com,news.yahoo.com,www.yahoo.com##div[style*="backface-visibility: hidden; position:"] div[class*="Op(0)"]:style(opacity: 1 !important;)
 finance.yahoo.com,news.yahoo.com,www.yahoo.com##div[style*="backface-visibility: hidden; position:"] div[class="Trsdu(.2s) Trsp(scale) Scale(0)"]:style(transform: scale(1) !important;)
 finance.yahoo.com,news.yahoo.com,www.yahoo.com##div[style*="backface-visibility: hidden; position:"]:style(position: relative !important; top: 0 !important; bottom: unset !important;)
+finance.yahoo.com,news.yahoo.com,www.yahoo.com##html:not(.modal-postopen) .hasScrolled .hasScrolled_Bxsh\(headerShadow\):style(box-shadow: none !important;)
 financialexpress.com###fixedMenubudget:style(position: relative !important;)
 financialpost.com##.masthead .logo:style(width: 485px !important; margin: 0 auto !important; padding: 17.5px 0 !important;)
 financialpost.com##.top-bar:style(background-color: #1542af !important;)
@@ -4768,7 +4769,6 @@ news.yahoo.com###YDC-UH-Stack:style(max-width: 100% !important; border: none !im
 news.yahoo.com###mrt-node-Lead-2-FeatureBar:style(padding-top: 1px !important;)
 news.yahoo.com##.bottom-docked-container div[style*="position: fixed;"]:style(position: relative !important; bottom: 0 !important;)
 news.yahoo.com##.bottom-docked-container:style(margin-top: 0 !important;)
-news.yahoo.com##.hasScrolled .hasScrolled_Bxsh\(headerShadow\):style(box-shadow: none !important;)
 news.yahoo.com##.vp-content:style(position: relative !important; width: 100% !important; height: 100% !important; bottom: unset !important; left: unset !important; animation: none !important;)
 news.yahoo.com,www.yahoo.com###render-target-modal:style(top: 130px !important;)
 news.yahoo.com,www.yahoo.com##div[id="render-target-default"]:style(top: 0 !important;)
@@ -7616,7 +7616,6 @@ yachtharbour.com##.header:style(position: absolute !important; padding: 25px 0 !
 yahoo.com###ColWrap:style(position: absolute !important; top: 100px !important; left: unset !important; right: unset !important;)
 yahoo.com###UH-MobileHeader:style(transform: none !important;)
 yahoo.com###UH:style(border-bottom: none !important;)
-yahoo.com###YDC-Nav [class*="Panel-open"]:style(box-shadow: none !important;)
 yahoo.com###atomic, #UH-0-Header, #UH-1-NavLite, #UH, #UH-0-SportsUH-0-Header, #UH-1-DesktopNav, #YDC-SecondaryNav, #YDC-UH-Stack, .Pos\(f\)\!, .Mb-0.Zoom-1.header.js-applet.M-0, .action-bar, .y-header, .yui-sv-hd.ct-box-hd:style(position: relative !important; top: 0 !important; transform: translate3d(0,0,0) !important;)
 yahoo.com###masterNav:before, #sticky-lrec2-footer, #yucsHead:style(position: absolute !important;)
 yahoo.com###masterNav:style(position: relative !important; top: 0 !important; transform: none !important; width: 100% !important;)
@@ -7626,10 +7625,10 @@ yahoo.com##.HideBottomBar .HideBottomBar_Op\(0\):style(opacity: 1 !important;)
 yahoo.com##.Sticky.ya-left-rail-sticker:style(position: absolute !important; top: 0 !important; transform: none !important;)
 yahoo.com##.modal-closebtn:style(position: absolute !important; top: 30px !important;)
 yahoo.com##.sticky-outer-wrapper > .sticky-inner-wrapper:style(position: static !important; top: 0 !important; transform: none !important;)
-yahoo.com##.tdv2-applet-navrail:style(position: relative !important; width: 100% !important;)
 yahoo.com##.yvp-content:style(position: relative !important; width: 100% !important; height: 100% !important; left: 0 !important; bottom: unset !important; box-shadow: none !important; animation: none !important;)
 yahoo.com##.yvp-stream:style(position: static !important;)
 yahoo.com##html:not(.Reader-open) body.ntk-wide.uh-banner-wide:style(padding-top: 0 !important;)
+yahoo.com##html:not(.modal-postopen) #YDC-Nav [class*="Panel-open"]:style(box-shadow: none !important;)
 yahoo.com##html:not(.modal-postopen) .YDC-Header:style(position: absolute !important; top: 0 !important; transform: translate3d(0,0,0) !important;)
 yammer.com###O365_NavHeader, .topnav-fixed.zindex-t3, .yj-group-header-patterned-scrolling:style(position: relative !important; top: 0 !important;)
 yardbarker.com##.slidedown.ui-header-fixed.ui-panel-content-fixed-toolbar-closed.ui-panel-animate.ui-panel-content-fixed-toolbar.ui-bar-a.ui-header:style(position: absolute !important;)
