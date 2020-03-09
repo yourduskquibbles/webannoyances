@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 16:56 2020-03-06
+! Last Modified: 08:44 2020-03-09
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -6305,6 +6305,9 @@ tastingtable.com##.sticky-poly.sidebar:style(position: static !important;)
 tastingtable.com##nav#navTransition:style(background-color: #000 !important;)
 tattoodo.com##.RD8Vk8L:style(position: absolute !important;)
 tavarzawacki.com###topBar:style(position: absolute !important;)
+taxact.com###nav-actions:style(right: -16px !important;)
+taxact.com##.scrolled, .taxes-bar:style(position: absolute !important;)
+taxact.com##html:style(overflow-x: hidden !important;)
 taxfoundation.org###sidebar:style(position: absolute !important; top: 75% !important; opacity: 1 !important; animation: none !important;)
 taxfoundation.org##.navbar__bottom:style(height: 40px !important;)
 tdameritrade.com##.stock-footer-open.stock-footer:style(position: relative !important; top: 0 !important;)
@@ -7232,6 +7235,7 @@ washingtonpost.com###twitter-widget-1:style(width: unset !important;)
 washingtonpost.com##.brandstudio-bar, .lockfixed.echo-apps-conversations-streamHeader:style(position: relative !important;)
 washingtonpost.com##.context-pdf-box:style(height: 100% !important;)
 washingtonpost.com##.header-nav:style(position: absolute !important; top: 0 !important;)
+washingtonpost.com##.header-nav:style(position: absolute !important;)
 washingtonpost.com##.magnet-container:style(top: 0 !important; animation: none !important;)
 washingtonpost.com##.pb-f-page-header-v2 #wp-header .main-navigation.nav-logo-display-show .homepage-top-nav:style(-ms-flex: 2 !important; flex: 2 !important;)
 washingtonpost.com##.pb-f-page-header-v2 header.bar-hidden #nav-bar:style(transform: none !important;)
