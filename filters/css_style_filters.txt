@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 09:29 2020-03-09
+! Last Modified: 13:14 2020-03-09
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -478,7 +478,7 @@ amusingplanet.com,dynastynow.com,spa.gov.sa,wizistreams.xyz###header-navigation:
 amzreviewtrader.com##.nav-main.nav:style(position: relative !important; top: 0 !important;)
 anandtech.com##.inner_wrapper, .sticky_wrapper, .is-sticky.uix_stickyBar.p-navSticky--all.p-navSticky:style(position: absolute !important;)
 anbox.io##.affix.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
-anbox.io,boingboing.net,community.brave.com,community.signalusers.org,cryptomator.org,datomic.com,discourse.pi-hole.net,dopus.com,finimize.com,forum.level1techs.com,forums.plex.tv,forums.velocitypowered.com,freecodecamp.org,hub.filterlists.com,ipfs.io,kee.pm,letsencrypt.org,pimaxvr.com,pixls.us,sitepoint.com,twittercommunity.com,ubuntu.com,ubuntu-mate.community,vvvv.org,wer-weiss-was.de,whispersystems.discoursehosting.net##.d-header:style(position: absolute !important;)
+anbox.io,boingboing.net,community.brave.com,community.humanetech.com,community.signalusers.org,cryptomator.org,datomic.com,discourse.pi-hole.net,dopus.com,finimize.com,forum.level1techs.com,forums.plex.tv,forums.velocitypowered.com,freecodecamp.org,hub.filterlists.com,ipfs.io,kee.pm,letsencrypt.org,pimaxvr.com,pixls.us,sitepoint.com,twittercommunity.com,ubuntu.com,ubuntu-mate.community,vvvv.org,wer-weiss-was.de,whispersystems.discoursehosting.net##.d-header:style(position: absolute !important;)
 android.com###anchor-nav, .nocontent.devsite-top-section:style(position: relative !important; top: 0 !important;)
 android.com##.dac-nav-sidebar:style(position: absolute !important;)
 android.com##.devsite-nav.devsite-page-nav, .devsite-nav.devsite-section-nav:style(position: static !important;)
@@ -4635,6 +4635,7 @@ nationwide.com###pinnedMenu:style(position: relative !important; top: 0 !importa
 nationwidechildrens.org##.is-stuck.is-at-top.sticky.header-main__sticky:style(position: absolute !important;)
 natlawreview.com##header > .afix:style(position: absolute !important;)
 nature.com##.composite-layer:style(transform: none !important;)
+nature.com##.header-logo img:style(height: 50px !important; max-height: 50px !important;)
 nature.com##.header-logo-container:style(height: 50px !important; padding: 15px 20px !important;)
 nature.com##.header-logo-primary:style(display: inline !important; visibility: visible !important; max-height: 50px !important;)
 nature.com##.header-logo:style(height: 50px !important;)
