@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 11:19 2020-03-10
+! Last Modified: 12:30 2020-03-10
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of cookie bars & other page covering elements. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -336,7 +336,7 @@ ebates.com###backgroundPopup, .button-overlay
 ebay.com###gh-bt, #mw-app-bnr, .sbanner
 ebay.de,yahoodatabreachsettlement.com###gdpr-banner
 ecmweb.com##.slide-out-recent
-economist.com###ec-message-3, #piano-exit-pop-up, .fe-blogs__desktop-beta-bar.beta-bar.bar-wrapper
+economist.com###_evidon_banner, #ec-message-3, #piano-exit-pop-up, .evidon-banner, .fe-blogs__desktop-beta-bar.beta-bar.bar-wrapper
 edie.net,ico.org.uk,msi.com###ccc
 eero.com##.email-capture
 electionado.com,kanvz.com##cnvz-recommender, .gt-detailcanvas-pos, .k-takemeback-bx
@@ -385,8 +385,7 @@ fee.org###email-capture-modal, #chatra__iframe, .convertflow-cta
 fermatslibrary.com###emailCollectionModal
 fhm.com###ctl00_Body_slideboxDiv
 fidelity.com##.info-flyout-wrapper
-fifa.com##.fi-back-to-top
-fifa.com##.fi-cookie-banner
+fifa.com##.fi-back-to-top, .fi-cookie-banner
 filecritic.com###wpfront-notification-bar
 filmlifestyle.com##.optin-monster-saas-overlay, .sh-back-to-top
 finnewsreview.com##.customPopUp
@@ -395,8 +394,7 @@ fivethirtyeight.com###footer-notice
 flair.co###swell-overlay, #swell-popup
 flashbak.com,geneticliteracyproject.org,marijuanamoment.net,naturalblaze.com,saludmovil.com,sharylattkisson.com,thebaffler.com,undark.org,wealthydoc.org###boxzilla-overlay, .boxzilla-container
 flashrouters.com##.cc-popup-right_bottom
-flickr.com##.foot-banner-container
-flickr.com##.hidden.footer-banner-view.view
+flickr.com##.foot-banner-container, .hidden.footer-banner-view.view
 flightglobal.com,flightstats.com###rbiCookiePolicy_pushDownBoxWrapper
 flyingmag.com##.scrollToTop
 focus.de###nlgate, #nlgate-overlay-0
@@ -549,7 +547,7 @@ japaneseknifeimports.com##.eg-cc-window
 johnsolomonreports.com##.post-navigation.navigation
 juggle.org##.slidein-center-left.cp-slidein
 just-auto.com,just-drinks.com,just-food.com,just-style.com###catfishHolder, #catfishHolder-updated-footer
-justanswer.co.uk,justanswer.com##.background, .th-va-mobile-teaser
+justanswer.*##.background, .th-va-mobile-teaser
 justworks.com###hbl-live-chat-wrapper
 kaggle.com##.site-header-react__cookies-notice-desktop, .site-header-react__cookies-notice-mobile
 keepass.info###consent_c
