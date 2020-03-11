@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 08:53 2020-03-11
+! Last Modified: 09:10 2020-03-11
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -3518,6 +3518,8 @@ indeed.com##.cmp-HeaderBasicContainer-nameRatingsFollow:style(display: flex !imp
 indeed.com##.cmp-HeaderBasicContainer:style(flex-direction: column !important;)
 indeed.com##.cmp-HeaderStickyContainer-fixedContainer:style(position: static !important; box-shadow: none !important; border-bottom: 1px solid #ececec !important;)
 independent.co.uk###dynamic-header>a>li:style(top: 0 !important;)
+independent.co.uk##.caption-wrap:style(display: block !important;)
+independent.co.uk##.hero-video.hero:style(position: static !important; top: auto !important; right: unset !important;)
 independent.co.uk##.hero-video:style(width: 100% !important;)
 independent.co.uk##.hero-wrapper, .sticky.video-popout-wrap:style(position: static !important;)
 independent.co.uk##.sticky-video:style(position: static !important; width: 968px !important; height: 544.5px !important;)
