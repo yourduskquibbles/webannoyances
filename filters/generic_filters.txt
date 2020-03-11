@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Generic Filters
-! Last Modified: 12:30 2020-03-10
+! Last Modified: 08:32 2020-03-11
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for generic cosmetic filters - Cosmetically remove common annoyances found on multiple domains typically provided in the social, modal and newsletter Web Annoyances Ultralist sublists. Also includes cookie & gdpr warning elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -15,6 +15,7 @@
 ###Banner_cookie_1
 ###CookieNotification
 ###CybotCookiebotDialog
+###GDPRAlertBanner
 ###GDPRConsentBar
 ###GDPRCookie
 ###GoUpWrapper
@@ -2304,7 +2305,7 @@ reddit.com#@#[href*="reddit.com/submit?url="]
 rmf24.pl#@##backTop
 samsung.com#@#.cookie-warning
 scmp.com#@#.share-widget
-si.com#@#.scroll-box
+scroll.in,si.com#@#.scroll-box
 siliconrepublic.com#@#.social-list
 siliconrepublic.com,son-video.com#@#.cookiebanner
 sportingnews.com#@#.article-tools
