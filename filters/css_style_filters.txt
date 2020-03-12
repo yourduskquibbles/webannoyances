@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 13:03 2020-03-12
+! Last Modified: 14:49 2020-03-12
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -6695,7 +6695,7 @@ theverge.com###sticky-menu, .m-nav:style(position: relative !important; top: 0 !
 theverge.com##.l-header + main, .l-header + span[data-content-admin-id] + main, .l-header + style + main, article.l-main-content.l-segment:style(margin-top: 0 !important;)
 thewalrus.ca##.clearfix.hm-nav-container:style(position: relative !important;)
 theweek.com###header.menu-close, .gray-rollover.scroller, .header-wrapper, .mobile-extension-header:style(position: relative !important;)
-theweek.com##.container, .showonmobile.speedreads-articles:style(margin-top: 0 !important;)
+theweek.com##.container, .showonmobile.speedreads-articles, .the-bb-module:style(margin-top: 0 !important;)
 theweek.com##.page-header-section:style(padding-top: 0 !important;)
 theweek.com##.sticky-top.speedreads-module:style(position: absolute !important; margin-top: 0 !important;)
 theweek.in##.week-header:style(position: relative !important;)
