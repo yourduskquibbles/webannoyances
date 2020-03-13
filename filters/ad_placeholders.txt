@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Ad Placeholder Filters
-! Last Modified: 13:03 2020-03-12
+! Last Modified: 10:54 2020-03-13
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for empty advertising placeholders.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -352,6 +352,8 @@ seekingalpha.com###DFP_1, #article-left-slot-2, #f-ios, #midArticleAdContainer, 
 self.com###box-ad-sidebar\ ads-container-item, .cns-ads-stage
 si.com##.promo.container-full-width.bucket.component
 slate.com##.ad--inArticleBanner
+smithsonianmag.com###ATF_300x250_300x600_300x1050, #InArticle_300x50_320x50_300x250, .OMZ-journeys-right-rail-ad
+smithsonianmag.com##div:matches-css-before(content: "Advertisement")
 southernliving.com##.ad-title
 southlive.in##.sample-ad, .side-bar-ad
 spin.com##.ad-container, .ad-holder, .footer-ad-holder, .sidebar-bg
