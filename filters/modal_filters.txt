@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 13:55 2020-03-11
+! Last Modified: 16:14 2020-03-13
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of cookie bars & other page covering elements. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -99,7 +99,7 @@ askthebuilder.com###ns-back-to-top-arrow
 askubuntu.com,serverfault.com,stackexchange.com,stackoverflow.com,superuser.com###js-gdpr-consent-banner
 asp-usa.com###pixelpop
 assh.org###neko-to-top
-astronomy.com###wp-popup-2302039, .wpcss-close-popup
+astronomy.com,indiapost.com,trains.com##.wp_popup_overlay, .wpcss-close-popup, [id*="wp-popup"]
 asus.com###online-service:style(position: absolute !important;)
 atavist.com##.notification-overlay
 atavist.com##.paywall-notification-visible:style(overflow-x: hidden !important; overflow-y: scroll !important;)
@@ -514,6 +514,7 @@ inc.com##.SectionUpDown, .clicklessNavButton
 indeed.com##.cmp-ReactInSoy-ReviewsPromo, .is-shown.icl-LegalConsentBanner
 independent.co.uk##.adblock-modal, .tp-backdrop, .tp-modal
 indianexpress.com###append_breaking_box, #IE_WAP_NEXT_BTN
+indiapost.com###tidio-chat, .ckcontent
 indiatimes.com###backgroundPopup, #scrollTop, .ntfc_overlay, .ntfc_popup
 indiegogo.com##.i-info-message
 infantino.com,ripple.com###newsletterModal
@@ -970,7 +971,6 @@ townhall.com##.thm-carousel, .thm-pad
 toyota.com##.tcom-back-to-top
 tractorsupply.com###dijit_Dialog_1, #dijit_Dialog_1_underlay, .dijitBackgroundIframe
 trails.com##.ub-emb-overlay
-trains.com##.wp_popup_overlay, .wpcss-close-popup
 travelzoo.com###signupOverlay
 treato.com###modal-bg, .treatoSqueezePagePopupWrap
 trefiel.com##.tve-leads-lightbox
