@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Companion Filters
-! Last Modified: 11:11 2020-03-17
+! Last Modified: 15:47 2020-03-18
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Companion Sublist to be used with CSS Style Modifications List -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -29,6 +29,7 @@ adweek.com###sticky-nav, .sticky-container.widget-area
 aeon.co##.header--fixed, .header--fixed--visible, .header-banner, .sticky-wrapper
 affordanything.com##.sticky-nav-container
 ago.vermont.gov##.navhead.rad div[style="display: block; width: 1200px; height: 29px; float: left;"]
+aier.org##.elementor-section-wrap header:nth-of-type(2).elementor-element[data-settings*="sticky_offset"]
 airbnb.com##:xpath(.//*[@data-hypernova-key="p3sticky_navigationbundlejs"])
 airforcetimes.com,armytimes.com,c4isrnet.com,federaltimes.com,fifthdomain.com,marinecorpstimes.com,militarytimes.com,navytimes.com##.pb-f-video-mco-sticky-player
 airlive.net,alextimes.com,cryptodisrupt.com##.td-logo-sticky
