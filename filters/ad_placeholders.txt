@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Ad Placeholder Filters
-! Last Modified: 14:19 2020-03-16
+! Last Modified: 09:23 2020-03-19
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for empty advertising placeholders.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -273,9 +273,11 @@ nationalgeographic.com###StickyBoxAd, #header-ad, .ad-holder, .adSlotDynamic-slo
 nationalinterest.org##.adslot, .block-leaderboard-ad
 nationaljournal.com###articlePromo, #electionFloorPromo, #walkingHeader
 nature.com###leaderboard, .container-type-banner-advert
+nbcnews.com##.article-body__content > p > em > strong > a[href*="https://smart.link/"]:nth-ancestor(3)
 nbcnews.com##[data-test="ad-container"]:nth-ancestor(1)
-nbcsports.com###topbanner
+nbcsports.com###topbanner, .upper-ad-module
 nbcwashington.com##.ad, .sfadSlot
+ncaa.com###mobile-ad-fixed-bottom
 ncronline.org##.paragraphs-item-house-ad
 nesn.com###gpt-ad-mobile-medium-rectangle
 nevadawolfpack.com##.sidearm-ad-blocker-message-container
