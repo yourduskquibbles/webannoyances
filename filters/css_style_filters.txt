@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 12:00 2020-03-23
+! Last Modified: 14:08 2020-03-23
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -4710,6 +4710,7 @@ neowin.net##.site-header-story + *, .site-header-story.fixed + *:style(margin-to
 neowin.net##.site-header-story:style(position: relative !important; transform: translateY(0px) !important;)
 nerdist.com##.condensed.main_header:style(position: absolute !important;)
 nerdist.com##.container.header-inner-wrapper:style(position: relative !important; top: 0 !important;)
+nerdist.com##.nav-inner:style(position: relative !important;)
 nerdwallet.com##.sticky.bank-profile-sub-nav-sticky:style(position: relative !important; top: 0 !important;)
 nerdydata.com##.mdl-color-text--white.mdl-color--blue-900.mdl-layout__header--scroll.mdl-layout__header:style(position: relative !important; top: 0 !important;)
 nesn.com###right-column:style(position: relative !important; margin: 0 !important; bottom: unset !important;)
