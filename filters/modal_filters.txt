@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 09:36 2020-03-23
+! Last Modified: 11:08 2020-03-24
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of cookie bars & other page covering elements. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -701,7 +701,7 @@ nyse.com###cookie-disclaimer
 nytimes.com###lireDock, #overlay, #step-two-modal, #welcome-back-modal, .ButtonModal-container--2sXp8, .bundle-payflow, .bundle-payflow-module, .gdpr[data-testid="gdpr-dock"], .nytc---modal-window---contentBase, .nytc---modal-window---windowContainer, .nytc---shared---modalContentContainer
 nytimes.com##.modal:not([class="modal user-settings-modal "]):not(.swiper-slide)
 nytimes.com##.overlay:not(svg)
-nytimes.com##html:style(overflow-x: hidden !important; overflow-y: auto !important; padding-right: 0 !important;)
+nytimes.com##html:not(.nytapp-vi-interactive):style(overflow-x: hidden !important; overflow-y: auto !important; padding-right: 0 !important;)
 nzherald.co.nz###wpnPop
 objective-see.com##.mc-modal-bg
 offers.com###modal-overlay, #takeover
