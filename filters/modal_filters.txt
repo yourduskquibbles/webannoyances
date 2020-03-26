@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 08:35 2020-03-26
+! Last Modified: 09:05 2020-03-26
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of cookie bars & other page covering elements. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -700,9 +700,12 @@ nydailynews.com##.met-flyout
 nypost.com###background-wrapper:style(overflow-x: hidden !important; overflow-y: hidden !important;)
 nypost.com###nyp-newsletter-modal, #nyp-piano-flyout, .modal-trigger
 nyse.com###cookie-disclaimer
-nytimes.com###lireDock, #overlay, #step-two-modal, #welcome-back-modal, .ButtonModal-container--2sXp8, .bundle-payflow, .bundle-payflow-module, .gdpr[data-testid="gdpr-dock"], .nytc---modal-window---contentBase, .nytc---modal-window---windowContainer, .nytc---shared---modalContentContainer
-nytimes.com##.modal:not([class="modal user-settings-modal "]):not(.swiper-slide)
-nytimes.com##.overlay:not(svg)
+nytimes.com###gateway-content, #lireDock, #overlay, #step-two-modal, #welcome-back-modal, .ButtonModal-container--2sXp8, .LoginPrompt-loginPrompt, .MAG_web_anon_coronavirus-dock, .bundle-payflow, .bundle-payflow-module, .gdpr[data-testid="gdpr-dock"], .modal:not([class="modal user-settings-modal "]):not(.swiper-slide), .nytc---modal-window---contentBase, .nytc---modal-window---windowContainer, .nytc---shared---modalContentContainer, .overlay:not(svg)
+nytimes.com###interactive-footer-wrapper:style(display: block !important;)
+nytimes.com###site-content:style(position: relative !important;)
+nytimes.com##.css-1bd8bfl:style(background: unset !important;)
+nytimes.com##.css-mcm29f:style(position: unset !important; height: unset !important; width: unset !important; overflow: unset !important;)
+nytimes.com##body:style(overflow: unset !important;)
 nytimes.com##html:not(.nytapp-vi-interactive):style(overflow-x: hidden !important; overflow-y: auto !important; padding-right: 0 !important;)
 nzherald.co.nz###wpnPop
 objective-see.com##.mc-modal-bg
