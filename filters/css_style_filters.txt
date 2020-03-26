@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 14:17 2020-03-26
+! Last Modified: 14:27 2020-03-26
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2801,6 +2801,9 @@ foundation.mozilla.org##.category-nav, .creepiness-slider:style(position: relati
 foundr.com##.scrolled.site-header:style(position: absolute !important; background-color: transparent !important;)
 fox-it.com##.loaded.navigation.doc__main-nav:style(position: absolute !important;)
 fox13memphis.com,kiro7.com,rsaconference.com,wafb.com###sticky-nav:style(position: relative !important;)
+fox19.com,hawaiinewsnow.com,mysuncoast.com,nbc12.com,wlbt.com###sticky-nav:style(position: relative !important;)
+fox19.com,hawaiinewsnow.com,mysuncoast.com,nbc12.com,wlbt.com##.powa-sticky-stuck.powa-sticky:style(padding-bottom: 0 !important;)
+fox19.com,hawaiinewsnow.com,mysuncoast.com,nbc12.com,wlbt.com##.powa-sticky.powa-sticky-stick:style(position: static !important; width: 100% !important; max-width: unset !important; animation: none !important;)
 fox29.com,fox5atlanta.com,fox5dc.com,fox5ny.com,fox9.com##.mini-header .branding .logo-full:style(display: block !important;)
 fox29.com,fox5atlanta.com,fox5dc.com,fox5ny.com,fox9.com##.nav-closed.site-header:style(position: relative !important; height: 80px !important; border-top-width: 4px !important;)
 fox29.com,fox5atlanta.com,fox5dc.com,fox5ny.com,fox9.com##.site-header .branding .logo:style(height: 48px !important;)
@@ -3208,9 +3211,6 @@ harvard.edu##.g-header:style(position: absolute !important;)
 hashnode.com###global-sidebar, .scroll-to-fixed-fixed:style(position: absolute !important;)
 havenly.com##.role-temp.curtain:style(position: absolute !important;)
 hawaii.com##.clear.topNav > .nav:style(position: absolute !important;)
-hawaiinewsnow.com,mysuncoast.com,nbc12.com,wlbt.com###sticky-nav:style(position: relative !important;)
-hawaiinewsnow.com,mysuncoast.com,nbc12.com,wlbt.com##.powa-sticky-stuck.powa-sticky:style(padding-bottom: 0 !important;)
-hawaiinewsnow.com,mysuncoast.com,nbc12.com,wlbt.com##.powa-sticky.powa-sticky-stick:style(position: static !important; width: 100% !important; max-width: unset !important; animation: none !important;)
 hazlitt.net###region-navigation, #zone-masthead:style(position: relative !important; top: 0 !important;)
 hbo.com###contentContainerTop:style(position: relative !important; top: 0 !important;)
 hbr.org##.sticky-top-header:style(position: absolute !important; top: 0 !important;)
