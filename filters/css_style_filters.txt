@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 08:35 2020-03-26
+! Last Modified: 10:04 2020-03-26
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2655,10 +2655,13 @@ finance.yahoo.com,news.yahoo.com,www.yahoo.com##div[style*="backface-visibility:
 finance.yahoo.com,news.yahoo.com,www.yahoo.com##div[style*="backface-visibility: hidden; position:"]:style(position: relative !important; top: 0 !important; bottom: unset !important;)
 finance.yahoo.com,news.yahoo.com,www.yahoo.com##html:not(.modal-postopen) .hasScrolled .hasScrolled_Bxsh\(headerShadow\):style(box-shadow: none !important;)
 financialexpress.com###fixedMenubudget:style(position: relative !important;)
-financialpost.com###related-stories:style(position: static !important;)
-financialpost.com##.l-header:style(height: 162px !important;)
 financialpost.com##.masthead .logo:style(width: 485px !important; margin: 0 auto !important; padding: 17.5px 0 !important;)
 financialpost.com##.top-bar:style(background-color: #1542af !important;)
+financialpost.com,nationalpost.com###related-stories:style(position: static !important;)
+financialpost.com,nationalpost.com##.featured-video.sticky-video iframe:style(margin-top: 0 !important;)
+financialpost.com,nationalpost.com##.l-header:style(height: 162px !important; margin-top: 0 !important;)
+financialpost.com,nationalpost.com##.video-container iframe:style(width: 780px !important; height: 439px !important;)
+financialpost.com,nationalpost.com##.video-container:style(position: static !important; width: 100% !important; height: unset !important; overflow: hidden !important;)
 finehomebuilding.com###top-promo-waypoint, .siteheader--main, .siteheader:style(position: absolute !important;)
 fineknitting.com##.fusion-header:style(position: relative !important; top: 0 !important;)
 fineknitting.com##.fusion-sticky-shadow.fusion-header:style(position: absolute !important;)
@@ -4639,9 +4642,7 @@ nationalgeographic.com##.sticky-container > .sticky, .sticky-container > div:sty
 nationaljournal.com###menu, #promo_wrapper, #top_header:style(position: relative !important; top: 0 !important;)
 nationallawjournal.com###menu-nav:style(position: relative !important; top: 0 !important;)
 nationalpost.com##.below-content.entry-featured-media-container, .full-width.l-header, header:style(position: relative !important; top: 0 !important;)
-nationalpost.com##.featured-video.sticky-video > div:first-child:style(position: static !important;)
 nationalpost.com##.klangoo-recom-wrapper.native-sticky:style(position: relative !important;)
-nationalpost.com##.l-header:style(height: 162px !important;)
 nationalpost.com##.masthead .logo:style(width: 458px !important; margin: 0 auto !important; padding: 17.5px 0 !important;)
 nationalreview.com##.article-browser:style(position: relative !important; transform: translateY(0) !important;)
 nationalreview.com##.nav-fixed-top-main, .nav-fixed-top:style(position: relative !important;)
@@ -6462,6 +6463,7 @@ theage.com.au###nav--secondary:style(position: relative !important; top: 0 !impo
 theaircurrent.com##.is_stuck.page-sidebar-sticky:style(position: absolute !important;)
 theamericanmirror.com##.page-wrapper.offset:style(margin-top: 0 !important;)
 theamericanmirror.com##header .masterhead .cta-button a:style(font-size: 14px !important; padding: 13px 22px !important; margin: 17px 17px !important;)
+theamericanmirror.com##header .masterhead .logo h1.icon a:style(width: 400px !important; height: 40px !important; display: inline-block !important; background-size: 400px 40px !important;)
 theamericanmirror.com##header .masterhead .logo h1.icon:style(width: 400px !important; height: 40px !important; margin: 40px 8px !important; background-size: 400px 40px !important;)
 theamericanmirror.com##header .masterhead .nav nav ul.menu li a:style(padding: 16px 10px !important;)
 theamericanmirror.com##header .masterhead .nav.main-nav nav ul.menu li a:style(font-size: 16px !important;)

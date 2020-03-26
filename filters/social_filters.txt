@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Social Filters
-! Last Modified: 08:35 2020-03-26
+! Last Modified: 10:04 2020-03-26
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for social networking & sharing - Remove third party social media share sections, icons & other cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -585,6 +585,10 @@ mediaite.com##.c-article-foot__section.c-article-foot__site, .o-social-item__lin
 mediarun.com##.jeg_share_top_container
 mediatrackers.org##.toolbar-social
 medicalxpress.com###js-soc-panel, #rank
+medium.com##a[href*="/share/facebook"]:nth-ancestor(1)
+medium.com##a[href*="/share/twitter?"]:nth-ancestor(1)
+medium.com##body > #root > div > article > div:not([class*=""]) > section > div.n.p > div > div.eu > div > div:nth-of-type(2) > div > div[class="gz r au"] > button > svg:nth-ancestor(3)
+medium.com##body > #root > div > article > div:not([class*=""]) > section > div.n.p > div > div.eu > div > div:nth-of-type(2) > div > div[class="gz r au"] > button > svg > path[fill-rule="evenodd"][clip-rule="evenodd"][d^="M10.76"]:nth-ancestor(3)
 megabots.com##.js-active.btn--social-tab
 melmagazine.com##.wp-embed-share
 menshealth.com###sharebar-195281, .social-button-pinterest, .sticky.inner
