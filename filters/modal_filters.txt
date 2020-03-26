@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 11:08 2020-03-24
+! Last Modified: 08:35 2020-03-26
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of cookie bars & other page covering elements. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -349,6 +349,7 @@ elle.com##.policy-bar
 ello.co##.Modal
 elpasotimes.com##body:style(height: auto !important;)
 elpasotimes.com##div[id^="sp_message_id"]
+emercoin.com,ykknorthamerica.com##.up
 emerils.com##.is-active.interruptor
 en.bab.la##.qc-cmp-showing.qc-cmp-ui-container
 eng.uber.com,macys.com###__tealiumGDPRecModal
@@ -613,6 +614,7 @@ mediapart.fr##.mkt-banner
 medicalnewstoday.com###mask, #message
 medicalxpress.com,outsideonline.com,pjrvs.com##.notice
 medicinenet.com###backTop, .avgrund-overlay, .avgrund-popin
+medium.com##body > #root > div:nth-of-type(1) #lo-desktop-small-meter-1-header:nth-ancestor(9)
 meds.se##.accepted-cookies
 megynkelly.org###openModal
 menshealth.com##.prev-item
@@ -1061,7 +1063,6 @@ wykop.pl##.big.button, .rodo-alert
 yahoo.com###community-bar, #yucs-top-bar, .canvas-community-bar, .cover-community-bar, .cta-overlay, .hpsetbannerpromotdv2wafer, .yui3-overlay-mask
 yelp.com###fullscreen-pitch, #privacy-policy-notice, .js-open-in-app, .photo-box_overlay
 yesmovies.*##iframe[src="about:blank"]
-emercoin.com,ykknorthamerica.com##.up
 yodalearning.com##.tve-leads-shortcode.tve-leads-triggered:style(opacity: 0 !important;)
 yodalearning.com##.tve_content_lock.tve_lead_lock.tve_lock_blur .tve_lead_locked_content:style(z-index: 999999 !important;)
 yodalearning.com##.tve_lead_locked_content:style(filter: none !important; user-select: text !important; -moz-user-select: text !important; -webkit-user-select: text !important;)

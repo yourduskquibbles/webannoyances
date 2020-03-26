@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 15:30 2020-03-24
+! Last Modified: 08:35 2020-03-26
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2655,6 +2655,8 @@ finance.yahoo.com,news.yahoo.com,www.yahoo.com##div[style*="backface-visibility:
 finance.yahoo.com,news.yahoo.com,www.yahoo.com##div[style*="backface-visibility: hidden; position:"]:style(position: relative !important; top: 0 !important; bottom: unset !important;)
 finance.yahoo.com,news.yahoo.com,www.yahoo.com##html:not(.modal-postopen) .hasScrolled .hasScrolled_Bxsh\(headerShadow\):style(box-shadow: none !important;)
 financialexpress.com###fixedMenubudget:style(position: relative !important;)
+financialpost.com###related-stories:style(position: static !important;)
+financialpost.com##.l-header:style(height: 162px !important;)
 financialpost.com##.masthead .logo:style(width: 485px !important; margin: 0 auto !important; padding: 17.5px 0 !important;)
 financialpost.com##.top-bar:style(background-color: #1542af !important;)
 finehomebuilding.com###top-promo-waypoint, .siteheader--main, .siteheader:style(position: absolute !important;)
