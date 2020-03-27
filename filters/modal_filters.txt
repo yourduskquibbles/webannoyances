@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 14:36 2020-03-27
+! Last Modified: 15:31 2020-03-27
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of cookie bars & other page covering elements. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1073,7 +1073,7 @@ yodalearning.com##.tve_lead_locked_content:style(filter: none !important; user-s
 yodalearning.com##.tve_lead_locked_overlay, .tve-leads-screen-filler, .tve-leads-triggered
 yodalearning.com##body:style(margin-top: 0 !important;)
 yodalearning.com##w-div:has([role^="dialog"])
-youtube.com##ytd-popup-container paper-dialog:has-text(/Add YouTube TV|Changes to YouTube’s Terms of Service|Check out your new Library|Get access to exclusive perks|How is YouTube today?|Our Terms of Service have been updated|Rate your ads|Try it free|Try the YouTube Kids app|What is your biggest complaint|Which problems are you experiencing|You're signed out of YouTube|YouTube TV/)
+youtube.com##ytd-popup-container paper-dialog:has-text(/Changes to YouTube’s Terms of Service|Check out your new Library|Get access to exclusive perks|How is YouTube today|Our Terms of Service have been updated|Rate your ads|Try it free|Try the YouTube Kids app|What is your biggest complaint|Which problems are you experiencing|You're signed out of YouTube|YouTube TV/)
 youtube.com##ytd-popup-container yt-bubble-hint-renderer:has-text(/Get access to exclusive perks/)
 youtube.com##ytd-popup-container yt-tooltip-renderer:has-text(/Choose what to play next/)
 yubico.com##.cookie-pop
