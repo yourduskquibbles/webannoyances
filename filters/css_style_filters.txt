@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 12:27 2020-03-27
+! Last Modified: 14:02 2020-03-27
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -7613,7 +7613,6 @@ wsj.com##.nc-exp-nav:style(position: absolute !important; top: 0 !important;)
 wsj.com##.pg-shown-element:style(top: 0 !important; height: 100vh !important;)
 wsj.com##.sliderBox:style(overflow: hidden !important;)
 wsj.com##.slim.main-logo, .style__slim_3Yt-1Jkecgc27ZlzN3GB5x.style__brand-link_21t2YbqaDYvH4LO0QT-vmc, .style--brand-link-21t2YbqaDYvH4LO0QT-vmc.style--slim-3Yt-1Jkecgc27ZlzN3GB5x:style(opacity: 0 !important; visibility: none !important;)
-wsj.com##.style--brand-link--21t2Ybqa:style(position: static !important; top: auto !important; margin: 0 auto 10px !important; height: 65px !important; width: 570px !important; background-size: 550px !important; background-repeat: no-repeat !important; background-position: center 16.5px !important;)
 wsj.com##.style--brand-link-21t2YbqaDYvH4LO0QT-vmc.style--section-front-twkV6IH4vCza8gNd6hNsr, .style__brand-link_21t2YbqaDYvH4LO0QT-vmc.style__section-front_twkV6IH4vCza8gNd6hNsr:style(width: 90px !important; height: 55px !important; background-size: 80% !important; background-position: 0px 8px !important;)
 wsj.com##.style--logo-Ms7ZFr_j7_kFb3RngGpfX, .style--section-logo-1df-QFwQ7mnt7jitJTZyZK:style(top: -1px !important;)
 wsj.com##.style--mast-head-container--DzcwPkNt.style--mdstrip--1OL7tHDu:style(top: 35px !important;)
@@ -7630,6 +7629,7 @@ wsj.com##.style__masthead-strap_1M8tiEOK_ZstuN4MWbJKCc:style(opacity: 1 !importa
 wsj.com##.style__masthead_1pXevH3d78skc-4dpfbSMM, .style__wsj-header_34lQSbG_0ms4yUg0JKTlQ0.style__scrolled_2R_Vmp-c-MDN-CKbTiTOya:not(.style__section_3ZmUrl-hyMhpr-JVMlDypN), .style--masthead-2SN97Xk2ktaC_662rHZsz2:style(padding-bottom: 0 !important;)
 wsj.com##.style__sector_b63KKbwfDeV7C50fFCTNH:style(margin-top: 10px !important;)
 wsj.com##.style__share-container_35b8XUuLQlfuFrB6wOrmLK, .style--share-container-35b8XUuLQlfuFrB6wOrmLK, .style--show-share-tools-2VNHbNhEkUZyChoiJ-hayF.style--remove-share-tools-14HXP5pLhoKPx7p-ZTVKcn .style--share-container-35b8XUuLQlfuFrB6wOrmLK:style(top: 40px !important;)
+wsj.com##[class*="style--scrolled-"] [class*="style--brand-link-"]:style(position: static !important; top: auto !important; left: auto !important; margin: 0 auto 10px !important; width: 570px !important; height: 65px !important; background-size: 550px !important; background-repeat: no-repeat !important; background-position: center 16.5px !important;)
 wsj.com##[class^="style--customer-nav-"]:not([class^="style--customer-nav-container"]), [class^="style__customer-nav_"]:style(position: absolute !important; height: 50px !important; top: 14px !important; right: 10px !important;)
 wsj.com##div[class^="style__products-wrapper_"]:style(background-color: unset !important;)
 wsj.com##div[class^="style__top-links-wrapper"]:style(margin-bottom: 0 !important;)
