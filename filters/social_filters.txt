@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Social Filters
-! Last Modified: 10:24 2020-03-26
+! Last Modified: 19:20 2020-03-27
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for social networking & sharing - Remove third party social media share sections, icons & other cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -245,7 +245,7 @@ dailycaller.com##article li:has([data-social="fb"])
 dailycaller.com##article li:has([data-social="reddit"])
 dailycaller.com##article li:has([data-social="tw"])
 dailycaller.com##footer ul:has([href*="facebook.com"])
-dailydot.com###dailydot-socialbar, .dd-share-bar-wrapper
+dailydot.com###dailydot-socialbar, .dd-share-bar-wrapper, .padd-left-none.inline-flex.share-social-list
 dailyfx.com##.social-icon-art, .top-social-icon
 dailymail.co.uk###dms-txt, #shareCountBottom, .facebook, .facebook-like-static, .fb, .fff-social-links, .floating-buttons, .horizontal-1eH9F.container-3zJLP, .linksHolder-3KBa2, .mailto, .mobile-sharing-button, .mol-related-videos-panel-social, .share-count, .share-facebook-long, .share-fbmessenger, .share-flipboard, .share-icons, .share-link, .share-pinterest, .share-twitter, .shareComment, .sjs-share-container, .social, .socialContainer-1Yly1, .vjs-social-controls, .vjs-social-share-control, .whatsapp
 dailymail.co.uk##.dms-puff:nth-ancestor(1)
