@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 16:50 2020-03-27
+! Last Modified: 19:11 2020-03-27
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1589,6 +1589,10 @@ clutch.co##.quick-menu:style(position: absolute !important; top: auto !important
 clyp.it##.fixed-header:style(position: relative !important; top: 0 !important;)
 cmegroup.com##.header-par.cmePineappleHeader:style(position: absolute !important;)
 cn.nytimes.com##.article-ribbon:style(position: relative !important; transform: translateY(0) !important;)
+cnbc.com###BrandPageWrapper[class="cnbcBrand"] [id^="nav-menu-article"]:style(position: absolute !important; display: flex !important;)
+cnbc.com###BrandPageWrapper[class="makeitBrand"] [class*="nav-menu-styles-makeit-linksSticky"]:style(display: flex !important;)
+cnbc.com###BrandPageWrapper[class="makeitBrand"] [class*="nav-menu-styles-makeit-mainLinksSticky"]:style(transform: translateY(0) !important; margin-left: 0 !important;)
+cnbc.com###BrandPageWrapper[class="makeitBrand"] [id^="nav-menu-article"]:style(display: flex !important; position: relative !important; top: 3px !important; left: 20px !important; padding: 0 15px 0 8px !important; width: 40% !important; height: max-content !important;)
 cnbc.com###GlobalNavigation-Persistent, #GlobalNavigation, #MakeItGlobalNavigation, #SelectGlobalNavigation, .Sidebar-wrapperSticky, .fixedPosition.ng-scope.pageHeader:style(position: absolute !important;)
 cnbc.com###nav_spacer:style(height: 0 !important;)
 cnbc.com##.GlobalNavigation-globalNavigation.GlobalNavigation-globalNavigationSticky:style(height: 70px !important;)
@@ -1613,7 +1617,6 @@ cnbc.com##[class*="Select-styles-select-logo--"] img:style(width: 150px !importa
 cnbc.com##[class*="Select-styles-select-searchIcon--"]:style(padding: 0 15px 0 0 !important;)
 cnbc.com##[class*="Select-styles-select-wrapper--"]:style(height: 80px !important;)
 cnbc.com##[class^="Select-styles-select-globalNavigationSticky--"]:style(border-bottom: 5px solid #0477c9 !important;)
-cnbc.com##[id^="nav-menu-article"]:style(position: absolute !important; display: flex !important;)
 cnet.com###product-video-container, .entered.dock.inviewElement:style(position: static !important;)
 cnet.com###rbHeader:style(position: relative !important; top: 0 !important;)
 cnet.com###rbWrapper:style(padding-top: 0 !important;)

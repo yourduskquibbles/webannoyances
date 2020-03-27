@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Ad Placeholder Filters
-! Last Modified: 12:43 2020-03-27
+! Last Modified: 19:11 2020-03-27
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for empty advertising placeholders.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -165,6 +165,7 @@ fantasypros.com###top-banner, .ad-300, .leaderboard-wrap
 fastcocreate.com,fastcompany.com##.dianomiScriptContainer.dianomi_context, .post__article-top-ad-wrapper
 fatherly.com##.article__leaderboard, .article__rail-ad, .mobile-ad-nav, .module__ad
 filmcomment.com,flyingmag.com,investors.com,popsci.com##.ads
+finance.yahoo.com##a[rel="nofollow noopener noreferrer"][href*="impressions=true"]:nth-ancestor(3)
 financialpost.com,nationalpost.com###postmedia_layouts_ad-bot, #postmedia_layouts_ad-mid, .ad-holder, .adsizewrapper, .adunit, .widget_postmedia_layouts_ad
 fixya.com###locked-footer-ad-wrapper
 flocombat.com##.dfp-item, .ng-star-inserted.ad-fadeIn
