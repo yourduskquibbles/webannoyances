@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 22:12 2020-03-27
+! Last Modified: 23:11 2020-03-27
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -3506,13 +3506,16 @@ imdb.com##.pinned-top.sticky-widget.aux-content-widget-2:style(position: absolut
 imgur.com##.App-cover:style(position: absolute !important; top: 0 !important; box-shadow: none !important; z-index: unset !important;)
 imgur.com##.CoverChangeGallery:style(bottom: -29px !important;)
 imgur.com##.Footer-slim:style(position: static !important; bottom: -60px !important;)
+imgur.com##.Gallery-EngagementBarContainer, .Gallery-Sidebar, .NavbarAvatar-navbar, .PostOptions:style(position: static !important;)
 imgur.com##.Navbar, .headerContainer, .headroom--scrolled.headroom--pinned.headroom, .post-header:style(position: relative !important; top: 0 !important;)
-imgur.com##.NavbarAvatar-navbar, .PostOptions:style(position: static !important;)
+imgur.com##.NewCover.GalleryCover.isFixed .Navbar-signin, .NewCover.GalleryCover.isFixed .Navbar-signup, .NewCover.GalleryCover.isFixed .Navbar.active .NavbarNotifications, .NewCover.GalleryCover.isFixed .Navbar.active .NavbarUserMenu, .NewCover.GalleryCover.isFixed.withPostMeta .Searchbar:style(transform: translateY(0) !important;)
 imgur.com##.Searchbar:style(position: relative !important; margin-top: 0 !important;)
 imgur.com##.UploadCover:style(position: absolute !important; transform: translate(0px) !important;)
 imgur.com##.UploadPost-titleHidden:style(opacity: 1 !important;)
 imgur.com##.isCollapse.HomeCover.NewCover.App-cover:style(bottom: auto !important;)
 imgur.com##.post-container:style(padding-top: 0 !important;)
+imgur.com##body:style(overflow: unset !important;)
+imgur.com,taxact.com##html:style(overflow-x: hidden !important;)
 imore.com##.article-body table th:style(position: relative !important; top: 0 !important;)
 imore.com##.header-top-inner:style(position: absolute !important;)
 impactbnd.com##.header--sub--topics.header--sub:style(position: absolute !important;)
@@ -6355,7 +6358,6 @@ tattoodo.com##.RD8Vk8L:style(position: absolute !important;)
 tavarzawacki.com###topBar:style(position: absolute !important;)
 taxact.com###nav-actions:style(right: -16px !important;)
 taxact.com##.scrolled, .taxes-bar:style(position: absolute !important;)
-taxact.com##html:style(overflow-x: hidden !important;)
 taxfoundation.org###sidebar:style(position: absolute !important; top: 75% !important; opacity: 1 !important; animation: none !important;)
 taxfoundation.org##.navbar__bottom:style(height: 40px !important;)
 tdameritrade.com##.stock-footer-open.stock-footer:style(position: relative !important; top: 0 !important;)
