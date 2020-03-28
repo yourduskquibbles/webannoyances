@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 11:54 2020-03-28
+! Last Modified: 12:04 2020-03-28
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -6495,6 +6495,7 @@ theappsolutions.com##.header:style(position: absolute !important; background-col
 theartofdoingstuff.com###access.sticky-element-original.element-is-not-sticky:style(visibility: visible !important;)
 theatlantic.com###action-bar, #main-navigation--lacroix, #site-header-container, #site-header, .site-header:style(position: relative !important; top: 0 !important;)
 theatlantic.com##.c-nav__container:before:style(position: absolute !important;)
+theatlantic.com##.c-nav__list--accounts:style(position: static !important;)
 theatlantic.com##.t-homepage #main-navigation--lacroix:style(padding: 24px 0 8px !important;)
 theatlantic.com##.t-homepage .animated, .t-homepage .bigaSlideUp, .t-homepage .c-nav--main--lacroix.animated:style(animation: none !important;)
 theatlantic.com##.t-homepage .c-nav__atlantic-wordmark--lacroix:style(margin-top: 8px !important;)
