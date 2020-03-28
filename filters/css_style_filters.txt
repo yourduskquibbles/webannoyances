@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 21:49 2020-03-27
+! Last Modified: 22:12 2020-03-27
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1089,6 +1089,7 @@ bloomberg.com##.sticky-container:style(position: static !important; top: 0 !impo
 bloomberg.com##.sticky-video:style(transform: none !important;)
 bloomberg.com##.video-player__container:style(position: static !important; transform: none !important; opacity: 1 !important; top: 0 !important; width: auto !important; height: auto !important;)
 bloomberg.com##aside.pullquote:style(opacity: 1 !important; animation: none !important;)
+bloomberglaw.com##[class*="TheArticle_clotheslineWrapper"]:style(position: static !important; opacity: 1 !important; width: 100% !important;)
 bloombergquint.com##.header-module__hero-image-caption__3aujh:style(display: block !important;)
 bloombergquint.com##.header-sticky-wrapper, .sticky-outer-wrapper > .sticky-inner-wrapper:style(position: relative !important;)
 bloombergquint.com##.story.bq-nav:style(position: relative !important; top: 0 !important;)

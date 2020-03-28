@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 21:49 2020-03-27
+! Last Modified: 22:12 2020-03-27
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of cookie bars & other page covering elements. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -164,6 +164,7 @@ blog.checklyhq.com##.progress-container
 blog.petrockblock.com###wpca-bar
 bloomberg.com###graphics-paywall-overlay
 bloomberg.com##body[data-paywall-overlay-status="show"]:style(overflow-x: hidden !important; overflow-y: scroll !important;)
+bloomberglaw.com##[class*="CookieNotice_cookiesBar"]
 bloomberglaw.com,codex.online,evry.com,neweracap.com,threadreaderapp.com##.cookies
 bloombergquint.com###offline-notification, .paywall-meter-module__story-paywall-container__1UgCE
 bloombergquint.com,dnaindia.com###desktopBannerWrapped, #izmiddle-box
