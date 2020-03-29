@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 12:31 2020-03-28
+! Last Modified: 12:01 2020-03-29
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -6259,6 +6259,7 @@ support.google.com##.fixed-sidebar-container:style(position: absolute !important
 support.google.com##.nav-back-to-top:style(position: absolute !important;)
 support.mozilla.org##body.scroll-header > header:style(position: relative !important; transform: none !important;)
 support.mozilla.org##body.scroll-header:style(padding-top: 0 !important;)
+support.office.com##.sidebar-banner .sidebar-banner-innerWrapper:style(position: static !important;)
 support.robinhood.com###solvvy-support-flow-launch-widget, .container.topbar:style(position: absolute !important;)
 surlatable.com###mini-cart:style(top: -6px !important;)
 surlatable.com##.fixed .menu-utility-user ul li a span.sticky-hide:style(display: inline-block !important;)
