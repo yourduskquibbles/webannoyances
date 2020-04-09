@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 19:02 2020-04-09
+! Last Modified: 19:45 2020-04-09
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -5854,6 +5854,10 @@ sendsdata.to##.tbot:style(position: static !important;)
 sensorstechforum.com##.sticky-nav.menu-box:style(position: relative !important; top: 0 !important;)
 seoclarity.net##.header-container-wrapper:style(position: absolute !important;)
 seriouseats.com##.btn-search-toggle:style(height: 40px !important; padding: .5em .4em 0 .5em !important;)
+seriouseats.com##.header-global--desktop .header-global__content:style(height: 55px !important; align-items: flex-end !important;)
+seriouseats.com##.header-global--desktop .header-global__logo-container:style(transform: translateY(25px) !important;)
+seriouseats.com##.header-global--desktop:style(position: static !important;)
+seriouseats.com##.header-global--desktop__spacer:style(height: 0 !important;)
 seriouseats.com##.header-wrapper.d-sticky.has-scroll-indicator:before, .header-wrapper.d-sticky.has-scroll-indicator:after:style(height: 2px !important; background-color: #30a2cc !important;)
 seriouseats.com##.header-wrapper:style(position: absolute !important; transform: none !important; height: 90px !important; left: auto !important;)
 seriouseats.com##.logo-se:style(width: 120px !important; transform: translate(-50%,33%) !important; padding-top: 97px !important;)
