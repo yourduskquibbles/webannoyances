@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 12:52 2020-04-13
+! Last Modified: 11:45 2020-04-15
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of cookie bars & other page covering elements. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -93,7 +93,7 @@ arianespace.com##.is-fixed.js-tirette.tirette, .js-banner.cookie
 arm.com##.c-policies
 arris.com,forces.net,hostway.com###optanon
 artnet.com,thehackernews.com,zendesk.com###ouibounce-modal
-artsy.net,bestvpn.com,change.org,cryptocompare.com,discordbots.org,economist.com,franchisehelp.com,galoremag.com,goodreads.com,justanswer.co.uk,justanswer.com,kiwico.com,konbini.com,legalist.com,seattletimes.com,thehackernews.com,thenation.com,vogue.com,yts.*##.modal
+artsy.net,bestvpn.com,change.org,cryptocompare.com,discordbots.org,economist.com,franchisehelp.com,galoremag.com,goodreads.com,justanswer.co.uk,justanswer.com,kiwico.com,konbini.com,legalist.com,seattletimes.com,thehackernews.com,thenation.com,vogue.com##.modal
 as.com,marca.com###didomi-host
 asiatimes.com###footer-bar, .infiniscroll
 askleo.com,trickyways.com##.et_bloom_flyin
@@ -1080,6 +1080,7 @@ yodalearning.com##w-div:has([role^="dialog"])
 youtube.com##ytd-popup-container paper-dialog:has-text(/Changes to YouTube’s Terms of Service|Check out your new Library|Get access to exclusive perks|How is YouTube today|Our Terms of Service have been updated|Rate your ads|Try it free|Try the YouTube Kids app|What is your biggest complaint|Which problems are you experiencing|You're signed out of YouTube|YouTube TV/)
 youtube.com##ytd-popup-container yt-bubble-hint-renderer:has-text(/Get access to exclusive perks/)
 youtube.com##ytd-popup-container yt-tooltip-renderer:has-text(/Choose what to play next/)
+yts.*##.modal:not(.modal-download)
 yubico.com##.cookie-pop
 zacks.com###toolbar, .disclosure-fixed-slab
 zdf.de##.js-rb-attached.m-open.x-cookies.b-system-dialog
