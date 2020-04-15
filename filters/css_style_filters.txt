@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 12:03 2020-04-12
+! Last Modified: 11:47 2020-04-15
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -687,7 +687,7 @@ auctiva.com##.navbar-fixed-top.navbar, .site-header:style(position: relative !im
 auctiva.com##html.csscolumns-span:style(overflow-x: hidden !important; overflow-y: scroll !important; padding-right: 0 !important;)
 audible.com###navigation-top-wrapper:style(position: absolute !important;)
 augusta.com##.navbar-fixed-top.navbar-default.navbar, .navbar-header:style(position: relative !important; top: 0 !important;)
-aura.app,bitport.io,boardofwisdom.com,buffalonews.com,dailycaller.com,data.swiftkey.com,deepcapture.com,democracynow.org,discord.me,discounttire.com,honda.com,irehouse.com,irishexaminer.com,marketwatch.com,mic.com,nypost.com,saksfifthavenue.com,simpleflying.com,support.google.com,withgoogle.com##header:style(position: relative !important;)
+aura.app,bitport.io,boardofwisdom.com,buffalonews.com,dailycaller.com,data.swiftkey.com,deepcapture.com,democracynow.org,discord.me,discounttire.com,honda.com,irehouse.com,irishexaminer.com,marketwatch.com,mic.com,nypost.com,prmdeal.com,saksfifthavenue.com,simpleflying.com,support.google.com,withgoogle.com##header:style(position: relative !important;)
 auslogics.com###widget-area:style(margin-top: 0 !important;)
 auslogics.com##.top-nav:style(position: absolute !important;)
 austinchronicle.com##.logo-nav-slide:style(position: absolute !important;)
@@ -6376,7 +6376,7 @@ tastingtable.com##nav#navTransition:style(background-color: #000 !important;)
 tattoodo.com##.RD8Vk8L:style(position: absolute !important;)
 tavarzawacki.com###topBar:style(position: absolute !important;)
 taxact.com###nav-actions:style(right: -16px !important;)
-taxact.com##.scrolled, .taxes-bar:style(position: absolute !important;)
+taxact.com###sticky-header, .scrolled, .taxes-bar, .t-drawer__overlay:style(position: absolute !important;)
 taxfoundation.org###sidebar:style(position: absolute !important; top: 75% !important; opacity: 1 !important; animation: none !important;)
 taxfoundation.org##.navbar__bottom:style(height: 40px !important;)
 tdameritrade.com##.stock-footer-open.stock-footer:style(position: relative !important; top: 0 !important;)
