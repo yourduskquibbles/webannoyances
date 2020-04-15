@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 11:47 2020-04-15
+! Last Modified: 12:05 2020-04-15
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -5603,6 +5603,7 @@ retropie.org.uk###header-menu, .md-header:style(position: absolute !important;)
 retropie.org.uk##.md-sidebar:style(position: absolute !important; top: 5rem !important;)
 reuters.com###breakingNewsContainer, .Header_is-fixed_3OnFb.Header_header_1xhmD, .active.container.header-pane-main, .container > div > div > div > div, .fixed, .header-main.group.header, .header-mini.header-main.group.header > .active.container.header-pane-main, .navbar-toggleable-sm.navbar-inverse.bg-inverse.fixed-top.navbar-full.navbar.header.special-report-nav, .special-report-nav:style(position: relative !important; top: 0 !important;)
 reuters.com###content:style(margin-top: 24px !important;)
+reuters.com###headerMain:style(padding-top: 0 !important;)
 reuters.com###progressbar, .edition-header, .navbar-expand-sm.navbar-dark.bg-dark.fixed-top.navbar-full.navbar.header, .Sticky_fixed.Sticky_content:style(position: absolute !important;)
 reuters.com###searchBar.active .search-submit-button:style(top: 8px !important;)
 reuters.com###searchForm:style(margin-left: 118px !important;)
@@ -5624,7 +5625,6 @@ reuters.com##.nav-item.active-text .home-icon, .nav-item.active-text .pictures-i
 reuters.com##.nav-item:not(.home-tab):not(.search-tab):style(position: relative !important;)
 reuters.com##.story-photo img, .featured-story-image img, .pictures-module img, .video-module img:style(-webkit-filter: brightness(1) !important; transition: none !important;)
 reuters.com##[class*="VideoLandingPage-render-player-"]:style(position: relative !important; height: 100% !important; padding-bottom: 0 !important;)
-reuters.com##[class*="VideoLandingPage-render-right-column-"]
 reuters.com##[class*="VideoLayout-absolute-container-"]:style(position: absolute !important; width: 100% !important; left: 0 !important;)
 reuters.com##[class*="VideoLayout-player-inner-"]:style(position: relative !important; height: 56.25vw !important; max-height: calc(100vh - 200px) !important;)
 reuters.com##[class*="VideoLayout-right-container"]:style(position: static !important; top: 30px !important; height: 100% !important;)
