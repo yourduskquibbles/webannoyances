@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Generic Filters
-! Last Modified: 14:46 2020-03-24
+! Last Modified: 13:56 2020-04-27
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for generic cosmetic filters - Cosmetically remove common annoyances found on multiple domains typically provided in the social, modal and newsletter Web Annoyances Ultralist sublists. Also includes cookie & gdpr warning elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2230,7 +2230,6 @@
 ##[href*="facebook.com/share.php?u="]
 ##[href*="facebook.com/sharer.php?"]
 ##[href*="facebook.com/sharer/sharer.php?"]
-##[href*="https://www.getrevue.co/profile"]
 ##[href*="linkedin.com/shareArticle"]
 ##[href*="pinterest.com/js/pinmarklet.js?"]
 ##[href*="reddit.com/submit/?url="]
@@ -2284,7 +2283,6 @@ flipboard.com#@#[href*="share.flipboard.com"]
 foxbusiness.com,foxnews.com#@#.article-social
 foxbusiness.com,foxnews.com#@#.social-icons
 gcnlive.com#@##backtotop
-getrevue.co#@#[href*="https://www.getrevue.co/profile"]
 github.com#@#.social-count
 google.com#@#.top-link
 hotdeals.com#@##go_top
