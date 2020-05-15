@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 08:35 2020-05-14
+! Last Modified: 10:17 2020-05-15
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2522,7 +2522,7 @@ experian.com##.ng-scope.ecs-header--fixed.ecs-header:style(position: absolute !i
 experian.com##body header .main-nav-container-fixed .main-nav-container-wrapper:style(position: relative !important; top: 0 !important; padding: 0 !important; box-shadow: none !important; height: 64px !important;)
 experian.com##header.main-nav-container-fixed-mobile nav:style(position: relative !important; height: 64px !important;)
 experian.com##header:style(position: relative !important; box-shadow: none !important; width: 100% !important; height: 64px !important;)
-experts-exchange.com###topHeader:style(position: absolute !important;)
+experts-exchange.com###topHeader, .fullSize.topicNavWrapper:style(position: absolute !important;)
 exploit-db.com##.sticky.shadow_thin.bg_solid.pos_fixed.l-header:style(position: relative !important; top: 0 !important;)
 express-scripts.com##._navContent, .shoppingCartBlock.siteHeader:style(position: relative !important; top: 0 !important;)
 express-scripts.com##.cssmod_fixedBarLinks_2-J0u:style(position: relative !important;)
