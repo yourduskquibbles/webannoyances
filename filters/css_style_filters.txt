@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 10:17 2020-05-15
+! Last Modified: 11:55 2020-05-18
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1442,6 +1442,7 @@ cepro.com##.cd-main-header, .sticky:style(position: relative !important; top: 0 
 ceramicgrillstore.com##.fadeInDown.on.header-bottom:style(position: absolute !important;)
 ceros.com##.scrolling.sticky.navbar-toggleable-sm.navbar:style(position: absolute !important;)
 certsimple.com##.article-nav:style(position: relative !important; top: 0 !important;)
+cgstudio.com###gradient:style(position: absolute !important;)
 cgtn.com##.g-header:style(position: absolute !important; top: 0 !important;)
 chainninja.com###sidebar, .clearfix.fixed-top.header:style(position: absolute !important;)
 chamberofcommerce.com##.wrap-header:style(position: absolute !important;)
@@ -3017,6 +3018,8 @@ github.com##.file-header.file-header--expandable.js-file-header.sticky-file-head
 github.com##.is-stuck.js-sticky.site-subnav-sticky.bg-white.site-subnav, .js-sticky.site-subnav-sticky.bg-white.site-subnav:style(position: relative !important; top: 0 !important; left: unset !important; width: unset !important;)
 github.com##.is-stuck.js-toggler-target.js-user-profile-follow-button.js-sticky.top-0.btn-block.btn, .js-sticky-offset-scroll.js-sticky.pr-toolbar, .js-user-profile-follow-button, .sticky-file-header:style(position: static !important; width: 100% !important;)
 github.com##.is-stuck.top-0.js-sticky.user-profile-nav.UnderlineNav:style(width: unset !important;)
+github.com##.js-notification-shelf-offset-top.box-shadow.gh-header-shadow:style(position: static !important; height: 0 !important;)
+github.com##.js-sticky.js-sticky-offset-scroll.top-0.gh-header-sticky.is-stuck, .rgh-sticky-sidebar.discussion-sidebar:style(position: static !important;)
 github.com##.js-user-profile-sticky-fields.js-sticky.py-3.vcard-names-container:style(margin-top: 0 !important; pointer-events: none !important; width: auto !important;)
 github.com##.notifications-v2:style(position: static !important; width: unset !important;)
 github.com##.overflow-auto.px-lg-4.px-md-4.px-3.top-0.js-sticky.dashboard-sidebar:style(width: auto !important; height: 100% !important; position: static !important; top: 0 !imporant; left: 0 !important;)
@@ -3025,7 +3028,6 @@ github.com##.pr-review-tools:style(margin-top: -4px !important;)
 github.com##.previewable-comment-form textarea:not([id="issue_body"]):style(max-height: 315px !important;)
 github.com##.profile-timeline-year-list:style(position: static !important; top: 74px !important; width: 16.66667% !important;)
 github.com##.repository-content:style(margin-top: 24px !important;)
-github.com##.rgh-sticky-sidebar.discussion-sidebar:style(position: static !important;)
 github.com##.user-profile-nav:style(position: relative !important;)
 github.com##.vcard-names-container.is-stuck .vcard-names:style(opacity: 1 !important;)
 github.com##.vcard-names-container.is-stuck:style(pointer-events: none !important;)
@@ -7035,6 +7037,7 @@ tucsonnewsnow.com##.cdev-menu-nav:style(position: relative !important;)
 tudelft.nl##.nav-bottom:style(position: relative !important;)
 tumblr.com##.is-visible.navbar, .nav-fixed.nav-responsive.nav-wrapper, .navbar-inner:style(position: relative !important; top: 0 !important;)
 tumblr.com##.l-header-container--refresh:style(position: absolute !important;)
+turbosquid.com###action_bar:style(position: static !important;)
 turkeypurge.com###main-header, #top-header:style(position: relative !important; top: 0 !important;)
 turntouch.com###notification-bar, .sticky-header:style(position: absolute !important; transform: none !important;)
 tutanota.com###headerNav:style(position: absolute !important; background-color: transparent !important;)
