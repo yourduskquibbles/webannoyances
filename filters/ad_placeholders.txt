@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Ad Placeholder Filters
-! Last Modified: 10:24 2020-05-21
+! Last Modified: 10:29 2020-05-21
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for empty advertising placeholders.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -64,6 +64,7 @@ avgthreatlabs.com###banner
 avsforum.com##.Leaderboard-bottom, .box-ad.ad, .sponsors-footer.wrapper
 awfulannouncing.com##.top-ad-section
 axios.com##.grid-layout [id*="gtm-ad"][data-vars-sub-category="short_form_native-pos1"]:nth-ancestor(2)
+axios.com##[id*="gtm-ad-"][data-vars-sub-category="stream_cap"]:upward(1)
 axios.com##div[class^="StreamCapAd"], [class*="Recirc__AdWrapper-sc"], [class*="StoryImageVideoAd"], [class*="TopStories__AdWrapper-"]
 axlegeeks.com##.active.adr-app-banner
 azcapitoltimes.com###check-also-box
