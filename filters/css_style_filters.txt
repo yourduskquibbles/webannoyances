@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 10:15 2020-05-27
+! Last Modified: 15:38 2020-05-27
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -7685,7 +7685,9 @@ wsj.com##.style__sector_b63KKbwfDeV7C50fFCTNH:style(margin-top: 10px !important;
 wsj.com##.style__share-container_35b8XUuLQlfuFrB6wOrmLK, .style--share-container-35b8XUuLQlfuFrB6wOrmLK, .style--show-share-tools-2VNHbNhEkUZyChoiJ-hayF.style--remove-share-tools-14HXP5pLhoKPx7p-ZTVKcn .style--share-container-35b8XUuLQlfuFrB6wOrmLK:style(top: 40px !important;)
 wsj.com##[class*="WSJTheme--ribbon-"]:style(position: static !important; top: auto !important;)
 wsj.com##[class*="style--scrolled-"] [class*="style--brand-link-"]:style(position: static !important; top: auto !important; left: auto !important; margin: 0 auto 10px !important; width: 570px !important; height: 65px !important; background-size: 550px !important; background-repeat: no-repeat !important; background-position: center 16.5px !important;)
+wsj.com##[class*="style--scrolled-"] [class*="style--brand-link-"][class*="style--section-front-"]:style(width: 90px !important; height: 55px !important; background-size: 88% !important; background-position: 0 8px !important;)
 wsj.com##[class*="style--scrolled-"] [class*="style--masthead-strap-"]:style(opacity: 1 !important; height: 14px !important; pointer-events: auto !important; margin-bottom: 7px !important;)
+wsj.com##[class*="style--section-logo-wrapper"][class*="style--opinion-"]:style(position: static !important; display: inline-block !important; width: 253px !important; margin: 10px 0 7px auto !important;)
 wsj.com##[class^="style--customer-nav-"]:not([class^="style--customer-nav-container"]), [class^="style__customer-nav_"]:style(position: absolute !important; height: 50px !important; top: 14px !important; right: 10px !important;)
 wsj.com##[class^="style--customer-nav--"]:style(max-width: unset !important; width: unset !important;)
 wsj.com##div[class^="style__products-wrapper_"]:style(background-color: unset !important;)
