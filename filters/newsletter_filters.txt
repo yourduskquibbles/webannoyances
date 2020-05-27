@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Newsletter Subscription Filters
-! Last Modified: 08:17 2020-05-27
+! Last Modified: 19:09 2020-05-27
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for newsletter annoyances - Remove newsletter & other subscription cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -29,7 +29,7 @@ aeon.co##.newsletter-signup, .shortcode-inline-newsletter
 aerolab.co##.bottom-subscription
 aerospace-technology.com,airport-technology.com,chemicals-technology.com,clinicaltrialsarena.com,designbuild-network.com,drinks-insight-network.com,foodprocessing-technology.com,hospitalmanagement.net,hydrocarbons-technology.com,pharmaceutical-technology.com,protocol.com,railway-technology.com,renewable-technology.com,ship-technology.com,verdictfoodservice.com,water-technology.net##.newsletter
 afr.com##.subscribe-promo
-aim.org##.tve-leads-shortcode:nth-ancestor(3)
+aim.org##.tve-leads-shortcode:upward(3)
 airforcetimes.com##.newsletter.signup.container
 ajc.com##.newsletter-tease
 alamogordonews.com,app.com,argusleader.com,azcentral.com,battlecreekenquirer.com,baxterbulletin.com,bucyrustelegraphforum.com,burlingtonfreepress.com,caller.com,chillicothegazette.com,cincinnati.com,citizen-times.com,clarionledger.com,coloradoan.com,commercialappeal.com,coshoctontribune.com,courier-journal.com,courierpostonline.com,courierpress.com,currentargus.com,daily-times.com,dailyrecord.com,dailyworld.com,delawareonline.com,delmarvanow.com,demingheadlight.com,democratandchronicle.com,desertsun.com,desmoinesregister.com,detroitnews.com,dnj.com,elpasotimes.com,eveningsun.com,fdlreporter.com,floridatoday.com,freep.com,gosanangelo.com,greatfallstribune.com,greenbaypressgazette.com,greenvilleonline.com,guampdn.com,hattiesburgamerican.com,htrnews.com,independentmail.com,indystar.com,ithacajournal.com,jacksonsun.com,jconline.com,jsonline.com,kitsapsun.com,knoxnews.com,lancastereaglegazette.com,lansingstatejournal.com,lcsun-news.com,ldnews.com,livingstondaily.com,lohud.com,mansfieldnewsjournal.com,marionstar.com,marshfieldnewsherald.com,montgomeryadvertiser.com,mycentraljersey.com,naplesnews.com,newarkadvocate.com,news-leader.com,news-press.com,newsleader.com,northjersey.com,packersnews.com,pal-item.com,pnj.com,portclintonnewsherald.com,postcrescent.com,poughkeepsiejournal.com,press-citizen.com,pressconnects.com,publicopiniononline.com,redding.com,reporternews.com,rgj.com,scsun-news.com,sctimes.com,sheboyganpress.com,shreveporttimes.com,stargazette.com,statesmanjournal.com,stevenspointjournal.com,tallahassee.com,tcpalm.com,tennessean.com,theadvertiser.com,thecalifornian.com,thedailyjournal.com,thegleaner.com,theleafchronicle.com,thenews-messenger.com,thenewsstar.com,thenorthwestern.com,thespectrum.com,thestarpress.com,thetimesherald.com,thetowntalk.com,timesrecordnews.com,usatoday.com,vcstar.com,visaliatimesdelta.com,wausaudailyherald.com,wisconsinrapidstribune.com,ydr.com,zanesvilletimesrecorder.com###gnt_atomsnc, .gnt_m_nls.gnt_m, .newsletter-embed, .nscm-container, .nssm-container, .widget--newsletter, cta-atoms-container-inline
@@ -55,9 +55,9 @@ atchisonglobenow.com,auburnpub.com,azdailysun.com,baycitytribune.com,beatricedai
 atlasobscura.com###newsletter-email-ask, .email-ask-full-width, .item-newsletter-form, .item-social-row, .newsletter-signup-container
 atlassian.com##.newsletter
 autoblog.com###rr-newsletter-signup
-avclub.com,clickhole.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,jezebel.com,kinja.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com###newsletterPromoModule:nth-ancestor(1)
+avclub.com,clickhole.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,jezebel.com,kinja.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com###newsletterPromoModule:upward(1)
 avclub.com,clickhole.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,jezebel.com,kinja.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.js_newsletter-btn--subscribe, .js_subscribe
-avclub.com,clickhole.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,jezebel.com,kinja.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##a[href="/newsletter"]:nth-ancestor(1)
+avclub.com,clickhole.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,jezebel.com,kinja.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##a[href="/newsletter"]:upward(1)
 axios.com##.StoryNewsletterPromo__root--34CRf, .sidebar__newsletter, .topic-newsletter, .SubscriptionHeader__newsletter--p8o4P.Header__header--3d1x-, [class^="StreamCap__promoContainer"]
 azcentral.com##.site-masthead-subscribe-link
 babycenter.com##.familyNavAndAdContainer
@@ -66,10 +66,10 @@ baltimoresun.com,capitalgazette.com,chicagotribune.com,citypaper.com,courant.com
 bankingdive.com,biopharmadive.com,cfodive.com,ciodive.com,constructiondive.com,educationdive.com,fooddive.com,grocerydive.com,healthcaredive.com,hrdive.com,marketingdive.com,medtechdive.com,mobilemarketer.com,restaurantdive.com,retaildive.com,smartcitiesdive.com,socialmediatoday.com,supplychaindive.com,utilitydive.com,wastedive.com##.signup
 bankrate.com##.cxp-email-capture-banners
 barstoolsports.com##.newsletterSignup
-baseballdailydigest.com,dispatchtribunal.com,fairfieldcurrent.com,financerecorder.com,marketbeat.com,mayfieldrecorder.com,mitchellmessenger.com,rivertonroll.com,rocklandregister.com,slatersentinel.com,sundanceherald.com,techknowbits.com,thecerbatgem.com,trentdailytimes.com###BelowPostRegistrationEmail:nth-ancestor(1)
+baseballdailydigest.com,dispatchtribunal.com,fairfieldcurrent.com,financerecorder.com,marketbeat.com,mayfieldrecorder.com,mitchellmessenger.com,rivertonroll.com,rocklandregister.com,slatersentinel.com,sundanceherald.com,techknowbits.com,thecerbatgem.com,trentdailytimes.com###BelowPostRegistrationEmail:upward(1)
 baseballdailydigest.com,dispatchtribunal.com,fairfieldcurrent.com,financerecorder.com,marketbeat.com,mayfieldrecorder.com,mitchellmessenger.com,rivertonroll.com,rocklandregister.com,slatersentinel.com,sundanceherald.com,techknowbits.com,thecerbatgem.com,trentdailytimes.com##.entry > div[style^="float:left;"]
 baseballdailydigest.com,dispatchtribunal.com,fairfieldcurrent.com,financerecorder.com,marketbeat.com,mayfieldrecorder.com,mitchellmessenger.com,rivertonroll.com,rocklandregister.com,slatersentinel.com,sundanceherald.com,techknowbits.com,thecerbatgem.com,trentdailytimes.com##.sidebar-email, form[action*="marketbeat.com/newsletter"]
-baseballdailydigest.com,dispatchtribunal.com,fairfieldcurrent.com,financerecorder.com,marketbeat.com,mayfieldrecorder.com,mitchellmessenger.com,rivertonroll.com,rocklandregister.com,slatersentinel.com,sundanceherald.com,techknowbits.com,thecerbatgem.com,trentdailytimes.com##[href^="/daily-email-updates-basic/"]:nth-ancestor(1)
+baseballdailydigest.com,dispatchtribunal.com,fairfieldcurrent.com,financerecorder.com,marketbeat.com,mayfieldrecorder.com,mitchellmessenger.com,rivertonroll.com,rocklandregister.com,slatersentinel.com,sundanceherald.com,techknowbits.com,thecerbatgem.com,trentdailytimes.com##[href^="/daily-email-updates-basic/"]:upward(1)
 bb4sp.com###mailchimpsf_widget-2
 bbc.co.uk,bbc.com##.news-app-promo, .ws-c-news-daily
 bearingarms.com##.newsletter-sign-up
@@ -126,7 +126,7 @@ cityam.com###footer-newsletter, #footer-newsletter-mobile
 citylab.com##.c-newsletter
 click2houston.com,clickondetroit.com,clickorlando.com,ksat.com,local10.com,news4jax.com,wsls.com##.chainGroup > h5, .chainGroup > form, .chainGroup > hr
 cnbc.com###optIn-embedded, #optIn-right-rail, .WildcardEmbed-wrapper
-cnbc.com##.Footer-newsletter:nth-ancestor(1)
+cnbc.com##.Footer-newsletter:upward(1)
 cnet.com##.holidayPromo
 cnn.com###rs-newletter-mod, .cd--tool__mailchimp-subscribe, .cnn-politics-app-promo-card, .rs-newsletter-body
 cntraveler.com,cntraveller.com##.global-subscription-footer, .js-c-infobar-lazy-load
@@ -193,7 +193,7 @@ epi.org###epi-email-signup-backdrop
 epicurious.com##.no-border.fullwidth.newsletter
 espn.*##.espnDaily.sub-module, .espnDaily--inline
 etonline.com##.block-et-newsletter.block
-etsy.com##.not-signed-in.subscribe-form:nth-ancestor(1)
+etsy.com##.not-signed-in.subscribe-form:upward(1)
 ew.com##.newsletter-callout, .newsletter-signup, .subscribe-callout
 eweek.com##.personalization-widget-wrapper
 exabeam.com##.side-popup
@@ -312,12 +312,12 @@ kpopstarz.com##.nwletter
 kyivpost.com##.text-widget, .widget-sub-form
 kyivpost.com,secjuice.com##.subscribe-form
 lamag.com##.hubspot-form-widget
-lamag.com##p a[href*="/newsletters/"]:nth-ancestor(3)
+lamag.com##p a[href*="/newsletters/"]:upward(3)
 laphamsquarterly.org###lq_daily
 laptopmag.com###newsletter-subscribe-banner, .newsletter-signup.box
 latimes.com,pacificsandiego.com,sandiegouniontribune.com##.NewsletterModule
-lawenforcementtoday.com##.block-subscribe-now:nth-ancestor(2)
-legalinsurrection.com##.sidebarNewsletter:nth-ancestor(1)
+lawenforcementtoday.com##.block-subscribe-now:upward(2)
+legalinsurrection.com##.sidebarNewsletter:upward(1)
 lennyletter.com##.hdr-subscribe-link
 leowid.com###mc4wp_form_widget-3
 lifesitenews.com##.subscribe-form-wrap.subscribe-form-ctr
@@ -336,7 +336,7 @@ malwarebytes.com###newsletter-signup
 manicoti.com###emailbanner
 mansionglobal.com###webui-newsletter-bottom-column, #webui-newsletter-right-column, .article-subscribe-container, .newsletter-signup-container
 marinecorpstimes.com##.newsletter.signup.container
-marketbeat.com###cphPrimaryContent_pnlRegister:nth-ancestor(1)
+marketbeat.com###cphPrimaryContent_pnlRegister:upward(1)
 marketingland.com##.panel-body:has-text(/Sign up/)
 marketwatch.com###column-alerts, #signUpForm
 massivesci.com##.newsletter, .promo--newsletter.promo
@@ -406,11 +406,11 @@ nplusonemag.com##.module-newsletter
 nybooks.com##.newsletter_signup
 nydailynews.com##.newsletter-signup
 nytimes.com###Newsletter-embed-NYT-Now, #Science-Newsletter-promo, #THEurope-newsletter-module, #THasia-newsletter-module, #australia-today-email-signup, #breaking-news-email-promo, #cooking-email-signup, #d-promo-realestate, #evening-briefing-email-promo, #living-newsletter-promo, #new-york-today-email-promo, #news-tips-article-promo, #newsletter-module, #newsletter-promo, #opinion-newsletter-promo, #signup-favor, #sports-email-promo, #subscriptionCTA, .eln-email-signup, .email-signup, .recipe-newsletter-signup, .css-17dprlf.medium
-nytimes.com##.s-cvb-subscribe:nth-ancestor(1)
-nytimes.com##[data-testid="interest-action-button"][name="Subscribe to newsletter"][aria-label="Subscribe to newsletter"]:nth-ancestor(6)
+nytimes.com##.s-cvb-subscribe:upward(1)
+nytimes.com##[data-testid="interest-action-button"][name="Subscribe to newsletter"][aria-label="Subscribe to newsletter"]:upward(6)
 nytimes.com##aside:has([id^="newsletter-iframe-container"])
 nytimes.com##aside:has-text(/Sign Up/)
-nytimes.com##button[name="select interest"]:nth-ancestor(3)
+nytimes.com##button[name="select interest"]:upward(3)
 nytimes.com##div > p:has([href^="https://www.nytimes.com/newsletters/"])
 observer.com##.entry-content > p :has-text(/Subscribe to/)
 oilprice.com##.signup_iframe
@@ -523,7 +523,7 @@ stockfreeimages.com###backgroundPopup2, .dt-popup-signup
 straitstimes.com##.nlsubscribe-block
 stratfor.com##.tp-container-inner
 streetsblog.org###signup-in-sidebar-newsletter
-studyfinds.org###revue-embed:nth-ancestor(2)
+studyfinds.org###revue-embed:upward(2)
 substack.com##.subheader-wrapper
 suntimes.com##.newsletter-box
 supchina.com##.header-subscribe, .newsletter-popup
@@ -533,9 +533,9 @@ talkingpointsmemo.com##.Daybreaker
 taskandpurpose.com##.sm-mb-2 > div:has-text(/Get Task & Purpose in your inbox/)
 taskandpurpose.com##.sprg_registration-cta
 tastecooking.com##.newsletter-signup
-taxfoundation.org##.newsletter-widget:nth-ancestor(1)
+taxfoundation.org##.newsletter-widget:upward(1)
 techcrunch.com##.newsletter-signup-block, .newsletters-signup
-techgenix.com##.sidebar-optin:nth-ancestor(2)
+techgenix.com##.sidebar-optin:upward(2)
 techjunkie.com##.sidebar__widget_subscribe.sidebar__widget
 techmeme.com###nlsb
 technologyreview.com##.footer__newsletter-bar, .newsletterSignup
