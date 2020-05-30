@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 14:57 2020-05-28
+! Last Modified: 12:22 2020-05-30
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -5590,7 +5590,7 @@ redditgrid.com##header:style(position: absolute !important; transform: translate
 redditinc.com##.sidebar-holder:style(position: relative !important; left: 0 !important;)
 redditprofile.com##.navbar:style(position: absolute !important; padding: 20px 0 17px !important; box-shadow: none !important;)
 redflagnews.com###headerAnnouncementWrapper:style(position: relative !important; top: 0 !important;)
-redstate.com###sticky:style(position: absolute !important;)
+redstate.com###sticky:style(position: static !important;)
 reelrundown.com###header_wrap, #mod_new10:style(position: absolute !important;)
 refinery29.com##.condensed-header, .global-header:style(position: relative !important; top: 0 !important;)
 regence.com##.header-controls.header-row-two, .header-row-one:style(position: absolute !important;)
