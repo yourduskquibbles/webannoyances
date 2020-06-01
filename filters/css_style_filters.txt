@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 12:29 2020-05-30
+! Last Modified: 14:27 2020-06-01
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -5622,11 +5622,13 @@ retropie.org.uk##.md-sidebar:style(position: absolute !important; top: 5rem !imp
 reuters.com###breakingNewsContainer, #nonEditBannerContainer, .Header_is-fixed_3OnFb.Header_header_1xhmD, .active.container.header-pane-main, .container > div > div > div > div, .fixed, .header-main.group.header, .header-mini.header-main.group.header > .active.container.header-pane-main, .navbar-toggleable-sm.navbar-inverse.bg-inverse.fixed-top.navbar-full.navbar.header.special-report-nav, .special-report-nav:style(position: relative !important; top: 0 !important;)
 reuters.com###content:style(margin-top: 24px !important;)
 reuters.com###headerMain:style(padding-top: 0 !important;)
-reuters.com###progressbar, .edition-header, .navbar-expand-sm.navbar-dark.bg-dark.fixed-top.navbar-full.navbar.header, .Sticky_fixed.Sticky_content:style(position: absolute !important;)
+reuters.com###progressbar, .edition-header, .navbar-expand-sm.navbar-dark.bg-dark.fixed-top.navbar-full.navbar.header, .StickyContainer-content-1u-cE:not(.StickyContainer-disabled-2v_pr), .Sticky_fixed.Sticky_content:style(position: absolute !important;)
 reuters.com###searchBar.active .search-submit-button:style(top: 8px !important;)
 reuters.com###searchForm:style(margin-left: 118px !important;)
+reuters.com##.BreakingNews-container-qffCW:style(position: absolute !important; top: 8.5% !important; bottom: unset !important;)
 reuters.com##.BreakingNews_bar:style(position: absolute !important; top: 9.2em !important; bottom: unset !important; opacity: 1 !important; max-width: 100% !important; width: 100% !important; border-radius: 0 !important;)
 reuters.com##.BreakingNews_bar:style(transition: none !important;)
+reuters.com##.StickyContainer-container-3Q8GJ > .StickyContainer-sticky-27Uqh.StickyContainer-content-1u-cE, .main.content:style(margin-top: 0 !important;)
 reuters.com##.Sticky_at-bottom.Sticky_content:style(bottom: unset !important;)
 reuters.com##.Sticky_content:style(top: 0 !important; transform: none !important;)
 reuters.com##.TrendingBar_trending-item_bItjC.TrendingBar_loaded_3oiZW:style(opacity: 1 !important; animation: none !important;)
@@ -5637,7 +5639,6 @@ reuters.com##.fixed.nav-white-space:style(position: absolute !important; padding
 reuters.com##.header-mini-logo:style(visibility: visible !important; opacity: 1 !important;)
 reuters.com##.home-icon:style(visibility: hidden !important; opacity: 0 !important;)
 reuters.com##.lazy-photo img:style(opacity: 1 !important;)
-reuters.com##.main.content:style(margin-top: 0 !important;)
 reuters.com##.nav-item .search-icon:style(margin: 6px 0 0 0 !important;)
 reuters.com##.nav-item.active-icon:style(vertical-align: bottom !important;)
 reuters.com##.nav-item.active-text .home-icon, .nav-item.active-text .pictures-icon, .nav-item.active-text .video-icon:style(margin-right: 0 !important;)
@@ -6505,6 +6506,7 @@ texastribune.org##.nav_menu--container:style(position: relative !important; top:
 textexpander.com##.x-navbar-fixed-top.x-navbar:style(position: relative !important; top: 0 !important;)
 the-daily.buzz##.header-primary:style(position: relative !important; top: 0 !important;)
 the-sun.com,thescottishsun.co.uk,thesun.co.uk,thesun.ie###sun-menu:style(position: relative !important; top: 0 !important; animation: none !important;)
+the-sun.com,thescottishsun.co.uk,thesun.co.uk,thesun.ie##.article-sidebar .widget-sticky:style(position: static !important;)
 the-sun.com,thescottishsun.co.uk,thesun.co.uk,thesun.ie##.brightcove__video:style(position: static !important; right: 0 !important; width: 100% !important; height: 100% !important;)
 the-sun.com,thescottishsun.co.uk,thesun.co.uk,thesun.ie##.header--mobile.header:style(position: absolute !important; transform: none !important;)
 the-sun.com,thescottishsun.co.uk,thesun.co.uk,thesun.ie##.sun-header--nav, .sun-header--wrap:style(width: 100% !important;)
