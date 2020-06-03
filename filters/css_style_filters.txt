@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 14:16 2020-06-03
+! Last Modified: 14:34 2020-06-03
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1676,6 +1676,7 @@ coinbase.com##.gnBnMe:style(overflow: unset !important;)
 coinbase.com##.jTPwyg:style(padding: 0 !important;)
 coinbase.com##.jnytFb:style(position: static !important; background: transparent !important; box-shadow: none !important;)
 coindesk.com##.content:style(padding-top: 0 !important;)
+coindesk.com##.pricing-nav-desktop .pricing-wrapper:style(max-height: 50px !important; transform: translateY(0) !important;)
 coindesk.com##.site-nav-wrapper:style(position: absolute !important;)
 coinex.com##.en.refer-float:style(position: static !important;)
 coinex.com##.tab-choose.pr.clearfix:style(position: static !important; padding-top: 0 !important; height: 40px !important; box-shadow: none !important; max-width: 1366px !important;)
