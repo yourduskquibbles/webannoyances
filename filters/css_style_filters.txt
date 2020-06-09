@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 09:50 2020-06-07
+! Last Modified: 18:15 2020-06-09
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -3284,6 +3284,10 @@ helpx.adobe.com##.tabs-container:style(padding-top: 0 !important;)
 helpx.adobe.com##.topic.column-3:style(position: absolute !important; top: 0 !important; left: 0 !important;)
 helpx.adobe.com##article:style(margin-top: 0 !important;)
 heraldgoa.in##.fixed-nav.menu:style(position: absolute !important;)
+heraldnet.com##.is-stuck.is-at-top.sticky.top-bar-container:style(position: relative !important;)
+heraldnet.com##.top-bar-container .affinity-menu:style(border-bottom: 4px solid #fefefe !important;)
+heraldnet.com##.top-bar-container.is-stuck .pub-logo-large svg:style(max-height: 54px !important;)
+heraldnet.com##.top-bar-container.is-stuck ul.dropdown.menu:first-child, .top-bar-container.is-stuck ul.subscriber-tools:first-child:style(margin: 19px 0 !important;)
 heraldscotland.com##.is-sticky.primary-nav-mobile-sticky.primary-nav:style(position: absolute !important;)
 herdprotect.com##.sectiontop:style(position: absolute !important;)
 herdprotect.com,reasoncoresecurity.com###nav-header:style(display: list-item !important; opacity: 1 !important;)
@@ -6294,6 +6298,7 @@ support.brightcove.com###block-inpagenavigationblock:style(position: absolute !i
 support.google.com###gb, .gb_1d, .gb_Hd, .gb_Nd:style(box-shadow: none !important;)
 support.google.com##.fixed-sidebar-container:style(position: absolute !important; top: 0 !important;)
 support.google.com##.nav-back-to-top:style(position: absolute !important;)
+support.microsoft.com###supFeedbackWrapper, .sidebar-banner .sidebar-banner-innerWrapper:style(position: static !important;)
 support.mozilla.org##body.scroll-header > header:style(position: relative !important; transform: none !important;)
 support.mozilla.org##body.scroll-header:style(padding-top: 0 !important;)
 support.office.com##.sidebar-banner .sidebar-banner-innerWrapper:style(position: static !important;)
