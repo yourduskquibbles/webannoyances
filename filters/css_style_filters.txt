@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 11:29 2020-06-10
+! Last Modified: 11:37 2020-06-10
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -5337,6 +5337,7 @@ play.google.com##.is--fixed.js-tab-sticky.mdl-tabs__tab-bar:style(position: rela
 play.google.com##.is-casting-shadow.scroll-to-offset.mdl-layout__header.header:style(position: relative !important; height: 0 !important;)
 play.google.com##.k8Lt0 .qBQ0O, .wkJZwc.NnzYY .sVEEmc:style(top: 60px !important;)
 play.google.com##.mdl-layout__container:style(height: auto !important;)
+play.history.com##header[class*="Component-positionSticky"]:style(position: absolute !important;)
 playboy.com###header-global:style(position: absolute !important; top: 0 !important; transform: none !important;)
 playboy.com##.box-1.bg-bunny.main:style(position: relative !important; top: 0 !important;)
 player.fm##.top:style(position: absolute !important;)
