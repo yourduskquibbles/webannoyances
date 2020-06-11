@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 11:37 2020-06-10
+! Last Modified: 10:51 2020-06-11
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -3954,7 +3954,7 @@ kremlin.ru##.topline__menu.topline:style(position: absolute !important;)
 kromtech.com###wrapper:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 kryptoslogic.com##.kl-navbar:style(position: absolute !important;)
 ksl.com###kslHeader, .ksl-header__outer:style(position: relative !important; top: 0 !important;)
-kslnewsradio.com##.farleftcolumn:style(position: absolute !important;)
+kslnewsradio.com,ktar.com,mynorthwest.com##.farleftcolumn:style(position: absolute !important;)
 kslnewsradio.com,ktar.com,mynorthwest.com##.primary.headerwrapper:style(position: absolute !important;)
 ktar.com##.farleftcolumn:style(position: absolute !important;)
 kubernetes.io,underconsideration.com##header:style(position: absolute !important; transform: none !important;)
@@ -5517,7 +5517,7 @@ quizlet.com##.ModeLayout-controls:style(position: absolute !important; top: 0 !i
 quizlet.com##.StickySkyscraperAdz-wrapper:style(position: absolute !important;)
 quora.com###page_wrapper, .ContentWrapper:style(margin-top: 0 !important;)
 quora.com##.BelowQuestionAddPrompt:style(position: relative !important; animation: none !important;)
-quora.com##.LoggedOutSiteHeader.SiteHeader.NonMemberSiteHeader, .SiteHeader.LoggedInSiteHeader, .fixable_fixed.fixed_sidebar, .fixable_fixed.side_bar.list.question_related, .fixable_fixed, .sticky.with_metabar.icon_action_bar, [class*="Box-sc-"][class*="position__Fixed"]:style(position: absolute !important;)
+quora.com##.LoggedOutSiteHeader.SiteHeader.NonMemberSiteHeader, .SiteHeader.LoggedInSiteHeader, .fixable_fixed.fixed_sidebar, .fixable_fixed.side_bar.list.question_related, .fixable_fixed, .qu-boxShadow--medium.qu-borderBottom.qu-bg--white.qu-zIndex--header.qu-fullX.q-fixed, .sticky.with_metabar.icon_action_bar, [class*="Box-sc-"][class*="position__Fixed"]:style(position: absolute !important;)
 quora.com##.fixable_fixed.BelowQuestionAddPrompt, .sticky.ActionBar.Answer:style(position: relative !important;)
 quora.com##.fixed_header:style(position: relative !important; top: 0 !important;)
 quora.com##.layout_2col_side, .sticky_bundle_wrapper, div[class*="position__Sticky"]:style(position: static !important;)
