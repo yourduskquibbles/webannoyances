@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 09:43 2020-06-12
+! Last Modified: 11:26 2020-06-12
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -6115,6 +6115,7 @@ spiegel.de##.mobile-header-space:style(margin: 0 !important;)
 spieltimes.com##.jeg_sticky_nav.jeg_navbar_mobile:style(position: absolute !important;)
 spigen.com##.header-bottom:style(position: relative !important; background-color: #ffffff !important; animation: none !important;)
 spigen.com##.site-nav:style(padding: 0 !important; float: right !important;)
+spiked-online.com###stickyFooter:style(position: static !important;)
 spin.com###banner:style(position: relative !important; top: 0 !important;)
 spin.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: -60px !important; margin-bottom: 0 !important;)
 splcenter.org###header.stuck #logo:style(background: none !important;)
@@ -6743,7 +6744,10 @@ theplayerstribune.com##.Stack__Block-s996op-0:style(margin-bottom: 0 !important;
 theplayerstribune.com##.iZKVho:style(display: block !important;)
 theplayerstribune.com##.jZKhq.NavFooter__Footer-rtjjpi-0:style(position: relative !important; top: 0 !important; bottom: unset !important;)
 theplaylist.net###cb-main-menu, .clearfix.cb-top-menu-wrap.wrap:style(position: relative !important; top: 0 !important;)
+thepostmillennial.com###floating-videoWrapper:style(position: static !important; bottom: unset !important; right: unset !important; transform: none !important;)
+thepostmillennial.com##.header.partial:style(position: absolute !important;)
 thepostmillennial.com##.post-content-share:style(position: absolute !important; top: 0 !important;)
+thepostmillennial.com##.widget.second.sticky-wrapper.bg-white.vue-sticky-el.top-sticky:style(position: static !important;)
 theprairiehomestead.com##.before-header-bar:style(position: static !important;)
 theprairiehomestead.com##.shrink.site-header:style(position: relative !important;)
 theprovince.com##.header-is-sticky .l-header .header-actions li.search .form-search .open-search::after:style(background-position: 0 0 !important;)
