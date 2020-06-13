@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 11:26 2020-06-12
+! Last Modified: 11:47 2020-06-13
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -4733,8 +4733,11 @@ nba.com##.headerWrapper:style(position: relative !important; top: 0 !important;)
 nbc-2.com##.CollapsibleHeader:style(position: relative !important;)
 nbc-2.com##.Video-wrapper--dock .Video-content:style(position: absolute !important;)
 nbc.com##.sticky-inner-wrapper:style(position: relative !important;)
+nbcbayarea.com,nbcchicago.com,nbcdfw.com,nbclosangeles.com,nbcmiami.com,nbcnewyork.com,nbcphiladelphia.com,nbcsandiego.com,nbcwashington.com##.article-featured-media:style(position: relative !important; width: 100% !important; height: 100% !important; right: unset !important; bottom: unset !important; padding-bottom: 0 !important; transform: none !important; animation: none !important;)
 nbcbayarea.com,nbcchicago.com,nbcdfw.com,nbclosangeles.com,nbcmiami.com,nbcnewyork.com,nbcphiladelphia.com,nbcsandiego.com,nbcwashington.com##.site-header__primary:style(position: static !important; padding: .875rem 0 0 !important; background-color: unset !important;)
 nbcbayarea.com,nbcchicago.com,nbcdfw.com,nbclosangeles.com,nbcmiami.com,nbcnewyork.com,nbcphiladelphia.com,nbcsandiego.com,nbcwashington.com##.site-header__secondary:style(opacity: 1 !important; margin-top: 0 !important; transform: none !important;)
+nbcbayarea.com,nbcchicago.com,nbcdfw.com,nbclosangeles.com,nbcmiami.com,nbcnewyork.com,nbcphiladelphia.com,nbcsandiego.com,nbcwashington.com##.video-flyout--fixed:not(.video-flyout--dismissed) figcaption:style(display: block !important;)
+nbcbayarea.com,nbcchicago.com,nbcdfw.com,nbclosangeles.com,nbcmiami.com,nbcnewyork.com,nbcphiladelphia.com,nbcsandiego.com,nbcwashington.com##.video-flyout--fixed:not(.video-flyout--dismissed):style(background-color: unset !important;)
 nbcnews.com##._20-Ws2Fn1Y3t_iSqRZ0LON, .container___20-Ws:style(position: relative !important;)
 nbcnews.com##.feedbackPopup____QQm5.container___kfPO5:style(position: relative !important; top: 0 !important;)
 nbcnews.com##.hfsh .peacock:style(margin: 25px 10px 0 !important;)
