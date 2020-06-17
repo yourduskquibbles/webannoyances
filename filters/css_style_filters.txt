@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 11:47 2020-06-13
+! Last Modified: 15:00 2020-06-17
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -6118,6 +6118,25 @@ spiegel.de##.mobile-header-space:style(margin: 0 !important;)
 spieltimes.com##.jeg_sticky_nav.jeg_navbar_mobile:style(position: absolute !important;)
 spigen.com##.header-bottom:style(position: relative !important; background-color: #ffffff !important; animation: none !important;)
 spigen.com##.site-nav:style(padding: 0 !important; float: right !important;)
+spiked-online.com###header.compressed #navWrapper .mainMenu ul.menu > li.menu-item-has-children a:style(padding: 0 !important;)
+spiked-online.com###header.compressed #navWrapper .mainMenu ul.menu > li.menu-item-has-children ul.sub-menu:style(left: 5px !important; padding: 5px !important; right: 5px !important;)
+spiked-online.com###header:style(position: static !important; height: auto !important; top: unset !important; right: unset !important; left: unset !important;)
+spiked-online.com###headerMain:style(height: 186px !important; padding-top: 76px !important; padding-left: 0 !important;)
+spiked-online.com###headerSearch #headerSearchSubmit:style(height: 25px !important; right: -6px !important; width: 35px !important;)
+spiked-online.com###headerSearch.dropdown input.text:style(height: 26px !important; border-bottom: 1px solid #9B9B9B !important; line-height: 25px !important; padding: 0 34px 0 0 !important;)
+spiked-online.com###headerSearch:style(display: block !important; top: 20px !important; right: unset !important; width: 230px !important; background: unset !important; border: none !important;)
+spiked-online.com###logo:style(width: 214px !important; height: 76px !important; top: 90px !important; left: 50% !important; margin-left: -107px !important;)
+spiked-online.com###main:style(padding-top: 0 !important;)
+spiked-online.com###mainMenuLeft:style(position: absolute !important; display: block !important; right: 50% !important; left: 0 !important; margin-right: 144px !important; padding-top: 0 !important;)
+spiked-online.com###navWrapper .mainMenu ul.menu li a:style(border-bottom: 1px solid #C92121 !important; color: #383838 !important; display: block !important; font-size: 16px !important; height: 28px !important; line-height: 27px !important; text-align: center !important;)
+spiked-online.com###navWrapper .mainMenu ul.menu li.donate > a:style(background-color: transparent !important;)
+spiked-online.com###navWrapper .mainMenu ul.menu li.menu-item-has-children > a::after:style(right: 4px !important;)
+spiked-online.com###navWrapper .mainMenu ul.menu li.menu-item-has-children ul.sub-menu li:style(display: block !important; padding: 5px 0 !important;)
+spiked-online.com###navWrapper .mainMenu ul.menu li.shop > a:style(background-color: transparent !important;)
+spiked-online.com###navWrapper .mainMenu ul.menu li:style(display: inline-block !important; width: 33% !important; margin: 0 0 14px 0 !important; padding: 0 5px !important;)
+spiked-online.com###navWrapper .mainMenu ul.menu:style(margin: 0 -5px !important;)
+spiked-online.com###navWrapper .mainMenu#mainMenuLeft li.podcasts, #navWrapper .mainMenu#mainMenuLeft li.longReads:style(width: 50% !important;)
+spiked-online.com###navWrapper .mainMenu#mainMenuRight:style(position: absolute !important; display: block !important; left: 50% !important; right: 0 !important; margin: 0 0 0 144px !important; padding: 0 !important;)
 spiked-online.com###stickyFooter:style(position: static !important;)
 spin.com###banner:style(position: relative !important; top: 0 !important;)
 spin.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: -60px !important; margin-bottom: 0 !important;)
