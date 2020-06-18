@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 15:00 2020-06-17
+! Last Modified: 09:09 2020-06-18
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -4093,12 +4093,12 @@ linkedin.com##.ember-view.sticky:style(height: unset !important;)
 linkedin.com##.ember-view.video-s-loader__video-container:style(position: static !important;)
 linkedin.com##.feed-follows-module:style(border-top: 0 !important; margin-top: 0 !important;)
 linkedin.com##.feed-right-rail__container:style(border-bottom: 1px solid #cfcfcf !important;)
+linkedin.com##.header#layout-header:style(position: absolute !important; box-shadow: none !important;)
 linkedin.com##.mn-left-rail__summary--hidden:style(max-height: 1000px !important; visibility: visible !important; opacity: 1 !important;)
 linkedin.com##.msg-messaging-container:style(height: 100% !important;)
 linkedin.com##.neptune-grid:style(padding: 5px 32px !important;)
 linkedin.com##.notification-container, .pv-profile-sticky-header, .topbar--show.topbar:style(position: absolute !important;)
 linkedin.com##.sticky.stuck>:first-child:style(position: relative !important; top: 0 !important; margin-top: 0 !important;)
-linkedin.com,myev.com##.header:style(position: absolute !important; box-shadow: none !important;)
 linksys.com##.fixed.static-sticky-bar.plain-section.wrapper-infinite:style(position: absolute !important;)
 lino.network###header-wrap:style(position: absolute !important; background-color: transparent !important;)
 linustechtips.com###lmgNav:style(position: relative !important;)
@@ -4629,6 +4629,7 @@ myce.com##.smaller.fixed.shrinkme.white-gradient.regular-height.shadow.show-for-
 mychicagosteak.com##.edn-container, .edn-cntrol-wrap:style(position: absolute !important;)
 mydomaine.com##.nav-wrapper.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 mydomaine.com,whowhatwear.com###page__header:style(position: absolute !important;)
+myev.com##.header:style(position: absolute !important; box-shadow: none !important;)
 myflorida.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important;)
 mymodernmet.com###navbar-main:style(position: relative !important; padding: 15px 0 !important;)
 mypalmbeachpost.com##.main-nav-container:style(position: relative !important; top: 0 !important; background-color: #fff !important;)
