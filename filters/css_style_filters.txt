@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 09:09 2020-06-18
+! Last Modified: 16:29 2020-06-19
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -3954,10 +3954,14 @@ kremlin.ru##.topline__menu.topline:style(position: absolute !important;)
 kromtech.com###wrapper:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 kryptoslogic.com##.kl-navbar:style(position: absolute !important;)
 ksl.com###kslHeader, .ksl-header__outer:style(position: relative !important; top: 0 !important;)
-kslnewsradio.com,ktar.com,mynorthwest.com##.farleftcolumn:style(position: absolute !important;)
-kslnewsradio.com,ktar.com,mynorthwest.com##.primary.headerwrapper:style(position: absolute !important;)
+kslnewsradio.com,ktar.com,mynorthwest.com##.farleftcolumn, .primary.headerwrapper:style(position: absolute !important;)
 ktar.com##.farleftcolumn:style(position: absolute !important;)
-kubernetes.io,underconsideration.com##header:style(position: absolute !important; transform: none !important;)
+kubernetes.io##.flip-nav .td-navbar .navbar-nav .nav-item .active::after:style(background: #fff !important;)
+kubernetes.io##.flip-nav .td-navbar:style(background-color: transparent !important; box-shadow: none !important;)
+kubernetes.io##.navbar-dark .navbar-nav .nav-link:style(color: rgba(255,255,255,.75) !important;)
+kubernetes.io##.navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .nav-link.active:style(color: #fff !important;)
+kubernetes.io##.td-navbar:style(position: absolute !important;)
+kubernetes.io##.td-sidebar__inner:style(position: static !important;)
 kucoin.com###udesk-support, .bonusVideoBtn___3aTKK, .headerRoom___LprVc .headroom--pinned, .headerRoom___LprVc .headroom--unfixed, .referralVideoBtn___2QmZn:style(position: absolute !important;)
 kusi.com###content:style(top: 0 !important;)
 kvoa.com###WNNavSearchSwitch:style(position: relative !important; top: 0 !important;)
@@ -7155,6 +7159,7 @@ undark.org##.collapsed-logo:style(max-width: 0 !important;)
 undark.org##.full-logo:style(max-width: 200px !important;)
 undark.org##.top-bar:style(position: relative !important; top: 0 !important; box-shadow: none !important;)
 underarmour.com##.header-container, .top-nav-container:style(position: relative !important;)
+underconsideration.com##header:style(position: absolute !important; transform: none !important;)
 uniquemachine.org##.navbar-fixed-top.main-nav:style(position: relative !important; top: 0 !important;)
 unity.com##.headerContainer-dark:style(position: absolute !important;)
 univision.com##.uvn-anchor-animation.uvn-anchor.jw-flag-live.uvn-relative.jw-breakpoint-5.jw-flag-aspect-mode.jw-stretch-uniform.jw-skin-uvn.jw-state-playing.jw-reset.jwplayer:style(position: relative !important; top: 0 !important;)
