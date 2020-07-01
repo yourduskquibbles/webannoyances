@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 10:24 2020-07-01
+! Last Modified: 12:04 2020-07-01
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2983,9 +2983,12 @@ geekwire.com##.navbar-fixed-top.navbar-inverse.navbar.banner:style(position: abs
 geekwire.com##.post-sidebar.col-md-4:style(position: relative !important; top: 0 !important;)
 geforce.com##.nav-header-container:style(display: block !important; height: 44px !important;)
 geforce.com##.navigation .global-nav:style(position: absolute !important; top: 0 !important;)
-geico.com###cat-banner:style(position: absolute !important; top: 0 !important; margin-top: 0 !important;)
-geico.com###primary-header, .main-header, .print-hide.main-header:style(position: absolute !important; top: 0 !important;)
+geico.com###cat_banner:style(position: static !important;)
+geico.com###primary-header:style(position: relative !important; top: 0 !important;)
+geico.com###primary-header[role="banner"], .main-header, .print-hide.main-header:style(position: absolute !important; top: 0 !important;)
 geico.com###sidebar:style(position: absolute !important; padding-top: 100px !important;)
+geico.com##.banner.top.show ~ #wrapper, .banner.top.show ~ ec-primary-navigation #primary-header:style(margin-top: 0 !important;)
+geico.com##.banner.top.show ~ #wrapper:style(margin-top: 0 !important;)
 geico.com##.oo_feedback_float:style(position: relative !important;)
 gematsu.com###menu_wrapper:style(position: relative  !important;)
 geneticliteracyproject.org###sticky-navigation:style(position: absolute !important; box-shadow: none !important;)
