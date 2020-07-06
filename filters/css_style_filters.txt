@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 10:03 2020-07-06
+! Last Modified: 13:57 2020-07-06
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2739,6 +2739,8 @@ flightglobal.com##.desktopNavigation:style(position: absolute !important;)
 flightglobal.com##.fgc-article:style(margin-top: 0px !important;)
 flightglobal.com##.fgc-navigation--fixed:style(position: relative !important;)
 flightsimlabs.com,mint.com###header-sticky:style(position: absolute !important;)
+flipboard.com##.home-navigation:style(position: static !important;)
+flipboard.com##.main-nav:style(position: absolute !important;)
 flirc.tv,hotelnewsnow.com##.navbar-fixed-top, .navbar-fixed-bottom:style(position: relative !important;)
 flitetest.com###header:style(position: absolute !important; padding: 15px 0 0 0 !important;)
 flocombat.com##.all-nav-bars.mobile-nav-bar:style(position: absolute !important; top: 0 !important;)
