@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Filters
-! Last Modified: 13:57 2020-07-06
+! Last Modified: 10:10 2020-07-07
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for CSS element modifications -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -627,6 +627,7 @@ asia.nikkei.com###nav__primary:style(position: relative !important; top: 0 !impo
 asia.nikkei.com##.GCCMD_removeall.mail-magazine-article:style(position: relative !important; top: 0 !important;)
 asia.nikkei.com##.header--fixed .header__search:style(display: inline-block !important;)
 asia.nikkei.com##.header--fixed .nav__primary > [data-navigation]:style(padding: 0 10px !important;)
+asia.nikkei.com##.header--fixed.header:style(position: absolute !important;)
 asia.nikkei.com##.header__inner .header__title svg:style(height: 60px !important; width: auto !important; animation: none !important;)
 asia.nikkei.com##.header__inner:style(height: 132px !important;)
 asia.nikkei.com##.header__log-register--primary:style(display: block !important; transform: none !important;)
@@ -2874,7 +2875,7 @@ foxnews.com##.featured .info .caption:style(border-bottom: 1px solid #cedfef !im
 foxnews.com##.featured.featured-video .video-container:style(margin-bottom: 16px !important;)
 foxnews.com##.featured.featured-video.sticky-video .contain .info .title a:style(color: #036 !important;)
 foxnews.com##.featured.featured-video.sticky-video .contain .info p:style(display: inline-block !important;)
-foxnews.com##.featured.featured-video.sticky-video .contain .info:style(padding-top: 16px !important; float: unset !important; width: unset !important;)
+foxnews.com##.featured.featured-video.sticky-video .contain .info:style(padding-top: 16px !important; padding-left: 0 !important; float: unset !important; width: unset !important;)
 foxnews.com##.featured.featured-video.sticky-video .contain:style(background: #fff !important;)
 foxnews.com##.sticky-video .contain:style(position: static !important; width: auto !important;)
 foxnews.com##.video-dropdown:style(opacity: 1 !important;)
