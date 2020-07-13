@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - CSS Style Modifying Companion Filters
-! Last Modified: 09:43 2020-07-13
+! Last Modified: 13:02 2020-07-13
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Companion Sublist to be used with CSS Style Modifications List -  Modify site elements that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -24,6 +24,7 @@ aclu.org##.sticky-minimized
 acura.com##.sticky-nav__item--visible.js-back-to-top-button.sticky-nav__item--back.sticky-nav__item
 adblockradio.com,arnavdhamija.com,blog.esea.net,blog.revolut.com,floydhub.com,fly.io,ghost.org,letstalkalgorithms.com,mg.lol,netlab.360.com,rpiai.com,secjuice.com,smartcar.com,spreadprivacy.com,time2hack.com,whatcoulditmeme.com##.floating-header
 adguard.com###floatingNavigation, .staticNavDummy
+adguard.com##div[style="position: relative; width: 1519.2px; height: 50.8px; display: block; vertical-align: baseline; float: none;"]
 adweek.com###sticky-nav, .sticky-container.widget-area
 aeon.co##.header--fixed, .header--fixed--visible, .header-banner, .sticky-wrapper
 affordanything.com##.sticky-nav-container
@@ -62,6 +63,7 @@ archdaily.com###js-article-fixed-bar, .afd-nav__logo
 artreport.com##.stick-header-info
 artstation.com##.navbar-artist-user.stuck
 asiatimes.com##header .header-bottom .logo-cont
+askubuntu.com,serverfault.com,stackexchange.com,stackoverflow.com,superuser.com###overlay-header
 atchisonglobenow.com,auburnpub.com,azdailysun.com,baycitytribune.com,beatricedailysun.com,billingsgazette.com,bismarcktribune.com,bozemandailychronicle.com,chippewa.com,columbustelegram.com,cumberlink.com,dailyjournalonline.com,dailylocal.com,dailysentinel.com,dailystarjournal.com,delrionewsherald.com,democratherald.com,djournal.com,elkodaily.com,fremonttribune.com,gazette.com,gazettetimes.com,gazettextra.com,gladstonedispatch.com,globegazette.com,greenacressells.com,hanfordsentinel.com,helenair.com,herald-review.com,herald-zeitung.com,hiawathaworldonline.com,hoosiertimes.com,independentri.com,insidenova.com,jg-tc.com,journalstar.com,journaltimes.com,lacrossetribune.com,lancasteronline.com,lompocrecord.com,loudountimes.com,lufkindailynews.com,madison.com,magicvalley.com,missoulian.com,mtstandard.com,muscatinejournal.com,mycouriertribune.com,napavalleyregister.com,newspressnow.com,nola.com,nwitimes.com,pantagraph.com,postandcourier.com,postbulletin.com,poststar.com,qconline.com,qctimes.com,rapidcityjournal.com,ravallirepublic.com,republic-online.com,santamariatimes.com,saratogian.com,seguingazette.com,siouxcityjournal.com,stltoday.com,tdn.com,theparisnews.com,thesouthern.com,thetandd.com,theworldlink.com,trib.com,tucson.com,wcfcourier.com,wdrb.com,winchesterstar.com,winonadailynews.com,wiscnews.com,wvgazettemail.com,wvnews.com###fixed-article-header
 atlasobscura.com##.mini-nav-wrapper, .site-top-notification-link
 avclub.com,clickhole.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,jezebel.com,kinja.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.global-nav--scrollback, .js_scrollback-nav.show, .cLeTpq.header__GlobalNav-sc-80eizx-7, .jhkYuB.sc-80eizx-7, .cTqRbi.header__GlobalNav-sc-80eizx-7, .gRFTMP.sc-80eizx-7, .cVkxCb.sc-80eizx-7, .hEXoiA.header__GlobalNav-sc-80eizx-7, .cgAddJ.header__GlobalNav-sc-80eizx-7, .dWCMAB.sc-80eizx-7, .dKiHSS.sc-80eizx-7, .gDavHO.header__GlobalNav-sc-80eizx-7, .dPbRcY.header__GlobalNav-sc-80eizx-7, .dyeBYJ.header__GlobalNav-sc-80eizx-7, .kxfoNN.sc-80eizx-7, .eDFfja.sc-80eizx-7, .fddgWk.header__GlobalNav-sc-80eizx-7, .eSDOIL.header__GlobalNav-sc-80eizx-7, .iRdRiC.sc-80eizx-7, .fSIhRp.sc-80eizx-7, .jeICbu.header__GlobalNav-sc-80eizx-7, .fxZQwA.header__GlobalNav-sc-80eizx-7, .iSyYtB.sc-80eizx-7, .gsnEuB.sc-80eizx-7, .iArcuo.header__GlobalNav-sc-80eizx-7
@@ -180,6 +182,7 @@ digg.com##.placeholder.fp-vertical-story, .site-navigation-bottom
 districtondeck.com##.fixed-article-nav
 dividend.com##.stock-data-space, .stock-nav-space
 dnyuz.com##.sticky_blankspace
+dottoro.com##.headers:style(position: absolute !important;)
 dreamhost.com,hongkongfp.com,rootupdate.com,sportempi.com,thecooperreview.com,theinvestigativefund.org,windowsclan.com###sticky_header
 drweil.com###js-header-inner
 duffelblog.com###nav-wrapper
@@ -290,8 +293,10 @@ instructables.com##.affix.sticky-header
 integrahealthcentre.com###nav
 irs.gov###block-pup-sticky-nav
 israelnationalnews.com##body.ltr.LangEn.LayoutTopDown #LayoutTop .Top .Logo .icon-a7
+itpro.co.uk###header:style(position: relative !important; width: 100% !important;)
 itsfoss.com###media_image-13_clone, #text-11_clone, #text-3, #text-3_clone
 itstillworks.com,oureverydaylife.com###jwplayerClose
+jestjs.io##.fixedHeaderContainer:style(position: absolute !important;)
 knewz.com##.site-header .main-navigation .first-section .search-box, .top_menu_container > .logo-container
 knivesandtools.co.uk##.product-offer-card__body
 knowablemagazine.org##.-active.sticky-nav
@@ -304,6 +309,7 @@ lifealth.com##.header--slide.fixed.header
 lifehack.org##.conv_state_desktop.conv-container
 lifezette.com##.menu-bar-trigger
 linkedin.com##.ember-view.stuck.sticky.scrollable.sub-nav, .feed-shared-news-module--visible
+liquidweb.com##.chat-fixed-container
 livecoinwatch.com###newsSticky, .fixedHeader-floating
 liveleak.com##.current_main_outer.pad_none.col-xs-12 > h3
 livemint.com##.close-btn.sticky2.btnClose
@@ -336,6 +342,7 @@ nbcbayarea.com,nbcchicago.com,nbcdfw.com,nbclosangeles.com,nbcmiami.com,nbcnewyo
 netzwelt.de##.nav-filler
 news.com.au##.video-stick, .vms-sticky-close
 news.harvard.edu##.article-sticky-navbar__content
+newsbreak.com##[class^=DefaultNav_navWrapper]:style(position: absolute !important;)
 newser.com###navSpacer
 newsweek.com###sticky-title
 nextshark.com##.sticky-el
@@ -366,6 +373,7 @@ popsugar.com###control-bar, .omniture-track.nav-cta-button
 post-gazette.com##body.pgevoke-stickyheader .pgevoke-header-row2-middle-pubicon
 powerhungry.com##slick-sticky-toolbar
 poweruptoys.com##.sticky_nav--stick.sticky_nav.main_nav_wrapper
+presscustomizr.com###beacon-container
 pri.org##.navbar__wrapper.is-fixed
 princetonreview.com###test-name-container, #test-name-container-nav
 prnewswire.com##.nav-down.navbar
@@ -385,6 +393,7 @@ rd.com###toh-search-form-wrapper > .close-btn, .toh-search-form input[type="subm
 readonlymemory.vg##.hidden-small.notification-bar
 realclearpolitics.com##.unstick-player
 redstate.com##.navbar-fixed-top.navbar-default.navbar
+regexr.com##.noad
 rehansaeed.com###headerwrap.fixed-header #main-nav-wrap
 religionnews.com##.global-nav-bg, .show.nav_overflow_label.sticky_nav_display.sticky-nav-holder
 researchgate.net##.sticky-placeholder
@@ -404,6 +413,7 @@ securityweek.com##DIV[style="margin-top:2px;"]
 seeker.com##.nav__outlink
 shop.ring.com##.on.false.grid_sticky_nav
 si.com##.short-only.logo > .desktop-only.full-logo > .color-porcelain.hover-fill, .showBackground.stickyFooter, .ui-button.ui-button-close.small.is-fixed, body:not(.under-social) nav.main .under-social-logo.desktop-only, hr
+sitepoint.com##[role="smartbar"]
 sixthtone.com##.sticky-scroll .logo-noodletimes.black
 skinnytaste.com##.slicknav_menu
 slack.com##.header_white.header
@@ -413,6 +423,7 @@ snowehome.com##.sticky.navbar-fixed-top.navbar-default.navbar
 sociable.co###nav-wrap
 socialitelife.com##.navbar-dummy, .navbar-primary .navbar .navbar-brand
 solecollector.com##.complex-navbar--sub .navbar__section--alternate
+solgaard.co###launcher
 solgaard.co##.in.fixed.header--product
 sonymobile.com##.sticky-nav
 sourceforge.net##.sandiego.l-header-nav-bottom .dev-menu-when-stuck, .sandiego.l-header-nav-bottom .sf-logo
