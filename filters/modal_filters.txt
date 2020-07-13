@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 10:29 2020-07-09
+! Last Modified: 17:13 2020-07-09
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of other page covering elements. Cookie/GDPR notices will be removed in Cookie Filters sublist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -208,6 +208,7 @@ cisco.com##.explicit_consent.privacy_prompt
 citusdata.com###consentBox
 citylab.com###blocker-msg-start
 cjr.org###interContainer, #interVeil
+ckeditor.com##.progress-bar
 cnbc.com##+js(aopr, googletag)
 cnbc.com##.ProgressBar-container, .bx-align, .pico-content, .pico-overlay, [style*="z-index: 100000000;"]
 cnn.com###cnn_hdr-prompt, #js-TosPrivacy, #message, #notice_banner, #onetrust-consent-sdk, .cnn-toast--tos.cnn-toast, .s-post-footer, .sibling
@@ -784,6 +785,8 @@ smithsonianstore.com###fancybox-overlay, #fancybox-wrap
 smugmug.com##.sm-page-scroll-to-top
 socialitelife.com##.pk-scroll-to-top
 softpedia.com###bottombubble, #spsbtns
+solgaard.co##.mfp-bg, .mfp-wrap
+solgaard.co##html:style(overflow-x: hidden !important; overflow-y: scroll !important; margin-right: 0 !important;)
 sonsoflibertymedia.com##.scrollTo_top
 sophos.com##.newsletter-panel
 sothebys.com###NotificationOverlay
