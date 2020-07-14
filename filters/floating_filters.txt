@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 09:00 2020-07-14
+! Last Modified: 15:03 2020-07-14
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -466,11 +466,11 @@ amazingribs.com,anthem.com,bcbsga.com,empireblue.com##.ant-new-nav-wrapper.mbr-t
 amazon.com###huc-v2-order-row-placeholder, .br-ob-carousel-offset, .pantry-place-holder, .s-ember-font.as-fixed-header, .style__placeholder__1rEYs, .vpc_coupon_bar_spacer
 amazon.com###leftCol, #navRow, #profile-search-bar-container, .br-fixed.long.br-ob-carousel, .glimpse-fixed-navigation-container.glimpse-navigation-container, .pantry-wayfinder-sticky-bar, .style__navArea__jlY6Q, .vpc_coupon_bar:style(position: relative !important;)
 amazon.com###miniATFUDP, #miniATF_feature_div:style(position: relative !important; top: 0 !important;)
+amazon.com###mydNavBarContainer, .DVWebNode-retail-nav-wrapper.av-native-stick:style(position: static !important;)
 amazon.com###nav-flyout-ewc, #subtotalsContainer:style(position: absolute !important; top: 0 !important;)
 amazon.com###nav-flyout-ewc:style(right: -220px !important;)
 amazon.com###nav-main:style(transform: none !important;)
 amazon.com###stickyTop-container, .stickybuybox.a-button-stack:style(position: absolute !important;)
-amazon.com##.DVWebNode-retail-nav-wrapper.av-native-stick:style(position: static !important;)
 amazon.com##.acs-wtfl-filtersort-categories:style(margin-top: 0 !important;)
 amazon.com##.acs-wtfl-filtersort-sortby:style(padding: 5px 10px !important; top: -5px !important;)
 amazon.com##.acs-wtfl-filtersort-wrap:style(position: absolute !important; height: 25px !important; box-shadow: none !important; padding: 0 0 5px 0 !important; top: 0 !important; left: 0 !important;)
@@ -1195,7 +1195,7 @@ bloomberg.com##.rail.section-front__side-bar:style(position: relative !important
 bloomberg.com##.recirc-opinion, .recirc.rotation-item, .rotation-item.recirc-v2, .rotation-item[current=false], .right-rail-v2 .rotation-item[current="false"]:style(transform: none !important; opacity: 1 !important; max-height: 2000px !important; padding: 0 20px 12px !important;)
 bloomberg.com##.sticky-container:style(position: static !important; top: 0 !important;)
 bloomberg.com##.sticky-video:style(transform: none !important;)
-bloomberg.com##.storythread-tout:style(position: static !important;)
+bloomberg.com##.storythread-tout, figure[class="asset-block"] div[class="copy-width"]:style(position: static !important;)
 bloomberg.com##.video-player__container:style(position: static !important; transform: none !important; opacity: 1 !important; top: 0 !important; width: auto !important; height: auto !important;)
 bloomberg.com##aside.pullquote:style(opacity: 1 !important; animation: none !important;)
 bloomberglaw.com##[class*="TheArticle_clotheslineWrapper"]:style(position: static !important; opacity: 1 !important; width: 100% !important;)
@@ -3923,6 +3923,7 @@ inkedmag.com###top-nav-bar, .gosticky-main:style(position: relative !important; 
 inman.com###masthead-fixed:style(position: absolute !important; top: 0 !important;)
 innocenceproject.org##.normal-header:style(position: relative !important; top: 0 !important;)
 innocenceproject.org##.wrap_all:style(padding-top: 0 !important;)
+inputmag.com##[class*="header-"]:style(position: absolute !important;)
 inquirer.com##.pb-f-global-app-bar:style(position: absolute !important; top: 0 !important;)
 inquirer.net###blogo:style(display: block !important;)
 inquirer.net###logo_m

@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Ad Placeholder Filters
-! Last Modified: 09:59 2020-07-14
+! Last Modified: 15:03 2020-07-14
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for empty advertising placeholders.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -120,7 +120,7 @@ chromeunboxed.com##.topSpace
 cinemablend.com##.ad-wrap, .ads_slot
 circa.com##.ArticlePage-ad, .GoogleDfpAd, div[id^="advertisement-"]
 citylab.com##.l-sponsored
-cnbc.com###ForYouBreaker-makeit, .news-widget, .wildcard.embed-container
+cnbc.com###ForYouBreaker-makeit, .news-widget, .wildcard.embed-container, .TopBanner-container[data-test="adHomepageTopBanner-0"], .TopBanner-container[data-test="adTopBanner-0"]
 cnet.com###leaderTopWrap, .ad-nav-ad, .fixed.sticky-leader, .leadWrap
 coindesk.com##.widget_coindesk_freestar_atf_ad_unit_widget, .widget_coindesk_freestar_btf_ad_unit_widget
 columbiabasinherald.com##.no-print.row.ad
