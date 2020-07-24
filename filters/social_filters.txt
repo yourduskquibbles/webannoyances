@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Social Filters
-! Last Modified: 10:16 2020-07-23
+! Last Modified: 20:46 2020-07-13
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for social networking & sharing - Remove third party social media share sections, icons & other cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -40,6 +40,8 @@ abcnews.go.com##.Share__Item--facebook.Share__Item.Button--icon-noLabel.Button--
 abplive.in##.social_articlePage
 accenture.com###fbLike, .hidden-tooltip.cardShare, .stay-connected-master
 accountingtoday.com,americanbanker.com,benefitnews.com,bondbuyer.com,cujournal.com,dig-in.com,employeebenefitadviser.com,financial-planning.com,healthdatamanagement.com,information-management.com,nationalmortgagenews.com,paymentssource.com,taxprotoday.com,themiddlemarket.com##.sm-social-share-bar-item
+activehosted.com##.archive_title.fixed:style(padding: 0 !important; box-shadow: none !important;)
+activehosted.com##.message-body-container:style(margin-top: 0 !important;)
 adage.com,cbslocal.com,consequenceofsound.net,merriam-webster.com,scpr.org,spectator.co.uk,spectator.us,thewire.com##.follow-us
 adbusters.org###ssb-container
 add0n.com###sharing
@@ -292,6 +294,7 @@ doist.com##.db-actionbar-holder, .db-share
 dotesports.com##.styles__sharing--3tU63
 doublegames.*##.new-share-buttons
 drafthousefilms.com##.entry-footer-share
+dreamhost.com##.soc-share
 drewestate.com##.buzz_share
 drivereasy.com##.social-twitter-bar.share
 drudgereport.com###pds-sharing

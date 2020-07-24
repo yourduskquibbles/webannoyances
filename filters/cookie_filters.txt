@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Cookie Filters
-! Last Modified: 13:02 2020-07-13
+! Last Modified: 20:46 2020-07-13
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Cookie Annoyances - Remove Cookie/GDPR Banners, Notices, Overlays & Warnings
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -280,6 +280,7 @@ cameo.com###content > div[data-reactroot=""] div:has([id="cookie-policy-banner-c
 channel4.com###all4gn-cookie-policy-notification
 chefkoch.de###ck-cookie-statement
 cision.com###cision-cookie-policy-banner
+codementor.io##div[class^="jsx-"]:has-text(Cookie Policy)
 community.jivesoftware.com###cookie-consent-alert
 community.spotify.com###js-message-bar-cookie-notice, .lia-in.lia-dialog-titleless.lia-panel-dialog-modal-valuesurvey.lia-panel-dialog-modal-simple.lia-panel-dialog.lia-content.ui-corner-all.ui-widget-content.ui-widget.ui-dialog, .ui-widget-overlay
 comparitech.com##.ct-cookie-consent-pop
@@ -378,6 +379,8 @@ startech.com###cookies-message, .top-product-info
 statista.com###cookiesNotification
 symbaloo.com##.eu-cookie-notice
 symphony.com##.sym-cookie-container-fluid
+teachable.com##.ccpa
+teachable.com##.ccpa-consent-bar
 telegraph.co.uk###qb_cookie_consent_main
 tenforums.com###cookiescript_injected
 the-sun.com,thescottishsun.co.uk,thesun.co.uk,thesun.ie###cookie-bar, .back-to-top
