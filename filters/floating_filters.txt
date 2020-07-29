@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 09:32 2020-07-29
+! Last Modified: 09:49 2020-07-29
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -7560,7 +7560,7 @@ townhall.com###thm-nav-sm, .fa-bars.fa, .toggle, nav:style(position: relative !i
 townhall.com##.fadeInDown.animated.navbar-article.navbar-fixed-top.navbar-default.navbar, .sticky
 townsquaremedia.com###nav-close-button, #nav-menu-button:style(position: absolute !important;)
 toxicpatat.com##nav:style(position: absolute !important; transform: none !important;)
-toyota.com###Subnav, #wrapper > #root > div > nav, .dealer-locator .map-wrapper, div.main-header:style(position: static !important;)
+toyota.com###Subnav, #wrapper > #root > div > nav, .dealer-locator .map-wrapper, .flyout_header, .header_wrapper, div.main-header:style(position: static !important;)
 toyota.com##.app-container div[style*="padding-bottom: "]:style(padding-bottom: 0 !important;)
 toyota.com##.fixedsticky-dummy
 toyota.com##.is-ready.tcom-tab-subnav-scrollable:style(position: relative !important; width: auto !important;)
@@ -7570,6 +7570,7 @@ toyota.com##.tcom-tab-subnav.fixedsticky-on::before, .tcom-tab-subnav.is-sticky:
 toyota.com##.tcom-tab-subnav:style(position: static !important; height: auto !important; box-shadow: none !important;)
 toyota.com##.tcom-tiered-subnav:style(position: relative !important;)
 toyota.com##.vehicle-bar:style(position: static !important; box-shadow: none !important;)
+toyota.com##body .wrapper:style(margin-top: 0 !important;)
 trackico.io##.topbar-inverse.topbar-expand-lg.topbar:style(position: absolute !important;)
 tractorsupply.com###globalHeaderBannerMobile
 tractorsupply.com###header_mainContainer_outer:style(position: relative !important; top: 0 !important;)
