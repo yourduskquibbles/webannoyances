@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 14:45 2020-07-29
+! Last Modified: 15:49 2020-07-29
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -5997,10 +5997,8 @@ radio.com###playerBannerContainer
 radio.com###playerContainer #radioPlayerContainer.popup:style(height: 68px !important;)
 radio.com###radioPlayer:style(height: 68px !important; min-height: 68px !important; border-bottom: 1px solid #fff !important;)
 radio.com###radioPlayerContainer:style(position: absolute !important; top: 0 !important; bottom: unset !important;)
-radio.com###vue-app-mount-point:style(margin-top: 68px !important;)
+radio.com##.latest-top-recirc-slider__slider-container, .radiocom-nav:style(position: absolute !important;)
 radio.com##.page:style(top: 0 !important;)
-radio.com##.radiocom-nav, .radiocom-nav .nav-drawer:style(position: absolute !important;)
-radio.com##.radiocom-nav-placeholder.component--top-nav.component > .radiocom-nav:style(top: 68px !important;)
 radio.com##.s2nPlayerFrame:style(position: static !important; top: 0 !important; left: 0 !important; width: 745px !important; height: 444px !important; visibility: visible !important; transform: none !important;)
 radio.com##.video-wrapper .video-js:style(position: absolute !important; top: 0 !important; left: 0 !important; width: 100% !important; height: 100% !important;)
 radiotimes.com##.site-header__eyebrow.is-sticky .quick-links:style(display: flex !important;)
