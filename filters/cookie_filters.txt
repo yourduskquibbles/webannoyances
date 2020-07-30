@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Cookie Filters
-! Last Modified: 16:01 2020-07-29
+! Last Modified: 11:33 2020-07-30
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Cookie Annoyances - Remove Cookie/GDPR Banners, Notices, Overlays & Warnings
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -146,8 +146,15 @@
 ##.banner--cookies-policy
 ##.bs-wrap-gdpr-law
 ##.c-cookie-notice
+##.cc-banner
 ##.cc-cookie-consent-banner-modal
 ##.cc-cookies
+##.cc-floating
+##.cc-stop-overlay
+##.cc-window
+##.cc_banner
+##.cc_banner-wrapper
+##.cc_message
 ##.confirmed_cookie
 ##.container-cookies
 ##.cookie-accept-overlay
@@ -317,6 +324,7 @@ gdconf.com##.cookies-popup
 gettyimages.fi###euCookieDialog
 gitlab.com###CybotCookiebotDialog
 go-dove.com##app-gdpr, .fixedfooter
+gocomics.com,just-auto.com,just-drinks.com,just-food.com,just-style.com,outono.net,retropie.org.uk##.cc_banner-wrapper
 gravatar.com##.a8c-cookie-banner
 grownmenstuff.com,securityaffairs.co###cookie-law-info-bar
 gulfnews.com##.gn-cookies-warning
