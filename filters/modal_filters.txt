@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 11:33 2020-07-30
+! Last Modified: 08:46 2020-08-04
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of other page covering elements. Cookie/GDPR notices will be removed in Cookie Filters sublist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -707,6 +707,8 @@ princewilliamliving.com##.ui-draggable.wdev-window.move.wdpu-msg.popup.resize
 proactiveinvestors.co.uk###ribbon
 projectcensored.org###lpl, #lpl-overlay
 propublica.org##.interstitial, .modal, .syndicated-modal
+protocol.com###form_out
+protocol.com##body[style*="overflow: hidden;"]:style(overflow-y: scroll !important;)
 psychiatrictimes.com##.flyin
 pubexec.com##.wp_popup_overlay
 purewow.com##.fb_digioh-lock:style(overflow-x: hidden !important; overflow-y: scroll !important;)
@@ -758,6 +760,7 @@ scribd.com##body.modal_open:style(overflow-x: hidden !important; overflow-y: scr
 searchenginejournal.com###cooknote-div, #sej-hello-bar
 seatgeek.com##.seatgeek-lightbox-background
 seattletimes.com###container:style(filter: none !important;)
+seattletimes.com##.NewsletterSignupSplash
 sec.gov##.acsModalBackdrop
 securitycheckli.st##.style__ScrollToTop-sc-1z0so4v-7
 seekingalpha.com##.modal:not(.sa-auth), .modal-backdrop
