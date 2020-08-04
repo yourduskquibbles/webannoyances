@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 08:47 2020-08-04
+! Last Modified: 09:03 2020-08-04
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1564,9 +1564,9 @@ cbsnews.com##.dashboard:style(position: relative !important; bottom: 0 !importan
 cbsnews.com##.deep-story-dashboard .close-btn, p.breaking-news__headline
 cbsnews.com##.embed__content--draggable:style(position: absolute !important; top: unset !important; left: unset !important; max-width: 100% !important; width: 100% !important; height: 100% !important;)
 cbsnews.com##.site-footer:style(padding-bottom: 0 !important;)
-cbssports.com###cbs-network-bar, #event-northstar-container, #gt-atl-container, .war-enabled:style(position: static !important;)
+cbssports.com###cbs-network-bar, #gt-atl-container, .war-enabled:style(position: static !important;)
 cbssports.com###cbs-site-header, #cbs-site-nav, .site-nav-top:style(position: relative !important; top: 0 !important;)
-cbssports.com###hud-container:style(position: relative !important;)
+cbssports.com###event-northstar-container, #hud-container:style(position: relative !important;)
 cbssports.com###network-bar-spacer, #skybox-nav-spacer, #slideout, #video-northstar-container, .ncaab-northstar-container
 cbssports.com##.Article-rail:style(position: static !important; top: 191px !important;)
 cbssports.com##.ArticleSuggestedContent-container .NewsFeed-item:style(opacity: 1 !important;)
