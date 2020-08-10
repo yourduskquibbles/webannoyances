@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 12:14 2020-08-10
+! Last Modified: 12:22 2020-08-10
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2334,10 +2334,11 @@ digitalocean.com##.content-has-mobile-image.Tutorial-content.content.section-con
 digitalocean.com##.sticky.has-init.table-of-contents:style(position: absolute !important; top: 258px !important;)
 digitalspy.com##.sticky.nav:style(position: absolute !important; top: 0 !important;)
 digitaltrends.com###dt-sticky-video-container:style(position: absolute !important;)
+digitaltrends.com###vjs_video_3:style(position: relative !important; top: 0 !important; right: 0 !important; bottom: 0 !important; left: 0 !important; width: 100% !important; height: 0 !important; padding-top: 56.25% !important; animation: none !important;)
+digitaltrends.com##.b-docking__bar, .m-sticky-video--head
 digitaltrends.com##.dtvideos-container, .is-huge.is-big.h-nav-container.b-nav:style(position: relative !important;)
 digitaltrends.com##.is-fixed.m-pint-wrap, .m-pint-pos:style(position: relative !important; top: 0 !important;)
 digitaltrends.com##.m-site-head--nav:style(opacity: 1 !important; pointer-events: unset !important;)
-digitaltrends.com##.m-sticky-video--head
 digitaltrends.com##.m-sticky-video.is-stuck.is-stuck > div, .m-sticky-video.is-stuck.is-stuck > iframe:style(position: absolute !important; top: unset !important; bottom: unset !important; left: unset !important; right: unset !important; animation: none !important;)
 digix.global##.container.ui > .branding.item > img:style(opacity: 1 !important;)
 digix.global##.fixed.top.menu:style(position: absolute !important; background-color: transparent !important;)
