@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 10:57 2020-08-11
+! Last Modified: 12:43 2020-08-11
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -5191,10 +5191,13 @@ nc.gov##.jb-overflow-disabled.jb-overflowmenu.topical-nav:style(position: absolu
 ncaa.com##.mobile-header:style(position: relative !important; top: 0 !important;)
 ncr.com##.ncr-msg:style(position: absolute !important;)
 ncronline.org###block-ncr-blocks-article-share-links.sticky:style(position: static !important;)
+ndtv.com###header2:style(position: static !important; padding-top: 0 !important;)
 ndtv.com###sliderpanel, #sticky_navigation_wrapper, .header:style(position: relative !important; top: 0 !important;)
 ndtv.com##.corSticky:style(position: absolute !important;)
 ndtv.com##.m-nv:style(position: static !important;)
-ndtv.com##.new_nextarrow, .new_prevarrow, .progress-container
+ndtv.com##.nav_icn, .new_nextarrow, .new_prevarrow, .progress-container, .stk-t_bg, .stk-t_wr
+ndtv.com##.ndtv-logo-wrp:style(margin: 0 16px 0 0px !important;)
+ndtv.com##.top-header:style(justify-content: space-between !important;)
 neo-magazin-royale.de##.gradient, .push.header, .shy.push.header:style(position: relative !important; top: 0 !important;)
 neocities.org##.header-Base:style(position: absolute !important;)
 neocities.org##.small-Nav:style(position: inherit !important;)
