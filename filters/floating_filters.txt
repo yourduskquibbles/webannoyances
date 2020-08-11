@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 13:22 2020-08-10
+! Last Modified: 09:27 2020-08-11
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2262,17 +2262,18 @@ developer.mozilla.org###toc:style(position: relative !important;)
 developer.oculus.com##._1lpv._1lpw, ._3yfq._3yfj._3yfi._3yff:style(position: absolute !important;)
 developers.cloudflare.com###sidebar, #sidebar-toggle, .navigation:style(position: absolute !important;)
 developers.facebook.com##._132f:style(position: absolute !important;)
-developers.google.com###app-progress, body[ready] .devsite-book-nav-bg[fixed], devsite-header:style(position: absolute !important;)
+developers.google.com###app-progress, devsite-header:style(position: absolute !important;)
 developers.google.com##.clearfix.devsite-main-content:style(margin-top: 40px !important;)
 developers.google.com##.devsite-collapsible-section, .devsite-wrapper:style(margin-top: 0 !important;)
 developers.google.com##.devsite-collapsible-section:style(transform: translate3d(0px, 0px, 0px) !important;)
 developers.google.com##.devsite-full-site-width.devsite-product-id-row:style(visibility: visible !important;)
-developers.google.com##.devsite-nav-list, .devsite-toc.devsite-nav, devsite-book-nav:style(max-height: 100% !important;)
+developers.google.com##.devsite-nav-list, .devsite-toc.devsite-nav:style(max-height: 100% !important;)
 developers.google.com##.devsite-nav.devsite-page-nav:style(position: relative !important; top: 0 !important; left: auto !important; max-height: 775px !important;)
 developers.google.com##.devsite-top-logo-row-wrapper-wrapper, .devsite-top-section-pinned.nocontent.devsite-top-section:style(position: relative !important; transform: none !important;)
 developers.google.com##.nocontent.devsite-nav.devsite-section-nav:style(position: relative !important; top: 0 !important;)
 developers.google.com##.nocontent.devsite-top-section:style(position: relative !important;)
 developers.google.com##body[ready] devsite-book-nav[fixed]:style(position: absolute !important; transform: translate3d(0px, 0px, 0px) !important;)
+developers.google.com##devsite-book-nav:style(max-height: unset !important;)
 deviceatlas.com##.navbar:not(#inverted):style(position: absolute !important;)
 devonlive.com##.mod-header > .primary [data-level="1"] .has-children > a:style(padding-right: 13px !important; padding-left: 5px !important;)
 devonlive.com##.mod-header > .primary [data-level="1"] .has-children::after:style(right: 0 !important;)
