@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist
-! Last Modified: 12:43 2020-08-11
+! Last Modified: 15:17 2020-08-11
 ! Expires: 2 Days (Update Frequency)
 ! Description: Block annoying web elements and reclaim lost screen real estate. Web Annoyances Ultralist includes the following sublists - Ad Placeholders, Cookie Filters, Floating Filters (CSS Style Modifying & Companion Filters), Generic Filters, Modal Filters, Newsletter Filters, & Social Filters. 
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -20,6 +20,14 @@
 !#include filters/newsletter_filters.txt
 !#include filters/social_filters.txt
 ! End Web Annoyances Ultralist Sublists
+
+! Start Web Annoyances Ultralist Exclusion Sublists
+!#if adguard
+!#if env_mobile
+!#include filters/adguard_mobile_exclusion_filters.txt
+!#endif
+!#endif
+! End Web Annoyances Ultralist Exclusion Sublists
 
 ! Start Web Annoyances Ultralist - Main Filters
 10best.com##.homepage-top-story-callout.columns.large-12
