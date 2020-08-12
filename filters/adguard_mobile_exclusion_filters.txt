@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Adguard Mobile Exclusion Filters
-! Last Modified: 15:17 2020-08-11
+! Last Modified: 11:57 2020-08-12
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Adguard Mobile Exclusion Filters. This list is used to fix page display issues caused by CSS Style & Companion filters not working properly with Safari using Adguard on iOS.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -10,5 +10,7 @@
 ! Works Best With: uBlock Origin, AdGuard, or Nano Adblocker
 
 ! Start Web Annoyances Ultralist - Asguard Mobile Exclusion Filters
+!#if adguard_app_ios
 apnews.com#@#.header-placeholder, .optional-header-title
 mobile.twitter.com#@#header[role="banner"] > div[style*="height"]
+!#endif
