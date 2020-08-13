@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Ad Placeholder Filters
-! Last Modified: 12:43 2020-08-11
+! Last Modified: 08:57 2020-08-13
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for empty advertising placeholders.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -524,7 +524,7 @@ ups.com##img[alt="Promotion"], img[alt^="Affiliate"]
 usatoday.com###partner-poster-0, #read-this-next, .partner-placement, .sponsor, [aria-label="advertisement"]
 usatoday.com##[id*="ad-slot-"]:upward(1)
 usgamer.net##.advert-container
-usnews.com##.AdhBase__Wrapper-rea3rt-0, .AdhesionAd__Wrap-s174czm-0
+usnews.com##[class*="Ad__Container-sc"]
 ustvgo.tv###text-2 [href*="https://go.nordvpn.net/aff_c?offer_id="], .ustvg-widget.mh-posts-1.mh-widget
 vanityfair.com###AMS_VYF_ARTICLE_INTEGRATED_END, #AMS_VYF_ARTICLE_INTEGRATED_INSTREAM, #AMS_VYF_GLOBAL_FOOTER, #AMS_VYF_GLOBAL_HEADER, #AMS_VYF_HOLLYWOOD_FOOTER, #AMS_VYF_INLINE_PROMO, #AMS_VYF_INLINE_TEXT, .ad--in-content, .component-riser, .component-sponsored-links, .consumer-marketing-unit, .paywall-growler
 variety.com###leaderboard, #leaderboard-no-padding, .ad-below-tags, .google-publisher.adma, .l-header__leaderboard
