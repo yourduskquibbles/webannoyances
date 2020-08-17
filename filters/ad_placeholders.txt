@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Ad Placeholder Filters
-! Last Modified: 14:31 2020-08-13
+! Last Modified: 16:00 2020-08-17
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for empty advertising placeholders.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -405,7 +405,7 @@ reason.com###google_ads_div_Home_rectangle_1, #leaderboard
 recode.net##.m-ad
 reddit.com##.dfp-ad-container
 remezcla.com##.adUnitF
-reuters.com###reutersAppBanner, .DPSlot_container, .GetTheAppBanner_get-the-app-banner_1LusN, .RecircRibbon_container, .StandardArticleBody_dp-slot-inline_eUPBt.DPSlot_container_2dHIN, .get-the-app-banner_1LusN
+reuters.com###reutersAppBanner, .DPSlot_container, [class*=".GetTheAppBanner_get-the-app-banner"], .RecircRibbon_container, .StandardArticleBody_dp-slot-inline_eUPBt.DPSlot_container_2dHIN, .get-the-app-banner_1LusN
 reuters.com##.module-header:has-text(/Advertisement/):upward(1)
 reviewjournal.com###rjth-region-under-article-content, .rj-ads-wrap-sq
 revolvermag.com##.full-ad-wrapper, .st-ad-wrapper
@@ -501,7 +501,7 @@ thestar.com.my###pd-embed-slider, .Ads-slot
 thestrad.com###promo-banner
 thestreet.com###lower-ad-banner, .main-nav__header-ad, .sticky-top-ad-wrap
 theverge.com##.m-ad
-theweek.com###HPPromoBox, .ad_wrap, .col300_4free, .oop-ad, .top-leaderboard-container, .top-leaderboard-section, .zerg-colm
+theweek.com###HPPromoBox, #us60-test, .ad_wrap, .col300_4free, .oop-ad, .top-leaderboard-container, .top-leaderboard-section, .zerg-colm
 thewirecutter.com##.ad-728x90
 thisisinsider.com###editorial2, .ad-subnav-container
 thrillist.com###header-ad, #header-ads, .ad-container, .stack-ad-container, .stack-ad-placeholder
