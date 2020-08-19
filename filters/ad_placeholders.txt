@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Ad Placeholder Filters
-! Last Modified: 16:00 2020-08-17
+! Last Modified: 09:49 2020-08-19
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for empty advertising placeholders.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -274,8 +274,7 @@ kutv.com,local21news.com##.index_adBeforeContent__j4lF, .index_displayAd__2OZ-
 kvoa.com###WNAd41
 kyivpost.com##.wrap > .b-title:has-text(/Advertisement/)
 lamag.com##.module-ad
-latimes.com##.google-dfp-ad-wrapper
-latimes.com,pacificsandiego.com,sandiegouniontribune.com##div.GoogleDfpAd-wrapper
+latimes.com,pacificsandiego.com,sandiegouniontribune.com##.google-dfp-ad-wrapper, div.GoogleDfpAd-wrapper
 lawandcrime.com###lnn-promo
 laweekly.com##.convert-media-ad
 lawtally.com##.ad-mid-sidebar
@@ -300,13 +299,12 @@ marketwatch.com###brass-rail, .partner-center.element--list.element
 marthastewart.com###js-site-nav-ad-wrap, .mobile-ad-unit
 mdjonline.com##.infinity-asset-ad
 mdmag.com###flyBanner, .topAdSpacer, .wrapperAD320x50L
-mediaite.com###Mediaite_Mobile_MedRec_1, #leaderboard, .o-zergnet
+mediaite.com###Mediaite_Mobile_MedRec_1, #leaderboard, .o-jw-sub-promo, .o-zergnet
 medicinenet.com###ad
 meh.com###advertisement, #advertisements
 mentalfloss.com###article-top-ad
 merriam-webster.com###recirc-bar-footer, .is_stuck.rail-abl-box, .right-ad-sticky-wrapper
-meshgrid.xyz###roomenterad-habblet-container
-meshgrid.xyz##[src="/roomenterad_close.png"], center:nth-of-type(1)
+meshgrid.xyz###roomenterad-habblet-container, [src="/roomenterad_close.png"], center:nth-of-type(1)
 mexiconewsdaily.com##.ac-ads, .adinpost
 microsoft.com##.skylight-entry
 mint.intuit.com###advice-top-container, #article-ads, #hypothesis-testing-frame, #module-advice, #module-offers, #TopTxnOfferWidgetContainer, .WelcomeMatView, .advice.module.o2card, .adviceWidget.CardView, .inline-advice, .mcmupsell-footer, .promotions-personalized-offers-ui, .promotions-personalized-offers-ui-single-offer, .withAFooter.w2sWidget.CardView
@@ -366,7 +364,11 @@ nzherald.co.nz##.pb-ad-curated
 observer.com###header-ad-banner, .mobile-adhesion-unit
 onlinesearches.com##.top-ad-choices-container
 openculture.com###leaderboard_div, .advertisement_notice, .framearound_ad_in_post
+owlcation.com###stickyfooterad
 pagesix.com###footer-promo, #outbrain_widget_0
+parents.com##.lazyAd
+pastemagazine.com###bottom-leaderboard-rectangle-container
+patch.com##.client-ad-container
 pbs.org###readthisnext, .fl-ad, .sidebar-advertisement
 pcgamer.com##[class^="slot"]
 pedelecs.co.uk##.banner.advert
@@ -395,6 +397,7 @@ quora.com##.ViewInAppLink, .feed_item.AdStory.FeedStory
 qz.com###marquee-ad, .app-promo, .inline-ad
 racked.com##.m-ad
 ramedium.com###admania_adb_enabled, .admania_sitefooter
+rappler.com###rappler3-common-desktop-top-ad
 rasmussenreports.com##.ad728x90, .narrow-cta.button-sprite
 raspberrypistarterkits.com##.holidayPromo
 ratemyprofessors.com##.mobileAppPromo, .promotionDesktop.promotion
@@ -405,14 +408,17 @@ reason.com###google_ads_div_Home_rectangle_1, #leaderboard
 recode.net##.m-ad
 reddit.com##.dfp-ad-container
 remezcla.com##.adUnitF
+researchgate.net##.lite-page-ad
 reuters.com###reutersAppBanner, .DPSlot_container, [class*=".GetTheAppBanner_get-the-app-banner"], .RecircRibbon_container, .StandardArticleBody_dp-slot-inline_eUPBt.DPSlot_container_2dHIN, .get-the-app-banner_1LusN
 reuters.com##.module-header:has-text(/Advertisement/):upward(1)
 reviewjournal.com###rjth-region-under-article-content, .rj-ads-wrap-sq
 revolvermag.com##.full-ad-wrapper, .st-ad-wrapper
 rockpapershotgun.com##.leaderboards
+rollcall.com##.float-footer-ad-wrap
 rollingstone.com##div[id^="adm-inline-article-ad"]+p
 rotoworld.com##.RW_ad300
 rugerforum.net##.page tbody:has-text(/Advertisements/)
+samsclub.com##.sc-pencil-ad
 sciencedaily.com##.bottom-rectangle, .half-page, .mobile-middle-rectangle, .unit1, .unit2
 sciencenews.org##.block-sn-ad-blog-wrapper
 scientificamerican.com##.aside-banner, .banner-leaderboard, .global__toaster-ad, .is-sticky.home-banner, .toaster-ad
@@ -427,9 +433,17 @@ seekingalpha.com###DFP_1, #article-left-slot-2, #f-ios, #midArticleAdContainer, 
 self.com###box-ad-sidebar\ ads-container-item, .cns-ads-stage
 seriouseats.com##.bottom-sticky-ad, .custom-aba
 si.com##.promo.container-full-width.bucket.component
-slate.com##.ad--inArticleBanner
+siliconrepublic.com###leaderboard
+similarsites.com###sticky_install_div
+sitepoint.com##.google-dfp-ad
+slate.com###plus-upsell-adblock, .ad--inArticleBanner, .kicker-promo--non-member.kicker-promo, .tablet-ad
+slickdeals.net###crt-adblock-a, #crt-adblock-b, #rightcol-300x250-A, .ab, .injectedAd.dividerSection
+sltrib.com##.pb-f-sltrib-ad-v2
+smallnetbuilder.com###leaderboardspacer
 smithsonianmag.com###ATF_300x250_300x600_300x1050, #InArticle_300x50_320x50_300x250, .OMZ-journeys-right-rail-ad
 smithsonianmag.com##div:matches-css-before(content: "Advertisement")
+snopes.com##.proper-ad-unit
+sofrep.com##.sofrep-content-ad
 southernliving.com##.ad-title
 southlive.in##.sample-ad, .side-bar-ad
 space.com##.partner-banner
@@ -437,6 +451,7 @@ spectator.co.uk,spectator.us##.middle-promo, .subs-tease, .widget_advert
 spin.com##.ad-container, .ad-holder, .footer-ad-holder, .sidebar-bg
 splitsider.com,thebillfold.com,thehairpin.com##.leaderboard__wrapper
 sports.yahoo.com###defaultLREC2-9-wrapper
+sportsnet.ca###ad_bigbox_within_articles_container
 standard.co.uk###leaderboard
 staradvertiser.com###top-anchor, .box-ad, .evie-widget-ad
 statnews.com##.header-ad-wrap, .stat-form-inline, .statplus.read-more
@@ -447,6 +462,7 @@ stripes.com##.ad-notice
 studyfinds.org###widget_sfspot-2, .widget_custom_html, .sfspot
 stuff.co.nz###js-story__ad-storyrec, .adfeedback
 sucuri.net,tailopez.com###olark-container
+supercall.com###mobile-ad-container-primary
 swatchseries.to##.episode_not_watched.category-item-ad, .s-mpu-list, .shd_button, tr.download_link_sponsored
 syfy.com##.layout__top-ad
 talkingpointsmemo.com##.BlockNag, .SideAd
