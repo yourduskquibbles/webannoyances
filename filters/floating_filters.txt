@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 15:47 2020-08-20
+! Last Modified: 16:11 2020-08-20
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -3070,12 +3070,16 @@ formlabs.com##.sticky-nav:style(position: absolute !important; top: 0 !important
 forrestbrazeal.com##.nav-fixed.center-xs.middle-xs.row:style(position: absolute !important;)
 fortressofsolitude.co.za###nav-clone, #widgetized-footer
 fortune.com###f500-header:style(position: absolute !important;)
+fortune.com##.header__bottom--14eUZ, [class*="socialList__longform--"] ul:style(position: static !important;)
 fortune.com##.largeHeader__scrollNotTop--3GgfL .largeHeader__bottom--XIV-y, div[class^="transitionSlideFromAbove"]:style(transform: translateY(0) !important;)
 fortune.com##.largeHeader__top--15OZ6::before:style(transform: scaleY(1) !important;)
 fortune.com##.largeHeader__top--15OZ6:style(pointer-events: auto !important;)
+fortune.com##.logo__left--2ymaK .logo__primaryLogo--3jL8T svg:style(height: 3rem !important;)
+fortune.com##.transitionSlideFromAbove__enterActive--2xtpI, .transitionSlideFromAbove__enterDone--2rT1Z, .transitionSlideFromAbove__exit--2zyr1, .transitionSlideFromAbove__exitActive--1jRKS
 fortune.com##[class^="header__wrapper"]:style(position: absolute !important; height: 133px !important;)
 fortune.com##[class^="logo__left"]:style(display: flex !important; opacity: 1 !important; transform: translateY(0) !important;)
 fortune.com##div[class^="container__xxl"], div[class^="header__bottomCenterContainer"]:style(opacity: 1 !important;)
+fortune.com##div[class^="header__rightMenuWrapper"]
 fortune.com##div[class^="latestPosts__recircWrapper--2VcS_"]:style(position: relative !important; top: 0 !important; transform: translate3d(0,0,0) !important; visibility: visible !important;)
 fortune.com,money.com,time.com##.homepage-nav .hide-nav-elements .container.primary, .homepage-nav .hide-nav-elements .no-secondary-ribbon.no-utility-ribbon:style(height: 133px !important;)
 fortune.com,money.com,time.com##.homepage-nav .hide-nav-elements .icon.search:style(display: block !important;)
