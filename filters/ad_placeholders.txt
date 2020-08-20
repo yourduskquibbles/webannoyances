@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Ad Placeholder Filters
-! Last Modified: 09:49 2020-08-19
+! Last Modified: 15:47 2020-08-20
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for empty advertising placeholders.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -454,7 +454,8 @@ sports.yahoo.com###defaultLREC2-9-wrapper
 sportsnet.ca###ad_bigbox_within_articles_container
 standard.co.uk###leaderboard
 staradvertiser.com###top-anchor, .box-ad, .evie-widget-ad
-statnews.com##.header-ad-wrap, .stat-form-inline, .statplus.read-more
+statnews.com##.header-ad-wrap, .sponsored.teaser, .stat-form-inline, .statplus.read-more
+statnews.com##.recirculation-trending .teaser.sponsored + .teaser:style(display: table !important;)
 steamplay.*,streamp1ay.*,streamplay.*##.ad
 steelersdepot.com###leader-wrap
 stereogum.com##.ad-container, .ad-holder, .ad_desktop_placeholder, .footer-ad-holder, .top-ad-holder
@@ -515,7 +516,7 @@ thescore.com##.Ad__bigbox--3DeHj, .Ad__container--2fhQb, .ad-tile, .article-spon
 thespruce.com,thesprucecrafts.com,thespruceeats.com,thesprucepets.com###leaderboard--header_1-0, .leaderboard
 thestar.com.my###pd-embed-slider, .Ads-slot
 thestrad.com###promo-banner
-thestreet.com###lower-ad-banner, .main-nav__header-ad, .sticky-top-ad-wrap
+thestreet.com###lower-ad-banner, .m-ad-adhesion, .m-ad-outofpage, .main-nav__header-ad, .sticky-top-ad-wrap
 theverge.com##.m-ad
 theweek.com###HPPromoBox, #us60-test, .ad_wrap, .col300_4free, .oop-ad, .top-leaderboard-container, .top-leaderboard-section, .zerg-colm
 thewirecutter.com##.ad-728x90
