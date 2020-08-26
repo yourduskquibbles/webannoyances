@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 15:29 2020-08-24
+! Last Modified: 10:19 2020-08-26
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2213,7 +2213,7 @@ dein-web-design.de##.navbar-small.mega.navbar-fixed-top.navbar-default.navbar:st
 dein-web-design.de##.navbar-small:style(min-height: 75px !important; background-color: #000000 !important;)
 delacortereview.org##.logo a:style(position: absolute !important;)
 deliciousbrains.com##.alert-bar
-delish.com##.sticky.nav:style(position: relative !important; top: 0 !important;)
+delish.com,harpersbazaar.com,housebeautiful.com,roadandtrack.com##.sticky.nav:style(position: relative !important; top: 0 !important;)
 delishably.com###header_wrap:style(position: relative !important; top: 0 !important;)
 delishably.com###maven_sidebar:style(position: absolute !important;)
 delishably.com###mod_new11:style(position: static !important;)
@@ -2502,6 +2502,7 @@ dreamhost.com,hongkongfp.com,rootupdate.com,sportempi.com,thecooperreview.com,th
 drewestate.com###mini-header:style(position: absolute !important;)
 dribbble.com##.floating-sidebar:style(position: relative !important;)
 drivereasy.com##.share-bar, .sidebar-inner1:style(position: absolute !important;)
+drivereasy.com##.sticky.nav2
 drivereasy.com##html:style(opacity: 1 !important;)
 droid-life.com##.site__header, .site__priNav--sections__scroller:style(position: relative !important;)
 droid-life.com##.site__priNav--sections:style(position: absolute !important;)
@@ -3323,6 +3324,7 @@ getpocket.com##.topic-page:style(padding-top: 0 !important;)
 getquip.com###launcher, .quip-nav:style(position: absolute !important;)
 getrevue.co##.navigation-desktop.navigation:style(position: absolute !important;)
 getshimmer.co###s-nav:style(position: absolute !important;)
+getsitecontrol.com,goodhousekeeping.com##.sticky.nav
 getyounity.com##.nav-container.full-width-container:style(position: relative !important; top: 0 !important;)
 gfycat.com##.navigation-container:style(position: relative !important;)
 ggwash.org##.sticky.primary:style(position: relative !important;)
@@ -3580,7 +3582,6 @@ hannaandersson.com##.clearfix.js-header.site-header:style(position: relative !im
 hannity.com##.affix.full.navTopadContainer:style(position: relative !important; top: 0 !important;)
 harborfreight.com##[class^="product-bar__wrap"]
 harpercollins.com##.hc-main-header__nav-bar__navigation--fixed.hc-main-header__nav-bar__navigation:style(position: relative !important; top: 0 !important;)
-harpersbazaar.com##.sticky.nav:style(position: relative !important; top: 0 !important;)
 harpersferryadventurecenter.com###main-header, #top-header:style(position: relative !important; top: 0 !important;)
 harvard.edu##.g-header:style(position: absolute !important;)
 hashnode.com###global-sidebar, .scroll-to-fixed-fixed:style(position: absolute !important;)
@@ -3746,7 +3747,6 @@ hotjar.com##.header-container-wrapper--fixed.header-container-wrapper
 hotnewhiphop.com###wrap-header-container.stickyHeader, .amp-header:style(position: absolute !important;)
 house.gov###zone-branding-wrapper:style(position: relative !important;)
 house.gov###zone-menu-wrapper, .fixed-position.navbar:style(position: absolute !important;)
-housebeautiful.com##.sticky.nav:style(position: relative !important; top: 0 !important;)
 houstonchronicle.com###articleRibbon:style(position: relative !important; transform: none !important;)
 houstonchronicle.com##.article .aside .sticky .stickyItem, .subNavigation:style(position: relative !important; top: 0 !important;)
 houstonchronicle.com##.header:style(margin-top: 50px !important;)
@@ -6207,7 +6207,7 @@ regulus.com##.elementor-location-header:style(position: absolute !important; bac
 rehansaeed.com###headerwrap.fixed-header #main-nav-wrap
 rei.com###mainNav:style(position: relative !important; top: 0 !important;)
 relationshiphero.com##.rootNavBar > div:style(position: absolute !important;)
-religionnews.com##.global-nav-bg, .show.nav_overflow_label.sticky_nav_display.sticky-nav-holder
+religionnews.com##.global-nav-bg, .show.nav_overflow_label.sticky_nav_display.sticky-nav-holder, [class^="Broadcast__wrapper--"]
 remezcla.com,vinepair.com,yourfertility.org.au###header-container:style(position: relative !important; top: 0 !important;)
 remotevlc.com##.navigation-top:style(position: absolute !important; top: unset !important; bottom: 0 !important;)
 reneweconomy.com.au##.fixed.header-fixed.bar.header-content:style(position: absolute !important;)
@@ -6297,7 +6297,6 @@ ripoffreport.com,speroforum.com###header-wrap:style(position: relative !importan
 ripple.com##.navbar.banner:style(position: absolute !important;)
 ripple.is##.sticky-menu.css-sticky.container:style(position: absolute !important;)
 riskiq.com##.fixed-buttons:style(position: absolute !important;)
-roadandtrack.com##.sticky.nav:style(position: relative !important; top: 0 !important;)
 roadsandkingdoms.com###titlebar:style(position: relative !important; top: 0 !important;)
 roadtrippers.com###trip-guide-actions:style(position: absolute !important;)
 robbreport.com##.header-nav:style(position: absolute !important;)

@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 15:46 2020-08-12
+! Last Modified: 10:19 2020-08-26
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of other page covering elements. Cookie/GDPR notices will be removed in Cookie Filters sublist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -746,6 +746,8 @@ reddit.com##body.scroll-disabled:style(position: static !important; overflow: vi
 redfin.com###RegistrationLightbox, #RegistrationLightbox_underlay
 redsoccer.info,techobest.com###__vliadb83, #__vliadb83-bg
 regroove.ca###callToAction
+religionnews.com###pop-up-embed-form:upward(1)
+religionnews.com##div[style="width: 100%; height: 100%; overflow-y: hidden; position: fixed; left: 0px; top: 0px; z-index: 10000; background: rgba(0, 0, 0, 0.5) none repeat scroll 0% 0%;"]
 reneweconomy.com.au##.sq_get_quotes
 report-uri.com##.scroll.go2top
 researchgate.net##.lite-page-modal
@@ -1004,6 +1006,7 @@ zerohedge.com##.exit-modal
 zerononcense.com###d-notification-bar
 zippia.com##.page-popup-search-step-slide, div.career-map-overlay
 zmescience.com##.jeg_container > .jeg_read_progress_wrapper
+||getsitecontrol.com^$script,domain=hyperallergic.com|religionnews.com|strongtowns.org|thelocal.fr|theparisreview.org
 ||izooto.com^$script,domain=bloombergquint.com|dnaindia.com
 ||lightboxcdn.com/vendor/*$domain=cnet.com
 ||picreel.com^$subdocument
