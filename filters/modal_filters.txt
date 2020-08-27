@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 11:43 2020-08-26
+! Last Modified: 09:09 2020-08-27
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of other page covering elements. Cookie/GDPR notices will be removed in Cookie Filters sublist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -720,7 +720,8 @@ protocol.com###form_out
 protocol.com##body[style*="overflow: hidden;"]:style(overflow-y: scroll !important;)
 psychiatrictimes.com##.flyin
 pubexec.com##.wp_popup_overlay
-purewow.com##.fb_digioh-lock:style(overflow-x: hidden !important; overflow-y: scroll !important;)
+purewow.com##.fb_digioh-lock, .fb_lightbox-lock:style(overflow-x: hidden !important; overflow-y: scroll !important;)
+purewow.com##.fb_lightbox-overlay
 putorius.net##.sh-page-notice
 qsrmagazine.com###terms-change
 quora.com##.growl_overlay, .modal_promoted_content

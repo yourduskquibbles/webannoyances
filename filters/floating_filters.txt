@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 08:56 2020-08-27
+! Last Modified: 09:09 2020-08-27
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1382,6 +1382,21 @@ builtwith.com##.bws.navbar-fixed-top:style(position: relative !important; top: 0
 bukkit.org##.fixed.sticky.project-details-header:style(position: relative !important;)
 bumble.com##.Mobile-bar--top.Mobile-bar:style(position: absolute !important;)
 bundeswahlleiter.de##.tablejigsaw-fixed-header-table.tablesaw-stack.table-stimmen.tablesaw:style(position: absolute !important;)
+burpee.com###header:style(height: auto !important;)
+burpee.com##.b-header-bottom_nav, .b-header-promotion, .b-header.m-sticky .b-header-promotion, .b-product_promotion
+burpee.com##.b-header-logo .b-logo:style(position: absolute !important; bottom: 0 !important; padding: 0 !important; margin: 0 auto !important; max-width: 100% !important; text-align: center !important;)
+burpee.com##.b-header-logo:style(height: 115px !important; margin: -15px 0 0 !important; padding: 0 !important;)
+burpee.com##.b-header-search:style(position: absolute !important; top: 2.2em !important; right: 130px !important; margin-right: 0 !important; display: block !important; width: 270px !important;)
+burpee.com##.b-header-utils:style(height: 154px !important; padding: 30px 0 0 20px !important;)
+burpee.com##.b-header.m-sticky .b-header-minicart:style(top: 30px !important; padding: 0 !important;)
+burpee.com##.b-header.m-sticky .b-header-search:style(position: absolute !important; right: 130px !important; padding: 0 !important; margin-right: 0 !important; display: block !important; width: 270px !important;)
+burpee.com##.b-header.m-sticky .b-header-top_nav:style(position: static !important; top: auto !important; right: auto !important; left: auto !important; width: auto !important;)
+burpee.com##.b-header.m-sticky .b-header-utils:style(height: 154px !important;)
+burpee.com##.b-header.m-sticky .b-logo img:style(height: auto !important; width: auto !important;)
+burpee.com##.b-header.m-sticky .b-mini_cart-qty:style(display: inline !important; float: none !important;)
+burpee.com##.b-header.m-sticky .b-top_navigation-link, .b-header.m-sticky .b-user_login-link:style(font-size: 16px !important;)
+burpee.com##.b-top_navigation-item + .b-top_navigation-item:style(border-left: 1px solid #5c5143 !important;)
+burpee.com##body.m-sticky:style(padding-top: 0 !important;)
 business-standard.com###horiz-menu:style(display: block !important;)
 business-standard.com###newMenuNavigationSecond, .sticky:style(position: relative !important; top: 0 !important; padding: 0 !important;)
 business.com##header, .w1100-visible.w320-hidden.header-nav:style(position: absolute !important;)
@@ -6067,7 +6082,7 @@ puff.com###header:style(position: relative !important; overflow-x: hidden !impor
 punchdrink.com##.nav-main__container:style(position: relative !important;)
 purch.com###nav
 puretalkusa.com##.pt-nh-header:style(position: absolute !important; top: 0 !important; transform: none !important;)
-purewow.com##.fixed-header
+purewow.com##.fixed-header, .nav-menu__left, .nav-menu__right__next
 purewow.com##.header-container, .main-header.main-header-new:style(position: absolute !important; top: 0 !important;)
 putorius.net,thepostmillennial.com##.sh-header:style(position: relative !important;)
 pvplive.net##.nav-stuck:style(position: relative !important; top: 0 !important;)
