@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 14:06 2020-08-27
+! Last Modified: 09:25 2020-08-28
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1660,7 +1660,6 @@ chase.com##.header.header-version-b .header__section--center .chase-text.hiding:
 chase.com##.header__black-linear-bg:style(display: none !important; opacity: 0 !important;)
 chase.com##.header__blue-bg:style(display: block !important; opacity: 1 !important;)
 chase.com##.hero:style(margin-top: 0 !important;)
-chase.com##.jpui.inlinemodalheader .closeWrap:style(height: 5.5% !important; right: 12% !important;)
 chase.com##.multiplePaymentsHeaderContainer:style(position: relative !important; top: 0 !important; padding-top: 0 !important;)
 chasebonus.com##.logo-chase-text:style(width: 145px !important; opacity: 1 !important;)
 cheatsheet.com###inner-wrapper:style(padding-top: 0 !important;)
@@ -2027,6 +2026,7 @@ counterpropa.com###top-header:style(position: relative !important; top: 0 !impor
 couponcabin.com###store-bar:style(position: relative !important; top: 0 !important;)
 coupons.com##.fixed.floating-header:style(position: relative !important; top: 0 !important;)
 coupons.com##.nav-web:style(position: absolute !important;)
+coywolf.news,player.fm##.top:style(position: absolute !important;)
 cpubenchmark.net###portamento_container:style(position: absolute !important;)
 cpubenchmark.net###sidebar:style(position: absolute !important; top: 0 !important; right: 0 !important;)
 crackingpatching.com##.sticky-nav.menu-box:style(position: absolute !important;)
@@ -5912,7 +5912,6 @@ play.google.com##.mdl-layout__container:style(height: auto !important;)
 play.history.com##header[class*="Component-positionSticky"]:style(position: absolute !important;)
 playboy.com###header-global:style(position: absolute !important; top: 0 !important; transform: none !important;)
 playboy.com##.box-1.bg-bunny.main:style(position: relative !important; top: 0 !important;)
-player.fm##.top:style(position: absolute !important;)
 player.one##.fixed.page-header:style(position: absolute !important; height: 60px !important;)
 player.siriusxm.com##.sticky-bar.open-access-banner, .sticky-bar.stickier.sxm-navbar:style(position: absolute !important;)
 playerwives.com###main-header:style(position: absolute !important; top: 0 !important;)
@@ -7894,7 +7893,7 @@ ui.com##.comGlobalHeader:style(position: absolute !important;)
 ul.com##.header-toolbar:style(position: relative !important; top: 0 !important;)
 ulalaunch.com##.fixed.scrolledHeader:style(position: absolute !important;)
 ulta.com###hide-desk-nav, .DesktopHeader .DesktopHeader__LogoFixed .Logo, .DesktopHeader__StickyHeader:style(position: absolute !important;)
-ultimaterewardspoints.chase.com###header-empty-spacer
+ultimaterewardspoints.chase.com###header-empty-spacer, .ur-product-nav .level-1 .points-section .icn-down
 ultimaterewardspoints.chase.com##.open-subnav-level2.ng-scope.hdr-lvl2-bgclr-2bg.level-2.b2s-navbar, .ur-product-nav .close-subnav-level2, .ur-product-nav .level-2 .b2s-container, .ur-product-nav .open-subnav-level2:style(height: 150px !important;)
 ultimaterewardspoints.chase.com##.ur-product-nav .item-hidden:style(visibility: visible !important;)
 ultimaterewardspoints.chase.com##.ur-product-nav .level-1 .points-section .icn-up:style(display: inline !important;)
