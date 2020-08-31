@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 15:42 2020-08-31
+! Last Modified: 16:00 2020-08-31
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -864,6 +864,7 @@ badpackets.net##.navigation-top:style(position: absolute !important;)
 bagleywatchco.com##.site-header--fixed.site-header--homepage.site-header--transparent.site-header:style(position: relative !important; top: 0 !important;)
 baidu.com###head, .s_down, .s_form:style(position: relative !important; top: 0 !important;)
 baincapital.com###__header:style(position: relative !important; top: 0 !important;)
+bakercityherald.com##.pos_left.navbar-brand
 bakingsteel.com###mainNavigation, #showOnScrollWrapper:style(position: relative !important; top: 0 !important;)
 balkanride.com##.stuck.navigation-wrap:style(position: relative !important;)
 ballistixgaming.com##.sticky:style(position: relative !important; top: 0 !important; margin-top: 0 !important; bottom: unset !important; transform: 0 !important;)
@@ -3587,6 +3588,7 @@ hackercombat.com##.nav-list-container:style(position: relative !important;)
 hackernoon.com###header, #top:style(position: static !important;)
 hackernoon.com##nav:style(position: relative !important;)
 hackerone.com###better-topbar:style(position: absolute !important;)
+hackerone.com##.js-topbar
 hacklabo.com##.c-header--pinned.c-header--not-top.headroom--not-bottom.c-header--headroom.js-header.c-header:style(position: relative !important; top: 0 !important;)
 hackster.io###project-side-nav:style(position: static !important;)
 hackster.io##.affix.affixable.group-nav:style(position: relative !important;)
@@ -3596,6 +3598,7 @@ halfwheel.com###infinite-page-wrapper:style(background: none !important; cursor:
 halfwheel.com###navigation_bar:style(position: absolute !important;)
 halfwheel.com##.infinite-fixed-navigation.infinite-style-fixed, .infinite-fixed-navigation.infinite-style-slide:style(position: absolute !important; height: 80px !important; top: 35.5px !important; bottom: 0 !important;)
 halfwheel.com##.infinite-sticky-menu-placeholder:style(height: 79px !important;)
+halfwheel.com##.mean-bar
 hannaandersson.com##.clearfix.js-header.site-header:style(position: relative !important;)
 hannity.com##.affix.full.navTopadContainer:style(position: relative !important; top: 0 !important;)
 harborfreight.com##[class^="product-bar__wrap"]
@@ -3607,11 +3610,13 @@ havenly.com##.role-temp.curtain:style(position: absolute !important;)
 hawaii.com##.clear.topNav > .nav:style(position: absolute !important;)
 hazlitt.net###region-navigation, #zone-masthead:style(position: relative !important; top: 0 !important;)
 hbo.com###contentContainerTop:style(position: relative !important; top: 0 !important;)
+hbo.com##.bands\/MainNavigation--stickyBar
 hbr.org##.global-nav, nav:style(top: 86px !important;)
 hbr.org##.sticky-top-header:style(position: absolute !important; top: 0 !important;)
 hcaptcha.com###front-header:style(position: absolute !important;)
 hcsc.net##.feedbackIcon:style(position: static !important;)
 hcsmontreal.com###responsive-menu-button, .site-navigation-fixed.navigation-top:style(position: absolute !important;)
+headphonesaddict.com##.navbar-brand .the-logo
 headphonesty.com##.header-navbar-stuck:style(position: absolute !important; transform: translateY(0%) !important; opacity: 1 !important;)
 healio.com##.mobile-view.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 health.com,instyle.com,people.com,peopleenespanol.com,realsimple.com,southernliving.com##aside.menu-homepage-row:style(position: relative !important;)
@@ -3622,6 +3627,7 @@ healthline.com##.css-1umgrc8:style(position: absolute !important; top: 0 !import
 healthline.com##.css-2uabhy:style(bottom: unset !important;)
 healthline.com##.css-47twm5:style(position: static !important;)
 healthline.com##.css-byo0s3:style(position: relative !important;)
+healthline.com##.top-menu-sticky
 hearst.com###site-header:style(position: absolute !important; top: 0 !important;)
 hearst.com,vogue.com##.site-container:style(padding-top: 0 !important;)
 hearthstonetopdecks.com###zaf-video-au #ac-lre-player-ph:style(position: absolute !important;)
@@ -6401,6 +6407,7 @@ sapling.com##.sticky.header:style(position: absolute !important;)
 saraacarter.com##.fixed-nav:style(position: absolute !important;)
 saratogian.com###site-navbar-container:style(position: relative !important; border-top: 5px solid #38322a !important; border-bottom: 1px solid #aaa7a4 !important;  box-shadow: none !important;)
 saratogian.com##.affix .navbar-nav > li > a:style(padding: 15px 10px !important;)
+saratogian.com##.pos_right.navbar-brand
 savvytime.com##.navbar-fixed-top.sub-nav, .no-padding.header-shadow.header:style(position: absolute !important;)
 sba.gov###article-navigation-desktop:style(position: absolute !important; top: 116px !important;)
 sba.gov##.mobile-header-container-new:style(position: absolute !important;)
