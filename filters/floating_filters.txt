@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 16:00 2020-08-31
+! Last Modified: 09:37 2020-09-01
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2517,7 +2517,9 @@ draftss.com##.navbar-default .navbar-brand:style(padding: 5px 0 0 0 !important;)
 draftss.com##.navbar:style(position: absolute !important; height: 70px !important; padding-top: 15px !important; box-shadow: none !important;)
 dreadcentral.com###mvp-main-nav-bot, #mvp-main-nav-top:style(position: relative !important;)
 dreamhost.com,hongkongfp.com,rootupdate.com,sportempi.com,thecooperreview.com,theinvestigativefund.org,windowsclan.com###sticky_header
-dreamstime.com##body.withGDPR.headerSmall .top-notification.gdpr, header:style(position: absolute !important;)
+dreamstime.com##body.withGDPR.headerSmall .top-notification.gdpr:style(position: absolute !important;)
+dreamstime.com##body:style(padding-top: 0 !important;)
+dreamstime.com##header:style(position: static !important;)
 drewestate.com###mini-header:style(position: absolute !important;)
 dribbble.com##.floating-sidebar:style(position: relative !important;)
 drivereasy.com##.share-bar, .sidebar-inner1:style(position: absolute !important;)

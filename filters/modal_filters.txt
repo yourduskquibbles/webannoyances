@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 16:00 2020-08-31
+! Last Modified: 09:37 2020-09-01
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of other page covering elements. Cookie/GDPR notices will be removed in Cookie Filters sublist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -304,7 +304,11 @@ dividend.com,interestingengineering.com,pbs.org,sandiegoreader.com,washingtontim
 docs.microsoft.com##.lf-selection-popover
 doodle.com###d-participationBetaWelcomeView, .d-shown.d-dialog
 dreamhost.com##.no-nav.topbtn
+dreamstime.com###freetrial_popup
 dreamstime.com##+js(nostif, SignUPPopup_load, 5000)
+dreamstime.com##html.documentLocked body:style(overflow: auto !important;)
+dreamstime.com##html.documentLocked header:style(padding-right: 0 !important;)
+dreamstime.com##html.documentLocked:style(margin-right: 0 !important;)
 drivereasy.com##.float-bar, .go-to-top
 drugs.com###ddc-toast
 drweil.com###js-newsletter-modal
