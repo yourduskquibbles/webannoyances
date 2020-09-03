@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Social Filters
-! Last Modified: 12:21 2020-09-02
+! Last Modified: 09:14 2020-09-03
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for social networking & sharing - Remove third party social media share sections, icons & other cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -62,7 +62,7 @@ algemeiner.com##.left.social > div.box
 aliexpress.com##.sns-shares
 aljazeera.com###article-top-share-icon
 allmodern.com,birchlane.com,jossandmain.com,wayfair.com##li.CommunityBlock-icon
-allrecipes.com###shareRecipe, .review-share-toggle
+allrecipes.com###shareRecipe, .docked-sharebar, .review-share-toggle
 alphr.com###block-menu-menu-header-social
 alternative-science.com##.bunchy-icon-follow, .entry-shares
 alternet.org###like_alternet_on_fb
@@ -197,6 +197,7 @@ chandoo.org##.elementor-icon-box-wrapper, .elementor-share-btn_facebook, .elemen
 channelnewsasia.com##.c-sharing--default, .sharing__toggle-btn
 cheddar.com##.header__social___3y53n, .sharing_icons__wrapper___3vY6Y
 cheese.com###join-us-facebook
+chilipeppermadness.com,winhelponline.com##.swp-hover-pin-button
 chowhound.com##.fr_social_mobile_wrapper, .fr_social_sticky_wrapper, .in_eb.freyja_mob_follow
 christianitytoday.com###ctSocialShare
 chronicle.com##.content-item__share--buttons
@@ -272,6 +273,7 @@ delicious.com.au##.connect-row.row
 delishably.com##.img_button_wrapper
 deloitte.com##.share-action-list-mobile
 democracynow.org##.popup.google, .scrolling.social
+dengarden.com##.img_button_wrapper
 denverpost.com##.sd-sharing-enabled.sharedaddy
 designtaxi.com###follow
 developer.amazon.com##.share__icon-fb, .share__icon-in, .share__icon--tw
@@ -825,6 +827,7 @@ rstreet.org###floatingbuttons
 rt.com###js-banners-rotator, .follows-channel, .follows-channel_fb, .footer__social, .layout__social, .social-banner, .social-container, .socials, .sp_right.sp_ticker, .spot-im-registration-module
 runnersworld.com##.social-button-group, .standard-social-buttons, .sticky.inner
 runningshoesguru.com##.fontello-icon-facebook-1, .fontello-icon-gplus-1, .fontello-icon-twitter-1, .fontello-icon-youtube-play
+ruralsprout.com###dpsp-sticky-bar-wrapper, #dpsp_social_media_follow-3, .widget_dpsp_social_media_follow
 sadanduseless.com###conversions-box
 sagepub.com##.stick-it-wrapper
 salesforce.com##.embeddedServiceHelpButton, .socialMediaSharingComponent
@@ -1166,7 +1169,6 @@ wikihow.com###follow_table
 wiley.com###share__ctrl, .footer-social-media, .overlay__control.js-module.article-tools__tool-link
 winaero.com###___ytsubscribe_0, .telegram-follow-button, div.share:nth-of-type(3)
 winbuzzer.com##.social_stickers_widget
-winhelponline.com##.swp-hover-pin-button
 wired.co.uk##.a-footer-share, .a-footer-share__wrapper, .a-header__share, .a-share
 wired.com###blog-follow-wrapper, #mobile-share, #sharing, .article__social-share.sticky-box, .footer__list--social, .social-share-sidebar-component__content
 wmagazine.com##.component-cm-footer
