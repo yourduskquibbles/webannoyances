@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 11:25 2020-09-03
+! Last Modified: 14:48 2020-09-03
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2592,9 +2592,14 @@ ebates.com##.h-mainheader:style(height: 105px !important;)
 ebates.com##.mw-global-header:style(position: absolute !important; overflow: none !important;)
 ebaumsworld.com###miniMenu:style(position: relative !important; top: 0 !important;)
 ebay-kleinanzeigen.de###headerbar:style(position: absolute !important; top: 0 !important;)
-ebay.com###app-product-sticky-header
-ebay.com###gh-appBanner
+ebay.com###app-product-sticky-header, #gh-appBanner, #nav-bar, .locked-header-placeholder
+ebay.com###followDropdown:style(display: block !important; position: relative !important; box-shadow: none !important; background-color: transparent !important;)
 ebay.com###ocs-inflow, .s-feedback:style(position: absolute !important;)
+ebay.com##.middle:style(padding-top: 0 !important;)
+ebay.com##body .header:style(max-width: 1200px !important;)
+ebay.com##body.docked .header #gh #gh-top:style(display: block !important;)
+ebay.com##body.docked .header #gh:style(padding-top: 44px !important; padding-bottom: 5px !important;)
+ebay.com##body.docked .header:style(position: static !important; top: 0 !important; width: auto !important; border: 0 !important; box-shadow: none !important; background: none !important;)
 ebizlatam.com##.move.sticky.style_4.menu_container:style(position: relative !important;)
 ebuyer.com##.is-visible.js-product-fixed-header.product-fixed-header
 eclinicalworks.com###medicom_header:style(position: absolute !important;)
