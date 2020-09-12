@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 15:31 2020-09-11
+! Last Modified: 13:49 2020-09-12
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -3400,7 +3400,7 @@ github.com##.notifications-v2:style(position: static !important; width: unset !i
 github.com##.overflow-auto.px-lg-4.px-md-4.px-3.top-0.js-sticky.dashboard-sidebar:style(width: auto !important; height: 100% !important; position: static !important; top: 0 !imporant; left: 0 !important;)
 github.com##.pr-review-tools:style(margin-top: -4px !important;)
 github.com##.previewable-comment-form textarea:not([id="issue_body"]):style(max-height: 315px !important;)
-github.com##.profile-timeline-year-list:style(position: static !important; top: 74px !important; width: 16.66667% !important;)
+github.com##.profile-timeline-year-list:style(position: static !important; top: 74px !important; width: auto !important;)
 github.com##.user-profile-nav:style(position: relative !important;)
 github.com##.vcard-names-container.is-stuck .vcard-names:style(opacity: 1 !important;)
 github.com##.vcard-names-container.is-stuck:style(pointer-events: none !important;)
