@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 09:37 2020-09-14
+! Last Modified: 09:41 2020-09-14
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -7425,10 +7425,11 @@ thehardtimes.net###menu-sections:style(position: relative !important;)
 thehardtimes.net##.navigation__trigger:style(position: absolute !important;)
 thehealthyfoodie.com##.shrink.site-header:style(position: relative !important; top: 0 !important;)
 thehill.com###header > div, .header, .region-highlighted.region, .scrolling-content:style(position: relative !important; top: 0 !important;)
-thehill.com##.close-btn
+thehill.com##.close-btn, [class="rollover-people-block"]
 thehill.com##.content-container-l:style(top: 0 !important; margin-top: 0 !important;)
 thehill.com##.floating-block-active:style(position: absolute !important;)
 thehill.com##.page-bottom:style(padding-top: 80px !important; margin-top: 80px !important;)
+thehill.com##.page-node .submitted-wrp:style(margin: 30px 0 20px !important;)
 thehill.com##.player-position:style(position: static !important; width: 640px !important; height: 360px !important; border-radius: 0 !important; box-shadow: none !important; padding: 0 !important;)
 thehindu.com##.clear.main-menu.navbar, .hidden-sm.hidden-md.hidden-lg.logo-block:style(position: relative !important; top: 0 !important;)
 thehindubusinessline.com##.col-xs-12.paddingLeftRight20.top-left-inf-scroll:style(width: 66.66666667% !important;)
