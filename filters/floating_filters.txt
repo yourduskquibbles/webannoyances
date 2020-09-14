@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 10:51 2020-09-14
+! Last Modified: 11:01 2020-09-14
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -6282,7 +6282,7 @@ reuters.com###breakingNewsContainer, #nonEditBannerContainer, .Header_is-fixed_3
 reuters.com###content:style(margin-top: 24px !important;)
 reuters.com###headerMain:style(padding-top: 0 !important;)
 reuters.com###nav-item-1 > .nav-link-sec > .text, #spacerElement, #sticky > .sectionContent, .nav-item.active-text .text, .nav-item.home-tab, .nav-white-space, [class*="RecircRibbon-container"], [class*="VideoLandingPage-render-right-column-"]
-reuters.com###progressbar, .edition-header, .navbar-expand-sm.navbar-dark.bg-dark.fixed-top.navbar-full.navbar.header, .StickyContainer-content-1u-cE:not(.StickyContainer-disabled-2v_pr), .Sticky_fixed.Sticky_content:style(position: absolute !important;)
+reuters.com###progressbar, .edition-header, .navbar-expand-sm.navbar-dark.bg-dark.fixed-top.navbar-full.navbar.header, .StickyContainer-content-1u-cE:not(.StickyContainer-disabled-2v_pr), .Sticky_fixed.Sticky_content, [class*="RCOMVideo-observer-placeholder-"]:style(position: absolute !important;)
 reuters.com###searchBar.active .search-submit-button:style(top: 8px !important;)
 reuters.com###searchForm:style(margin-left: 118px !important;)
 reuters.com##.BreakingNews-container-qffCW:style(position: absolute !important; top: 8.5% !important; bottom: unset !important;)
@@ -6295,6 +6295,7 @@ reuters.com##.TrendingBar_trending-item_bItjC.TrendingBar_loaded_3oiZW:style(opa
 reuters.com##.Video_container > div > div > div > div > div:style(position: relative !important; background-color: transparent !important; width: 100% !important; box-shadow: none !important; opacity: 1 !important;)
 reuters.com##.Video_container > div > div > div > div:style(position: absolute !important; width: 100% !important; top: unset !important; left: unset !important;)
 reuters.com##.Video_container.Video_docked:not(.Video_docked-hidden) .Video_video-container > iframe, [class*="HpVideoModule__player-container"]:style(position: absolute !important; width: 100% !important; height: 100% !important; box-shadow: none !important; transform: none !important; )
+reuters.com##.docked [class*="RCOMVideo-container-"] > div:style(width: 100% !important; height: 100% !important; right: 0px !important; box-shadow: none !important;)
 reuters.com##.fixed.nav-white-space:style(position: absolute !important; padding-top: 0 !important;)
 reuters.com##.header-mini-logo:style(visibility: visible !important; opacity: 1 !important;)
 reuters.com##.home-icon:style(visibility: hidden !important; opacity: 0 !important;)
@@ -6304,7 +6305,9 @@ reuters.com##.nav-item.active-icon:style(vertical-align: bottom !important;)
 reuters.com##.nav-item.active-text .home-icon, .nav-item.active-text .pictures-icon, .nav-item.active-text .video-icon:style(margin-right: 0 !important;)
 reuters.com##.nav-item:not(.home-tab):not(.search-tab):style(position: relative !important;)
 reuters.com##.story-photo img, .featured-story-image img, .pictures-module img, .video-module img:style(-webkit-filter: brightness(1) !important; transition: none !important;)
+reuters.com##[class*="RCOMVideo-container"]:style(position: relative !important; width: 100% !important; height: 100% !important; transform: translateY(0) !important; padding-bottom: 56.25% !important;)
 reuters.com##[class*="RightRail-sticky"] > div:style(position: static !important;)
+reuters.com##[class*="RightRail-sticky-container-"]:style(transform: translateY(0) !important;)
 reuters.com##[class*="VideoLandingPage-render-player-"]:style(position: relative !important; height: 100% !important; padding-bottom: 0 !important;)
 reuters.com##[class*="VideoLayout-absolute-container-"]:style(position: absolute !important; width: 100% !important; left: 0 !important;)
 reuters.com##[class*="VideoLayout-player-inner-"]:style(position: relative !important; height: 56.25vw !important; max-height: calc(100vh - 200px) !important;)
