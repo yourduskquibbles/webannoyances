@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 09:16 2020-09-15
+! Last Modified: 09:20 2020-09-15
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -6603,7 +6603,7 @@ shrm.org##.affix.noindex.container-nav.container-fluid:style(position: absolute 
 si.com###comments, .app_container > .main_section > div > div > div > div:nth-of-type(1), .conversation-and-stream > div > div:nth-of-type(2), .main_section > div > div > div > div:nth-of-type(2), .main_section > div > div > div:nth-of-type(2), .tab-stream.detail-stream > div > div > div:nth-of-type(1):style(position: static !important;)
 si.com###content .conversation.app > div > div:nth-of-type(1):not([class="maven-sidebar"]), .channel.app > div > div:nth-of-type(1):not([class="maven-sidebar"]):style(position: absolute !important; background: transparent !important; transition: none !important;)
 si.com##.longform-hero-container:style(padding-top: 0 !important;)
-si.com##.maven-sidebar > div > div:style(position: absolute !important;)
+si.com##.maven-sidebar > div > div, [class*="MuiAppBar-positionFixed"]:style(position: absolute !important;)
 si.com##.primary, .secondary:style(position: static !important; top: 0 !important;)
 si.com##.short-only.logo > .desktop-only.full-logo > .color-porcelain.hover-fill, .showBackground.stickyFooter, .ui-button.ui-button-close.small.is-fixed, body:not(.under-social) nav.main .under-social-logo.desktop-only, hr
 si.com##.subcontainer, .tall-only.logo:style(opacity: 1 !important;)
@@ -8238,7 +8238,7 @@ washingtonpost.com##.powa-wrap-inner.sticky:style(position: static !important; w
 washingtonpost.com##.powa-wrap.sticky:style(padding-bottom: 0 !important;)
 washingtonpost.com##.site-header.bar-hidden:style(height: 80px !important; webkit-transform: none !important;)
 washingtonpost.com##.utility-bar-wrapper, .wpv-fixed:style(position: static !important;)
-washingtonpost.com##.utility-bar:style(position: absolute !important; top: 0 !important;)
+washingtonpost.com##.utility-bar:style(position: absolute !important; top: 0 !important; margin-top: 0 !important;)
 washingtonpost.com##.voracious-header-line:style(position: relative !important; transform: none !important;)
 washingtonpress.com##.header--slide.fixed.header
 washingtontimes.com###masthead, .globalheader_container, .main-nav-scrolled.globalheader_container:style(position: relative !important; top: 0 !important;)
