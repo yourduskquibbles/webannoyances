@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 11:21 2020-09-16
+! Last Modified: 14:18 2020-09-16
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2479,14 +2479,14 @@ docs.aws.amazon.com##awsui-app-layout, #app-layout, landing-page-sections, html,
 docs.aws.amazon.com##body.awsdocs.awsui:style(overflow: auto !important;)
 docs.aws.amazon.com##landing-page-content:style(height: 105% !important; background-color: #f2f3f3 !important;)
 docs.google.com###docs-homescreen-add:style(opacity: 1 !important;)
-docs.google.com##.docs-homescreen-fcc-pinnedcontainer-pinned.docs-homescreen-fcc-pinnedcontainer, .docs-homescreen-floater-header-shadow.docs-homescreen-floater-grid-header.goog-scrollfloater, .gb_sc.gb_Id.gb_tb.gb_Xa, header:style(position: absolute !important;)
+docs.google.com##.docs-homescreen-fcc-pinnedcontainer-pinned.docs-homescreen-fcc-pinnedcontainer, .docs-homescreen-floater-header-shadow.docs-homescreen-floater-grid-header.goog-scrollfloater, .docs-homescreen-sftc.goog-scrollfloater, .gb_sc.gb_Id.gb_tb.gb_Xa, header:style(position: absolute !important;)
 docs.google.com##.docs-homescreen-floater-grid-header.goog-scrollfloater:style(position: absolute !important; top: 64px !important;)
 docs.google.com##.docs-homescreen-floater-header-title:style(line-height: 44px !important;)
 docs.google.com##.docs-homescreen-homescreenmain > div:nth-child(4):style(opacity: 1 !important; display: block !important;)
 docs.google.com##.docs-homescreen-item-container > div:nth-of-type(1):style(position: relative !important; visibility: visible !important;)
-docs.google.com##.docs-homescreen-sftc.goog-scrollfloater:style(position: absolute !important;)
 docs.google.com##.docs-hs-tmp-sch:style(position: relative !important; top: 32px !important;)
-docs.google.com##.gb_8d, .gb_qc.gb_Fd.gb_tb.gb_Xa:style(position: absolute !important; visibility: visible !important; opacity: 1 !important;)
+docs.google.com##.gb_8d:style(position: relative !important;)
+docs.google.com##.gb_qc.gb_Fd.gb_tb.gb_Xa:style(position: absolute !important; visibility: visible !important; opacity: 1 !important;)
 docs.microsoft.com###affixed-left-container, #affixed-right-container:style(position: static !important;)
 docs.microsoft.com###side-doc-outline:style(position: static !important; top: 119.5px !important;)
 docs.microsoft.com###sidebar:style(position: absolute !important; top: 24px !important;)
