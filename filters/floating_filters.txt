@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 09:04 2020-09-17
+! Last Modified: 13:54 2020-09-18
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2256,6 +2256,7 @@ deltadental.com##.sticky-navbar.row.secondary-navbar:style(position: absolute !i
 deltadentalins.com##.stickynav-active.region-primary-menu.region:style(position: absolute !important;)
 democracyjournal.org##.stickynav-offset.stickynav:style(position: absolute !important;)
 dengarden.com###header_placeholder #header_wrap:style(position: absolute !important;)
+dengarden.com##.m-page-wrapper:style(margin-top: 0 !important;)
 dengarden.com##.modulePopular:style(position: static !important;)
 denverpost.com##.nav-wrapper, .top-bar:style(position: relative !important; top: 0 !important;)
 departures.com##.navigation .navbar:style(margin-bottom: 10px !important;)
@@ -5774,6 +5775,8 @@ parentspoc.com##.menu-shadows.menu-borders.style-color-xsdn-bg.menu-hide.menu-co
 parktool.com##.fixed-header.header, .mobile-fixed.section-indicator:style(position: absolute !important;)
 pass.us###info_bar:style(position: absolute !important;)
 passwords.google.com##.SSPGKf.yip5uc > div:nth-of-type(1) > div:style(height: 0 !important;)
+pastebin.com##.popup-container > .-pro.popup-box
+pastebin.com##.wrap > .header:style(position: absolute !important;)
 pastemagazine.com##.detail.master-header.center, .landing.master-header.center, .ui-helper-clearfix.ui-corner-all.ui-widget-header.ui-dialog-titlebar:style(position: relative !important; top: 0 !important;)
 patch.com###slide-nav, .header-container:style(position: relative !important; top: 0 !important;)
 patents.google.com##.header.style-scope.application-timeline:style(position: relative !important;)
@@ -7478,6 +7481,7 @@ theloo.biz##.fixed.navbar-fixed-top.navbar-custom.navbar:style(position: relativ
 thelri.org##.desktop-nav.navigation-header:style(position: absolute !important;)
 themaclife.com###header-outer:style(position: relative !important; top: 0 !important;)
 themarketmogul.com###mvp-main-nav-top:style(position: relative !important;)
+themarkup.org##body.overscroll:style(background-color: unset !important;)
 themarshallproject.org##.header-v2:style(position: relative !important; top: 0 !important;)
 themarysue.com###header-content #logo img:style(width: 217px !important; height: 55px !important;)
 themarysue.com###header-content:style(margin: 0px auto 0 !important;)
