@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 13:54 2020-09-18
+! Last Modified: 13:56 2020-09-23
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -4365,8 +4365,7 @@ kinopoisk.ru##.header-fresh-partial-component__inner:style(position: absolute !i
 kinsta.com###nav:style(position: static !important;)
 kinsta.com###sidebar__sticky:style(position: relative !important; animation: none !important;)
 kinsta.com###site-menu:style(position: relative !important;)
-kinsta.com##.global-notification--email
-kinsta.com##.global-notification--ironman.global-notification
+kinsta.com##.global-notification--email, .global-notification--ironman.global-notification
 kirkcenter.org###et-top-navigation:style(padding-top: 33px !important;)
 kirkcenter.org###main-header:style(position: absolute !important; box-shadow: none !important;)
 kirkcenter.org###page-container:style(margin-top: -1px !important;)
