@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Newsletter Subscription Filters
-! Last Modified: 09:04 2020-09-17
+! Last Modified: 11:17 2020-09-29
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for newsletter annoyances - Remove newsletter & other subscription cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -31,6 +31,7 @@ aerospace-technology.com,airport-technology.com,chemicals-technology.com,clinica
 afr.com##.subscribe-promo
 aim.org##.tve-leads-shortcode:upward(3)
 airforcetimes.com##.newsletter.signup.container
+airforcetimes.com,armytimes.com,c4isrnet.com,federaltimes.com,fifthdomain.com,marinecorpstimes.com,militarytimes.com,navytimes.com##.newsletter.signup.container
 ajc.com##.newsletter-tease
 alamogordonews.com,app.com,argusleader.com,azcentral.com,battlecreekenquirer.com,baxterbulletin.com,bucyrustelegraphforum.com,burlingtonfreepress.com,caller.com,chillicothegazette.com,cincinnati.com,citizen-times.com,clarionledger.com,coloradoan.com,commercialappeal.com,coshoctontribune.com,courier-journal.com,courierpostonline.com,courierpress.com,currentargus.com,daily-times.com,dailyrecord.com,dailyworld.com,delawareonline.com,delmarvanow.com,demingheadlight.com,democratandchronicle.com,desertsun.com,desmoinesregister.com,detroitnews.com,dnj.com,elpasotimes.com,eveningsun.com,fdlreporter.com,floridatoday.com,freep.com,gosanangelo.com,greatfallstribune.com,greenbaypressgazette.com,greenvilleonline.com,guampdn.com,hattiesburgamerican.com,htrnews.com,independentmail.com,indystar.com,ithacajournal.com,jacksonsun.com,jconline.com,jsonline.com,kitsapsun.com,knoxnews.com,lancastereaglegazette.com,lansingstatejournal.com,lcsun-news.com,ldnews.com,livingstondaily.com,lohud.com,mansfieldnewsjournal.com,marionstar.com,marshfieldnewsherald.com,montgomeryadvertiser.com,mycentraljersey.com,naplesnews.com,newarkadvocate.com,news-leader.com,news-press.com,newsleader.com,northjersey.com,packersnews.com,pal-item.com,pnj.com,portclintonnewsherald.com,postcrescent.com,poughkeepsiejournal.com,press-citizen.com,pressconnects.com,publicopiniononline.com,redding.com,reporternews.com,rgj.com,scsun-news.com,sctimes.com,sheboyganpress.com,shreveporttimes.com,stargazette.com,statesmanjournal.com,stevenspointjournal.com,tallahassee.com,tcpalm.com,tennessean.com,theadvertiser.com,thecalifornian.com,thedailyjournal.com,thegleaner.com,theleafchronicle.com,thenews-messenger.com,thenewsstar.com,thenorthwestern.com,thespectrum.com,thestarpress.com,thetimesherald.com,thetowntalk.com,timesrecordnews.com,usatoday.com,vcstar.com,visaliatimesdelta.com,wausaudailyherald.com,wisconsinrapidstribune.com,ydr.com,zanesvilletimesrecorder.com###gnt_atomsnc, .gnt_m_nls.gnt_m, .newsletter-embed, .nscm-container, .nssm-container, .widget--newsletter, cta-atoms-container-inline
 algemeiner.com##.alg_subscribe_cont, .formnews.widget
@@ -110,6 +111,7 @@ buffalonews.com##.ml-subscribe-form.ml-form-embedContainer
 businessinsider.com,insider.com,thisisinsider.com##.editorial-sidebar, .inline-newsletter-signup, .right-subscribe
 businessinsider.com.au###mc-signup-in-post, #mc_signup
 businessinsider.in###nlFormSlide
+businesstimes.com.sg,thepostmillennial.com##.newsletter-wrapper
 buzzfeed.com###mod-newsletter-signup-1, #mod-newsletter-signup-2
 buzzfeednews.com##.bfp-newsletter-signup-container, .newsblock-newsletter-signup
 c4isrnet.com##.newsletter
@@ -168,7 +170,7 @@ delanceyplace.com##.ctct-embed-signup
 deseretnews.com###react_wrapper_edition_newsletter_signup, #react_wrapper_home_newsletter_large
 designboom.com###NewsletterBox_dynamic, #NewsletterBox_dynamic_0
 dezeen.com##.newsletter-email-container
-digg.com##.cta-videos, .main-navigation__secondary-subscribe
+digg.com##.cta-stories, .cta-videos, .main-navigation__secondary-subscribe
 digitalcitizen.life###block-next-sidebar-subscription-options
 digitalocean.com###newsletter-signup-dialog
 digitalspy.com##.include-subscribe-link
@@ -397,7 +399,7 @@ ndtv.com##.sub_newsletter
 nerdist.com###sub-footer-banner-wrapper-300
 neurosciencenews.com###optinforms-form5-container
 newatlas.com##.PlusSubscribeAd
-newrepublic.com##.email-container, .inserted-housead, .subscribe, .subscribe-sidebar, .subscription-prompts
+newrepublic.com##.email-container, .inserted-housead, .popupTemplate__newsletter, .popupTemplateBottom, .subscribe, .subscribe-sidebar, .subscription-prompts
 news.harvard.edu##.daily-gazette
 news.yahoo.com##p:has-text(/newsletter, and follow/)
 news5cleveland.com##.module--email-widget
@@ -611,7 +613,6 @@ thenewsrep.com###newsrep-header-sub-cta-1
 thenextweb.com##.newsletter
 theonion.com##.newsletter-signup
 thepointsguy.com##.article-email-capture
-thepostmillennial.com##.newsletter-wrapper
 theprairiehomestead.com##.optin-widget
 thequint.com##.subscription-container
 theregister.co.uk###article_newsletter_signup, #story_rhs_ml_signup, .newsletter_and_social, .newsletter_link

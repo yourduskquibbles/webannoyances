@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 10:36 2020-09-16
+! Last Modified: 11:17 2020-09-29
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of other page covering elements. Cookie/GDPR notices will be removed in Cookie Filters sublist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -172,6 +172,8 @@ buffalonews.com##body.modal-open:style(overflow-x: hidden !important; overflow-y
 buffer.com###gs
 burningman.org##.post-navigation
 business-review.eu##.banner-horizontal-black.banner-horizontal-large
+businesstimes.com.sg##.overlayWhite
+businesstimes.com.sg,neilpatel.com##html:style(overflow-y: auto !important;)
 buzzfeed.com###mod-action-bar-1, #mod-action-bar-subbuzz-1, #mod-privacy-policy-banner-1, .action-bar, [data-module="action-bar-subbuzz"]
 calgaryherald.com,calgarysun.com,canoe.com,edmontonjournal.com,edmontonsun.com,leaderpost.com,lfpress.com,montrealgazette.com,nationalpost.com,ottawacitizen.com,ottawasun.com,theprovince.com,thestarphoenix.com,torontosun.com,vancouversun.com,windsorstar.com,winnipegsun.com###popupBox
 callername.com,chubstr.com,thermoworks.com###modal
@@ -616,7 +618,6 @@ nationalreview.com###cboxWrapper, #colorbox
 ncsc.gov.uk##.pcf-backtotop
 neh.gov###prefix-overlay-outer
 neilpatel.com##div.mfp-ready, .ReactModal__Content, .ReactModal__Overlay
-neilpatel.com##html:style(overflow-y: auto !important;)
 nesn.com,realclearpolitics.com##.spot-im-sticky
 netgear.com##.alert-overlay
 newatlas.com###subscribe_modal_container, .jqmOverlay
