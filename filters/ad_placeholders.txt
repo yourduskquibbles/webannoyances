@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Ad Placeholder Filters
-! Last Modified: 16:45 2020-10-05
+! Last Modified: 08:58 2020-10-06
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for empty advertising placeholders.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -46,6 +46,7 @@ allrecipes.com##.ad-mag-homeBtm, .ad-mag-homeBtm__footer, .ad-mobile-only, .ad-r
 allrecipes.com,evite.com,huffingtonpost.*,huffpost.com,pokemongohub.net,theamericanmirror.com,thestar.com,washingtoncitypaper.com,weeklystandard.com##.advertisement
 allure.com,bonappetit.com,epicurious.com,glamour.com,gq.com,teenvogue.com,them.us##.persistent-bottom
 amazon.com##.adFeedback
+americanmilitarynews.com###AMN_leaderboard_MID:upward(2)
 amgreatness.com###ag-lead
 anandtech.com###header_ad, #side_ad
 androidcentral.com##.adunit, .adunit-wrap, .article-shop-bar
@@ -82,6 +83,7 @@ barrons.com###wrapper-AD_L
 baseball-reference.com##.adblock
 bellinghamherald.com,bnd.com,bradenton.com,centredaily.com,charlotteobserver.com,elnuevoherald.com,fresnobee.com,heraldonline.com,heraldsun.com,idahostatesman.com,islandpacket.com,kansas.com,kansascity.com,kentucky.com,ledger-enquirer.com,macon.com,mcclatchydc.com,mercedsunstar.com,miamiherald.com,modbee.com,myrtlebeachonline.com,newsobserver.com,sacbee.com,sanluisobispo.com,star-telegram.com,sunherald.com,thenewstribune.com,theolympian.com,thestate.com,tri-cityherald.com###ConnatixVideoAd
 bellinghamherald.com,bnd.com,bradenton.com,centredaily.com,charlotteobserver.com,elnuevoherald.com,fresnobee.com,heraldonline.com,heraldsun.com,idahostatesman.com,islandpacket.com,kansas.com,kansascity.com,kentucky.com,ledger-enquirer.com,macon.com,mcclatchydc.com,mercedsunstar.com,miamiherald.com,modbee.com,myrtlebeachonline.com,newsobserver.com,sacbee.com,sanluisobispo.com,star-telegram.com,sunherald.com,thenewstribune.com,theolympian.com,thestate.com,tri-cityherald.com##.zone.grid.combo .ad-widget:upward(2)
+bfst.to,buffstream.to,buffstreamz.com###fcnbox, #nwmlay
 bicycleretailer.com###brain-leader-slot
 bigbrotherjunkies.com##div.code-block:has-text(/Advertisement/)
 bigleaguepolitics.com##.klicked-privacy-banner, .tpd-box-ad-a, .tpd-box-ad-b, .tpd-box-ad-c, .z-lockerdome-inline
@@ -109,6 +111,7 @@ businessinsider.com,insider.com,thisisinsider.com##.targeted-recommended
 businessinsider.com.au##.adspot-300x250-pos1-container, .adspot-300x600-pos2-container
 buzzfeed.com###mod-ad-msu-2, .ad-ex-wide-container
 buzzfeednews.com##.ad-bfnews-sidebar, .newsblock-promo-popup
+c-span.org##.cspan-ad-still-wrapper
 calgarysun.com,canoe.com,edmontonsun.com,ottawasun.com,torontosun.com,winnipegsun.com##.l-top-content
 calltothepen.com##.header-billboard
 canadianbusiness.com###sticky_multiad_mob
@@ -145,8 +148,11 @@ copenhagensuborbitals.com###donatebar
 cosmopolitan.com,harpersbazaar.com,roadandtrack.com,townandcountrymag.com##.breaker-ad
 cosmosmagazine.com###announcements
 crooksandliars.com##.clab-inline, .pane-cl-ad-blocks-5, .pane-cl-ad-blocks-6
+ctvnews.ca##.mobileBoxAd
+cubbiescrib.com###Adfactory_mobile_inline_300x250__mobile, #pinned-ad
+curbed.com##.m-ad
 cyclingentertainment.stream,herbelay.com,sedsports.com,sport5.live,toxicpatat.com###ads_overlay, #awtsbox
-dailycaller.com##.ad
+dailycaller.com##.ad, [class*="index__adWrapper--"]
 dailycaller.com,fark.com,poynter.org##.ad_container
 dailyfx.com##.text-center:has-text(/Advertisement/)
 dailykos.com##.mobile-story-ad
