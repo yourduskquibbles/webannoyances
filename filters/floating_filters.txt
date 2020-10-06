@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 11:08 2020-10-06
+! Last Modified: 13:34 2020-10-06
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -875,10 +875,13 @@ ballistixgaming.com##.sticky:style(position: relative !important; top: 0 !import
 ballistixgaming.com##nav:style(height: 88.4px !important; padding: .5rem 0 !important;)
 ballotpedia.org###bp-header, #sidebar-left, #sidebar-right:style(position: absolute !important;)
 ballotpedia.org###fixed-header-outer, #nav-bar, #top-bar:style(position: relative !important; top: 0 !important;)
-baltimoresun.com,capitalgazette.com,chicagotribune.com,citypaper.com,courant.com,dailypress.com,mcall.com,nydailynews.com,orlandosentinel.com,sun-sentinel.com###app-bar-sticky:style(position: relative !important;)
+baltimoresun.com,capitalgazette.com,chicagotribune.com,citypaper.com,courant.com,dailypress.com,mcall.com,nydailynews.com,orlandosentinel.com,sun-sentinel.com###app-bar-sticky, .floating-chain.sticky:style(position: static !important;)
 baltimoresun.com,capitalgazette.com,chicagotribune.com,citypaper.com,courant.com,dailypress.com,mcall.com,nydailynews.com,orlandosentinel.com,sun-sentinel.com##.flex-grid.chain-container.sticky.trb-flt-itm:style(position: static !important; top: auto !important;)
-baltimoresun.com,capitalgazette.com,chicagotribune.com,citypaper.com,courant.com,dailypress.com,mcall.com,nydailynews.com,orlandosentinel.com,sun-sentinel.com##.floating-chain.sticky:style(position: static !important;)
-baltimoresun.com,capitalgazette.com,chicagotribune.com,citypaper.com,courant.com,dailypress.com,mcall.com,nydailynews.com,orlandosentinel.com,sun-sentinel.com##.trb_em_v_i:style(position: absolute !important; width: 100% !important; height: 100% !important; right: 0 !important; bottom: 0 !important; transform: none !important;)
+baltimoresun.com,capitalgazette.com,chicagotribune.com,citypaper.com,courant.com,dailypress.com,mcall.com,nydailynews.com,orlandosentinel.com,sun-sentinel.com##.pb-f-list-nav-ticker:style(display: block !important;)
+baltimoresun.com,capitalgazette.com,chicagotribune.com,citypaper.com,courant.com,dailypress.com,mcall.com,nydailynews.com,orlandosentinel.com,sun-sentinel.com##.s2nContainer:style(padding-top: 0 !important;)
+baltimoresun.com,capitalgazette.com,chicagotribune.com,citypaper.com,courant.com,dailypress.com,mcall.com,nydailynews.com,orlandosentinel.com,sun-sentinel.com##.trb_close_button_svg
+baltimoresun.com,capitalgazette.com,chicagotribune.com,citypaper.com,courant.com,dailypress.com,mcall.com,nydailynews.com,orlandosentinel.com,sun-sentinel.com##.trb_em_v_w:style(position: relative !important; padding-top: 56.25% !important; height: 491.25px !important;)
+baltimoresun.com,capitalgazette.com,chicagotribune.com,citypaper.com,courant.com,dailypress.com,mcall.com,nydailynews.com,orlandosentinel.com,sun-sentinel.com##.trb_floating .trb_s2nplayer:style(margin-top: 0 !important;)
 baltimoresun.com,capitalgazette.com,chicagotribune.com,citypaper.com,courant.com,dailypress.com,mcall.com,nydailynews.com,orlandosentinel.com,sun-sentinel.com##.trb_nh:style(position: absolute !important; transform: none !important;)
 bandcamp.com##.row.hd:style(position: absolute !important;)
 bangordailynews.com###comp-header:style(position: absolute !important;)
@@ -7760,7 +7763,7 @@ ticketfly.com###eyebrow:style(position: relative !important; top: 0 !important;)
 ticketmaster.com,wionews.com##.main_header:style(position: absolute !important;)
 tiffany.com###filters:style(position: relative !important;)
 tiffany.com###headerBlueBar:style(position: absolute !important;)
-tiktok.com##.header-container, .side-bar-wrapper:style(position: absolute !important;)
+tiktok.com##.covid-banner-container, .header-container, .side-bar-wrapper:style(position: absolute !important;)
 tiktok.com##.right-config-container:style(position: absolute !important; transform: translateY(0) !important;)
 time.com###header:style(position: absolute !important; max-width: 100% !important; width: 100% !important; padding-bottom: 10px !important;)
 time.com##.header-recirc:style(position: relative !important; top: 0 !important; transform: translate3d(0,0,0) !important;)
