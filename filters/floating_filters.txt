@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 09:21 2020-10-06
+! Last Modified: 10:37 2020-10-06
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1197,7 +1197,7 @@ blog.google##.uni-google-logo.uni-header-row, body > main:style(margin-top: 0 !i
 blog.google##.uni-google-logo:style(visibility: visible !important; opacity: 1 !important;)
 blog.google##.uni-header-content:style(position, .uni-initialized.uni-header-content: relative !important; top: 0 !important;)
 blog.google##.uni-header:style(position: absolute !important; transform: translateY(0) !important;)
-blog.google,cbsnews.com,fedex.com,giftcardgranny.com,glamour.com,gq.com,imgur.com,just-auto.com,just-drinks.com,just-food.com,just-style.com,lowes.com,parenting.com,pitchfork.com,powerhungry.com,ruralsprout.com,taxact.com,wired.com##html:style(overflow-x: hidden !important;)
+blog.google,cbsnews.com,fedex.com,giftcardgranny.com,glamour.com,gq.com,imgur.com,just-auto.com,just-drinks.com,just-food.com,just-style.com,lowes.com,newrepublic.com,parenting.com,pitchfork.com,powerhungry.com,ruralsprout.com,taxact.com,thebalance.com,thebalancecareers.com,thebalanceeveryday.com,thebalancesmb.com,wired.com##html:style(overflow-x: hidden !important;)
 blog.intercom.com##.run-less__nav:style(position: absolute !important;)
 blog.leavemealone.app,nullsweep.com##.floating-active.floating-header
 blog.lyft.com##.page-header, .tier-one:style(position: absolute !important;)
@@ -5421,7 +5421,6 @@ newrepublic.com##.page-header:style(position: relative !important; top: 0 !impor
 newrepublic.com##.regular.article-container:style(padding-top: 0 !important;)
 newrepublic.com##.sticky-nav-container.pinned:style(box-shadow: none !important;)
 newrepublic.com##.sticky-nav-inner:style(background: #000 !important;)
-newrepublic.com##html:style(overflow-x: hidden !important;)
 newretirement.com##.fixed:style(position: static !important;)
 news-gazette.com###adLib, #addRelated, progress:style(position: relative !important; top: 0 !important;)
 news-medical.net##.body-wrap:before, .menu-container.container.main-menu:style(position: absolute !important; top: 0 !important; box-shadow: none !important;)
@@ -7409,13 +7408,13 @@ theaustralian.com.au##.header__top:style(position: relative !important; border-b
 theaustralian.com.au##body.header-fixed .header__masthead .header__logo:style(margin: 1rem 0 !important;)
 theaustralian.com.au##body.header-fixed .header__masthead span:style(display: initial !important;)
 thebaffler.com##.fixed-top.navbar-toggleable-sm.navbar:style(position: absolute !important; top: 0 !important;)
-thebalance.com##.logo__text-with-slogan.icon:style(height: 1.75rem !important; transform: none !important;)
-thebalance.com,thebalancecareers.com,thebalanceeveryday.com,thebalancesmb.com###header_1-0:style(position: absolute !important; height: 6.25rem !important;)
+thebalance.com,thebalancecareers.com,thebalanceeveryday.com,thebalancesmb.com###header_1-0, #journey-nav-wrapper_1-0 > .journey-nav:style(position: static !important;)
+thebalance.com,thebalancecareers.com,thebalanceeveryday.com,thebalancesmb.com###main:style(margin-top: 0 !important;)
 thebalance.com,thebalancecareers.com,thebalanceeveryday.com,thebalancesmb.com##.header-condensed.header.comp:style(position: relative !important; top: 0 !important;)
+thebalance.com,thebalancecareers.com,thebalanceeveryday.com,thebalancesmb.com##.header.header--hidden:style(transform: translateY(0) !important;)
 thebalance.com,thebalancecareers.com,thebalanceeveryday.com,thebalancesmb.com##.header__centered-logo:style(opacity: 1 !important;)
+thebalance.com,thebalancecareers.com,thebalanceeveryday.com,thebalancesmb.com##.header__heading
 thebalance.com,thebalancecareers.com,thebalanceeveryday.com,thebalancesmb.com##.logo__icon:style(transform: none !important;)
-thebalance.com,thebalancecareers.com,thebalanceeveryday.com,thebalancesmb.com##.logo__text.icon:style(display: block !important; transform: none !important;)
-thebalancecareers.com,thebalanceeveryday.com,thebalancesmb.com##.header__centered-logo .logo__text:style(height: 1.5625rem !important;)
 thebiglead.com###header-sticky-wrapper, #nav-branding:style(position: relative !important; top: 0 !important;)
 thebiglead.com###nav-branding-sticky-wrapper, #secondary:style(position: relative !important;)
 thebiglead.com###video-container, .jw-flag-time-slider-above.jw-flag-small-player.in-rail.jw-flag-user-inactive.jw-flag-cast-available.right.jw-breakpoint-1.jw-flag-aspect-mode.jw-stretch-uniform.jw-skin-seven.jw-state-playing.jw-reset.jwplayer:style(position: static !important;)
