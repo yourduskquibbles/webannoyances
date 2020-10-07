@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 11:17 2020-09-29
+! Last Modified: 11:16 2020-10-07
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of other page covering elements. Cookie/GDPR notices will be removed in Cookie Filters sublist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -686,7 +686,6 @@ pastemagazine.com###newsletter-signup-overlay
 patch.com###email-modal-wrapper
 patreon.com###renderPageContentWrapper > div:style(filter: unset !important;)
 patreon.com##body[style="overflow: hidden;"]:style(overflow: auto !important;)
-patreon.com##div[data-focus-lock-disabled="false"]
 pbs.org###frontline_newsletter_over, #frontline_newsletter_please, #pbs-confirm-modal-overlay, #pbs-confirm-station, #wnetpopupajax .remodal-is-opened
 pbs.org##body.inactive, body.modal-is-open, body.modal-open, body[style*="overflow: hidden;"]:style(overflow-x: hidden !important; overflow-y: scroll !important; padding-right: 0 !important;)
 pedestrian.tv###popup-home
