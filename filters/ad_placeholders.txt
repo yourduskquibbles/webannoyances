@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Ad Placeholder Filters
-! Last Modified: 10:13 2020-10-08
+! Last Modified: 10:22 2020-10-08
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for empty advertising placeholders.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -506,7 +506,7 @@ techgenix.com###featured-links
 techgenix.com##.ezoic-ad.sidebar_middle:upward(2)
 techgenix.com##[id*="ad_pos_"]:upward(2)
 technet.microsoft.com###msccBanner
-technologyreview.com##.article-sponsored-content-list. [class^="headerTemplate__leaderboardRow"]
+technologyreview.com##.article-sponsored-content-list, [class^="headerTemplate__leaderboardRow"]
 tedium.co##.md-adbox
 teenvogue.com##.ad-failsafe-wrapper, .expanded.riser
 telegraph.co.uk###message, .adblocker-message
