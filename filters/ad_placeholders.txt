@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Ad Placeholder Filters
-! Last Modified: 12:06 2020-10-07
+! Last Modified: 10:13 2020-10-08
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for empty advertising placeholders.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -506,7 +506,7 @@ techgenix.com###featured-links
 techgenix.com##.ezoic-ad.sidebar_middle:upward(2)
 techgenix.com##[id*="ad_pos_"]:upward(2)
 technet.microsoft.com###msccBanner
-technologyreview.com##.article-sponsored-content-list
+technologyreview.com##.article-sponsored-content-list. [class^="headerTemplate__leaderboardRow"]
 tedium.co##.md-adbox
 teenvogue.com##.ad-failsafe-wrapper, .expanded.riser
 telegraph.co.uk###message, .adblocker-message
@@ -542,7 +542,7 @@ themonroetimes.com##.adunitContainer
 themoscowtimes.com###TMTtoolbarAd
 thenation.com##.ad-wrap, .current-issue.indents.indent.left, .donate.btn-yellow.btn
 theplayerstribune.com##.ArticleSponsor__Container-x5id9j-1
-thepostmillennial.com##.commercial, .publicity
+thepostmillennial.com###tpm-video-player-slot, .commercial, .publicity
 theregister.co.uk###ad-condor, .ad-eagle, .ad-falcon, .faux-article
 thescore.com##.Ad__bigbox--3DeHj, .Ad__container--2fhQb, .ad-tile, .article-sponsor-info, .tablet-leaderboard
 thespruce.com,thesprucecrafts.com,thespruceeats.com,thesprucepets.com###leaderboard--header_1-0, .leaderboard
