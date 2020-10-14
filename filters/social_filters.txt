@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Social Filters
-! Last Modified: 16:44 2020-10-08
+! Last Modified: 10:27 2020-10-14
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for social networking & sharing - Remove third party social media share sections, icons & other cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -172,7 +172,7 @@ business-standard.com##.social-icon
 businessinsider.com##.facebook.share-post-button, .footer-social-media-facebook, .footer-social-media-twitter, .ks-recommended, .twitter.share-post-button
 businesstimes.com.sg###a2a_sticky
 bustle.com##.bu
-buzzfeed.com###contribute-success-shares, #inline_share_icon_wrp, .bottom_shares, .button--facebook, .button--twitter, .connect, .connect-with-us, .diy-connect, .pullquote_shares_wrapper, .subbuzz-quiz__sharing, .wire-frame__shares
+buzzfeed.com###contribute-success-shares, #inline_share_icon_wrp, .bottom_shares, .button--facebook, .button--twitter, .connect, .connect-with-us, .diy-connect, .pullquote_shares_wrapper, .subbuzz-quiz__sharing, .wire-frame__shares, [class*="shareLink"][href*="pinterest.com"]
 buzzfeednews.com##.js-sharing-btn.sharing-btn
 c-span.org##.facebook, .icon-twitter, .twitter
 cake.co##.scroll-controls-container
@@ -620,7 +620,7 @@ mercurynews.com##.article-share, .sharedaddy, .sharing
 meredith.com##.social-links
 merriam-webster.com###social-sidebar-container, .social-icon
 methodsman.com###sqs-social, .social-icons-style-regular.social-icons-size-extra-large.social-icons-color-standard.social-icon-alignment-center.sqs-svg-icon--outer
-metro.co.uk###masthead-follow, #share-buttons-bottom, .share-bar-with-dropdown.clearfix.has-share-count.share-buttons-top.share-buttons
+metro.co.uk###masthead-follow, #share-buttons-bottom, .item-share-buttons, .share-bar-with-dropdown.clearfix.has-share-count.share-buttons-top.share-buttons
 miamiherald.com##.glyphicon-share.glyphicon
 miaminewtimes.com##.side-soc.cs-box
 michaelsavage.com##.awp-shareicons
@@ -1188,7 +1188,7 @@ worldatlas.com##.articleFollow-right, .headerMain-social, .w-article-followNav
 worldoftanks.com##.js-social-dropdown-open
 wptv.com##.nav--stay-connected
 wral.com##.utility-list
-wsj.com###expShareTools, .LiveCoverageBanner-share, .Social, .WSJTheme__social-icons_3jNRbP-ojq-T7SEP4NS_hU, .article-tools-mobile, .breaking-social, .footernote__section--social, .fyre-flag-link, .fyre-share-link, .nc-exp-social-li, .nc-exp-sociallabel, .shareIcon--facebook.shareIcon, .shareIcon--twitter.shareIcon, .style__fb_1Nm7orJRvKHUT3kEfQIrrD, .style__fb_kNqQVkgdx4P9FOJiSd-LH.style__share-toggle_T1tjBDv6tORnjHCBUc2Fw, .style__social-links_1tTcXFp41358k5UXjc0Ql, .style__tw_2UIJjbOC5JL-uDvXs8iraV.style__share-toggle_T1tjBDv6tORnjHCBUc2Fw, .style__tw_3USlBirWnce_WKIHtn1kNh, .video-share-b, .vltSocialLinks, .wsj-amp-share, li[class*="WSJTheme__share-tool"], li[class*="WSJTheme--share-tool-"], [class*="WSJTheme--facebook-"], [class*="WSJTheme--twitter-"]
+wsj.com###expShareTools, .LiveCoverageBanner-share, .Social, .WSJTheme__social-icons_3jNRbP-ojq-T7SEP4NS_hU, .article-tools-mobile, .breaking-social, .footernote__section--social, .fyre-flag-link, .fyre-share-link, .nc-exp-social-li, .nc-exp-sociallabel, .shareIcon--facebook.shareIcon, .shareIcon--twitter.shareIcon, .style__fb_1Nm7orJRvKHUT3kEfQIrrD, .style__fb_kNqQVkgdx4P9FOJiSd-LH.style__share-toggle_T1tjBDv6tORnjHCBUc2Fw, .style__social-links_1tTcXFp41358k5UXjc0Ql, .style__tw_2UIJjbOC5JL-uDvXs8iraV.style__share-toggle_T1tjBDv6tORnjHCBUc2Fw, .style__tw_3USlBirWnce_WKIHtn1kNh, .video-share-b, .vltSocialLinks, .wsj-amp-share, li[class*="WSJTheme__share-tool"], li[class*="WSJTheme--share-tool-"], [class*="WSJTheme--facebook-"], [class*="WSJTheme--linkedin-"], [class*="WSJTheme--twitter-"]
 wsj.com##.shareMenu > li.shareMenu__item:has([aria-label^="Facebook"])
 wsj.com##.shareMenu > li.shareMenu__item:has([aria-label^="Twitter"])
 wtop.com##.Entry-infoSocial, .retweet
