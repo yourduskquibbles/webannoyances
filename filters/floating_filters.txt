@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 10:39 2020-10-14
+! Last Modified: 14:23 2020-10-16
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1229,6 +1229,7 @@ blogs.bing.com,branchfree.org##.site:style(margin-top: 0 !important;)
 blogs.nasa.gov##body:after, body:before
 blogs.opera.com###download-iframe--sticky-bar:style(position: relative !important; top: 0 !important;)
 blogs.spectator.co.uk##.site-header--sticky.site-header:style(position: relative !important;)
+blogs.windows.com##.is-active.sticky-header
 blogspot.com,sb2.live,talospace.com,vulnano.com##.animating.sticky.centered-top-container
 bloodhorse.com##.site-head:style(position: absolute !important;)
 bloody-disgusting.com###mvp-top-head-wrap:style(position: absolute !important; box-shadow: none !important;)
@@ -1353,6 +1354,7 @@ brainpickings.org##.responsive-nav__toggle:style(background-color: transparent !
 brainpickings.org##.smaller, header:style(position: absolute !important;)
 brainstation.io##.v3-page-header:style(position: absolute !important;)
 brainyquote.com###bq-tn-id, .is-sticky.sticky-wrapper:style(position: relative !important; top: 0 !important;)
+brainyquote.com###bqNavBarCtrl:style(position: absolute !important;)
 branchfree.org##.custom-logo:style(clear: both !important; display: block !important; margin-bottom: 1.75em !important; max-width: 300px !important; max-height: 150px !important;)
 branchfree.org##.site-content:style(padding-top: 0 !important;)
 branchfree.org##.site-description:style(display: inline-block !important; margin-bottom: 0 !important;)
@@ -1482,6 +1484,8 @@ bytom.io##.site-branding img:style(height: 50px !important;)
 c-span.org###content > .container > .sticky-wrapper > .stuck.channel-stick:style(position: absolute !important;)
 c-span.org##.live-video-wrapper:style(position: static !important;)
 c0reteam.org##.topbar:style(position: relative !important; top: 0 !important;)
+ca.finance.yahoo.com##.modal-open #ybar ._yb_lfekl > ._yb_11lt7, .ybar-hide-navigation #ybar ._yb_lfekl > ._yb_11lt7:style(opacity: 1 !important; margin-top: unset !important;)
+ca.finance.yahoo.com##.ybar-page-is-scrolled .ybar-sticky #ybar-inner-wrap:style(box-shadow: none !important;)
 ca.gov###head-search:style(visibility: visible !important; opacity: 1 !important;)
 caagearup.com##.sticky--pinned.site-header-inner:style(position: absolute !important;)
 cablehaunt.com##.mat-drawer-content:style(overflow: hidden !important;)
@@ -2408,6 +2412,11 @@ digibyte.io##.header-main:style(position: relative !important;)
 digicert.com##.header-offset:style(margin-top: 0 !important;)
 digicert.com##.meanmenu-reveal:style(position: absolute !important;)
 digiday.com###global-nav:style(position: relative !important; top: 0 !important;)
+digiday.com###sticky-header-wrapper:style(position: static !important;)
+digiday.com##.article-columns-wrapper .sidebar-column .fly-module-holder .fly-module:style(position: static !important;)
+digiday.com##header #sticky-header-wrapper #site-navigation .bottom_row:style(display: flex !important;)
+digiday.com##header #sticky-header-wrapper #site-navigation .top_row .logo:style(display: block !important;)
+digiday.com##header.stick:style(padding-top: 0 !important;)
 digitaljournal.com##body > div:nth-of-type(5) > div > div:style(position: relative !important; top: 0 !important;)
 digitalmusicnews.com##.clearfix.cb-top-menu-wrap.wrap:style(position: absolute !important;)
 digitalocean.com##.Page-header, .is-fixed.UnifiedNav--transparent.UnifiedNav:style(position: absolute !important;)
@@ -5281,6 +5290,7 @@ nationaldefensemagazine.org##.logo-hold .logo:style(vertical-align: top !importa
 nationaldefensemagazine.org##.sticky-header.header-bottom:style(position: relative !important;)
 nationalenquirer.com###sidebar-right:style(position: static !important; top: 0 !important;)
 nationalenquirer.com##.sticky-spacer
+nationalfile.com,webtrickz.com##.jnews_popup_post_container
 nationalgeographic.com##.CTAButton_ctaButton_3xuMB:style(position: absolute !important; opacity: 1 !important; animation: none !important;)
 nationalgeographic.com##.Header_container_3Mm30 .headroom:style(background-color: rgba(0,0,0,.3) !important;)
 nationalgeographic.com##.Header_container_3Mm30:style(position: absolute !important; background-color: transparent !important;)
@@ -7591,8 +7601,10 @@ thenational.ae##.header-main-nav h2:style(font-size: 56px !important; margin: 8p
 thenational.ae##.header-position.header-sticky.clearfix.row:style(position: relative !important; margin-top: unset !important; max-width: unset !important; width: unset !important;)
 thenational.ae##.section-header.bg-taxonomy-1.header-fixed:style(position: absolute !important;)
 thenational.ae##.sticky-ham-open.ham-open, .sticky-logo, .sticky-search
-thenationalpulse.com##.navbar-dummy, .site-title.navbar-brand
+thenationalpulse.com###rumble_cc4cir:style(height: auto !important;)
+thenationalpulse.com##.navbar-dummy, .rumble_cc4cir-Rumble-cls > div[style*="width: auto; height: auto;"], .site-title.navbar-brand
 thenationalpulse.com##.navbar-primary:style(position: relative !important;)
+thenationalpulse.com##.rumble_cc4cir-Rumble-cls:style(position: relative !important; width: 100% !important; max-width: unset !important; inset: auto !important;)
 thenationalpulse.com##.sticky-sidebar-enabled.stick-to-top .sidebar-1:style(position: static !important;)
 thenerdy.com###nav-container:style(position: absolute !important;)
 thenest.com##.jwplayer__container:style(position: relative !important; padding-bottom: 56.25% !important;)
@@ -8309,7 +8321,7 @@ washingtoncitypaper.com##.fixed header .block[data-bvo-type="branding"] img:styl
 washingtoncitypaper.com##header .primary[data-bvo-type="navigation"]:style(padding-top: 0 !important;)
 washingtoncitypaper.com##header:style(position: relative !important; top: 0 !important; padding: 20px 0 !important; box-shadow: none !important; transform: none !important;)
 washingtoncitypaper.com##nav ul:style(padding: 10px 0 !important;)
-washingtonexaminer.com###body > .col1.panel > .column, .Page-subHeading1DynamicYieldModule, .open.float-menu
+washingtonexaminer.com###body > .col1.panel > .column, .Page-subHeading1DynamicYieldModule, .float-menu
 washingtonexaminer.com###cnx-autoplay-container, .ndn_floatContainer:style(position: static !important;)
 washingtonexaminer.com##.FixedHeader, .hidden-print.justify-content-between.mb-1.bg-inverse.navbar-dark.fixed-top.nav.navbar.flex-row.topbar:style(position: absolute !important;)
 washingtonexaminer.com##.cnx-float.cnx-float-transition:style(transition: none !important;)

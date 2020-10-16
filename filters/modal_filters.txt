@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 10:22 2020-10-14
+! Last Modified: 14:23 2020-10-16
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of other page covering elements. Cookie/GDPR notices will be removed in Cookie Filters sublist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -612,6 +612,7 @@ mypayflex.com##.QSIPopOver, .QSIPopOverShadowBox
 n-gate.com###not_yet
 narcity.com##.fc-ab-root
 nationalelfservice.net##.zEWidget-launcher
+nationalfile.com##body > div[style*="position: fixed; "]
 nationalgeographic.com###privacy-policy-popup
 nationalinterest.org###sliding-popup
 nationalpost.com##.fc-dialog-container
@@ -961,7 +962,6 @@ wbur.org##.section--takeover
 wdsu.com##.ab-iam-root
 webmd.com###colorbox, #webmdHoverOverlay
 webmd.com##body[data-content-masked]:style(overflow-x: auto !important; overflow-y: scroll !important; padding-right: 0 !important;)
-webtrickz.com##.jnews_popup_post_container
 weeklystandard.com###myModal, .dy-act-overlay, .dy-modal-container, .dy-modal-wrapper, .upnext
 wegmans.com###webuiPopover2
 welcometothejungle.co##.bAVakr.s1u7oiza-0
