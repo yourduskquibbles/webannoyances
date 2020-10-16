@@ -31,7 +31,6 @@ Head over to the [demonstration page](https://github.com/yourduskquibbles/webann
 This filter list aims to remove annoying web elements that block your view of the screen and is created and optimized using the [uBlock Origin Extended Syntax](https://github.com/gorhill/uBlock/wiki/Static-filter-syntax).
 
 For the best user experience, please use this filter list with [![uBO_icon_16](https://user-images.githubusercontent.com/22258847/58104215-675c2d00-7bb2-11e9-9ef7-53bd5d32139c.png) uBlock Origin](https://github.com/gorhill/uBlock),
-[![nano_icon_16](https://user-images.githubusercontent.com/22258847/58104236-7347ef00-7bb2-11e9-86c3-7f1646118e7e.png) Nano Adblocker](https://github.com/NanoAdblocker/NanoCore),
 [![adguard_icon_16](https://user-images.githubusercontent.com/22258847/58104254-7d69ed80-7bb2-11e9-989b-a0a73db4d808.png) AdGuard for ![64px-Windows_darkblue_2012_svg svg](https://user-images.githubusercontent.com/22258847/58109066-ea818100-7bba-11e9-9808-fde2015ebe10.png)](https://adguard.com/en/adguard-windows/overview.html), or [![adguard_icon_16](https://user-images.githubusercontent.com/22258847/58104254-7d69ed80-7bb2-11e9-989b-a0a73db4d808.png) AdGuard for ![64px-MacOS_wordmark_(2017) svg](https://user-images.githubusercontent.com/22258847/58109057-e6edfa00-7bba-11e9-886b-f162bcffc7df.png)](https://adguard.com/en/adguard-mac/overview.html).
 
 Browser specific download locations are located below:
