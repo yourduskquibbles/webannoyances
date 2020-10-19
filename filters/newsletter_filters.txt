@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Newsletter Subscription Filters
-! Last Modified: 16:20 2020-10-16
+! Last Modified: 12:49 2020-10-19
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for newsletter annoyances - Remove newsletter & other subscription cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -678,9 +678,9 @@ vox.com##p:has-text(/Sign up for/)
 wallethacks.com###text-32
 wamu.org##.newsletter-module
 washingtonexaminer.com###newsletter-signup-policy, #newsLetter-signup-box, #newsletter_sign_up_form, .newsletter, .subscribe-promo
-washingtonpost.com###nav-subscribe, #signup-banner, #signup-box-instream, #signup-box-rr, .daily202-newsletter, .newsletter-inline-unit, .newsletter-unit.signup-box-rr, .pb-f-page-subscription-promo, .pb-subscribe, .pb-subscribe-promo, .right-rail-subscription, .signup-module, .subscribe, .subscribe-links
-washingtonpost.com##.hide-for-print :has([name="signup-email"])
+washingtonpost.com###nav-subscribe, #signup-banner, #signup-box-instream, #signup-box-rr, .daily202-newsletter, .newsletter-inline-unit, .newsletter-unit.signup-box-rr, .pb-f-page-subscription-promo, .pb-subscribe, .pb-subscribe-promo, .right-rail-subscription, .signup-module, .subscribe, .subscribe-links, [data-qa="newsletter"]
 washingtonpost.com##.hide-for-print:has([alt*="Newsletter"])
+washingtonpost.com##.hide-for-print:has([name="signup-email"])
 washingtonpost.com##article > div[class^="hide-for-print"]:has-text(/Subscribe/)
 washingtonpost.com##button:has-text(/Subscribe/)
 washingtontechnology.com##.WASHINGTON-TECHNOLOGY
