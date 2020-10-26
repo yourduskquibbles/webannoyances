@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 13:35 2020-10-21
+! Last Modified: 10:17 2020-10-26
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1727,6 +1727,7 @@ chip.de##.Header--Sticky:style(transform: translate(0,0) !important;)
 chip.de,espn.*,mobile.edweek.org,okta.com,riskiq.com##.Header:style(position: absolute !important;)
 chipotle.com##.header, .section--header.section:style(position: relative !important; top: 0 !important;)
 chipotle.com##.sticky_header.js-header.c-site-header:style(position: absolute !important;)
+chocolatey.org##.collapsed.shadow.d-md-block.d-none.d-hash-none.py-3.btn-announcement-notifications.btn-collapsing-right-sidebar.btn-primary.btn:style(position: absolute !important;)
 choosetoencrypt.com##.sticky-header-shrink.clear.sticky-header:style(position: absolute !important;)
 chowhound.com###fr_eye_nav:style(width: 98.9vw !important;)
 chowhound.com###freyja_desknav, #freyja_mobile-sticky-wrapper, #freyja_mobile, #freyja_top_nav-sticky-wrapper, #freyja_top_nav, .freyja_wrap:style(position: relative !important; top: 0 !important;)
