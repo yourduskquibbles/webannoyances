@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 10:22 2020-10-26
+! Last Modified: 10:32 2020-10-26
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -4071,7 +4071,10 @@ independent.co.uk##.hero-video.hero:style(position: static !important; top: auto
 independent.co.uk##.hero-video:style(width: 100% !important;)
 independent.co.uk##.hero-wrapper, .sticky.video-popout-wrap:style(position: static !important;)
 independent.co.uk##.sticky-video:style(position: static !important; width: 968px !important; height: 544.5px !important;)
+independent.co.uk##.video-hero-video:style(position: static !important; top: unset !important; right: unset !important; width: 100% !important;)
+independent.co.uk##.video-hero-wrapper:style(height: unset !important;)
 independent.co.uk##.video-popout-close
+independent.co.uk##.video-sticky-video:style(position: static !important; top: unset !important; left: unset !important; width: unset !important; box-shadow: none !important; background-color: unset !important; animation: none !important;)
 independent.ie##.is-activated.going-down.w152, .on.persistent.slim.w103
 index.co##.c_header--ready.c_headerHeight.c_header:style(position: absolute !important; top: 0 !important;)
 index.co##.u_propSticky.trigger_fly--ready.trigger_fly.c_headerCover:style(position: relative!important; top: 0 !important;)
