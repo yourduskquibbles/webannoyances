@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 10:32 2020-10-26
+! Last Modified: 12:24 2020-10-26
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1837,21 +1837,28 @@ cmegroup.com##.header-par.cmePineappleHeader:style(position: absolute !important
 cmlviz.com##.news_floating_footer
 cn.nytimes.com##.article-ribbon:style(position: relative !important; transform: translateY(0) !important;)
 cnbc.com###BrandPageWrapper[class="cnbcBrand"] [id^="nav-menu-article"]:style(position: absolute !important; display: flex !important;)
-cnbc.com###BrandPageWrapper[class="makeitBrand"] [class*="nav-menu-styles-makeit-linksSticky"]:style(display: flex !important;)
+cnbc.com###BrandPageWrapper[class="makeitBrand"] [class*="nav-menu-styles-makeit-linksSticky"], .account-menu-accountMenu, .account-menu-accountMenuPro, .NavLinks-navMenuArticleSticky .NavLinks-hiddenArticleLinks, .nav-menu-articleNavLinks:style(display: flex !important;)
 cnbc.com###BrandPageWrapper[class="makeitBrand"] [class*="nav-menu-styles-makeit-mainLinksSticky"]:style(transform: translateY(0) !important; margin-left: 0 !important;)
 cnbc.com###BrandPageWrapper[class="makeitBrand"] [id^="nav-menu-article"]:style(display: flex !important; position: relative !important; top: 3px !important; left: 20px !important; padding: 0 15px 0 8px !important; width: 40% !important; height: max-content !important;)
 cnbc.com###GlobalNavigation-Persistent, #GlobalNavigation, #MakeItGlobalNavigation, #SelectGlobalNavigation, .Sidebar-wrapperSticky, .fixedPosition.ng-scope.pageHeader:style(position: absolute !important;)
-cnbc.com###nav-menu-articleSticky-persistent, .GlobalNavigation-mobileNavMenu, .NavLinks-articleContent, .NavLinks-articleTitle, .nav-menu-articleContent, .nav-menu-articleTitle, .nav-menu-logo.nav-menu-logoSticky, .story-header-right, .sub-header
+cnbc.com###nav-menu-articleSticky-persistent, .GlobalNavigation-mobileNavMenu, .NavLinks-articleContent, .NavLinks-articleTitle, .nav-menu-articleContent, .nav-menu-articleTitle, .story-header-right, .sub-header
 cnbc.com###nav_spacer:style(height: 0 !important;)
-cnbc.com##.GlobalNavigation-globalNavigation.GlobalNavigation-globalNavigationSticky:style(height: 70px !important;)
+cnbc.com##.GlobalNavigation-globalNavigation, .GlobalNavigation-globalNavigationPro, .GlobalNavigation-globalNavigation::after, .GlobalNavigation-globalNavigationPro::after:style(height: 85px !important;)
+cnbc.com##.GlobalNavigation-globalNavigationSticky::after, .GlobalNavigation-globalNavigationStickyPro::after, .SearchToggle-buttonSticky::before, .SearchToggle-buttonStickyPro::before, .SignInMenu-signInContainerSticky, [class*="Select-styles-select-cnbcLogoContainer--"]:style(display: block !important;)
 cnbc.com##.MakeIt-globalNavigation:style(height: 80px !important; border-bottom: 5px solid #3e4855 !important;)
 cnbc.com##.NavLinks-logo:style(transform: none !important; width: 166px !important; height: 33px !important;)
 cnbc.com##.NavLinks-navMenu:style(top: 34px !important;)
-cnbc.com##.NavLinks-navMenuArticleSticky .NavLinks-hiddenArticleLinks, .nav-menu-articleNavLinks:style(display: flex !important;)
 cnbc.com##.SearchToggle-button span, .branding-menu-brandingMenuSticky:style(opacity: 1 !important;)
-cnbc.com##.SearchToggle-buttonSticky:style(height: 37px !important;)
+cnbc.com##.SearchToggle-buttonSticky, .SearchToggle-buttonStickyPro:style(right: 57px !important;)
+cnbc.com##.SearchToggle-buttonSticky, .SearchToggle-buttonStickyPro:style(transform: translateY(0) !important; height: 30px !important; width: 250px !important;  padding-left: 20px !important; padding-right: 0 !important; display: flex !important;)
 cnbc.com##.SidebarArticle-sticky:style(position: static !important; top: 0 !important;)
+cnbc.com##.SignInMenu-signInContainerSticky:style(display: block !important; position: absolute !important; top: auto !important; right: 0 !important; bottom: auto !important; float: right !important; -webkit-box-align: center !important; margin: 18px auto 0 !important; transition: none !important;)
+cnbc.com##.account-menu-accountMenuPro ul li span, .account-menu-accountMenu ul li span:style(margin-left: 5px !important;)
+cnbc.com##.account-menu-accountMenuPro ul li, .account-menu-accountMenuSticky ul li, .account-menu-accountMenu ul li:style(font-weight: 600 !important; font-size: 11px !important; letter-spacing: 1.2px !important;)
+cnbc.com##.account-menu-accountMenuSticky:style(display: flex !important; float: right !important; position: relative !important; top: 49px !important; width: 234px !important; right: 9px !important;)
+cnbc.com##.account-menu-editionMenu, .account-menu-accountMenuPro ul, .account-menu-accountMenu ul:style(display: -webkit-box !important; text-transform: uppercase !important; -webkit-box-orient: horizontal !important; -webkit-box-direction: normal !important; -webkit-box-flex: 100 !important; flex: 100 !important; -webkit-box-pack: end !important; margin: 10px -10px 0 0 !important;)
 cnbc.com##.account-menu-editionMenuSticky, .nav-menu-desktopHamburgerSticky, .account-menu-editionMenuSticky, .searchToggler.SearchToggle-button:style(transform: none !important;)
+cnbc.com##.account-menu-editionMenuSticky.account-menu-editionMenu:style(margin: 10px -10px 0 0 !important;)
 cnbc.com##.icon-search:before:style(font-size: 20px !important;)
 cnbc.com##.icon-search:style(height: 20px !important; right: 10px !important;)
 cnbc.com##.nav-menu-articleButtonText, .nav-menu-desktopHamburgerArticleSticky, .nav-menu-desktopHamburgerArticleSticky:before:style(color: #fff !important;)
@@ -1859,8 +1866,6 @@ cnbc.com##.nav-menu-mainLinks:style(transform: none !important; margin-left: -35
 cnbc.com##.nav-menu-navMenu:style(top: 44px !important; height: 25px !important; width: 75% !important; padding-bottom: 19px !important; background-color: #005594 !important;)
 cnbc.com##.nav-menu-styles-makeit-mainLinks--1MsCI:style(transform: translateY(0) !important;)
 cnbc.com##.nav-menu-styles-makeit-navMenu--2NEAk:style(top: 3px !important;)
-cnbc.com##.searchToggler.SearchToggle-buttonSticky.SearchToggle-button:style(width: 155px !important; background-color: #336aa0 !important;)
-cnbc.com##[class*="Select-styles-select-cnbcLogoContainer--"]:style(display: block !important;)
 cnbc.com##[class*="Select-styles-select-logo--"] img:style(width: 150px !important;)
 cnbc.com##[class*="Select-styles-select-searchIcon--"]:style(padding: 0 15px 0 0 !important;)
 cnbc.com##[class*="Select-styles-select-wrapper--"]:style(height: 80px !important;)
