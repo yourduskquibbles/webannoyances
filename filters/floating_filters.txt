@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 14:27 2020-11-03
+! Last Modified: 14:41 2020-11-03
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -6569,7 +6569,6 @@ scitation.org##.fragmentNavigationContent:style(position: absolute !important; t
 scitation.org##.pt-sticky-col-online.most-read-right-side.col-md-1-4:style(position: static !important;)
 sclabs.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute !important; top: 0 !important;)
 scmp.com###app:not(:has(.home-page-outer)):style(overflow-x: hidden !important; overflow-y: scroll !important; padding-right: 0 !important;)
-scmp.com###main-content:not(.home-page-outer):not(.topic-page):style(overflow-x: hidden !important; overflow-y: scroll !important; padding-right: 0 !important;)
 scmp.com##.affix.affix-processed.navbar-default.navbar.masthead-main-sticky-nav, .article-detail-page-menu, .fixto-fixed.sidebar-col, .header--fixed.header, .is-stuck.is-at-top.sticky.sticky-wrap:style(position: absolute !important;)
 scmp.com##.article > .wrapper .contents .main .main__left .share-widget--desktop, .article > .wrapper .contents .main .row .share .share-widget--desktop, .lhs-sticky, .notification, .opinion-section, .page-header-menu, .visual-stories .accordion:style(position: static !important;)
 scmp.com##.article > .wrapper .contents .main .row .timeline .timeslot:style(position: static !important; overflow: unset !important;)
