@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 11:54 2020-11-03
+! Last Modified: 12:37 2020-11-03
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -6573,7 +6573,7 @@ scmp.com##.affix.affix-processed.navbar-default.navbar.masthead-main-sticky-nav,
 scmp.com##.article > .wrapper .contents .main .main__left .share-widget--desktop, .article > .wrapper .contents .main .row .share .share-widget--desktop, .lhs-sticky, .notification, .opinion-section, .page-header-menu, .visual-stories .accordion:style(position: static !important;)
 scmp.com##.article > .wrapper .contents .main .row .timeline .timeslot:style(position: static !important; overflow: unset !important;)
 scmp.com##.article-headline.headline-visible, .global-menu-content__text-wrapper, .header-menu-container__menu-top-center-wrapper
-scmp.com##.article-page .article-swiper, .article-page .article-swiper > .wrapper .slide__container, .article-page__content-container:style(overflow: unset !important;)
+scmp.com##.article-page .article-swiper, .article-page .article-swiper > .wrapper .slide__container, .article-page__content-container, .topic-content:style(overflow: unset !important;)
 scmp.com##.header-menu-container .header-menu .menu-top .menu-panel:style(transform: scale(0) !important; opacity: 0 !important;)
 scmp.com##.header-menu-container:style(position: relative !important; transform: translate3d(0px, 0px, 0px) !important;)
 scmp.com##.header-menu-container__menu-bottom:style(position: relative !important; opacity: 1 !important; transform: translate3d(0,0,0) !important;)
@@ -6586,6 +6586,7 @@ scmp.com##.menu-top > .scmp-logo > .router-link-active.router-link-exact-active.
 scmp.com##.menu-top, .section-content.homepage-front__section-content:style(transform: translate3d(0px, 0px, 0px) !important;)
 scmp.com##.page-container__notification-container:style(position: relative !important;)
 scmp.com##.scrollmagic-pin-spacer:style(padding-top: 0 !important;)
+scmp.com##.topic-page__header-menu:style(position: relative !important;)
 scoop.co.nz###header-purotu-logo .for-full, #header-purotu-network, #header-purotu-strip:style(display: block !important;)
 scoop.co.nz###header-purotu-thick:style(padding: 32px 24px 32px 24px !important;)
 scoop.co.nz###header-purotu-wires:style(font-size: 18px !important;)
