@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 09:37 2020-11-05
+! Last Modified: 11:41 2020-11-05
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -6082,8 +6082,13 @@ political-revolution.com###site-header-main:style(position: absolute !important;
 politicaldig.com###mvp-top-head-wrap:style(position: absolute !important;)
 politicalstorm.com##.asmh-header, .stick:style(position: relative !important; top: 0 !important;)
 politico.com##.article-nav-show.article-nav:style(position: relative !important; top: 0 !important;)
+politico.com##.background-shading.dem-background:style(background-color: #EAF0F8 !important;)
+politico.com##.background-shading.gop-background:style(background-color: #FEEEEB !important;)
 politico.com##.container__slot--sticky:style(position: static !important;)
-politico.com##.open.sticky-header
+politico.com##.currently-sticky .sticky-navigation:style(box-shadow: none !important;)
+politico.com##.fixed-top.super, .open.sticky-header
+politico.com##.navigation-bar .sticky-navigation:style(box-shadow: 0 2px 4px 0 rgba(0,0,0,0.125) !important;)
+politico.com##.sticky-navigation.sticky-inner-wrapper:style(position: relative !important; transform: translate3d(0,0,0) !important;)
 politico.com##.waypoint-content:style(position: relative !important; max-height: 100em !important;)
 politico.com##[class*="-about-us-right-rail"]:style(margin-top: 0 !important;)
 politicsmaven.io###comments:style(position: relative !important;)
@@ -6360,6 +6365,8 @@ rei.com###mainNav:style(position: relative !important; top: 0 !important;)
 relationshiphero.com##.rootNavBar > div:style(position: absolute !important;)
 religionnews.com##.global-nav-bg, .show.nav_overflow_label.sticky_nav_display.sticky-nav-holder, [class^="Broadcast__wrapper--"]
 remezcla.com,vinepair.com,yourfertility.org.au###header-container:style(position: relative !important; top: 0 !important;)
+remnantnewspaper.com###jf_menu:style(position: static !important;)
+remnantnewspaper.com##[id*="stickyPanelSpace"]
 remotevlc.com##.navigation-top:style(position: absolute !important; top: unset !important; bottom: 0 !important;)
 reneweconomy.com.au##.fixed.header-fixed.bar.header-content:style(position: absolute !important;)
 rennlist.com###nav1:style(position: relative !important; top: 0 !important;)
