@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 09:25 2020-11-05
+! Last Modified: 09:37 2020-11-05
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -376,12 +376,12 @@ aiyprojects.withgoogle.com##.header-background:style(position: absolute !importa
 ajc.com,blog.chef.io,daytondailynews.com,digitaltransactions.net,dkn.tv,espnmediazone.com,journal-news.com,mind-blowingfacts.com,sideprojectbook.com,springfieldnewssun.com,topstocksnews.com###main-nav:style(position: relative !important;)
 ajc.com,daytondailynews.com,journal-news.com,springfieldnewssun.com###_rmAutoCarousel, .wrapper--header.wrapper:style(position: relative !important;)
 ajc.com,daytondailynews.com,journal-news.com,springfieldnewssun.com###page-header:style(position: static !important;)
-ajc.com,daytondailynews.com,journal-news.com,springfieldnewssun.com##.header-fixed .main-nav--sticky-logo, .header-fixed .main-nav__item__logo, .header__mobile-logo__image, .header__mobile-pinned-logo__image, .main-nav--sticky-logo, main-nav__flyout__section-name, .main-nav__user-mobile-pinned, .hidden-md-down.footer-wrapper, .mobile-menu-footer, .mobile-menu-weather-widget, .page-padding, .story-nav
-ajc.com,daytondailynews.com,journal-news.com,springfieldnewssun.com##.header-fixed .wrapper--header.story-page .main-nav .main-nav__item, .main-nav__item__search, .main-nav__weather-icon-desktop, .main-nav__weather-temp-desktop:style(display: flex !important;)
+ajc.com,daytondailynews.com,journal-news.com,springfieldnewssun.com##.c-headerNav .nav-logo, .c-headerNav .nav-mobile-logo, .c-headerNav nav, .header-fixed .wrapper--header.story-page .main-nav .main-nav__item, .main-nav__item__search, .main-nav__weather-icon-desktop, .main-nav__weather-temp-desktop:style(display: flex !important;)
+ajc.com,daytondailynews.com,journal-news.com,springfieldnewssun.com##.c-headerNav:style(position: static !important; padding-bottom: 30px !important; width: 90% !important; max-width: 1600px !important; height: auto !important; box-sizing: content-box !important; border-bottom: none !important; opacity: 1 !important;)
+ajc.com,daytondailynews.com,journal-news.com,springfieldnewssun.com##.header-fixed .main-nav--sticky-logo, .header-fixed .main-nav__item__logo, .header__mobile-logo__image, .header__mobile-pinned-logo__image, .main-nav--sticky-logo, .main-nav__flyout__section-name, .main-nav__user-mobile-pinned, .hidden-md-down.footer-wrapper, .mobile-menu-footer, .mobile-menu-weather-widget, .page-padding, .stickyNav, .sticky-padding.is-visible, .story-nav
 ajc.com,daytondailynews.com,journal-news.com,springfieldnewssun.com##.header-fixed .wrapper--header.story-page .main-nav .main-nav__item.main-nav--sticky-logo:style(display: none !important; height: 0 !important; padding: 1.25rem 1.3vw 0.25rem 0 !important; align-items: flex-end !important;)
 ajc.com,daytondailynews.com,journal-news.com,springfieldnewssun.com##.header-mobile-container:style(display: block !important;)
 ajc.com,daytondailynews.com,journal-news.com,springfieldnewssun.com##.header.container:style(padding-bottom: 30px !important;)
-ajc.com,daytondailynews.com,journal-news.com,springfieldnewssun.com##.hidden-md-down.sub-header-nav, .logo:style(position: absolute !important;)
 ajc.com,daytondailynews.com,journal-news.com,springfieldnewssun.com##.main-nav:style(display: flex !important; float: unset !important; height: 60px !important;)
 ajc.com,daytondailynews.com,journal-news.com,springfieldnewssun.com##.main-nav__item__search-desktop:style(flex-basis: 180px !important; border-bottom: solid 1px #cdcdcd !important;)
 ajc.com,daytondailynews.com,journal-news.com,springfieldnewssun.com##.main-nav__user-desktop:style(padding-left: 0.9375rem !important;)
