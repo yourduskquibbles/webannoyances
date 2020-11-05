@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Cookie Filters
-! Last Modified: 15:06 2020-11-03
+! Last Modified: 09:25 2020-11-05
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Cookie Annoyances - Remove Cookie/GDPR Banners, Notices, Overlays & Warnings
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -287,7 +287,7 @@ bilasport.net##.cc-banner, .cc-banner.cc-window, .cc-window
 birdguides.com###cookie-control-modal, .modal-backdrop
 bit-tech.net###GDPR
 blackmainstreet.net###ct-ultimate-gdpr-cookie-popup
-blog.google###cookieBar
+blog.google,marketingplatform.google.com###cookieBar
 bloomberglaw.com##[class*="CookieNotice_cookiesBar"]
 bloomberglaw.com,codex.online,evry.com,neweracap.com,threadreaderapp.com##.cookies
 bt.com##.cookie-ui__cookieUI___3fxp1
@@ -422,6 +422,7 @@ tenforums.com###cookiescript_injected
 the-sun.com,thescottishsun.co.uk,thesun.co.uk,thesun.ie###cookie-bar, .back-to-top
 thedonald.win###top, .cookie-consent
 thefa.com##.active.fa-cookie
+theguardian.com##[id*="sp_message_container"]
 theinquirer.net###rdm-cookie-consent
 themefoxx.com###cookie-consent-lite
 thepostmillennial.com###main-cookie-banner, #main-trust-badge, .sh-back-to-top, .sp-overlay, .tpm-backtop.el-backtop
