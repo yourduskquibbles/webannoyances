@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 16:02 2020-11-04
+! Last Modified: 09:20 2020-11-05
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1809,9 +1809,10 @@ climateactionprogramme.org##.floatingmainmenu.thisisfixed.header-menu, .floating
 cliqz.com##.logo-container:style(padding: 27px 36px 27px 0 !important;)
 cliqz.com,mightyearth.org,puretrance.com##.menu-container:style(position: absolute !important;)
 cloud.google.com##.devsite-nav.devsite-page-nav:style(position: relative !important; top: 0 !important; left: auto !important;)
-cloud.google.com##.devsite-top-section-pinned.nocontent.devsite-top-section, .h-c-header__bar:style(position: absolute !important;)
+cloud.google.com##.devsite-top-section-pinned.nocontent.devsite-top-section, .h-c-header__bar, devsite-header:style(position: absolute !important;)
 cloud.google.com##.h-c-header--corporate-initiative.h-is-wholly-scrolled .h-c-header__bar, .h-c-header--product-initiative.h-is-wholly-scrolled .h-c-header__bar:style(transform: translateZ(0) !important;)
 cloud.google.com##.nocontent.devsite-nav.devsite-section-nav:style(position: relative !important; top: 0 !important;)
+cloud.google.com##cloudx-jump-menu:style(position: absolute !important; top: 80px !important;)
 cloudflare.com##.button--new-orange:style(background: transparent !important; border: 1px solid #000 !important; color: #000 !important;)
 cloudflare.com##.cms-topnav.topnav.top-nav.js-top-nav.nav-padding-framework, .desktop-nav.nav-dropdown.nav-padding-framework:style(margin-top: unset !important;)
 cloudflare.com##.desktop-nav:style(position: absolute !important;)
