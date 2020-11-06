@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Ad Placeholder Filters
-! Last Modified: 11:41 2020-11-05
+! Last Modified: 09:58 2020-11-06
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for empty advertising placeholders.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -299,6 +299,7 @@ ksbw.com,mynbc5.com,wbaltv.com,wdsu.com,wesh.com,wisn.com,wlwt.com,wmtw.com,wpbf
 kutv.com,local21news.com##.index_adBeforeContent__j4lF, .index_displayAd__2OZ-
 kvoa.com###WNAd41
 kyivpost.com##.wrap > .b-title:has-text(/Advertisement/)
+ladbible.com##[class*="-margin-Advert"]
 lamag.com##.module-ad
 latimes.com,pacificsandiego.com,sandiegouniontribune.com##.google-dfp-ad-wrapper, div.GoogleDfpAd-wrapper
 lawandcrime.com###lnn-promo
@@ -377,7 +378,7 @@ news.yahoo.com##.vdb-player-extra-advertisement-text:upward(1)
 newser.com###divGetNewserApps
 newsmax.com###adblockermessage, #nmSpecialLinksWrapper
 newstatesman.com##.article-footer-promotion, .header-promotion, .region-ns-offers
-newsweek.com##.block-fusion-adsnews
+newsweek.com##.block-fusion-adsnews, .promo-box
 newyorker.com###AMS_NYR_CONTENTPAGE_TEXTOFFER, #digital-editions, #position2_yrail, #rolloverAd, .ArticleFooter__adEndArticle___2_iy_, .DailyCartoonSection__adContainer___2M0dz, .SpotlightSection__adContainer___21KsF, .cne-interlude-container, .cns-ads-container, [class^="Ad__"]
 nextgov.com##.advert-placeholder, .ng-topad
 nextimpulsesports.com###top-ad-section
