@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 14:18 2020-11-06
+! Last Modified: 09:34 2020-11-09
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -4866,7 +4866,10 @@ marketbeat.com###sticky-bar
 marketingland.com##.drop_shadow:style(opacity: 0 !important;)
 marketingland.com##.mini-logo:style(width: 165px !important;)
 marketingland.com##.stickyheader.navbar-header:style(position: relative !important; top: 0 !important;)
+marketingplatform.google.com##.flex.app-container:style(overflow: auto !important;)
 marketingplatform.google.com##.gmp-header__bar.h-c-header__bar:style(position: absolute !important; top: 0 !important; transform: none !important;)
+marketingplatform.google.com##.layout-column:style(display: block !important;)
+marketingplatform.google.com##md-content[role="main"]:style(overflow: hidden !important;)
 marketplace.org###player, .fixed-header:style(position: absolute !important;)
 marketplace.visualstudio.com###section-banner, .itemdetails.details-tab, .ms-Pivot, .ux-item-shortdesc:style(animation: none !important;)
 marketplace.visualstudio.com###section-banner, .ms-Pivot:style(position: relative !important;)
