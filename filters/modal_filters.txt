@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 10:01 2020-11-09
+! Last Modified: 15:17 2020-11-10
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of other page covering elements. Cookie/GDPR notices will be removed in Cookie Filters sublist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -269,7 +269,6 @@ dailyprogress.com,dothaneagle.com,fredericksburg.com,godanriver.com,greensboro.c
 dailystartreknews.com##.overlay-mobile-styles-enabled
 dailywire.com##.remodal-is-opened, .remodal-overlay
 dariusforoux.com###ck_overlay, .ck_modal
-darlingmagazine.org,headphonesty.comsocialcops.com,socialitelife.com,yp.sg##.posts-pagination
 databreachtoday.com###popup-interstitial-full-page
 dataviper.io##.footer-scroll-top, .scroll-top
 daveramsey.com###ProgressBar, #dr_interrupter_budgeting, .dr-Interrupter
@@ -661,7 +660,7 @@ nytimes.com##body:style(overflow: unset !important;)
 nytimes.com##html:not(.nytapp-vi-interactive):style(overflow-x: hidden !important; overflow-y: auto !important; padding-right: 0 !important;)
 nzherald.co.nz###wpnPop
 objective-see.com##.mc-modal-bg
-offers.com###modal-overlay, #takeover
+offers.com##html.no-scroll:style(overflow: auto !important;)
 oilprice.com,themediterraneandish.com,topclassactions.com,uspostnews.com,wellplated.com##.Campaign
 oilprice.com,uspostnews.com##html.om-position-popup body:style(overflow-x: hidden !important; overflow-y: scroll !important; padding-right: 0 !important;)
 old.reddit.com##.in.spezmodal.fade.modal, .in.fade.modal-backdrop

@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 09:41 2020-11-09
+! Last Modified: 15:17 2020-11-10
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -856,7 +856,7 @@ babycenter.com##.headerLogoContainer .bgLogo:style(height: 55px !important; widt
 babygaga.com,hotcars.com,moms.com,screenrant.com,thegamer.com,thequiz.com,therichest.com,thesportster.com,thetalko.com,thethings.com,thetravel.com###js-header:style(position: absolute !important;)
 babygaga.com,hotcars.com,moms.com,screenrant.com,thegamer.com,thequiz.com,therichest.com,thesportster.com,thetalko.com,thethings.com,thetravel.com##.sidebar-sticky:style(position: relative !important; top: 0 !important;)
 babynames.net##.names-container [style*="user-select: none"]:style(user-select: auto !important;)
-babynames.net,spigen.com##.nav-bar:style(position: relative !important;)
+babynames.net,crn.com,scout.com,spigen.com##.nav-bar:style(position: relative !important;)
 babynamesdirect.com###fav:style(position: absolute !important;)
 backblaze.com##.custom-logo-link:style(max-width: 180px !important;)
 backblaze.com##.site-title a:style(margin-top: 24px !important; margin-bottom: 24px !important;)
@@ -2229,6 +2229,7 @@ darkpatterns.org##.fixed-part:style(position: absolute !important;)
 darkpatterns.org##.logo-part span:style(font-size: 62px !important; line-height: 44px !important;)
 darkpatterns.org##.logo-part:style(display: block !important; padding-top: 50px !important;)
 darlingmagazine.org##.navbar-visible.navbar-stuck.social-disabled.navbar-center.navbar-primary:style(position: absolute !important;)
+darlingmagazine.org,headphonesty.comsocialcops.com,socialitelife.com,thenationalpulse.com,yp.sg##.posts-pagination
 dashlane.com##.header-std:style(position: absolute !important;)
 datacenterdynamics.com###mainnav:style(position: relative !important; top: 0 !important;)
 datacenterknowledge.com##.header .header-inner, .menu-toggler .menu-toggler-img-wrap:style(line-height: 90px !important;)
@@ -5761,6 +5762,7 @@ ocweekly.com##.fixed-menu-logo, .fixed-search
 ocweekly.com##.main-navigation:style(justify-content: space-evenly !important;)
 ocweekly.com##.navigation-top:style(position: absolute !important; bottom: 0 !important; top: unset !important;)
 ocweekly.com##.sticky-bar.masthead:style(position: relative !important; top: 0 !important;)
+offers.com###main:style(margin-top: 0 !important;)
 offerup.com##._w4ksuk9:style(position: relative !important;)
 office.com###feedbackSection, #layout-header:style(position: absolute !important;)
 office.com###layout-navigation:style(position: absolute !important; top: 50px !important;)
@@ -6606,7 +6608,6 @@ scoop.co.nz##body.scrolling-menu:style(padding-top: 0 !important;)
 scotsman.com###sticky-footer, .slab--bottommobilebanner
 scottscheapflights.com##.w-nav.nav-backing:style(position: absolute !important;)
 scout.com###updatebar-root
-scout.com##.clearfix.nav-bar:style(position: relative !important;)
 scout.com##.ctx-bg-dark.stronga:style(position: relative !important; top: 0 !important;)
 scouting.org##.sc-sticky-header:style(position: absolute !important;)
 screenbeam.com###main-header, #ssb-container:style(position: absolute !important;)
@@ -7682,6 +7683,8 @@ theplaylist.net###cb-main-menu, .clearfix.cb-top-menu-wrap.wrap:style(position: 
 thepostmillennial.com###floating-videoWrapper:style(position: static !important; bottom: unset !important; right: unset !important; transform: none !important;)
 thepostmillennial.com###navbar, .widget.second.sticky-wrapper.bg-white.vue-sticky-el.top-sticky:style(position: static !important;)
 thepostmillennial.com##.header.partial:style(position: absolute !important;)
+thepostmillennial.com##.main-header header:style(padding: 1.5rem 1rem !important;)
+thepostmillennial.com##.main-header:style(position: relative !important;)
 thepostmillennial.com##.post-content-share:style(position: absolute !important; top: 0 !important;)
 theprairiehomestead.com##.before-header-bar:style(position: static !important;)
 theprairiehomestead.com##.shrink.site-header:style(position: relative !important;)
