@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 13:31 2020-11-12
+! Last Modified: 15:18 2020-11-12
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -7553,6 +7553,7 @@ theenergydetective.com##.navbar .sticky-header-minicart, .sticky-logo
 theenergydetective.com##.navbar:style(position: relative !important; box-shadow: none !important; border-bottom: 1px solid #000 !important;)
 theengineeringmanager.com##.stickit.entry-header-single:style(position: absolute !important;)
 theengineroom.org##.header:style(position: absolute !important; top: 0 !important;)
+theepochtimes.com###sidebar_comments:style(position: relative !important; top: 0 !important;)
 theepochtimes.com###slim-header, .main_content .tool_box:style(position: absolute !important; top: 0 !important;)
 theepochtimes.com##.sticky.title_wrap
 thefa.com##.body-content:style(margin-top: 0 !important;)
@@ -7660,7 +7661,7 @@ thenationalpulse.com###rumble_cc4cir:style(height: auto !important;)
 thenationalpulse.com##.navbar-dummy, .rumble_cc4cir-Rumble-cls > div[style*="width: auto; height: auto;"], .site-title.navbar-brand
 thenationalpulse.com##.navbar-primary:style(position: relative !important;)
 thenationalpulse.com##.rumble_cc4cir-Rumble-cls:style(position: relative !important; width: 100% !important; max-width: unset !important; inset: auto !important;)
-thenationalpulse.com##.sticky-sidebar-enabled.stick-to-top .sidebar-1:style(position: static !important;)
+thenationalpulse.com##.sticky-sidebar-enabled.stick-to-bottom .sidebar-1, .sticky-sidebar-enabled.stick-to-top .sidebar-1:style(position: static !important;)
 thenerdy.com###nav-container:style(position: absolute !important;)
 thenest.com##.jwplayer__container:style(position: relative !important; padding-bottom: 56.25% !important;)
 thenevadaindependent.com##.sticky-inner-wrapper:style(position: static !important; transform: none !important;)
@@ -8415,6 +8416,7 @@ washingtonpost.com##.site-header.bar-hidden:style(height: 80px !important; webki
 washingtonpost.com##.utility-bar-wrapper, .wpv-fixed:style(position: static !important;)
 washingtonpost.com##.utility-bar:style(position: absolute !important; top: 0 !important; margin-top: 0 !important;)
 washingtonpost.com##.voracious-header-line:style(position: relative !important; transform: none !important;)
+washingtonpost.com##[data-qa="utility-bar"]:style(position: relative !important; top: 0 !important; left: 0 !important;)
 washingtonpress.com##.header--slide.fixed.header
 washingtontimes.com###feedbackify, .floatCloseButton
 washingtontimes.com###masthead, .globalheader_container, .main-nav-scrolled.globalheader_container:style(position: relative !important; top: 0 !important;)
