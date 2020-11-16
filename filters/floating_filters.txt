@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 09:05 2020-11-16
+! Last Modified: 09:30 2020-11-16
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -3268,7 +3268,7 @@ foxnews.com###navbar-main, #network, .desktop.sidebar-primary.sidebar-article.si
 foxnews.com###site-wrapper.scroll-video .video-wrap .video-container:style(position: absolute !important; top: -421.867px !important; right: 14px !important; width: 750px !important; height: 421.867px !important;)
 foxnews.com###top:style(position: relative !important; top: 0 !important; margin-top: 0 !important;)
 foxnews.com##.c-item.c-item-first.c-item-last, .featured.featured-video .control, .featured.featured-video.sticky-video .contain .info .title:before, .g-41.section-featured, .vid-scroll-bknd
-foxnews.com##.col-md-8.col-xs-12.inner-container, .sticky-region, body .sticky, body .sticky-bottom, body .sticky-top:style(position: relative !important;)
+foxnews.com##.col-md-8.col-xs-12.inner-container, .item-elections-nav, .sticky-region, body .sticky, body .sticky-bottom, body .sticky-top:style(position: relative !important;)
 foxnews.com##.collection-article-scroller:style(position: relative !important; box-shadow: none !important; animation: none !important;)
 foxnews.com##.contain > .info:style(background-color: #fff !important;)
 foxnews.com##.featured .info .caption .title:style(font-size: 18px !important; line-height: 24px !important; vertical-align: top !important;)
@@ -5270,7 +5270,10 @@ myrecipes.com##.desktop-only.tall-only.logo:style(transform: none !important; op
 myrecipes.com,travelandleisure.com##.full-logo:style(opacity: 1 !important; transform: none !important;)
 mysanantonio.com##._3cE4pPRA95cnUaxH8Y1Bbf:style(position: static !important; height: 500px !important;)
 mystatesman.com##.main-nav-container:style(position: relative !important; top: 0 !important;)
-mystream.to##.scrolled.header:style(position: absolute !important;)
+mystream.to##.container, .logo:style(position: static !important;)
+mystream.to##.header:before
+mystream.to##.header:style(position: absolute !important; box-shadow: none !important;)
+mystream.to##.header__nav ul a, .logo:style(color: #000 !important;)
 mysupermarket.co.uk##.SiteHeader:style(position: relative !important;)
 mywordsnthoughts.com###nav-topbar:style(position: absolute !important; transform: translate(0px, 0px) !important;)
 mywordsnthoughts.com##.sidebar-content:style(transform: translate(0px) !important;)
