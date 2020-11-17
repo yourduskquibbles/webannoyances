@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 14:26 2020-11-16
+! Last Modified: 11:14 2020-11-17
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2731,7 +2731,9 @@ electronichouse.com##.filter-drop-spacer, .td-a-rec, td-logo-sticky.td-logo-in-h
 electronicsforu.com##.td-affix.td-header-gradient.td-header-menu-wrap:style(position: relative !important; transform: none !important; background-color: #fff !important;)
 elegantthemes.com###main-nav, .card-featured.accent-pink.promo-slide-in:style(position: absolute !important;)
 elektrobike-online.com###main-menu:style(position: absolute !important; top: 0 !important;)
-elementor.com##.elementor-section-wrap section:nth-of-type(1):style(position: relative !important; display: block !important;)
+elementor.com##.elementor-sticky--effects, nav[id="topbar"]:style(position: relative !important;)
+elementor.com##.elementor-sticky__spacer:remove()
+elementor.com##.elementor-widget-wrap .elementor-sticky__spacer, nav[id="topbar"][class*="elementor-sticky__spacer"]
 elementsproject.org##.visible.transition.menu.inverted.fixed.top.large.ui:style(position: absolute !important; display: flex !important;)
 elephant.com##.elephant-navigation:style(position: absolute !important;)
 elevatingsound.com##.show-nav.single-nav.home-nav
