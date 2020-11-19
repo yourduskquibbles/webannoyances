@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - AdGuard Android App Exclusion Filters
-! Last Modified: 14:32 2020-10-16
+! Last Modified: 11:14 2020-11-19
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for AdGuard Android App Exclusion Filters. This list is used to fix page display issues caused by CSS Style & Companion filters not working properly with AdGuard Android App.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -12,4 +12,14 @@
 ! Start Web Annoyances Ultralist - AdGuard Android App Exclusion Filters
 !#if adguard_app_android
 support.google.com##.fixed-sidebar-container:not([style="left: 0px;"]):style(position: absolute !important; top: 0 !important;)
+www.google.com#@#.Lj9fsd.DU1Mzb .AWbbyf, .Lj9fsd.DU1Mzb .Aj0WOd, .Lj9fsd.DU1Mzb .lhkctf, .Lj9fsd.DU1Mzb .CzSCNb, .Lj9fsd.DU1Mzb .OWOjU, .Lj9fsd.DU1Mzb .AQxKeb:style(height: 24px !important; width: 24px !important;)
+www.google.com#@#.Lj9fsd.DU1Mzb .F1hUFe:style(padding: 4px 28px 0 30px !important;)
+www.google.com#@#.Lj9fsd.DU1Mzb .F7UV7d:style(height: 24px !important; width: 24px !important; background-size: 24px !important;)
+www.google.com#@#.Lj9fsd.DU1Mzb .JSAgYe:style(line-height: 34px !important;)
+www.google.com#@#.Lj9fsd.DU1Mzb .Si7Nvc:style(top: 0 !important;)
+www.google.com#@#.Lj9fsd.DU1Mzb .wQnou:style(height: 46px !important;)
+www.google.com#@#.Lj9fsd.DU1Mzb .zthhpf:style(height: 44px !important; align-items: normal !important;)
+www.google.com#@#.WaWKOe[style*="opacity:"]:style(height: 100% !important;)
+www.google.com#@#.l39u4d[style*="width:"]:style(top: 0 !important; height: 100% !important;)
+www.google.com#@#header.Lj9fsd:style(position: absolute !important; top: 10px !important; box-shadow: none !important;)
 !#endif
