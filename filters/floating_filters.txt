@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 15:14 2020-11-18
+! Last Modified: 14:10 2020-11-20
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -312,6 +312,7 @@ aei.org###main-filter-sidebar:style(position: absolute !important;)
 aeon.co##.article__actions.stuck:style(position: absolute !important;)
 aeon.co##.header--fixed, .header--fixed--visible, .header-banner, .sticky-wrapper
 aeon.co##.header--fixed--visible.header--fixed.header, .header--top.header, .site-menu:style(position: absolute !important; top: 0 !important;)
+aeon.co##[data-react-class="Aeon.HeaderBridge"] > span:nth-of-type(1)
 aerospace-technology.com,airport-technology.com,army-technology.com,chemicals-technology.com,clinicaltrialsarena.com,cosmetics-technology.com,designbuild-network.com,drinks-insight-network.com,foodprocessing-technology.com,homelandsecurity-technology.com,hospitalmanagement.net,hotelmanagement-network.com,medicaldevice-network.com,mining-technology.com,naval-technology.com,offshore-technology.com,packaging-gateway.com,pharmaceutical-technology.com,power-technology.com,railway-technology.com,retail-insight-network.com,roadtraffic-technology.com,ship-technology.com,verdictfoodservice.com,water-technology.net###stick-related:style(position: relative !important; bottom: 0 !important;)
 aeternity.com###topnav, .gitter-open-chat-button:style(position: absolute !important;)
 aetna.com##.fixed.megamenu:style(position: absolute !important;)
@@ -918,6 +919,9 @@ bankrate.com###KJECalculate, #KJEViewReport:style(border: 1px solid #000 !import
 bankrate.com###KJECommandButtons:style(left: -71% !important; top: -35px !important;)
 bankrate.com###KJEViewReport:style(background-color: #ffce48 !important;)
 bankrate.com##.byline:style(position: relative !important; box-shadow: none !important;)
+banned.video##.css-16pyb3p:style(position: absolute !important; margin-top: 25px !important; bottom: unset !important;)
+banned.video##.css-1fwihof:style(position: absolute !important; height: unset !important;)
+banned.video##.css-nxw3us:style(position: absolute !important;)
 barrons.com###webui-header:style(display: block !important;)
 barrons.com###webui-read-next, .sticky-header
 barrons.com##.BarronsTheme__bar-container_2H8QOObG_wX65taOarj2LM, .BarronsTheme__lg_3bBfnIJfL-azMHVYjvRoFi .BarronsTheme__standard_2mqUHE5fiqUijtQAyq8ei9 .BarronsTheme__bar-container_2H8QOObG_wX65taOarj2LM:style(height: calc(104.5px - 2.5vw) !important; padding-top: 8px !important;)
@@ -1496,8 +1500,6 @@ bytom.io##.site-branding img:style(height: 50px !important;)
 c-span.org###content > .container > .sticky-wrapper > .stuck.channel-stick:style(position: absolute !important;)
 c-span.org##.live-video-wrapper:style(position: static !important;)
 c0reteam.org##.topbar:style(position: relative !important; top: 0 !important;)
-ca.finance.yahoo.com##.modal-open #ybar ._yb_lfekl > ._yb_11lt7, .ybar-hide-navigation #ybar ._yb_lfekl > ._yb_11lt7:style(opacity: 1 !important; margin-top: unset !important;)
-ca.finance.yahoo.com##.ybar-page-is-scrolled .ybar-sticky #ybar-inner-wrap:style(box-shadow: none !important;)
 ca.gov###head-search:style(visibility: visible !important; opacity: 1 !important;)
 caagearup.com##.sticky--pinned.site-header-inner:style(position: absolute !important;)
 cablehaunt.com##.mat-drawer-content:style(overflow: hidden !important;)
@@ -2424,6 +2426,7 @@ digg.com###js--digg-header, .site-navigation__nav-list:style(position: relative 
 digg.com##.content-main:style(padding-top: 30px !important;)
 digg.com##.content-primary:style(margin-top: 30px !important;)
 digg.com##.main-navigation:style(position: absolute !important; top: 0 !important; transform: translateY(0) !important;)
+digg.com##.namespace-sidebar:style(position: static !important;)
 digg.com##.placeholder.fp-vertical-story, .site-navigation-bottom
 digg.com##.site-header__title:style(opacity: 1 !important;)
 diggitmagazine.com##.region--header.region:style(position: relative !important; top: 0 !important;)
@@ -3057,6 +3060,8 @@ filehippo.com##.navbar-fixed-top.navbar-default.navbar.bootstrap-home:style(posi
 filingdb.com,m4arts.org###SITE_HEADER:style(position: absolute !important;)
 filmlifestyle.com##.sh-sticky-header-active.sh-sticky-header.sh-header-2.sh-header:style(position: relative !important; left: unset !important; right: unset !important;)
 filmschoolrejects.com##.navbar-sticky:style(position: relative !important; top: 0 !important;)
+finance.yahoo.com##.modal-open #ybar ._yb_lfekl > ._yb_11lt7, .ybar-hide-navigation #ybar ._yb_lfekl > ._yb_11lt7:style(opacity: 1 !important; margin-top: unset !important;)
+finance.yahoo.com##.ybar-page-is-scrolled .ybar-sticky #ybar-inner-wrap:style(box-shadow: none !important;)
 finance.yahoo.com,news.yahoo.com###YDC-MainCanvasLeadAd-Composite, .vp-docked-bg
 finance.yahoo.com,news.yahoo.com###close-modal-btn:style(position: absolute !important; top: 20px !important;)
 finance.yahoo.com,news.yahoo.com##html:not(.modal-postopen) #Navigation:style(transform: translate3d(0,0,0) !important; transition: 0 !important;)
@@ -3236,6 +3241,10 @@ fossdroid.com##.mdl-layout__container:style(position: relative !important; top: 
 fosters.com###edge-radio-player-container:style(position: absolute !important;)
 foundation.mozilla.org##.category-nav, .creepiness-slider:style(position: relative !important;)
 foundr.com##.scrolled.site-header:style(position: absolute !important; background-color: transparent !important;)
+fourseasons.com###TopNav-mainNav:style(height: 121px !important;)
+fourseasons.com##.Navigation--hasHero .Navigation-background:style(background-color: transparent !important;)
+fourseasons.com##.Navigation--hasHero .Navigation-backgroundGradient:style(opacity: 1 !important;)
+fourseasons.com##.Navigation-lg.is-Stick:style(position: static !important; transform: translateY(0) !important;)
 fox-it.com##.loaded.navigation.doc__main-nav:style(position: absolute !important;)
 fox13memphis.com,kiro7.com,rsaconference.com,wafb.com###sticky-nav:style(position: relative !important;)
 fox19.com,hawaiinewsnow.com,mysuncoast.com,nbc12.com,wlbt.com###sticky-nav:style(position: relative !important;)
@@ -5758,6 +5767,7 @@ nytimes.com##.viewport-medium-30 .masthead .quick-navigation .button-text:style(
 nytimes.com##.viewport-medium-30 .masthead.masthead-theme-standard .quick-navigation .button-text:style(margin-left: 7px !important;)
 nytimes.com##.viewport-medium-30 .masthead.masthead-theme-transparent .home-button .button-text, .viewport-medium-30 .masthead.masthead-theme-transparent-ffffff .home-button .button-text:style(position: relative !important; margin-left: 5px !important;)
 nytimes.com##body:style(overflow-x: unset !important;)
+nytimes.com##div > nav[aria-labelledby="storyline-menu-title"][role="navigation"]:upward(1)
 nytimes.com##div[data-testid="photoviewer-overlay"] >div:not([data-testid="photoviewer-captionblock"]):not([data-testid="photoviewer-wrapper-hidden"]), div[data-testid="photoviewer-wrapper"] >div:not([data-testid="photoviewer-captionblock"]):not([data-testid="photoviewer-wrapper-hidden"]):style(height: calc(100% - 25px) !important;)
 nytimes.com##section[data-block-tracking-id="Editors Picks"]:style(margin-bottom: 40px !important;)
 nzherald.co.nz##.floatingNav, .nz-herald.onscreen.site-logo-wrapper:style(position: relative !important; top: 0 !important;)
