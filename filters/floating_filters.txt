@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 08:10 2020-11-24
+! Last Modified: 08:14 2020-11-24
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -3300,7 +3300,9 @@ foxsports.com##.promo-footer:style(position: relative !important; bottom: 0 !imp
 foxsportsgo.com##.fsg-header:style(position: absolute !important;)
 framablog.org###actionButtons:style(position: absolute !important; top: auto !important;)
 framablog.org###fnav:style(position: absolute !important;)
+france24.com###didomi-host
 france24.com##.header, .on-air-board-outer, .short-cuts-outer:style(position: relative !important; top: 0 !important;)
+france24.com##body.didomi-popup-open > :not(#didomi-host):style(filter: none !important;)
 fratellirossetti.com###skywalker_header_multiline:style(position: absolute !important;)
 free.vice.com##.site-header__logo:style(width: 95px !important;)
 freecourseweb.com###sticky:style(position: static !important;)

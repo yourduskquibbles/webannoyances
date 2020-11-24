@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 14:10 2020-11-20
+! Last Modified: 08:14 2020-11-24
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of other page covering elements. Cookie/GDPR notices will be removed in Cookie Filters sublist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -389,7 +389,9 @@ fox32chicago.com,realclearbooks.com,realcleardefense.com,realcleareducation.com,
 foxglove.org.uk##.sqs-popup-overlay
 foxnews.com###janrainModalOverlay, .notification-banner
 fragrancenet.com##.joinCoupSlider, .shopSpreeBadge
+france24.com###didomi-host
 france24.com##.next
+france24.com##body.didomi-popup-open > :not(#didomi-host):style(filter: none !important;)
 freecourseweb.com###to_top_scrollup
 freedomnode.com###overlay
 freedomoutpost.com##.vw-scroll-to-top
