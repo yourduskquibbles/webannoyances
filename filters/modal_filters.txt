@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 12:49 2020-11-24
+! Last Modified: 16:47 2020-11-25
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of other page covering elements. Cookie/GDPR notices will be removed in Cookie Filters sublist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -585,7 +585,8 @@ metacafe.com###shadow, .OUTBRAIN
 metacritic.com###popup_newslettter
 mic.com##.modal-prompt-half-page, .new-user-modal
 michaels.com##.modal-body
-mint.intuit.com##.dPogsT.Backdrop__Wrapper-qntnqr-0, .iIlfZT.StyledModalDialog__Container-cn89yw-1
+mint.intuit.com##.dPogsT.Backdrop__Wrapper-qntnqr-0
+mint.intuit.com##[aria-labelledby="idsModalHeader1"]:upward(2)
 minted.com##[class$="-lessThan"]
 mississippi.gov###socialModal
 mit.edu###cboxContent, #cboxOverlay
