@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Generic Filters
-! Last Modified: 10:00 2020-11-16
+! Last Modified: 09:27 2020-11-25
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for generic cosmetic filters - Cosmetically remove common annoyances found on multiple domains typically provided in the social, modal and newsletter Web Annoyances Ultralist sublists. Also includes cookie & gdpr warning elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1982,6 +1982,7 @@
 ##[href*="facebook.com/sharer/sharer.php?"]
 ##[href*="linkedin.com/shareArticle"]
 ##[href*="pinterest.com/js/pinmarklet.js?"]
+##[href*="pinterest.com/pin/create/button/"]
 ##[href*="reddit.com/submit/?url="]
 ##[href*="reddit.com/submit?title="]
 ##[href*="reddit.com/submit?url="]
@@ -2056,6 +2057,7 @@ msn.com#@#.stb-bsb
 nature.com,toptenreviews.com#@##back-to-top
 obi.ru#@#.smartbanner
 pinterest.com#@#[href*="pinterest.com/js/pinmarklet.js?"]
+pinterest.com#@#[href*="pinterest.com/pin/create/button/"]
 quora.com#@#.facebook_button
 reddit.com#@#[href*="reddit.com/submit/?url="]
 reddit.com#@#[href*="reddit.com/submit?title="]

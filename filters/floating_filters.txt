@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 12:49 2020-11-24
+! Last Modified: 09:27 2020-11-25
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -370,7 +370,7 @@ airlive.net,alaskapublic.org,alextimes.com,america.gov,blokt.com,careercrazze.co
 airlive.net,alextimes.com,cryptodisrupt.com##.td-logo-sticky
 airspacemag.com###Scroll-Nav, is-sticky.sticky-block
 airwaysmag.com##.floatingmainmenu.thisisfixed.header-menu, .floatingmainmenu_b.header-undermenu, .xoo-wsc-basket:style(position: absolute !important;)
-aivanet.com,celebtoast.com,crunchsmag.com,electronichouse.com,eng.uber.com,geekstraw.com,lastwordonprofootball.com,milestomemories.com,pressbull.com,rbr.com,sayingimages.com,smartphoneaccessoriesreview.com,techbizweb.com,themefoxx.com,zycrypto.com##.td-more-articles-box:style(position: absolute !important; right: 0 !important; visibility: visible !important;)
+aivanet.com,celebtoast.com,crunchsmag.com,electronichouse.com,eng.uber.com,geekstraw.com,lastwordonprofootball.com,milestomemories.com,morganhilltimes.com,pressbull.com,rbr.com,sayingimages.com,smartphoneaccessoriesreview.com,techbizweb.com,themefoxx.com,zycrypto.com##.td-more-articles-box:style(position: absolute !important; right: 0 !important; visibility: visible !important;)
 aivanet.com,digitaltariq.com,fandomwire.com,grownmenstuff.com,lastwordonprofootball.com,linux4one.com,smartphoneaccessoriesreview.com,statereviewer.com,techquila.co.in,thezerohack.com,time24.news,troublefixers.org##.td-ss-main-sidebar:style(position: static !important; top: auto !important;)
 aivanet.com,fandomwire.com,igeeksblog.com##.td-header-menu-wrap.td-affix:style(position: absolute !important; transform: translate3d(0,0,0) !important;)
 aiyprojects.withgoogle.com##.header-background:style(position: absolute !important;)
@@ -2801,6 +2801,9 @@ eos.io##.SectionHeader:style(position: absolute !important;)
 epainassist.com##.sticky-menu.navigation.container-fluid:style(position: relative !important;)
 epicgames.com##[class^="Group-header"]:style(position: absolute !important; top: 0 !important; bottom: unset !important;)
 epicgames.com##header#egh:style(position: absolute !important;)
+epicureaneva.com###main-header:style(position: absolute !important; box-shadow: 0 1px 0 rgba(0,0,0,.1) !important;)
+epicureaneva.com###top-header
+epicureaneva.com##.et_header_style_centered #main-header .logo_container:style(height: 153px !important;)
 epremki.com##.shrink.header:style(position: absolute !important;)
 equifax.com##.affix.sticky-nav:style(position: relative !important;)
 erahm.org,krypted.com###sidebar:style(position: absolute !important; top: 0 !important; bottom: unset !important;)
@@ -3493,11 +3496,9 @@ github.io##.site-header, header:style(position: relative !important;)
 github.io##.sticky.sidebar:style(position: static !important;)
 github.io,ipaddress.com,kerbalspaceprogram.com,law360.com,mapzen.com,mdpi.com,mobilityware.com,outerbanks.com,planeplottermobile.com,pokeassistant.com,recorder.com,robinhood.com,statepress.com,stereogum.com,stream-online-hd.xyz,tdhopper.com,thedatatrust.com,thehackerblog.com,wd.com,wionews.com,wireguard.com##.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 githubstatus.com##.custom-header-container:style(position: relative !important;)
-gitlab.com##.active.js-sticky-banner.sticky-banner
-gitlab.com##.flash-container.sticky:style(position: static !important;)
+gitlab.com##.active.js-sticky-banner.sticky-banner, .issue-sticky-header
+gitlab.com##.diff-file .file-title, .diff-file .file-title-flex-parent, .file-title, .flash-container.sticky, .merge-request-tabs-holder, .mr-version-controls:style(position: static !important;)
 gitlab.com##.is-stuck.oneline-block.js-diff-files-changed.files-changed.diff-files-changed.content-block:style(position: relative !important;)
-gitlab.com##.issue-sticky-header
-gitlab.com##.merge-request-tabs-holder, .mr-version-controls, .file-title:style(position: static !important;)
 gitlab.com##.navbar-empty.fixed-top.navbar:style(position: absolute !important; top: -40px !important;)
 gitlab.com##.right-sidebar-expanded.right-sidebar.js-right-sidebar.js-issuable-sidebar:style(position: absolute !important;)
 glaciermedia.ca##.fixed.sectors-menu.map-filters:style(position: absolute !important; top: 0 !important;)
@@ -5832,7 +5833,7 @@ openshot.org##.header-body:style(position: absolute !important;)
 opensignal.com##.is-scrolled.is-sticky.js-dropdown-opened.js-header.js-sticky-bar.c-header:style(position: absolute !important;)
 opentable.com##.navbar--fixed.navbar:style(position: relative !important; top: 0 !important;)
 opindia.com##.td-header-menu-wrap:style(position: absolute !important; transform: none !important;)
-oprah.com###page_navigation_wrapper:style(position: absolute !important;)
+oprah.com###page_navigation_wrapper, #sitenav:style(position: absolute !important;)
 opsschool.org##.rst-versions:style(position: absolute !important; bottom: -850px !important;)
 opsschool.org##.wy-nav-side:style(position: absolute !important; bottom: unset !important;)
 optibus.com##.sticky-mobile-on.masthead-mobile.masthead-mobile-header.show-mobile-logo.show-device-logo.small-mobile-menu-icon.full-height.widgets.center.inline-header.masthead:style(position: absolute !important; background-color: transparent !important;)
@@ -6617,11 +6618,11 @@ scitation.org##.fragmentNavigationContent ul li a:style(visibility: visible !imp
 scitation.org##.fragmentNavigationContent:style(position: absolute !important; top: 400px !important;)
 scitation.org##.pt-sticky-col-online.most-read-right-side.col-md-1-4:style(position: static !important;)
 sclabs.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute !important; top: 0 !important;)
-scmp.com###app:not(:has(.home-page-outer)):style(overflow-x: hidden !important; overflow-y: scroll !important; padding-right: 0 !important;)
+scmp.com###app:not(:has(.home-page-outer)):not(:has(.super-section)):style(overflow-x: hidden !important; overflow-y: scroll !important; padding-right: 0 !important;)
 scmp.com##.affix.affix-processed.navbar-default.navbar.masthead-main-sticky-nav, .article-detail-page-menu, .fixto-fixed.sidebar-col, .header--fixed.header, .is-stuck.is-at-top.sticky.sticky-wrap:style(position: absolute !important;)
 scmp.com##.article > .wrapper .contents .main .main__left .share-widget--desktop, .article > .wrapper .contents .main .row .share .share-widget--desktop, .lhs-sticky, .notification, .opinion-section, .page-header-menu, .visual-stories .accordion:style(position: static !important;)
 scmp.com##.article > .wrapper .contents .main .row .timeline .timeslot:style(position: static !important; overflow: unset !important;)
-scmp.com##.article-headline.headline-visible, .global-menu-content__text-wrapper, .header-menu-container__menu-top-center-wrapper
+scmp.com##.article-headline.headline-visible, .global-menu-content__text-wrapper, .header-menu-container__menu-top-center-wrapper, .router-link-active.router-link-exact-active.logo__right-icon-link
 scmp.com##.article-page .article-swiper, .article-page .article-swiper > .wrapper .slide__container, .article-page__content-container, .topic-content:style(overflow: unset !important;)
 scmp.com##.header-menu-container .header-menu .menu-top .menu-panel:style(transform: scale(0) !important; opacity: 0 !important;)
 scmp.com##.header-menu-container:style(position: relative !important; top: 0 !important; transform: translate3d(0px, 0px, 0px) !important;)
@@ -6633,9 +6634,9 @@ scmp.com##.mega-menu-tab:style(display: block !important;)
 scmp.com##.menu-bottom > .menu-list:style(opacity: 1 !important;)
 scmp.com##.menu-top > .scmp-logo > .router-link-active.router-link-exact-active.scmp-logo-container > .scmp-logo-svg:style(transform: scale(2) translate3d(0px, 0px, 0px) !important;)
 scmp.com##.menu-top, .section-content.homepage-front__section-content:style(transform: translate3d(0px, 0px, 0px) !important;)
-scmp.com##.notification-container, .page-container__notification-container:style(position: relative !important;)
+scmp.com##.notification-container, .page-container__notification-container, .super-section__global-menu-container, .topic-page__header-menu:style(position: relative !important;)
 scmp.com##.scrollmagic-pin-spacer:style(padding-top: 0 !important;)
-scmp.com##.topic-page__header-menu:style(position: relative !important;)
+scmp.com##.super-section .global-menu-content:style(will-change: unset !important; opacity: 1 !important; transform: translate3d(0,0,0) !important; animation: none !important;)
 scoop.co.nz###header-purotu-logo .for-full, #header-purotu-network, #header-purotu-strip:style(display: block !important;)
 scoop.co.nz###header-purotu-thick:style(padding: 32px 24px 32px 24px !important;)
 scoop.co.nz###header-purotu-wires:style(font-size: 18px !important;)
@@ -7799,7 +7800,7 @@ thetimes.co.uk##.ConversionTopBar:style(position: relative !important; top: 0 !i
 thetimes.co.uk##.GlobalNav:style(position: absolute !important;)
 thetoolsweneed.com###menu-button, .blog-logo:style(position: absolute !important;)
 thetrendspotter.net###header-title-logo, #shiftnav-toggle-main:style(position: absolute !important;)
-thetruthaboutguns.com##.next-previous_nav
+thetruthaboutguns.com##.next-previous_nav, .stickyHead
 theundefeated.com##.header-simple:style(position: relative !important;)
 theundefeated.com##.reading-list:style(position: static !important; top: 0 !important; bottom: unset !important;)
 theundefeated.com##.sticky-spacer
