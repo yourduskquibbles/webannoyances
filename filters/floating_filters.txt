@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 23:00 2020-11-26
+! Last Modified: 10:33 2020-11-27
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2486,6 +2486,7 @@ discover.teachable.com##.price-card:style(position: absolute !important; top: 0 
 diskgenius.com##.fixed_header.header:style(position: absolute !important;)
 disney.com##.tm-header:style(position: relative !important; transform: translateY(0) !important;)
 disney.com##.tm-site-container:style(margin-top: 0 !important;)
+disneyplus.com###app_navigation:style(background-color: transparent !important;)
 disneyplus.com###search-input:style(position: absolute !important;)
 disneyplus.com##body:style(user-select: auto !important;)
 disqus.com###container-page:style(padding-top: 0 !important;)
