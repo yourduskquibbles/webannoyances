@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 16:36 2020-11-25
+! Last Modified: 23:00 2020-11-26
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -5770,7 +5770,6 @@ nytimes.com##.viewport-medium-30 .masthead .quick-navigation .button-text:style(
 nytimes.com##.viewport-medium-30 .masthead.masthead-theme-standard .quick-navigation .button-text:style(margin-left: 7px !important;)
 nytimes.com##.viewport-medium-30 .masthead.masthead-theme-transparent .home-button .button-text, .viewport-medium-30 .masthead.masthead-theme-transparent-ffffff .home-button .button-text:style(position: relative !important; margin-left: 5px !important;)
 nytimes.com##body:style(overflow-x: unset !important;)
-nytimes.com##div > nav[aria-labelledby="storyline-menu-title"][role="navigation"]:upward(1)
 nytimes.com##div[data-testid="photoviewer-overlay"] >div:not([data-testid="photoviewer-captionblock"]):not([data-testid="photoviewer-wrapper-hidden"]), div[data-testid="photoviewer-wrapper"] >div:not([data-testid="photoviewer-captionblock"]):not([data-testid="photoviewer-wrapper-hidden"]):style(height: calc(100% - 25px) !important;)
 nytimes.com##section[data-block-tracking-id="Editors Picks"]:style(margin-bottom: 40px !important;)
 nzherald.co.nz##.floatingNav, .nz-herald.onscreen.site-logo-wrapper:style(position: relative !important; top: 0 !important;)
