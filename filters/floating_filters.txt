@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 10:10 2020-12-03
+! Last Modified: 11:15 2020-12-03
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -5239,6 +5239,9 @@ muckrock.com###nav, .global-header, .website-header:style(position: relative !im
 muckrock.com##.global-header + *:style(margin-top: 0 !important;)
 muffingroup.com###header:style(position: absolute !important;)
 mullvad.net##.site-header:style(position: absolute !important; padding-top: 30px !important; padding-bottom: 30px !important;)
+multimedia.scmp.com##.section:style(position: relative !important;)
+multimedia.scmp.com##.stickyLinks:style(position: relative !important; bottom: 0 !important;)
+multimedia.scmp.com##.w-clearfix.section-2:style(position: absolute !important;)
 multivu.com###topbar:style(position: relative !important; top: 0 !important;)
 mumsnet.com##.header:style(margin-top: 0 !important;)
 munchies.vice.com##.site-header__logo:style(width: 217px !important;)
@@ -6642,6 +6645,7 @@ scmp.com##.notification-container, .page-container__notification-container, .sup
 scmp.com##.scrollmagic-pin-spacer:style(padding-top: 0 !important;)
 scmp.com##.super-section .global-menu-content:style(will-change: unset !important; opacity: 1 !important; transform: translate3d(0,0,0) !important; animation: none !important;)
 scmp.com##.super-section__header-ad-slot-wrapper:style(padding: 0 !important;)
+scmp.com##.youtube-video-container__inner:style(position: relative !important; bottom: unset !important; left: unset !important; padding: 0 !important; width: 100% !important; height: 100% !important; animation: none !important; transform: translateY(0) !important;)
 scmp.com##html, body, #app:not(:has(.home-page-outer)):not(:has(.super-section)):style(overflow: auto !important;)
 scoop.co.nz###header-purotu-logo .for-full, #header-purotu-network, #header-purotu-strip:style(display: block !important;)
 scoop.co.nz###header-purotu-thick:style(padding: 32px 24px 32px 24px !important;)
