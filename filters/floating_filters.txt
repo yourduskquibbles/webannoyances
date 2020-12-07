@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 11:15 2020-12-03
+! Last Modified: 09:23 2020-12-07
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -461,6 +461,7 @@ allrecipes.com,bhg.com,coastalliving.com,cookinglight.com,ew.com,familycircle.co
 allrecipes.com,bhg.com,coastalliving.com,cookinglight.com,ew.com,familycircle.com,foodandwine.com,fortune.com,health.com,hellogiggles.com,instyle.com,myrecipes.com,parents.com,people.com,peopleenespanol.com,realsimple.com,southernliving.com,time.com,travelandleisure.com##.menu-homepage-row:first-of-type:style(height: 90px !important;)
 allrecipes.com,bhg.com,coastalliving.com,cookinglight.com,ew.com,familycircle.com,foodandwine.com,fortune.com,health.com,hellogiggles.com,instyle.com,myrecipes.com,parents.com,people.com,peopleenespanol.com,realsimple.com,southernliving.com,time.com,travelandleisure.com##.menu-homepage-row:last-of-type:style(height: 50px !important; top: 0 !important;)
 allrecipes.com,bhg.com,coastalliving.com,cookinglight.com,ew.com,familycircle.com,foodandwine.com,fortune.com,health.com,hellogiggles.com,instyle.com,myrecipes.com,parents.com,people.com,peopleenespanol.com,realsimple.com,southernliving.com,time.com,travelandleisure.com##.title-display:style(opacity: 0 !important; transform: none !important;)
+allrecipes.com,bhg.com,coastalliving.com,cookinglight.com,ew.com,familycircle.com,foodandwine.com,fortune.com,health.com,hellogiggles.com,instyle.com,myrecipes.com,people.com,peopleenespanol.com,realsimple.com,si.com,southernliving.com,time.com,travelandleisure.com###jumpstart_player_1:style(position: static !important;)
 allrecipes.com,bhg.com,coastalliving.com,cookinglight.com,ew.com,familycircle.com,foodandwine.com,fortune.com,health.com,hellogiggles.com,instyle.com,myrecipes.com,people.com,peopleenespanol.com,realsimple.com,si.com,southernliving.com,time.com,travelandleisure.com##.component.navigation-test .menu-homepage-row:last-of-type .logo, .scroll-up .component.navigation-test .primary-text-links
 allrecipes.com,bhg.com,coastalliving.com,cookinglight.com,ew.com,familycircle.com,foodandwine.com,fortune.com,health.com,hellogiggles.com,instyle.com,myrecipes.com,people.com,peopleenespanol.com,realsimple.com,si.com,southernliving.com,time.com,travelandleisure.com##.docking-nav-placeholder, .jumpnext-playlist-container, .vjs-loading-spinner
 allrecipes.com,bhg.com,coastalliving.com,cookinglight.com,ew.com,familycircle.com,foodandwine.com,fortune.com,health.com,hellogiggles.com,instyle.com,myrecipes.com,people.com,peopleenespanol.com,realsimple.com,southernliving.com,time.com,travelandleisure.com##.component.navigation-test .menu-homepage-row:last-of-type .primary-links, .logo, .menu-homepage-row:last-of-type .primary-link:style(display: block !important;)
@@ -4064,9 +4065,12 @@ imgur.com##.App-cover:style(position: absolute !important; top: 0 !important; bo
 imgur.com##.CoverChangeGallery:style(bottom: -29px !important;)
 imgur.com##.CoverPostMeta, .Footer.Footer-slim.Footer-measure, .PostTitleHeader, .UploadPost-postTitleSticked
 imgur.com##.Footer-slim:style(position: static !important; bottom: -60px !important;)
-imgur.com##.Gallery-EngagementBarContainer, .Gallery-Sidebar, .NavbarAvatar-navbar, .PostOptions:style(position: static !important;)
+imgur.com##.Footer-wrapper:style(position: relative !important;)
+imgur.com##.Gallery-EngagementBarContainer, .Gallery-Sidebar, .Gallery-Sidebar .Top.Sticky, .NavbarAvatar-navbar, .PostOptions:style(position: static !important;)
 imgur.com##.Navbar, .headerContainer, .headroom--scrolled.headroom--pinned.headroom, .post-header:style(position: relative !important; top: 0 !important;)
+imgur.com##.NavbarNotifications:style(display: inline-flex !important;)
 imgur.com##.NewCover.GalleryCover.isFixed .Navbar-signin, .NewCover.GalleryCover.isFixed .Navbar-signup, .NewCover.GalleryCover.isFixed .Navbar.active .NavbarNotifications, .NewCover.GalleryCover.isFixed .Navbar.active .NavbarUserMenu, .NewCover.GalleryCover.isFixed.withPostMeta .Searchbar:style(transform: translateY(0) !important;)
+imgur.com##.ProfileNavbar:style(position: relative !important; top: unset !important; right: unset !important;)
 imgur.com##.Searchbar:style(position: relative !important; margin-top: 0 !important;)
 imgur.com##.UploadCover:style(position: absolute !important; transform: translate(0px) !important;)
 imgur.com##.UploadPost-titleHidden:style(opacity: 1 !important;)
@@ -6710,12 +6714,16 @@ seekingalpha.com###a-cont.rb a:style(color: #024999 !important;)
 seekingalpha.com###a-cont.rb:style(color: #000 !important; text-shadow: unset !important;)
 seekingalpha.com###main-nav-wrapper-row, #nav-sec, #nav_container, #nav_container_wrap, .analysis.feed > .is-sticky.sticky-wrapper > .column, .portfolio-main.side-portfolio-wrapper:style(position: relative !important; top: 0 !important;)
 seekingalpha.com###sa-hd, .stick-hd :not(.slideup) #logo-row-container:style(position: relative !important; top: 0 !important; transform: translateY(0) !important;)
+seekingalpha.com##.bb7fb-2QXLE:style(position: static !important;)
 seekingalpha.com##.headerCollapsed .headerBarCollapsed:style(transform: translateY(0) !important;)
+seekingalpha.com##.headerOffset, .stick-hd:style(padding-top: 0 !important;)
+seekingalpha.com##.hlp-checklist-button, .hlp-checklist-dialog:style(position: absolute !important;)
 seekingalpha.com##.news.feed > .is-sticky.sticky-wrapper > .column, .no-more.analysis.feed > .is-sticky.sticky-wrapper > .column:style(position: relative !important; top: 0 !important; margin-left: 0 !important;)
 seekingalpha.com##.ng-isolate-scope.sa-article-wrapper:style(max-height: none !important;)
 seekingalpha.com##.sa-page-content, .stick-hd:style(top: 0 !important;)
-seekingalpha.com##.stick-hd:style(padding-top: 0 !important;)
-seekingalpha.com##.stick-up.sticky-checkout:style(position: relative !important;)
+seekingalpha.com##.stick-up.sticky-checkout, header:style(position: relative !important;)
+seekingalpha.com##:style(padding-top: 0 !important;)
+seekingalpha.com##header nav:upward(1):style(transform: translateY(0) !important;)
 seekingalpha.com##header[data-test-id="header"]:style(position: static !important; transform: translateY(0) !important;)
 seesparkbox.com##.foundry-sidebar--container:style(position: static !important;)
 seisukeknife.com##.isStuck.stuckMenu:style(position: absolute !important;)
