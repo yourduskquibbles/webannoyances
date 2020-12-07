@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 11:21 2020-12-07
+! Last Modified: 12:49 2020-12-07
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -482,28 +482,29 @@ altpress.com,barneys.com,golfgenius.com,occupydemocrats.com,yorkdispatch.com##.f
 amazingribs.com###top-nav:style(position: relative !important; top: 0 !important;)
 amazingribs.com##.top-nav:style(position: absolute !important;)
 amazingribs.com,anthem.com,bcbsga.com,empireblue.com##.ant-new-nav-wrapper.mbr-top-of-page-wrapper:style(position: absolute !important;)
-amazon.com###huc-v2-order-row-placeholder, .br-ob-carousel-offset, .pantry-place-holder, .s-ember-font.as-fixed-header, .style__placeholder__1rEYs, .vpc_coupon_bar_spacer
-amazon.com###leftCol, #navRow, #profile-search-bar-container, .br-fixed.long.br-ob-carousel, .glimpse-fixed-navigation-container.glimpse-navigation-container, .pantry-wayfinder-sticky-bar, .style__navArea__jlY6Q, .vpc_coupon_bar:style(position: relative !important;)
-amazon.com###miniATFUDP, #miniATF_feature_div:style(position: relative !important; top: 0 !important;)
-amazon.com###mydNavBarContainer, .DVWebNode-retail-nav-wrapper.av-native-stick:style(position: static !important;)
-amazon.com###nav-flyout-ewc, #subtotalsContainer:style(position: absolute !important; top: 0 !important;)
-amazon.com###nav-flyout-ewc:style(right: -220px !important;)
-amazon.com###nav-main:style(transform: none !important;)
-amazon.com###stickyTop-container, .stickybuybox.a-button-stack:style(position: absolute !important;)
-amazon.com##.acs-wtfl-filtersort-categories:style(margin-top: 0 !important;)
-amazon.com##.acs-wtfl-filtersort-sortby:style(padding: 5px 10px !important; top: -5px !important;)
-amazon.com##.acs-wtfl-filtersort-wrap:style(position: absolute !important; height: 25px !important; box-shadow: none !important; padding: 0 0 5px 0 !important; top: 0 !important; left: 0 !important;)
-amazon.com##.ewc-beacon.nav-flyout-body:style(top: 0 !important; height: 100% !important; border-bottom-color: rgb(202, 202, 202); !important; border-bottom-style: solid !important; border-bottom-width: 1px !important;)
-amazon.com##.huc-v2-pinned-order-row-with-divider:style(position: relative !important; top: 0 !important; padding: 0 !important;)
-amazon.com##.nav-flyout-body.ewc-beacon:style(height: 100% !important;)
-amazon.com##.nav-flyout-head:style(padding-top: 47px !important; height: 99px !important; top: 0 !important;)
-amazon.com##.nav-signin-tt.nav-flyout, .aaAlert.aaAlertWarning
-amazon.com##.nav-sprite.nav-tools.nav-flyout-head:style(top: 0 !important;)
-amazon.com##[class*="ChatInput__chatInputRow"]:style(position: relative !important; bottom: 0 !important;)
-amazon.com##[class*="ChatRoller__chatRoller"]:style(overflow: unset !important; height: 100% !important;)
-amazon.com##[class*="ChatRoller__liveTranscriptWrapper__"]:style(height: unset !important;)
-amazon.com##[class*="ChatRoller__outerContainer__"]:style(overflow: unset !important;)
-amazon.com##body:style(overflow-x: hidden !important; overflow-y: scroll !important; padding-top: 0 !important; margin-right: 0 !important;)
+amazon.*###huc-v2-order-row-placeholder, #miniatf, #nav-mobile-airstream-stripe, #sc-rec-right, .br-ob-carousel-offset, .pantry-place-holder, .s-ember-font.as-fixed-header, .style__placeholder__1rEYs, .vpc_coupon_bar_spacer, .w-swf-inline-tab
+amazon.*###leftCol, #navRow, #profile-search-bar-container, .br-fixed.long.br-ob-carousel, .glimpse-fixed-navigation-container.glimpse-navigation-container, .pantry-wayfinder-sticky-bar, .style__navArea__jlY6Q, .vpc_coupon_bar:style(position: relative !important;)
+amazon.*###miniATFUDP, #miniATF_feature_div:style(position: relative !important; top: 0 !important;)
+amazon.*###mydNavBarContainer, .DVWebNode-retail-nav-wrapper.av-native-stick:style(position: static !important;)
+amazon.*###nav-flyout-ewc, #subtotalsContainer:style(position: absolute !important; top: 0 !important;)
+amazon.*###nav-flyout-ewc:style(right: -220px !important;)
+amazon.*###nav-main:style(transform: none !important;)
+amazon.*###stickyTop-container, .stickybuybox.a-button-stack:style(position: absolute !important;)
+amazon.*##.acs-wtfl-filtersort-categories:style(margin-top: 0 !important;)
+amazon.*##.acs-wtfl-filtersort-sortby:style(padding: 5px 10px !important; top: -5px !important;)
+amazon.*##.acs-wtfl-filtersort-wrap:style(position: absolute !important; height: 25px !important; box-shadow: none !important; padding: 0 0 5px 0 !important; top: 0 !important; left: 0 !important;)
+amazon.*##.actor.xrayQuickViewListItem, .show.xrayQuickView, .xrayHeaderLink, .xrayQuickViewList.collectionView
+amazon.*##.ewc-beacon.nav-flyout-body:style(top: 0 !important; height: 100% !important; border-bottom-color: rgb(202, 202, 202); !important; border-bottom-style: solid !important; border-bottom-width: 1px !important;)
+amazon.*##.huc-v2-pinned-order-row-with-divider:style(position: relative !important; top: 0 !important; padding: 0 !important;)
+amazon.*##.nav-flyout-body.ewc-beacon:style(height: 100% !important;)
+amazon.*##.nav-flyout-head:style(padding-top: 47px !important; height: 99px !important; top: 0 !important;)
+amazon.*##.nav-signin-tt.nav-flyout, .aaAlert.aaAlertWarning
+amazon.*##.nav-sprite.nav-tools.nav-flyout-head:style(top: 0 !important;)
+amazon.*##[class*="ChatInput__chatInputRow"]:style(position: relative !important; bottom: 0 !important;)
+amazon.*##[class*="ChatRoller__chatRoller"]:style(overflow: unset !important; height: 100% !important;)
+amazon.*##[class*="ChatRoller__liveTranscriptWrapper__"]:style(height: unset !important;)
+amazon.*##[class*="ChatRoller__outerContainer__"]:style(overflow: unset !important;)
+amazon.*##body:style(overflow-x: hidden !important; overflow-y: scroll !important; padding-top: 0 !important; margin-right: 0 !important;)
 amctheatres.com###CheckoutConfirmationMessage, #CheckoutHeader, .is-opaque.Header-wrap:style(position: relative !important; top: 0 !important;)
 amctheatres.com##.Header-container:style(position: absolute !important; background-color: transparent !important;)
 amctheatres.com##.Header-wrap-wrapper, .Site > div:nth-of-type(2) > div:nth-of-type(2), .global-notification-container:style(position: absolute !important;)
