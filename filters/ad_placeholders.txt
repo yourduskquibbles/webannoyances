@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Ad Placeholder Filters
-! Last Modified: 14:18 2020-11-06
+! Last Modified: 16:41 2020-12-07
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for empty advertising placeholders.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -10,6 +10,7 @@
 ! Works Best With: uBlock Origin or AdGuard
 
 ! Start Web Annoyances Ultralist - Ad Placeholder Filters
+100percentfedup.com##.tpd-box-ad-d
 11alive.com,12news.com,12newsnow.com,13newsnow.com,13wmaz.com,9news.com,abc10.com,cbs19.tv,firstcoastnews.com,fox15abilene.com,kagstv.com,kare11.com,kcentv.com,kens5.com,kgw.com,khou.com,kiiitv.com,king5.com,krem.com,ksdk.com,ktvb.com,kvue.com,myfoxzone.com,newscentermaine.com,thv11.com,wbir.com,wcnc.com,wfaa.com,wfmynews2.com,wgrz.com,whas11.com,wltx.com,wtsp.com,wusa9.com,wwltv.com,wzzm13.com,760kfmb.com,cbs8.com,kfmbfm.com,myatltv.com,thecwsandiego.com,tucsonnewsnow.com##.ad, .desktop-header__ad
 13wham.com,abc22now.com,abc3340.com,abc45.com,abc6onyourside.com,abc7amarillo.com,abcnews4.com,abcstlouis.com,azteca48.com,bakersfieldnow.com,cbs12.com,cbs2iowa.com,cbs4local.com,cbs6albany.com,cbsaustin.com,chattanoogacw.com,cnycentral.com,cw14online.com,cw15kxvo.com,cw18milwaukee.com,cw23tv.com,cw34.com,cw35.com,cw58.tv,cw7michigan.com,cwalbany.com,cwbaltimore.com,cwcentralpa.com,cwcincinnati.com,cwcolumbus.com,cwlasvegas.com,cwokc.com,cwrochester.com,cwtreasurevalley.com,fox11online.com,fox17.com,fox23maine.com,fox28media.com,fox38corpuschristi.com,fox42kptm.com,fox45now.com,fox47.com,fox4beaumont.com,fox56.com,foxbaltimore.com,foxchattanooga.com,foxillinois.com,foxkansas.com,foxlexington.com,foxnebraska.com,foxreno.com,foxrichmond.com,foxrochester.com,foxsanantonio.com,idahonews.com,katu.com,katv.com,kbsi23.com,kcby.com,kdsm17.com,keprtv.com,kfdm.com,kfoxtv.com,khqa.com,kimatv.com,klewtv.com,kmph.com,kmyu.tv,komonews.com,kpic.com,krcgtv.com,krcrtv.com,ktul.com,ktvl.com,ktvo.com,ktxs.com,kunptv.com,kunwtv.com,kutv.com,kval.com,local12.com,local21news.com,my15wtcn.com,my40.tv,my48.tv,mycbs4.com,myfox28columbus.com,mynbc15.com,mynews4.com,myrdctv.com,mytv30web.com,mytvbuffalo.com,mytvdayton.com,mytvrichmond.com,mytvwichita.com,mytvz.com,mywdka.com,nbc16.com,nbc24.com,nbc25news.com,nbcmontana.com,nebraska.tv,news3lv.com,news4sanantonio.com,newschannel20.com,newschannel9.com,okcfox.com,raleighcw.com,siouxlandnews.com,southernoregoncw.com,star64.tv,telemundoaustin.com,thecw46.com,thecwtc.com,turnto10.com,univisionseattle.com,upnorthlive.com,utv44.com,valleycentral.com,wabm68.com,wach.com,wchstv.com,wcti12.com,wcyb.com,weartv.com,wfgxtv.com,wfxl.com,wgme.com,wgxa.tv,wjactv.com,wjla.com,wlos.com,wpde.com,wpgh53.com,wsbt.com,wset.com,wsmh.com,wtov9.com,wtto21.com,wtwc40.com,wutv29.com,wvah.com,wwmt.com##.Display_displayAd__FdpK, .index_Block300__10Aj.index_displayAd__2OZ-, .index_adBeforeContent__j4lF, .index_displayAd__2OZ-, .index_taboola__3WAE
 1688.com###beginnnerBottomPromoteContain
@@ -45,7 +46,7 @@ allmodern.com,birchlane.com,jossandmain.com,wayfair.com###wf_smart_app_banner
 allrecipes.com##.ad-mag-homeBtm, .ad-mag-homeBtm__footer, .ad-mobile-only, .ad-recipe-page-footer-container, .ad-recipe-page-middle-container, .ad-search-grid, .offer-container, .recipe-ad-wrapper, .reserve-ad-space, .review-ad-space
 allrecipes.com,evite.com,huffingtonpost.*,huffpost.com,pokemongohub.net,theamericanmirror.com,thestar.com,washingtoncitypaper.com,weeklystandard.com##.advertisement
 allure.com,bonappetit.com,epicurious.com,glamour.com,gq.com,teenvogue.com,them.us##.persistent-bottom
-amazon.com##.adFeedback
+amazon.*##.adFeedback
 americanmilitarynews.com###AMN_leaderboard_MID:upward(2)
 amgreatness.com###ag-lead
 anandtech.com###header_ad, #side_ad
@@ -82,6 +83,7 @@ babycentre.co.uk###mobileAd1
 baltimoresun.com,capitalgazette.com,chicagotribune.com,citypaper.com,courant.com,dailypress.com,mcall.com,nydailynews.com,orlandosentinel.com,sun-sentinel.com##[data-pb-name="DFP Ad"]
 bangordailynews.com###bpcads-top-leaderboard, .adSpot
 barrons.com###wrapper-AD_L
+bartamanpatrika.com###mybot-adcover
 baseball-reference.com##.adblock
 beaumontenterprise.com,chron.com,ctpost.com,darientimes.com,fairfieldcitizenonline.com,greenwichtime.com,lmtonline.com,michigansthumb.com,middletownpress.com,milfordmirror.com,mrt.com,myjournalcourier.com,myplainview.com,mysanantonio.com,ncadvertiser.com,newmilfordspectrum.com,newstimes.com,nhregister.com,ourmidland.com,registercitizen.com,seattlepi.com,sfchronicle.com,sfgate.com,sheltonherald.com,stamfordadvocate.com,thehour.com,theintelligencer.com,theridgefieldpress.com,thetelegraph.com,timesunion.com,trumbulltimes.com,westport-news.com,wiltonbulletin.com,yourconroenews.com##.article--aside > .sticky .adModule.adModule--outer:upward(1)
 beaumontenterprise.com,chron.com,ctpost.com,darientimes.com,fairfieldcitizenonline.com,greenwichtime.com,lmtonline.com,michigansthumb.com,middletownpress.com,milfordmirror.com,mrt.com,myjournalcourier.com,myplainview.com,mysanantonio.com,ncadvertiser.com,newmilfordspectrum.com,newstimes.com,nhregister.com,ourmidland.com,registercitizen.com,seattlepi.com,sfchronicle.com,sfgate.com,sheltonherald.com,stamfordadvocate.com,thehour.com,theintelligencer.com,theridgefieldpress.com,thetelegraph.com,timesunion.com,trumbulltimes.com,westport-news.com,wiltonbulletin.com,yourconroenews.com##.s2nPlayer, div[id^="taboola-mid-content-thumbnails"]:style(margin: 0 !important;)
@@ -90,7 +92,7 @@ beaumontenterprise.com,chron.com,ctpost.com,darientimes.com,fairfieldcitizenonli
 beaumontenterprise.com,chron.com,ctpost.com,darientimes.com,fairfieldcitizenonline.com,greenwichtime.com,lmtonline.com,michigansthumb.com,middletownpress.com,milfordmirror.com,mrt.com,myjournalcourier.com,myplainview.com,mysanantonio.com,ncadvertiser.com,newmilfordspectrum.com,newstimes.com,nhregister.com,ourmidland.com,registercitizen.com,seattlepi.com,sfchronicle.com,sfgate.com,sheltonherald.com,stamfordadvocate.com,thehour.com,theintelligencer.com,theridgefieldpress.com,thetelegraph.com,timesunion.com,trumbulltimes.com,westport-news.com,wiltonbulletin.com,yourconroenews.com##div[data-slug="Advertisement"]:not(:empty):style(top: unset !important; color: transparent !important;)
 bellinghamherald.com,bnd.com,bradenton.com,centredaily.com,charlotteobserver.com,elnuevoherald.com,fresnobee.com,heraldonline.com,heraldsun.com,idahostatesman.com,islandpacket.com,kansas.com,kansascity.com,kentucky.com,ledger-enquirer.com,macon.com,mcclatchydc.com,mercedsunstar.com,miamiherald.com,modbee.com,myrtlebeachonline.com,newsobserver.com,sacbee.com,sanluisobispo.com,star-telegram.com,sunherald.com,thenewstribune.com,theolympian.com,thestate.com,tri-cityherald.com###ConnatixVideoAd
 bellinghamherald.com,bnd.com,bradenton.com,centredaily.com,charlotteobserver.com,elnuevoherald.com,fresnobee.com,heraldonline.com,heraldsun.com,idahostatesman.com,islandpacket.com,kansas.com,kansascity.com,kentucky.com,ledger-enquirer.com,macon.com,mcclatchydc.com,mercedsunstar.com,miamiherald.com,modbee.com,myrtlebeachonline.com,newsobserver.com,sacbee.com,sanluisobispo.com,star-telegram.com,sunherald.com,thenewstribune.com,theolympian.com,thestate.com,tri-cityherald.com##.zone.grid.combo .ad-widget:upward(2)
-bfst.to,buffstream.to,buffstreamz.com###fcnbox, #nwmlay
+bfst.to,bfstrms.xyz,buffstream.to,buffstreamz.com###fcnbox, #nwmlay
 bicycleretailer.com###brain-leader-slot
 bigbrotherjunkies.com##div.code-block:has-text(/Advertisement/)
 bigleaguepolitics.com###dsk-box-ad-c, .klicked-privacy-banner, .tpd-box-ad-a, .tpd-box-ad-b, .tpd-box-ad-c, .z-lockerdome-inline
@@ -104,6 +106,7 @@ bloomberg.com,energyvoice.com,inc.com,newscientist.com,usgamer.net##.leaderboard
 boardingarea.com##.div-gpt-ad-adhesion-leaderboard-wrap
 bonappetit.com##.ba-recirc-riser.expanded.riser, .header-ad-area
 bongino.com##.ai-attributes:upward(1)
+bonginoreport.com##body.home .parler-banner:upward(2)
 boredomtherapy.com###ad_top_nomobile, .first.infinitesquareadcont
 boredpanda.com##.open-list-block-footer, .single-top-ad
 bostonglobe.com##.ad-container, .bg-footer__top-wrapper, .inline-ad, .recircButton__button, div[id^="ad_position_ad_clinarticle"]
@@ -154,6 +157,8 @@ coosavalleynews.com##.top_banner
 copenhagensuborbitals.com###donatebar
 cosmopolitan.com,harpersbazaar.com,roadandtrack.com,townandcountrymag.com##.breaker-ad
 cosmosmagazine.com###announcements
+crackstreams.com###roomenterad
+crn.com###sponsored-post-ad-for-articles
 crooksandliars.com##.clab-inline, .pane-cl-ad-blocks-5, .pane-cl-ad-blocks-6
 ctvnews.ca##.mobileBoxAd
 cubbiescrib.com###Adfactory_mobile_inline_300x250__mobile, #pinned-ad
@@ -165,7 +170,7 @@ dailyfx.com##.text-center:has-text(/Advertisement/)
 dailykos.com##.mobile-story-ad
 dailymail.co.uk###smartBanner, .mol-ads-label-container, .mpu_puff_wrapper.item
 dailymail.co.uk##.pufftext > .sponsored:upward(3)
-dailyprogress.com,dothaneagle.com,fredericksburg.com,godanriver.com,greensboro.com,heraldcourier.com,hickoryrecord.com,journalnow.com,kearneyhub.com,martinsvillebulletin.com,mcdowellnews.com,morganton.com,newsadvance.com,nonpareilonline.com,nptelegraph.com,oanow.com,omaha.com,pressofatlanticcity.com,richmond.com,roanoke.com,scnow.com,starexponent.com,starherald.com,statesville.com,theeagle.com,theindependent.com,tulsaworld.com,wacotrib.com,yorknewstimes.com###fixed-leaderboard-top, .tnt-ads
+dailyprogress.com,dothaneagle.com,fredericksburg.com,godanriver.com,greensboro.com,heraldcourier.com,hickoryrecord.com,journalnow.com,kearneyhub.com,martinsvillebulletin.com,mcdowellnews.com,morganton.com,newsadvance.com,nonpareilonline.com,nptelegraph.com,oanow.com,omaha.com,pressofatlanticcity.com,richmond.com,roanoke.com,scnow.com,starexponent.com,starherald.com,statesville.com,theeagle.com,theindependent.com,tulsaworld.com,unionleader.com,wacotrib.com,yorknewstimes.com###fixed-leaderboard-top, .tnt-ads
 dailysnark.com,intellihub.com##.td-a-rec
 dailytelegraph.com.au##.tgc-footer_apps, .tgc-footer_disclaimer, .widget_newscorpau_ads.widget
 dailywire.com##.ad-toggle
@@ -273,7 +278,7 @@ ign.com###adSlot-0:upward(3)
 ign.com##.app-link-banner
 ikream.com##.stickyad:upward(2)
 ilgiornale.it##.banner250.banner
-imgur.com###sidebar-bottom-ads, .FloatingOIA-container, .buttonOIA.viewInAppLink.margin-top.center-text, .getTheApp, .viewInAppLink
+imgur.com###sidebar-bottom-ads, .FloatingOIA-container, .buttonOIA.viewInAppLink.margin-top.center-text, .getTheApp, .masthead.BannerTop3, .viewInAppLink
 imore.com##.adunit-wrap
 inc.com###leaderboard-container-placeholder, .mobileInsertionAdContainer
 independent.co.uk##[data-tile-name="top_banner"]:upward(2)
@@ -461,7 +466,7 @@ samsclub.com##.sc-pencil-ad
 sciencedaily.com##.bottom-rectangle, .half-page, .mobile-middle-rectangle, .unit1, .unit2
 sciencenews.org##.block-sn-ad-blog-wrapper
 scientificamerican.com##.aside-banner, .banner-leaderboard, .global__toaster-ad, .is-sticky.home-banner, .toaster-ad
-scmp.com##.advert, .header-ad-slot, .oop-ad-slot-1, .oop-ad-slot-2, .page-container__left-native-ad-container
+scmp.com##.advert, .article-list__inline-ad, .details__topics-ad, .header-ad-slot, .inline-ad-container, .mobile-wide-ad-container-1, .oop-ad-slot-1, .oop-ad-slot-2, .page-container__left-native-ad-container, .super-section__header-ad-slot-wrapper
 screendaily.com###div-gpt-billboard
 screenrant.com##.ad-zone, .ad-zone-container
 seattletimes.com##.ad-continue-link, .native-ad-article, .top-ad-fixed
@@ -470,7 +475,7 @@ secondnexus.com##.cnsmbl-container-320x50-ads
 seeker.com###header-ad, .ad-container
 seekingalpha.com###DFP_1, #article-left-slot-2, #f-and, #f-ios, #midArticleAdContainer, #news-left-slot-1, #news_headlines, .and-svg.app-and, .sa-app-banner-directive, .sa-uppercase.sa-article-read-full-article-btn
 self.com###box-ad-sidebar\ ads-container-item, .cns-ads-stage
-seriouseats.com##.bottom-sticky-ad, .custom-aba
+seriouseats.com##.bottom-sticky-ad, .custom-aba, .leaderboard
 si.com##.promo.container-full-width.bucket.component
 siliconrepublic.com###leaderboard
 similarsites.com###sticky_install_div
@@ -495,7 +500,7 @@ standard.co.uk###leaderboard
 staradvertiser.com###top-anchor, .box-ad, .evie-widget-ad
 statnews.com##.header-ad-wrap, .sponsored.teaser, .stat-form-inline, .statplus.read-more
 statnews.com##.recirculation-trending .teaser.sponsored + .teaser:style(display: table !important;)
-steamplay.*,streamp1ay.*,streamplay.*##.ad
+steamplay.*,streamp1ay.*,streamplay.*,streanplay.*##.ad
 steelersdepot.com###leader-wrap
 stereogum.com##.ad-container, .ad-holder, .ad_desktop_placeholder, .footer-ad-holder, .top-ad-holder
 stocknews.com##.right-margin-ad
@@ -504,7 +509,7 @@ studyfinds.org###widget_sfspot-2, .widget_custom_html, .sfspot
 stuff.co.nz###js-story__ad-storyrec, .adfeedback
 sucuri.net,tailopez.com###olark-container
 supercall.com###mobile-ad-container-primary
-swatchseries.to##.episode_not_watched.category-item-ad, .s-mpu-list, .shd_button, tr.download_link_sponsored
+swatchseries.to,watch-series.la##.episode_not_watched.category-item-ad, .s-mpu-list, .shd_button, tr.download_link_sponsored
 syfy.com##.layout__top-ad
 talkingpointsmemo.com##.BlockNag, .SideAd
 tampabay.com##.advertising-flag
@@ -603,7 +608,7 @@ w3schools.com###skyscraper
 walmart.com###sponsored-container-top
 warhistoryonline.com###fader, .inad
 warriortrading.com###someone-purchased
-washingtonexaminer.com##.desktop-ad-undertone, .legacy-sidebar-promo, .prompt-content, .upnext, .visible.basic.cp-prompt
+washingtonexaminer.com##.desktop-ad-container, .desktop-ad-undertone, .legacy-sidebar-promo, .prompt-content, .upnext, .visible.basic.cp-prompt
 washingtonian.com###ad_pos_targeted_in_article, .dfp_ad_pos, hr.style-2.wash-separator
 washingtonpost.com###leaderboard-wrapper, #recommended-toast, #slug_leaderboard, .ad, .bigbox-wrapper, .content-subscription, .ent-ad-container, .html5.position-rel.game-module.right-rail, .module.image-promotion.component.curved, .outbrain-wrapper, .pb-ad-container, .pb-f-ad-leaderboard, .promo, .wp-column.partners-holder
 washingtonpost.com###slug_leaderboard_1:upward(2)

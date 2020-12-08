@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Generic Filters
-! Last Modified: 09:44 2020-10-22
+! Last Modified: 12:49 2020-12-07
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for generic cosmetic filters - Cosmetically remove common annoyances found on multiple domains typically provided in the social, modal and newsletter Web Annoyances Ultralist sublists. Also includes cookie & gdpr warning elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1982,6 +1982,7 @@
 ##[href*="facebook.com/sharer/sharer.php?"]
 ##[href*="linkedin.com/shareArticle"]
 ##[href*="pinterest.com/js/pinmarklet.js?"]
+##[href*="pinterest.com/pin/create/button/"]
 ##[href*="reddit.com/submit/?url="]
 ##[href*="reddit.com/submit?title="]
 ##[href*="reddit.com/submit?url="]
@@ -2013,9 +2014,11 @@
 @@||vidcloud.co^$generichide
 abcnews.go.com#@#.social-footer-wrapper
 aliexpress.*,gaode.com#@#.nc_wrapper
-amazon.co.uk,amazon.com#@#.button-share
+amazon.*#@#.button-share
+amp-krone-at.cdn.ampproject.org,krone.at#@#.ad-container
 apnews.com#@#.SocialShare
 atavist.com#@#.nav-subscribe
+baidu.com,meduza.io,postimg.cc,vidlox.me#@##share
 birminghammail.co.uk,bristolpost.co.uk,business-live.co.uk,chroniclelive.co.uk,coventrytelegraph.net,dailypost.co.uk,dailyrecord.co.uk,dailystar.co.uk,derbytelegraph.co.uk,devonlive.com,examinerlive.co.uk,gazettelive.co.uk,glasgowlive.co.uk,hulldailymail.co.uk,lancs.live,leicestermercury.co.uk,liverpoolecho.co.uk,manchestereveningnews.co.uk,mirror.co.uk,mylondon.news,nottinghampost.com,plymouthherald.co.uk,walesonline.co.uk#@#.sharebar
 brockhaus.de#@#.scrollup
 businessinsider.com#@#.arrow-up
@@ -2023,8 +2026,8 @@ californiasunday.com#@#.share-bar
 cbsnews.com#@#.sharebar
 cch.org.tw#@##sb-container
 cnet.com#@#.share-button
-dailyprogress.com,dothaneagle.com,fredericksburg.com,godanriver.com,greensboro.com,heraldcourier.com,hickoryrecord.com,journalnow.com,kearneyhub.com,martinsvillebulletin.com,mcdowellnews.com,morganton.com,newsadvance.com,nonpareilonline.com,nptelegraph.com,oanow.com,omaha.com,pressofatlanticcity.com,richmond.com,roanoke.com,scnow.com,starexponent.com,starherald.com,statesville.com,theeagle.com,theindependent.com,tulsaworld.com,wacotrib.com,yorknewstimes.com#@#.social-share-link
-dailyprogress.com,dothaneagle.com,fredericksburg.com,godanriver.com,greensboro.com,heraldcourier.com,hickoryrecord.com,journalnow.com,kearneyhub.com,martinsvillebulletin.com,mcdowellnews.com,morganton.com,newsadvance.com,nonpareilonline.com,nptelegraph.com,oanow.com,omaha.com,pressofatlanticcity.com,richmond.com,roanoke.com,scnow.com,starexponent.com,starherald.com,statesville.com,theeagle.com,theindependent.com,tulsaworld.com,wacotrib.com,yorknewstimes.com#@#.social-share-links
+dailyprogress.com,dothaneagle.com,fredericksburg.com,godanriver.com,greensboro.com,heraldcourier.com,hickoryrecord.com,journalnow.com,kearneyhub.com,martinsvillebulletin.com,mcdowellnews.com,morganton.com,newsadvance.com,nonpareilonline.com,nptelegraph.com,oanow.com,omaha.com,pressofatlanticcity.com,richmond.com,roanoke.com,scnow.com,starexponent.com,starherald.com,statesville.com,theeagle.com,theindependent.com,tulsaworld.com,unionleader.com,wacotrib.com,yorknewstimes.com#@#.social-share-link
+dailyprogress.com,dothaneagle.com,fredericksburg.com,godanriver.com,greensboro.com,heraldcourier.com,hickoryrecord.com,journalnow.com,kearneyhub.com,martinsvillebulletin.com,mcdowellnews.com,morganton.com,newsadvance.com,nonpareilonline.com,nptelegraph.com,oanow.com,omaha.com,pressofatlanticcity.com,richmond.com,roanoke.com,scnow.com,starexponent.com,starherald.com,statesville.com,theeagle.com,theindependent.com,tulsaworld.com,unionleader.com,wacotrib.com,yorknewstimes.com#@#.social-share-links
 derstandard.at#@#.js-share
 derstandard.at#@#.js-share-container
 disconnect.me#@#.go-top
@@ -2044,18 +2047,18 @@ google.com#@#.top-link
 hotdeals.com#@##go_top
 howstuffworks.com#@##share-bar-bottom
 howstuffworks.com#@#.share-wrap
-hub.filterlists.com,pgportal.gov.in#@#.btn-social
+hub.filterlists.com,onehack.us,pgportal.gov.in#@#.btn-social
 in.investing.com#@#.social-list
 linkedin.com#@#.share-box
 linkedin.com#@#[href*="linkedin.com/shareArticle"]
 masters.com#@#.social_bar
-meduza.io,postimg.cc,vidlox.me#@##share
 mercopress.com#@##goToTop
 moneyunder30.com#@#.social-media-buttons
 msn.com#@#.stb-bsb
 nature.com,toptenreviews.com#@##back-to-top
 obi.ru#@#.smartbanner
 pinterest.com#@#[href*="pinterest.com/js/pinmarklet.js?"]
+pinterest.com#@#[href*="pinterest.com/pin/create/button/"]
 quora.com#@#.facebook_button
 reddit.com#@#[href*="reddit.com/submit/?url="]
 reddit.com#@#[href*="reddit.com/submit?title="]
@@ -2068,6 +2071,7 @@ siliconrepublic.com#@#.social-list
 sportsgrid.com#@#.social-block
 tampabay.com#@#.scrolltop
 theaustralian.com.au#@#.share-tools
+theben.de#@##scrollTop
 thinkprogress.org,wsj.com#@#.sticky-share
 tiktok.com#@#.share-header
 tiktok.com#@#.share-links

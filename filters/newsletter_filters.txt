@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Newsletter Subscription Filters
-! Last Modified: 14:18 2020-11-06
+! Last Modified: 14:43 2020-12-07
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for newsletter annoyances - Remove newsletter & other subscription cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -10,6 +10,7 @@
 ! Works Best With: uBlock Origin or AdGuard
 
 ! Start Web Annoyances Ultralist - Newsletter Subscription Filters
+100percentfedup.com###secondary > .enhanced-text-widget.widget_text.widget
 10best.com,mmajunkie.com###newsletter_widget-2
 10tv.com##.uawn-opt-in-prompt
 4029tv.com,kcci.com,kcra.com,ketv.com,kmbc.com,koat.com,koco.com,ksbw.com,mynbc5.com,wapt.com,wbaltv.com,wcvb.com,wdsu.com,wesh.com,wgal.com,wisn.com,wjcl.com,wlky.com,wlwt.com,wmtw.com,wmur.com,wpbf.com,wtae.com,wvtm13.com,wxii12.com,wyff4.com##.newsletter-signup
@@ -34,7 +35,7 @@ aim.org##.tve-leads-shortcode:upward(3)
 airforcetimes.com##.newsletter.signup.container
 airforcetimes.com,armytimes.com,c4isrnet.com,federaltimes.com,fifthdomain.com,marinecorpstimes.com,militarytimes.com,navytimes.com##.newsletter.signup.container
 ajc.com##.newsletter-tease
-alamogordonews.com,app.com,argusleader.com,azcentral.com,battlecreekenquirer.com,baxterbulletin.com,bucyrustelegraphforum.com,burlingtonfreepress.com,caller.com,chillicothegazette.com,cincinnati.com,citizen-times.com,clarionledger.com,coloradoan.com,commercialappeal.com,coshoctontribune.com,courier-journal.com,courierpostonline.com,courierpress.com,currentargus.com,daily-times.com,dailyrecord.com,dailyworld.com,delawareonline.com,delmarvanow.com,demingheadlight.com,democratandchronicle.com,desertsun.com,desmoinesregister.com,detroitnews.com,dnj.com,elpasotimes.com,eveningsun.com,fdlreporter.com,floridatoday.com,freep.com,gosanangelo.com,greatfallstribune.com,greenbaypressgazette.com,greenvilleonline.com,guampdn.com,hattiesburgamerican.com,htrnews.com,independentmail.com,indystar.com,ithacajournal.com,jacksonsun.com,jconline.com,jsonline.com,kitsapsun.com,knoxnews.com,lancastereaglegazette.com,lansingstatejournal.com,lcsun-news.com,ldnews.com,livingstondaily.com,lohud.com,mansfieldnewsjournal.com,marionstar.com,marshfieldnewsherald.com,montgomeryadvertiser.com,mycentraljersey.com,naplesnews.com,newarkadvocate.com,news-leader.com,news-press.com,newsleader.com,northjersey.com,packersnews.com,pal-item.com,pnj.com,portclintonnewsherald.com,postcrescent.com,poughkeepsiejournal.com,press-citizen.com,pressconnects.com,publicopiniononline.com,redding.com,reporternews.com,rgj.com,scsun-news.com,sctimes.com,sheboyganpress.com,shreveporttimes.com,stargazette.com,statesmanjournal.com,stevenspointjournal.com,tallahassee.com,tcpalm.com,tennessean.com,theadvertiser.com,thecalifornian.com,thedailyjournal.com,thegleaner.com,theleafchronicle.com,thenews-messenger.com,thenewsstar.com,thenorthwestern.com,thespectrum.com,thestarpress.com,thetimesherald.com,thetowntalk.com,timesrecordnews.com,usatoday.com,vcstar.com,visaliatimesdelta.com,wausaudailyherald.com,wisconsinrapidstribune.com,ydr.com,zanesvilletimesrecorder.com###gnt_atomsnc, .gnt_m_nls.gnt_m, .newsletter-embed, .nscm-container, .nssm-container, .widget--newsletter, cta-atoms-container-inline
+alamogordonews.com,app.com,argusleader.com,azcentral.com,battlecreekenquirer.com,baxterbulletin.com,bucyrustelegraphforum.com,burlingtonfreepress.com,caller.com,chillicothegazette.com,cincinnati.com,citizen-times.com,clarionledger.com,coloradoan.com,commercialappeal.com,coshoctontribune.com,courier-journal.com,courierpostonline.com,courierpress.com,currentargus.com,daily-times.com,dailyrecord.com,dailyworld.com,delawareonline.com,delmarvanow.com,demingheadlight.com,democratandchronicle.com,desertsun.com,desmoinesregister.com,detroitnews.com,dnj.com,elpasotimes.com,eveningsun.com,fdlreporter.com,floridatoday.com,freep.com,gosanangelo.com,greatfallstribune.com,greenbaypressgazette.com,greenvilleonline.com,guampdn.com,hattiesburgamerican.com,htrnews.com,independentmail.com,indystar.com,ithacajournal.com,jacksonsun.com,jconline.com,jsonline.com,kitsapsun.com,knoxnews.com,lancastereaglegazette.com,lansingstatejournal.com,lcsun-news.com,ldnews.com,livingstondaily.com,lohud.com,mansfieldnewsjournal.com,marionstar.com,marshfieldnewsherald.com,montgomeryadvertiser.com,mycentraljersey.com,naplesnews.com,newarkadvocate.com,news-leader.com,news-press.com,newsleader.com,northjersey.com,packersnews.com,pal-item.com,pnj.com,portclintonnewsherald.com,postcrescent.com,poughkeepsiejournal.com,press-citizen.com,pressconnects.com,providencejournal.com,publicopiniononline.com,redding.com,reporternews.com,rgj.com,scsun-news.com,sctimes.com,sheboyganpress.com,shreveporttimes.com,stargazette.com,statesmanjournal.com,stevenspointjournal.com,tallahassee.com,tcpalm.com,tennessean.com,theadvertiser.com,thecalifornian.com,thedailyjournal.com,thegleaner.com,theleafchronicle.com,thenews-messenger.com,thenewsstar.com,thenorthwestern.com,thespectrum.com,thestarpress.com,thetimesherald.com,thetowntalk.com,timesrecordnews.com,usatoday.com,vcstar.com,visaliatimesdelta.com,wausaudailyherald.com,wisconsinrapidstribune.com,ydr.com,zanesvilletimesrecorder.com###gnt_atomsnc, .gnt_m_nls.gnt_m, .newsletter-embed, .nscm-container, .nssm-container, .widget--newsletter, cta-atoms-container-inline
 algemeiner.com##.alg_subscribe_cont, .formnews.widget
 aljazeera.com##.NewsLetterForMobile
 allure.com##.container.subscription-unit
@@ -159,13 +160,13 @@ cyclingtips.com##.InArticleSignup, .footer__signup
 dailycaller.com###dc_morning_email-53, #dc_morning_email-60, #dc_morning_email-66, .dc_morning_email-58
 dailydot.com###archive-item-top-newsletter, #dd-email-subscribe-box, .dd-blueconic, footer
 dailynews.com###subscriber-offer-button
-dailyprogress.com,dothaneagle.com,fredericksburg.com,godanriver.com,greensboro.com,heraldcourier.com,hickoryrecord.com,journalnow.com,kearneyhub.com,martinsvillebulletin.com,mcdowellnews.com,morganton.com,newsadvance.com,nonpareilonline.com,nptelegraph.com,oanow.com,omaha.com,pressofatlanticcity.com,richmond.com,roanoke.com,scnow.com,starexponent.com,starherald.com,statesville.com,theeagle.com,theindependent.com,tulsaworld.com,wacotrib.com,yorknewstimes.com###newsletter_morning, #tncms-region-article_bottom .lotame, #tncms-region-article_instory_top, [id^="signupform"], [id^="wc-email-form-"]
+dailyprogress.com,dothaneagle.com,fredericksburg.com,godanriver.com,greensboro.com,heraldcourier.com,hickoryrecord.com,journalnow.com,kearneyhub.com,martinsvillebulletin.com,mcdowellnews.com,morganton.com,newsadvance.com,nonpareilonline.com,nptelegraph.com,oanow.com,omaha.com,pressofatlanticcity.com,richmond.com,roanoke.com,scnow.com,starexponent.com,starherald.com,statesville.com,theeagle.com,theindependent.com,tulsaworld.com,unionleader.com,wacotrib.com,yorknewstimes.com###newsletter_morning, #tncms-region-article_bottom .lotame, #tncms-region-article_instory_top, [id^="signupform"], [id^="wc-email-form-"]
 dailywire.com,liquid-iv.com##.ub-emb-container
 dallasnews.com##[class*="app_cta-newsletter_cta-long"]
 dansdeals.com##.wp_subscribe
 databreachtoday.com###section-newsletter-blk
 daveramsey.com##.AsideContent-item--newsletter
-deadline.com,seriouseats.com##.widget-newsletter
+deadline.com##.widget-newsletter
 defenseindustrydaily.com###nwslttrEntrySubForm
 defensenews.com##.newsletter
 delanceyplace.com##.ctct-embed-signup
@@ -363,6 +364,7 @@ medicalnewstoday.com###footer_newsletter, .mobile_newsletter
 melmagazine.com##.newsletter-subscription
 mensjournal.com##.module-newsletter-form, .subscribe, .subscription-tout
 mercatus.org##.pane-grey-box.panel-pane
+mercola.com##.bottom-subscription, .top-subscription
 mercopress.com##.sidebar
 messynessychic.com###kol_email-2
 mic.com##.newsletter-signup, .newsletter-signup-mobile
@@ -378,6 +380,7 @@ montrealgazette.com###pn-newsletter-signup
 morningconsult.com##.single-post__content__subscribe
 motherjones.com##.incontent-promo, .newsletter-signup
 motorauthority.com##.desktop-newsletter
+moviemaker.com##.mvp-nav-newsletter
 msn.com###MSN_Today_Newsletter, [href*="/newsletters"]
 muckrock.com##.newsletter-widget
 musicbusinessworldwide.com##.mb-newsletter
@@ -426,7 +429,7 @@ nplusonemag.com##.module-newsletter
 nybooks.com##.newsletter_signup
 nydailynews.com##.newsletter-signup
 nypost.com###commerce-disclosure
-nytimes.com###Newsletter-embed-NYT-Now, #Science-Newsletter-promo, #THEurope-newsletter-module, #THasia-newsletter-module, #australia-today-email-signup, #breaking-news-email-promo, #cooking-email-signup, #d-promo-realestate, #evening-briefing-email-promo, #living-newsletter-promo, #new-york-today-email-promo, #news-tips-article-promo, #newsletter-module, #newsletter-promo, #opinion-newsletter-promo, #signup-favor, #sports-email-promo, #subscriptionCTA, .eln-email-signup, .email-signup, .recipe-newsletter-signup, .css-17dprlf.medium
+nytimes.com###Newsletter-embed-NYT-Now, #Science-Newsletter-promo, #THEurope-newsletter-module, #THasia-newsletter-module, #australia-today-email-signup, #breaking-news-email-promo, #cooking-email-signup, #d-promo-realestate, #evening-briefing-email-promo, #living-newsletter-promo, #new-york-today-email-promo, #news-tips-article-promo, #newsletter-module, #newsletter-promo, #opinion-newsletter-promo, #signup-favor, #sports-email-promo, #subscriptionCTA, .eln-email-signup, .email-signup, .recipe-newsletter-signup, .css-17dprlf.medium, [data-test-id="RecommendedNewsletter"]
 nytimes.com##.s-cvb-subscribe:upward(1)
 nytimes.com##[data-testid="interest-action-button"][name="Subscribe to newsletter"][aria-label="Subscribe to newsletter"]:upward(6)
 nytimes.com##aside:has([id^="newsletter-iframe-container"])
@@ -434,6 +437,7 @@ nytimes.com##aside:has-text(/Sign Up/)
 nytimes.com##button[name="select interest"]:upward(3)
 nytimes.com##div > p:has([href^="https://www.nytimes.com/newsletters/"])
 observer.com##.entry-content > p :has-text(/Subscribe to/)
+offers.com###signup-drawer, .email-updates
 oilprice.com##.signup_iframe
 okmagazine.com##.sign-up-section
 onegreenplanet.org##.subscribebox
@@ -447,7 +451,7 @@ papermag.com##.subscription-widget
 papersource.com###signup-mobile
 parade.com###newsletter_container
 parenting.nytimes.com##[data-testid="home-newsletter-signup"]
-patch.com###in-article-boxed-recirc
+patch.com###in-article-boxed-recirc, [class*="SubscribeBtn"]
 patheos.com##.simple-signup
 pbs.org##.sidebar__subscribe
 pcgamer.com,tomsguide.com,tomshardware.*,toptenreviews.com##.newsletter-signup.box
@@ -519,6 +523,7 @@ seeitmarket.com##.in_article_email_signup, .widget_mc4wp_form_widget
 seekingalpha.com###add-ticker-to-portfolio-unit
 self.com##.component-subscription-unit
 seo-hacker.com##aside.sidebar-primary, form.hellogrowth
+seriouseats.com##.Sidebar__newsletter, .widget-newsletter
 shareblue.com###subscription
 si.com##.newsletter-callout, .nl-container, .subscribe-callout
 simplemost.com###alo_easymail_widget_form
@@ -576,6 +581,7 @@ tesmanian.com##.newsletter-block__text:upward(1)
 texasmonthly.com##.article-newsletter, .article-subscription, .footer__newsletter
 the-sun.com,thescottishsun.co.uk,thesun.co.uk,thesun.ie###newsletter_holder, .newsletter_holder
 theaircurrent.com##.eckosc_button_rounded
+theamericanconservative.com##.widget_sign-up-form-widget
 theamericanmirror.com##.cta-button, .email-signup
 theamericanmirror.com##h3:has-text(/Get Our Email Newsletter!/)
 theamericanscholar.org##.sidebar-block-newsletter
@@ -618,6 +624,7 @@ thenewsrep.com###newsrep-header-sub-cta-1
 thenextweb.com##.newsletter
 theonion.com##.newsletter-signup
 thepointsguy.com##.article-email-capture
+thepoliticalinsider.com##.inarticle.email-signup
 thepostmillennial.com##.newsletter.banner.partial, .subscription.partial
 theprairiehomestead.com##.optin-widget
 thequint.com##.subscription-container
