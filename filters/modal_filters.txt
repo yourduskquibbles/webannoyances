@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 16:41 2020-12-07
+! Last Modified: 09:32 2020-12-08
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of other page covering elements. Cookie/GDPR notices will be removed in Cookie Filters sublist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -535,7 +535,7 @@ lacrosseunlimited.com##.active-popup
 lairdtech.com###sliding-popup
 laphamsquarterly.org###wisepop-main-container
 lareviewofbooks.org###materialize-lean-overlay-1, #newsletterModal
-latimes.com,pacificsandiego.com,sandiegouniontribune.com###reg-overlay, newsletter-campaign
+latimes.com,pacificsandiego.com,sandiegouniontribune.com###reg-overlay, metering-modal, newsletter-campaign
 latimes.com,pacificsandiego.com,sandiegouniontribune.com##+js(aeld, scroll, event.dispatch)
 latimes.com,pacificsandiego.com,sandiegouniontribune.com##html[data-dss-meterup], html[data-dss-meterup] > body:style(overflow-x: hidden !important; overflow-y: scroll !important; padding-right: 0 !important;)
 law360.com###FreeTrialModal
@@ -850,6 +850,7 @@ teamtreehouse.com###banner, #tarp
 techcommunity.microsoft.com##.lia-panel-dialog-modal-valuesurvey.ui-dialog, .scroll-to-top, .scroll-top-link, .ui-widget-overlay
 techcrunch.com##.next-story-link, .surveymonkey-popup
 technochops.com###sgcboxContent, #sgcboxOverlay
+techwalla.com##.component-popups
 ted.com###recommends-banner, ._Notice_vquc8_16
 tested.com,wonderwall.com###footer-notification
 theadvocate.com##.popover-content
@@ -942,6 +943,7 @@ ustvgo.tv##.mh-back-to-top
 uxplanet.org##.iframeContainer
 valuewalk.com###om-k4aqrfjozo-lightbox
 vanityfair.com##.component-modal, .paywall-bar, .paywall-container
+varsitytutors.com###cta_holder
 venturebeat.com##.medrec-wrapper
 verdict.co.uk###scroll_totop, .eupopup-container, .site-footer
 version2.dk##.adblock-message-container, .adblock-message-overlay
@@ -956,7 +958,7 @@ warisboring.com##.ulp-overlay, .ulp-window
 warroom.org,watchpro.com##html.hustle-no-scroll:style(overflow-x: auto !important; overflow-y: scroll !important; padding-right: 0 !important;)
 washingtonexaminer.com##.dy-modal-container
 washingtonian.com##.keepReading
-washingtonpost.com###drawbridge-signup-overlay, #exposeMask, #fusion-app .bottom-0.top-0.right-0.left-0.fixed, #wallIframe, .content_gate, .jqm-init.arrow_box.story-label-explainer, .jqmOverlay, .overlay-template, .simple-overlay:not(.usw_Signin)
+washingtonpost.com###drawbridge-signup-overlay, #exposeMask, #fusion-app .bottom-0.top-0.right-0.left-0.fixed, #wallIframe, .content_gate, .jqm-init.arrow_box.story-label-explainer, .jqmOverlay, .overlay-template, .simple-overlay:not(.usw_Signin), [data-qa="paywall"]
 washingtonpost.com##body:not([tabindex="1"]):style(position: unset !important; height: unset !important; overflow-y: auto !important;)
 washingtonpost.com##html[style*="overflow: hidden;"]:style(overflow: auto !important;)
 washingtontimes.com##body:style(overflow-y: scroll !important;)

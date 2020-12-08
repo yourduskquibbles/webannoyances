@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Cookie Filters
-! Last Modified: 14:43 2020-12-07
+! Last Modified: 09:32 2020-12-08
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Cookie Annoyances - Remove Cookie/GDPR Banners, Notices, Overlays & Warnings
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -319,6 +319,7 @@ dunbarcycles.com##.wsa-cookielaw
 dw.com##.cookie--visible.cookie
 ebay-kleinanzeigen.de###consentBanner, #gdpr-banner-container, #gdpr-banner, .gdprBanner
 ebay.de,yahoodatabreachsettlement.com###gdpr-banner
+educative.io##[class^="styles__BannerTransitionGroup"]
 electronicdesign.com,machinedesign.com##.gdpr-popup-border
 eng.uber.com,macys.com###__tealiumGDPRecModal
 espn.*##.active.js-feed-item-mask, .active.news-feed-item > .story_progress > .bar, .alert--fixed.alert--center.alert, .bg-opaque.mod-outbrain.mod-no-border, .cookie-overlay, .js-bloomed.favorites-mgmt.lightbox, .promo-banner-container
@@ -392,6 +393,7 @@ politico.com###overlayMagazine, .cookie-modal.js-cookie-modal, .is-stuck.pop-up-
 protocol.com##.gdpr-cookie
 psyarxiv.com##.__cookie-banner__2a81b
 rag-bone.com##.js-footer-cookie-banner
+rapidtables.com###banner
 rappler.com###cookie-popup-rappler, #emailPopupDiv
 razer.com##app-razer-cookies
 realclearpolitics.com##.cc-stop-overlay, .cc-window
@@ -438,6 +440,7 @@ trumpf.com##.is-open.cookieMsg.notification-small.notification
 trunews.com###ifrmCookieBanner, #main-cookie-banner, .sp-overlay, .toTopButton
 tvdateswatch.com##.cp-popup-container
 ubackup.com##.ensureCookie
+uber.com##[data-baseweb="toaster"]:has-text(/third party cookies/)
 umaidry.com###cookies-wrapper, .springmail-modal, .springmail-overlay
 usgamer.net###onetrust-consent-sdk, #onetrust-banner-sdk
 v3.co.uk###rdm-cookie-consent
