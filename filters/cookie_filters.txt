@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Cookie Filters
-! Last Modified: 14:43 2020-12-07
+! Last Modified: 09:32 2020-12-08
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Cookie Annoyances - Remove Cookie/GDPR Banners, Notices, Overlays & Warnings
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -440,7 +440,7 @@ trumpf.com##.is-open.cookieMsg.notification-small.notification
 trunews.com###ifrmCookieBanner, #main-cookie-banner, .sp-overlay, .toTopButton
 tvdateswatch.com##.cp-popup-container
 ubackup.com##.ensureCookie
-uber.com##[data-baseweb="toaster"]:has-text(third party cookies)
+uber.com##[data-baseweb="toaster"]:has-text(/third party cookies/)
 umaidry.com###cookies-wrapper, .springmail-modal, .springmail-overlay
 usgamer.net###onetrust-consent-sdk, #onetrust-banner-sdk
 v3.co.uk###rdm-cookie-consent

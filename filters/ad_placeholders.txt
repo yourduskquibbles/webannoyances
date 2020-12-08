@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Ad Placeholder Filters
-! Last Modified: 16:41 2020-12-07
+! Last Modified: 09:32 2020-12-08
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for empty advertising placeholders.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -39,6 +39,7 @@ airforcetimes.com,armytimes.com,c4isrnet.com,federaltimes.com,fifthdomain.com,ma
 airspacemag.com###InArticle_300x50_320x50_300x250, .external-associated-products
 ajc.com,daytondailynews.com,journal-news.com,springfieldnewssun.com##.cmgo_app_download_box
 al.com,cleveland.com,gulflive.com,lehighvalleylive.com,mardigras.com,masslive.com,mlive.com,newyorkupstate.com,nj.com,nola.com,pennlive.com,oregonlive.com,silive.com,syracuse.com##.ad, .below-toprail, .section__nav--header-list
+alamogordonews.com,app.com,argusleader.com,azcentral.com,battlecreekenquirer.com,baxterbulletin.com,bucyrustelegraphforum.com,burlingtonfreepress.com,caller.com,chillicothegazette.com,cincinnati.com,citizen-times.com,clarionledger.com,coloradoan.com,commercialappeal.com,coshoctontribune.com,courier-journal.com,courierpostonline.com,courierpress.com,currentargus.com,daily-times.com,dailyrecord.com,dailyworld.com,delawareonline.com,delmarvanow.com,demingheadlight.com,democratandchronicle.com,desertsun.com,desmoinesregister.com,detroitnews.com,dnj.com,elpasotimes.com,eveningsun.com,fdlreporter.com,floridatoday.com,freep.com,gosanangelo.com,greatfallstribune.com,greenbaypressgazette.com,greenvilleonline.com,guampdn.com,hattiesburgamerican.com,htrnews.com,independentmail.com,indystar.com,ithacajournal.com,jacksonsun.com,jconline.com,jsonline.com,kitsapsun.com,knoxnews.com,lancastereaglegazette.com,lansingstatejournal.com,lcsun-news.com,ldnews.com,livingstondaily.com,lohud.com,mansfieldnewsjournal.com,marionstar.com,marshfieldnewsherald.com,montgomeryadvertiser.com,mycentraljersey.com,naplesnews.com,newarkadvocate.com,news-leader.com,news-press.com,newsleader.com,northjersey.com,packersnews.com,pal-item.com,pnj.com,portclintonnewsherald.com,postcrescent.com,poughkeepsiejournal.com,press-citizen.com,pressconnects.com,providencejournal.com,publicopiniononline.com,redding.com,reporternews.com,rgj.com,scsun-news.com,sctimes.com,sheboyganpress.com,shreveporttimes.com,stargazette.com,statesmanjournal.com,stevenspointjournal.com,tallahassee.com,tcpalm.com,tennessean.com,theadvertiser.com,thecalifornian.com,thedailyjournal.com,thegleaner.com,theleafchronicle.com,thenews-messenger.com,thenewsstar.com,thenorthwestern.com,thespectrum.com,thestarpress.com,thetimesherald.com,thetowntalk.com,timesrecordnews.com,usatoday.com,vcstar.com,visaliatimesdelta.com,wausaudailyherald.com,wisconsinrapidstribune.com,ydr.com,zanesvilletimesrecorder.com##[aria-label="advertisement"]
 aljazeera.com##.ad1.adArea
 all-that-is-interesting.com,allthatsinteresting.com##.pbh_inline
 all-that-is-interesting.com,allthatsinteresting.com,businessinsider.com,delish.com,gamerevolution.com,medicalnewstoday.com,newstatesman.com,ocweekly.com,sciencenews.org,screendaily.com,startswithyou.com,wmagazine.com,xda-developers.com##.leaderboard
@@ -77,7 +78,6 @@ axios.com##[id*="gtm-ad-"][data-vars-sub-category="stream_cap"]:upward(1)
 axios.com##div[class^="StreamCapAd"], [class*="Recirc__AdWrapper-sc"], [class*="StoryImageVideoAd"], [class*="TopStories__AdWrapper-"]
 axlegeeks.com##.active.adr-app-banner
 azcapitoltimes.com###check-also-box
-azcentral.com##[aria-label="advertisement"]
 babycenter.com###ad_slice, #globalHeaderAd, #leaderAdOuter, #mobileRegFloaterContainer, .mediumRectangleAdContainer, .skyscraperAdContainer
 babycentre.co.uk###mobileAd1
 baltimoresun.com,capitalgazette.com,chicagotribune.com,citypaper.com,courant.com,dailypress.com,mcall.com,nydailynews.com,orlandosentinel.com,sun-sentinel.com##[data-pb-name="DFP Ad"]
@@ -241,8 +241,7 @@ gazette.com##.adZone
 geekwire.com###ad-300x600_top, #ad-leaderboard, .newsfeed_aduni
 getpocket.com##.syndication-ad
 glamour.com##.cns-ads-stage
-globalnews.ca##.l-headerAd__container
-globalnews.ca##.story-ad
+globalnews.ca##.l-headerAd__container, .story-ad
 google.com###ad, #ad-label
 google.com##:xpath(.//*[@id='gbw']/div/div/div[2]//div[3][@aria-label="promo"])
 govexec.com,govtribe.com,grubstreet.com,newatlas.com,nymag.com,thecut.com,vulture.com,webmd.com##.ad
