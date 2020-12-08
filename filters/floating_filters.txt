@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 16:45 2020-12-07
+! Last Modified: 09:20 2020-12-08
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -8473,8 +8473,6 @@ washingtonpost.com##.site-header.bar-hidden:style(height: 80px !important; webki
 washingtonpost.com##.utility-bar-wrapper, .wpv-fixed:style(position: static !important;)
 washingtonpost.com##.utility-bar:style(position: absolute !important; top: 0 !important; margin-top: 0 !important;)
 washingtonpost.com##.voracious-header-line:style(position: relative !important; transform: none !important;)
-washingtonpost.com##[data-qa="utility-bar"]:style(position: relative !important; top: 0 !important; left: 0 !important;)
-washingtonpost.com##nav > ul:style(opacity: 1 !important; visibility: visible !important;)
 washingtonpress.com##.header--slide.fixed.header
 washingtontimes.com###feedbackify, .floatCloseButton
 washingtontimes.com###masthead, .globalheader_container, .main-nav-scrolled.globalheader_container:style(position: relative !important; top: 0 !important;)
