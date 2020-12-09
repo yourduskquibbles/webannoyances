@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 09:20 2020-12-09
+! Last Modified: 09:30 2020-12-09
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2227,10 +2227,10 @@ dailylocal.com###site-navbar-container .show-affix, #site-navbar-container.affix
 dailylocal.com###site-navbar-container:style(box-shadow: none !important; border-top: 5px solid #38322a !important; border-bottom: 1px solid #aaa7a4 !important;)
 dailylocal.com##.navbar-nav > li > a:style(padding-left: 10px !important; padding-right: 10px !important;)
 dailymail.co.uk##.home.cc:style(position: relative !important; top: 0 !important; transform: none !important;)
-dailymail.co.uk##.hp-swipe
-dailymail.co.uk##.jwplayer_body_1, .mol-related-videos-view-paused, .vjs-flyout-control, div[class^="jwplayer"][style*="position"][style*="fixed"]
+dailymail.co.uk##.hp-swipe, .jwplayer_body_1, .mol-related-videos-view-paused, .vjs-flyout-control, div[class^="jwplayer"][style*="position"][style*="fixed"]
 dailymail.co.uk##.mobile-sharing.mobile-sharing-activated:style(height: 46px !important;)
 dailymail.co.uk##.mobile-sharing.news.cc, .mobile-sharing:style(position: relative !important; top: 0 !important;)
+dailymail.co.uk##.related-carousel.with-fb-or-tw:style(margin-left: 0 !important;)
 dailymail.co.uk##.scrollable-content:style(overflow-x: hidden !important; overflow-y: auto !important; height: auto !important; padding-top: 0 !important; margin-top: 0 !important;)
 dailymail.co.uk##.vjs-flyout-center.vjs-flyout-on + .vjs-flyout-wrapper-fixed .vjs-title:style(padding-right: 0 !important;)
 dailymail.co.uk##.vjs-flyout-on + .vjs-flyout-wrapper-fixed .vjs-flyout-wrapper-absolute > *:style(position: relative !important;)
@@ -3199,7 +3199,7 @@ foodbabe.com##.fixed-top.navbar-light.navbar-toggleable-sm.navbar:style(position
 foodrepublic.com###masthead:style(position: absolute !important; transform: none !important; margin-top: 30px !important;)
 foodrepublic.com##.fr-logo-large:style(display: block !important;)
 foodtank.com##.header--slide.dark.show-for-large.fixed.subheader
-fooducate.com,howsmyssl.com,ipleak.com,mayerdan.com,reductress.com,thehustle.co##.navbar-fixed-top.navbar:style(position: absolute !important;)
+fooducate.com,howsmyssl.com,ipleak.com,mayerdan.com,reductress.com,sec.report,thehustle.co##.navbar-fixed-top.navbar:style(position: absolute !important;)
 fool.co.uk###mega-menu-wrap-max_mega_menu_1:style(position: relative !important;)
 fool.com###sticky-wrapper
 fool.com##.content-container:style(padding-top: 0 !important;)
@@ -3280,6 +3280,7 @@ forward.com##.slide-down.nocontent.header-sticky-container:style(position: absol
 fossdroid.com##.mdl-layout__container:style(position: relative !important; top: 0 !important;)
 fosters.com###edge-radio-player-container:style(position: absolute !important;)
 foundation.mozilla.org##.category-nav, .creepiness-slider:style(position: relative !important;)
+foundation.mozilla.org##.d-print-none.sticky-top:style(position: relative !important;)
 foundr.com##.scrolled.site-header:style(position: absolute !important; background-color: transparent !important;)
 fourseasons.com###TopNav-mainNav:style(height: 121px !important;)
 fourseasons.com##.Navigation--hasHero .Navigation-background:style(background-color: transparent !important;)
