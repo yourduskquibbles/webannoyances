@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 09:30 2020-12-09
+! Last Modified: 11:59 2020-12-09
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1235,7 +1235,7 @@ blog.google##.uni-google-logo.uni-header-row, body > main:style(margin-top: 0 !i
 blog.google##.uni-google-logo:style(visibility: visible !important; opacity: 1 !important;)
 blog.google##.uni-header-content:style(position, .uni-initialized.uni-header-content: relative !important; top: 0 !important;)
 blog.google##.uni-header:style(position: absolute !important; transform: translateY(0) !important;)
-blog.google,cbsnews.com,fedex.com,giftcardgranny.com,glamour.com,gq.com,imgur.com,just-auto.com,just-drinks.com,just-food.com,just-style.com,lowes.com,newrepublic.com,parenting.com,pitchfork.com,powerhungry.com,ruralsprout.com,taxact.com,thebalance.com,thebalancecareers.com,thebalanceeveryday.com,thebalancesmb.com,tiktok.com,wired.com##html:style(overflow-x: hidden !important;)
+blog.google,cbsnews.com,federalnewsnetwork.com,fedex.com,giftcardgranny.com,glamour.com,gq.com,imgur.com,just-auto.com,just-drinks.com,just-food.com,just-style.com,lowes.com,newrepublic.com,parenting.com,pitchfork.com,powerhungry.com,ruralsprout.com,taxact.com,thebalance.com,thebalancecareers.com,thebalanceeveryday.com,thebalancesmb.com,tiktok.com,wired.com##html:style(overflow-x: hidden !important;)
 blog.intercom.com##.run-less__nav:style(position: absolute !important;)
 blog.leavemealone.app,nullsweep.com##.floating-active.floating-header
 blog.lyft.com##.page-header, .tier-one:style(position: absolute !important;)
@@ -2008,6 +2008,8 @@ community.arm.com##.banner.context:not(.home) > .hierarchy > .current-hierarchy 
 community.arm.com##.header-fragments .layout-region.content:style(border: 0 !important;)
 community.arm.com##.scrolled .banner.context .hierarchy .current-hierarchy > .hierarchy-component:style(margin: 0 !important;)
 community.brave.com,community.signalusers.org,cryptomator.org,forum.kee.pm,hub.filterlists.com,pixls.us##.timeline-container:style(position: absolute !important; top: 165px !important;)
+community.broadcom.com###NAV:style(position: relative !important;)
+community.broadcom.com##.stickyNav-filler
 community.jivesoftware.com###j-compact-header:style(position: absolute !important;)
 community.jivesoftware.com###j-cust-head:style(visibility: visible !important; transform: none !important;)
 community.spotify.com##.stuck.navbar-bottom:style(position: absolute !important;)
@@ -3054,6 +3056,7 @@ fauna.com##.header--logo, .js-mobile-nav-button.button--nav-menu.button:style(po
 fbi.gov##.top-navigation-container.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important; top: 0 !important;)
 fbi.gov##div.sticky-footer.alert.alert-dismissible
 fbion.com###fixedmenu:style(position: absolute !important; top: 0 !important;)
+federalnewsnetwork.com##.header__logo:style(max-width: 293px !important;)
 federalreserve.gov###nav-primary:style(position: relative !important; top: 0 !important;)
 federalreserve.gov###t4_nav:style(position: absolute !important; top: 0 !important;)
 federalreserve.gov##.nav-primary.affix + .container:style(margin-top: 0 !important;)
