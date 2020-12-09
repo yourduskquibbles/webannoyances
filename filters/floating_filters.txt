@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 14:43 2020-12-08
+! Last Modified: 09:20 2020-12-09
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -3512,6 +3512,8 @@ git.news###product-hunt-gitnews, .uv-bottom-right.uv-icon:style(position: absolu
 git.news##.language-filters__content:style(position: relative !important;)
 git.synz.io##.navbar, .nav-sidebar, .right-sidebar:style(position: absolute !important;)
 github.com###issue_body, #new_comment_field:style(max-height: 557px !important;)
+github.com###js-contribution-activity .js-profile-timeline-year-list, #js-contribution-activity .profile-timeline-year-list:style(position: static !important; top: 74px !important; width: 16.66667% !important;)
+github.com###year-list-container .js-profile-timeline-year-list, #year-list-container .profile-timeline-year-list:style(position: static !important; top: 74px !important; width: auto !important;)
 github.com##.diffbar .diffstat:style(display: block !important;)
 github.com##.diffbar:style(height: 20px !important; padding-bottom: 20px !important; padding-top: 20px !important;)
 github.com##.file-header.file-header--expandable.js-file-header.sticky-file-header.js-position-sticky.is-placeholder:style(display: block !important; height: 0 !important;)
@@ -3521,7 +3523,6 @@ github.com##.is-stuck.js-sticky.site-subnav-sticky.bg-white.site-subnav, .js-sti
 github.com##.is-stuck.js-toggler-target.js-user-profile-follow-button.js-sticky.top-0.btn-block.btn, .js-sticky-offset-scroll.js-sticky.pr-toolbar, .js-user-profile-follow-button, .sticky-file-header:style(position: static !important; width: 100% !important;)
 github.com##.is-stuck.top-0.js-sticky.user-profile-nav.UnderlineNav:style(width: unset !important;)
 github.com##.js-notification-shelf-offset-top.box-shadow.gh-header-shadow:style(position: static !important; height: 0 !important;)
-github.com##.js-profile-timeline-year-list, .profile-timeline-year-list:style(position: static !important; top: 74px !important; width: 16.66667% !important;)
 github.com##.js-sticky.dashboard-sidebar:style(position: static !important; top: 0 !important; left: 0 !important; width: unset !important; height: 100% !important;)
 github.com##.js-user-profile-sticky-fields.js-sticky.py-3.vcard-names-container:style(margin-top: 0 !important; pointer-events: none !important; width: auto !important;)
 github.com##.notifications-v2:style(position: static !important; width: unset !important;)
