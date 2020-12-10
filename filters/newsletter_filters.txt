@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Newsletter Subscription Filters
-! Last Modified: 11:59 2020-12-09
+! Last Modified: 12:26 2020-12-10
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for newsletter annoyances - Remove newsletter & other subscription cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -59,9 +59,8 @@ atchisonglobenow.com,auburnpub.com,azdailysun.com,bakercityherald.com,baycitytri
 atlasobscura.com###newsletter-email-ask, .email-ask-full-width, .item-newsletter-form, .item-social-row, .newsletter-signup-container
 atlassian.com##.newsletter
 autoblog.com###rr-newsletter-signup
-avclub.com,clickhole.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,jezebel.com,kinja.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com###newsletterPromoModule:upward(1)
+avclub.com,clickhole.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,jezebel.com,kinja.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com###newsletterPromoModule, a[href="/newsletter"]:upward(1)
 avclub.com,clickhole.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,jezebel.com,kinja.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.js_newsletter-btn--subscribe, .js_subscribe
-avclub.com,clickhole.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,jezebel.com,kinja.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##a[href="/newsletter"]:upward(1)
 axios.com##.StoryNewsletterPromo__root--34CRf, .sidebar__newsletter, .topic-newsletter, .SubscriptionHeader__newsletter--p8o4P.Header__header--3d1x-, [class^="StreamCap__promoContainer"]
 azcentral.com##.site-masthead-subscribe-link
 babycenter.com##.familyNavAndAdContainer
@@ -71,10 +70,8 @@ baltimoresun.com,capitalgazette.com,chicagotribune.com,citypaper.com,courant.com
 bankingdive.com,biopharmadive.com,cfodive.com,ciodive.com,constructiondive.com,educationdive.com,fooddive.com,grocerydive.com,healthcaredive.com,hrdive.com,marketingdive.com,medtechdive.com,mobilemarketer.com,restaurantdive.com,retaildive.com,smartcitiesdive.com,socialmediatoday.com,supplychaindive.com,utilitydive.com,wastedive.com##.signup
 bankrate.com##.cxp-email-capture-banners
 barstoolsports.com##.newsletterSignup
-baseballdailydigest.com,dispatchtribunal.com,fairfieldcurrent.com,financerecorder.com,marketbeat.com,mayfieldrecorder.com,mitchellmessenger.com,rivertonroll.com,rocklandregister.com,slatersentinel.com,sundanceherald.com,techknowbits.com,thecerbatgem.com,trentdailytimes.com###BelowPostRegistrationEmail:upward(1)
-baseballdailydigest.com,dispatchtribunal.com,fairfieldcurrent.com,financerecorder.com,marketbeat.com,mayfieldrecorder.com,mitchellmessenger.com,rivertonroll.com,rocklandregister.com,slatersentinel.com,sundanceherald.com,techknowbits.com,thecerbatgem.com,trentdailytimes.com##.entry > div[style^="float:left;"]
-baseballdailydigest.com,dispatchtribunal.com,fairfieldcurrent.com,financerecorder.com,marketbeat.com,mayfieldrecorder.com,mitchellmessenger.com,rivertonroll.com,rocklandregister.com,slatersentinel.com,sundanceherald.com,techknowbits.com,thecerbatgem.com,trentdailytimes.com##.sidebar-email, form[action*="marketbeat.com/newsletter"]
-baseballdailydigest.com,dispatchtribunal.com,fairfieldcurrent.com,financerecorder.com,marketbeat.com,mayfieldrecorder.com,mitchellmessenger.com,rivertonroll.com,rocklandregister.com,slatersentinel.com,sundanceherald.com,techknowbits.com,thecerbatgem.com,trentdailytimes.com##[href^="/daily-email-updates-basic/"]:upward(1)
+baseballdailydigest.com,dispatchtribunal.com,fairfieldcurrent.com,financerecorder.com,marketbeat.com,mayfieldrecorder.com,mitchellmessenger.com,rivertonroll.com,rocklandregister.com,slatersentinel.com,sundanceherald.com,techknowbits.com,thecerbatgem.com,trentdailytimes.com###BelowPostRegistrationEmail, [href^="/daily-email-updates-basic/"]:upward(1)
+baseballdailydigest.com,dispatchtribunal.com,fairfieldcurrent.com,financerecorder.com,marketbeat.com,mayfieldrecorder.com,mitchellmessenger.com,rivertonroll.com,rocklandregister.com,slatersentinel.com,sundanceherald.com,techknowbits.com,thecerbatgem.com,trentdailytimes.com##.entry > div[style^="float:left;"], .sidebar-email, form[action*="marketbeat.com/newsletter"]
 bb4sp.com###mailchimpsf_widget-2
 bbc.co.uk,bbc.com##.news-app-promo, .ws-c-news-daily
 bearingarms.com##.newsletter-sign-up

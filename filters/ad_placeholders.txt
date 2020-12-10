@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Ad Placeholder Filters
-! Last Modified: 11:59 2020-12-09
+! Last Modified: 12:26 2020-12-10
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for empty advertising placeholders.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -101,7 +101,7 @@ birminghammail.co.uk,bristolpost.co.uk,business-live.co.uk,chroniclelive.co.uk,c
 birthmoviesdeath.com##.Ad--header.Ad
 bleacherreport.com##.ad, .installApp, .notification, .relatedContent, .smart_banner
 blendswap.com###nag-region, #adBlockerContainer, #paywall-banner, .article_interaction, .in-article-ad-dummy, .mobile-box-ad-dummy
-bloomberg.com##.terminal-tout-container, .zipr-recirc
+bloomberg.com###paywall-banner, .terminal-tout-container, .zipr-recirc
 bloomberg.com,energyvoice.com,inc.com,newscientist.com,usgamer.net##.leaderboard-container
 boardingarea.com##.div-gpt-ad-adhesion-leaderboard-wrap
 bonappetit.com##.ba-recirc-riser.expanded.riser, .header-ad-area
@@ -369,8 +369,7 @@ nationalreview.com##.ad-unit--leaderboard.ad-unit
 nature.com###leaderboard, .container-type-banner-advert
 nautil.us###adpayload, .leaderboard-ad-belt
 nba.com###block-globalheaderadblock
-nbcnews.com##.article-body__content > p > em > strong > a[href*="https://apps.nbcnews.com/mobile/"]:upward(3)
-nbcnews.com##.article-body__content > p > em > strong > a[href*="https://smart.link/"]:upward(3)
+nbcnews.com##.article-body__content > p > em > strong > a[href*="https://apps.nbcnews.com/mobile/"], .article-body__content > p > em > strong > a[href*="https://smart.link/"]:upward(3)
 nbcnews.com##[data-test="ad-container"]:upward(1)
 nbcsports.com###topbanner, .upper-ad-module
 nbcwashington.com##.ad, .sfadSlot
@@ -520,8 +519,7 @@ tasteofhome.com###subscribe-to-magazine-sticky, .CMRightRail-AD, .header-banner-
 tastingtable.com###mobile_sticky_bottom, #sideReel
 techcrunch.com##.ad-cluster-container, .ad-unit
 techgenix.com###featured-links
-techgenix.com##.ezoic-ad.sidebar_middle:upward(2)
-techgenix.com##[id*="ad_pos_"]:upward(2)
+techgenix.com##.ezoic-ad.sidebar_middle, [id*="ad_pos_"]:upward(2)
 technet.microsoft.com###msccBanner
 technologyreview.com##.article-sponsored-content-list, [class^="headerTemplate__leaderboardRow"]
 tedium.co##.md-adbox
@@ -612,8 +610,7 @@ warriortrading.com###someone-purchased
 washingtonexaminer.com##.desktop-ad-container, .desktop-ad-undertone, .legacy-sidebar-promo, .prompt-content, .upnext, .visible.basic.cp-prompt
 washingtonian.com###ad_pos_targeted_in_article, .dfp_ad_pos, hr.style-2.wash-separator
 washingtonpost.com###leaderboard-wrapper, #recommended-toast, #slug_leaderboard, .ad, .bigbox-wrapper, .content-subscription, .ent-ad-container, .html5.position-rel.game-module.right-rail, .module.image-promotion.component.curved, .outbrain-wrapper, .pb-ad-container, .pb-f-ad-leaderboard, .promo, .wp-column.partners-holder
-washingtonpost.com###slug_leaderboard_1:upward(2)
-washingtonpost.com##wp-ad#slug_flex_ss_bb_hp:upward(2)
+washingtonpost.com###slug_leaderboard_1, wp-ad#slug_flex_ss_bb_hp:upward(2)
 washingtontimes.com##.breaking-news .sponsored-container:upward(2)
 washingtontimes.com##.connatixcontainer, [class*="index__adWrapper--"]
 washingtontimes.com##.page-headline > .sponsored-heading:upward(1)
@@ -648,7 +645,7 @@ wwd.com##.wwd-in-article-ad
 www.yahoo.com##[id*="modal-sidekick-"] li span[class="sponsored"]:upward(4)
 xfinity.com##._visible.x-ui-theme--dark.upsell-filter--top.upsell-filter.flex, .ad-container
 yahoo.com###YDC-MainCanvasLeadAd-Composite, #danafarberpromo, #defaultdestLREC, #fantasyshoppromo, #get-the-app, #mega-banner, #mega-banner-wrapper, #mrt-node-Lead-2-AbPromo, #sda-LDRB, #sportsshop-promo, #uh-scroll-promo, #unblock-instructions, #unblock-intstructions, #viewer-LDRB, #yset-search-upsell-container, #yucs-top-ff-promo, .H-fixed.Ad, .ginsuAd, .nr-applet-main-nav-right, .sponsored, .td-applet-canvass
-yahoo.com###viewer-LREC-iframe:upward(2)
+yahoo.com###viewer-LDRB-iframe, #viewer-LREC-iframe:upward(2)
 yuganet.us##.custom-ads-close
 zerohedge.com###abd-banner, #sidebar-right-1, #sidebar-right-2, #sidebar-right-3, #sidebarleft-bottom, #sidebarleft-top, .ad-header-container, .ad-left-container, .ad__wrapper-element, .injected-ad-wrapper
 zerohedge.com##.carousel-placement [class="ad__wrapper-element"]:upward(1)
