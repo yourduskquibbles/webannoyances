@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 09:47 2020-12-15
+! Last Modified: 12:15 2020-12-16
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -5646,11 +5646,12 @@ newsrts.com##.wpb_wrapper:style(position: static !important;)
 newstarget.com##.Sticky2:style(position: static !important;)
 newstatesman.com##.site-header-top:style(padding-top: 0 !important;)
 newstatesman.com##.site-logo:style(display: block !important;)
-newsweek.com###block-nw-nw-header, .stickyhead, .header--nav, .page-header:style(position: relative !important; top: 0 !important;)
-newsweek.com###sticky-title
+newsweek.com###sidebar:not([class*="i-amphtml-element"]) ul.page-nav a:style(padding: 0 !important;)
+newsweek.com###sidebar:not([class*="i-amphtml-element"]) ul.page-nav li:first-child:style(border-left-width: 0 !important;)
+newsweek.com###sidebar:not([class*="i-amphtml-element"]) ul.page-nav li:style(flex-grow: 1 !important; text-align: center !important; border-left: 1px solid #d9d9d9 !important; padding: 0 !important;)
+newsweek.com###sidebar:not([class*="i-amphtml-element"]) ul.page-nav:style(width: 100% !important; display: -webkit-flex !important; display: flex !important; padding-top: 0 !important;)
+newsweek.com###sticky-title, .fixed.page-header:not(html[amp=""])
 newsweek.com###sticky3:style(position: static !important;)
-newsweek.com##.container-fluid, .container:style(max-width: 1310px !important;)
-newsweek.com##.container-fluid.main:style(padding-top: 65px !important;)
 newsweek.com##.header-bottom:style(position: relative !important; width: 100% !important; height: 56px !important; padding-top: 15px !important; padding-bottom: 15px !important; padding-right: 160px !important; border-bottom: 2px solid #f4f5f6 !important; box-shadow: none !important; overflow: unset !important;)
 newsweek.com##.header-middle:style(position: absolute !important; left: 50% !important; padding: 10px 15px !important; transform: translate(-50%,0) !important; z-index: 3 !important;)
 newsweek.com##.header-top .col-1:style(display: block !important;)
@@ -5671,10 +5672,10 @@ newsweek.com##.videocontent:style(width: 100% !important; height: 100% !importan
 newsweek.com##form#search-block-form--2 .element-invisible:style(top: 18px !important; right: 82px !important;)
 newsweek.com##form#search-block-form--2 input[type="text"]:style(position: absolute !important; height: 54px !important; width: 60px !important;)
 newsweek.com##form#search-block-form--2:style(position: static !important; padding: 0 !important; margin: 0 !important;)
-newsweek.com##ul.page-nav a:style(padding: 0 !important;)
-newsweek.com##ul.page-nav li:first-child:style(border-left-width: 0 !important;)
-newsweek.com##ul.page-nav li:style(flex-grow: 1 !important; text-align: center !important; border-left: 1px solid #d9d9d9 !important; padding: 0 !important;)
-newsweek.com##ul.page-nav:style(width: 100% !important; display: -webkit-flex !important; display: flex !important; padding-top: 0 !important;)
+newsweek.com##html:not([amp=""]) #block-nw-nw-header, html:not([amp=""]) .stickyhead, html:not([amp=""]) .header--nav, html:not([amp=""]) .page-header:style(position: relative !important; top: 0 !important;)
+newsweek.com##html:not([amp=""]) .container-fluid, html:not([amp=""]) .container:style(max-width: 1310px !important;)
+newsweek.com##html:not([amp=""]) .container-fluid.main:not(html[amp=""]):style(padding-top: 65px !important;)
+newsweek.com##html[amp=""] #sticky-related2, html[amp=""] .page-header:style(position: absolute !important;)
 newswhip.com###hgr_top_navbar_container:style(position: absolute !important;)
 newsworks.org###phone-navbar:style(position: absolute !important;)
 newyorker.com###header-subs-a, #header-subs, .fixed-topnav.jsready.hamburger-dropdowns-navigation__header-overrides.viewed-topbanner, .hamburger-dropdowns-navigation__top-level, .header-fail, .header-wrapper, .js-main-nav-outer.hamburger-dropdowns-navigation__header-overrides, .js-nav-bar.hamburger-dropdowns-navigation__horizontal-bar, .js-sticky-element, .mobile-nav, .primary-nav, UL:style(position: relative !important; top: 0 !important;)
