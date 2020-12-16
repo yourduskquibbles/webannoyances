@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 12:15 2020-12-16
+! Last Modified: 12:19 2020-12-16
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1643,7 +1643,6 @@ cbslocal.com##body:not([onload^="anvp.baseURL"]):style(overflow-x: hidden !impor
 cbslocal.com##iframe:style(max-width: 100% !important;)
 cbsnews.com###amp-live-list--title:before:style(bottom: unset !important;)
 cbsnews.com###amp-live-list--title:style(width: auto !important;)
-cbsnews.com###breaking-news:style(position: absolute !important;)
 cbsnews.com###pip__headline, .floating.media-block:style(position: relative !important; top: 0 !important;)
 cbsnews.com##.content--type-updating_story .content .label--watch-live:style(margin-bottom: 12px !important;)
 cbsnews.com##.content--type-updating_story .content__cta:style(grid-row: 5 !important; margin-top: 15px !important;)
@@ -1667,8 +1666,9 @@ cbsnews.com##.content__promo-image-wrapper:style(width: 99.6vw !important;)
 cbsnews.com##.content__title:style(display: block !important; padding: 0 40px 34px 0 !important;)
 cbsnews.com##.dashboard-visible:style(margin-bottom: 0 !important;)
 cbsnews.com##.dashboard:style(position: relative !important; bottom: 0 !important;)
-cbsnews.com##.deep-story-dashboard .close-btn, p.breaking-news__headline
+cbsnews.com##.deep-story-dashboard .close-btn
 cbsnews.com##.embed__content--draggable:style(position: absolute !important; top: unset !important; left: unset !important; max-width: 100% !important; width: 100% !important; height: 100% !important;)
+cbsnews.com##.lazyloaded.breaking-news:style(position: relative !important; margin-top: 134px !important;)
 cbsnews.com##.site-footer:style(padding-bottom: 0 !important;)
 cbssports.com###EventPromoSlideIn
 cbssports.com###cbs-network-bar, #gt-atl-container, .war-enabled:style(position: static !important;)
