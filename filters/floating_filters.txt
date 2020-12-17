@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 12:27 2020-12-16
+! Last Modified: 09:55 2020-12-17
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -5204,7 +5204,10 @@ money.cnn.com##.ng-scope.mediaHeader:style(position: absolute !important;)
 money.com##.under-social nav.has-headline .primary-text-links:style(opacity: 1 !important; transform: none !important; pointer-events: unset !important;)
 money.com##nav.main:style(position: absolute !important;)
 moneyball.com.au##.cb-top-menu-wrap:style(position: absolute !important;)
+moneycontrol.com##.bottom_nav:style(position: relative !important;)
+moneycontrol.com##.footer-menu.f-menulist, .footer-menu-open.f-menulist-in, .scroll-paginate, .top_search_btn.btn_black_float
 moneycontrol.com##.icpancakeblock:style(position: absolute !important; top: 0 !important;)
+moneycontrol.com##.searchBox:style(position: absolute !important; display: block !important; top: 2px !important; margin: 0 0 0 -212px !important;)
 moneycrashers.com##.genesis-nav-menu a:style(padding: 14px 20px !important;)
 moneycrashers.com##.nav-primary:style(position: relative !important;)
 moneycrashers.com##.td-header-menu-wrap.td-affix:style(position: absolute !important;)
