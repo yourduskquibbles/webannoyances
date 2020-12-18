@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Newsletter Subscription Filters
-! Last Modified: 09:55 2020-12-17
+! Last Modified: 14:23 2020-12-18
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for newsletter annoyances - Remove newsletter & other subscription cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -61,7 +61,7 @@ atlassian.com##.newsletter
 autoblog.com###rr-newsletter-signup
 avclub.com,clickhole.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,jezebel.com,kinja.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com###newsletterPromoModule, a[href="/newsletter"]:upward(1)
 avclub.com,clickhole.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,jezebel.com,kinja.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.js_newsletter-btn--subscribe, .js_subscribe
-axios.com##.StoryNewsletterPromo__root--34CRf, .sidebar__newsletter, .topic-newsletter, .SubscriptionHeader__newsletter--p8o4P.Header__header--3d1x-, [class^="StreamCap__promoContainer"]
+axios.com##.StoryNewsletterPromo__root--34CRf, .sidebar__newsletter, .topic-newsletter, .SubscriptionHeader__newsletter--p8o4P.Header__header--3d1x-, [class^="StreamCap__promoContainer"], [data-testid="form-wrapper--dynamic--desktop"]
 azcentral.com##.site-masthead-subscribe-link
 babycenter.com##.familyNavAndAdContainer
 ballotpedia.org###email-signup-bar
@@ -425,6 +425,7 @@ nist.gov##.pane--nist-subscribe-form-pane
 nordstromrack.com##.nr-home__email-collector
 notquitenigella.com##.subscribe
 nplusonemag.com##.module-newsletter
+npr.org##.newsletter-stickybar
 nybooks.com##.newsletter_signup
 nydailynews.com##.newsletter-signup
 nypost.com###commerce-disclosure
