@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Cookie Filters
-! Last Modified: 08:27 2020-12-09
+! Last Modified: 15:32 2020-12-22
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Cookie Annoyances - Remove Cookie/GDPR Banners, Notices, Overlays & Warnings
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -450,7 +450,7 @@ usgamer.net###onetrust-consent-sdk, #onetrust-banner-sdk
 v3.co.uk###rdm-cookie-consent
 vev.io,vidup.io##.Cookie
 volkswagenag.com##.cookieWarning
-weather.com##[id^="WxuPrivacyDataNotice-meta"], [id^="main-PrivacyDataNotice"]
+weather.com##[id^="WxuPrivacyDataNotice-main-"], [id^="WxuPrivacyDataNotice-meta"], [id^="main-PrivacyDataNotice"]
 youtube.com###consent-bump:remove()
 yubico.com##.cookie-pop
 zdf.de##.js-rb-attached.m-open.x-cookies.b-system-dialog
