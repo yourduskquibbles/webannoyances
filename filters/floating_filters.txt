@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 15:23 2021-01-04
+! Last Modified: 11:02 2021-01-05
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1597,6 +1597,8 @@ cardpaymentoptions.com##.widget#respond .panel-heading, .widget.panel .panel-hea
 cardpaymentoptions.com,vacationtracker.io###drift-widget:style(position: absolute !important;)
 care.com##.navbar-center:style(transform: none !important;)
 careerattraction.com##.sticky_animate.sticky.page_header.scrolled_not_transparent.transparent.stick.scroll_header_top_area:style(position: absolute !important;)
+careerkarma.com##.sidebar_inner.fixed-sidebar
+careerkarma.com##div.sidebar_inner:style(display: block !important;)
 careers.google.com##.active.GXRRIBB-g-w:style(position: absolute !important;)
 careers.twitter.com##.sticky.jobs-search-nav-sticky:style(position: absolute !important;)
 carfax.com###carfax-global-header:style(position: relative !important;)
@@ -3370,6 +3372,7 @@ france24.com##.header, .on-air-board-outer, .short-cuts-outer:style(position: re
 france24.com##body.didomi-popup-open > :not(#didomi-host):style(filter: none !important;)
 fratellirossetti.com###skywalker_header_multiline:style(position: absolute !important;)
 free.vice.com##.site-header__logo:style(width: 95px !important;)
+freecodecamp.org###donation-banner-link:style(position: absolute !important;)
 freecourseweb.com###sticky:style(position: static !important;)
 freedomworks.org###block-fw-menu-fw-desktop-menu, #top:style(position: relative !important; top: 0 !important;)
 freep.com##.icon-box:style(position: absolute !important; bottom: 0 !important;)
@@ -5134,6 +5137,7 @@ mint.intuit.com##.list > div > div > div > div:style(padding-bottom: 0 !importan
 mint.intuit.com##.list-header-wrapper:style(left: 0 !important;)
 mint.intuit.com##body:style(overflow-x: hidden !important; overflow-y: scroll !important; top: 0 !important;)
 minted.com###gxViewWrap:style(position: absolute !important; top: 0 !important; box-shadow: none !important;)
+minted.com##.address-assistant__controls-pane:style(position: static !important;)
 minted.com##.diResponseDrawer:style(opacity: 1 !important;)
 mintmobile.com###js-header:style(position: absolute !important;)
 mintpressnews.com##.site-header, .nav-primary:style(background: #fff !important;)
@@ -7700,6 +7704,7 @@ thedeepmag.ca###\#novella-header:style(position: absolute !important; top: 0 !im
 thediplomat.com###td-head::after, #td-head::before, #td-top:style(position: absolute !important;)
 thedissolve.com###locking-header:style(position: relative !important; top: 0 !important;)
 thedodo.com###header__inner--large, .absolute_pos.rebelbar--fixed__postpage.rebelbar--fixed, .topbar:style(position: relative !important; top: 0 !important;)
+thedonald.win##.brand-bar, .filter-bar:style(position: absolute !important;)
 thedonald.win##.header .bar, .header.fixed .filter-bar:style(position: relative !important;)
 theenergydetective.com###chat-application:style(position: absolute !important;)
 theenergydetective.com##.main-nav .menu > li.home a:style(padding-left: 0 !important;)
@@ -8260,7 +8265,7 @@ twistedsifter.com###sidebar-scroll:style(position: relative !important; display:
 twitch.tv##.home-header-sticky:style(position: static !important;)
 twitchy.com###sticky1, #sticky2, #sticky3, .stick:style(position: static !important;)
 twitlonger.com##.navbar-fixed-top.navbar:style(position: relative !important; top: 0 !important;)
-twitter.com###header, #message-drawer, .js-topbar.topbar, .rn-1lgpqti.rn-zchlnj.rn-1xcajam.rn-12vffkv.rn-gy4na3.rn-1mdbw0j.rn-9aemit.rn-wk8lta.rn-bcqeeo.rn-ifefl9.rn-11wrixw.rn-p1pxzi.rn-61z16t.rn-1mnahxq.rn-1d2f490.rn-eqz5dr.rn-7vfszb.rn-1pxmb3b.rn-6koalj.rn-deolkf.rn-1p0dtai.rn-gxnn5r.rn-ndvcnb.rn-fnigne.rn-13yce4e.rn-mm0ijv.rn-rull8r.rn-14skgim.rn-1efd50x.rn-aqfbo4.rn-1oszu61, .r-1g40b8q.r-ipm5af.r-gtdqiz.r-qklmqi.r-rull8r.r-1igl3o0.r-kemksi.r-aqfbo4.css-1dbjc4n, .r-1g40b8q.r-ipm5af.r-gtdqiz.r-qklmqi.r-rull8r.r-1ila09b.r-yfoy6g.r-aqfbo4.css-1dbjc4n, .css-1dbjc4n.r-1gymjhz, .r-1pi2tsx.css-1dbjc4n > .r-1hycxz.r-ipm5af.r-1xcajam.css-1dbjc4n, .r-136ojw6.r-1hycxz.r-ipm5af.r-1xcajam.r-1vsu8ta.r-15d164r.r-1h3ijdo.r-18u37iz.r-14lw9ot.r-aqfbo4.r-1awozwy.css-1dbjc4n, .r-1g40b8q.r-ipm5af.r-gtdqiz.r-qklmqi.r-rull8r.r-j7yic.r-14lw9ot.r-aqfbo4.css-1dbjc4n:style(position: relative !important;)
+twitter.com###header, #message-drawer, .js-topbar.topbar, .rn-1lgpqti.rn-zchlnj.rn-1xcajam.rn-12vffkv.rn-gy4na3.rn-1mdbw0j.rn-9aemit.rn-wk8lta.rn-bcqeeo.rn-ifefl9.rn-11wrixw.rn-p1pxzi.rn-61z16t.rn-1mnahxq.rn-1d2f490.rn-eqz5dr.rn-7vfszb.rn-1pxmb3b.rn-6koalj.rn-deolkf.rn-1p0dtai.rn-gxnn5r.rn-ndvcnb.rn-fnigne.rn-13yce4e.rn-mm0ijv.rn-rull8r.rn-14skgim.rn-1efd50x.rn-aqfbo4.rn-1oszu61, .r-1g40b8q.r-ipm5af.r-gtdqiz.r-qklmqi.r-rull8r.r-1igl3o0.r-kemksi.r-aqfbo4.css-1dbjc4n, .r-1g40b8q.r-ipm5af.r-gtdqiz.r-qklmqi.r-rull8r.r-1ila09b.r-yfoy6g.r-aqfbo4.css-1dbjc4n, .css-1dbjc4n.r-1gymjhz, .r-1pi2tsx.css-1dbjc4n > .r-1hycxz.r-ipm5af.r-1xcajam.css-1dbjc4n, .r-136ojw6.r-1hycxz.r-ipm5af.r-1xcajam.r-1vsu8ta.r-15d164r.r-1h3ijdo.r-18u37iz.r-14lw9ot.r-aqfbo4.r-1awozwy.css-1dbjc4n, .r-1g40b8q.r-ipm5af.r-gtdqiz.r-qklmqi.r-rull8r.r-j7yic.r-14lw9ot.r-aqfbo4.css-1dbjc4n, .r-184en5c.r-ipm5af.r-gtdqiz.r-aqfbo4.css-1dbjc4n:style(position: relative !important;)
 twitter.com###page-container, .topbar-spacer, .wrapper-search.AppContent:style(padding-top: 0 !important;)
 twitter.com##.AppBar--overSignup.u-cf.AppBar--inverted.AppBar, .CoreLayout-header, .ProfileCanopy-inner, .SearchNavigation, .js-variableHeightTopBar.StreamsTopBar--fixed.StreamsTopBar, .u-bgUserColor.ProfileCanopy-header, .u-boxShadow.ProfileCanopy-navBar, [data-testid="sidebarColumn"] > div > div[style*="top: "]:style(position: relative !important; top: 0 !important;)
 twitter.com##.ProfileCanopy-avatar:style(bottom: -87px !important;)
