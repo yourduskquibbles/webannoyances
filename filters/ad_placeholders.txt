@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Ad Placeholder Filters
-! Last Modified: 12:23 2021-01-03
+! Last Modified: 10:36 2021-01-11
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for empty advertising placeholders.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -207,6 +207,8 @@ evite.com###mobile_top_ad
 ew.com##.ad-section-container, .articles-recirculation, nav.main .stacked-header__cm-ad.desktop-only
 express.co.uk###cmp-container-id
 extremetech.com###bannerad
+fandom.com##div.mcf-card-article__link:has(.mcf-card-article__subtitle:has-text(/Fandom/))
+fandom.com##div.mcf-card-sponsored-content
 fangraphs.com###BlogSideBar1_panAd1, #BlogSideBar1_panAd2, #top_da, .fg-ads-mobile
 fantasypros.com###top-banner, .ad-300, .leaderboard-wrap
 fastcocreate.com,fastcompany.com##.dianomiScriptContainer.dianomi_context, .post__article-top-ad-wrapper
