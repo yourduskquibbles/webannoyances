@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Newsletter Subscription Filters
-! Last Modified: 11:52 2021-01-11
+! Last Modified: 11:41 2021-01-12
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for newsletter annoyances - Remove newsletter & other subscription cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -236,7 +236,7 @@ fortune.com##.newsletter-callout, .subscribe-callout, [class*="footerSubscribe__
 forward.com##.newsletter-signup-container
 foxnews.com##.item-newsletter, .promo-newsletter, p a[href*="foxnews.com/newsletters"]
 france24.com##.o-self-promo--nl.o-self-promo
-ft.com##.n-alert-banner--marketing-anon-subscribe, .n-messaging-slot, .subscription-prompt
+ft.com##.js-instant-alerts-promo.o-message--instant-alerts-promo.o-message--notice.o-message, .n-alert-banner--marketing-anon-subscribe, .n-messaging-slot, .subscription-prompt
 futurism.com##.subscribe-form.center, .yksqV.NewsletterSignUpWidget__StyledWrapper-sc-18sck4u-0
 gadgetsnow.com##.nl_popup.notify_alert
 gamesindustry.biz,scientificamerican.com,timesofisrael.com,usgamer.net##.newsletter-promo
@@ -255,6 +255,7 @@ golf.com##.newsletter-callout
 golfdigest.com##.sap-cdc
 golfweek.com##.golfweek-subscribe-top
 goodfood.com.au###subscribe-newsletter
+gothamist.com##.c-newsletter-article
 goupstate.com###header-main-promo
 govconwire.com###mc4wp_form_widget-9, .chimpy_popup_content.chimpy-
 gq.com##.cm-header, .gq-navigation__newsletter-button, .nav-item-subscribe.nav-item, .subscribe-button
@@ -690,6 +691,7 @@ vox.com##p:has-text(/Sign up for/)
 wallethacks.com###text-32
 wamu.org##.newsletter-module
 washingtonexaminer.com###newsletter-signup-policy, #newsLetter-signup-box, #newsletter_sign_up_form, .newsletter, .subscribe-promo
+washingtonian.com##.wash-newsletter, .wash-newsletter__form
 washingtonpost.com###nav-subscribe, #signup-banner, #signup-box-instream, #signup-box-rr, .daily202-newsletter, .newsletter-inline-unit, .newsletter-unit.signup-box-rr, .pb-f-page-subscription-promo, .pb-subscribe, .pb-subscribe-promo, .right-rail-subscription, .signup-module, .subscribe, .subscribe-links, [data-qa="newsletter"]
 washingtonpost.com##.hide-for-print:has([alt*="Newsletter"])
 washingtonpost.com##.hide-for-print:has([name="signup-email"])

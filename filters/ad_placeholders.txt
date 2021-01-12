@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Ad Placeholder Filters
-! Last Modified: 10:40 2021-01-11
+! Last Modified: 11:41 2021-01-12
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for empty advertising placeholders.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -145,7 +145,7 @@ chromeunboxed.com##.topSpace
 cinemablend.com##.ad-wrap, .ads_slot
 circa.com##.ArticlePage-ad, .GoogleDfpAd, div[id^="advertisement-"]
 citylab.com##.l-sponsored
-cnbc.com###ForYouBreaker-makeit, .news-widget, .wildcard.embed-container, .TopBanner-container[data-test="adHomepageTopBanner-0"], .TopBanner-container[data-test="adTopBanner-0"]
+cnbc.com###ForYouBreaker-makeit, .group div[class="lazyload-placeholder"], .news-widget, .wildcard.embed-container, .TopBanner-container[data-test="adHomepageTopBanner-0"], .TopBanner-container[data-test="adTopBanner-0"], [data-module="mps-slot"]
 cnet.com###leaderTopWrap, .ad-nav-ad, .fixed.sticky-leader, .leadWrap
 coindesk.com##.widget_coindesk_freestar_atf_ad_unit_widget, .widget_coindesk_freestar_btf_ad_unit_widget
 columbiabasinherald.com##.no-print.row.ad
@@ -573,7 +573,7 @@ thestar.com.my###pd-embed-slider, .Ads-slot
 thestrad.com###promo-banner
 thestreet.com###lower-ad-banner, .m-ad-adhesion, .m-ad-outofpage, .main-nav__header-ad, .sticky-top-ad-wrap
 theverge.com##.m-ad
-theweek.com###HPPromoBox, #us60-test, .ad_wrap, .col300_4free, .oop-ad, .top-leaderboard-container, .top-leaderboard-section, .zerg-colm
+theweek.com###HPPromoBox, #us60-test, #us77-test, .ad_wrap, .col300_4free, .oop-ad, .top-leaderboard-container, .top-leaderboard-section, .zerg-colm
 thewirecutter.com##.ad-728x90
 thisisinsider.com###editorial2, .ad-subnav-container
 thrillist.com###header-ad, #header-ads, .ad-container, .stack-ad-container, .stack-ad-placeholder
