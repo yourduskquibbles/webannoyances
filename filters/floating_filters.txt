@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 13:26 2021-01-14
+! Last Modified: 14:24 2021-01-14
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -631,7 +631,8 @@ apple.com###as-search-filters, .as-fixed-nav:style(position: static !important;)
 apple.com##.as-fullwidth-border:style(position: absolute !important; top: unset !important;)
 apps.bostonglobe.com##.sticky-nav.g-header:style(position: absolute !important;)
 appveyor.com##.fixed:style(position: absolute !important;)
-ar15.com##.show-for-large.user-bar:style(position: relative !important; top: 0 !important; display: block !important; opacity: 1 !important;)
+ar15.com##.cd-is-visible.cd-bottom, .cd-is-visible.cd-top
+ar15.com##.show-for-large.user-bar:style(position: relative !important; top: 0 !important; display: block !important; opacity: 1 !important; z-index: unset !important;)
 ara.cat###dev-nav-bar, .ara-header-sticky-blk-a, .ara-header-sticky-blk-b:style(position: relative !important; top: 0 !important;)
 arabnews.com###sticky-block:style(position: static !important;)
 arabnews.com###sticky-header, .share-this-popover, .sticky-spacer
@@ -730,7 +731,7 @@ asiatimes.com##header .header-bottom .sticky-container.sticky .menu .menu-list .
 asicentral.com###main-nav:style(position: absolute !important;)
 askdrsears.com,spaceanswers.com###access:style(position: relative !important;)
 askthebuilder.com###search:style(position: relative !important;)
-askubuntu.com,serverfault.com,stackexchange.com,stackoverflow.com,superuser.com###overlay-header
+askubuntu.com,serverfault.com,stackexchange.com,stackoverflow.com,superuser.com###overlay-header, .create-team-tooltip
 askubuntu.com,serverfault.com,stackexchange.com,stackoverflow.com,superuser.com##.js-sticky-leftnav.left-sidebar--sticky-container:style(position: relative !important; top: 0 !important;)
 askubuntu.com,serverfault.com,stackexchange.com,stackoverflow.com,superuser.com##.top-bar:style(position: absolute !important;)
 asmtutor.com##.navbar-fixed-top:style(position: absolute !important;)
