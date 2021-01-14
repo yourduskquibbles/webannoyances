@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 14:24 2021-01-14
+! Last Modified: 16:52 2021-01-14
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of other page covering elements. Cookie/GDPR notices will be removed in Cookie Filters sublist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -808,7 +808,7 @@ sitepoint.com##sp-fixed-countdown-bar
 sk7mobile.com##.modal-backdrop, .ui-modal
 skunity.com##.Notices.FloatingContainer
 slashdot.org###tour-popover
-slickdeals.net##.modal:not(#couponModal), .sdModalOverlay
+slickdeals.net##.modal:not(#couponModal):not(.loginSignUp), .sdModalOverlay
 smallnetbuilder.com###relatedarticleflyoutbx
 smithsonianstore.com###fancybox-overlay, #fancybox-wrap
 smugmug.com##.sm-page-scroll-to-top
