@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 14:24 2021-01-14
+! Last Modified: 14:31 2021-01-14
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -8372,6 +8372,7 @@ urbanairship.com##.nav-header.away-from-top .container-large::before, .nav-heade
 urbandictionary.com##div[style^="position: sticky"]:style(position: static !important;)
 urbanstems.com##.sticky.row.product-address-bar:style(position: relative !important; top: 0 !important;)
 urbo.com##.urbo_header.module, .urbo_menu.module:style(position: absolute !important;)
+urologytimes.com##.bg-primary.navbar-dark.navbar-expand-xl.navbar:style(position: relative !important;)
 usareally.com##.menu-block:style(position: absolute !important;)
 usatoday.com###global-nav-wrapper, .fixed.util-sticky-module.style-scope:style(position: absolute !important; top: 0 !important;)
 usatoday.com###nav-branding, #nav-global, #navContainer:style(position: relative !important; top: 0 !important;)
