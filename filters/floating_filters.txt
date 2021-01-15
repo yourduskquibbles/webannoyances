@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 09:10 2021-01-15
+! Last Modified: 14:24 2021-01-15
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -294,7 +294,7 @@ adobe.com###j-compact-header, #j-header-wrap, #title-bar, .userguide-outer-nav-c
 adp.com##.clearfix.top-nav.adp-nav-background:style(position: relative !important; top: 0 !important;)
 ads.twitter.com,developer.twitter.com,dmagazine.com,globalcitizen.org,lotuffleather.com,peoplefinders.com,quantamagazine.org,trendings.net##.nav:style(position: absolute !important;)
 adsack.com###main-nav-container:style(position: relative !important;)
-adssettings.google.com,airbnb.design,ambotv.com,azarus.io,blog.bitbucket.org,bizfluent.com,blueorigin.com,brainpickings.org,brightsurf.com,btcwires.com,cedarfair.com,chicagobusiness.com,citizensaccess.com,community.microfocus.com,couponcabin.com,coupons.cnn.com,crainscleveland.com,crainsdetroit.com,crainsnewyork.com,dippindots.com,disneyplus.com,dropboxforum.com,embracepetinsurance.com,exabeam.com,extrahop.com,fangraphs.com,fedex.com,flopstarter.com,foreignpolicy.com,gamedev.net,goodrx.com,html5canvastutorials.com,i24news.tv,instructure.com,ipaddress.com,islamicfinder.org,jimmyjohns.com,kat.am,katcr.to,kickasstorrent.*,kickasstorrents.*,libp2p.io,mcmansionhell.com,meds.se,microchip.com,modernistcuisine.com,news18.com,pocketsense.com,pimeyes.com,rhodecode.com,sendspace.com,solarmoviez.ru,thepiratebay-proxylist.se,usw.org,wendys.com##header:style(position: absolute !important;)
+adssettings.google.com,airbnb.design,ambotv.com,azarus.io,blog.bitbucket.org,bizfluent.com,blueorigin.com,brainpickings.org,brightsurf.com,btcwires.com,cedarfair.com,chicagobusiness.com,citizensaccess.com,community.microfocus.com,couponcabin.com,coupons.cnn.com,crainscleveland.com,crainsdetroit.com,crainsnewyork.com,dippindots.com,disneyplus.com,dropboxforum.com,ehow.co.uk,embracepetinsurance.com,exabeam.com,extrahop.com,fangraphs.com,fedex.com,flopstarter.com,foreignpolicy.com,gamedev.net,goodrx.com,html5canvastutorials.com,i24news.tv,instructure.com,ipaddress.com,islamicfinder.org,jimmyjohns.com,kat.am,katcr.to,kickasstorrent.*,kickasstorrents.*,libp2p.io,mcmansionhell.com,meds.se,microchip.com,modernistcuisine.com,news18.com,pocketsense.com,pimeyes.com,rhodecode.com,sendspace.com,solarmoviez.ru,thepiratebay-proxylist.se,usw.org,wendys.com##header:style(position: absolute !important;)
 adssettings.google.com,contributor.google.com###yDmH0d:style(overflow-x: auto !important; overflow-y: scroll !important; padding-right: 0 !important;)
 adssettings.google.com,contributor.google.com##c-wiz:style(overflow: unset !important;)
 advancedcustomfields.com###header:style(opacity: 1 !important; position: absolute !important; background: none !important; color: white !important; box-shadow: none !important;)
@@ -552,7 +552,7 @@ amzreviewtrader.com###floating-button
 amzreviewtrader.com##.nav-main.nav:style(position: relative !important; top: 0 !important;)
 anandtech.com##.inner_wrapper, .sticky_wrapper, .is-sticky.uix_stickyBar.p-navSticky--all.p-navSticky:style(position: absolute !important;)
 anbox.io##.affix.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
-anbox.io,boingboing.net,community.brave.com,community.humanetech.com,community.signalusers.org,cryptomator.org,datomic.com,discourse.pi-hole.net,dopus.com,finimize.com,forum.level1techs.com,forums.plex.tv,forums.velocitypowered.com,freecodecamp.org,hub.filterlists.com,ipfs.io,kee.pm,letsencrypt.org,pimaxvr.com,pixls.us,sitepoint.com,twittercommunity.com,ubuntu.com,ubuntu-mate.community,vvvv.org,wer-weiss-was.de,whispersystems.discoursehosting.net##.d-header:style(position: absolute !important;)
+anbox.io,boingboing.net,community.brave.com,community.humanetech.com,community.signalusers.org,cryptomator.org,datomic.com,discourse.pi-hole.net,dopus.com,finimize.com,forum.level1techs.com,forums.plex.tv,forums.velocitypowered.com,freecodecamp.org,hub.filterlists.com,ipfs.io,kee.pm,letsencrypt.org,pimaxvr.com,pixls.us,sitepoint.com,twittercommunity.com,ubuntu.com,ubuntu-mate.community,vvvv.org,wer-weiss-was.de,whispersystems.discoursehosting.net##.d-header-wrap, .d-header:style(position: relative !important;)
 android.com###anchor-nav, .nocontent.devsite-top-section:style(position: relative !important; top: 0 !important;)
 android.com##.dac-nav-sidebar:style(position: absolute !important;)
 android.com##.devsite-nav.devsite-page-nav, .devsite-nav.devsite-section-nav:style(position: static !important;)
@@ -778,6 +778,7 @@ auburntigers.com###sport-nav:style(position: relative !important; top: 0 !import
 auctiva.com##.navbar-fixed-top.navbar, .site-header:style(position: relative !important; top: 0 !important;)
 auctiva.com##html.csscolumns-span:style(overflow-x: hidden !important; overflow-y: scroll !important; padding-right: 0 !important;)
 audible.com###navigation-top-wrapper:style(position: absolute !important;)
+auditmypc.com##.site-header:style(position: absolute !important;)
 augusta.com##.navbar-fixed-top.navbar-default.navbar, .navbar-header:style(position: relative !important; top: 0 !important;)
 aura.app,bitport.io,boardofwisdom.com,buffalonews.com,dailycaller.com,data.swiftkey.com,deepcapture.com,democracynow.org,discord.me,discounttire.com,eonline.com,honda.com,irehouse.com,irishexaminer.com,marketwatch.com,mic.com,nypost.com,prmdeal.com,saksfifthavenue.com,simpleflying.com,support.google.com,teamblind.com,themarysue.com,whio.com,withgoogle.com##header:style(position: relative !important;)
 auslogics.com###widget-area:style(margin-top: 0 !important;)
@@ -7860,6 +7861,7 @@ thenationalpulse.com##.navbar-dummy, .rumble_cc4cir-Rumble-cls > div[style*="wid
 thenationalpulse.com##.navbar-primary:style(position: relative !important;)
 thenationalpulse.com##.rumble_cc4cir-Rumble-cls:style(position: relative !important; width: 100% !important; max-width: unset !important; inset: auto !important;)
 thenationalpulse.com##.sticky-sidebar-enabled.stick-to-bottom .sidebar-1, .sticky-sidebar-enabled.stick-to-top .sidebar-1:style(position: static !important;)
+thenationalpulse.com##[id^="vid"][class*="Rumble"]:style(position: relative !important; inset: auto !important; width: 100% !important; max-width: 100% !important; z-index: unset !important;)
 thenerdy.com###nav-container:style(position: absolute !important;)
 thenest.com##.jwplayer__container:style(position: relative !important; padding-bottom: 56.25% !important;)
 thenevadaindependent.com##.sticky-inner-wrapper:style(position: static !important; transform: none !important;)
