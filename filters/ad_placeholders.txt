@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Ad Placeholder Filters
-! Last Modified: 14:24 2021-01-14
+! Last Modified: 09:09 2021-01-15
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for empty advertising placeholders.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -47,7 +47,7 @@ allmodern.com,birchlane.com,jossandmain.com,wayfair.com###wf_smart_app_banner
 allrecipes.com##.ad-mag-homeBtm, .ad-mag-homeBtm__footer, .ad-mobile-only, .ad-recipe-page-footer-container, .ad-recipe-page-middle-container, .ad-search-grid, .offer-container, .recipe-ad-wrapper, .reserve-ad-space, .review-ad-space
 allrecipes.com,evite.com,huffingtonpost.*,huffpost.com,pokemongohub.net,theamericanmirror.com,thestar.com,washingtoncitypaper.com,weeklystandard.com##.advertisement
 allure.com,bonappetit.com,epicurious.com,glamour.com,gq.com,teenvogue.com,them.us##.persistent-bottom
-amazon.*##.adFeedback
+amazon.*###rhf-shoveler [data-cel-widget*="desktop-rhf_SponsoredProductsRemoteRHFTYP"], .adFeedback
 americanmilitarynews.com###AMN_leaderboard_MID:upward(2)
 amgreatness.com###ag-lead
 anandtech.com###header_ad, #side_ad
@@ -589,6 +589,7 @@ townhall.com##.ad
 trendingpolitics.com##div.content-below-ad
 tripadvisor.*###taplc_header_banner_ad_rr_responsive_0
 trustedreviews.com##.ad-hidden-tab.ad-hidden-mob, .advert, .ipc-advert
+tunein.com###downloadApp, #premiumConversion
 tutsplus.com##.post__article-ad
 tvguide.com##.ad-dfp
 tvline.com##.pmc-adm-goog-pub-div
@@ -609,9 +610,11 @@ velonews.com##.advert
 verdict.co.uk##.fixed-top-ads, .in-article-text-promo, .top-leaderboard
 verticalmag.com##.mhm-ad
 vice.com##.vmp-ad
+vid.me##.android-install-banner
 vidoza.net###asg-push-frame5
 vidsrc.me###adbox_desktop
 viewfromthewing.com##.advertiser-disclosure-link, .div-gpt-ad-adhesion-leaderboard-wrap, .widget_boardingpack_ad_manager.widget
+vimeo.com##.app_banner
 w3schools.com###skyscraper
 walmart.com###sponsored-container-top
 warhistoryonline.com###fader, .inad
@@ -655,7 +658,9 @@ www.yahoo.com##[id*="modal-sidekick-"] li span[class="sponsored"]:upward(4)
 xfinity.com##._visible.x-ui-theme--dark.upsell-filter--top.upsell-filter.flex, .ad-container
 yahoo.com###YDC-MainCanvasLeadAd-Composite, #danafarberpromo, #defaultdestLREC, #fantasyshoppromo, #get-the-app, #mega-banner, #mega-banner-wrapper, #mrt-node-Lead-2-AbPromo, #sda-LDRB, #sportsshop-promo, #uh-scroll-promo, #unblock-instructions, #unblock-intstructions, #viewer-LDRB, #yset-search-upsell-container, #yucs-top-ff-promo, .H-fixed.Ad, .ginsuAd, .nr-applet-main-nav-right, .sponsored, .td-applet-canvass
 yahoo.com###viewer-LDRB-iframe, #viewer-LREC-iframe:upward(2)
+yardbarker.com###footer_ad_outer
 yuganet.us##.custom-ads-close
 zerohedge.com###abd-banner, #sidebar-right-1, #sidebar-right-2, #sidebar-right-3, #sidebarleft-bottom, #sidebarleft-top, .ad-header-container, .ad-left-container, .ad__wrapper-element, .injected-ad-wrapper
 zerohedge.com##.carousel-placement [class="ad__wrapper-element"]:upward(1)
+zillow.com###app-upsell-react-module, .mobile-upsell-container
 ||menshealth.com/*/advagg_js$script,domain=menshealth.com
