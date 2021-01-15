@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 14:31 2021-01-14
+! Last Modified: 22:17 2021-01-14
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -6914,10 +6914,12 @@ shouldisendit.com##.navbar:style(position: absolute !important; padding-top: 20p
 showbiz411.com##.affix.td-menu-wrap.container:style(position: absolute !important;)
 shrm.org###ctl00_PlaceHolderMain_ArticleSectionNavigation_pan_Main:style(position: relative !important; top: 0 !important;)
 shrm.org##.affix.noindex.container-nav.container-fluid:style(position: absolute !important;)
-si.com###comments, .app_container > .main_section > div > div > div > div:nth-of-type(1), .conversation-and-stream > div > div:nth-of-type(2), .main_section > div > div > div > div:nth-of-type(2), .main_section > div > div > div:nth-of-type(2), .tab-stream.detail-stream > div > div > div:nth-of-type(1), [class*="MuiAppBar-positionFixed"], [class*="MuiAppBar-positionSticky"]:style(position: static !important;)
+si.com###comments, .app_container > .main_section > div > div > div > div:nth-of-type(1), .conversation-and-stream > div > div:nth-of-type(2), .main_section > div > div > div > div:nth-of-type(2), .main_section > div > div > div:nth-of-type(2), .tab-stream.detail-stream > div > div > div:nth-of-type(1):style(position: static !important;)
 si.com###content .conversation.app > div > div:nth-of-type(1):not([class="maven-sidebar"]), .channel.app > div > div:nth-of-type(1):not([class="maven-sidebar"]):style(position: absolute !important; background: transparent !important; transition: none !important;)
-si.com##+js(aeld, scroll, function(e){u(n(e,1,a))})
-si.com##.longform-hero-container:style(padding-top: 0 !important;)
+si.com##+js(aeld, scroll, e)
+si.com##.jw-wrapper:style(position: absolute !important; top: 0 !important; left: 0 !important; right: 0 !important; bottom: 0 !important; width: 100% !important; max-width: 100% !important; height: 100% !important; max-height: 100% !important; animation: none !important;)
+si.com##.longform-hero-container, [class*="UniversalTopNav"][style^="padding-top"]:style(padding-top: 0 !important;)
+si.com##.m-page-wrapper:style(margin-top: 0 !important;)
 si.com##.maven-sidebar > div > div:style(position: absolute !important;)
 si.com##.primary, .secondary:style(position: static !important; top: 0 !important;)
 si.com##.short-only.logo > .desktop-only.full-logo > .color-porcelain.hover-fill, .showBackground.stickyFooter, .ui-button.ui-button-close.small.is-fixed, body:not(.under-social) nav.main .under-social-logo.desktop-only, hr
@@ -6925,11 +6927,10 @@ si.com##.subcontainer, .tall-only.logo:style(opacity: 1 !important;)
 si.com##.title-display:style(opacity: 0 !important;)
 si.com##.under-social nav.has-headline .primary-link.extra.small, .under-social nav.has-headline .primary-text-links, .under-social nav.main.has-headline .container.primary .subcontainer .buttons.outside.desktop-only:style(opacity: 1 !important; transform: none !important; pointer-events: unset !important;)
 si.com##.vjs-control-bar:style(transform: none !important;)
-si.com##[class*="MuiCollapse-container"]:style(display: block !important; height: 63px !important; visibility: visible !important; overflow: visible !important;)
-si.com##[class*="MuiGrid-container-"]
-si.com##[class*="MuiToolbar-root-"]:style(grid-template: "menu expandedLogo rightTop" "leftEngagementLink linksContainer rightEngagementLink" / auto 1fr auto !important;)
+si.com##[class*="MuiCollapse-container"]:style(display: block !important; height: 63px !important; min-height: unset !important; visibility: visible !important; overflow: visible !important;)
 si.com##body.nav-collapsed nav.main.with-scoreboard.full-size-nav-enabled ~ nav.menu:style(top: 207px !important; height: calc(100% - 207px) !important;)
 si.com##body.nav-expanded nav.main.with-scoreboard.full-size-nav-enabled.no-secondary-ribbon ~ nav.menu:style(top: 167px !important; height: calc(100% - 167px) !important;)
+si.com##header[class*="MuiAppBar-positionSticky"], header[class*="MuiAppBar-positionFixed"]:style(position: relative !important;)
 si.com##nav.main.full-size-nav-enabled .container.primary, nav.main.full-size-nav-enabled.no-secondary-ribbon, nav.main.full-size-nav-enabled.with-scoreboard:style(height: 105px !important;)
 si.com##nav.main.full-size-nav-enabled .container.secondary .subcontainer:style(justify-content: center !important;)
 si.com##nav.main.full-size-nav-enabled.hide-nav-elements > .container.primary > .subcontainer .logo.tall-only:style(transform: translate3d(-50%,0,0) !important;)
