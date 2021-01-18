@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 11:16 2021-01-18
+! Last Modified: 11:23 2021-01-18
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -56,7 +56,7 @@
 2bigfeet.com##.nav-overflow:style(position: relative !important; top: 0 !important;)
 2daygeek.com###nav-mobile:style(position: absolute !important;)
 2daygeek.com,babyaxis.com,bitshouts.com,cnsnews.com,fraudguides.com,the.dailywebthing.com,worldfreeware.com###nav-topbar:style(position: absolute !important;)
-2guyscigars.com,ambition.com,apps.gab.com,bfst.to,bfstrms.xyz,buffstream.to,buffstreamz.com,cebglobal.com,centurylink.com,countyoffice.org,cryptocoincharts.info,eveningpostindustries.com,feeder.co,gobankingrates.com,huffingtonpost.*,huffpost.com,ihavenotv.com,imagesocket.com,ktla.com,niteo.co,postgresql.org,postmake.io,psychologytoday.com,q13fox.com,technode.com,thebulletin.org,throwawaymail.com,vipbox.im,wlfi.com,wpd.app,wthitv.com##.navbar:style(position: relative !important;)
+2guyscigars.com,ambition.com,appleinsider.com,apps.gab.com,bfst.to,bfstrms.xyz,buffstream.to,buffstreamz.com,cebglobal.com,centurylink.com,countyoffice.org,cryptocoincharts.info,eveningpostindustries.com,feeder.co,gobankingrates.com,huffingtonpost.*,huffpost.com,ihavenotv.com,imagesocket.com,ktla.com,niteo.co,postgresql.org,postmake.io,psychologytoday.com,q13fox.com,technode.com,thebulletin.org,throwawaymail.com,vipbox.im,wlfi.com,wpd.app,wthitv.com##.navbar:style(position: relative !important;)
 2paragraphs.com,arstechnica.com,climatehawksvote.com,consumeraffairs.com,epicurious.com,filterlists.com,flutter.io,ghostinfluence.com,newstatesman.com,ocregister.com,screenrant.com,thepaleomom.com,thewanderlustkitchen.com##.site-header:style(position: relative !important; top: 0 !important;)
 3dprint.com##.et-fixed-header:style(position: relative !important; top: 0 !important;)
 3dprintingforbeginners.com###floating_menu:style(position: absolute !important;)
@@ -629,6 +629,8 @@ apple.com###ac-globalnav:style(position: absolute !important;)
 apple.com###ac-localnav, #localnav, .filter-bar:style(position: relative !important;)
 apple.com###as-search-filters, .as-fixed-nav:style(position: static !important;)
 apple.com##.as-fullwidth-border:style(position: absolute !important; top: unset !important;)
+appleinsider.com##.header-desktop.header:style(position: absolute !important;)
+appleinsider.com##.push:style(margin-top: 0 !important;)
 apps.bostonglobe.com##.sticky-nav.g-header:style(position: absolute !important;)
 appveyor.com##.fixed:style(position: absolute !important;)
 ar15.com##.cd-is-visible.cd-bottom, .cd-is-visible.cd-top
