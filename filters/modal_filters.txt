@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 16:52 2021-01-14
+! Last Modified: 21:15 2021-01-18
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of other page covering elements. Cookie/GDPR notices will be removed in Cookie Filters sublist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -645,8 +645,7 @@ newscientist.com###registration-barrier, .prompt
 newscientist.com##body:style(position: relative !important; overflow-x: hidden !important; overflow-y: scroll !important;)
 newsminer.com##.ta_bottomLeftPopup.ta_lowProducts.ta_popup
 newsok.com###elevator
-newstatesman.com##.tns-modal-active:after
-newstatesman.com##.tns-modal-wrapper
+newstatesman.com##.tns-modal-active:after, .tns-modal-wrapper
 newstatesman.com##body:style(overflow: auto !important;)
 newsweek.com##.nav-next
 newyorker.com##.Failsafe__tny-failsafe___3NxXj, .bx-has-close-inside, .interstitial, .paywall-bar, .paywall-modal, .paywall-registration-gate

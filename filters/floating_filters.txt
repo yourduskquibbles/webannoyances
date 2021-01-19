@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 20:52 2021-01-18
+! Last Modified: 21:15 2021-01-18
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -296,7 +296,7 @@ adobe.com###j-compact-header, #j-header-wrap, #title-bar, .userguide-outer-nav-c
 adp.com##.clearfix.top-nav.adp-nav-background:style(position: relative !important; top: 0 !important;)
 ads.twitter.com,developer.twitter.com,dmagazine.com,globalcitizen.org,lotuffleather.com,peoplefinders.com,quantamagazine.org,trendings.net##.nav:style(position: absolute !important;)
 adsack.com###main-nav-container:style(position: relative !important;)
-adssettings.google.com,airbnb.design,ambotv.com,azarus.io,blog.bitbucket.org,bizfluent.com,blueorigin.com,brainpickings.org,brightsurf.com,btcwires.com,cedarfair.com,chicagobusiness.com,citizensaccess.com,community.microfocus.com,couponcabin.com,coupons.cnn.com,crainscleveland.com,crainsdetroit.com,crainsnewyork.com,dippindots.com,disneyplus.com,dropboxforum.com,ehow.co.uk,embracepetinsurance.com,exabeam.com,extrahop.com,fangraphs.com,fedex.com,flopstarter.com,foreignpolicy.com,gamedev.net,goodrx.com,hedgehogreview.com,html5canvastutorials.com,i24news.tv,instructure.com,ipaddress.com,islamicfinder.org,jimmyjohns.com,kat.am,katcr.to,kickasstorrent.*,kickasstorrents.*,libp2p.io,mcmansionhell.com,meds.se,microchip.com,modernistcuisine.com,news18.com,pocketsense.com,pimeyes.com,rhodecode.com,sendspace.com,solarmoviez.ru,thepiratebay-proxylist.se,usw.org,wendys.com##header:style(position: absolute !important;)
+adssettings.google.com,airbnb.design,ambotv.com,azarus.io,blog.bitbucket.org,bizfluent.com,blueorigin.com,brainpickings.org,brightsurf.com,btcwires.com,cedarfair.com,chicagobusiness.com,citizensaccess.com,community.microfocus.com,couponcabin.com,coupons.cnn.com,crainscleveland.com,crainsdetroit.com,crainsnewyork.com,dippindots.com,disneyplus.com,dropboxforum.com,ehow.co.uk,embracepetinsurance.com,exabeam.com,extrahop.com,fangraphs.com,fedex.com,flopstarter.com,foreignpolicy.com,gamedev.net,goodrx.com,hedgehogreview.com,html5canvastutorials.com,i24news.tv,in.mashable.com,instructure.com,ipaddress.com,islamicfinder.org,jimmyjohns.com,kat.am,katcr.to,kickasstorrent.*,kickasstorrents.*,libp2p.io,mcmansionhell.com,meds.se,microchip.com,modernistcuisine.com,news18.com,pocketsense.com,pimeyes.com,rhodecode.com,sendspace.com,solarmoviez.ru,thepiratebay-proxylist.se,usw.org,wendys.com##header:style(position: absolute !important;)
 adssettings.google.com,contributor.google.com###yDmH0d:style(overflow-x: auto !important; overflow-y: scroll !important; padding-right: 0 !important;)
 adssettings.google.com,contributor.google.com##c-wiz:style(overflow: unset !important;)
 advancedcustomfields.com###header:style(opacity: 1 !important; position: absolute !important; background: none !important; color: white !important; box-shadow: none !important;)
@@ -3859,9 +3859,8 @@ healthcaremagic.com###buttonDiv:style(position: relative !important; top: 0 !imp
 healthdata.org###sticky-controls:style(position: absolute !important;)
 healthline.com##.css-1umgrc8:style(position: absolute !important; top: 0 !important;)
 healthline.com##.css-2uabhy:style(bottom: unset !important;)
-healthline.com##.css-47twm5:style(position: static !important;)
+healthline.com##.css-47twm5, .css-il1i3a:style(position: static !important;)
 healthline.com##.css-byo0s3:style(position: relative !important;)
-healthline.com##.css-il1i3a:style(position: static !important;)
 healthline.com##.top-menu-sticky
 hearst.com###site-header:style(position: absolute !important; top: 0 !important;)
 hearst.com,vogue.com##.site-container:style(padding-top: 0 !important;)
@@ -4222,7 +4221,6 @@ in.investing.com##.main-header .logo-search-login:style(box-shadow: 0 0 0 -5px r
 in.investing.com##.menu-quick-links:style(position: relative !important; top: 30px !important;)
 in.investing.com##.switchHeader, header:not(.js-section-header):style(position: relative !important;)
 in.investing.com#@#.switchHeader, header:style(position: absolute !important;)
-in.mashable.com##header:style(position: absolute !important;)
 inc.com###TopNav, .ArticleContainer__isOpen__rQdnF.ArticleContainer__mustWatchContainer__Hw2wr:style(position: absolute !important;)
 inc.com##.ArticleHeaderMainView__articleHeader__3hUuE:style(padding-top: 75px !important;)
 inc.com##.ArticlePage__isOpen__1YrKK.ArticlePage__mustWatchContainer__1fa3e, .Header__globalHeaderStuck__3nTRK.Header__globalHeader__3xt4W, .Header__isSticky__2Zhve:style(position: relative !important;)
@@ -4744,10 +4742,9 @@ lasvegasnow.com###site-nav:style(position: relative !important; flex: unset !imp
 lasvegasnow.com###wrapper.header-compact #header:style(padding: 0 !important;)
 lasvegasnow.com###wrapper.header-compact #site-header .site-logo .site-logo-wrapper:style(background-position: 50% 50% !important;)
 lasvegasnow.com###wrapper.header-compact #site-nav > .row > .column:style(padding: 0 1.05556rem !important;)
-latimes.com##.page-header-custom-element:style(position: absolute !important;)
 latimes.com,pacificsandiego.com,sandiegouniontribune.com##.HomePage .Page-header-logo, .pb-f-list-nav-ticker:style(display: block !important;)
 latimes.com,pacificsandiego.com,sandiegouniontribune.com##.HomePage .Page-header-quickLinks, .HomePage-header-nameplate
-latimes.com,pacificsandiego.com,sandiegouniontribune.com##.Page-header-wrapper:style(position: absolute !important;)
+latimes.com,pacificsandiego.com,sandiegouniontribune.com##.Page-header-wrapper, .page-header-custom-element:style(position: absolute !important;)
 launchdarkly.com##.resp_full_width_menu.head-container:style(position: absolute !important;)
 law.com###brand-nav:style(position: absolute !important; top: auto !important; display: block !important; opacity: 1 !important; z-index: 99 !important;)
 law.com###leaderboard:style(padding: 30px 0 !important;)
@@ -6804,7 +6801,6 @@ samsung.com##.section.compare-tray, .subnav-actions
 sandiegolifestyleblog.com###main-header:style(position: relative !important; height: 80px !important; box-shadow: 0 1px 0 rgba(0,0,0,.1) !important;)
 sandiegolifestyleblog.com###page-container:style(padding-top: 0 !important; margin-top: -1px !important;)
 sandiegolifestyleblog.com##.et_header_style_left #et-top-navigation, .et_header_style_split #et-top-navigation:style(height: 66px !important; padding-top: 33px !important;)
-sandiegouniontribune.com##.page-header-custom-element:style(position: absolute !important;)
 sandvine.com##.navbar-fixed-top.navbar:style(position: absolute !important; top: 0 !important;)
 sangaline.com,zippia.com###navbar-main:style(position: relative !important; top: 0 !important;)
 sapiens.org##.fixed.header-fixed-wrapper:style(position: absolute !important;)
@@ -8743,8 +8739,7 @@ washingtonpost.com##.voracious-header-line:style(position: relative !important; 
 washingtonpost.com##[data-qa="utility-bar"]:style(position: relative !important; top: 0 !important; left: 0 !important;)
 washingtonpost.com##nav > ul:style(opacity: 1 !important; visibility: visible !important;)
 washingtonpress.com##.header--slide.fixed.header
-washingtontimes.com###checkout-container
-washingtontimes.com###feedbackify, .floatCloseButton
+washingtontimes.com###checkout-container, #feedbackify, .floatCloseButton
 washingtontimes.com###masthead, .globalheader_container, .main-nav-scrolled.globalheader_container:style(position: relative !important; top: 0 !important;)
 washingtontimes.com###mrf-header:style(position: absolute !important;)
 washingtontimes.com##.header-container #cssmenu:style(box-shadow: 0 2px 3px rgba(0,0,0,.4) !important;)
