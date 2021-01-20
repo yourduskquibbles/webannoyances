@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 09:10 2021-01-20
+! Last Modified: 09:40 2021-01-20
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -859,6 +859,7 @@ axios.com##.site-header__container--scrolled, .site-header__container, nav[class
 axios.com##[class*="StoryComponent__StoryHeader-sc-"]:style(margin-top: 0 !important;)
 axlegeeks.com##.clearfix.mph-wrap:style(position: relative !important; top: 0 !important;)
 azfamily.com##.wn-sticky:style(position: relative !important; top: 0 !important;)
+azquotes.com,safenotes.org###menu:style(position: absolute !important;)
 azure.microsoft.com###azure-header:style(position: relative !important;)
 azure.microsoft.com##.active.fixed-status-header.status-table:style(position: absolute !important;)
 azure.microsoft.com##.wa-container:style(padding-top: 0 !important;)
@@ -2749,8 +2750,8 @@ ebates.com##.mw-global-header:style(position: absolute !important; overflow: non
 ebaumsworld.com###miniMenu:style(position: relative !important; top: 0 !important;)
 ebay-kleinanzeigen.de###headerbar:style(position: absolute !important; top: 0 !important;)
 ebay.com###app-product-sticky-header, #gh-appBanner, #nav-bar, .locked-header-placeholder
-ebay.com###followDropdown:style(display: block !important; position: relative !important; box-shadow: none !important; background-color: transparent !important;)
 ebay.com###catalogue, #ocs-inflow, .s-feedback:style(position: absolute !important;)
+ebay.com###followDropdown:style(display: block !important; position: relative !important; box-shadow: none !important; background-color: transparent !important;)
 ebay.com##.middle:style(padding-top: 0 !important;)
 ebay.com##body .header:style(max-width: 1200px !important;)
 ebay.com##body.docked .header #gh #gh-top:style(display: block !important;)
@@ -6779,7 +6780,6 @@ sabrent.com###nm-header:style(position: absolute !important;)
 safaribooksonline.com##.global, .orm-topbar:style(position: relative !important; top: 0 !important;)
 safc.com##.fixed.subnav:style(position: absolute !important;)
 safebrowsing.google.com##.main-navigation:style(position: relative !important; top: 0 !important; opacity: 1 !important;)
-safenotes.org###menu:style(position: absolute !important;)
 safer-networking.org##.float-twinshop.float-shop.float, .logo, .nav-wrapper:style(position: absolute !important;)
 sagepub.com##.mobileHeader, .side-slide,  .widget-compact-all.widget-none.stick-it-mobile.portalHeaderMobile.none.responsive-layout.widget:style(position: absolute !important;)
 saiglobal.com###sai-header, .pFix.desktop-top-nav:style(position: absolute !important;)
