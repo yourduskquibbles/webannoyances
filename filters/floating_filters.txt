@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 14:22 2021-01-20
+! Last Modified: 14:32 2021-01-20
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1666,6 +1666,7 @@ cbsnews.com###amp-live-list--title:before:style(bottom: unset !important;)
 cbsnews.com###amp-live-list--title:style(width: auto !important;)
 cbsnews.com###pip__headline, .floating.media-block:style(position: relative !important; top: 0 !important;)
 cbsnews.com##.amp-active.content__button--type-update:style(position: absolute !important; bottom: unset !important; top: 10px !important; margin-left: calc((100vw / 2) - (1320px / 2) + 185px) !important;)
+cbsnews.com##.content .sharebar:style(grid-row: 5 !important; margin-top: 12px !important; margin-left: 0 !important;)
 cbsnews.com##.content--type-updating_story .content .label--watch-live:style(margin-bottom: 12px !important;)
 cbsnews.com##.content--type-updating_story .content__cta:style(grid-row: 5 !important; margin-top: 15px !important;)
 cbsnews.com##.content--type-updating_story .content__header-wrapper .content__header:style(grid-column: unset !important; grid-gap: 0 !important;)
@@ -1683,7 +1684,8 @@ cbsnews.com##.content--type-updating_story .is-collapsed .content__meta:style(-w
 cbsnews.com##.content--type-updating_story .is-collapsed .content__title:style(overflow: unset !important; -webkit-line-clamp: unset !important; -webkit-box-orient: unset !important;)
 cbsnews.com##.content-updating-story__content-wrapper, .lazyloaded.content:style(padding-top: 0 !important;)
 cbsnews.com##.content__high-wrapper:style(padding: 0 !important;)
-cbsnews.com##.content__meta.content__meta-byline:style(display: block !important;)
+cbsnews.com##.content__meta--timestamp:style(display: block !important; grid-row: 4 !important; grid-column: 1 / span 2 !important;)
+cbsnews.com##.content__meta.content__meta-byline, .content__meta--byline:style(display: block !important;)
 cbsnews.com##.content__promo-image-wrapper:style(width: 99.6vw !important;)
 cbsnews.com##.content__title:style(display: block !important; padding: 0 40px 34px 0 !important;)
 cbsnews.com##.dashboard-visible:style(margin-bottom: 0 !important;)
