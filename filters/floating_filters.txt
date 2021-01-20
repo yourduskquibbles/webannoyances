@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 10:18 2021-01-20
+! Last Modified: 10:27 2021-01-20
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -4887,10 +4887,10 @@ livemint.com###fixed-header, .no-border.lead-stories:style(position: relative !i
 livemint.com###header:style(position: relative !important; padding: 20px 0 !important;)
 livemint.com###leftSec:style(position: static !important;)
 livemint.com##.close-btn.sticky2.btnClose
+livemint.com##a.logo:style(width: 145px !important;)
 livemint.com##header.sticky .btnSection:style(margin: 13px 0 0 10px !important;)
 livemint.com##header.sticky .headerDate:style(display: block !important;)
 livemint.com##header.sticky .headerIcon:style(padding-top: 10px !important;)
-livemint.com##header.sticky a.logo:style(width: 215px !important; margin-left: -154px !important;)
 livenation.com##.LNHeader-e260b1b4e346f248ec795a82f47710c5:style(position: absolute !important;)
 liveoverflow.com##.c-header:style(position: absolute !important; transform: translateY(0) !important;)
 livescience.com,nysenewsguru.com,smithsonianchannel.com###sticky-header:style(position: relative !important; top: 0 !important;)
@@ -5039,6 +5039,7 @@ marketbeat.com###mb-header .main-menu-bar:style(pointer-events: auto !important;
 marketbeat.com###mb-header .menu-button-wrapper:style(width: 0 !important;)
 marketbeat.com###mb-header:style(position: absolute !important; height: 135px !important;)
 marketbeat.com###sticky-bar
+marketbeat.com##.hide-scrollbar:style(position: absolute !important; top: 0 !important;)
 marketingland.com##.drop_shadow:style(opacity: 0 !important;)
 marketingland.com##.mini-logo:style(width: 165px !important;)
 marketingland.com##.stickyheader.navbar-header:style(position: relative !important; top: 0 !important;)
