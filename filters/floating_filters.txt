@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 09:54 2021-01-20
+! Last Modified: 10:18 2021-01-20
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2577,6 +2577,7 @@ districtondeck.com##.fixed-article-nav
 districtondeck.com##.flipcard.scrolled:style(position: relative !important; top: 0 !important;)
 dividend.com##.list-inline, .list-unstyled:style(padding-left: 5px !important; padding-right: 5px !important;)
 dividend.com##.mm-header:style(position: relative !important; top: 0 !important;)
+dividend.com##.n-nav, .t-sticky.m-table-header-row-container, .ticker-header-area, div.t-z-37.t-sticky.t-w-full.t-bg-white:style(position: static !important;)
 dividend.com##.stock-data-space, .stock-nav-space
 dividend.com##.stock-data:style(position: static !important; top: auto !important; box-shadow: none !important; border: none !important; padding: 0 20px !important;)
 dividend.com##.stock-nav:style(position: static !important; top: 0 !important; box-shadow: none !important; border: none !important; padding: 0 !important;)
@@ -5504,6 +5505,7 @@ nasdaq.com##.global-fixed-nav #mainNav-88x31:style(visibility: hidden !important
 nasdaq.com##.path-frontpage.page-node-type-homepage .header-group, .with-sub-nav .page__main:style(padding-top: 0 !important;)
 nasdaq.com##.powr-container:style(position: relative !important; height: 100% !important; width: 100% !important; bottom: unset !important; right: unset !important; box-shadow: none !important; animation: none !important;)
 nasdaq.com##.powr-player:style(outline: unset !important; padding-top: 57% !important; height: 100% !important; width: 100% !important;)
+nasdaq.com##.primary-nav--sticky.primary-nav:style(transform: translateY(0) !important;)
 nasdaq.com##.primary-nav__content:style(background: none !important; box-shadow: none !important;)
 nasdaq.com##.quote-page-jumpnav::after:style(left: 1.25rem !important;)
 nasdaq.com##.quote-page-jumpnav:style(position: static !important; box-shadow: none !important; padding-left: calc(((100vw - 100rem) / 2) + 1.25rem) !important;)
