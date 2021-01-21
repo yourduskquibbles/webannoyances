@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 22:02 2021-01-20
+! Last Modified: 11:56 2021-01-21
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of other page covering elements. Cookie/GDPR notices will be removed in Cookie Filters sublist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1008,7 +1008,8 @@ womenintheworld.com###fm-overlay
 worldmarket.com##.ml-back-to-top
 wpmudev.org###wpmud-exit-intent
 wsbeacon.com##.customPopUp
-wsj.com###agate-wallet, #cx-candybar, #cx-candybarhp, #cx-scrim
+wsj.com###agate-wallet, #cx-candybar, #cx-candybarhp, #cx-scrim, [id*="sp_message_container"]
+wsj.com##html.sp-message-open:style(overflow: unset !important; position: unset !important; padding-right: 0 !important;)
 wunderground.com##snack-bar-container
 wusthof.com##.custom-modal
 wvnews.com###blox-message-incompatible
