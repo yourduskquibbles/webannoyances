@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 22:58 2021-01-20
+! Last Modified: 10:13 2021-01-21
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -492,8 +492,8 @@ alternative-science.com,gadgetfeed.com,gameaddik.com,geekandgadgetworld.com,horr
 altervista.org##.btrans.trans, .gtrans.trans:style(position: absolute !important;)
 altpress.com,barneys.com,golfgenius.com,occupydemocrats.com,yorkdispatch.com##.fixed.header:style(position: relative !important; top: 0 !important;)
 amazingribs.com###top-nav:style(position: relative !important; top: 0 !important;)
-amazingribs.com##.top-nav:style(position: absolute !important;)
 amazingribs.com,anthem.com,bcbsga.com,empireblue.com##.ant-new-nav-wrapper.mbr-top-of-page-wrapper:style(position: absolute !important;)
+amazingribs.com,auslogics.com,name.com,whitesourcesoftware.com##.top-nav:style(position: absolute !important;)
 amazon.*###huc-v2-order-row-placeholder, #miniatf, #nav-mobile-airstream-stripe, #sc-rec-right, .br-ob-carousel-offset, .pantry-place-holder, .s-ember-font.as-fixed-header, .style__placeholder__1rEYs, .vpc_coupon_bar_spacer, .w-swf-inline-tab
 amazon.*###leftCol, #navRow, #profile-search-bar-container, .br-fixed.long.br-ob-carousel, .glimpse-fixed-navigation-container.glimpse-navigation-container, .pantry-wayfinder-sticky-bar, .style__navArea__jlY6Q, .vpc_coupon_bar:style(position: relative !important;)
 amazon.*###miniATFUDP, #miniATF_feature_div:style(position: relative !important; top: 0 !important;)
@@ -789,8 +789,8 @@ audible.com###navigation-top-wrapper:style(position: absolute !important;)
 auditmypc.com##.site-header:style(position: absolute !important;)
 augusta.com##.navbar-fixed-top.navbar-default.navbar, .navbar-header:style(position: relative !important; top: 0 !important;)
 aura.app,bitport.io,boardofwisdom.com,buffalonews.com,dailycaller.com,data.swiftkey.com,deepcapture.com,democracynow.org,discord.me,discounttire.com,eonline.com,honda.com,irehouse.com,irishexaminer.com,marketwatch.com,mic.com,nypost.com,prmdeal.com,saksfifthavenue.com,simpleflying.com,support.google.com,teamblind.com,themarysue.com,whio.com,withgoogle.com##header:style(position: relative !important;)
+auslogics.com###js-top
 auslogics.com###widget-area:style(margin-top: 0 !important;)
-auslogics.com##.top-nav:style(position: absolute !important;)
 austinchronicle.com##.logo-nav-slide:style(position: absolute !important;)
 australiangolfdigest.com.au##.cb-top-menu-wrap.cb-site-padding.clearfix.wrap:style(position: relative !important; top: 0 !important;)
 autoblog.com###navbar, .affix-top.flex-banner.flex-module.navbar, .guttered.top-nav-wrap:style(position: relative !important; top: 0 !important;)
@@ -5472,7 +5472,6 @@ mywordsnthoughts.com###nav-topbar:style(position: absolute !important; transform
 mywordsnthoughts.com##.sidebar-content:style(transform: translate(0px) !important;)
 nadaguides.com##.js-main-navdesk.nav-desktop:style(height: 110px !important;)
 nadaguides.com##.nav-desktop-wrap:style(position: absolute !important;)
-name.com##.top-nav:style(position: absolute !important;)
 namekin.com###mainNav:style(position: absolute !important; background-color: transparent !important; border: none !important;)
 namekin.com##.navbar-default.affix .nav > li > a, .navbar-default .navbar-header .navbar-brand:style(color: hsla(0,0%,100%,.7) !important;)
 namely.com##.sticky-hero.hero:style(position: absolute !important;)
@@ -7633,15 +7632,14 @@ techstreet.com##.cta-nav
 techsupportall.com###menu-main, body > div:nth-of-type(3):style(position: absolute !important;)
 techtarget.com##.en.header_v2.header:style(position: relative !important; top: 0 !important;)
 techtimes.com##.hd-fixed.bk-header:style(position: relative !important; top: 0 !important;)
-techwalla.com###header-dinosaur:style(position: absolute !important;)
+techwalla.com###header-dinosaur, #site-header:style(position: absolute !important;)
 techwalla.com###jw-player:style(position: absolute !important; width: 580px !important; height: 327px !important; top: 0 !important; left: 0 !important;)
 techwalla.com###jwplayerContainer:style(position: relative !important;)
-techwalla.com###site-header:style(position: absolute !important;)
 techwalla.com##.jwplayer__container--sticky.jwplayer__container:style(bottom: unset !important; right: unset !important; width: 100% !important; height: 100% !important;)
 techwiztime.com##.et_header_style_left #et-top-navigation nav > ul > li > a, .et_header_style_split #et-top-navigation nav > ul > li > a:style(padding-bottom: 33px !important;)
 techwiztime.com##.et_header_style_left #et-top-navigation, .et_header_style_split #et-top-navigation:style(padding-top: 33px !important;)
 techworld.com##.header-section__wrapper:style(position: relative !important;)
-tecklyfe.com##.fusion-secondary-main-menu:style(position: relative !important;)
+tecklyfe.com###header, .fusion-secondary-main-menu:style(position: relative !important;)
 tecmint.com###quickiebarpro:style(position: absolute !important;)
 tecmint.com##.fixedBar
 ted.com##.is-borderbox.teded-banner__wrapper:style(position: relative !important;)
@@ -8903,7 +8901,6 @@ whattomine.com##.navbar-fixed-top.navbar-expand-xs:style(position: absolute !imp
 whiskeyriff.com##.fixed.main-nav:style(position: relative !important; top: 0 !important;)
 whispersystems.org##.navbar-shrink.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 whitehouse.gov##.header__container:style(position: absolute !important; border-bottom: 1px solid transparent !important; transform: translateY(0) !important; animation: none !important;)
-whitesourcesoftware.com##.top-nav:style(position: absolute !important;)
 who.int###navigationToScrape:style(position: relative !important;)
 whocallsme.com###skin_main_header:style(position: relative !important; top: 0 !important;)
 whoishostingthis.com###nav-wrap, .menu:style(position: relative !important; top: 0 !important;)
