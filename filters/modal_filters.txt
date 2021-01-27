@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 20:58 2021-01-21
+! Last Modified: 20:37 2021-01-26
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of other page covering elements. Cookie/GDPR notices will be removed in Cookie Filters sublist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -670,6 +670,7 @@ nytimes.com###interactive-footer-wrapper:style(display: block !important;)
 nytimes.com###site-content:style(position: relative !important;)
 nytimes.com##.css-1bd8bfl:style(background: unset !important;)
 nytimes.com##.css-mcm29f:style(position: unset !important; height: unset !important; width: unset !important; overflow: unset !important;)
+nytimes.com##body.ReactModal__Body--open:style(position: unset !important; overflow: auto !important;)
 nytimes.com##body:style(overflow: unset !important;)
 nytimes.com##html:not(.nytapp-vi-interactive):style(overflow-x: hidden !important; overflow-y: auto !important; padding-right: 0 !important;)
 nzherald.co.nz###wpnPop
