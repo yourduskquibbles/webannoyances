@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 11:51 2021-02-04
+! Last Modified: 11:59 2021-02-04
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -3538,6 +3538,7 @@ geekdommovies.com,krypted.com,tribonet.org,w3.org###wpadminbar:style(position: a
 geekflare.com###sHeader > .container:style(padding-top: 12px !important;)
 geekflare.com###sHeader:style(position: absolute !important; display: block !important;)
 geekflare.com##.post-advertisement-sidebar
+geeksforgeeks.org##.header-main__slider-sticky.header-main__slider:style(position: relative !important; top: 60px !important;)
 geeksforgeeks.org##.header-main__wrapper.stick-me, .editor-buttons-container:style(position: relative !important;)
 geeksforgeeks.org##.header-main__wrapper:style(position: absolute !important;)
 geeksforgeeks.org##.hello-bar-box
@@ -4422,7 +4423,8 @@ ironman.com##.desktop-nav-container:style(position: absolute !important; backgro
 ironman.com##.desktop-navigation .desktop-nav-logo-container .desktop-nav-logo svg .IMTEXT, .desktop-navigation .desktop-nav-logo-container .desktop-nav-logo svg .IMREG:style(fill: black !important;)
 ironman.com##.desktop-navigation .nav-list li a:style(color: black !important;)
 irs.gov###block-mainnavigation-2:style(display: block !important;)
-irs.gov###block-pup-sticky-nav
+irs.gov###block-pup-sticky-nav, #stickyNavLogo
+irs.gov##.header-nav:style(position: static !important;)
 isara.com##.after-scroll-wrap.navbar-inverse.navbar:style(position: absolute !important;)
 isara.com##.navbar.after-scroll-wrap .nav-fix:style(height: 92px !important;)
 ishares.com###rightSidebar:style(position: absolute !important;)
@@ -6468,6 +6470,7 @@ prosoccerusa.com###mvp-top-head-wrap:style(position: absolute !important;)
 protechtraining.com###header.navbar, .navbar-fixed-top:style(position: static !important;)
 protocol.com###topbar-menu-toggle .icon, .rebelbar:style(height: 120px !important; line-height: 120px !important;)
 protocol.com##.logo-icon:style(width: 369px !important; height: 116px !important; margin-top: -2px !important;)
+protocol.com##.new-top-navbar:style(position: static !important;)
 protocol.com##.rebelbar:style(position: static !important; top: 0 !important;)
 protonmail.com###header .bottom:style(padding: 3.5rem 0 !important;)
 protonmail.com###header-spacer
@@ -6952,6 +6955,7 @@ seekingalpha.com##.ng-isolate-scope.sa-article-wrapper:style(max-height: none !i
 seekingalpha.com##.sa-page-content, .stick-hd:style(top: 0 !important;)
 seekingalpha.com##.stick-up.sticky-checkout, header:style(position: relative !important;)
 seekingalpha.com##:style(padding-top: 0 !important;)
+seekingalpha.com##[data-test-id="trending-news-card"]:upward(2):style(position: static !important;)
 seekingalpha.com##header nav:upward(1):style(transform: translateY(0) !important;)
 seekingalpha.com##header[data-test-id="header"]:style(position: static !important; transform: translateY(0) !important;)
 seesparkbox.com##.foundry-sidebar--container:style(position: static !important;)
