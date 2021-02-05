@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Newsletter Subscription Filters
-! Last Modified: 08:36 2021-02-05
+! Last Modified: 08:49 2021-02-05
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for newsletter annoyances - Remove newsletter & other subscription cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -598,7 +598,7 @@ theawl.com##.footer-newsletter
 thebaffler.com##.row.single-email
 thebalance.com,thebalancecareers.com,thebalanceeveryday.com,thebalancesmb.com##.newsletter-signup-island
 thebell.io##.subscription
-theblaze.com##[id^="sWidget_-_Newsletter"]
+theblaze.com##[id*="Newsletter_Post"], [id^="sWidget_-_Newsletter"]
 theblockcrypto.com##.newsletterFeed, .newsletterFooter
 thebrag.com##.newsletter-box
 thebulletin.org###subscription-box, .fl-module-info-box.fl-module
