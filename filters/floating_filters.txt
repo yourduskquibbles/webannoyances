@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 16:39 2021-02-04
+! Last Modified: 08:37 2021-02-05
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -4546,6 +4546,8 @@ josbank.com##.active.sticky-header, .d-sticky-header-container, .sticky-header:s
 journal-leader.com###gkTopBar:style(position: absolute !important; top: 0 !important;)
 journals.sagepub.com###bookshelf-container .side-slide:style(position: absolute !important;)
 journals.sagepub.com###bookshelf-container.slide-active .side-slide:style(position: fixed !important;)
+journals.sagepub.com###gs-casa-c:style(position: absolute !important; bottom: 0 !important;)
+journals.sagepub.com###gs-casa-r:style(position: unset !important; top: 0 !important;)
 journals.sagepub.com###main-article:style(margin-top: 60px !important;)
 journals.sagepub.com##.contentsToolsContainer, .mobileContentLinks:style(position: relative !important; margin-top: -30px !important;)
 journals.sagepub.com##.portalHeaderMobile:style(position: relative !important; top: 0 !important;)
