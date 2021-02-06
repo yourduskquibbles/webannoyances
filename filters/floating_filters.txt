@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 10:27 2021-02-05
+! Last Modified: 21:17 2021-02-05
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -3071,9 +3071,9 @@ facebook.com,facebookcorewwwi.onion##.lpgh02oy[style*="top: 56px;"]:style(positi
 facebook.com,facebookcorewwwi.onion##.pbm.clearfix:style(padding-top: 53px !important;)
 facebook.com,facebookcorewwwi.onion##[aria-label="Gaming"][role="navigation"] > div, [aria-label="List of Groups"][role="navigation"] > div, [aria-label="Marketplace sidebar"][role="navigation"] > div, [aria-label="Shortcuts within Facebook Watch"][role="navigation"] > div:style(position: static !important; max-height: unset !important; min-height: unset !important;)
 facebook.com,facebookcorewwwi.onion##[data-pagelet="page"] div[aria-label="Result Filters"] > div:style(position: relative !important; top: 0 !important; max-height: 100% !important; height: 100% !important;)
-facebook.com,facebookcorewwwi.onion##[data-pagelet="page"] div[role="navigation"] > div:style(position: relative !important; top: 0 !important; max-height: 100% !important; height: 100% !important;)
+facebook.com,facebookcorewwwi.onion##[data-pagelet="page"] div[role="navigation"]:style(position: relative !important; top: 0 !important; max-height: 100% !important; height: 100% !important;)
 facebook.com,facebookcorewwwi.onion##[id^="u_"][class^="_li"][style*="top: -"]:style(top: 0 !important;)
-facebook.com,facebookcorewwwi.onion##[role="complementary"]:style(position: relative !important; max-height: unset !important;)
+facebook.com,facebookcorewwwi.onion##[role="complementary"]:style(position: relative !important; top: 0 !important; max-height: unset !important;)
 facebook.com,facebookcorewwwi.onion##[role="main"] div[style*="top: 56px;"] > div > div > div > div > div > div > div:nth-of-type(1) [role="tablist"]:upward(5):style(opacity: 1 !important; visibility: visible !important;)
 facebook.com,facebookcorewwwi.onion##[role="main"] div[style*="top: 56px;"] > div > div > div > div > div > div > div:nth-of-type(1) [role="tablist"]:upward(6):style(transform: translateY(0) !important;)
 facebook.com,facebookcorewwwi.onion##[role="main"] div[style*="top: 56px;"] > div > div > div > div > div > div > div:nth-of-type(2):has([data-visualcompletion="ignore-dynamic"][style="padding-left: 8px; padding-right: 8px;"])
