@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 16:01 2021-02-08
+! Last Modified: 16:20 2021-02-09
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -6722,7 +6722,7 @@ reuters.com##.nav-item.active-text .home-icon, .nav-item.active-text .pictures-i
 reuters.com##.nav-item:not(.home-tab):not(.search-tab):style(position: relative !important;)
 reuters.com##.story-photo img, .featured-story-image img, .pictures-module img, .video-module img:style(-webkit-filter: brightness(1) !important; transition: none !important;)
 reuters.com##[class*="RCOMVideo-container"]:style(position: relative !important; width: 100% !important; height: 100% !important; transform: translateY(0) !important; padding-bottom: 56.25% !important;)
-reuters.com##[class*="RightRail-sticky"] > div:style(position: static !important;)
+reuters.com##[class*="RightRail-sticky"] > div, [class*="SiteHeader__nav-bar"]:style(position: static !important;)
 reuters.com##[class*="RightRail-sticky-container-"]:style(transform: translateY(0) !important;)
 reuters.com##[class*="VideoLandingPage-render-player-"]:style(position: relative !important; height: 100% !important; padding-bottom: 0 !important;)
 reuters.com##[class*="VideoLayout-absolute-container-"]:style(position: absolute !important; width: 100% !important; left: 0 !important;)
@@ -6730,6 +6730,8 @@ reuters.com##[class*="VideoLayout-player-inner-"]:style(position: relative !impo
 reuters.com##[class*="VideoLayout-right-container"]:style(position: static !important; top: 30px !important; height: 100% !important;)
 reuters.com##[class*="VideoLayout-video-placeholder-"]:style(display: block !important; height: 56.25vw !important; max-height: calc(100vh - 200px) !important;)
 reuters.com##[class*="VideoLayout-video-player-"]:style(position: absolute !important; width: 100% !important; top: 0 !important; left: 0 !important;)
+reuters.com##[class*="VideoPlayer__player-container"]:style(width: 100% !important;)
+reuters.com##[class*=VideoPlayer__floating-container]:style(position: static !important; padding: 0 !important;)
 revelist.com##.header-article.header-article-sd.header-content:style(position: relative !important; top: 0 !important;)
 revelist.com##.header-content-inject:style(position: absolute !important;)
 reviewed.com##.primary.navbar-fixed-top.navbar, .visible-desktop.navbar-fixed-top.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
