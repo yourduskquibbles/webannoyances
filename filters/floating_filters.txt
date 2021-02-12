@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 08:55 2021-02-11
+! Last Modified: 10:32 2021-02-12
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -3066,6 +3066,7 @@ facebook.com,facebookcorewwwi.onion##._kyy div[id^="u_0"]:style(position: relati
 facebook.com,facebookcorewwwi.onion##.fbChatSidebar:style(position: absolute !important; height: 100% !important; border-bottom: 1px solid #ccc !important;)
 facebook.com,facebookcorewwwi.onion##.fixed_elem, ._2yq ._5sqx._5sqx, div[id^="u_0"][style*="position: fixed;"]:style(position: absolute !important; top: 0 !important;)
 facebook.com,facebookcorewwwi.onion##.fjf4s8hc[role="main"]:style(margin: 0 0 0 360px !important;)
+facebook.com,facebookcorewwwi.onion##.gitj76qy:style(max-height: calc(99vh - var(--header-height)) !important;)
 facebook.com,facebookcorewwwi.onion##.lpgh02oy .leaflet-container:upward(2):style(position: absolute !important; top: 0 !important; bottom: 0 !important; left: 0 !important;)
 facebook.com,facebookcorewwwi.onion##.lpgh02oy:has(div[data-pagelet*="ProfileTilesFeed"]):style(position: static !important;)
 facebook.com,facebookcorewwwi.onion##.lpgh02oy[style*="top: 56px;"]:style(position: static !important;)
@@ -3088,7 +3089,8 @@ facebook.com,facebookcorewwwi.onion##div[role="banner"] > div:nth-of-type(-n+4):
 facebook.com,facebookcorewwwi.onion##div[role="main"] div.lpgh02oy[style="top: 60px;"] .i9k17dj3:style(transform: translateY(0) !important;)
 facebook.com,facebookcorewwwi.onion##div[role="main"] div.lpgh02oy[style="top: 60px;"] .kr9hpln1.b5wmifdl:style(visibility: visible !important; opacity: 1 !important;)
 facebook.com,facebookcorewwwi.onion##div[role="main"] div.lpgh02oy[style="top: 60px;"]:style(position: static !important;)
-facebook.com,facebookcorewwwi.onion##div[role="main"][aria-label]:style(padding-left: 360px !important;)
+facebook.com,facebookcorewwwi.onion##div[role="main"][aria-label]:not([aria-label="Search Results"]):style(padding-left: 360px !important;)
+facebook.com,facebookcorewwwi.onion##footer[aria-label="Facebook"]:upward(1):style(position: absolute !important; top: calc(83vh) !important; left: unset !important; padding-top: 20px !important;)
 facebook.com,facebookcorewwwi.onion##html:style(overflow-x: hidden !important; height: unset !important;)
 facetjewelry.com##.navbar:style(position: relative !important; height: 60px !important;)
 factcheck.afp.com##.sticky-top:style(position: static !important;)
