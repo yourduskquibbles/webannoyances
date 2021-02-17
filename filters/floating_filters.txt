@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 09:15 2021-02-16
+! Last Modified: 14:17 2021-02-17
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -668,6 +668,9 @@ archiseek.com,dailyfx.com##html:style(padding-top: 0 !important;)
 architectural-review.com###mainnav:style(position: relative !important;)
 architectural-review.com###mobileSections:style(position: absolute !important;)
 architecturaldigest.com##.component-site-header--sticky.component-site-header:style(position: relative !important; top: 0 !important;)
+architecturaldigest.com##.standard-navigation__headline-block .headline-block__channel-navigation:style(position: static !important; transform: translateY(0) !important; opacity: 1 !important;)
+architecturaldigest.com##.standard-navigation__headline-block .headline-block__headline
+architecturaldigest.com##.sticky-box:style(position: static !important;)
 architectureartdesigns.com###ubermenu-main-2-primary:style(position: absolute !important;)
 archive.architecturaldigest.com###main-header:style(position: absolute !important; background: linear-gradient(rgba(0,0,40,1),rgba(0,0,40,.25),rgba(0,0,0,0)) !important;)
 archive.org###ToS:style(position: relative !important;)
@@ -6030,6 +6033,7 @@ ocweekly.com##.fixed-menu-logo, .fixed-search
 ocweekly.com##.main-navigation:style(justify-content: space-evenly !important;)
 ocweekly.com##.navigation-top:style(position: absolute !important; bottom: 0 !important; top: unset !important;)
 ocweekly.com##.sticky-bar.masthead:style(position: relative !important; top: 0 !important;)
+oddsboom.com##.head:style(position: absolute !important; top: 0 !important;)
 odysee.com##.main-wrapper__inner:style(margin-top: 0 !important;)
 odysee.com##.navigation, .navigation--micro, .navigation--absolute, .ads-wrapper:style(position: absolute !important;)
 odysee.com##.react-draggable.content__viewer--inline.content__viewer:style(top: 80px !important;)
