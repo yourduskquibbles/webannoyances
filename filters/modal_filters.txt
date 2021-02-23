@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 08:34 2021-02-05
+! Last Modified: 10:57 2021-02-23
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of other page covering elements. Cookie/GDPR notices will be removed in Cookie Filters sublist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -226,6 +226,8 @@ codementor.io##.consent
 codepen.io###modal-overlay, .modal-message
 coindesk.com##.visible.article-progress-bar, .wpsr-floatbar-float_left.wpsr-floatbar-white.wpsr-floatbar-movable.clearfix
 coindesk.com,newsandsentinel.com,pbs.org,wikiarms.com,woot.com##.popup
+coinlib.io###academyModal, .show.modal-backdrop
+coinlib.io##body.modal-open:style(overflow-y: scroll !important; overflow-x: hidden !important; padding-right: 0 !important;)
 coinsocial.io##.slidebottom.wpoi-show.inc_optin_2.inc_optin.wpoi-animate.inc_opt_popup, .wpoi-popup-overlay
 coinsutra.com##.austin-background, .tulsa-background
 colorlib.com##.optin-monster-saas-overlay
