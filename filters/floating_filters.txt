@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 13:40 2021-02-23
+! Last Modified: 10:43 2021-02-24
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -4109,7 +4109,7 @@ huffingtonpost.*,huffpost.com##.vdb_player > div > div > div[id^="vdb"], .vdb_pl
 huffingtonpost.*,huffpost.com##body.nav-sticking .header:style(margin-bottom: 0 !important;)
 huffingtonpost.*,huffpost.com,itechtics.com,newrepublic.com###sticky-nav
 huffingtonpost.co.uk##.top-nav-sticky
-hulkstream.com##.header, .sidebar, .top-menu:style(position: absolute !important;)
+hulkstream.com,hulkstream.coms##.header, .sidebar, .top-menu:style(position: absolute !important;)
 hulu.com###banner:style(position: absolute !important; top: 0 !important;)
 humanevents.com###mvp-main-body-wrap, #mvp-site-main:style(margin-top: 0 !important;)
 humanevents.com##.mvp-main-head-grid, .mvp-nav-fixed:style(position: absolute !important; top: 0 !important; transform: none !important;)
@@ -7351,6 +7351,8 @@ sports.yahoo.com##.hasScrolled .hasScrolled_Bxsh\(headerShadow\), .hasScrolledHe
 sports24.*###player:style(top: 10px !important;)
 sportsbook.fanduel.com##.betslip-page:style(position: static !important;)
 sportsbook.fanduel.com##.main-column.flex > .header:style(position: absolute !important;)
+sportsline.com##[class*="Header__MainNavBarContainer-sc-"]:style(position: absolute !important; top: 30px !important;)
+sportsline.com##nav[class*="BrandBar__BrandBarContainer-sc-"]:style(position: absolute !important;)
 sportsnet.ca###featured-videoYT.is-sticky, #featured-video.is-sticky:style(position: static !important; bottom: unset !important; right: unset !important; max-width: 100% !important; max-height: 100% !important; width: 100% !important; height: 100% !important;)
 sportsnet.ca###leaderboard-sticky, #nav-sticky, .lf-social-media-header, .navbar-header, .row.navbar-inverse.navbar:style(position: relative !important; top: 0 !important;)
 spotify.com###js-navbar:style(position: relative !important;)
