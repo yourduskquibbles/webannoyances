@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 10:06 2021-03-11
+! Last Modified: 10:14 2021-03-11
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of other page covering elements. Cookie/GDPR notices will be removed in Cookie Filters sublist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -483,7 +483,7 @@ ibtimes.*###colorbox, .grwf2_backdrop, .grwf2-wrapper, .scroll-top
 ifixit.com##.modalBox:not(:has(.modalContentBox #login))
 ifixsmartphone.com,puretrance.com##.scroll-top
 ifunny.co##.l-scroll-up
-ign.com###policyNotice, .privacy-content
+ign.com###policyNotice, #_evidon-barrier-wrapper, .privacy-content
 ignite.co##.fancyboxAge-overlay-fixed.fancyboxAge-overlay
 ignite.co##html.fancyboxAge-lock:style(overflow-x: hidden !important; overflow-y: scroll !important; padding-right: 0 !important;)
 ignorelimits.com##.optin-monster-saas-overlay
