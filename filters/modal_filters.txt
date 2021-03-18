@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 10:14 2021-03-11
+! Last Modified: 05:08 2021-03-18
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of other page covering elements. Cookie/GDPR notices will be removed in Cookie Filters sublist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -461,6 +461,7 @@ hearst.com###promo-video #promo-video-overlay
 help.twitter.com##.c07
 helpnetsecurity.com,trycosmo.com##.remodal-overlay, .remodal-wrapper
 heralddemocrat.com###dialog-message
+heraldmailmedia.com##body > div > iframe, body > div[style*="position: fixed;"][style*="transition: opacity 0.1s ease 0s;"]
 herosports.com###poh
 hetzner.com###dpi-banner
 hired.com##.on-top.xs-12of12.box--black.navbar.position-fixed.layout--center
@@ -1039,7 +1040,7 @@ yts.*##.modal:not(.modal-download)
 zacks.com###toolbar, .disclosure-fixed-slab
 zdnet.com###offerContainer-e651d1b3
 zenmate.com##.zm-crm-overlay
-zerohedge.com##.exit-modal
+zerohedge.com##.exit-modal, [class*="ExitModalNewsletter_exitModalOverlay"]
 zerononcense.com###d-notification-bar
 zippia.com##.page-popup-search-step-slide, div.career-map-overlay
 zmescience.com##.jeg_container > .jeg_read_progress_wrapper

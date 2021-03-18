@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Newsletter Subscription Filters
-! Last Modified: 09:15 2021-02-16
+! Last Modified: 05:08 2021-03-18
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for newsletter annoyances - Remove newsletter & other subscription cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -333,6 +333,7 @@ keyvalues.com##.subscription-section
 khaleejtimes.com###foxpush_subscribe
 khn.org##.email-signup
 kpopstarz.com##.nwletter
+ksl.com##.emailSignup, .queueHeader
 kyivpost.com##.text-widget, .widget-sub-form
 kyivpost.com,secjuice.com##.subscribe-form
 lamag.com##.hubspot-form-widget
@@ -722,7 +723,7 @@ yachtingworld.com##.keystone-newsletter-class
 yesmovies.*##.xc-subs
 yogonet.com###suscripcion_newsletter
 zdnet.com##.newsletterWidgetForm, div[id^="newsletter-widget"]
-zerohedge.com###block-zh_glue-newsletter, #newsletter, #sidebar-form, .newsletter-insert
+zerohedge.com###block-zh_glue-newsletter, #newsletter, #sidebar-form, .newsletter-insert, [class*="MidArticleNewsletter_midArticle"], [class*="SidebarNewsletter_sidebarForm"]
 zmescience.com##.ps-container.cp-slidein-content
 ||*/app/email-signup/inline-article-news.html$subdocument
 ||bonnier-subscriptions.com/ats/url.aspx$subdocument

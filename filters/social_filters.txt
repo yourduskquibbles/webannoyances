@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Social Filters
-! Last Modified: 10:30 2021-02-05
+! Last Modified: 05:08 2021-03-18
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for social networking & sharing - Remove third party social media share sections, icons & other cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1193,7 +1193,7 @@ yourdictionary.com##.yd-share-icons
 yourmechanic.com##.qna-share-wrapper__social
 youtube.com##.share-panel-services, .ytp-button.ytp-share-button
 yp.sg##.bsa-facebook.bsa-item
-zerohedge.com##.a2a_button_facebook, .a2a_button_reddit, .a2a_button_twitter
+zerohedge.com##.a2a_button_facebook, .a2a_button_reddit, .a2a_button_twitter, button[class*="SocialSharingButtons_shareIcon"][aria-label="facebook"], button[class*="SocialSharingButtons_shareIcon"][aria-label="twitter"]
 zimbio.com##.pinterest-image-holder .pinterest-hover, .pinterest-pin-it
 zycrypto.com##.widget_bloomwidget, .widget_facebook_likebox
 zyngaplayerforums.com##.Reactions
