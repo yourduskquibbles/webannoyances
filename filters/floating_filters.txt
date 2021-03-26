@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 05:08 2021-03-18
+! Last Modified: 11:27 2021-03-26
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2300,6 +2300,7 @@ dailymail.co.uk##.vjs-flyout-placeholder:style(position: absolute !important; z-
 dailymail.co.uk##.vjs-flyout-wrapper-fixed:style(position: static !important; height: 100% !important; width: 100% !important; top: 0 !important; left: 0 !important; bottom: unset !important;)
 dailymail.co.uk##.vjs-title:style(display: block !important; font-size: 18px !important; line-height: 36px !important;)
 dailymail.co.uk##.vjs-video-container::before:style(padding-bottom: 86px !important;)
+dailymail.co.uk##[class*="widget-"]
 dailymotion.com###continuous-player
 dailymotion.com##.Header__container___-9nBG:style(position: relative !important;)
 dailyoilbulletin.com##.docs-sticky-top-bar.utils-nav:style(position: absolute !important;)
@@ -2687,7 +2688,8 @@ dowjones.com##.dropdown-submenu-opened.page-header:style(position: relative !imp
 downdetector.com##.fixed-top.header:style(position: absolute !important;)
 dpage.io##.promo:style(position: absolute !important;)
 drafthouse.com##.fixed.contain-to-grid, .top-bar:style(position: relative !important; top: 0 !important;)
-draftkings.com##.global-nav-container, .playspan-footer:style(position: relative !important;)
+draftkings.com##.global-nav-container:style(position: relative !important;)
+draftkings.com##.playspan-footer:style(position: relative !important; bottom: 0 !important; z-index: unset !important;)
 draftkings.com##.sportsbook-wrapper__footer.has-subfooter:style(margin-bottom: 0 !important;)
 draftkings.com##.sportsbook__betslip:style(position: relative !important; top: 0 !important; right: 0 !important;)
 draftkings.com##[class="spacer-media"]
@@ -7333,6 +7335,7 @@ sports.yahoo.com##.hasScrolled .hasScrolled_Bxsh\(headerShadow\), .hasScrolledHe
 sports24.*###player:style(top: 10px !important;)
 sportsbook.fanduel.com##.betslip-page:style(position: static !important;)
 sportsbook.fanduel.com##.main-column.flex > .header:style(position: absolute !important;)
+sportsbookreview.com###picks-header:style(position: static !important;)
 sportsline.com##[class*="Header__MainNavBarContainer-sc-"]:style(position: absolute !important; top: 30px !important;)
 sportsline.com##nav[class*="BrandBar__BrandBarContainer-sc-"]:style(position: absolute !important;)
 sportsnet.ca###featured-videoYT.is-sticky, #featured-video.is-sticky:style(position: static !important; bottom: unset !important; right: unset !important; max-width: 100% !important; max-height: 100% !important; width: 100% !important; height: 100% !important;)
