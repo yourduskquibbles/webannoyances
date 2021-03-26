@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 11:27 2021-03-26
+! Last Modified: 11:57 2021-03-26
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2707,9 +2707,9 @@ drivereasy.com##html:style(opacity: 1 !important;)
 droid-life.com##.site__header, .site__priNav--sections__scroller:style(position: relative !important;)
 droid-life.com##.site__priNav--sections:style(position: absolute !important;)
 dropbox.com###designstudio-button
-dropbox.com###top-notification-bar-container, .RebrandNavigation-container, .fixed-layer-container, .lasso-footer, .maestro-min-width.pagelet-top-menu__container.mc-vertically-fixed, .maestro-secondary-sidebar, .mast-head, .mc-tabbed-header-list, .page-header.mc-vertically-fixed, .page-header, .search__form, .supernav__container--fixed, .top-level-nav-item:style(position: absolute !important;)
+dropbox.com###top-notification-bar-container, .maestro .maestro-tab-nav .c-tabs__bar, .maestro-min-width.pagelet-top-menu__container.mc-vertically-fixed, .search__form, .top-level-nav-item:style(position: relative !important;)
+dropbox.com##.RebrandNavigation-container, .fixed-layer-container, .lasso-footer, .maestro-secondary-sidebar, .mast-head, .mc-tabbed-header-list, .page-header.mc-vertically-fixed, .page-header, .supernav__container--fixed:style(position: absolute !important;)
 dropbox.com##.content-area:style(padding-top: 0 !important;)
-dropbox.com##.maestro .maestro-tab-nav .c-tabs__bar:style(position: relative !important;)
 dropbox.com##.mc-table-head-row-fixed:style(position: relative !important; width: 100% !important;)
 dropbox.com##html.maestro.maestro--responsive:not(.js-focus-visible):style(overflow-y: hidden !important;)
 drp.su##.Navbar__nav:style(position: absolute !important;)
