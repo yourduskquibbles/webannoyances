@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Social Filters
-! Last Modified: 05:08 2021-03-18
+! Last Modified: 09:49 2021-05-14
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for social networking & sharing - Remove third party social media share sections, icons & other cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -808,6 +808,7 @@ renttherunway.com##.ss-tooltip-wrapper, .ss-tooltip-wrapper-unlimited
 repairwin.com##div:has([id="fb-root"])
 repubblica.it##.rep-icon-youtube
 reuters.com###section-follow-buttons, #sharetool-container, #twitter-share-link, .Footer_social_3V2HY, .RightRail_fixedIsInViewport_34nin.RightRail_fixedIsAboveViewport_2Wlfx.RightRail_fixed-wrapper_3m6JO, .SocialTool_facebook_2Nibf.SocialTool_social-button_1Z8qb, .SocialTool_social-button, .SocialTool_twitter_1xUSq.SocialTool_social-button_1Z8qb, .amp-social-container, .google, .reuters-share, .share-container_10gSP, .sharetool, .slide-desc-share, .social_3V2HY, .util-social, [class*="SocialTools__container"]
+reuters.com##[class*="ShareButtons__container"] > [class*="ShareButtons__condensed"] > button[aria-label*="Facebook"], [class*="ShareButtons__container"] > [class*="ShareButtons__condensed"] > button[aria-label*="Twitter"]:upward(1)
 revealnews.org##.modal-share-icons
 reviewjournal.com##.rj-story-social
 reviewopedia.com###getsocial-wrap

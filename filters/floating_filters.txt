@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 16:10 2021-05-13
+! Last Modified: 09:49 2021-05-14
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -6732,6 +6732,7 @@ reuters.com##.story-photo img, .featured-story-image img, .pictures-module img, 
 reuters.com##[class*="RCOMVideo-container"]:style(position: relative !important; width: 100% !important; height: 100% !important; transform: translateY(0) !important; padding-bottom: 56.25% !important;)
 reuters.com##[class*="RightRail-sticky"] > div, [class*="StickyContainer__content-container"]:style(position: static !important;)
 reuters.com##[class*="RightRail-sticky-container-"]:style(transform: translateY(0) !important;)
+reuters.com##[class*="ShareButtons__container"] li:nth-of-type(3):style(margin-left: 0 !important;)
 reuters.com##[class*="SiteHeader__nav-bar"]:style(position: static !important; transform: translateY(0) !important;)
 reuters.com##[class*="SiteHeader__nav-bar-container"][class*="SiteHeader__nav-bar"]:style(visibility: visible !important;)
 reuters.com##[class*="VideoLandingPage-render-player-"]:style(position: relative !important; height: 100% !important; padding-bottom: 0 !important;)
