@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Ad Placeholder Filters
-! Last Modified: 12:10 2021-05-11
+! Last Modified: 13:40 2021-07-06
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for empty advertising placeholders.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -218,7 +218,7 @@ eurogamer.net###leaderboard
 euronews.com##.advertising
 evite.com###mobile_top_ad
 ew.com##.ad-section-container, .articles-recirculation, nav.main .stacked-header__cm-ad.desktop-only
-express.co.uk###cmp-container-id
+express.co.uk###cmp-container-id, .taboola-above-article
 extremetech.com###bannerad
 fandom.com##div.mcf-card-article__link:has(.mcf-card-article__subtitle:has-text(/Fandom/))
 fandom.com##div.mcf-card-sponsored-content
@@ -321,6 +321,7 @@ itunescharts.net##.ad_responsive
 journals.sagepub.com##.topLeaderboardContainer
 jpost.com##.OUTBRAIN, .fake-container-for-outbrain-sticky.one-row, .line-left-side-before-and-after-container, .one-row.line-one-row-before-and-after-container
 jpost.com##.margin-container-right .hide-for-premium .OUTBRAIN:upward(2)
+justthenews.com###block-sitewideleaderboard
 jwstream.site,leadingred.us###ad-close-sp
 kbb.com###toolbarAdLabel
 kiplinger.com##.kip-advertisement
@@ -370,7 +371,7 @@ metro.co.uk###we-need-monies, .ad-slot, [class^="AdChoiceContainer__container"],
 mexiconewsdaily.com##.ac-ads, .adinpost
 microsoft.com##.skylight-entry
 mint.intuit.com###advice-top-container, #article-ads, #hypothesis-testing-frame, #module-advice, #module-offers, #TopTxnOfferWidgetContainer, .WelcomeMatView, .advice.module.o2card, .adviceWidget.CardView, .inline-advice, .mcmupsell-footer, .promotions-personalized-offers-ui, .promotions-personalized-offers-ui-single-offer, .withAFooter.w2sWidget.CardView
-mlb.com##.p-ad
+mlb.com##.ad-bottom-right-container, .ad-top-right-container, .ad-top-container, .p-ad
 mmafighting.com##.m-ad
 mmajunkie.com###header-ad
 modernfarmer.com##.mftopad
@@ -393,7 +394,7 @@ nationaljournal.com###articlePromo, #electionFloorPromo, #walkingHeader
 nationalreview.com##.ad-unit--leaderboard.ad-unit
 nature.com###leaderboard, .container-type-banner-advert
 nautil.us###adpayload, .leaderboard-ad-belt
-nba.com###block-globalheaderadblock
+nba.com###block-globalheaderadblock, [class*="DisplayAd"]
 nbcnews.com##.article-body__content > p > em > strong > a[href*="https://apps.nbcnews.com/mobile/"], .article-body__content > p > em > strong > a[href*="https://smart.link/"]:upward(3)
 nbcnews.com##[data-test="ad-container"]:upward(1)
 nbcsports.com###topbanner, .upper-ad-module
@@ -440,6 +441,7 @@ patch.com##.client-ad-container
 pbs.org###readthisnext, .fl-ad, .sidebar-advertisement
 pcgamer.com##[class^="slot"]
 pedelecs.co.uk##.banner.advert
+pgachampionship.com##.MpsAd-wrapper
 pgatour.com##.js-ad, .leaderboard-banner-ad
 pharmaceutical-technology.com##.box_layout_ad
 philly.com###a1-top-furniture, .ad__leaderboard, .js-toggle-ad, .pic.bg1.type3.banner_small, .shift-right--700, .shift-right--900
@@ -488,6 +490,7 @@ revolvermag.com##.full-ad-wrapper, .st-ad-wrapper
 rockpapershotgun.com##.leaderboards
 rollcall.com##.float-footer-ad-wrap, .leaderboard
 rollingstone.com##div[id^="adm-inline-article-ad"]+p
+rotowire.com##.ad-standard.full-width
 rotoworld.com##.RW_ad300
 rugerforum.net##.page tbody:has-text(/Advertisements/)
 salon.com##.style__inContentAdMain___1xJjm, .style__topAds___3GrOy
@@ -588,7 +591,7 @@ themonroetimes.com##.adunitContainer
 themoscowtimes.com###TMTtoolbarAd
 thenation.com##.ad-wrap, .current-issue.indents.indent.left, .donate.btn-yellow.btn
 theplayerstribune.com##.ArticleSponsor__Container-x5id9j-1
-thepostmillennial.com###tpm-video-player-slot, .commercial, .mot-container, .netizen-slot, .publicity
+thepostmillennial.com###leader-mot, #tpm-video-player-slot, .commercial, .mot-container, .netizen-slot, .publicity
 theregister.co.uk###ad-condor, .ad-eagle, .ad-falcon, .faux-article
 thescore.com##.Ad__bigbox--3DeHj, .Ad__container--2fhQb, .ad-tile, .article-sponsor-info, .tablet-leaderboard
 thespruce.com,thesprucecrafts.com,thespruceeats.com,thesprucepets.com###leaderboard--header_1-0, .leaderboard
@@ -680,7 +683,7 @@ xfinity.com##._visible.x-ui-theme--dark.upsell-filter--top.upsell-filter.flex, .
 yahoo.com###YDC-MainCanvasLeadAd-Composite, #danafarberpromo, #defaultdestLREC, #fantasyshoppromo, #get-the-app, #mega-banner, #mega-banner-wrapper, #mrt-node-Lead-2-AbPromo, #sda-LDRB, #sportsshop-promo, #uh-scroll-promo, #unblock-instructions, #unblock-intstructions, #viewer-LDRB, #yset-search-upsell-container, #yucs-top-ff-promo, .H-fixed.Ad, .ginsuAd, .nr-applet-main-nav-right, .sponsored, .td-applet-canvass
 yahoo.com###viewer-LDRB-iframe, #viewer-LREC-iframe:upward(2)
 yardbarker.com###footer_ad_outer
-yoursports.stream,yrsprts.stream###streambutton, #watchMe, .w3-center.w3-container > .w3-bar, .w3-display-middle.w3-tiny > [href^="s"], center > [href*="/bet"], center > [href*="footylight.com/game/"], img#close
+yoursports.stream,yrsprts.stream###streambutton, #watchMe, .w3-button[href*="a?watch="], .w3-center[href*="/s?watch="], .w3-center.w3-container > .w3-bar, .w3-display-middle.w3-tiny > [href^="s"], center > [href*="/bet"], center > [href*="footylight.com/game/"], img#close
 yuganet.us##.custom-ads-close
 zerohedge.com###abd-banner, #sidebar-right-1, #sidebar-right-2, #sidebar-right-3, #sidebarleft-bottom, #sidebarleft-top, .ad-header-container, .ad-left-container, .ad__wrapper-element, .injected-ad-wrapper
 zerohedge.com##.carousel-placement [class="ad__wrapper-element"]:upward(1)
