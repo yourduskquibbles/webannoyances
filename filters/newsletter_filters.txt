@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Newsletter Subscription Filters
-! Last Modified: 12:10 2021-05-11
+! Last Modified: 16:30 2021-07-08
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for newsletter annoyances - Remove newsletter & other subscription cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -95,7 +95,7 @@ blogs.discovermagazine.com##body > div:nth-of-type(3)
 bloomberg.com##.inline-newsletter, .newsletter-module
 bloombergquint.com##.bloombergquint-newoptinbox-background, .sticky-subscription-active, .subscribe-newsletter--large, .subscription-combo-box-module__subscriptionCombo__30SP7, .subscription-combo-box-module__subscriptionCombo__3l12r, .subscription__combo__mobile-wrapper
 bloomsmag.com###bs-newsletter-mailchimp-2
-boardingarea.com##.subscribe
+boardingarea.com,cockroachlabs.com,cyberscoop.com,gulfnews.com,harpers.org,hindustantimes.com,insightcrime.org,livescience.com,mydomaine.com,nextgov.com,notquitenigella.com,routefifty.com,spoonuniversity.com,thecollegefix.com,trust.org,vagabomb.com##.subscribe
 bonappetit.com##.subscribe-box
 boredpanda.com##.new-variation-3.newsletter-variation
 boston.com##.content-toaster--newsletter, .newsletter-signup
@@ -138,7 +138,6 @@ cnbc.com##.Footer-newsletter:upward(1)
 cnet.com##.holidayPromo, .newsletter-subscribe-form
 cnn.com###rs-newletter-mod, .cd--tool__mailchimp-subscribe, .cnn-politics-app-promo-card, .rs-newsletter-body
 cntraveler.com,cntraveller.com##.global-subscription-footer, .js-c-infobar-lazy-load
-cockroachlabs.com##.subscribe
 cointelegraph.com##.b-post-subscription
 coloradosun.com##.newsletter-the-sunriser
 commondreams.org###block-block-54
@@ -155,7 +154,6 @@ crimereads.com###mc4wp_form_widget-4
 csoonline.com##.fakesidebar
 css-tricks.com##.footer-newsletter
 cybernews.com##.dialog-lightbox-message.dialog-message
-cyberscoop.com##.subscribe
 cybersecurity.att.com###blog-subscribe-box
 cyclingtips.com##.InArticleSignup, .footer__signup
 dailycaller.com###dc_morning_email-53, #dc_morning_email-60, #dc_morning_email-66, .dc_morning_email-58
@@ -212,6 +210,7 @@ etsy.com##.not-signed-in.subscribe-form:upward(1)
 ew.com##.newsletter-callout, .newsletter-signup, .subscribe-callout
 eweek.com##.personalization-widget-wrapper
 exabeam.com##.side-popup
+expatsoftware.com##.subscribe-footer
 express.co.uk##.newsletter-pure
 fakespot.com##.subscribe-container
 familyhandyman.com###ads-container-single
@@ -270,14 +269,12 @@ grammy.com###block-mailchimp-signup-grammy-newsletter, .injected-newsletter-ad-w
 granta.com##.desktop-nav__subscribe-container
 grist.org##.aside, .email-signup-form
 grubstreet.com,nymag.com,thecut.com,vulture.com###magpromo, .column-subscribe, .newsletter-flex-text, .newsletter-slideout, .subscribe, .subscription
-gulfnews.com##.subscribe
 gun.deals###subscribe-newsletter-popup
 haaretz.com##.newsletter, .newsletter--ruler
 hacks.mozilla.org###newsletterForm
 hackwarenews.com###sc-email-widget-container
 hakaimagazine.com##.newssignup.main
 hamhigh.co.uk###subscriptionIframe
-harpers.org##.subscribe
 hbo.com###newsletterPopup
 healthcareitnews.com##.field-name-subscription-form
 healthline.com##.css-11k39sg
@@ -348,9 +345,7 @@ lennyletter.com##.hdr-subscribe-link
 leowid.com###mc4wp_form_widget-3
 lifesitenews.com##.subscribe-form-wrap.subscribe-form-ctr
 lightreading.com###mktng_popin
-litmus.com##.ad
 livemint.com##.subscribe-box
-livescience.com##.subscribe
 loadoutroom.com##.join-gear-club
 longreads.com##.entry-email-signup
 lrb.co.uk###tp-article-footer, #tp-article-header
@@ -380,6 +375,8 @@ mic.com##.newsletter-signup, .newsletter-signup-mobile
 microsoft.com###email-newsletter-dialog
 militarytimes.com##.newsletter.signup
 mindk.com##.subscribe-widget
+mit.edu##.subscribe-button
+mixpanel.com###post_subscribe_wrapper
 mnn.com##.right_rail_email_signup
 modernfarmer.com##.post-newsletter
 mondotees.com##.ftr-newsletter
@@ -395,7 +392,6 @@ msn.com###MSN_Today_Newsletter, [href*="/newsletters"]
 muckrock.com##.newsletter-widget
 musicbusinessworldwide.com##.mb-newsletter
 mybroadband.co.za##.float-newsletter-bar
-mydomaine.com##.subscribe
 myrecipes.com##.media.subscribe-callout, .newsletter-callout
 mystatesman.com##.cm-newsletter-tease
 nakedcapitalism.com##.subscribe-follow
@@ -427,12 +423,10 @@ newsweek.com###header_subscribe, .article--newsletter--wrapper, .msub, .newslett
 newsy.com###memphis-optin
 newyorker.com##.ArticlePageSidebar__railItem___1K-hs, .Failsafe__header___21L-f, .MainHeader__fullSubscribe___dolgp, .MainHeader__subscribeLink___3TGEc, .NewsletterSubscribe__newsletterComponent___1ZI2a, .content-well-newsletter, .newsletter-subscribe-form
 nextcity.org##.footer-banner-newsletter.footer-banner
-nextgov.com##.subscribe
 nextshark.com##.post-end-subscribe
 nikkei.com##.mail-magazine-article
 nist.gov##.pane--nist-subscribe-form-pane
 nordstromrack.com##.nr-home__email-collector
-notquitenigella.com##.subscribe
 nplusonemag.com##.module-newsletter
 npr.org##.newsletter-stickybar
 nybooks.com##.newsletter_signup
@@ -515,7 +509,6 @@ robrhinehart.com##.post.post-full > .subscribe-form
 rollcall.com##.mainbody-subscribe
 rollingstone.com##.c-post-actions__newsletter, .l-blog__item:nth-of-type(5), .module-newsletter, .pmc-image-widget-container
 rookiemoms.com##.subscribe-widget
-routefifty.com##.subscribe
 runnersworld.com###newsletter-block, #rwmain-subscribe
 salon.com##.style__newsLetter___3BGK6
 sapling.com###email-capture
@@ -557,7 +550,6 @@ spglobal.com##.inset-cta, .product--border.card
 spiceworks.com##.join-footer.sui-opt-in
 spin.com##.text-center.sm-widget-campaign-monitor.sm-widget.sidebar-module
 splitsider.com##.newsletter__wrapper
-spoonuniversity.com##.subscribe
 sports.yahoo.com###Col1-2-Interstitial-Proxy, [id*="-NewsletterSubscription"]
 sportsgrid.com##.newsletter-block
 starterstory.com##.subscribe-bottom
@@ -605,7 +597,6 @@ theblockcrypto.com##.newsletterFeed, .newsletterFooter
 thebrag.com##.newsletter-box
 thebulletin.org###subscription-box, .fl-module-info-box.fl-module
 thecipherbrief.com##.clearfix.block-even.newsletter-top-cta.block-block.block
-thecollegefix.com##.subscribe
 thecollegeinvestor.com##.tve_lead_generated_inputs_container
 theconversation.com##.topbar-mobile-newsletter-signup, .topbar-stay-informed
 thedailybeast.com##.CheatNewsletter, .InlineNewsletter
@@ -667,7 +658,6 @@ triplebyte.com##.fixed.blog-post__subscription__header
 troublefixers.org##.subscribe_outer
 troyhunt.com###floating_subscribe
 trucks.com###custom_html-42
-trust.org##.subscribe
 truthdig.com##.header__newsletter
 tucson.com##.tucson-inline-subscribe_button
 tuftsyourdog.com###ofie
@@ -682,7 +672,6 @@ universetoday.com###blog_subscription-2
 urbandaddy.com##.email-signup
 usmagazine.com##.header-subscribe
 usnews.com##[class*="KioskFirstClass__Container-sc-"]
-vagabomb.com##.subscribe
 valuewalk.com###mc4wp_form_widget-2
 vanityfair.com##.component-newsletter-cta, .newsletter-subscribe-form, .subscription-form
 variety.com###subscribe-link-section, .c-widget--newsletter.c-widget, .hp-panel__newsletter-signup, .newsletter
