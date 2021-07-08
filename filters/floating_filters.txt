@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 09:39 2021-07-08
+! Last Modified: 11:32 2021-07-08
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -3947,8 +3947,13 @@ hillreporter.com###header:style(position: relative !important; top: 0 !important
 hillreporter.com##.pb-stream-pr.pb-device-desktop.pb-stream:style(position: absolute !important;)
 hillwebcreations.com##.l-header:style(position: absolute !important; top: 0 !important; transform: none !important;)
 hillwebcreations.com##.l-subheader:style(transform: none !important;)
+hindustantimes.com###header, .leftNav:style(position: static !important; animation: none !important;)
+hindustantimes.com###header.sticky .container:style(height: 99px !important;)
+hindustantimes.com###header.sticky .logo img:style(width: 100% !important;)
 hindustantimes.com##.header-menu, .nav-down.container-fluid:style(position: relative !important; top: 0 !important;)
 hindustantimes.com##.header2:style(position: absolute !important;)
+hindustantimes.com##.leftNav .leftSecNav:style(animation: none !important;)
+hindustantimes.com##.mainContainer:style(padding-top: 0 !important;)
 hip2save.com##.header-main, .header-mobile:style(position: absolute !important;)
 hireright.com##.fhmm.navbar-static-top.navbar-white.navbar:style(position: relative !important; top: 0 !important;)
 history.com##.display.sticky-header.interior-header.global-header, .is-visible.l-sticky-navbar.m-site-nav, .m-video-player--close.m-icon-button
