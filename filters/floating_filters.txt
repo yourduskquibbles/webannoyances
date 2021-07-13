@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 08:36 2021-07-13
+! Last Modified: 08:51 2021-07-13
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -5827,11 +5827,9 @@ newsweek.com##.lk-2:style(padding: 10px 12px !important;)
 newsweek.com##.lk-3:style(padding: 10px 10px 10px 12px !important;)
 newsweek.com##.mStickyPlayer .tvplayer, .mStickyPlayer #fusion_jwplayer:style(width: 100% !important; margin: 0 !important;)
 newsweek.com##.page-header .header-bottom:before:style(position: absolute !important; top: 0 !important; right: 0 !important; content: "" !important; display: block !important; width: 60px !important; background-color: #f72210 !important; border-left: 12px solid #fff !important; border-top: 13px solid #f72210 !important;)
-newsweek.com##.page-header.fixed
 newsweek.com##.stickyPlayer.videocontent-wrapper:style(min-height: unset !important;)
 newsweek.com##.stickyhead.fixed .trending-topics, .page-header.fixed .trending-topics:style(display: -webkit-flex !important; display: flex !important; margin: 0 !important; width: unset !important;font-weight: bold !important; font-size: 16px !important; line-height: 16px !important; text-transform: uppercase !important; text-align: center !important;)
 newsweek.com##.trending-topics li:style(flex: none !important; text-align: center !important; padding: 0 0 0 30px !important;)
-newsweek.com##.tvplayer:style(height: 414.367px !important;)
 newsweek.com##.videocontent:style(position: relative !important; top: 0 !important; padding-bottom: 56.25% !important; box-shadow: none !important;)
 newsweek.com##.videocontent:style(width: 100% !important; height: 100% !important; right: unset !important; bottom: unset !important;)
 newsweek.com##form#search-block-form--2 .element-invisible:style(top: 18px !important; right: 82px !important;)
