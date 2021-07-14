@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 08:51 2021-07-13
+! Last Modified: 09:32 2021-07-14
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -286,7 +286,7 @@ adblockplus.org###navbar:style(position: absolute !important; top: 0 !important;
 adblockradio.com,arnavdhamija.com,blog.esea.net,blog.revolut.com,floydhub.com,fly.io,ghost.org,letstalkalgorithms.com,mg.lol,netlab.360.com,rpiai.com,secjuice.com,smartcar.com,spreadprivacy.com,time2hack.com,whatcoulditmeme.com##.floating-header
 add0n.com,objective-see.com,scale.ai,scaleapi.com##nav:style(position: relative !important;)
 additudemag.com##.header-primary:style(position: absolute !important;)
-adespresso.com##.site-header:style(position: static !important;)
+adespresso.com,gossipcop.com,pbs.org##.site-header:style(position: static !important;)
 adexchanger.com##.fixed:style(position: relative !important;)
 adexchanger.com##.top-bar-container:style(height: 45px !important; border-bottom: none !important;)
 adexchanger.com##.top-bar:style(height: 45px !important; margin-top: 0 !important; border-top: 4px solid #00003b !important;)
@@ -3578,8 +3578,8 @@ geico.com###cat_banner:style(position: static !important;)
 geico.com###primary-header:style(position: relative !important; top: 0 !important;)
 geico.com###primary-header[role="banner"], .main-header, .print-hide.main-header:style(position: absolute !important; top: 0 !important;)
 geico.com###sidebar:style(position: absolute !important; padding-top: 100px !important;)
-geico.com##.banner.top.show ~ #wrapper, .banner.top.show ~ ec-primary-navigation #primary-header:style(margin-top: 0 !important;)
-geico.com##.banner.top.show ~ #wrapper:style(margin-top: 0 !important;)
+geico.com##.banner.top.show ~ #primary-header, .banner.top.show ~ #wrapper #sidebar, .banner.top.show ~ #wrapper, .banner.top.show ~ ec-primary-navigation #primary-header, .banner.top.show ~ #wrapper:style(margin-top: 0 !important;)
+geico.com##.banner.top.show ~ #primary-navigation .panel-wrapper.menu, .banner.top.show ~ #primary-navigation .panel-wrapper.search, .banner.top.show ~ #primary-navigation .panel-wrapper.account, .banner.top.show ~ #primary-navigation .panel-wrapper.articles:style(top: 6rem !important;)
 geico.com##.oo_feedback_float:style(position: relative !important;)
 gematsu.com###menu_wrapper:style(position: relative  !important;)
 geneticliteracyproject.org###sticky-navigation:style(position: absolute !important; box-shadow: none !important;)
@@ -4099,7 +4099,10 @@ huffingtonpost.co.uk##.top-nav-sticky
 hulkstream.com,hulkstreams.com,jackstream.com,jackstreams.com##.header, .sidebar, .top-menu:style(position: absolute !important;)
 hulu.com###banner:style(position: absolute !important; top: 0 !important;)
 humanevents.com###mvp-main-body-wrap, #mvp-site-main:style(margin-top: 0 !important;)
+humanevents.com###t-scrollnav-holder:style(position: static !important; transform: translateY(0px) !important;)
 humanevents.com##.mvp-main-head-grid, .mvp-nav-fixed:style(position: absolute !important; top: 0 !important; transform: none !important;)
+humanevents.com##.pinned:style(position: static !important;)
+humanevents.com##.t-nav-spacer
 humaninterest.com###masthead, .flash:style(position: absolute !important;)
 humanreadablemag.com###headerAnnouncementWrapper:style(position: absolute !important;)
 humblebundle.com##.js-maintain-scrollbar-on-dropdown.s-fixed.js-sticky-navbar.sticky-navbar
@@ -6217,7 +6220,6 @@ pbs.org###primary-navigation, .js-header.header:style(position: relative !import
 pbs.org##.curtain-wrapper:style(position: relative !important; margin-top: 943px !important; margin-bottom: 0 !important;)
 pbs.org##.is-visible.container__outer.badge, .page-header__outer, .page-header:style(position: relative !important; top: 0 !important;)
 pbs.org##.post__sticky-rail, .sidebar__trending:style(position: static !important;)
-pbs.org##.site-header:style(position: static !important;)
 pbs.org##body.sticky-on:style(padding-top: 71px !important;)
 pbs.org##div.feature-well:nth-of-type(2):style(margin-top: 40px !important;)
 pbskids.org##.vjs-station-logo
