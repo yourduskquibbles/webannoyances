@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 08:45 2021-07-15
+! Last Modified: 09:07 2021-07-15
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2368,6 +2368,7 @@ deadline.com##.header__bar:style(border-bottom: 1px solid transparent !important
 deadline.com##.header__search-holder:style(width: 100% !important;)
 deadline.com##.is-header-sticky .js-hide-when-sticky:style(display: block !important; transform: translateY(0) !important;)
 deadline.com##.js-show-when-sticky
+deadline.com##.jw-wrapper:style(position: absolute !important; display: block !important; top: 0 !important; left: 0 !important; right: 0 !important; bottom: 0 !important; max-width: unset !important; max-height: unset !important; animation: none !important;)
 deadline.com##.pmc-breaking-news:style(margin-top: 4em !important;)
 deadline.com##.pmc-u-background-white.\/\/.header__bar:style(position: relative !important; transform: translateY(0) !important;)
 deadline.com##[data-header]:style(margin-top: 0 !important;)
