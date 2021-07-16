@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 09:07 2021-07-15
+! Last Modified: 14:27 2021-07-16
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -434,7 +434,7 @@ alaskaair.com##.hentry:style(margin-top: 0 !important;)
 alaskaair.com##.masthead:style(position: relative !important; top: 0 !important; margin-top: -100px !important; margin-bottom: 0 !important; background-position-x: center !important; background-position-y: 0 !important;)
 alaskaair.com##.mobile-logo
 alaskahighwaynews.ca,assiniboiatimes.ca,axios.com,blog.logrocket.com,bowenislandundercurrent.com,burnabynow.com,canoracourier.com,carlyleobserver.com,coastreporter.net,dawsoncreekmirror.ca,delorainetimes.ca,delta-optimist.com,empireadvance.ca,estevanmercury.ca,humboldtjournal.ca,kamsacktimes.com,kiplingcitizen.ca,lillooetnews.net,melitanewera.ca,newsoptimist.ca,newwestrecord.ca,nsnews.com,pipelinenews.ca,pipelinenewsnorth.ca,preecevilleprogress.com,princegeorgecitizen.com,privacytools.io,prpeak.com,restonrecorder.ca,richmond-news.com,sourisplaindealer.ca,squamishchief.com,theoutlook.ca,thereminder.ca,thompsoncitizen.net,timescolonist.com,tisdalerecorder.ca,tricitynews.com,vancourier.com,westmanjournal.com,weyburnreview.com,weyburnthisweek.com,yorktonthisweek.com##.fixed-top:style(position: absolute !important;)
-alaskapublic.org,america.gov,art-sheep.com,celebtoast.com,checkpoint.com,dansdeals.com,eng.uber.com,globalanimal.org,intellihub.com,lamag.com,mashtips.com,mmanews.com,minecraft-resourcepacks.com,nextofwindows.com,passiveincomemd.com,pcmdnews.com,plagiarismtoday.com,saraacarter.com,seeitmarket.com,servethehome.com,techbizweb.com,technorms.com,thegolder.com,themefoxx.com,uspostnews.com,winbuzzer.com,wirelessster.com,zycrypto.com##.td-ss-main-sidebar:style(position: static !important;)
+alaskapublic.org,america.gov,art-sheep.com,celebtoast.com,checkpoint.com,dansdeals.com,eng.uber.com,globalanimal.org,intellihub.com,lamag.com,mashtips.com,mmanews.com,minecraft-resourcepacks.com,nextofwindows.com,oscarmini.com,passiveincomemd.com,pcmdnews.com,plagiarismtoday.com,saraacarter.com,seeitmarket.com,servethehome.com,techbizweb.com,technorms.com,thegolder.com,themefoxx.com,uspostnews.com,winbuzzer.com,wirelessster.com,zycrypto.com##.td-ss-main-sidebar:style(position: static !important;)
 alexa.com###alx-header, .fusion-sticky-shadow.fusion-header:style(position: absolute !important;)
 alexandriava.gov##.stuck.sticky
 alexaobrien.com##.follow.header-v1.stickynav-on.main, .header-v1.stickynav-on.main:style(position: relative !important; top: 0 !important;)
@@ -2329,6 +2329,8 @@ dappersports.com##.stick-it.cf.main:style(position: relative !important; top: 0 
 darkpatterns.org##.fixed-part:style(position: absolute !important;)
 darkpatterns.org##.logo-part span:style(font-size: 62px !important; line-height: 44px !important;)
 darkpatterns.org##.logo-part:style(display: block !important; padding-top: 50px !important;)
+darkreading.com###header-wrap, .sticky.header-secondary:style(position: static !important;)
+darkreading.com##.margin-for-sticky
 darlingmagazine.org##.navbar-visible.navbar-stuck.social-disabled.navbar-center.navbar-primary:style(position: absolute !important;)
 darlingmagazine.org,headphonesty.comsocialcops.com,socialitelife.com,thenationalpulse.com,yp.sg##.posts-pagination
 dashlane.com##.header-std:style(position: absolute !important;)
@@ -2885,6 +2887,7 @@ energy.gov###subnavigation:style(position: relative !important;)
 energysage.com##.affix.block-register:style(position: absolute !important;)
 energyvoice.com###sso-login-bar:style(position: relative !important;)
 energyvoice.com##header.container:style(margin-top: 0 !important;)
+engadget.com###fixed-nav
 engadget.com###header-post-nav, #nav-flow, .i-context_nav:style(position: relative !important; top: 0 !important;)
 engadget.com##.o-sticky_header\@tp-:style(position: relative !important;)
 engineerbetter.com###menu-nav-top
@@ -4032,6 +4035,7 @@ hostinger.com##.navigation-holder:style(position: absolute !important; backgroun
 hostinger.com##path[fill-rule="evenodd"]:style(fill: #ffffff !important;)
 hostway.com##.nav-simple.sticky-top:style(position: relative !important;)
 hotair.com###sidebar-sticky-ad:style(position: relative !important; top: 0 !important;)
+hotair.com##.thm-navbar-scroll.thm-sc.thm-navbar.navbar
 hotdeals.com##.feedback:style(position: absolute !important; top: 500px !important; bottom: unset !important;)
 hotdeals.com##.right_partner, .submitbtn:style(position: absolute !important; bottom: unset !important;)
 hotelnewsnow.com###layout-main-container:style(margin-top: 0 !important;)
@@ -6121,7 +6125,6 @@ orinocotribune.com###masthead.colormag-header-classic #site-navigation:style(pos
 ory.am##.sticky.menu-sticky-top-nav:style(position: absolute !important; top: 0 !important;)
 oscar.go.com##.container-fluid:style(position: relative !important;)
 oscarmini.com##.td-header-menu-wrap:style(position: absolute !important; width:100% !important;)
-oscarmini.com##.td-ss-main-sidebar:style(position: static !important;)
 oscars.org##.l-region--social-drawer.l-region:style(position: absolute !important;)
 ostechnix.com###nav-topbar:style(position: relative !important; transform: none !important;)
 ostechnix.com##.menu-item-padding.menu-style-2.header-3.header-layout-bottom:style(position: static !important;)
@@ -8520,6 +8523,7 @@ ubports.com###graph_header_affix
 ubreakifix.com##.cd-auto-hide-header:style(position: absolute !important; transform: translateY(0) !important;)
 ubuntu.com##.u-no-print.js-feedback-button.p-feedback__button.p-button:style(position: absolute !important;)
 ui.com##.comGlobalHeader:style(position: absolute !important;)
+ukdefencejournal.org.uk##.td-affix.td-header-main-menu.td-header-border.td-header-row:style(position: static !important;)
 ul.com##.header-toolbar:style(position: relative !important; top: 0 !important;)
 ulalaunch.com##.fixed.scrolledHeader:style(position: absolute !important;)
 ulta.com###hide-desk-nav, .DesktopHeader .DesktopHeader__LogoFixed .Logo, .DesktopHeader__StickyHeader:style(position: absolute !important;)
