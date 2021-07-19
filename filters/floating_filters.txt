@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 14:27 2021-07-16
+! Last Modified: 09:12 2021-07-19
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1016,6 +1016,7 @@ bcbswny.com##.navbar-default.navbar:style(position: absolute !important;)
 bcencertifications.org##.zoneTopInfo:style(position: absolute !important;)
 bcrnews.com,crestonnews.com,daily-chronicle.com,deloitte.com,fastmail.com,foxla.com,heraldlife.com,kcchronicle.com,kendallcountynow.com,lakecountyjournal.com,midweeknews.com,morrisherald-news.com,mysuburbanlife.com,mywebtimes.com,newtondailynews.com,nwherald.com,oglecountynews.com,osceolaiowa.com,owler.com,popculture.com,profootballweekly.com,putlocker.rs,putnamcountyrecord.com,saukvalley.com,shawmedia.com,sternbergclarke.co.uk,theherald-news.com,tirerack.com,tonicanews.com,valleylifepress.com,wikiwand.com###header:style(position: absolute !important; top: 0 !important;)
 beamauthentic.com##.show.sticky-nav
+bearingarms.com##.hr-scroll--unpinned.headroom--not-top.headroom--not-bottom.headroom.d-print-none.d-md-flex.d-none.navbar-expand.thm-navbar-scroll.thm-sc.thm-navbar.navbar
 beaumontenterprise.com,chron.com,ctpost.com,darientimes.com,fairfieldcitizenonline.com,greenwichtime.com,lmtonline.com,michigansthumb.com,middletownpress.com,milfordmirror.com,mrt.com,myjournalcourier.com,myplainview.com,mysanantonio.com,ncadvertiser.com,newmilfordspectrum.com,newstimes.com,nhregister.com,ourmidland.com,registercitizen.com,seattlepi.com,sfchronicle.com,sfgate.com,sheltonherald.com,stamfordadvocate.com,thehour.com,theintelligencer.com,theridgefieldpress.com,thetelegraph.com,timesunion.com,trumbulltimes.com,westport-news.com,wiltonbulletin.com,yourconroenews.com###ctpl-fullbanner-spacer:style(height: 50px !important;)
 beaumontenterprise.com,chron.com,ctpost.com,darientimes.com,fairfieldcitizenonline.com,greenwichtime.com,lmtonline.com,michigansthumb.com,middletownpress.com,milfordmirror.com,mrt.com,myjournalcourier.com,myplainview.com,mysanantonio.com,ncadvertiser.com,newmilfordspectrum.com,newstimes.com,nhregister.com,ourmidland.com,registercitizen.com,seattlepi.com,sfchronicle.com,sfgate.com,sheltonherald.com,stamfordadvocate.com,thehour.com,theintelligencer.com,theridgefieldpress.com,thetelegraph.com,timesunion.com,trumbulltimes.com,westport-news.com,wiltonbulletin.com,yourconroenews.com###ctpl-fullbanner1, #exco_sticky-x-button-container, #site-nav-spacer, .fixed-asset.perfectPixel, .hearst-mmplayer-float-title, .pageHeader--progress, .pbs > [id$="-placeholder"]
 beaumontenterprise.com,chron.com,ctpost.com,darientimes.com,fairfieldcitizenonline.com,greenwichtime.com,lmtonline.com,michigansthumb.com,middletownpress.com,milfordmirror.com,mrt.com,myjournalcourier.com,myplainview.com,mysanantonio.com,ncadvertiser.com,newmilfordspectrum.com,newstimes.com,nhregister.com,ourmidland.com,registercitizen.com,seattlepi.com,sfchronicle.com,sfgate.com,sheltonherald.com,stamfordadvocate.com,thehour.com,theintelligencer.com,theridgefieldpress.com,thetelegraph.com,timesunion.com,trumbulltimes.com,westport-news.com,wiltonbulletin.com,yourconroenews.com###homepage-timestamp:style(position: absolute !important;)
@@ -1470,6 +1471,7 @@ browardpalmbeach.com,dallasobserver.com,houstonpress.com,miaminewtimes.com,phoen
 browserleaks.com,codemirror.net,facebook.design,fivethirtyeight.com,fogodechao.com,foragerfunds.com,herdprotect.com,iridiumbrowser.de,jet.com,kiln.digital,knobattack.com,news.harvard.edu,nextcloud.com,olympic.org,ont.io,shop.bird.co,thedrive.com,thenextweb.com,thezdi.com,videolan.org,wykop.pl,zerodayinitiative.com###nav:style(position: absolute !important;)
 browserstack.com###header-habitat:style(position: absolute !important;)
 browserstack.com##.floating-banner
+bsocialplus.com###SITE_HEADER:style(position: absolute !important;)
 btcd.io##.bcd-head-price, .btc-head:style(position: absolute !important;)
 btcwires.com###media_image-12:style(position: static !important;)
 bubblin.io###toggleable, div > iframe:style(position: absolute !important;)
@@ -2526,6 +2528,7 @@ digg.com##.content-primary:style(margin-top: 30px !important;)
 digg.com##.main-navigation:style(position: absolute !important; top: 0 !important; transform: translateY(0) !important;)
 digg.com##.namespace-sidebar:style(position: static !important;)
 digg.com##.placeholder.fp-vertical-story, .site-navigation-bottom
+digg.com##.primary-navigation:style(position: absolute !important;)
 digg.com##.site-header__title:style(opacity: 1 !important;)
 diggitmagazine.com##.region--header.region:style(position: relative !important; top: 0 !important;)
 digi.com##.chatpopup:style(position: absolute !important;)
@@ -3998,10 +4001,12 @@ hola.com##.container.mainMenu.fixed-mainMenu.fixed-menu:style(position: absolute
 holidappy.com,levelskip.com,owlcation.com,wehavekids.com###header_wrap:style(position: absolute !important;)
 hollywoodreporter.com###js__stories-wrapper:style(position: absolute !important; top: 0 !important;)
 hollywoodreporter.com###site-header, #sticky-nav, .site-header-basic--preta, .stuck.js-leftRail-container.left-rail:style(position: relative !important; top: 0 !important;)
-hollywoodreporter.com##.active.js-floater-transition
+hollywoodreporter.com##.active.js-floater-transition, .js-show-when-sticky
 hollywoodreporter.com##.header-wrapper:style(position: absolute !important; visibility: visible !important;)
 hollywoodreporter.com##.header-wrapper__secondary-header:style(top: 37px !important;)
 hollywoodreporter.com##.is-content-initialized.js-floater-media.main-media__video:style(position: static !important;)
+hollywoodreporter.com##.is-sticky .js-hide-when-sticky:style(display: block !important;)
+hollywoodreporter.com##.js-Header-contents:style(position: relative !important; transform: none !important;)
 hollywoodreporter.com##.site-header__background:style(transform: none !important;)
 hollywoodreporter.com##.site-header__brand:style(height: 47px !important;)
 hollywoodreporter.com##.site-header__progress, .sticky-wrapper:style(position: absolute !important;)

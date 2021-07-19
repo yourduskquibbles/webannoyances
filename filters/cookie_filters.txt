@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Cookie Filters
-! Last Modified: 09:22 2021-07-14
+! Last Modified: 09:12 2021-07-19
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Cookie Annoyances - Remove Cookie/GDPR Banners, Notices, Overlays & Warnings
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -282,6 +282,7 @@ androidsage.com,arsesaworldgist.com###eu-cookie-law
 anker.com##div > p:has-text(/We use cookies/):upward(2)
 antena3.com,discordbots.org,gamepedia.com,mmo-champion.com,streamable.com,woot.com##.app_gdpr--2k2uB
 anycodes.com##.privacy_policy_pop
+apnews.com,businesswire.com,cbssports.com,msn.com,nba.com,ncaa.com,reuters.com###onetrust-consent-sdk
 appfairness.org###CybotCookiebotDialogBodyUnderlay
 arcadepunks.com,ostechnix.com##.penci-wrap-gprd-law
 arianespace.com##.is-fixed.js-tirette.tirette, .js-banner.cookie
@@ -303,7 +304,6 @@ bloomberglaw.com##[class*="CookieNotice_cookiesBar"]
 bloomberglaw.com,codex.online,evry.com,neweracap.com,threadreaderapp.com##.cookies
 bt.com##.cookie-ui__cookieUI___3fxp1
 business-standard.com###eu_cookie
-businesswire.com,cbssports.com,msn.com,reuters.com###onetrust-consent-sdk
 cameo.com###content > div[data-reactroot=""] div:has([id="cookie-policy-banner-close-btn"])
 channel4.com###all4gn-cookie-policy-notification
 chefkoch.de###ck-cookie-statement
@@ -401,8 +401,6 @@ mygoodplanet.com##.thb-cookie-bar
 myspace.com###termsOfService, .eucookie
 nascar.com##.preloaded_lightbox
 nature.com##.c-site-messages, .container-type-cookies-
-nba.com###onetrust-consent-sdk
-ncaa.com###onetrust-consent-sdk
 netflix.com###cookie-disclosure
 newyorkfed.org###myCookieConsent
 nokia.com##.nokia_cookie-wrapper
