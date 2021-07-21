@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 11:11 2021-07-20
+! Last Modified: 10:15 2021-07-21
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1458,6 +1458,7 @@ britannica.com##.marketing-slider
 britannica.com##.md-header:style(height: 70px !important;)
 britannica.com##body.md-header-collapsed .md-header .md-header-top-row:style(display: flex !important;)
 britannica.com##header:style(position: static !important;)
+broadbandtechreport.com##.ebm-header:style(position: relative !important;)
 broadly.vice.com##.site-header .site-header__channel-slider-trigger__button path, .site-header .site-header__channel-slider-trigger__text path, .site-header .site-header__nav-trigger path, .site-header .site-header__social-icon path, .site-header .site-header__link path, .site-header__logo path:style(fill: #fff !important;)
 broadly.vice.com##.site-header__logo:style(width: 142px !important;)
 brokemillennial.com##.navbar-fixed-top.navbar-default.navbar.banner:style(position: absolute !important;)
@@ -2979,7 +2980,7 @@ eurocupbasketball.com###main:style(padding-top: 0 !important;)
 eurogamer.net##.onetrust-pc-dark-filter, #onetrust-banner-sdk
 euronews.com###js-header-sticky, .stick.jsArticleReadingWidget.media__article-reading:style(position: absolute !important;)
 euronews.com##.js-swiper-button, .swiper-slide-next
-euronews.com##.o-site-header:style(position: static !important; height: 168px !important; left: 0 !important; transform: none !important;)
+euronews.com##.o-site-header:style(position: static !important; hleft: 0 !important; transform: none !important;)
 euronews.com##.o-site-main:style(margin-top: 0 !important;)
 eurosport.com###header-sharing, #nav, #top:style(position: relative !important; top: 0 !important;)
 eventbrite.com##.is-stuck.clrfix.sticky.sticky-listing-panel.js-sticky-panel.listing-panel:style(position: absolute !important;)
@@ -6077,6 +6078,7 @@ offerup.com##._w4ksuk9:style(position: relative !important;)
 office.com###feedbackSection, #layout-header:style(position: absolute !important;)
 office.com###layout-navigation:style(position: absolute !important; top: 50px !important;)
 office.com###supFeedbackWrapper, .odcom-supplemental-navigation.c-supplemental-nav:style(position: relative !important;)
+officedepot.com###stickyHeader
 ohow.co###masthead, #progress-bar-bck, #progress-bar, #ubermenu-main-366-primary, .entry-header, .header-menu:style(position: relative !important; top: 0 !important;)
 oilprice.com###singleArticle__sidebar:style(position: relative !important; top: 0 !important;)
 oilprice.com##.singleArticle__wrapper > div:nth-child(2):style(height: unset !important;)
