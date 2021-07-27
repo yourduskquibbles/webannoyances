@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 09:06 2021-07-27
+! Last Modified: 09:41 2021-07-27
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -6540,6 +6540,7 @@ propublica.org##.masthead > .masthead-inner-wrapper:style(margin-bottom: .75em !
 propublica.org##.masthead > .secondary-nav:style(display: flex !important;)
 propublica.org##.masthead-wrapper:style(position: static !important; !important;)
 propublica.org##.masthead:style(padding: 3.5em 0 0 0 !important;)
+propublica.org##.site-header--wrap-compact:style(position: absolute !important; --site-header-page-margins: var(--spacing3) !important;)
 propublica.org##.titles:style(padding-top: 0 !important;)
 prosoccerusa.com###mvp-top-head-wrap:style(position: absolute !important;)
 protechtraining.com###header.navbar, .navbar-fixed-top:style(position: static !important;)
