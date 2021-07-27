@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 11:14 2021-07-21
+! Last Modified: 08:30 2021-07-27
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -676,6 +676,8 @@ architectureartdesigns.com###ubermenu-main-2-primary:style(position: absolute !i
 archive.architecturaldigest.com###main-header:style(position: absolute !important; background: linear-gradient(rgba(0,0,40,1),rgba(0,0,40,.25),rgba(0,0,0,0)) !important;)
 archive.org###ToS:style(position: relative !important;)
 archive.org###wm-ipp > div:style(position: relative !important; top: 0 !important; padding-bottom: 10px !important;)
+archive.vanityfair.com##.fixed.bnd_artpg_fixedhead.menu.main.borderless.ui, .shared_footer_cta_basic, .shared_footer_cta_primary
+archive.vanityfair.com##.user_menu_wrapper:style(position: static !important;)
 archpaper.com##.article-sidebar-wrap, .nav:style(position: relative !important;)
 archpaper.com##.header:style(padding-top: 0 !important;)
 ardorplatform.org##.menu-wrap:style(position: absolute !important;)
