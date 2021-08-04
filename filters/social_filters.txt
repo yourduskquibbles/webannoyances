@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Social Filters
-! Last Modified: 14:54 2021-08-04
+! Last Modified: 15:37 2021-08-04
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for social networking & sharing - Remove third party social media share sections, icons & other cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -674,6 +674,8 @@ ndtv.com##.gsocialbar, .lvblog_share, .pst_scl, .ttp.ss-lk.snapchat-creative-kit
 neatorama.com###story-shareonfb
 neurosciencenews.com##.cb-social-icons-extra
 newatlas.com##a[href*="facebook.com/dialog/share?"]
+newengland.com##.contain-to-grid.eyebrow .social ul.menu:style(text-align: left !important)
+newengland.com##.social-icons:not(:has(.mq-menu-icon))
 newindianexpress.com##.PrintSocial1
 newnownext.com###aosocial-widget
 news.com.au##.footer-nav-social
