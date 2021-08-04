@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 16:09 2021-08-04
+! Last Modified: 16:11 2021-08-04
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -5331,6 +5331,8 @@ mit.edu##.secondary-nav-trigger:after:style(top: 30px !important;)
 mit.edu##.site-banner .nav-logo img:style(width: 181px !important; height: auto !important; line-height: 74px !important;)
 mit.edu##.site-navigation .main-menu i:style(font-size: 36px !important; top: 12px !important; left: 1px !important;)
 mit.edu##.site-navigation button:style(height 74px !important; line-height: 74px !important;)
+mitpress.mit.edu##.header:style(position: relative !important)
+mitpress.mit.edu##.page-main:style(margin-top: 0 !important)
 mitpressjournals.org##.sticky-header .homepage-header:style(position: relative !important; top: -150px !important; height: 130.5px !important;)
 miui.com###ft, #nv_fixed:style(position: relative !important;)
 mix.com##.LandingHeader:style(position: absolute !important; background-color: transparent !important;)
