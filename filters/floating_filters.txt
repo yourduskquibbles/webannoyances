@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 14:57 2021-08-04
+! Last Modified: 15:26 2021-08-04
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -5125,6 +5125,10 @@ marijuanamoment.net##.mvp-nav-small .mvp-nav-top-wrap, .mvp-nav-small .mvp-nav-t
 marijuanamoment.net##.mvp-nav-small:style(height: 122.617px !important;)
 marinecorpstimes.com###top-header, .js-pubsub-module.has-secondary-nav.layout-module.generic-module:style(position: relative !important; top: 0 !important;)
 marinij.com##.article.toolbar
+markandgraham.com,pbteen.com##.fixed-header, .sticky-header, header#default:style(position: relative !important; box-shadow: none !important;)
+markandgraham.com,pbteen.com##.fixed-header-spacer, .sticky-header-spacer
+markandgraham.com,pbteen.com##.product-discovery .sticky:style(position: static !important; max-height: unset !important;)
+markandgraham.com,pbteen.com,potterybarn.com,potterybarnkids.com,westelm.com,williams-sonoma.com##.design-chat
 markedbyteachers.com###float-left-tab, #main-search
 marketbeat.com###header-holder:style(height: 135px !important;)
 marketbeat.com###mb-header .header-left a:style(padding: 0 5px !important;)
@@ -6484,8 +6488,6 @@ postimg.cc##.sb-slide:style(position: absolute !important;)
 postingsplus.com###menu1:style(position: relative !important;)
 postmates.com###merchant-fixed-element-id:style(position: absolute !important;)
 potbelly.com##.active-false:style(position: relative !important; top: 0 !important;)
-potterybarn.com###nav-container:style(position: static !important; height: 26px !important; padding-top: 0 !important; background-color: rgba(0,0,0,0) !important;)
-potterybarn.com###search-logo-cart:style(position: relative !important; height: 32px !important; margin: 0 auto 23px !important; padding: 0 20px !important; z-index: 100 !important;)
 powerhungry.com,ruralsprout.com##slick-heartbeat:style(position: absolute !important;)
 powerhungry.com,ruralsprout.com##slick-sticky-toolbar
 poweruptoys.com##.sticky_nav--stick.sticky_nav.main_nav_wrapper
@@ -8973,6 +8975,7 @@ welt.de##.c-sticky-video2--is-sticky.c-sticky-video2:style(position: static !imp
 welt.de##.c-sticky-video2__player:style(animation: none !important;)
 welt.de##.jw-reset.jw-media:style(position: relative !important; top: 0 !important;)
 wendys.com###lg-nav:style(position: absolute !important;)
+westelm.com##.product-discovery .is-stickied:style(position: static !important;)
 westernjournal.com###wj-network-header-container .wj-network-header-logo:style(height: 3.6vw !important; min-height: 36px !important; margin: 4px 0 !important;)
 westernjournal.com###wj-network-header-container:style(position: absolute !important;)
 westernjournal.com##.fixed-widgets.fixed:style(position: static !important;)
@@ -9093,7 +9096,8 @@ williamhill.com##.App .contentContainer, .promoDetails:style(margin-top: 0 !impo
 williamhill.com##.Betslip, .Betslip .react-tabs__tab-list, .collectionContainer, .FeaturedNavLinks, .header_type_primary, .mobileLinksCarousel:style(position: static !important;)
 williamhill.com##.Header:style(position: relative !important;)
 williams-sonoma.com###brand-logo:style(margin: 35px auto 9px !important;)
-williams-sonoma.com###sub-brand-bar-container:style(position: relative !important;)
+williams-sonoma.com###sub-brand-bar-container, #sub-brand-bar:style(position: relative !important;)
+williams-sonoma.com##.ecatalog-wrapper
 wimbledon.com###mobileMenuContainer, .fixed.newsBgText, .headerPos, .newsBgImage:style(position: relative !important; top: 0 !important;)
 windows.com##.sticky.main-nav, .stickytop.js-cat-head.brand-blue.theme-dark:style(position: relative !important; top: 0 !important;)
 windows.com##.sticky.related-articles:style(position: static !important; top: 0 !important;)
