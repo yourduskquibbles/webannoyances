@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Social Filters
-! Last Modified: 10:17 2021-08-02
+! Last Modified: 11:40 2021-08-04
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for social networking & sharing - Remove third party social media share sections, icons & other cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -969,6 +969,7 @@ the-tls.co.uk###subscribe-block, .signup-form-iframe
 theaircurrent.com##.author-profile-social
 theappeal.org###selectionSharerPopover
 theartofdoingstuff.com###text-75
+theathletic.com##[href^="https://www.facebook.com/dialog/feed"]
 theatlantic.com##.article-embed-share, .article-tools, .btn--social, .c-share-social__list, .toggleable.follow
 theaustralian.com.au##.network-bar-social-media-links
 theawl.com##.footer-social__components
@@ -1183,7 +1184,7 @@ worldatlas.com##.articleFollow-right, .headerMain-social, .w-article-followNav
 worldoftanks.com##.js-social-dropdown-open
 wptv.com##.nav--stay-connected
 wral.com##.utility-list
-wsj.com###expShareTools, .LiveCoverageBanner-share, .Social, .WSJTheme__social-icons_3jNRbP-ojq-T7SEP4NS_hU, .article-tools-mobile, .breaking-social, .footernote__section--social, .fyre-flag-link, .fyre-share-link, .nc-exp-social-li, .nc-exp-sociallabel, .shareIcon--facebook.shareIcon, .shareIcon--twitter.shareIcon, .style__fb_1Nm7orJRvKHUT3kEfQIrrD, .style__fb_kNqQVkgdx4P9FOJiSd-LH.style__share-toggle_T1tjBDv6tORnjHCBUc2Fw, .style__social-links_1tTcXFp41358k5UXjc0Ql, .style__tw_2UIJjbOC5JL-uDvXs8iraV.style__share-toggle_T1tjBDv6tORnjHCBUc2Fw, .style__tw_3USlBirWnce_WKIHtn1kNh, .video-share-b, .vltSocialLinks, .wsj-amp-share, li[class*="WSJTheme__share-tool"], li[class*="WSJTheme--share-tool-"], [class*="WSJTheme--facebook-"], [class*="WSJTheme--linkedin-"], [class*="WSJTheme-module--share-panel__fade"], [class*="WSJTheme--twitter-"], ul[aria-label="Share Menu"] > li:nth-of-type(1), ul[aria-label="Share Menu"] > li:nth-of-type(2), ul[aria-label="Share Menu"] > li:nth-of-type(3)
+wsj.com###expShareTools, .LiveCoverageBanner-share, .Social, .WSJTheme__social-icons_3jNRbP-ojq-T7SEP4NS_hU, .article-tools-mobile, .breaking-social, .footernote__section--social, .fyre-flag-link, .fyre-share-link, .nc-exp-social-li, .nc-exp-sociallabel, .shareIcon--facebook.shareIcon, .shareIcon--twitter.shareIcon, .style__fb_1Nm7orJRvKHUT3kEfQIrrD, .style__fb_kNqQVkgdx4P9FOJiSd-LH.style__share-toggle_T1tjBDv6tORnjHCBUc2Fw, .style__social-links_1tTcXFp41358k5UXjc0Ql, .style__tw_2UIJjbOC5JL-uDvXs8iraV.style__share-toggle_T1tjBDv6tORnjHCBUc2Fw, .style__tw_3USlBirWnce_WKIHtn1kNh, .video-share-b, .vltSocialLinks, .wsj-amp-share, li[class*="WSJTheme__share-tool"], li[class*="WSJTheme--share-tool-"], [class*="WSJTheme--facebook-"], [class*="WSJTheme--linkedin-"], [class*="WSJTheme-module--share-panel__fade"], [class*="style--share-container-"], [class*="WSJTheme--twitter-"], ul[aria-label="Share Menu"] > li:nth-of-type(1), ul[aria-label="Share Menu"] > li:nth-of-type(2), ul[aria-label="Share Menu"] > li:nth-of-type(3)
 wsj.com###webui-share-tools ul[aria-label="Share Menu"] > li > svg > g[fill], #webui-share-tools ul[aria-label="Share Menu"] > li > svg > path[fill]:upward(2)
 wsj.com##.shareMenu > li.shareMenu__item:has([aria-label^="Facebook"])
 wsj.com##.shareMenu > li.shareMenu__item:has([aria-label^="Twitter"])
