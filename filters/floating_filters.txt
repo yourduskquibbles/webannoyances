@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 15:37 2021-08-04
+! Last Modified: 15:40 2021-08-04
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -6138,6 +6138,8 @@ opensignal.com##.is-scrolled.is-sticky.js-dropdown-opened.js-header.js-sticky-ba
 opentable.com##.navbar--fixed.navbar:style(position: relative !important; top: 0 !important;)
 opindia.com##.td-header-menu-wrap:style(position: absolute !important; transform: none !important;)
 oprah.com###page_navigation_wrapper, #sitenav:style(position: absolute !important;)
+oprahdaily.com##.nav-placeholder
+oprahdaily.com##.nav.sticky:style(position: static !important)
 opsschool.org##.rst-versions:style(position: absolute !important; bottom: -850px !important;)
 opsschool.org##.wy-nav-side:style(position: absolute !important; bottom: unset !important;)
 optibus.com##.sticky-mobile-on.masthead-mobile.masthead-mobile-header.show-mobile-logo.show-device-logo.small-mobile-menu-icon.full-height.widgets.center.inline-header.masthead:style(position: absolute !important; background-color: transparent !important;)
