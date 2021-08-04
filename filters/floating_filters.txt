@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 16:20 2021-08-04
+! Last Modified: 16:31 2021-08-04
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -6577,6 +6577,9 @@ prri.org##.animated.slideInDown.isSticky.stickyControl.researchArticleNav
 prri.org##.noShadow.header--collapsed.header--dark.header:style(position: relative !important; top: 0 !important;)
 psafe.com,wikileaks.org##.top-navigation:style(position: absolute !important;)
 psmag.com##.is-visible.l-sticky-navbar:style(position: relative !important; top: 0 !important;)
+psyche.co##[class*="styled__Container-"][class*="styled__GuideNav-"]:style(position: static !important;)
+psyche.co##[class*="styled__HeaderWrapper"]:style(position: static !important; border-bottom: 1px solid rgba(0, 0, 0, 0) !important;)
+psyche.co##[class*="styled__Pusher-"]
 psychologytoday.com##.blue-outer, .page__header.header:style(position: relative !important; top: 0 !important;)
 pubexec.com##.staged.no-touch-sticky.clearfix.bot-layer:style(position: relative !important;)
 public.nrao.edu###masthead:style(position: absolute !important; top: 33px !important;)
