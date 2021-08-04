@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 16:11 2021-08-04
+! Last Modified: 16:13 2021-08-04
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -8142,6 +8142,9 @@ theprovince.com##.l-header .top-bar:style(display: block !important;)
 theprovince.com##.l-header:style(height: 120px !important;)
 thequint.com###metype-clickthru:style(position: absolute !important;)
 thequint.com##.sticky.header-section__bottom:style(position: relative !important;)
+thereader.mitpress.mit.edu###container:style(margin-top: 0 !important;)
+thereader.mitpress.mit.edu###top-bar:style(position: static !important)
+thereader.mitpress.mit.edu##.headroom:style(transform: none !important; transition: none !important)
 therealdeal.com###sdrn_bar:style(position: absolute !important;)
 therealnews.com##.fl-builder-content[data-type="header"].fl-theme-builder-header-sticky:style(position: relative !important;)
 therealnews.com##.header-shrink-logo:style(max-height: 90px !important;)
