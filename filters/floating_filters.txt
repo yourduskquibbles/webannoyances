@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 12:07 2021-08-07
+! Last Modified: 15:02 2021-08-07
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -4271,7 +4271,8 @@ imausa.com##.scrolled.scroll_header_top_area.fixed.page_header:style(position: r
 imbibemagazine.com##.sticky.main-menu-fixed:style(position: relative !important; top: 0 !important;)
 imdb.com##.pinned-top.sticky-widget.aux-content-widget-2:style(position: absolute !important;)
 imgur.com##.App-cover:style(position: absolute !important; top: 0 !important;)
-imgur.com##.CoverPostMeta, .Footer.Footer-slim.Footer-measure, .PostTitleHeader, .UploadPost-postTitleSticked
+imgur.com##.CoverPostMeta, .Footer.Footer-slim.Footer-measure, .Footer-measure, .PostTitleHeader, .UploadPost-postTitleSticked
+imgur.com##.Footer-wrapper:style(position: relative !important; bottom: 0 !important;)
 imgur.com##.Gallery-EngagementBarContainer, .Gallery-Sidebar .Top:style(position: static !important;)
 imgur.com##.GalleryCover.isFixed .ProfileNavbar-loggedOut .NavbarNotifications, .NavbarNotifications:style(display: inline-flex !important;)
 imgur.com##.GalleryCover.isFixed.NewCover.App-cover:style(box-shadow: none !important; z-index: auto !important; background: transparent !important;)
