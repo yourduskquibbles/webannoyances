@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 11:38 2021-08-08
+! Last Modified: 11:41 2021-08-08
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -3227,6 +3227,7 @@ finance.yahoo.com,news.yahoo.com,sports.yahoo.com,www.yahoo.com###render-target-
 finance.yahoo.com,news.yahoo.com,sports.yahoo.com,www.yahoo.com###ybar-navigation:style(opacity: 1 !important; margin-top: 0 !important;)
 finance.yahoo.com,news.yahoo.com,sports.yahoo.com,www.yahoo.com##.bottom-docked-container:style(height: 60px !important;)
 finance.yahoo.com,news.yahoo.com,sports.yahoo.com,www.yahoo.com##.vp-content:style(position: relative !important; width: 100% !important; height: 100% !important; bottom: unset !important; left: unset !important; animation: none !important;)
+finance.yahoo.com,news.yahoo.com,sports.yahoo.com,www.yahoo.com##.wafer-tooltip
 finance.yahoo.com,news.yahoo.com,sports.yahoo.com,www.yahoo.com##.ybar-page-is-scrolled .ybar-sticky #ybar-inner-wrap:style(box-shadow: none !important;)
 finance.yahoo.com,news.yahoo.com,sports.yahoo.com,www.yahoo.com##div[class="bottom-docked-container "][style="height: 96px;"]:style(height: 96px !important;)
 finance.yahoo.com,news.yahoo.com,sports.yahoo.com,www.yahoo.com##div[id="render-target-default"]:style(top: 0 !important;)
@@ -5827,7 +5828,6 @@ news.yahoo.com###YDC-UH-Stack:style(max-width: 100% !important; border: none !im
 news.yahoo.com###mrt-node-Lead-2-FeatureBar:style(padding-top: 1px !important;)
 news.yahoo.com##.bottom-docked-container div[style*="position: fixed;"]:style(position: relative !important; bottom: 0 !important;)
 news.yahoo.com##.bottom-docked-container:style(margin-top: 0 !important;)
-news.yahoo.com,sports.yahoo.com,www.yahoo.com##.wafer-tooltip
 news12.com##.wn-sticky:style(position: relative !important; top: 0 !important;)
 news18.com##.stky-logo
 news18.com##nav:style(position: relative !important; box-shadow: none !important;)
