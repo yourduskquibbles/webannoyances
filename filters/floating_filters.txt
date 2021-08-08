@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 12:39 2021-08-08
+! Last Modified: 13:09 2021-08-08
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -5894,7 +5894,11 @@ newyorker.com##.MainHeader__topBarItems___13CTQ:style(height: 115px !important;)
 newyorker.com##.Navigation__navList___gJe7C:style(height: 48px !important;)
 newyorker.com##.SiteHeader__siteHeader___2Fkqk, .persistent-top:style(position: absolute !important;)
 newyorker.com##.UserInfo__userInfo___nvFKn.UserInfo__collapsed___1NKiE, .UserInfo__userInfo___nvFKn.UserInfo__partial___3-Dk_:style(margin-top: 60px !important;)
-newyorker.com##.stacked-navigation--fixed-header-layout .stacked-navigation__grid:style(height: 7rem !important;)
+newyorker.com##.page-theme-standard.homepage .stacked-navigation--fixed-header-layout .stacked-navigation__grid:style(height: 10rem !important;)
+newyorker.com##.page-theme-standard.homepage .stacked-navigation--fixed-header-layout .stacked-navigation__section--large-logo .responsive-image__image:style(width: 300px !important; height: 70px !important;)
+newyorker.com##.page-theme-standard.homepage .stacked-navigation--fixed-header-layout .stacked-navigation__section--utility-links:style(top: 2.5rem !important;)
+newyorker.com##.page-theme-standard.homepage .stacked-navigation--fixed-header-layout .stacked-navigation__top:style(height: 7rem !important;)
+newyorker.com##.page-theme-standard.homepage .stacked-navigation__section--large-logo:style(min-width: 18rem !important;)
 newyorker.com##.stacked-navigation--fixed-header-layout .stacked-navigation__section--primary-links:style(height: 2.5rem !important;)
 nextcity.org##.wrapper.header:style(position: relative !important; top: 0 !important;)
 nexthive.com##.is_stuck.sidebar:style(position: absolute !important;)
