@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Ad Placeholder Filters
-! Last Modified: 12:39 2021-08-08
+! Last Modified: 12:43 2021-08-08
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for empty advertising placeholders.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -271,7 +271,7 @@ google.com###ad, #ad-label
 google.com##:xpath(.//*[@id='gbw']/div/div/div[2]//div[3][@aria-label="promo"])
 gothamist.com##.c-main-header__ad-unit
 govexec.com,govtribe.com,grubstreet.com,newatlas.com,nymag.com,thecut.com,vulture.com,webmd.com##.ad
-gq.com##.article-inline-ad
+gq.com##.article-inline-ad, [class*="ConsumerMarketingUnitThemedWrapper"]
 gq.com.au##.Header-module-adFullWidth-3GB64--
 grammy.com##.block--dfp-ad--desktop
 greenrushdaily.com##.dfp_ad_pos
