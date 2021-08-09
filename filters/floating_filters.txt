@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 15:32 2021-08-08
+! Last Modified: 08:30 2021-08-09
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -9397,9 +9397,11 @@ yachtcharterfleet.com##.fixed.yacht-tabs-wrap:style(position: absolute !importan
 yachtcharterfleet.com##.nav-down.show-for-small-only.header:style(position: relative !important; top: 0 !important;)
 yachtharbour.com##.header:style(position: absolute !important; padding: 25px 0 !important; background: linear-gradient(to bottom, rgba(4, 44, 95, 0.4) 0%, rgba(0, 0, 0, 0) 100%) !important; transform: none !important;)
 yahoo.com###ColWrap:style(position: absolute !important; top: 100px !important; left: unset !important; right: unset !important;)
+yahoo.com###UH-0-MobileHeader:style(transform: translate3d(0,0,0) !important;)
 yahoo.com###UH-MobileHeader:style(transform: none !important;)
 yahoo.com###UH:style(border-bottom: none !important;)
-yahoo.com###atomic, #UH-0-Header, #UH-1-NavLite, #UH, #UH-0-SportsUH-0-Header, #UH-1-DesktopNav, #YDC-SecondaryNav, #YDC-UH-Stack, .Pos\(f\)\!, .Mb-0.Zoom-1.header.js-applet.M-0, .action-bar, .y-header, .yui-sv-hd.ct-box-hd:style(position: relative !important; top: 0 !important; transform: translate3d(0,0,0) !important;)
+yahoo.com###YDC-UH-Stack[class*="mobile-nav"]:style(position: absolute !important; top: 0 !important; transform: translate3d(0,0,0) !important;)
+yahoo.com###atomic, #UH-0-Header, #UH-1-NavLite, #UH, #UH-0-SportsUH-0-Header, #UH-1-DesktopNav, #YDC-SecondaryNav, #YDC-UH-Stack:not([class*="mobile-nav"]), .Pos\(f\)\!, .Mb-0.Zoom-1.header.js-applet.M-0, .action-bar, .y-header, .yui-sv-hd.ct-box-hd:style(position: relative !important; top: 0 !important; transform: translate3d(0,0,0) !important;)
 yahoo.com###masterNav:before, #sticky-lrec2-footer, #yucsHead:style(position: absolute !important;)
 yahoo.com###masterNav:style(position: relative !important; top: 0 !important; transform: none !important; width: 100% !important;)
 yahoo.com###mega-uh-wrapper:style(position: relative !important; box-shadow: none !important; margin-bottom: 5px !important;)
@@ -9409,6 +9411,7 @@ yahoo.com##.HideBottomBar .HideBottomBar_Mt\(-35px\), .Trs\(subnavTransition\).T
 yahoo.com##.HideBottomBar .HideBottomBar_Op\(0\):style(opacity: 1 !important;)
 yahoo.com##.Sticky.ya-left-rail-sticker:style(position: absolute !important; top: 0 !important; transform: none !important;)
 yahoo.com##.modal-closebtn:style(position: absolute !important; top: 30px !important;)
+yahoo.com##.social-bar-fixed:style(position: relative !important;)
 yahoo.com##.sticky-outer-wrapper > .sticky-inner-wrapper:style(position: static !important; top: 0 !important; transform: none !important;)
 yahoo.com##.yvp-content:style(position: relative !important; width: 100% !important; height: 100% !important; left: 0 !important; bottom: unset !important; box-shadow: none !important; animation: none !important;)
 yahoo.com##.yvp-stream:style(position: static !important;)
