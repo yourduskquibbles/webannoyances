@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 11:08 2021-08-09
+! Last Modified: 11:14 2021-08-09
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -5368,6 +5368,7 @@ mlbtraderumors.com,prohockeyrumors.com##.headlines-bar:style(position: absolute 
 mlssoccer.com###mls-global, .affix.nav_wrapper.region-navigation.region:style(position: absolute !important; top: 0 !important;)
 mlssoccer.com##.logo__custom:style(position: absolute !important;)
 mmafighting.com,polygon.com,sbnation.com,theverge.com##.tab-bar-fixed.c-tab-bar
+mmafighting.com,sbnation.com##.l-header + main, .l-header + span[data-content-admin-id] + main, .l-header + style + main:style(margin-top: 0 !important;)
 mmajunkie.com###nav-branding-sticky-wrapper, #nav-branding:style(position: relative !important;)
 mmajunkie.com###secondary:style(position: absolute !important; bottom: unset !important;)
 mmajunkie.com###video-0-original-location, .meta
