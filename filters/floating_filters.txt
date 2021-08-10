@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 16:55 2021-08-09
+! Last Modified: 10:02 2021-08-10
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2279,6 +2279,7 @@ curbed.com##.page-sticky-header:style(position: relative !important; top: 0 !imp
 curbed.com##.sticky-list .pinboard > *:style(position: static !important;)
 currencio.co##.softo-bar:style(position: absolute !important;)
 current.org##.show.nav_overflow_label.sticky_nav_display.sticky-nav-holder:style(position: relative !important; top: 0 !important;)
+currenttime.tv##.hdr--simple.hdr:style(position: absolute !important;)
 custompc.com.cy##.floating.space-top.vs-full-width.et-full-width.et-sticky-menu.top-menu-grid.span16, #my_custom_badge:style(position: absolute !important;)
 cvcompiler.com##.header > .button:style(position: absolute !important;)
 cvs.com##.content-header:style(position: static !important;)
@@ -7972,6 +7973,14 @@ thecooperreview.com##.is_stuck.vce-sticky:style(position: absolute !important;)
 thecorrespondent.com##.navigation-placeholder
 thecorrespondent.com##.navigation-publication:style(background-color: #525252 !important;)
 thecorrespondent.com##.navigation:style(position: relative !important; top: 0 !important; margin-top: 0 !important; --opacity: 0 !important;)
+thecounter.org###_progress
+thecounter.org###maincontent.page-wrapper > .container:style(margin-top: 0 !important;)
+thecounter.org##.custom-logo:style(display: block !important;)
+thecounter.org##.fixed-border:style(opacity: .2 !important;)
+thecounter.org##.fixed-logo:style(display: none !important; opacity: 0 !important;)
+thecounter.org##.fixed-menu .logo svg:style(display: inline !important; opacity: 1 !important;)
+thecounter.org##body.fixed-menu header:style(position: static !important;)
+thecounter.org##body:style(padding-top: 0 !important;)
 theculturetrip.com###page-header-id:style(position: absolute !important;)
 theculturetrip.com##.header-menu\.styled__HeaderMenu-s8ctnhx-0.flipboard-remove:style(position: absolute !important;)
 thedailybeast.com###react-mount-point > .ArticlePage > .PageHeader.head > .MobileNav, .NavHome, .StickyNavbar
@@ -8468,6 +8477,7 @@ treasury.gov###usa-header, #header, #navigation:style(position: absolute !import
 treato.com##.fixed-banner.banner-sticky-toolbar-wrap:style(position: absolute !important;)
 treato.com##.fixed-widget.active.left-widget-inner:style(position: relative !important;)
 treato.com##.row.top-header-row:style(position: relative !important; top: 0 !important;)
+treehugger.com##.header.comp:style(position: absolute !important;)
 trellian.com##.smaller:style(position: relative !important; top: 0 !important;)
 trendingpolitics.com##.fixed.page-nav, .page-header:style(position: static !important;)
 trendmicro.com###floating-botton:style(position: absolute !important;)
