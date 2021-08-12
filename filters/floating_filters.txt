@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 10:04 2021-08-12
+! Last Modified: 10:26 2021-08-12
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -9039,8 +9039,9 @@ welt.de##.jw-reset.jw-media:style(position: relative !important; top: 0 !importa
 wendys.com###lg-nav:style(position: absolute !important;)
 westelm.com##.product-discovery .is-stickied:style(position: static !important;)
 westernjournal.com###wj-network-header-container .wj-network-header-logo:style(height: 3.6vw !important; min-height: 36px !important; margin: 4px 0 !important;)
-westernjournal.com###wj-network-header-container:style(position: absolute !important;)
+westernjournal.com###wj-network-header-container, .menu-top:style(position: absolute !important;)
 westernjournal.com##.fixed-widgets.fixed:style(position: static !important;)
+westernjournal.com##.white-logo.ff-logo
 westernjournalism.com##.shrink.site-header, .site-header:style(position: relative !important; top: 0 !important;)
 westnewsnow.com###td-header-menu:style(display: inline-block !important;)
 westnewsnow.com##.td-affix .td-logo-sticky, .td-sticky-header.td-header-logo
