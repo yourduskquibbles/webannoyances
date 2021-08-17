@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Social Filters
-! Last Modified: 10:01 2021-08-12
+! Last Modified: 11:33 2021-08-17
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for social networking & sharing - Remove third party social media share sections, icons & other cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -713,7 +713,7 @@ ny1.com###footerSocialLinks
 nybooks.com##.icon-google-plus
 nydailynews.com###ra-follow, #ra-share-top, #rf-follow, .footer-call-to-action-container, .ra-share, .ra-share-e, .ra-share-f, .ra-share-t, .sharebar, .ft--btnbar
 nymag.com###ck_digg, #ck_facebook, #ck_sharethis_top, #ck_twitter, .art-nav-share-list-item, .rightMenu.followLabel
-nypost.com###highlight-share, .share-facebook, .share-twitter, .floating-share, .widget_nypost_social_widget
+nypost.com###highlight-share, .share-facebook, .share-twitter, .floating-share, .widget_nypost_social_widget, [data-component="floatingShare"]
 nytimes.com###masthead-social, #sharetools-interactive, .article-video-sharetools, .email-share-item, .email-sharetool, .fb-share-item, .follow-tools, .inline-share-wrapper, .masthead.in-content .sharetools, .more-share-item, .recipe-details-share, .share-post, .styles-shareButton--KciLA, .show-all-sharetool.sharetool, .styles-shareMenu--17wGM, .styles-shareNetworks--2_V3p, .vhs-plugin-imax-playback-metadata-share-tools, .vhs-tools, .facebook-sharetool, .twitter-share-item, .twitter-sharetool, .save-sharetool, .masthead.in-content.masthead-theme-transparent-ffffff .user-tools, .footer-nav-primary-list, .wa-share-item, [aria-label^="Email"], [aria-label^="More sharing options"], [aria-label^="Share on Facebook"], [aria-label^="Share on Twitter"]
 nytimes.com##aside:has-text(/Follow Us/)
 nyulocal.com##.button--withSvgIcon.button--withIcon.u-baseColor--buttonNormal.is-touchIconBlackPulse.button--chromeless.button
@@ -816,7 +816,8 @@ renttherunway.com##.ss-tooltip-wrapper, .ss-tooltip-wrapper-unlimited
 repairwin.com##div:has([id="fb-root"])
 repubblica.it##.rep-icon-youtube
 reuters.com###section-follow-buttons, #sharetool-container, #twitter-share-link, .Footer_social_3V2HY, .RightRail_fixedIsInViewport_34nin.RightRail_fixedIsAboveViewport_2Wlfx.RightRail_fixed-wrapper_3m6JO, .SocialTool_facebook_2Nibf.SocialTool_social-button_1Z8qb, .SocialTool_social-button, .SocialTool_twitter_1xUSq.SocialTool_social-button_1Z8qb, .amp-social-container, .google, .reuters-share, .share-container_10gSP, .sharetool, .slide-desc-share, .social_3V2HY, .util-social, [class*="SocialTools__container"]
-reuters.com##[class*="ShareButtons__container"] > [class*="ShareButtons__condensed"] > button[aria-label*="Facebook"], [class*="ShareButtons__container"] > [class*="ShareButtons__condensed"] > button[aria-label*="Twitter"]:upward(1)
+reuters.com##.ShareButtons__item___1ToOOl:nth-of-type(4):style(margin-left: 0 !important;)
+reuters.com##[class*="ShareButtons__container"] > [class*="ShareButtons__condensed"] > button[aria-label*="Facebook"], .Button__button___3FFWBE[aria-label="Share on LinkedIn"], [class*="ShareButtons__container"] > [class*="ShareButtons__condensed"] > button[aria-label*="Twitter"]:upward(1)
 revealnews.org##.modal-share-icons
 reviewjournal.com##.rj-story-social
 reviewopedia.com###getsocial-wrap
@@ -1123,7 +1124,7 @@ usatodayhss.com##.meta
 usenix.org##.field-label-hidden.field-type-link-field.field-name-field-links-social-media.field
 usjournal.net##.mkdf-blog-share, .mkdf-icon-has-hover.mkdf-social-icon-widget-holder
 usmagazine.com##.module-social-sharing
-usnews.com###toggle-social-byline, .header-banner-section-social
+usnews.com###toggle-social-byline, .header-banner-section-social, [class*="SocialSharing__Container-sc-"]
 usni.org##.usninews_sharethis
 ustvgo.tv##.heateor_sss_sharing_container
 vagabomb.com##.stickyShares

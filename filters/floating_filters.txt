@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 10:26 2021-08-12
+! Last Modified: 11:33 2021-08-17
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2318,6 +2318,8 @@ dailykos.com##.affix.affixed-top.navbar-static-top.navbar.explore-bar:style(posi
 dailylocal.com###site-navbar-container .show-affix, #site-navbar-container.affix .navbar-brand
 dailylocal.com###site-navbar-container:style(box-shadow: none !important; border-top: 5px solid #38322a !important; border-bottom: 1px solid #aaa7a4 !important;)
 dailylocal.com##.navbar-nav > li > a:style(padding-left: 10px !important; padding-right: 10px !important;)
+dailymail.co.uk###mobile-content > header:style(transform: translate3d(0,0,0) !important;)
+dailymail.co.uk###mobile-content:style(margin-top: 0 !important; height: 100vh !important; overflow: auto !important;)
 dailymail.co.uk##.home.cc:style(position: relative !important; top: 0 !important; transform: none !important;)
 dailymail.co.uk##.hp-swipe, .jwplayer_body_1, .mol-related-videos-view-paused, .vjs-flyout-control, div[class^="jwplayer"][style*="position"][style*="fixed"]
 dailymail.co.uk##.mobile-sharing.mobile-sharing-activated:style(height: 46px !important;)
@@ -3466,7 +3468,7 @@ foxbusiness.com##.featured-video.sticky-video .contain, .featured-video.sticky-v
 foxbusiness.com##.featured-video.sticky-video .contain:style(position: static !important; top: 0 !important; bottom: unset !important; right: unset !important; width: 100% !important;)
 foxbusiness.com##.info:style(float: unset !important; padding: 16px 0 0 !important; width: unset !important;)
 foxbusiness.com##.site-header:style(position: relative !important; box-shadow: none !important; padding-bottom: 10px !important; animation: none !important;)
-foxbusiness.com##.stick.sidebar-primary.sidebar:style(position: static !important;)
+foxbusiness.com##.stick.sidebar-primary.sidebar, .sticky, .sticky-bottom, .sticky-top:style(position: static !important;)
 foxeslovelemons.com##.slicknav_menu:style(position: relative !important; top: 0 !important;)
 foxitsoftware.com##.help-panel:style(position: absolute !important;)
 foxnews.com###elections-iframe-banner
@@ -5050,6 +5052,7 @@ machmetrics.com###masthead:style(position: static !important;)
 mackeeper.com##.header, .js-nav-mobile.nav-mobile:style(position: relative !important; top: 0 !important;)
 macobserver.com##.f-topbar-fixed:style(padding-top: 0 !important;)
 macrotrends.net###menu_container:style(position: relative !important;)
+macworld.com##.primaryNav--article:style(position: absolute !important;)
 macworld.com##.scaleArticleToc, #drr-container .scaleArticleToc:style(position: absolute !important; left: -190px !important; top: 5px !important; width: 140px !important;)
 macworld.com,variety.com##.jw-wrapper:style(position: absolute !important; top: 0 !important; left: 0 !important; right: 0 !important; bottom: 0 !important; max-width: 100% !important; max-height: 100% !important; margin: 0 !important;)
 macys.com##.canvas-facet-container-fixed.panel-fixed:style(position: static !important;)
@@ -6022,8 +6025,9 @@ nydailynews.com##.s2nPlayerFrame:style(position: absolute !important; height: 10
 nylon.com##.nav:style(position: relative !important; top: 0 !important;)
 nymag.com##.fixed.simple-header-wrapper:style(position: relative !important; max-width: 1180px !important; width: 100vw !important; border-bottom: none !important;)
 nymag.com##.package-navigation:style(position: relative !important; top: 0 !important; transform: none !important; margin: 0 !important; border-top: none !important;)
-nypost.com###background-wrapper, #content-wrapper:style(padding-top: 0 !important;)
+nypost.com###background-wrapper, #content-wrapper, body:style(padding-top: 0 !important;)
 nypost.com###page-header:style(position: relative !important; top: 0 !important; transform: none !important;)
+nypost.com##.brightcove-video__player .video-js:style(position: absolute !important; bottom: 0 !important; left: 0 !important; right: 0 !important; top: 0 !important; width: 100% !important; height: 100% !important;)
 nypost.com##.s2nFloatBox:style(position: static !important; width: 100% !important; height: 100% !important; margin: 0 !important; inset: 0px !important;)
 nypost.com##.s2nFloatParams:style(width: 100% !important; margin: 0 !important;)
 nypost.com##body > .content:style(margin-top: 0 !important;)

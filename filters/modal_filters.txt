@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 00:14 2021-08-11
+! Last Modified: 11:33 2021-08-17
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of other page covering elements. Cookie/GDPR notices will be removed in Cookie Filters sublist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -902,7 +902,8 @@ theconversation.com##[role^="dialog"]
 thecounter.org##.modal-x, .pop-up-wrapper
 thecounter.org##body.pop-up-open:style(overflow-y: scroll !important;)
 theculturetrip.com##.scroll-to-top-wrapper\.style__ScrollToTopWrapper-s1wyvke7-0
-thedailybeast.com###bottom_ribbon_modal_wrapper, #piano_bottom_ribbon_wrapper
+thedailybeast.com###bottom_ribbon_modal_wrapper, #piano_bottom_ribbon_wrapper, .tp-active.tp-backdrop, .tp-modal
+thedailybeast.com##body.tp-modal-open:style(overflow-y: scroll !important;)
 thedailybeast.com##html:style(overflow-x: hidden !important; overflow-y: auto !important;)
 thedailybell.com##.tve-leads-slide-in
 thedailywtf.com###alert_button_desktop_notifications
