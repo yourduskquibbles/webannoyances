@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 11:40 2021-08-17
+! Last Modified: 13:49 2021-08-17
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -9262,10 +9262,10 @@ wootric.com##.olark-size-md.olark-launch-button:style(position: absolute !import
 wordfence.com##.site-cleaning-header:style(position: relative !important;)
 wordfence.com##.site-header:style(position: relative !important; top: 0 !important;)
 wordnik.com##.headerFixer:style(position: absolute !important;)
-wordpress.com##header:style(position: static !important;)
-wordpress.com,wordpress.org###masthead, .sticking.stick:style(position: relative !important;)
+wordpress.com,wordpress.org###masthead:not([class="entry-header"]), .sticking.stick:style(position: relative !important;)
 wordpress.com,wordpress.org###wpadminbar, .is-invisible.is-fixed.masterbar:style(position: absolute !important;)
 wordpress.com,wordpress.org##.masthead-fixed .site-main:style(margin-top: 0 !important;)
+wordpress.com,wordpress.org##header:not([class="entry-header"]):style(position: static !important;)
 wordreference.com###search:style(position: static !important; box-shadow: none !important;)
 wordstream.com##.ws-header:style(position: relative !important;)
 world101.cfr.org##.breadcrumb-navigation__sidenav:style(position: static !important;)
