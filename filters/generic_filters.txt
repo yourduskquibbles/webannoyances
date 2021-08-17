@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Generic Filters
-! Last Modified: 10:01 2021-08-12
+! Last Modified: 12:40 2021-08-17
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for generic cosmetic filters - Cosmetically remove common annoyances found on multiple domains typically provided in the social, modal and newsletter Web Annoyances Ultralist sublists. Also includes cookie & gdpr warning elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -238,13 +238,13 @@
 ###sb-container
 ###scroll-follow
 ###scroll-to-top
-###scroll-top
 ###scroll-top-btn
 ###scroll-top-link
+###scroll-top:not(html):not(body)
 ###scroll-up
 ###scrollToTop
 ###scrollToTopBtn
-###scrollTop
+###scrollTop:not(html):not(body)
 ###scrollTopBtn
 ###scrollUp
 ###scroll_to_top
@@ -252,7 +252,6 @@
 ###scrolltop
 ###scrolltotop
 ###scrollup
-###share
 ###share-bar
 ###share-bar-bottom
 ###share-bar-top
@@ -282,6 +281,7 @@
 ###share-top
 ###share-twitter
 ###share-unit
+###share:not(html):not(body)
 ###shareBar
 ###shareBarWrapper
 ###shareBtn
@@ -2076,6 +2076,7 @@ jobvite.com#@#.postActions
 linkedin.com#@#[href*="linkedin.com/shareArticle"]
 masters.com#@#.social_bar
 mbank.cz,obi.ru#@#.smartbanner
+medallia.com,theben.de#@##scrollTop
 mega-debrid.eu#@##mc_embed_signup
 mercopress.com#@##goToTop
 moneyunder30.com#@#.social-media-buttons
@@ -2096,7 +2097,6 @@ siliconrepublic.com#@#.social-list
 sportsgrid.com#@#.social-block
 tampabay.com#@#.scrolltop
 theaustralian.com.au#@#.share-tools
-theben.de#@##scrollTop
 thinkprogress.org,wsj.com#@#.sticky-share
 tiktok.com#@#.share-header
 tiktok.com#@#.share-links
