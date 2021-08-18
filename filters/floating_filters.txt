@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 08:22 2021-08-18
+! Last Modified: 08:25 2021-08-18
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2336,7 +2336,7 @@ dailymail.co.uk##.vjs-flyout-placeholder:style(position: absolute !important; z-
 dailymail.co.uk##.vjs-flyout-wrapper-fixed:style(position: static !important; height: 100% !important; width: 100% !important; top: 0 !important; left: 0 !important; bottom: unset !important;)
 dailymail.co.uk##.vjs-title:style(display: block !important; font-size: 18px !important; line-height: 36px !important;)
 dailymail.co.uk##.vjs-video-container::before:style(padding-bottom: 86px !important;)
-dailymail.co.uk##[class*="widget-"]
+dailymail.co.uk###swipeIndicator, [class*="widget-"]
 dailymotion.com###continuous-player
 dailymotion.com##.Header__container___-9nBG:style(position: relative !important;)
 dailyoilbulletin.com##.docs-sticky-top-bar.utils-nav:style(position: absolute !important;)
