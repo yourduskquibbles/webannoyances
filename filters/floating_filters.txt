@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 09:47 2021-08-20
+! Last Modified: 15:19 2021-08-20
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -8939,7 +8939,7 @@ washingtontimes.com###checkout-container, #feedbackify, .floatCloseButton
 washingtontimes.com###masthead, .globalheader_container, .main-nav-scrolled.globalheader_container:style(position: relative !important; top: 0 !important;)
 washingtontimes.com###mrf-header:style(position: absolute !important;)
 washingtontimes.com##.header-container #cssmenu:style(box-shadow: 0 2px 3px rgba(0,0,0,.4) !important;)
-washingtontimes.com##.header-container.sticky .info-bar, .header-container.sticky .topics, .header-container.sticky header#mainnav div.topper .headcol.sitelogo em, .menuButton:style(display: block !important;)
+washingtontimes.com##.header-container.sticky .info-bar, .header-container.sticky .topics, .header-container.sticky header#mainnav div.topper .headcol.sitelogo em, .menuButton, .sticky .podcastWrap:style(display: block !important;)
 washingtontimes.com##.header-container.sticky header#mainnav div.topper .headcol.sitelogo:style(position: unset !important; padding: unset !important; top: unset !important;)
 washingtontimes.com##.header-container.sticky header#mainnav:style(padding: 34px 20px 11px !important;)
 washingtontimes.com##.s2nFloatParams:style(width: 100% !important;)
