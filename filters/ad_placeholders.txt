@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Ad Placeholder Filters
-! Last Modified: 11:30 2021-08-19
+! Last Modified: 09:43 2021-08-20
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for empty advertising placeholders.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -197,6 +197,7 @@ dcist.com##.adv_box
 deadline.com##.below-header-ad, .sticky-leaderboard-ad
 deathandtaxesmag.com##.ad-holder
 defenseone.com##.d1-top-ad
+defenseone.com,govexec.com,nextgov.com,route-fifty.com,routefifty.com##.ad, .advert-placeholder
 defensesystems.com##.ad
 delish.com##.ad-gpt-breaker
 deviantart.com##div.mc-ad-chrome
@@ -272,7 +273,7 @@ globalnews.ca##.l-headerAd__container, .story-ad
 google.com###ad, #ad-label
 google.com##:xpath(.//*[@id='gbw']/div/div/div[2]//div[3][@aria-label="promo"])
 gothamist.com##.c-main-header__ad-unit
-govexec.com,govtribe.com,grubstreet.com,newatlas.com,nymag.com,thecut.com,vulture.com,webmd.com##.ad
+govtribe.com,grubstreet.com,newatlas.com,nymag.com,thecut.com,vulture.com,webmd.com##.ad
 gq.com##.article-inline-ad, [class*="ConsumerMarketingUnitThemedWrapper"]
 gq.com.au##.Header-module-adFullWidth-3GB64--
 grammy.com##.block--dfp-ad--desktop
@@ -426,7 +427,7 @@ newsmax.com###adblockermessage, #nmSpecialLinksWrapper
 newstatesman.com##.article-footer-promotion, .header-promotion, .region-ns-offers
 newsweek.com##.block-fusion-adsnews, .msub, .promo-box
 newyorker.com###AMS_NYR_CONTENTPAGE_TEXTOFFER, #digital-editions, #position2_yrail, #rolloverAd, .ArticleFooter__adEndArticle___2_iy_, .DailyCartoonSection__adContainer___2M0dz, .SpotlightSection__adContainer___21KsF, .cne-interlude-container, .cns-ads-container, .ticker-view, .ticker-wrapper.ticker-row, [class^="Ad__"], [class*="consumer-marketing-unit--"]
-nextgov.com##.advert-placeholder, .ng-topad
+nextgov.com##.ng-topad
 nextimpulsesports.com###top-ad-section
 nextshark.com##div[id^="sticky-footer-div-gpt-ad-"]
 nexusmods.com##.areplacer
@@ -700,4 +701,5 @@ yuganet.us##.custom-ads-close
 zerohedge.com###abd-banner, #sidebar-right-1, #sidebar-right-2, #sidebar-right-3, #sidebarleft-bottom, #sidebarleft-top, .ad-header-container, .ad-left-container, .ad__wrapper-element, .injected-ad-wrapper
 zerohedge.com##.carousel-placement [class="ad__wrapper-element"]:upward(1)
 zillow.com###app-upsell-react-module, .mobile-upsell-container
+||defenseone.com/*/adframe.js$script,domain=defenseone.com
 ||menshealth.com/*/advagg_js$script,domain=menshealth.com

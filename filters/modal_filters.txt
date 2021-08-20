@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 11:30 2021-08-19
+! Last Modified: 09:43 2021-08-20
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of other page covering elements. Cookie/GDPR notices will be removed in Cookie Filters sublist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -288,8 +288,8 @@ dealscove.com##.bottom.run_arrow
 decider.com###nyp-newsletter-modal, .nyp-sitewide-notice
 decrypt.co##div[class^="NotificationsContainer"]
 deepcapture.com,zona-m.net##.alertbar
-defenseone.com,govexec.com,nextgov.com,routefifty.com##.conversion-module, .conversion-module-bootstrap, .gemg-interstitial, .interstitial
-defenseone.com,govexec.com,nextgov.com,routefifty.com##body:style(overflow-x: auto !important; overflow-y: scroll !important; margin-right: 0 !important;)
+defenseone.com,govexec.com,nextgov.com,route-fifty.com,routefifty.com##.conversion-module, .conversion-module-bar, .conversion-module-bootstrap, .gemg-interstitial, .interstitial
+defenseone.com,govexec.com,nextgov.com,route-fifty.com,routefifty.com##html.conversion-module-shown, body.conversion-module-shown:style(overflow: unset !important;)
 delanceyplace.com###nekoToTop
 democracynow.org###campaign_modal, #overlay
 democracynow.org##.not_scroll.body_wrapper:style(overflow-x: hidden !important; overflow-y: scroll !important;)
@@ -369,7 +369,7 @@ familybusinessmagazine.com,linux.com###modalBackdrop, #modalContent
 famous-smoke.com##.emailmodal
 fanfox.net##.side-top
 fantasypros.com###cboxLoadedContent, #cboxOverlay, #cboxWrapper
-fantasysports.yahoo.com###static-yahoocup-promo-overlay, .yui3-overlay-focused
+fantasysports.yahoo.com###static-yahoocup-promo-overlay, .yui3-overlay-focused:not([id="ysf-editor-overlay"])
 fastcompany.com##.notification, .privacyPolicyPopup
 fastestvpn.com##.modal, .modal-backdrop
 fastestvpn.com##body:style(overflow: auto !important; padding-right: 0 !important;)
