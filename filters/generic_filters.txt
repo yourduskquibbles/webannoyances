@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Generic Filters
-! Last Modified: 12:40 2021-08-17
+! Last Modified: 15:29 2021-08-20
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for generic cosmetic filters - Cosmetically remove common annoyances found on multiple domains typically provided in the social, modal and newsletter Web Annoyances Ultralist sublists. Also includes cookie & gdpr warning elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -10,10 +10,10 @@
 ! Works Best With: uBlock Origin or AdGuard
 
 ! Start Web Annoyances Ultralist - Generic Filters
-###BackToTop
-###BackToTopBtn
-###BacktoTop
-###GoUpWrapper
+###BackToTop:not(html):not(body)
+###BackToTopBtn:not(html):not(body)
+###BacktoTop:not(html):not(body)
+###GoUpWrapper:not(html):not(body)
 ###Hero-0-FeatureBar-smartphone-Proxy
 ###PopupSignupForm_0
 ###ShareToolsMobile
@@ -42,25 +42,25 @@
 ###article-social-bar
 ###article-tools
 ###article_0_ad_square
-###ast-scroll-top
+###ast-scroll-top:not(html):not(body)
 ###at4-share
 ###auto-top-link
-###back-to-top
-###back-to-top-button
-###back-to-top-button_1-0
-###back-top
-###back2Top
-###backToTop
-###backToTopBtn
-###backToTopDiv
-###backTop
-###back_to_top
-###back_top
-###backtoTop
-###backtop
-###backtotop
-###backtotop-scroll
-###backtotopinnercontainer
+###back-:not(html):not(body)
+###back-to-top-button:not(html):not(body)
+###back-to-top-button_1-0:not(html):not(body)
+###back-to-top:not(html):not(body)
+###back2Top:not(html):not(body)
+###backToTop:not(html):not(body)
+###backToTopBtn:not(html):not(body)
+###backToTopDiv:not(html):not(body)
+###backTop:not(html):not(body)
+###back_to_top:not(html):not(body)
+###back_top:not(html):not(body)
+###backtoTop:not(html):not(body)
+###backtop:not(html):not(body)
+###backtotop-scroll:not(html):not(body)
+###backtotop:not(html):not(body)
+###backtotopinnercontainer:not(html):not(body)
 ###block-mailchimp-signup-newsletter
 ###block-rrssb-rrssb
 ###block-sharethis-sharethis-block
@@ -124,16 +124,16 @@
 ###gigyaShareBarUl
 ###gigyaShareBar_4_gig_containerParent
 ###gmg-vf
-###go-to-top
-###go-top
-###go-top-button
-###goToTop
-###goTop
-###go_top
-###gotoTop
-###gotop
-###gototop
-###gp-to-top
+###go-to-top:not(html):not(body)
+###go-top-button:not(html):not(body)
+###go-top:not(html):not(body)
+###goToTop:not(html):not(body)
+###goTop:not(html):not(body)
+###go_top:not(html):not(body)
+###gotoTop:not(html):not(body)
+###gotop:not(html):not(body)
+###gototop:not(html):not(body)
+###gp-to-top:not(html):not(body)
 ###gs-social-follow
 ###header-social
 ###header-social-icons
@@ -148,7 +148,7 @@
 ###intercom-container
 ###iubenda-cs-banner
 ###izmiddle-box
-###jGoTop
+###jGoTop:not(html):not(body)
 ###jetpack_widget_social_icons-3
 ###jnews_social_counter-2
 ###js-Social-Share-0
@@ -886,7 +886,7 @@
 ##.generate-back-to-top
 ##.get-the-app
 ##.get-the-app-link
-##.get-to-top
+##.get-to-top:not(html):not(body)
 ##.ghacks_share_widget
 ##.gig-bar-container
 ##.gig-button
@@ -899,19 +899,19 @@
 ##.global-sharebar-container
 ##.global_sharing_controls
 ##.gmg-vf
-##.go-to-top
-##.go-top
-##.go-up
-##.goToTop
+##.go-to-top:not(html):not(body)
+##.go-top:not(html):not(body)
+##.go-up:not(html):not(body)
+##.goToTop:not(html):not(body)
 ##.google-plus
 ##.google-plus1
 ##.googlePlusLink
 ##.googleplus
 ##.googleplus-container
 ##.googleplus-photo-gallery
-##.gotop
-##.gotop-btn
-##.gototop
+##.gotop-btn:not(html):not(body)
+##.gotop:not(html):not(body)
+##.gototop:not(html):not(body)
 ##.gplus-link
 ##.gplusone
 ##.gs-bar
