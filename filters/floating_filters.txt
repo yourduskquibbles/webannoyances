@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 15:09 2021-08-24
+! Last Modified: 11:43 2021-08-25
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -3470,13 +3470,13 @@ foxbusiness.com##.site-header:style(position: relative !important; box-shadow: n
 foxbusiness.com##.stick.sidebar-primary.sidebar, .sticky, .sticky-bottom, .sticky-top:style(position: static !important;)
 foxeslovelemons.com##.slicknav_menu:style(position: relative !important; top: 0 !important;)
 foxitsoftware.com##.help-panel:style(position: absolute !important;)
-foxnews.com###elections-iframe-banner
+foxnews.com###elections-iframe-banner, .c-item.c-item-first.c-item-last, .featured.featured-video .control, .featured.featured-video.sticky-video .contain .info .title:before, .g-41.section-featured, .vid-scroll-bknd
 foxnews.com###navbar-main, #network, .desktop.sidebar-primary.sidebar-article.sidebar, .td-affix.td-menu-background:style(position: relative !important; top: 0 !important;)
 foxnews.com###site-wrapper.scroll-video .video-wrap .video-container:style(position: absolute !important; top: -421.867px !important; right: 14px !important; width: 750px !important; height: 421.867px !important;)
 foxnews.com###top:style(position: relative !important; top: 0 !important; margin-top: 0 !important;)
-foxnews.com##.c-item.c-item-first.c-item-last, .featured.featured-video .control, .featured.featured-video.sticky-video .contain .info .title:before, .g-41.section-featured, .vid-scroll-bknd
 foxnews.com##.col-md-8.col-xs-12.inner-container, .is-programming.alert-banner, .item-elections-nav, .sticky-region, body .sticky, body .sticky-bottom, body .sticky-top:style(position: relative !important;)
 foxnews.com##.collection-article-scroller:style(position: relative !important; box-shadow: none !important; animation: none !important;)
+foxnews.com##.collection-live-event .sidebar-content:style(position: static !important;)
 foxnews.com##.contain > .info, .featured.featured-video.sticky-video .contain:style(background: #fff !important;)
 foxnews.com##.featured .info .caption .title:style(font-size: 18px !important; line-height: 24px !important; vertical-align: top !important;)
 foxnews.com##.featured .info .caption:style(border-bottom: 1px solid #cedfef !important;)
@@ -3701,6 +3701,9 @@ gitlab.com##.diff-file .file-title, .diff-file .file-title-flex-parent, .file-ti
 gitlab.com##.is-stuck.oneline-block.js-diff-files-changed.files-changed.diff-files-changed.content-block:style(position: relative !important;)
 gitlab.com##.navbar-empty.fixed-top.navbar:style(position: absolute !important; top: -40px !important;)
 gitlab.com##.navbar-gitlab.navbar, .nav-sidebar, .right-sidebar-expanded.right-sidebar.js-right-sidebar.js-issuable-sidebar:style(position: absolute !important;)
+gizchina.com##.vw-content-sidebar [id$="_clone"]:style(display: none !important; height: 0 !important;)
+gizchina.com##.vw-sticky-menu.vw-header__main-menu:style(position: static !important; transform: translateY(0) !important;)
+gizchina.com##[id^="text"][style*="position: fixed"]:style(position: static !important;)
 glaciermedia.ca##.fixed.sectors-menu.map-filters:style(position: absolute !important; top: 0 !important;)
 glaciermedia.ca##.has-header.has-cover:style(position: absolute !important; margin: 50px auto 0 auto !important; top: 0 !important; transform: none !important; height: 80px !important; left: unset !important;)
 glaciermedia.ca##.visible.sticky:style(position: absolute !important;)
@@ -6133,7 +6136,7 @@ okayplayer.com##.affix.site-header:style(position: relative !important; top: 0 !
 okmagazine.com##.post-header-regular:style(margin-top: 50px !important;)
 okmagazine.com##.site-header__content:style(position: relative !important; top: 0 !important; opacity: 1 !important;)
 old.reddit.com##.active.fixed.read-next:style(position: absolute !important; bottom: unset !important;)
-old.reddit.com##.redesignbetabar-js, .res-floater-list, .res-show-link
+old.reddit.com##.commentsignupbar.infobar, .redesignbetabar-js, .res-floater-list, .res-show-link
 old.reddit.com##ol:style(position: static !important;)
 old.reddit.com,wsj.com##html:style(overflow: unset !important;)
 omisego.network##.navigation:style(position: relative !important;)
@@ -8069,6 +8072,8 @@ theiet.org##.iet-black-default-80:style(position: absolute !important;)
 theinfatuation.com###header2017, #subheader:style(position: absolute !important;)
 theinformation.com##.hidden-xs.home-page-sticky-header, .sticky-header:style(position: relative !important; top: 0 !important;)
 theinformation.com##.white.main-banner, header:style(position: relative !important;)
+theintercept.com##.Cta--scrolledPast:style(position: relative !important;)
+theintercept.com##.Cta-content:style(position: absolute !important; top: 0 !important; left: 100% !important;)
 theintercept.com##.Header-hamburger, .Logo--fixed .Logo-block, .Logo-bg-block, .Post-logo-sticky-container, .Post-logo-sticky:style(position: absolute !important;)
 theintercept.com##.HomeFeature-content-wrapper:style(transform: none !important;)
 theintercept.com##.Homepage-sidemenu, .Post-social--fixed:style(position: absolute !important; top: unset !important;)
