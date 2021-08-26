@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 11:43 2021-08-25
+! Last Modified: 12:18 2021-08-26
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1823,6 +1823,7 @@ chicagobusiness.com,crainscleveland.com,crainsdetroit.com,crainsnewyork.com##.re
 chicagomag.com###reveal-bar:style(position: relative !important; top: 0 !important;)
 chicagotribune.com,nypost.com##.s2nPlayerFrame:style(position: static !important; top: 0 !important; left: 0 !important; visibility: visible !important; transform: none !important;)
 chick-fil-a.com##.header-frame:style(position: absolute !important;)
+childrenshealthdefense.org##.defender-header:style(position: static !important;)
 china-underground.com###wpadminbar, .td-pb-span4 > .wpb_wrapper:style(position: absolute !important;)
 chip.de##.Header--Sticky:style(transform: translate(0,0) !important;)
 chip.de,espn.*,mobile.edweek.org,okta.com,riskiq.com##.Header:style(position: absolute !important;)
@@ -3131,7 +3132,7 @@ fairprice.com.sg###headerWrapper:style(height: 160px !important; box-shadow: non
 fairprice.com.sg##.top_header_section:style(position: static !important; box-shadow: none !important;)
 fairprice.com.sg##body.fix #headerWrapper header:style(display: block !important;)
 fairprice.com.sg##body.fix .logo_section:style(height: 114px !important; padding-top: 40px !important;)
-fakespot.com##.product-show .analysis-section .analysis-details h5, .product-show .reviews-summary h5, .product-show .similar-products h5, .product-show-section2 .analysis-section .analysis-details h5, .product-show-section2 .reviews-summary .section-header-wrapper, .product-show-section2 .reviews-summary h5, .product-show-section2 .sticky-feature:style(position: static !important;)
+fakespot.com##.product-show .analysis-section .analysis-details h5, .product-show .reviews-summary h5, .product-show .similar-products h5, .product-show-section2 .analysis-section .analysis-details h5, .product-show-section2 .reviews-summary .section-header-wrapper, .product-show-section2 .reviews-summary h5, .product-show-section2 .sticky-feature, header:style(position: static !important;)
 falconhospital.com##.breadcrumb-wrapper, .header:style(position: absolute !important;)
 familycircle.com##.component.navigation-test.sticky-nav .main-new:style(position: relative !important;)
 familycircle.com##.scroll-up .component.navigation-test .logo:style(display: block !important;)
