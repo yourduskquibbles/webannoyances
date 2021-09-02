@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 08:35 2021-09-02
+! Last Modified: 08:50 2021-09-02
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -3012,8 +3012,12 @@ eurocupbasketball.com###header-site:style(position: static !important;)
 eurocupbasketball.com###main:style(padding-top: 0 !important;)
 eurogamer.net##.onetrust-pc-dark-filter, #onetrust-banner-sdk
 euronews.com###js-header-sticky, .stick.jsArticleReadingWidget.media__article-reading:style(position: absolute !important;)
+euronews.com##.c-breakingNews:style(position: static !important; height: 3.125rem !important; padding: 0 1rem !important;)
 euronews.com##.js-swiper-button, .swiper-slide-next
-euronews.com##.o-site-header:style(position: static !important; hleft: 0 !important; transform: none !important;)
+euronews.com##.o-header-menu:style(border: solid #d7dadb !important; border-width: 1px 0 0 !important;)
+euronews.com##.o-header-menu__list .list-item__link:style(padding: 1rem .75rem !important;)
+euronews.com##.o-site-header:style(position: static !important; transform: none !important; height: 10rem !important; flex-direction: column !important; justify-content: flex-start !important;)
+euronews.com##.o-site-header__top:style(display: flex !important;)
 euronews.com##.o-site-main:style(margin-top: 0 !important;)
 eurosport.com###header-sharing, #nav, #top:style(position: relative !important; top: 0 !important;)
 eventbrite.com##.is-stuck.clrfix.sticky.sticky-listing-panel.js-sticky-panel.listing-panel:style(position: absolute !important;)
