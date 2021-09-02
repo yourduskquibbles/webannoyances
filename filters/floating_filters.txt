@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 08:25 2021-09-02
+! Last Modified: 08:35 2021-09-02
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -242,6 +242,8 @@ abovethelaw.com##.logo-wrapper.columns:style(position: relative !important; top:
 abovethelaw.com##nav.sites .menu-wrap, nav.sites button:style(position: absolute !important;)
 abovetopsecret.com##nav.fixed:style(position: relative !important;)
 abplive.in###mainNav1, .affix.navbar-sub:style(position: absolute !important; top: 0 !important;)
+absolutetoner.com###content:style(padding-top: 30px !important;)
+absolutetoner.com##.header_bot:style(position: static !important; box-shadow: none !important; border-bottom: none !important;)
 academia.edu##.swp-mobile-get-pdf-footer.js-swp-mobile-get-pdf-footer:style(position: absolute !important;)
 accent-bikes.com##.l-header-wrapper:style(position: absolute !important;)
 accenture.com###block-jumplink:style(position: relative !important; top: 0 !important;)
@@ -3729,6 +3731,7 @@ glassesdirect.co.uk###navigation:style(position: relative !important; border-top
 glassesdirect.co.uk###search-active-filters:style(position: relative !important; top: 0 !important;)
 glassesdirect.co.uk###search-controls:style(position: relative !important;)
 glassesusa.com##.flag-sticky.gjs-header-top.top-strip, .flag-sticky.optimizely-sticky-menu.gjs-header-bottom.bottom-strip, .headerMain__sticky___34mXQ:style(position: absolute !important;)
+global.canon###header:style(position: relative !important; top: 0 !important;)
 globalcitizen.org###nav-issues:style(position: absolute !important; top: 120px !important;)
 globalcitizen.org###secondary:style(position: absolute !important; top: 75px !important;)
 globalcitizen.org##.banner:style(height: 75px !important;)
@@ -7151,6 +7154,8 @@ shoes.com##.floating.sticky-add:style(position: relative !important;)
 shop.advanceautoparts.com##.aap-productspecdetails-desktop__menucontainer:style(position: static !important; padding: 0 !important;)
 shop.advanceautoparts.com##.hidden-xs.aap-main-header:style(position: absolute !important;)
 shop.ring.com##.on.false.grid_sticky_nav
+shop.usa.canon.com###headerRow1:style(position: relative !important; top: 25px !important;)
+shop.usa.canon.com###headerRow3:style(position: relative !important;)
 shopdisney.com##.nav__container:style(position: relative !important; top: 0 !important; transform: translateY(0) !important; border-bottom: 1px solid rgba(0,0,0,.1) !important; box-shadow: none !important;)
 shoplology.com##.affix.toggle_menu_right.columns_padding_0.table_section.affix-header.header_white.page_header:style(position: absolute !important; top: 0 !important;)
 shouldiblockit.com,shouldiremoveit.com###nav-wrap:style(position: absolute !important;)
@@ -8423,6 +8428,11 @@ tomsguide.com,tomshardware.*##.sticky-nav.left-rail-nav:style(position: absolute
 tomsguide.com,tomshardware.*##.u-scrollButtons
 tomshardware.*##.docked-buttons:style(position: relative !important; top: 0 !important;)
 tomtop.com##.fix_head.w.m_head:style(position: absolute !important;)
+tonerprice.com##.header.sticky .top-left-logo, #header.page-header .header.content:style(margin-top: 0 !important;)
+tonerprice.com##.panel.wrapper .panel.header .top-left:style(display: block !important;)
+tonerprice.com##.wrapper.panel:style(position: static !important;)
+tonerprice.com##header.page-header .panel.wrapper .header.sticky .top-left-logo img:style(width: auto !important; margin-top: 0 !important;)
+tonerprice.com##header.page-header .panel.wrapper .panel.header:style(height: 71px !important;)
 tonic.vice.com##.site-header__logo path:style(fill: #e42451 !important;)
 tonic.vice.com##.site-header__logo:style(width: 127px !important;)
 toofab.com##.affix.header-site-navbar:style(position: absolute !important;)
@@ -9399,6 +9409,8 @@ www.google.com##.l39u4d[style*="width:"]:style(top: 0 !important; height: 100vh 
 www.google.com##header.Lj9fsd:style(position: absolute !important; top: 10px !important; box-shadow: none !important;)
 www.google.com##header[id="gb"][role="banner"]:style(position: absolute !important; box-shadow: none !important;)
 www.intuit.com##.b01-navigation:style(position: relative !important;)
+www.usa.canon.com###siteControl:style(border-bottom: 0px none !important;)
+www.usa.canon.com##.breadcrumbs, .nav-ribbon:style(display: block !important; height: auto !important; padding: 0.9375rem 0 !important; )
 www.vice.com##.site-header .site-header__channel-slider-trigger__button path, .site-header .site-header__channel-slider-trigger__text path, .site-header .site-header__nav-trigger path, .site-header .site-header__social-icon path, .site-header .site-header__link path, .site-header__logo path:style(fill: #000000 !important;)
 www.vice.com##.site-header__logo:style(width: 127px !important;)
 www.yahoo.com###closebtn, #close-modal-btn:style(position: absolute !important; top: 30px !important;)
