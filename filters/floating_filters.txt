@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 09:00 2021-09-02
+! Last Modified: 09:40 2021-09-02
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2750,6 +2750,9 @@ dribbble.com##.floating-sidebar:style(position: relative !important;)
 drivereasy.com##.share-bar, .sidebar-inner1:style(position: absolute !important;)
 drivereasy.com##.sticky.nav2
 drivereasy.com##html:style(opacity: 1 !important;)
+driving.ca##.control-center
+driving.ca##.featured-video .player-wrapper:style(position: absolute !important; top: 0 !important; left: 0 !important; right: 0 !important; width: 100% !important; height: 100% !important; max-width: 100% !important; max-height: 100% !important; animation: none !important;)
+driving.ca##.header, .sticky--header:style(position: static !important;)
 droid-life.com##.site__header, .site__priNav--sections__scroller:style(position: relative !important;)
 droid-life.com##.site__priNav--sections:style(position: absolute !important;)
 dropbox.com###designstudio-button
