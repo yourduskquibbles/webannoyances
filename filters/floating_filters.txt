@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 09:40 2021-09-02
+! Last Modified: 08:26 2021-09-07
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -3296,9 +3296,8 @@ firstwefeast.com##.complex-navbar--alternatives .navbar__section:style(transform
 firstwefeast.com,inforcecomputing.com,inverse.com,m.huffpost.com,prosperousamerica.org,safeway.com,sciencing.com,snapchat.com,southernkitchen.com,telegraaf.nl##.header-container:style(position: absolute !important;)
 fiskars.com###header:style(position: absolute !important; transform: translateY(0) !important;)
 fitbit.com##.fitbit-c-background__auto, .stuck-top.sticky-nav.store-sticky-nav:style(position: relative !important;)
-fitbit.com##.fitbit-c__filters-wrapper, .fitbit-c__nav-menu-wrapper, .navbar:style(position: relative !important; top: 75px !important;)
-fitbit.com##.fitbit-c__filters-wrapper[style^="position: relative; top:"],[style^="position: fixed; top:"], .fitbit-sticky.cinematic-video.fitbit-c__sticky-nav-wrapper.fitbit-c__nav-menu-wrapper, .navbar-light.navbar-expand-lg.navbar.fitbit-c__global-header, .fixed.header-main:style(position: relative !important; top: 0 !important;)
-fitbit.com##.fitbit-c__global-header:style(position: relative !important; top: 75px !important; height: 75px !important; background-color: rgba(0, 0, 0, 0) !important; box-shadow: none !important; transform: translate(-50%, 0) !important;)
+fitbit.com##.fitbit-c__filters-wrapper[style^="position: relative; top:"],[style^="position: fixed; top:"], .fitbit-sticky.cinematic-video.fitbit-c__sticky-nav-wrapper.fitbit-c__nav-menu-wrapper, .fixed.header-main:style(position: relative !important; top: 0 !important;)
+fitbit.com##.fitbit-c__global-header:style(position: absolute !important; background-color: rgba(0,0,0,0) !important; box-shadow: none !important;)
 fitbit.com##.fitbit-c__nav-menu-wrapper .fitbit-c__menu-wrapper .fitbit-nav-top .menu a, .global-header__navigation-primary:style(color: #002A3A !important;)
 fitbit.com##.fitbit-c__nav-menu-wrapper .fitbit-c__sticky-nav.sticky:style(transform: translate(0,0) !important;)
 fitbit.com##.fitbit-c__nav-menu-wrapper .fitbit-c__sticky-nav:style(background-color: #fff !important;)
