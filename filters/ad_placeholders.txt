@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Ad Placeholder Filters
-! Last Modified: 10:02 2021-09-08
+! Last Modified: 10:10 2021-09-08
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for empty advertising placeholders.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -578,7 +578,8 @@ telemundo.com##.__hub--ad, .ad--MAIN, .ad--MULTI, .ad-container, .banner-sticky-
 texasmonthly.com##.article-ad-wrapper, .article-end__section, .close-mab, .promo-in-body, .promo-inline, .promo-topper, .promo__sticky-banner
 texastribune.org##.col_adunit300x250, .site_ad--gray, .site_ad--wrapper
 the-sun.com,thescottishsun.co.uk,thesun.co.uk,thesun.ie###articlempu, .billboard, .dfp-ad-container, .dpa-variant-sidebar.digital-personalisation
-theatlantic.com##.injector-promo, .js-inject-promo.injector-promo-wrapper--article-top
+theatlantic.com###paywall, .injector-promo, .js-inject-promo.injector-promo-wrapper--article-top
+theatlantic.com##body[class*="Gate"]:style(overflow: auto !important;)
 theaustralian.com.au###header-ads
 theawl.com###ad-top
 thebalance.com,thebalancecareers.com,thebalanceeveryday.com,thebalancesmb.com###mntl-leaderboard-spacer_1-0
