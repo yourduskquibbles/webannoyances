@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 08:26 2021-09-07
+! Last Modified: 09:38 2021-09-08
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2553,6 +2553,7 @@ diaperdekor.com###menuBar:style(position: relative !important;)
 diaperdekor.com##.clearfix.top-fixed.color-bar.container-fluid:style(position: absolute !important;)
 diasporafoundation.org##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute !important;)
 dickssportinggoods.com##.sticky-atc-container.no-gutters.row
+dictionary.com,thesaurus.com##.article .article__nav ul:style(position: static !important; padding: 0 0 10px !important; box-shadow: none !important; background-color: transparent !important; text-align: start !important; transform: translateY(0) !important;)
 dictionary.com,thesaurus.com##.header, [data-feedback-link="true"]:style(position: absolute !important;)
 dictionary.com,thesaurus.com##.master-header-container:upward(1):style(position: relative !important;)
 dictionary.com,thesaurus.com##.otd-sidebar, [data-testid="site-header-container"]:style(position: static !important;)
