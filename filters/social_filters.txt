@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Social Filters
-! Last Modified: 08:50 2021-09-02
+! Last Modified: 13:03 2021-09-14
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for social networking & sharing - Remove third party social media share sections, icons & other cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -86,6 +86,8 @@ aol.co.uk,aol.com##.gmod.m-footer__follow-aol
 ap.org###block-ap-misc-ap-social-media
 apartmenttherapy.com##.ActionButton--facebook.ActionButton--standard.ActionButton, .IconLink--facebook.IconLink, .IconLink--instagram.IconLink, .IconLink--pinterest.IconLink, .IconLink--youtube.IconLink, .PostPicture__pinterest-button, .js-custom-pinterest-button.ActionButton--pinterest.ActionButton--standard.ActionButton, .ActionButtonGroup--column.ActionButtonGroup
 apnews.com##.SocialShare a[href^="https://facebook.com"], .footerColumn.followFooter, .social-caption
+apple.com##.sharesheet .social-option:nth-of-type(3):style(margin-left: 0 !important;)
+apple.com##.social-icon.icon-facebook.icon, .social-icon.icon-twitter.icon:upward(1)
 appleinsider.com###article-social-head
 appuals.com###arqam_counter-widget-2
 aps.org###aps-share-widget
