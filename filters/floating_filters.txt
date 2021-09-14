@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 11:13 2021-09-14
+! Last Modified: 12:53 2021-09-14
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2025,7 +2025,7 @@ cocoscope.com##header.fixed-header, nav.navbar:style(position: absolute !importa
 code.videolan.org,salsa.debian.org##.navbar, .nav-sidebar:style(position: absolute !important;)
 code.visualstudio.com###docs-subnavbar, .docs-navbar-container:style(position: static !important;)
 codecov.io##.menu.fixed.desktop.pointing.inverted.large.ui:style(position: absolute !important;)
-codedump.io##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute !important;)
+codedump.io,cve.report,diasporafoundation.org,livestreamfails.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute !important;)
 codementor.io##.fade-in.article__engager--fixed.offset.article__engager, .headroom:style(position: absolute !important;)
 codementor.io##[data-e-selector="sign-up-cta"]:style(background: none !important; border: 0 !important; font-weight: normal !important;)
 codementor.io##header:style(position: absolute !important; box-shadow: none !important; background: transparent !important;)
@@ -2556,7 +2556,6 @@ diag-auto.site,foodexsport.com,mygoodstream.pw##.media-control[data-media-contro
 diag-auto.site,mygoodstream.pw,sportsnights.*,sportsstats.*,steamplay.*,streamp1ay.*,streamplay.*,streanplay.*,worldstream.xyz##[data-watermark-top-right], [data-watermark]
 diaperdekor.com###menuBar:style(position: relative !important;)
 diaperdekor.com##.clearfix.top-fixed.color-bar.container-fluid:style(position: absolute !important;)
-diasporafoundation.org##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute !important;)
 dickssportinggoods.com##.sticky-atc-container.no-gutters.row
 dictionary.com,thesaurus.com##.article .article__nav ul:style(position: static !important; padding: 0 0 10px !important; box-shadow: none !important; background-color: transparent !important; text-align: start !important; transform: translateY(0) !important;)
 dictionary.com,thesaurus.com##.header, [data-feedback-link="true"]:style(position: absolute !important;)
@@ -3935,6 +3934,8 @@ halfwheel.com###navigation_bar:style(position: absolute !important;)
 halfwheel.com##.infinite-fixed-navigation.infinite-style-fixed, .infinite-fixed-navigation.infinite-style-slide:style(position: absolute !important; height: 80px !important; top: 35.5px !important; bottom: 0 !important;)
 halfwheel.com##.infinite-sticky-menu-placeholder:style(height: 79px !important;)
 halfwheel.com##.mean-bar
+halfwheel.com##header:style(position: relative !important;)
+halfwheel.com##main.standard:style(margin-top: 0 !important;)
 hannaandersson.com##.clearfix.js-header.site-header:style(position: relative !important;)
 hannity.com##.affix.full.navTopadContainer:style(position: relative !important; top: 0 !important;)
 harborfreight.com##[class^="product-bar__wrap"]
@@ -5023,7 +5024,6 @@ liveoverflow.com##.c-header:style(position: absolute !important; transform: tran
 livescience.com,nysenewsguru.com,smithsonianchannel.com###sticky-header:style(position: relative !important; top: 0 !important;)
 livestream.com##.js-category_section.category_section:style(position: absolute !important;)
 livestream.com##.site_header:style(position: relative !important; box-shadow: none !important;)
-livestreamfails.com##.navbar-fixed-top.navbar-inverse.navbar:style(position: absolute !important;)
 livestrong.com##.js-jwplayer_container.jwplayer__container, .js-right_rail_ad_wrapper.right_rail_ad_wrapper.js-article_nav.article_nav, .top_header__row1:style(position: relative !important;)
 livestrong.com##.js-top_header.top_header:style(position: relative !important; display: block !important; opacity: 1 !important;)
 livingspaces.com##.bcFloat:style(position: absolute !important;)
@@ -5666,6 +5666,8 @@ nasdaq.com##.quote-page-jumpnav__options-list:style(padding: 1.4375rem 0 !import
 nasdaq.com##.quote-page-jumpnav__tickers:style(position: absolute !important; opacity: 0 !important; visibility: hidden !important; pointer-events: none !important;)
 natashaskitchen.com###header-a:style(position: relative !important; top: -50px !important;)
 nathancunn.com##.navbar-custom.navbar-fixed-top.navbar-default.navbar, .top-nav-short.navbar-custom.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
+nation.foxnews.com##.no-js-fox-nation-square:style(margin-top: 16px !important;)
+nation.foxnews.com##header:style(position: absolute !important;)
 nationaldefensemagazine.org##.logo-hold .logo > span:style(display: inline-block !important;)
 nationaldefensemagazine.org##.logo-hold .logo img:style(margin-top: -55px !important; width: 229px !important;)
 nationaldefensemagazine.org##.logo-hold .logo:style(vertical-align: top !important;)
