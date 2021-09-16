@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 11:06 2021-09-16
+! Last Modified: 11:49 2021-09-16
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of other page covering elements. Cookie/GDPR notices will be removed in Cookie Filters sublist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -985,7 +985,9 @@ tsarizm.com##.wbounce-modal
 tucson.com##.fc-dialog-container.fc-root, .fc-dialog-overlay
 tvstoreonline.com##[class*="Modal__ModalPortalStyled"]
 twitter.com##.privacy-change-notice.Banner--aboveNav.Banner
+twitter.com##[data-testid="sheetDialog"] span:has-text(/Reply to join the conversation/):upward(8)
 twitter.com##div[class="r-1d2f490 r-u8s1d r-zchlnj r-ipm5af r-184en5c"][style=""] a[href="/i/flow/signup"][role="button"][data-testid="signup"]:upward(7)
+twitter.com##html[style*="overflow: hidden;"]:style(overflow-y: scroll !important; overscroll-behavior-y: auto !important; margin-right: 0 !important;)
 ulta.com###js-stickyEmailSignUpFooter
 undark.org##.mailmunch-overlay, .mailmunch-popover
 unitedhomeexperts.com###popup-container

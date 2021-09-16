@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 11:06 2021-09-16
+! Last Modified: 11:49 2021-09-16
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -8655,6 +8655,8 @@ twitter.com##.is-full.twtr-main.u01, .p01, .LiveEventPage-mediaContainer, .rn-13
 twitter.com##.r-1hycxz.r-zchlnj.r-1xcajam.r-xaggoz.r-1mf7evn.r-117bsoe.r-y3da5r.r-1p0dtai.css-1dbjc4n:style(position: absolute !important; right: unset !important; bottom: 0 !important; width: 100% !important;max-width: 100% !important; margin-bottom: 0 !important; box-shadow: none !important;)
 twitter.com##.r-1hycxz.r-zchlnj.r-1xcajam.r-xaggoz.r-1mf7evn.r-y3da5r.r-1p0dtai.css-1dbjc4n:style(position: absolute !important; margin: 0 !important; width: 100% !important; max-width: unset !important;)
 twitter.com##[data-testid="sidebarColumn"] .r-1xcajam, [data-testid="sidebarColumn"] .r-gtdqiz:style(position: static !important; top: 0 !important; bottom: unset !important)
+twitter.com##div[style=""] [aria-label*="Follow"][role="button"], div[style="height: auto; opacity: 1; will-change: opacity, height;"] [aria-label*="Follow"][role="button"], div[style="height: 36px; opacity: 1; will-change: opacity, height; transition-duration: 100ms;"] [aria-label*="Follow"][role="button"]:matches-css(min-height: 36px):upward(4)
+twitter.com##span:has-text(/Don’t miss what’s happening/):upward(7)
 typingclub.com###nav:style(position: absolute !important; background-color: transparent !important;)
 ua-magazine.com##.move.sticky.menu_container:style(position: relative !important; top: 0 !important;)
 uber.com##._style_3caARx, .cmln-header, .flex-hor-center.flex.z-20.position--fixed.top-bar-wrapper:style(position: absolute !important;)
