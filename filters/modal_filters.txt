@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 08:34 2021-09-15
+! Last Modified: 09:41 2021-09-16
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of other page covering elements. Cookie/GDPR notices will be removed in Cookie Filters sublist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -152,6 +152,7 @@ blacktel.io##.top-info
 blakkpepper.com###ppsPopupBgOverlay
 blindmanspuff.com##.optin-monster-saas-overlay
 blog.checklyhq.com##.progress-container
+blog.davey.com##.opened.state-is-ccpa.collection-overlay
 blog.feedspot.com###exitpopup, #instantpopup, #wp_subscribe_popup_clone
 blog.petrockblock.com###wpca-bar
 bloomberg.com###graphics-paywall-overlay, #paywall-banner, .navi-push-notification-prompt
@@ -451,6 +452,7 @@ govtrack.us##body:style(overflow: auto !important;)
 gracobaby.com###InteristialPopUp, .email-modal-backdrop
 grandst.com###logged_out_wall, #site_overlay
 greencarreports.com###postNav
+greenviewfertilizer.com###email-pop
 groupon.com###subscribe_modal_container
 grrrgraphics.com##.tl-state-root
 grubstreet.com,nymag.com,thecut.com,vulture.com##.ad-splash
@@ -614,6 +616,8 @@ metacafe.com###shadow, .OUTBRAIN
 metacritic.com###popup_newslettter
 mic.com##.modal-prompt-half-page, .new-user-modal
 michaels.com##.modal-body
+milorganite.com###admodal
+milorganite.com,revouninstaller.com##body.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 mint.intuit.com##.dPogsT.Backdrop__Wrapper-qntnqr-0
 mint.intuit.com##[aria-labelledby="idsModalHeader1"]:upward(2)
 minted.com##[class$="-lessThan"]
@@ -802,7 +806,6 @@ reuters.com###mcxInvitationModal
 reviewmeta.com###bottom-consent-bar, #terms_modal
 revisionisthistory.com###mail
 revouninstaller.com###popupModal, .modal-backdrop
-revouninstaller.com##body.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 rewire.news###austin-optin, .austin-background
 rferl.org##.slide-in-wg.media-block-wrap
 rocketleague.com###privmessage
