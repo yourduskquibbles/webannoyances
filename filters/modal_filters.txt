@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 11:49 2021-09-16
+! Last Modified: 12:19 2021-09-16
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of other page covering elements. Cookie/GDPR notices will be removed in Cookie Filters sublist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -754,6 +754,8 @@ pokernews.com##.subscribe.usamapSubscribePopup
 politicalstorm.com##.link-overlay
 popculture.com###newsletterModal
 popsugar.com###policy-modal-banner, .modal-email-widget
+popularmechanics.com##body.no-scroll:style(overflow: auto !important;)
+popularmechanics.com##journey-modal-newsletter[data-template-id="pop-modal-newsletter"] 
 popularwoodworking.com##.pagnav-wrapper
 post-gazette.com##.pgevoke-backtotop
 potbelly.com##.general-alert-modal, .global-modal, .global-modal-background
