@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 09:19 2021-09-16
+! Last Modified: 09:24 2021-09-16
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -8375,6 +8375,8 @@ time.com###header:style(position: absolute !important; max-width: 100% !importan
 time.com##.header-recirc:style(position: relative !important; top: 0 !important; transform: translate3d(0,0,0) !important;)
 time.com##.homepage-nav nav.main.homepage-scrolled .container.primary .logo
 time.com##.left-rail-topper, .show.ssv3__nav, .top-banner:style(position: relative !important; top: 0 !important;)
+time.com##.template-collection .collection-page .collection-navigation:style(position: static !important; margin-top: 16px !important; transform: translate3d(0,0,0) !important;)
+time.com##.template-collection .collection-page .collection-sections:style(top: 0 !important;)
 time.com##[data-title="Related Stories"]:style(position: static !important;)
 time.com##nav.main .container.above, nav.main .container.primary:style(height: 56px !important;)
 time.com##nav.main:style(position: absolute !important;)
