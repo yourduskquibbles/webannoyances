@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 09:41 2021-09-16
+! Last Modified: 11:02 2021-09-16
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -504,6 +504,7 @@ allure.com,architecturaldigest.com,bonappetit.com,epicurious.com,glamour.com,gq.
 ally.com###nav-desktop:style(position: relative !important;)
 ally.com##.info-bar:style(position: relative !important; top: 0 !important; background-color: #F2F2F2 !important;)
 ally.com##.mini-header, .site-header, .step-tabs, .sticky-nav:style(position: relative !important; top: 0 !important;)
+alphr.com###alphr_article_desktop_pushdown-pushdown-cls + .off-canvas-wrap:style(top: 0 !important;)
 alphr.com###header-group-inner, #header-group, .page-header:style(position: relative !important; top: 0 !important;)
 alt-codes.net##.shadow:style(position: absolute !important;)
 altaonline.com###df-sticky-nav
@@ -1297,7 +1298,7 @@ blog.google##.uni-google-logo.uni-header-row, body > main:style(margin-top: 0 !i
 blog.google##.uni-google-logo:style(visibility: visible !important; opacity: 1 !important;)
 blog.google##.uni-header-content:style(position, .uni-initialized.uni-header-content: relative !important; top: 0 !important;)
 blog.google##.uni-header:style(position: absolute !important; transform: translateY(0) !important;)
-blog.google,cbsnews.com,cnbc.com,creditcards.chase.com,federalnewsnetwork.com,fedex.com,giftcardgranny.com,glamour.com,gq.com,journals.sagepub.com,just-auto.com,just-drinks.com,just-food.com,just-style.com,lowes.com,newrepublic.com,parenting.com,pitchfork.com,powerhungry.com,ruralsprout.com,taxact.com,thebalance.com,thebalancecareers.com,thebalanceeveryday.com,thebalancesmb.com,tiktok.com,washingtonpost.com,whoisxmlapi.com,wired.com##html:style(overflow-x: hidden !important;)
+blog.google,cbsnews.com,cnbc.com,creditcards.chase.com,dell.com,federalnewsnetwork.com,fedex.com,giftcardgranny.com,glamour.com,gq.com,journals.sagepub.com,just-auto.com,just-drinks.com,just-food.com,just-style.com,lowes.com,newrepublic.com,parenting.com,pitchfork.com,powerhungry.com,ruralsprout.com,taxact.com,thebalance.com,thebalancecareers.com,thebalanceeveryday.com,thebalancesmb.com,tiktok.com,washingtonpost.com,whoisxmlapi.com,wired.com##html:style(overflow-x: hidden !important;)
 blog.intercom.com##.run-less__nav:style(position: absolute !important;)
 blog.leavemealone.app,nullsweep.com,retool.com##.floating-active.floating-header
 blog.lyft.com##.page-header, .tier-one:style(position: absolute !important;)
@@ -2101,6 +2102,7 @@ community.broadcom.com###NAV:style(position: relative !important;)
 community.broadcom.com##.stickyNav-filler
 community.jivesoftware.com###j-compact-header:style(position: absolute !important;)
 community.jivesoftware.com###j-cust-head:style(visibility: visible !important; transform: none !important;)
+community.microfocus.com,dell.com##.lia-component-common-widget-scroll-to
 community.spotify.com##.stuck.navbar-bottom:style(position: absolute !important;)
 community.t-mobile.com###insidedTmoUNAV:style(position: static !important;)
 community.verizonwireless.com##.li-common-scroll-to-wrapper
@@ -2446,7 +2448,7 @@ delishably.com###header_wrap:style(position: relative !important; top: 0 !import
 delishably.com###maven_sidebar:style(position: absolute !important;)
 delishably.com###mod_new11:style(position: static !important;)
 dell.com###accessories-category-tiles, #affix-scroll-nav:style(position: static !important;)
-dell.com###contact-drawer:style(position: absolute !important;)
+dell.com###contact-drawer, #lia-body.lia-body .lia-quilt.lia-top-quilt:not(.lia-quilt-category-page-landing) .ask-question-banner-wrapper, #lia-body.lia-body .lia-quilt.lia-top-quilt:not(.lia-quilt-category-page-landing) .ask-question-widget-button, .hidden-xs.d-flex.d-none.contact-slider:style(position: absolute !important;)
 dell.com###middle-content:style(padding-top: 0 !important;)
 deloitte.com##.stuck.article-progress-bg:style(position: relative !important; top: 0 !important;)
 deloitte.com##.stuck.article-sections:style(position: relative !important;)
@@ -3621,6 +3623,8 @@ gcits.com##.logo a, .logo img:style(max-height: 88px !important;)
 gcorelabs.com##.header_bl:style(position: absolute !important;)
 gdeuslugi.ru##.fixed.top-menu:style(position: absolute !important;)
 gearbest.com##.siteHeader_midBar-fixed.siteHeader_midBar:style(position: absolute !important;)
+gearpatrol.com##.nav-placeholder:style(position: absolute !important;)
+gearpatrol.com##.nav:style(position: static !important;)
 geek.com###gksticky, .fixed.main-header:style(position: relative !important; top: 0 !important;)
 geekdad.com##.is_stuck.responsive-grid.grid-fluid-12-80-30.wrapper-fixed-grid.wrapper-fluid.wrapper:style(position: relative !important; top: 0 !important;)
 geekdashboard.com##.nav-btm:style(position: relative !important;)
