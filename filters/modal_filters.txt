@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 09:54 2021-09-17
+! Last Modified: 14:06 2021-09-17
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of other page covering elements. Cookie/GDPR notices will be removed in Cookie Filters sublist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1073,7 +1073,7 @@ yodalearning.com##w-div:has([role^="dialog"])
 youtube.com###upsell-dialog-text > a[href*="sign"]:upward(body > * > *)
 youtube.com##.opened:not(.ytcp-bulk-actions):remove()
 youtube.com##ytd-popup-container > tp-yt-paper-dialog > ytd-mealbar-promo-renderer:has([href*="tv.youtube.com"])
-youtube.com##ytd-popup-container > tp-yt-paper-dialog > ytd-mealbar-promo-renderer:has-text(/YouTube TV/)
+youtube.com##ytd-popup-container > tp-yt-paper-dialog > ytd-mealbar-promo-renderer:has-text(/Claim Offer|Not Now|YouTube TV/)
 youtube.com##ytd-popup-container paper-dialog:has-text(/Changes to YouTube’s Terms of Service|Check out your new Library|Get access to exclusive perks|Get YouTube without the ads|How is your experience|How is YouTube today|Our Terms of Service have been updated|Rate your ads|Try it free|Try the YouTube Kids app|What is your biggest complaint|Which problems are you experiencing|You're signed out of YouTube|YouTube TV/)
 youtube.com##ytd-popup-container yt-bubble-hint-renderer:has-text(/Get access to exclusive perks/)
 youtube.com##ytd-popup-container yt-tooltip-renderer:has-text(/Choose what to play next|Join this channel and unlock/)
