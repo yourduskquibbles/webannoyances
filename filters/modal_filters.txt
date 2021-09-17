@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 12:19 2021-09-16
+! Last Modified: 09:54 2021-09-17
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of other page covering elements. Cookie/GDPR notices will be removed in Cookie Filters sublist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -268,7 +268,7 @@ crainsdetroit.com##.QSIInfoBar
 crateandbarrel.com##.email-signup, .email-signup-modal-overlay
 crikey.com.au###freetrial_slideup
 crimeandinvestigationnetwork.com###PopNotice
-cruisecritic.com,razer.com##body.modal-open:style(overflow-x: hidden !important; overflow-y: scroll !important; padding-right: 0 !important;)
+cruisecritic.com,razer.com,thompsoncigar.com##body.modal-open:style(overflow-x: hidden !important; overflow-y: scroll !important; padding-right: 0 !important;)
 crutchfield.com###emailSignupOverlay
 cryptodisrupt.com,gcaptain.com,thecollegefix.com,watchpro.com##.wph-modal
 culinarydepotinc.com##.klaviyo-form
@@ -406,6 +406,7 @@ forums.att.com##.scrollBubble
 forums.xfinity.com##.lia-panel-dialog-modal-simple
 fox13news.com##.mobile-progress, .mobile-up-next
 fox32chicago.com,realclearbooks.com,realcleardefense.com,realcleareducation.com,realclearenergy.org,realclearfuture.com,realclearhealth.com,realclearhistory.com,realclearinvestigations.com,realclearmarkets.com,realclearpolitics.com,realclearpublicaffairs.com,realclearreligion.org,realclearscience.com,realclearsports.com,realclearworld.com,simonmccade.com##.progress-bar
+foxcigar.com##.needsclick[class*="Modal__ModalPortalStyled-sc-"]
 foxglove.org.uk##.sqs-popup-overlay
 foxnews.com###janrainModalOverlay, #toapp, .notification-banner
 fragrancenet.com##.joinCoupSlider, .shopSpreeBadge
@@ -482,6 +483,7 @@ herosports.com###poh
 hetzner.com###dpi-banner
 hired.com##.on-top.xs-12of12.box--black.navbar.position-fixed.layout--center
 historyextra.com##.progress-bar-container
+holts.com##.homepage-overlay
 homeadvisor.com###FloatyBar
 homebrewtalk.com###join_hbt_pop_up
 homedepot.com###fancybox-loading, #lpProInvite
@@ -955,6 +957,7 @@ thewonderweeks.com##.pop-up
 thewrap.com##.newsletter-popup, .wk-site-overlay
 thinkful.com##.mql-slide-out
 thinkglobalhealth.org##.show.g-header--sticky.g-header
+thompsoncigar.com##.show.fade.modalpop, .show.fade.modal-backdrop
 thomsonreuters.com##.tr-DismissibleBanner
 thrillist.com###legal-notice, #popoutContainer, #popup-signup, #vortex, #vortex-overlay
 thriveglobal.com##.notificationBar__visible--2U7sn.notificationBar__wrapper--378uN
