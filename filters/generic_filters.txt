@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Generic Filters
-! Last Modified: 10:44 2021-09-15
+! Last Modified: 16:00 2021-09-21
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for generic cosmetic filters - Cosmetically remove common annoyances found on multiple domains typically provided in the social, modal and newsletter Web Annoyances Ultralist sublists. Also includes cookie & gdpr warning elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2064,7 +2064,7 @@ flipboard.com#@#[href*="share.flipboard.com"]
 forums.whirlpool.net.au#@#.buttonbar
 foxbusiness.com,foxnews.com#@#.article-social
 foxbusiness.com,foxnews.com,newengland.com#@#.social-icons
-gcnlive.com#@##backtotop
+gcnlive.com,guildwars2.com#@##backtotop:not(html):not(body)
 gdeposylka.ru#@#.fa-facebook-f
 gdeposylka.ru#@#.fa-google
 github.com#@#.social-count
@@ -2115,5 +2115,5 @@ what.thedailywtf.com#@#.post-tools
 wikihow.com#@##actionbar
 wsj.com#@##share-target
 yahoo.com#@#.scroll-indicator
-ysl.com#@##backToTop
+ysl.com#@##backToTop:not(html):not(body)
 zdnet.com#@#.share-bar-wrapper
