@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 15:22 2021-09-21
+! Last Modified: 15:50 2021-09-21
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -4082,10 +4082,10 @@ hollywoodreporter.com##.site-header__brand:style(height: 47px !important;)
 hollywoodreporter.com##.site-header__progress, .sticky-wrapper:style(position: absolute !important;)
 home.nflbite.com##.col-md-7 > div:style(position: static !important;)
 homedepot.com###menuScroll, #sticky-nav, .stickynav__wrapper
-homedepot.com##.Header3, .productmarquee__media:style(position: static !important;)
+homedepot.com##.Header3:style(position: relative !important;)
 homedepot.com##.LPMoverlay.LPMcontainer, .QSIFeedBackLink:style(position: absolute !important;)
 homedepot.com##.Mask:style(position: absolute !important; top: 139px !important;)
-homedepot.com##.media__wrapper:style(position: static !important;)
+homedepot.com##.media__wrapper, .productmarquee__media:style(position: static !important;)
 homelight.com##.section--no-embossed-border.agent-quiz.section:style(position: static !important; top: 0 !important;)
 homeownershub.com##.navbar-custom.logo.navbar-fixed-top.navbar-default.navbar:style(position: absolute !important;)
 homernews.com,peninsulaclarion.com##.top-bar-container:style(position: relative !important;)
