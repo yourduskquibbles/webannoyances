@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 15:50 2021-09-21
+! Last Modified: 15:54 2021-09-21
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1764,7 +1764,9 @@ cdapress.com##.fixed.sticky.contain-to-grid:style(position: relative !important;
 ceb.com##.stick.header-menu:style(position: relative !important; top: 0 !important;)
 cebglobal.com##.global-nav, .onscroll.secondary-nav:style(position: relative !important; top: 0 !important;)
 celebritynetworth.com###cnwAndroidBanner, #cnw_scroller, #content_tab_switcher:style(position: relative !important; top: 0 !important;)
+cell.com###brandingRow:style(display: block !important;)
 cell.com###fixedPane, .mainTabs.tab-nav:style(position: static !important;)
+cell.com##.article-tools__wrapper
 cell.com##.left-side-nav:style(position: absolute !important; top: 0 !important;)
 cell.com##.tab-content:style(padding-top: 0 !important;)
 cellularinsights.com##.canvas:style(padding-top: 0 !important;)
