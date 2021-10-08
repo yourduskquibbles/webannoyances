@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Social Filters
-! Last Modified: 11:36 2021-09-28
+! Last Modified: 10:56 2021-10-08
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for social networking & sharing - Remove third party social media share sections, icons & other cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -114,8 +114,9 @@ avclub.com,clickhole.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,jezeb
 avclub.com,clickhole.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,jezebel.com,kinja.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##a[data-ga*="Share bar"][href*="facebook.com/sharer.php?"]:upward(2)
 aviationpros.com##.item > div.element:nth-of-type(4)
 avsforum.com###vbseo-likes, .icon-of-facebook.dispatcher-fbconnect-login.ilink, .item-social.item
-axios.com##.ShareLink__icon--2ToYo, .SocialIcons__button--_Re2H, .is-active.stream-social-cta, .sidebar__follow, .widget__sharebar
+axios.com##.ShareLink__icon--2ToYo, .SocialIcons__button--_Re2H, .is-active.stream-social-cta, .react-share__ShareButton[aria-label="facebook"], .react-share__ShareButton[aria-label="linkedin"], .react-share__ShareButton[aria-label="twitter"], .sidebar__follow, .widget__sharebar
 axios.com##.amp-social-share-email, .amp-social-share-facebook, .amp-social-share-linkedin, .amp-social-share-twitter:upward(1)
+axios.com##.space-x-4 > :not([hidden]) ~ :not([hidden]):style(margin-left: 0 !important;)
 azcentral.com##.clearfix.lf-social-bookmarks, .inline-share-tools, .longform-inline-share-module
 babycenter.com##.bottomShare, .topShareBar, .topSliceShare
 babygaga.com,cbr.com,hotcars.com,moms.com,screenrant.com,thegamer.com,thequiz.com,therichest.com,thesportster.com,thetalko.com,thethings.com,thetravel.com##.w-sharing
