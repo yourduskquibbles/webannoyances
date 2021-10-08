@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 13:05 2021-10-08
+! Last Modified: 14:22 2021-10-08
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of other page covering elements. Cookie/GDPR notices will be removed in Cookie Filters sublist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -170,6 +170,7 @@ bostonglobe.com###continue_button, .incognito-paywall--visible.incognito-paywall
 bostonglobe.com##body:style(position: static !important;)
 bostonglobe.com##div[class$="overflow_hidden"]:style(height: unset !important;)
 botsentinel.com##.rplm-alert, .rplm-overlay
+boulevardmagazine.org##.sqs-popup-overlay
 bourbonblog.com###signupModal
 bps.org.uk##.mc-banner, .mc-modal, .mc-modal-bg
 brandnol.com,parsers.me##.hestia-scroll-to-top
