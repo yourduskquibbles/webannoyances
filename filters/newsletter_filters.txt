@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Newsletter Subscription Filters
-! Last Modified: 09:43 2021-10-04
+! Last Modified: 10:38 2021-10-08
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for newsletter annoyances - Remove newsletter & other subscription cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -68,7 +68,7 @@ atlassian.com##.newsletter
 autoblog.com###rr-newsletter-signup
 avclub.com,clickhole.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,jezebel.com,kinja.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com###newsletterPromoModule, a[href="/newsletter"]:upward(1)
 avclub.com,clickhole.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,jezebel.com,kinja.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.js_newsletter-btn--subscribe, .js_newsletter-form-inline, .js_subscribe
-axios.com##.StoryNewsletterPromo__root--34CRf, .sidebar__newsletter, .topic-newsletter, .SubscriptionHeader__newsletter--p8o4P.Header__header--3d1x-, [class^="StreamCap__promoContainer"], [data-testid="form-wrapper--dynamic--desktop"]
+axios.com##.StoryNewsletterPromo__root--34CRf, .sidebar__newsletter, .topic-newsletter, .SubscriptionHeader__newsletter--p8o4P.Header__header--3d1x-, [class*="RightRailCTA_right-rail-cta"], [class^="StreamCap__promoContainer"], [data-testid="form-wrapper--dynamic--desktop"]
 azcentral.com##.site-masthead-subscribe-link
 babycenter.com##.familyNavAndAdContainer
 ballotpedia.org###email-signup-bar
@@ -424,7 +424,7 @@ nationalreview.com###newsmax-signup-block, .aside-newsletter, .inline-newsletter
 nature.com##.c-site-messages, .nature-briefing
 navytimes.com##.js-pubsub-module, .newsletter
 nbcbayarea.com,nbcchicago.com,nbcdfw.com,nbclosangeles.com,nbcmiami.com,nbcnewyork.com,nbcphiladelphia.com,nbcsandiego.com,nbcwashington.com,necn.com###nbc_newsletter-
-nbcnews.com##.newsletter-signup__container
+nbcnews.com##.newsletter-signup__container, .nl-signup-inline
 nbcsports.com###footer-newsletter-link
 nbcwashington.com##.newsletter-signup-module
 ncronline.org###block-ncr-api-emailmarketing-constant-contact-article-signup
@@ -580,7 +580,7 @@ statesman.com##.newsletter-tease
 stereogum.com##.sm-widget-sailthru
 stgeorgeutah.com###email_popup
 stockfreeimages.com###backgroundPopup2, .dt-popup-signup
-straitstimes.com##.nlsubscribe-block
+straitstimes.com##.nlsubscribe-block, .signup-newsletter
 stratfor.com##.tp-container-inner
 streetsblog.org###signup-in-sidebar-newsletter
 studyfinds.org###revue-embed:upward(2)
@@ -724,6 +724,7 @@ webmd.com###blog-post-nl
 weeklystandard.com###dy_Home_Page_Sub_Promo, #newsletter_sign_up_form, .desktop-sidebar-sub, .fixed-sub-button, .sub-drawer, .subscription-promo
 westworldwatchers.com###blog_subscription-2
 wideopencountry.com,wideopeneats.com,wideopenpets.com,wideopenspaces.com##.execphpwidget
+windowscentral.com##.block-newsletter.block
 wired.com##.cm-subscribe-link-wrapper, .subscribe, .subscribe-panel-component
 wmagazine.com##.component-newsletter-subscribe-wrapper
 wsj.com###cx-article-newsletter-tile, #subscribeNowMediumBar, .WSJTheme__signup_2Ht8gW1wgqoJwLXY6GkF72, .newsletter-inset, .temp-subscribe[href="https://subscribe.wsj.com/hpheaderlink"], .type-InsetNewsletterSignup

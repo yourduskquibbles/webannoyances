@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 12:34 2021-10-06
+! Last Modified: 10:38 2021-10-08
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of other page covering elements. Cookie/GDPR notices will be removed in Cookie Filters sublist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -54,6 +54,7 @@ adamfayed.com##.moOptinForm
 adidas.com,theladders.com###modal-root
 adjust.com,exabeam.com,formlabs.com,mailgun.com,nginx.com,simplethread.com###drift-widget-container
 adriannapapell.com,primaryarms.com,sbs.ox.ac.uk##.popup-content
+advantaira.com##.pum-overlay.pum
 aeon.co##[class*="DriveBannerFooter__BannerWrapper-"], [class*="DriveBannerHeader__BannerWrapper-"], [class*="SupportBannerFooter__BannerWrapper-"], [class*="SupportBannerHeader__BannerWrapper-"]
 aeon.co,wallstreet.org##.fancybox-opened
 aetna.com##.app-download__animator.app-download__container.dismissable__container.dismissable
@@ -211,7 +212,7 @@ childrenshealthdefense.org,chilipeppermadness.com,enmnews.com,fair.org,fnamerica
 chilipeppermadness.com,enmnews.com,fnamerica.com,pressherald.com,rodaleinstitute.org,seeitmarket.com##html.pum-open.pum-open-overlay, html.pum-open.pum-open-overlay.pum-open-fixed .pum-overlay:style(overflow-x: hidden !important; overflow-y: scroll !important; padding-right: 0 !important;)
 chowhound.com##.fb_lightbox-lock:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 chowhound.com##.fr_rr_sticky, .freyja_overlay, .keep_scrolling, .side.to_topmobile
-chowhound.com,rawstory.com,rollingstone.com,variety.com,washingtontimes.com##.fb_lightbox-overlay, .preloaded_lightbox
+chowhound.com,rawstory.com,rollingstone.com,scotts.com,variety.com,washingtontimes.com##.fb_lightbox-overlay, .preloaded_lightbox
 chromeunboxed.com##.hustle-modal
 chubstr.com,contently.com,si.com###progress
 cigarbid.com###sweepstakes-popup
@@ -824,6 +825,7 @@ saksfifthavenue.com###generic-modal, #saksOverlay
 santafenewmexican.com###notification-area
 scholars-stage.org###subscriber-modal
 scientificamerican.com##.mobile-context-nav, .nextStoryFly, .page-context-nav
+scotts.com##body[style*="overflow-y: hidden;"]:style(overflow-y: auto !important; overflow-x: hidden !important;)
 scribd.com###seo_roadblock_lb_new_basic, .modal_wrapper
 scribd.com##body.modal_open:style(overflow-x: hidden !important; overflow-y: scroll !important; padding-right: 0 !important;)
 searchenginejournal.com###cooknote-div, #sej-hello-bar
