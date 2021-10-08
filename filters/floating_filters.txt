@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 10:56 2021-10-08
+! Last Modified: 10:58 2021-10-08
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -896,7 +896,7 @@ axios.com##.active.pinned-up.clone.rebelbar__inner, .rebelbar--fixed.rebelbar:st
 axios.com##.fucLtT:style(position: static !important; height: unset !important;)
 axios.com##.iwacmS:last-of-type:style(margin-left: 0 !important;)
 axios.com##.rebelbar--fake.rebelbar
-axios.com##.site-header__container--scrolled, .site-header__container, header > div.fixed, nav[class*="Nav__StyledNav-sc"]:style(position: absolute !important;)
+axios.com##.site-header__container--scrolled, .site-header__container, header > div.fixed, nav[class*="Nav__StyledNav-sc"], nav[data-cfw-rewrite="nav"]:style(position: absolute !important;)
 axios.com##[class*="StoryComponent__StoryHeader-sc-"]:style(margin-top: 0 !important;)
 axlegeeks.com##.clearfix.mph-wrap:style(position: relative !important; top: 0 !important;)
 azfamily.com##.wn-sticky:style(position: relative !important; top: 0 !important;)
