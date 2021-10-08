@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 14:02 2021-10-08
+! Last Modified: 14:12 2021-10-08
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -4040,6 +4040,9 @@ hillreporter.com###header:style(position: relative !important; top: 0 !important
 hillreporter.com##.pb-stream-pr.pb-device-desktop.pb-stream:style(position: absolute !important;)
 hillwebcreations.com##.l-header:style(position: absolute !important; top: 0 !important; transform: none !important;)
 hillwebcreations.com##.l-subheader:style(transform: none !important;)
+hindawi.com###journal__navigation, #leftSectionMenu, #sectionButton, header:style(position: absolute !important; transform: translateY(0) !important;)
+hindawi.com###rightSectionMenu > div[style*="position"]:style(position: static !important; top: 180px !important;)
+hindawi.com###rightSectionMenu:style(transform: translateY(0) !important;)
 hindustantimes.com###header, .leftNav:style(position: static !important; animation: none !important;)
 hindustantimes.com###header.sticky .container:style(height: 99px !important;)
 hindustantimes.com###header.sticky .logo img:style(width: 100% !important;)
