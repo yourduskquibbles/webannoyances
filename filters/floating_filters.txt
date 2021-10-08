@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 14:24 2021-10-08
+! Last Modified: 14:39 2021-10-08
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1001,10 +1001,10 @@ barrons.com##div[class^="BarronsTheme__slimline-standard_2"] [class^="BarronsThe
 barstoolsports.com##.header-container:style(position: relative !important; top: 0 !important;)
 barstoolsports.com##.sticky:style(position: static !important; transform: none !important;)
 barstoolsports.com##div[style^="padding-bottom:"]:style(padding-bottom: 0 !important;)
-bartamanpatrika.com###footContent:style(position: relative !important; display: block !important;)
-bartamanpatrika.com###footNavBar, .smHeadXN
-bartamanpatrika.com###navFx:style(position: relative !important; top: auto !important;)
-bartamanpatrika.com##.topBarFixed, mybot .profile_div:style(position: absolute !important;)
+bartamanpatrika.com##.bp-footer:style(position: relative !important)
+bartamanpatrika.com##.fixed-bottom, .fixed-top:style(position: absolute !important;)
+bartamanpatrika.com##mybot .profile_div
+bartamanpatrika.com,blog.google,brainly.*,cbsnews.com,cnbc.com,creditcards.chase.com,dell.com,federalnewsnetwork.com,fedex.com,giftcardgranny.com,glamour.com,gq.com,journals.sagepub.com,just-auto.com,just-drinks.com,just-food.com,just-style.com,lowes.com,newrepublic.com,parenting.com,pitchfork.com,powerhungry.com,ruralsprout.com,taxact.com,thebalance.com,thebalancecareers.com,thebalanceeveryday.com,thebalancesmb.com,tiktok.com,washingtonpost.com,whoisxmlapi.com,wired.com##html:style(overflow-x: hidden !important;)
 baseball-reference.com,basketball-reference.com,fbref.com,hockey-reference.com,pro-football-reference.com,sports-reference.com###inner_nav > ul:style(position: relative !important; box-shadow: none !important;)
 baseball-reference.com,basketball-reference.com,fbref.com,hockey-reference.com,pro-football-reference.com,sports-reference.com###inner_nav.frozen:style(padding-top: 0 !important;)
 baseball.theater##.tab-container, header:style(position: absolute !important;)
@@ -1303,7 +1303,6 @@ blog.google##.uni-google-logo.uni-header-row, body > main:style(margin-top: 0 !i
 blog.google##.uni-google-logo:style(visibility: visible !important; opacity: 1 !important;)
 blog.google##.uni-header-content:style(position, .uni-initialized.uni-header-content: relative !important; top: 0 !important;)
 blog.google##.uni-header:style(position: absolute !important; transform: translateY(0) !important;)
-blog.google,brainly.*,cbsnews.com,cnbc.com,creditcards.chase.com,dell.com,federalnewsnetwork.com,fedex.com,giftcardgranny.com,glamour.com,gq.com,journals.sagepub.com,just-auto.com,just-drinks.com,just-food.com,just-style.com,lowes.com,newrepublic.com,parenting.com,pitchfork.com,powerhungry.com,ruralsprout.com,taxact.com,thebalance.com,thebalancecareers.com,thebalanceeveryday.com,thebalancesmb.com,tiktok.com,washingtonpost.com,whoisxmlapi.com,wired.com##html:style(overflow-x: hidden !important;)
 blog.intercom.com##.run-less__nav:style(position: absolute !important;)
 blog.leavemealone.app,nullsweep.com,retool.com##.floating-active.floating-header
 blog.lyft.com##.page-header, .tier-one:style(position: absolute !important;)
