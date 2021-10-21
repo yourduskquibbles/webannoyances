@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 11:32 2021-10-21
+! Last Modified: 11:42 2021-10-21
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -4337,6 +4337,7 @@ imgur.com##.Gallery-EngagementBarContainer, .Gallery-Sidebar .Top:style(position
 imgur.com##.GalleryCover.isFixed .ProfileNavbar-loggedOut .NavbarNotifications, .NavbarNotifications:style(display: inline-flex !important;)
 imgur.com##.GalleryCover.isFixed.NewCover.App-cover:style(box-shadow: none !important; z-index: auto !important; background: transparent !important;)
 imgur.com##.HomeNavbar.Navbar.MoveContainer:style(position: relative !important; top: 0 !important;)
+imgur.com##.Profile .NewCover:style(padding-top: 0 !important;)
 imgur.com##.ProfileNavbar:style(position: static !important; right: unset !important; top: unset !impotant; height: auto !important;)
 imgur.com##.Searchbar:style(position: relative !important; margin-top: 0 !important; transform: translateY(0) !important;)
 imgur.com##.isCollapse.HomeCover.NewCover.App-cover:style(box-shadow: none !important; z-index: auto !important;)
