@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 15:55 2021-10-08
+! Last Modified: 11:32 2021-10-21
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -421,6 +421,7 @@ ajc.com,daytondailynews.com,journal-news.com,springfieldnewssun.com##.main-nav__
 ajc.com,daytondailynews.com,journal-news.com,springfieldnewssun.com##.main-nav__weather-icon-desktop:style(padding: 0 0 0 4.75rem !important;)
 ajc.com,daytondailynews.com,journal-news.com,springfieldnewssun.com##.main-nav__weather-temp-desktop:style(padding-left: 0.3125rem !important; padding-right: 0 !important;)
 ajc.com,daytondailynews.com,journal-news.com,springfieldnewssun.com##.wrapper--header:style(background-image: none !important; background-color: #f8f8f8 !important; border-bottom: solid 1px #d0d0d0 !important;)
+ajot.com##header.sticky-top:style(position: static !important;)
 akamai.com##.header--v3.header--v2.global-header, .sticky-widgets:style(position: absolute !important;)
 al-monitor.com###bizzbar:style(position: relative !important; top: 0 !important;)
 al.com,cleveland.com,gulflive.com,lehighvalleylive.com,mardigras.com,masslive.com,mlive.com,newyorkupstate.com,nj.com,nola.com,pennlive.com,oregonlive.com,silive.com,syracuse.com###adv_header, .sticky-nav-show.sticky-nav, .sticky-nav, .section__nav:style(position: relative !important; top: 0 !important;)
@@ -3397,7 +3398,7 @@ footwearnews.com##.jw-wrapper:style(position: absolute !important; inset: 0 !imp
 footwearnews.com##.l-footer__nav .l-header__nav .sub-menu, .l-header__nav .c-nav, .l-header__nav .l-footer__nav .sub-menu:style(min-height: 6.25rem !important;)
 footwearnews.com##.l-header:style(position: relative !important; top: 0 !important; flex-flow: row wrap !important; justify-content: normal !important; transform: translate3d(0,0,0) !important;)
 footwearnews.com##.l-header__logo:style(width: 20% !important; padding: 0 !important; margin-right: 3.125rem !important;)
-forbes.com###top, .beta-flag, .collapsed-header, .header__divider, .ng-scope.header-nav-collapse.initial.csr-header, body > app-root > app > .undefined-expanded:nth-of-type(1):style(position: absolute !important;)
+forbes.com###top, .beta-flag, .collapsed-header, .header-wrap.fixed, .header__divider, .ng-scope.header-nav-collapse.initial.csr-header, body > app-root > app > .undefined-expanded:nth-of-type(1):style(position: absolute !important;)
 forbes.com##.article-sidebar:style(padding: 0 !important;)
 forbes.com##.header:style(transform: none !important;)
 forbes.com##.sticky-video:style(position: absolute !important; top: 0 !important; bottom: unset !important; left: unset !important;)
@@ -7539,6 +7540,7 @@ spotify.com##.react-contextmenu, nav:style(pointer-events: all !important;)
 spotify.com##header.fixed, header.mh-fixed:style(position: absolute !important;)
 spreadsheeto.com##.fusion-header:style(position: relative !important; top: 0 !important; height: 83px !important; box-shadow: none !important;)
 spreadsheeto.com##.fusion-logo:style(margin-top: 20px !important; margin-bottom: 5px !important;)
+spreadsheetpoint.com##.elementor-location-header:style(position: static !important;)
 spreadshirt.com###sprd-header:style(position: absolute !important; transform: none !important;)
 sprenger.de##div.sidebar-flyout:style(position: absolute !important;)
 springer.com##.u-composite-layer.main-sidebar-right__content:style(position: absolute !important;)
