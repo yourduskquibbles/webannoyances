@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 12:33 2021-10-21
+! Last Modified: 12:38 2021-10-21
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -480,6 +480,9 @@ aljazeera.com##.theme-ajb .site-header__logo, .theme-aje .site-header__logo:styl
 aljazeera.com##.theme-ajb .site-logo svg, .theme-aje .site-logo svg:style(height: 80px !important;)
 aljazeera.com,androidsage.com,artlawjournal.com,benzinga.com,jilt.com,kob.com,letsdothistrip.com,rentcafe.com,space.com,sparkonit.com,squarespace.com,techgyd.com,usni.org,wdio.com,wnyt.com###sticky-header
 aljazeera.com,cheftalk.com,confluent.io,mom.me,scientificamerican.com,usenix.org###site-header:style(position: relative !important; top: 0 !important;)
+aljazeera.net##.container--header.header-is-sticky:style(position: static !important; box-shadow: none !important;)
+aljazeera.net##.header-is-minimized .css-1d52i7w:style(width: 80px !important; height: 80px !important;)
+aljazeera.net##.header-is-minimized .css-1uw0sar:style(max-height: unset !important;)
 all-that-is-interesting.com,allthatsinteresting.com##.hidden-md-up.mobile-header:style(position: relative !important; top: 0 !important;)
 allaboutbirds.org###header-wrapper:style(position: relative !important; top: 0 !important;)
 allacronyms.com,blender.org,daniweb.com,princetonreview.com,straitstimes.com,suntrust.com,zona-m.net##.navbar:style(position: absolute !important; top: 0 !important;)
