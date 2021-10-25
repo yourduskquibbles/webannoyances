@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 12:29 2021-10-21
+! Last Modified: 11:21 2021-10-25
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of other page covering elements. Cookie/GDPR notices will be removed in Cookie Filters sublist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -903,7 +903,7 @@ tested.com,wonderwall.com###footer-notification
 the-scientist.com###Modal
 theadvocate.com##.popover-content
 theathletic.com###free-trial-button-sticky-wrapper
-theatlantic.com###paywall, .c-leaflets__container, .c-non-metered-nudge, .c-nudge__container, .injector-promo, .js-non-metered-nudge
+theatlantic.com###paywall, .c-leaflets__container, .c-non-metered-nudge, .c-nudge__container, .injector-promo, .js-non-metered-nudge, [data-testid="non-metered-nudge"]
 theatlantic.com##body:style(height: 100% !important;)
 theatlantic.com##html, body:style(overflow: auto !important;)
 theaustralian.com.au##.mm-reveal.account-lightbox

@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 11:23 2021-10-22
+! Last Modified: 11:21 2021-10-25
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -8054,6 +8054,7 @@ theatlantic.com##.t-homepage .c-nav__popular--lacroix:style(grid-column: 3/span 
 theatlantic.com##.t-homepage .c-nav__search--lacroix:style(grid-column: 2/span 1 !important;)
 theatlantic.com##.t-homepage .c-nav__wordmark--lacroix:style(grid-row: 3/span 1 !important;)
 theatlantic.com##.t-homepage .js-nav-animated.animated:style(animation: none !important; transition: none !important;)
+theatlantic.com##[class*="HomepageNav_leftContainer__"]:style(padding: 10px 0 0 !important; margin: 40px 0 0 !important;)
 theaustralian.com.au##.fixed.clearfix.fixed-navigation:style(position: relative !important; top: 0 !important;)
 theaustralian.com.au##.header__masthead .header__logo:style(margin: auto !important;)
 theaustralian.com.au##.header__masthead span.header__games, .header__masthead span.header__paper:style(display: inline-block !important;)
