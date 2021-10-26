@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 13:30 2021-10-26
+! Last Modified: 13:32 2021-10-26
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -8035,7 +8035,7 @@ theartofdoingstuff.com###access.sticky-element-cloned.element-is-sticky
 theartofdoingstuff.com###access.sticky-element-original.element-is-not-sticky:style(visibility: visible !important;)
 theathletic.com##[class*="header-styles__HeaderDisplay-sc"] > div:style(position: static !important;)
 theatlantic.com###action-bar, #main-navigation--lacroix, #site-header-container, #site-header, .site-header:style(position: relative !important; top: 0 !important;)
-theatlantic.com##.c-nav__container:before:style(position: absolute !important;)
+theatlantic.com##.c-nav__container::before, [class*="HomepageNav_root"]::after:style(position: absolute !important;)
 theatlantic.com##.c-nav__list--accounts:style(position: static !important;)
 theatlantic.com##.t-homepage #main-navigation--lacroix:style(padding: 24px 0 8px !important;)
 theatlantic.com##.t-homepage .animated, .t-homepage .bigaSlideUp, .t-homepage .c-nav--main--lacroix.animated:style(animation: none !important;)
