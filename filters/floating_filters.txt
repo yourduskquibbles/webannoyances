@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 13:44 2021-10-27
+! Last Modified: 14:57 2021-10-27
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -4975,6 +4975,7 @@ leadingauthorities.com##.header-mid__right--top:style(border-bottom: 1px solid #
 leadingred.us##.post-content:style(height: auto !important;)
 leadingred.us##.simplebar-content:style(overflow: hidden !important;)
 leaf.tv##.fixed-header, .header-top:style(position: relative !important; top: 0 !important;)
+leafly.com,tribunemedia.com##header.fixed:style(position: absolute !important;)
 learningsynths.ableton.com##.components_lesson-viewer__toc-toggle:style(position: absolute !important;)
 lecreuset.com##.fixed-shop, .site-wide-mobile, .site-wide:style(position: relative !important; top: 0 !important;)
 ledbenchmark.com###top, nav:style(position: absolute !important;)
@@ -8387,6 +8388,7 @@ thestreet.com##[class*="UniversalTopNav"][style^="padding-top:"]:style(padding-t
 thestreet.com##div[id="UniversalTopNav"] header > [class*="MuiToolbar-root"] > [track-breadcrumb="rightengagement"],div[id="UniversalTopNav"] header > [class*="MuiToolbar-root"] > [track-breadcrumb="leftengagement"]:style(display: block !important;)
 thesunmagazine.org##.header-logo:style(width: 227px !important;)
 thesunmagazine.org##nav:style(position: static !important;)
+theswaddle.com##header.container-fluid:style(position: absolute !important;)
 thetechhacker.com##.header-image .site-header:style(padding: 9px 40px !important;)
 thetimes.co.uk##.ConversionTopBar:style(position: relative !important; top: 0 !important;)
 thetimes.co.uk##.GlobalNav:style(position: absolute !important;)
@@ -8648,7 +8650,6 @@ trendmicro.com##.nav-up #global-header, .nav-up .navbar-header, .nav-up #user-pr
 trendmicro.com##.navbar-main-fixed.mainNavMenu:style(position: relative !important; top: 0 !important;)
 trendmicro.com##.navbar-main-fixed.nav-sticky-wrapper:style(position: static !important;)
 tribtoday.com###top_header, #wprmenu_bar:style(position: relative !important; top: 0 !important;)
-tribunemedia.com##header.fixed:style(position: absolute !important;)
 trinusvirtualreality.com###floating_menu:style(position: relative !important;)
 tripadvisor.*###FLOATING_PERSISTENT_TAB_HEADER, .fixed.tabBar.persistent_tabs_header:style(position: relative !important; top: 0 !important;)
 tripadvisor.*###PERSISTENT_TRIP_SEARCH_BAR:style(position: relative !important;)
