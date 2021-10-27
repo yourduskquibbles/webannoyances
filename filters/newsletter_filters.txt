@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Newsletter Subscription Filters
-! Last Modified: 13:30 2021-10-26
+! Last Modified: 12:46 2021-10-27
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for newsletter annoyances - Remove newsletter & other subscription cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -257,6 +257,7 @@ forward.com##.newsletter-signup-container
 foxnews.com##.item-newsletter, .item-subscribe.item, .promo-newsletter, p a[href*="foxnews.com/newsletters"]
 france24.com##.o-self-promo--nl.o-self-promo
 ft.com##.article__content-sign-up, .js-instant-alerts-promo.o-message--instant-alerts-promo.o-message--notice.o-message, .n-alert-banner--marketing-anon-subscribe, .n-messaging-slot, .subscription-prompt
+ft.com##experimental:has-text(/newsletter/)
 futurism.com##.subscribe-form.center, .yksqV.NewsletterSignUpWidget__StyledWrapper-sc-18sck4u-0
 gadgetsnow.com##.nl_popup.notify_alert
 gamesindustry.biz,scientificamerican.com,timesofisrael.com,usgamer.net##.newsletter-promo
