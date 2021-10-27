@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 14:57 2021-10-27
+! Last Modified: 15:11 2021-10-27
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -8269,7 +8269,8 @@ thenational.ae##.header-position.header-sticky.clearfix.row:style(position: rela
 thenational.ae##.section-header.bg-taxonomy-1.header-fixed:style(position: absolute !important;)
 thenational.ae##.sticky-ham-open.ham-open, .sticky-logo, .sticky-search
 thenationalpulse.com###rumble_cc4cir:style(height: auto !important;)
-thenationalpulse.com##.navbar-dummy, .rumble_cc4cir-Rumble-cls > div[style*="width: auto; height: auto;"]
+thenationalpulse.com##.header-sticky-element:style(position: relative !important; top: 0 !important; background-color: #262626 !important;)
+thenationalpulse.com##.navbar-dummy, .reading-progress-wrapper, .rumble_cc4cir-Rumble-cls > div[style*="width: auto; height: auto;"], .sticky-element-height
 thenationalpulse.com##.navbar-primary:style(position: relative !important;)
 thenationalpulse.com##.rumble_cc4cir-Rumble-cls:style(position: relative !important; width: 100% !important; max-width: unset !important; inset: auto !important;)
 thenationalpulse.com##.sticky-sidebar-enabled.stick-to-bottom .sidebar-1, .sticky-sidebar-enabled.stick-to-top .sidebar-1:style(position: static !important;)
