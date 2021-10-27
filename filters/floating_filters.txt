@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 13:25 2021-10-27
+! Last Modified: 13:32 2021-10-27
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -4974,7 +4974,10 @@ lecreuset.com##.fixed-shop, .site-wide-mobile, .site-wide:style(position: relati
 ledbenchmark.com###top, nav:style(position: absolute !important;)
 ledger-enquirer.com##.tout-hook-tagalong.js-tout-tagalong-video.tout-sdk-instance-player:style(position: static !important;)
 ledger.com##.stickied.header--fixed:style(position: absolute !important;)
+lefigaro.fr##.fh-placeholder, .fig-progress-bar
+lefigaro.fr##.fh-wrapper:style(position: relative !important; transform: translateY(0) !important;)
 lefigaro.fr##.figh__container:style(position: absolute !important;)
+lefigaro.fr##.video-sticky-limit.fig-tabbar:style(position: relative !important;)
 legalbeagle.com##.header-container:style(position: absolute !important; min-height: 189px !important; height: 189px !important;)
 legalbeagle.com##.hide-header:style(display: block !important;)
 legalist.com##.w-nav.navigation:style(position: absolute !important;)
