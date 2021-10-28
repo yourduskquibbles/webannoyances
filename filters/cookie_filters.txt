@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Cookie Filters
-! Last Modified: 13:42 2021-10-27
+! Last Modified: 08:53 2021-10-28
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Cookie Annoyances - Remove Cookie/GDPR Banners, Notices, Overlays & Warnings
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -56,7 +56,7 @@
 ###cookie-warning
 ###cookie-warning-gdpr
 ###cookieAlert
-###cookieBanner
+###cookieBanner:not(html):not(body)
 ###cookieChoiceBar
 ###cookieChoiceInfo
 ###cookieCompliance
@@ -81,7 +81,7 @@
 ###cookie_info
 ###cookie_notice
 ###cookie_popup
-###cookiebanner
+###cookiebanner:not(html):not(body)
 ###cookiebar
 ###cookieconsent
 ###cookieinfo
@@ -117,12 +117,12 @@
 ###eu-cookie-sliding-popup
 ###eu_cookie_law_widget-2
 ###fp_cookieMessageContainer
-###gdpr
 ###gdpr-alert
 ###gdpr-bottom
 ###gdpr-cookie-message
 ###gdpr-dashboard
 ###gdpr18
+###gdpr:not(html):not(body)
 ###gdprPopup
 ###gel-cookie-banner
 ###headerCookiesAdvice
@@ -205,7 +205,7 @@
 ##.cookie_message
 ##.cookie_notice
 ##.cookiealert
-##.cookiebanner
+##.cookiebanner:not(html):not(body)
 ##.cookiebar
 ##.cookieconsent
 ##.cookieconsent-wrap
@@ -426,6 +426,7 @@ oup.com###oupcookiepolicy_message
 pastebin.com##.popup-container > .-cookies.popup-box
 paypal-community.com##.cookie-notification, .lia-cookie-banner-alert
 paypal.com###ccpaCookieBanner
+pdfslide.net#@#.cookiebanner:not(html):not(body)
 petri.com##.gdpr-cookie-banner
 pinnacle.com##[class*="style_cookieBanner__"]
 planet.com##.pl-cookies-cta-contain
