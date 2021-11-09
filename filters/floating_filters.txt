@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 11:31 2021-11-03
+! Last Modified: 09:28 2021-11-09
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -3529,7 +3529,7 @@ foxbusiness.com##.featured-video.sticky-video .contain, .featured-video.sticky-v
 foxbusiness.com##.featured-video.sticky-video .contain:style(position: static !important; top: 0 !important; bottom: unset !important; right: unset !important; width: 100% !important;)
 foxbusiness.com##.info:style(float: unset !important; padding: 16px 0 0 !important; width: unset !important;)
 foxbusiness.com##.site-header:style(position: relative !important; box-shadow: none !important; padding-bottom: 10px !important; animation: none !important;)
-foxbusiness.com##.stick.sidebar-primary.sidebar, .sticky, .sticky-bottom, .sticky-top:style(position: static !important;)
+foxbusiness.com##.stick.sidebar-primary.sidebar, .sticky, .sticky-bottom, .sticky-region, .sticky-top:style(position: static !important;)
 foxcigar.com##.basel-sticky-btn-shown.mobile-on.basel-sticky-btn, .sticky-header
 foxeslovelemons.com##.slicknav_menu:style(position: relative !important; top: 0 !important;)
 foxitsoftware.com##.help-panel:style(position: absolute !important;)
@@ -5338,6 +5338,8 @@ meadowlakewindfarm.com###edprBackNew, #top-bar-new:style(position: absolute !imp
 meaww.com##.meaww-header__main:style(position: relative !important; top: 0 !important;)
 media.ccc.de##.navbar-fixed-top, .navbar-fixed-bottom:style(position: absolute !important;)
 mediabiasfactcheck.com###mega-menu-wrap-header_nav:style(position: static !important;)
+mediafax.ro###radioContainerBox
+mediafax.ro##.jw-wrapper:style(position: absolute !important; inset: 0 0 0 0 !important; max-height: unset !important; max-width: unset !important; animation: none !important;)
 mediaite.com###featured-posts-wrap, #featured-posts, #header-content, .compact.teads-helper, .teads-helper.full:style(position: relative !important; top: 0 !important;)
 mediaite.com##.c-article-nav-arrows
 mediaite.com##.o-header-nav-bar:style(max-height: 30px !important;)
