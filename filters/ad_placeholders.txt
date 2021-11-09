@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Ad Placeholder Filters
-! Last Modified: 09:28 2021-11-09
+! Last Modified: 10:08 2021-11-09
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for empty advertising placeholders.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -285,6 +285,8 @@ gq.com.au##.Header-module-adFullWidth-3GB64--
 grammy.com##.block--dfp-ad--desktop
 greenrushdaily.com##.dfp_ad_pos
 guns.com##.ad-wrap
+haaretz.com##[data-google-interstitial="false"] > :has([href*="/promotions-page"])
+haaretz.com##[data-test="topStrip"]
 harpers.org###OFIE, .rightDivPad.fRight, .stripMiddle
 harpersbazaar.com,roadandtrack.com,runnersworld.com,townandcountrymag.com##.leaderboard-ad
 hazlitt.net###block-dfp-global-leaderboard
