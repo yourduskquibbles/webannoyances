@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 11:26 2021-11-03
+! Last Modified: 13:13 2021-11-09
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of other page covering elements. Cookie/GDPR notices will be removed in Cookie Filters sublist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -705,6 +705,7 @@ objective-see.com##.mc-modal-bg
 offers.com##html.no-scroll:style(overflow: auto !important;)
 oilprice.com,themediterraneandish.com,topclassactions.com,uspostnews.com,wellplated.com##.Campaign
 oilprice.com,uspostnews.com##html.om-position-popup body:style(overflow-x: hidden !important; overflow-y: scroll !important; padding-right: 0 !important;)
+okmagazine.com##[data-modal-overlay*="true"]
 old.reddit.com##.in.spezmodal.fade.modal, .in.fade.modal-backdrop
 omaha.com,richmond.com##.wcpopupmodal-overlay, .wcpopupmodal-wrapper
 omeleto.com###myModal, #reveal-modal-bg
