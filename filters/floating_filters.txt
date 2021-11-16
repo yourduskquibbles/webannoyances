@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 11:14 2021-11-16
+! Last Modified: 11:29 2021-11-16
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -2310,7 +2310,7 @@ csnmidatlantic.com##.slideout-fixedNav:style(position: relative !important; top:
 csoonline.com###banner:style(position: relative !important; top: 0 !important;)
 csoonline.com###sticky-head:style(position: relative !important;)
 csra.com##.region-sticky-header.region:style(position: relative !important; top: 0 !important;)
-css-irl.info##.c-header--bg.c-header:style(position: absolute !important;)
+css-irl.info,opensignal.com,theblacktux.com##.c-header:style(position: absolute !important;)
 css-tricks.com###site-header:style(position: relative !important; box-shadow: none !important; transform: none !important; animation: none !important;)
 css-tricks.com##.main-nav>ul:style(position: relative !important;)
 css-tricks.com##html:root body.header-not-at-top:style(--nav-height: 130px !important;)
@@ -6288,7 +6288,6 @@ opengraph.xyz##.maker.z-50.right-0.left-0.bottom-0.fixed
 opennic.org##.navbar-fixed nav:style(position: absolute !important;)
 opensecrets.org###header-sticky
 openshot.org##.header-body:style(position: absolute !important;)
-opensignal.com##.is-scrolled.is-sticky.js-dropdown-opened.js-header.js-sticky-bar.c-header:style(position: absolute !important;)
 opentable.com##.navbar--fixed.navbar:style(position: relative !important; top: 0 !important;)
 opindia.com##.td-header-menu-wrap:style(position: absolute !important; transform: none !important;)
 oprah.com###page_navigation_wrapper, #sitenav:style(position: absolute !important;)
