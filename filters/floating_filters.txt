@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 11:18 2021-11-18
+! Last Modified: 11:42 2021-11-18
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -6956,7 +6956,7 @@ retropie.org.uk###header-menu, .md-header:style(position: absolute !important;)
 retropie.org.uk##.md-sidebar:style(position: absolute !important; top: 5rem !important;)
 reuters.com###breakingNewsContainer, #nonEditBannerContainer, .Header_is-fixed_3OnFb.Header_header_1xhmD, .active.container.header-pane-main, .fixed, .header-main.group.header, .header-mini.header-main.group.header > .active.container.header-pane-main, .navbar-toggleable-sm.navbar-inverse.bg-inverse.fixed-top.navbar-full.navbar.header.special-report-nav, .special-report-nav:style(position: relative !important; top: 0 !important;)
 reuters.com###headerMain:style(padding-top: 0 !important;)
-reuters.com###nav-item-1 > .nav-link-sec > .text, #spacerElement, #sticky > .sectionContent, .nav-item.active-text .text, .nav-item.home-tab, .nav-white-space, [class*="RecircRibbon-container"], [class*="VideoLandingPage-render-right-column-"]
+reuters.com###nav-item-1 > .nav-link-sec > .text, #spacerElement, #sticky > .sectionContent, .nav-item.active-text .text, .nav-item.home-tab, .nav-white-space, [class*="CloseButton__close"], [class*="RecircRibbon-container"], [class*="VideoLandingPage-render-right-column-"], [class*="video-player__title-container"]
 reuters.com###progressbar, .edition-header, .navbar-expand-sm.navbar-dark.bg-dark.fixed-top.navbar-full.navbar.header, .StickyContainer-content-1u-cE:not(.StickyContainer-disabled-2v_pr), .Sticky_fixed.Sticky_content, [class*="RCOMVideo-observer-placeholder-"]:style(position: absolute !important;)
 reuters.com###searchBar.active .search-submit-button:style(top: 8px !important;)
 reuters.com###searchForm:style(margin-left: 118px !important;)
@@ -6993,6 +6993,9 @@ reuters.com##[class*="VideoLayout-right-container"]:style(position: static !impo
 reuters.com##[class*="VideoLayout-video-placeholder-"]:style(display: block !important; height: 56.25vw !important; max-height: calc(100vh - 200px) !important;)
 reuters.com##[class*="VideoLayout-video-player-"]:style(position: absolute !important; width: 100% !important; top: 0 !important; left: 0 !important;)
 reuters.com##[class*="VideoPlayer__player-container"]:style(width: 100% !important;)
+reuters.com##[class*="video-player__floating-container"]:style(position: static !important; padding: 0 !important;)
+reuters.com##[class*="video-player__player-container"] [class*="video-player__video-container"]:style(padding-bottom: 56.25% !important;)
+reuters.com##[class*="video-player__player-container"]:style(width: 100% !important; animation: none !important; border-radius: unset !important; box-shadow: none !important;)
 reuters.com##[class*=VideoPlayer__floating-container]:style(position: static !important; padding: 0 !important;)
 reuters.com##body:not(.slideshow) #content:style(margin-top: 24px !important;)
 revelist.com##.header-article.header-article-sd.header-content:style(position: relative !important; top: 0 !important;)
