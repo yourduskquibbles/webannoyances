@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 11:42 2021-11-18
+! Last Modified: 12:37 2021-11-18
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -6071,6 +6071,7 @@ nhl.com##.closed.slidemo:style(position: relative !important;)
 nhl.com##.template--article__sidebar--fixed:style(position: absolute !important;)
 nhm.ac.uk##.cf.global-header:style(position: absolute !important;)
 nhs.uk##.nhsuk-sticky.nhsuk-o-grid__item--one-third.nhsuk-o-grid__item:style(position: static !important;)
+nhsinform.scot###navigation:style(position: static !important;)
 nianticlabs.com##.header:style(position: absolute !important; background-color: transparent !important; box-shadow: none !important;)
 nicovideo.jp###siteHeader:style(position: absolute !important;)
 niezlomni.com###wi-topbar:style(position: relative !important;)
@@ -8472,8 +8473,7 @@ thewirecutter.com##nav:style(margin-top: 27px !important;)
 thewrap.com###desktop-logo.mx-2
 thewrap.com###js-mobile-bar:style(position: absolute !important;)
 thewrap.com###js-site-navigation:style(padding-top: 16px !important;)
-thewrap.com###navigation:style(position: static !important;)
-thewrap.com##.default.post.site-header:style(position: static !important;)
+thewrap.com###navigation, .default.post.site-header:style(position: static !important;)
 thewrap.com##.widget-area.-above-header:style(margin-bottom: 0 !important;)
 thewrap.com##.wrap-pro #mainNav:style(position: relative !important;)
 thewrap.com##.wrap-pro .header-padding:style(padding-bottom: 0 !important;)
