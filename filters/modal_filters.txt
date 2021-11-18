@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 13:58 2021-11-16
+! Last Modified: 13:02 2021-11-18
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of other page covering elements. Cookie/GDPR notices will be removed in Cookie Filters sublist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -517,6 +517,8 @@ indiatimes.com###backgroundPopup, #scrollTop, .ntfc_overlay, .ntfc_popup
 indiegogo.com##.i-info-message
 infantino.com,ripple.com###newsletterModal
 infomine.com###fade, #popupBlock
+information.dk###cookie-information-template-wrapper
+information.dk##.noScroll, .noScroll body:style(overflow: auto !important;)
 ingwb.com##.dialog
 inman.com##.bx-shroud
 insideevs.com,motor1.com,rideapart.com##.m1-footer-messages
