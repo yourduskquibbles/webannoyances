@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Cookie Filters
-! Last Modified: 12:48 2021-11-18
+! Last Modified: 09:25 2021-11-23
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Cookie Annoyances - Remove Cookie/GDPR Banners, Notices, Overlays & Warnings
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -272,6 +272,7 @@
 1worldonline.com##.js-cookies-popup
 7news.com.au##.ToastNotification.cookie-consent--normal
 8kun.top##div>i>.disclaimer-8kun
+@@/cookieconsent$domain=shopee.pl
 @@||cookieconsentspeed.run^$1p
 @@||erolnik.gov.pl/content/scripts/cookieconsent.min.js$script,1p
 @@||geolocation.onetrust.com/cookieconsentpub/$script
