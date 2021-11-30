@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 15:36 2021-11-19
+! Last Modified: 11:25 2021-11-30
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -951,7 +951,7 @@ backcountry.com##.header-wrap:style(position: relative !important; top: 0 !impor
 backlinkseo.com###_header-93-354:style(position: relative !important;)
 backstage.com###backstage-header:style(position: absolute !important;)
 backstageol.com###nav-wrapper:style(position: relative !important;)
-badgerandblade.com##.p-navSticky:style(position: static !important; box-shadow: none !important;)
+badgerandblade.com,disboards.com##.p-navSticky:style(position: static !important; box-shadow: none !important;)
 badpackets.net##.navigation-top:style(position: absolute !important;)
 bagleywatchco.com##.site-header--fixed.site-header--homepage.site-header--transparent.site-header:style(position: relative !important; top: 0 !important;)
 baidu.com###head, .s_down, .s_form:style(position: relative !important; top: 0 !important;)
@@ -963,7 +963,7 @@ ballistixgaming.com##.sticky:style(position: relative !important; top: 0 !import
 ballistixgaming.com##nav:style(height: 88.4px !important; padding: .5rem 0 !important;)
 ballotpedia.org###bp-header, #sidebar-left, #sidebar-right:style(position: absolute !important;)
 ballotpedia.org###fixed-header-outer, #nav-bar, #top-bar:style(position: relative !important; top: 0 !important;)
-baltimoresun.com,capitalgazette.com,chicagotribune.com,citypaper.com,courant.com,dailypress.com,mcall.com,nydailynews.com,orlandosentinel.com,sun-sentinel.com###app-bar-sticky, .floating-chain.sticky:style(position: static !important;)
+baltimoresun.com,capitalgazette.com,chicagotribune.com,citypaper.com,courant.com,dailypress.com,mcall.com,nydailynews.com,orlandosentinel.com,sun-sentinel.com###app-bar-sticky, #fusion-app .page-header, .floating-chain.sticky:style(position: static !important;)
 baltimoresun.com,capitalgazette.com,chicagotribune.com,citypaper.com,courant.com,dailypress.com,mcall.com,nydailynews.com,orlandosentinel.com,sun-sentinel.com###top:style(margin-top: 5px !important;)
 baltimoresun.com,capitalgazette.com,chicagotribune.com,citypaper.com,courant.com,dailypress.com,mcall.com,nydailynews.com,orlandosentinel.com,sun-sentinel.com##.flex-grid.chain-container.sticky.trb-flt-itm:style(position: static !important; top: auto !important;)
 baltimoresun.com,capitalgazette.com,chicagotribune.com,citypaper.com,courant.com,dailypress.com,mcall.com,nydailynews.com,orlandosentinel.com,sun-sentinel.com##.pb-f-list-nav-ticker:style(display: block !important;)
@@ -1738,6 +1738,7 @@ cbslocal.com###featured-media:style(height: 100% !important; width: 100% !import
 cbslocal.com###floating-player-container:before, .adhesive-placement-placeholder, .desktop-display-type #featured-media .video-wrapper.adhesive-on:before
 cbslocal.com###ott-promotion-block .adhesive-wrapper:style(position: static !important; bottom: auto !important; width: 100% !important; max-height: none !important; margin: 0 !important; border: none !important; box-shadow: none !important;)
 cbslocal.com###page-header:style(position: relative !important;)
+cbslocal.com##.desktop-display-type #featured-media .anvato-iframe-wrapper:style(height: inherit !important;)
 cbslocal.com##.desktop-display-type #floating-player-container iframe:style(height: 100% !important; top: 0 !important;)
 cbslocal.com##.desktop-display-type #floating-player-container:style(position: static !important; top: 0 !important; border: none !important; bottom: unset !important; box-shadow: none !important; top: unset !important; right: unset !important; height: 467px !important; width: 830px !important;)
 cbslocal.com##.desktop-display-type.and-temp-wide #featured-media .video-wrapper.adhesive-off:style(height: 467px !important; width: 830px !important;)
@@ -2947,6 +2948,7 @@ elementsproject.org##.visible.transition.menu.inverted.fixed.top.large.ui:style(
 elephant.com##.elephant-navigation:style(position: absolute !important;)
 elevatingsound.com##.show-nav.single-nav.home-nav
 elfster.com##._57-Ve, header:style(position: relative !important;)
+elfster.com,thesunmagazine.org##nav:style(position: static !important;)
 elie.net##.fixed.reading.read.navbar-container:style(position: absolute !important;)
 elie.net##.fixed.sticky-menu, .fixed.top.gradbar
 elifesciences.org##.view-selector--fixed.view-selector--has-figures.view-selector:style(position: static !important; padding-top: 0 !important;)
@@ -3148,7 +3150,7 @@ express.co.uk###vjs_video_3:style(position: static !important;)
 express.co.uk##.jw-flag-floating .jw-wrapper:style(position: absolute !important; top: 0 !important; left: 0 !important; right: 0 !important; bottom: 0 !important; margin: 0 !important; max-width: 100% !important; max-height: 100% !important; animation: none !important;)
 express.co.uk##.video-js:style(position: absolute !important; width: 590px !important; height: 332px !important; top: 0 !important; bottom: 0 !important; opacity: 1 !important; margin-top: 0 !important;)
 express.co.uk##.vjs-control-bar:style(margin-bottom: 0 !important; background: transparent !important; visibility: visible !important; transform: none !important;)
-express.co.uk,foxnomad.com,lawenforcementtoday.com,localbabysitter.com,merriman.com,usma.edu,windows.com###main-header:style(position: relative !important;)
+express.co.uk,foxnomad.com,grillgirl.com,lawenforcementtoday.com,localbabysitter.com,merriman.com,usma.edu,windows.com###main-header:style(position: relative !important;)
 express.google.com,impact.vice.com##.scrolled:style(position: absolute !important;)
 expressvpn.com###front-nav:style(position: relative !important; top: 0 !important; width: 100% !important;)
 expressvpn.com###sub-navbar:style(position: relative !important;)
@@ -3860,6 +3862,8 @@ golfadvisor.com##.Header-contentWrapper:style(position: relative !important;)
 golfchannel.com##.sticky.contain-to-grid:style(position: absolute !important;)
 golfdc.com###SITE_HEADER, #SITE_HEADERscreenWidthBackground:style(position: relative !important; top: 0 !important;)
 golfdigest.com##.component-sticky.site-header div[style*="overflow: hidden; height:"]
+golfdigest.com##.content-wrapper.over-hero, .content-wrapper:style(color: #000 !important; background-color: #fff !important;)
+golfdigest.com##.parbase.header:style(position: static !important;)
 golfdigest.com##.riser:style(position: relative !important; transform: translateZ(0) !important;)
 golfdigest.com##.site-header.component-sticky > div:nth-of-type(1), .site-header.component-sticky:style(position: relative !important; top: 0 !important;)
 golfforher.com##.scrolled.main-nav.nav-wrap:style(position: relative !important; top: 0 !important;)
@@ -4208,6 +4212,9 @@ houstonchronicle.com###articleRibbon:style(position: relative !important; transf
 houstonchronicle.com##.article .aside .sticky .stickyItem, .subNavigation:style(position: relative !important; top: 0 !important;)
 houstonchronicle.com##.header:style(margin-top: 50px !important;)
 houstonchronicle.com##.pageHeader:style(position: relative !important;)
+houzz.com###houzzHeader .hz-header__container.hz-header__container--fixed:style(position: absolute !important;)
+houzz.com###houzzHeader .hz-header__secondary:style(transform: translateY(-10px) !important;)
+houzz.com###hzScrollTop
 howchoo.com##.fixed-container.stuck-container.ui > div[style*="height:"]:style(height: 0 !important;)
 howchoo.com##.sticky.ui:style(position: static !important; top: 0 !important;)
 howmuch.net##stickyheader
@@ -8389,6 +8396,7 @@ theregister.com###adtoniq-msgr-bar
 theregister.com###masthead:style(position: relative !important; margin-bottom: 1.3em !important;)
 theregister.com###site_nav:style(position: static !important;)
 theringfinders.com###menu-main:style(position: relative !important; top: 0 !important;)
+thermoworks.com##.header:style(position: static !important;)
 therpf.com##.p-navSticky:style(position: static !important;)
 thescene.com##.js-nav-header.nav-header.ember-view:style(position: relative !important; top: 0 !important;)
 thescore.com##.GetTheAppModal__getTheAppButton--2-J-H, .Header__fixed--J8pzz, .Layout__headerContainer--3hbyt, .collapse.context-menu-row.ember-view:style(position: absolute !important;)
@@ -8435,7 +8443,6 @@ thestreet.com##[class*="UniversalTopNav"][class*="MuiToolbar-gutters-"]:style(ma
 thestreet.com##[class*="UniversalTopNav"][style^="padding-top:"]:style(padding-top: 0 !important;)
 thestreet.com##div[id="UniversalTopNav"] header > [class*="MuiToolbar-root"] > [track-breadcrumb="rightengagement"],div[id="UniversalTopNav"] header > [class*="MuiToolbar-root"] > [track-breadcrumb="leftengagement"]:style(display: block !important;)
 thesunmagazine.org##.header-logo:style(width: 227px !important;)
-thesunmagazine.org##nav:style(position: static !important;)
 theswaddle.com##header.container-fluid:style(position: absolute !important;)
 thetechhacker.com##.header-image .site-header:style(padding: 9px 40px !important;)
 thetimes.co.uk##.ConversionTopBar:style(position: relative !important; top: 0 !important;)
