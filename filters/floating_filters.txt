@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 12:57 2021-12-01
+! Last Modified: 12:58 2021-12-01
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -7718,6 +7718,9 @@ steemit.com##.noPrint.Header:style(position: relative !important; top: 0 !import
 steepandcheap.com##.qa-header-wrap.main-header-wrap.js-header-wrap:style(position: relative !important; top: 0 !important;)
 stellar.org###header-wrapper:style(position: absolute !important; background-color: transparent !important;)
 stereogum.com###menu:style(border-bottom: solid 5px #000 !important; height: 60px !important; padding: 8px 0 !important;)
+stereogum.com##.navbar.has-promo-bar:style(height: 104px !important;)
+stereogum.com##.progress-bar-container
+stereogum.com##.promo-bar:style(max-height: 44px !important;)
 steverrobbins.com##.et_header_style_left #et-top-navigation nav > ul > li > a, .et_header_style_split #et-top-navigation nav > ul > li > a:style(padding-bottom: 33px !important;)
 steverrobbins.com##.et_header_style_left #et-top-navigation, .et_header_style_split #et-top-navigation:style(padding-top: 33px !important;)
 stitcher.com###header_main:style(position: absolute !important;)
