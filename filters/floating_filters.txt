@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 12:58 2021-12-01
+! Last Modified: 11:46 2021-12-07
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -9760,8 +9760,9 @@ zagg.com##.stuck.product-sticky-nav
 zappar.com###navTop:style(position: absolute !important;)
 zapster.io###secondaryMenu:style(position: absolute !important;)
 zara.com###articles-count, #nav-menu-container:style(position: absolute !important;)
-zdf.de##.js-rb-attached.b-header:style(position: absolute !important;)
-zdf.de##.m-slim.js-rb-attached.b-header:style(position: relative !important; top: 0 !important;)
+zdf.de##.b-header .top-bar-section .menu-item .link:style(margin: 15px 0 !important;)
+zdf.de##.b-header:style(position: absolute !important;)
+zdf.de##header div:has(.m-switched-off) .b-header .top-bar .logo:style(height: 50px !important;)
 zdnet.com###bodyWrapper:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 zdnet.com###mainHeader:style(padding-bottom: 0 !important;)
 zdnet.com##.fixed.fixation:style(position: relative !important; top: 0 !important;)

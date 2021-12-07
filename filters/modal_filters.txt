@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 11:25 2021-11-30
+! Last Modified: 11:46 2021-12-07
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of other page covering elements. Cookie/GDPR notices will be removed in Cookie Filters sublist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1085,6 +1085,8 @@ youtube.com##ytd-popup-container yt-bubble-hint-renderer:has-text(/Get access to
 youtube.com##ytd-popup-container yt-tooltip-renderer:has-text(/Choose what to play next|Join this channel and unlock/)
 yts.*##.modal:not(.modal-download)
 zacks.com###toolbar, .disclosure-fixed-slab
+zdf.de##.m-opened.m-open.dialog-backdrop
+zdf.de##html:style(overflow: auto !important;)
 zdnet.com###offerContainer-e651d1b3
 zenmate.com##.zm-crm-overlay
 zerohedge.com##.exit-modal, [class*="ExitModalNewsletter_exitModalOverlay"]
