@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 14:04 2021-12-10
+! Last Modified: 15:44 2021-12-10
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1402,6 +1402,7 @@ bnef.com##.article__head h1:style(font-size: 48px !important; line-height: 58px 
 bnnbloomberg.ca##.content .article-media .video-outer-wrapper.persistent .video-wrapper .video-container, .content .article-text .video-outer-wrapper.persistent .video-wrapper .video-container, .content .tracker-container .video-outer-wrapper.persistent .video-wrapper .video-container:style(position: relative !important; right: unset !important; top: unset !important; padding-bottom: unset !important; height: 100% !important; width: 100% !important;)
 bnnbloomberg.ca##.main-header:style(position: absolute !important; transform: none !important;)
 bnnbloomberg.ca##.ng-scope.stuck.video-wrapper:style(position: relative !important; top: unset !important; left: unset !important; width: 100% !important;)
+bnnbloomberg.ca##.top-container:style(height: auto !important;)
 bnonews.com###mvp-main-body-wrap, #mvp-main-nav-bot, .mvp-fixed-next:style(margin-top: 0 !important;)
 bnonews.com###mvp-main-nav-bot, #mvp-main-nav-bot[class="left relative mvp-fixed1 mvp-fixed2"], #mvp-main-nav-bot[class="left relative mvp-fixed1"], #mvp-main-nav-bot[class="left relative"]:style(position: relative !important; top: 0 !important; height: 50px !important; box-shadow: none !important; transform: translate3d(0,0,0) !important;)
 bnonews.com###mvp-main-nav-top, #mvp-main-nav-top[class="left relative mvp-nav-small mvp-fixed mvp-fixed-shadow mvp-soc-mob-up"], #mvp-main-nav-top[class="left relative mvp-nav-small mvp-fixed mvp-fixed-shadow"], #mvp-main-nav-top[class="left relative mvp-nav-small mvp-fixed"], #mvp-main-nav-top[class="left relative mvp-nav-small"]:style(position: relative !important; top: 0 !important; padding: 15px 0 !important; height: auto !important; box-shadow: none !important; transform: translate3d(0,0,0) !important;)
@@ -1872,7 +1873,8 @@ chicagobusiness.com,crainscleveland.com,crainsdetroit.com,crainsnewyork.com##.ey
 chicagobusiness.com,crainscleveland.com,crainsdetroit.com,crainsnewyork.com##.region-header .crain-logo-block svg:style(height: 22px !important; margin-bottom: 6px !important;)
 chicagomag.com###reveal-bar:style(position: relative !important; top: 0 !important;)
 chicagotribune.com,nypost.com##.s2nPlayerFrame:style(position: static !important; top: 0 !important; left: 0 !important; visibility: visible !important; transform: none !important;)
-chick-fil-a.com##.header-frame:style(position: absolute !important;)
+chick-fil-a.com##.header-frame, .informative-banner:style(position: absolute !important;)
+chick-fil-a.com##.home-menu:style(position: static !important;)
 childrenshealthdefense.org##.defender-header:style(position: static !important;)
 china-underground.com###wpadminbar, .td-pb-span4 > .wpb_wrapper:style(position: absolute !important;)
 chip.de##.Header--Sticky:style(transform: translate(0,0) !important;)
@@ -6328,6 +6330,7 @@ optibus.com##.sticky-mobile-on.masthead-mobile.masthead-mobile-header.show-mobil
 optimizely.com##.push_content.fixed.header_nav:style(position: relative !important; top: 0 !important;)
 optumrx.com##.ogn__header:style(position: relative !important; top: 0 !important;)
 orangebeanindiana.com##.td-header-main-menu.td-affix:style(position: static !important; transform: translate3d(0,0,0) !important;)
+order.chick-fil-a.com###desktop-navigation, #sub-navigation:style(position: absolute !important;)
 oregon.gov##.or-navbar-sticky.or-navbar-sticky-wrapper, .or-portal-side-nav:style(position: absolute !important;)
 oreilly.com##.global-nav:style(position: absolute !important;)
 oreilly.com##.global:style(position: relative !important; top: 17px !important;)
@@ -8225,7 +8228,7 @@ theengineeringmanager.com##.stickit.entry-header-single:style(position: absolute
 theengineroom.org##.header:style(position: absolute !important; top: 0 !important;)
 theepochtimes.com###sidebar_comments:style(position: relative !important; top: 0 !important;)
 theepochtimes.com###slim-header, .main_content .tool_box:style(position: absolute !important; top: 0 !important;)
-theepochtimes.com##.sticky.title_wrap
+theepochtimes.com##.sticky_container, .sticky.title_wrap
 thefa.com##.body-content:style(margin-top: 0 !important;)
 thefa.com##.fa-navigation, .fa-sub-navigation:style(position: relative !important; top: 0 !important; margin-top: 0 !important;)
 thefader.com##.locked_nav.main_nav:style(position: relative !important; top: 0 !important;)
