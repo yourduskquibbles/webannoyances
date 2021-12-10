@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 11:53 2021-12-07
+! Last Modified: 12:29 2021-12-10
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -3011,7 +3011,7 @@ eonline.com##.nav-bar__brand-img:style(width: 22px !important; height: 73px !imp
 eos.io##.SectionHeader:style(position: absolute !important;)
 epainassist.com##.sticky-menu.navigation.container-fluid:style(position: relative !important;)
 epicgames.com##[class^="Group-header"]:style(position: absolute !important; top: 0 !important; bottom: unset !important;)
-epicgames.com##header#egh:style(position: absolute !important;)
+epicgames.com##[data-component="PrimaryNavigation"]:style(position: static !important;)
 epicureaneva.com###main-header:style(position: absolute !important; box-shadow: 0 1px 0 rgba(0,0,0,.1) !important;)
 epicureaneva.com###top-header
 epicureaneva.com##.et_header_style_centered #main-header .logo_container:style(height: 153px !important;)
@@ -4551,9 +4551,9 @@ instagram.com##.MnWb5.COOzN:style(position: static !important;)
 instagram.com##._4pxed:style(position: absolute !important; top: 0 !important;)
 instagram.com##._lz6s, ._t93vr, ._tpnch:style(position: relative !important; top: 0 !important;)
 instagram.com##.buoMu ._7mese, .efNlB, .urHPz .cq2ai, .urHPz .SvO5t:style(opacity: 1 !important;)
+instagram.com##nav > .R4HNP.yaCJq, nav > div > div[style="height: 55px;"]
 instagram.com##nav > .R4HNP:matches-css(flex-basis: 54px)
 instagram.com##nav > .tUEmP:matches-css(flex-basis: 55px)
-instagram.com##nav > .R4HNP.yaCJq, nav > div > div[style="height: 55px;"]
 instanetsolutions.com,jolitabrilliant.com##header:style(position: relative !important; margin-top: 0 !important;)
 instantcheckmate.com###e:style(position: absolute !important; top: 81px !important;)
 institutionalinvestor.com###compressed-navbar:style(position: relative !important; top: 0 !important;)
@@ -8472,6 +8472,7 @@ theweek.com##.sticky-top.speedreads-module:style(position: absolute !important; 
 theweek.in##.week-header:style(position: relative !important;)
 thewhiskeywash.com##.clearfix.bh:style(position: relative !important;)
 thewhiskeywash.com##.sticky-wrapper:style(position: relative !important; top: 0 !important;)
+thewindowsclub.com,whdh.com##.site-header:style(position: absolute !important; transform: translateY(0) !important;)
 thewirecutter.com###__next div[style*="position: fixed;"], #site_header_wrapper:style(position: static !important; top: 0 !important;)
 thewirecutter.com##._133046a3, .sticky-tagline
 thewirecutter.com##._1bc0cc20:style(flex: 1 30% !important; background-color: transparent !important;)
@@ -9330,7 +9331,6 @@ whatsonweibo.com##.mvp-nav-logo-reg, .single .mvp-nav-small .mvp-nav-top-left, .
 whatsonweibo.com##.mvp-nav-top-mid:style(height: 169px !important;)
 whattoexpect.com###main-header, #navbar:style(position: absolute !important;)
 whattomine.com##.navbar-fixed-top.navbar-expand-xs:style(position: absolute !important;)
-thewindowsclub.com,whdh.com##.site-header:style(position: absolute !important; transform: translateY(0) !important;)
 whiskeyriff.com##.fixed.main-nav:style(position: relative !important; top: 0 !important;)
 whispersystems.org##.navbar-shrink.navbar-fixed-top.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
 whitehouse.gov##.header__container:style(position: absolute !important; border-bottom: 1px solid transparent !important; transform: translateY(0) !important; animation: none !important;)
