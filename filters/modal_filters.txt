@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 11:46 2021-12-07
+! Last Modified: 13:56 2021-12-10
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of other page covering elements. Cookie/GDPR notices will be removed in Cookie Filters sublist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -552,6 +552,8 @@ just-auto.com,just-drinks.com,just-food.com,just-style.com###catfishHolder, #cat
 justanswer.*##.background, .th-va-mobile-teaser
 justthenews.com###exit-modal
 justworks.com###hbl-live-chat-wrapper
+jyllands-posten.dk##[id*="sp_message_container"]
+jyllands-posten.dk##html.sp-message-open:style(overflow: unset !important; position: unset !important; padding-right: 0 !important;)
 kaspersky.com##[data-at-selector="modal-module"]
 kaspersky.com##body:style(overflow: auto !important; padding-right: 0 !important;)
 keepass.info###consent_c

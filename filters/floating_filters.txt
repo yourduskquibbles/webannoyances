@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 12:32 2021-12-10
+! Last Modified: 13:56 2021-12-10
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -4776,6 +4776,11 @@ justsecurity.org###banner, #logo:style(position: absolute !important; top: 0 !im
 justthenews.com##[id^="vid_"]:style(position: relative !important; width: 100% !important; height: 100% !important; max-width: 100% !important;)
 justworks.com##.js-blog-header.blog-header:style(position: absolute !important;)
 jwplayer.com###js-navbar, #site-navbar:style(position: absolute !important;)
+jyllands-posten.dk##.jp-header__stickable:style(position: static !important;)
+jyllands-posten.dk##.jp-header__top-center .c-logo--jp:style(max-width: 600px !important;)
+jyllands-posten.dk##.jp-header__top-center:style(max-width: 644px !important;)
+jyllands-posten.dk##.jp-header__top-left, .jp-header__top-right:style(position: relative !important; top: 30px !important;)
+jyllands-posten.dk##.jp-header__top:style(height: 218px !important;)
 kafhome.com###topWrapper:style(position: absolute !important; box-shadow: none !important;)
 kaggle.com##.competition-overview__nav-wrapper:style(position: relative !important; top: 0 !important;)
 kaggle.com##.pageheader__sticky--stuck.pageheader__sticky:style(position: absolute !important;)
