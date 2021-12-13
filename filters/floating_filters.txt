@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 09:59 2021-12-13
+! Last Modified: 10:09 2021-12-13
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -465,6 +465,11 @@ alaskaair.com##.masthead:style(position: relative !important; top: 0 !important;
 alaskaair.com##.mobile-logo
 alaskahighwaynews.ca,assiniboiatimes.ca,axios.com,blog.logrocket.com,bowenislandundercurrent.com,burnabynow.com,canoracourier.com,carlyleobserver.com,coastreporter.net,dawsoncreekmirror.ca,delorainetimes.ca,delta-optimist.com,empireadvance.ca,estevanmercury.ca,humboldtjournal.ca,kamsacktimes.com,kiplingcitizen.ca,lillooetnews.net,melitanewera.ca,newsoptimist.ca,newwestrecord.ca,nsnews.com,pipelinenews.ca,pipelinenewsnorth.ca,preecevilleprogress.com,princegeorgecitizen.com,privacytools.io,prpeak.com,restonrecorder.ca,richmond-news.com,sourisplaindealer.ca,squamishchief.com,theoutlook.ca,thereminder.ca,thompsoncitizen.net,timescolonist.com,tisdalerecorder.ca,tricitynews.com,vancourier.com,westmanjournal.com,weyburnreview.com,weyburnthisweek.com,yorktonthisweek.com##.fixed-top:style(position: absolute !important;)
 alaskapublic.org,america.gov,art-sheep.com,celebtoast.com,checkpoint.com,dansdeals.com,eng.uber.com,globalanimal.org,intellihub.com,lamag.com,mashtips.com,mmanews.com,minecraft-resourcepacks.com,nextofwindows.com,orangebeanindiana.com,oscarmini.com,passiveincomemd.com,pcmdnews.com,plagiarismtoday.com,radioink.com,saraacarter.com,seeitmarket.com,servethehome.com,techbizweb.com,technorms.com,thegolder.com,themefoxx.com,uspostnews.com,winbuzzer.com,wirelessster.com,zycrypto.com##.td-ss-main-sidebar:style(position: static !important;)
+alephnews.ro###secondary, .content-area:style(position: relative !important; left: 0 !important;)
+alephnews.ro###tertiary:style(position: relative !important; right: 0 !important;)
+alephnews.ro##.headerSticky .left-side, .headerSticky .right-side:style(padding: 20px 0 !important;)
+alephnews.ro##.jw-wrapper:style(position: absolute !important; top: 0 !important; left: 0 !important; right: 0 !important; bottom: 0 !important; max-height: none !important; max-width: none !important; width: 100% !important; animation: none !important;)
+alephnews.ro##.site-branding:style(position: static !important;)
 alexa.com###alx-header, .fusion-sticky-shadow.fusion-header:style(position: absolute !important;)
 alexandriava.gov##.stuck.sticky
 alexaobrien.com##.follow.header-v1.stickynav-on.main, .header-v1.stickynav-on.main:style(position: relative !important; top: 0 !important;)
