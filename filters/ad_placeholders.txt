@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Ad Placeholder Filters
-! Last Modified: 12:01 2021-12-13
+! Last Modified: 12:29 2021-12-13
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for empty advertising placeholders.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -563,7 +563,8 @@ spin.com##.ad-container, .ad-holder, .footer-ad-holder, .sidebar-bg
 splitsider.com,thebillfold.com,thehairpin.com##.leaderboard__wrapper
 sports.yahoo.com###defaultLREC2-9-wrapper
 sportsnet.ca###ad_bigbox_within_articles_container
-standard.co.uk###leaderboard
+standard.co.uk###leaderboard, #mpu, [data-ad-unit-path]
+standard.co.uk##article > div:has([data-size-key="TOP_BANNER"])
 staradvertiser.com###top-anchor, .box-ad, .evie-widget-ad
 statnews.com##.header-ad-wrap, .sponsored.teaser, .stat-form-inline, .statplus.read-more
 statnews.com##.recirculation-trending .teaser.sponsored + .teaser:style(display: table !important;)

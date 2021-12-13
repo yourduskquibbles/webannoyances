@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 12:16 2021-12-13
+! Last Modified: 12:29 2021-12-13
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -7698,6 +7698,10 @@ stackoverflow.blog##.top-bar:style(height: 9rem !important;)
 stackoverflow.com##._fixed.js-so-header.so-header, ._scrolling._fixed.js-so-header.so-header:style(position: relative !important; top: 0 !important;)
 stackoverflow.com##.container:style(padding-top: 0 !important;)
 stackpath.com###top-nav:style(position: absolute !important; background-color: transparent !important;)
+standard.co.uk##.video-hero-video:style(position: static !important; width: 100% !important; height: 100% !important;)
+standard.co.uk##.video-popout-close
+standard.co.uk##.video-sticky-video:style(position: static !important; width: 100% !important; box-shadow: none !important; animation: none !important;)
+standard.co.uk##header#header:style(position: static !important;)
 standard.net###fixed-search, #fixed-top:style(position: absolute !important;)
 standsapp.org##.lp-pom-box.lp-element:style(position: absolute !important;)
 stanford.edu##.fixed-top.nav-menu:style(position: absolute !important;)
