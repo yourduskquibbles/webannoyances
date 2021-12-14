@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 15:57 2021-12-14
+! Last Modified: 16:04 2021-12-14
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1212,6 +1212,7 @@ bighack.org##.page > .site-header:style(position: absolute !important;)
 bigleaguepolitics.com###mvp-main-nav-top:style(position: relative !important;)
 bigleaguepolitics.com##+js(aeld, scroll)
 bigleaguepolitics.com##.mvp-fixed:style(transform: none !important;)
+bigleaguepolitics.com##.sticky.header:style(position: static !important;)
 bigs.com##.sticky.sticky-nav:style(position: absolute !important;)
 bigseventravel.com##.active.trawell-header-sticky.trawell-header
 bigseventravel.com##.is_stuck.trawell-sidebar-sticky:style(position: absolute !important;)
