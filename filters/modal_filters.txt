@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 14:15 2021-12-14
+! Last Modified: 16:07 2021-12-14
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of other page covering elements. Cookie/GDPR notices will be removed in Cookie Filters sublist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -121,6 +121,8 @@ axios.com###referrerModalCTA--modal
 azcentral.com##.bx-impress-in, .bxc, .longform-flyouts.icon-shadow.icon-box
 babycenter.com##div.reveal-overlay
 babycenter.com,carhartt.com,fastcompany.com,gardensalive.com,sandiegoreader.com,usnews.com##.reveal-modal, .reveal-modal-bg
+babylonbee.com###newsletterModal, .show.fade.modal-backdrop
+babylonbee.com,milorganite.com,revouninstaller.com##body.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 bakingsteel.com###spc-popup-mask
 baltimoresun.com,capitalgazette.com,chicagotribune.com,citypaper.com,courant.com,dailypress.com,mcall.com,nydailynews.com,orlandosentinel.com,pilotonline.com,sun-sentinel.com###zephr-overlay
 baltimoresun.com,capitalgazette.com,chicagotribune.com,citypaper.com,courant.com,dailypress.com,mcall.com,nydailynews.com,orlandosentinel.com,pilotonline.com,sun-sentinel.com##html[data-dss-meterup], [data-dss-meterup] body:style(overflow: auto !important;)
@@ -623,7 +625,6 @@ metacritic.com###popup_newslettter
 mic.com##.modal-prompt-half-page, .new-user-modal
 michaels.com##.modal-body
 milorganite.com###admodal
-milorganite.com,revouninstaller.com##body.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
 mint.intuit.com##.dPogsT.Backdrop__Wrapper-qntnqr-0
 mint.intuit.com##[aria-labelledby="idsModalHeader1"]:upward(2)
 mississippi.gov###socialModal
