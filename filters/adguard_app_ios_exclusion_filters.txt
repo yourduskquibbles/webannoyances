@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - AdGuard iOS App Exclusion Filters
-! Last Modified: 11:39 2021-12-14
+! Last Modified: 12:15 2021-12-14
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for AdGuard iOS App Exclusion Filters. This list is used to fix page display issues caused by CSS Style & Companion filters not working properly with Safari using AdGuard iOS App.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -12,7 +12,7 @@
 ! Start Web Annoyances Ultralist - AdGuard iOS App Exclusion Filters
 !#if adguard_app_ios
 9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co,spaceexplored.com#@#.site-header-placeholder, .site-header.js-header-sticky .primary-menu
-baltimoresun.com,capitalgazette.com,chicagotribune.com,citypaper.com,courant.com,dailypress.com,mcall.com,nydailynews.com,orlandosentinel.com,pilotonline.com,sun-sentinel.com#@#.trb_close_button_svg
+baltimoresun.com,capitalgazette.com,chicagotribune.com,citypaper.com,courant.com,dailypress.com,mcall.com,nydailynews.com,orlandosentinel.com,pilotonline.com,sun-sentinel.com#@#.trb_close_button_svg, .videoPlayer.barker .titleBarContainer .prepend, .videoPlayer.barker .titleBarContainer .title, .videoPlayer:not(.barker) .titleBarContainer .barkerTitle, videoPlayer.barker .menuButton, .videoPlayer .floatCloseButton
 bloomberg.com#@##graphics-paywall-overlay, #paywall-banner, .navi-push-notification-prompt
 bloomberg.com#@#body:style(overflow: auto !important;)
 bloomberg.com#@#body[data-paywall-overlay-status="show"]:style(overflow-x: hidden !important; overflow-y: scroll !important;)
