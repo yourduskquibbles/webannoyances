@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 11:23 2021-12-14
+! Last Modified: 11:26 2021-12-14
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -818,8 +818,8 @@ assetbuilder.com###navigationContainer:style(position: relative !important;)
 assh.org###main-footer:style(position: relative !important; bottom: 0 !important;)
 assh.org##.navbar-fixed-top.menu-header:style(position: relative !important; top: 0 !important;)
 astrobites.org,c21nm.com,coinstaker.com,erikdubois.be,gameroomsolutions.com,malwarepatrol.net,michaelzimmer.org,nebelung.de,steverrobbins.com,tabbank.com,tanaza.com###main-header, #top-header:style(position: absolute !important;)
-asus.com###mNav:style(position: absolute !important;)
-asus.com###overview-top-nav, #overview-top-nav.fixed:style(position: relative !important; top: 0 !important;)
+asus.com###mNav, .asusOfficialProductMenu:style(position: absolute !important;)
+asus.com###overview-top-nav, #overview-top-nav.fixed:style(position: relative !important; top: 0 !important; height: auto !important;)
 asus.com###support:style(margin-top: 0 !important;)
 asus.com##body:style(top: 0 !important;)
 atavist.com###hs-nav-fixed:style(position: absolute !important;)
@@ -5489,6 +5489,7 @@ minecraft.net###master-head:style(position: absolute !important; transform: none
 minerva-labs.com##.cta-strip, .custom-header:style(position: absolute !important;)
 minimaxir.com##.header-shrink.header-sticky.navbar-fixed-top.header-transparent-bb.header-transparent, .header-sticky.navbar-fixed-top.header-transparent-bb.header-transparent, .mega-menu.navbar:style(position: relative !important; top: 0 !important;)
 mininggazette.com###top_header:style(position: absolute !important;)
+minitool.com###article-fixed-nav-0, .csebox.js-fixed-nav.fixed-nav.full-width
 minnesotalawreview.org##.fl-page-header-container:style(padding-top: 15px !important; padding-bottom: 15px !important;)
 minnesotalawreview.org##.fl-page-header:style(position: relative !important;)
 minnesotalawreview.org##.fl-page:style(padding-top: 0 !important;)
