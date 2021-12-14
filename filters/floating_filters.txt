@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 12:38 2021-12-14
+! Last Modified: 14:15 2021-12-14
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -8913,6 +8913,10 @@ un.org###brand-bar:style(position: absolute !important;)
 unblockdomain.com###sticky-banner:style(position: absolute !important;)
 unchainedpodcast.com##.sticky-nav-container
 unclaimed.org##.jet-sticky-section:style(position: static !important;)
+uncoverdc.com##.td-header-menu-wrap, .wpb_wrapper:style(position: static !important;)
+uncoverdc.com##.td-header-wrap .td-affix .header-search-wrap .td-icon-search, .td-header-wrap .td-affix .sf-menu > li > a, .td-header-wrap .td-affix .td-main-menu-logo a:style(line-height: 60px !important;)
+uncoverdc.com##.td-header-wrap .td-affix .td-main-menu-logo img:style(max-height: 60px !important;)
+uncoverdc.com##.td-header-wrap .td-affix .td-main-menu-logo:style(height: 60px !important;)
 undark.org###home-middle:style(margin-top: 0 !important;)
 undark.org###main-menu, .top-bar-section:style(position: relative !important; top: 0 !important;)
 undark.org###wtr-progress, .jetpack
