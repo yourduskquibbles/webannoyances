@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 16:10 2021-12-13
+! Last Modified: 11:12 2021-12-14
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -10,7 +10,7 @@
 ! Works Best With: uBlock Origin or AdGuard
 
 ! Start Web Annoyances Ultralist - Floating Annoyances
-01.org,france24.com##.o-header:style(position: absolute !important;)
+01.org,france24.com,rfi.fr##.o-header:style(position: absolute !important;)
 1001tracklists.com###contentRoot:style(padding-top: 0 !important;)
 1001tracklists.com###fixTop:style(position: relative !important; top: 0 !important;)
 100milefreepress.net,abbynews.com,agassizharrisonobserver.com,albernivalleynews.com,aldergrovestar.com,arrowlakesnews.com,ashcroftcachecreekjournal.com,barrierestarjournal.com,bashawstar.com,boundarycreektimes.com,burnslakelakesdistrictnews.com,caledoniacourier.com,campbellrivermirror.com,castlegarnews.com,castoradvance.com,clearwatertimes.com,cloverdalereporter.com,coastmountainnews.com,comoxvalleyrecord.com,cowichanvalleycitizen.com,cranbrooktownsman.com,crestonvalleyadvance.ca,eaglevalleynews.com,eckvilleecho.com,goldstreamgazette.com,grandforksgazette.ca,haidagwaiiobserver.com,hopestandard.com,houston-today.com,indulgemagazine.ca,interior-news.com,invermerevalleyecho.com,kelownacapnews.com,keremeosreview.com,kimberleybulletin.com,lacombeexpress.com,ladysmithchronicle.com,lakecountrycalendar.com,lakecowichangazette.com,langleyadvance.com,langleytimes.com,mapleridgenews.com,missioncityrecord.com,mondaymag.com,nanaimobulletin.com,nelsonstar.com,northdeltareporter.com,northernsentinel.com,northislandgazette.com,oakbaynews.com,ominecaexpress.com,peacearchnews.com,peninsulanewsreview.com,pentictonwesternnews.com,pipestoneflyer.ca,ponokanews.com,pqbnews.com,quesnelobserver.com,reddeeradvocate.com,reddeerexpress.com,revelstokereview.com,rimbeyreview.com,rosslandnews.com,saanichnews.com,saobserver.net,similkameenspotlight.com,sookenewsmirror.com,stettlerindependent.com,summerlandreview.com,surreynowleader.com,sylvanlakenews.com,terracestandard.com,thefreepress.ca,thegoldenstar.net,thenorthernview.com,theprogress.com,trailtimes.ca,vancouverislandfreedaily.com,vernonmorningstar.com,vicnews.com,westerlynews.ca,wltribune.com###sticky-menu-bar-container:style(position: absolute !important;)
@@ -3594,9 +3594,10 @@ foxsportsgo.com##.fsg-header:style(position: absolute !important;)
 framablog.org###actionButtons:style(position: absolute !important; top: auto !important;)
 framablog.org###fnav:style(position: absolute !important;)
 framablog.org###wtr-progress
-france24.com###didomi-host
 france24.com##.header, .on-air-board-outer, .short-cuts-outer:style(position: relative !important; top: 0 !important;)
-france24.com##body.didomi-popup-open > :not(#didomi-host):style(filter: none !important;)
+france24.com,rfi.fr###didomi-host
+france24.com,rfi.fr##body.didomi-popup-open > :not(#didomi-host):style(filter: unset !important;)
+france24.com,rfi.fr##body.didomi-popup-open:style(position: unset !important; overflow: auto !important;)
 franchisehelp.com##.status-non-sponsor.franchise-cta.floating-cta
 fratellirossetti.com###skywalker_header_multiline:style(position: absolute !important;)
 freakhosting.ro##.eapp-popup-layout-variation-slide-in-left-component-enter-done

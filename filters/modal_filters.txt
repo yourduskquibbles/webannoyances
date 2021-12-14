@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 12:32 2021-12-13
+! Last Modified: 11:12 2021-12-14
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of other page covering elements. Cookie/GDPR notices will be removed in Cookie Filters sublist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -94,7 +94,7 @@ arm.com##.c-policies
 arris.com,forces.net,hostway.com###optanon
 artnet.com,thehackernews.com,zendesk.com###ouibounce-modal
 artsy.net,bestvpn.com,change.org,cryptocompare.com,discordbots.org,economist.com,franchisehelp.com,galoremag.com,goodreads.com,justanswer.co.uk,justanswer.com,kiwico.com,konbini.com,legalist.com,seattletimes.com,thehackernews.com,thenation.com,vogue.com##.modal
-as.com,marca.com###didomi-host
+as.com,euronews.com,france24.com,marca.com,rfi.fr###didomi-host
 asiatimes.com###footer-bar, .infiniscroll
 askleo.com,trickyways.com##.et_bloom_flyin
 askthebuilder.com###ns-back-to-top-arrow
@@ -360,7 +360,6 @@ enzymediane.com,politico.com,ustvgo.*##.grecaptcha-badge
 eonline.com###article-next, #article-prev
 epainassist.com##.popup-wrapper
 escapistmagazine.com,nintendoenthusiast.com##.mnmd-go-top
-euronews.com###didomi-host
 euronews.com##body:style(overflow: auto !important;)
 everlane.com##.modal__bg--default.modal__bg
 everydaydishes.com###modal-newsletter
@@ -411,9 +410,9 @@ foxcigar.com##.needsclick[class*="Modal__ModalPortalStyled-sc-"]
 foxglove.org.uk##.sqs-popup-overlay
 foxnews.com###janrainModalOverlay, #toapp, .notification-banner
 fragrancenet.com##.joinCoupSlider, .shopSpreeBadge
-france24.com###didomi-host, #batchsdk-ui-alert-container, .next
-france24.com##body.didomi-popup-open > :not(#didomi-host):style(filter: none !important;)
-france24.com##body.didomi-popup-open:style(position: unset !important;)
+france24.com###batchsdk-ui-alert-container, .next
+france24.com,rfi.fr##body.didomi-popup-open > :not(#didomi-host):style(filter: unset !important;)
+france24.com,rfi.fr##body.didomi-popup-open:style(position: unset !important; overflow: auto !important;)
 freecourseweb.com###to_top_scrollup
 freedomnode.com###overlay
 freedomoutpost.com,gizchina.com##.vw-scroll-to-top
