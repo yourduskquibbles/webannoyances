@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 13:35 2021-12-16
+! Last Modified: 09:17 2021-12-17
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -807,6 +807,8 @@ asiatimes.com##header .header-bottom .menu .menu-list .top-menu .search, header 
 asiatimes.com##header .header-bottom .sticky-container.sticky .menu .menu-list .top-menu[data-tag="china"]:style(border-left: none !important;)
 asiatimes.com##header .header-bottom .sticky-container.sticky .menu .menu-list .top-menu[data-tag="home"]:style(display: list-item !important;)
 asicentral.com###main-nav:style(position: absolute !important;)
+ask.fm##.sticky.side-column:style(position: static !important;)
+ask.fm##.topMenu:style(position: absolute !important;)
 askdrsears.com,spaceanswers.com###access:style(position: relative !important;)
 askthebuilder.com###search:style(position: relative !important;)
 askubuntu.com,serverfault.com,stackexchange.com,stackoverflow.com,superuser.com###overlay-header, .create-team-tooltip, .js-notice-sidebar-popover
