@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 10:29 2021-12-20
+! Last Modified: 10:34 2021-12-20
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -5865,6 +5865,7 @@ nationalgeographic.com##.sticky-container > .sticky, .sticky-container > div:sty
 nationalgeographic.org###stickynav, .fk-sticky--active > .sticky-inner-wrapper
 nationaljournal.com###menu, #promo_wrapper, #top_header:style(position: relative !important; top: 0 !important;)
 nationallawjournal.com###menu-nav:style(position: relative !important; top: 0 !important;)
+nationalobserver.com###site-header-wrapper:style(position: static !important; height: auto !important;)
 nationalpost.com##.below-content.entry-featured-media-container, .full-width.l-header, header:style(position: relative !important; top: 0 !important;)
 nationalpost.com##.klangoo-recom-wrapper.native-sticky:style(position: relative !important;)
 nationalpost.com##.masthead .logo:style(width: 458px !important; margin: 0 auto !important; padding: 17.5px 0 !important;)
