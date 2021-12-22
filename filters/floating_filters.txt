@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 11:29 2021-12-21
+! Last Modified: 09:13 2021-12-22
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -7179,7 +7179,7 @@ rsf.org###navbar:style(position: absolute !important; top: 0 !important;)
 rt.com##.header:style(position: relative !important; top: 0 !important; margin-top: 0 !important;)
 rt.com##.header_js_padding-bottom:style(padding-bottom: unset !important;)
 rticcoolers.com##.navbar-default.navbar:style(position: relative !important; top: 0 !important;)
-rumble.com##.content-header:style(position: absolute !important;)
+rumble.com##.content-header, .news_notification:style(position: absolute !important;)
 runitonce.com###body_container:style(padding-top: 0 !important;)
 runitonce.com###torso:style(overflow: unset !important;)
 runitonce.com##.global-nav:style(position: absolute !important; margin-top: 0 !important;)
