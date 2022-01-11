@@ -1,12 +1,12 @@
 ! Title: Web Annoyances Ultralist - Cookie Filters
-! Last Modified: 11:16 2021-12-29
+! Last Modified: 12:46 2022-01-11
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Cookie Annoyances - Remove Cookie/GDPR Banners, Notices, Overlays & Warnings
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
 ! Discord: https://discord.me/yourduskquibbles
 ! Issues: https://github.com/yourduskquibbles/webannoyances/issues
 ! License: https://creativecommons.org/licenses/by-sa/4.0
-! Copyright: © 2016-2021 by yourduskquibbles
+! Copyright: © 2016-2022 by yourduskquibbles
 ! Works Best With: uBlock Origin or AdGuard
 
 ! Start Web Annoyances Ultralist - Cookie Filters
@@ -318,6 +318,7 @@ channel4.com###all4gn-cookie-policy-notification
 chefkoch.de###ck-cookie-statement
 chocolatey.org,gdconf.com##.cookies-popup
 cision.com###cision-cookie-policy-banner
+ckeditor.com,mcdonalds.com#@#.cookie-banner
 clienti.italgas.it#@##gdpr
 codementor.io##div[class^="jsx-"]:has-text(Cookie Policy)
 coinbase.com##div.sc-fzoLsD.gkNzOD
@@ -402,7 +403,6 @@ love2dev.com##.gdpr.footer-prompt
 malwarebytes.com###cookie-consent-alert, #lightbox-overlay, #lightbox-popup
 masters.com##.privacy-notice
 matcha-jp.com##.cookie-info
-mcdonalds.com#@#.cookie-banner
 meds.se##.accepted-cookies
 mercola.com##.gdpr-wrap
 microcenter.com###PnlPrivacyAlert
