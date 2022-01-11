@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 12:50 2022-01-11
+! Last Modified: 12:56 2022-01-11
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -4509,9 +4509,10 @@ indianexpress.com##.small-logo
 indianexpress.com##.toggle-menu:style(top: 6px !important;)
 indianexpress.com##.topsocial a:style(line-height: 36px !important;)
 indianexpress.com##nav#fixednavbar:style(position: relative !important; height: 43px !important;)
-indiatimes.com###articlelist, #footer, #my_web_push_app_box_confirm, #pushSec, .badge_new, .js-common-hook.hook-section, .onScrolled, .openbox.next_article_sticky, .shareshow.article_sticky_header, .showBtmBar.articlelist_container
+indiatimes.com###articlelist, #footer, #my_web_push_app_box_confirm, #pushSec, .badge_new, .gbhmV, .js-common-hook.hook-section, .onScrolled, .openbox.next_article_sticky, .shareshow.article_sticky_header, .showBtmBar.articlelist_container
 indiatimes.com###feedbackForm:style(position: absolute !important;)
 indiatimes.com###navigation, #topNavFixed:style(position: relative !important; top: 0 !important;)
+indiatimes.com##.navsticky:style(position: static !important;)
 indiatimes.com##.opensticky.next_article_open:style(position: relative !important;)
 indiehackers.com##.product-metrics--pinned.ember-view.product-metrics--p1.product-metrics:style(position: absolute !important;)
 indiewire.com###masthead-section:style(position: relative !important; top: 0 !important;)
@@ -7912,6 +7913,8 @@ superlawyers.com###nav_bar_screen_wide:style(position: absolute !important;)
 supermoney.com###top-level-nav:style(position: absolute !important;)
 supermoney.com##.scroll-cta-with-navbar.navbar-cta, .scrolled-bar.navbar-anchors
 superpages.com##.col-sm-12.bus-tabs:style(position: relative !important; top: 0 !important;)
+superyachtfan.com###header:style(position: absolute !important; margin-top: 0 !important;)
+superyachtfan.com##img.lazyloaded[title="SuperYachtFan-logo"]:style(position: static !important; height: unset !important; width: unset !important;)
 supplyhouse.com###section-header-container:style(position: relative !important; top: 0 !important;)
 support.brightcove.com###CSAT:style(position: relative !important;)
 support.brightcove.com###block-inpagenavigationblock:style(position: absolute !important;)
@@ -9174,7 +9177,10 @@ visualstudio.com###main:style(transform: none !important;)
 vitalchek.com##.sticky.my_sticky.headdown:style(position: relative !important; top: 0 !important;)
 vivaldi.com###site-header, #header-menu, #vivaldiheader:style(position: absolute !important;)
 vlchelp.com###quickiebar:style(position: absolute !important;)
+voanews.com###page:style(padding-top: 0 !important;)
 voanews.com##.hdr, .header:style(position: relative !important; top: 0 !important;)
+voanews.com##.js .hdr-nav-frag .actions:style(display: block !important;)
+voanews.com##.show.opened.slide-in-wg, .sticky-nav-wrap.container
 vocabulary.com##.page-header:style(position: absolute !important; background: transparent !important;)
 vocativ.com##.ecap, .global-header, .primary-header, .voc-header, header:style(position: relative !important; top: 0 !important;)
 vogue.com##.cm-unit-global-header:style(transform: none !important; top: 0 !important;)
