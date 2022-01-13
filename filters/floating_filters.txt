@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 12:01 2022-01-13
+! Last Modified: 13:42 2022-01-13
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1933,8 +1933,8 @@ chronicle.com##.nav-ribbon--label:style(display: inline-block !important; visibi
 chronicle.com,ibtimes.*,mensjournal.com,wsj.com##body:style(overflow-x: hidden !important; overflow-y: scroll !important; padding-top: 0 !important;)
 chubstr.com##.sticky-header--active .site-header.size-set .logo img, .site-header.size-set.slidedown .logo img, .site-header.size-set.sticky-menu-2.stuck .logo img:style(height: 80px !important;)
 chubstr.com,contently.com,si.com###progress
+cigaraficionado.com###mainNavigation:style(position: relative !important; padding: 0 0 18px !important;)
 cigaraficionado.com##.nav:style(opacity: 1 !important; animation: none !important;)
-cigaraficionado.com,turnuav.com###mainNavigation:style(position: relative !important;)
 cigarandpipes.com###header-container:style(position: relative !important; top: 0 !important; height: 100px !important; box-shadow: none !important;)
 cigarandpipes.com###header.skin1 #header-container .container .header-wrapper:style(padding-top: 25px !important;)
 cigarandpipes.com###header.skin1 #logo:style(margin-top: 0 !important;)
@@ -3777,6 +3777,9 @@ getquip.com###launcher, .quip-nav:style(position: absolute !important;)
 getrevue.co##.navigation-desktop.navigation:style(position: absolute !important;)
 getshimmer.co###s-nav:style(position: absolute !important;)
 getsitecontrol.com,goodhousekeeping.com##.sticky.nav
+gettr.com###positionSticky:style(position: static !important;)
+gettr.com##.MuiContainer-maxWidthLg.MuiContainer-root:style(position: absolute !important;)
+gettr.com##svg[width="40"][height="40"]:has(circle)
 gettysburgreview.com##.rd-navbar--is-clone.rd-navbar, .ui-to-top
 getyounity.com##.nav-container.full-width-container:style(position: relative !important; top: 0 !important;)
 gfycat.com##.navigation-container:style(position: relative !important;)
@@ -8900,6 +8903,7 @@ tumblr.com##.l-header-container--refresh:style(position: absolute !important;)
 turbosquid.com###action_bar:style(position: static !important;)
 turkeypurge.com###main-header, #top-header:style(position: relative !important; top: 0 !important;)
 turntouch.com###notification-bar, .sticky-header:style(position: absolute !important; transform: none !important;)
+turnuav.com###mainNavigation:style(position: relative !important;)
 tutanota.com###headerNav:style(position: absolute !important; background-color: transparent !important;)
 tutanota.com##.navbar-fixed-top.navbar-bottom.navbar:style(position: relative !important; top: 0 !important;)
 tutorials.jenkov.com###bottomNavBar2Parent

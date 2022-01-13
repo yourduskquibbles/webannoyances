@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Cookie Filters
-! Last Modified: 12:46 2022-01-11
+! Last Modified: 13:42 2022-01-13
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Cookie Annoyances - Remove Cookie/GDPR Banners, Notices, Overlays & Warnings
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -313,6 +313,7 @@ bloomberglaw.com,codex.online,evry.com,neweracap.com,threadreaderapp.com##.cooki
 bloombergtax.com##[class*="CookieNotice_cookiesBar"]
 bt.com##.cookie-ui__cookieUI___3fxp1
 business-standard.com###eu_cookie
+calendardate.com##body > div > p:has-text(/cookies/)
 cameo.com###content > div[data-reactroot=""] div:has([id="cookie-policy-banner-close-btn"])
 channel4.com###all4gn-cookie-policy-notification
 chefkoch.de###ck-cookie-statement
@@ -366,6 +367,7 @@ gallup.com###gel-cookie-banner, [title="Gallup Cookie Banner"]
 game8.co###js-page-to-top, .js-cookies-eu.cookies-eu
 gcits.com##.avia-cookie-consent, .avia-post-nav, .mtsnb
 geeksforgeeks.org##.cookie-consent
+gettr.com##.jss86 .MuiGrid-root.MuiGrid-container:has(.MuiTypography-root):upward(2)
 gettyimages.fi###euCookieDialog
 gitlab.com###CybotCookiebotDialog
 globenewswire.com##.cookie-disclosure
