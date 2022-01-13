@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 11:53 2022-01-13
+! Last Modified: 12:01 2022-01-13
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -4874,6 +4874,10 @@ kinsta.com###nav:style(position: static !important;)
 kinsta.com###sidebar__sticky:style(position: relative !important; animation: none !important;)
 kinsta.com###site-menu:style(position: relative !important;)
 kinsta.com##.global-notification--email, .global-notification--ironman.global-notification
+kion546.com,krdo.com###masthead:style(margin-top: 0 !important;)
+kion546.com,krdo.com###pojo-a11y-toolbar:style(position: absolute !important;)
+kion546.com,krdo.com##.header__wrapper--fixed:style(position: static !important;)
+kion546.com,krdo.com##html:style(overflow-x: hidden !important;)
 kirkcenter.org###et-top-navigation:style(padding-top: 33px !important;)
 kirkcenter.org###main-header:style(position: absolute !important; box-shadow: none !important;)
 kirkcenter.org###page-container:style(margin-top: -1px !important;)
@@ -4953,8 +4957,6 @@ kqed.org##.components-NextHeader-___NextHeader__header_Tagline:style(display: bl
 kqed.org##.components-NextHeader-___NextHeader__wrap:style(position: static !important;)
 kraftrecipes.com###topHeader:style(position: relative !important; top: 0 !important;)
 kraken.com###head:style(position: absolute !important;)
-krdo.com###masthead:style(margin-top: 0 !important;)
-krdo.com##.header__wrapper:style(position: relative !important;)
 kremlin.ru##.topline__menu.topline:style(position: absolute !important;)
 kristeligt-dagblad.dk##.site-header:style(padding-top: 0 !important;)
 kristeligt-dagblad.dk##.site-header__separator--fixed, .site-header__separator.progress-border
