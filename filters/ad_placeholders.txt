@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Ad Placeholder Filters
-! Last Modified: 13:42 2022-01-13
+! Last Modified: 14:12 2022-01-13
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for empty advertising placeholders.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -525,6 +525,7 @@ reuters.com###reutersAppBanner, .DPSlot_container, [class*=".GetTheAppBanner_get
 reuters.com##.module-header:has-text(/Advertisement/):upward(1)
 reuters.com##[class^="SpacingContainer__container"] > [class^="AdSlot__container"]:upward(1)
 reviewjournal.com###rjth-region-under-article-content, .rj-ads-wrap-sq
+revolver.news##.ad-column-desktop
 revolvermag.com##.full-ad-wrapper, .st-ad-wrapper
 rockpapershotgun.com##.leaderboards
 rollcall.com##.float-footer-ad-wrap, .leaderboard
