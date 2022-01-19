@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 13:27 2022-01-18
+! Last Modified: 12:19 2022-01-19
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -4350,7 +4350,8 @@ icanvas.com###header:style(padding-top: 108px !important;)
 icanvas.com###nav-header:style(padding: 0 !important;)
 icanvas.com##.header-icon:style(top: 35px !important;)
 icanvas.com,moldmanusa.com,rag-bone.com###header-container:style(position: relative !important;)
-icims.com###block-menu-menu-quick-nav, .page_header, .sticky-container:style(position: absolute !important;)
+icims.com###block-menu-menu-quick-nav, .notifications-container, .sticky-container, header:style(position: absolute !important;)
+icims.com##header.header:style(background: 0 0 !important; box-shadow: none !important;)
 icj-cij.org##.languageHeader:style(position: absolute !important;)
 icon-park.com###footercontainer:style(position: relative !important; bottom: 0 !important;)
 iconninja.com##.group:style(margin-top: 80px !important;)
@@ -9227,8 +9228,8 @@ vuetifyjs.com##.v-snack__wrapper.v-sheet.theme--dark.default, button.v-btn--fixe
 w3.org##nav
 w3resource.com##.mdl-layout__content:style(overflow: unset !important;)
 w3schools.com###belowtopnav:style(padding-top: 0 !important;)
-w3schools.com###leftmenuinner:style(padding-top: 7px !important;)
 w3schools.com###leftmenuinner, #leftmenuinnerinner:style(position: relative !important;)
+w3schools.com###leftmenuinner:style(padding-top: 7px !important;)
 w3schools.com###sidenav:style(position: absolute !important; top: 112px !important;)
 w3schools.com##.sidesection:nth-of-type(4)
 w3schools.com##.w3-sidebar:style(overflow-y: unset !important;)
