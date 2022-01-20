@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Generic Filters
-! Last Modified: 12:46 2022-01-11
+! Last Modified: 11:48 2022-01-20
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for generic cosmetic filters - Cosmetically remove common annoyances found on multiple domains typically provided in the social, modal and newsletter Web Annoyances Ultralist sublists. Also includes cookie & gdpr warning elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1520,8 +1520,8 @@
 ##.site-nav-social-link
 ##.site-social
 ##.slide-share-button
-##.smart-banner
-##.smartbanner
+##.smart-banner:not(html):not(body)
+##.smartbanner:not(html):not(body)
 ##.smp-wrap
 ##.sns-btn.fb.react-share__ShareButton
 ##.sns-btn.reddit.react-share__ShareButton
@@ -2044,6 +2044,7 @@ californiasunday.com#@#.share-bar
 cbsnews.com#@#.sharebar
 cch.org.tw#@##sb-container
 cfx.re,discourse.pi-hole.net,flatlooker.com,hub.filterlists.com,onehack.us,pgportal.gov.in#@#.btn-social
+closermag.fr,mbank.cz,obi.ru#@#.smartbanner:not(html):not(body)
 cnet.com#@#.share-button
 codelearn.io#@#.sharing
 congee.pl,domenasportowa.pl#@#.scrollTop:not(html):not(body)
@@ -2085,7 +2086,6 @@ jobstreet.co.id,sorryantivaxxer.com,wix.com#@#.social-login
 jobvite.com#@#.postActions
 linkedin.com#@#[href*="linkedin.com/shareArticle"]
 masters.com#@#.social_bar
-mbank.cz,obi.ru#@#.smartbanner
 medallia.com,theben.de#@##scrollTop:not(html):not(body)
 mega-debrid.eu#@##mc_embed_signup
 mercopress.com#@##goToTop:not(html):not(body)
