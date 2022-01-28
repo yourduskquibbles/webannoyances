@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Cookie Filters
-! Last Modified: 14:12 2022-01-13
+! Last Modified: 22:20 2022-01-27
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Cookie Annoyances - Remove Cookie/GDPR Banners, Notices, Overlays & Warnings
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -322,7 +322,7 @@ cision.com###cision-cookie-policy-banner
 ckeditor.com,mcdonalds.com#@#.cookie-banner
 clienti.italgas.it#@##gdpr
 codementor.io##div[class^="jsx-"]:has-text(Cookie Policy)
-coinbase.com##div.sc-fzoLsD.gkNzOD
+coinbase.com##.ckSPDD, div.sc-fzoLsD.gkNzOD
 community.jivesoftware.com###cookie-consent-alert
 community.spotify.com###js-message-bar-cookie-notice, .lia-in.lia-dialog-titleless.lia-panel-dialog-modal-valuesurvey.lia-panel-dialog-modal-simple.lia-panel-dialog.lia-content.ui-corner-all.ui-widget-content.ui-widget.ui-dialog, .ui-widget-overlay
 comparitech.com##.ct-cookie-consent-pop
@@ -395,6 +395,7 @@ itv.com###itv-glob-cookie-policy, .js-site-alert.site__alert, .wrapp-cookie
 jamanetwork.com##.widget-GdprCookieBanner
 japaneseknifeimports.com##.eg-cc-window
 journals.sagepub.com###cookieBanner, #cookieBannerMobile
+kaggle.com###site-container .kyaiJw:has-text(/cookies/)
 kaggle.com##.site-header-react__cookies-notice-desktop, .site-header-react__cookies-notice-mobile
 knivesandtools.co.uk###cookies-message, #droplet
 kohler.com,redhat.com###consent_blackbar

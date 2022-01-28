@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Social Filters
-! Last Modified: 13:19 2022-01-18
+! Last Modified: 22:20 2022-01-27
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for social networking & sharing - Remove third party social media share sections, icons & other cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -836,6 +836,7 @@ repubblica.it##.rep-icon-youtube
 reuters.com###section-follow-buttons, #sharetool-container, #twitter-share-link, .Footer_social_3V2HY, .RightRail_fixedIsInViewport_34nin.RightRail_fixedIsAboveViewport_2Wlfx.RightRail_fixed-wrapper_3m6JO, .SocialTool_facebook_2Nibf.SocialTool_social-button_1Z8qb, .SocialTool_social-button, .SocialTool_twitter_1xUSq.SocialTool_social-button_1Z8qb, .amp-social-container, .google, .reuters-share, .share-container_10gSP, .sharetool, .slide-desc-share, .social_3V2HY, .util-social, [class*="SocialTools__container"]
 reuters.com##.ShareButtons__item___1ToOOl:nth-of-type(4):style(margin-left: 0 !important;)
 reuters.com##[class*="ShareButtons__container"] > [class*="ShareButtons__condensed"] > button[aria-label*="Facebook"], .Button__button___3FFWBE[aria-label="Share on LinkedIn"], [class*="ShareButtons__container"] > [class*="ShareButtons__condensed"] > button[aria-label*="Twitter"]:upward(1)
+reuters.com##[class*="ShareButtons__container"] > [class*="ShareButtons__item"] button:not([aria-label="Copy"]) svg:not([viewBox="0 0 21 18"]):upward(4)
 revealnews.org##.modal-share-icons
 reviewjournal.com##.rj-story-social
 reviewopedia.com###getsocial-wrap
