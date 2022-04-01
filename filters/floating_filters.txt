@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 11:52 2022-02-04
+! Last Modified: 22:19 2022-03-31
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -5264,7 +5264,7 @@ macobserver.com##.f-topbar-fixed:style(padding-top: 0 !important;)
 macrotrends.net###menu_container:style(position: relative !important;)
 macworld.com##.primaryNav--article:style(position: absolute !important;)
 macworld.com##.scaleArticleToc, #drr-container .scaleArticleToc:style(position: absolute !important; left: -190px !important; top: 5px !important; width: 140px !important;)
-macworld.com,variety.com##.jw-wrapper:style(position: absolute !important; top: 0 !important; left: 0 !important; right: 0 !important; bottom: 0 !important; max-width: 100% !important; max-height: 100% !important; margin: 0 !important;)
+macworld.com,variety.com##.jw-wrapper:style(position: absolute !important; display: block !important; top: 0 !important; left: 0 !important; right: 0 !important; bottom: 0 !important; max-width: 100% !important; max-height: 100% !important; margin: 0 !important; transform: none !important;)
 macys.com##.canvas-facet-container-fixed.panel-fixed:style(position: static !important;)
 macys.com##.canvas-facet-container-fixed:hover:style(overflow-y: auto !important;)
 madcoversite.com##.menubar:style(position: relative !important; top: 0 !important;)
@@ -5712,7 +5712,7 @@ mrctv.org###top-nav:style(position: relative !important; top: 0 !important;)
 mrexcel.com##.is-sticky.p-navSticky--primary.p-navSticky:style(position: static !important;)
 mrrooter.com###HeaderZone:style(position: relative !important;)
 msdn.microsoft.com###rightNavigationMenu, #tocnav:style(position: absolute !important;)
-msn.com###PaddlesDiv, #header-common:before, #sticky-footer, #stickyTitleBar, #subfoot, .loaded.next.paddle, .loaded.previous.paddle, .show.floatingfeedback, .spotlight-1 > div[style="height: 50px;"], .start.animate.close-mini, .close-mini, .commentContainer-DS-unknown1-1 button.cwt-fast-button.cwt-overlay-cta-button
+msn.com###PaddlesDiv, #header-common:before, #sticky-footer, #stickyTitleBar, #subfoot, .loaded.next.paddle, .loaded.previous.paddle, .show.floatingfeedback, .spotlight-1 > div[style="height: 50px;"], .start.animate.close-mini, .close-mini, .commentContainer-DS-unknown1-1 button.cwt-fast-button.cwt-overlay-cta-button, [class*="article_paddle-DS"]
 msn.com###header-common.stick-enabled:before:style(height: 0 !important;)
 msn.com###header:style(position: static !important; transform: translateX(0) !important;)
 msn.com###maincontent, #precontent, .irisbactive-top.ap .yveebxa, .irisbactive-top.ap .yvefofpyxkkbo, .irisbactive-top.gp .yveebxa, .irisbactive-top.gp .yvefofpyxkkbo, .irisbactive-top.channelplayerpage .yveebxa, .irisbactive-top.channelplayerpage .yvefofpyxkkbo, [class="i10c-mark-cssrule"], section.filmstrip .scrollouter:style(margin-top: 0 !important;)
@@ -6039,12 +6039,12 @@ newrepublic.com###fixed-header-container, .old-nav-container.pinned, .sticky-nav
 newrepublic.com##.HamburgerMenu, .SearchBar:style(position: absolute !important;)
 newrepublic.com##.HamburgerMenu___expanded--mini, .mainSearch--mini:style(position: static !important; margin-top: 0 !important;)
 newrepublic.com##.HomePageNav.--fadeOut.soldShortVerticalNav, .HomePageNav_container.soldShortVerticalNav.HomePageNavFull_container:style(visibility: visible !important; opacity: 1 !important;)
-newrepublic.com##.HomePageNavTiny.apocalypseSoonVerticalNav, .HomePageNavTiny.criticalMassVerticalNav, .HomePageNavTiny.soapboxVerticalNav, .HomePageNavTiny.soldShortVerticalNav, .HomePageNavTiny_container.apocalypseSoonVerticalNav, .HomePageNavTiny_container.criticalMassVerticalNav, .HomePageNavTiny_container.soapboxVerticalNav, .HomePageNavTiny_container.soldShortVerticalNav
 newrepublic.com##.HomePageNav_container:style(position: absolute !important;)
 newrepublic.com##.page-header:style(position: relative !important; top: 0 !important; margin-bottom: 0 !important;)
 newrepublic.com##.regular.article-container:style(padding-top: 0 !important;)
 newrepublic.com##.sticky-nav-container.pinned:style(box-shadow: none !important;)
 newrepublic.com##.sticky-nav-inner:style(background: #000 !important;)
+newrepublic.com#@#.HomePageNavTiny.apocalypseSoonVerticalNav, .HomePageNavTiny.criticalMassVerticalNav, .HomePageNavTiny.soapboxVerticalNav, .HomePageNavTiny.soldShortVerticalNav, .HomePageNavTiny_container.apocalypseSoonVerticalNav, .HomePageNavTiny_container.criticalMassVerticalNav, .HomePageNavTiny_container.soldShortVerticalNav
 newretirement.com##.fixed:style(position: static !important;)
 news-gazette.com###adLib, #addRelated, progress:style(position: relative !important; top: 0 !important;)
 news-medical.net##.body-wrap:before, .menu-container.container.main-menu:style(position: absolute !important; top: 0 !important; box-shadow: none !important;)
@@ -7121,6 +7121,7 @@ reuters.com##[class*="VideoLayout-right-container"]:style(position: static !impo
 reuters.com##[class*="VideoLayout-video-placeholder-"]:style(display: block !important; height: 56.25vw !important; max-height: calc(100vh - 200px) !important;)
 reuters.com##[class*="VideoLayout-video-player-"]:style(position: absolute !important; width: 100% !important; top: 0 !important; left: 0 !important;)
 reuters.com##[class*="VideoPlayer__player-container"]:style(width: 100% !important;)
+reuters.com##[class*="toolbar__container"]:style(position: absolute !important; top: 5% !important;)
 reuters.com##[class*="video-player__floating-container"]:style(position: static !important; padding: 0 !important;)
 reuters.com##[class*="video-player__player-container"] [class*="video-player__video-container"]:style(padding-bottom: 56.25% !important;)
 reuters.com##[class*="video-player__player-container"]:style(width: 100% !important; animation: none !important; border-radius: unset !important; box-shadow: none !important;)
@@ -7266,8 +7267,8 @@ sbs.com.au##.global-nav__header:style(position: absolute !important; transform: 
 scholastic.com##.main-sidebar .sidebar .sidebar-content, .nav, .sidebar-header:style(position: absolute !important;)
 scholastic.com##.sch-global-menu:style(position: relative !important; top: 0 !important;)
 schooldigger.com###navbar:style(position: relative !important; top: 0 !important;)
+science.org##.main-header, .main-header__secondary:style(position: static !important;)
 science.org##.main-header__secondary--publication .navbar-toggler:style(visibility: hidden !important; opacity: 0 !important;)
-science.org##.main-header__secondary:style(position: static !important;)
 science.org##.pill-menu:style(position: absolute !important; top: 554.867px !important;)
 science.org##.sections-navbar:style(position: absolute !important; left: -209px !important;padding-top: 362px !important;)
 science.org##.st-header
@@ -8222,6 +8223,7 @@ theamericanmirror.com,thepoliticalinsider.com##.page-wrapper.offset:style(margin
 theamericanmirror.com,thepoliticalinsider.com##header .masterhead .cta-button a:style(font-size: 14px !important; padding: 13px 22px !important; margin: 17px 17px !important;)
 theamericanmirror.com,thepoliticalinsider.com##header .masterhead .nav nav ul.menu li a:style(padding: 16px 10px !important;)
 theamericanscholar.org##.header-logo-image:style(max-width: 380px !important;)
+theankler.com##.main-menu-content:style(position: absolute !important; top: 0 !important;)
 theappeal.org##.is_stuck.d-md-block.d-none:style(position: absolute !important;)
 theappsolutions.com##.header:style(position: absolute !important; background-color: transparent !important;)
 theartnewspaper.com##.is-sticky.sticky.sticky-navigation-comp
@@ -9678,7 +9680,7 @@ wrike.com##.header__shadow:style(opacity: 0 !important;)
 wrike.com##header.header--sticky:style(position: absolute !important; )
 wsj.com###full-header, .WSJTheme__sector-unit-4_17ImS_zUt3L4vph6TcKkBK.WSJTheme__md-sector_1pJP-9Tul8uo9UZHx-ARin, .WSJTheme__sector-unit-4_2lPO_QLJgU7fodGLn8y_3N.WSJTheme__md-sector_11mIcrEevnV1H4euSkENvh, .WSJTheme__sector-unit-4_3uAJt-50EuvR3ILdIcAPL6.WSJTheme__md-sector_2ldy1fE4UGlWw3QDFvEj-t, .WSJTheme__sector-unit-8_1NbOhnuU6IPKVV4cu-C2Xb.WSJTheme__md-sector_1pJP-9Tul8uo9UZHx-ARin, .WSJTheme__sector-unit-8_1sJbmmXus7rqqLAtIWPEr6.WSJTheme__md-sector_2ldy1fE4UGlWw3QDFvEj-t, .WSJTheme__sector-unit-8_31FKUe5DL6g9rypZrtu0kk.WSJTheme__md-sector_11mIcrEevnV1H4euSkENvh, .hide8.hide4.DJHat, .mega-nav, .logged-out.at8units.hat-closed.cnav-closed.edition-picker-footer-unexpanded.edition-picker-unexpanded.hamburger-sections-active.hamburger-closed.search-closed.stuck.unstuck-usernav.unscrolled.mobile-nav, .style__at12units_2zBLFHSA9E0ELomjd0hIGJ.style__stick-cust-nav_1Sgmsy032Q5y4S_8j9Q_nh.style__scrolled_2R_Vmp-c-MDN-CKbTiTOya.style__wsj-header_34lQSbG_0ms4yUg0JKTlQ0, .style__at12units_UBXdDqMqvscHidlpmQZ6h.style__stick-cust-nav_1TmM50QDDL_l8iqfGHP_C3.style__scrolled_S35y-Q2jaGv7Ns7p4t74E.style__wsj-header_22l5Z8m7UC9IqccfdULTJ6, .style__at12units_hNUq-5KbYuHXq7Tm5K8In.style__stick-cust-nav_GVvxlwhu56xsYLpEYcYl6.style__scrolled_3f55E_Sg705w7aXJWonyxo.style__wsj-header_2eGdYq6qJ9DnSzu70Z4bo1, .style__at16units_1Ajy8qI5jPkLqbasqIErFs.style__stick-cust-nav_GVvxlwhu56xsYLpEYcYl6.style__scrolled_3f55E_Sg705w7aXJWonyxo.style__wsj-header_2eGdYq6qJ9DnSzu70Z4bo1, .style__at16units_1OtkLFintMX3neDqoUy6L2.style__stick-cust-nav_1Sgmsy032Q5y4S_8j9Q_nh.style__scrolled_2R_Vmp-c-MDN-CKbTiTOya.style__wsj-header_34lQSbG_0ms4yUg0JKTlQ0, .style__at16units_232osa60J_L2xxs8yf-igg.style__stick-cust-nav_1TmM50QDDL_l8iqfGHP_C3.style__scrolled_S35y-Q2jaGv7Ns7p4t74E.style__wsj-header_22l5Z8m7UC9IqccfdULTJ6, .style__mdstrip_1BZBmHB38biUmVPCpPp0Ty.style__mast-head-container_3ZRcPdcChZfT1ThM3v3LLV, .style__no-hover_4K4bYt_IXexfyxCPoMe6C.style__mobile-nav_2GAjVDdd5TrKYE8DOf3zvT, .style__scrolled_1KqqY_CTh3JC3M-yub6_TC.style__mast-head-container_2-BjWSrF0qOmT-7SydjYgO, .style__small_280dtFEAAwn8xHKuYAQ-D7.style__logo_Ms7ZFr_j7_kFb3RngGpfX, .styles__sector-unit-4_2Br0pVgHL_9uiZ7SjfkdPu.styles__md-sector_25BZ8ocm0Q-M_AHiAOsaor, .styles__sector-unit-8_3phLezaz5L2o8aja481Bjm.styles__md-sector_25BZ8ocm0Q-M_AHiAOsaor, .unsubNav.signin-container.module-navigation, .style__show-share-tools_2eNUztYQhyy1Z2mhTqLWjP.style__mdstrip_1fyX3kHppwm9Usk9j5yY1Z.style__scrolled_1KqqY_CTh3JC3M-yub6_TC.style__mast-head-container_2-BjWSrF0qOmT-7SydjYgO, .WSJTheme--sector-unit-8-1sJbmmXus7rqqLAtIWPEr6, .WSJTheme--sector-unit-4-3uAJt-50EuvR3ILdIcAPL6, .WSJTheme--sector-unit-4--3uAJt-50, .WSJTheme--sector-unit-8--1sJbmmXu:style(position: relative !important; top: 0 !important;)
 wsj.com###slimline-header header[class*="style--slimline-"], .carousel-container, .content-wrapper, .contentFrame, .cr_section_1.sector, [class*="style--slimline"][class*="style--desktop-"][class*="style--fixed-top-"]:style(padding-top: 0 !important;)
-wsj.com###tooltip-container, .style__scrolled_2uYEURYgK-YL-DNhPsSxyl.style__mast-head-container_3ZRcPdcChZfT1ThM3v3LLV, .style--wsj-nav-promobottom-3cxo1rW2iu37P_RbJ-Ug8E, [class*="style--collapsed-header-"], [class*="style--share-container-"], header:not([class*="style--dark-"]):not([class*="style--fixed-top-"]) #masthead-container[class*="style--mast-head-container-"][class*="style--scrolled-"][class*="style--is-fixed-"], [class*="style--slimline--"]:not([class*="style--fixed-top--"]) [class*="style--mast-head-container--"][class*="style--is-fixed--"]
+wsj.com###tooltip-container, .style__scrolled_2uYEURYgK-YL-DNhPsSxyl.style__mast-head-container_3ZRcPdcChZfT1ThM3v3LLV, .style--wsj-nav-promobottom-3cxo1rW2iu37P_RbJ-Ug8E, [class*="StandardHeader__CollapsedHeader-sc-"], [class*="StandardHeader__SearchSpacing-sc-"], [class*="style--collapsed-header-"], [class*="style--share-container-"], header:not([class*="style--dark-"]):not([class*="style--fixed-top-"]) #masthead-container[class*="style--mast-head-container-"][class*="style--scrolled-"][class*="style--is-fixed-"], [class*="style--slimline--"]:not([class*="style--fixed-top--"]) [class*="style--mast-head-container--"][class*="style--is-fixed--"]
 wsj.com##.WSJTheme__masthead_2OoI1al70fhTikbZur4fz8:style(margin-top: 0 !important; margin-bottom: 0 !important;)
 wsj.com##.box-header, .style__customer-nav_gYUvXMxi-BCVRsVs8PzQe, .style__mast-head-container_DzcwPkNtboP12eehQfvbs, .style__mdstrip_1OL7tHDuhE5n4W7uw_mYva.style__mast-head-container_DzcwPkNtboP12eehQfvbs, .style__mdstrip_1fyX3kHppwm9Usk9j5yY1Z.style__mast-head-container_2-BjWSrF0qOmT-7SydjYgO, .style--mast-head-container-DzcwPkNtboP12eehQfvbs, .style--mast-head-container--DzcwPkNt:style(position: absolute !important;)
 wsj.com##.customerNav:style(position: relative !important; top: 14px !important; height: 50px !important; max-width: 300px !important; float: right !important; left: 0 !important;)
@@ -9709,6 +9711,7 @@ wsj.com##.style__masthead-strap_1M8tiEOK_ZstuN4MWbJKCc:style(opacity: 1 !importa
 wsj.com##.style__masthead_1pXevH3d78skc-4dpfbSMM, .style__wsj-header_34lQSbG_0ms4yUg0JKTlQ0.style__scrolled_2R_Vmp-c-MDN-CKbTiTOya:not(.style__section_3ZmUrl-hyMhpr-JVMlDypN), .style--masthead-2SN97Xk2ktaC_662rHZsz2, [class*="style--scrolled-"]:not([class*="style--section-"]) [class*="style--masthead-"], [class*="style--scrolled--2xGSkYLs"]:not([class="style--section--mm2ywaWb"]) [class*="style--masthead--"]:style(padding-bottom: 0 !important;)
 wsj.com##.style__sector_b63KKbwfDeV7C50fFCTNH:style(margin-top: 10px !important;)
 wsj.com##.style__share-container_35b8XUuLQlfuFrB6wOrmLK, .style--share-container-35b8XUuLQlfuFrB6wOrmLK, .style--show-share-tools-2VNHbNhEkUZyChoiJ-hayF.style--remove-share-tools-14HXP5pLhoKPx7p-ZTVKcn .style--share-container-35b8XUuLQlfuFrB6wOrmLK:style(top: 40px !important;)
+wsj.com##[class*="ShareTools__Container-sc-"]:style(position: relative !important; top: 100px !important;)
 wsj.com##[class*="WSJTheme--ribbon-"]:style(position: static !important; top: auto !important;)
 wsj.com##[class*="style--masthead--"]:style(height: auto !important;)
 wsj.com##[class*="style--scrolled-"] [class*="style--brand-link-"][class*="style--section-front-"]:style(width: 90px !important; height: 55px !important; background-size: 88% !important; background-position: 0 8px !important;)

@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Newsletter Subscription Filters
-! Last Modified: 11:52 2022-02-04
+! Last Modified: 22:19 2022-03-31
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for newsletter annoyances - Remove newsletter & other subscription cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -536,7 +536,7 @@ redhat.com##.block--cta, .show.subscribe-sidebar
 redstate.com##.newsletter-sign-up
 refinery29.com##.email-acquisition
 religionnews.com##[href="/subscribe-to-rns-newsletters/"]:upward(1)
-reuters.com###hp-newsletters, .NewsletterSignUp_container, [class*="NewsletterCard__container"], [class*="NewsletterSignup-container-"]
+reuters.com###hp-newsletters, .NewsletterSignUp_container, [class*="NewsletterCard__container"], [class*="NewsletterSignup-container-"], [class*="newsletter-card__container"], [class*="registration-prompt__container"]
 revealnews.org##.newsletter
 revelist.com##.news-subscription
 revolvermag.com###e2ma_signup_form
@@ -622,6 +622,7 @@ theamericanconservative.com##.c-card-simple-cta, .widget_sign-up-form-widget
 theamericanmirror.com##.cta-button, .email-signup
 theamericanmirror.com##h3:has-text(/Get Our Email Newsletter!/)
 theamericanscholar.org##.sidebar-block-newsletter
+theankler.com##.subscription-widget-wrap
 theatlantic.com###series-newsletter-signup, .c-popular__container--newsletter, .c-subscription, .module-newsletter-signup, .newsletters, .sign-up, .subscribe, [class*="HomepageMiddle_newsletters"]
 theawl.com##.footer-newsletter
 thebaffler.com##.newsletter-container, .row.single-email
