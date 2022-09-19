@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 10:53 2022-09-19
+! Last Modified: 11:58 2022-09-19
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of other page covering elements. Cookie/GDPR notices will be removed in Cookie Filters sublist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -163,7 +163,9 @@ bk.com##.in.fade.modal-backdrop
 bk.com##body.modal-open:style(position: unset !important;)
 blacktel.io##.top-info
 blakkpepper.com###ppsPopupBgOverlay
+blindmanspuff.com##.active-4.active.modal-wrap
 blindmanspuff.com##.optin-monster-saas-overlay
+blindmanspuff.com##body.modal-active:style(overflow: auto !important;)
 blog.checklyhq.com##.progress-container
 blog.davey.com##.opened.state-is-ccpa.collection-overlay
 blog.feedspot.com###exitpopup, #instantpopup, #wp_subscribe_popup_clone
@@ -1052,7 +1054,6 @@ warroom.org,watchpro.com##html.hustle-no-scroll:style(overflow-x: auto !importan
 washingtonexaminer.com##.dy-modal-container
 washingtonian.com##.keepReading
 washingtonpost.com###drawbridge-signup-overlay, #exposeMask, #fusion-app .bottom-0.top-0.right-0.left-0.fixed, #wallIframe, .content_gate, .jqm-init.arrow_box.story-label-explainer, .jqmOverlay, .overlay-template, .simple-overlay:not(.usw_Signin), [data-qa="paywall"]
-washingtonpost.com##body:not([tabindex="1"]):style(position: unset !important; height: unset !important; overflow-y: auto !important;)
 washingtonpost.com##html[style*="overflow: hidden;"]:style(overflow: auto !important;)
 washingtontimes.com##body:style(overflow-y: scroll !important;)
 watchpro.com###wpflixs-back-top

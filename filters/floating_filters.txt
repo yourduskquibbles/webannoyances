@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 10:53 2022-09-19
+! Last Modified: 11:58 2022-09-19
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -1342,6 +1342,9 @@ bleepingcomputer.com##header:style(position: relative !important; top: 0 !import
 blendswap.com###blendswap-header:style(position: absolute !important;)
 blindmanspuff.com###main-header-wrapper:style(height: 80px !important;)
 blindmanspuff.com###main-header:style(position: relative !important; height: 80px !important;)
+blindmanspuff.com###site-navigation.sticky-top:style(position: static !important;)
+blindmanspuff.com##.logo-only-when-stuck .logo-main-menu:style(opacity: 0 !important; width: 0 !important; padding-left: 0 !important;)
+blindmanspuff.com##.sidebar-wrap.clearfix.block:style(position: relative !important; transform: none !important;)
 blockchain.com##.Header__GlobalNav-ra9ecu-0:style(position: absolute !important; top: 0 !important; transform: none !important;)
 blockchain.com##.scrolling:style(position: absolute !important;)
 blockchain.info,data.swiftkey.com,grow.com,html-tidy.org,impossiblefoods.com,nitter.13ad.de,nitter.42l.fr,nitter.drycat.fr,nitter.lelux.fi,nitter.net,nitter.nixnet.xyz,nitter.pro,nitter.snopyta.org,rgagnon.com,starttls-everywhere.org,teamtreehouse.com,urbanairship.com,userchrome.org,victoriassecret.com##nav:style(position: absolute !important;)
@@ -2793,8 +2796,8 @@ docs.aws.amazon.com##landing-page-content:style(height: 105% !important; backgro
 docs.github.com##.article-grid-toc-content:style(position: static !important;)
 docs.gitlab.com###doc-nav > .position-sticky.table-of-contents-container.markdown-toc, .active.nav-wrapper, .header:style(position: absolute !important;)
 docs.google.com###docs-homescreen-add:style(opacity: 1 !important;)
-docs.google.com##.docs-homescreen-fcc-pinnedcontainer-pinned.docs-homescreen-fcc-pinnedcontainer, .docs-homescreen-floater-header-shadow.docs-homescreen-floater-grid-header.goog-scrollfloater, .docs-homescreen-sftc.goog-scrollfloater, .gb_sc.gb_Id.gb_tb.gb_Xa, header:style(position: absolute !important;)
 docs.google.com##.docs-homescreen-floater-grid-header.goog-scrollfloater:style(position: absolute !important; top: 64px !important;)
+docs.google.com##.docs-homescreen-floater-header-shadow.docs-homescreen-floater-grid-header.goog-scrollfloater, .docs-homescreen-sftc.goog-scrollfloater, .gb_sc.gb_Id.gb_tb.gb_Xa, header:style(position: absolute !important;)
 docs.google.com##.docs-homescreen-floater-header-title:style(line-height: 44px !important;)
 docs.google.com##.docs-homescreen-homescreenmain > div:nth-child(4):style(opacity: 1 !important; display: block !important;)
 docs.google.com##.docs-homescreen-item-container > div:nth-of-type(1):style(position: relative !important; visibility: visible !important;)
