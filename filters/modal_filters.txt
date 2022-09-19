@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Modal Overlay Filters
-! Last Modified: 12:08 2022-05-05
+! Last Modified: 10:53 2022-09-19
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Modal Overlay's - Remove interstitial modal overlay elements - also includes removal of other page covering elements. Cookie/GDPR notices will be removed in Cookie Filters sublist
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -74,6 +74,7 @@ all-that-is-interesting.com,allthatsinteresting.com##.b-modal, .popup
 allinfosecnews.com##.nataraja-back-to-top
 allmodern.com,birchlane.com,jossandmain.com,wayfair.com##.popup-block
 alternet.org###bpcontainer
+amazingribs.com###wp-counter
 amazingribs.com##.wpsta-join-the-club
 amazon.*###a-popover-lgtbox
 americanheritage.com###popup-dialog-background, #popup-dialog-window
@@ -119,7 +120,7 @@ australiangolfdigest.com.au##.mcwidget-overlay
 autozone.com###proactiveChat
 avclub.com,clickhole.com,deadspin.com,earther.com,gizmodo.com,jalopnik.com,jezebel.com,kinja.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com###lightbox_overlay_div, #privacypolicy
 awscloud.com##.mo-wp
-axios.com###referrerModalCTA--modal
+axios.com###referrerModalCTA--modal, .Modal_ctaContainer__kHYHl
 azcentral.com##.bx-impress-in, .bxc, .longform-flyouts.icon-shadow.icon-box
 babycenter.com##div.reveal-overlay
 babycenter.com,carhartt.com,fastcompany.com,gardensalive.com,sandiegoreader.com,usnews.com##.reveal-modal, .reveal-modal-bg
@@ -129,6 +130,7 @@ bakingsteel.com###spc-popup-mask
 baltimoresun.com,capitalgazette.com,chicagotribune.com,citypaper.com,courant.com,dailypress.com,mcall.com,nydailynews.com,orlandosentinel.com,pilotonline.com,sun-sentinel.com###zephr-overlay
 baltimoresun.com,capitalgazette.com,chicagotribune.com,citypaper.com,courant.com,dailypress.com,mcall.com,nydailynews.com,orlandosentinel.com,pilotonline.com,sun-sentinel.com##html[data-dss-meterup], [data-dss-meterup] body:style(overflow: auto !important;)
 bankrate.com##.glyphicon-arrow-up.glyphicon
+barbecuebible.com###newsletter_pop, #newsletter_pop_bg
 baseballdailydigest.com,dispatchtribunal.com,fairfieldcurrent.com,financerecorder.com,marketbeat.com,mayfieldrecorder.com,mitchellmessenger.com,rivertonroll.com,rocklandregister.com,slatersentinel.com,sundanceherald.com,techknowbits.com,thecerbatgem.com,trentdailytimes.com###exit-overlay, #exit-overlay-inline, #mb-bar, #optinform-container, #SecondaryPush, .mcwidget-overlay
 baseread.com##.active.more-stories-text-1.right.more-stories
 batcmd.com###cmsg
@@ -408,6 +410,7 @@ focus.de###nlgate, #nlgate-overlay-0
 food52.com###desktop-email-modal-wrapper, #mobile-email-modal-wrapper
 foodnetwork.com##.prev-next-wrapper
 foodprocessing-technology.com,medicaldevice-network.com,ship-technology.com##.corner-modal
+fortune.com##[id*="lightbox-iframe-"], [id*="sidebar-overlay-lightbox"]
 forum.laragon.org##.alert-window
 forums.att.com##.scrollBubble
 forums.xfinity.com##.lia-panel-dialog-modal-simple
@@ -725,6 +728,7 @@ omni.se##.psi-parent
 opensecrets.org###floating-donate-button
 opera.com###overlay
 opsian.com###bio_ep, #bio_ep_bg, .signup-popup
+outkick.com##.elementor-popup-modal
 outsystems.com##.header-progress-bar
 owler.com###pageless-onboarding-popup
 ozy.com##.PopUpsMainSite
@@ -792,6 +796,7 @@ quora.com##.growl_overlay, .modal_promoted_content
 qz.com##div[aria-labelledby="subscribe-bar-primary-text"]
 radarbox24.com###privacy-popup
 radaronline.com##.jeeng-widget-reset, .topic-bar
+radaronline.com##[data-modal-overlay="true"]
 rankedboost.com##.bttt-active
 ratemyprofessors.com###rateReminderModal
 rawstory.com##.mvp-to-top.back-to-top.mvp-fly-top
@@ -819,7 +824,7 @@ retailmenot.com##.ReactModalPortal, div[data-react-modal-body-trap]
 reuters.com###mcxInvitationModal
 reviewmeta.com###bottom-consent-bar, #terms_modal
 revisionisthistory.com###mail
-revolver.news##.jquery-modal
+revolver.news###signup-modal, .jquery-modal
 revolver.news##body:style(overflow: auto !important;)
 revouninstaller.com###popupModal, .modal-backdrop
 rewire.news###austin-optin, .austin-background
@@ -880,7 +885,7 @@ sophos.com##.newsletter-panel
 sothebys.com###NotificationOverlay
 soundbaze.com.ng,thenationalpulse.com##.afc_popup
 soundcloud.com##.announcements, .upsellBanner
-space.com###ec-popup-modal, #exit-intent-modal_1
+space.com###ec-popup-modal, #exit-intent-modal_1, .exitIntent.exit-intent-slice.slice-container
 spectator.co.uk##.aria-offscreen:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 spectator.co.uk##.spev-modal-active:style(overflow: visible !important; position: static !important;)
 spectator.co.uk##.spev-modal-wrapper
@@ -919,7 +924,8 @@ ted.com###recommends-banner, ._Notice_vquc8_16
 tested.com,wonderwall.com###footer-notification
 the-scientist.com###Modal
 theadvocate.com##.popover-content
-theathletic.com###free-trial-button-sticky-wrapper
+theathletic.com###darken-overlay, #free-trial-button-sticky-wrapper, #slideup-paywall
+theathletic.com##body.noscroll:style(overflow: auto !important; position: unset !important;)
 theatlantic.com###paywall, .c-leaflets__container, .c-non-metered-nudge, .c-nudge__container, .injector-promo, .js-non-metered-nudge, [data-testid="non-metered-nudge"]
 theatlantic.com##body:style(height: 100% !important;)
 theatlantic.com##html, body:style(overflow: auto !important;)
@@ -941,6 +947,10 @@ thedailybeast.com##body.tp-modal-open:style(overflow-y: scroll !important;)
 thedailybeast.com##html:style(overflow-x: hidden !important; overflow-y: auto !important;)
 thedailybell.com##.tve-leads-slide-in
 thedailywtf.com###alert_button_desktop_notifications
+theepochtimes.com###modal-OVERLAPABLE
+theepochtimes.com##body[style="overflow: hidden;"]:style(overflow: auto !important;)
+thefederalist.com##.pum-overlay.pum
+thefederalist.com##html.pum-open.pum-open-overlay, html.pum-open.pum-open-overlay.pum-open-fixed .pum-overlay:style(overflow-x: hidden !important; overflow-y: scroll !important; padding-right: 0 !important;)
 thegeorgiareview.com###sgpb-popup-dialog-main-div-wrapper, .sgpb-popup-overlay
 theglobeandmail.com###pianowrapper, #subscription-pencil-area, .ab-iam-root
 thegoodtrade.com##.visible.sqs-popup-overlay.sqs-widget.yui3-widget
@@ -984,6 +994,7 @@ timeanddate.com###mpo
 timeout.com##.js_dimmed_background_mobile
 timesofisrael.com###modal, #nl-modal
 tips.net###lightbox_backdrop, #pop1_b, #pop1_c, #pop1_s
+tnsr.org###popup.modal
 toddstarnes.com##.copy-layer-background.sqs-slide-layer-content
 toms.com###gv-btop
 tomsguide.com,tomshardware.*###ec-modal, #prism-modal
@@ -1090,8 +1101,8 @@ yodalearning.com##body:style(margin-top: 0 !important;)
 yodalearning.com##w-div:has([role^="dialog"])
 youtube.com###upsell-dialog-text > a[href*="sign"]:upward(body > * > *)
 youtube.com##.opened:not(.ytcp-bulk-actions):remove()
+youtube.com##ytd-popup-container > tp-yt-paper-dialog > ytd-mealbar-promo-renderer, ytd-popup-container > tp-yt-paper-dialog > yt-mealbar-promo-renderer:has-text(/Claim Offer|Join now|Not Now|YouTube TV|live TV|Live TV|movies|sports|Try it free|unlimited DVR|watch NFL/)
 youtube.com##ytd-popup-container > tp-yt-paper-dialog > ytd-mealbar-promo-renderer:has([href*="tv.youtube.com"])
-youtube.com##ytd-popup-container > tp-yt-paper-dialog > ytd-mealbar-promo-renderer:has-text(/Claim Offer|Join now|Not Now|YouTube TV|live TV|Live TV|movies|sports|Try it free|unlimited DVR/)
 youtube.com##ytd-popup-container paper-dialog:has-text(/Changes to YouTube’s Terms of Service|Check out your new Library|Get access to exclusive perks|Get YouTube without the ads|How is your experience|How is YouTube today|Join now|Our Terms of Service have been updated|Rate your ads|Try it free|Try the YouTube Kids app|What is your biggest complaint|Which problems are you experiencing|You're signed out of YouTube|YouTube TV/)
 youtube.com##ytd-popup-container yt-bubble-hint-renderer:has-text(/Get access to exclusive perks/)
 youtube.com##ytd-popup-container yt-tooltip-renderer:has-text(/Choose what to play next|Join this channel and unlock/)

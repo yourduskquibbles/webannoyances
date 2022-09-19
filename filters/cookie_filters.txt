@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Cookie Filters
-! Last Modified: 22:20 2022-01-27
+! Last Modified: 10:53 2022-09-19
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Cookie Annoyances - Remove Cookie/GDPR Banners, Notices, Overlays & Warnings
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -392,6 +392,8 @@ ibtimes.*###IBTCookiePolicy
 ifre.com##.welcome-cookie
 ikea.com##.hnf-banner
 itv.com###itv-glob-cookie-policy, .js-site-alert.site__alert, .wrapp-cookie
+itv.com##.syrenis-cookie-widget
+itv.com##body:style(overflow: auto !important;)
 jamanetwork.com##.widget-GdprCookieBanner
 japaneseknifeimports.com##.eg-cc-window
 journals.sagepub.com###cookieBanner, #cookieBannerMobile
@@ -432,6 +434,7 @@ notebookcheck.net###nbcCookieChoice
 nvidia.com###cookiePolicy-layer
 nyse.com###cookie-disclaimer
 nytimes.com###gateway-content, #lireDock, #overlay, #step-two-modal, #welcome-back-modal, .ButtonModal-container--2sXp8, .LoginPrompt-loginPrompt, .MAG_web_anon_coronavirus-dock, .bundle-payflow, .bundle-payflow-module, .expanded-dock, .gdpr[data-testid="gdpr-dock"], .modal:not([class="modal user-settings-modal "]):not(.swiper-slide), .nytc---modal-window---contentBase, .nytc---modal-window---windowContainer, .nytc---shared---modalContentContainer, .overlay:not(svg), [data-testid="expanded-dock"]:style(display: none !important;)
+nytimes.com##div span[data-gtm-trigger="cookie_banner_dismiss"]:upward(1)
 officecentre.nl,snusbolaget.se#@#.cookiebar
 onsitegas.com###gdpr_footer
 oponeo.pl#@#.cookieInfo
@@ -455,8 +458,10 @@ rappler.com###cookie-popup-rappler, #emailPopupDiv
 razer.com##app-razer-cookies
 realclearpolitics.com##.cc-stop-overlay, .cc-window
 redhat.com##.redhat-cookie-banner
+registerbosch.com##.cookieinfo-banner
 remarkable.com##[class*="CookieBarstyles__Bar"]
 reuters.com##html[style*="overflow: hidden;"]:style(overflow: auto !important;)
+reviewjournal.com##.accept-cookie
 revolver.news##.notice
 revouninstaller.com###consentAccepted
 ripoffreport.com###live-gdpr, #live-popover
@@ -509,12 +514,15 @@ tvdateswatch.com##.cp-popup-container
 ubackup.com##.ensureCookie
 uber.com##[data-baseweb="toaster"]:has-text(/third party cookies/)
 umaidry.com###cookies-wrapper, .springmail-modal, .springmail-overlay
+unicode-table.com##.js-cookie--showed.cookie
 usgamer.net###onetrust-consent-sdk, #onetrust-banner-sdk
 v3.co.uk###rdm-cookie-consent
 vev.io,vidup.io##.Cookie
 volkswagenag.com##.cookieWarning
+wallstreetmojo.com###cookie-block
 weather.com##[id^="WxuPrivacyDataNotice-main-"], [id^="WxuPrivacyDataNotice-meta"], [id^="main-PrivacyDataNotice"]
 whoisxmlapi.com##.cookie-message-block
+wolframalpha.com##._Sjp9:has-text(/cookies/)
 www.google.com###js-cookie-banner
 youtube.com###consent-bump:remove()
 yubico.com##.cookie-pop

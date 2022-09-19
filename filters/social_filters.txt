@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Social Filters
-! Last Modified: 22:19 2022-03-31
+! Last Modified: 10:53 2022-09-19
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for social networking & sharing - Remove third party social media share sections, icons & other cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -168,6 +168,7 @@ blogs.ancestry.com##.an-share-buttons
 blogspot.ca##.followgooglewrapper
 bloody-disgusting.com,complex.com,firstwefeast.com,geekytyrant.com,totalprosports.com###ctoolbar
 bloomberg.com###header-sharing, #hub_social_buttons, .Social__Wrapper, .bb-nav-social__link, .bb-nav-social__more-icon, .blvs-share-button, .highlights-v6-story__social, .share-article-button, .sticky-social-buttons
+bloomberglinea.com##.ts-share-bar-custom
 bloombergquint.com##.article__details__share, .bq-footer__social, .js-article-details-share-sticky, .js-subscription-combo-box, .share-module__container__AuuXv, .share-module__list__19rxp, .share-toggle-module__share-button__2DRMl, .social_buttons-module__container___3CXN7, .storyshare__icons, div[class^="two-stories-with-ad-slot-m__ad_container"], [class*="share-floating-expanded-"], [class^="share-toggle-module__share-button-top"]
 bnonews.com,duffelblog.com,summit.news##.g1-sharebar-off.g1-sharebar-loaded.g1-sharebar.g1-row
 boingboing.net###followbb
@@ -278,7 +279,7 @@ dailycaller.com##article li:has([data-social="tw"])
 dailycaller.com##footer ul:has([href*="facebook.com"])
 dailydot.com###dailydot-socialbar, .dd-share-bar-wrapper, .padd-left-none.inline-flex.share-social-list
 dailyfx.com##.social-icon-art, .top-social-icon
-dailymail.co.uk###dms-txt, #shareCountBottom, .facebook, .facebook-like-static, .fb, .fff-social-links, .floating-buttons, .horizontal-1eH9F.container-3zJLP, .linksHolder-3KBa2, .mailto, .mobile-sharing-button, .mol-related-videos-panel-social, .share-count, .share-facebook-long, .share-fbmessenger, .share-flipboard, .share-icons, .share-link, .share-pinterest, .share-twitter, .shareComment, .sjs-share-container, .social, .socialContainer-1Yly1, .vjs-social-controls, .vjs-social-share-control, .whatsapp, [class*="lightOverlay"][class*="facebook-"], [class*="lightOverlay"][class*="pinterest-"], [class*="lightOverlay"][class*="twitter-"]
+dailymail.co.uk###dms-txt, #floating-share-bar-container, #shareCountBottom, .facebook, .facebook-like-static, .fb, .fff-social-links, .floating-buttons, .horizontal-1eH9F.container-3zJLP, .linksHolder-3KBa2, .mailto, .mobile-sharing-button, .mol-related-videos-panel-social, .share-count, .share-facebook-long, .share-fbmessenger, .share-flipboard, .share-icons, .share-link, .share-pinterest, .share-twitter, .shareComment, .sjs-share-container, .social, .socialContainer-1Yly1, .vjs-social-controls, .vjs-social-share-control, .whatsapp, [class*="lightOverlay"][class*="facebook-"], [class*="lightOverlay"][class*="pinterest-"], [class*="lightOverlay"][class*="twitter-"]
 dailymail.co.uk##.dms-puff:upward(1)
 dailyprogress.com,dothaneagle.com,fredericksburg.com,godanriver.com,greensboro.com,heraldcourier.com,hickoryrecord.com,journalnow.com,kearneyhub.com,martinsvillebulletin.com,mcdowellnews.com,morganton.com,newsadvance.com,nonpareilonline.com,nptelegraph.com,oanow.com,omaha.com,pressofatlanticcity.com,richmond.com,roanoke.com,scnow.com,starexponent.com,starherald.com,statesville.com,theeagle.com,theindependent.com,tulsaworld.com,unionleader.com,wacotrib.com,yorknewstimes.com##.fb.social-share-link, .tnt-alexa, .tnt-android, .tnt-app-store-ios, .tnt-apple, .tnt-facebook-f, .tnt-google-play, .tnt-instagram, .tnt-linkedin-in, .tnt-pinterest, .tnt-twitter, .tnt-youtube, .tw.social-share-link, [class^="follow-links"], [class^="follow-links"] .tnt-envelope
 dailysabah.com##.shB
@@ -1220,6 +1221,7 @@ wsj.com###expShareTools, .LiveCoverageBanner-share, .Social, .WSJTheme__social-i
 wsj.com###webui-share-tools ul[aria-label="Share Menu"] > li > svg > g[fill], #webui-share-tools ul[aria-label="Share Menu"] > li > svg > path[fill]:upward(2)
 wsj.com##.shareMenu > li.shareMenu__item:has([aria-label^="Facebook"])
 wsj.com##.shareMenu > li.shareMenu__item:has([aria-label^="Twitter"])
+wsj.com##[class*="ShareToolsContainer"] ul[aria-labelledby="share-tools-title"] li, [class*="ShareTools__ListItem-sc"]:has-text(/Facebook|LinkedIn|Twitter/)
 wtop.com##.Entry-infoSocial, .retweet
 xda-developers.com###google_login, #thread-header-social, #xda_header_google_login, #xda_header_social, .postbit-social
 xojane.com###follow_us_twitter-0, #sharing-0

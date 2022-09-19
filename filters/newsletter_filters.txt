@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Newsletter Subscription Filters
-! Last Modified: 22:19 2022-03-31
+! Last Modified: 10:53 2022-09-19
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for newsletter annoyances - Remove newsletter & other subscription cosmetic elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -54,6 +54,7 @@ americanmilitarynews.com##.nm-mc-form
 amgreatness.com###newsletter-signup-wrapper
 amusingplanet.com##.btntEmailsub-body
 androidauthority.com###aa-subscribe-widget-wrap, .widget_home_newsletter
+andscape.com,theundefeated.com##.newsletter-article-signup
 aol.co.uk,aol.com###mod-newsletter-toaster-1, .inline-newsletter-module.inline-breaking-news-newsletter, .newsletter-signup-form
 arcamax.com##.channel-subscribe
 archive.vanityfair.com##.shared_footer_cta_basic, .shared_footer_cta_primary, .shared_substory_cta
@@ -261,7 +262,7 @@ forward.com##.newsletter-signup-container
 fox10phoenix.com,fox13news.com,fox29.com,fox5atlanta.com,fox5dc.com,fox5ny.com,fox9.com,foxla.com,ktvu.com,wogx.com##.iframe-container[newslettertype="breaking-news"]
 foxnews.com##.item-newsletter, .item-subscribe.item, .promo-newsletter, p a[href*="foxnews.com/newsletters"]
 france24.com##.o-self-promo--nl.o-self-promo
-ft.com##.article__content-sign-up, .js-instant-alerts-promo.o-message--instant-alerts-promo.o-message--notice.o-message, .n-alert-banner--marketing-anon-subscribe, .n-messaging-slot, .subscription-prompt
+ft.com##.article__content-sign-up, .js-instant-alerts-promo.o-message--instant-alerts-promo.o-message--notice.o-message, .n-alert-banner--marketing-anon-subscribe, .n-content-layout, .n-messaging-slot, .subscription-prompt
 ft.com##experimental:has-text(/newsletter/)
 futurism.com##.subscribe-form.center, .yksqV.NewsletterSignUpWidget__StyledWrapper-sc-18sck4u-0
 gadgetsnow.com##.nl_popup.notify_alert
@@ -464,7 +465,7 @@ nordstromrack.com##.nr-home__email-collector
 nplusonemag.com##.module-newsletter
 npr.org##.newsletter-stickybar
 nybooks.com##.newsletter_signup
-nypost.com###commerce-disclosure
+nypost.com###commerce-disclosure, .inline-module--newsletter
 nytimes.com###Newsletter-embed-NYT-Now, #Science-Newsletter-promo, #THEurope-newsletter-module, #THasia-newsletter-module, #australia-today-email-signup, #breaking-news-email-promo, #cooking-email-signup, #d-promo-realestate, #evening-briefing-email-promo, #inline-recipe-newsletter-signup, #living-newsletter-promo, #new-york-today-email-promo, #news-tips-article-promo, #newsletter-module, #newsletter-promo, #opinion-newsletter-promo, #push-signup, #signup-favor, #sports-email-promo, #styln-signup, #subscriptionCTA, .eln-email-signup, .email-signup, .nytc---footernewsletterform---newsletterContainer, .recipe-newsletter-signup, .css-17dprlf.medium, [aria-labelledby="newsletter-section-header"], [data-test-id="RecommendedNewsletter"]
 nytimes.com##.css-tegfbt:has-text(/Get it sent to your inbox/)
 nytimes.com##.s-cvb-subscribe:upward(1)
@@ -623,7 +624,7 @@ theamericanmirror.com##.cta-button, .email-signup
 theamericanmirror.com##h3:has-text(/Get Our Email Newsletter!/)
 theamericanscholar.org##.sidebar-block-newsletter
 theankler.com##.subscription-widget-wrap
-theatlantic.com###series-newsletter-signup, .c-popular__container--newsletter, .c-subscription, .module-newsletter-signup, .newsletters, .sign-up, .subscribe, [class*="HomepageMiddle_newsletters"]
+theatlantic.com###series-newsletter-signup, .c-popular__container--newsletter, .c-subscription, .module-newsletter-signup, .newsletters, .sign-up, .subscribe, [class*="HomepageMiddle_newsletters"], [class*="LostInventoryMessage_root"]
 theawl.com##.footer-newsletter
 thebaffler.com##.newsletter-container, .row.single-email
 thebalance.com,thebalancecareers.com,thebalanceeveryday.com,thebalancesmb.com##.newsletter-signup-island
@@ -641,6 +642,7 @@ thedrive.com##.newsletter-image, .newsletter-signup, .page-header-message[href="
 theepochtimes.com##.newsletter_widget
 thefader.com##.mobile_newsletter
 thefix.com###header-subscribe
+thefreedictionary.com###SubscrSlider
 thegatewaypundit.com##.email-list-subscribe
 thegazette.com###subscribe-CTA
 thegeorgiareview.com###modalBtn, .newsletter
@@ -675,7 +677,6 @@ thesslstore.com##.open.slide-out-div
 thestreet.com###subscribe_premium
 thesunmagazine.org##.cta, .cta-free-trial, .cta-newsletter, .header-nav-subscribe
 theswaddle.com##.js-newsletter-timer
-theundefeated.com##.newsletter-article-signup
 theverge.com###subForm
 thewalrus.ca###newsletter, ._floating-box, .widget-shortcode.widget_custom_html.area-arbitrary
 theweek.com###art-subscribe-unit-outer, #art-subscribe-unit-outer-graphic, .article-risk-free-offer, .col300_signup, .signup-nl-right-rail-top, .signup-nl-right-recirc-middle, .subscribe-module, .subscribe-unit-header
@@ -747,7 +748,8 @@ wideopencountry.com,wideopeneats.com,wideopenpets.com,wideopenspaces.com##.execp
 windowscentral.com##.block-newsletter.block
 wired.com##.cm-subscribe-link-wrapper, .subscribe, .subscribe-panel-component
 wmagazine.com##.component-newsletter-subscribe-wrapper
-wsj.com###cx-article-newsletter-tile, #subscribeNowMediumBar, .WSJTheme__signup_2Ht8gW1wgqoJwLXY6GkF72, .newsletter-inset, .temp-subscribe[href="https://subscribe.wsj.com/hpheaderlink"], .type-InsetNewsletterSignup
+wsj.com###cx-article-newsletter-tile, #subscribeNowMediumBar, .WSJTheme__signup_2Ht8gW1wgqoJwLXY6GkF72, .newsletter-inset, .temp-subscribe[href="https://subscribe.wsj.com/hpheaderlink"], .type-InsetNewsletterSignup, [class*="-NewsletterContainer"], [data-inset_type="newsletterinset"]
+wsj.com##[class*="media-layout"] > [class*="NewsletterSignup__NewsletterContainer"]:upward(1)
 wsvn.com###newsletter-signup
 wsws.org##aside
 wtop.com##hr
