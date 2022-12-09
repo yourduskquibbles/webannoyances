@@ -1,5 +1,5 @@
 ! Title: Web Annoyances Ultralist - Floating Annoyances (CSS Style Modifications & Companion Filters)
-! Last Modified: 11:00 2022-12-09
+! Last Modified: 11:04 2022-12-09
 ! Expires: 2 Days (Update Frequency)
 ! Description: Web Annoyances Ultralist Sublist for Floating Annoyances -  Modify site elements using CSS modifications to fix floating items that block screen real estate - Primarily used to "pin-in-place" sticky headers, dickbars, floating headers, floating videos, scrolling headers, scrolling videos, stickynavs and other distracting page elements.
 ! Homepage: https://github.com/yourduskquibbles/webannoyances
@@ -5738,10 +5738,10 @@ mrrooter.com###HeaderZone:style(position: relative !important;)
 msdn.microsoft.com###rightNavigationMenu, #tocnav:style(position: absolute !important;)
 msn.com###PaddlesDiv, #header-common:before, #sticky-footer, #stickyTitleBar, #subfoot, .loaded.next.paddle, .loaded.previous.paddle, .show.floatingfeedback, .spotlight-1 > div[style="height: 50px;"], .start.animate.close-mini, .close-mini, .commentContainer-DS-unknown1-1 button.cwt-fast-button.cwt-overlay-cta-button, [class*="article_paddle-DS"]
 msn.com###header-common.stick-enabled:before:style(height: 0 !important;)
-msn.com###header:style(position: static !important; transform: translateX(0) !important;)
+msn.com###header:style(position: relative !important; left: unset !important; transform: translateX(0) !important;)
 msn.com###maincontent, #precontent, .irisbactive-top.ap .yveebxa, .irisbactive-top.ap .yvefofpyxkkbo, .irisbactive-top.gp .yveebxa, .irisbactive-top.gp .yvefofpyxkkbo, .irisbactive-top.channelplayerpage .yveebxa, .irisbactive-top.channelplayerpage .yvefofpyxkkbo, [class="i10c-mark-cssrule"], section.filmstrip .scrollouter:style(margin-top: 0 !important;)
 msn.com###refreshbar, .baseHeader_fixed-1, .videojsplayer .player-placeholder:style(position: absolute !important;)
-msn.com###rightRailContentContainer:style(position: static !important;)
+msn.com###rightRailContentContainer, .consumptionFeed_commonHeader-DS-EntryPoint1-1:style(position: static !important;)
 msn.com##.aaiwtps, .oneFooter-DS-EntryPoint1-1, .scrolled, .stickable-2.stickable-1, .yveczvy, .yvedawz, .yveebxa, [class*="feedback_link_default-"]:style(position: relative !important;)
 msn.com##.content aside div[style*="position: fixed;"], .light.filmstrip:style(position: relative !important; top: 0 !important;)
 msn.com##.dismiss-mini
